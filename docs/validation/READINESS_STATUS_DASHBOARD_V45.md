@@ -15,6 +15,10 @@ Compact operational handoff index:
 
 `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md`
 
+Current action card:
+
+`docs/validation/CURRENT_ACTION_CARD_V45.md`
+
 External blocker board:
 
 `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`

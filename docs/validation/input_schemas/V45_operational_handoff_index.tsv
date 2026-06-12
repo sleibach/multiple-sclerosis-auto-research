@@ -1,17 +1,18 @@
 order	phase	artifact	operator_action
-1	current_status	docs/validation/READINESS_STATUS_DASHBOARD_V45.md	read headline state before any action
-2	current_blockers	docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	identify external versus internal blockers
-3	request_followup	docs/validation/FOLLOWUP_DUE_BOARD_V45.md	decide send/follow-up timing
-4	request_followup_drafts	docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md	prepare unsent drafts; do not mark sent
-5	route_arrival	docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md	use route-specific first commands after arrival
-6	route_packet_integrity	docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md	verify route packet checksums and freshness
-7	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
-8	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
-9	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
-10	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
-11	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
-12	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
-13	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
-14	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
-15	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
-16	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh
+1	current_action	docs/validation/CURRENT_ACTION_CARD_V45.md	read the single current action list before any action
+2	current_status	docs/validation/READINESS_STATUS_DASHBOARD_V45.md	read headline state before any action
+3	current_blockers	docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	identify external versus internal blockers
+4	request_followup	docs/validation/FOLLOWUP_DUE_BOARD_V45.md	decide send/follow-up timing
+5	request_followup_drafts	docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md	prepare unsent drafts; do not mark sent
+6	route_arrival	docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md	use route-specific first commands after arrival
+7	route_packet_integrity	docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md	verify route packet checksums and freshness
+8	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
+9	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
+10	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
+11	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
+12	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
+13	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
+14	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
+15	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
+16	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
+17	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh

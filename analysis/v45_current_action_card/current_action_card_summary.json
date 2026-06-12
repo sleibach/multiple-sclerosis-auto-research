@@ -1,0 +1,16 @@
+{
+  "actions": "analysis/v45_current_action_card/current_action_card.tsv",
+  "guard_statuses": {
+    "precommit_readiness": "PASS",
+    "route_packet_integrity": "PASS",
+    "state_machine_transition_validator": "PASS"
+  },
+  "guards": "analysis/v45_current_action_card/current_action_guard_status.tsv",
+  "headline_status": "READY_AWAITING_EXTERNAL_DATA",
+  "markdown": "analysis/v45_current_action_card/CURRENT_ACTION_CARD.md",
+  "n_actions": 4,
+  "n_external_send_or_approval": 4,
+  "n_internal_guard_blocks": 0,
+  "purpose": "V45 current operational action card; no biological claim",
+  "synthetic": false
+}
