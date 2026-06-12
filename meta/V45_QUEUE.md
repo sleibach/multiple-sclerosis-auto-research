@@ -127,8 +127,8 @@ generate more internally executable tasks before continuing.
 | 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | done | Wrote `scripts/v45_readiness_status_dashboard.py`, `docs/validation/READINESS_STATUS_DASHBOARD_V45.md`, and outputs under `analysis/v45_readiness_status_dashboard/`; current headline is `READY_AWAITING_EXTERNAL_DATA` with precommit/path/handoff guards passing and `0/3` cohorts harness-ready. |
 | 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | done | Wrote `scripts/v45_author_run_packet_checksum_manifest.py`, `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`, and outputs under `analysis/v45_author_run_packet_checksums/`; hashes `28` included packet files, verifies `28/28`, and synthetic corrupted manifest fails with `1` mismatch. |
 | 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | done | Wrote `scripts/v45_external_blocker_board.py`, `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`, and outputs under `analysis/v45_external_blocker_board/`; current board has `4` routes, all `external_send_or_author_approval`, and `0` harness-ready cohorts. |
-| 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | in-progress | Selected next after item 102; should improve reviewer navigation and catch undocumented scripts. |
-| 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | todo | Generated after item 97; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
+| 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | done | Wrote `scripts/v45_generated_checker_registry.py`, `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md`, and outputs under `analysis/v45_generated_checker_registry/`; registry indexes `54` V45 scripts with `0` undocumented and `0` without detected output dirs. |
+| 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | in-progress | Selected next after item 103; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
 
 ## Generated Follow-Ups
 
@@ -790,3 +790,9 @@ todo items.
   path resolver passes with `161` concrete references and `0` missing.
 - Next selected task: generated-checker registry mapping V45 scripts to docs,
   outputs, and regression status.
+- Generated-checker registry completed. It indexes `54` V45 scripts and maps
+  them to docs, likely output dirs, summary JSON files, and observed statuses;
+  current registry status is `PASS` with `0` undocumented scripts and `0`
+  scripts lacking detected output dirs. Path resolver now passes with `162`
+  concrete references and `0` missing.
+- Next selected task: author-run aggregate result operator checklist.

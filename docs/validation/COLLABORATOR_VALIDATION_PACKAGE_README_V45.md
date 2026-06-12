@@ -17,6 +17,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 |---|---|
 | V45 readiness changelog / reviewer route | `docs/validation/V45_READINESS_CHANGELOG.md` |
 | V45 readiness status dashboard | `docs/validation/READINESS_STATUS_DASHBOARD_V45.md` |
+| Generated checker registry | `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md` |
 | One-page clinical/data package checklist | `docs/validation/CLINICAL_DATA_DICTIONARY_CRF_V45.md` |
 | Machine-readable CRF checklist | `docs/validation/input_schemas/V45_clinical_crf_checklist.tsv` |
 | Data-use/terms capture template | `docs/validation/DATA_USE_TERMS_CAPTURE_V45.md` |
