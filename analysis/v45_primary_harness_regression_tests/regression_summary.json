@@ -1,0 +1,50 @@
+{
+  "expected_result_files": [
+    "validation_summary.json",
+    "paired_module_deltas.tsv",
+    "gene_mapping_coverage.tsv",
+    "sample_attrition.tsv",
+    "locked_rule_metrics.tsv",
+    "confounder_adjustment_metrics.tsv",
+    "joint_confounder_metrics.tsv",
+    "batch_diagnostic_metrics.tsv"
+  ],
+  "failures": [],
+  "null_files_present": [
+    "validation_summary.json",
+    "paired_module_deltas.tsv",
+    "gene_mapping_coverage.tsv",
+    "sample_attrition.tsv",
+    "locked_rule_metrics.tsv",
+    "confounder_adjustment_metrics.tsv",
+    "joint_confounder_metrics.tsv",
+    "batch_diagnostic_metrics.tsv"
+  ],
+  "null_summary": {
+    "final_verdict": "FAIL_ADEQUATE_POWER",
+    "n": 60,
+    "primary_auc": 0.52,
+    "primary_hedges_g": 0.02850666687802032,
+    "receptor_auc": 0.3088888888888889
+  },
+  "overall_status": "PASS",
+  "planted_files_present": [
+    "validation_summary.json",
+    "paired_module_deltas.tsv",
+    "gene_mapping_coverage.tsv",
+    "sample_attrition.tsv",
+    "locked_rule_metrics.tsv",
+    "confounder_adjustment_metrics.tsv",
+    "joint_confounder_metrics.tsv",
+    "batch_diagnostic_metrics.tsv"
+  ],
+  "planted_summary": {
+    "final_verdict": "PASS_CLEAN",
+    "n": 60,
+    "primary_auc": 1.0,
+    "primary_hedges_g": 6.979416104401358,
+    "receptor_auc": 0.2822222222222222
+  },
+  "synthetic": true,
+  "v42_primary_outdir": "analysis/v45_primary_harness_regression_tests/v42_primary_synthetic"
+}
