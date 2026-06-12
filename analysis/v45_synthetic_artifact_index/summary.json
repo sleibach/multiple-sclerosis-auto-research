@@ -1,6 +1,12 @@
 {
   "classes": [
     {
+      "allowed_interpretation": "refresh log only",
+      "class": "artifact_governance",
+      "n_dirs": 1,
+      "n_files": 1
+    },
+    {
       "allowed_interpretation": "storage/accounting only",
       "class": "artifact_governance",
       "n_dirs": 1,
@@ -97,8 +103,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 30,
-  "n_dirs_indexed": 47,
+  "n_dirs_containing_synthetic": 31,
+  "n_dirs_indexed": 48,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

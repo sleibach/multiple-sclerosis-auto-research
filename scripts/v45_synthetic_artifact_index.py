@@ -54,6 +54,7 @@ MANUAL_CLASS = {
     "analysis/v45_synthetic_artifact_index": ("artifact_governance", "index only"),
     "analysis/v45_artifact_index": ("artifact_governance", "index only"),
     "analysis/v45_compute_storage_summary": ("artifact_governance", "storage/accounting only"),
+    "analysis/v45_governance_refresh": ("artifact_governance", "refresh log only"),
     "analysis/v45_no_raw_git_scanner": ("integrity_governance", "repository hygiene only"),
     "analysis/v45_locked_artifact_hash_audit": ("integrity_governance", "locked-artifact integrity only"),
     "analysis/v45_array_processing_readiness": ("validation_infrastructure", "toolchain readiness only"),
