@@ -1,0 +1,6 @@
+cohort_id	id_type	raw_id_location	raw_id_pattern	canonical_id	transformation_rule	evidence_source	private_id_retained_outside_git	commit_canonical_mapping_allowed	operator	date_utc	notes
+<cohort>	subject_id	metadata/sample_metadata.tsv	<raw_subject_id>	SUBJ001	pseudonymize_sequential	source_manifest	yes	terms_dependent	<operator>	<YYYY-MM-DDTHH:MM:SSZ>	
+<cohort>	sample_id	metadata/sample_metadata.tsv	<raw_sample_id>	SAMP001	pseudonymize_or_author_sample_id	source_manifest	yes	terms_dependent	<operator>	<YYYY-MM-DDTHH:MM:SSZ>	
+<cohort>	expression_column	processed/expression.tsv	<raw_expression_column>	SAMP001	map_from_author_manifest	author_manifest	yes	terms_dependent	<operator>	<YYYY-MM-DDTHH:MM:SSZ>	
+<cohort>	feature_id	processed/expression.tsv	<ensembl_or_probe_id>	<gene_symbol>	feature_annotation_mapping	source_annotation	no	yes_if_public_annotation	<operator>	<YYYY-MM-DDTHH:MM:SSZ>	
+<cohort>	timepoint_label	metadata/sample_metadata.tsv	<raw_visit_label>	baseline_or_early	mapping_from_source_protocol	source_protocol	no	yes_if_non_sensitive	<operator>	<YYYY-MM-DDTHH:MM:SSZ>	
