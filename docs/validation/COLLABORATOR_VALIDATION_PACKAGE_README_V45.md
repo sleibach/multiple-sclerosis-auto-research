@@ -63,6 +63,7 @@ and update:
 
 - `analysis/v45_outbound_data_requests/request_tracker.tsv`
 - `docs/validation/OUTBOUND_DATA_REQUEST_TRACKER_V45.md`
+- `docs/validation/REQUEST_SENT_UPDATER_V45.md`
 
 ## Received Data: Required Order Of Operations
 

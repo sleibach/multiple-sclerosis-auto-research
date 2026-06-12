@@ -10,6 +10,10 @@ Machine-readable template:
 
 `docs/validation/input_schemas/V45_request_sent_log_template.tsv`
 
+Dry-run/proposed-update helper:
+
+`docs/validation/REQUEST_SENT_UPDATER_V45.md`
+
 ## Required Fields
 
 Every sent request should record:

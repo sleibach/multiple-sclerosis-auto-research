@@ -16,6 +16,10 @@ Updater from first-24h operator gate statuses:
 
 `docs/validation/RECEIVED_STATUS_UPDATER_V45.md`
 
+Updater from explicit request-sent logs:
+
+`docs/validation/REQUEST_SENT_UPDATER_V45.md`
+
 ## Status Definitions
 
 | Stage | Meaning |

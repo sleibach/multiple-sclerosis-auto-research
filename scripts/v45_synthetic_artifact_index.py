@@ -52,6 +52,7 @@ MANUAL_CLASS = {
     "analysis/v45_author_run_packet_bundle": ("operations", "author-run packet bundle only"),
     "analysis/v45_received_data_triage": ("operations", "acquisition operations only"),
     "analysis/v45_received_status_updater": ("operations", "received-package status update only"),
+    "analysis/v45_request_sent_updater": ("operations", "request-sent status update only"),
     "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),
     "analysis/v45_synthetic_artifact_index": ("artifact_governance", "index only"),
     "analysis/v45_artifact_index": ("artifact_governance", "index only"),
