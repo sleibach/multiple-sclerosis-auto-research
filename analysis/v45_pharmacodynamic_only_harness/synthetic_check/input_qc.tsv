@@ -1,0 +1,17 @@
+field	required_level	present	complete	missing_count
+sample_id	required	True	True	0
+subject	required	True	True	0
+timepoint	required	True	True	0
+therapy	required	True	True	0
+therapy_class	required	True	True	0
+expression_platform	required	True	True	0
+disease	required	True	True	0
+days_since_treatment	strongly_required	True	True	0
+batch	strongly_required	True	True	0
+processing_batch	strongly_required	True	True	0
+collection_date	strongly_required	True	True	0
+steroid_exposure	strongly_required	True	True	0
+cell_count_metadata	optional	True	True	0
+clinical_status	optional	True	True	0
+disease_subtype	optional	True	True	0
+prior_dmt	optional	True	True	0

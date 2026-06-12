@@ -172,3 +172,10 @@ Secondary lead real-cohort ingestion is executable through
 frozen V45 subject-level schemas and passed synthetic null/planted checks for
 both postpartum APC-arm and T/B compartment readouts. It remains future-data
 infrastructure only; no real matching cohort has been opened by this checkpoint.
+
+Pharmacodynamic-only context cohorts are executable through
+`scripts/v45_pharmacodynamic_only_harness.py`; see
+`docs/validation/PHARMACODYNAMIC_ONLY_HARNESS_V45.md`. This harness summarizes
+frozen V22 module trajectories and QC context only. It explicitly reports
+`response_validation_performed: false` and must not be used for response,
+NEDA, relapse, remission, or patient-stratification claims.
