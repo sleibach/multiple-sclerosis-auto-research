@@ -1,0 +1,181 @@
+{
+  "data_schema": {
+    "ACTION": {
+      "dtype": "string"
+    },
+    "BATCH_METADATA_REQUIRED": {
+      "dtype": "numeric"
+    },
+    "GROUND_TRUTH": {
+      "dtype": "string"
+    },
+    "HARNESS_READY": {
+      "dtype": "numeric"
+    },
+    "ID": {
+      "dtype": "string"
+    },
+    "ITEM": {
+      "dtype": "string"
+    },
+    "LOW_BARRIER": {
+      "dtype": "numeric"
+    },
+    "MODULE_READY": {
+      "dtype": "numeric"
+    },
+    "OPEN_DATA": {
+      "dtype": "numeric"
+    },
+    "PAIRED": {
+      "dtype": "numeric"
+    },
+    "POWER_LIMITED": {
+      "dtype": "numeric"
+    },
+    "RESPONSE_LABELS": {
+      "dtype": "numeric"
+    },
+    "SYNTHETIC_ONLY": {
+      "dtype": "numeric"
+    }
+  },
+  "index_column": "ID",
+  "prediction_config": {
+    "target_columns": [
+      {
+        "name": "ACTION",
+        "prediction_placeholder": "[PREDICT]",
+        "task_type": "classification"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "ACTION": "RUN_FROZEN_VALIDATION_WHEN_DATA_ARRIVES",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 1,
+      "ID": "train_gafson",
+      "ITEM": "Gafson DMF/NEDA-4",
+      "LOW_BARRIER": 1,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 0,
+      "PAIRED": 1,
+      "POWER_LIMITED": 1,
+      "RESPONSE_LABELS": 1,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "REQUEST_LABELS",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 0,
+      "ID": "train_karolinska",
+      "ITEM": "Karolinska DMF ROS",
+      "LOW_BARRIER": 1,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 1,
+      "PAIRED": 1,
+      "POWER_LIMITED": 1,
+      "RESPONSE_LABELS": 0,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "CONTEXT_ONLY",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 0,
+      "ID": "train_gse228330",
+      "ITEM": "GSE228330 ocrelizumab",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 1,
+      "PAIRED": 1,
+      "POWER_LIMITED": 0,
+      "RESPONSE_LABELS": 0,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "HARDEN_METHOD",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 1,
+      "ID": "train_batch_guard",
+      "ITEM": "V44/V45 batch guard",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 0,
+      "PAIRED": 0,
+      "POWER_LIMITED": 0,
+      "RESPONSE_LABELS": 0,
+      "SYNTHETIC_ONLY": 1
+    },
+    {
+      "ACTION": "IMPLEMENT_INFRA",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 1,
+      "ID": "train_primary_schema",
+      "ITEM": "Primary validation schema",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 0,
+      "PAIRED": 1,
+      "POWER_LIMITED": 0,
+      "RESPONSE_LABELS": 1,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "[PREDICT]",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 1,
+      "ID": "predict_batch_overflag_calibration",
+      "ITEM": "Batch diagnostic over-flag calibration",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 0,
+      "PAIRED": 0,
+      "POWER_LIMITED": 0,
+      "RESPONSE_LABELS": 0,
+      "SYNTHETIC_ONLY": 1
+    },
+    {
+      "ACTION": "[PREDICT]",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 0,
+      "ID": "predict_secondary_real_ingest",
+      "ITEM": "Secondary lead real-ingest scripts",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 0,
+      "PAIRED": 1,
+      "POWER_LIMITED": 0,
+      "RESPONSE_LABELS": 1,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "[PREDICT]",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 0,
+      "ID": "predict_gse85034_mtx",
+      "ITEM": "GSE85034 MTX arm",
+      "LOW_BARRIER": 0,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 1,
+      "PAIRED": 1,
+      "POWER_LIMITED": 1,
+      "RESPONSE_LABELS": 1,
+      "SYNTHETIC_ONLY": 0
+    },
+    {
+      "ACTION": "[PREDICT]",
+      "BATCH_METADATA_REQUIRED": 1,
+      "HARNESS_READY": 0,
+      "ID": "predict_karolinska_labels",
+      "ITEM": "Karolinska label request",
+      "LOW_BARRIER": 1,
+      "MODULE_READY": 1,
+      "OPEN_DATA": 1,
+      "PAIRED": 1,
+      "POWER_LIMITED": 1,
+      "RESPONSE_LABELS": 0,
+      "SYNTHETIC_ONLY": 0
+    }
+  ]
+}

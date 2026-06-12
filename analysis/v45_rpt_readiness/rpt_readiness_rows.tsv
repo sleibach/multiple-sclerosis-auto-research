@@ -1,0 +1,10 @@
+ID	ITEM	OPEN_DATA	LOW_BARRIER	PAIRED	RESPONSE_LABELS	MODULE_READY	BATCH_METADATA_REQUIRED	HARNESS_READY	SYNTHETIC_ONLY	POWER_LIMITED	ACTION	GROUND_TRUTH
+train_gafson	Gafson DMF/NEDA-4	0	1	1	1	1	1	1	0	1	RUN_FROZEN_VALIDATION_WHEN_DATA_ARRIVES	V42/V44: best primary validation target but data not yet available and likely underpowered.
+train_karolinska	Karolinska DMF ROS	1	1	1	0	1	1	0	0	1	REQUEST_LABELS	V44/V45: public omics exist, label and sample mapping are blocker.
+train_gse228330	GSE228330 ocrelizumab	1	0	1	0	1	1	0	0	0	CONTEXT_ONLY	V45: open pharmacodynamic context; no public response labels.
+train_batch_guard	V44/V45 batch guard	0	0	0	0	1	1	1	1	0	HARDEN_METHOD	V44/V45: synthetic method-characterization reduces false clean positives.
+train_primary_schema	Primary validation schema	0	0	1	1	1	1	1	0	0	IMPLEMENT_INFRA	V45: schema/readme infrastructure exists and should be reused.
+predict_batch_overflag_calibration	Batch diagnostic over-flag calibration	0	0	0	0	1	1	1	1	0	[PREDICT]	V45 generated follow-up: calibrate diagnostic over-flagging with permutation/FDR.
+predict_secondary_real_ingest	Secondary lead real-ingest scripts	0	0	1	1	1	1	0	0	0	[PREDICT]	V45: secondary schemas exist but real-ingest scripts are not implemented.
+predict_gse85034_mtx	GSE85034 MTX arm	1	0	1	1	1	1	0	0	1	[PREDICT]	V44: caveated secondary stress test only; same study family/non-MS tissue.
+predict_karolinska_labels	Karolinska label request	1	1	1	0	1	1	0	0	1	[PREDICT]	V45 access package: exact request steps written, labels remain blocker.

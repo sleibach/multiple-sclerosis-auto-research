@@ -1,0 +1,55 @@
+{
+  "id": "38fd8d1a-8707-4d15-81cb-72611caae5e9",
+  "metadata": {
+    "num_columns": 12,
+    "num_predictions": 4,
+    "num_query_rows": 4,
+    "num_rows": 9
+  },
+  "predictions": [
+    {
+      "ACTION": [
+        {
+          "confidence": 1.0,
+          "confidence_interval": null,
+          "prediction": "HARDEN_METHOD"
+        }
+      ],
+      "ID": "predict_batch_overflag_calibration"
+    },
+    {
+      "ACTION": [
+        {
+          "confidence": 0.64,
+          "confidence_interval": null,
+          "prediction": "IMPLEMENT_INFRA"
+        }
+      ],
+      "ID": "predict_secondary_real_ingest"
+    },
+    {
+      "ACTION": [
+        {
+          "confidence": 0.94,
+          "confidence_interval": null,
+          "prediction": "CONTEXT_ONLY"
+        }
+      ],
+      "ID": "predict_gse85034_mtx"
+    },
+    {
+      "ACTION": [
+        {
+          "confidence": 1.0,
+          "confidence_interval": null,
+          "prediction": "REQUEST_LABELS"
+        }
+      ],
+      "ID": "predict_karolinska_labels"
+    }
+  ],
+  "status": {
+    "code": 0,
+    "message": "ok"
+  }
+}

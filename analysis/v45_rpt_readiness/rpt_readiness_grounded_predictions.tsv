@@ -1,0 +1,5 @@
+ID	ITEM	GROUND_TRUTH	expected_action_from_artifacts	rpt_prediction	rpt_confidence	matches_artifact_expected_action	evidence_status
+predict_batch_overflag_calibration	Batch diagnostic over-flag calibration	V45 generated follow-up: calibrate diagnostic over-flagging with permutation/FDR.	HARDEN_METHOD	HARDEN_METHOD	1.0	True	proposal_only_checked_against_artifacts
+predict_secondary_real_ingest	Secondary lead real-ingest scripts	V45: secondary schemas exist but real-ingest scripts are not implemented.	IMPLEMENT_INFRA	IMPLEMENT_INFRA	0.64	True	proposal_only_checked_against_artifacts
+predict_gse85034_mtx	GSE85034 MTX arm	V44: caveated secondary stress test only; same study family/non-MS tissue.	CONTEXT_ONLY	CONTEXT_ONLY	0.94	True	proposal_only_checked_against_artifacts
+predict_karolinska_labels	Karolinska label request	V45 access package: exact request steps written, labels remain blocker.	REQUEST_LABELS	REQUEST_LABELS	1.0	True	proposal_only_checked_against_artifacts
