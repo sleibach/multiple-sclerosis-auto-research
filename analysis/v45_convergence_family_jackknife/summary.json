@@ -1,0 +1,83 @@
+{
+  "all_modality_family_above_v45_p99": true,
+  "all_source_family_above_v45_p99": true,
+  "all_weighted_above_v45_p99": true,
+  "interpretation": "APC/HLA/IFN convergence is not carried by any single source family if all three above-p99 flags remain true for every leave-one-family removal.",
+  "min_modality_family_target": 10,
+  "min_source_family_target": 9,
+  "min_weighted_target": 10.526666666666667,
+  "source_families_tested": 12,
+  "target": "apc_hla_ifn_monitoring",
+  "worst_removed_by_target_units": [
+    {
+      "modality_family_above_v45_p99": true,
+      "modality_family_rank": 1,
+      "modality_family_target": 15,
+      "removed_source_family": "analysis/v32_confounder_audit",
+      "removed_target_source_units": 25,
+      "removed_total_source_units": 25,
+      "source_family_above_v45_p99": true,
+      "source_family_rank": 1,
+      "source_family_target": 9,
+      "weighted_above_v45_p99": true,
+      "weighted_rank": 1,
+      "weighted_target": 10.526666666666667
+    },
+    {
+      "modality_family_above_v45_p99": true,
+      "modality_family_rank": 1,
+      "modality_family_target": 10,
+      "removed_source_family": "analysis/v26_deep_structure",
+      "removed_target_source_units": 21,
+      "removed_total_source_units": 27,
+      "source_family_above_v45_p99": true,
+      "source_family_rank": 1,
+      "source_family_target": 9,
+      "weighted_above_v45_p99": true,
+      "weighted_rank": 1,
+      "weighted_target": 10.766666666666667
+    },
+    {
+      "modality_family_above_v45_p99": true,
+      "modality_family_rank": 1,
+      "modality_family_target": 15,
+      "removed_source_family": "docs/reports",
+      "removed_target_source_units": 9,
+      "removed_total_source_units": 18,
+      "source_family_above_v45_p99": true,
+      "source_family_rank": 1,
+      "source_family_target": 9,
+      "weighted_above_v45_p99": true,
+      "weighted_rank": 1,
+      "weighted_target": 12.026666666666667
+    },
+    {
+      "modality_family_above_v45_p99": true,
+      "modality_family_rank": 1,
+      "modality_family_target": 15,
+      "removed_source_family": "analysis/v35_tb_compartment_gate",
+      "removed_target_source_units": 5,
+      "removed_total_source_units": 5,
+      "source_family_above_v45_p99": true,
+      "source_family_rank": 1,
+      "source_family_target": 9,
+      "weighted_above_v45_p99": true,
+      "weighted_rank": 1,
+      "weighted_target": 11.526666666666667
+    },
+    {
+      "modality_family_above_v45_p99": true,
+      "modality_family_rank": 1,
+      "modality_family_target": 15,
+      "removed_source_family": "analysis/v39_immune_tone_anomaly",
+      "removed_target_source_units": 5,
+      "removed_total_source_units": 5,
+      "source_family_above_v45_p99": true,
+      "source_family_rank": 1,
+      "source_family_target": 9,
+      "weighted_above_v45_p99": true,
+      "weighted_rank": 1,
+      "weighted_target": 11.526666666666667
+    }
+  ]
+}
