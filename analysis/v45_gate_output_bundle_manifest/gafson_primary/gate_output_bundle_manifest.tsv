@@ -1,0 +1,11 @@
+cohort_id	mode	gate_or_output	path	expected_status_or_role	exists_now	handoff_required	interpretation
+gafson_dmf_2018	primary	data_use_terms	data/quarantine/gafson_dmf_2018/governance/data_use_terms_summary.tsv	status=approved_for_preflight	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	checksum_manifest	analysis/validation_command_runs/checksum_manifest/gafson_dmf_2018/manifest_audit_summary.json	overall_status=PASS	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	intake_preflight	analysis/validation_command_runs/intake_preflight/gafson_dmf_2018/preflight_summary.json	overall_status=PASS	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	module_coverage_precheck	analysis/validation_command_runs/module_coverage/gafson_dmf_2018/module_coverage_precheck_summary.json	overall_status=PASS when expression matrix is used	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	subject_map_sanity	analysis/validation_command_runs/subject_map_sanity/gafson_dmf_2018/subject_map_summary.json	overall_status=PASS when paired deltas are required	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	outcome_dictionary	data/quarantine/gafson_dmf_2018/metadata/outcome_label_dictionary.tsv	frozen before response scoring	False	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	locked_artifact_hash_audit	analysis/v45_locked_artifact_hash_audit/locked_artifact_hash_audit_summary.json	overall_status=PASS	True	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	precommit_readiness	analysis/v45_precommit_readiness/precommit_readiness_summary.json	overall_status=PASS	True	True	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	validation_summary	analysis/validation_runs/gafson_dmf_2018/validation_summary.json	written by frozen harness after all gates pass	False	False	gate/handoff manifest only; no biological claim
+gafson_dmf_2018	primary	validation_result_report	analysis/validation_runs/gafson_dmf_2018/VALIDATION_RESULT_REPORT.md	filled from V45 template after frozen harness run	False	False	gate/handoff manifest only; no biological claim
