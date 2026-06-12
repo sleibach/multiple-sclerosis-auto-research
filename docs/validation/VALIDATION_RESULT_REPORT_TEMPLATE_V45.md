@@ -104,6 +104,24 @@ Copy exactly one sentence and delete the others:
 Confounder-adjusted success cannot convert a failed primary locked score into a
 pass. Batch warnings must be reported even if the raw result passes.
 
+## Metadata Missingness Rubric
+
+Apply `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` before final
+wording.
+
+| Rubric area | Severity | Report status | Notes |
+|---|---|---|---|
+| core pairing | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| early timepoint | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| batch diagnostic | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| steroid metadata | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| QC metadata | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| composition context | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+| overall | `[green/yellow_limited/orange_weak/red_unscoreable]` | `[status]` | `[notes]` |
+
+If the overall rubric status is `METADATA_WEAK_FOR_CLEAN_PASS` or
+`METADATA_UNSCOREABLE`, do not describe a positive raw score as clean.
+
 ## What This Result Establishes
 
 Write in one paragraph:

@@ -32,6 +32,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Preflight failure taxonomy | `docs/validation/PREFLIGHT_FAILURE_TAXONOMY_V45.md` |
 | Module-coverage precheck | `docs/validation/MODULE_COVERAGE_PRECHECK_V45.md` |
 | Harness-ready decision template | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
+| Batch/QC/steroid missingness rubric | `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` |
 | Validation result report template | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
 | Handoff bundle template | `docs/validation/VALIDATION_HANDOFF_BUNDLE_TEMPLATE_V45.md` |
 | Handoff completeness checker | `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md` |

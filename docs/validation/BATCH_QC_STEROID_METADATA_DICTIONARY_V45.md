@@ -10,6 +10,10 @@ Machine-readable template:
 
 `docs/validation/input_schemas/V45_batch_qc_steroid_metadata_dictionary.tsv`
 
+Missingness severity rubric:
+
+`docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md`
+
 ## Field Priority
 
 - `required`: needed for basic intake or pairing.

@@ -111,8 +111,8 @@ generate more internally executable tasks before continuing.
 | 84 | Infrastructure | Add a validation handoff completeness checker comparing the V45 handoff bundle template to actual committed paths | done | Wrote `scripts/v45_handoff_completeness_check.py`, `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`, and outputs under `analysis/v45_handoff_completeness/`; current pre-receipt Gafson state passes with `0` hard failures, while deliberate scored-before-data negative control fails with `9` missing required outputs. |
 | 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | done | Wrote `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` and `analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv`; manifest has `31` data rows, `28` included committed paths, and `0` missing included paths. Linked from collaborator README and author-label escalation matrix. |
 | 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | done | Wrote `scripts/v45_received_status_updater.py`, `docs/validation/RECEIVED_STATUS_UPDATER_V45.md`, and outputs under `analysis/v45_received_status_updater/`; current all-todo Gafson operator template yields `harness_ready=no`, blocker `receipt path/file inventory not recorded`, and does not overwrite the canonical board. |
-| 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | in-progress | Selected next after item 86; should be additive and blind, not a rule change. |
-| 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | todo | Generated after item 83; should use the frozen author-run packet and non-sensitive output spec. |
+| 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | done | Wrote `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` and `docs/validation/input_schemas/V45_metadata_missingness_severity_rubric.tsv`; TSV has `22` data rows across `7` rubric areas and only constrains future reporting wording/readiness, not locked thresholds. |
+| 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | in-progress | Selected next after item 87; should use the frozen author-run packet and non-sensitive output spec. |
 | 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | todo | Generated after item 83; should summarize readiness artifacts without adding scientific claims. |
 | 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | todo | Generated after item 83 as recurring drift control. |
 
@@ -668,3 +668,10 @@ todo items.
   blocker, and keeps the canonical board unchanged unless `--write-board` is
   explicitly supplied.
 - Next selected task: batch/QC/steroid missingness severity rubric.
+- Batch/QC/steroid missingness severity rubric completed. It precommits
+  green/yellow/orange/red interpretation states for core pairing, early
+  timepoint, batch, steroid, QC, composition, and overall metadata adequacy.
+  The machine-readable rubric has `22` data rows and is linked into the result
+  report template and collaborator package. It changes no locked score or
+  threshold.
+- Next selected task: author-run fallback request text template.
