@@ -1,0 +1,4 @@
+severity	path	check	detail
+hard	docs/validation/SYNTHETIC_MISSING_AUTHOR_PACKET_FILE.md	included_path_exists	included packet file is missing
+hard	docs/validation/SYNTHETIC_MISSING_AUTHOR_PACKET_FILE.md	checksum_manifest_membership	included packet file is absent from checksum manifest
+hard	docs/validation/SYNTHETIC_MISSING_AUTHOR_PACKET_FILE.md	checksum_verify_row_missing	included packet file has no checksum verification row

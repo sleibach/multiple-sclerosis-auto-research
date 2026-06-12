@@ -19,6 +19,10 @@ Packet checksum manifest:
 
 `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`
 
+Dry-run send-readiness manifest:
+
+`docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`
+
 ## When To Use This Packet
 
 Use this path when an author or data controller says individual-level data

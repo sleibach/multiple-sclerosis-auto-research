@@ -10,6 +10,10 @@ Purpose: write and verify SHA-256 checksums for the committed, non-sensitive
 files included in the author-run packet bundle. This supports integrity checks
 after a collaborator packet is transferred.
 
+Author-run dry-run send-readiness guard:
+
+`docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`
+
 ## Commands
 
 Write the manifest:

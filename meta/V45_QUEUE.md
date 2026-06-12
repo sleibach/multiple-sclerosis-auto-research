@@ -140,7 +140,7 @@ generate more internally executable tasks before continuing.
 | 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | done | Wrote `scripts/v45_route_packet_integrity_manifest.py`, `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md`, and outputs under `analysis/v45_route_packet_integrity_manifest/`; live check passes for `4/4` packets with `0` hard violations, and synthetic missing-packet regression fails as expected with `2` hard violations. |
 | 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | done | Wrote `scripts/v45_current_action_card.py`, `docs/validation/CURRENT_ACTION_CARD_V45.md`, and outputs under `analysis/v45_current_action_card/`; current card reports `READY_AWAITING_EXTERNAL_DATA`, guard statuses all `PASS`, `4` external send/approval actions, and `0` internal guard blocks. |
 | 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | done | Wrote `scripts/v45_send_log_intake_template.py`, `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`, and outputs under `analysis/v45_send_log_intake_template/`; generated `4` draft rows and updater dry-run accepts `0` sent rows with `0` tracker updates, `0` triage updates, and `0` hard failures. |
-| 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | todo | Generated after item 111 to make the fallback author-run route mechanically auditable before sending. |
+| 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | done | Wrote `scripts/v45_author_run_bundle_dryrun_manifest.py`, `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`, and outputs under `analysis/v45_author_run_bundle_dryrun_manifest/`; live dry-run passes with `28` included files, `0` hard violations, checksum write/verify `PASS`, and command-plan consistency `PASS`; synthetic missing-required regression fails as expected with `3` hard violations. |
 | 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | todo | Generated after item 111 to broaden stale-output detection to the newest handoff artifacts. |
 | 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | todo | Generated after item 111 to keep every live route externally actionable. |
 | 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | todo | Recurring integrity control after the next generated operational hardening batch. |
@@ -901,3 +901,10 @@ todo items.
   structured send-event intake path without changing data receipt or harness
   readiness state.
 - Next selected task: author-run package dry-run bundle manifest.
+- Author-run bundle dry-run manifest completed. The live guard verifies `28`
+  included packet files, `3` excluded forbidden/private-data path classes,
+  checksum write/verify `PASS`, command-plan consistency `PASS`, and current
+  author-run fallback routing. Synthetic missing-required-file regression fails
+  as expected with `3` hard violations. The guard is linked before send-log
+  intake in the handoff order.
+- Next selected task: stale-check integration for newest handoff artifacts.

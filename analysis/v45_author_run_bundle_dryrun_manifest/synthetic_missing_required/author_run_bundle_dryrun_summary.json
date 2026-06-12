@@ -1,0 +1,16 @@
+{
+  "checksum_verify_status": "PASS",
+  "checksum_write_status": "PASS",
+  "command_plan_consistency_status": "PASS",
+  "expectation_met": true,
+  "expected_status": "FAIL",
+  "manifest": "analysis/v45_author_run_bundle_dryrun_manifest/synthetic_missing_required/author_run_bundle_dryrun_manifest.tsv",
+  "n_excluded": 3,
+  "n_hard_violations": 3,
+  "n_included": 28,
+  "observed_status": "FAIL",
+  "purpose": "V45 author-run packet dry-run send-readiness manifest; no biological claim",
+  "synthetic": true,
+  "synthetic_case": "missing_required",
+  "violations": "analysis/v45_author_run_bundle_dryrun_manifest/synthetic_missing_required/author_run_bundle_dryrun_violations.tsv"
+}
