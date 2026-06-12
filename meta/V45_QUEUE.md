@@ -133,8 +133,8 @@ generate more internally executable tasks before continuing.
 | 106 | Operations | Add route-specific arrival command packets generated from the live acquisition index for Gafson, Karolinska, GSE228330, and author-run fallback | done | Wrote `scripts/v45_route_arrival_packet_generator.py`, `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md`, and four generated route packets under `analysis/v45_route_arrival_packets/`; each packet preserves no-score-before-gates wording. |
 | 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | done | Wrote `scripts/v45_readiness_stale_output_detector.py`, `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`, and outputs under `analysis/v45_readiness_stale_output_detector/`; `5/5` generated readiness artifacts are fresh, `0` stale or missing. |
 | 108 | Operations | Add follow-up message templates derived from the due-board status classes | done | Wrote `scripts/v45_followup_message_template_generator.py`, `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`, and draft outputs under `analysis/v45_followup_message_templates/`; live board generates `4` unsent `not_sent_ready` drafts, synthetic overdue board includes `1` overdue follow-up draft. |
-| 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | in-progress | Selected next after item 108; should precommit what must be frozen before any secondary/context route scoring. |
-| 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | todo | Generated after item 104; should help medical-team operators avoid navigating the full artifact corpus. |
+| 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | done | Wrote `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_secondary_route_no_dof_checklist.tsv`; checklist covers `12` route/area freezes across Karolinska and GSE228330 before any secondary/context outcome scoring. |
+| 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | in-progress | Selected next after item 109; should help medical-team operators avoid navigating the full artifact corpus. |
 | 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | todo | Generated after item 104 as recurring integrity control. |
 
 ## Generated Follow-Ups
@@ -838,3 +838,9 @@ todo items.
   `167` concrete references and `0` missing.
 - Next selected task: cohort-route no-degrees-of-freedom checklist for
   Karolinska and GSE228330 addendum paths.
+- Secondary-route no-degrees-of-freedom checklist completed. It requires `12`
+  frozen route/area decisions across Karolinska and GSE228330 before any
+  outcome scoring: cohort role, subject map, outcome dictionary, expression
+  provenance, timepoint eligibility, and analysis budget for each route. Path
+  resolver now passes with `168` concrete references and `0` missing.
+- Next selected task: compact V45 operational handoff index.

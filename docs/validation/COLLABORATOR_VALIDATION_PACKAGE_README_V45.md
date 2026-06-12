@@ -30,6 +30,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Follow-up message templates | `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md` |
 | External blocker board | `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md` |
 | Route arrival command packets | `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md` |
+| Secondary-route no-DOF checklist | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
 | Intake preflight instructions | `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md` |
 | Validation harness command README | `docs/validation/VALIDATION_HARNESS_README_V45.md` |
 | Subject-map sanity checker | `docs/validation/SUBJECT_MAP_SANITY_CHECKER_V45.md` |

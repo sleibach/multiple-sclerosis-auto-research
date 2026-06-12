@@ -3,6 +3,10 @@
 Status: template to be finalized only if labels arrive. This is not an active
 validation plan yet and does not authorize scoring outcomes.
 
+Shared no-degrees-of-freedom checklist:
+
+`docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md`
+
 ## Scope
 
 Target cohort:
@@ -181,4 +185,3 @@ Module coverage:
 Technical covariates available:
 Final assigned role (A/B/C):
 ```
-

@@ -1,0 +1,13 @@
+order	route	area	required_frozen_decision	block_if_missing	linked_template
+1	karolinska_dmf_ros_2019	cohort_role	secondary DMF stress-test / late pharmacodynamic portability role	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+2	karolinska_dmf_ros_2019	subject_map	GSM-to-subject/timepoint/cell-type/platform map	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+3	karolinska_dmf_ros_2019	outcome_dictionary	beneficial-response label definition, orientation, cutoff, missingness	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+4	karolinska_dmf_ros_2019	expression_provenance	GSE130478 expression provenance, platform, gene identifiers, normalization	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+5	karolinska_dmf_ros_2019	timepoint_eligibility	baseline and 6-month timepoint role; not clean early PBMC unless new data prove otherwise	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+6	karolinska_dmf_ros_2019	analysis_budget	exact secondary analyses and forbidden analyses before scoring	yes	docs/validation/KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md
+7	gse228330_ocrelizumab_pbmc	cohort_role	secondary anti-CD20 mechanism-domain stress test, not primary DMF validation	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
+8	gse228330_ocrelizumab_pbmc	subject_map	verified GSM-to-subject/timepoint map	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
+9	gse228330_ocrelizumab_pbmc	outcome_dictionary	response/NEDA/relapse/EDSS label definition, orientation, window, missingness	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
+10	gse228330_ocrelizumab_pbmc	expression_provenance	processed expression or reprocessing provenance and gene ID mapping	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
+11	gse228330_ocrelizumab_pbmc	timepoint_eligibility	verified baseline plus eligible early on-treatment pair definition	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
+12	gse228330_ocrelizumab_pbmc	analysis_budget	context-only versus outcome-labeled analyses and no feature search	yes	docs/validation/GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md
