@@ -62,6 +62,8 @@ MANUAL_CLASS = {
     "analysis/v45_array_processing_readiness": ("validation_infrastructure", "toolchain readiness only"),
     "analysis/v45_validation_command_runner": ("validation_infrastructure", "command handoff only"),
     "analysis/v45_gate_output_bundle_manifest": ("validation_infrastructure", "handoff manifest only"),
+    "analysis/v45_handoff_completeness": ("validation_infrastructure", "handoff completeness only"),
+    "analysis/v45_handoff_completeness_scored_missing": ("validation_infrastructure", "expected missing-output guard only"),
     "analysis/v45_power_decision_table": ("power_design_planning", "study design planning only"),
     "analysis/v45_dropout_sensitivity_table": ("power_design_planning", "study design planning only"),
     "analysis/v45_checksum_manifest_validator": ("synthetic_intake_verification", "method behavior only"),

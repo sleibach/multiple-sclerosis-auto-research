@@ -33,6 +33,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Harness-ready decision template | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
 | Validation result report template | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
 | Handoff bundle template | `docs/validation/VALIDATION_HANDOFF_BUNDLE_TEMPLATE_V45.md` |
+| Handoff completeness checker | `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md` |
 | Sensitive-data redaction checklist | `docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md` |
 | Author-run frozen harness packet | `docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md` |
 
@@ -72,6 +73,7 @@ and update:
 11. Run locked-artifact hash audit and pre-commit readiness checks.
 12. Run only the matching frozen harness.
 13. Fill the validation result report and handoff bundle templates.
+14. Run the handoff completeness checker for the declared lifecycle state.
 
 ## Minimal Commands
 

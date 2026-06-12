@@ -9,6 +9,16 @@ Machine-readable template:
 
 `docs/validation/input_schemas/V45_validation_handoff_bundle_template.tsv`
 
+Executable completeness checker:
+
+```bash
+.venv/bin/python scripts/v45_handoff_completeness_check.py \
+  --cohort <cohort_id> \
+  --package-state <not_received|received|scored|unscoreable>
+```
+
+See `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`.
+
 ## Bundle Rule
 
 A validation result is not handoff-ready until the bundle includes:

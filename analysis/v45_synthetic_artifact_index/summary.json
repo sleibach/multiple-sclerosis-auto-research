@@ -109,6 +109,18 @@
       "n_files": 6
     },
     {
+      "allowed_interpretation": "expected missing-output guard only",
+      "class": "validation_infrastructure",
+      "n_dirs": 1,
+      "n_files": 3
+    },
+    {
+      "allowed_interpretation": "handoff completeness only",
+      "class": "validation_infrastructure",
+      "n_dirs": 1,
+      "n_files": 3
+    },
+    {
       "allowed_interpretation": "handoff manifest only",
       "class": "validation_infrastructure",
       "n_dirs": 1,
@@ -122,7 +134,7 @@
     }
   ],
   "n_dirs_containing_synthetic": 32,
-  "n_dirs_indexed": 51,
+  "n_dirs_indexed": 53,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

@@ -108,8 +108,8 @@ generate more internally executable tasks before continuing.
 | 81 | Validation readiness | Add batch/QC/steroid metadata dictionary template for incoming cohorts | done | Wrote `docs/validation/BATCH_QC_STEROID_METADATA_DICTIONARY_V45.md` and `docs/validation/input_schemas/V45_batch_qc_steroid_metadata_dictionary.tsv`; defines `23` required/strongly-required/optional fields for batch, QC, steroid, treatment, and composition context. |
 | 82 | External account | Update collaborator package README to link all new V45 receipt, redaction, report, and handoff templates | done | Updated `docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md` with first-24h, receipt, taxonomy, module coverage, harness-ready, result-report, handoff, redaction, and author-run packet links plus updated operations order and commands. |
 | 83 | Infrastructure | Add latest governance refresh and precommit run after new templates are committed | done | Classified the new command-plan and gate-output analysis dirs in `scripts/v45_synthetic_artifact_index.py`, refreshed governance, and reran precommit readiness. Current wrapper passes `5/5` in `84.620` seconds; artifact index covers `646` V45 paths, synthetic retention index covers `51` V43-V45 dirs with no unclassified dirs, and V45 analysis footprint is `84.934 MiB`. |
-| 84 | Infrastructure | Add a validation handoff completeness checker comparing the V45 handoff bundle template to actual committed paths | in-progress | Generated after item 83 to keep the backlog above threshold; selected next because the growing validation bundle needs mechanical completeness auditing. |
-| 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | todo | Generated after item 83; should link author-run packet, minimum outputs, redaction, checksum, command plan, and harness-ready gates. |
+| 84 | Infrastructure | Add a validation handoff completeness checker comparing the V45 handoff bundle template to actual committed paths | done | Wrote `scripts/v45_handoff_completeness_check.py`, `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`, and outputs under `analysis/v45_handoff_completeness/`; current pre-receipt Gafson state passes with `0` hard failures, while deliberate scored-before-data negative control fails with `9` missing required outputs. |
+| 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | in-progress | Selected next after item 84; should link author-run packet, minimum outputs, redaction, checksum, command plan, and harness-ready gates. |
 | 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | todo | Generated after item 83; should convert operator gate statuses into the triage board without reading raw data. |
 | 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | todo | Generated after item 83; should be additive and blind, not a rule change. |
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | todo | Generated after item 83; should use the frozen author-run packet and non-sensitive output spec. |
@@ -645,3 +645,12 @@ todo items.
   received-package status updater, missing-metadata rubric, author-run fallback
   request, readiness changelog, and next governance-refresh tasks.
 - Next selected task: validation handoff completeness checker.
+- Validation handoff completeness checker completed. Current pre-receipt
+  `gafson_pending` lifecycle check passes with `18` template rows, `2`
+  required-now rows present, `6` static references present, and `0` hard
+  failures. The deliberate `scored` lifecycle check before data receipt fails
+  with `9` missing required cohort-specific outputs, verifying that a scored
+  handoff bundle cannot pass without frozen validation outputs. Governance
+  refresh after this item indexes `654` V45 paths and `53` V43-V45 analysis
+  directories.
+- Next selected task: author-run packet README bundle index.

@@ -51,7 +51,7 @@ def classify_front(path: str) -> str:
         return "power_design"
     if "convergence" in lower or "apc_hla" in lower:
         return "data_free_validation"
-    if "preflight" in lower or "harness" in lower or "schema" in lower or "subject_map" in lower or "pharmacodynamic_only" in lower:
+    if "preflight" in lower or "harness" in lower or "handoff" in lower or "schema" in lower or "subject_map" in lower or "pharmacodynamic_only" in lower:
         return "infrastructure"
     if "external" in lower or "rebuttal" in lower:
         return "external_account"
@@ -74,7 +74,7 @@ def classify_evidence(path: str) -> tuple[str, str]:
         return "internal_convergence_null", "data-free internal support; not clinical validation"
     if "rpt" in lower:
         return "proposal_lens_grounding", "proposal prioritization only; no model output as evidence"
-    if any(token in lower for token in ["preflight", "harness", "schema", "subject_map", "intake"]):
+    if any(token in lower for token in ["preflight", "harness", "handoff", "schema", "subject_map", "intake"]):
         return "validation_infrastructure", "mechanical guardrail/readiness; no biological claim"
     if any(token in lower for token in ["external", "rebuttal", "account"]):
         return "synthesis_documentation", "external framing/checklist; no new analysis"
