@@ -1,34 +1,40 @@
 {
   "n_fail": 0,
-  "n_pass": 4,
-  "n_steps": 4,
+  "n_pass": 5,
+  "n_steps": 5,
   "overall_status": "PASS",
   "purpose": "V45 pre-commit readiness guard; no biological claim",
   "steps": [
     {
-      "elapsed_seconds": 0.451,
+      "elapsed_seconds": 0.433,
       "returncode": 0,
       "status": "PASS",
       "step": "no_raw_git_scanner"
     },
     {
-      "elapsed_seconds": 0.073,
+      "elapsed_seconds": 0.046,
       "returncode": 0,
       "status": "PASS",
       "step": "locked_artifact_hash_audit"
     },
     {
-      "elapsed_seconds": 72.626,
+      "elapsed_seconds": 70.314,
       "returncode": 0,
       "status": "PASS",
       "step": "regression_aggregator"
     },
     {
-      "elapsed_seconds": 12.88,
+      "elapsed_seconds": 0.347,
+      "returncode": 0,
+      "status": "PASS",
+      "step": "command_plan_consistency"
+    },
+    {
+      "elapsed_seconds": 15.435,
       "returncode": 0,
       "status": "PASS",
       "step": "governance_refresh"
     }
   ],
-  "total_elapsed_seconds": 86.03
+  "total_elapsed_seconds": 86.575
 }

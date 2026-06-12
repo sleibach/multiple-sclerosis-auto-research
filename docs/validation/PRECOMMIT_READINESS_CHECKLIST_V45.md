@@ -16,7 +16,8 @@ The wrapper runs, in order:
 1. no-raw-data-in-git scanner;
 2. locked-artifact hash audit;
 3. V45 synthetic/software regression aggregator;
-4. V45 governance refresh.
+4. command-plan consistency check;
+5. V45 governance refresh.
 
 ## Current Result
 
@@ -24,11 +25,12 @@ Current wrapper status: `PASS`.
 
 | Step | Status | Elapsed seconds |
 |---|---|---:|
-| no raw git scanner | `PASS` | `0.451` |
-| locked artifact hash audit | `PASS` | `0.073` |
-| regression aggregator | `PASS` | `72.626` |
-| governance refresh | `PASS` | `12.880` |
-| total | `PASS` | `86.030` |
+| no raw git scanner | `PASS` | `0.433` |
+| locked artifact hash audit | `PASS` | `0.046` |
+| regression aggregator | `PASS` | `70.314` |
+| command-plan consistency | `PASS` | `0.347` |
+| governance refresh | `PASS` | `15.435` |
+| total | `PASS` | `86.575` |
 
 Machine-readable outputs:
 
@@ -42,6 +44,7 @@ A pass means:
 - no hard raw/quarantine/restricted-data path is staged or tracked;
 - locked/frozen artifacts match the committed hash baseline;
 - synthetic/software regression checks pass;
+- generated command plans retain the required gate order;
 - governance summaries were refreshed.
 
 It does not mean any biological validation occurred, and it does not authorize
@@ -54,6 +57,7 @@ rule edits or real-data inspection outside the preregistered harness.
 | no raw git scanner | remove restricted/raw/quarantine data from git; keep only permitted summaries |
 | locked artifact hash audit | investigate drift before validation; do not refresh baseline to hide accidental edits |
 | regression aggregator | fix software or synthetic fixtures before real harness execution |
+| command-plan consistency | reconcile command-runner implementation with required gate sequence |
 | governance refresh | repair index/storage generator before release or handoff |
 
 ## When To Run

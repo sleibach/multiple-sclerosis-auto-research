@@ -1,8 +1,10 @@
 artifact_dir	class	n_files	total_bytes	total_mib	largest_file	largest_file_mib	allowed_interpretation
 analysis/v45_checksum_manifest_validator	infrastructure_or_documentation	11	4073	0.004	analysis/v45_checksum_manifest_validator/synthetic_check/synthetic_check_assertions.json	0.001	method/storage governance only; no biological claim
 analysis/v45_collaborator_package	infrastructure_or_documentation	1	1262	0.001	analysis/v45_collaborator_package/collaborator_package_manifest.tsv	0.001	method/storage governance only; no biological claim
-analysis/v45_compute_storage_summary	infrastructure_or_documentation	3	11240	0.011	analysis/v45_compute_storage_summary/v45_analysis_storage_by_dir.tsv	0.009	method/storage governance only; no biological claim
-analysis/v45_governance_refresh	infrastructure_or_documentation	1	13359	0.013	analysis/v45_governance_refresh/governance_refresh_summary.json	0.013	method/storage governance only; no biological claim
+analysis/v45_command_plan_consistency	infrastructure_or_documentation	2	1311	0.001	analysis/v45_command_plan_consistency/command_plan_consistency.tsv	0.001	method/storage governance only; no biological claim
+analysis/v45_compute_storage_summary	infrastructure_or_documentation	3	11363	0.011	analysis/v45_compute_storage_summary/v45_analysis_storage_by_dir.tsv	0.009	method/storage governance only; no biological claim
+analysis/v45_gate_output_bundle_manifest	infrastructure_or_documentation	4	5556	0.005	analysis/v45_gate_output_bundle_manifest/gse228330_pharmacodynamic/gate_output_bundle_manifest.tsv	0.003	method/storage governance only; no biological claim
+analysis/v45_governance_refresh	infrastructure_or_documentation	1	13545	0.013	analysis/v45_governance_refresh/governance_refresh_summary.json	0.013	method/storage governance only; no biological claim
 analysis/v45_intake_template_dryrun	infrastructure_or_documentation	19	12940	0.012	analysis/v45_intake_template_dryrun/primary_preflight/preflight_checks.tsv	0.003	method/storage governance only; no biological claim
 analysis/v45_locked_artifact_hash_audit	infrastructure_or_documentation	9	4269	0.004	analysis/v45_locked_artifact_hash_audit/locked_artifact_hash_audit.tsv	0.002	method/storage governance only; no biological claim
 analysis/v45_module_coverage_precheck	infrastructure_or_documentation	9	8271	0.008	analysis/v45_module_coverage_precheck/synthetic/full_module_expression.tsv	0.002	method/storage governance only; no biological claim
@@ -13,13 +15,13 @@ analysis/v45_subject_map_sanity_check	infrastructure_or_documentation	16	26193	0
 analysis/v45_validation_command_runner	infrastructure_or_documentation	6	11239	0.011	analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan/command_plan.md	0.003	method/storage governance only; no biological claim
 analysis/v45_validation_intake_preflight	infrastructure_or_documentation	24	17808	0.017	analysis/v45_validation_intake_preflight/primary_preflight/preflight_checks.tsv	0.003	method/storage governance only; no biological claim
 analysis/v45_array_processing_readiness	internal_or_governance	4	1210	0.001	analysis/v45_array_processing_readiness/array_cohort_processing_requirements.tsv	0.001	method/storage governance only; no biological claim
-analysis/v45_artifact_index	internal_or_governance	3	129192	0.123	analysis/v45_artifact_index/v45_artifact_index.tsv	0.121	method/storage governance only; no biological claim
+analysis/v45_artifact_index	internal_or_governance	3	134731	0.128	analysis/v45_artifact_index/v45_artifact_index.tsv	0.126	method/storage governance only; no biological claim
 analysis/v45_convergence_family_jackknife	internal_or_governance	2	4156	0.004	analysis/v45_convergence_family_jackknife/summary.json	0.003	method/storage governance only; no biological claim
 analysis/v45_convergence_no_readiness	internal_or_governance	8	7837	0.007	analysis/v45_convergence_no_readiness/all_source_files_audited.tsv	0.002	method/storage governance only; no biological claim
 analysis/v45_convergence_no_reports	internal_or_governance	7	5182	0.005	analysis/v45_convergence_no_reports/source_file_weighted_recurrence_no_reports.tsv	0.001	method/storage governance only; no biological claim
 analysis/v45_convergence_sensitivity	internal_or_governance	6	5269	0.005	analysis/v45_convergence_sensitivity/source_file_weighted_recurrence.tsv	0.001	method/storage governance only; no biological claim
 analysis/v45_no_raw_git_scanner	internal_or_governance	2	1966	0.002	analysis/v45_no_raw_git_scanner/no_raw_git_audit.tsv	0.002	method/storage governance only; no biological claim
-analysis/v45_precommit_readiness	internal_or_governance	0	0	0.0		0.0	method/storage governance only; no biological claim
+analysis/v45_precommit_readiness	internal_or_governance	2	5384	0.005	analysis/v45_precommit_readiness/precommit_readiness_steps.tsv	0.004	method/storage governance only; no biological claim
 analysis/v45_rpt_readiness	internal_or_governance	6	8639	0.008	analysis/v45_rpt_readiness/rpt_readiness_payload.json	0.004	method/storage governance only; no biological claim
 analysis/v45_gse228330_outcome_scout	public_metadata_or_operations	9	176385	0.168	analysis/v45_gse228330_outcome_scout/raw_public_metadata/GSE228330_series_matrix_header.txt	0.075	method/storage governance only; no biological claim
 analysis/v45_gse228330_pharmacodynamic_runbook	public_metadata_or_operations	5	37892	0.036	analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_download_manifest.tsv	0.024	method/storage governance only; no biological claim
@@ -36,9 +38,9 @@ analysis/v45_postpartum_pathology	synthetic_or_method_behavior	4	21346444	20.358
 analysis/v45_power_decision_table	synthetic_or_method_behavior	3	8199	0.008	analysis/v45_power_decision_table/selected_scenarios_by_n.tsv	0.005	method/storage governance only; no biological claim
 analysis/v45_preflight_regression_tests	synthetic_or_method_behavior	25	20619	0.02	analysis/v45_preflight_regression_tests/synthetic_check/primary_preflight/preflight_checks.tsv	0.003	method/storage governance only; no biological claim
 analysis/v45_primary_harness_regression_tests	synthetic_or_method_behavior	23	762040	0.727	analysis/v45_primary_harness_regression_tests/v42_primary_synthetic/null_inputs/synthetic_expression.tsv	0.291	method/storage governance only; no biological claim
-analysis/v45_regression_aggregator	synthetic_or_method_behavior	35	43991	0.042	analysis/v45_regression_aggregator/subject_map/negative_unverified_subject_map/subject_map_audit.tsv	0.016	method/storage governance only; no biological claim
+analysis/v45_regression_aggregator	synthetic_or_method_behavior	35	43989	0.042	analysis/v45_regression_aggregator/subject_map/negative_unverified_subject_map/subject_map_audit.tsv	0.016	method/storage governance only; no biological claim
 analysis/v45_secondary_batch_calibration	synthetic_or_method_behavior	3	4297312	4.098	analysis/v45_secondary_batch_calibration/secondary_batch_calibration_metrics.tsv	4.082	method/storage governance only; no biological claim
 analysis/v45_secondary_missing_timepoint_stress	synthetic_or_method_behavior	130	334775	0.319	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_base.tsv	0.011	method/storage governance only; no biological claim
 analysis/v45_seed_variation_stability	synthetic_or_method_behavior	5	9188648	8.763	analysis/v45_seed_variation_stability/seed_variation_metrics.tsv	8.663	method/storage governance only; no biological claim
-analysis/v45_synthetic_artifact_index	synthetic_or_method_behavior	3	11218	0.011	analysis/v45_synthetic_artifact_index/v43_v45_artifact_index.tsv	0.007	method/storage governance only; no biological claim
+analysis/v45_synthetic_artifact_index	synthetic_or_method_behavior	3	11601	0.011	analysis/v45_synthetic_artifact_index/v43_v45_artifact_index.tsv	0.007	method/storage governance only; no biological claim
 analysis/v45_tb_compartment_pathology	synthetic_or_method_behavior	4	25350652	24.176	analysis/v45_tb_compartment_pathology/synthetic/tb_compartment_pathology_subjects.tsv.gz	22.797	method/storage governance only; no biological claim

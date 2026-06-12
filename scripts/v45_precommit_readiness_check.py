@@ -50,6 +50,10 @@ def main() -> int:
             ],
         ),
         ("regression_aggregator", [py, "scripts/v45_regression_aggregator.py"]),
+        (
+            "command_plan_consistency",
+            [py, "scripts/v45_command_plan_consistency_check.py", "--outdir", "analysis/v45_command_plan_consistency"],
+        ),
         ("governance_refresh", [py, "scripts/v45_refresh_governance_summaries.py"]),
     ]
     rows = [run_step(name, args) for name, args in steps]
