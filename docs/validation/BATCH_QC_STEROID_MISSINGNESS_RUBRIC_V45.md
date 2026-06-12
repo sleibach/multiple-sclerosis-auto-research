@@ -11,6 +11,10 @@ Machine-readable rubric:
 
 `docs/validation/input_schemas/V45_metadata_missingness_severity_rubric.tsv`
 
+Metadata-only scoring helper:
+
+`docs/validation/METADATA_MISSINGNESS_SCORER_V45.md`
+
 ## Why This Exists
 
 V32 found that the V22 signal is not a steroid or cell-composition artifact in

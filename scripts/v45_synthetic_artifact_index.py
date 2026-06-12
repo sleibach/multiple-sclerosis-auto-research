@@ -73,6 +73,7 @@ MANUAL_CLASS = {
     "analysis/v45_checksum_manifest_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_intake_template_dryrun": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_module_coverage_precheck": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v45_metadata_missingness_scorer": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_outcome_label_dictionary_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_response_column_audit": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_subject_map_sanity_check": ("synthetic_intake_verification", "method behavior only"),

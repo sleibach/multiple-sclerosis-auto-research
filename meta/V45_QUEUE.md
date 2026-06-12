@@ -117,8 +117,8 @@ generate more internally executable tasks before continuing.
 | 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | done | Refreshed artifact, synthetic-retention, and storage summaries after items 85-89. Current artifact index covers `665` V45 paths; synthetic retention covers `55` V43-V45 dirs with no unclassified dirs; V45 analysis storage is `49` dirs, `513` files, `84.963 MiB`. |
 | 91 | Validation readiness | Add an author-run returned-output completeness checker against the minimum output specification | done | Wrote `scripts/v45_author_run_output_check.py`, `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md`, and synthetic outputs under `analysis/v45_author_run_output_check/`; complete synthetic aggregate package passes with `0` hard failures, deliberate incomplete synthetic package fails with `3` hard failures. |
 | 92 | Validation readiness | Add an outcome-label dictionary validator for orientation/window/missingness completeness before scoring | done | Wrote `scripts/v45_outcome_label_dictionary_validator.py`, `docs/validation/OUTCOME_LABEL_DICTIONARY_VALIDATOR_V45.md`, and synthetic outputs under `analysis/v45_outcome_label_dictionary_validator/`; frozen synthetic dictionary passes, ambiguous/non-frozen dictionary fails. |
-| 93 | Validation reporting | Add a metadata-missingness rubric scoring helper that maps available metadata fields to green/yellow/orange/red status | in-progress | Selected next after item 92; should operationalize the item-87 rubric without changing thresholds. |
-| 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | todo | Generated after item 90; should use `V45_request_sent_log_template.tsv` and not infer sends automatically. |
+| 93 | Validation reporting | Add a metadata-missingness rubric scoring helper that maps available metadata fields to green/yellow/orange/red status | done | Wrote `scripts/v45_metadata_missingness_scorer.py`, `docs/validation/METADATA_MISSINGNESS_SCORER_V45.md`, and synthetic outputs under `analysis/v45_metadata_missingness_scorer/`; complete fixture maps to `METADATA_SUPPORTS_CLEAN_INTERPRETATION`, weak fixture maps to `METADATA_WEAK_FOR_CLEAN_PASS`. |
+| 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | in-progress | Selected next after item 93; should use `V45_request_sent_log_template.tsv` and not infer sends automatically. |
 | 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | todo | Generated after item 90; should scan returned aggregate filenames/columns for forbidden raw/private markers before handoff. |
 | 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | todo | Generated after item 90; should prevent broken handoff links. |
 | 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | todo | Generated after item 90 as recurring integrity control. |
@@ -714,3 +714,9 @@ todo items.
   fields, and blocks overlapping raw positive/negative values. Synthetic frozen
   dictionary passes; synthetic ambiguous/non-frozen dictionary fails.
 - Next selected task: metadata-missingness rubric scoring helper.
+- Metadata-missingness scorer completed. It maps metadata-only field
+  completeness into the V45 green/yellow/orange/red rubric without reading
+  expression, scores, or labels. Complete synthetic metadata maps to
+  `METADATA_SUPPORTS_CLEAN_INTERPRETATION`; weak synthetic metadata maps to
+  `METADATA_WEAK_FOR_CLEAN_PASS`.
+- Next selected task: request-sent log updater.
