@@ -1,0 +1,6 @@
+priority	needed_item	why_needed	minimum_acceptable
+1	patient_level_beneficial_response_labels	public GEO metadata states beneficial response/nonresponder biology but does not map labels to expression samples	one response label per patient ID for the 14 GSE130478 expression-paired subjects
+2	gsm_to_patient_timepoint_celltype_map	validation requires pairing baseline and 6-month CD4 expression samples from the same subject	GSM, patient_id, timepoint, cell_type, platform for all GSE130478 samples
+3	clinical_outcome_definition	beneficial response must be interpreted consistently and not post-hoc	definition used in PMID 31300673 and responder/nonresponder cutoffs
+4	technical_covariates	V44 batch guard requires technical metadata to distinguish biology from response-correlated batch	array batch/date/file, processing date, RNA quality if available
+5	monocyte_count_ros_mapping	paper reports monocyte counts and ROS distinguish response; these are important confounders/context variables	patient-level monocyte count and ROS summaries with timepoints, if shareable
