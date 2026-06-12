@@ -1,0 +1,7 @@
+cohort_id	receipt_timestamp_utc	received_from	relative_path_or_external_location	file_role	bytes	sha256_if_recordable	sensitivity_class	terms_status	commit_allowed	next_gate	notes
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	raw_expression_or_counts	primary_expression_matrix	<bytes>	<sha256_or_not_recordable>	restricted_expression	pending_review	no	checksum_manifest	
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	processed/expression.tsv	processed_expression_matrix	<bytes>	<sha256_or_not_recordable>	restricted_expression	pending_review	no	intake_preflight	
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	metadata/sample_metadata.tsv	sample_metadata	<bytes>	<sha256_or_not_recordable>	restricted_clinical	pending_review	no	intake_preflight	
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	metadata/outcome_label_dictionary.tsv	outcome_label_dictionary	<bytes>	<sha256_or_not_recordable>	derived_non_sensitive_summary	pending_review	terms_dependent	outcome_dictionary_freeze	
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	governance/data_use_terms_summary.tsv	terms_summary	<bytes>	<sha256_or_not_recordable>	derived_non_sensitive_summary	pending_review	terms_dependent	data_use_terms	
+<cohort>	<YYYY-MM-DDTHH:MM:SSZ>	<sender_or_repository>	private_agreement_or_email	private_terms_or_correspondence	<bytes>	not_committed	restricted_agreement	restricted	no	keep_out_of_git	
