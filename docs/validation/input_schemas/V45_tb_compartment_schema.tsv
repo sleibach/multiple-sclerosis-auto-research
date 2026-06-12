@@ -1,0 +1,17 @@
+column	required	description
+subject	yes	Subject identifier.
+baseline_sample	yes	Baseline sample ID.
+treated_sample	yes	Early on-treatment sample ID.
+response	yes	Binary response/remission/NEDA label.
+days_since_treatment	yes	Early treated sample timing.
+b_plasma_locked_delta	yes	B/plasma-like delta_HLAII minus delta_IFN_APC.
+t_cell_locked_delta	yes	T-like delta_HLAII minus delta_IFN_APC.
+b_fraction	strongly_required	B/plasma-like fraction/count or deconvolution estimate.
+t_fraction	strongly_required	T-like fraction/count or deconvolution estimate.
+myeloid_fraction	strongly_required	Myeloid/APC fraction/count or deconvolution estimate.
+batch	strongly_required	Technical batch.
+compartment_method	strongly_required	Single-cell, sorted, CITE-seq, or validated deconvolution method.
+b_coverage	strongly_required	B/plasma-like module coverage.
+t_coverage	strongly_required	T-like module coverage.
+steroid_exposure	strongly_required	Steroid exposure around sample collection.
+site	strongly_required_if_multicenter	Collection/processing site.

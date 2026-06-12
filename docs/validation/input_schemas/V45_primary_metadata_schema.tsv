@@ -1,0 +1,27 @@
+column	required	description	accepted_or_example_values
+sample_id	yes	Expression sample ID; must match expression columns exactly	GSM..., subject01_baseline
+patient	yes	Subject identifier used for pairing	P001
+timepoint	yes	Baseline or treated timepoint label	baseline, pretreatment, w0, early, w6, w8, treated
+response	yes	Binary clinical outcome label	Responder, Non-responder, NEDA, disease activity
+days_since_treatment	strongly_required	Exact days from treatment start; used to select earliest eligible treated sample	0, 42, 56
+qc_pass	optional	QC inclusion flag; failed rows are excluded if supplied	pass, fail, true, false
+batch	strongly_required	Technical batch identifier	batch1
+lane	optional	Sequencing lane	lane1
+flowcell	optional	Sequencing flowcell	FC001
+run	optional	Sequencing or array run	run1
+sequencing_batch	strongly_required_if_rnaseq	RNA-seq batch	seq_batch1
+processing_batch	strongly_required	Sample processing batch	proc_batch1
+capture_batch	optional	Capture/library prep batch	cap1
+library_batch	optional	Library prep batch	lib1
+collection_date	strongly_required	Blood draw date	YYYY-MM-DD
+processing_date	strongly_required	Processing date	YYYY-MM-DD
+rin	strongly_required_if_rnaseq	RNA integrity number	7.8
+rqn	optional	RNA quality number	8.1
+sequencing_depth	strongly_required_if_rnaseq	Reads or usable library size	25000000
+percent_mapped	strongly_required_if_rnaseq	Mapping percentage	94.1
+steroid_exposure	strongly_required	Steroid exposure around blood draw	none, recent, dose/date
+prior_dmt	strongly_required	Prior disease-modifying therapy	none, IFNB, fingolimod
+concomitant_dmt	strongly_required	Concurrent therapy	DMF
+outcome_window	strongly_required	Clinical endpoint window	12_month_NEDA4, 15_month_NEDA4
+site	strongly_required_if_multicenter	Collection site/site batch	siteA
+

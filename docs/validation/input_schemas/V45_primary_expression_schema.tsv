@@ -1,0 +1,7 @@
+field	requirement	description
+gene_id	required	First column; gene symbol or Ensembl ID; Ensembl version suffixes are stripped by harness.
+sample_id_columns	required	One column per sample; names must match metadata.sample_id exactly.
+values	required	Raw counts or normalized/log expression; declare with harness --expression-type.
+duplicate_gene_handling	pre-specified	Duplicate normalized gene IDs are averaged by the harness.
+missing_values	allowed_with_limits	Genes with insufficient coverage make affected modules unscoreable.
+

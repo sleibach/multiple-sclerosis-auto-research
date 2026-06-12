@@ -1,0 +1,16 @@
+column	required	description
+subject	yes	Subject identifier.
+late_pregnancy_sample	yes	Late-pregnancy sample ID or feature source.
+postpartum_sample	yes	Early postpartum sample ID or feature source.
+postpartum_relapse_3m	yes	Binary relapse status through 3 months postpartum.
+late_pregnancy_HLAII_minus_CD64	yes	Precomputed HLA-II minus CD64 arm score, or computed from expression before outcome testing.
+postpartum_6w_HLAII_minus_CD64	yes	Precomputed early-postpartum HLA-II minus CD64 score, target 4-8 weeks.
+postpartum_days	yes	Exact days postpartum for the early sample.
+steroid_exposure	strongly_required	Steroid exposure around pregnancy/postpartum samples.
+dmt_restart	strongly_required	DMT stop/restart timing.
+infection	strongly_required	Infection around sample collection.
+lactation	strongly_required	Breastfeeding/lactation status.
+batch	strongly_required	Technical batch.
+hla_coverage	strongly_required	Fraction or pass/fail coverage for HLA-II arm.
+cd64_coverage	strongly_required	Fraction or pass/fail coverage for CD64/FCGR1 arm.
+
