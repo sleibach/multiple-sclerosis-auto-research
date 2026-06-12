@@ -1,0 +1,26 @@
+field	value
+cohort_id	synthetic_gafson_like
+outcome_table_path	metadata/synthetic_outcomes.tsv
+subject_id_field	subject_id
+sample_id_field	not_applicable
+raw_outcome_field	neda4_status
+raw_positive_values	NEDA4
+raw_negative_values	EDA
+harness_positive_class	NEDA_achieved
+harness_negative_class	NEDA_failed
+assessment_start	therapy_start
+assessment_end	15 months
+outcome_definition_text	Synthetic NEDA-4 achieved versus disease activity.
+composite_components	relapse;MRI_activity;disability_progression;brain_volume_loss
+component_missing_rule	component_missing_composite_unscoreable
+censoring_field	not_applicable
+censoring_rule	not_applicable
+dropout_field	not_applicable
+dropout_rule	not_applicable
+indeterminate_values	
+indeterminate_rule	not_applicable
+label_provider	synthetic_fixture
+label_received_date_utc	2026-06-12
+definition_frozen_date_utc	2026-06-12
+reviewer	codex_v45
+status	frozen_ready_for_addendum

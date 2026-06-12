@@ -1,0 +1,26 @@
+field	required	value_present	value	field_status	errors	warnings
+cohort_id	yes	True	synthetic_gafson_like	PASS		
+outcome_table_path	yes	True	metadata/synthetic_outcomes.tsv	PASS		
+subject_id_field	yes	True	subject_id	PASS		
+sample_id_field	no	True	not_applicable	PASS		
+raw_outcome_field	yes	True	neda4_status	PASS		
+raw_positive_values	yes	True	NEDA4	PASS		
+raw_negative_values	yes	True	NEDA4	PASS		
+harness_positive_class	yes	True	NEDA_achieved	PASS		
+harness_negative_class	yes	True	NEDA_failed	PASS		
+assessment_start	yes	True	therapy_start	PASS		
+assessment_end	yes	True	15 months	PASS		
+outcome_definition_text	yes	True	Synthetic NEDA-4 achieved versus disease activity.	PASS		
+composite_components	no	True	relapse;MRI_activity;disability_progression;brain_volume_loss	PASS		
+component_missing_rule	yes	True	component_missing_composite_unscoreable	PASS		
+censoring_field	no	True	not_applicable	PASS		
+censoring_rule	yes	True	not_applicable	PASS		
+dropout_field	no	True	not_applicable	PASS		
+dropout_rule	yes	True	not_applicable	PASS		
+indeterminate_values	no	False		PASS		
+indeterminate_rule	yes	True	not_applicable	PASS		
+label_provider	yes	True	synthetic_fixture	PASS		
+label_received_date_utc	yes	True	2026-06-12	PASS		
+definition_frozen_date_utc	yes	True	2026-06-12	PASS		
+reviewer	yes	True	codex_v45	PASS		
+status	yes	True	draft_pending_review	FAIL	status_not_frozen_ready_for_addendum	

@@ -31,6 +31,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Received-status updater | `docs/validation/RECEIVED_STATUS_UPDATER_V45.md` |
 | Package receipt manifest | `docs/validation/PACKAGE_RECEIPT_MANIFEST_TEMPLATE_V45.md` |
 | Preflight failure taxonomy | `docs/validation/PREFLIGHT_FAILURE_TAXONOMY_V45.md` |
+| Outcome-label dictionary validator | `docs/validation/OUTCOME_LABEL_DICTIONARY_VALIDATOR_V45.md` |
 | Module-coverage precheck | `docs/validation/MODULE_COVERAGE_PRECHECK_V45.md` |
 | Harness-ready decision template | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
 | Batch/QC/steroid missingness rubric | `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` |

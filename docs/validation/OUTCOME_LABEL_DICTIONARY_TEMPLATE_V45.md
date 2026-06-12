@@ -14,6 +14,10 @@ Machine-readable blank template:
 
 `docs/validation/input_schemas/V45_outcome_label_dictionary_template.tsv`
 
+Executable validator:
+
+`docs/validation/OUTCOME_LABEL_DICTIONARY_VALIDATOR_V45.md`
+
 Recommended per-cohort filled output after receipt:
 
 `data/quarantine/<cohort>/metadata/outcome_label_dictionary.tsv`
