@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `22`
+- artifacts checked: `23`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -46,7 +46,8 @@ Checked generated artifacts:
 - readiness status dashboard;
 - generated-doc freshness linter;
 - no-score-before-gates linter;
-- synthetic received-package dry run.
+- synthetic received-package dry run;
+- OpenGWAS token-expiry sentinel.
 
 ## Interpretation
 

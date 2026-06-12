@@ -361,6 +361,20 @@ CHECKS = [
         ],
         "refresh_command": ".venv/bin/python scripts/v45_synthetic_received_package_dryrun.py --outdir analysis/v45_synthetic_received_package_dryrun",
     },
+    {
+        "artifact": "opengwas_token_expiry_sentinel",
+        "sources": [
+            "scripts/v45_opengwas_token_expiry_sentinel.py",
+            "scripts/check_opengwas_access.py",
+            "docs/validation/OPENGWAS_TOKEN_EXPIRY_SENTINEL_V45.md",
+            "docs/validation/OPENGWAS_JWT_RENEWAL_RUNBOOK_V45.md",
+        ],
+        "outputs": [
+            "analysis/v45_opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel_summary.json",
+            "analysis/v45_opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v45_opengwas_token_expiry_sentinel",
+    },
 ]
 
 MTIME_EPSILON_SECONDS = 1.0

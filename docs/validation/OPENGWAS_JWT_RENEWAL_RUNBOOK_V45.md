@@ -41,6 +41,13 @@ Renewal should be done before `2026-06-19 12:28 UTC`; operationally, renew by
 
 This matches the project rule: no OpenGWAS GET calls.
 
+Machine-readable expiry sentinel:
+
+`docs/validation/OPENGWAS_TOKEN_EXPIRY_SENTINEL_V45.md`
+
+The sentinel decodes expiry locally and flags inherited environment values that
+do not match `.env`, without printing the token.
+
 ## Renewal Steps
 
 Official OpenGWAS documentation says JWT authentication is required for most

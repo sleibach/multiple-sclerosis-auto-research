@@ -85,6 +85,7 @@ MANUAL_CLASS = {
     "analysis/v45_no_score_before_gates_linter": ("integrity_governance", "no-score-before-gates documentation check only"),
     "analysis/v45_no_raw_git_scanner": ("integrity_governance", "repository hygiene only"),
     "analysis/v45_locked_artifact_hash_audit": ("integrity_governance", "locked-artifact integrity only"),
+    "analysis/v45_opengwas_token_expiry_sentinel": ("integrity_governance", "OpenGWAS auth-expiry sentinel only"),
     "analysis/v45_command_plan_consistency": ("integrity_governance", "command-plan integrity only"),
     "analysis/v45_state_machine_validator": ("integrity_governance", "state-machine transition consistency only"),
     "analysis/v45_received_package_decision_tree": ("integrity_governance", "received-package decision routing only"),

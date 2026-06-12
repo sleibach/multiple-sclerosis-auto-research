@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `89` V43-V45 analysis directories, with `58`
+The refreshed index covers `90` V43-V45 analysis directories, with `58`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 
@@ -30,6 +30,7 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `artifact_governance` | `1` | `1` | Refresh log only |
 | `artifact_governance` | `1` | `3` | Storage/accounting only |
 | `artifact_governance` | `2` | `6` | Index only |
+| `integrity_governance` | `1` | `2` | OpenGWAS auth-expiry sentinel only |
 | `integrity_governance` | `1` | `8` | Author-run packet checksum integrity only |
 | `integrity_governance` | `1` | `6` | Author-run packet dry-run integrity only |
 | `integrity_governance` | `1` | `6` | Collaborator package path integrity only |

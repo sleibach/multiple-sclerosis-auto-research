@@ -55,6 +55,7 @@ analysis/v45_module_coverage_precheck	synthetic_intake_verification	method behav
 analysis/v45_multiconfounder_batch_guard	synthetic_method_characterization	method behavior only	5	True	True	True	analysis/v45_multiconfounder_batch_guard/summary.json
 analysis/v45_no_raw_git_scanner	integrity_governance	repository hygiene only	2	False	False	False	analysis/v45_no_raw_git_scanner/summary.json
 analysis/v45_no_score_before_gates_linter	integrity_governance	no-score-before-gates documentation check only	5	True	True	True	none
+analysis/v45_opengwas_token_expiry_sentinel	integrity_governance	OpenGWAS auth-expiry sentinel only	2	False	False	False	none
 analysis/v45_outbound_data_requests	operations	acquisition operations only	2	False	False	False	none
 analysis/v45_outbound_request_packet_integrity	integrity_governance	outbound request packet integrity only	6	True	True	True	none
 analysis/v45_outcome_label_dictionary_validator	synthetic_intake_verification	method behavior only	7	True	True	True	analysis/v45_outcome_label_dictionary_validator/synthetic_check_summary.json

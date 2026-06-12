@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-06-12 22:04:04 UTC",
+  "days_remaining": 6.6,
+  "decode_status": "decoded",
+  "dotenv_present": true,
+  "env_present": true,
+  "env_shadowed_by_dotenv": true,
+  "expiry_utc": "2026-06-19 12:28:39 UTC",
+  "jwt_length": 548,
+  "jwt_segments": 3,
+  "post_only_checker": "scripts/check_opengwas_access.py",
+  "purpose": "OpenGWAS token-expiry operations sentinel; no biological claim",
+  "renewal_status": "RENEW_SOON",
+  "required_action": "renew before any multi-day or queued OpenGWAS-dependent work",
+  "source_used": ".env",
+  "synthetic": false,
+  "table": "analysis/v45_opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel.tsv"
+}

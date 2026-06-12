@@ -158,7 +158,7 @@ generate more internally executable tasks before continuing.
 | 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | done | Wrote `scripts/v45_external_report_evidence_manifest.py`, `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md`, and outputs under `analysis/v45_external_report_evidence_manifest/`; scanned `3` external-facing reports with `80` references, `57` V45-indexed, `23` existing non-V45/historical, and `0` missing. |
 | 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | done | Wrote `scripts/v45_synthetic_received_package_dryrun.py`, `docs/validation/SYNTHETIC_RECEIVED_PACKAGE_DRYRUN_V45.md`, and outputs under `analysis/v45_synthetic_received_package_dryrun/`; synthetic Gafson fixture with receipt/quarantine passed but `data_use_terms=blocked` stays `harness_ready=no`, state-machine validator `PASS`, decision tree `may_score_now=0`, and stale detector now tracks `22` artifacts with `0` stale/missing. |
 | 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | done | Wrote `scripts/v45_author_run_schema_validator.py`, `docs/validation/AUTHOR_RUN_SCHEMA_VALIDATOR_V45.md`, and outputs under `analysis/v45_author_run_schema_validator/`; synthetic complete package passes `253/253` checks, bad numeric/count metrics fail `4` checks, and unscoreable-without-failure-code fails `1` check, with all `3/3` synthetic expectations met. Linked from author-run minimum-output, return-gate, return-operator, and collaborator docs; stale detector passes `22` artifacts with `0` stale/missing. |
-| 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | todo | Self-generated after item 127 because the JWT expiry is near and auth failure must not masquerade as a null. |
+| 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | done | Wrote `scripts/v45_opengwas_token_expiry_sentinel.py`, `docs/validation/OPENGWAS_TOKEN_EXPIRY_SENTINEL_V45.md`, and outputs under `analysis/v45_opengwas_token_expiry_sentinel/`; sentinel decodes `.env` JWT expiry as `2026-06-19 12:28:39 UTC`, status `RENEW_SOON`, `6.6` days remaining, and detects inherited environment shadowing. Fixed `scripts/check_opengwas_access.py` so `.env` overrides stale inherited values; POST-only OpenGWAS checker passes HTTP 200. Stale detector now tracks `23` artifacts with `0` stale/missing. |
 | 135 | Integrity | Add a received-package dry-run freshness check into the generated checker registry | todo | Self-generated after item 132 so the new synthetic blocked-package path is discoverable from the generated checker registry. |
 | 136 | Validation readiness | Add a returned-package minimum-safe-interpretation classifier that maps analyzable pairs and gates to pass/fail/inconclusive wording before any score is read | todo | Self-generated after item 132 to prevent over-interpretation of small or partial returns. |
 | 137 | Infrastructure | Add a compact V45 operator smoke-test command bundle that runs the essential readiness checks in the right order | todo | Self-generated after item 132 to make cold-start handoff executable without reading scattered docs. |
@@ -1074,3 +1074,16 @@ todo items.
   method/governance dirs, and `83` V45 analysis dirs / `794` files /
   `85.463 MiB`; stale detector passes `22` artifacts with `0` stale/missing.
 - Next selected task: OpenGWAS token-expiry sentinel.
+- OpenGWAS token-expiry sentinel completed. A stale inherited process
+  `OPENGWAS_JWT` initially caused the POST-only checker to see a 22-character
+  invalid token and return HTTP 401 while `.env` contained a valid 548-character
+  JWT. `scripts/check_opengwas_access.py` now treats gitignored `.env` as the
+  project credential source of truth and overrides inherited shell values. The
+  checker passes via POST (`/gwasinfo`, `/tophits`) and the sentinel records
+  expiry `2026-06-19 12:28:39 UTC`, `RENEW_SOON`, about `6.6` days remaining,
+  and `env_shadowed_by_dotenv=true`. Governance summaries refreshed to `1025`
+  V45 paths, `90` V43-V45 method/governance dirs, and `84` V45 analysis dirs /
+  `796` files / `85.466 MiB`; stale detector passes `23` artifacts with `0`
+  stale/missing.
+- Next selected task: generated checker registry integration for the newest
+  readiness checks.

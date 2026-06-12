@@ -34,7 +34,10 @@ def load_dotenv(path: Path) -> None:
         key, value = line.split("=", 1)
         key = key.strip()
         value = value.strip().strip('"').strip("'")
-        if key and key not in os.environ:
+        # The project treats gitignored `.env` as the local credential source of
+        # truth. Override inherited shell values so a stale parent env token
+        # cannot masquerade as OpenGWAS failure.
+        if key:
             os.environ[key] = value
 
 
