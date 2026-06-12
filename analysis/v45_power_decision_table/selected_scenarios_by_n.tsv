@@ -1,0 +1,29 @@
+scenario	description	effect_size	label_noise	confounder_structure	n_per_group	pass_rate	conclusive_rate	mean_auc	mean_hedges_g	parameter_cells	synthetic_cohorts	decision_band
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	10	0.5833333333333334	0.625	0.7112499999999999	0.7448157782705644	2	24	borderline_directional
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	15	0.24999999999999994	0.45833333333333337	0.6696296296296297	0.6499656653777354	2	24	mostly_directional_or_inconclusive
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	20	0.29166666666666663	0.5	0.6794791666666666	0.6629863223695182	2	24	mostly_directional_or_inconclusive
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	30	0.5833333333333334	0.625	0.702962962962963	0.7284353860829066	2	24	borderline_directional
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	45	0.375	0.41666666666666663	0.6835185185185186	0.6736991652315679	2	24	mostly_directional_or_inconclusive
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	60	0.33333333333333337	0.375	0.6828125	0.6680847877383584	2	24	mostly_directional_or_inconclusive
+moderate_clean	moderate effect, clean labels, no confounder	0.75	0.0	none	80	0.375	0.375	0.6861653645833334	0.6869753188639363	2	24	mostly_directional_or_inconclusive
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	10	0.5416666666666667	0.5416666666666667	0.7166666666666668	0.8267789542895203	2	24	borderline_directional
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	15	0.5416666666666666	0.5416666666666666	0.7694444444444444	1.039476662199673	2	24	borderline_directional
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	20	0.625	0.6666666666666666	0.7354166666666666	0.8667900527890542	2	24	borderline_directional
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	30	0.9166666666666666	0.9166666666666666	0.7569907407407408	0.9751180142330911	2	24	decision_grade_in_grid
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	45	0.7083333333333333	0.7083333333333333	0.738477366255144	0.9088930724419155	2	24	borderline_directional
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	60	0.8333333333333333	0.8333333333333333	0.7447685185185184	0.9435204539815205	2	24	decision_grade_in_grid
+large_clean	large effect, clean labels, no confounder	1.0	0.0	none	80	0.8333333333333333	0.8333333333333333	0.7418164062499999	0.9138870102076906	2	24	decision_grade_in_grid
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	10	0.3333333333333333	0.3333333333333333	0.6626607593795093	0.5997660657323719	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	15	0.12499999999999994	0.5	0.645087519125993	0.5135333425088745	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	20	0.3333333333333333	0.7916666666666667	0.6326334093873834	0.4862422943048141	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	30	0.375	0.625	0.6595405080121917	0.593578364236597	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	45	0.24999999999999994	0.29166666666666663	0.6754641814910196	0.6232789427896388	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	60	0.0833333333333333	0.24999999999999994	0.6391601474813349	0.49636059719163517	2	24	mostly_directional_or_inconclusive
+moderate_noisy_immune	moderate effect, 10% label noise, immune-tone structure	0.75	0.1	immune_tone	80	0.04166666666666665	0.20833333333333331	0.640609904259172	0.4983188593733436	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	10	0.4166666666666667	0.4166666666666667	0.6649623871498871	0.6071344667746392	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	15	0.3333333333333333	0.5416666666666667	0.6750271468321649	0.6370927156599226	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	20	0.375	0.5833333333333333	0.6776716581164889	0.6870193059519378	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	30	0.29166666666666663	0.5	0.6712171791010344	0.6331665747744917	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	45	0.29166666666666663	0.4166666666666667	0.6751476176833944	0.6291499692376932	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	60	0.29166666666666663	0.33333333333333337	0.6763163503069191	0.6375755504753502	2	24	mostly_directional_or_inconclusive
+large_noisy_immune	large effect, 10% label noise, immune-tone structure	1.0	0.1	immune_tone	80	0.29166666666666663	0.3333333333333333	0.6694570653448584	0.6106142925784107	2	24	mostly_directional_or_inconclusive
