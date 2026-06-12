@@ -113,8 +113,8 @@ generate more internally executable tasks before continuing.
 | 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | done | Wrote `scripts/v45_received_status_updater.py`, `docs/validation/RECEIVED_STATUS_UPDATER_V45.md`, and outputs under `analysis/v45_received_status_updater/`; current all-todo Gafson operator template yields `harness_ready=no`, blocker `receipt path/file inventory not recorded`, and does not overwrite the canonical board. |
 | 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | done | Wrote `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` and `docs/validation/input_schemas/V45_metadata_missingness_severity_rubric.tsv`; TSV has `22` data rows across `7` rubric areas and only constrains future reporting wording/readiness, not locked thresholds. |
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | done | Wrote `docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`, linked it from author-run bundle/escalation/collaborator docs, and added it as row 4 in `analysis/v45_outbound_data_requests/request_tracker.tsv`; tracker has `4` data rows and all prepared-request paths resolve. |
-| 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | in-progress | Selected next after item 88; should summarize readiness artifacts without adding scientific claims. |
-| 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | todo | Generated after item 83 as recurring drift control. |
+| 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | done | Wrote `docs/validation/V45_READINESS_CHANGELOG.md`; it groups V45 readiness outputs by cohort dependence, intake/gates, regression, robustness, power, convergence, handoff, and governance, while explicitly stating no validation or locked-rule change occurred. |
+| 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | in-progress | Selected next after item 89; should refresh indexes/storage after items 85-89 and update count docs. |
 
 ## Generated Follow-Ups
 
@@ -681,3 +681,9 @@ todo items.
   threshold changes. The outbound request tracker now has `4` data rows and all
   prepared-request paths resolve.
 - Next selected task: V45 validation-readiness changelog/release note.
+- V45 validation-readiness changelog completed. The changelog gives reviewers a
+  grouped route through cohort-dependence reduction, intake/gating, regression,
+  robustness, power/design, data-free support, handoff, and governance
+  artifacts. It states explicitly that V45 added no biological validation and no
+  locked-rule change.
+- Next selected task: governance refresh after items 85-89.
