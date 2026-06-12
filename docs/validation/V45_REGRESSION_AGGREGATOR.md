@@ -27,14 +27,14 @@ Overall status: `PASS`
 
 | Step | Status | Runtime seconds |
 |---|---:|---:|
-| primary harness regression | PASS | 66.873 |
-| secondary/context harness regression | PASS | 1.978 |
-| intake preflight regression | PASS | 0.462 |
-| checksum manifest synthetic check | PASS | 0.379 |
-| response-column synthetic check | PASS | 0.343 |
-| subject-map synthetic check | PASS | 0.392 |
+| primary harness regression | PASS | 77.289 |
+| secondary/context harness regression | PASS | 3.645 |
+| intake preflight regression | PASS | 0.810 |
+| checksum manifest synthetic check | PASS | 0.873 |
+| response-column synthetic check | PASS | 0.781 |
+| subject-map synthetic check | PASS | 0.890 |
 
-Total runtime: `70.427` seconds.
+Total runtime: `84.288` seconds.
 
 ## Coverage
 

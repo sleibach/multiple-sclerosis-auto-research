@@ -143,7 +143,15 @@ generate more internally executable tasks before continuing.
 | 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | done | Wrote `scripts/v45_author_run_bundle_dryrun_manifest.py`, `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`, and outputs under `analysis/v45_author_run_bundle_dryrun_manifest/`; live dry-run passes with `28` included files, `0` hard violations, checksum write/verify `PASS`, and command-plan consistency `PASS`; synthetic missing-required regression fails as expected with `3` hard violations. |
 | 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | done | Expanded `scripts/v45_readiness_stale_output_detector.py` and `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`; detector now checks `13` readiness artifacts including route-packet integrity, state-machine validator, current-action card, send-log intake, author-run dry-run manifest, generated-checker registry, and operational handoff index, with `0` stale/missing. |
 | 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | done | Wrote `scripts/v45_external_blocker_escalation_matrix.py`, `docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md`, and outputs under `analysis/v45_external_blocker_escalation_matrix/`; matrix lists `4` externally blocked routes, `0` harness-ready routes, exact unblocking events, and owner/recipient/request artifact per route. |
-| 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | todo | Recurring integrity control after the next generated operational hardening batch. |
+| 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | done | Classified six newest operational/governance output dirs in the synthetic artifact index, reran the full wrapper, and refreshed docs. Current wrapper passes `5/5` in `117.168` seconds; artifact index covers `879` V45 paths, synthetic/governance index covers `77` V43-V45 dirs with `0` unclassified dirs, and V45 analysis storage covers `71` dirs / `677` files / `85.237 MiB`. |
+| 120 | Validation readiness | Add a cross-route readiness linter that checks every live route has request artifact, blocker state, arrival packet, command plan, and no-score gate linkage | todo | Self-generated follow-up after item 119 to reduce handoff drift across Gafson, Karolinska, GSE228330, and author-run fallback routes. |
+| 121 | Cohort dependence | Add an external-request packet completeness and checksum guard for all outbound request artifacts, not only the author-run packet | todo | Self-generated follow-up to make external-send packages auditable before human dispatch. |
+| 122 | Validation readiness | Add a first-24h received-package operator decision tree tied to the current action card and state-machine validator | todo | Self-generated follow-up to remove post-arrival ambiguity before any scoring. |
+| 123 | Robustness | Add a synthetic metadata-contradiction stress test for validation intake, covering response label conflicts, timepoint conflicts, and batch metadata conflicts | todo | Self-generated follow-up to harden intake against realistic author-return inconsistencies. |
+| 124 | Power/design | Add a route-specific analyzable-pair calculator for partial Karolinska/GSE228330/Gafson returns | todo | Self-generated follow-up to quantify whether partial data returns can ever be decision-useful. |
+| 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | todo | Self-generated follow-up from item 119 because manual count refreshes are a known drift risk. |
+| 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | todo | Self-generated follow-up to make the external account harder to misread. |
+| 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | todo | Recurring integrity control after the next self-generated batch. |
 
 ## Generated Follow-Ups
 
@@ -922,3 +930,11 @@ todo items.
   index, and stale-output detector. Expanded stale detector checks `14`
   artifacts and passes with `0` stale/missing.
 - Next selected task: full precommit/governance wrapper after items 112-118.
+- Full precommit/governance wrapper completed. The wrapper passes `5/5` in
+  `117.168` seconds. Six newest operational/governance directories were
+  classified in `scripts/v45_synthetic_artifact_index.py`, eliminating all
+  `unclassified_v43_v45` rows. Current governance: `879` V45 paths, `77`
+  V43-V45 method/governance directories, and V45 storage of `71` dirs / `677`
+  files / `85.237 MiB`.
+- Backlog refilled above threshold with items 120-127.
+- Next selected task: cross-route readiness linter.

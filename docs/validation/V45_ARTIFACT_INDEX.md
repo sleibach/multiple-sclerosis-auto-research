@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `835` paths across `8` fronts and `9` evidence classes.
+The current run indexes `879` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,32 +44,32 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| infrastructure | 419 |
+| infrastructure | 459 |
 | robustness | 199 |
 | power/design | 113 |
 | cohort dependence | 58 |
 | data-free validation | 31 |
+| external account | 10 |
 | infrastructure/RPT | 8 |
-| external account | 6 |
 | resume backbone | 1 |
 
 Evidence-class counts:
 
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
-| synthetic method behavior | 416 | method behavior/planning only; never biological evidence |
-| documentation/governance | 176 | governance/readiness documentation |
-| validation infrastructure | 87 | mechanical guardrail/readiness; no biological claim |
-| software | 58 | executable infrastructure; no biological claim by itself |
-| public/external acquisition operations | 58 | cohort availability/request readiness; no validation claim |
+| synthetic method behavior | 426 | method behavior/planning only; never biological evidence |
+| documentation/governance | 194 | governance/readiness documentation |
+| validation infrastructure | 90 | mechanical guardrail/readiness; no biological claim |
+| software | 64 | executable infrastructure; no biological claim by itself |
+| public/external acquisition operations | 62 | cohort availability/request readiness; no validation claim |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
+| synthesis documentation | 8 | external framing/checklist; no new analysis |
 | proposal-lens grounding | 7 | proposal prioritization only; no model output as evidence |
-| synthesis documentation | 5 | external framing/checklist; no new analysis |
 | resume state | 1 | resume state and running backlog |
 
 ## Drift Since Earlier Snapshot
 
-The path count increased by about `496-497` paths because V45 continued after
+The path count increased by about `540-541` paths because V45 continued after
 the original index was committed. The dominant additions were:
 
 - synthetic and regression outputs from primary, secondary, preflight,

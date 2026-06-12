@@ -25,6 +25,12 @@
       "n_files": 8
     },
     {
+      "allowed_interpretation": "author-run packet dry-run integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
       "allowed_interpretation": "collaborator package path integrity only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -73,6 +79,18 @@
       "n_files": 2
     },
     {
+      "allowed_interpretation": "route packet checksum/freshness only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 8
+    },
+    {
+      "allowed_interpretation": "state-machine transition consistency only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
       "allowed_interpretation": "data-free internal support, not clinical validation",
       "class": "internal_convergence_null",
       "n_dirs": 6,
@@ -91,6 +109,18 @@
       "n_files": 1
     },
     {
+      "allowed_interpretation": "current action navigation only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 4
+    },
+    {
+      "allowed_interpretation": "external blocker escalation status only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
       "allowed_interpretation": "external blocker status only",
       "class": "operations",
       "n_dirs": 1,
@@ -101,6 +131,12 @@
       "class": "operations",
       "n_dirs": 1,
       "n_files": 3
+    },
+    {
+      "allowed_interpretation": "request-sent intake template only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 6
     },
     {
       "allowed_interpretation": "request-sent status update only",
@@ -211,8 +247,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 44,
-  "n_dirs_indexed": 71,
+  "n_dirs_containing_synthetic": 47,
+  "n_dirs_indexed": 77,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

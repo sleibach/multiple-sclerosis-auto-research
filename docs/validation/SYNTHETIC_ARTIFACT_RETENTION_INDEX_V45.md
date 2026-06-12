@@ -21,31 +21,17 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `71` V43-V45 analysis directories, with `44`
+The refreshed index covers `77` V43-V45 analysis directories, with `47`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
-markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
+markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 
 | Class | Directories | Files | Allowed interpretation |
 |---|---:|---:|---|
-| `synthetic_method_characterization` | `10` | `195` | Method behavior only |
-| `synthetic_regression` | `4` | `120` | Software regression only |
-| `synthetic_intake_verification` | `11` | `163` | Method behavior only |
-| `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
-| `synthetic_harness_verification` | `3` | `42` | Method behavior only |
-| `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
-| `operations` | `1` | `4` | Acquisition follow-up status only |
-| `operations` | `4` | `5` | Acquisition operations only |
-| `operations` | `1` | `2` | External blocker status only |
-| `operations` | `1` | `10` | Request-sent status update only |
-| `operations` | `1` | `3` | Received-package status update only |
-| `operations` | `1` | `1` | Author-run packet bundle only |
-| `operations` | `1` | `6` | Route-specific arrival commands only |
-| `operations` | `1` | `12` | Unsent acquisition message drafts only |
-| `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `artifact_governance` | `1` | `1` | Refresh log only |
 | `artifact_governance` | `1` | `3` | Storage/accounting only |
 | `artifact_governance` | `2` | `6` | Index only |
 | `integrity_governance` | `1` | `8` | Author-run packet checksum integrity only |
+| `integrity_governance` | `1` | `6` | Author-run packet dry-run integrity only |
 | `integrity_governance` | `1` | `6` | Collaborator package path integrity only |
 | `integrity_governance` | `1` | `2` | Command-plan integrity only |
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
@@ -54,9 +40,29 @@ markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
 | `integrity_governance` | `1` | `3` | Readiness dashboard only |
 | `integrity_governance` | `1` | `2` | Readiness freshness check only |
 | `integrity_governance` | `1` | `2` | Repository hygiene only |
+| `integrity_governance` | `1` | `8` | Route packet checksum/freshness only |
+| `integrity_governance` | `1` | `6` | State-machine transition consistency only |
+| `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
+| `operations` | `1` | `4` | Acquisition follow-up status only |
+| `operations` | `1` | `1` | Author-run packet bundle only |
+| `operations` | `1` | `4` | Current action navigation only |
+| `operations` | `1` | `2` | External blocker escalation status only |
+| `operations` | `1` | `2` | External blocker status only |
+| `operations` | `1` | `3` | Received-package status update only |
+| `operations` | `1` | `6` | Request-sent intake template only |
+| `operations` | `1` | `10` | Request-sent status update only |
+| `operations` | `1` | `6` | Route-specific arrival commands only |
+| `operations` | `1` | `12` | Unsent acquisition message drafts only |
+| `operations` | `4` | `5` | Acquisition operations only |
 | `power_design_planning` | `2` | `6` | Study-design planning only |
-| `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
 | `proposal_lens_grounding` | `1` | `6` | Proposal prioritization only |
+| `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
+| `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
+| `synthetic_harness_verification` | `3` | `42` | Method behavior only |
+| `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
+| `synthetic_intake_verification` | `11` | `163` | Method behavior only |
+| `synthetic_method_characterization` | `10` | `195` | Method behavior only |
+| `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `6` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |
 | `validation_infrastructure` | `1` | `3` | Handoff completeness only |
