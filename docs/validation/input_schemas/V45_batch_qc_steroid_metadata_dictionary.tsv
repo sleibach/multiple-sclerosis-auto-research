@@ -1,0 +1,24 @@
+field	priority	level	expected_type	allowed_missingness	why_needed	notes
+sample_id	required	sample	string	none	join metadata to expression	
+subject_id	required	subject	string	none	pair baseline and early samples	
+timepoint	required	sample	categorical	none	select baseline/early samples	
+treatment_relative_day	strongly_required	sample	numeric	limited	select earliest eligible on-treatment sample	
+collection_date_or_relative_order	optional	sample	date_or_order	allowed	resolve timing ties without outcomes	
+processing_batch	strongly_required	sample	categorical	limited	batch diagnostic	
+library_prep_batch	strongly_required	sample	categorical	limited	batch diagnostic	
+sequencing_lane	strongly_required	sample	categorical	limited	batch diagnostic	
+run_id	optional	sample	categorical	allowed	batch diagnostic	
+rin_or_rna_quality	strongly_required	sample	numeric	limited	QC/batch diagnostic	
+sequencing_depth_or_reads	strongly_required	sample	numeric	limited	QC/batch diagnostic	
+percent_mapped	optional	sample	numeric	allowed	QC diagnostic	
+plate_or_array_id	strongly_required	sample	categorical	limited	array/batch diagnostic	
+steroid_exposure_recent	strongly_required	subject_or_sample	boolean	limited	V32 glucocorticoid confounder	
+steroid_last_dose_days	strongly_required	subject_or_sample	numeric	limited	V32 glucocorticoid confounder	
+steroid_dose_or_regimen	optional	subject_or_sample	string	allowed	V32 glucocorticoid confounder	
+relapse_or_acute_treatment_near_sampling	strongly_required	subject_or_sample	boolean	limited	immune-tone/steroid confounding	
+prior_dmt	strongly_required	subject	categorical	limited	treatment context	
+concomitant_immunotherapy	strongly_required	subject	categorical	limited	treatment context	
+cbc_lymphocyte_count	optional	sample	numeric	allowed	cell-composition context	
+cbc_monocyte_count	optional	sample	numeric	allowed	cell-composition context	
+cbc_neutrophil_count	optional	sample	numeric	allowed	cell-composition context	
+pbmc_processing_delay_hours	optional	sample	numeric	allowed	QC/immune-state artifact risk	
