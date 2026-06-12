@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `13`
+- artifacts checked: `14`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -30,6 +30,7 @@ Checked generated artifacts:
 - follow-up message templates;
 - send-log intake template;
 - external blocker board;
+- external blocker escalation matrix;
 - route arrival packets;
 - route packet integrity manifest;
 - state-machine transition validator;

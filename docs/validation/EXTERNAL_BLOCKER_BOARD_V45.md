@@ -6,6 +6,10 @@ Script:
 
 `scripts/v45_external_blocker_board.py`
 
+Escalation matrix:
+
+`docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md`
+
 Purpose: merge the live cohort acquisition index, outbound request tracker,
 received-data triage board, and follow-up due board into one table that
 separates external blockers from internal readiness work.

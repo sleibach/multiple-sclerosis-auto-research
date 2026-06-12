@@ -41,6 +41,10 @@ Current action summary:
 - `0` internal guard repair actions;
 - `0` harness-ready routes.
 
+External blocker escalation matrix:
+
+`docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md`
+
 Machine-readable outputs:
 
 - `analysis/v45_current_action_card/current_action_card.tsv`

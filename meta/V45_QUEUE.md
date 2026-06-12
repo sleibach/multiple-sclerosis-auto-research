@@ -142,7 +142,7 @@ generate more internally executable tasks before continuing.
 | 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | done | Wrote `scripts/v45_send_log_intake_template.py`, `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`, and outputs under `analysis/v45_send_log_intake_template/`; generated `4` draft rows and updater dry-run accepts `0` sent rows with `0` tracker updates, `0` triage updates, and `0` hard failures. |
 | 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | done | Wrote `scripts/v45_author_run_bundle_dryrun_manifest.py`, `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`, and outputs under `analysis/v45_author_run_bundle_dryrun_manifest/`; live dry-run passes with `28` included files, `0` hard violations, checksum write/verify `PASS`, and command-plan consistency `PASS`; synthetic missing-required regression fails as expected with `3` hard violations. |
 | 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | done | Expanded `scripts/v45_readiness_stale_output_detector.py` and `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`; detector now checks `13` readiness artifacts including route-packet integrity, state-machine validator, current-action card, send-log intake, author-run dry-run manifest, generated-checker registry, and operational handoff index, with `0` stale/missing. |
-| 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | todo | Generated after item 111 to keep every live route externally actionable. |
+| 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | done | Wrote `scripts/v45_external_blocker_escalation_matrix.py`, `docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md`, and outputs under `analysis/v45_external_blocker_escalation_matrix/`; matrix lists `4` externally blocked routes, `0` harness-ready routes, exact unblocking events, and owner/recipient/request artifact per route. |
 | 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | todo | Recurring integrity control after the next generated operational hardening batch. |
 
 ## Generated Follow-Ups
@@ -915,3 +915,10 @@ todo items.
   collaborator path resolution now resolves `170` concrete references with `0`
   missing.
 - Next selected task: external-blocker escalation matrix.
+- External-blocker escalation matrix completed. It lists all `4` live routes,
+  owner/recipient, request artifact, current blocker, required external items,
+  exact unblocking event, and escalation trigger; `0` routes are harness-ready.
+  It is now linked from the external blocker board, current-action card, handoff
+  index, and stale-output detector. Expanded stale detector checks `14`
+  artifacts and passes with `0` stale/missing.
+- Next selected task: full precommit/governance wrapper after items 112-118.
