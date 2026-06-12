@@ -190,6 +190,11 @@ Never commit:
 Commit only non-sensitive aggregate summaries, schemas, checksums if permitted,
 and derived artifacts allowed by the captured terms.
 
+For author-run aggregate returns, run the redaction precheck before the
+author-run completeness checker:
+
+`docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`
+
 ## Validation Principle
 
 Receiving data is not the same as being ready to analyze. A cohort is

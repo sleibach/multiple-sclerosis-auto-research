@@ -15,6 +15,10 @@ Executable completeness checker:
 
 `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md`
 
+Redaction precheck to run before completeness:
+
+`docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`
+
 ## Minimum Required Files
 
 Returned outputs must be sufficient to:
@@ -30,6 +34,9 @@ Returned outputs must be sufficient to:
 The minimum output package should exclude raw expression values, sample-level
 clinical labels, private identifiers, and signed/private correspondence unless
 terms explicitly permit transfer.
+
+Run the redaction precheck before the completeness checker on every returned
+aggregate package.
 
 ## Unacceptable Returns
 

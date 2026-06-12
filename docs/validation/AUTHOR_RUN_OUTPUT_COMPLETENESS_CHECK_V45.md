@@ -2,6 +2,10 @@
 
 Status: aggregate-package completeness check. No biological claim.
 
+Run the redaction precheck before this completeness check:
+
+`docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`
+
 Purpose: verify that a collaborator-run frozen-harness return package contains
 the minimum non-sensitive aggregate outputs required by
 `docs/validation/AUTHOR_RUN_MINIMUM_OUTPUT_SPEC_V45.md`.

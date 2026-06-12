@@ -53,6 +53,15 @@ Allowed only when terms permit:
 
 If either fails, stop and repair before committing.
 
+For returned author-run aggregate packages, run first:
+
+```bash
+.venv/bin/python scripts/v45_author_run_redaction_precheck.py check \
+  --root <returned_aggregate_package_dir> \
+  --outdir analysis/v45_author_run_redaction_precheck/<cohort>_<date> \
+  --fail-on-error
+```
+
 ## Redaction Stamp
 
 For any handoff artifact, add a short stamp:
