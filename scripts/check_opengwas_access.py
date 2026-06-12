@@ -2,12 +2,14 @@
 """Verify OpenGWAS JWT access without printing the token.
 
 The project keeps OPENGWAS_JWT in `.env`; non-interactive shells do not load it
-automatically. This script loads `.env` explicitly, then checks a small set of
-OpenGWAS API v4 endpoints using POST where required.
+automatically. This script loads `.env` explicitly, decodes expiry locally, and
+checks a small set of OpenGWAS API v4 endpoints using POST only.
 """
 
 from __future__ import annotations
 
+import base64
+import datetime as dt
 import json
 import os
 import sys
@@ -36,13 +38,24 @@ def load_dotenv(path: Path) -> None:
             os.environ[key] = value
 
 
-def request_json(path: str, jwt: str, payload: dict[str, Any] | None = None) -> tuple[int, Any]:
-    data = None
+def jwt_valid_until(jwt: str) -> str:
+    try:
+        payload = jwt.split(".")[1]
+        payload += "=" * (-len(payload) % 4)
+        parsed = json.loads(base64.urlsafe_b64decode(payload.encode("utf-8")))
+        exp = parsed.get("exp")
+        if exp is None:
+            return "unknown"
+        return dt.datetime.fromtimestamp(int(exp), tz=dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    except Exception:
+        return "unknown"
+
+
+def request_json(path: str, jwt: str, payload: dict[str, Any]) -> tuple[int, Any]:
     headers = {"Authorization": f"Bearer {jwt}"}
-    if payload is not None:
-        data = json.dumps(payload).encode("utf-8")
-        headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(f"{API}{path}", data=data, headers=headers, method="POST" if payload is not None else "GET")
+    data = json.dumps(payload).encode("utf-8")
+    headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(f"{API}{path}", data=data, headers=headers, method="POST")
     with urllib.request.urlopen(req, timeout=30) as resp:
         body = resp.read()
         parsed = json.loads(body.decode("utf-8"))
@@ -57,9 +70,9 @@ def main() -> int:
         return 2
 
     print(f"OPENGWAS_JWT loaded: true; length={len(jwt)}")
+    print(f"jwt_valid_until={jwt_valid_until(jwt)} (decoded locally; no /user GET call)")
 
-    checks: list[tuple[str, str, dict[str, Any] | None]] = [
-        ("user", "/user", None),
+    checks: list[tuple[str, str, dict[str, Any]]] = [
         ("gwasinfo_ieu_b_18", "/gwasinfo", {"id": ["ieu-b-18"]}),
         ("tophits_ieu_b_18", "/tophits", {"id": ["ieu-b-18"], "pval": 5e-8, "clump": 1}),
     ]
@@ -74,11 +87,7 @@ def main() -> int:
             print(f"{name}: {type(exc).__name__}: {exc}")
             return 1
 
-        if name == "user":
-            user = parsed.get("user", {}) if isinstance(parsed, dict) else {}
-            valid_until = user.get("jwt_valid_until", "unknown")
-            print(f"{name}: HTTP {status}; jwt_valid_until={valid_until}")
-        elif name == "gwasinfo_ieu_b_18":
+        if name == "gwasinfo_ieu_b_18":
             row = parsed[0] if isinstance(parsed, list) and parsed else {}
             print(
                 f"{name}: HTTP {status}; id={row.get('id')}; trait={row.get('trait')}; "
