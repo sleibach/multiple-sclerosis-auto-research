@@ -1,0 +1,64 @@
+path	check_type	pattern	status	detail
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	required_guard	may_score_now=no	PASS	found
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	required_guard	Do not open expression matrices	PASS	found
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	required_guard	Stop before scoring	PASS	found
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	required_guard	no validation has occurred until	PASS	found
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	required_guard	The harness may run only if every required gate	PASS	found
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	required_guard	harness_ready=no	PASS	found
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	required_guard	no validation has occurred	PASS	found
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	required_guard	does not open quarantined data	PASS	found
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	required_guard	before any frozen harness can run	PASS	found
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	required_guard	A cohort remains blocked if any generated command fails	PASS	found
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/VALIDATION_COMMAND_RUNNER_V45.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	required_guard	Do not score anything	PASS	found
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	required_guard	harness-ready only after	PASS	found
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	required_guard	Do not score outcomes until	PASS	found
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	required_guard	0` cohorts are harness-ready	PASS	found
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	required_guard	not received,\s+quarantined,\s+preflighted,\s+scored,\s+or validated	PASS	found
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	required_guard	No scoring is authorized until	PASS	found
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	required_guard	Do not run module scoring	PASS	found
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	required_guard	gates pass	PASS	found
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	required_guard	No scoring is authorized until	PASS	found
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	required_guard	Do not run module scoring	PASS	found
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	required_guard	gates pass	PASS	found
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	required_guard	No scoring is authorized until	PASS	found
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	required_guard	Do not run module scoring	PASS	found
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	required_guard	gates pass	PASS	found
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	required_guard	No scoring is authorized until	PASS	found
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	required_guard	Do not run module scoring	PASS	found
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	required_guard	gates pass	PASS	found
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	forbidden_shortcut	\bscore immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	PASS	absent
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent
+analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent

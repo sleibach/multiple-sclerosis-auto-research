@@ -11,14 +11,15 @@ order	phase	artifact	operator_action
 10	route_arrival	docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md	use route-specific first commands after arrival
 11	route_packet_integrity	docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md	verify route packet checksums and freshness
 12	cross_route_readiness	docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md	verify every route has request, blocker, arrival packet, command/gate plan, and no-score linkage
-13	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
-14	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
-15	received_package_decision_tree	docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md	confirm route-specific first-24h action and may-score-now status
-16	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
-17	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
-18	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
-19	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
-20	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
-21	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
-22	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
-23	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh
+13	no_score_gate_linter	docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md	verify operator docs and route packets keep no-scoring-before-gates wording
+14	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
+15	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
+16	received_package_decision_tree	docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md	confirm route-specific first-24h action and may-score-now status
+17	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
+18	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
+19	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
+20	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
+21	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
+22	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
+23	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
+24	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh

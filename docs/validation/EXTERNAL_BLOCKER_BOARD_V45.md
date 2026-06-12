@@ -39,5 +39,6 @@ optional outcome labels/context processing, and the author-run fallback route.
 
 ## Interpretation Boundary
 
-The board supports operational planning only. It does not mean data have been
-received, quarantined, preflighted, scored, or validated.
+The board supports operational planning only. Live routes are not received,
+quarantined, preflighted, scored, or validated until the route-specific gates
+say so.

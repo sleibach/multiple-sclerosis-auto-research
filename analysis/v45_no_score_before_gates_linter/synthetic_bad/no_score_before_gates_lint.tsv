@@ -1,0 +1,8 @@
+path	check_type	pattern	status	detail
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	required_guard	No scoring is authorized until	FAIL	missing required guard language
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	required_guard	Do not run module scoring	FAIL	missing required guard language
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	required_guard	gates pass	FAIL	missing required guard language
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	forbidden_shortcut	\bscore immediately\b	FAIL	forbidden shortcut present
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	forbidden_shortcut	\brun (?:the )?harness immediately\b	FAIL	forbidden shortcut present
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	forbidden_shortcut	\bskip (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	FAIL	forbidden shortcut present
+analysis/v45_no_score_before_gates_linter/synthetic_bad/synthetic_bad_no_gate_doc.md	forbidden_shortcut	\bbypass (?:the )?(?:preflight|checksum|subject-map|subject map|terms|gate|gates)\b	PASS	absent

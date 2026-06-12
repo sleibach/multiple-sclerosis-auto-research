@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `18`
+- artifacts checked: `19`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -42,7 +42,8 @@ Checked generated artifacts:
 - generated-checker registry;
 - operational handoff index;
 - readiness status dashboard;
-- generated-doc freshness linter.
+- generated-doc freshness linter;
+- no-score-before-gates linter.
 
 ## Interpretation
 

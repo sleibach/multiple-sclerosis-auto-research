@@ -26,17 +26,18 @@ full artifact corpus.
 | 10 | route arrival | `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md` |
 | 11 | route packet integrity | `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md` |
 | 12 | cross-route readiness | `docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md` |
-| 13 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
-| 14 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
-| 15 | received package decision tree | `docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md` |
-| 16 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
-| 17 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
-| 18 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
-| 19 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
-| 20 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
-| 21 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
-| 22 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
-| 23 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
+| 13 | no-score gate linter | `docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md` |
+| 14 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
+| 15 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
+| 16 | received package decision tree | `docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md` |
+| 17 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
+| 18 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
+| 19 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
+| 20 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
+| 21 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
+| 22 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
+| 23 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
+| 24 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
 
 ## Current Headline
 

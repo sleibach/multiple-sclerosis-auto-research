@@ -291,6 +291,28 @@ CHECKS = [
         ],
         "refresh_command": ".venv/bin/python scripts/v45_generated_doc_freshness_linter.py --outdir analysis/v45_generated_doc_freshness_linter",
     },
+    {
+        "artifact": "no_score_before_gates_linter",
+        "sources": [
+            "docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md",
+            "docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md",
+            "docs/validation/VALIDATION_COMMAND_RUNNER_V45.md",
+            "docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md",
+            "docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md",
+            "analysis/v45_route_arrival_packets/gafson_dmf_2018_arrival_packet.md",
+            "analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md",
+            "analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md",
+            "analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md",
+            "scripts/v45_no_score_before_gates_linter.py",
+        ],
+        "outputs": [
+            "analysis/v45_no_score_before_gates_linter/live/no_score_before_gates_summary.json",
+            "analysis/v45_no_score_before_gates_linter/live/no_score_before_gates_lint.tsv",
+            "analysis/v45_no_score_before_gates_linter/synthetic_bad/no_score_before_gates_summary.json",
+            "analysis/v45_no_score_before_gates_linter/synthetic_bad/no_score_before_gates_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_no_score_before_gates_linter.py --outdir analysis/v45_no_score_before_gates_linter/live --expect-status PASS && .venv/bin/python scripts/v45_no_score_before_gates_linter.py --outdir analysis/v45_no_score_before_gates_linter/synthetic_bad --synthetic-case bad --expect-status FAIL",
+    },
 ]
 
 MTIME_EPSILON_SECONDS = 1.0

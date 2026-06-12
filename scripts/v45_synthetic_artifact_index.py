@@ -78,6 +78,7 @@ MANUAL_CLASS = {
     "analysis/v45_generated_checker_registry": ("integrity_governance", "generated-checker registry only"),
     "analysis/v45_readiness_stale_output_detector": ("integrity_governance", "readiness freshness check only"),
     "analysis/v45_generated_doc_freshness_linter": ("integrity_governance", "generated-document freshness check only"),
+    "analysis/v45_no_score_before_gates_linter": ("integrity_governance", "no-score-before-gates documentation check only"),
     "analysis/v45_no_raw_git_scanner": ("integrity_governance", "repository hygiene only"),
     "analysis/v45_locked_artifact_hash_audit": ("integrity_governance", "locked-artifact integrity only"),
     "analysis/v45_command_plan_consistency": ("integrity_governance", "command-plan integrity only"),
