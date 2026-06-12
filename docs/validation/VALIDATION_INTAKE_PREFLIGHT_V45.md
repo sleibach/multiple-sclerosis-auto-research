@@ -81,6 +81,18 @@ The frozen harness may run only when `preflight_summary.json` reports
 `overall_status: PASS`. A failed preflight is not a biological result; it is an
 intake-quality blocker.
 
+Additional contradiction audit:
+
+```bash
+.venv/bin/python scripts/v45_metadata_contradiction_stress.py audit \
+  --metadata data/quarantine/<cohort>/metadata/sample_metadata.tsv \
+  --outdir analysis/metadata_contradiction/<cohort> \
+  --expect-status PASS
+```
+
+This catches response-label conflicts, timepoint conflicts, and response-batch
+perfect confounding that can remain invisible to schema-only checks.
+
 ## Synthetic Verification
 
 The committed synthetic verification was run with:
@@ -119,6 +131,8 @@ This preflight narrows operational risk before validation:
 - expression-header checks catch sample-ID mismatches;
 - pharmacodynamic response-label guardrails preserve the no-response-claim rule
   for open context-only cohorts such as GSE228330.
+- metadata-contradiction checks catch internally inconsistent labels,
+  timepoints, and batch structures before scoring.
 
 It is intentionally conservative and additive. It is not a substitute for the
 V42 frozen analysis plan or any lead-specific harness.

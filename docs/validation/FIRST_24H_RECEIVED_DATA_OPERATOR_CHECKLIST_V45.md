@@ -48,6 +48,7 @@ Generated route-specific decision tree:
 | 8 | Run intake preflight for the cohort mode | `scripts/v45_validation_intake_preflight.py` |
 | 9 | Run module-coverage precheck for expression-matrix packages | `scripts/v45_module_coverage_precheck.py` |
 | 10 | Run subject-map sanity for paired-delta packages | `scripts/v45_subject_map_sanity_check.py` |
+| 11 | Run metadata-contradiction audit before harness readiness | `scripts/v45_metadata_contradiction_stress.py audit` |
 
 ## Same Day, Only If All Gates Pass
 
@@ -80,6 +81,7 @@ Stop before scoring if any of these occur:
 - checksums fail or files changed after manifesting;
 - outcome orientation is ambiguous;
 - preflight fails;
+- metadata contradiction audit fails;
 - primary module coverage fails;
 - subject-map sanity fails;
 - batch/metadata fields required by the preregistration are absent and the
