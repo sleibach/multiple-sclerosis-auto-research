@@ -1,10 +1,28 @@
 {
   "classes": [
     {
-      "allowed_interpretation": "index only",
+      "allowed_interpretation": "storage/accounting only",
       "class": "artifact_governance",
       "n_dirs": 1,
       "n_files": 3
+    },
+    {
+      "allowed_interpretation": "index only",
+      "class": "artifact_governance",
+      "n_dirs": 2,
+      "n_files": 6
+    },
+    {
+      "allowed_interpretation": "locked-artifact integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 9
+    },
+    {
+      "allowed_interpretation": "repository hygiene only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 2
     },
     {
       "allowed_interpretation": "data-free internal support, not clinical validation",
@@ -15,8 +33,14 @@
     {
       "allowed_interpretation": "acquisition operations only",
       "class": "operations",
-      "n_dirs": 1,
-      "n_files": 2
+      "n_dirs": 4,
+      "n_files": 5
+    },
+    {
+      "allowed_interpretation": "study design planning only",
+      "class": "power_design_planning",
+      "n_dirs": 2,
+      "n_files": 6
     },
     {
       "allowed_interpretation": "proposal prioritization only",
@@ -45,24 +69,36 @@
     {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_intake_verification",
-      "n_dirs": 1,
-      "n_files": 24
+      "n_dirs": 6,
+      "n_files": 88
     },
     {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_method_characterization",
-      "n_dirs": 9,
-      "n_files": 65
+      "n_dirs": 10,
+      "n_files": 195
     },
     {
       "allowed_interpretation": "software regression only",
       "class": "synthetic_regression",
-      "n_dirs": 2,
-      "n_files": 62
+      "n_dirs": 4,
+      "n_files": 120
+    },
+    {
+      "allowed_interpretation": "command handoff only",
+      "class": "validation_infrastructure",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
+      "allowed_interpretation": "toolchain readiness only",
+      "class": "validation_infrastructure",
+      "n_dirs": 1,
+      "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 17,
-  "n_dirs_indexed": 28,
+  "n_dirs_containing_synthetic": 30,
+  "n_dirs_indexed": 47,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

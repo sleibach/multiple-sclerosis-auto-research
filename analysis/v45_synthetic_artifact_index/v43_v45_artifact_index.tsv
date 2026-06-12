@@ -5,25 +5,44 @@ analysis/v44_batch_guard	synthetic_method_characterization	method behavior only	
 analysis/v44_internal_validation	internal_convergence_null	data-free internal support, not clinical validation	5	False	False	False	
 analysis/v44_secondary_lead_harnesses	synthetic_harness_verification	method behavior only	6	True	True	True	
 analysis/v44_self_audit_weak_leg	internal_convergence_null	data-free internal support, not clinical validation	4	False	False	False	analysis/v44_self_audit_weak_leg/summary.json
+analysis/v45_array_processing_readiness	validation_infrastructure	toolchain readiness only	4	False	False	False	analysis/v45_array_processing_readiness/summary.json
+analysis/v45_artifact_index	artifact_governance	index only	3	False	True	True	analysis/v45_artifact_index/summary.json
 analysis/v45_batch_guard_calibration	synthetic_method_characterization	method behavior only	4	False	True	True	analysis/v45_batch_guard_calibration/summary.json
 analysis/v45_batch_guard_calibration_full	synthetic_method_characterization	method behavior only	4	False	True	True	analysis/v45_batch_guard_calibration_full/summary.json
+analysis/v45_checksum_manifest_validator	synthetic_intake_verification	method behavior only	11	True	True	True	
+analysis/v45_collaborator_package	operations	acquisition operations only	1	False	False	False	
+analysis/v45_compute_storage_summary	artifact_governance	storage/accounting only	3	False	True	True	analysis/v45_compute_storage_summary/summary.json
 analysis/v45_convergence_family_jackknife	internal_convergence_null	data-free internal support, not clinical validation	2	False	False	False	analysis/v45_convergence_family_jackknife/summary.json
 analysis/v45_convergence_no_readiness	internal_convergence_null	data-free internal support, not clinical validation	8	False	False	False	analysis/v45_convergence_no_readiness/summary.json
 analysis/v45_convergence_no_reports	internal_convergence_null	data-free internal support, not clinical validation	7	False	False	False	analysis/v45_convergence_no_reports/summary.json
 analysis/v45_convergence_sensitivity	internal_convergence_null	data-free internal support, not clinical validation	6	False	False	False	analysis/v45_convergence_sensitivity/summary.json
+analysis/v45_dropout_sensitivity_table	power_design_planning	study design planning only	3	False	True	True	analysis/v45_dropout_sensitivity_table/summary.json
 analysis/v45_gse228330_outcome_scout	public_metadata_scout	cohort availability evidence only	9	False	False	False	analysis/v45_gse228330_outcome_scout/summary.json
 analysis/v45_gse228330_pharmacodynamic_runbook	public_metadata_preparation	acquisition readiness only	5	False	False	False	analysis/v45_gse228330_pharmacodynamic_runbook/summary.json
 analysis/v45_harness_regression_tests	synthetic_regression	software regression only	37	True	True	True	analysis/v45_harness_regression_tests/regression_summary.json;analysis/v45_harness_regression_tests/secondary_real_ingest/synthetic_check_summary.json
+analysis/v45_intake_template_dryrun	synthetic_intake_verification	method behavior only	19	True	True	True	
 analysis/v45_karolinska_access	public_metadata_scout	cohort availability evidence only	7	False	False	False	analysis/v45_karolinska_access/summary.json
+analysis/v45_live_cohort_acquisition_index	operations	acquisition operations only	1	False	False	False	
+analysis/v45_locked_artifact_hash_audit	integrity_governance	locked-artifact integrity only	9	True	True	True	
+analysis/v45_module_coverage_precheck	synthetic_intake_verification	method behavior only	9	True	True	True	
 analysis/v45_multiconfounder_batch_guard	synthetic_method_characterization	method behavior only	5	True	True	True	analysis/v45_multiconfounder_batch_guard/summary.json
+analysis/v45_no_raw_git_scanner	integrity_governance	repository hygiene only	2	False	False	False	analysis/v45_no_raw_git_scanner/summary.json
 analysis/v45_outbound_data_requests	operations	acquisition operations only	2	False	False	False	
 analysis/v45_pharmacodynamic_only_harness	synthetic_harness_verification	method behavior only	10	True	True	True	
 analysis/v45_postpartum_pathology	synthetic_method_characterization	method behavior only	4	True	True	True	analysis/v45_postpartum_pathology/summary.json
+analysis/v45_power_decision_table	power_design_planning	study design planning only	3	False	True	True	analysis/v45_power_decision_table/summary.json
 analysis/v45_preflight_regression_tests	synthetic_regression	software regression only	25	True	True	True	analysis/v45_preflight_regression_tests/regression_summary.json
+analysis/v45_primary_harness_regression_tests	synthetic_regression	software regression only	23	True	True	True	analysis/v45_primary_harness_regression_tests/regression_summary.json;analysis/v45_primary_harness_regression_tests/v42_primary_synthetic/synthetic_check_summary.json
+analysis/v45_received_data_triage	operations	acquisition operations only	1	False	False	False	
+analysis/v45_regression_aggregator	synthetic_regression	software regression only	35	True	True	True	
+analysis/v45_response_column_audit	synthetic_intake_verification	method behavior only	9	True	True	True	
 analysis/v45_rpt_readiness	proposal_lens_grounding	proposal prioritization only	6	False	True	True	analysis/v45_rpt_readiness/summary.json
 analysis/v45_secondary_batch_calibration	synthetic_method_characterization	method behavior only	3	False	True	True	analysis/v45_secondary_batch_calibration/summary.json
+analysis/v45_secondary_missing_timepoint_stress	synthetic_method_characterization	method behavior only	130	True	True	True	analysis/v45_secondary_missing_timepoint_stress/summary.json
 analysis/v45_secondary_real_ingest	synthetic_harness_verification	method behavior only	26	True	True	True	analysis/v45_secondary_real_ingest/synthetic_check_summary.json
 analysis/v45_seed_variation_stability	synthetic_method_characterization	method behavior only	5	False	True	True	analysis/v45_seed_variation_stability/summary.json
+analysis/v45_subject_map_sanity_check	synthetic_intake_verification	method behavior only	16	True	True	True	
 analysis/v45_synthetic_artifact_index	artifact_governance	index only	3	False	True	True	analysis/v45_synthetic_artifact_index/summary.json
 analysis/v45_tb_compartment_pathology	synthetic_method_characterization	method behavior only	4	True	True	True	analysis/v45_tb_compartment_pathology/summary.json
+analysis/v45_validation_command_runner	validation_infrastructure	command handoff only	6	False	False	False	
 analysis/v45_validation_intake_preflight	synthetic_intake_verification	method behavior only	24	True	True	True	

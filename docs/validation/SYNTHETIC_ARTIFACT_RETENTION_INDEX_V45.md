@@ -21,20 +21,25 @@ Generator:
 
 ## Index Summary
 
-The index covers `28` V43-V45 analysis directories.
+The refreshed index covers `47` V43-V45 analysis directories, with `30`
+directories containing synthetic inputs, synthetic outputs, or synthetic content
+markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
 
 | Class | Directories | Files | Allowed interpretation |
 |---|---:|---:|---|
-| `synthetic_method_characterization` | `9` | `65` | Method behavior only |
+| `synthetic_method_characterization` | `10` | `195` | Method behavior only |
+| `synthetic_regression` | `4` | `120` | Software regression only |
+| `synthetic_intake_verification` | `6` | `88` | Method behavior only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
-| `synthetic_intake_verification` | `1` | `24` | Method behavior only |
-| `synthetic_regression` | `2` | `62` | Software regression only |
 | `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
+| `operations` | `4` | `5` | Acquisition operations only |
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
+| `artifact_governance` | `3` | `9` | Index/storage accounting only |
+| `power_design_planning` | `2` | `6` | Study-design planning only |
+| `integrity_governance` | `2` | `11` | Repository/locked-artifact integrity only |
 | `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
-| `operations` | `1` | `2` | Acquisition operations only |
 | `proposal_lens_grounding` | `1` | `6` | Proposal prioritization only |
-| `artifact_governance` | `1` | `3` | Index only |
+| `validation_infrastructure` | `2` | `10` | Command/toolchain readiness only |
 
 ## Interpretation Rules
 
@@ -79,6 +84,9 @@ for method behavior and readiness, but keep their interpretation bounded:
    expression/outcome data were already acquired.
 5. If a future script consumes a V43-V45 artifact, it should first check this
    index or explicitly state why the artifact class is appropriate.
+
+See `docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md` for the more
+explicit keep/archive/regenerate policy.
 
 ## Practical Use
 
