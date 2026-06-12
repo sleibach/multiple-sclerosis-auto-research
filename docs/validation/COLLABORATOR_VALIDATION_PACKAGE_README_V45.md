@@ -36,6 +36,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Handoff completeness checker | `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md` |
 | Sensitive-data redaction checklist | `docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md` |
 | Author-run frozen harness packet | `docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md` |
+| Author-run packet bundle index | `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` |
 
 ## Ready-To-Send Request Packets
 

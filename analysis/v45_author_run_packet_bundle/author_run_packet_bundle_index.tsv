@@ -1,0 +1,32 @@
+section	artifact_role	path	include_in_author_packet	required_or_optional	recipient_action	commit_or_transfer_status	notes
+protocol	locked_v22_rule	docs/locked_rules/LOCKED_RULE_V22.md	yes	required	read_only	committed_non_sensitive	Immutable rule; collaborator must not alter genes, feature, sign, threshold, or success criteria.
+protocol	primary_preregistration	docs/validation/PREREGISTRATION_V42.md	yes	required	read_only	committed_non_sensitive	Defines frozen Gafson-style analysis plan.
+protocol	outcome_grid	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	yes	required	read_only	committed_non_sensitive	Precommitted interpretation grid; returned result must map to this grid.
+protocol	validation_readiness	docs/validation/VALIDATION_READINESS_V27.md	yes	optional_context	read_only	committed_non_sensitive	Background readiness context, not a tuning document.
+operator_readme	author_run_packet	docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md	yes	required	follow_commands	committed_non_sensitive	Main collaborator-run instructions.
+operator_readme	minimum_output_spec	docs/validation/AUTHOR_RUN_MINIMUM_OUTPUT_SPEC_V45.md	yes	required	return_outputs	committed_non_sensitive	Defines minimum aggregate outputs needed from collaborator.
+operator_readme	validation_harness_readme	docs/validation/VALIDATION_HARNESS_README_V45.md	yes	required	follow_commands	committed_non_sensitive	Harness command overview.
+operator_readme	module_coverage_precheck_doc	docs/validation/MODULE_COVERAGE_PRECHECK_V45.md	yes	required	run_before_harness	committed_non_sensitive	Gene/module coverage gate before scoring.
+operator_readme	handoff_bundle_template	docs/validation/VALIDATION_HANDOFF_BUNDLE_TEMPLATE_V45.md	yes	required	assemble_return_bundle	committed_non_sensitive	Defines complete handoff bundle.
+operator_readme	handoff_completeness_check	docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md	yes	required	run_or_mirror_check	committed_non_sensitive	Mechanical bundle completeness check.
+schemas	primary_expression_schema	docs/validation/input_schemas/V45_primary_expression_schema.tsv	yes	required	format_input	committed_non_sensitive	Expected expression matrix shape.
+schemas	primary_metadata_schema	docs/validation/input_schemas/V45_primary_metadata_schema.tsv	yes	required	format_input	committed_non_sensitive	Expected sample metadata shape.
+schemas	clinical_crf_checklist	docs/validation/input_schemas/V45_clinical_crf_checklist.tsv	yes	required	map_metadata	committed_non_sensitive	Clinical/data package checklist.
+schemas	outcome_label_dictionary	docs/validation/input_schemas/V45_outcome_label_dictionary_template.tsv	yes	required	freeze_label_mapping	committed_non_sensitive	Outcome orientation and missingness dictionary before scoring.
+schemas	batch_qc_steroid_dictionary	docs/validation/input_schemas/V45_batch_qc_steroid_metadata_dictionary.tsv	yes	strongly_required	map_confounders	committed_non_sensitive	Batch/QC/steroid metadata dictionary.
+schemas	sample_id_canonicalization	docs/validation/input_schemas/V45_sample_id_canonicalization_template.tsv	yes	conditional	document_id_mapping	committed_non_sensitive	Use only if local IDs need de-identification or canonicalization.
+schemas	redaction_checklist	docs/validation/input_schemas/V45_sensitive_data_redaction_checklist.tsv	yes	required	redact_return_bundle	committed_non_sensitive	Prevents private data transfer in returned outputs.
+schemas	handoff_bundle_tsv	docs/validation/input_schemas/V45_validation_handoff_bundle_template.tsv	yes	required	assemble_return_bundle	committed_non_sensitive	Machine-readable handoff bundle template.
+scripts	frozen_primary_harness	scripts/v42_gafson_validation_harness.py	yes	required	run_locally	committed_non_sensitive	Frozen scoring harness; no edits allowed for validation use.
+scripts	module_coverage_precheck	scripts/v45_module_coverage_precheck.py	yes	required	run_locally_before_harness	committed_non_sensitive	Checks module gene coverage without scores or labels.
+scripts	locked_hash_audit	scripts/v45_locked_artifact_hash_audit.py	yes	required	verify_integrity	committed_non_sensitive	Verifies locked/frozen artifact hashes.
+scripts	handoff_completeness_checker	scripts/v45_handoff_completeness_check.py	yes	optional_if_python_env_available	verify_return_bundle	committed_non_sensitive	Can be run by collaborator or run internally on returned aggregate bundle.
+integrity	locked_hash_baseline	docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv	yes	required	verify_integrity	committed_non_sensitive	Baseline hashes for frozen artifacts.
+integrity	locked_hash_audit_doc	docs/validation/LOCKED_ARTIFACT_HASH_AUDIT_V45.md	yes	required	read_only	committed_non_sensitive	Explains hash-audit command and interpretation.
+integrity	precommit_readiness_doc	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	yes	optional_context	read_only	committed_non_sensitive	Internal software/readiness checks; may be hard to reproduce externally.
+reporting	validation_result_report_template	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	yes	required	fill_from_outputs	committed_non_sensitive	Template for returned aggregate interpretation.
+reporting	minimum_author_outputs_tsv	docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv	yes	required	return_outputs	committed_non_sensitive	Machine-readable minimum output list.
+reporting	author_run_packet_tsv	docs/validation/input_schemas/V45_author_run_frozen_harness_packet.tsv	yes	required	packet_checklist	committed_non_sensitive	Machine-readable packet checklist.
+exclude	environment_files	.env	no	forbidden	do_not_send	never_commit	No credentials, bearer tokens, service keys, or API keys.
+exclude	received_raw_data	data/raw_v3/	no	forbidden	do_not_send	never_commit	Do not include any local or third-party raw/individual-level data in the packet.
+exclude	quarantine_data	data/quarantine/	no	forbidden	do_not_send	never_commit	Do not include restricted received data or private terms.

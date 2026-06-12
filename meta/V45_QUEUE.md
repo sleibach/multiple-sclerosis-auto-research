@@ -109,8 +109,8 @@ generate more internally executable tasks before continuing.
 | 82 | External account | Update collaborator package README to link all new V45 receipt, redaction, report, and handoff templates | done | Updated `docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md` with first-24h, receipt, taxonomy, module coverage, harness-ready, result-report, handoff, redaction, and author-run packet links plus updated operations order and commands. |
 | 83 | Infrastructure | Add latest governance refresh and precommit run after new templates are committed | done | Classified the new command-plan and gate-output analysis dirs in `scripts/v45_synthetic_artifact_index.py`, refreshed governance, and reran precommit readiness. Current wrapper passes `5/5` in `84.620` seconds; artifact index covers `646` V45 paths, synthetic retention index covers `51` V43-V45 dirs with no unclassified dirs, and V45 analysis footprint is `84.934 MiB`. |
 | 84 | Infrastructure | Add a validation handoff completeness checker comparing the V45 handoff bundle template to actual committed paths | done | Wrote `scripts/v45_handoff_completeness_check.py`, `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`, and outputs under `analysis/v45_handoff_completeness/`; current pre-receipt Gafson state passes with `0` hard failures, while deliberate scored-before-data negative control fails with `9` missing required outputs. |
-| 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | in-progress | Selected next after item 84; should link author-run packet, minimum outputs, redaction, checksum, command plan, and harness-ready gates. |
-| 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | todo | Generated after item 83; should convert operator gate statuses into the triage board without reading raw data. |
+| 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | done | Wrote `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` and `analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv`; manifest has `31` data rows, `28` included committed paths, and `0` missing included paths. Linked from collaborator README and author-label escalation matrix. |
+| 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | in-progress | Selected next after item 85; should convert operator gate statuses into the triage board without reading raw data. |
 | 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | todo | Generated after item 83; should be additive and blind, not a rule change. |
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | todo | Generated after item 83; should use the frozen author-run packet and non-sensitive output spec. |
 | 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | todo | Generated after item 83; should summarize readiness artifacts without adding scientific claims. |
@@ -654,3 +654,10 @@ todo items.
   refresh after this item indexes `654` V45 paths and `53` V43-V45 analysis
   directories.
 - Next selected task: author-run packet README bundle index.
+- Author-run packet bundle index completed. The machine-readable manifest has
+  `31` data rows across protocol, operator README, schemas, scripts, integrity,
+  reporting, and exclude sections. All `28` include-in-packet paths resolve, and
+  forbidden `.env`, raw-data, and quarantine paths are explicitly marked
+  `include_in_author_packet=no`. The collaborator README and escalation matrix
+  now link the index.
+- Next selected task: received-package status-board updater.

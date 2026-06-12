@@ -41,6 +41,10 @@ If data cannot be shared, send:
 - validation result report template;
 - list of non-sensitive outputs needed.
 
+Use the bundle index to assemble the non-sensitive send list:
+
+`docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md`
+
 Acceptable returned outputs:
 
 - summary JSON/Tables from the frozen harness;
