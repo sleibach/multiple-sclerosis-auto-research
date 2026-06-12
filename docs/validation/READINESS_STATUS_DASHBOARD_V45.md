@@ -27,6 +27,10 @@ Validation state machine:
 
 `docs/validation/VALIDATION_STATE_MACHINE_V45.md`
 
+State-machine transition validator:
+
+`docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`
+
 Stale-output detector:
 
 `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`
@@ -66,6 +70,8 @@ Current key metrics:
 - collaborator path resolution: `PASS`, `169` links resolved, `0` missing;
 - follow-up board: `4` `not_sent_ready` rows;
 - external blocker board: `4` `external_send_or_author_approval` rows;
+- state-machine transition validator: live `PASS`, synthetic impossible-state
+  regression `FAIL` as expected;
 - scored-lifecycle handoff negative control: `EXPECTED_FAIL` until real harness outputs exist.
 
 ## Interpretation Boundary

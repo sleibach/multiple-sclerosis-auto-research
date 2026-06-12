@@ -7,6 +7,10 @@ Machine-readable table:
 
 `docs/validation/input_schemas/V45_validation_state_machine.tsv`
 
+Transition-consistency validator:
+
+`docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`
+
 Purpose: give operators one consolidated map from request preparation through
 receipt, preflight, optional author-run return, reporting, and interpretation.
 The table summarizes existing gates only; it does not create new gates or alter
@@ -43,6 +47,7 @@ the V22/V42 locked analysis.
 - `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`
 - `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md`
 - `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md`
+- `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`
 - `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md`
 - `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md`
 - `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`

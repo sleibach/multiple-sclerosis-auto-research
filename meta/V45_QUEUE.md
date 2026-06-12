@@ -136,7 +136,7 @@ generate more internally executable tasks before continuing.
 | 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | done | Wrote `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_secondary_route_no_dof_checklist.tsv`; checklist covers `12` route/area freezes across Karolinska and GSE228330 before any secondary/context outcome scoring. |
 | 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | done | Wrote `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md` and `docs/validation/input_schemas/V45_operational_handoff_index.tsv`; index lists `14` top-level operational artifacts in execution order. |
 | 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | done | Restored future addendum templates to locked hash-baseline state after detecting pointer drift, then reran wrapper: `5/5` pass in `99.218` seconds; refreshed artifact index covers `835` V45 paths, synthetic/governance index covers `71` V43-V45 dirs, and V45 analysis storage covers `65` dirs / `645` files / `85.187 MiB`. |
-| 112 | Infrastructure | Add state-machine transition validator against live tracker, triage, blocker, and dashboard states | todo | Generated after item 111 to catch impossible route-state combinations before any received-data scoring. |
+| 112 | Infrastructure | Add state-machine transition validator against live tracker, triage, blocker, and dashboard states | done | Wrote `scripts/v45_state_machine_validator.py`, `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`, and outputs under `analysis/v45_state_machine_validator/`; live boards pass with `0` hard violations across `3` route states, while synthetic impossible-state regression fails as expected with `11` hard violations. |
 | 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | todo | Generated after item 111 to make packet drift visible before human operators run a route-specific arrival command. |
 | 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | todo | Generated after item 111 to expose the single next human/external action without reading multiple operational docs. |
 | 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | todo | Generated after item 111 to reduce manual tracker drift while preserving external-data blockers. |
@@ -872,3 +872,11 @@ todo items.
   `85.187 MiB`.
 - Backlog refilled above threshold with items 112-119.
 - Next selected task: live state-machine transition validator.
+- State-machine transition validator completed. It joins the received-data
+  triage board, external blocker board, follow-up due board, and readiness
+  dashboard to detect impossible route transitions. Live output passes with `0`
+  hard violations across `3` routes, all still at `request_packet_ready`.
+  Synthetic impossible-state regression fails as expected with `11` hard
+  violations. The validator is now linked after the state-machine map in the
+  operational handoff order.
+- Next selected task: route-arrival packet freshness and checksum manifest.

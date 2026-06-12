@@ -29,7 +29,16 @@ should be checked.
 
 ## Current Result
 
-- scripts indexed: `54`
+- scripts indexed: `58`
 - undocumented scripts: `0`
-- scripts without detected output directories: `0`
+- scripts without detected output directories: `2`
 - overall status: `PASS`
+
+The two scripts without auto-detected output directories are documented
+generators whose output directory names are shortened relative to the script
+stem:
+
+- `scripts/v45_followup_message_template_generator.py`
+- `scripts/v45_route_arrival_packet_generator.py`
+
+This is a navigation/discovery limitation, not a validation failure.

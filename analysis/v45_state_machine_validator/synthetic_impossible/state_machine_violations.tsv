@@ -1,0 +1,12 @@
+severity	cohort_id	check	detail
+hard	gafson_dmf_2018	harness_ready_missing_gate	harness_ready=yes but checksum_verified='no'
+hard	gafson_dmf_2018	harness_ready_missing_gate	harness_ready=yes but metadata_preflight_passed='no'
+hard	gafson_dmf_2018	harness_ready_missing_gate	harness_ready=yes but subject_map_passed='no'
+hard	gafson_dmf_2018	harness_ready_missing_gate	harness_ready=yes but outcome_dictionary_frozen='no'
+hard	gafson_dmf_2018	harness_ready_external_blocker	harness_ready=yes conflicts with external_send_or_author_approval
+hard	gafson_dmf_2018	sent_but_not_sent_ready	follow-up board says request_sent=yes and due_status=not_sent_ready
+hard	gafson_dmf_2018	request_sent_disagreement	triage request_sent='no'; followup request_sent='yes'
+hard	gafson_dmf_2018	external_blocker_harness_conflict	external-send blocker conflicts with harness_ready=yes
+hard	dashboard	dashboard_triage_harness_ready_mismatch	dashboard n_harness_ready=0; triage count=1
+hard	dashboard	dashboard_external_harness_ready_mismatch	dashboard n_harness_ready=0; external blocker board has 1 harness-ready rows
+hard	dashboard	headline_harness_ready_conflict	READY_AWAITING_EXTERNAL_DATA conflicts with at least one harness-ready route
