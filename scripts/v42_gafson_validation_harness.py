@@ -150,6 +150,24 @@ GENE_SETS: dict[str, list[str]] = {
 
 ALL_MODULES = {"IFN_APC": IFN_APC, "HLAII": HLAII, "RECEPTOR": RECEPTOR} | GENE_SETS
 
+BATCH_METADATA_COLUMNS = [
+    "batch",
+    "lane",
+    "flowcell",
+    "run",
+    "sequencing_batch",
+    "processing_batch",
+    "capture_batch",
+    "library_batch",
+    "collection_date",
+    "processing_date",
+    "rin",
+    "rqn",
+    "sequencing_depth",
+    "percent_mapped",
+    "steroid_exposure",
+]
+
 
 @dataclass
 class ValidationResult:
@@ -297,6 +315,9 @@ def build_paired(expr: pd.DataFrame, metadata: pd.DataFrame) -> tuple[pd.DataFra
     if missing_samples:
         raise ValueError(f"Expression matrix missing selected metadata samples: {missing_samples[:10]}")
     scores, coverage = module_scores(expr, samples)
+    md_by_sample = metadata.copy()
+    md_by_sample["sample_id"] = md_by_sample["sample_id"].astype(str)
+    md_by_sample = md_by_sample.set_index("sample_id", drop=False)
     out_rows = []
     for row in pairs.to_dict(orient="records"):
         b = row["baseline_sample"]
@@ -311,6 +332,11 @@ def build_paired(expr: pd.DataFrame, metadata: pd.DataFrame) -> tuple[pd.DataFra
             "treated_days_since_treatment": row["treated_days_since_treatment"],
             "therapy_class": "Class C",
         }
+        if b in md_by_sample.index and t in md_by_sample.index:
+            for column in BATCH_METADATA_COLUMNS:
+                if column in md_by_sample.columns:
+                    out[f"baseline_meta_{column}"] = md_by_sample.loc[b, column]
+                    out[f"treated_meta_{column}"] = md_by_sample.loc[t, column]
         for module in scores.columns:
             out[f"baseline_{module}"] = float(scores.loc[b, module])
             out[f"treated_{module}"] = float(scores.loc[t, module])
@@ -449,6 +475,107 @@ def primary_metrics(paired: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def categorical_auc(y: np.ndarray, values: pd.Series) -> float:
+    codes = pd.Categorical(values.astype(str).fillna("NA")).codes.astype(float)
+    if len(set(codes)) <= 1:
+        return math.nan
+    auc = auc_score(y, codes)
+    if np.isfinite(auc) and auc < 0.5:
+        auc = 1.0 - auc
+    return auc
+
+
+def batch_diagnostics(paired: pd.DataFrame, raw_auc: float) -> pd.DataFrame:
+    """Additive V44 batch diagnostics.
+
+    These diagnostics do not alter the primary V22 score or pass/fail
+    thresholds. They flag response-correlated technical structure that should
+    make an otherwise positive result non-specific unless resolved.
+    """
+
+    y = paired["response_binary"].to_numpy(int)
+    locked = paired["v22_locked_signed_score"].to_numpy(float)
+    work = paired.copy()
+    candidate_columns = [
+        col
+        for col in work.columns
+        if col.startswith("baseline_meta_") or col.startswith("treated_meta_")
+    ]
+    for base_col in [col for col in work.columns if col.startswith("baseline_meta_")]:
+        suffix = base_col.replace("baseline_meta_", "", 1)
+        treated_col = f"treated_meta_{suffix}"
+        if treated_col not in work.columns:
+            continue
+        pair_col = f"pair_meta_{suffix}"
+        work[pair_col] = work[base_col].astype(str).fillna("NA") + "->" + work[treated_col].astype(str).fillna("NA")
+        candidate_columns.append(pair_col)
+        change_col = f"changed_meta_{suffix}"
+        work[change_col] = (work[base_col].astype(str).fillna("NA") != work[treated_col].astype(str).fillna("NA")).astype(int)
+        candidate_columns.append(change_col)
+
+    rows = []
+    for column in sorted(set(candidate_columns)):
+        series = work[column]
+        if series.nunique(dropna=False) <= 1:
+            rows.append({"metadata_feature": column, "verdict": "UNINFORMATIVE_SINGLE_LEVEL"})
+            continue
+        if pd.api.types.is_numeric_dtype(series):
+            values = pd.to_numeric(series, errors="coerce")
+            if values.notna().sum() < 6 or values.nunique(dropna=True) <= 1:
+                rows.append({"metadata_feature": column, "verdict": "UNSCOREABLE"})
+                continue
+            metadata_auc = auc_score(y, values.to_numpy(float))
+            if np.isfinite(metadata_auc) and metadata_auc < 0.5:
+                metadata_auc = 1.0 - metadata_auc
+            corr = float(pd.Series(values).corr(pd.Series(locked), method="spearman"))
+            covariates = pd.DataFrame({column: values})
+            min_level_n = math.nan
+        else:
+            factor = series.astype(str).fillna("NA")
+            counts = pd.crosstab(factor, work["response_binary"])
+            min_level_n = int(counts.sum(axis=1).min()) if not counts.empty else 0
+            metadata_auc = categorical_auc(y, factor)
+            corr = float(pd.Series(pd.Categorical(factor).codes).corr(pd.Series(locked), method="spearman"))
+            covariates = pd.get_dummies(factor, prefix=column, drop_first=True).astype(float)
+
+        if covariates.shape[1] == 0 or len(work) / max(covariates.shape[1], 1) < 5:
+            rows.append(
+                {
+                    "metadata_feature": column,
+                    "metadata_auc": metadata_auc,
+                    "spearman_with_locked": corr,
+                    "min_level_n": min_level_n,
+                    "verdict": "UNDERPOWERED_FOR_RESIDUALIZATION",
+                }
+            )
+            continue
+        resid = residualize(locked, covariates)
+        residualized_auc = auc_score(y, resid)
+        if residualized_auc < 0.5:
+            resid = -resid
+            residualized_auc = auc_score(y, resid)
+        attenuation = raw_auc - residualized_auc
+        risky = (
+            (np.isfinite(metadata_auc) and metadata_auc >= 0.60)
+            or (np.isfinite(corr) and abs(corr) >= 0.35)
+            or (np.isfinite(attenuation) and attenuation >= 0.05)
+        )
+        rows.append(
+            {
+                "metadata_feature": column,
+                "metadata_auc": metadata_auc,
+                "spearman_with_locked": corr,
+                "min_level_n": min_level_n,
+                "residualized_auc": residualized_auc,
+                "auc_attenuation": attenuation,
+                "verdict": "BATCH_RISK_FLAG" if risky else "NO_BATCH_RISK_FLAG",
+            }
+        )
+    if not rows:
+        rows.append({"metadata_feature": "none_available", "verdict": "NO_BATCH_METADATA"})
+    return pd.DataFrame(rows)
+
+
 def confounder_adjustments(paired: pd.DataFrame, raw_auc: float) -> tuple[pd.DataFrame, pd.DataFrame]:
     y = paired["response_binary"].to_numpy(int)
     locked = paired["v22_locked_signed_score"].to_numpy(float)
@@ -553,6 +680,7 @@ def run_validation(expression: Path, metadata: Path, outdir: Path, expression_ty
     primary = metrics[metrics["feature"].eq("v22_locked_signed_score")].iloc[0]
     receptor = metrics[metrics["feature"].eq("receptor_only_score")].iloc[0]
     conf, joint = confounder_adjustments(paired, float(primary["auc"]))
+    batch = batch_diagnostics(paired, float(primary["auc"]))
     final_verdict = verdict_from_metrics(
         int(primary["n"]),
         int(primary["n_responders"]),
@@ -572,6 +700,7 @@ def run_validation(expression: Path, metadata: Path, outdir: Path, expression_ty
         "primary_auc_ci_high": float(primary["auc_ci_high"]),
         "receptor_auc": float(receptor["auc"]),
         "final_verdict": final_verdict,
+        "batch_guard_flag": bool(batch["verdict"].astype(str).str.contains("BATCH_RISK_FLAG").any()),
         "seed": SEED,
     }
     paired.to_csv(outdir / "paired_module_deltas.tsv", sep="\t", index=False)
@@ -580,6 +709,7 @@ def run_validation(expression: Path, metadata: Path, outdir: Path, expression_ty
     metrics.to_csv(outdir / "locked_rule_metrics.tsv", sep="\t", index=False)
     conf.to_csv(outdir / "confounder_adjustment_metrics.tsv", sep="\t", index=False)
     joint.to_csv(outdir / "joint_confounder_metrics.tsv", sep="\t", index=False)
+    batch.to_csv(outdir / "batch_diagnostic_metrics.tsv", sep="\t", index=False)
     (outdir / "validation_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True))
     return ValidationResult(paired, coverage, metrics, conf, joint, summary)
 

@@ -254,3 +254,33 @@ Command template for a future Gafson data package:
 Operational warning: OpenGWAS is not required for this validation, but the
 current JWT expires at `2026-06-19 12:28 UTC`. Renew the token before any
 validation-adjacent OpenGWAS-dependent check after that timestamp.
+
+## V44 Batch-Diagnostic Guard Addendum
+
+V44 added a blind, additive batch-diagnostic guard after V43 showed that
+response-correlated batch can create synthetic false-positive primary passes.
+
+New artifacts:
+
+- `docs/validation/BATCH_GUARD_V44.md`: batch-guard design and synthetic
+  validation result.
+- `analysis/v44_batch_guard/`: synthetic batch-guard validation outputs.
+- `scripts/v44_batch_guard_simulation.py`: reproduces the synthetic guard
+  audit on V43 robustness data.
+- `scripts/v42_gafson_validation_harness.py`: now writes
+  `batch_diagnostic_metrics.tsv` and `batch_guard_flag` when technical metadata
+  are supplied.
+
+The guard does not alter V22 module definitions, score orientation, primary
+metrics, or pass/fail thresholds. It changes interpretation only: a raw pass
+with `batch_guard_flag=true` is technically non-specific pending batch
+resolution or independent replication.
+
+Synthetic validation:
+
+- V43 worst response-correlated batch null primary pass rate: `0.40`.
+- V44 guarded acceptable pass rate for that same null pathology: `0.00`.
+- V42 synthetic harness behavior remained unchanged after the additive output:
+  null failed (`FAIL_ADEQUATE_POWER`, AUC `0.520`) and planted signal passed
+  (`PASS_CLEAN`, AUC `1.000`) in
+  `analysis/v44_batch_guard/harness_synthetic_check/`.

@@ -255,6 +255,43 @@ The primary unadjusted V22 result is always reported first and remains the
 formal validation result. Confounder adjustment is an interpretation audit; it
 cannot convert a failed primary result into a pass.
 
+## V44 Additive Batch-Diagnostic Guard
+
+This section was added blind to Gafson data on 2026-06-12 after the V43
+synthetic robustness audit showed response-correlated batch effects can create
+false-positive primary passes. It is an additive technical diagnostic only. It
+does not change the V22 locked score, score orientation, primary thresholds,
+timepoint selection, endpoint, or pass/fail criteria.
+
+If any technical metadata are supplied, including `batch`, `lane`, `flowcell`,
+`run`, `sequencing_batch`, `processing_batch`, `capture_batch`,
+`library_batch`, `collection_date`, `processing_date`, `rin`, `rqn`,
+`sequencing_depth`, `percent_mapped`, or `steroid_exposure`, the harness must:
+
+1. carry baseline and treated technical metadata into the paired-subject table;
+2. construct baseline, treated, paired-pattern, and changed-status metadata
+   diagnostics where both baseline and treated values exist;
+3. report each metadata feature's response association, association with the
+   locked score, and residualized locked-score AUC where sample size permits;
+4. write `batch_diagnostic_metrics.tsv`;
+5. set `batch_guard_flag=true` in `validation_summary.json` if any metadata
+   feature triggers `BATCH_RISK_FLAG`.
+
+`BATCH_RISK_FLAG` is triggered when any of these pre-specified conditions hold:
+
+- metadata AUC for response is at least `0.60` in either orientation;
+- absolute Spearman correlation between metadata coding and locked score is at
+  least `0.35`;
+- residualizing the locked score against the metadata feature attenuates AUC by
+  at least `0.05`.
+
+If a raw Gafson result passes the primary V22 threshold but `batch_guard_flag`
+is true, the result is reported as **technically non-specific pending batch
+resolution**, not as a clean validation. The primary result remains visible and
+unchanged, but interpretation is downgraded under
+`docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`. A failed primary result
+cannot be rescued by batch adjustment.
+
 For each individual confounder feature:
 
 1. Report confounder AUC for response using its observed orientation.
