@@ -12,9 +12,43 @@ Computational Boundary Mapping Of A Multiple-Sclerosis Treatment-Monitoring Sign
 
 This project evaluated whether public autoimmune genetics, immune-QTL, single-cell, perturbation, and treatment-response data could nominate actionable multiple-sclerosis targets or response-monitoring biomarkers. The target-discovery branch produced no intervention-grade target: several biologically real signals failed direction, colocalization, or tractability gates. The strongest surviving result is not a target but a provisional early-treatment monitoring signal: a locked APC/HLA-II/IFN module-change scalar that appears mechanism-bounded to immune-remodeling/JAK-STAT contexts and does not improve with more complex model classes.
 
-The signal remains unvalidated clinically. Its internal support comes from independent computational checks: locked-rule small-cohort validation, heterogeneous-method robustness, confounder auditing, cross-modality recurrence, synthetic-null self-audit, and blind validation-harness hardening. V44 adds three readiness improvements: no open, ready-to-run alternative primary cohort was found beyond Gafson/DMF and related low-barrier requests; a batch-diagnostic guard prevents response-correlated batch from producing a clean pass in synthetic nulls; and the convergence evidence remains beyond global, modality-aware, and source-local nulls.
+The signal remains unvalidated clinically. Its internal support comes from independent computational checks: locked-rule small-cohort validation, heterogeneous-method robustness, confounder auditing, cross-modality recurrence, synthetic-null self-audit, and blind validation-harness hardening. V44/V45 add readiness improvements: no open, ready-to-run alternative primary cohort was found beyond Gafson/DMF and related low-barrier requests; a batch-diagnostic guard prevents response-correlated batch from producing a clean pass in synthetic nulls; seed-stability and regression checks make the synthetic method behavior reproducible; intake preflight now checks checksums, schemas, sample IDs, and response-label guardrails before any harness; and convergence evidence remains beyond global, modality-aware, source-local, no-report, and no-readiness-circularity nulls.
 
 The project's defensible conclusion is boundary-setting rather than clinical deployment. Public-data computation has been substantially exhausted for unconstrained discovery. The rational next step is external paired treatment-response validation using the frozen preregistered harness, plus independent replication if Gafson is underpowered or technically confounded.
+
+## V45 Methods Addendum
+
+V45 did not reopen discovery. It reduced dependence on a single delayed cohort
+and hardened the validation boundary.
+
+Additional readiness artifacts:
+
+- `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md`: quarantine checksums,
+  metadata schema checks, expression/sample-ID checks, and pharmacodynamic
+  no-response-label guardrails before any frozen harness.
+- `docs/validation/HARNESS_REGRESSION_TESTS_V45.md` and
+  `docs/validation/PREFLIGHT_REGRESSION_TESTS_V45.md`: executable synthetic
+  regression tests for secondary harnesses, pharmacodynamic context-only
+  behavior, and intake preflight.
+- `docs/validation/SEED_VARIATION_STABILITY_V45.md`: seed variation across
+  `31,500` synthetic cohorts, keeping worst guarded synthetic-null clean pass at
+  or below `0.0333` for the tested harness families.
+- `docs/validation/BATCH_GUARD_CALIBRATION_FULL_V45.md`: full-grid calibration
+  rejects looser q-calibrated batch guards as replacements for the stricter
+  effect-threshold guard.
+- `docs/validation/APC_HLA_NO_REPORTS_CONVERGENCE_V45.md` and
+  `docs/validation/APC_HLA_NO_READINESS_CONVERGENCE_V45.md`: recurrence is not
+  driven by V37 report rows, and the V41 integrated frame contains zero post-V42
+  readiness rows.
+- `docs/validation/VALIDATION_POWER_DECISION_TABLE_V45.md`: Gafson-sized cohorts
+  are useful but often inconclusive; `30+30` is decision-grade only for large
+  clean effects; noisy/moderate immune-tone cases may require larger or cleaner
+  data.
+
+Correct external framing:
+
+> V45 improves validation readiness and auditability. It does not add clinical
+> validation and does not make synthetic data biological evidence.
 
 ## Main Claims
 
@@ -94,10 +128,12 @@ The validation plan must treat Gafson as the next rational test, not as guarante
 | Robustness | `ROBUSTNESS_MAP_V28.md` | Scalar is not a single-method artifact | Superiority to fresh data |
 | Confounders | `CONFOUNDER_AUDIT_V32.md` | Not steroid/simple-composition artifact; immune-tone bounded | Confounder-free mechanism |
 | Preregistration | `PREREGISTRATION_V42.md` | Gafson analysis frozen before data | A result before data arrive |
-| Power/robustness | `POWER_MAP_V43.md`, `HARNESS_ROBUSTNESS_V43.md` | Expected interpretability limits | Biological evidence |
+| Power/robustness | `POWER_MAP_V43.md`, `HARNESS_ROBUSTNESS_V43.md`, `VALIDATION_POWER_DECISION_TABLE_V45.md` | Expected interpretability limits and acquisition sizing | Biological evidence |
 | V44 batch guard | `BATCH_GUARD_V44.md` | Batch false-positive risk controlled in synthetic nulls | Changed V22 rule |
-| V44 convergence | `APC_HLA_INTERNAL_CONVERGENCE_V44.md` | Corpus-level recurrence is robust to stricter nulls | Clinical validation |
-| V44 cohort scout | `ALT_COHORT_SCOUT_V44.md` | No verified open primary alternative found | Proof no private/controlled data exist |
+| V45 seed/regression guards | `SEED_VARIATION_STABILITY_V45.md`, `HARNESS_REGRESSION_TESTS_V45.md`, `PREFLIGHT_REGRESSION_TESTS_V45.md` | Synthetic method behavior and software guardrails are reproducible | Biological evidence |
+| V45 intake preflight | `VALIDATION_INTAKE_PREFLIGHT_V45.md`, `INTAKE_TEMPLATE_DRYRUN_V45.md` | New cohorts must pass checksum/schema/sample-ID/response-guard checks before harness use | A result on any real cohort |
+| V44/V45 convergence | `APC_HLA_INTERNAL_CONVERGENCE_V44.md`, V45 sensitivity/no-report/no-readiness checks | Corpus-level recurrence is robust to stricter and circularity nulls | Clinical validation |
+| V44/V45 cohort scout | `ALT_COHORT_SCOUT_V44.md`, `GSE228330_PHARMACODYNAMIC_RUNBOOK_V45.md`, outbound request packets | No verified open primary alternative found; low-barrier paths are operationalized | Proof no private/controlled data exist |
 
 ## Limitations To State Explicitly
 
@@ -108,10 +144,14 @@ The validation plan must treat Gafson as the next rational test, not as guarante
 5. Synthetic simulations characterize method behavior only; they are not biological evidence.
 6. Public-data discovery appears exhausted under the V41 corpus-level gate, but this is a bound on this corpus and vocabulary, not biology generally.
 7. Gafson may be underpowered or technically confounded; a non-clean result should update the lead rather than be forced into pass/fail rhetoric.
+8. V45 synthetic and regression artifacts are software/method checks only; they
+   should appear in methods/readiness sections, not results-as-biology sections.
+9. Pharmacodynamic-only cohorts such as GSE228330 must not be described as
+   response validation unless sample-mapped outcomes are obtained and a blinded
+   addendum is committed before scoring.
 
 ## Proposed External Bottom Line
 
 The project's strongest contribution is not a cure target. It is a disciplined validation-ready monitoring hypothesis and a clear boundary map of failed target routes. The APC/HLA-II/IFN early-treatment scalar is internally recurrent, method-robust, confounder-audited, batch-guarded, and preregistered for external testing, but it remains provisional until a blinded external paired response cohort is run.
 
 If Gafson passes cleanly, the next step is independent replication in a second paired MS DMT response cohort and a prospective sampling design. If Gafson is inconclusive, the V43 power map should determine the next cohort size rather than post-hoc reinterpretation. If Gafson fails cleanly, the monitoring lead should be demoted or killed according to the V42 outcome grid.
-
