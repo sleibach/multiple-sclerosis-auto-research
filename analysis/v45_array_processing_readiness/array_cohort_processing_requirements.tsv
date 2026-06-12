@@ -1,0 +1,3 @@
+cohort_id	platform	raw_archive	required_processing_path	critical_packages	non_processing_blockers
+gse228330_ocrelizumab_pbmc	Clariom S/D Human CEL/CHP; GEO platform GPL24539	GSE228330_RAW.tar	Clariom/Affymetrix CEL reprocessing or author processed matrix	oligo;pd.clariom.s.human	verified GSM-to-subject/timepoint map; response labels if validation rather than context-only
+karolinska_dmf_gse130478	Affymetrix expression array; GEO platform GPL17692	GSE130478_RAW.tar	Affymetrix array reprocessing or author processed matrix	oligo_or_affy;platform_annotation_for_GPL17692	beneficial-response labels; GSM-to-patient/timepoint map; Karolinska addendum
