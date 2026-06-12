@@ -55,6 +55,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Author-run packet checksums | `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md` |
 | Author-run output completeness check | `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md` |
 | Author-run return gate runner | `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md` |
+| Author-run aggregate schema validator | `docs/validation/AUTHOR_RUN_SCHEMA_VALIDATOR_V45.md` |
 | Author-run return operator checklist | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
 | Collaborator package path resolver | `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md` |
 

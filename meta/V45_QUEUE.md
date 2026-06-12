@@ -157,7 +157,7 @@ generate more internally executable tasks before continuing.
 | 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | done | Wrote `scripts/v45_followup_escalation_packet_generator.py`, `docs/validation/FOLLOWUP_ESCALATION_PACKETS_V45.md`, and live packets under `analysis/v45_followup_escalation_packets/live/`; generated `4` route packets, all `not_sent_ready`, `0` overdue/due-now, and stale detector now tracks `21` artifacts with `0` stale/missing. |
 | 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | done | Wrote `scripts/v45_external_report_evidence_manifest.py`, `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md`, and outputs under `analysis/v45_external_report_evidence_manifest/`; scanned `3` external-facing reports with `80` references, `57` V45-indexed, `23` existing non-V45/historical, and `0` missing. |
 | 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | done | Wrote `scripts/v45_synthetic_received_package_dryrun.py`, `docs/validation/SYNTHETIC_RECEIVED_PACKAGE_DRYRUN_V45.md`, and outputs under `analysis/v45_synthetic_received_package_dryrun/`; synthetic Gafson fixture with receipt/quarantine passed but `data_use_terms=blocked` stays `harness_ready=no`, state-machine validator `PASS`, decision tree `may_score_now=0`, and stale detector now tracks `22` artifacts with `0` stale/missing. |
-| 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | todo | Self-generated after item 127 to validate aggregate-only return packages before any interpretation. |
+| 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | done | Wrote `scripts/v45_author_run_schema_validator.py`, `docs/validation/AUTHOR_RUN_SCHEMA_VALIDATOR_V45.md`, and outputs under `analysis/v45_author_run_schema_validator/`; synthetic complete package passes `253/253` checks, bad numeric/count metrics fail `4` checks, and unscoreable-without-failure-code fails `1` check, with all `3/3` synthetic expectations met. Linked from author-run minimum-output, return-gate, return-operator, and collaborator docs; stale detector passes `22` artifacts with `0` stale/missing. |
 | 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | todo | Self-generated after item 127 because the JWT expiry is near and auth failure must not masquerade as a null. |
 | 135 | Integrity | Add a received-package dry-run freshness check into the generated checker registry | todo | Self-generated after item 132 so the new synthetic blocked-package path is discoverable from the generated checker registry. |
 | 136 | Validation readiness | Add a returned-package minimum-safe-interpretation classifier that maps analyzable pairs and gates to pass/fail/inconclusive wording before any score is read | todo | Self-generated after item 132 to prevent over-interpretation of small or partial returns. |
@@ -1063,3 +1063,14 @@ todo items.
   --check`.
 - Backlog refilled above threshold with items 135-139.
 - Next selected task: author-run aggregate report schema validator.
+- Author-run aggregate report schema validator completed. It adds a value-level
+  aggregate gate after redaction and completeness: summary/count consistency,
+  AUC/CI/p-value ranges, required V22 primary row, gene-mapping count/threshold
+  sanity, confounder/joint/batch aggregate range checks, attrition inclusion
+  consistency, and required failure taxonomy for unscoreable packages. Synthetic
+  verification matched all expectations: complete package `PASS`, bad
+  numeric/count metrics `FAIL`, and unscoreable package missing failure code
+  `FAIL`. Governance summaries refreshed to `1021` V45 paths, `89` V43-V45
+  method/governance dirs, and `83` V45 analysis dirs / `794` files /
+  `85.463 MiB`; stale detector passes `22` artifacts with `0` stale/missing.
+- Next selected task: OpenGWAS token-expiry sentinel.

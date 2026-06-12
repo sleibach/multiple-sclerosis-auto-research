@@ -26,15 +26,28 @@ Machine-readable checklist:
 
 4. If redaction fails, stop and request a redacted aggregate-only return.
 5. If completeness fails, stop and request the missing aggregate outputs.
-6. If the gate passes, fill:
+6. If the gate passes, run the aggregate schema validator:
+
+```bash
+.venv/bin/python scripts/v45_author_run_schema_validator.py run \
+  --root <returned_aggregate_package_dir> \
+  --package-state scored \
+  --outdir analysis/v45_author_run_schema_validator/<cohort>_<date> \
+  --fail-on-error
+```
+
+For an unscoreable package, use `--package-state unscoreable`.
+
+7. If schema validation fails, stop and request a repaired aggregate return.
+8. If the schema validator passes, fill:
 
 `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md`
 
-7. Interpret only under:
+9. Interpret only under:
 
 `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`
 
-8. Run precommit/readiness guards before any commit:
+10. Run precommit/readiness guards before any commit:
 
 ```bash
 .venv/bin/python scripts/v45_precommit_readiness_check.py
@@ -50,7 +63,7 @@ Do not:
 - accept screenshot-only output;
 - change module genes, thresholds, score signs, timepoints, or endpoint
   orientation;
-- interpret a package that fails redaction or completeness;
+- interpret a package that fails redaction, completeness, or schema validation;
 - treat aggregate author-run output as equivalent to individual-level
   reproducibility unless the required command/hash metadata are present.
 
@@ -60,6 +73,7 @@ Do not:
 |---|---|---|
 | redaction | no obvious raw/private leakage in the aggregate package | request a redacted aggregate-only package |
 | completeness | minimum aggregate files are present and parseable | request missing aggregate outputs |
+| schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |
 | outcome grid | result is classified using precommitted V42 meanings | do not reinterpret post hoc |
 | precommit readiness | repository guards are clean after report preparation | repair before commit |

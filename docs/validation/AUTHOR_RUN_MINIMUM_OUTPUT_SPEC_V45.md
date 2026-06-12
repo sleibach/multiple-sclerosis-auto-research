@@ -23,6 +23,10 @@ Combined return-gate runner:
 
 `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`
 
+Aggregate schema validator:
+
+`docs/validation/AUTHOR_RUN_SCHEMA_VALIDATOR_V45.md`
+
 ## Minimum Required Files
 
 Returned outputs must be sufficient to:
@@ -41,6 +45,9 @@ terms explicitly permit transfer.
 
 Run the redaction precheck before the completeness checker on every returned
 aggregate package.
+
+Run the schema validator after redaction and completeness pass, before applying
+the V42 outcome grid to any aggregate result.
 
 ## Unacceptable Returns
 

@@ -11,6 +11,10 @@ Purpose: run the author-run aggregate-return gates in the required order:
 1. redaction precheck;
 2. output completeness check only if redaction passes.
 
+Run the aggregate schema validator after this gate passes:
+
+`docs/validation/AUTHOR_RUN_SCHEMA_VALIDATOR_V45.md`
+
 This runner does not run the frozen validation harness and does not interpret
 biological results. It is for returned aggregate packages from the author-run
 fallback path.
@@ -65,3 +69,6 @@ If redaction fails, completeness is skipped. A package that contains raw
 expression, individual labels, private correspondence, or credentials should not
 be treated as handoff-complete, even if it happens to include the expected
 aggregate metrics.
+
+A return-gate `PASS` is still not enough for interpretation if aggregate values
+are structurally impossible. Run the schema validator next.

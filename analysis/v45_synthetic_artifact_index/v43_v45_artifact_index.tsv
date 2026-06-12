@@ -14,6 +14,7 @@ analysis/v45_author_run_packet_bundle	operations	author-run packet bundle only	1
 analysis/v45_author_run_packet_checksums	integrity_governance	author-run packet checksum integrity only	8	True	True	True	analysis/v45_author_run_packet_checksums/synthetic_check_summary.json
 analysis/v45_author_run_redaction_precheck	synthetic_intake_verification	method behavior only	26	True	True	True	analysis/v45_author_run_redaction_precheck/synthetic_check_summary.json
 analysis/v45_author_run_return_gate_runner	synthetic_intake_verification	method behavior only	24	True	True	True	analysis/v45_author_run_return_gate_runner/synthetic_check_summary.json
+analysis/v45_author_run_schema_validator	synthetic_intake_verification	method behavior only	35	True	True	True	none
 analysis/v45_batch_guard_calibration	synthetic_method_characterization	method behavior only	4	False	True	True	analysis/v45_batch_guard_calibration/summary.json
 analysis/v45_batch_guard_calibration_full	synthetic_method_characterization	method behavior only	4	False	True	True	analysis/v45_batch_guard_calibration_full/summary.json
 analysis/v45_checksum_manifest_validator	synthetic_intake_verification	method behavior only	11	True	True	True	none

@@ -55,6 +55,7 @@ MANUAL_CLASS = {
     "analysis/v45_author_run_bundle_dryrun_manifest": ("integrity_governance", "author-run packet dry-run integrity only"),
     "analysis/v45_author_run_redaction_precheck": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_author_run_return_gate_runner": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v45_author_run_schema_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_received_data_triage": ("operations", "acquisition operations only"),
     "analysis/v45_received_status_updater": ("operations", "received-package status update only"),
     "analysis/v45_request_sent_updater": ("operations", "request-sent status update only"),
