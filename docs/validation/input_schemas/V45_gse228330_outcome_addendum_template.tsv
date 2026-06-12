@@ -1,0 +1,18 @@
+field	required	prefill_or_allowed_values	notes
+cohort_id	yes	gse228330_ocrelizumab_pbmc	Stable cohort ID.
+therapy	yes	ocrelizumab	Do not relabel therapy class after seeing outcomes.
+therapy_class	yes	anti_CD20_B_cell_depletion	Secondary mechanism-domain context.
+analysis_role	yes	secondary_mechanism_domain_stress_test	Not primary V42/Gafson validation.
+subject_map_status	yes	pending;verified_passed_sanity;failed_sanity	Outcome analysis allowed only after verified_passed_sanity.
+expression_status	yes	pending_processing;author_processed;local_processed;unscoreable	Record before scoring.
+outcome_dictionary_status	yes	pending;frozen_ready;blocked_ambiguous	Frozen dictionary required before scoring.
+primary_feature	yes	V22_locked_early_change_scalar_unchanged	Only if baseline plus early on-treatment pairs exist.
+context_feature	yes	pharmacodynamic_module_trajectories	Context-only if outcome analysis blocked.
+primary_outcome	yes	from_outcome_label_dictionary	Do not define post hoc.
+success_interpretation	yes	secondary_support_for_anti_CD20_transferability_requires_replication	Not primary DMF validation.
+failure_interpretation	yes	anti_CD20_transferability_not_supported_if_power_and_diagnostics_clean	Does not kill DMF/Gafson primary lead.
+confounder_diagnostics	yes	V32_V44_V45_batch_immune_tone_steroid_composition_where_metadata_allow	Missing metadata downgrade interpretation.
+forbidden_analyses	yes	no_threshold_tuning;no_feature_selection;no_posthoc_response_definition;no_baseline_rescue_claim	Must remain fixed.
+analysis_budget	yes	context_trajectory;locked_scalar_outcome_if_scoreable;diagnostics;effect_size_CI	No extra exploratory feature search.
+finalized_addendum_path	yes	path_to_future_committed_addendum	Do not use this blank template as finalized addendum.
+status	yes	blank_template;finalized_blind;blocked	Current template status is blank_template.
