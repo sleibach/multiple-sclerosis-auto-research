@@ -41,6 +41,23 @@ data/quarantine/<cohort_name>/
   checksums.sha256
 ```
 
+Before any frozen harness is run, execute the V45 intake preflight:
+
+```bash
+.venv/bin/python scripts/v45_validation_intake_preflight.py check \
+  --root data/quarantine/<cohort> \
+  --mode primary \
+  --metadata data/quarantine/<cohort>/metadata/sample_metadata.tsv \
+  --expression data/quarantine/<cohort>/processed/expression.tsv \
+  --outdir analysis/intake_preflight/<cohort> \
+  --write-checksums
+```
+
+See `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md`. The preflight checks
+quarantine checksums, metadata schema fields, optional expression sample IDs,
+and response-label guardrails. It computes no module scores and produces no
+biological evidence.
+
 ## Primary V22/V42 Harness
 
 ### Synthetic Self-Test
