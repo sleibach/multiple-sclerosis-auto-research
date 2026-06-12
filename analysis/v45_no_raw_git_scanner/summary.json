@@ -1,0 +1,13 @@
+{
+  "hard_forbidden_prefixes": [
+    "data/quarantine/",
+    "data/raw_v3/gafson_dmf_2018/",
+    "data/raw_v3/karolinska_dmf_ros_2019/",
+    "data/raw_v3/gse228330_ocrelizumab_outcomes/"
+  ],
+  "n_fail": 0,
+  "n_warn": 11,
+  "note": "WARN rows include historical public raw-data paths; FAIL rows block commit until resolved.",
+  "overall_status": "PASS",
+  "status": "scanner_only"
+}
