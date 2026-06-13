@@ -11,6 +11,24 @@ Machine-readable checklist:
 
 ## Required Order
 
+0. Generate the package-specific command order before running any gate:
+
+```bash
+.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan \
+  --cohort-token <cohort>_<date> \
+  --package-root <returned_aggregate_package_dir> \
+  --terms-capture <terms_capture_tsv> \
+  --terms-class <resolved_terms_class> \
+  --package-kind author_run_aggregate \
+  --package-state scored \
+  --metric-format-state unknown \
+  --outdir analysis/v46_returned_package_command_order_planner/<cohort>_<date> \
+  --expect-status PASS
+```
+
+Use `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` for route
+states and hard-stop rules.
+
 1. Save the returned aggregate package under a non-raw, non-private review path.
 2. Do not copy raw expression, clinical labels, private correspondence,
    agreements, credentials, or private URLs into the repository.
@@ -109,6 +127,7 @@ Do not:
 | redaction | no obvious raw/private leakage in the aggregate package | request a redacted aggregate-only package |
 | completeness | minimum aggregate files are present and parseable | request missing aggregate outputs |
 | V46 metric-format adapter | accepted aggregate file/column aliases normalize to canonical V45 outputs | request the missing canonical aggregate output; never infer values |
+| V46 command-order planner | terms, adapter branch, gate, schema, partial-label, and safe-interpretation steps are ordered | stop at the first blocked step; do not skip ahead |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |

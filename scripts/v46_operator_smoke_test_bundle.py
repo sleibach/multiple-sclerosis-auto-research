@@ -92,6 +92,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_partial_label_return_classifier.py", "synthetic-check", "--outdir", rel(outdir / "partial_label_return_classifier")],
         ),
         (
+            "returned_package_command_order_planner_synthetic",
+            "returned_package",
+            [py, "scripts/v46_returned_package_command_order_planner.py", "synthetic-check", "--outdir", rel(outdir / "returned_package_command_order_planner")],
+        ),
+        (
             "safe_interpretation_classifier_synthetic",
             "returned_package",
             [py, "scripts/v46_returned_package_safe_interpretation.py", "synthetic-check", "--outdir", rel(outdir / "safe_interpretation_classifier")],
@@ -115,8 +120,8 @@ def run_step(name: str, group: str, command: list[str]) -> dict[str, object]:
         "returncode": result.returncode,
         "elapsed_seconds": elapsed,
         "status": "PASS" if result.returncode == 0 else "FAIL",
-        "stdout_tail": result.stdout[-3000:],
-        "stderr_tail": result.stderr[-3000:],
+        "stdout_tail": result.stdout[-3000:] or "(empty)",
+        "stderr_tail": result.stderr[-3000:] or "(empty)",
     }
 
 

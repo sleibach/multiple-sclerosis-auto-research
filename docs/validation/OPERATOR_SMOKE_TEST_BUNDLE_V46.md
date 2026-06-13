@@ -31,14 +31,15 @@ validation harness, or interpret biology.
 6. V46 terms-governance matrix synthetic check.
 7. V46 metric-format adapter synthetic check.
 8. V46 partial-label classifier synthetic check.
-9. V46 safe-interpretation classifier synthetic check.
-10. V45 no-raw-data git scanner.
+9. V46 returned-package command-order planner synthetic check.
+10. V46 safe-interpretation classifier synthetic check.
+11. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `10`;
+- steps: `11`;
 - failures: `0`;
 - overall status: `PASS`.
 
@@ -53,4 +54,3 @@ Machine-readable outputs:
 A passing smoke-test means the local readiness machinery is mechanically
 healthy. It does not mean data have arrived, terms permit processing, or any
 validation has occurred.
-

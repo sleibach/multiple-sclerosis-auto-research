@@ -6,7 +6,7 @@ Script:
 
 `scripts/v45_generated_checker_registry.py`
 
-Purpose: map V45 scripts to documentation references, likely analysis output
+Purpose: map V45/V46 scripts to documentation references, likely analysis output
 directories, summary JSON files, and observed pass/fail/headline statuses. This
 helps reviewers see which readiness/checker scripts are documented and where
 their outputs live.
@@ -29,11 +29,11 @@ should be checked.
 
 ## Current Result
 
-- scripts indexed: `76`
+- scripts indexed: `83`
 - undocumented scripts: `0`
 - scripts without detected output directories: `0`
 - overall status: `PASS`
 
 The generator-name shortening cases are handled by explicit registry
-exceptions, so all currently indexed V45 scripts have detected output
+exceptions, so all currently indexed V45/V46 scripts have detected output
 directories.

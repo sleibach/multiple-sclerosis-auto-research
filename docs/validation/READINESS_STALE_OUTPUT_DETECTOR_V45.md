@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `29`
+- artifacts checked: `30`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -52,6 +52,7 @@ Checked generated artifacts:
 - V46 metric-format adapter;
 - V46 partial-label classifier;
 - V46 safe-interpretation classifier;
+- V46 returned-package command-order planner;
 - V46 external blocker aging audit;
 - V46 operator smoke-test bundle.
 

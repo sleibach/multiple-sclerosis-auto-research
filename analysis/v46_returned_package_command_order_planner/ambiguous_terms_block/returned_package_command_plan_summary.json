@@ -1,0 +1,19 @@
+{
+  "cohort_token": "synthetic_return",
+  "command_plan": "analysis/v46_returned_package_command_order_planner/ambiguous_terms_block/returned_package_command_plan.tsv",
+  "expect_status": "BLOCKED",
+  "expectation_met": true,
+  "hard_stop_before_scores": true,
+  "metric_format_state": "canonical",
+  "n_conditional_steps": 0,
+  "n_steps": 2,
+  "n_stop_steps": 1,
+  "package_kind": "author_run_aggregate",
+  "package_state": "scored",
+  "plan_status": "BLOCKED",
+  "purpose": "V46 returned-package command-order planner; no biological claim and no score values read",
+  "score_values_read": false,
+  "status_reason": "terms class AMBIGUOUS_TERMS_BLOCK blocks this package route",
+  "synthetic": true,
+  "terms_class": "AMBIGUOUS_TERMS_BLOCK"
+}

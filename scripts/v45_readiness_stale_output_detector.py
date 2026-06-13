@@ -416,6 +416,19 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_safe_interpretation",
     },
     {
+        "artifact": "v46_returned_package_command_order_planner",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md",
+            "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
+            "scripts/v46_returned_package_command_order_planner.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_command_order_planner/returned_package_command_order_synthetic_summary.json",
+            "analysis/v46_returned_package_command_order_planner/returned_package_command_order_synthetic_cases.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_returned_package_command_order_planner",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
@@ -440,6 +453,7 @@ CHECKS = [
             "scripts/v46_terms_governance_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
+            "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],

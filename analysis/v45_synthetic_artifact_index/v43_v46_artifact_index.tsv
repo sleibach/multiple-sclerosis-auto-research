@@ -84,7 +84,7 @@ analysis/v45_seed_variation_stability	synthetic_method_characterization	method b
 analysis/v45_send_log_intake_template	operations	request-sent intake template only	6	False	False	False	none
 analysis/v45_state_machine_validator	integrity_governance	state-machine transition consistency only	6	True	True	True	none
 analysis/v45_subject_map_sanity_check	synthetic_intake_verification	method behavior only	16	True	True	True	none
-analysis/v45_synthetic_artifact_index	artifact_governance	index only	3	False	True	True	analysis/v45_synthetic_artifact_index/summary.json
+analysis/v45_synthetic_artifact_index	artifact_governance	index only	4	False	True	True	analysis/v45_synthetic_artifact_index/summary.json
 analysis/v45_synthetic_received_package_dryrun	synthetic_intake_verification	method behavior only	11	True	True	True	none
 analysis/v45_tb_compartment_pathology	synthetic_method_characterization	method behavior only	4	True	True	True	analysis/v45_tb_compartment_pathology/summary.json
 analysis/v45_validation_command_runner	validation_infrastructure	command handoff only	9	False	False	False	none
@@ -93,5 +93,6 @@ analysis/v46_author_run_metric_format_adapter	synthetic_intake_verification	meth
 analysis/v46_external_blocker_aging_audit	operations	external blocker timing status only	7	True	True	True	none
 analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	194	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
 analysis/v46_partial_label_return_classifier	synthetic_intake_verification	method behavior only	20	True	True	True	none
+analysis/v46_returned_package_command_order_planner	synthetic_intake_verification	method behavior only	14	True	True	True	none
 analysis/v46_returned_package_safe_interpretation	synthetic_intake_verification	method behavior only	29	True	True	True	none
 analysis/v46_terms_governance_matrix	synthetic_intake_verification	method behavior only	17	True	True	True	none
