@@ -287,6 +287,25 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_provenance_gate.py synthetic-check --outdir analysis/v47_provenance_gate --fail-on-error && .venv/bin/python scripts/v47_provenance_gate.py audit --outdir analysis/v47_provenance_gate --fail-on-error",
     },
     {
+        "artifact": "v47_external_knowledge_index",
+        "sources": [
+            "docs/knowledge/EXTERNAL_KNOWLEDGE_INDEX_V47.md",
+            "knowledge_external/README.md",
+            "knowledge_external/catalogs/README.md",
+            "knowledge_external/schema/external_claim_record.schema.json",
+            "knowledge_external/catalogs/resource_record.schema.json",
+            "scripts/v47_external_knowledge_index.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_knowledge_index/synthetic_index_summary.json",
+            "analysis/v47_external_knowledge_index/synthetic_index_checks.tsv",
+            "knowledge_external/catalogs/indexes/external_knowledge_index.tsv",
+            "knowledge_external/catalogs/indexes/external_knowledge_index_counts.tsv",
+            "knowledge_external/catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_knowledge_index.py synthetic-check --outdir analysis/v47_external_knowledge_index --fail-on-error && .venv/bin/python scripts/v47_external_knowledge_index.py index --outdir knowledge_external/catalogs/indexes",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",

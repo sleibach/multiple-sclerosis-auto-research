@@ -29,7 +29,7 @@ should be checked.
 
 ## Current Result
 
-- scripts indexed: `118`
+- scripts indexed: `119`
 - undocumented scripts: `0`
 - scripts without detected output directories: `0`
 - overall status: `PASS`

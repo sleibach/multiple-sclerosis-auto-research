@@ -38,6 +38,7 @@ GROUND_TREE_PREFIXES = [
 ]
 ALLOWED_NON_EXTERNAL_PREFIXES = [
     "docs/knowledge/",
+    "analysis/v47_external_knowledge_index/",
     "analysis/v47_provenance_gate/",
     "scripts/v47_provenance_gate.py",
     "meta/V47_QUEUE.md",

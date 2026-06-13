@@ -10,9 +10,9 @@ reproducibility or letting synthetic data masquerade as biological evidence.
 
 The refreshed artifact index covers:
 
-- `132` V43-V47 analysis directories;
-- `89` directories with synthetic path/content markers;
-- approximately `284 MiB` total across `analysis/v43_*`, `analysis/v44_*`,
+- `133` V43-V47 analysis directories;
+- `90` directories with synthetic path/content markers;
+- approximately `285 MiB` total across `analysis/v43_*`, `analysis/v44_*`,
   `analysis/v45_*`, `analysis/v46_*`, and `analysis/v47_*` directories;
 - no `unclassified_v43_v47` directories after the latest governance refresh.
 
@@ -100,7 +100,7 @@ and verify the summary status remains `PASS` or the documented expected null.
 
 ## Current Decision
 
-Current footprint is small enough (`~284 MiB`) to keep all V43-V47 synthetic and
+Current footprint is small enough (`~285 MiB`) to keep all V43-V47 synthetic and
 method-characterization outputs in version control. No pruning is recommended
 before the first real validation package arrives, because these outputs are
 active reproducibility evidence for the preregistered validation apparatus.
