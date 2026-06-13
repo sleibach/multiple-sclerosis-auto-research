@@ -1,0 +1,19 @@
+{
+  "aging_band_counts": {
+    "clock_not_started": 1,
+    "escalation_overdue": 1,
+    "followup_due_soon": 1,
+    "followup_overdue": 1
+  },
+  "as_of_utc": "2026-06-13T00:00:00Z",
+  "audit": "analysis/v46_external_blocker_aging_audit/synthetic_audit/external_blocker_aging_audit.tsv",
+  "n_routes": 4,
+  "purpose": "V46 external blocker aging audit; no biological claim",
+  "sources": {
+    "blocker_board": "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+    "escalation_matrix": "analysis/v45_external_blocker_escalation_matrix/external_blocker_escalation_matrix.tsv",
+    "followup_board": "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+    "sent_log": "analysis/v46_external_blocker_aging_audit/synthetic/synthetic_sent_log.tsv"
+  },
+  "synthetic": true
+}

@@ -27,12 +27,15 @@ Generated outputs:
 
 - `analysis/v45_external_blocker_board/external_blocker_board.tsv`
 - `analysis/v45_external_blocker_board/external_blocker_board_summary.json`
+- V46 aging audit: `analysis/v46_external_blocker_aging_audit/live/external_blocker_aging_audit.tsv`
 
 Current state:
 
 - `4` live routes are listed;
 - `4/4` are blocked at `external_send_or_author_approval`;
 - `0` cohorts are harness-ready.
+- V46 aging status: `4/4` route clocks are `clock_not_started` because no
+  request is logged as sent.
 
 The four routes are Gafson DMF, Karolinska DMF ROS labels/map, GSE228330
 optional outcome labels/context processing, and the author-run fallback route.
