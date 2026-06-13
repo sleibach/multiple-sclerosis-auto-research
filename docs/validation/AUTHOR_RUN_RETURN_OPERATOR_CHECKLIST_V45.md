@@ -39,15 +39,32 @@ Machine-readable checklist:
 For an unscoreable package, use `--package-state unscoreable`.
 
 7. If schema validation fails, stop and request a repaired aggregate return.
-8. If the schema validator passes, fill:
+8. If schema validation passes, run the V46 safe-interpretation classifier
+   before reading or discussing returned scores:
+
+```bash
+.venv/bin/python scripts/v46_returned_package_safe_interpretation.py classify \
+  --gate-summary analysis/v45_author_run_return_gate_runner/<cohort>_<date>/author_run_return_gate_summary.json \
+  --schema-summary analysis/v45_author_run_schema_validator/<cohort>_<date>/author_run_schema_validation_summary.json \
+  --analyzable-summary analysis/v45_route_analyzable_pair_calculator/<cohort>_<date>/analyzable_pair_summary.json \
+  --metadata-summary analysis/v45_metadata_contradiction_stress/<cohort>_<date>/metadata_contradiction_summary.json \
+  --batch-confounder-summary <pre_score_batch_or_confounder_warning_summary.json> \
+  --terms-status PASS \
+  --outdir analysis/v46_returned_package_safe_interpretation/<cohort>_<date>
+```
+
+9. If the V46 classifier blocks or cautions interpretation, use its safe wording
+   and do not escalate the claim beyond that class.
+
+10. If the package is eligible for pre-registered interpretation, fill:
 
 `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md`
 
-9. Interpret only under:
+11. Interpret only under:
 
 `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`
 
-10. Run precommit/readiness guards before any commit:
+12. Run precommit/readiness guards before any commit:
 
 ```bash
 .venv/bin/python scripts/v45_precommit_readiness_check.py
@@ -74,6 +91,7 @@ Do not:
 | redaction | no obvious raw/private leakage in the aggregate package | request a redacted aggregate-only package |
 | completeness | minimum aggregate files are present and parseable | request missing aggregate outputs |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
+| V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |
 | outcome grid | result is classified using precommitted V42 meanings | do not reinterpret post hoc |
 | precommit readiness | repository guards are clean after report preparation | repair before commit |

@@ -1,0 +1,18 @@
+{
+  "expect_class": "INCONCLUSIVE_SMALL_COHORT",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not over-read a favorable or unfavorable score from a small cohort.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "INCONCLUSIVE_SMALL_COHORT",
+  "safe_interpretation": "Report only pre-registered effect-size-with-CI language; expect an inconclusive validation unless the frozen grid is cleanly met.",
+  "score_values_read": false,
+  "signals": "analysis/v46_returned_package_safe_interpretation/small_clean/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v45_route_analyzable_pair_calculator/gafson_small_complete/analyzable_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_returned_package_safe_interpretation/synthetic/batch_confounder_clean.json",
+    "gate_summary": "analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

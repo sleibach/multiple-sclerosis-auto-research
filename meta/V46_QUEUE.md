@@ -1,0 +1,45 @@
+# V46 Queue: Continuous Self-Directed Research Block
+
+Block start UTC: 2026-06-13T09:45:14Z
+Target UTC (+360 min): 2026-06-13T15:45:14Z
+
+## Stop Conditions
+
+Valid stops only:
+
+1. cumulative measured runtime >= 360 minutes and clean resumable point;
+2. external termination;
+3. documented all-fronts block after every internally executable alternative is exhausted.
+
+Backlog exhaustion is not a stop. When executable todo items drop below five,
+generate more internally executable tasks before continuing.
+
+## Iterations
+
+| Iteration | Start UTC | End UTC | Status | Notes |
+|---|---:|---:|---|---|
+| 1 | 2026-06-13T09:45:14Z | 2026-06-13T09:52:24Z | done | Added returned-package safe-interpretation classifier, synthetic verification, and operator-facing runbook/checklist integration. |
+
+## Live Backlog
+
+| Priority | Front | Item | Status | Notes |
+|---:|---|---|---|---|
+| 1 | Returned-package handling | Add returned-package minimum-safe-interpretation classifier mapping gates, analyzable pairs, schema state, and batch/confounder warnings to safe wording before any score is read | done | `scripts/v46_returned_package_safe_interpretation.py`; synthetic check PASS across 11 classes; doc `docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md`. |
+| 2 | Returned-package handling | Add alternate author-run metric-format adapter tests for common aggregate table naming/column variants without changing required outputs | todo | Self-generated to make collaborator returns mechanically repairable rather than interpreted ad hoc. |
+| 3 | Returned-package handling | Add partial-label return classifier for response labels that cover only a subset of paired subjects | todo | Self-generated to handle likely Karolinska/Gafson partial returns safely. |
+| 4 | Robustness | Extend synthetic terms-governance edge-case matrix for local-preflight, author-run-only, no-processing, and ambiguous terms | todo | Continued from V45 item 139. |
+| 5 | Infrastructure | Add compact operator smoke-test bundle that runs essential V45/V46 readiness checks in dependency order | todo | Continued from V45 item 137. |
+| 6 | Cohort dependence | Add route-specific external-blocker aging audit and next follow-up action table | todo | Continued from V45 item 138. |
+| 7 | Infrastructure | Integrate V46 generated artifacts into stale-output detector and generated checker registry as they are added | todo | Standing governance follow-up. |
+| 8 | Data-free validation | Add recurrence-vs-joint evidence explanation appendix for external reviewers using V41/V43/V44 outputs | todo | Mission-aligned synthesis; no discovery reopening. |
+| 9 | Power/design | Add small-cohort safe-interpretation examples using V43 power map and V45 analyzable-pair bands | todo | Helps incoming underpowered package handling. |
+
+## Generated Follow-Ups
+
+Generated tasks must be added here before backlog drops below five executable
+todo items.
+
+## Running Notes
+
+- 2026-06-13T09:52:24Z: Item 1 verification: classifier synthetic check PASS; `py_compile` PASS; `git diff --check` PASS; locked artifact hash audit PASS; no-raw scanner PASS with warnings only.
+- Next selected task: item 2, alternate author-run metric-format adapter tests.
