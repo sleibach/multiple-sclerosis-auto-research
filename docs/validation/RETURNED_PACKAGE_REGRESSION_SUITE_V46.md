@@ -43,14 +43,15 @@ data, run validation, change locked rules, or interpret biological results.
 19. V46 returned-package preflight dry run.
 20. V46 returned-package state-transition validator.
 21. V46 returned-package handoff bundle manifest.
-22. V45/V46 readiness stale-output detector.
-23. V45 no-raw-data git scanner.
+22. V46 returned-package documentation cross-link linter.
+23. V45/V46 readiness stale-output detector.
+24. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `23`
+- steps: `24`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

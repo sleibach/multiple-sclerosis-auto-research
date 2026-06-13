@@ -3,7 +3,7 @@
 Status: operator navigation infrastructure. No validation result and no biological claim.
 
 This manifest lists the returned-package artifacts in deterministic operator order.
-Overall status: `PASS`; rows: `15`; lint failures: `0`.
+Overall status: `PASS`; rows: `16`; lint failures: `0`.
 
 | Order | Phase | Artifact | Role | Doc |
 |---:|---|---|---|---|
@@ -22,6 +22,7 @@ Overall status: `PASS`; rows: `15`; lint failures: `0`.
 | 13 | `repair_handoff` | `repair_request_templates` | Draft safe author-facing repair requests for blocked returned-package states. | `docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md` |
 | 14 | `repair_handoff` | `first30_repair_template_coverage` | Prove every first-30 stop route has local repair or a safe author-facing template. | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` |
 | 15 | `report_guard` | `result_report_safe_class_linter` | Ensure any report cites a safe class and avoids forbidden score language when blocked. | `docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md` |
+| 16 | `operator_navigation` | `returned_package_doc_crosslink_linter` | Verify every returned-package script has direct documentation and operator-route reachability. | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` |
 
 Every row is a pre-score navigation or guard artifact. The manifest does not
 authorize result interpretation; the V46 safe class and V42 pre-registration

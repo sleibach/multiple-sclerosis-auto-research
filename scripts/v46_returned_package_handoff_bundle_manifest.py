@@ -154,6 +154,15 @@ ARTIFACTS = [
         "doc": "docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md",
         "primary_output": "analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json",
     },
+    {
+        "sequence": 16,
+        "phase": "operator_navigation",
+        "artifact_id": "returned_package_doc_crosslink_linter",
+        "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
+        "command": ".venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_returned_package_doc_crosslink_linter --fail-on-error",
+        "doc": "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
+        "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
+    },
 ]
 
 

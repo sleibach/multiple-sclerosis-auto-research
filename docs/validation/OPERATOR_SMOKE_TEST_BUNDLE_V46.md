@@ -49,13 +49,14 @@ validation harness, or interpret biology.
 24. V46 returned-package preflight dry run.
 25. V46 returned-package state-transition validator.
 26. V46 returned-package handoff bundle manifest.
-27. V45 no-raw-data git scanner.
+27. V46 returned-package documentation cross-link linter.
+28. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `27`;
+- steps: `28`;
 - failures: `0`;
 - overall status: `PASS`.
 

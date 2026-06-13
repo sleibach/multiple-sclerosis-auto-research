@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `47`
+- artifacts checked: `48`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -70,6 +70,7 @@ Checked generated artifacts:
 - V46 returned-package preflight dry run;
 - V46 returned-package state-transition validator;
 - V46 returned-package handoff bundle manifest;
+- V46 returned-package documentation cross-link linter;
 - V46 external blocker aging audit;
 - V46 operator smoke-test bundle.
 
