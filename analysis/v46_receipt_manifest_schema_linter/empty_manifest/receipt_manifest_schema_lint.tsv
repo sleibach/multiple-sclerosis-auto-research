@@ -1,0 +1,4 @@
+case	row_number	check	status	detail
+empty_manifest		required_columns_present	PASS	all required columns present
+empty_manifest		no_extra_columns	PASS	no extra columns
+empty_manifest		has_at_least_one_row	FAIL	0

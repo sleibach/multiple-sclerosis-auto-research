@@ -92,6 +92,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_partial_label_return_classifier.py", "synthetic-check", "--outdir", rel(outdir / "partial_label_return_classifier")],
         ),
         (
+            "receipt_manifest_schema_linter_synthetic",
+            "returned_package",
+            [py, "scripts/v46_receipt_manifest_schema_linter.py", "synthetic-check", "--outdir", rel(outdir / "receipt_manifest_schema_linter")],
+        ),
+        (
             "package_manifest_shape_classifier_synthetic",
             "returned_package",
             [py, "scripts/v46_package_manifest_shape_classifier.py", "synthetic-check", "--outdir", rel(outdir / "package_manifest_shape_classifier")],

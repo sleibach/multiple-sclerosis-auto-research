@@ -1,0 +1,9 @@
+case	row_number	check	status	detail
+remote_private_url		required_columns_present	PASS	all required columns present
+remote_private_url		no_extra_columns	PASS	no extra columns
+remote_private_url		has_at_least_one_row	PASS	1
+remote_private_url	1	path_is_relative_non_sensitive_aggregate	FAIL	external_uri_not_manifest_safe
+remote_private_url	1	sensitivity_class_safe	PASS	derived_non_sensitive_summary
+remote_private_url	1	commit_allowed_safe	PASS	yes
+remote_private_url	1	bytes_present_or_unknown	PASS	123
+remote_private_url	1	sha_recorded_or_not_recordable	PASS	synthetic

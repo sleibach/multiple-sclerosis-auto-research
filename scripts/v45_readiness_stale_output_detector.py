@@ -419,6 +419,20 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_safe_interpretation",
     },
     {
+        "artifact": "v46_receipt_manifest_schema_linter",
+        "sources": [
+            "docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md",
+            "docs/validation/input_schemas/V45_package_receipt_manifest_template.tsv",
+            "scripts/v46_receipt_manifest_schema_linter.py",
+        ],
+        "outputs": [
+            "analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json",
+            "analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_cases.tsv",
+            "analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_receipt_manifest_schema_linter.py synthetic-check --outdir analysis/v46_receipt_manifest_schema_linter",
+    },
+    {
         "artifact": "v46_package_manifest_shape_classifier",
         "sources": [
             "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
@@ -507,6 +521,8 @@ CHECKS = [
             "scripts/v46_terms_governance_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
+            "docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md",
+            "scripts/v46_receipt_manifest_schema_linter.py",
             "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
             "scripts/v46_package_manifest_shape_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",
@@ -702,6 +718,7 @@ CHECKS = [
             "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
             "analysis/v45_current_action_card/current_action_card_summary.json",
             "analysis/v45_cold_start_operator_sequence/cold_start_operator_sequence_summary.json",
+            "analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json",
             "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json",
             "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_summary.json",
             "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json",
@@ -742,6 +759,8 @@ CHECKS = [
             "scripts/v46_terms_governance_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
+            "docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md",
+            "scripts/v46_receipt_manifest_schema_linter.py",
             "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
             "scripts/v46_package_manifest_shape_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",

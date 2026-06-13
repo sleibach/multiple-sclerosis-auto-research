@@ -1,0 +1,9 @@
+case	row_number	check	status	detail
+restricted_sensitivity_class		required_columns_present	PASS	all required columns present
+restricted_sensitivity_class		no_extra_columns	PASS	no extra columns
+restricted_sensitivity_class		has_at_least_one_row	PASS	1
+restricted_sensitivity_class	1	path_is_relative_non_sensitive_aggregate	PASS	relative_non_sensitive_aggregate_path
+restricted_sensitivity_class	1	sensitivity_class_safe	FAIL	restricted_clinical
+restricted_sensitivity_class	1	commit_allowed_safe	FAIL	no
+restricted_sensitivity_class	1	bytes_present_or_unknown	PASS	123
+restricted_sensitivity_class	1	sha_recorded_or_not_recordable	PASS	synthetic

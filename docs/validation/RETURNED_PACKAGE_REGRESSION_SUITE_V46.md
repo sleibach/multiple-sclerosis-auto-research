@@ -25,30 +25,31 @@ data, run validation, change locked rules, or interpret biological results.
 1. V46 terms-governance matrix synthetic check.
 2. V46 metric-format adapter synthetic check.
 3. V46 partial-label classifier synthetic check.
-4. V46 package-manifest shape classifier synthetic check.
-5. V46 returned-package command-order planner synthetic check.
-6. V46 returned-package route-state matrix.
-7. V46 aggregate-only returned-package composition dry run.
-8. V46 unscoreable-return composition dry run.
-9. V46 safe-interpretation classifier synthetic check.
-10. V46 safe-wording fixture linter.
-11. V46 result-report safe-class linter.
-12. V46 small-n conclusion language table.
-13. V46 analyzable-pair confidence envelope.
-14. V46 return repair-request templates.
-15. V46 first-30-minute returned-package decision table.
-16. V46 first-30 repair-template coverage linter.
-17. V46 first-30 returned-package status-board dry run.
-18. V46 returned-package state-transition validator.
-19. V46 returned-package handoff bundle manifest.
-20. V45/V46 readiness stale-output detector.
-21. V45 no-raw-data git scanner.
+4. V46 receipt-manifest schema linter synthetic check.
+5. V46 package-manifest shape classifier synthetic check.
+6. V46 returned-package command-order planner synthetic check.
+7. V46 returned-package route-state matrix.
+8. V46 aggregate-only returned-package composition dry run.
+9. V46 unscoreable-return composition dry run.
+10. V46 safe-interpretation classifier synthetic check.
+11. V46 safe-wording fixture linter.
+12. V46 result-report safe-class linter.
+13. V46 small-n conclusion language table.
+14. V46 analyzable-pair confidence envelope.
+15. V46 return repair-request templates.
+16. V46 first-30-minute returned-package decision table.
+17. V46 first-30 repair-template coverage linter.
+18. V46 first-30 returned-package status-board dry run.
+19. V46 returned-package state-transition validator.
+20. V46 returned-package handoff bundle manifest.
+21. V45/V46 readiness stale-output detector.
+22. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `21`
+- steps: `22`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

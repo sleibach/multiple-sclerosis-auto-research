@@ -1,0 +1,9 @@
+case	row_number	check	status	detail
+raw_expression_path		required_columns_present	PASS	all required columns present
+raw_expression_path		no_extra_columns	PASS	no extra columns
+raw_expression_path		has_at_least_one_row	PASS	1
+raw_expression_path	1	path_is_relative_non_sensitive_aggregate	FAIL	raw_or_private_path_token:raw;counts;expression
+raw_expression_path	1	sensitivity_class_safe	PASS	derived_non_sensitive_summary
+raw_expression_path	1	commit_allowed_safe	PASS	yes
+raw_expression_path	1	bytes_present_or_unknown	PASS	123
+raw_expression_path	1	sha_recorded_or_not_recordable	PASS	synthetic

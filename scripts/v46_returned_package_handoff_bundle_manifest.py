@@ -40,6 +40,15 @@ ARTIFACTS = [
     {
         "sequence": 3,
         "phase": "pre_touch_guard",
+        "artifact_id": "receipt_manifest_schema_linter",
+        "role": "Verify the receipt manifest has safe non-sensitive columns and aggregate paths before classification.",
+        "command": ".venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest <receipt_manifest.tsv> --outdir analysis/v46_receipt_manifest_schema_linter/<cohort>_<date> --fail-on-error",
+        "doc": "docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md",
+        "primary_output": "analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json",
+    },
+    {
+        "sequence": 4,
+        "phase": "pre_touch_guard",
         "artifact_id": "package_manifest_shape_classifier",
         "role": "Classify the returned package from receipt manifest filenames and terms only.",
         "command": ".venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest <receipt_manifest.tsv> --terms-class <TERMS_CLASS> --outdir analysis/v46_package_manifest_shape_classifier/<cohort>_<date> --fail-on-error",
@@ -47,7 +56,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json",
     },
     {
-        "sequence": 4,
+        "sequence": 5,
         "phase": "first_30_minutes",
         "artifact_id": "first30_decision_table",
         "role": "Follow the first 30 minutes of package handling without reading score values.",
@@ -56,7 +65,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_summary.json",
     },
     {
-        "sequence": 5,
+        "sequence": 6,
         "phase": "first_30_minutes",
         "artifact_id": "first30_status_board",
         "role": "Summarize route, blocker, next command, and safe team wording without reading score values.",
@@ -65,7 +74,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json",
     },
     {
-        "sequence": 6,
+        "sequence": 7,
         "phase": "command_order",
         "artifact_id": "command_order_planner",
         "role": "Generate the route-specific command order using package-state and metric-format state.",
@@ -74,7 +83,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_command_order_planner/returned_package_command_order_synthetic_summary.json",
     },
     {
-        "sequence": 7,
+        "sequence": 8,
         "phase": "state_guard",
         "artifact_id": "state_transition_validator",
         "role": "Verify no report/score state is reachable before required gates and safe class.",
@@ -83,7 +92,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
     },
     {
-        "sequence": 8,
+        "sequence": 9,
         "phase": "interpretation_boundary",
         "artifact_id": "safe_interpretation_classifier",
         "role": "Assign the V46 safe class after all prerequisite gate summaries exist.",
@@ -92,7 +101,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json",
     },
     {
-        "sequence": 9,
+        "sequence": 10,
         "phase": "underpowered_language",
         "artifact_id": "small_n_language",
         "role": "Constrain wording for underpowered or partial-label returns.",
@@ -101,7 +110,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json",
     },
     {
-        "sequence": 10,
+        "sequence": 11,
         "phase": "underpowered_language",
         "artifact_id": "analyzable_pair_confidence_envelope",
         "role": "Map analyzable-pair counts to pass/fail/inconclusive wording constraints.",
@@ -110,7 +119,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_summary.json",
     },
     {
-        "sequence": 11,
+        "sequence": 12,
         "phase": "repair_handoff",
         "artifact_id": "repair_request_templates",
         "role": "Draft safe author-facing repair requests for blocked returned-package states.",
@@ -119,7 +128,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json",
     },
     {
-        "sequence": 12,
+        "sequence": 13,
         "phase": "repair_handoff",
         "artifact_id": "first30_repair_template_coverage",
         "role": "Prove every first-30 stop route has local repair or a safe author-facing template.",
@@ -128,7 +137,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
     },
     {
-        "sequence": 13,
+        "sequence": 14,
         "phase": "report_guard",
         "artifact_id": "result_report_safe_class_linter",
         "role": "Ensure any report cites a safe class and avoids forbidden score language when blocked.",

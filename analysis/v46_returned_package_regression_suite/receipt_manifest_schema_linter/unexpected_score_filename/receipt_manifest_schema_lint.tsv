@@ -1,0 +1,9 @@
+case	row_number	check	status	detail
+unexpected_score_filename		required_columns_present	PASS	all required columns present
+unexpected_score_filename		no_extra_columns	PASS	no extra columns
+unexpected_score_filename		has_at_least_one_row	PASS	1
+unexpected_score_filename	1	path_is_relative_non_sensitive_aggregate	FAIL	unexpected_filename:mystery_auc_results.tsv
+unexpected_score_filename	1	sensitivity_class_safe	PASS	derived_non_sensitive_summary
+unexpected_score_filename	1	commit_allowed_safe	PASS	yes
+unexpected_score_filename	1	bytes_present_or_unknown	PASS	123
+unexpected_score_filename	1	sha_recorded_or_not_recordable	PASS	synthetic

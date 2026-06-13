@@ -42,7 +42,16 @@ The output is a routing recommendation only. It does not decide whether a return
 - `analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_lint.tsv`
 - per-case synthetic classification summaries under `analysis/v46_package_manifest_shape_classifier/<case>/`
 
-For a real received package, run:
+For a real received package, run the receipt-manifest schema linter first:
+
+```bash
+.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint \
+  --manifest <receipt_manifest.tsv> \
+  --outdir analysis/v46_receipt_manifest_schema_linter/<cohort>_<date> \
+  --fail-on-error
+```
+
+Only if that linter passes, run:
 
 ```bash
 .venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify \
