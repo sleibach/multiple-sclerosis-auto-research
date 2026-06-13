@@ -522,6 +522,8 @@ CHECKS = [
             "scripts/v46_return_repair_request_templates.py",
             "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
             "scripts/v46_first30_returned_package_decision_table.py",
+            "docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md",
+            "scripts/v46_first30_repair_template_coverage_linter.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
         ],
@@ -637,6 +639,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_first30_returned_package_decision_table --fail-on-error",
     },
     {
+        "artifact": "v46_first30_repair_template_coverage_linter",
+        "sources": [
+            "docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md",
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_table.tsv",
+            "analysis/v46_return_repair_request_templates/repair_request_template_index.tsv",
+            "analysis/v46_return_repair_request_templates/repair_request_template_lint.tsv",
+            "scripts/v46_first30_repair_template_coverage_linter.py",
+        ],
+        "outputs": [
+            "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
+            "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage.tsv",
+            "analysis/v46_first30_repair_template_coverage_linter/repair_template_safe_class_coverage.tsv",
+            "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_lint.tsv",
+            "analysis/v46_first30_repair_template_coverage_linter/FIRST30_REPAIR_TEMPLATE_COVERAGE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_first30_repair_template_coverage_linter --fail-on-error",
+    },
+    {
         "artifact": "v46_returned_package_state_transition_validator",
         "sources": [
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
@@ -696,6 +716,8 @@ CHECKS = [
             "scripts/v46_return_repair_request_templates.py",
             "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
             "scripts/v46_first30_returned_package_decision_table.py",
+            "docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md",
+            "scripts/v46_first30_repair_template_coverage_linter.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
             "scripts/v46_external_blocker_aging_audit.py",

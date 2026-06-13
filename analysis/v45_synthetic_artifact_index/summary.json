@@ -61,6 +61,12 @@
       "n_files": 6
     },
     {
+      "allowed_interpretation": "first-30 repair-template coverage only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 5
+    },
+    {
       "allowed_interpretation": "generated-checker registry only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -286,7 +292,7 @@
       "allowed_interpretation": "software/readiness regression only",
       "class": "synthetic_regression",
       "n_dirs": 2,
-      "n_files": 721
+      "n_files": 731
     },
     {
       "allowed_interpretation": "software regression only",
@@ -326,7 +332,7 @@
     }
   ],
   "n_dirs_containing_synthetic": 74,
-  "n_dirs_indexed": 109,
+  "n_dirs_indexed": 110,
   "purpose": "V43-V46 artifact governance index; no biological claim",
   "synthetic": false
 }

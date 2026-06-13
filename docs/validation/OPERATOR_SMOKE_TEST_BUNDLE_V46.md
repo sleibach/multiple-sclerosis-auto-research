@@ -43,14 +43,15 @@ validation harness, or interpret biology.
 18. V46 analyzable-pair confidence envelope.
 19. V46 return repair-request templates.
 20. V46 first-30-minute returned-package decision table.
-21. V46 returned-package state-transition validator.
-22. V45 no-raw-data git scanner.
+21. V46 first-30 repair-template coverage linter.
+22. V46 returned-package state-transition validator.
+23. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `22`;
+- steps: `23`;
 - failures: `0`;
 - overall status: `PASS`.
 
