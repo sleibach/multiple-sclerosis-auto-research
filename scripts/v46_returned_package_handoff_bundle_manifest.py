@@ -75,6 +75,15 @@ ARTIFACTS = [
     },
     {
         "sequence": 7,
+        "phase": "preflight_composition",
+        "artifact_id": "returned_package_preflight_dryrun",
+        "role": "Run one synthetic-safe command that composes schema lint, shape classification, first-30 routing, state validation, and repair coverage.",
+        "command": ".venv/bin/python scripts/v46_returned_package_preflight_dryrun.py --outdir analysis/v46_returned_package_preflight_dryrun --fail-on-error",
+        "doc": "docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md",
+        "primary_output": "analysis/v46_returned_package_preflight_dryrun/returned_package_preflight_dryrun_summary.json",
+    },
+    {
+        "sequence": 8,
         "phase": "command_order",
         "artifact_id": "command_order_planner",
         "role": "Generate the route-specific command order using package-state and metric-format state.",
@@ -83,7 +92,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_command_order_planner/returned_package_command_order_synthetic_summary.json",
     },
     {
-        "sequence": 8,
+        "sequence": 9,
         "phase": "state_guard",
         "artifact_id": "state_transition_validator",
         "role": "Verify no report/score state is reachable before required gates and safe class.",
@@ -92,7 +101,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
     },
     {
-        "sequence": 9,
+        "sequence": 10,
         "phase": "interpretation_boundary",
         "artifact_id": "safe_interpretation_classifier",
         "role": "Assign the V46 safe class after all prerequisite gate summaries exist.",
@@ -101,7 +110,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json",
     },
     {
-        "sequence": 10,
+        "sequence": 11,
         "phase": "underpowered_language",
         "artifact_id": "small_n_language",
         "role": "Constrain wording for underpowered or partial-label returns.",
@@ -110,7 +119,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json",
     },
     {
-        "sequence": 11,
+        "sequence": 12,
         "phase": "underpowered_language",
         "artifact_id": "analyzable_pair_confidence_envelope",
         "role": "Map analyzable-pair counts to pass/fail/inconclusive wording constraints.",
@@ -119,7 +128,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_summary.json",
     },
     {
-        "sequence": 12,
+        "sequence": 13,
         "phase": "repair_handoff",
         "artifact_id": "repair_request_templates",
         "role": "Draft safe author-facing repair requests for blocked returned-package states.",
@@ -128,7 +137,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json",
     },
     {
-        "sequence": 13,
+        "sequence": 14,
         "phase": "repair_handoff",
         "artifact_id": "first30_repair_template_coverage",
         "role": "Prove every first-30 stop route has local repair or a safe author-facing template.",
@@ -137,7 +146,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
     },
     {
-        "sequence": 14,
+        "sequence": 15,
         "phase": "report_guard",
         "artifact_id": "result_report_safe_class_linter",
         "role": "Ensure any report cites a safe class and avoids forbidden score language when blocked.",

@@ -1,0 +1,9 @@
+case	row_number	check	status	detail
+none		required_columns_present	PASS	all required columns present
+none		no_extra_columns	PASS	no extra columns
+none		has_at_least_one_row	PASS	1
+none	1	path_is_relative_non_sensitive_aggregate	PASS	relative_non_sensitive_aggregate_path
+none	1	sensitivity_class_safe	PASS	derived_non_sensitive_summary
+none	1	commit_allowed_safe	PASS	yes
+none	1	bytes_present_or_unknown	PASS	123
+none	1	sha_recorded_or_not_recordable	PASS	synthetic
