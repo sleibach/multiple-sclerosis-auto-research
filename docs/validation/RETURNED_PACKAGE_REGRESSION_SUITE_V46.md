@@ -36,29 +36,30 @@ data, run validation, change locked rules, or interpret biological results.
 12. V46 safe-wording fixture linter.
 13. V46 result-report safe-class linter.
 14. V46 report-header metadata linter.
-15. V46 safe-class report-template readiness map.
-16. V46 small-n conclusion language table.
-17. V46 analyzable-pair confidence envelope.
-18. V46 return repair-request templates.
-19. V46 partial-label repair prioritization.
-20. V46 first-30-minute returned-package decision table.
-21. V46 first-30 repair-template coverage linter.
-22. V46 first-30 returned-package status-board dry run.
-23. V46 returned-package status-board schema linter.
-24. V46 status-board Markdown round-trip renderer.
-25. V46 returned-package preflight dry run.
-26. V46 returned-package state-transition validator.
-27. V46 returned-package handoff bundle manifest.
-28. V46 returned-package documentation cross-link linter.
-29. V45/V46 readiness stale-output detector.
-30. V46 returned-package dependency graph.
-31. V45 no-raw-data git scanner.
+15. V46 report-header repair-template coverage.
+16. V46 safe-class report-template readiness map.
+17. V46 small-n conclusion language table.
+18. V46 analyzable-pair confidence envelope.
+19. V46 return repair-request templates.
+20. V46 partial-label repair prioritization.
+21. V46 first-30-minute returned-package decision table.
+22. V46 first-30 repair-template coverage linter.
+23. V46 first-30 returned-package status-board dry run.
+24. V46 returned-package status-board schema linter.
+25. V46 status-board Markdown round-trip renderer.
+26. V46 returned-package preflight dry run.
+27. V46 returned-package state-transition validator.
+28. V46 returned-package handoff bundle manifest.
+29. V46 returned-package documentation cross-link linter.
+30. V45/V46 readiness stale-output detector.
+31. V46 returned-package dependency graph.
+32. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `31`
+- steps: `32`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

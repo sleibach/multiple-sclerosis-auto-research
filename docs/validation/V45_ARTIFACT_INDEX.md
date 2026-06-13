@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `2810` paths across `8` fronts and `9` evidence classes.
+The current run indexes `2815` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,7 +44,7 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| infrastructure | 1751 |
+| infrastructure | 1756 |
 | robustness | 793 |
 | power/design | 115 |
 | cohort dependence | 87 |
@@ -58,9 +58,9 @@ Evidence-class counts:
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
 | synthetic method behavior | 1306 | method behavior/planning only; never biological evidence |
-| documentation/governance | 873 | governance/readiness documentation |
+| documentation/governance | 877 | governance/readiness documentation |
 | validation infrastructure | 358 | mechanical guardrail/readiness; no biological claim |
-| software | 109 | executable infrastructure; no biological claim by itself |
+| software | 110 | executable infrastructure; no biological claim by itself |
 | public/external acquisition operations | 114 | cohort availability/request readiness; no validation claim |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
 | synthesis documentation | 14 | external framing/checklist; no new analysis |

@@ -42,28 +42,29 @@ validation harness, or interpret biology.
 17. V46 safe-wording fixture linter.
 18. V46 result-report safe-class linter.
 19. V46 report-header metadata linter.
-20. V46 safe-class report-template readiness map.
-21. V46 small-n conclusion language table.
-22. V46 analyzable-pair confidence envelope.
-23. V46 return repair-request templates.
-24. V46 partial-label repair prioritization.
-25. V46 first-30-minute returned-package decision table.
-26. V46 first-30 repair-template coverage linter.
-27. V46 first-30 returned-package status-board dry run.
-28. V46 returned-package status-board schema linter.
-29. V46 status-board Markdown round-trip renderer.
-30. V46 returned-package preflight dry run.
-31. V46 returned-package state-transition validator.
-32. V46 returned-package handoff bundle manifest.
-33. V46 returned-package documentation cross-link linter.
-34. V46 returned-package dependency graph.
-35. V45 no-raw-data git scanner.
+20. V46 report-header repair-template coverage.
+21. V46 safe-class report-template readiness map.
+22. V46 small-n conclusion language table.
+23. V46 analyzable-pair confidence envelope.
+24. V46 return repair-request templates.
+25. V46 partial-label repair prioritization.
+26. V46 first-30-minute returned-package decision table.
+27. V46 first-30 repair-template coverage linter.
+28. V46 first-30 returned-package status-board dry run.
+29. V46 returned-package status-board schema linter.
+30. V46 status-board Markdown round-trip renderer.
+31. V46 returned-package preflight dry run.
+32. V46 returned-package state-transition validator.
+33. V46 returned-package handoff bundle manifest.
+34. V46 returned-package documentation cross-link linter.
+35. V46 returned-package dependency graph.
+36. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `35`;
+- steps: `36`;
 - failures: `0`;
 - overall status: `PASS`.
 

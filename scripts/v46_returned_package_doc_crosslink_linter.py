@@ -98,6 +98,11 @@ REQUIRED_SCRIPTS = [
         "role": "report-header metadata linter",
     },
     {
+        "script": "scripts/v46_report_header_repair_template_coverage.py",
+        "doc": "docs/validation/REPORT_HEADER_REPAIR_TEMPLATE_COVERAGE_V46.md",
+        "role": "report-header repair-template coverage",
+    },
+    {
         "script": "scripts/v46_safe_class_report_template_readiness.py",
         "doc": "docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md",
         "role": "safe-class report-template readiness",

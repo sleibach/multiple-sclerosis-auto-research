@@ -1,0 +1,64 @@
+issue_id	field	check	status	detail	score_values_read
+missing_cohort_token	cohort_token	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_cohort_token	cohort_token	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_cohort_token	cohort_token	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_cohort_token	cohort_token	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_cohort_token	cohort_token	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_cohort_token	cohort_token	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_cohort_token	cohort_token	names_field	PASS	`cohort_token`	false
+missing_cohort_token	cohort_token	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_cohort_token	cohort_token	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+missing_route_class	route_class	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_route_class	route_class	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_route_class	route_class	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_route_class	route_class	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_route_class	route_class	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_route_class	route_class	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_route_class	route_class	names_field	PASS	`route_class`	false
+missing_route_class	route_class	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_route_class	route_class	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+missing_terms_class	terms_class	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_terms_class	terms_class	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_terms_class	terms_class	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_terms_class	terms_class	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_terms_class	terms_class	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_terms_class	terms_class	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_terms_class	terms_class	names_field	PASS	`terms_class`	false
+missing_terms_class	terms_class	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_terms_class	terms_class	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+missing_safe_class	safe_class	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_safe_class	safe_class	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_safe_class	safe_class	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_safe_class	safe_class	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_safe_class	safe_class	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_safe_class	safe_class	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_safe_class	safe_class	names_field	PASS	`safe_class`	false
+missing_safe_class	safe_class	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_safe_class	safe_class	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_locked_rule_path	locked_rule_path	names_field	PASS	`locked_rule_path`	false
+missing_locked_rule_path	locked_rule_path	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_locked_rule_path	locked_rule_path	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	names_field	PASS	`locked_rule_sha256`	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+missing_or_wrong_locked_rule_sha256	locked_rule_sha256	contains_no_rule_change_boundary	PASS	changing the locked rule	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\bAUC\s*[=:]	PASS	absent	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\bp\s*[=:]	PASS	absent	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\beffect[- ]size\s*[=:]	PASS	absent	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\bvalidation (?:passed|failed|succeeded)\b	PASS	absent	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\bthe rule (?:passed|failed)\b	PASS	absent	false
+metadata_after_result_text	all_required_fields	forbidden_pattern:\bconfirmed\b	PASS	absent	false
+metadata_after_result_text	all_required_fields	names_field	PASS	all required provenance fields	false
+metadata_after_result_text	all_required_fields	contains_no_score_boundary	PASS	No score-bearing text may appear before the corrected header passes	false
+metadata_after_result_text	all_required_fields	contains_no_rule_change_boundary	PASS	changing the locked rule	false
