@@ -32,6 +32,7 @@ No external knowledge integration occurs until:
 | 3 | 2026-06-13T18:47:37Z | 2026-06-13T18:49:00Z | done | Added the empty external source-catalog skeleton under `knowledge_external/catalogs/` plus a resource-record schema. Fixed the provenance gate to skip catalog schemas and structural catalog README files while still auditing real JSON records. Synthetic and real provenance audits PASS; no external source records added. |
 | 4 | 2026-06-13T18:49:00Z | 2026-06-13T18:53:56Z | done | Added `scripts/v47_external_knowledge_index.py`, a class-aware external-record index generator with synthetic fixtures. Real index generated under `knowledge_external/catalogs/indexes/` with `0` records; synthetic aggregation PASS (`2` fixture records, class counts preserved). Governance outputs refreshed: registry PASS (`119` scripts), stale detector PASS (`66` artifacts), provenance audit PASS. |
 | 5 | 2026-06-13T18:53:56Z | 2026-06-13T18:59:15Z | done | Verified official/primary public pages and added 8 external-unverifiable resource records: MSGD, MS Data Alliance Catalogue, MSBase, NARCOMS, IMSGC, GWAS Catalog, DISGENET, and Open Targets. Real external index PASS (`8` records, `0` missing source/marker); provenance audit PASS (`73` checks, `8` records, `0` failures). |
+| 6 | 2026-06-13T18:59:15Z | 2026-06-13T19:04:33Z | done | Verified official/primary public pages and added 13 external-unverifiable resource records for literature, functional genomics, controlled genomics, sequencing archives, clinical trials, and general repositories: PubMed, Europe PMC, GEO, EGA, ArrayExpress/BioStudies, BioStudies, SRA, ENA, ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF. Real external index PASS (`21` records total); provenance audit PASS (`190` checks, `21` records, `0` failures); stale detector PASS. |
 
 ## Live Backlog
 
@@ -47,10 +48,12 @@ No external knowledge integration occurs until:
 | 8 | External integration | MSBase/NARCOMS/IMSGC/GWAS Catalog comparator records | done | Records added for MSBase, NARCOMS, IMSGC, and GWAS Catalog after source verification. |
 | 9 | Governance | Add an external-record index generator and synthetic fixtures proving class labels survive aggregation | done | Same output as item 5; synthetic fixture proves class labels survive aggregation. |
 | 10 | External integration | DisGeNET and Open Targets comparator records | done | Records added after source verification; both retained as external-unverifiable resource metadata. |
-| 11 | External integration | PubMed/Europe PMC, GEO, EGA, and ArrayExpress/BioStudies source records | todo | Requires source verification; useful for public knowledge-base navigation. |
+| 11 | External integration | PubMed/Europe PMC, GEO, EGA, and ArrayExpress/BioStudies source records | done | Records added after source verification; includes BioStudies as its own resource record. |
 | 12 | Synthesis | Create class-aware convergence/contradiction skeleton that reads the external index but contains no claims until records exist | todo | Must remain under `knowledge_external/synthesis/` or `docs/knowledge/`. |
-| 13 | External integration | ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF source records | todo | Public acquisition/navigation resources; verify source pages before record creation. |
+| 13 | External integration | ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF source records | done | Records added after source verification; SRA and ENA added as additional sequence-archive acquisition routes. |
 | 14 | Governance | Add optional resource-record JSON schema validation checker when `jsonschema` is available, with graceful unavailable status | todo | Local `jsonschema` currently unavailable; can still add a built-in required-field check. |
+| 15 | External integration | MS-specific landmark external knowledge records for current disease-course and DMT mechanisms | todo | Must be external-classed with sources; no changes to grounded conclusions. |
+| 16 | Navigation/index | Add resource-category rollup for external records so public readers can browse by literature / registry / genetics / data repository | todo | Should read only `knowledge_external` records and preserve class labels. |
 
 ## Running Notes
 
@@ -88,3 +91,11 @@ No external knowledge integration occurs until:
   `0` missing source/marker; provenance gate reports `73` checks, `8` external
   JSON records, `0` failures. Local `jsonschema` module was unavailable; the
   committed provenance gate and index required-field checks were used.
+- 2026-06-13T19:04:33Z: Second external resource batch integrated under strict
+  segregation. Thirteen records added for PubMed, Europe PMC, GEO, EGA,
+  ArrayExpress/BioStudies, BioStudies, SRA, ENA, ClinicalTrials.gov, Zenodo,
+  Figshare, Dryad, and OSF. All are `external-unverifiable` resource metadata
+  and explicitly `NOT_PROJECT_GROUNDED`. Real external index reports `21`
+  records total with `0` missing source/marker; provenance gate reports `190`
+  checks, `21` external JSON records, `0` failures; stale-output detector
+  `PASS`.

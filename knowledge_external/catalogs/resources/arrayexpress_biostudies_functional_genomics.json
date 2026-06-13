@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "The ArrayExpress functional-genomics data collection in BioStudies is an external EMBL-EBI resource storing high-throughput functional-genomics experiment metadata, processed data, raw data links, and reusable study records.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Candidate ArrayExpress/BioStudies studies can be downloaded or linked through ENA, hashed, checked for labels/timepoints/module genes, and then processed by project scripts before use.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Alternative transcriptomic cohort discovery source beyond GEO.",
+  "record_id": "resource.arrayexpress_biostudies.functional_genomics.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "ArrayExpress in BioStudies",
+  "source": {
+    "label": "ArrayExpress in BioStudies page",
+    "url": "https://www.ebi.ac.uk/arrayexpress/"
+  },
+  "unique_knowledge_lacks_in_repo": "EMBL-EBI functional-genomics study records with sample annotations, protocols, processed data, and sequence-read links.",
+  "why_unverifiable": "ArrayExpress/BioStudies metadata and submitted files are external until a specific study is acquired, hashed, and processed inside this repository."
+}
+

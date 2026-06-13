@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "NCBI SRA is an external public repository for high-throughput sequencing data that stores raw sequencing data and alignment information to support reproducibility and reanalysis.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "SRA runs linked to candidate MS studies can be downloaded through project acquisition scripts, hashed, metadata-checked, and processed before use.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Raw sequencing acquisition route for public transcriptomic or genomic studies.",
+  "record_id": "resource.sra.sequence_read_archive.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "NCBI Sequence Read Archive",
+  "source": {
+    "label": "NCBI SRA home page",
+    "url": "https://www.ncbi.nlm.nih.gov/sra"
+  },
+  "unique_knowledge_lacks_in_repo": "Raw sequencing runs and alignments associated with public studies, including datasets whose processed expression tables are incomplete.",
+  "why_unverifiable": "SRA's run metadata and files are external until specific accessions are downloaded and checked by this project."
+}
+

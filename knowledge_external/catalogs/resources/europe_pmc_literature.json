@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "Europe PMC is an external free life-sciences literature search resource providing access to trusted literature sources, including abstracts and full text where available.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Europe PMC search hits can be used to identify data-availability statements and queued dataset leads; any scientific claim still requires project grounding or explicit external labeling.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Published-paper and supplement mining for MS cohorts and prior-art context.",
+  "record_id": "resource.europe_pmc.literature.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "Europe PMC",
+  "source": {
+    "label": "Europe PMC home page",
+    "url": "https://europepmc.org/"
+  },
+  "unique_knowledge_lacks_in_repo": "Free literature search with full-text mining routes useful for data-availability statement discovery.",
+  "why_unverifiable": "Europe PMC's literature corpus, text-mining, and source aggregation are external to the project's rerunnable data pipeline."
+}
+

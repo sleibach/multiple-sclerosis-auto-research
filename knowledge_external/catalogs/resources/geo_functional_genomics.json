@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "NCBI GEO is an external public functional-genomics repository supporting MIAME-compliant array and sequence-based submissions, with tools to query and download experiments and gene-expression profiles.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Candidate GEO series can be downloaded, hashed, checked for paired samples/labels/module genes, and then promoted only through the project's normal data-grounding pipeline.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Primary public transcriptomic cohort discovery source.",
+  "record_id": "resource.geo.functional_genomics.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "NCBI Gene Expression Omnibus",
+  "source": {
+    "label": "NCBI GEO home page",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/"
+  },
+  "unique_knowledge_lacks_in_repo": "Public submitted functional-genomics studies and associated sample/platform metadata across many diseases and experimental designs.",
+  "why_unverifiable": "GEO's repository contents and submitter metadata are external until a specific dataset is downloaded, hashed, and processed by the project."
+}
+
