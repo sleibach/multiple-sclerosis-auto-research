@@ -966,6 +966,25 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_quickstart_drift_fixture.py --outdir analysis/v46_quickstart_drift_fixture --fail-on-error",
     },
     {
+        "artifact": "v46_returned_package_operator_pocket_card",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_OPERATOR_POCKET_CARD_V46.md",
+            "analysis/v46_returned_package_quickstart_readme/returned_package_quickstart_commands.tsv",
+            "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv",
+            "analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv",
+            "scripts/v46_returned_package_operator_pocket_card.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_operator_pocket_card/pocket_card_summary.json",
+            "analysis/v46_returned_package_operator_pocket_card/RETURNED_PACKAGE_OPERATOR_POCKET_CARD.md",
+            "analysis/v46_returned_package_operator_pocket_card/pocket_card_commands.tsv",
+            "analysis/v46_returned_package_operator_pocket_card/pocket_card_first30.tsv",
+            "analysis/v46_returned_package_operator_pocket_card/pocket_card_safe_classes.tsv",
+            "analysis/v46_returned_package_operator_pocket_card/pocket_card_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_operator_pocket_card.py --outdir analysis/v46_returned_package_operator_pocket_card --fail-on-error",
+    },
+    {
         "artifact": "v46_partial_label_repair_prioritization",
         "sources": [
             "docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md",
