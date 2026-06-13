@@ -36,12 +36,13 @@ full artifact corpus.
 | 19 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
 | 20 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
 | 21 | returned-package command order | `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` |
-| 22 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
-| 23 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
-| 24 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
-| 25 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
-| 26 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
-| 27 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
+| 22 | aggregate-only composition dry run | `docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md` |
+| 23 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
+| 24 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
+| 25 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
+| 26 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
+| 27 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
+| 28 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
 
 ## Current Headline
 

@@ -1,0 +1,27 @@
+step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/redaction_precheck --fail-on-error	0	0.038	PASS	"{
+  ""audit"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/redaction_precheck/author_run_redaction_precheck.tsv"",
+  ""n_block"": 0,
+  ""n_files_scanned"": 9,
+  ""n_warn"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""author-run aggregate package redaction precheck; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+  ""synthetic"": false
+}
+"	
+author_run_output_completeness	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/output_completeness --fail-on-error	0	0.317	PASS	"{
+  ""n_hard_fail"": 0,
+  ""n_required_now"": 9,
+  ""n_rows"": 10,
+  ""overall_status"": ""PASS"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run returned-output completeness check; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+  ""status_counts"": {
+    ""MISSING"": 1,
+    ""PRESENT"": 9
+  },
+  ""synthetic"": false
+}
+"	

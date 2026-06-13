@@ -1,0 +1,11 @@
+check	expected	observed	status	detail
+all_subcommands_return_expected_code	0	0	PASS	all composed scripts completed as expected
+terms_class	AGGREGATE_ONLY_LOCAL_PREFLIGHT	AGGREGATE_ONLY_LOCAL_PREFLIGHT	PASS	aggregate-only local preflight route
+command_order_plan_status	PASS	PASS	PASS	noncanonical package has a valid ordered plan
+metric_adapter_status	PASS	PASS	PASS	alias package normalized
+return_gate_status	PASS	PASS	PASS	redaction and completeness passed on normalized aggregate package
+schema_status	PASS	PASS	PASS	aggregate values passed schema validation
+partial_label_class	PARTIAL_LABELS_BELOW_PLANNING_FLOOR	PARTIAL_LABELS_BELOW_PLANNING_FLOOR	PASS	partial labels force below-floor wording
+safe_interpretation_class	BELOW_V45_PLANNING_FLOOR	BELOW_V45_PLANNING_FLOOR	PASS	final wording blocks pass/fail interpretation
+command_plan_no_score_values_read	true	true	PASS	planner rows preserve no-score-before-gates boundary
+safe_classifier_no_score_values_read	false	false	PASS	safe classifier reads no returned score values

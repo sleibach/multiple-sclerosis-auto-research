@@ -1,0 +1,18 @@
+{
+  "expect_class": "BELOW_V45_PLANNING_FLOOR",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not call pass, fail, or inconclusive based on the returned score.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "BELOW_V45_PLANNING_FLOOR",
+  "safe_interpretation": "Report that analyzable labeled pairs are below the V45 planning floor; use only for logistics and future design.",
+  "score_values_read": false,
+  "signals": "analysis/v46_aggregate_only_returned_package_composition_dryrun/safe_interpretation_classifier/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_aggregate_only_returned_package_composition_dryrun/synthetic/batch_confounder_clean.json",
+    "gate_summary": "analysis/v46_aggregate_only_returned_package_composition_dryrun/author_run_return_gate/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v46_aggregate_only_returned_package_composition_dryrun/aggregate_schema_validator/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

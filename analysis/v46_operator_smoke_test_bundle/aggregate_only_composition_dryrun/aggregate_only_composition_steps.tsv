@@ -1,0 +1,157 @@
+step	command	expected_returncode	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+build_noncanonical_variant	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed	0	0	1.118	PASS	"ation"",
+  ""source_root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package"",
+  ""synthetic"": true
+}
+{
+  ""manifest"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/missing_required_adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 1,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/missing_required_adapter/normalized_package"",
+  ""overall_status"": ""FAIL"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_missing_required_package"",
+  ""synthetic"": true
+}
+{
+  ""adapter_summary"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/adapter/metric_format_adapter_summary.json"",
+  ""check_table"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/metric_format_adapter_synthetic_checks.tsv"",
+  ""missing_required_adapter_summary"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/missing_required_adapter/metric_format_adapter_summary.json"",
+  ""missing_required_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_missing_required_package"",
+  ""n_checks"": 4,
+  ""n_fail"": 0,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter synthetic verification; no biological claim"",
+  ""synthetic"": true,
+  ""variant_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package""
+}
+"	(empty)
+terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py classify --terms analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/terms_governance --expect-class AGGREGATE_ONLY_LOCAL_PREFLIGHT	0	0	0.316	PASS	"{
+  ""decision"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/terms_governance/terms_governance_decision.tsv"",
+  ""expect_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not commit individual-level expression, clinical labels, or restricted agreements"",
+  ""operator_gate_status"": ""pass"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""derived aggregate processing allowed; individual-level sharing remains restricted""
+  ],
+  ""result_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
+  ""safe_route"": ""local processing may proceed, but only derived aggregate summaries may be committed/reported"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv""
+}
+"	(empty)
+command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token synthetic_aggregate_only --package-root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --terms-capture analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --package-kind author_run_aggregate --package-state scored --metric-format-state noncanonical --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/command_order_plan --expect-status PASS	0	0	0.057	PASS	"{
+  ""cohort_token"": ""synthetic_aggregate_only"",
+  ""command_plan"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/command_order_plan/returned_package_command_plan.tsv"",
+  ""expect_status"": ""PASS"",
+  ""expectation_met"": true,
+  ""hard_stop_before_scores"": true,
+  ""metric_format_state"": ""noncanonical"",
+  ""n_conditional_steps"": 0,
+  ""n_steps"": 6,
+  ""n_stop_steps"": 0,
+  ""package_kind"": ""author_run_aggregate"",
+  ""package_state"": ""scored"",
+  ""plan_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
+  ""score_values_read"": false,
+  ""status_reason"": ""terms allow local handling of aggregate preflight outputs"",
+  ""synthetic"": true,
+  ""terms_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT""
+}
+"	(empty)
+metric_format_adapter	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter --fail-on-error	0	0	0.396	PASS	"{
+  ""manifest"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 0,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package"",
+  ""synthetic"": true
+}
+"	(empty)
+author_run_return_gate	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate --fail-on-error	0	0	0.41	PASS	"{
+  ""completeness_status"": ""PASS"",
+  ""completeness_summary"": {
+    ""n_hard_fail"": 0,
+    ""n_required_now"": 9,
+    ""n_rows"": 10,
+    ""overall_status"": ""PASS"",
+    ""package_state"": ""scored"",
+    ""purpose"": ""author-run returned-output completeness check; no biological claim"",
+    ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+    ""status_counts"": {
+      ""MISSING"": 1,
+      ""PRESENT"": 9
+    },
+    ""synthetic"": false
+  },
+  ""overall_status"": ""PASS"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run aggregate return gate runner; no biological claim"",
+  ""redaction_status"": ""PASS"",
+  ""redaction_summary"": {
+    ""audit"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/redaction_precheck/author_run_redaction_precheck.tsv"",
+    ""n_block"": 0,
+    ""n_files_scanned"": 9,
+    ""n_warn"": 0,
+    ""overall_status"": ""PASS"",
+    ""purpose"": ""author-run aggregate package redaction precheck; no biological claim"",
+    ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+    ""synthetic"": false
+  },
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+  ""steps"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/author_run_return_gate_steps.tsv"",
+  ""synthetic"": false
+}
+"	(empty)
+aggregate_schema_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator --fail-on-error	0	0	0.426	PASS	"{
+  ""n_checks"": 252,
+  ""n_fail"": 0,
+  ""overall_status"": ""PASS"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run aggregate schema validation; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package"",
+  ""status_counts"": {
+    ""PASS"": 252
+  },
+  ""synthetic"": false,
+  ""table"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation.tsv""
+}
+"	(empty)
+partial_label_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py classify --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/partial_label_classifier --expect-class PARTIAL_LABELS_BELOW_PLANNING_FLOOR	0	0	0.047	PASS	"{
+  ""expect_class"": ""PARTIAL_LABELS_BELOW_PLANNING_FLOOR"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not treat the labeled subset as a validation test."",
+  ""metrics"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/partial_label_classifier/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""PARTIAL_LABELS_BELOW_PLANNING_FLOOR"",
+  ""safe_interpretation"": ""Report only that partial labels are below the V45 planning floor; use the return for logistics and future cohort design."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+"	(empty)
+safe_interpretation_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py classify --gate-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/author_run_return_gate_summary.json --schema-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation_summary.json --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --metadata-summary analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json --batch-confounder-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/batch_confounder_clean.json --terms-status PASS --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/safe_interpretation_classifier --expect-class BELOW_V45_PLANNING_FLOOR	0	0	0.045	PASS	"{
+  ""expect_class"": ""BELOW_V45_PLANNING_FLOOR"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not call pass, fail, or inconclusive based on the returned score."",
+  ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
+  ""result_class"": ""BELOW_V45_PLANNING_FLOOR"",
+  ""safe_interpretation"": ""Report that analyzable labeled pairs are below the V45 planning floor; use only for logistics and future design."",
+  ""score_values_read"": false,
+  ""signals"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/safe_interpretation_classifier/safe_interpretation_signals.tsv"",
+  ""sources"": {
+    ""analyzable_summary"": ""analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json"",
+    ""batch_confounder_summary"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/batch_confounder_clean.json"",
+    ""gate_summary"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/author_run_return_gate_summary.json"",
+    ""metadata_summary"": ""analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json"",
+    ""schema_summary"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation_summary.json""
+  },
+  ""synthetic"": true
+}
+"	(empty)

@@ -29,6 +29,18 @@ Machine-readable checklist:
 Use `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` for route
 states and hard-stop rules.
 
+Before handling a real aggregate return, the local composition check can be
+rerun:
+
+```bash
+.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py \
+  --outdir analysis/v46_aggregate_only_returned_package_composition_dryrun \
+  --fail-on-error
+```
+
+It should pass and end in the documented synthetic below-floor safe wording class
+from `docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md`.
+
 1. Save the returned aggregate package under a non-raw, non-private review path.
 2. Do not copy raw expression, clinical labels, private correspondence,
    agreements, credentials, or private URLs into the repository.
