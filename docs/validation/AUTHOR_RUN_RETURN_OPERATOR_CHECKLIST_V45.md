@@ -25,7 +25,25 @@ Machine-readable checklist:
 ```
 
 4. If redaction fails, stop and request a redacted aggregate-only return.
-5. If completeness fails, stop and request the missing aggregate outputs.
+5. If completeness fails, stop and request the missing aggregate outputs. If the
+   package appears complete but uses recognizable non-canonical aggregate file
+   names or column names, run the V46 metric-format adapter and rerun the return
+   gate on the normalized package:
+
+```bash
+.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt \
+  --root <returned_aggregate_package_dir> \
+  --outdir analysis/v46_author_run_metric_format_adapter/<cohort>_<date> \
+  --fail-on-error
+```
+
+The normalized package is:
+
+`analysis/v46_author_run_metric_format_adapter/<cohort>_<date>/normalized_package`
+
+If the adapter blocks, request the missing canonical aggregate output. Do not
+infer missing metrics.
+
 6. If the gate passes, run the aggregate schema validator:
 
 ```bash
@@ -90,6 +108,7 @@ Do not:
 |---|---|---|
 | redaction | no obvious raw/private leakage in the aggregate package | request a redacted aggregate-only package |
 | completeness | minimum aggregate files are present and parseable | request missing aggregate outputs |
+| V46 metric-format adapter | accepted aggregate file/column aliases normalize to canonical V45 outputs | request the missing canonical aggregate output; never infer values |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |

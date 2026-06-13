@@ -1,0 +1,14 @@
+{
+  "completeness": {
+    "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v46_author_run_metric_format_adapter/adapter/normalized_package --package-state scored --outdir analysis/v46_author_run_metric_format_adapter/normalized_completeness --fail-on-error",
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"n_hard_fail\": 0,\n  \"n_required_now\": 9,\n  \"n_rows\": 10,\n  \"overall_status\": \"PASS\",\n  \"package_state\": \"scored\",\n  \"purpose\": \"author-run returned-output completeness check; no biological claim\",\n  \"root\": \"analysis/v46_author_run_metric_format_adapter/adapter/normalized_package\",\n  \"status_counts\": {\n    \"MISSING\": 1,\n    \"PRESENT\": 9\n  },\n  \"synthetic\": false\n}\n"
+  },
+  "schema": {
+    "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py run --root analysis/v46_author_run_metric_format_adapter/adapter/normalized_package --package-state scored --outdir analysis/v46_author_run_metric_format_adapter/normalized_schema --fail-on-error",
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "{\n  \"n_checks\": 252,\n  \"n_fail\": 0,\n  \"overall_status\": \"PASS\",\n  \"package_state\": \"scored\",\n  \"purpose\": \"author-run aggregate schema validation; no biological claim\",\n  \"root\": \"analysis/v46_author_run_metric_format_adapter/adapter/normalized_package\",\n  \"status_counts\": {\n    \"PASS\": 252\n  },\n  \"synthetic\": false,\n  \"table\": \"analysis/v46_author_run_metric_format_adapter/normalized_schema/author_run_schema_validation.tsv\"\n}\n"
+  }
+}
