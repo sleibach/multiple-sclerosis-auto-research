@@ -1,0 +1,19 @@
+{
+  "access_tier": "open",
+  "claim": "DailyMed is an external National Library of Medicine resource providing searchable current labeling submitted to FDA for prescription and nonprescription products.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Specific DailyMed labels can be downloaded and hashed as versioned external inputs if future DMT mechanism or safety context needs grounding.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Open drug-label acquisition route for MS DMT regulatory and mechanism context.",
+  "record_id": "resource.dailymed.drug_labels.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "DailyMed",
+  "source": {
+    "label": "DailyMed home page",
+    "url": "https://dailymed.nlm.nih.gov/"
+  },
+  "unique_knowledge_lacks_in_repo": "Current FDA-submitted drug labeling searchable and downloadable outside the repository's grounded data artifacts.",
+  "why_unverifiable": "DailyMed labels are external submitted/regulatory documents and are not project-generated evidence unless specific versions are acquired and processed."
+}

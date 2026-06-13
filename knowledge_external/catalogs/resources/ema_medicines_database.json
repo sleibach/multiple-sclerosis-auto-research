@@ -1,0 +1,19 @@
+{
+  "access_tier": "open",
+  "claim": "The European Medicines Agency medicines portal is an external resource for information on centrally authorised human and veterinary medicines and related medicine data.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Specific EMA EPAR or medicines-data records can be downloaded, versioned, and compared against project drug-mechanism fields in a future grounded workup.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "European regulatory medicine reference source for MS DMT labels, indications, and assessment context.",
+  "record_id": "resource.ema.medicines_database.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "EMA Medicines",
+  "source": {
+    "label": "EMA medicines portal",
+    "url": "https://www.ema.europa.eu/en/medicines"
+  },
+  "unique_knowledge_lacks_in_repo": "European regulatory medicine records and assessment documents outside the project-held computational corpus.",
+  "why_unverifiable": "EMA medicine records and assessment documents are external regulatory outputs; the project cannot rerun EMA evaluation or treat it as project-grounded evidence."
+}

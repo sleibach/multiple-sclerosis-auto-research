@@ -38,6 +38,7 @@ No external knowledge integration occurs until:
 | 9 | 2026-06-13T19:19:39Z | 2026-06-13T19:23:08Z | done | Added class-aware convergence/contradiction placeholder skeleton. Synthetic fixture PASS (`5/5` checks); real skeleton PASS (`21` placeholder rows, `0` linked rows, `0` missing sources/markers). Provenance audit PASS (`190` checks), stale detector PASS (`69` artifacts). |
 | 10 | 2026-06-13T19:23:54Z | 2026-06-13T19:26:56Z | done | Added relationship-to-project-finding controlled vocabulary docs and linter. Synthetic fixture PASS (`4/4` checks; bad fixtures intentionally fail underlying lint); real lint PASS (`21` records, `63` checks, `0` failures). Provenance audit PASS and stale detector PASS (`70` artifacts). |
 | 11 | 2026-06-13T19:27:43Z | 2026-06-13T19:31:31Z | done | Added 5 source-verified public MS clinical/reference resource records: National MS Society, MSIF Atlas of MS, NICE NG220, NINDS MS CDE, and MS Society UK. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`26` records), category rollup PASS (`26` resources, `9` categories), schema lint PASS (`520` checks), relationship lint PASS (`78` checks), provenance audit PASS (`235` checks). |
+| 12 | 2026-06-13T19:32:41Z | 2026-06-13T19:35:24Z | done | Added 5 public DMT/drug-reference resource records: FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`31` records), category rollup PASS (`31` resources, `10` categories), schema lint PASS (`620` checks), relationship lint PASS (`93` checks), convergence skeleton PASS (`31` placeholder rows), provenance audit PASS (`280` checks). |
 
 ## Live Backlog
 
@@ -64,7 +65,7 @@ No external knowledge integration occurs until:
 | 19 | Navigation/index | Add source-access-tier rollup for open / registration / application / controlled / mixed resources | todo | Reads `knowledge_external` only; preserves class/source markers; helps readers distinguish immediately usable public resources from controlled resources. |
 | 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | todo | Should catch classed rows rendered without provenance in generated navigation docs. |
 | 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | done | Covered by iteration 11 public clinical/reference resource records; no grounded findings changed. |
-| 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | todo | External context only; no treatment-response rule changes. |
+| 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | done | Added source-verified external-unverifiable records for FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. |
 | 23 | Synthesis | Build class-aware convergence/contradiction skeleton with empty grounded-link rows until specific claim records exist | todo | Must live under `knowledge_external/synthesis/` and label every row by epistemic class. |
 
 ## Running Notes
@@ -147,3 +148,12 @@ No external knowledge integration occurs until:
   checks), relationship lint PASS (`78` checks), convergence skeleton PASS
   (`26` placeholder rows, `0` linked rows), provenance audit PASS (`235`
   checks, `26` records, `0` failures), stale detector PASS (`70` artifacts).
+- 2026-06-13T19:35:24Z: Five public DMT/drug-reference resource records added
+  after source verification: FDA FDALabel, DailyMed, EMA medicines, NHS England
+  MS DMT treatment algorithm, and National MS Society disease-modification
+  reference. All are `external-unverifiable` resource metadata and explicitly
+  `NOT_PROJECT_GROUNDED`. Real external index PASS (`31` records), category
+  rollup PASS (`31` resources, `10` categories), schema lint PASS (`620`
+  checks), relationship lint PASS (`93` checks), convergence skeleton PASS
+  (`31` placeholder rows, `0` linked rows), provenance audit PASS (`280`
+  checks, `31` records, `0` failures), stale detector PASS (`70` artifacts).

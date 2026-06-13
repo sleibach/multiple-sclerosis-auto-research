@@ -1,0 +1,19 @@
+{
+  "access_tier": "open",
+  "claim": "FDALabel is an external FDA resource for full-text search across human prescription, biological, over-the-counter, and other drug labeling documents.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Specific DMT label facts can be queued as external-verifiable only after a named label version is downloaded, hashed, and compared against project-defined drug-mechanism fields.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Regulatory drug-label source for future MS DMT mechanism, indication, safety, and label-version context.",
+  "record_id": "resource.fda.fdalabel_drug_labeling.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "FDA FDALabel",
+  "source": {
+    "label": "FDA FDALabel overview",
+    "url": "https://www.fda.gov/science-research/bioinformatics-tools/fdalabel-full-text-search-drug-product-labeling"
+  },
+  "unique_knowledge_lacks_in_repo": "Regulatory drug-label text and labeling metadata for approved medicines, including possible MS DMT label context.",
+  "why_unverifiable": "Drug labels and FDA database contents are external regulatory records; the project must acquire and version specific labels before using any label claim."
+}
