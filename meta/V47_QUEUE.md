@@ -29,6 +29,7 @@ No external knowledge integration occurs until:
 |---|---:|---:|---|---|
 | 1 | 2026-06-13T18:35:06Z | 2026-06-13T18:43:20Z | done | Built Phase 0 epistemic-class definitions, separate external storage tree, JSON schema, and provenance gate with synthetic and real audit PASS before external integration. |
 | 2 | 2026-06-13T18:43:20Z | 2026-06-13T18:46:31Z | done | Integrated the V47 provenance gate into the generated-checker registry, stale-output detector, and synthetic/method artifact index. Regenerated governance outputs; registry PASS (`118` scripts), stale detector PASS (`65` artifacts, `0` stale), generated-doc freshness PASS (`34` checks), provenance audit PASS. |
+| 3 | 2026-06-13T18:47:37Z | 2026-06-13T18:49:00Z | done | Added the empty external source-catalog skeleton under `knowledge_external/catalogs/` plus a resource-record schema. Fixed the provenance gate to skip catalog schemas and structural catalog README files while still auditing real JSON records. Synthetic and real provenance audits PASS; no external source records added. |
 
 ## Live Backlog
 
@@ -37,7 +38,7 @@ No external knowledge integration occurs until:
 | 1 | Phase 0 segregation | Define epistemic classes and external storage boundary | done | `docs/knowledge/EPISTEMIC_CLASSES.md`, `knowledge_external/README.md`, schema, and placeholder external record/synthesis dirs added. |
 | 2 | Phase 0 segregation | Implement provenance gate with synthetic pass/fail fixtures | done | `scripts/v47_provenance_gate.py`; synthetic check PASS (`4` cases, `3` expected failures caught); real audit PASS (`0` failures, `0` external records). |
 | 3 | Phase 0 segregation | Integrate provenance gate into generated-checker/stale-output governance | done | V47 gate now appears in generated-checker, stale-output, and V43-V47 artifact-governance indices; all regenerated checks PASS. |
-| 4 | Competitor/source cataloging | Create classed competitor-source catalog skeleton without external claims | todo | Structure only until Phase 0 passes. |
+| 4 | Competitor/source cataloging | Create classed competitor-source catalog skeleton without external claims | done | Added `knowledge_external/catalogs/README.md`, `resource_record.schema.json`, `resources/`, and `indexes/`; no source facts integrated yet. |
 | 5 | Navigation/index | Create class-aware external knowledge index generator | todo | Must read only `knowledge_external` records and preserve class labels. |
 | 6 | External integration | MSGD resource metadata record and source catalog entry | todo | Phase 0 passed; requires source verification before record creation. |
 | 7 | External integration | MS Data Alliance Catalogue resource metadata record and source catalog entry | todo | Phase 0 passed; requires source verification before record creation. |
@@ -62,3 +63,7 @@ No external knowledge integration occurs until:
   generated-checker registry `PASS` (`118` scripts), stale-output detector
   `PASS` (`65` artifacts, `0` stale/missing), generated-doc freshness `PASS`
   (`34` checks), and V47 provenance audit `PASS`.
+- 2026-06-13T18:49:00Z: External source-catalog skeleton added without any
+  external source records. Provenance gate skip rules tightened so
+  `*.schema.json` catalog schemas and known structural external READMEs are not
+  mistaken for claim records; synthetic fixtures and real audit pass.

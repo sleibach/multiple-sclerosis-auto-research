@@ -114,6 +114,7 @@ def external_json_files(root: Path) -> list[Path]:
         for path in base.rglob("*.json")
         if "/schema/" not in str(path.relative_to(root.parent if root.name == EXTERNAL_ROOT else root))
         and "schema" not in path.parts
+        and not path.name.endswith(".schema.json")
     )
 
 
@@ -153,7 +154,7 @@ def audit_external_record(root: Path, path: Path) -> list[GateIssue]:
 
 def audit_external_markdown(root: Path, path: Path) -> list[GateIssue]:
     rel_path = rel(root, path)
-    if rel_path in {f"{EXTERNAL_ROOT}/README.md"} or f"{EXTERNAL_ROOT}/schema/" in rel_path:
+    if rel_path in {f"{EXTERNAL_ROOT}/README.md", f"{EXTERNAL_ROOT}/catalogs/README.md"} or f"{EXTERNAL_ROOT}/schema/" in rel_path:
         return []
     text = path.read_text(errors="ignore")
     issues: list[GateIssue] = []

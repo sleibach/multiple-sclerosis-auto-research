@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V47 External Resource Catalog Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "record_type",
+    "resource_name",
+    "claim",
+    "epistemic_class",
+    "source",
+    "date_accessed",
+    "access_tier",
+    "relationship_to_project_findings",
+    "not_project_grounded_marker",
+    "why_unverifiable",
+    "future_grounding_route",
+    "project_use"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]+$"
+    },
+    "record_type": {
+      "const": "external_resource_catalog"
+    },
+    "resource_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The external-classed catalog statement about what this resource is or offers."
+    },
+    "epistemic_class": {
+      "enum": [
+        "external-verifiable",
+        "external-unverifiable"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "doi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pmid": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "url"
+          ]
+        },
+        {
+          "required": [
+            "doi"
+          ]
+        },
+        {
+          "required": [
+            "pmid"
+          ]
+        }
+      ]
+    },
+    "date_accessed": {
+      "type": "string",
+      "format": "date"
+    },
+    "access_tier": {
+      "enum": [
+        "open",
+        "registration",
+        "application",
+        "controlled",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "relationship_to_project_findings": {
+      "enum": [
+        "supports",
+        "contradicts",
+        "orthogonal",
+        "untested"
+      ]
+    },
+    "not_project_grounded_marker": {
+      "const": "NOT_PROJECT_GROUNDED"
+    },
+    "why_unverifiable": {
+      "type": "string",
+      "minLength": 1
+    },
+    "future_grounding_route": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_use": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unique_knowledge_lacks_in_repo": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
+
