@@ -1,0 +1,12 @@
+{
+  "expect_class": "FULL_LABELS_SMALL_COHORT",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not over-read favorable or unfavorable scores.",
+  "metrics": "analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/full_small/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "FULL_LABELS_SMALL_COHORT",
+  "safe_interpretation": "Use the V42/V45 small-cohort interpretation: effect size and CI are informative, likely inconclusive.",
+  "score_values_read": false,
+  "source": "analysis/v45_route_analyzable_pair_calculator/gafson_small_complete/analyzable_pair_summary.json",
+  "synthetic": true
+}

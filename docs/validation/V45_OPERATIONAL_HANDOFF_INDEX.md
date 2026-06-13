@@ -14,6 +14,7 @@ full artifact corpus.
 
 | Order | Phase | Artifact |
 |---:|---|---|
+| 0 | local smoke test | `docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md` |
 | 1 | current action | `docs/validation/CURRENT_ACTION_CARD_V45.md` |
 | 2 | cold-start sequence | `docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md` |
 | 3 | current status | `docs/validation/READINESS_STATUS_DASHBOARD_V45.md` |

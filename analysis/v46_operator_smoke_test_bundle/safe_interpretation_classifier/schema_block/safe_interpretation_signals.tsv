@@ -1,0 +1,6 @@
+source	signal	status	detail	score_values_read
+analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json	terms_status	PASS	operator/data-use status supplied before interpretation	false
+analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json	redaction_status	PASS	must pass before any other interpretation	false
+analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json	completeness_status	PASS	minimum aggregate outputs must be present	false
+analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json	return_gate_overall	PASS	combined return gate	false
+analysis/v45_author_run_schema_validator/bad_metrics/author_run_schema_validation_summary.json	schema_status	FAIL	aggregate value schema must pass before interpretation	false

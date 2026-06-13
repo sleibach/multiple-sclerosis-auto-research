@@ -1,0 +1,12 @@
+{
+  "expect_class": "SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not compute or interpret an AUC-like response metric.",
+  "metrics": "analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/single_class_block/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION",
+  "safe_interpretation": "Report that only one response class is labeled; request labels for both response classes.",
+  "score_values_read": false,
+  "source": "analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/single_class_block_analyzable_pair_summary.json",
+  "synthetic": true
+}

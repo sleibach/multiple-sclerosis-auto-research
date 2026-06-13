@@ -1,0 +1,27 @@
+step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/redaction_precheck --fail-on-error	0	0.05	PASS	"{
+  ""audit"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/redaction_precheck/author_run_redaction_precheck.tsv"",
+  ""n_block"": 0,
+  ""n_files_scanned"": 6,
+  ""n_warn"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""author-run aggregate package redaction precheck; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package"",
+  ""synthetic"": true
+}
+"	
+author_run_output_completeness	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/output_completeness --fail-on-error	1	0.315	FAIL	"{
+  ""n_hard_fail"": 3,
+  ""n_required_now"": 9,
+  ""n_rows"": 10,
+  ""overall_status"": ""FAIL"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run returned-output completeness check; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package"",
+  ""status_counts"": {
+    ""MISSING"": 4,
+    ""PRESENT"": 6
+  },
+  ""synthetic"": true
+}
+"	

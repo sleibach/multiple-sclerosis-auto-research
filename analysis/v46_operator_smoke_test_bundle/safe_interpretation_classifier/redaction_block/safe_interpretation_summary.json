@@ -1,0 +1,18 @@
+{
+  "expect_class": "BLOCKED_REDACTION",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not run completeness, schema, scoring, or outcome interpretation on the package.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "BLOCKED_REDACTION",
+  "safe_interpretation": "Report only that redaction failed; request an aggregate-only redacted return package.",
+  "score_values_read": false,
+  "signals": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/redaction_block/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/preferred_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/batch_confounder_clean.json",
+    "gate_summary": "analysis/v45_author_run_return_gate_runner/risky_redaction_fail/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

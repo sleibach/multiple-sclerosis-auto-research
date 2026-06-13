@@ -1,0 +1,23 @@
+{
+  "decision_band": "below_v45_planning_floor",
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "issues": "analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_issues.tsv",
+  "metadata": "analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/synthetic/gafson_partial_return_metadata.tsv",
+  "min_response_group_n": 6,
+  "n_analyzable_pairs": 18,
+  "n_analyzable_response_pairs": 18,
+  "n_subjects": 24,
+  "observed_status": "PASS",
+  "purpose": "V45 route analyzable-pair calculator; no biological claim",
+  "response_group_counts": {
+    "nonresponder": 12,
+    "responder": 6
+  },
+  "role": "primary_V22_V42_validation",
+  "route": "gafson_dmf_2018",
+  "seed": 450124,
+  "subject_table": "analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gafson_partial_return/subject_pair_completeness.tsv",
+  "synthetic": true,
+  "synthetic_case": "gafson_partial_return"
+}

@@ -1,0 +1,437 @@
+step	group	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel	0	0.396	PASS	"{
+  ""checked_at_utc"": ""2026-06-13 10:05:04 UTC"",
+  ""days_remaining"": 6.1,
+  ""decode_status"": ""decoded"",
+  ""dotenv_present"": true,
+  ""env_present"": true,
+  ""env_shadowed_by_dotenv"": true,
+  ""expiry_utc"": ""2026-06-19 12:28:39 UTC"",
+  ""jwt_length"": 548,
+  ""jwt_segments"": 3,
+  ""post_only_checker"": ""scripts/check_opengwas_access.py"",
+  ""purpose"": ""OpenGWAS token-expiry operations sentinel; no biological claim"",
+  ""renewal_status"": ""RENEW_SOON"",
+  ""required_action"": ""renew before any multi-day or queued OpenGWAS-dependent work"",
+  ""source_used"": "".env"",
+  ""synthetic"": false,
+  ""table"": ""analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel.tsv""
+}
+"	
+locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v46_operator_smoke_test_bundle/locked_artifact_hash_audit --fail-on-drift	0	0.04	PASS	"{
+  ""baseline"": ""/Users/soeren.leibach/Projects/ms-auto-research/docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv"",
+  ""n_artifacts"": 9,
+  ""overall_status"": ""PASS"",
+  ""status_counts"": {
+    ""DRIFT"": 0,
+    ""MATCH"": 9,
+    ""MISSING"": 0
+  }
+}
+"	
+author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate	0	0.799	PASS	"te"": ""scored"",
+  ""purpose"": ""author-run aggregate return gate runner; no biological claim"",
+  ""redaction_status"": ""PASS"",
+  ""redaction_summary"": {
+    ""audit"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/redaction_precheck/author_run_redaction_precheck.tsv"",
+    ""n_block"": 0,
+    ""n_files_scanned"": 6,
+    ""n_warn"": 0,
+    ""overall_status"": ""PASS"",
+    ""purpose"": ""author-run aggregate package redaction precheck; no biological claim"",
+    ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package"",
+    ""synthetic"": true
+  },
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package"",
+  ""steps"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/author_run_return_gate_steps.tsv"",
+  ""synthetic"": true
+}
+{
+  ""completeness_status"": ""SKIPPED"",
+  ""completeness_summary"": {},
+  ""overall_status"": ""FAIL"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run aggregate return gate runner; no biological claim"",
+  ""redaction_status"": ""FAIL"",
+  ""redaction_summary"": {
+    ""audit"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/risky_redaction_fail/redaction_precheck/author_run_redaction_precheck.tsv"",
+    ""n_block"": 3,
+    ""n_files_scanned"": 12,
+    ""n_warn"": 0,
+    ""overall_status"": ""FAIL"",
+    ""purpose"": ""author-run aggregate package redaction precheck; no biological claim"",
+    ""root"": ""analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package"",
+    ""synthetic"": true
+  },
+  ""root"": ""analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package"",
+  ""steps"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/risky_redaction_fail/author_run_return_gate_steps.tsv"",
+  ""synthetic"": true
+}
+{
+  ""cases"": [
+    {
+      ""case"": ""complete_pass"",
+      ""completeness_status"": ""PASS"",
+      ""expected"": ""PASS"",
+      ""observed"": ""PASS"",
+      ""redaction_status"": ""PASS"",
+      ""returncode_without_fail_on_error"": 0,
+      ""root"": ""analysis/v45_author_run_output_check/synthetic_complete_author_run_package""
+    },
+    {
+      ""case"": ""incomplete_completeness_fail"",
+      ""completeness_status"": ""FAIL"",
+      ""expected"": ""FAIL"",
+      ""observed"": ""FAIL"",
+      ""redaction_status"": ""PASS"",
+      ""returncode_without_fail_on_error"": 0,
+      ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package""
+    },
+    {
+      ""case"": ""risky_redaction_fail"",
+      ""completeness_status"": ""SKIPPED"",
+      ""expected"": ""FAIL"",
+      ""observed"": ""FAIL"",
+      ""redaction_status"": ""FAIL"",
+      ""returncode_without_fail_on_error"": 0,
+      ""root"": ""analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package""
+    }
+  ],
+  ""n_cases"": 3,
+  ""n_mismatch"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""author-run return gate runner synthetic regression; no biological claim"",
+  ""synthetic"": true
+}
+"	
+author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_schema_validator	0	0.376	PASS	"{
+  ""n_checks"": 253,
+  ""n_fail"": 0,
+  ""overall_status"": ""PASS"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run aggregate schema validation; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/synthetic_good_package"",
+  ""status_counts"": {
+    ""PASS"": 253
+  },
+  ""synthetic"": true,
+  ""table"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/good/author_run_schema_validation.tsv""
+}
+{
+  ""n_checks"": 253,
+  ""n_fail"": 4,
+  ""overall_status"": ""FAIL"",
+  ""package_state"": ""scored"",
+  ""purpose"": ""author-run aggregate schema validation; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/synthetic_bad_metrics_package"",
+  ""status_counts"": {
+    ""FAIL"": 4,
+    ""PASS"": 249
+  },
+  ""synthetic"": true,
+  ""table"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/bad_metrics/author_run_schema_validation.tsv""
+}
+{
+  ""n_checks"": 253,
+  ""n_fail"": 1,
+  ""overall_status"": ""FAIL"",
+  ""package_state"": ""unscoreable"",
+  ""purpose"": ""author-run aggregate schema validation; no biological claim"",
+  ""root"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/synthetic_unscoreable_missing_code_package"",
+  ""status_counts"": {
+    ""FAIL"": 1,
+    ""PASS"": 252
+  },
+  ""synthetic"": true,
+  ""table"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/unscoreable_missing_code/author_run_schema_validation.tsv""
+}
+{
+  ""cases"": ""analysis/v46_operator_smoke_test_bundle/author_run_schema_validator/synthetic_author_run_schema_cases.tsv"",
+  ""n_cases"": 3,
+  ""n_mismatch"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""synthetic author-run schema validator cases; no biological claim"",
+  ""synthetic"": true
+}
+"	
+route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator	0	0.357	PASS	"gafson_small_complete""
+}
+{
+  ""decision_band"": ""below_v45_planning_floor"",
+  ""expectation_met"": true,
+  ""expected_status"": ""PASS"",
+  ""issues"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_issues.tsv"",
+  ""metadata"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/synthetic/gafson_partial_return_metadata.tsv"",
+  ""min_response_group_n"": 6,
+  ""n_analyzable_pairs"": 18,
+  ""n_analyzable_response_pairs"": 18,
+  ""n_subjects"": 24,
+  ""observed_status"": ""PASS"",
+  ""purpose"": ""V45 route analyzable-pair calculator; no biological claim"",
+  ""response_group_counts"": {
+    ""nonresponder"": 12,
+    ""responder"": 6
+  },
+  ""role"": ""primary_V22_V42_validation"",
+  ""route"": ""gafson_dmf_2018"",
+  ""seed"": 450124,
+  ""subject_table"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gafson_partial_return/subject_pair_completeness.tsv"",
+  ""synthetic"": true,
+  ""synthetic_case"": ""gafson_partial_return""
+}
+{
+  ""decision_band"": ""below_v45_planning_floor"",
+  ""expectation_met"": true,
+  ""expected_status"": ""PASS"",
+  ""issues"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/karolinska_small_secondary/analyzable_pair_issues.tsv"",
+  ""metadata"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/synthetic/karolinska_small_secondary_metadata.tsv"",
+  ""min_response_group_n"": 7,
+  ""n_analyzable_pairs"": 14,
+  ""n_analyzable_response_pairs"": 14,
+  ""n_subjects"": 14,
+  ""observed_status"": ""PASS"",
+  ""purpose"": ""V45 route analyzable-pair calculator; no biological claim"",
+  ""response_group_counts"": {
+    ""nonresponder"": 7,
+    ""responder"": 7
+  },
+  ""role"": ""secondary_MS_DMF_label_path"",
+  ""route"": ""karolinska_dmf_ros_2019"",
+  ""seed"": 450124,
+  ""subject_table"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/karolinska_small_secondary/subject_pair_completeness.tsv"",
+  ""synthetic"": true,
+  ""synthetic_case"": ""karolinska_small_secondary""
+}
+{
+  ""decision_band"": ""context_only_or_labels_needed"",
+  ""expectation_met"": true,
+  ""expected_status"": ""PASS"",
+  ""issues"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gse228330_context_no_labels/analyzable_pair_issues.tsv"",
+  ""metadata"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/synthetic/gse228330_context_no_labels_metadata.tsv"",
+  ""min_response_group_n"": 0,
+  ""n_analyzable_pairs"": 20,
+  ""n_analyzable_response_pairs"": 0,
+  ""n_subjects"": 20,
+  ""observed_status"": ""PASS"",
+  ""purpose"": ""V45 route analyzable-pair calculator; no biological claim"",
+  ""response_group_counts"": {},
+  ""role"": ""open_anti_cd20_pharmacodynamic_context_optional_label_request"",
+  ""route"": ""gse228330_ocrelizumab_pbmc"",
+  ""seed"": 450124,
+  ""subject_table"": ""analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator/gse228330_context_no_labels/subject_pair_completeness.tsv"",
+  ""synthetic"": true,
+  ""synthetic_case"": ""gse228330_context_no_labels""
+}
+"	
+terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/terms_governance_matrix	0	0.832	PASS	"ts"",
+  ""operator_gate_status"": ""pass"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""derived aggregate processing allowed; individual-level sharing remains restricted""
+  ],
+  ""result_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
+  ""safe_route"": ""local processing may proceed, but only derived aggregate summaries may be committed/reported"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/synthetic/aggregate_only_local_preflight_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/author_run_only/terms_governance_decision.tsv"",
+  ""expect_class"": ""AUTHOR_RUN_ONLY"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not process transferred individual-level data locally"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""approved_internal_use indicates author-run-only handling""
+  ],
+  ""result_class"": ""AUTHOR_RUN_ONLY"",
+  ""safe_route"": ""send or use author-run frozen harness packet; receive aggregate outputs only"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/synthetic/author_run_only_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/no_processing/terms_governance_decision.tsv"",
+  ""expect_class"": ""NO_PROCESSING_ALLOWED"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not run preflight, module coverage, validation harness, or score interpretation"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""forbidden_use blocks local processing""
+  ],
+  ""result_class"": ""NO_PROCESSING_ALLOWED"",
+  ""safe_route"": ""do not process; request revised terms or an allowed aggregate author-run return"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/synthetic/no_processing_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/ambiguous_terms/terms_governance_decision.tsv"",
+  ""expect_class"": ""AMBIGUOUS_TERMS_BLOCK"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not treat unclear terms as approval"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""status=pending_review is not approved_for_preflight""
+  ],
+  ""result_class"": ""AMBIGUOUS_TERMS_BLOCK"",
+  ""safe_route"": ""clarify terms before any preflight or package processing"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/synthetic/ambiguous_terms_terms.tsv""
+}
+{
+  ""case_table"": ""analysis/v46_operator_smoke_test_bundle/terms_governance_matrix/terms_governance_synthetic_cases.tsv"",
+  ""n_cases"": 5,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 synthetic terms-governance edge-case matrix; no biological claim"",
+  ""synthetic"": true
+}
+"	
+metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/metric_format_adapter	0	0.966	PASS	"{
+  ""manifest"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 0,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_variant_package"",
+  ""synthetic"": true
+}
+{
+  ""manifest"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/missing_required_adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 1,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/missing_required_adapter/normalized_package"",
+  ""overall_status"": ""FAIL"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_missing_required_package"",
+  ""synthetic"": true
+}
+{
+  ""adapter_summary"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/metric_format_adapter_summary.json"",
+  ""check_table"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/metric_format_adapter_synthetic_checks.tsv"",
+  ""missing_required_adapter_summary"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/missing_required_adapter/metric_format_adapter_summary.json"",
+  ""missing_required_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_missing_required_package"",
+  ""n_checks"": 4,
+  ""n_fail"": 0,
+  ""normalized_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter synthetic verification; no biological claim"",
+  ""synthetic"": true,
+  ""variant_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_variant_package""
+}
+"	
+partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier	0	0.069	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""PARTIAL_LABELS_LIMITED_DECISION_CAUTION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not present a clean validation claim."",
+  ""metrics"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/partial_limited_decision/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""PARTIAL_LABELS_LIMITED_DECISION_CAUTION"",
+  ""safe_interpretation"": ""Apply the frozen grid only with an explicit partial-label caveat and label-coverage denominator."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/partial_limited_decision_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not compute or interpret an AUC-like response metric."",
+  ""metrics"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/single_class_block/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION"",
+  ""safe_interpretation"": ""Report that only one response class is labeled; request labels for both response classes."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/single_class_block_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""PARTIAL_LABELS_TOO_FEW_OR_SINGLE_ARM"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not infer pass/fail/inconclusive from the returned score."",
+  ""metrics"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/too_few_one_arm/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""PARTIAL_LABELS_TOO_FEW_OR_SINGLE_ARM"",
+  ""safe_interpretation"": ""Report that the labeled subset is too small or too one-sided for response interpretation."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/too_few_one_arm_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""case_table"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/partial_label_synthetic_cases.tsv"",
+  ""n_cases"": 7,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 partial-label return classifier synthetic verification; no biological claim"",
+  ""synthetic"": true
+}
+"	
+safe_interpretation_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier	0	0.084	PASS	"n""
+  },
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""BLOCKED_METADATA_CONTRADICTION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not treat the returned package as validation-ready."",
+  ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
+  ""result_class"": ""BLOCKED_METADATA_CONTRADICTION"",
+  ""safe_interpretation"": ""Report only the metadata contradiction and request corrected metadata before interpretation."",
+  ""score_values_read"": false,
+  ""signals"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/metadata_contradiction/safe_interpretation_signals.tsv"",
+  ""sources"": {
+    ""analyzable_summary"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/preferred_pair_summary.json"",
+    ""batch_confounder_summary"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/batch_confounder_clean.json"",
+    ""gate_summary"": ""analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json"",
+    ""metadata_summary"": ""analysis/v45_metadata_contradiction_stress/batch_conflict_fail/metadata_contradiction_summary.json"",
+    ""schema_summary"": ""analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json""
+  },
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""CAUTION_BATCH_OR_CONFOUNDER"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not present a clean validation claim without the diagnostic caveat."",
+  ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
+  ""result_class"": ""CAUTION_BATCH_OR_CONFOUNDER"",
+  ""safe_interpretation"": ""Apply the V42 grid only with explicit batch/confounder caution and report adjusted diagnostics beside raw results."",
+  ""score_values_read"": false,
+  ""signals"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/batch_confounder_warning/safe_interpretation_signals.tsv"",
+  ""sources"": {
+    ""analyzable_summary"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/preferred_pair_summary.json"",
+    ""batch_confounder_summary"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/batch_confounder_warning.json"",
+    ""gate_summary"": ""analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json"",
+    ""metadata_summary"": ""analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json"",
+    ""schema_summary"": ""analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json""
+  },
+  ""synthetic"": true
+}
+{
+  ""case_table"": ""analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/safe_interpretation_synthetic_cases.tsv"",
+  ""n_cases"": 11,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package safe-interpretation synthetic verification; no biological claim"",
+  ""synthetic"": true
+}
+"	
+no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_operator_smoke_test_bundle/no_raw_git_scanner	0	0.428	PASS	"{
+  ""hard_forbidden_prefixes"": [
+    ""data/quarantine/"",
+    ""data/raw_v3/gafson_dmf_2018/"",
+    ""data/raw_v3/karolinska_dmf_ros_2019/"",
+    ""data/raw_v3/gse228330_ocrelizumab_outcomes/""
+  ],
+  ""n_fail"": 0,
+  ""n_warn"": 11,
+  ""note"": ""WARN rows include historical public raw-data paths; FAIL rows block commit until resolved."",
+  ""overall_status"": ""PASS"",
+  ""status"": ""scanner_only""
+}
+"	

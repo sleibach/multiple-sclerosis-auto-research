@@ -1,0 +1,18 @@
+{
+  "expect_class": "BLOCKED_TERMS_OR_RECEIPT_GATES",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not inspect or interpret returned validation scores.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "BLOCKED_TERMS_OR_RECEIPT_GATES",
+  "safe_interpretation": "Report only that package terms or receipt gates block interpretation; request corrected terms/status evidence.",
+  "score_values_read": false,
+  "signals": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/terms_block/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/preferred_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier/synthetic/batch_confounder_clean.json",
+    "gate_summary": "analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

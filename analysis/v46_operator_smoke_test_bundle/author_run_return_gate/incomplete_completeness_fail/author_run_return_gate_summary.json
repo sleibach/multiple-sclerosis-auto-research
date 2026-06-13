@@ -1,0 +1,34 @@
+{
+  "completeness_status": "FAIL",
+  "completeness_summary": {
+    "n_hard_fail": 3,
+    "n_required_now": 9,
+    "n_rows": 10,
+    "overall_status": "FAIL",
+    "package_state": "scored",
+    "purpose": "author-run returned-output completeness check; no biological claim",
+    "root": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package",
+    "status_counts": {
+      "MISSING": 4,
+      "PRESENT": 6
+    },
+    "synthetic": true
+  },
+  "overall_status": "FAIL",
+  "package_state": "scored",
+  "purpose": "author-run aggregate return gate runner; no biological claim",
+  "redaction_status": "PASS",
+  "redaction_summary": {
+    "audit": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/redaction_precheck/author_run_redaction_precheck.tsv",
+    "n_block": 0,
+    "n_files_scanned": 6,
+    "n_warn": 0,
+    "overall_status": "PASS",
+    "purpose": "author-run aggregate package redaction precheck; no biological claim",
+    "root": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package",
+    "synthetic": true
+  },
+  "root": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package",
+  "steps": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/incomplete_completeness_fail/author_run_return_gate_steps.tsv",
+  "synthetic": true
+}

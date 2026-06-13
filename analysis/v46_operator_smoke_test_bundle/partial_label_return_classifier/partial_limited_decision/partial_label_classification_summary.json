@@ -1,0 +1,12 @@
+{
+  "expect_class": "PARTIAL_LABELS_LIMITED_DECISION_CAUTION",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not present a clean validation claim.",
+  "metrics": "analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/partial_limited_decision/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "PARTIAL_LABELS_LIMITED_DECISION_CAUTION",
+  "safe_interpretation": "Apply the frozen grid only with an explicit partial-label caveat and label-coverage denominator.",
+  "score_values_read": false,
+  "source": "analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/partial_limited_decision_analyzable_pair_summary.json",
+  "synthetic": true
+}

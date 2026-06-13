@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "case": "complete_pass",
+      "completeness_status": "PASS",
+      "expected": "PASS",
+      "observed": "PASS",
+      "redaction_status": "PASS",
+      "returncode_without_fail_on_error": 0,
+      "root": "analysis/v45_author_run_output_check/synthetic_complete_author_run_package"
+    },
+    {
+      "case": "incomplete_completeness_fail",
+      "completeness_status": "FAIL",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "redaction_status": "PASS",
+      "returncode_without_fail_on_error": 0,
+      "root": "analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_clean_incomplete_package"
+    },
+    {
+      "case": "risky_redaction_fail",
+      "completeness_status": "SKIPPED",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "redaction_status": "FAIL",
+      "returncode_without_fail_on_error": 0,
+      "root": "analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package"
+    }
+  ],
+  "n_cases": 3,
+  "n_mismatch": 0,
+  "overall_status": "PASS",
+  "purpose": "author-run return gate runner synthetic regression; no biological claim",
+  "synthetic": true
+}
