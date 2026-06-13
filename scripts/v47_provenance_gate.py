@@ -42,6 +42,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v47_external_knowledge_index/",
     "analysis/v47_external_resource_category_rollup/",
     "analysis/v47_external_record_schema_linter/",
+    "analysis/v47_relationship_vocabulary_linter/",
     "analysis/v47_provenance_gate/",
     "scripts/v47_provenance_gate.py",
     "meta/V47_QUEUE.md",

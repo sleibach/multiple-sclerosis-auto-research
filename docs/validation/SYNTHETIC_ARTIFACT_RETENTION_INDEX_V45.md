@@ -22,7 +22,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `136` V43-V47 analysis directories, with `93`
+The refreshed index covers `137` V43-V47 analysis directories, with `94`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V47 analysis output footprint is approximately `286 MiB`.
 

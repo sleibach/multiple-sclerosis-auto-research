@@ -358,6 +358,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_convergence_contradiction_skeleton.py synthetic-check --outdir analysis/v47_convergence_contradiction_skeleton --fail-on-error && .venv/bin/python scripts/v47_convergence_contradiction_skeleton.py build --index knowledge_external/catalogs/indexes/external_knowledge_index.tsv --outdir knowledge_external/synthesis --analysis-outdir analysis/v47_convergence_contradiction_skeleton",
     },
     {
+        "artifact": "v47_relationship_vocabulary_linter",
+        "sources": [
+            "docs/knowledge/RELATIONSHIP_TO_PROJECT_FINDINGS_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_relationship_vocabulary_linter.py",
+        ],
+        "outputs": [
+            "analysis/v47_relationship_vocabulary_linter/synthetic_relationship_vocabulary_summary.json",
+            "analysis/v47_relationship_vocabulary_linter/synthetic_relationship_vocabulary_checks.tsv",
+            "analysis/v47_relationship_vocabulary_linter/relationship_vocabulary_lint_summary.json",
+            "analysis/v47_relationship_vocabulary_linter/relationship_vocabulary_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_relationship_vocabulary_linter.py synthetic-check --outdir analysis/v47_relationship_vocabulary_linter --fail-on-error && .venv/bin/python scripts/v47_relationship_vocabulary_linter.py lint --outdir analysis/v47_relationship_vocabulary_linter --fail-on-error",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",

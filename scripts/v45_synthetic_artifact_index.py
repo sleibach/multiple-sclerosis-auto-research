@@ -154,6 +154,7 @@ MANUAL_CLASS = {
     "analysis/v47_external_resource_category_rollup": ("integrity_governance", "external-resource category rollup only"),
     "analysis/v47_external_record_schema_linter": ("integrity_governance", "external-record schema lint only"),
     "analysis/v47_convergence_contradiction_skeleton": ("integrity_governance", "external convergence/contradiction placeholder skeleton only"),
+    "analysis/v47_relationship_vocabulary_linter": ("integrity_governance", "external relationship vocabulary lint only"),
     "analysis/v47_provenance_gate": ("integrity_governance", "external-knowledge provenance segregation only"),
 }
 
