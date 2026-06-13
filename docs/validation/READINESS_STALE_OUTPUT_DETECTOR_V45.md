@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `53`
+- artifacts checked: `54`
 - stale or missing: `0`
 - overall status: `PASS`
 

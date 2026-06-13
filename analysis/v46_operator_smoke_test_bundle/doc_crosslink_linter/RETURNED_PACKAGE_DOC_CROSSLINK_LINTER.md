@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `29`; failures: `0`.
+Overall status: `PASS`; scripts checked: `30`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -32,6 +32,7 @@ Overall status: `PASS`; scripts checked: `29`; failures: `0`.
 | `scripts/v46_first30_repair_template_coverage_linter.py` | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` | `3` | `PASS` |
 | `scripts/v46_first30_returned_package_status_board_dryrun.py` | `docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md` | `3` | `PASS` |
 | `scripts/v46_returned_package_status_board_schema_linter.py` | `docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md` | `3` | `PASS` |
+| `scripts/v46_status_board_markdown_roundtrip_renderer.py` | `docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md` | `4` | `PASS` |
 | `scripts/v46_returned_package_preflight_dryrun.py` | `docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md` | `3` | `PASS` |
 | `scripts/v46_returned_package_state_transition_validator.py` | `docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md` | `3` | `PASS` |
 | `scripts/v46_returned_package_handoff_bundle_manifest.py` | `docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md` | `3` | `PASS` |

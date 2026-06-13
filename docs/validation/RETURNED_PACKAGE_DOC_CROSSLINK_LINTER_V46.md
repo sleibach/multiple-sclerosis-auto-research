@@ -25,8 +25,8 @@ quarantined cohorts.
 
 ## Current Result
 
-- scripts checked: `29`
-- lint checks: `116`
+- scripts checked: `30`
+- lint checks: `120`
 - script/doc/operator-reference failures: `0`
 - all `score_values_read`: `false`
 - overall status: `PASS`

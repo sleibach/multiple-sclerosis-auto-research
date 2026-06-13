@@ -20,6 +20,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" [label="docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md", shape=ellipse];
   "doc:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" [label="docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md", shape=ellipse];
   "doc:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" [label="docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md", shape=ellipse];
+  "doc:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" [label="docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md", shape=ellipse];
   "handoff_artifact:analyzable_pair_confidence_envelope" [label="analyzable_pair_confidence_envelope", shape=ellipse];
   "handoff_artifact:cold_start_operator_sequence" [label="cold_start_operator_sequence", shape=ellipse];
   "handoff_artifact:command_order_planner" [label="command_order_planner", shape=ellipse];
@@ -40,6 +41,7 @@ digraph returned_package_dependencies {
   "handoff_artifact:safe_interpretation_classifier" [label="safe_interpretation_classifier", shape=ellipse];
   "handoff_artifact:small_n_language" [label="small_n_language", shape=ellipse];
   "handoff_artifact:state_transition_validator" [label="state_transition_validator", shape=ellipse];
+  "handoff_artifact:status_board_markdown_roundtrip_renderer" [label="status_board_markdown_roundtrip_renderer", shape=ellipse];
   "handoff_artifact:status_board_schema_linter" [label="status_board_schema_linter", shape=ellipse];
   "output:analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_manifest.tsv" [label="analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_manifest.tsv", shape=ellipse];
   "output:analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_summary.json" [label="analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_summary.json", shape=ellipse];
@@ -194,6 +196,11 @@ digraph returned_package_dependencies {
   "output:analysis/v46_small_n_conclusion_language/route_example_language.tsv" [label="analysis/v46_small_n_conclusion_language/route_example_language.tsv", shape=ellipse];
   "output:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" [label="analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv", shape=ellipse];
   "output:analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json" [label="analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json", shape=ellipse];
+  "output:analysis/v46_status_board_markdown_roundtrip_renderer/FIRST30_STATUS_BOARD_DRYRUN.roundtrip.md" [label="analysis/v46_status_board_markdown_roundtrip_renderer/FIRST30_STATUS_BOARD_DRYRUN.roundtrip.md", shape=ellipse];
+  "output:analysis/v46_status_board_markdown_roundtrip_renderer/first30_status_board_roundtrip.diff" [label="analysis/v46_status_board_markdown_roundtrip_renderer/first30_status_board_roundtrip.diff", shape=ellipse];
+  "output:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_lint.tsv" [label="analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_lint.tsv", shape=ellipse];
+  "output:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json" [label="analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json", shape=ellipse];
+  "output:analysis/v46_status_board_markdown_roundtrip_renderer/synthetic_manual_drift.md" [label="analysis/v46_status_board_markdown_roundtrip_renderer/synthetic_manual_drift.md", shape=ellipse];
   "output:analysis/v46_terms_governance_matrix/terms_governance_synthetic_cases.tsv" [label="analysis/v46_terms_governance_matrix/terms_governance_synthetic_cases.tsv", shape=ellipse];
   "output:analysis/v46_terms_governance_matrix/terms_governance_synthetic_summary.json" [label="analysis/v46_terms_governance_matrix/terms_governance_synthetic_summary.json", shape=ellipse];
   "output:analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_checks.tsv" [label="analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_checks.tsv", shape=ellipse];
@@ -226,6 +233,7 @@ digraph returned_package_dependencies {
   "regression_step:safe_interpretation_classifier_synthetic" [label="safe_interpretation_classifier_synthetic", shape=ellipse];
   "regression_step:safe_wording_fixture_linter" [label="safe_wording_fixture_linter", shape=ellipse];
   "regression_step:small_n_conclusion_language" [label="small_n_conclusion_language", shape=ellipse];
+  "regression_step:status_board_markdown_roundtrip_renderer" [label="status_board_markdown_roundtrip_renderer", shape=ellipse];
   "regression_step:status_board_schema_linter" [label="status_board_schema_linter", shape=ellipse];
   "regression_step:terms_governance_matrix_synthetic" [label="terms_governance_matrix_synthetic", shape=ellipse];
   "regression_step:unscoreable_return_composition_dryrun" [label="unscoreable_return_composition_dryrun", shape=ellipse];
@@ -263,6 +271,7 @@ digraph returned_package_dependencies {
   "script:scripts/v46_safe_class_report_template_readiness.py" [label="scripts/v46_safe_class_report_template_readiness.py", shape=box];
   "script:scripts/v46_safe_wording_fixture_linter.py" [label="scripts/v46_safe_wording_fixture_linter.py", shape=box];
   "script:scripts/v46_small_n_conclusion_language_table.py" [label="scripts/v46_small_n_conclusion_language_table.py", shape=box];
+  "script:scripts/v46_status_board_markdown_roundtrip_renderer.py" [label="scripts/v46_status_board_markdown_roundtrip_renderer.py", shape=box];
   "script:scripts/v46_terms_governance_matrix.py" [label="scripts/v46_terms_governance_matrix.py", shape=box];
   "script:scripts/v46_unscoreable_return_composition_dryrun.py" [label="scripts/v46_unscoreable_return_composition_dryrun.py", shape=box];
   "smoke_step:aggregate_only_returned_package_composition_dryrun" [label="aggregate_only_returned_package_composition_dryrun", shape=ellipse];
@@ -295,6 +304,7 @@ digraph returned_package_dependencies {
   "smoke_step:safe_interpretation_classifier_synthetic" [label="safe_interpretation_classifier_synthetic", shape=ellipse];
   "smoke_step:safe_wording_fixture_linter" [label="safe_wording_fixture_linter", shape=ellipse];
   "smoke_step:small_n_conclusion_language" [label="small_n_conclusion_language", shape=ellipse];
+  "smoke_step:status_board_markdown_roundtrip_renderer" [label="status_board_markdown_roundtrip_renderer", shape=ellipse];
   "smoke_step:status_board_schema_linter" [label="status_board_schema_linter", shape=ellipse];
   "smoke_step:terms_governance_matrix_synthetic" [label="terms_governance_matrix_synthetic", shape=ellipse];
   "smoke_step:unscoreable_return_composition_dryrun" [label="unscoreable_return_composition_dryrun", shape=ellipse];
@@ -374,6 +384,7 @@ digraph returned_package_dependencies {
   "source:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" [label="analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json", shape=ellipse];
   "source:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json", shape=ellipse];
   "source:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" [label="analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv", shape=ellipse];
+  "source:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json" [label="analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json", shape=ellipse];
   "source:docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md" [label="docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md", shape=ellipse];
   "source:docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md" [label="docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md", shape=ellipse];
   "source:docs/validation/AUTHOR_RUN_METRIC_FORMAT_ADAPTER_V46.md" [label="docs/validation/AUTHOR_RUN_METRIC_FORMAT_ADAPTER_V46.md", shape=ellipse];
@@ -419,6 +430,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" [label="docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md", shape=ellipse];
   "source:docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md" [label="docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md", shape=ellipse];
   "source:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" [label="docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md", shape=ellipse];
+  "source:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" [label="docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md", shape=ellipse];
   "source:docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md" [label="docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md", shape=ellipse];
   "source:docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md" [label="docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md", shape=ellipse];
   "source:docs/validation/TERMS_GOVERNANCE_MATRIX_V46.md" [label="docs/validation/TERMS_GOVERNANCE_MATRIX_V46.md", shape=ellipse];
@@ -496,6 +508,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_safe_class_report_template_readiness.py" [label="scripts/v46_safe_class_report_template_readiness.py", shape=ellipse];
   "source:scripts/v46_safe_wording_fixture_linter.py" [label="scripts/v46_safe_wording_fixture_linter.py", shape=ellipse];
   "source:scripts/v46_small_n_conclusion_language_table.py" [label="scripts/v46_small_n_conclusion_language_table.py", shape=ellipse];
+  "source:scripts/v46_status_board_markdown_roundtrip_renderer.py" [label="scripts/v46_status_board_markdown_roundtrip_renderer.py", shape=ellipse];
   "source:scripts/v46_terms_governance_matrix.py" [label="scripts/v46_terms_governance_matrix.py", shape=ellipse];
   "source:scripts/v46_unscoreable_return_composition_dryrun.py" [label="scripts/v46_unscoreable_return_composition_dryrun.py", shape=ellipse];
   "stale_artifact:author_run_bundle_dryrun_manifest" [label="author_run_bundle_dryrun_manifest", shape=ellipse];
@@ -549,6 +562,7 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_safe_interpretation_classifier" [label="v46_safe_interpretation_classifier", shape=ellipse];
   "stale_artifact:v46_safe_wording_fixture_linter" [label="v46_safe_wording_fixture_linter", shape=ellipse];
   "stale_artifact:v46_small_n_conclusion_language" [label="v46_small_n_conclusion_language", shape=ellipse];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="v46_status_board_markdown_roundtrip_renderer", shape=ellipse];
   "stale_artifact:v46_terms_governance_matrix" [label="v46_terms_governance_matrix", shape=ellipse];
   "stale_artifact:v46_unscoreable_return_composition_dryrun" [label="v46_unscoreable_return_composition_dryrun", shape=ellipse];
   "suite:operator_smoke_test_bundle" [label="operator_smoke_test_bundle", shape=box];
@@ -574,6 +588,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" -> "handoff_artifact:repair_request_templates" [label="documented_by"];
   "doc:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "handoff_artifact:safe_class_report_template_readiness" [label="documented_by"];
   "doc:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" -> "handoff_artifact:small_n_language" [label="documented_by"];
+  "doc:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" -> "handoff_artifact:status_board_markdown_roundtrip_renderer" [label="documented_by"];
   "handoff_artifact:analyzable_pair_confidence_envelope" -> "handoff_artifact:repair_request_templates" [label="operator_sequence_next"];
   "handoff_artifact:analyzable_pair_confidence_envelope" -> "output:analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_summary.json" [label="emits"];
   "handoff_artifact:cold_start_operator_sequence" -> "handoff_artifact:receipt_manifest_schema_linter" [label="operator_sequence_next"];
@@ -613,7 +628,9 @@ digraph returned_package_dependencies {
   "handoff_artifact:small_n_language" -> "output:analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json" [label="emits"];
   "handoff_artifact:state_transition_validator" -> "handoff_artifact:safe_interpretation_classifier" [label="operator_sequence_next"];
   "handoff_artifact:state_transition_validator" -> "output:analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json" [label="emits"];
-  "handoff_artifact:status_board_schema_linter" -> "handoff_artifact:returned_package_preflight_dryrun" [label="operator_sequence_next"];
+  "handoff_artifact:status_board_markdown_roundtrip_renderer" -> "handoff_artifact:returned_package_preflight_dryrun" [label="operator_sequence_next"];
+  "handoff_artifact:status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json" [label="emits"];
+  "handoff_artifact:status_board_schema_linter" -> "handoff_artifact:status_board_markdown_roundtrip_renderer" [label="operator_sequence_next"];
   "handoff_artifact:status_board_schema_linter" -> "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" [label="emits"];
   "script:scripts/v45_author_run_return_gate_runner.py" -> "smoke_step:author_run_return_gate_synthetic" [label="runs_for_suite_step"];
   "script:scripts/v45_author_run_schema_validator.py" -> "smoke_step:author_run_schema_validator_synthetic" [label="runs_for_suite_step"];
@@ -694,6 +711,9 @@ digraph returned_package_dependencies {
   "script:scripts/v46_small_n_conclusion_language_table.py" -> "handoff_artifact:small_n_language" [label="runs_for_handoff_artifact"];
   "script:scripts/v46_small_n_conclusion_language_table.py" -> "regression_step:small_n_conclusion_language" [label="runs_for_suite_step"];
   "script:scripts/v46_small_n_conclusion_language_table.py" -> "smoke_step:small_n_conclusion_language" [label="runs_for_suite_step"];
+  "script:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "handoff_artifact:status_board_markdown_roundtrip_renderer" [label="runs_for_handoff_artifact"];
+  "script:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "regression_step:status_board_markdown_roundtrip_renderer" [label="runs_for_suite_step"];
+  "script:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "smoke_step:status_board_markdown_roundtrip_renderer" [label="runs_for_suite_step"];
   "script:scripts/v46_terms_governance_matrix.py" -> "regression_step:terms_governance_matrix_synthetic" [label="runs_for_suite_step"];
   "script:scripts/v46_terms_governance_matrix.py" -> "smoke_step:terms_governance_matrix_synthetic" [label="runs_for_suite_step"];
   "script:scripts/v46_unscoreable_return_composition_dryrun.py" -> "regression_step:unscoreable_return_composition_dryrun" [label="runs_for_suite_step"];
@@ -787,8 +807,11 @@ digraph returned_package_dependencies {
   "source:analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_table.tsv" -> "stale_artifact:v46_first30_status_board_dryrun" [label="freshness_source_for"];
   "source:analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_table.tsv" -> "stale_artifact:v46_returned_package_preflight_dryrun" [label="freshness_source_for"];
   "source:analysis/v46_first30_returned_package_status_board_dryrun/FIRST30_STATUS_BOARD_DRYRUN.md" -> "stale_artifact:v46_returned_package_status_board_schema_linter" [label="freshness_source_for"];
+  "source:analysis/v46_first30_returned_package_status_board_dryrun/FIRST30_STATUS_BOARD_DRYRUN.md" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv" -> "stale_artifact:v46_returned_package_status_board_schema_linter" [label="freshness_source_for"];
+  "source:analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
+  "source:analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv" -> "stale_artifact:v46_returned_package_dependency_graph" [label="freshness_source_for"];
   "source:analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv" -> "stale_artifact:v46_returned_package_doc_crosslink_linter" [label="freshness_source_for"];
   "source:analysis/v46_operator_smoke_test_bundle/operator_smoke_test_summary.json" -> "stale_artifact:current_action_card" [label="freshness_source_for"];
@@ -815,6 +838,7 @@ digraph returned_package_dependencies {
   "source:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" -> "stale_artifact:v46_return_repair_request_templates" [label="freshness_source_for"];
+  "source:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md" -> "stale_artifact:v46_aggregate_only_returned_package_composition_dryrun" [label="freshness_source_for"];
   "source:docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md" -> "stale_artifact:v46_analyzable_pair_confidence_envelope" [label="freshness_source_for"];
   "source:docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
@@ -919,6 +943,10 @@ digraph returned_package_dependencies {
   "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md" -> "stale_artifact:v46_safe_wording_fixture_linter" [label="freshness_source_for"];
   "source:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" -> "stale_artifact:v46_small_n_conclusion_language" [label="freshness_source_for"];
+  "source:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" -> "stale_artifact:v46_returned_package_doc_crosslink_linter" [label="freshness_source_for"];
+  "source:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md" -> "stale_artifact:generated_doc_freshness_linter" [label="freshness_source_for"];
   "source:docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md" -> "stale_artifact:generated_doc_freshness_linter" [label="freshness_source_for"];
   "source:docs/validation/TERMS_GOVERNANCE_MATRIX_V46.md" -> "stale_artifact:v46_terms_governance_matrix" [label="freshness_source_for"];
@@ -1062,6 +1090,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_returned_package_status_board_schema_linter" [label="freshness_source_for"];
+  "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
@@ -1069,6 +1098,9 @@ digraph returned_package_dependencies {
   "source:scripts/v46_safe_wording_fixture_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_safe_wording_fixture_linter.py" -> "stale_artifact:v46_safe_wording_fixture_linter" [label="freshness_source_for"];
   "source:scripts/v46_small_n_conclusion_language_table.py" -> "stale_artifact:v46_small_n_conclusion_language" [label="freshness_source_for"];
+  "source:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:scripts/v46_status_board_markdown_roundtrip_renderer.py" -> "stale_artifact:v46_status_board_markdown_roundtrip_renderer" [label="freshness_source_for"];
   "source:scripts/v46_terms_governance_matrix.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_terms_governance_matrix.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_terms_governance_matrix.py" -> "stale_artifact:v46_terms_governance_matrix" [label="freshness_source_for"];
@@ -1229,6 +1261,11 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_small_n_conclusion_language" -> "output:analysis/v46_small_n_conclusion_language/route_example_language.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_small_n_conclusion_language" -> "output:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_small_n_conclusion_language" -> "output:analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json" [label="freshness_output_for"];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/FIRST30_STATUS_BOARD_DRYRUN.roundtrip.md" [label="freshness_output_for"];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/first30_status_board_roundtrip.diff" [label="freshness_output_for"];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_lint.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json" [label="freshness_output_for"];
+  "stale_artifact:v46_status_board_markdown_roundtrip_renderer" -> "output:analysis/v46_status_board_markdown_roundtrip_renderer/synthetic_manual_drift.md" [label="freshness_output_for"];
   "stale_artifact:v46_terms_governance_matrix" -> "output:analysis/v46_terms_governance_matrix/terms_governance_synthetic_cases.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_terms_governance_matrix" -> "output:analysis/v46_terms_governance_matrix/terms_governance_synthetic_summary.json" [label="freshness_output_for"];
   "stale_artifact:v46_unscoreable_return_composition_dryrun" -> "output:analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_checks.tsv" [label="freshness_output_for"];
@@ -1264,6 +1301,7 @@ digraph returned_package_dependencies {
   "suite:operator_smoke_test_bundle" -> "smoke_step:safe_interpretation_classifier_synthetic" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:safe_wording_fixture_linter" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:small_n_conclusion_language" [label="contains_step"];
+  "suite:operator_smoke_test_bundle" -> "smoke_step:status_board_markdown_roundtrip_renderer" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:status_board_schema_linter" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:terms_governance_matrix_synthetic" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:unscoreable_return_composition_dryrun" [label="contains_step"];
@@ -1293,6 +1331,7 @@ digraph returned_package_dependencies {
   "suite:returned_package_regression_suite" -> "regression_step:safe_interpretation_classifier_synthetic" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_wording_fixture_linter" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:small_n_conclusion_language" [label="contains_step"];
+  "suite:returned_package_regression_suite" -> "regression_step:status_board_markdown_roundtrip_renderer" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:status_board_schema_linter" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:terms_governance_matrix_synthetic" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:unscoreable_return_composition_dryrun" [label="contains_step"];

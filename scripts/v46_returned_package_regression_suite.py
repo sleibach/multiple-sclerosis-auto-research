@@ -178,6 +178,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_status_board_schema_linter.py", "--outdir", rel(outdir / "status_board_schema_linter"), "--fail-on-error"],
         ),
         (
+            "status_board_markdown_roundtrip_renderer",
+            "operator_routing",
+            [py, "scripts/v46_status_board_markdown_roundtrip_renderer.py", "--outdir", rel(outdir / "status_board_markdown_roundtrip_renderer"), "--fail-on-error"],
+        ),
+        (
             "returned_package_preflight_dryrun",
             "operator_routing",
             [py, "scripts/v46_returned_package_preflight_dryrun.py", "--outdir", rel(outdir / "returned_package_preflight_dryrun"), "--fail-on-error"],

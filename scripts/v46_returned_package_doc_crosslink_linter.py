@@ -138,6 +138,11 @@ REQUIRED_SCRIPTS = [
         "role": "status-board schema linter",
     },
     {
+        "script": "scripts/v46_status_board_markdown_roundtrip_renderer.py",
+        "doc": "docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md",
+        "role": "status-board Markdown round-trip renderer",
+    },
+    {
         "script": "scripts/v46_returned_package_preflight_dryrun.py",
         "doc": "docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md",
         "role": "one-command preflight dry run",

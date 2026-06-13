@@ -44,19 +44,20 @@ data, run validation, change locked rules, or interpret biological results.
 20. V46 first-30 repair-template coverage linter.
 21. V46 first-30 returned-package status-board dry run.
 22. V46 returned-package status-board schema linter.
-23. V46 returned-package preflight dry run.
-24. V46 returned-package state-transition validator.
-25. V46 returned-package handoff bundle manifest.
-26. V46 returned-package documentation cross-link linter.
-27. V45/V46 readiness stale-output detector.
-28. V46 returned-package dependency graph.
-29. V45 no-raw-data git scanner.
+23. V46 status-board Markdown round-trip renderer.
+24. V46 returned-package preflight dry run.
+25. V46 returned-package state-transition validator.
+26. V46 returned-package handoff bundle manifest.
+27. V46 returned-package documentation cross-link linter.
+28. V45/V46 readiness stale-output detector.
+29. V46 returned-package dependency graph.
+30. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `29`
+- steps: `30`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

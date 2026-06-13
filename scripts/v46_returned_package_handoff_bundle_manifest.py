@@ -93,6 +93,15 @@ ARTIFACTS = [
     },
     {
         "sequence": 9,
+        "phase": "first_30_minutes",
+        "artifact_id": "status_board_markdown_roundtrip_renderer",
+        "role": "Regenerate first-30 status-board Markdown from TSV and fail on manual Markdown drift.",
+        "command": ".venv/bin/python scripts/v46_status_board_markdown_roundtrip_renderer.py --outdir analysis/v46_status_board_markdown_roundtrip_renderer --fail-on-error",
+        "doc": "docs/validation/STATUS_BOARD_MARKDOWN_ROUNDTRIP_RENDERER_V46.md",
+        "primary_output": "analysis/v46_status_board_markdown_roundtrip_renderer/status_board_markdown_roundtrip_summary.json",
+    },
+    {
+        "sequence": 10,
         "phase": "preflight_composition",
         "artifact_id": "returned_package_preflight_dryrun",
         "role": "Run one synthetic-safe command that composes schema lint, shape classification, first-30 routing, state validation, and repair coverage.",
@@ -101,7 +110,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_preflight_dryrun/returned_package_preflight_dryrun_summary.json",
     },
     {
-        "sequence": 10,
+        "sequence": 11,
         "phase": "command_order",
         "artifact_id": "command_order_planner",
         "role": "Generate the route-specific command order using package-state and metric-format state.",
@@ -110,7 +119,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_command_order_planner/returned_package_command_order_synthetic_summary.json",
     },
     {
-        "sequence": 11,
+        "sequence": 12,
         "phase": "state_guard",
         "artifact_id": "state_transition_validator",
         "role": "Verify no report/score state is reachable before required gates and safe class.",
@@ -119,7 +128,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
     },
     {
-        "sequence": 12,
+        "sequence": 13,
         "phase": "interpretation_boundary",
         "artifact_id": "safe_interpretation_classifier",
         "role": "Assign the V46 safe class after all prerequisite gate summaries exist.",
@@ -128,7 +137,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json",
     },
     {
-        "sequence": 13,
+        "sequence": 14,
         "phase": "underpowered_language",
         "artifact_id": "small_n_language",
         "role": "Constrain wording for underpowered or partial-label returns.",
@@ -137,7 +146,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json",
     },
     {
-        "sequence": 14,
+        "sequence": 15,
         "phase": "underpowered_language",
         "artifact_id": "analyzable_pair_confidence_envelope",
         "role": "Map analyzable-pair counts to pass/fail/inconclusive wording constraints.",
@@ -146,7 +155,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_summary.json",
     },
     {
-        "sequence": 15,
+        "sequence": 16,
         "phase": "repair_handoff",
         "artifact_id": "repair_request_templates",
         "role": "Draft safe author-facing repair requests for blocked returned-package states.",
@@ -155,7 +164,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json",
     },
     {
-        "sequence": 16,
+        "sequence": 17,
         "phase": "repair_handoff",
         "artifact_id": "partial_label_repair_prioritization",
         "role": "Map partial-label classes to repair priority, confidence band, template, and next action.",
@@ -164,7 +173,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json",
     },
     {
-        "sequence": 17,
+        "sequence": 18,
         "phase": "repair_handoff",
         "artifact_id": "first30_repair_template_coverage",
         "role": "Prove every first-30 stop route has local repair or a safe author-facing template.",
@@ -173,7 +182,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
     },
     {
-        "sequence": 18,
+        "sequence": 19,
         "phase": "report_guard",
         "artifact_id": "result_report_safe_class_linter",
         "role": "Ensure any report cites a safe class and avoids forbidden score language when blocked.",
@@ -182,7 +191,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json",
     },
     {
-        "sequence": 19,
+        "sequence": 20,
         "phase": "report_guard",
         "artifact_id": "safe_class_report_template_readiness",
         "role": "Prove every V46 safe class has an allowed report skeleton or explicit stop wording.",
@@ -191,7 +200,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json",
     },
     {
-        "sequence": 20,
+        "sequence": 21,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_doc_crosslink_linter",
         "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
@@ -200,7 +209,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
     },
     {
-        "sequence": 21,
+        "sequence": 22,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_dependency_graph",
         "role": "Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts.",

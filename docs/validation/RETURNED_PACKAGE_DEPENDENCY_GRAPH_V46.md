@@ -22,9 +22,9 @@ score tables, expression matrices, labels, or quarantined cohorts.
 
 ## Current Result
 
-- nodes: `554`
-- edges: `743`
-- lint checks: `199`
+- nodes: `568`
+- edges: `768`
+- lint checks: `206`
 - lint failures: `0`
 - lint hard failures: `0`
 - lint warnings: `0`

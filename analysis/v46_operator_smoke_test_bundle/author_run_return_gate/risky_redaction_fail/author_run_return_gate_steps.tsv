@@ -1,5 +1,5 @@
 step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/risky_redaction_fail/redaction_precheck --fail-on-error	1	0.055	FAIL	"{
+author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/risky_redaction_fail/redaction_precheck --fail-on-error	1	0.056	FAIL	"{
   ""audit"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/risky_redaction_fail/redaction_precheck/author_run_redaction_precheck.tsv"",
   ""n_block"": 3,
   ""n_files_scanned"": 12,
