@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `25`; failures: `0`.
+Overall status: `PASS`; scripts checked: `26`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -35,6 +35,7 @@ Overall status: `PASS`; scripts checked: `25`; failures: `0`.
 | `scripts/v46_returned_package_regression_suite.py` | `docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md` | `2` | `PASS` |
 | `scripts/v46_operator_smoke_test_bundle.py` | `docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md` | `1` | `PASS` |
 | `scripts/v46_returned_package_doc_crosslink_linter.py` | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` | `4` | `PASS` |
+| `scripts/v46_returned_package_dependency_graph.py` | `docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md` | `4` | `PASS` |
 
 Boundary: this report checks navigation and documentation reachability only.
 It does not open returned score tables, expression matrices, labels, or quarantined cohorts.

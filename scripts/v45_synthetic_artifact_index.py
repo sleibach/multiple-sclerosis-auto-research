@@ -133,6 +133,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_state_transition_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_returned_package_handoff_bundle_manifest": ("operations", "returned-package handoff navigation only"),
     "analysis/v46_returned_package_doc_crosslink_linter": ("integrity_governance", "returned-package documentation cross-link only"),
+    "analysis/v46_returned_package_dependency_graph": ("integrity_governance", "returned-package dependency graph only"),
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
 }

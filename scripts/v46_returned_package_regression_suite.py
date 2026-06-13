@@ -188,6 +188,21 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v45_readiness_stale_output_detector.py", "--outdir", rel(outdir / "readiness_stale_output_detector")],
         ),
         (
+            "returned_package_dependency_graph",
+            "operator_navigation",
+            [
+                py,
+                "scripts/v46_returned_package_dependency_graph.py",
+                "--outdir",
+                rel(outdir / "dependency_graph"),
+                "--stale-status-mode",
+                "warn",
+                "--suite-status-mode",
+                "warn",
+                "--fail-on-error",
+            ],
+        ),
+        (
             "no_raw_git_scanner",
             "repository_safety",
             [py, "scripts/v45_no_raw_git_scanner.py", "--outdir", rel(outdir / "no_raw_git_scanner")],

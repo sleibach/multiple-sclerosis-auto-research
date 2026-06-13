@@ -152,6 +152,11 @@ REQUIRED_SCRIPTS = [
         "doc": "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
         "role": "returned-package documentation cross-link linter",
     },
+    {
+        "script": "scripts/v46_returned_package_dependency_graph.py",
+        "doc": "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
+        "role": "returned-package dependency graph",
+    },
 ]
 
 OPERATOR_REFERENCE_FILES = [
@@ -162,6 +167,7 @@ OPERATOR_REFERENCE_FILES = [
     "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
     "docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md",
     "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
+    "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
     "analysis/v46_returned_package_handoff_bundle_manifest/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST.md",
     "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv",
     "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",

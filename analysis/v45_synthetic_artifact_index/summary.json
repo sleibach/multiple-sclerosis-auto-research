@@ -127,6 +127,12 @@
       "n_files": 2
     },
     {
+      "allowed_interpretation": "returned-package dependency graph only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
       "allowed_interpretation": "returned-package documentation cross-link only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -316,7 +322,7 @@
       "allowed_interpretation": "software/readiness regression only",
       "class": "synthetic_regression",
       "n_dirs": 2,
-      "n_files": 911
+      "n_files": 923
     },
     {
       "allowed_interpretation": "software regression only",
@@ -355,8 +361,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 77,
-  "n_dirs_indexed": 116,
+  "n_dirs_containing_synthetic": 78,
+  "n_dirs_indexed": 117,
   "purpose": "V43-V46 artifact governance index; no biological claim",
   "synthetic": false
 }

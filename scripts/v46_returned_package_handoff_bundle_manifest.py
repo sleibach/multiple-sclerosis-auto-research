@@ -172,6 +172,15 @@ ARTIFACTS = [
         "doc": "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
         "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
     },
+    {
+        "sequence": 18,
+        "phase": "operator_navigation",
+        "artifact_id": "returned_package_dependency_graph",
+        "role": "Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts.",
+        "command": ".venv/bin/python scripts/v46_returned_package_dependency_graph.py --outdir analysis/v46_returned_package_dependency_graph --fail-on-error",
+        "doc": "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
+        "primary_output": "analysis/v46_returned_package_dependency_graph/returned_package_dependency_summary.json",
+    },
 ]
 
 

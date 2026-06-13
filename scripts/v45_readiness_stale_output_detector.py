@@ -552,6 +552,8 @@ CHECKS = [
             "scripts/v46_returned_package_handoff_bundle_manifest.py",
             "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
             "scripts/v46_returned_package_doc_crosslink_linter.py",
+            "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
+            "scripts/v46_returned_package_dependency_graph.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -791,6 +793,7 @@ CHECKS = [
             "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
             "docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md",
             "docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md",
+            "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
             "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv",
             "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
             "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv",
@@ -803,6 +806,25 @@ CHECKS = [
             "analysis/v46_returned_package_doc_crosslink_linter/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER.md",
         ],
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_returned_package_doc_crosslink_linter --fail-on-error",
+    },
+    {
+        "artifact": "v46_returned_package_dependency_graph",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
+            "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv",
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
+            "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv",
+            "scripts/v46_returned_package_dependency_graph.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_dependency_graph/returned_package_dependency_summary.json",
+            "analysis/v46_returned_package_dependency_graph/returned_package_dependency_nodes.tsv",
+            "analysis/v46_returned_package_dependency_graph/returned_package_dependency_edges.tsv",
+            "analysis/v46_returned_package_dependency_graph/returned_package_dependency_lint.tsv",
+            "analysis/v46_returned_package_dependency_graph/returned_package_dependency_graph.dot",
+            "analysis/v46_returned_package_dependency_graph/RETURNED_PACKAGE_DEPENDENCY_GRAPH.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_dependency_graph.py --outdir analysis/v46_returned_package_dependency_graph --fail-on-error",
     },
     {
         "artifact": "v46_external_blocker_aging_audit",
@@ -860,6 +882,8 @@ CHECKS = [
             "scripts/v46_returned_package_handoff_bundle_manifest.py",
             "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
             "scripts/v46_returned_package_doc_crosslink_linter.py",
+            "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
+            "scripts/v46_returned_package_dependency_graph.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

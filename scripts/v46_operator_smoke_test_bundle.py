@@ -192,6 +192,21 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_doc_crosslink_linter.py", "--outdir", rel(outdir / "doc_crosslink_linter"), "--fail-on-error"],
         ),
         (
+            "returned_package_dependency_graph",
+            "returned_package",
+            [
+                py,
+                "scripts/v46_returned_package_dependency_graph.py",
+                "--outdir",
+                rel(outdir / "dependency_graph"),
+                "--stale-status-mode",
+                "warn",
+                "--suite-status-mode",
+                "warn",
+                "--fail-on-error",
+            ],
+        ),
+        (
             "no_raw_git_scanner",
             "repository_safety",
             [py, "scripts/v45_no_raw_git_scanner.py", "--outdir", rel(outdir / "no_raw_git_scanner")],
