@@ -39,6 +39,7 @@ GROUND_TREE_PREFIXES = [
 ALLOWED_NON_EXTERNAL_PREFIXES = [
     "docs/knowledge/",
     "analysis/v47_external_knowledge_index/",
+    "analysis/v47_external_resource_category_rollup/",
     "analysis/v47_external_record_schema_linter/",
     "analysis/v47_provenance_gate/",
     "scripts/v47_provenance_gate.py",
@@ -115,6 +116,7 @@ def external_json_files(root: Path) -> list[Path]:
         path
         for path in base.rglob("*.json")
         if "/schema/" not in str(path.relative_to(root.parent if root.name == EXTERNAL_ROOT else root))
+        and f"{EXTERNAL_ROOT}/catalogs/indexes/" not in rel(root, path)
         and "schema" not in path.parts
         and not path.name.endswith(".schema.json")
     )
@@ -156,7 +158,11 @@ def audit_external_record(root: Path, path: Path) -> list[GateIssue]:
 
 def audit_external_markdown(root: Path, path: Path) -> list[GateIssue]:
     rel_path = rel(root, path)
-    if rel_path in {f"{EXTERNAL_ROOT}/README.md", f"{EXTERNAL_ROOT}/catalogs/README.md"} or f"{EXTERNAL_ROOT}/schema/" in rel_path:
+    if (
+        rel_path in {f"{EXTERNAL_ROOT}/README.md", f"{EXTERNAL_ROOT}/catalogs/README.md"}
+        or f"{EXTERNAL_ROOT}/schema/" in rel_path
+        or rel_path.startswith(f"{EXTERNAL_ROOT}/catalogs/indexes/")
+    ):
         return []
     text = path.read_text(errors="ignore")
     issues: list[GateIssue] = []

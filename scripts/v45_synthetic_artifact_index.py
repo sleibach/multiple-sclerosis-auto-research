@@ -151,6 +151,7 @@ MANUAL_CLASS = {
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
     "analysis/v46_sap_ai_core_health_check": ("integrity_governance", "SAP AI Core access health only"),
     "analysis/v47_external_knowledge_index": ("integrity_governance", "external-knowledge class-aware index only"),
+    "analysis/v47_external_resource_category_rollup": ("integrity_governance", "external-resource category rollup only"),
     "analysis/v47_external_record_schema_linter": ("integrity_governance", "external-record schema lint only"),
     "analysis/v47_provenance_gate": ("integrity_governance", "external-knowledge provenance segregation only"),
 }

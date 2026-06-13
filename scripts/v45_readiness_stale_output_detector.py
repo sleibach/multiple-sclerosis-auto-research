@@ -326,6 +326,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_record_schema_linter.py synthetic-check --outdir analysis/v47_external_record_schema_linter --fail-on-error && .venv/bin/python scripts/v47_external_record_schema_linter.py lint --outdir analysis/v47_external_record_schema_linter --fail-on-error",
     },
     {
+        "artifact": "v47_external_resource_category_rollup",
+        "sources": [
+            "docs/knowledge/EXTERNAL_RESOURCE_CATEGORY_ROLLUP_V47.md",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_external_resource_category_rollup.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_resource_category_rollup/synthetic_category_rollup_summary.json",
+            "analysis/v47_external_resource_category_rollup/synthetic_category_rollup_checks.tsv",
+            "knowledge_external/catalogs/indexes/external_resource_category_rollup.tsv",
+            "knowledge_external/catalogs/indexes/external_resource_category_counts.tsv",
+            "knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_CATEGORY_ROLLUP.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_resource_category_rollup.py synthetic-check --outdir analysis/v47_external_resource_category_rollup --fail-on-error && .venv/bin/python scripts/v47_external_resource_category_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",
