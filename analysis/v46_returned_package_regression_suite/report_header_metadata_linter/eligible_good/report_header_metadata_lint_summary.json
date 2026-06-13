@@ -1,0 +1,28 @@
+{
+  "all_score_values_read_false": true,
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "lint": "analysis/v46_returned_package_regression_suite/report_header_metadata_linter/eligible_good/report_header_metadata_lint.tsv",
+  "n_checks": 13,
+  "n_fail": 0,
+  "observed_fields": {
+    "cohort_token": "synthetic_gafson_return_20260613",
+    "locked_rule_path": "docs/locked_rules/LOCKED_RULE_V22.md",
+    "locked_rule_sha256": "6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a",
+    "route_class": "SCORED_AGGREGATE_CANONICAL_PATH",
+    "safe_class": "ELIGIBLE_FOR_PREREGISTERED_INTERPRETATION",
+    "terms_class": "AGGREGATE_ONLY_LOCAL_PREFLIGHT"
+  },
+  "observed_status": "PASS",
+  "purpose": "V46 report-header metadata linter; no biological claim",
+  "report": "analysis/v46_returned_package_regression_suite/report_header_metadata_linter/fixtures/eligible_good.md",
+  "required_fields": [
+    "cohort_token",
+    "route_class",
+    "terms_class",
+    "safe_class",
+    "locked_rule_path",
+    "locked_rule_sha256"
+  ],
+  "synthetic": true
+}

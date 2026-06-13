@@ -3,7 +3,7 @@
 Status: operator navigation infrastructure. No validation result and no biological claim.
 
 This manifest lists the returned-package artifacts in deterministic operator order.
-Overall status: `PASS`; rows: `22`; lint failures: `0`.
+Overall status: `PASS`; rows: `23`; lint failures: `0`.
 
 | Order | Phase | Artifact | Role | Doc |
 |---:|---|---|---|---|
@@ -26,9 +26,10 @@ Overall status: `PASS`; rows: `22`; lint failures: `0`.
 | 17 | `repair_handoff` | `partial_label_repair_prioritization` | Map partial-label classes to repair priority, confidence band, template, and next action. | `docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md` |
 | 18 | `repair_handoff` | `first30_repair_template_coverage` | Prove every first-30 stop route has local repair or a safe author-facing template. | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` |
 | 19 | `report_guard` | `result_report_safe_class_linter` | Ensure any report cites a safe class and avoids forbidden score language when blocked. | `docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md` |
-| 20 | `report_guard` | `safe_class_report_template_readiness` | Prove every V46 safe class has an allowed report skeleton or explicit stop wording. | `docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md` |
-| 21 | `operator_navigation` | `returned_package_doc_crosslink_linter` | Verify every returned-package script has direct documentation and operator-route reachability. | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` |
-| 22 | `operator_navigation` | `returned_package_dependency_graph` | Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts. | `docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md` |
+| 20 | `report_guard` | `report_header_metadata_linter` | Ensure result reports include cohort token, route, terms class, safe class, and locked-rule hash before result text. | `docs/validation/REPORT_HEADER_METADATA_LINTER_V46.md` |
+| 21 | `report_guard` | `safe_class_report_template_readiness` | Prove every V46 safe class has an allowed report skeleton or explicit stop wording. | `docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md` |
+| 22 | `operator_navigation` | `returned_package_doc_crosslink_linter` | Verify every returned-package script has direct documentation and operator-route reachability. | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` |
+| 23 | `operator_navigation` | `returned_package_dependency_graph` | Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts. | `docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md` |
 
 Every row is a pre-score navigation or guard artifact. The manifest does not
 authorize result interpretation; the V46 safe class and V42 pre-registration

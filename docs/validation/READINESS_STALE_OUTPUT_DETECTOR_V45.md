@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `54`
+- artifacts checked: `55`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -61,6 +61,7 @@ Checked generated artifacts:
 - V46 returned-package regression suite;
 - V46 safe-wording fixture linter;
 - V46 result-report safe-class linter;
+- V46 report-header metadata linter;
 - V46 safe-class report-template readiness map;
 - V46 small-n conclusion language table;
 - V46 analyzable-pair confidence envelope;
@@ -70,6 +71,7 @@ Checked generated artifacts:
 - V46 first-30 repair-template coverage linter;
 - V46 first-30 returned-package status-board dry run;
 - V46 returned-package status-board schema linter;
+- V46 status-board Markdown round-trip renderer;
 - V46 returned-package preflight dry run;
 - V46 returned-package state-transition validator;
 - V46 returned-package handoff bundle manifest;

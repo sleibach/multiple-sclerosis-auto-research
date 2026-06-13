@@ -142,6 +142,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_result_report_safe_class_linter.py", "synthetic-check", "--outdir", rel(outdir / "result_report_safe_class_linter"), "--fail-on-error"],
         ),
         (
+            "report_header_metadata_linter",
+            "returned_package",
+            [py, "scripts/v46_report_header_metadata_linter.py", "synthetic-check", "--outdir", rel(outdir / "report_header_metadata_linter"), "--fail-on-error"],
+        ),
+        (
             "safe_class_report_template_readiness",
             "returned_package",
             [py, "scripts/v46_safe_class_report_template_readiness.py", "--outdir", rel(outdir / "safe_class_report_template_readiness"), "--fail-on-error"],

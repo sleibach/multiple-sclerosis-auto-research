@@ -307,6 +307,12 @@
       "n_files": 2
     },
     {
+      "allowed_interpretation": "report-header metadata regression only",
+      "class": "synthetic_intake_verification",
+      "n_dirs": 1,
+      "n_files": 20
+    },
+    {
       "allowed_interpretation": "report-template readiness only",
       "class": "synthetic_intake_verification",
       "n_dirs": 1,
@@ -340,7 +346,7 @@
       "allowed_interpretation": "software/readiness regression only",
       "class": "synthetic_regression",
       "n_dirs": 2,
-      "n_files": 1129
+      "n_files": 1169
     },
     {
       "allowed_interpretation": "software regression only",
@@ -379,8 +385,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 82,
-  "n_dirs_indexed": 121,
+  "n_dirs_containing_synthetic": 83,
+  "n_dirs_indexed": 122,
   "purpose": "V43-V46 artifact governance index; no biological claim",
   "synthetic": false
 }
