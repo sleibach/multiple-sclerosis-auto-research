@@ -17,6 +17,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md" [label="docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md", shape=ellipse];
   "doc:docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md" [label="docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md", shape=ellipse];
   "doc:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" [label="docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md", shape=ellipse];
+  "doc:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" [label="docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md", shape=ellipse];
   "doc:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" [label="docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md", shape=ellipse];
   "handoff_artifact:analyzable_pair_confidence_envelope" [label="analyzable_pair_confidence_envelope", shape=ellipse];
   "handoff_artifact:cold_start_operator_sequence" [label="cold_start_operator_sequence", shape=ellipse];
@@ -33,6 +34,7 @@ digraph returned_package_dependencies {
   "handoff_artifact:returned_package_dependency_graph" [label="returned_package_dependency_graph", shape=ellipse];
   "handoff_artifact:returned_package_doc_crosslink_linter" [label="returned_package_doc_crosslink_linter", shape=ellipse];
   "handoff_artifact:returned_package_preflight_dryrun" [label="returned_package_preflight_dryrun", shape=ellipse];
+  "handoff_artifact:safe_class_report_template_readiness" [label="safe_class_report_template_readiness", shape=ellipse];
   "handoff_artifact:safe_interpretation_classifier" [label="safe_interpretation_classifier", shape=ellipse];
   "handoff_artifact:small_n_language" [label="small_n_language", shape=ellipse];
   "handoff_artifact:state_transition_validator" [label="state_transition_validator", shape=ellipse];
@@ -174,6 +176,11 @@ digraph returned_package_dependencies {
   "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_fixture_results.tsv" [label="analysis/v46_returned_package_status_board_schema_linter/status_board_schema_fixture_results.tsv", shape=ellipse];
   "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_lint.tsv" [label="analysis/v46_returned_package_status_board_schema_linter/status_board_schema_lint.tsv", shape=ellipse];
   "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" [label="analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json", shape=ellipse];
+  "output:analysis/v46_safe_class_report_template_readiness/SAFE_CLASS_REPORT_TEMPLATE_READINESS.md" [label="analysis/v46_safe_class_report_template_readiness/SAFE_CLASS_REPORT_TEMPLATE_READINESS.md", shape=ellipse];
+  "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_lint.tsv" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_lint.tsv", shape=ellipse];
+  "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_linter_results.tsv" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_linter_results.tsv", shape=ellipse];
+  "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv", shape=ellipse];
+  "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json", shape=ellipse];
   "output:analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_index.tsv" [label="analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_index.tsv", shape=ellipse];
   "output:analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_lint.tsv" [label="analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_lint.tsv", shape=ellipse];
   "output:analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_summary.json" [label="analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_summary.json", shape=ellipse];
@@ -208,6 +215,7 @@ digraph returned_package_dependencies {
   "regression_step:returned_package_preflight_dryrun" [label="returned_package_preflight_dryrun", shape=ellipse];
   "regression_step:returned_package_route_state_matrix" [label="returned_package_route_state_matrix", shape=ellipse];
   "regression_step:returned_package_state_transition_validator" [label="returned_package_state_transition_validator", shape=ellipse];
+  "regression_step:safe_class_report_template_readiness" [label="safe_class_report_template_readiness", shape=ellipse];
   "regression_step:safe_interpretation_classifier_synthetic" [label="safe_interpretation_classifier_synthetic", shape=ellipse];
   "regression_step:safe_wording_fixture_linter" [label="safe_wording_fixture_linter", shape=ellipse];
   "regression_step:small_n_conclusion_language" [label="small_n_conclusion_language", shape=ellipse];
@@ -244,6 +252,7 @@ digraph returned_package_dependencies {
   "script:scripts/v46_returned_package_safe_interpretation.py" [label="scripts/v46_returned_package_safe_interpretation.py", shape=box];
   "script:scripts/v46_returned_package_state_transition_validator.py" [label="scripts/v46_returned_package_state_transition_validator.py", shape=box];
   "script:scripts/v46_returned_package_status_board_schema_linter.py" [label="scripts/v46_returned_package_status_board_schema_linter.py", shape=box];
+  "script:scripts/v46_safe_class_report_template_readiness.py" [label="scripts/v46_safe_class_report_template_readiness.py", shape=box];
   "script:scripts/v46_safe_wording_fixture_linter.py" [label="scripts/v46_safe_wording_fixture_linter.py", shape=box];
   "script:scripts/v46_small_n_conclusion_language_table.py" [label="scripts/v46_small_n_conclusion_language_table.py", shape=box];
   "script:scripts/v46_terms_governance_matrix.py" [label="scripts/v46_terms_governance_matrix.py", shape=box];
@@ -273,6 +282,7 @@ digraph returned_package_dependencies {
   "smoke_step:returned_package_route_state_matrix" [label="returned_package_route_state_matrix", shape=ellipse];
   "smoke_step:returned_package_state_transition_validator" [label="returned_package_state_transition_validator", shape=ellipse];
   "smoke_step:route_analyzable_pair_synthetic" [label="route_analyzable_pair_synthetic", shape=ellipse];
+  "smoke_step:safe_class_report_template_readiness" [label="safe_class_report_template_readiness", shape=ellipse];
   "smoke_step:safe_interpretation_classifier_synthetic" [label="safe_interpretation_classifier_synthetic", shape=ellipse];
   "smoke_step:safe_wording_fixture_linter" [label="safe_wording_fixture_linter", shape=ellipse];
   "smoke_step:small_n_conclusion_language" [label="small_n_conclusion_language", shape=ellipse];
@@ -352,6 +362,7 @@ digraph returned_package_dependencies {
   "source:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv" [label="analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv", shape=ellipse];
   "source:analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json" [label="analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json", shape=ellipse];
   "source:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" [label="analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json", shape=ellipse];
+  "source:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" [label="analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json", shape=ellipse];
   "source:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" [label="analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv", shape=ellipse];
   "source:docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md" [label="docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md", shape=ellipse];
   "source:docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md" [label="docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md", shape=ellipse];
@@ -394,6 +405,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md" [label="docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md", shape=ellipse];
   "source:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" [label="docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md", shape=ellipse];
   "source:docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md" [label="docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md", shape=ellipse];
+  "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" [label="docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md", shape=ellipse];
   "source:docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md" [label="docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md", shape=ellipse];
   "source:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" [label="docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md", shape=ellipse];
   "source:docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md" [label="docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md", shape=ellipse];
@@ -469,6 +481,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_returned_package_safe_interpretation.py" [label="scripts/v46_returned_package_safe_interpretation.py", shape=ellipse];
   "source:scripts/v46_returned_package_state_transition_validator.py" [label="scripts/v46_returned_package_state_transition_validator.py", shape=ellipse];
   "source:scripts/v46_returned_package_status_board_schema_linter.py" [label="scripts/v46_returned_package_status_board_schema_linter.py", shape=ellipse];
+  "source:scripts/v46_safe_class_report_template_readiness.py" [label="scripts/v46_safe_class_report_template_readiness.py", shape=ellipse];
   "source:scripts/v46_safe_wording_fixture_linter.py" [label="scripts/v46_safe_wording_fixture_linter.py", shape=ellipse];
   "source:scripts/v46_small_n_conclusion_language_table.py" [label="scripts/v46_small_n_conclusion_language_table.py", shape=ellipse];
   "source:scripts/v46_terms_governance_matrix.py" [label="scripts/v46_terms_governance_matrix.py", shape=ellipse];
@@ -519,6 +532,7 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_returned_package_route_state_matrix" [label="v46_returned_package_route_state_matrix", shape=ellipse];
   "stale_artifact:v46_returned_package_state_transition_validator" [label="v46_returned_package_state_transition_validator", shape=ellipse];
   "stale_artifact:v46_returned_package_status_board_schema_linter" [label="v46_returned_package_status_board_schema_linter", shape=ellipse];
+  "stale_artifact:v46_safe_class_report_template_readiness" [label="v46_safe_class_report_template_readiness", shape=ellipse];
   "stale_artifact:v46_safe_interpretation_classifier" [label="v46_safe_interpretation_classifier", shape=ellipse];
   "stale_artifact:v46_safe_wording_fixture_linter" [label="v46_safe_wording_fixture_linter", shape=ellipse];
   "stale_artifact:v46_small_n_conclusion_language" [label="v46_small_n_conclusion_language", shape=ellipse];
@@ -544,6 +558,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md" -> "handoff_artifact:state_transition_validator" [label="documented_by"];
   "doc:docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md" -> "handoff_artifact:status_board_schema_linter" [label="documented_by"];
   "doc:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" -> "handoff_artifact:repair_request_templates" [label="documented_by"];
+  "doc:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "handoff_artifact:safe_class_report_template_readiness" [label="documented_by"];
   "doc:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" -> "handoff_artifact:small_n_language" [label="documented_by"];
   "handoff_artifact:analyzable_pair_confidence_envelope" -> "handoff_artifact:repair_request_templates" [label="operator_sequence_next"];
   "handoff_artifact:analyzable_pair_confidence_envelope" -> "output:analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_summary.json" [label="emits"];
@@ -567,13 +582,15 @@ digraph returned_package_dependencies {
   "handoff_artifact:receipt_manifest_schema_linter" -> "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" [label="emits"];
   "handoff_artifact:repair_request_templates" -> "handoff_artifact:partial_label_repair_prioritization" [label="operator_sequence_next"];
   "handoff_artifact:repair_request_templates" -> "output:analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json" [label="emits"];
-  "handoff_artifact:result_report_safe_class_linter" -> "handoff_artifact:returned_package_doc_crosslink_linter" [label="operator_sequence_next"];
+  "handoff_artifact:result_report_safe_class_linter" -> "handoff_artifact:safe_class_report_template_readiness" [label="operator_sequence_next"];
   "handoff_artifact:result_report_safe_class_linter" -> "output:analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json" [label="emits"];
   "handoff_artifact:returned_package_dependency_graph" -> "output:analysis/v46_returned_package_dependency_graph/returned_package_dependency_summary.json" [label="emits"];
   "handoff_artifact:returned_package_doc_crosslink_linter" -> "handoff_artifact:returned_package_dependency_graph" [label="operator_sequence_next"];
   "handoff_artifact:returned_package_doc_crosslink_linter" -> "output:analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json" [label="emits"];
   "handoff_artifact:returned_package_preflight_dryrun" -> "handoff_artifact:command_order_planner" [label="operator_sequence_next"];
   "handoff_artifact:returned_package_preflight_dryrun" -> "output:analysis/v46_returned_package_preflight_dryrun/returned_package_preflight_dryrun_summary.json" [label="emits"];
+  "handoff_artifact:safe_class_report_template_readiness" -> "handoff_artifact:returned_package_doc_crosslink_linter" [label="operator_sequence_next"];
+  "handoff_artifact:safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" [label="emits"];
   "handoff_artifact:safe_interpretation_classifier" -> "handoff_artifact:small_n_language" [label="operator_sequence_next"];
   "handoff_artifact:safe_interpretation_classifier" -> "output:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json" [label="emits"];
   "handoff_artifact:small_n_language" -> "handoff_artifact:analyzable_pair_confidence_envelope" [label="operator_sequence_next"];
@@ -650,6 +667,9 @@ digraph returned_package_dependencies {
   "script:scripts/v46_returned_package_status_board_schema_linter.py" -> "handoff_artifact:status_board_schema_linter" [label="runs_for_handoff_artifact"];
   "script:scripts/v46_returned_package_status_board_schema_linter.py" -> "regression_step:status_board_schema_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_returned_package_status_board_schema_linter.py" -> "smoke_step:status_board_schema_linter" [label="runs_for_suite_step"];
+  "script:scripts/v46_safe_class_report_template_readiness.py" -> "handoff_artifact:safe_class_report_template_readiness" [label="runs_for_handoff_artifact"];
+  "script:scripts/v46_safe_class_report_template_readiness.py" -> "regression_step:safe_class_report_template_readiness" [label="runs_for_suite_step"];
+  "script:scripts/v46_safe_class_report_template_readiness.py" -> "smoke_step:safe_class_report_template_readiness" [label="runs_for_suite_step"];
   "script:scripts/v46_safe_wording_fixture_linter.py" -> "regression_step:safe_wording_fixture_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_safe_wording_fixture_linter.py" -> "smoke_step:safe_wording_fixture_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_small_n_conclusion_language_table.py" -> "handoff_artifact:small_n_language" [label="runs_for_handoff_artifact"];
@@ -769,9 +789,11 @@ digraph returned_package_dependencies {
   "source:analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json" -> "stale_artifact:cold_start_operator_sequence" [label="freshness_source_for"];
   "source:analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json" -> "stale_artifact:current_action_card" [label="freshness_source_for"];
   "source:analysis/v46_returned_package_route_state_matrix/returned_package_route_state_matrix.tsv" -> "stale_artifact:v46_first30_returned_package_decision_table" [label="freshness_source_for"];
+  "source:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv" -> "stale_artifact:v46_safe_wording_fixture_linter" [label="freshness_source_for"];
   "source:analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
+  "source:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv" -> "stale_artifact:v46_return_repair_request_templates" [label="freshness_source_for"];
   "source:docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md" -> "stale_artifact:v46_aggregate_only_returned_package_composition_dryrun" [label="freshness_source_for"];
   "source:docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md" -> "stale_artifact:v46_analyzable_pair_confidence_envelope" [label="freshness_source_for"];
@@ -827,6 +849,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_result_report_safe_class_linter" [label="freshness_source_for"];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
+  "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_first30_returned_package_decision_table" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_returned_package_command_order_planner" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
@@ -850,6 +873,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/RETURNED_PACKAGE_ROUTE_STATE_MATRIX_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md" -> "stale_artifact:v46_return_repair_request_templates" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
+  "source:docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md" -> "stale_artifact:v46_safe_interpretation_classifier" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md" -> "stale_artifact:v46_small_n_conclusion_language" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
@@ -863,6 +887,10 @@ digraph returned_package_dependencies {
   "source:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" -> "stale_artifact:v46_return_repair_request_templates" [label="freshness_source_for"];
   "source:docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md" -> "stale_artifact:v46_analyzable_pair_confidence_envelope" [label="freshness_source_for"];
+  "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "stale_artifact:v46_returned_package_doc_crosslink_linter" [label="freshness_source_for"];
+  "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md" -> "stale_artifact:v46_safe_wording_fixture_linter" [label="freshness_source_for"];
   "source:docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md" -> "stale_artifact:v46_small_n_conclusion_language" [label="freshness_source_for"];
   "source:docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md" -> "stale_artifact:generated_doc_freshness_linter" [label="freshness_source_for"];
@@ -963,6 +991,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_result_report_safe_class_linter" [label="freshness_source_for"];
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:scripts/v46_return_repair_request_templates.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_return_repair_request_templates.py" -> "stale_artifact:v46_return_repair_request_templates" [label="freshness_source_for"];
   "source:scripts/v46_return_repair_request_templates.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
@@ -1001,6 +1030,9 @@ digraph returned_package_dependencies {
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_status_board_schema_linter.py" -> "stale_artifact:v46_returned_package_status_board_schema_linter" [label="freshness_source_for"];
+  "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:scripts/v46_safe_class_report_template_readiness.py" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:scripts/v46_safe_wording_fixture_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_safe_wording_fixture_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_safe_wording_fixture_linter.py" -> "stale_artifact:v46_safe_wording_fixture_linter" [label="freshness_source_for"];
@@ -1147,6 +1179,11 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_returned_package_status_board_schema_linter" -> "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_fixture_results.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_returned_package_status_board_schema_linter" -> "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_lint.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_returned_package_status_board_schema_linter" -> "output:analysis/v46_returned_package_status_board_schema_linter/status_board_schema_linter_summary.json" [label="freshness_output_for"];
+  "stale_artifact:v46_safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/SAFE_CLASS_REPORT_TEMPLATE_READINESS.md" [label="freshness_output_for"];
+  "stale_artifact:v46_safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_lint.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_linter_results.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_safe_class_report_template_readiness" -> "output:analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json" [label="freshness_output_for"];
   "stale_artifact:v46_safe_interpretation_classifier" -> "output:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_safe_interpretation_classifier" -> "output:analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json" [label="freshness_output_for"];
   "stale_artifact:v46_safe_wording_fixture_linter" -> "output:analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_index.tsv" [label="freshness_output_for"];
@@ -1186,6 +1223,7 @@ digraph returned_package_dependencies {
   "suite:operator_smoke_test_bundle" -> "smoke_step:returned_package_route_state_matrix" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:returned_package_state_transition_validator" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:route_analyzable_pair_synthetic" [label="contains_step"];
+  "suite:operator_smoke_test_bundle" -> "smoke_step:safe_class_report_template_readiness" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:safe_interpretation_classifier_synthetic" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:safe_wording_fixture_linter" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:small_n_conclusion_language" [label="contains_step"];
@@ -1213,6 +1251,7 @@ digraph returned_package_dependencies {
   "suite:returned_package_regression_suite" -> "regression_step:returned_package_preflight_dryrun" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:returned_package_route_state_matrix" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:returned_package_state_transition_validator" [label="contains_step"];
+  "suite:returned_package_regression_suite" -> "regression_step:safe_class_report_template_readiness" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_interpretation_classifier_synthetic" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_wording_fixture_linter" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:small_n_conclusion_language" [label="contains_step"];

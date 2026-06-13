@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `27`; failures: `0`.
+Overall status: `PASS`; scripts checked: `28`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -22,6 +22,7 @@ Overall status: `PASS`; scripts checked: `27`; failures: `0`.
 | `scripts/v46_returned_package_safe_interpretation.py` | `docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md` | `4` | `PASS` |
 | `scripts/v46_safe_wording_fixture_linter.py` | `docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md` | `3` | `PASS` |
 | `scripts/v46_result_report_safe_class_linter.py` | `docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md` | `4` | `PASS` |
+| `scripts/v46_safe_class_report_template_readiness.py` | `docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md` | `3` | `PASS` |
 | `scripts/v46_small_n_conclusion_language_table.py` | `docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md` | `3` | `PASS` |
 | `scripts/v46_analyzable_pair_confidence_envelope.py` | `docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md` | `3` | `PASS` |
 | `scripts/v46_return_repair_request_templates.py` | `docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md` | `3` | `PASS` |

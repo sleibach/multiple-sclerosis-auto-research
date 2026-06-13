@@ -122,6 +122,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_regression_suite": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_safe_wording_fixture_linter": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_result_report_safe_class_linter": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_safe_class_report_template_readiness": ("synthetic_intake_verification", "report-template readiness only"),
     "analysis/v46_small_n_conclusion_language": ("power_design_planning", "study design planning only"),
     "analysis/v46_analyzable_pair_confidence_envelope": ("power_design_planning", "study design planning only"),
     "analysis/v46_return_repair_request_templates": ("operations", "returned-package repair request drafts only"),

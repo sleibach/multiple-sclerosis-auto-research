@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `2431` paths across `8` fronts and `9` evidence classes.
+The current run indexes `2469` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,8 +44,8 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| infrastructure | 1501 |
-| robustness | 664 |
+| infrastructure | 1527 |
+| robustness | 676 |
 | power/design | 115 |
 | cohort dependence | 87 |
 | data-free validation | 31 |
@@ -57,10 +57,10 @@ Evidence-class counts:
 
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
-| synthetic method behavior | 1161 | method behavior/planning only; never biological evidence |
-| documentation/governance | 750 | governance/readiness documentation |
-| validation infrastructure | 252 | mechanical guardrail/readiness; no biological claim |
-| software | 104 | executable infrastructure; no biological claim by itself |
+| synthetic method behavior | 1173 | method behavior/planning only; never biological evidence |
+| documentation/governance | 756 | governance/readiness documentation |
+| validation infrastructure | 271 | mechanical guardrail/readiness; no biological claim |
+| software | 105 | executable infrastructure; no biological claim by itself |
 | public/external acquisition operations | 114 | cohort availability/request readiness; no validation claim |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
 | synthesis documentation | 14 | external framing/checklist; no new analysis |
@@ -69,7 +69,7 @@ Evidence-class counts:
 
 ## Drift Since Earlier Snapshot
 
-The path count increased by about `2092-2093` paths because V45 continued after
+The path count increased by about `2130-2131` paths because V45 continued after
 the original index was committed. The dominant additions were:
 
 - synthetic and regression outputs from primary, secondary, preflight,

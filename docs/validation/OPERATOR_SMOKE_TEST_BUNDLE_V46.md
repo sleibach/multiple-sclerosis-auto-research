@@ -40,26 +40,27 @@ validation harness, or interpret biology.
 15. V46 safe-interpretation classifier synthetic check.
 16. V46 safe-wording fixture linter.
 17. V46 result-report safe-class linter.
-18. V46 small-n conclusion language table.
-19. V46 analyzable-pair confidence envelope.
-20. V46 return repair-request templates.
-21. V46 partial-label repair prioritization.
-22. V46 first-30-minute returned-package decision table.
-23. V46 first-30 repair-template coverage linter.
-24. V46 first-30 returned-package status-board dry run.
-25. V46 returned-package status-board schema linter.
-26. V46 returned-package preflight dry run.
-27. V46 returned-package state-transition validator.
-28. V46 returned-package handoff bundle manifest.
-29. V46 returned-package documentation cross-link linter.
-30. V46 returned-package dependency graph.
-31. V45 no-raw-data git scanner.
+18. V46 safe-class report-template readiness map.
+19. V46 small-n conclusion language table.
+20. V46 analyzable-pair confidence envelope.
+21. V46 return repair-request templates.
+22. V46 partial-label repair prioritization.
+23. V46 first-30-minute returned-package decision table.
+24. V46 first-30 repair-template coverage linter.
+25. V46 first-30 returned-package status-board dry run.
+26. V46 returned-package status-board schema linter.
+27. V46 returned-package preflight dry run.
+28. V46 returned-package state-transition validator.
+29. V46 returned-package handoff bundle manifest.
+30. V46 returned-package documentation cross-link linter.
+31. V46 returned-package dependency graph.
+32. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `31`;
+- steps: `32`;
 - failures: `0`;
 - overall status: `PASS`.
 

@@ -88,6 +88,11 @@ REQUIRED_SCRIPTS = [
         "role": "result-report safe-class linter",
     },
     {
+        "script": "scripts/v46_safe_class_report_template_readiness.py",
+        "doc": "docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md",
+        "role": "safe-class report-template readiness",
+    },
+    {
         "script": "scripts/v46_small_n_conclusion_language_table.py",
         "doc": "docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md",
         "role": "small-n conclusion language",

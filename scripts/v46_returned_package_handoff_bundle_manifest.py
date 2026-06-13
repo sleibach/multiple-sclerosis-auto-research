@@ -174,6 +174,15 @@ ARTIFACTS = [
     },
     {
         "sequence": 18,
+        "phase": "report_guard",
+        "artifact_id": "safe_class_report_template_readiness",
+        "role": "Prove every V46 safe class has an allowed report skeleton or explicit stop wording.",
+        "command": ".venv/bin/python scripts/v46_safe_class_report_template_readiness.py --outdir analysis/v46_safe_class_report_template_readiness --fail-on-error",
+        "doc": "docs/validation/SAFE_CLASS_REPORT_TEMPLATE_READINESS_V46.md",
+        "primary_output": "analysis/v46_safe_class_report_template_readiness/safe_class_report_template_readiness_summary.json",
+    },
+    {
+        "sequence": 19,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_doc_crosslink_linter",
         "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
@@ -182,7 +191,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
     },
     {
-        "sequence": 19,
+        "sequence": 20,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_dependency_graph",
         "role": "Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts.",

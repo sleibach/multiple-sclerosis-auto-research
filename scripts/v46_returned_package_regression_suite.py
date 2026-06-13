@@ -128,6 +128,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_result_report_safe_class_linter.py", "synthetic-check", "--outdir", rel(outdir / "result_report_safe_class_linter"), "--fail-on-error"],
         ),
         (
+            "safe_class_report_template_readiness",
+            "safe_wording",
+            [py, "scripts/v46_safe_class_report_template_readiness.py", "--outdir", rel(outdir / "safe_class_report_template_readiness"), "--fail-on-error"],
+        ),
+        (
             "small_n_conclusion_language",
             "power_language",
             [py, "scripts/v46_small_n_conclusion_language_table.py", "--outdir", rel(outdir / "small_n_conclusion_language")],

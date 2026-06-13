@@ -1,35 +1,35 @@
 doc	source	label	expected_text	status
-docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_artifact_index/summary.json	artifact_paths	| artifact-index paths | `2431` |	PASS
-docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	| V43-V46 method/governance directories | `118` |	PASS
+docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_artifact_index/summary.json	artifact_paths	| artifact-index paths | `2469` |	PASS
+docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	| V43-V46 method/governance directories | `119` |	PASS
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_dirs	| V45 analysis directories in storage summary | `84` |	PASS
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_files	| V45 analysis files in storage summary | `799` |	PASS
-docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_mib	| V45 analysis footprint | `85.881 MiB` |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	artifact_paths_sentence	The current run indexes `2431` paths	PASS
+docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_mib	| V45 analysis footprint | `85.894 MiB` |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	artifact_paths_sentence	The current run indexes `2469` paths	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_cohort_dependence	| cohort dependence | 87 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_data_free_validation	| data-free validation | 31 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_external_account	| external account | 23 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_infrastructure	| infrastructure | 1501 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_infrastructure	| infrastructure | 1527 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_infrastructure_rpt	| infrastructure/RPT | 8 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_power_design	| power/design | 115 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_resume_backbone	| resume backbone | 2 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_robustness	| robustness | 664 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_documentation_or_governance	| documentation/governance | 750 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	front_robustness	| robustness | 676 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_documentation_or_governance	| documentation/governance | 756 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_internal_convergence_null	| internal convergence null | 27 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_proposal_lens_grounding	| proposal-lens grounding | 7 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_public_or_external_acquisition_operations	| public/external acquisition operations | 114 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_resume_state	| resume state | 2 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_software	| software | 104 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_software	| software | 105 |	PASS
 docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_synthesis_documentation	| synthesis documentation | 14 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_synthetic_method_behavior	| synthetic method behavior | 1161 |	PASS
-docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_validation_infrastructure	| validation infrastructure | 252 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_synthetic_method_behavior	| synthetic method behavior | 1173 |	PASS
+docs/validation/V45_ARTIFACT_INDEX.md	analysis/v45_artifact_index/summary.json	evidence_validation_infrastructure	| validation infrastructure | 271 |	PASS
 docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summary/summary.json	storage_dirs	| V45 analysis directories | 84 |	PASS
 docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summary/summary.json	storage_files	| files | 799 |	PASS
-docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summary/summary.json	storage_total	| total size | 85.881 MiB |	PASS
+docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summary/summary.json	storage_total	| total size | 85.894 MiB |	PASS
 docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	analysis/v45_precommit_readiness/precommit_readiness_summary.json	precommit_total	| total | `PASS` | `101.339` |	PASS
 docs/validation/V45_READINESS_CHANGELOG.md	analysis/v45_precommit_readiness/precommit_readiness_summary.json	changelog_precommit	precommit readiness: `5/5` pass in `101.339` seconds	PASS
-docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	The refreshed index covers `118` V43-V46 analysis directories	PASS
-docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_marked_dirs	with `79`	PASS
-docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_dirs	- `118` V43-V46 analysis directories;	PASS
-docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_marked_dirs	- `79` directories with synthetic path/content markers;	PASS
+docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	The refreshed index covers `119` V43-V46 analysis directories	PASS
+docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_marked_dirs	with `80`	PASS
+docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_dirs	- `119` V43-V46 analysis directories;	PASS
+docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_marked_dirs	- `80` directories with synthetic path/content markers;	PASS
 docs/validation/V45_REGRESSION_AGGREGATOR.md	analysis/v45_regression_aggregator/regression_aggregator_summary.json	regression_total	Total runtime: `73.219` seconds.	PASS
-docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	scripts/v45_readiness_stale_output_detector.py	stale_artifacts_checked	- artifacts checked: `51`	PASS
+docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	scripts/v45_readiness_stale_output_detector.py	stale_artifacts_checked	- artifacts checked: `52`	PASS
