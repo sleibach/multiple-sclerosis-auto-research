@@ -1,0 +1,70 @@
+{
+  "title": "V47 external claim record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "claim",
+    "epistemic_class",
+    "source",
+    "date_accessed",
+    "relationship_to_project_findings",
+    "not_project_grounded_marker"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "epistemic_class": {
+      "enum": [
+        "external-verifiable",
+        "external-unverifiable"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "doi": {
+          "type": "string"
+        },
+        "citation": {
+          "type": "string"
+        }
+      }
+    },
+    "date_accessed": {
+      "type": "string"
+    },
+    "relationship_to_project_findings": {
+      "enum": [
+        "supports",
+        "contradicts",
+        "orthogonal",
+        "untested"
+      ]
+    },
+    "not_project_grounded_marker": {
+      "const": "NOT_PROJECT_GROUNDED"
+    },
+    "why_unverifiable": {
+      "type": "string"
+    },
+    "future_grounding_route": {
+      "type": "string"
+    },
+    "relationship_note": {
+      "type": "string"
+    }
+  }
+}
