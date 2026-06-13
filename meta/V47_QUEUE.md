@@ -39,6 +39,7 @@ No external knowledge integration occurs until:
 | 10 | 2026-06-13T19:23:54Z | 2026-06-13T19:26:56Z | done | Added relationship-to-project-finding controlled vocabulary docs and linter. Synthetic fixture PASS (`4/4` checks; bad fixtures intentionally fail underlying lint); real lint PASS (`21` records, `63` checks, `0` failures). Provenance audit PASS and stale detector PASS (`70` artifacts). |
 | 11 | 2026-06-13T19:27:43Z | 2026-06-13T19:31:31Z | done | Added 5 source-verified public MS clinical/reference resource records: National MS Society, MSIF Atlas of MS, NICE NG220, NINDS MS CDE, and MS Society UK. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`26` records), category rollup PASS (`26` resources, `9` categories), schema lint PASS (`520` checks), relationship lint PASS (`78` checks), provenance audit PASS (`235` checks). |
 | 12 | 2026-06-13T19:32:41Z | 2026-06-13T19:35:24Z | done | Added 5 public DMT/drug-reference resource records: FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`31` records), category rollup PASS (`31` resources, `10` categories), schema lint PASS (`620` checks), relationship lint PASS (`93` checks), convergence skeleton PASS (`31` placeholder rows), provenance audit PASS (`280` checks). |
+| 13 | 2026-06-13T19:36:15Z | 2026-06-13T19:39:22Z | done | Added external-resource access-tier rollup. Synthetic fixture PASS (`4/4` checks); real rollup PASS (`31` resources, `5` represented access tiers, `0` missing markers). Governance refreshed: generated-checker registry PASS (`124` scripts), stale detector PASS (`71` artifacts), doc freshness PASS, provenance audit PASS (`280` checks). |
 
 ## Live Backlog
 
@@ -62,7 +63,7 @@ No external knowledge integration occurs until:
 | 16 | Navigation/index | Add resource-category rollup for external records so public readers can browse by literature / registry / genetics / data repository | done | `scripts/v47_external_resource_category_rollup.py`; outputs under `knowledge_external/catalogs/indexes/`; synthetic and real rollups PASS. |
 | 17 | External integration | MS society/clinical-reference resources for public-reader disease-course context | done | Added source-verified external-unverifiable records for National MS Society, MS Society UK, MSIF Atlas, NICE NG220, and NINDS MS CDE. |
 | 18 | Governance | Add relationship-to-project-finding controlled vocabulary documentation and lint examples | done | `docs/knowledge/RELATIONSHIP_TO_PROJECT_FINDINGS_V47.md`; `scripts/v47_relationship_vocabulary_linter.py`; real lint PASS (`21` records, `63` checks). |
-| 19 | Navigation/index | Add source-access-tier rollup for open / registration / application / controlled / mixed resources | todo | Reads `knowledge_external` only; preserves class/source markers; helps readers distinguish immediately usable public resources from controlled resources. |
+| 19 | Navigation/index | Add source-access-tier rollup for open / registration / application / controlled / mixed resources | done | `scripts/v47_external_resource_access_tier_rollup.py`; real rollup PASS (`31` resources, `5` represented access tiers, no missing markers). |
 | 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | todo | Should catch classed rows rendered without provenance in generated navigation docs. |
 | 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | done | Covered by iteration 11 public clinical/reference resource records; no grounded findings changed. |
 | 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | done | Added source-verified external-unverifiable records for FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. |
@@ -157,3 +158,9 @@ No external knowledge integration occurs until:
   checks), relationship lint PASS (`93` checks), convergence skeleton PASS
   (`31` placeholder rows, `0` linked rows), provenance audit PASS (`280`
   checks, `31` records, `0` failures), stale detector PASS (`70` artifacts).
+- 2026-06-13T19:39:22Z: External resource access-tier rollup added. Synthetic
+  fixture PASS (`4/4` checks); real rollup PASS (`31` resources, `5` represented
+  access tiers, `0` missing `NOT_PROJECT_GROUNDED` markers). Governance
+  refreshed: generated-checker registry PASS (`124` scripts), stale detector
+  PASS (`71` artifacts), generated-doc freshness PASS, provenance audit PASS
+  (`280` checks, `31` records, `0` failures).

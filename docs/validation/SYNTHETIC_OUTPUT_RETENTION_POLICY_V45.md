@@ -10,8 +10,8 @@ reproducibility or letting synthetic data masquerade as biological evidence.
 
 The refreshed artifact index covers:
 
-- `137` V43-V47 analysis directories;
-- `94` directories with synthetic path/content markers;
+- `138` V43-V47 analysis directories;
+- `95` directories with synthetic path/content markers;
 - approximately `286 MiB` total across `analysis/v43_*`, `analysis/v44_*`,
   `analysis/v45_*`, `analysis/v46_*`, and `analysis/v47_*` directories;
 - no `unclassified_v43_v47` directories after the latest governance refresh.

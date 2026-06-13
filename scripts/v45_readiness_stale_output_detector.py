@@ -342,6 +342,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_resource_category_rollup.py synthetic-check --outdir analysis/v47_external_resource_category_rollup --fail-on-error && .venv/bin/python scripts/v47_external_resource_category_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
     },
     {
+        "artifact": "v47_external_resource_access_tier_rollup",
+        "sources": [
+            "docs/knowledge/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP_V47.md",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_external_resource_access_tier_rollup.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_resource_access_tier_rollup/synthetic_access_tier_rollup_summary.json",
+            "analysis/v47_external_resource_access_tier_rollup/synthetic_access_tier_rollup_checks.tsv",
+            "knowledge_external/catalogs/indexes/external_resource_access_tier_rollup.tsv",
+            "knowledge_external/catalogs/indexes/external_resource_access_tier_counts.tsv",
+            "knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_resource_access_tier_rollup.py synthetic-check --outdir analysis/v47_external_resource_access_tier_rollup --fail-on-error && .venv/bin/python scripts/v47_external_resource_access_tier_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",
