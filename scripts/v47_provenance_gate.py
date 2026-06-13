@@ -38,6 +38,7 @@ GROUND_TREE_PREFIXES = [
 ]
 ALLOWED_NON_EXTERNAL_PREFIXES = [
     "docs/knowledge/",
+    "analysis/v47_convergence_contradiction_skeleton/",
     "analysis/v47_external_knowledge_index/",
     "analysis/v47_external_resource_category_rollup/",
     "analysis/v47_external_record_schema_linter/",

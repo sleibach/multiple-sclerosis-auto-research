@@ -35,6 +35,7 @@ No external knowledge integration occurs until:
 | 6 | 2026-06-13T18:59:15Z | 2026-06-13T19:04:33Z | done | Verified official/primary public pages and added 13 external-unverifiable resource records for literature, functional genomics, controlled genomics, sequencing archives, clinical trials, and general repositories: PubMed, Europe PMC, GEO, EGA, ArrayExpress/BioStudies, BioStudies, SRA, ENA, ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF. Real external index PASS (`21` records total); provenance audit PASS (`190` checks, `21` records, `0` failures); stale detector PASS. |
 | 7 | 2026-06-13T19:04:33Z | 2026-06-13T19:09:22Z | done | Added dependency-free external-record schema linter because local `jsonschema` is unavailable. Synthetic fixture PASS (`4/4` assertions; bad records intentionally fail lint); real lint PASS (`21` records, `420` checks, `0` failures). Governance refreshed: registry PASS (`120` scripts), stale detector PASS (`67` artifacts), provenance audit PASS (`190` checks). |
 | 8 | 2026-06-13T19:10:54Z | 2026-06-13T19:17:53Z | done | Added class-preserving external resource category rollup. Synthetic fixture PASS (`4/4` checks); real rollup PASS (`21` resources, `7` categories, `0` missing not-grounded markers). Corrected category routing with explicit resource-token mappings. Governance refreshed: generated-checker registry PASS (`121` scripts), stale detector PASS (`68` artifacts), doc freshness PASS, provenance audit PASS (`190` checks). |
+| 9 | 2026-06-13T19:19:39Z | 2026-06-13T19:23:08Z | done | Added class-aware convergence/contradiction placeholder skeleton. Synthetic fixture PASS (`5/5` checks); real skeleton PASS (`21` placeholder rows, `0` linked rows, `0` missing sources/markers). Provenance audit PASS (`190` checks), stale detector PASS (`69` artifacts). |
 
 ## Live Backlog
 
@@ -51,7 +52,7 @@ No external knowledge integration occurs until:
 | 9 | Governance | Add an external-record index generator and synthetic fixtures proving class labels survive aggregation | done | Same output as item 5; synthetic fixture proves class labels survive aggregation. |
 | 10 | External integration | DisGeNET and Open Targets comparator records | done | Records added after source verification; both retained as external-unverifiable resource metadata. |
 | 11 | External integration | PubMed/Europe PMC, GEO, EGA, and ArrayExpress/BioStudies source records | done | Records added after source verification; includes BioStudies as its own resource record. |
-| 12 | Synthesis | Create class-aware convergence/contradiction skeleton that reads the external index but contains no claims until records exist | todo | Must remain under `knowledge_external/synthesis/` or `docs/knowledge/`. |
+| 12 | Synthesis | Create class-aware convergence/contradiction skeleton that reads the external index but contains no claims until records exist | done | `scripts/v47_convergence_contradiction_skeleton.py`; real skeleton has `21` placeholder rows, `0` linked rows, and no convergence/contradiction conclusions. |
 | 13 | External integration | ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF source records | done | Records added after source verification; SRA and ENA added as additional sequence-archive acquisition routes. |
 | 14 | Governance | Add optional resource-record JSON schema validation checker when `jsonschema` is available, with graceful unavailable status | done | Implemented dependency-free required-field/schema linter instead: `scripts/v47_external_record_schema_linter.py`; real records PASS (`420` checks, `0` failures). |
 | 15 | External integration | MS-specific landmark external knowledge records for current disease-course and DMT mechanisms | todo | Must be external-classed with sources; no changes to grounded conclusions. |
@@ -122,3 +123,9 @@ No external knowledge integration occurs until:
   fixture PASS (`4/4` checks); real rollup PASS (`21` resources, `7`
   categories, `0` missing markers). Provenance audit PASS (`190` checks, `21`
   records, `0` failures); stale detector PASS (`68` tracked artifacts).
+- 2026-06-13T19:23:08Z: Class-aware convergence/contradiction skeleton added
+  under `knowledge_external/synthesis/`. It is placeholder-only: `21` external
+  resource rows, `0` linked project findings, `0` missing sources, `0` missing
+  `NOT_PROJECT_GROUNDED` markers. Synthetic fixture PASS (`5/5` checks).
+  Provenance audit PASS (`190` checks, `21` records, `0` failures); stale
+  detector PASS (`69` tracked artifacts).

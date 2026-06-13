@@ -342,6 +342,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_resource_category_rollup.py synthetic-check --outdir analysis/v47_external_resource_category_rollup --fail-on-error && .venv/bin/python scripts/v47_external_resource_category_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
     },
     {
+        "artifact": "v47_convergence_contradiction_skeleton",
+        "sources": [
+            "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",
+            "knowledge_external/catalogs/indexes/external_knowledge_index.tsv",
+            "scripts/v47_convergence_contradiction_skeleton.py",
+        ],
+        "outputs": [
+            "analysis/v47_convergence_contradiction_skeleton/synthetic_skeleton_summary.json",
+            "analysis/v47_convergence_contradiction_skeleton/synthetic_skeleton_checks.tsv",
+            "analysis/v47_convergence_contradiction_skeleton/convergence_contradiction_skeleton_summary.json",
+            "knowledge_external/synthesis/convergence_contradiction_skeleton.tsv",
+            "knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_convergence_contradiction_skeleton.py synthetic-check --outdir analysis/v47_convergence_contradiction_skeleton --fail-on-error && .venv/bin/python scripts/v47_convergence_contradiction_skeleton.py build --index knowledge_external/catalogs/indexes/external_knowledge_index.tsv --outdir knowledge_external/synthesis --analysis-outdir analysis/v47_convergence_contradiction_skeleton",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",
