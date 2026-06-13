@@ -362,6 +362,94 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_synthetic_received_package_dryrun.py --outdir analysis/v45_synthetic_received_package_dryrun",
     },
     {
+        "artifact": "v46_terms_governance_matrix",
+        "sources": [
+            "docs/validation/input_schemas/V45_data_use_terms_capture_template.tsv",
+            "docs/validation/TERMS_GOVERNANCE_MATRIX_V46.md",
+            "scripts/v46_terms_governance_matrix.py",
+        ],
+        "outputs": [
+            "analysis/v46_terms_governance_matrix/terms_governance_synthetic_summary.json",
+            "analysis/v46_terms_governance_matrix/terms_governance_synthetic_cases.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_terms_governance_matrix",
+    },
+    {
+        "artifact": "v46_metric_format_adapter",
+        "sources": [
+            "analysis/v45_author_run_output_check/synthetic_complete_author_run_package/validation_summary.json",
+            "docs/validation/AUTHOR_RUN_METRIC_FORMAT_ADAPTER_V46.md",
+            "scripts/v46_author_run_metric_format_adapter.py",
+        ],
+        "outputs": [
+            "analysis/v46_author_run_metric_format_adapter/metric_format_adapter_synthetic_summary.json",
+            "analysis/v46_author_run_metric_format_adapter/metric_format_adapter_synthetic_checks.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_author_run_metric_format_adapter",
+    },
+    {
+        "artifact": "v46_partial_label_return_classifier",
+        "sources": [
+            "analysis/v45_route_analyzable_pair_calculator/route_analyzable_pair_synthetic_summary.json",
+            "docs/validation/PARTIAL_LABEL_RETURN_CLASSIFIER_V46.md",
+            "scripts/v46_partial_label_return_classifier.py",
+        ],
+        "outputs": [
+            "analysis/v46_partial_label_return_classifier/partial_label_synthetic_summary.json",
+            "analysis/v46_partial_label_return_classifier/partial_label_synthetic_cases.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_partial_label_return_classifier",
+    },
+    {
+        "artifact": "v46_safe_interpretation_classifier",
+        "sources": [
+            "analysis/v45_author_run_return_gate_runner/synthetic_check_summary.json",
+            "analysis/v45_author_run_schema_validator/synthetic_author_run_schema_summary.json",
+            "analysis/v45_route_analyzable_pair_calculator/route_analyzable_pair_synthetic_summary.json",
+            "docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md",
+            "scripts/v46_returned_package_safe_interpretation.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_summary.json",
+            "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_safe_interpretation",
+    },
+    {
+        "artifact": "v46_external_blocker_aging_audit",
+        "sources": [
+            "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+            "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+            "analysis/v45_external_blocker_escalation_matrix/external_blocker_escalation_matrix.tsv",
+            "docs/validation/input_schemas/V45_request_sent_log_template.tsv",
+            "docs/validation/EXTERNAL_BLOCKER_AGING_AUDIT_V46.md",
+            "scripts/v46_external_blocker_aging_audit.py",
+        ],
+        "outputs": [
+            "analysis/v46_external_blocker_aging_audit/live/external_blocker_aging_audit_summary.json",
+            "analysis/v46_external_blocker_aging_audit/live/external_blocker_aging_audit.tsv",
+            "analysis/v46_external_blocker_aging_audit/external_blocker_aging_synthetic_summary.json",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_external_blocker_aging_audit.py synthetic-check --outdir analysis/v46_external_blocker_aging_audit && .venv/bin/python scripts/v46_external_blocker_aging_audit.py audit --outdir analysis/v46_external_blocker_aging_audit/live",
+    },
+    {
+        "artifact": "v46_operator_smoke_test_bundle",
+        "sources": [
+            "docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md",
+            "scripts/v46_operator_smoke_test_bundle.py",
+            "scripts/v46_terms_governance_matrix.py",
+            "scripts/v46_author_run_metric_format_adapter.py",
+            "scripts/v46_partial_label_return_classifier.py",
+            "scripts/v46_returned_package_safe_interpretation.py",
+            "scripts/v46_external_blocker_aging_audit.py",
+        ],
+        "outputs": [
+            "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_summary.json",
+            "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_operator_smoke_test_bundle.py --outdir analysis/v46_operator_smoke_test_bundle --fail-on-error",
+    },
+    {
         "artifact": "opengwas_token_expiry_sentinel",
         "sources": [
             "scripts/v45_opengwas_token_expiry_sentinel.py",

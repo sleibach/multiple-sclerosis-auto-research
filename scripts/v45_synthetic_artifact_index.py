@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Index V43-V45 synthetic/method-characterization artifacts.
+"""Index V43-V46 synthetic/method-characterization artifacts.
 
 The goal is governance: make clear which artifacts are synthetic method checks,
 which are public-metadata preparation, and which are internal convergence
@@ -109,6 +109,12 @@ MANUAL_CLASS = {
     "analysis/v45_subject_map_sanity_check": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_secondary_missing_timepoint_stress": ("synthetic_method_characterization", "method behavior only"),
     "analysis/v45_synthetic_received_package_dryrun": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_returned_package_safe_interpretation": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_author_run_metric_format_adapter": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_partial_label_return_classifier": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_terms_governance_matrix": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
+    "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
 }
 
 
@@ -145,11 +151,11 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     dirs = sorted(
         p for p in (ROOT / "analysis").iterdir()
-        if p.is_dir() and (p.name.startswith("v43") or p.name.startswith("v44") or p.name.startswith("v45"))
+        if p.is_dir() and (p.name.startswith("v43") or p.name.startswith("v44") or p.name.startswith("v45") or p.name.startswith("v46"))
     )
     rows = [summarize_dir(path) for path in dirs]
     table = pd.DataFrame(rows)
-    table.to_csv(OUT / "v43_v45_artifact_index.tsv", sep="\t", index=False)
+    table.to_csv(OUT / "v43_v46_artifact_index.tsv", sep="\t", index=False)
     class_summary = (
         table.groupby(["class", "allowed_interpretation"], as_index=False)
         .agg(n_dirs=("artifact_dir", "nunique"), n_files=("n_files", "sum"))
@@ -158,7 +164,7 @@ def main() -> int:
     class_summary.to_csv(OUT / "class_summary.tsv", sep="\t", index=False)
     summary = {
         "synthetic": False,
-        "purpose": "artifact governance index; no biological claim",
+        "purpose": "V43-V46 artifact governance index; no biological claim",
         "n_dirs_indexed": int(len(table)),
         "n_dirs_containing_synthetic": int(table["contains_synthetic"].sum()),
         "classes": class_summary.to_dict(orient="records"),

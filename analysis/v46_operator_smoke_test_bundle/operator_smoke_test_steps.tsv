@@ -1,7 +1,7 @@
 step	group	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel	0	0.396	PASS	"{
-  ""checked_at_utc"": ""2026-06-13 10:05:04 UTC"",
-  ""days_remaining"": 6.1,
+opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel	0	0.343	PASS	"{
+  ""checked_at_utc"": ""2026-06-13 10:11:27 UTC"",
+  ""days_remaining"": 6.095,
   ""decode_status"": ""decoded"",
   ""dotenv_present"": true,
   ""env_present"": true,
@@ -18,7 +18,7 @@ opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-aut
   ""table"": ""analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel.tsv""
 }
 "	
-locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v46_operator_smoke_test_bundle/locked_artifact_hash_audit --fail-on-drift	0	0.04	PASS	"{
+locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v46_operator_smoke_test_bundle/locked_artifact_hash_audit --fail-on-drift	0	0.05	PASS	"{
   ""baseline"": ""/Users/soeren.leibach/Projects/ms-auto-research/docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv"",
   ""n_artifacts"": 9,
   ""overall_status"": ""PASS"",
@@ -29,7 +29,7 @@ locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-rese
   }
 }
 "	
-author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate	0	0.799	PASS	"te"": ""scored"",
+author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate	0	0.936	PASS	"te"": ""scored"",
   ""purpose"": ""author-run aggregate return gate runner; no biological claim"",
   ""redaction_status"": ""PASS"",
   ""redaction_summary"": {
@@ -104,7 +104,7 @@ author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects
   ""synthetic"": true
 }
 "	
-author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_schema_validator	0	0.376	PASS	"{
+author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_schema_validator	0	0.431	PASS	"{
   ""n_checks"": 253,
   ""n_fail"": 0,
   ""overall_status"": ""PASS"",
@@ -154,7 +154,7 @@ author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Pro
   ""synthetic"": true
 }
 "	
-route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator	0	0.357	PASS	"gafson_small_complete""
+route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator	0	0.36	PASS	"gafson_small_complete""
 }
 {
   ""decision_band"": ""below_v45_planning_floor"",
@@ -223,7 +223,7 @@ route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/
   ""synthetic_case"": ""gse228330_context_no_labels""
 }
 "	
-terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/terms_governance_matrix	0	0.832	PASS	"ts"",
+terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/terms_governance_matrix	0	0.344	PASS	"ts"",
   ""operator_gate_status"": ""pass"",
   ""purpose"": ""V46 terms-governance classifier; no biological claim"",
   ""reasons"": [
@@ -288,7 +288,7 @@ terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Project
   ""synthetic"": true
 }
 "	
-metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/metric_format_adapter	0	0.966	PASS	"{
+metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/metric_format_adapter	0	1.338	PASS	"{
   ""manifest"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/metric_format_adapter_manifest.tsv"",
   ""n_files"": 9,
   ""n_missing_required"": 0,
@@ -322,7 +322,7 @@ metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/
   ""variant_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_variant_package""
 }
 "	
-partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier	0	0.069	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
+partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier	0	0.073	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
   ""score_values_read"": false,
   ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json"",
   ""synthetic"": true
@@ -421,7 +421,7 @@ safe_interpretation_classifier_synthetic	returned_package	/Users/soeren.leibach/
   ""synthetic"": true
 }
 "	
-no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_operator_smoke_test_bundle/no_raw_git_scanner	0	0.428	PASS	"{
+no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_operator_smoke_test_bundle/no_raw_git_scanner	0	0.817	PASS	"{
   ""hard_forbidden_prefixes"": [
     ""data/quarantine/"",
     ""data/raw_v3/gafson_dmf_2018/"",

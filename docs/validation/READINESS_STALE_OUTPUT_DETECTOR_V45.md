@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `23`
+- artifacts checked: `29`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -47,7 +47,13 @@ Checked generated artifacts:
 - generated-doc freshness linter;
 - no-score-before-gates linter;
 - synthetic received-package dry run;
-- OpenGWAS token-expiry sentinel.
+- OpenGWAS token-expiry sentinel;
+- V46 terms-governance matrix;
+- V46 metric-format adapter;
+- V46 partial-label classifier;
+- V46 safe-interpretation classifier;
+- V46 external blocker aging audit;
+- V46 operator smoke-test bundle.
 
 ## Interpretation
 

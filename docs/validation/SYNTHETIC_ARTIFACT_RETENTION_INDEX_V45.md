@@ -4,14 +4,14 @@ Status: artifact-governance document. No new biological claim is made here.
 
 ## Purpose
 
-V43-V45 intentionally produced many synthetic and method-characterization
+V43-V46 intentionally produced many synthetic and method-characterization
 outputs. Those outputs are valuable, but they carry a high self-deception risk if
 they are later read as biological evidence. This document and its machine-readable
-index classify each V43-V45 analysis artifact family by allowed interpretation.
+index classify each V43-V46 analysis artifact family by allowed interpretation.
 
 Machine-readable index:
 
-- `analysis/v45_synthetic_artifact_index/v43_v45_artifact_index.tsv`
+- `analysis/v45_synthetic_artifact_index/v43_v46_artifact_index.tsv`
 - `analysis/v45_synthetic_artifact_index/class_summary.tsv`
 - `analysis/v45_synthetic_artifact_index/summary.json`
 
@@ -21,9 +21,9 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `90` V43-V45 analysis directories, with `58`
+The refreshed index covers `96` V43-V46 analysis directories, with `64`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
-markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
+markers. Current V43-V46 analysis output footprint is approximately `154 MiB`.
 
 | Class | Directories | Files | Allowed interpretation |
 |---|---:|---:|---|
@@ -55,6 +55,7 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `operations` | `1` | `4` | Current action navigation only |
 | `operations` | `1` | `2` | External blocker escalation status only |
 | `operations` | `1` | `2` | External blocker status only |
+| `operations` | `1` | `7` | External blocker timing status only |
 | `operations` | `1` | `6` | Follow-up escalation drafts only |
 | `operations` | `1` | `3` | Received-package status update only |
 | `operations` | `1` | `6` | Request-sent intake template only |
@@ -68,8 +69,9 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
-| `synthetic_intake_verification` | `14` | `223` | Method behavior only |
+| `synthetic_intake_verification` | `18` | `334` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
+| `synthetic_regression` | `1` | `194` | Software/readiness regression only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |
@@ -118,7 +120,7 @@ for method behavior and readiness, but keep their interpretation bounded:
    only.
 4. Do not use public metadata preparation artifacts as if the underlying real
    expression/outcome data were already acquired.
-5. If a future script consumes a V43-V45 artifact, it should first check this
+5. If a future script consumes a V43-V46 artifact, it should first check this
    index or explicitly state why the artifact class is appropriate.
 
 See `docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md` for the more
@@ -126,7 +128,7 @@ explicit keep/archive/regenerate policy.
 
 ## Practical Use
 
-Before external reporting, filter V43-V45 artifacts by class:
+Before external reporting, filter V43-V46 artifacts by class:
 
 - include `synthetic_*` classes in methods/readiness sections only;
 - include `internal_convergence_null` under internal convergence support only;

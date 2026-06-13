@@ -28,6 +28,7 @@ operations	cold-start operator sequence only	1	3
 operations	current action navigation only	1	4
 operations	external blocker escalation status only	1	2
 operations	external blocker status only	1	2
+operations	external blocker timing status only	1	7
 operations	follow-up escalation drafts only	1	6
 operations	received-package status update only	1	3
 operations	request-sent intake template only	1	6
@@ -41,8 +42,9 @@ public_metadata_preparation	acquisition readiness only	1	5
 public_metadata_scout	cohort availability evidence only	3	20
 synthetic_harness_verification	method behavior only	3	42
 synthetic_intake_verification	expected missing-output guard only	1	2
-synthetic_intake_verification	method behavior only	14	223
+synthetic_intake_verification	method behavior only	18	334
 synthetic_method_characterization	method behavior only	10	195
+synthetic_regression	software/readiness regression only	1	194
 synthetic_regression	software regression only	4	120
 validation_infrastructure	command handoff only	1	9
 validation_infrastructure	expected missing-output guard only	1	3
