@@ -2,17 +2,17 @@
 
 Status: transport metadata only. HTTP reachability does not validate any external claim.
 
-- records checked: `31`
-- reachable 2xx or redirected 2xx: `30`
-- non-2xx/network/missing statuses: `1`
+- records checked: `37`
+- reachable 2xx or redirected 2xx: `35`
+- non-2xx/network/missing statuses: `2`
 - overall status: `PASS`
 
 ## Status Counts
 
 | reachability status | count |
 |---|---:|
-| `client_error` | 1 |
-| `reachable_2xx` | 27 |
+| `client_error` | 2 |
+| `reachable_2xx` | 32 |
 | `reachable_redirected_2xx` | 3 |
 
 ## Records
@@ -50,3 +50,9 @@ Status: transport metadata only. HTTP reachability does not validate any externa
 | PubMed | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/ | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
 | NCBI Sequence Read Archive | `external-unverifiable` | https://www.ncbi.nlm.nih.gov/sra | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
 | Zenodo | `external-unverifiable` | https://about.zenodo.org/ | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13 | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.dailymed.natalizumab_mechanism_context.2026-06-13 | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.dailymed.ocrelizumab_mechanism_context.2026-06-13 | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.ms_society_uk.ppms_course_context.2026-06-13 | `external-unverifiable` | https://www.mssociety.org.uk/about-ms/types-of-ms | `client_error` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.national_ms_society.rrms_course_context.2026-06-13 | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.national_ms_society.spms_course_context.2026-06-13 | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |

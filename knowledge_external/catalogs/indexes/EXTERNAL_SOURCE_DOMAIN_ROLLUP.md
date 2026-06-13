@@ -2,7 +2,7 @@
 
 Status: navigation only. Domains are parsed from external source locators and are not evidence.
 
-- external records indexed: `31`
+- external records indexed: `37`
 - source domains represented: `26`
 - missing source locators: `0`
 - missing not-grounded markers: `0`
@@ -17,7 +17,7 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `clinicaltrials.gov` | 1 | `external-unverifiable` |
 | `commondataelements.ninds.nih.gov` | 1 | `external-unverifiable` |
 | `cos.io` | 1 | `external-unverifiable` |
-| `dailymed.nlm.nih.gov` | 1 | `external-unverifiable` |
+| `dailymed.nlm.nih.gov` | 4 | `external-unverifiable` |
 | `datadryad.org` | 1 | `external-unverifiable` |
 | `disgenet.com` | 1 | `external-unverifiable` |
 | `ebi.ac.uk` | 4 | `external-unverifiable` |
@@ -30,9 +30,9 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `info.figshare.com` | 1 | `external-unverifiable` |
 | `msbase.org` | 1 | `external-unverifiable` |
 | `msda.emif-catalogue.eu` | 1 | `external-unverifiable` |
-| `mssociety.org.uk` | 1 | `external-unverifiable` |
+| `mssociety.org.uk` | 2 | `external-unverifiable` |
 | `narcoms.org` | 1 | `external-unverifiable` |
-| `nationalmssociety.org` | 2 | `external-unverifiable` |
+| `nationalmssociety.org` | 4 | `external-unverifiable` |
 | `ncbi.nlm.nih.gov` | 2 | `external-unverifiable` |
 | `ngdc.cncb.ac.cn` | 1 | `external-unverifiable` |
 | `nice.org.uk` | 1 | `external-unverifiable` |
@@ -74,3 +74,9 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `pubmed.ncbi.nlm.nih.gov` | PubMed | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/ | `NOT_PROJECT_GROUNDED` |
 | `ncbi.nlm.nih.gov` | NCBI Sequence Read Archive | `external-unverifiable` | `orthogonal` | https://www.ncbi.nlm.nih.gov/sra | `NOT_PROJECT_GROUNDED` |
 | `about.zenodo.org` | Zenodo | `external-unverifiable` | `orthogonal` | https://about.zenodo.org/ | `NOT_PROJECT_GROUNDED` |
+| `dailymed.nlm.nih.gov` | claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `NOT_PROJECT_GROUNDED` |
+| `dailymed.nlm.nih.gov` | claim.dailymed.natalizumab_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `NOT_PROJECT_GROUNDED` |
+| `dailymed.nlm.nih.gov` | claim.dailymed.ocrelizumab_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `NOT_PROJECT_GROUNDED` |
+| `mssociety.org.uk` | claim.ms_society_uk.ppms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.mssociety.org.uk/about-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
+| `nationalmssociety.org` | claim.national_ms_society.rrms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
+| `nationalmssociety.org` | claim.national_ms_society.spms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `NOT_PROJECT_GROUNDED` |

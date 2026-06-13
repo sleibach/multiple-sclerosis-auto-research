@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Lint V47 external records for uniqueness of identifiers and source locators.
+"""Lint V47 external records for uniqueness of identifiers and resource locators.
 
-Duplicate record IDs are hard failures. Duplicate source locators are review
-failures because they can indicate accidental copy/paste records. This linter
-does not validate source content or external claims.
+Duplicate record IDs are hard failures across all external records. Duplicate
+source locators are hard failures only for external resource catalog records,
+where they usually indicate accidental copy/paste resource metadata. External
+claim records may legitimately cite the same source page for multiple claims.
+This linter does not validate source content or external claims.
 """
 
 from __future__ import annotations
@@ -82,21 +84,23 @@ def lint_root(root: Path, outdir: Path, fail_on_error: bool) -> int:
     paths = record_paths(root)
     records: list[dict[str, object]] = []
     by_id: dict[str, list[str]] = defaultdict(list)
-    by_locator: dict[str, list[str]] = defaultdict(list)
+    by_resource_locator: dict[str, list[str]] = defaultdict(list)
     for path in paths:
         data = load_record(path)
         record_id = str(data.get("record_id", "")).strip()
+        record_type = str(data.get("record_type", "")).strip()
         locator = source_locator(data)
         rel_path = rel(root, path)
-        records.append({"path": rel_path, "record_id": record_id, "source_locator": locator})
+        records.append({"path": rel_path, "record_id": record_id, "record_type": record_type, "source_locator": locator})
         by_id[record_id].append(rel_path)
-        if locator:
-            by_locator[locator].append(rel_path)
+        if locator and record_type == "external_resource_catalog":
+            by_resource_locator[locator].append(rel_path)
 
     rows: list[dict[str, object]] = []
     for record in records:
         duplicate_id_paths = by_id[str(record["record_id"])]
-        duplicate_locator_paths = by_locator.get(str(record["source_locator"]), [])
+        duplicate_resource_locator_paths = by_resource_locator.get(str(record["source_locator"]), [])
+        is_resource = record["record_type"] == "external_resource_catalog"
         rows.append(
             {
                 "path": record["path"],
@@ -110,9 +114,9 @@ def lint_root(root: Path, outdir: Path, fail_on_error: bool) -> int:
             {
                 "path": record["path"],
                 "record_id": record["record_id"],
-                "check": "source_locator_unique",
-                "status": "PASS" if len(duplicate_locator_paths) <= 1 else "FAIL",
-                "detail": ";".join(duplicate_locator_paths) if len(duplicate_locator_paths) > 1 else "-",
+                "check": "resource_source_locator_unique",
+                "status": "PASS" if (not is_resource or len(duplicate_resource_locator_paths) <= 1) else "FAIL",
+                "detail": ";".join(duplicate_resource_locator_paths) if is_resource and len(duplicate_resource_locator_paths) > 1 else "claim-source reuse allowed" if not is_resource else "-",
             }
         )
     n_fail = sum(1 for row in rows if row["status"] != "PASS")
@@ -141,7 +145,9 @@ def build_synthetic_root(outdir: Path) -> Path:
     if root.exists():
         shutil.rmtree(root)
     records = root / EXTERNAL_ROOT / "records"
+    resources = root / EXTERNAL_ROOT / "catalogs/resources"
     records.mkdir(parents=True, exist_ok=True)
+    resources.mkdir(parents=True, exist_ok=True)
     base = {
         "claim": "Synthetic uniqueness record.",
         "epistemic_class": "external-unverifiable",
@@ -151,12 +157,15 @@ def build_synthetic_root(outdir: Path) -> Path:
         "why_unverifiable": "Synthetic fixture.",
         "future_grounding_route": "Synthetic route.",
     }
-    write_record(records / "unique_a.json", **base, record_id="SYNTH_UNIQUE_A", source={"label": "A", "url": "https://example.invalid/a"})
-    write_record(records / "unique_b.json", **base, record_id="SYNTH_UNIQUE_B", source={"label": "B", "url": "https://example.invalid/b"})
-    write_record(records / "duplicate_id_1.json", **base, record_id="SYNTH_DUP_ID", source={"label": "C", "url": "https://example.invalid/c"})
-    write_record(records / "duplicate_id_2.json", **base, record_id="SYNTH_DUP_ID", source={"label": "D", "url": "https://example.invalid/d"})
-    write_record(records / "duplicate_source_1.json", **base, record_id="SYNTH_DUP_SOURCE_1", source={"label": "E", "url": "https://example.invalid/e"})
-    write_record(records / "duplicate_source_2.json", **base, record_id="SYNTH_DUP_SOURCE_2", source={"label": "E copy", "url": "https://example.invalid/e"})
+    write_record(records / "unique_a.json", **base, record_type="external_claim", record_id="SYNTH_UNIQUE_A", source={"label": "A", "url": "https://example.invalid/a"})
+    write_record(records / "unique_b.json", **base, record_type="external_claim", record_id="SYNTH_UNIQUE_B", source={"label": "B", "url": "https://example.invalid/b"})
+    write_record(records / "duplicate_id_1.json", **base, record_type="external_claim", record_id="SYNTH_DUP_ID", source={"label": "C", "url": "https://example.invalid/c"})
+    write_record(records / "duplicate_id_2.json", **base, record_type="external_claim", record_id="SYNTH_DUP_ID", source={"label": "D", "url": "https://example.invalid/d"})
+    write_record(records / "duplicate_claim_source_1.json", **base, record_type="external_claim", record_id="SYNTH_DUP_CLAIM_SOURCE_1", source={"label": "E", "url": "https://example.invalid/e"})
+    write_record(records / "duplicate_claim_source_2.json", **base, record_type="external_claim", record_id="SYNTH_DUP_CLAIM_SOURCE_2", source={"label": "E copy", "url": "https://example.invalid/e"})
+    resource_base = {**base, "record_type": "external_resource_catalog", "resource_name": "Synthetic resource", "access_tier": "open", "project_use": "Synthetic fixture."}
+    write_record(resources / "duplicate_resource_source_1.json", **resource_base, record_id="SYNTH_DUP_RESOURCE_SOURCE_1", source={"label": "F", "url": "https://example.invalid/f"})
+    write_record(resources / "duplicate_resource_source_2.json", **resource_base, record_id="SYNTH_DUP_RESOURCE_SOURCE_2", source={"label": "F copy", "url": "https://example.invalid/f"})
     return root
 
 
@@ -170,7 +179,8 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
     checks = {
         "unique_records_pass": not any(row["record_id"] in {"SYNTH_UNIQUE_A", "SYNTH_UNIQUE_B"} and row["status"] == "FAIL" for row in rows),
         "duplicate_id_fails": any(row["record_id"] == "SYNTH_DUP_ID" and row["check"] == "record_id_unique" and row["status"] == "FAIL" for row in rows),
-        "duplicate_source_fails": any(row["record_id"] == "SYNTH_DUP_SOURCE_1" and row["check"] == "source_locator_unique" and row["status"] == "FAIL" for row in rows),
+        "duplicate_claim_source_passes": not any(row["record_id"] in {"SYNTH_DUP_CLAIM_SOURCE_1", "SYNTH_DUP_CLAIM_SOURCE_2"} and row["check"] == "resource_source_locator_unique" and row["status"] == "FAIL" for row in rows),
+        "duplicate_resource_source_fails": any(row["record_id"] == "SYNTH_DUP_RESOURCE_SOURCE_1" and row["check"] == "resource_source_locator_unique" and row["status"] == "FAIL" for row in rows),
     }
     check_rows = [{"check": key, "status": "PASS" if value else "FAIL"} for key, value in checks.items()]
     write_tsv(outdir / "synthetic_uniqueness_checks.tsv", check_rows, ["check", "status"])
