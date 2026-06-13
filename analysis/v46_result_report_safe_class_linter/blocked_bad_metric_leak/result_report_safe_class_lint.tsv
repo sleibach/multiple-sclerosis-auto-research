@@ -1,0 +1,14 @@
+report	safe_class	check	status	detail
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	safe_class_cited	PASS	safe class literal found
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	required_boundary:locked rule is unchanged	PASS	found
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	required_boundary:no post-hoc	PASS	found
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bAUC\b	FAIL	forbidden result language present
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bHedges\b	FAIL	forbidden result language present
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\beffect[- ]size\b	FAIL	forbidden result language present
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bp[- ]?value\b	PASS	absent
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bpermutation\b	PASS	absent
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bconfidence interval\b	PASS	absent
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\blocked_rule_metrics\.tsv\b	PASS	absent
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bvalidation (?:pass|fail|passed|failed)\b	FAIL	forbidden result language present
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\b(?:pass|fail|passed|failed) validation\b	PASS	absent
+analysis/v46_result_report_safe_class_linter/fixtures/blocked_bad_metric_leak.md	BLOCKED_COMPLETENESS	forbidden_score_language:\bclean pre-registered pass\b	PASS	absent

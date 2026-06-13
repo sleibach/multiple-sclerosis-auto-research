@@ -113,6 +113,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_safe_wording_fixture_linter.py", "--outdir", rel(outdir / "safe_wording_fixture_linter"), "--fail-on-error"],
         ),
         (
+            "result_report_safe_class_linter",
+            "safe_wording",
+            [py, "scripts/v46_result_report_safe_class_linter.py", "synthetic-check", "--outdir", rel(outdir / "result_report_safe_class_linter"), "--fail-on-error"],
+        ),
+        (
             "readiness_stale_output_detector",
             "governance",
             [py, "scripts/v45_readiness_stale_output_detector.py", "--outdir", rel(outdir / "readiness_stale_output_detector")],

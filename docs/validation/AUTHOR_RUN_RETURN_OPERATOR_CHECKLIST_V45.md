@@ -122,7 +122,18 @@ For an unscoreable package, use `--package-state unscoreable`.
 Use only wording compatible with the classifier's safe class, and do not
 escalate the claim beyond that class.
 
-11. If the package is eligible for pre-registered interpretation, fill:
+11. If a report draft is created, lint it against the V46 safe class before
+    committing:
+
+```bash
+.venv/bin/python scripts/v46_result_report_safe_class_linter.py lint \
+  --report analysis/validation_runs/<cohort>/VALIDATION_RESULT_REPORT.md \
+  --safe-class <V46_SAFE_CLASS> \
+  --outdir analysis/v46_result_report_safe_class_linter/<cohort> \
+  --expect-status PASS
+```
+
+12. If the package is eligible for pre-registered interpretation, fill:
 
 `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md`
 
@@ -163,6 +174,7 @@ Do not:
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | V46 safe-wording fixture linter | report fragments avoid premature score and pass/fail language for blocked/no-score classes | repair wording before any report draft is committed |
+| V46 result-report safe-class linter | report drafts cite the V46 safe class and obey its score-language boundary | repair report before commit |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |
 | outcome grid | result is classified using precommitted V42 meanings | do not reinterpret post hoc |
 | precommit readiness | repository guards are clean after report preparation | repair before commit |

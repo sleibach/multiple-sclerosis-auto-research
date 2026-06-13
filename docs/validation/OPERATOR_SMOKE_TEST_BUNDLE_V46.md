@@ -37,13 +37,14 @@ validation harness, or interpret biology.
 12. V46 unscoreable-return composition dry run.
 13. V46 safe-interpretation classifier synthetic check.
 14. V46 safe-wording fixture linter.
-15. V45 no-raw-data git scanner.
+15. V46 result-report safe-class linter.
+16. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `15`;
+- steps: `16`;
 - failures: `0`;
 - overall status: `PASS`.
 

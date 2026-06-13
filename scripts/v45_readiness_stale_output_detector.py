@@ -493,6 +493,7 @@ CHECKS = [
             "scripts/v46_unscoreable_return_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
+            "scripts/v46_result_report_safe_class_linter.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -513,6 +514,19 @@ CHECKS = [
             "analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_lint.tsv",
         ],
         "refresh_command": ".venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_safe_wording_fixture_linter --fail-on-error",
+    },
+    {
+        "artifact": "v46_result_report_safe_class_linter",
+        "sources": [
+            "docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md",
+            "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
+            "scripts/v46_result_report_safe_class_linter.py",
+        ],
+        "outputs": [
+            "analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json",
+            "analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_cases.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_result_report_safe_class_linter --fail-on-error",
     },
     {
         "artifact": "v46_external_blocker_aging_audit",
@@ -545,6 +559,7 @@ CHECKS = [
             "scripts/v46_unscoreable_return_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
+            "scripts/v46_result_report_safe_class_linter.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

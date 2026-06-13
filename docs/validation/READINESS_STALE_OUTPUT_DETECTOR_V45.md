@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `35`
+- artifacts checked: `36`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -58,6 +58,7 @@ Checked generated artifacts:
 - V46 unscoreable-return composition dry run;
 - V46 returned-package regression suite;
 - V46 safe-wording fixture linter;
+- V46 result-report safe-class linter;
 - V46 external blocker aging audit;
 - V46 operator smoke-test bundle.
 
