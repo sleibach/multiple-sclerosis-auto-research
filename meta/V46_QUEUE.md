@@ -51,6 +51,7 @@ generate more internally executable tasks before continuing.
 | 31 | 2026-06-13T13:16:40Z | 2026-06-13T13:27:20Z | done | Added safe-class report-template readiness map proving every V46 safe class has a stop/report skeleton path before score-bearing language. |
 | 32 | 2026-06-13T15:05:48Z | 2026-06-13T15:21:18Z | done | Added generated returned-package quickstart README from handoff and receipt-command plan tables, integrated it into regression/smoke/governance, and fixed the V45 artifact index to include uncommitted V46 files. |
 | 33 | 2026-06-13T15:21:18Z | 2026-06-13T15:31:24Z | done | Added safe-interpretation example cards for aggregate-only, partial-label, underpowered, diagnostic-caution, and preferred-decision returned packages; integrated them into regression/smoke/governance outputs. |
+| 34 | 2026-06-13T15:32:15Z | 2026-06-13T15:36:59Z | done | Added quickstart drift fixture proving copied/manual quickstart command edits and boundary removal are caught against the generated command table. |
 
 ## Live Backlog
 
@@ -104,9 +105,10 @@ generate more internally executable tasks before continuing.
 | 46 | Infrastructure | Add compact returned-package quickstart README generated from the handoff manifest and command-order planner so operator instructions cannot drift from runnable commands | done | `scripts/v46_returned_package_quickstart_readme.py`; PASS with `26` handoff commands, `8` receipt branch examples, `34` total command rows, `13` lint checks, all `score_values_read=false`. Regression suite now `34` steps, smoke bundle now `38` steps, handoff manifest now `26` rows, doc cross-link linter checks `34` scripts, and dependency graph strict PASS with `631` nodes, `867` edges, `235` checks. |
 | 47 | Infrastructure/RPT | Add RPT unavailable fallback documentation and smoke-result normalizer if item 43 cannot implement the `sap-rpt-1-large` request schema quickly | done | Superseded by item 43: RPT is available through `rpt-smoke`; the new health wrapper normalizes per-family smoke results and prevents the false generic-smoke failure. |
 | 48 | Power/design | Add safe interpretation examples for aggregate-only, partial-label, and underpowered returned packages combining small-n language with safe-class report skeletons | done | `scripts/v46_safe_interpretation_examples.py`; PASS with `7` examples, `56` lint checks, all `score_values_read=false`. Regression suite now `35` steps, smoke bundle now `39` steps, stale-output detector now checks `60` artifacts, and synthetic artifact index now covers `127` V43-V46 directories. |
-| 49 | Infrastructure | Add quickstart drift fixture that intentionally edits a copied README command and proves the generated quickstart/lint catches manual command drift | todo | Self-generated after item 46; hardens the new quickstart against manual-edit regression. |
+| 49 | Infrastructure | Add quickstart drift fixture that intentionally edits a copied README command and proves the generated quickstart/lint catches manual command drift | done | `scripts/v46_quickstart_drift_fixture.py`; PASS with `4` cases, `3` expected-fail mutations caught, `34` command rows checked, all `score_values_read=false`. Regression suite now `36` steps, smoke bundle now `40` steps, stale-output detector now checks `61` artifacts. |
 | 50 | Operations | Add one-page returned-package operator pocket card generated from quickstart, first-30 status board, and safe-class report-template map | todo | Self-generated after item 46; compact operator-facing derivative generated from existing machine-readable sources only. |
 | 51 | Infrastructure | Add safe-interpretation example coverage linter proving every safe class either has an example card or an explicit reason it is not represented in the examples bundle | todo | Self-generated after item 48; prevents the examples from silently covering only easy returned-package states. |
+| 52 | Infrastructure | Add quickstart command coverage matrix mapping every generated quickstart command to source artifact, README section, suite inclusion, and drift-fixture parity coverage | todo | Self-generated after item 49; turns the drift fixture into a full coverage-accounting surface for operator commands. |
 
 ## Generated Follow-Ups
 
@@ -140,6 +142,21 @@ todo items.
 - 2026-06-13T15:31:24Z: Generated follow-up item 51 after item 48 to keep
   backlog above threshold and add coverage-accounting for safe-interpretation
   examples.
+- 2026-06-13T15:36:59Z: Item 49 verification: quickstart drift fixture PASS
+  (`4` cases, `3` expected-fail mutations caught, `34` command rows checked,
+  all `score_values_read=false`); regression suite PASS (`36` steps); operator
+  smoke bundle PASS (`40` steps); quickstart README PASS (`26` handoff commands,
+  `8` receipt branch examples, `34` command rows); dependency graph strict PASS
+  (`653` nodes, `893` edges, `241` checks, `0` failures); stale-output detector
+  PASS (`61` artifacts, `0` stale); generated-doc freshness PASS; generated-
+  checker registry PASS (`114` scripts); synthetic artifact index refreshed
+  (`128` directories, `87` synthetic-marked); OpenGWAS HTTP 200 with JWT valid to
+  `2026-06-19 12:28 UTC` (`RENEW_SOON`); SAP AI Core health PASS for Claude,
+  Gemini, and RPT; locked hash audit PASS; no-raw scanner PASS with warnings
+  only; `git diff --check` PASS.
+- 2026-06-13T15:36:59Z: Generated follow-up item 52 after item 49 to keep the
+  backlog above threshold and extend quickstart drift checks into command
+  coverage accounting.
 
 ## Running Notes
 

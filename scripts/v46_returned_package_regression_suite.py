@@ -223,6 +223,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_quickstart_readme.py", "--outdir", rel(outdir / "quickstart_readme"), "--fail-on-error"],
         ),
         (
+            "quickstart_drift_fixture",
+            "operator_navigation",
+            [py, "scripts/v46_quickstart_drift_fixture.py", "--outdir", rel(outdir / "quickstart_drift_fixture"), "--fail-on-error"],
+        ),
+        (
             "returned_package_doc_crosslink_linter",
             "operator_navigation",
             [py, "scripts/v46_returned_package_doc_crosslink_linter.py", "--outdir", rel(outdir / "doc_crosslink_linter"), "--fail-on-error"],

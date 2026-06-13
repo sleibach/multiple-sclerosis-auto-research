@@ -59,15 +59,16 @@ validation harness, or interpret biology.
 34. V46 operator transcript fixture.
 35. V46 returned-package handoff bundle manifest.
 36. V46 returned-package generated quickstart README.
-37. V46 returned-package documentation cross-link linter.
-38. V46 returned-package dependency graph.
-39. V45 no-raw-data git scanner.
+37. V46 quickstart drift fixture.
+38. V46 returned-package documentation cross-link linter.
+39. V46 returned-package dependency graph.
+40. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `39`;
+- steps: `40`;
 - failures: `0`;
 - overall status: `PASS`.
 

@@ -950,6 +950,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_quickstart_readme.py --outdir analysis/v46_returned_package_quickstart_readme --fail-on-error",
     },
     {
+        "artifact": "v46_quickstart_drift_fixture",
+        "sources": [
+            "docs/validation/QUICKSTART_DRIFT_FIXTURE_V46.md",
+            "analysis/v46_returned_package_quickstart_readme/RETURNED_PACKAGE_QUICKSTART.md",
+            "analysis/v46_returned_package_quickstart_readme/returned_package_quickstart_commands.tsv",
+            "scripts/v46_quickstart_drift_fixture.py",
+        ],
+        "outputs": [
+            "analysis/v46_quickstart_drift_fixture/quickstart_drift_summary.json",
+            "analysis/v46_quickstart_drift_fixture/quickstart_drift_cases.tsv",
+            "analysis/v46_quickstart_drift_fixture/quickstart_drift_lint.tsv",
+            "analysis/v46_quickstart_drift_fixture/QUICKSTART_DRIFT_FIXTURE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_quickstart_drift_fixture.py --outdir analysis/v46_quickstart_drift_fixture --fail-on-error",
+    },
+    {
         "artifact": "v46_partial_label_repair_prioritization",
         "sources": [
             "docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md",

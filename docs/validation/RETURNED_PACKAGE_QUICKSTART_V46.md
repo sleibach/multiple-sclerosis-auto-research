@@ -26,8 +26,8 @@ The committed run passed:
 - handoff commands: `26`
 - receipt branch examples: `8`
 - total command rows: `34`
-- regression-suite steps observed: `34`
-- smoke-bundle steps observed: `38`
+- regression-suite steps observed: `36`
+- smoke-bundle steps observed: `40`
 - lint checks: `13`
 - lint failures: `0`
 - all `score_values_read`: `false`

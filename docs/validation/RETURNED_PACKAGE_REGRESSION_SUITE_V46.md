@@ -53,16 +53,17 @@ data, run validation, change locked rules, or interpret biological results.
 29. V46 operator transcript fixture.
 30. V46 returned-package handoff bundle manifest.
 31. V46 returned-package generated quickstart README.
-32. V46 returned-package documentation cross-link linter.
-33. V45/V46 readiness stale-output detector.
-34. V46 returned-package dependency graph.
-35. V45 no-raw-data git scanner.
+32. V46 quickstart drift fixture.
+33. V46 returned-package documentation cross-link linter.
+34. V45/V46 readiness stale-output detector.
+35. V46 returned-package dependency graph.
+36. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `35`
+- steps: `36`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

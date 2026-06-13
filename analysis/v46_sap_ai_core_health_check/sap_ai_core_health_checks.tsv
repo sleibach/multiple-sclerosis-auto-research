@@ -1,19 +1,19 @@
 model_family	model	command_kind	command	returncode	elapsed_seconds	expected_text_present	family_specific_guard	status	stdout_tail	stderr_tail
-claude_orchestration	anthropic--claude-4.7-opus	smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py smoke --model anthropic--claude-4.7-opus --timeout 60 --max-output-tokens 64	0	1.32	True	PASS	PASS	"oauth: ok; expires_in: 43199
+claude_orchestration	anthropic--claude-4.7-opus	smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py smoke --model anthropic--claude-4.7-opus --timeout 60 --max-output-tokens 64	0	2.459	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: anthropic--claude-4.7-opus 1 def854013c7ac379
-smoke_elapsed_sec: 0.75
+smoke_elapsed_sec: 2.02
 response: OK
 "	(empty)
-gemini_native	gemini-2.5-pro	smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py smoke --model gemini-2.5-pro --timeout 60 --max-output-tokens 256	0	4.255	True	PASS	PASS	"oauth: ok; expires_in: 43199
+gemini_native	gemini-2.5-pro	smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py smoke --model gemini-2.5-pro --timeout 60 --max-output-tokens 256	0	3.35	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: gemini-2.5-pro 001 d6dc532885507ac7
-smoke_elapsed_sec: 3.7
+smoke_elapsed_sec: 2.96
 response: OK
 "	(empty)
-sap_rpt_predict	sap-rpt-1-large	rpt-smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py rpt-smoke --model sap-rpt-1-large --timeout 120	0	0.547	True	PASS	PASS	"oauth: ok; expires_in: 43199
+sap_rpt_predict	sap-rpt-1-large	rpt-smoke	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/sap_ai_core_client.py rpt-smoke --model sap-rpt-1-large --timeout 120	0	0.447	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: sap-rpt-1-large 1 d61aae51af327bbc
-smoke_elapsed_sec: 0.23
+smoke_elapsed_sec: 0.2
 {
-  ""id"": ""221855eb-d5dd-467b-90c5-a5a5ed7ab022"",
+  ""id"": ""aa734f58-4885-4e33-abd1-0c4e596dd52f"",
   ""metadata"": {
     ""num_columns"": 4,
     ""num_predictions"": 1,

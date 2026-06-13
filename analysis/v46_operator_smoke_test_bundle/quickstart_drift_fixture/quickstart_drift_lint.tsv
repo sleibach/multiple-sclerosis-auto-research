@@ -1,0 +1,21 @@
+case_id	check	status	detail	expected_status	observed_status	score_values_read
+exact_generated_quickstart	expectation_met	PASS	PASS	PASS	PASS	false
+exact_generated_quickstart	score_values_read_false	PASS	false	PASS	PASS	false
+exact_generated_quickstart	command_table_parity	PASS	all commands present	PASS	PASS	false
+exact_generated_quickstart	boundary_text_present	PASS	exact_generated_quickstart	PASS	PASS	false
+exact_generated_quickstart	no_forbidden_result_language	PASS	exact_generated_quickstart	PASS	PASS	false
+edited_handoff_command	expectation_met	PASS	FAIL	FAIL	FAIL	false
+edited_handoff_command	score_values_read_false	PASS	false	FAIL	FAIL	false
+edited_handoff_command	command_table_parity	FAIL	current_action_card	FAIL	FAIL	false
+edited_handoff_command	boundary_text_present	PASS	edited_handoff_command	FAIL	FAIL	false
+edited_handoff_command	no_forbidden_result_language	PASS	edited_handoff_command	FAIL	FAIL	false
+edited_receipt_branch_command	expectation_met	PASS	FAIL	FAIL	FAIL	false
+edited_receipt_branch_command	score_values_read_false	PASS	false	FAIL	FAIL	false
+edited_receipt_branch_command	command_table_parity	FAIL	scored_canonical_to_plan	FAIL	FAIL	false
+edited_receipt_branch_command	boundary_text_present	PASS	edited_receipt_branch_command	FAIL	FAIL	false
+edited_receipt_branch_command	no_forbidden_result_language	PASS	edited_receipt_branch_command	FAIL	FAIL	false
+removed_boundary_text	expectation_met	PASS	FAIL	FAIL	FAIL	false
+removed_boundary_text	score_values_read_false	PASS	false	FAIL	FAIL	false
+removed_boundary_text	command_table_parity	PASS	all commands present	FAIL	FAIL	false
+removed_boundary_text	boundary_text_present	FAIL	removed_boundary_text	FAIL	FAIL	false
+removed_boundary_text	no_forbidden_result_language	PASS	removed_boundary_text	FAIL	FAIL	false

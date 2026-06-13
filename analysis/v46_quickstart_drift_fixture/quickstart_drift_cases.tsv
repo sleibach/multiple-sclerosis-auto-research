@@ -1,0 +1,5 @@
+case_id	mutation	expected_status	observed_status	expectation_met	n_missing_commands	missing_command_artifact_ids	failure_checks	fixture_path	score_values_read
+exact_generated_quickstart	none	PASS	PASS	true	0			analysis/v46_quickstart_drift_fixture/fixtures/exact_generated_quickstart.md	false
+edited_handoff_command	changed first handoff command outdir	FAIL	FAIL	true	1	current_action_card	command_table_parity	analysis/v46_quickstart_drift_fixture/fixtures/edited_handoff_command.md	false
+edited_receipt_branch_command	changed scoreable receipt-branch expectation	FAIL	FAIL	true	1	scored_canonical_to_plan	command_table_parity	analysis/v46_quickstart_drift_fixture/fixtures/edited_receipt_branch_command.md	false
+removed_boundary_text	removed no-biological-claim boundary	FAIL	FAIL	true	0		boundary_text_present	analysis/v46_quickstart_drift_fixture/fixtures/removed_boundary_text.md	false

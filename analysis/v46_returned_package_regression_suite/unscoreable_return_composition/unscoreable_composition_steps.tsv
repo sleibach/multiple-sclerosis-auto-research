@@ -1,5 +1,5 @@
 step	command	expected_returncode	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py classify --terms analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_terms.tsv --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/terms_governance --expect-class AGGREGATE_ONLY_LOCAL_PREFLIGHT	0	0	0.299	PASS	"{
+terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py classify --terms analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_terms.tsv --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/terms_governance --expect-class AGGREGATE_ONLY_LOCAL_PREFLIGHT	0	0	0.289	PASS	"{
   ""decision"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/terms_governance/terms_governance_decision.tsv"",
   ""expect_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
   ""expectation_met"": true,
@@ -15,7 +15,7 @@ terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pytho
   ""terms"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_terms.tsv""
 }
 "	(empty)
-command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token synthetic_unscoreable_return --package-root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --terms-capture analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_terms.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --package-kind author_run_aggregate --package-state unscoreable --metric-format-state canonical --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/command_order_plan --expect-status PASS	0	0	0.038	PASS	"{
+command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token synthetic_unscoreable_return --package-root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --terms-capture analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_terms.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --package-kind author_run_aggregate --package-state unscoreable --metric-format-state canonical --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/command_order_plan --expect-status PASS	0	0	0.041	PASS	"{
   ""cohort_token"": ""synthetic_unscoreable_return"",
   ""command_plan"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/command_order_plan/returned_package_command_plan.tsv"",
   ""expect_status"": ""PASS"",
@@ -35,7 +35,7 @@ command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pyt
   ""terms_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT""
 }
 "	(empty)
-route_state_matrix	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/route_state_matrix --fail-on-error	0	0	0.03	PASS	"{
+route_state_matrix	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/route_state_matrix --fail-on-error	0	0	0.031	PASS	"{
   ""checks"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/route_state_matrix/returned_package_route_state_checks.tsv"",
   ""matrix"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/route_state_matrix/returned_package_route_state_matrix.tsv"",
   ""n_blocked_routes"": 18,
@@ -49,7 +49,7 @@ route_state_matrix	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pyt
   ""synthetic"": true
 }
 "	(empty)
-author_run_return_gate_expected_fail	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --package-state unscoreable --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/author_run_return_gate --fail-on-error	1	1	0.353	PASS	"{
+author_run_return_gate_expected_fail	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --package-state unscoreable --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/author_run_return_gate --fail-on-error	1	1	0.456	PASS	"{
   ""completeness_status"": ""FAIL"",
   ""completeness_summary"": {
     ""n_hard_fail"": 5,
@@ -84,7 +84,7 @@ author_run_return_gate_expected_fail	/Users/soeren.leibach/Projects/ms-auto-rese
   ""synthetic"": true
 }
 "	(empty)
-author_run_output_check_expected_fail	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --package-state unscoreable --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/author_run_output_check --fail-on-error	1	1	0.33	PASS	"{
+author_run_output_check_expected_fail	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v46_returned_package_regression_suite/unscoreable_return_composition/synthetic/unscoreable_aggregate_package --package-state unscoreable --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition/author_run_output_check --fail-on-error	1	1	0.32	PASS	"{
   ""n_hard_fail"": 5,
   ""n_required_now"": 10,
   ""n_rows"": 10,
