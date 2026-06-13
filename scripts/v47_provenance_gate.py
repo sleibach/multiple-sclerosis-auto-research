@@ -40,6 +40,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "docs/knowledge/",
     "analysis/v47_convergence_contradiction_skeleton/",
     "analysis/v47_external_markdown_index_linter/",
+    "analysis/v47_external_record_uniqueness_linter/",
     "analysis/v47_external_resource_access_tier_rollup/",
     "analysis/v47_external_knowledge_index/",
     "analysis/v47_external_resource_category_rollup/",

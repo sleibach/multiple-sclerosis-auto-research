@@ -41,6 +41,7 @@ No external knowledge integration occurs until:
 | 12 | 2026-06-13T19:32:41Z | 2026-06-13T19:35:24Z | done | Added 5 public DMT/drug-reference resource records: FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`31` records), category rollup PASS (`31` resources, `10` categories), schema lint PASS (`620` checks), relationship lint PASS (`93` checks), convergence skeleton PASS (`31` placeholder rows), provenance audit PASS (`280` checks). |
 | 13 | 2026-06-13T19:36:15Z | 2026-06-13T19:39:22Z | done | Added external-resource access-tier rollup. Synthetic fixture PASS (`4/4` checks); real rollup PASS (`31` resources, `5` represented access tiers, `0` missing markers). Governance refreshed: generated-checker registry PASS (`124` scripts), stale detector PASS (`71` artifacts), doc freshness PASS, provenance audit PASS (`280` checks). |
 | 14 | 2026-06-13T19:40:10Z | 2026-06-13T19:43:17Z | done | Added generated external Markdown source/provenance linter. Synthetic fixture PASS (`3/3` checks; bad row intentionally fails underlying lint); real lint PASS (`6` Markdown files, `96` checks, `0` failures). Governance refreshed: generated-checker registry PASS (`125` scripts), stale detector PASS (`72` artifacts), provenance audit PASS (`280` checks). |
+| 15 | 2026-06-13T19:44:24Z | 2026-06-13T19:47:47Z | done | Added external-record uniqueness linter and refilled backlog. Synthetic fixture PASS (`3/3` checks; duplicate fixtures intentionally fail underlying lint); real lint PASS (`31` records, `62` checks, `0` failures). Governance refreshed: generated-checker registry PASS (`126` scripts), stale detector PASS (`73` artifacts), provenance audit PASS (`280` checks). |
 
 ## Live Backlog
 
@@ -68,7 +69,14 @@ No external knowledge integration occurs until:
 | 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | done | `scripts/v47_external_markdown_index_linter.py`; real lint PASS (`6` generated Markdown files, `96` checks, `0` failures). |
 | 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | done | Covered by iteration 11 public clinical/reference resource records; no grounded findings changed. |
 | 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | done | Added source-verified external-unverifiable records for FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. |
-| 23 | Synthesis | Build class-aware convergence/contradiction skeleton with empty grounded-link rows until specific claim records exist | todo | Must live under `knowledge_external/synthesis/` and label every row by epistemic class. |
+| 23 | Synthesis | Build class-aware convergence/contradiction skeleton with empty grounded-link rows until specific claim records exist | done | Covered by `scripts/v47_convergence_contradiction_skeleton.py`; real skeleton has `31` placeholder rows and `0` linked grounded findings. |
+| 24 | Governance | Add external-record uniqueness linter for duplicate record IDs and duplicate source locators | done | `scripts/v47_external_record_uniqueness_linter.py`; real lint PASS (`31` records, `62` checks, `0` failures). |
+| 25 | Navigation/index | Add source-domain rollup for external resources and records | todo | Helps readers browse by source domain while preserving class/source markers. |
+| 26 | Governance | Add source URL reachability checker with conservative statuses and no claim validation | todo | Must avoid turning HTTP success into evidence; records dead/redirecting/source-unreachable only. |
+| 27 | External-verifiable intake | Add external-verifiable claim intake template plus linter requiring future grounding route | todo | No external claim conclusions; template only. |
+| 28 | Navigation/index | Build public `knowledge_external/INDEX.md` from class/category/access-tier indexes | todo | Reader-facing index must preserve the grounded/external boundary and link only external-tree artifacts. |
+| 29 | Competitor/source cataloging | Generate comparator matrix across resource records by coverage, access tier, and unique repo gap | todo | Metadata-only matrix; no external claim evidence. |
+| 30 | Governance | Add source-domain allowlist/denylist report for records with missing official-domain context | todo | Report-only; flags records needing source review without deleting or reclassing. |
 
 ## Running Notes
 
@@ -172,3 +180,10 @@ No external knowledge integration occurs until:
   PASS (`6` Markdown files, `96` checks, `0` failures). Governance refreshed:
   generated-checker registry PASS (`125` scripts), stale detector PASS (`72`
   artifacts), provenance audit PASS (`280` checks, `31` records, `0` failures).
+- 2026-06-13T19:47:47Z: External-record uniqueness linter added. Duplicate
+  `record_id` and duplicate source locators now fail the linter. Synthetic
+  fixture PASS (`3/3` checks; duplicate fixtures intentionally fail the
+  underlying lint). Real lint PASS (`31` external records, `62` checks, `0`
+  failures). Governance refreshed: generated-checker registry PASS (`126`
+  scripts), stale detector PASS (`73` artifacts), provenance audit PASS (`280`
+  checks, `31` records, `0` failures).

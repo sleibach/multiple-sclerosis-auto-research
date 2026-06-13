@@ -1,0 +1,13 @@
+path	record_id	check	status	detail
+knowledge_external/records/duplicate_id_1.json	SYNTH_DUP_ID	record_id_unique	FAIL	knowledge_external/records/duplicate_id_1.json;knowledge_external/records/duplicate_id_2.json
+knowledge_external/records/duplicate_id_1.json	SYNTH_DUP_ID	source_locator_unique	PASS	-
+knowledge_external/records/duplicate_id_2.json	SYNTH_DUP_ID	record_id_unique	FAIL	knowledge_external/records/duplicate_id_1.json;knowledge_external/records/duplicate_id_2.json
+knowledge_external/records/duplicate_id_2.json	SYNTH_DUP_ID	source_locator_unique	PASS	-
+knowledge_external/records/duplicate_source_1.json	SYNTH_DUP_SOURCE_1	record_id_unique	PASS	-
+knowledge_external/records/duplicate_source_1.json	SYNTH_DUP_SOURCE_1	source_locator_unique	FAIL	knowledge_external/records/duplicate_source_1.json;knowledge_external/records/duplicate_source_2.json
+knowledge_external/records/duplicate_source_2.json	SYNTH_DUP_SOURCE_2	record_id_unique	PASS	-
+knowledge_external/records/duplicate_source_2.json	SYNTH_DUP_SOURCE_2	source_locator_unique	FAIL	knowledge_external/records/duplicate_source_1.json;knowledge_external/records/duplicate_source_2.json
+knowledge_external/records/unique_a.json	SYNTH_UNIQUE_A	record_id_unique	PASS	-
+knowledge_external/records/unique_a.json	SYNTH_UNIQUE_A	source_locator_unique	PASS	-
+knowledge_external/records/unique_b.json	SYNTH_UNIQUE_B	record_id_unique	PASS	-
+knowledge_external/records/unique_b.json	SYNTH_UNIQUE_B	source_locator_unique	PASS	-

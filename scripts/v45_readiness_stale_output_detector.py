@@ -374,6 +374,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_markdown_index_linter.py synthetic-check --outdir analysis/v47_external_markdown_index_linter --fail-on-error && .venv/bin/python scripts/v47_external_markdown_index_linter.py lint --outdir analysis/v47_external_markdown_index_linter --fail-on-error",
     },
     {
+        "artifact": "v47_external_record_uniqueness_linter",
+        "sources": [
+            "docs/knowledge/EXTERNAL_RECORD_UNIQUENESS_LINTER_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_external_record_uniqueness_linter.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_record_uniqueness_linter/synthetic_uniqueness_summary.json",
+            "analysis/v47_external_record_uniqueness_linter/synthetic_uniqueness_checks.tsv",
+            "analysis/v47_external_record_uniqueness_linter/external_record_uniqueness_lint_summary.json",
+            "analysis/v47_external_record_uniqueness_linter/external_record_uniqueness_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_record_uniqueness_linter.py synthetic-check --outdir analysis/v47_external_record_uniqueness_linter --fail-on-error && .venv/bin/python scripts/v47_external_record_uniqueness_linter.py lint --outdir analysis/v47_external_record_uniqueness_linter --fail-on-error",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",
