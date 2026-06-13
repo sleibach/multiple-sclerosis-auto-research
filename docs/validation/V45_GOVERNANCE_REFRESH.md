@@ -27,14 +27,14 @@ Headline counts from the latest run:
 
 | Summary | Current value |
 |---|---:|
-| artifact-index paths | `2469` |
+| artifact-index paths | `2585` |
 | artifact-index fronts | `8` |
 | artifact-index evidence classes | `9` |
-| V43-V46 method/governance directories | `119` |
+| V43-V46 method/governance directories | `120` |
 | V45 analysis directories in storage summary | `84` |
 | V45 analysis files in storage summary | `799` |
-| V45 analysis footprint | `85.894 MiB` |
-| V45 synthetic/method-behavior footprint | `84.378 MiB` |
+| V45 analysis footprint | `85.926 MiB` |
+| V45 synthetic/method-behavior footprint | `84.379 MiB` |
 
 ## Interpretation
 

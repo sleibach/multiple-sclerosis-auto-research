@@ -102,6 +102,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_package_manifest_shape_classifier.py", "synthetic-check", "--outdir", rel(outdir / "package_manifest_shape_classifier")],
         ),
         (
+            "receipt_manifest_to_command_plan_handoff",
+            "returned_package",
+            [py, "scripts/v46_receipt_manifest_to_command_plan_handoff.py", "--outdir", rel(outdir / "receipt_manifest_to_command_plan_handoff"), "--fail-on-error"],
+        ),
+        (
             "returned_package_command_order_planner_synthetic",
             "returned_package",
             [py, "scripts/v46_returned_package_command_order_planner.py", "synthetic-check", "--outdir", rel(outdir / "returned_package_command_order_planner")],

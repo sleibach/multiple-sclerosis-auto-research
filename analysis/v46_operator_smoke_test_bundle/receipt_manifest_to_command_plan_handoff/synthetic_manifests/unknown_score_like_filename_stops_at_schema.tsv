@@ -1,0 +1,6 @@
+cohort_id	receipt_timestamp_utc	received_from	relative_path_or_external_location	file_role	bytes	sha256_if_recordable	sensitivity_class	terms_status	commit_allowed	next_gate	notes
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	run_info.txt	run_metadata	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	validation_result_summary.json	validation_summary	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	sample_retention.tsv	sample_attrition	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	module_coverage.tsv	gene_mapping_coverage	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	primary_metrics_table.tsv	unknown_score_like_metric	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	

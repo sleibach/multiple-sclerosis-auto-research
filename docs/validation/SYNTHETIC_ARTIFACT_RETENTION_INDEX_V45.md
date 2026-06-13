@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `119` V43-V46 analysis directories, with `80`
+The refreshed index covers `120` V43-V46 analysis directories, with `81`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -78,10 +78,10 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
 | `synthetic_intake_verification` | `1` | `41` | Report-template readiness only |
-| `synthetic_intake_verification` | `28` | `586` | Method behavior only |
+| `synthetic_intake_verification` | `29` | `634` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
 | `synthetic_regression` | `1` | `9` | Status-board schema regression only |
-| `synthetic_regression` | `2` | `1023` | Software/readiness regression only |
+| `synthetic_regression` | `2` | `1119` | Software/readiness regression only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |

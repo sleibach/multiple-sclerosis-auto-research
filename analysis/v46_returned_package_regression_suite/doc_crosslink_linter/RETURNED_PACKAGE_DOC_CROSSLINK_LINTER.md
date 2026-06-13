@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `28`; failures: `0`.
+Overall status: `PASS`; scripts checked: `29`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -15,6 +15,7 @@ Overall status: `PASS`; scripts checked: `28`; failures: `0`.
 | `scripts/v46_partial_label_return_classifier.py` | `docs/validation/PARTIAL_LABEL_RETURN_CLASSIFIER_V46.md` | `2` | `PASS` |
 | `scripts/v46_receipt_manifest_schema_linter.py` | `docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md` | `3` | `PASS` |
 | `scripts/v46_package_manifest_shape_classifier.py` | `docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md` | `3` | `PASS` |
+| `scripts/v46_receipt_manifest_to_command_plan_handoff.py` | `docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md` | `4` | `PASS` |
 | `scripts/v46_returned_package_command_order_planner.py` | `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` | `4` | `PASS` |
 | `scripts/v46_returned_package_route_state_matrix.py` | `docs/validation/RETURNED_PACKAGE_ROUTE_STATE_MATRIX_V46.md` | `3` | `PASS` |
 | `scripts/v46_aggregate_only_returned_package_composition_dryrun.py` | `docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md` | `3` | `PASS` |

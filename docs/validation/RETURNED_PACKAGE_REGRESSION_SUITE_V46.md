@@ -27,35 +27,36 @@ data, run validation, change locked rules, or interpret biological results.
 3. V46 partial-label classifier synthetic check.
 4. V46 receipt-manifest schema linter synthetic check.
 5. V46 package-manifest shape classifier synthetic check.
-6. V46 returned-package command-order planner synthetic check.
-7. V46 returned-package route-state matrix.
-8. V46 aggregate-only returned-package composition dry run.
-9. V46 unscoreable-return composition dry run.
-10. V46 safe-interpretation classifier synthetic check.
-11. V46 safe-wording fixture linter.
-12. V46 result-report safe-class linter.
-13. V46 safe-class report-template readiness map.
-14. V46 small-n conclusion language table.
-15. V46 analyzable-pair confidence envelope.
-16. V46 return repair-request templates.
-17. V46 partial-label repair prioritization.
-18. V46 first-30-minute returned-package decision table.
-19. V46 first-30 repair-template coverage linter.
-20. V46 first-30 returned-package status-board dry run.
-21. V46 returned-package status-board schema linter.
-22. V46 returned-package preflight dry run.
-23. V46 returned-package state-transition validator.
-24. V46 returned-package handoff bundle manifest.
-25. V46 returned-package documentation cross-link linter.
-26. V45/V46 readiness stale-output detector.
-27. V46 returned-package dependency graph.
-28. V45 no-raw-data git scanner.
+6. V46 receipt-manifest-to-command-plan handoff.
+7. V46 returned-package command-order planner synthetic check.
+8. V46 returned-package route-state matrix.
+9. V46 aggregate-only returned-package composition dry run.
+10. V46 unscoreable-return composition dry run.
+11. V46 safe-interpretation classifier synthetic check.
+12. V46 safe-wording fixture linter.
+13. V46 result-report safe-class linter.
+14. V46 safe-class report-template readiness map.
+15. V46 small-n conclusion language table.
+16. V46 analyzable-pair confidence envelope.
+17. V46 return repair-request templates.
+18. V46 partial-label repair prioritization.
+19. V46 first-30-minute returned-package decision table.
+20. V46 first-30 repair-template coverage linter.
+21. V46 first-30 returned-package status-board dry run.
+22. V46 returned-package status-board schema linter.
+23. V46 returned-package preflight dry run.
+24. V46 returned-package state-transition validator.
+25. V46 returned-package handoff bundle manifest.
+26. V46 returned-package documentation cross-link linter.
+27. V45/V46 readiness stale-output detector.
+28. V46 returned-package dependency graph.
+29. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `28`
+- steps: `29`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

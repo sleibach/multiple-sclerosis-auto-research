@@ -53,6 +53,11 @@ REQUIRED_SCRIPTS = [
         "role": "package-shape classifier",
     },
     {
+        "script": "scripts/v46_receipt_manifest_to_command_plan_handoff.py",
+        "doc": "docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md",
+        "role": "receipt-manifest to command-plan handoff",
+    },
+    {
         "script": "scripts/v46_returned_package_command_order_planner.py",
         "doc": "docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md",
         "role": "command-order planner",

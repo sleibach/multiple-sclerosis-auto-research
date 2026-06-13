@@ -114,6 +114,7 @@ MANUAL_CLASS = {
     "analysis/v46_partial_label_return_classifier": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_receipt_manifest_schema_linter": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_package_manifest_shape_classifier": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_receipt_manifest_to_command_plan_handoff": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_terms_governance_matrix": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_returned_package_command_order_planner": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_returned_package_route_state_matrix": ("synthetic_intake_verification", "method behavior only"),

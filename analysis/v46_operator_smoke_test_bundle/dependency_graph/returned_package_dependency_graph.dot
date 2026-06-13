@@ -8,6 +8,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" [label="docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md", shape=ellipse];
   "doc:docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md" [label="docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md", shape=ellipse];
   "doc:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" [label="docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md", shape=ellipse];
+  "doc:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" [label="docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md", shape=ellipse];
   "doc:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" [label="docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md", shape=ellipse];
   "doc:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" [label="docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md", shape=ellipse];
   "doc:docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md" [label="docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md", shape=ellipse];
@@ -29,6 +30,7 @@ digraph returned_package_dependencies {
   "handoff_artifact:package_manifest_shape_classifier" [label="package_manifest_shape_classifier", shape=ellipse];
   "handoff_artifact:partial_label_repair_prioritization" [label="partial_label_repair_prioritization", shape=ellipse];
   "handoff_artifact:receipt_manifest_schema_linter" [label="receipt_manifest_schema_linter", shape=ellipse];
+  "handoff_artifact:receipt_manifest_to_command_plan_handoff" [label="receipt_manifest_to_command_plan_handoff", shape=ellipse];
   "handoff_artifact:repair_request_templates" [label="repair_request_templates", shape=ellipse];
   "handoff_artifact:result_report_safe_class_linter" [label="result_report_safe_class_linter", shape=ellipse];
   "handoff_artifact:returned_package_dependency_graph" [label="returned_package_dependency_graph", shape=ellipse];
@@ -134,6 +136,10 @@ digraph returned_package_dependencies {
   "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_cases.tsv" [label="analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_cases.tsv", shape=ellipse];
   "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_lint.tsv" [label="analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_lint.tsv", shape=ellipse];
   "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" [label="analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json", shape=ellipse];
+  "output:analysis/v46_receipt_manifest_to_command_plan_handoff/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF.md" [label="analysis/v46_receipt_manifest_to_command_plan_handoff/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF.md", shape=ellipse];
+  "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff.tsv" [label="analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff.tsv", shape=ellipse];
+  "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_lint.tsv" [label="analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_lint.tsv", shape=ellipse];
+  "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json" [label="analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json", shape=ellipse];
   "output:analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_cases.tsv" [label="analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_cases.tsv", shape=ellipse];
   "output:analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json" [label="analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json", shape=ellipse];
   "output:analysis/v46_return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md" [label="analysis/v46_return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md", shape=ellipse];
@@ -206,6 +212,7 @@ digraph returned_package_dependencies {
   "regression_step:partial_label_repair_prioritization" [label="partial_label_repair_prioritization", shape=ellipse];
   "regression_step:readiness_stale_output_detector" [label="readiness_stale_output_detector", shape=ellipse];
   "regression_step:receipt_manifest_schema_linter_synthetic" [label="receipt_manifest_schema_linter_synthetic", shape=ellipse];
+  "regression_step:receipt_manifest_to_command_plan_handoff" [label="receipt_manifest_to_command_plan_handoff", shape=ellipse];
   "regression_step:result_report_safe_class_linter" [label="result_report_safe_class_linter", shape=ellipse];
   "regression_step:return_repair_request_templates" [label="return_repair_request_templates", shape=ellipse];
   "regression_step:returned_package_command_order_planner_synthetic" [label="returned_package_command_order_planner_synthetic", shape=ellipse];
@@ -241,6 +248,7 @@ digraph returned_package_dependencies {
   "script:scripts/v46_partial_label_repair_prioritization.py" [label="scripts/v46_partial_label_repair_prioritization.py", shape=box];
   "script:scripts/v46_partial_label_return_classifier.py" [label="scripts/v46_partial_label_return_classifier.py", shape=box];
   "script:scripts/v46_receipt_manifest_schema_linter.py" [label="scripts/v46_receipt_manifest_schema_linter.py", shape=box];
+  "script:scripts/v46_receipt_manifest_to_command_plan_handoff.py" [label="scripts/v46_receipt_manifest_to_command_plan_handoff.py", shape=box];
   "script:scripts/v46_result_report_safe_class_linter.py" [label="scripts/v46_result_report_safe_class_linter.py", shape=box];
   "script:scripts/v46_return_repair_request_templates.py" [label="scripts/v46_return_repair_request_templates.py", shape=box];
   "script:scripts/v46_returned_package_command_order_planner.py" [label="scripts/v46_returned_package_command_order_planner.py", shape=box];
@@ -272,6 +280,7 @@ digraph returned_package_dependencies {
   "smoke_step:partial_label_classifier_synthetic" [label="partial_label_classifier_synthetic", shape=ellipse];
   "smoke_step:partial_label_repair_prioritization" [label="partial_label_repair_prioritization", shape=ellipse];
   "smoke_step:receipt_manifest_schema_linter_synthetic" [label="receipt_manifest_schema_linter_synthetic", shape=ellipse];
+  "smoke_step:receipt_manifest_to_command_plan_handoff" [label="receipt_manifest_to_command_plan_handoff", shape=ellipse];
   "smoke_step:result_report_safe_class_linter" [label="result_report_safe_class_linter", shape=ellipse];
   "smoke_step:return_repair_request_templates" [label="return_repair_request_templates", shape=ellipse];
   "smoke_step:returned_package_command_order_planner_synthetic" [label="returned_package_command_order_planner_synthetic", shape=ellipse];
@@ -352,6 +361,7 @@ digraph returned_package_dependencies {
   "source:analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json" [label="analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json", shape=ellipse];
   "source:analysis/v46_partial_label_return_classifier/partial_label_synthetic_cases.tsv" [label="analysis/v46_partial_label_return_classifier/partial_label_synthetic_cases.tsv", shape=ellipse];
   "source:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" [label="analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json", shape=ellipse];
+  "source:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json" [label="analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json", shape=ellipse];
   "source:analysis/v46_return_repair_request_templates/repair_request_template_index.tsv" [label="analysis/v46_return_repair_request_templates/repair_request_template_index.tsv", shape=ellipse];
   "source:analysis/v46_return_repair_request_templates/repair_request_template_lint.tsv" [label="analysis/v46_return_repair_request_templates/repair_request_template_lint.tsv", shape=ellipse];
   "source:analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv" [label="analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv", shape=ellipse];
@@ -392,6 +402,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/PREREGISTRATION_V42.md" [label="docs/validation/PREREGISTRATION_V42.md", shape=ellipse];
   "source:docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md" [label="docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md", shape=ellipse];
   "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" [label="docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md", shape=ellipse];
+  "source:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" [label="docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md", shape=ellipse];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" [label="docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md", shape=ellipse];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" [label="docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md", shape=ellipse];
   "source:docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md" [label="docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md", shape=ellipse];
@@ -469,6 +480,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_partial_label_repair_prioritization.py" [label="scripts/v46_partial_label_repair_prioritization.py", shape=ellipse];
   "source:scripts/v46_partial_label_return_classifier.py" [label="scripts/v46_partial_label_return_classifier.py", shape=ellipse];
   "source:scripts/v46_receipt_manifest_schema_linter.py" [label="scripts/v46_receipt_manifest_schema_linter.py", shape=ellipse];
+  "source:scripts/v46_receipt_manifest_to_command_plan_handoff.py" [label="scripts/v46_receipt_manifest_to_command_plan_handoff.py", shape=ellipse];
   "source:scripts/v46_result_report_safe_class_linter.py" [label="scripts/v46_result_report_safe_class_linter.py", shape=ellipse];
   "source:scripts/v46_return_repair_request_templates.py" [label="scripts/v46_return_repair_request_templates.py", shape=ellipse];
   "source:scripts/v46_returned_package_command_order_planner.py" [label="scripts/v46_returned_package_command_order_planner.py", shape=ellipse];
@@ -521,6 +533,7 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_partial_label_repair_prioritization" [label="v46_partial_label_repair_prioritization", shape=ellipse];
   "stale_artifact:v46_partial_label_return_classifier" [label="v46_partial_label_return_classifier", shape=ellipse];
   "stale_artifact:v46_receipt_manifest_schema_linter" [label="v46_receipt_manifest_schema_linter", shape=ellipse];
+  "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="v46_receipt_manifest_to_command_plan_handoff", shape=ellipse];
   "stale_artifact:v46_result_report_safe_class_linter" [label="v46_result_report_safe_class_linter", shape=ellipse];
   "stale_artifact:v46_return_repair_request_templates" [label="v46_return_repair_request_templates", shape=ellipse];
   "stale_artifact:v46_returned_package_command_order_planner" [label="v46_returned_package_command_order_planner", shape=ellipse];
@@ -549,6 +562,7 @@ digraph returned_package_dependencies {
   "doc:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" -> "handoff_artifact:package_manifest_shape_classifier" [label="documented_by"];
   "doc:docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md" -> "handoff_artifact:partial_label_repair_prioritization" [label="documented_by"];
   "doc:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "handoff_artifact:receipt_manifest_schema_linter" [label="documented_by"];
+  "doc:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" -> "handoff_artifact:receipt_manifest_to_command_plan_handoff" [label="documented_by"];
   "doc:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "handoff_artifact:result_report_safe_class_linter" [label="documented_by"];
   "doc:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "handoff_artifact:command_order_planner" [label="documented_by"];
   "doc:docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md" -> "handoff_artifact:returned_package_dependency_graph" [label="documented_by"];
@@ -574,12 +588,14 @@ digraph returned_package_dependencies {
   "handoff_artifact:first30_repair_template_coverage" -> "output:analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json" [label="emits"];
   "handoff_artifact:first30_status_board" -> "handoff_artifact:status_board_schema_linter" [label="operator_sequence_next"];
   "handoff_artifact:first30_status_board" -> "output:analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json" [label="emits"];
-  "handoff_artifact:package_manifest_shape_classifier" -> "handoff_artifact:first30_decision_table" [label="operator_sequence_next"];
+  "handoff_artifact:package_manifest_shape_classifier" -> "handoff_artifact:receipt_manifest_to_command_plan_handoff" [label="operator_sequence_next"];
   "handoff_artifact:package_manifest_shape_classifier" -> "output:analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json" [label="emits"];
   "handoff_artifact:partial_label_repair_prioritization" -> "handoff_artifact:first30_repair_template_coverage" [label="operator_sequence_next"];
   "handoff_artifact:partial_label_repair_prioritization" -> "output:analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json" [label="emits"];
   "handoff_artifact:receipt_manifest_schema_linter" -> "handoff_artifact:package_manifest_shape_classifier" [label="operator_sequence_next"];
   "handoff_artifact:receipt_manifest_schema_linter" -> "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" [label="emits"];
+  "handoff_artifact:receipt_manifest_to_command_plan_handoff" -> "handoff_artifact:first30_decision_table" [label="operator_sequence_next"];
+  "handoff_artifact:receipt_manifest_to_command_plan_handoff" -> "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json" [label="emits"];
   "handoff_artifact:repair_request_templates" -> "handoff_artifact:partial_label_repair_prioritization" [label="operator_sequence_next"];
   "handoff_artifact:repair_request_templates" -> "output:analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json" [label="emits"];
   "handoff_artifact:result_report_safe_class_linter" -> "handoff_artifact:safe_class_report_template_readiness" [label="operator_sequence_next"];
@@ -636,6 +652,9 @@ digraph returned_package_dependencies {
   "script:scripts/v46_receipt_manifest_schema_linter.py" -> "handoff_artifact:receipt_manifest_schema_linter" [label="runs_for_handoff_artifact"];
   "script:scripts/v46_receipt_manifest_schema_linter.py" -> "regression_step:receipt_manifest_schema_linter_synthetic" [label="runs_for_suite_step"];
   "script:scripts/v46_receipt_manifest_schema_linter.py" -> "smoke_step:receipt_manifest_schema_linter_synthetic" [label="runs_for_suite_step"];
+  "script:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "handoff_artifact:receipt_manifest_to_command_plan_handoff" [label="runs_for_handoff_artifact"];
+  "script:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "regression_step:receipt_manifest_to_command_plan_handoff" [label="runs_for_suite_step"];
+  "script:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "smoke_step:receipt_manifest_to_command_plan_handoff" [label="runs_for_suite_step"];
   "script:scripts/v46_result_report_safe_class_linter.py" -> "handoff_artifact:result_report_safe_class_linter" [label="runs_for_handoff_artifact"];
   "script:scripts/v46_result_report_safe_class_linter.py" -> "regression_step:result_report_safe_class_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_result_report_safe_class_linter.py" -> "smoke_step:result_report_safe_class_linter" [label="runs_for_suite_step"];
@@ -777,6 +796,7 @@ digraph returned_package_dependencies {
   "source:analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_partial_label_return_classifier/partial_label_synthetic_cases.tsv" -> "stale_artifact:v46_partial_label_repair_prioritization" [label="freshness_source_for"];
   "source:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
+  "source:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json" -> "stale_artifact:v46_returned_package_handoff_bundle_manifest" [label="freshness_source_for"];
   "source:analysis/v46_return_repair_request_templates/repair_request_template_index.tsv" -> "stale_artifact:v46_first30_repair_template_coverage_linter" [label="freshness_source_for"];
   "source:analysis/v46_return_repair_request_templates/repair_request_template_index.tsv" -> "stale_artifact:v46_first30_status_board_dryrun" [label="freshness_source_for"];
   "source:analysis/v46_return_repair_request_templates/repair_request_template_index.tsv" -> "stale_artifact:v46_partial_label_repair_prioritization" [label="freshness_source_for"];
@@ -834,6 +854,7 @@ digraph returned_package_dependencies {
   "source:docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md" -> "stale_artifact:v46_small_n_conclusion_language" [label="freshness_source_for"];
   "source:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" -> "stale_artifact:v46_package_manifest_shape_classifier" [label="freshness_source_for"];
+  "source:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md" -> "stale_artifact:v46_partial_label_repair_prioritization" [label="freshness_source_for"];
@@ -846,11 +867,16 @@ digraph returned_package_dependencies {
   "source:docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md" -> "stale_artifact:generated_doc_freshness_linter" [label="freshness_source_for"];
   "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "stale_artifact:v46_receipt_manifest_schema_linter" [label="freshness_source_for"];
+  "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:docs/validation/RECEIPT_MANIFEST_SCHEMA_LINTER_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
+  "source:docs/validation/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF_V46.md" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_result_report_safe_class_linter" [label="freshness_source_for"];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
   "source:docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md" -> "stale_artifact:v46_safe_class_report_template_readiness" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_first30_returned_package_decision_table" [label="freshness_source_for"];
+  "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_returned_package_command_order_planner" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md" -> "stale_artifact:v46_returned_package_state_transition_validator" [label="freshness_source_for"];
   "source:docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
@@ -975,6 +1001,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_operator_smoke_test_bundle.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_package_manifest_shape_classifier.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_package_manifest_shape_classifier.py" -> "stale_artifact:v46_package_manifest_shape_classifier" [label="freshness_source_for"];
+  "source:scripts/v46_package_manifest_shape_classifier.py" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:scripts/v46_package_manifest_shape_classifier.py" -> "stale_artifact:v46_returned_package_preflight_dryrun" [label="freshness_source_for"];
   "source:scripts/v46_package_manifest_shape_classifier.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_partial_label_repair_prioritization.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
@@ -986,8 +1013,12 @@ digraph returned_package_dependencies {
   "source:scripts/v46_partial_label_return_classifier.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_receipt_manifest_schema_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_receipt_manifest_schema_linter.py" -> "stale_artifact:v46_receipt_manifest_schema_linter" [label="freshness_source_for"];
+  "source:scripts/v46_receipt_manifest_schema_linter.py" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:scripts/v46_receipt_manifest_schema_linter.py" -> "stale_artifact:v46_returned_package_preflight_dryrun" [label="freshness_source_for"];
   "source:scripts/v46_receipt_manifest_schema_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
+  "source:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
+  "source:scripts/v46_receipt_manifest_to_command_plan_handoff.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_result_report_safe_class_linter" [label="freshness_source_for"];
   "source:scripts/v46_result_report_safe_class_linter.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
@@ -997,6 +1028,7 @@ digraph returned_package_dependencies {
   "source:scripts/v46_return_repair_request_templates.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_aggregate_only_returned_package_composition_dryrun" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_operator_smoke_test_bundle" [label="freshness_source_for"];
+  "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_returned_package_command_order_planner" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_returned_package_regression_suite" [label="freshness_source_for"];
   "source:scripts/v46_returned_package_command_order_planner.py" -> "stale_artifact:v46_returned_package_route_state_matrix" [label="freshness_source_for"];
@@ -1139,6 +1171,10 @@ digraph returned_package_dependencies {
   "stale_artifact:v46_receipt_manifest_schema_linter" -> "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_cases.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_receipt_manifest_schema_linter" -> "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_lint.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_receipt_manifest_schema_linter" -> "output:analysis/v46_receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_summary.json" [label="freshness_output_for"];
+  "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" -> "output:analysis/v46_receipt_manifest_to_command_plan_handoff/RECEIPT_MANIFEST_TO_COMMAND_PLAN_HANDOFF.md" [label="freshness_output_for"];
+  "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" -> "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" -> "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_lint.tsv" [label="freshness_output_for"];
+  "stale_artifact:v46_receipt_manifest_to_command_plan_handoff" -> "output:analysis/v46_receipt_manifest_to_command_plan_handoff/receipt_manifest_to_command_plan_handoff_summary.json" [label="freshness_output_for"];
   "stale_artifact:v46_result_report_safe_class_linter" -> "output:analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_cases.tsv" [label="freshness_output_for"];
   "stale_artifact:v46_result_report_safe_class_linter" -> "output:analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json" [label="freshness_output_for"];
   "stale_artifact:v46_return_repair_request_templates" -> "output:analysis/v46_return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md" [label="freshness_output_for"];
@@ -1213,6 +1249,7 @@ digraph returned_package_dependencies {
   "suite:operator_smoke_test_bundle" -> "smoke_step:partial_label_classifier_synthetic" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:partial_label_repair_prioritization" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:receipt_manifest_schema_linter_synthetic" [label="contains_step"];
+  "suite:operator_smoke_test_bundle" -> "smoke_step:receipt_manifest_to_command_plan_handoff" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:result_report_safe_class_linter" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:return_repair_request_templates" [label="contains_step"];
   "suite:operator_smoke_test_bundle" -> "smoke_step:returned_package_command_order_planner_synthetic" [label="contains_step"];
@@ -1242,6 +1279,7 @@ digraph returned_package_dependencies {
   "suite:returned_package_regression_suite" -> "regression_step:partial_label_repair_prioritization" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:readiness_stale_output_detector" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:receipt_manifest_schema_linter_synthetic" [label="contains_step"];
+  "suite:returned_package_regression_suite" -> "regression_step:receipt_manifest_to_command_plan_handoff" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:result_report_safe_class_linter" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:return_repair_request_templates" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:returned_package_command_order_planner_synthetic" [label="contains_step"];
