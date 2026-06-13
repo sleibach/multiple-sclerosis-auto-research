@@ -275,6 +275,8 @@ CHECKS = [
         "sources": [
             "docs/knowledge/EPISTEMIC_CLASSES.md",
             "knowledge_external/README.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
             "knowledge_external/schema/external_claim_record.schema.json",
             "scripts/v47_provenance_gate.py",
         ],
@@ -292,6 +294,8 @@ CHECKS = [
             "docs/knowledge/EXTERNAL_KNOWLEDGE_INDEX_V47.md",
             "knowledge_external/README.md",
             "knowledge_external/catalogs/README.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
             "knowledge_external/schema/external_claim_record.schema.json",
             "knowledge_external/catalogs/resource_record.schema.json",
             "scripts/v47_external_knowledge_index.py",
@@ -1251,7 +1255,12 @@ def rel(path: Path) -> str:
 
 
 def mtime(path: Path) -> float:
-    return path.stat().st_mtime if path.exists() else -1.0
+    if not path.exists():
+        return -1.0
+    if path.is_dir():
+        child_mtimes = [child.stat().st_mtime for child in path.rglob("*") if child.is_file()]
+        return max([path.stat().st_mtime] + child_mtimes)
+    return path.stat().st_mtime
 
 
 def main() -> int:

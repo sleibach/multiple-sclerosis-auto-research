@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "The NHGRI-EBI GWAS Catalog is an externally curated collection of human genome-wide association studies and association results that includes MS-relevant trait pages and downloadable GWAS resources.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Specific GWAS Catalog MS associations can be imported as external-verifiable hypotheses and compared against project-held GWAS/eQTL/colocalization outputs with a documented download hash.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Competitor/source cataloging and genetics prior-art navigation.",
+  "record_id": "resource.gwas_catalog.ms.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "NHGRI-EBI GWAS Catalog",
+  "source": {
+    "label": "GWAS Catalog home page",
+    "url": "https://www.ebi.ac.uk/gwas/"
+  },
+  "unique_knowledge_lacks_in_repo": "Continuously maintained curated association catalog and downloadable GWAS metadata across diseases and traits.",
+  "why_unverifiable": "The catalog's ongoing curation and full association database are external to this repository and not produced by the project's rerunnable pipeline."
+}
+

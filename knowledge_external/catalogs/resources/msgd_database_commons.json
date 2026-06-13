@@ -1,0 +1,20 @@
+{
+  "access_tier": "open",
+  "claim": "MSGD is an externally curated Multiple Sclerosis Gene Database cataloging MS-related gene knowledge across variants, RNA, protein, knockout, drug-target, and high-throughput entry types.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Specific MSGD gene or drug entries can be queued as external-verifiable hypotheses and tested against project-held genetics, expression, perturbation, or treatment-response data before they are used as project evidence.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Competitor/source cataloging; helps public readers distinguish this repository from a dedicated MS gene-knowledge database.",
+  "record_id": "resource.msgd.database_commons.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "MSGD / Multiple Sclerosis Gene Database",
+  "source": {
+    "label": "Database Commons profile for MSGD",
+    "url": "https://ngdc.cncb.ac.cn/databasecommons/database/id/9285"
+  },
+  "unique_knowledge_lacks_in_repo": "Manually curated MS gene-entry database spanning literature-mined variants, RNA, protein, knockout, drug-target, and high-throughput records.",
+  "why_unverifiable": "The project cannot rerun MSGD's manual literature extraction and curation pipeline from this repository."
+}
+
