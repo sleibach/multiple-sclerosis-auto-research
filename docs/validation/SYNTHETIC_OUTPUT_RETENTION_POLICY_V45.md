@@ -2,7 +2,7 @@
 
 Status: storage and interpretation policy. No biological claim.
 
-Purpose: define how V43-V46 synthetic, regression, and method-characterization
+Purpose: define how V43-V47 synthetic, regression, and method-characterization
 outputs are retained, archived, or regenerated without weakening
 reproducibility or letting synthetic data masquerade as biological evidence.
 
@@ -10,14 +10,15 @@ reproducibility or letting synthetic data masquerade as biological evidence.
 
 The refreshed artifact index covers:
 
-- `131` V43-V46 analysis directories;
-- `88` directories with synthetic path/content markers;
-- approximately `157 MiB` total across `analysis/v43_*`, `analysis/v44_*`,
-  `analysis/v45_*`, and `analysis/v46_*` directories;
-- no `unclassified_v43_v46` directories after the latest governance refresh.
+- `132` V43-V47 analysis directories;
+- `89` directories with synthetic path/content markers;
+- approximately `284 MiB` total across `analysis/v43_*`, `analysis/v44_*`,
+  `analysis/v45_*`, `analysis/v46_*`, and `analysis/v47_*` directories;
+- no `unclassified_v43_v47` directories after the latest governance refresh.
 
 Machine-readable source:
 
+- `analysis/v45_synthetic_artifact_index/v43_v47_artifact_index.tsv`
 - `analysis/v45_synthetic_artifact_index/v43_v46_artifact_index.tsv`
 - `analysis/v45_synthetic_artifact_index/class_summary.tsv`
 - `analysis/v45_synthetic_artifact_index/summary.json`
@@ -99,7 +100,7 @@ and verify the summary status remains `PASS` or the documented expected null.
 
 ## Current Decision
 
-Current footprint is small enough (`~157 MiB`) to keep all V43-V46 synthetic and
+Current footprint is small enough (`~284 MiB`) to keep all V43-V47 synthetic and
 method-characterization outputs in version control. No pruning is recommended
 before the first real validation package arrives, because these outputs are
 active reproducibility evidence for the preregistered validation apparatus.

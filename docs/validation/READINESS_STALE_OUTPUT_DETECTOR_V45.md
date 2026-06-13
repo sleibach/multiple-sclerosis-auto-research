@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `64`
+- artifacts checked: `65`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -42,6 +42,7 @@ Checked generated artifacts:
 - cold-start operator sequence;
 - author-run bundle dry-run manifest;
 - generated-checker registry;
+- V47 provenance gate;
 - operational handoff index;
 - readiness status dashboard;
 - generated-doc freshness linter;

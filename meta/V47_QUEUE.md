@@ -28,6 +28,7 @@ No external knowledge integration occurs until:
 | Iteration | Start UTC | End UTC | Status | Notes |
 |---|---:|---:|---|---|
 | 1 | 2026-06-13T18:35:06Z | 2026-06-13T18:43:20Z | done | Built Phase 0 epistemic-class definitions, separate external storage tree, JSON schema, and provenance gate with synthetic and real audit PASS before external integration. |
+| 2 | 2026-06-13T18:43:20Z | 2026-06-13T18:46:31Z | done | Integrated the V47 provenance gate into the generated-checker registry, stale-output detector, and synthetic/method artifact index. Regenerated governance outputs; registry PASS (`118` scripts), stale detector PASS (`65` artifacts, `0` stale), generated-doc freshness PASS (`34` checks), provenance audit PASS. |
 
 ## Live Backlog
 
@@ -35,12 +36,13 @@ No external knowledge integration occurs until:
 |---:|---|---|---|---|
 | 1 | Phase 0 segregation | Define epistemic classes and external storage boundary | done | `docs/knowledge/EPISTEMIC_CLASSES.md`, `knowledge_external/README.md`, schema, and placeholder external record/synthesis dirs added. |
 | 2 | Phase 0 segregation | Implement provenance gate with synthetic pass/fail fixtures | done | `scripts/v47_provenance_gate.py`; synthetic check PASS (`4` cases, `3` expected failures caught); real audit PASS (`0` failures, `0` external records). |
-| 3 | Phase 0 segregation | Integrate provenance gate into generated-checker/stale-output governance | todo | Only after the gate itself passes. |
+| 3 | Phase 0 segregation | Integrate provenance gate into generated-checker/stale-output governance | done | V47 gate now appears in generated-checker, stale-output, and V43-V47 artifact-governance indices; all regenerated checks PASS. |
 | 4 | Competitor/source cataloging | Create classed competitor-source catalog skeleton without external claims | todo | Structure only until Phase 0 passes. |
 | 5 | Navigation/index | Create class-aware external knowledge index generator | todo | Must read only `knowledge_external` records and preserve class labels. |
 | 6 | External integration | MSGD resource metadata record and source catalog entry | todo | Phase 0 passed; requires source verification before record creation. |
 | 7 | External integration | MS Data Alliance Catalogue resource metadata record and source catalog entry | todo | Phase 0 passed; requires source verification before record creation. |
 | 8 | External integration | MSBase/NARCOMS/IMSGC/GWAS Catalog comparator records | todo | Phase 0 passed; requires source verification before record creation. |
+| 9 | Governance | Add an external-record index generator and synthetic fixtures proving class labels survive aggregation | todo | Follow-on from Phase 0; keeps public navigation class-aware. |
 
 ## Running Notes
 
@@ -53,3 +55,10 @@ No external knowledge integration occurs until:
   as project evidence). Real repository audit PASS (`1` check, `0` failures,
   `0` external JSON records). External integration is now permitted only under
   `knowledge_external/` with the gate passing every iteration.
+- 2026-06-13T18:46:31Z: Governance integration complete. V47 provenance gate is
+  now tracked by `scripts/v45_generated_checker_registry.py`,
+  `scripts/v45_readiness_stale_output_detector.py`, and
+  `scripts/v45_synthetic_artifact_index.py`. Regenerated outputs pass:
+  generated-checker registry `PASS` (`118` scripts), stale-output detector
+  `PASS` (`65` artifacts, `0` stale/missing), generated-doc freshness `PASS`
+  (`34` checks), and V47 provenance audit `PASS`.

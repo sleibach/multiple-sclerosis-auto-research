@@ -271,6 +271,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_generated_checker_registry.py --outdir analysis/v45_generated_checker_registry",
     },
     {
+        "artifact": "v47_provenance_gate",
+        "sources": [
+            "docs/knowledge/EPISTEMIC_CLASSES.md",
+            "knowledge_external/README.md",
+            "knowledge_external/schema/external_claim_record.schema.json",
+            "scripts/v47_provenance_gate.py",
+        ],
+        "outputs": [
+            "analysis/v47_provenance_gate/synthetic_provenance_gate_summary.json",
+            "analysis/v47_provenance_gate/synthetic_provenance_gate_cases.tsv",
+            "analysis/v47_provenance_gate/provenance_gate_summary.json",
+            "analysis/v47_provenance_gate/provenance_gate_issues.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_provenance_gate.py synthetic-check --outdir analysis/v47_provenance_gate --fail-on-error && .venv/bin/python scripts/v47_provenance_gate.py audit --outdir analysis/v47_provenance_gate --fail-on-error",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",

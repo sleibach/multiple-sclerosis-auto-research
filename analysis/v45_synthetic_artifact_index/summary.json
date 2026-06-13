@@ -22,7 +22,7 @@
       "allowed_interpretation": "index only",
       "class": "artifact_governance",
       "n_dirs": 2,
-      "n_files": 7
+      "n_files": 8
     },
     {
       "allowed_interpretation": "OpenGWAS auth-expiry sentinel only",
@@ -65,6 +65,12 @@
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 6
+    },
+    {
+      "allowed_interpretation": "external-knowledge provenance segregation only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 23
     },
     {
       "allowed_interpretation": "first-30 repair-template coverage only",
@@ -439,8 +445,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 88,
-  "n_dirs_indexed": 131,
-  "purpose": "V43-V46 artifact governance index; no biological claim",
+  "n_dirs_containing_synthetic": 89,
+  "n_dirs_indexed": 132,
+  "purpose": "V43-V47 artifact governance index; no biological claim",
   "synthetic": false
 }

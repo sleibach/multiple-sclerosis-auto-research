@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a registry linking V45/V46 scripts to docs, outputs, and summaries.
+"""Create a registry linking V45/V46/V47 scripts to docs, outputs, and summaries.
 
 This is reviewer/navigation infrastructure. It does not run any checker and
 does not make biological claims.
@@ -38,6 +38,7 @@ OUTPUT_EXCEPTIONS = {
     "v45_postpartum_harness_pathology_simulation": ["analysis/v45_postpartum_pathology"],
     "v45_refresh_governance_summaries": ["analysis/v45_governance_refresh"],
     "v45_secondary_real_cohort_harness": ["analysis/v45_secondary_real_ingest"],
+    "v47_provenance_gate": ["analysis/v47_provenance_gate"],
 }
 
 
@@ -72,7 +73,7 @@ def likely_output_dirs(stem: str) -> list[str]:
     version = stem.split("_", 1)[0]
     suffix = stem.removeprefix(f"{version}_")
     for path in sorted((ROOT / "analysis").iterdir()):
-        if not path.is_dir() or not (path.name.startswith("v45") or path.name.startswith("v46")):
+        if not path.is_dir() or not (path.name.startswith("v45") or path.name.startswith("v46") or path.name.startswith("v47")):
             continue
         if path.name == stem or path.name == f"{version}_{suffix}":
             dirs.add(rel(path))
@@ -109,7 +110,11 @@ def main() -> int:
     outdir.mkdir(parents=True, exist_ok=True)
 
     rows = []
-    scripts = sorted((ROOT / "scripts").glob("v45_*.py")) + sorted((ROOT / "scripts").glob("v46_*.py"))
+    scripts = (
+        sorted((ROOT / "scripts").glob("v45_*.py"))
+        + sorted((ROOT / "scripts").glob("v46_*.py"))
+        + sorted((ROOT / "scripts").glob("v47_*.py"))
+    )
     for script in scripts:
         stem = script.stem
         doc_refs = docs_for_script(script.name)
@@ -150,7 +155,7 @@ def main() -> int:
     n_without_outputs = sum(1 for row in rows if row["n_output_dirs"] == 0)
     summary = {
         "synthetic": False,
-        "purpose": "V45/V46 generated-checker registry; no biological claim",
+        "purpose": "V45/V46/V47 generated-checker registry; no biological claim",
         "registry": rel(registry),
         "n_scripts": len(rows),
         "n_undocumented": n_undocumented,

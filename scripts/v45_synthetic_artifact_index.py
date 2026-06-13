@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Index V43-V46 synthetic/method-characterization artifacts.
+"""Index V43-V47 synthetic/method-characterization artifacts.
 
 The goal is governance: make clear which artifacts are synthetic method checks,
 which are public-metadata preparation, and which are internal convergence
@@ -150,6 +150,7 @@ MANUAL_CLASS = {
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
     "analysis/v46_sap_ai_core_health_check": ("integrity_governance", "SAP AI Core access health only"),
+    "analysis/v47_provenance_gate": ("integrity_governance", "external-knowledge provenance segregation only"),
 }
 
 
@@ -166,7 +167,7 @@ def text_sample_has_synthetic(path: Path) -> bool:
 def summarize_dir(path: Path) -> dict[str, object]:
     files = [p for p in path.rglob("*") if p.is_file()]
     rel = str(path.relative_to(ROOT))
-    cls, allowed = MANUAL_CLASS.get(rel, ("unclassified_v43_v45", "review before use"))
+    cls, allowed = MANUAL_CLASS.get(rel, ("unclassified_v43_v47", "review before use"))
     synthetic_by_path = any("synthetic" in str(p.relative_to(path)).lower() for p in files)
     synthetic_by_content = any(text_sample_has_synthetic(p) for p in files[:200])
     json_summaries = [str(p.relative_to(ROOT)) for p in files if p.name in {"summary.json", "regression_summary.json", "synthetic_check_summary.json"}]
@@ -186,10 +187,17 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     dirs = sorted(
         p for p in (ROOT / "analysis").iterdir()
-        if p.is_dir() and (p.name.startswith("v43") or p.name.startswith("v44") or p.name.startswith("v45") or p.name.startswith("v46"))
+        if p.is_dir() and (
+            p.name.startswith("v43")
+            or p.name.startswith("v44")
+            or p.name.startswith("v45")
+            or p.name.startswith("v46")
+            or p.name.startswith("v47")
+        )
     )
     rows = [summarize_dir(path) for path in dirs]
     table = pd.DataFrame(rows)
+    table.to_csv(OUT / "v43_v47_artifact_index.tsv", sep="\t", index=False)
     table.to_csv(OUT / "v43_v46_artifact_index.tsv", sep="\t", index=False)
     class_summary = (
         table.groupby(["class", "allowed_interpretation"], as_index=False)
@@ -199,7 +207,7 @@ def main() -> int:
     class_summary.to_csv(OUT / "class_summary.tsv", sep="\t", index=False)
     summary = {
         "synthetic": False,
-        "purpose": "V43-V46 artifact governance index; no biological claim",
+        "purpose": "V43-V47 artifact governance index; no biological claim",
         "n_dirs_indexed": int(len(table)),
         "n_dirs_containing_synthetic": int(table["contains_synthetic"].sum()),
         "classes": class_summary.to_dict(orient="records"),

@@ -78,7 +78,7 @@ def main() -> int:
     rows: list[dict[str, str]] = []
 
     add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_artifact_index/summary.json", "artifact_paths", f"| artifact-index paths | `{artifact['n_paths_indexed']}` |")
-    add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_synthetic_artifact_index/summary.json", "synthetic_dirs", f"| V43-V46 method/governance directories | `{synthetic['n_dirs_indexed']}` |")
+    add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_synthetic_artifact_index/summary.json", "synthetic_dirs", f"| V43-V47 method/governance directories | `{synthetic['n_dirs_indexed']}` |")
     add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_compute_storage_summary/summary.json", "storage_dirs", f"| V45 analysis directories in storage summary | `{storage['n_v45_analysis_dirs']}` |")
     add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_compute_storage_summary/summary.json", "storage_files", f"| V45 analysis files in storage summary | `{storage['n_files']}` |")
     add(rows, "docs/validation/V45_GOVERNANCE_REFRESH.md", "analysis/v45_compute_storage_summary/summary.json", "storage_mib", f"| V45 analysis footprint | `{storage['total_mib']:.3f} MiB` |")
@@ -117,9 +117,9 @@ def main() -> int:
     add(rows, "docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md", "analysis/v45_precommit_readiness/precommit_readiness_summary.json", "precommit_total", f"| total | `PASS` | `{precommit['total_elapsed_seconds']:.3f}` |")
     add(rows, "docs/validation/V45_READINESS_CHANGELOG.md", "analysis/v45_precommit_readiness/precommit_readiness_summary.json", "changelog_precommit", f"precommit readiness: `5/5` pass in `{precommit['total_elapsed_seconds']:.3f}` seconds")
 
-    add(rows, "docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "synthetic_dirs", f"The refreshed index covers `{synthetic['n_dirs_indexed']}` V43-V46 analysis directories")
+    add(rows, "docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "synthetic_dirs", f"The refreshed index covers `{synthetic['n_dirs_indexed']}` V43-V47 analysis directories")
     add(rows, "docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "synthetic_marked_dirs", f"with `{synthetic['n_dirs_containing_synthetic']}`")
-    add(rows, "docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "policy_dirs", f"- `{synthetic['n_dirs_indexed']}` V43-V46 analysis directories;")
+    add(rows, "docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "policy_dirs", f"- `{synthetic['n_dirs_indexed']}` V43-V47 analysis directories;")
     add(rows, "docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md", "analysis/v45_synthetic_artifact_index/summary.json", "policy_marked_dirs", f"- `{synthetic['n_dirs_containing_synthetic']}` directories with synthetic path/content markers;")
 
     add(rows, "docs/validation/V45_REGRESSION_AGGREGATOR.md", "analysis/v45_regression_aggregator/regression_aggregator_summary.json", "regression_total", f"Total runtime: `{regression['total_elapsed_seconds']:.3f}` seconds.")

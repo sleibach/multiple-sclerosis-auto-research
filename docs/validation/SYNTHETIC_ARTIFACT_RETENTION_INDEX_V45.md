@@ -4,13 +4,14 @@ Status: artifact-governance document. No new biological claim is made here.
 
 ## Purpose
 
-V43-V46 intentionally produced many synthetic and method-characterization
+V43-V47 intentionally produced many synthetic and method-characterization
 outputs. Those outputs are valuable, but they carry a high self-deception risk if
 they are later read as biological evidence. This document and its machine-readable
-index classify each V43-V46 analysis artifact family by allowed interpretation.
+index classify each V43-V47 analysis artifact family by allowed interpretation.
 
 Machine-readable index:
 
+- `analysis/v45_synthetic_artifact_index/v43_v47_artifact_index.tsv`
 - `analysis/v45_synthetic_artifact_index/v43_v46_artifact_index.tsv`
 - `analysis/v45_synthetic_artifact_index/class_summary.tsv`
 - `analysis/v45_synthetic_artifact_index/summary.json`
@@ -21,9 +22,9 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `131` V43-V46 analysis directories, with `88`
+The refreshed index covers `132` V43-V47 analysis directories, with `89`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
-markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
+markers. Current V43-V47 analysis output footprint is approximately `284 MiB`.
 
 | Class | Directories | Files | Allowed interpretation |
 |---|---:|---:|---|
@@ -37,6 +38,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `integrity_governance` | `1` | `6` | Collaborator package path integrity only |
 | `integrity_governance` | `1` | `2` | Command-plan integrity only |
 | `integrity_governance` | `1` | `6` | Cross-route readiness consistency only |
+| `integrity_governance` | `1` | `23` | External-knowledge provenance segregation only |
 | `integrity_governance` | `1` | `5` | First-30 repair-template coverage only |
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
 | `integrity_governance` | `1` | `2` | Generated-document freshness check only |
@@ -141,7 +143,7 @@ for method behavior and readiness, but keep their interpretation bounded:
    only.
 4. Do not use public metadata preparation artifacts as if the underlying real
    expression/outcome data were already acquired.
-5. If a future script consumes a V43-V46 artifact, it should first check this
+5. If a future script consumes a V43-V47 artifact, it should first check this
    index or explicitly state why the artifact class is appropriate.
 
 See `docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md` for the more
@@ -149,7 +151,7 @@ explicit keep/archive/regenerate policy.
 
 ## Practical Use
 
-Before external reporting, filter V43-V46 artifacts by class:
+Before external reporting, filter V43-V47 artifacts by class:
 
 - include `synthetic_*` classes in methods/readiness sections only;
 - include `internal_convergence_null` under internal convergence support only;
