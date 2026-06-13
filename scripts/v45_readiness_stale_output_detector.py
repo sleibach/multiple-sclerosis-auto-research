@@ -408,6 +408,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_source_domain_rollup.py synthetic-check --outdir analysis/v47_external_source_domain_rollup --fail-on-error && .venv/bin/python scripts/v47_external_source_domain_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
     },
     {
+        "artifact": "v47_source_url_reachability_checker",
+        "sources": [
+            "docs/knowledge/SOURCE_URL_REACHABILITY_CHECKER_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_source_url_reachability_checker.py",
+        ],
+        "outputs": [
+            "analysis/v47_source_url_reachability_checker/synthetic_source_url_reachability_summary.json",
+            "analysis/v47_source_url_reachability_checker/synthetic_source_url_reachability_checks.tsv",
+            "knowledge_external/catalogs/indexes/external_source_url_reachability.tsv",
+            "knowledge_external/catalogs/indexes/external_source_url_reachability_counts.tsv",
+            "knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md",
+            "knowledge_external/catalogs/indexes/external_source_url_reachability_summary.json",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_source_url_reachability_checker.py synthetic-check --outdir analysis/v47_source_url_reachability_checker --fail-on-error && .venv/bin/python scripts/v47_source_url_reachability_checker.py check --outdir knowledge_external/catalogs/indexes --timeout 8",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",

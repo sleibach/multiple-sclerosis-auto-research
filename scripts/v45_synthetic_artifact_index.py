@@ -154,6 +154,7 @@ MANUAL_CLASS = {
     "analysis/v47_external_markdown_index_linter": ("integrity_governance", "external Markdown source/provenance lint only"),
     "analysis/v47_external_record_uniqueness_linter": ("integrity_governance", "external-record uniqueness lint only"),
     "analysis/v47_external_source_domain_rollup": ("integrity_governance", "external source-domain rollup only"),
+    "analysis/v47_source_url_reachability_checker": ("integrity_governance", "external source URL reachability maintenance only"),
     "analysis/v47_external_resource_access_tier_rollup": ("integrity_governance", "external-resource access-tier rollup only"),
     "analysis/v47_external_resource_category_rollup": ("integrity_governance", "external-resource category rollup only"),
     "analysis/v47_external_record_schema_linter": ("integrity_governance", "external-record schema lint only"),

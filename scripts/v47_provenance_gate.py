@@ -42,6 +42,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v47_external_markdown_index_linter/",
     "analysis/v47_external_record_uniqueness_linter/",
     "analysis/v47_external_source_domain_rollup/",
+    "analysis/v47_source_url_reachability_checker/",
     "analysis/v47_external_resource_access_tier_rollup/",
     "analysis/v47_external_knowledge_index/",
     "analysis/v47_external_resource_category_rollup/",
