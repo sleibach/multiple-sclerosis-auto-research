@@ -37,21 +37,22 @@ data, run validation, change locked rules, or interpret biological results.
 13. V46 small-n conclusion language table.
 14. V46 analyzable-pair confidence envelope.
 15. V46 return repair-request templates.
-16. V46 first-30-minute returned-package decision table.
-17. V46 first-30 repair-template coverage linter.
-18. V46 first-30 returned-package status-board dry run.
-19. V46 returned-package preflight dry run.
-20. V46 returned-package state-transition validator.
-21. V46 returned-package handoff bundle manifest.
-22. V46 returned-package documentation cross-link linter.
-23. V45/V46 readiness stale-output detector.
-24. V45 no-raw-data git scanner.
+16. V46 partial-label repair prioritization.
+17. V46 first-30-minute returned-package decision table.
+18. V46 first-30 repair-template coverage linter.
+19. V46 first-30 returned-package status-board dry run.
+20. V46 returned-package preflight dry run.
+21. V46 returned-package state-transition validator.
+22. V46 returned-package handoff bundle manifest.
+23. V46 returned-package documentation cross-link linter.
+24. V45/V46 readiness stale-output detector.
+25. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `24`
+- steps: `25`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

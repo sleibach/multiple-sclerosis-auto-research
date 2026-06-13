@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `24`; failures: `0`.
+Overall status: `PASS`; scripts checked: `25`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -25,6 +25,7 @@ Overall status: `PASS`; scripts checked: `24`; failures: `0`.
 | `scripts/v46_small_n_conclusion_language_table.py` | `docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md` | `3` | `PASS` |
 | `scripts/v46_analyzable_pair_confidence_envelope.py` | `docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md` | `3` | `PASS` |
 | `scripts/v46_return_repair_request_templates.py` | `docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md` | `3` | `PASS` |
+| `scripts/v46_partial_label_repair_prioritization.py` | `docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md` | `3` | `PASS` |
 | `scripts/v46_first30_returned_package_decision_table.py` | `docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md` | `3` | `PASS` |
 | `scripts/v46_first30_repair_template_coverage_linter.py` | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` | `3` | `PASS` |
 | `scripts/v46_first30_returned_package_status_board_dryrun.py` | `docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md` | `3` | `PASS` |

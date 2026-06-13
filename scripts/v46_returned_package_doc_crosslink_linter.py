@@ -103,6 +103,11 @@ REQUIRED_SCRIPTS = [
         "role": "repair-request templates",
     },
     {
+        "script": "scripts/v46_partial_label_repair_prioritization.py",
+        "doc": "docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md",
+        "role": "partial-label repair prioritization",
+    },
+    {
         "script": "scripts/v46_first30_returned_package_decision_table.py",
         "doc": "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
         "role": "first-30 decision table",

@@ -96,8 +96,9 @@ analysis/v46_external_blocker_aging_audit	operations	external blocker timing sta
 analysis/v46_first30_repair_template_coverage_linter	integrity_governance	first-30 repair-template coverage only	5	False	False	False	none
 analysis/v46_first30_returned_package_decision_table	operations	first-30-minute returned-package decision routing only	4	False	False	False	none
 analysis/v46_first30_returned_package_status_board_dryrun	operations	first-30 returned-package status board only	4	False	False	False	none
-analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	491	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
+analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	495	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
 analysis/v46_package_manifest_shape_classifier	synthetic_intake_verification	method behavior only	21	True	True	True	none
+analysis/v46_partial_label_repair_prioritization	operations	partial-label repair prioritization only	4	False	False	False	none
 analysis/v46_partial_label_return_classifier	synthetic_intake_verification	method behavior only	20	True	True	True	none
 analysis/v46_receipt_manifest_schema_linter	synthetic_intake_verification	method behavior only	30	True	True	True	none
 analysis/v46_result_report_safe_class_linter	synthetic_intake_verification	method behavior only	17	True	True	True	none
@@ -106,7 +107,7 @@ analysis/v46_returned_package_command_order_planner	synthetic_intake_verificatio
 analysis/v46_returned_package_doc_crosslink_linter	integrity_governance	returned-package documentation cross-link only	4	False	False	False	none
 analysis/v46_returned_package_handoff_bundle_manifest	operations	returned-package handoff navigation only	4	False	True	True	none
 analysis/v46_returned_package_preflight_dryrun	synthetic_intake_verification	method behavior only	44	True	True	True	none
-analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	412	True	True	True	none
+analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	416	True	True	True	none
 analysis/v46_returned_package_route_state_matrix	synthetic_intake_verification	method behavior only	3	False	True	True	none
 analysis/v46_returned_package_safe_interpretation	synthetic_intake_verification	method behavior only	29	True	True	True	none
 analysis/v46_returned_package_state_transition_validator	synthetic_intake_verification	method behavior only	6	False	True	True	none

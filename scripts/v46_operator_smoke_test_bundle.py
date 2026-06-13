@@ -152,6 +152,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_return_repair_request_templates.py", "--outdir", rel(outdir / "return_repair_request_templates"), "--fail-on-error"],
         ),
         (
+            "partial_label_repair_prioritization",
+            "returned_package",
+            [py, "scripts/v46_partial_label_repair_prioritization.py", "--outdir", rel(outdir / "partial_label_repair_prioritization"), "--fail-on-error"],
+        ),
+        (
             "first30_returned_package_decision_table",
             "returned_package",
             [py, "scripts/v46_first30_returned_package_decision_table.py", "--outdir", rel(outdir / "first30_returned_package_decision_table"), "--fail-on-error"],

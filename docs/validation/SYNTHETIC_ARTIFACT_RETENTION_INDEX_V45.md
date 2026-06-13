@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `115` V43-V46 analysis directories, with `77`
+The refreshed index covers `116` V43-V46 analysis directories, with `77`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -61,6 +61,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `operations` | `1` | `4` | First-30 returned-package status board only |
 | `operations` | `1` | `4` | First-30-minute returned-package decision routing only |
 | `operations` | `1` | `6` | Follow-up escalation drafts only |
+| `operations` | `1` | `4` | Partial-label repair prioritization only |
 | `operations` | `1` | `3` | Received-package status update only |
 | `operations` | `1` | `6` | Request-sent intake template only |
 | `operations` | `1` | `10` | Request-sent status update only |
@@ -77,7 +78,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
 | `synthetic_intake_verification` | `28` | `586` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
-| `synthetic_regression` | `2` | `903` | Software/readiness regression only |
+| `synthetic_regression` | `2` | `911` | Software/readiness regression only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |

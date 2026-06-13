@@ -139,6 +139,15 @@ ARTIFACTS = [
     {
         "sequence": 14,
         "phase": "repair_handoff",
+        "artifact_id": "partial_label_repair_prioritization",
+        "role": "Map partial-label classes to repair priority, confidence band, template, and next action.",
+        "command": ".venv/bin/python scripts/v46_partial_label_repair_prioritization.py --outdir analysis/v46_partial_label_repair_prioritization --fail-on-error",
+        "doc": "docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md",
+        "primary_output": "analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization_summary.json",
+    },
+    {
+        "sequence": 15,
+        "phase": "repair_handoff",
         "artifact_id": "first30_repair_template_coverage",
         "role": "Prove every first-30 stop route has local repair or a safe author-facing template.",
         "command": ".venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_first30_repair_template_coverage_linter --fail-on-error",
@@ -146,7 +155,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
     },
     {
-        "sequence": 15,
+        "sequence": 16,
         "phase": "report_guard",
         "artifact_id": "result_report_safe_class_linter",
         "role": "Ensure any report cites a safe class and avoids forbidden score language when blocked.",
@@ -155,7 +164,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_result_report_safe_class_linter/result_report_safe_class_synthetic_summary.json",
     },
     {
-        "sequence": 16,
+        "sequence": 17,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_doc_crosslink_linter",
         "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
