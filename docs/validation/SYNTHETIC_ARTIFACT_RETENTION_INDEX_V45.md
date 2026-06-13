@@ -22,9 +22,9 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `133` V43-V47 analysis directories, with `90`
+The refreshed index covers `134` V43-V47 analysis directories, with `91`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
-markers. Current V43-V47 analysis output footprint is approximately `285 MiB`.
+markers. Current V43-V47 analysis output footprint is approximately `286 MiB`.
 
 | Class | Directories | Files | Allowed interpretation |
 |---|---:|---:|---|
@@ -40,6 +40,7 @@ markers. Current V43-V47 analysis output footprint is approximately `285 MiB`.
 | `integrity_governance` | `1` | `6` | Cross-route readiness consistency only |
 | `integrity_governance` | `1` | `7` | External-knowledge class-aware index only |
 | `integrity_governance` | `1` | `23` | External-knowledge provenance segregation only |
+| `integrity_governance` | `1` | `10` | External-record schema lint only |
 | `integrity_governance` | `1` | `5` | First-30 repair-template coverage only |
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
 | `integrity_governance` | `1` | `2` | Generated-document freshness check only |

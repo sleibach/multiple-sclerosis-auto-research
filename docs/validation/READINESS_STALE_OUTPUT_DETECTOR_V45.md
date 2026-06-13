@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `66`
+- artifacts checked: `67`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -44,6 +44,7 @@ Checked generated artifacts:
 - generated-checker registry;
 - V47 provenance gate;
 - V47 external knowledge index;
+- V47 external record schema linter;
 - operational handoff index;
 - readiness status dashboard;
 - generated-doc freshness linter;

@@ -33,6 +33,7 @@ No external knowledge integration occurs until:
 | 4 | 2026-06-13T18:49:00Z | 2026-06-13T18:53:56Z | done | Added `scripts/v47_external_knowledge_index.py`, a class-aware external-record index generator with synthetic fixtures. Real index generated under `knowledge_external/catalogs/indexes/` with `0` records; synthetic aggregation PASS (`2` fixture records, class counts preserved). Governance outputs refreshed: registry PASS (`119` scripts), stale detector PASS (`66` artifacts), provenance audit PASS. |
 | 5 | 2026-06-13T18:53:56Z | 2026-06-13T18:59:15Z | done | Verified official/primary public pages and added 8 external-unverifiable resource records: MSGD, MS Data Alliance Catalogue, MSBase, NARCOMS, IMSGC, GWAS Catalog, DISGENET, and Open Targets. Real external index PASS (`8` records, `0` missing source/marker); provenance audit PASS (`73` checks, `8` records, `0` failures). |
 | 6 | 2026-06-13T18:59:15Z | 2026-06-13T19:04:33Z | done | Verified official/primary public pages and added 13 external-unverifiable resource records for literature, functional genomics, controlled genomics, sequencing archives, clinical trials, and general repositories: PubMed, Europe PMC, GEO, EGA, ArrayExpress/BioStudies, BioStudies, SRA, ENA, ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF. Real external index PASS (`21` records total); provenance audit PASS (`190` checks, `21` records, `0` failures); stale detector PASS. |
+| 7 | 2026-06-13T19:04:33Z | 2026-06-13T19:09:22Z | done | Added dependency-free external-record schema linter because local `jsonschema` is unavailable. Synthetic fixture PASS (`4/4` assertions; bad records intentionally fail lint); real lint PASS (`21` records, `420` checks, `0` failures). Governance refreshed: registry PASS (`120` scripts), stale detector PASS (`67` artifacts), provenance audit PASS (`190` checks). |
 
 ## Live Backlog
 
@@ -51,9 +52,11 @@ No external knowledge integration occurs until:
 | 11 | External integration | PubMed/Europe PMC, GEO, EGA, and ArrayExpress/BioStudies source records | done | Records added after source verification; includes BioStudies as its own resource record. |
 | 12 | Synthesis | Create class-aware convergence/contradiction skeleton that reads the external index but contains no claims until records exist | todo | Must remain under `knowledge_external/synthesis/` or `docs/knowledge/`. |
 | 13 | External integration | ClinicalTrials.gov, Zenodo, Figshare, Dryad, and OSF source records | done | Records added after source verification; SRA and ENA added as additional sequence-archive acquisition routes. |
-| 14 | Governance | Add optional resource-record JSON schema validation checker when `jsonschema` is available, with graceful unavailable status | todo | Local `jsonschema` currently unavailable; can still add a built-in required-field check. |
+| 14 | Governance | Add optional resource-record JSON schema validation checker when `jsonschema` is available, with graceful unavailable status | done | Implemented dependency-free required-field/schema linter instead: `scripts/v47_external_record_schema_linter.py`; real records PASS (`420` checks, `0` failures). |
 | 15 | External integration | MS-specific landmark external knowledge records for current disease-course and DMT mechanisms | todo | Must be external-classed with sources; no changes to grounded conclusions. |
 | 16 | Navigation/index | Add resource-category rollup for external records so public readers can browse by literature / registry / genetics / data repository | todo | Should read only `knowledge_external` records and preserve class labels. |
+| 17 | External integration | MS society/clinical-reference resources for public-reader disease-course context | todo | Must be external-unverifiable context only; source-verified. |
+| 18 | Governance | Add relationship-to-project-finding controlled vocabulary documentation and lint examples | todo | Should clarify supports/contradicts/orthogonal/untested without letting external claims override grounded results. |
 
 ## Running Notes
 
@@ -99,3 +102,10 @@ No external knowledge integration occurs until:
   records total with `0` missing source/marker; provenance gate reports `190`
   checks, `21` external JSON records, `0` failures; stale-output detector
   `PASS`.
+- 2026-06-13T19:09:22Z: Dependency-free external-record schema linter added:
+  `scripts/v47_external_record_schema_linter.py`. Synthetic assertions PASS
+  (`4/4`, with missing-source and bad-marker records intentionally failing the
+  underlying lint). Real linter PASS (`21` records, `420` checks, `0` failures).
+  Governance refreshed: generated-checker registry `PASS` (`120` scripts),
+  stale-output detector `PASS` (`67` artifacts), generated-doc freshness
+  `PASS`, provenance audit `PASS` (`190` checks).

@@ -310,6 +310,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_knowledge_index.py synthetic-check --outdir analysis/v47_external_knowledge_index --fail-on-error && .venv/bin/python scripts/v47_external_knowledge_index.py index --outdir knowledge_external/catalogs/indexes",
     },
     {
+        "artifact": "v47_external_record_schema_linter",
+        "sources": [
+            "docs/knowledge/EXTERNAL_RECORD_SCHEMA_LINTER_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_external_record_schema_linter.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_record_schema_linter/synthetic_schema_lint_summary.json",
+            "analysis/v47_external_record_schema_linter/synthetic_schema_lint_checks.tsv",
+            "analysis/v47_external_record_schema_linter/external_record_schema_lint_summary.json",
+            "analysis/v47_external_record_schema_linter/external_record_schema_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_record_schema_linter.py synthetic-check --outdir analysis/v47_external_record_schema_linter --fail-on-error && .venv/bin/python scripts/v47_external_record_schema_linter.py lint --outdir analysis/v47_external_record_schema_linter --fail-on-error",
+    },
+    {
         "artifact": "operational_handoff_index",
         "sources": [
             "docs/validation/input_schemas/V45_operational_handoff_index.tsv",
