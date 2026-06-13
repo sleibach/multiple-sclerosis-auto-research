@@ -41,13 +41,14 @@ validation harness, or interpret biology.
 16. V46 small-n conclusion language table.
 17. V46 return repair-request templates.
 18. V46 first-30-minute returned-package decision table.
-19. V45 no-raw-data git scanner.
+19. V46 returned-package state-transition validator.
+20. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `19`;
+- steps: `20`;
 - failures: `0`;
 - overall status: `PASS`.
 

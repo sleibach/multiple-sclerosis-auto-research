@@ -501,6 +501,8 @@ CHECKS = [
             "scripts/v46_return_repair_request_templates.py",
             "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
             "scripts/v46_first30_returned_package_decision_table.py",
+            "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
+            "scripts/v46_returned_package_state_transition_validator.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -593,6 +595,26 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_first30_returned_package_decision_table --fail-on-error",
     },
     {
+        "artifact": "v46_returned_package_state_transition_validator",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
+            "docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md",
+            "docs/validation/RETURNED_PACKAGE_ROUTE_STATE_MATRIX_V46.md",
+            "docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md",
+            "docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md",
+            "scripts/v46_returned_package_state_transition_validator.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
+            "analysis/v46_returned_package_state_transition_validator/returned_package_states.tsv",
+            "analysis/v46_returned_package_state_transition_validator/returned_package_allowed_transitions.tsv",
+            "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_scenarios.tsv",
+            "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_lint.tsv",
+            "analysis/v46_returned_package_state_transition_validator/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_returned_package_state_transition_validator --fail-on-error",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
@@ -628,6 +650,8 @@ CHECKS = [
             "scripts/v46_return_repair_request_templates.py",
             "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
             "scripts/v46_first30_returned_package_decision_table.py",
+            "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
+            "scripts/v46_returned_package_state_transition_validator.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

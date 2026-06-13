@@ -1,5 +1,5 @@
 step	group	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-terms_governance_matrix_synthetic	route_terms	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/terms_governance_matrix	0	0.476	PASS	" terms-governance classifier; no biological claim"",
+terms_governance_matrix_synthetic	route_terms	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/terms_governance_matrix	0	0.371	PASS	" terms-governance classifier; no biological claim"",
   ""reasons"": [
     ""derived aggregate processing allowed; individual-level sharing remains restricted""
   ],
@@ -62,7 +62,7 @@ terms_governance_matrix_synthetic	route_terms	/Users/soeren.leibach/Projects/ms-
   ""synthetic"": true
 }
 "	(empty)
-metric_format_adapter_synthetic	aggregate_format	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/metric_format_adapter	0	1.001	PASS	"{
+metric_format_adapter_synthetic	aggregate_format	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/metric_format_adapter	0	3.297	PASS	"{
   ""manifest"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/adapter/metric_format_adapter_manifest.tsv"",
   ""n_files"": 9,
   ""n_missing_required"": 0,
@@ -96,7 +96,7 @@ metric_format_adapter_synthetic	aggregate_format	/Users/soeren.leibach/Projects/
   ""variant_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/synthetic_variant_package""
 }
 "	(empty)
-partial_label_classifier_synthetic	label_coverage	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/partial_label_classifier	0	0.074	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
+partial_label_classifier_synthetic	label_coverage	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/partial_label_classifier	0	0.153	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
   ""score_values_read"": false,
   ""source"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json"",
   ""synthetic"": true
@@ -146,7 +146,7 @@ partial_label_classifier_synthetic	label_coverage	/Users/soeren.leibach/Projects
   ""synthetic"": true
 }
 "	(empty)
-returned_package_command_order_planner_synthetic	command_order	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/command_order_planner	0	0.049	PASS	"package_kind"": ""author_run_aggregate"",
+returned_package_command_order_planner_synthetic	command_order	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/command_order_planner	0	0.113	PASS	"package_kind"": ""author_run_aggregate"",
   ""package_state"": ""scored"",
   ""plan_status"": ""PASS"",
   ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
@@ -221,7 +221,7 @@ returned_package_command_order_planner_synthetic	command_order	/Users/soeren.lei
   ""synthetic"": true
 }
 "	(empty)
-returned_package_route_state_matrix	route_state	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_returned_package_regression_suite/route_state_matrix --fail-on-error	0	0.032	PASS	"{
+returned_package_route_state_matrix	route_state	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_returned_package_regression_suite/route_state_matrix --fail-on-error	0	0.053	PASS	"{
   ""checks"": ""analysis/v46_returned_package_regression_suite/route_state_matrix/returned_package_route_state_checks.tsv"",
   ""matrix"": ""analysis/v46_returned_package_regression_suite/route_state_matrix/returned_package_route_state_matrix.tsv"",
   ""n_blocked_routes"": 18,
@@ -235,7 +235,7 @@ returned_package_route_state_matrix	route_state	/Users/soeren.leibach/Projects/m
   ""synthetic"": true
 }
 "	(empty)
-aggregate_only_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_returned_package_regression_suite/aggregate_only_composition --fail-on-error	0	2.633	PASS	"{
+aggregate_only_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_returned_package_regression_suite/aggregate_only_composition --fail-on-error	0	3.333	PASS	"{
   ""checks"": ""analysis/v46_returned_package_regression_suite/aggregate_only_composition/aggregate_only_composition_checks.tsv"",
   ""final_safe_interpretation_class"": ""BELOW_V45_PLANNING_FLOOR"",
   ""n_check_fail"": 0,
@@ -250,7 +250,7 @@ aggregate_only_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-
   ""synthetic"": true
 }
 "	(empty)
-unscoreable_return_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_unscoreable_return_composition_dryrun.py --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition --fail-on-error	0	1.311	PASS	"{
+unscoreable_return_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_unscoreable_return_composition_dryrun.py --outdir analysis/v46_returned_package_regression_suite/unscoreable_return_composition --fail-on-error	0	1.464	PASS	"{
   ""checks"": ""analysis/v46_returned_package_regression_suite/unscoreable_return_composition/unscoreable_composition_checks.tsv"",
   ""failure_taxonomy_code"": ""UNSCOREABLE_MISSING_LOCKED_RULE_METRICS"",
   ""missing_score_bearing_files"": [
@@ -274,7 +274,7 @@ unscoreable_return_composition_dryrun	composition	/Users/soeren.leibach/Projects
   ""synthetic"": true
 }
 "	(empty)
-safe_interpretation_classifier_synthetic	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/safe_interpretation_classifier	0	0.067	PASS	" ""BLOCKED_METADATA_CONTRADICTION"",
+safe_interpretation_classifier_synthetic	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/safe_interpretation_classifier	0	0.122	PASS	" ""BLOCKED_METADATA_CONTRADICTION"",
   ""expectation_met"": true,
   ""forbidden_interpretation"": ""Do not treat the returned package as validation-ready."",
   ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
@@ -318,7 +318,7 @@ safe_interpretation_classifier_synthetic	safe_wording	/Users/soeren.leibach/Proj
   ""synthetic"": true
 }
 "	(empty)
-safe_wording_fixture_linter	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_returned_package_regression_suite/safe_wording_fixture_linter --fail-on-error	0	0.049	PASS	"{
+safe_wording_fixture_linter	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_returned_package_regression_suite/safe_wording_fixture_linter --fail-on-error	0	0.063	PASS	"{
   ""fixture_index"": ""analysis/v46_returned_package_regression_suite/safe_wording_fixture_linter/safe_wording_fixture_index.tsv"",
   ""lint"": ""analysis/v46_returned_package_regression_suite/safe_wording_fixture_linter/safe_wording_fixture_lint.tsv"",
   ""n_expectation_failures"": 0,
@@ -334,7 +334,7 @@ safe_wording_fixture_linter	safe_wording	/Users/soeren.leibach/Projects/ms-auto-
   ""synthetic"": true
 }
 "	(empty)
-result_report_safe_class_linter	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/result_report_safe_class_linter --fail-on-error	0	0.043	PASS	"{
+result_report_safe_class_linter	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/result_report_safe_class_linter --fail-on-error	0	0.065	PASS	"{
   ""expectation_met"": true,
   ""expected_status"": ""PASS"",
   ""lint"": ""analysis/v46_returned_package_regression_suite/result_report_safe_class_linter/blocked_good/result_report_safe_class_lint.tsv"",
@@ -403,7 +403,7 @@ result_report_safe_class_linter	safe_wording	/Users/soeren.leibach/Projects/ms-a
   ""synthetic"": true
 }
 "	(empty)
-small_n_conclusion_language	power_language	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_returned_package_regression_suite/small_n_conclusion_language	0	0.037	PASS	"{
+small_n_conclusion_language	power_language	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_returned_package_regression_suite/small_n_conclusion_language	0	0.046	PASS	"{
   ""contains_synthetic_examples"": true,
   ""language_table"": ""analysis/v46_returned_package_regression_suite/small_n_conclusion_language/small_n_conclusion_language.tsv"",
   ""markdown"": ""analysis/v46_returned_package_regression_suite/small_n_conclusion_language/SMALL_N_CONCLUSION_LANGUAGE.md"",
@@ -424,7 +424,7 @@ small_n_conclusion_language	power_language	/Users/soeren.leibach/Projects/ms-aut
   ""synthetic"": false
 }
 "	(empty)
-return_repair_request_templates	repair_requests	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_returned_package_regression_suite/return_repair_request_templates --fail-on-error	0	0.047	PASS	"{
+return_repair_request_templates	repair_requests	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_returned_package_regression_suite/return_repair_request_templates --fail-on-error	0	0.069	PASS	"{
   ""lint"": ""analysis/v46_returned_package_regression_suite/return_repair_request_templates/repair_request_template_lint.tsv"",
   ""markdown"": ""analysis/v46_returned_package_regression_suite/return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md"",
   ""n_lint_checks"": 100,
@@ -443,7 +443,7 @@ return_repair_request_templates	repair_requests	/Users/soeren.leibach/Projects/m
   ""template_index"": ""analysis/v46_returned_package_regression_suite/return_repair_request_templates/repair_request_template_index.tsv""
 }
 "	(empty)
-first30_returned_package_decision_table	operator_routing	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_returned_package_regression_suite/first30_returned_package_decision_table --fail-on-error	0	0.029	PASS	"{
+first30_returned_package_decision_table	operator_routing	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_returned_package_regression_suite/first30_returned_package_decision_table --fail-on-error	0	0.045	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/first30_returned_package_decision_table/first30_returned_package_decision_lint.tsv"",
   ""markdown"": ""analysis/v46_returned_package_regression_suite/first30_returned_package_decision_table/FIRST30_RETURNED_PACKAGE_DECISION_TABLE.md"",
@@ -457,16 +457,36 @@ first30_returned_package_decision_table	operator_routing	/Users/soeren.leibach/P
   ""table"": ""analysis/v46_returned_package_regression_suite/first30_returned_package_decision_table/first30_returned_package_decision_table.tsv""
 }
 "	(empty)
-readiness_stale_output_detector	governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_readiness_stale_output_detector.py --outdir analysis/v46_returned_package_regression_suite/readiness_stale_output_detector	0	0.036	PASS	"{
-  ""n_artifacts_checked"": 39,
-  ""n_stale_or_missing"": 3,
+returned_package_state_transition_validator	state_transitions	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_returned_package_regression_suite/state_transition_validator --fail-on-error	0	0.047	PASS	"{
+  ""allowed_transitions"": ""analysis/v46_returned_package_regression_suite/state_transition_validator/returned_package_allowed_transitions.tsv"",
+  ""lint"": ""analysis/v46_returned_package_regression_suite/state_transition_validator/returned_package_state_transition_lint.tsv"",
+  ""markdown"": ""analysis/v46_returned_package_regression_suite/state_transition_validator/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR.md"",
+  ""n_allowed_edges"": 25,
+  ""n_forbidden_shortcut_checks"": 14,
+  ""n_lint_checks"": 79,
+  ""n_lint_fail"": 0,
+  ""n_premature_report_paths"": 0,
+  ""n_premature_score_paths"": 0,
+  ""n_scenario_transition_rows"": 56,
+  ""n_scenarios"": 8,
+  ""n_states"": 19,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package state-transition validator; no biological claim"",
+  ""scenario_transitions"": ""analysis/v46_returned_package_regression_suite/state_transition_validator/returned_package_state_transition_scenarios.tsv"",
+  ""states"": ""analysis/v46_returned_package_regression_suite/state_transition_validator/returned_package_states.tsv"",
+  ""synthetic"": true
+}
+"	(empty)
+readiness_stale_output_detector	governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_readiness_stale_output_detector.py --outdir analysis/v46_returned_package_regression_suite/readiness_stale_output_detector	0	0.042	PASS	"{
+  ""n_artifacts_checked"": 40,
+  ""n_stale_or_missing"": 5,
   ""overall_status"": ""REFRESH_NEEDED"",
   ""purpose"": ""readiness generated-output freshness check; no biological claim"",
   ""synthetic"": false,
   ""table"": ""analysis/v46_returned_package_regression_suite/readiness_stale_output_detector/readiness_stale_output_detector.tsv""
 }
 "	(empty)
-no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_returned_package_regression_suite/no_raw_git_scanner	0	0.572	PASS	"{
+no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_returned_package_regression_suite/no_raw_git_scanner	0	0.543	PASS	"{
   ""hard_forbidden_prefixes"": [
     ""data/quarantine/"",
     ""data/raw_v3/gafson_dmf_2018/"",

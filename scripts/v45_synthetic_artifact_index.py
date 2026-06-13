@@ -123,6 +123,7 @@ MANUAL_CLASS = {
     "analysis/v46_small_n_conclusion_language": ("power_design_planning", "study design planning only"),
     "analysis/v46_return_repair_request_templates": ("operations", "returned-package repair request drafts only"),
     "analysis/v46_first30_returned_package_decision_table": ("operations", "first-30-minute returned-package decision routing only"),
+    "analysis/v46_returned_package_state_transition_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
 }

@@ -1,0 +1,20 @@
+state	description	score_read_allowed	report_state_allowed
+RECEIVED	package receipt logged; no package content interpreted	false	false
+TERMS_ALLOWED	data-use terms permit the selected aggregate route	false	false
+TERMS_BLOCKED	data-use terms block local package handling	false	false
+FORMAT_CANONICAL	canonical aggregate files/columns identified	false	false
+FORMAT_NONCANONICAL	accepted aliases detected; adapter required	false	false
+FORMAT_UNKNOWN	format state unknown; alias branch required	false	false
+FORMAT_NORMALIZED	noncanonical aggregate aliases normalized	false	false
+COMPLETENESS_PASS	redaction and required-output completeness gate passed	false	false
+COMPLETENESS_BLOCK	redaction/completeness gate blocked	false	false
+SCHEMA_PASS	aggregate schema validation passed	false	false
+SCHEMA_BLOCK	aggregate schema validation blocked	false	false
+LABELS_CLASSIFIED	analyzable-pair and response-label coverage classified	false	false
+LABELS_BLOCKED	response-label coverage blocks or severely restricts interpretation	false	false
+SAFE_CLASS_ASSIGNED	V46 safe-interpretation class assigned	false	false
+SAFE_CLASS_BLOCKED	safe-interpretation classifier emitted a blocked/restricted class	false	false
+REPORT_READY	result report may use only the safe class's allowed language	true	true
+REPORT_READY_WITH_CAUTION	result report may use only caution-bounded safe-class language	true	true
+RESTRICTED_LANGUAGE_READY	blocked/restricted report language only; no score interpretation	false	true
+REPAIR_REQUEST_READY	repair request can be drafted; no result interpretation	false	false

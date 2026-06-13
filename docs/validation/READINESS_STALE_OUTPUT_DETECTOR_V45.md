@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `39`
+- artifacts checked: `40`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -62,6 +62,7 @@ Checked generated artifacts:
 - V46 small-n conclusion language table;
 - V46 return repair-request templates;
 - V46 first-30-minute returned-package decision table;
+- V46 returned-package state-transition validator;
 - V46 external blocker aging audit;
 - V46 operator smoke-test bundle.
 

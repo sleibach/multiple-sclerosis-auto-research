@@ -35,14 +35,15 @@ data, run validation, change locked rules, or interpret biological results.
 11. V46 small-n conclusion language table.
 12. V46 return repair-request templates.
 13. V46 first-30-minute returned-package decision table.
-14. V45/V46 readiness stale-output detector.
-15. V45 no-raw-data git scanner.
+14. V46 returned-package state-transition validator.
+15. V45/V46 readiness stale-output detector.
+16. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `15`
+- steps: `16`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`
