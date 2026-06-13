@@ -29,6 +29,14 @@ Synthetic planning cases:
   --outdir analysis/v45_route_analyzable_pair_calculator
 ```
 
+Partial-label safe interpretation after the analyzable-pair summary exists:
+
+```bash
+.venv/bin/python scripts/v46_partial_label_return_classifier.py classify \
+  --analyzable-summary analysis/v45_route_analyzable_pair_calculator/<cohort>/analyzable_pair_summary.json \
+  --outdir analysis/v46_partial_label_return_classifier/<cohort>
+```
+
 ## Current Synthetic Result
 
 Synthetic status: `PASS`.
@@ -52,3 +60,6 @@ The decision band is a planning label derived from V43/V45 synthetic power
 guidance. It does not override the frozen V42 thresholds and does not validate a
 cohort. A received package with too few analyzable pairs can still inform effect
 size and confidence intervals, but it should not be oversold as decisive.
+If response labels cover only a subset of the cohort, the V46 partial-label
+classifier supplies the safe wording before any returned validation score is
+read.

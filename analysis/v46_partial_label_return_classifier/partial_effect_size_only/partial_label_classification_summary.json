@@ -1,0 +1,12 @@
+{
+  "expect_class": "PARTIAL_LABELS_EFFECT_SIZE_ONLY",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not generalize the result to the full cohort or call it decisive.",
+  "metrics": "analysis/v46_partial_label_return_classifier/partial_effect_size_only/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "PARTIAL_LABELS_EFFECT_SIZE_ONLY",
+  "safe_interpretation": "Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage.",
+  "score_values_read": false,
+  "source": "analysis/v46_partial_label_return_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json",
+  "synthetic": true
+}

@@ -1,0 +1,12 @@
+{
+  "expect_class": "PARTIAL_LABELS_BELOW_PLANNING_FLOOR",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not treat the labeled subset as a validation test.",
+  "metrics": "analysis/v46_partial_label_return_classifier/partial_below_floor/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "PARTIAL_LABELS_BELOW_PLANNING_FLOOR",
+  "safe_interpretation": "Report only that partial labels are below the V45 planning floor; use the return for logistics and future cohort design.",
+  "score_values_read": false,
+  "source": "analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json",
+  "synthetic": true
+}
