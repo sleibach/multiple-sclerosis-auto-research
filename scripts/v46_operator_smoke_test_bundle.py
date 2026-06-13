@@ -107,6 +107,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_safe_interpretation.py", "synthetic-check", "--outdir", rel(outdir / "safe_interpretation_classifier")],
         ),
         (
+            "safe_wording_fixture_linter",
+            "returned_package",
+            [py, "scripts/v46_safe_wording_fixture_linter.py", "--outdir", rel(outdir / "safe_wording_fixture_linter"), "--fail-on-error"],
+        ),
+        (
             "no_raw_git_scanner",
             "repository_safety",
             [py, "scripts/v45_no_raw_git_scanner.py", "--outdir", rel(outdir / "no_raw_git_scanner")],

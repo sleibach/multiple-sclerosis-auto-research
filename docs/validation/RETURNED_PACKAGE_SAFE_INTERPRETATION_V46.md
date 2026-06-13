@@ -47,6 +47,19 @@ Synthetic regression:
   --outdir analysis/v46_returned_package_safe_interpretation
 ```
 
+Safe report-wording fixture lint:
+
+```bash
+.venv/bin/python scripts/v46_safe_wording_fixture_linter.py \
+  --outdir analysis/v46_safe_wording_fixture_linter \
+  --fail-on-error
+```
+
+The fixture linter is a separate no-score-before-gates guard. It verifies that
+blocked/no-score classes do not leak AUC, p-value, Hedges, effect-estimate,
+confidence-interval, permutation, or pass/fail validation language into report
+fragments.
+
 ## Verified Synthetic Result
 
 The committed synthetic check covers 11 routing classes and passed with zero
@@ -70,6 +83,8 @@ Machine-readable outputs:
 - `analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv`
 - per-case `safe_interpretation_summary.json`
 - per-case `safe_interpretation_signals.tsv`
+- `analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_summary.json`
+- `analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_lint.tsv`
 
 ## Class Meanings
 
@@ -93,4 +108,3 @@ Machine-readable outputs:
 This classifier answers only: "what wording is safe before interpreting returned
 scores?" It is not a validation harness, does not change `LOCKED_RULE_V22.md`,
 does not change the V42 pre-registration, and does not make a biological claim.
-

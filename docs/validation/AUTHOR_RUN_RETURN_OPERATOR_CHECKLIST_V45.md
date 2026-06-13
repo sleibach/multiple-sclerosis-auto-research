@@ -101,8 +101,17 @@ For an unscoreable package, use `--package-state unscoreable`.
   --outdir analysis/v46_returned_package_safe_interpretation/<cohort>_<date>
 ```
 
-9. If the V46 classifier blocks or cautions interpretation, use its safe wording
-   and do not escalate the claim beyond that class.
+9. If the V46 classifier blocks or cautions interpretation, run the safe-wording
+   fixture linter before drafting report language:
+
+```bash
+.venv/bin/python scripts/v46_safe_wording_fixture_linter.py \
+  --outdir analysis/v46_safe_wording_fixture_linter \
+  --fail-on-error
+```
+
+Use only wording compatible with the classifier's safe class, and do not
+escalate the claim beyond that class.
 
 10. If the package is eligible for pre-registered interpretation, fill:
 
@@ -142,6 +151,7 @@ Do not:
 | V46 command-order planner | terms, adapter branch, gate, schema, partial-label, and safe-interpretation steps are ordered | stop at the first blocked step; do not skip ahead |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
+| V46 safe-wording fixture linter | report fragments avoid premature score and pass/fail language for blocked/no-score classes | repair wording before any report draft is committed |
 | result report | all reported values trace to returned aggregate files | repair report or request missing values |
 | outcome grid | result is classified using precommitted V42 meanings | do not reinterpret post hoc |
 | precommit readiness | repository guards are clean after report preparation | repair before commit |

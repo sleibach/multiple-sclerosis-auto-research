@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `99` V43-V46 analysis directories, with `67`
+The refreshed index covers `100` V43-V46 analysis directories, with `68`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `156 MiB`.
 
@@ -29,7 +29,7 @@ markers. Current V43-V46 analysis output footprint is approximately `156 MiB`.
 |---|---:|---:|---|
 | `artifact_governance` | `1` | `1` | Refresh log only |
 | `artifact_governance` | `1` | `3` | Storage/accounting only |
-| `artifact_governance` | `2` | `6` | Index only |
+| `artifact_governance` | `2` | `7` | Index only |
 | `integrity_governance` | `1` | `2` | OpenGWAS auth-expiry sentinel only |
 | `integrity_governance` | `1` | `8` | Author-run packet checksum integrity only |
 | `integrity_governance` | `1` | `6` | Author-run packet dry-run integrity only |
@@ -69,9 +69,9 @@ markers. Current V43-V46 analysis output footprint is approximately `156 MiB`.
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
-| `synthetic_intake_verification` | `20` | `425` | Method behavior only |
+| `synthetic_intake_verification` | `21` | `440` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
-| `synthetic_regression` | `2` | `484` | Software/readiness regression only |
+| `synthetic_regression` | `2` | `521` | Software/readiness regression only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |

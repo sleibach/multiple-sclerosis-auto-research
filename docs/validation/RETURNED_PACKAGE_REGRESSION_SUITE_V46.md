@@ -28,14 +28,15 @@ data, run validation, change locked rules, or interpret biological results.
 4. V46 returned-package command-order planner synthetic check.
 5. V46 aggregate-only returned-package composition dry run.
 6. V46 safe-interpretation classifier synthetic check.
-7. V45/V46 readiness stale-output detector.
-8. V45 no-raw-data git scanner.
+7. V46 safe-wording fixture linter.
+8. V45/V46 readiness stale-output detector.
+9. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `8`
+- steps: `9`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

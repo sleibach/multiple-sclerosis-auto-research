@@ -457,12 +457,27 @@ CHECKS = [
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
+            "scripts/v46_safe_wording_fixture_linter.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
             "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
         ],
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_regression_suite.py --outdir analysis/v46_returned_package_regression_suite --fail-on-error",
+    },
+    {
+        "artifact": "v46_safe_wording_fixture_linter",
+        "sources": [
+            "analysis/v46_returned_package_safe_interpretation/safe_interpretation_synthetic_cases.tsv",
+            "docs/validation/SAFE_WORDING_FIXTURE_LINTER_V46.md",
+            "scripts/v46_safe_wording_fixture_linter.py",
+        ],
+        "outputs": [
+            "analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_summary.json",
+            "analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_index.tsv",
+            "analysis/v46_safe_wording_fixture_linter/safe_wording_fixture_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_safe_wording_fixture_linter --fail-on-error",
     },
     {
         "artifact": "v46_external_blocker_aging_audit",
@@ -492,6 +507,7 @@ CHECKS = [
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
+            "scripts/v46_safe_wording_fixture_linter.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

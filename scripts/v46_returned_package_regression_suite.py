@@ -98,6 +98,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_safe_interpretation.py", "synthetic-check", "--outdir", rel(outdir / "safe_interpretation_classifier")],
         ),
         (
+            "safe_wording_fixture_linter",
+            "safe_wording",
+            [py, "scripts/v46_safe_wording_fixture_linter.py", "--outdir", rel(outdir / "safe_wording_fixture_linter"), "--fail-on-error"],
+        ),
+        (
             "readiness_stale_output_detector",
             "governance",
             [py, "scripts/v45_readiness_stale_output_detector.py", "--outdir", rel(outdir / "readiness_stale_output_detector")],
