@@ -101,7 +101,16 @@ For an unscoreable package, use `--package-state unscoreable`.
   --outdir analysis/v46_returned_package_safe_interpretation/<cohort>_<date>
 ```
 
-9. If the V46 classifier blocks or cautions interpretation, run the safe-wording
+9. For messy returned packages, consult the V46 route-state matrix before
+   drafting any interpretation language:
+
+```bash
+.venv/bin/python scripts/v46_returned_package_route_state_matrix.py \
+  --outdir analysis/v46_returned_package_route_state_matrix \
+  --fail-on-error
+```
+
+10. If the V46 classifier blocks or cautions interpretation, run the safe-wording
    fixture linter before drafting report language:
 
 ```bash
@@ -113,7 +122,7 @@ For an unscoreable package, use `--package-state unscoreable`.
 Use only wording compatible with the classifier's safe class, and do not
 escalate the claim beyond that class.
 
-10. If the package is eligible for pre-registered interpretation, fill:
+11. If the package is eligible for pre-registered interpretation, fill:
 
 `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md`
 
@@ -149,6 +158,7 @@ Do not:
 | completeness | minimum aggregate files are present and parseable | request missing aggregate outputs |
 | V46 metric-format adapter | accepted aggregate file/column aliases normalize to canonical V45 outputs | request the missing canonical aggregate output; never infer values |
 | V46 command-order planner | terms, adapter branch, gate, schema, partial-label, and safe-interpretation steps are ordered | stop at the first blocked step; do not skip ahead |
+| V46 route-state matrix | scored/unscoreable and canonical/noncanonical package shapes map to safe routes | use preflight-only wording for unscoreable returns and block when terms block |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | V46 safe-wording fixture linter | report fragments avoid premature score and pass/fail language for blocked/no-score classes | repair wording before any report draft is committed |

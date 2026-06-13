@@ -429,12 +429,27 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_returned_package_command_order_planner",
     },
     {
+        "artifact": "v46_returned_package_route_state_matrix",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_ROUTE_STATE_MATRIX_V46.md",
+            "scripts/v46_returned_package_route_state_matrix.py",
+            "scripts/v46_returned_package_command_order_planner.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_route_state_matrix/returned_package_route_state_matrix_summary.json",
+            "analysis/v46_returned_package_route_state_matrix/returned_package_route_state_matrix.tsv",
+            "analysis/v46_returned_package_route_state_matrix/returned_package_route_state_checks.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_returned_package_route_state_matrix --fail-on-error",
+    },
+    {
         "artifact": "v46_aggregate_only_returned_package_composition_dryrun",
         "sources": [
             "docs/validation/AGGREGATE_ONLY_RETURNED_PACKAGE_COMPOSITION_DRYRUN_V46.md",
             "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
             "scripts/v46_returned_package_command_order_planner.py",
+            "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
             "scripts/v46_returned_package_safe_interpretation.py",
@@ -455,6 +470,7 @@ CHECKS = [
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",
+            "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
@@ -505,6 +521,7 @@ CHECKS = [
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",
+            "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",

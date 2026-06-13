@@ -97,6 +97,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_command_order_planner.py", "synthetic-check", "--outdir", rel(outdir / "returned_package_command_order_planner")],
         ),
         (
+            "returned_package_route_state_matrix",
+            "returned_package",
+            [py, "scripts/v46_returned_package_route_state_matrix.py", "--outdir", rel(outdir / "returned_package_route_state_matrix"), "--fail-on-error"],
+        ),
+        (
             "aggregate_only_returned_package_composition_dryrun",
             "returned_package",
             [py, "scripts/v46_aggregate_only_returned_package_composition_dryrun.py", "--outdir", rel(outdir / "aggregate_only_composition_dryrun"), "--fail-on-error"],
