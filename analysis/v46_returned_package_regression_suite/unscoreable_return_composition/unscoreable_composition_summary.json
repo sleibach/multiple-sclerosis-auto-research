@@ -1,0 +1,23 @@
+{
+  "checks": "analysis/v46_returned_package_regression_suite/unscoreable_return_composition/unscoreable_composition_checks.tsv",
+  "failure_taxonomy_code": "UNSCOREABLE_MISSING_LOCKED_RULE_METRICS",
+  "missing_score_bearing_files": [
+    "batch_diagnostic_metrics.tsv",
+    "confounder_adjustment_metrics.tsv",
+    "joint_confounder_metrics.tsv",
+    "locked_rule_metrics.tsv",
+    "validation_result_report.md"
+  ],
+  "n_check_fail": 0,
+  "n_checks": 11,
+  "n_step_fail": 0,
+  "n_steps": 5,
+  "overall_status": "PASS",
+  "purpose": "V46 unscoreable returned-package composition dry run; no biological claim",
+  "route_class": "UNSCOREABLE_AGGREGATE_PREFLIGHT_ONLY",
+  "safe_wording": "analysis/v46_returned_package_regression_suite/unscoreable_return_composition/unscoreable_safe_wording.md",
+  "sample_level_data_read": false,
+  "score_values_interpreted": false,
+  "steps": "analysis/v46_returned_package_regression_suite/unscoreable_return_composition/unscoreable_composition_steps.tsv",
+  "synthetic": true
+}

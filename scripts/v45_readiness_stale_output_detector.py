@@ -462,6 +462,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_aggregate_only_returned_package_composition_dryrun --fail-on-error",
     },
     {
+        "artifact": "v46_unscoreable_return_composition_dryrun",
+        "sources": [
+            "docs/validation/UNSCOREABLE_RETURN_COMPOSITION_DRYRUN_V46.md",
+            "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
+            "scripts/v46_unscoreable_return_composition_dryrun.py",
+            "scripts/v46_returned_package_command_order_planner.py",
+            "scripts/v46_returned_package_route_state_matrix.py",
+            "scripts/v45_author_run_return_gate_runner.py",
+            "scripts/v45_author_run_output_check.py",
+        ],
+        "outputs": [
+            "analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_summary.json",
+            "analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_steps.tsv",
+            "analysis/v46_unscoreable_return_composition_dryrun/unscoreable_composition_checks.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_unscoreable_return_composition_dryrun.py --outdir analysis/v46_unscoreable_return_composition_dryrun --fail-on-error",
+    },
+    {
         "artifact": "v46_returned_package_regression_suite",
         "sources": [
             "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
@@ -472,6 +490,7 @@ CHECKS = [
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
+            "scripts/v46_unscoreable_return_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
         ],
@@ -523,6 +542,7 @@ CHECKS = [
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
+            "scripts/v46_unscoreable_return_composition_dryrun.py",
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
             "scripts/v46_external_blocker_aging_audit.py",

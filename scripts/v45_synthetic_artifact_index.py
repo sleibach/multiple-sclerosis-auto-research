@@ -116,6 +116,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_command_order_planner": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_returned_package_route_state_matrix": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_aggregate_only_returned_package_composition_dryrun": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_unscoreable_return_composition_dryrun": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_returned_package_regression_suite": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_safe_wording_fixture_linter": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),

@@ -1,0 +1,15 @@
+{
+  "decision": "analysis/v46_unscoreable_return_composition_dryrun/terms_governance/terms_governance_decision.tsv",
+  "expect_class": "AGGREGATE_ONLY_LOCAL_PREFLIGHT",
+  "expectation_met": true,
+  "hard_stop": "do not commit individual-level expression, clinical labels, or restricted agreements",
+  "operator_gate_status": "pass",
+  "purpose": "V46 terms-governance classifier; no biological claim",
+  "reasons": [
+    "derived aggregate processing allowed; individual-level sharing remains restricted"
+  ],
+  "result_class": "AGGREGATE_ONLY_LOCAL_PREFLIGHT",
+  "safe_route": "local processing may proceed, but only derived aggregate summaries may be committed/reported",
+  "synthetic": true,
+  "terms": "analysis/v46_unscoreable_return_composition_dryrun/synthetic/unscoreable_terms.tsv"
+}

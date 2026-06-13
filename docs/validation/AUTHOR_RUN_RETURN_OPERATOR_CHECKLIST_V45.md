@@ -159,6 +159,7 @@ Do not:
 | V46 metric-format adapter | accepted aggregate file/column aliases normalize to canonical V45 outputs | request the missing canonical aggregate output; never infer values |
 | V46 command-order planner | terms, adapter branch, gate, schema, partial-label, and safe-interpretation steps are ordered | stop at the first blocked step; do not skip ahead |
 | V46 route-state matrix | scored/unscoreable and canonical/noncanonical package shapes map to safe routes | use preflight-only wording for unscoreable returns and block when terms block |
+| V46 unscoreable-return dry run | missing score-bearing outputs plus failure taxonomy stop at completeness | report repair-only language; do not run schema/safe interpretation |
 | schema validator | aggregate values are internally consistent and in allowed ranges | request repaired aggregate tables before interpretation |
 | V46 safe-interpretation classifier | pre-score gates and cohort-structure allow a specific safe wording class | use the classifier's blocked/caution wording and do not over-interpret |
 | V46 safe-wording fixture linter | report fragments avoid premature score and pass/fail language for blocked/no-score classes | repair wording before any report draft is committed |

@@ -34,15 +34,16 @@ validation harness, or interpret biology.
 9. V46 returned-package command-order planner synthetic check.
 10. V46 returned-package route-state matrix.
 11. V46 aggregate-only returned-package composition dry run.
-12. V46 safe-interpretation classifier synthetic check.
-13. V46 safe-wording fixture linter.
-14. V45 no-raw-data git scanner.
+12. V46 unscoreable-return composition dry run.
+13. V46 safe-interpretation classifier synthetic check.
+14. V46 safe-wording fixture linter.
+15. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `14`;
+- steps: `15`;
 - failures: `0`;
 - overall status: `PASS`.
 

@@ -98,6 +98,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_aggregate_only_returned_package_composition_dryrun.py", "--outdir", rel(outdir / "aggregate_only_composition"), "--fail-on-error"],
         ),
         (
+            "unscoreable_return_composition_dryrun",
+            "composition",
+            [py, "scripts/v46_unscoreable_return_composition_dryrun.py", "--outdir", rel(outdir / "unscoreable_return_composition"), "--fail-on-error"],
+        ),
+        (
             "safe_interpretation_classifier_synthetic",
             "safe_wording",
             [py, "scripts/v46_returned_package_safe_interpretation.py", "synthetic-check", "--outdir", rel(outdir / "safe_interpretation_classifier")],

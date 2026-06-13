@@ -1,0 +1,12 @@
+check	expected	observed	status	detail
+all_subcommands_return_expected_code	0	0	PASS	expected failures are explicit and counted as pass when they fail safely
+terms_class	AGGREGATE_ONLY_LOCAL_PREFLIGHT	AGGREGATE_ONLY_LOCAL_PREFLIGHT	PASS	aggregate-only local preflight route
+command_order_plan_status	PASS	PASS	PASS	unscoreable package has a route plan but not interpretation permission
+route_class	UNSCOREABLE_AGGREGATE_PREFLIGHT_ONLY	UNSCOREABLE_AGGREGATE_PREFLIGHT_ONLY	PASS	route matrix forces repair-only wording
+return_gate_status	FAIL	FAIL	PASS	completeness gate must block missing score outputs
+output_check_status	FAIL	FAIL	PASS	direct output check must block missing score outputs
+failure_taxonomy_present	PRESENT	PRESENT	PASS	unscoreable return must name failure taxonomy
+missing_score_bearing_files	batch_diagnostic_metrics.tsv;confounder_adjustment_metrics.tsv;joint_confounder_metrics.tsv;locked_rule_metrics.tsv;validation_result_report.md	batch_diagnostic_metrics.tsv;confounder_adjustment_metrics.tsv;joint_confounder_metrics.tsv;locked_rule_metrics.tsv;validation_result_report.md	PASS	all score-bearing outputs are absent by design
+schema_validator_not_run	False	False	PASS	schema validation is not reached after completeness block
+safe_interpretation_not_run	False	False	PASS	safe interpretation is not reached after completeness block
+safe_wording_metric_leaks	0	0	PASS	repair-only wording must not mention score/effect language

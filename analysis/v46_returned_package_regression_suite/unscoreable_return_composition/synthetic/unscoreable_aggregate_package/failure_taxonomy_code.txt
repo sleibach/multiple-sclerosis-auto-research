@@ -1,0 +1,4 @@
+synthetic: true
+failure_code: UNSCOREABLE_MISSING_LOCKED_RULE_METRICS
+failed_gate: author_run_output_completeness
+allowed_repair: rerun frozen author-run harness and return the missing aggregate score tables
