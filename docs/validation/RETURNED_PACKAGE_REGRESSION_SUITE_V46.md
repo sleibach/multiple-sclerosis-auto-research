@@ -25,26 +25,27 @@ data, run validation, change locked rules, or interpret biological results.
 1. V46 terms-governance matrix synthetic check.
 2. V46 metric-format adapter synthetic check.
 3. V46 partial-label classifier synthetic check.
-4. V46 returned-package command-order planner synthetic check.
-5. V46 returned-package route-state matrix.
-6. V46 aggregate-only returned-package composition dry run.
-7. V46 unscoreable-return composition dry run.
-8. V46 safe-interpretation classifier synthetic check.
-9. V46 safe-wording fixture linter.
-10. V46 result-report safe-class linter.
-11. V46 small-n conclusion language table.
-12. V46 analyzable-pair confidence envelope.
-13. V46 return repair-request templates.
-14. V46 first-30-minute returned-package decision table.
-15. V46 returned-package state-transition validator.
-16. V45/V46 readiness stale-output detector.
-17. V45 no-raw-data git scanner.
+4. V46 package-manifest shape classifier synthetic check.
+5. V46 returned-package command-order planner synthetic check.
+6. V46 returned-package route-state matrix.
+7. V46 aggregate-only returned-package composition dry run.
+8. V46 unscoreable-return composition dry run.
+9. V46 safe-interpretation classifier synthetic check.
+10. V46 safe-wording fixture linter.
+11. V46 result-report safe-class linter.
+12. V46 small-n conclusion language table.
+13. V46 analyzable-pair confidence envelope.
+14. V46 return repair-request templates.
+15. V46 first-30-minute returned-package decision table.
+16. V46 returned-package state-transition validator.
+17. V45/V46 readiness stale-output detector.
+18. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `17`
+- steps: `18`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

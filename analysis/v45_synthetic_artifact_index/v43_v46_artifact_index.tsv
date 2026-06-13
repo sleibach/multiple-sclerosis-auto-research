@@ -94,12 +94,13 @@ analysis/v46_analyzable_pair_confidence_envelope	power_design_planning	study des
 analysis/v46_author_run_metric_format_adapter	synthetic_intake_verification	method behavior only	45	True	True	True	none
 analysis/v46_external_blocker_aging_audit	operations	external blocker timing status only	7	True	True	True	none
 analysis/v46_first30_returned_package_decision_table	operations	first-30-minute returned-package decision routing only	4	False	False	False	none
-analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	379	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
+analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	400	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
+analysis/v46_package_manifest_shape_classifier	synthetic_intake_verification	method behavior only	21	True	True	True	none
 analysis/v46_partial_label_return_classifier	synthetic_intake_verification	method behavior only	20	True	True	True	none
 analysis/v46_result_report_safe_class_linter	synthetic_intake_verification	method behavior only	17	True	True	True	none
 analysis/v46_return_repair_request_templates	operations	returned-package repair request drafts only	14	False	False	False	none
 analysis/v46_returned_package_command_order_planner	synthetic_intake_verification	method behavior only	14	True	True	True	none
-analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	300	True	True	True	none
+analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	321	True	True	True	none
 analysis/v46_returned_package_route_state_matrix	synthetic_intake_verification	method behavior only	3	False	True	True	none
 analysis/v46_returned_package_safe_interpretation	synthetic_intake_verification	method behavior only	29	True	True	True	none
 analysis/v46_returned_package_state_transition_validator	synthetic_intake_verification	method behavior only	6	False	True	True	none

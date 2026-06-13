@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `41`
+- artifacts checked: `42`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -51,6 +51,7 @@ Checked generated artifacts:
 - V46 terms-governance matrix;
 - V46 metric-format adapter;
 - V46 partial-label classifier;
+- V46 package-manifest shape classifier;
 - V46 safe-interpretation classifier;
 - V46 returned-package command-order planner;
 - V46 returned-package route-state matrix;

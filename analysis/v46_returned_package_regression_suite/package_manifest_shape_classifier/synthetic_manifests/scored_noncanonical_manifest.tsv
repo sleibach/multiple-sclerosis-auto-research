@@ -1,0 +1,10 @@
+cohort_id	receipt_timestamp_utc	received_from	relative_path_or_external_location	file_role	bytes	sha256_if_recordable	sensitivity_class	terms_status	commit_allowed	next_gate	notes
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	run_metadata.txt	RUN_METADATA	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	summary.json	validation_summary	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	attrition.tsv	sample_attrition	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	module_gene_coverage.tsv	gene_mapping_coverage	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	metrics.tsv	locked_rule_metrics	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	confounder_metrics.tsv	confounder_adjustment_metrics	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	joint_adjustment_metrics.tsv	joint_confounder_metrics	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	batch_qc.tsv	batch_diagnostic_metrics	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	
+synthetic_return	2026-06-13T00:00:00Z	synthetic_fixture	report.md	validation_result_report.md	123	synthetic	derived_non_sensitive_summary	synthetic	yes	manifest_shape_classifier	

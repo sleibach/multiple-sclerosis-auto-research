@@ -419,6 +419,23 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_safe_interpretation",
     },
     {
+        "artifact": "v46_package_manifest_shape_classifier",
+        "sources": [
+            "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
+            "docs/validation/input_schemas/V45_package_receipt_manifest_template.tsv",
+            "docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv",
+            "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
+            "scripts/v46_package_manifest_shape_classifier.py",
+            "scripts/v46_author_run_metric_format_adapter.py",
+        ],
+        "outputs": [
+            "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json",
+            "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_cases.tsv",
+            "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_package_manifest_shape_classifier.py synthetic-check --outdir analysis/v46_package_manifest_shape_classifier",
+    },
+    {
         "artifact": "v46_returned_package_command_order_planner",
         "sources": [
             "docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md",
@@ -490,6 +507,8 @@ CHECKS = [
             "scripts/v46_terms_governance_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
+            "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
+            "scripts/v46_package_manifest_shape_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
@@ -662,6 +681,8 @@ CHECKS = [
             "scripts/v46_terms_governance_matrix.py",
             "scripts/v46_author_run_metric_format_adapter.py",
             "scripts/v46_partial_label_return_classifier.py",
+            "docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md",
+            "scripts/v46_package_manifest_shape_classifier.py",
             "scripts/v46_returned_package_command_order_planner.py",
             "scripts/v46_returned_package_route_state_matrix.py",
             "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",

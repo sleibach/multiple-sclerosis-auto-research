@@ -1,5 +1,5 @@
 step	command	expected_returncode	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-build_noncanonical_variant	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed	0	0	1.381	PASS	"ation"",
+build_noncanonical_variant	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed	0	0	1.403	PASS	"ation"",
   ""source_root"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package"",
   ""synthetic"": true
 }
@@ -27,7 +27,7 @@ build_noncanonical_variant	/Users/soeren.leibach/Projects/ms-auto-research/.venv
   ""variant_package"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package""
 }
 "	(empty)
-terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py classify --terms analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/terms_governance --expect-class AGGREGATE_ONLY_LOCAL_PREFLIGHT	0	0	0.372	PASS	"{
+terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py classify --terms analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/terms_governance --expect-class AGGREGATE_ONLY_LOCAL_PREFLIGHT	0	0	0.553	PASS	"{
   ""decision"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/terms_governance/terms_governance_decision.tsv"",
   ""expect_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
   ""expectation_met"": true,
@@ -43,7 +43,7 @@ terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pytho
   ""terms"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv""
 }
 "	(empty)
-command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token synthetic_aggregate_only --package-root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --terms-capture analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --package-kind author_run_aggregate --package-state scored --metric-format-state noncanonical --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/command_order_plan --expect-status PASS	0	0	0.057	PASS	"{
+command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token synthetic_aggregate_only --package-root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --terms-capture analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/aggregate_only_terms.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --package-kind author_run_aggregate --package-state scored --metric-format-state noncanonical --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/command_order_plan --expect-status PASS	0	0	0.047	PASS	"{
   ""cohort_token"": ""synthetic_aggregate_only"",
   ""command_plan"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/command_order_plan/returned_package_command_plan.tsv"",
   ""expect_status"": ""PASS"",
@@ -63,7 +63,7 @@ command_order_plan	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pyt
   ""terms_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT""
 }
 "	(empty)
-metric_format_adapter	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter --fail-on-error	0	0	0.589	PASS	"{
+metric_format_adapter	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter_seed/synthetic_variant_package --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter --fail-on-error	0	0	0.355	PASS	"{
   ""manifest"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/metric_format_adapter_manifest.tsv"",
   ""n_files"": 9,
   ""n_missing_required"": 0,
@@ -74,7 +74,7 @@ metric_format_adapter	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/
   ""synthetic"": true
 }
 "	(empty)
-author_run_return_gate	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate --fail-on-error	0	0	0.916	PASS	"{
+author_run_return_gate	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate --fail-on-error	0	0	0.471	PASS	"{
   ""completeness_status"": ""PASS"",
   ""completeness_summary"": {
     ""n_hard_fail"": 0,
@@ -109,7 +109,7 @@ author_run_return_gate	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin
   ""synthetic"": false
 }
 "	(empty)
-aggregate_schema_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator --fail-on-error	0	0	0.942	PASS	"{
+aggregate_schema_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py run --root analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/metric_adapter/normalized_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator --fail-on-error	0	0	0.37	PASS	"{
   ""n_checks"": 252,
   ""n_fail"": 0,
   ""overall_status"": ""PASS"",
@@ -123,7 +123,7 @@ aggregate_schema_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv
   ""table"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation.tsv""
 }
 "	(empty)
-partial_label_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py classify --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/partial_label_classifier --expect-class PARTIAL_LABELS_BELOW_PLANNING_FLOOR	0	0	0.063	PASS	"{
+partial_label_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py classify --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/partial_label_classifier --expect-class PARTIAL_LABELS_BELOW_PLANNING_FLOOR	0	0	0.041	PASS	"{
   ""expect_class"": ""PARTIAL_LABELS_BELOW_PLANNING_FLOOR"",
   ""expectation_met"": true,
   ""forbidden_interpretation"": ""Do not treat the labeled subset as a validation test."",
@@ -136,7 +136,7 @@ partial_label_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/b
   ""synthetic"": true
 }
 "	(empty)
-safe_interpretation_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py classify --gate-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/author_run_return_gate_summary.json --schema-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation_summary.json --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --metadata-summary analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json --batch-confounder-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/batch_confounder_clean.json --terms-status PASS --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/safe_interpretation_classifier --expect-class BELOW_V45_PLANNING_FLOOR	0	0	0.071	PASS	"{
+safe_interpretation_classifier	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py classify --gate-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/author_run_return_gate/author_run_return_gate_summary.json --schema-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_schema_validator/author_run_schema_validation_summary.json --analyzable-summary analysis/v45_route_analyzable_pair_calculator/gafson_partial_return/analyzable_pair_summary.json --metadata-summary analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json --batch-confounder-summary analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/synthetic/batch_confounder_clean.json --terms-status PASS --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/safe_interpretation_classifier --expect-class BELOW_V45_PLANNING_FLOOR	0	0	0.041	PASS	"{
   ""expect_class"": ""BELOW_V45_PLANNING_FLOOR"",
   ""expectation_met"": true,
   ""forbidden_interpretation"": ""Do not call pass, fail, or inconclusive based on the returned score."",

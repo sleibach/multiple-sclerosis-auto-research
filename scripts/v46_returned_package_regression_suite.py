@@ -83,6 +83,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_partial_label_return_classifier.py", "synthetic-check", "--outdir", rel(outdir / "partial_label_classifier")],
         ),
         (
+            "package_manifest_shape_classifier_synthetic",
+            "manifest_routing",
+            [py, "scripts/v46_package_manifest_shape_classifier.py", "synthetic-check", "--outdir", rel(outdir / "package_manifest_shape_classifier")],
+        ),
+        (
             "returned_package_command_order_planner_synthetic",
             "command_order",
             [py, "scripts/v46_returned_package_command_order_planner.py", "synthetic-check", "--outdir", rel(outdir / "command_order_planner")],
