@@ -1,5 +1,5 @@
 step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v45_author_run_output_check/synthetic_complete_author_run_package --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/complete_pass/redaction_precheck --fail-on-error	0	0.049	PASS	"{
+author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_redaction_precheck.py check --root analysis/v45_author_run_output_check/synthetic_complete_author_run_package --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/complete_pass/redaction_precheck --fail-on-error	0	0.04	PASS	"{
   ""audit"": ""analysis/v46_operator_smoke_test_bundle/author_run_return_gate/complete_pass/redaction_precheck/author_run_redaction_precheck.tsv"",
   ""n_block"": 0,
   ""n_files_scanned"": 9,
@@ -10,7 +10,7 @@ author_run_redaction_precheck	/Users/soeren.leibach/Projects/ms-auto-research/.v
   ""synthetic"": true
 }
 "	
-author_run_output_completeness	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v45_author_run_output_check/synthetic_complete_author_run_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/complete_pass/output_completeness --fail-on-error	0	0.286	PASS	"{
+author_run_output_completeness	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_output_check.py check --root analysis/v45_author_run_output_check/synthetic_complete_author_run_package --package-state scored --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate/complete_pass/output_completeness --fail-on-error	0	0.409	PASS	"{
   ""n_hard_fail"": 0,
   ""n_required_now"": 9,
   ""n_rows"": 10,

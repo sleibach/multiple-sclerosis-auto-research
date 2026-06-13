@@ -173,6 +173,11 @@ REQUIRED_SCRIPTS = [
         "role": "operator transcript fixture",
     },
     {
+        "script": "scripts/v46_returned_package_quickstart_readme.py",
+        "doc": "docs/validation/RETURNED_PACKAGE_QUICKSTART_V46.md",
+        "role": "returned-package generated quickstart",
+    },
+    {
         "script": "scripts/v46_returned_package_regression_suite.py",
         "doc": "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
         "role": "returned-package regression suite",
@@ -201,9 +206,11 @@ OPERATOR_REFERENCE_FILES = [
     "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
     "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
     "docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md",
+    "docs/validation/RETURNED_PACKAGE_QUICKSTART_V46.md",
     "docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md",
     "docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md",
     "analysis/v46_returned_package_handoff_bundle_manifest/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST.md",
+    "analysis/v46_returned_package_quickstart_readme/RETURNED_PACKAGE_QUICKSTART.md",
     "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv",
     "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
     "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv",

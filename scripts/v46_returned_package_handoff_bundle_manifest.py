@@ -229,6 +229,15 @@ ARTIFACTS = [
     {
         "sequence": 24,
         "phase": "operator_navigation",
+        "artifact_id": "returned_package_quickstart_readme",
+        "role": "Generate the compact operator quickstart from handoff and command-plan machine-readable sources.",
+        "command": ".venv/bin/python scripts/v46_returned_package_quickstart_readme.py --outdir analysis/v46_returned_package_quickstart_readme --fail-on-error",
+        "doc": "docs/validation/RETURNED_PACKAGE_QUICKSTART_V46.md",
+        "primary_output": "analysis/v46_returned_package_quickstart_readme/returned_package_quickstart_summary.json",
+    },
+    {
+        "sequence": 25,
+        "phase": "operator_navigation",
         "artifact_id": "returned_package_doc_crosslink_linter",
         "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
         "command": ".venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_returned_package_doc_crosslink_linter --fail-on-error",
@@ -236,7 +245,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
     },
     {
-        "sequence": 25,
+        "sequence": 26,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_dependency_graph",
         "role": "Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts.",

@@ -222,6 +222,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_returned_package_handoff_bundle_manifest.py", "--outdir", rel(outdir / "handoff_bundle_manifest"), "--fail-on-error"],
         ),
         (
+            "returned_package_quickstart_readme",
+            "returned_package",
+            [py, "scripts/v46_returned_package_quickstart_readme.py", "--outdir", rel(outdir / "quickstart_readme"), "--fail-on-error"],
+        ),
+        (
             "returned_package_doc_crosslink_linter",
             "returned_package",
             [py, "scripts/v46_returned_package_doc_crosslink_linter.py", "--outdir", rel(outdir / "doc_crosslink_linter"), "--fail-on-error"],

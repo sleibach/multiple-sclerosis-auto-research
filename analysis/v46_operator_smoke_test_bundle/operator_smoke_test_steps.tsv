@@ -1,7 +1,7 @@
 step	group	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel	0	2.449	PASS	"{
-  ""checked_at_utc"": ""2026-06-13 14:58:40 UTC"",
-  ""days_remaining"": 5.896,
+opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_opengwas_token_expiry_sentinel.py --outdir analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel	0	0.514	PASS	"{
+  ""checked_at_utc"": ""2026-06-13 15:18:12 UTC"",
+  ""days_remaining"": 5.882,
   ""decode_status"": ""decoded"",
   ""dotenv_present"": true,
   ""env_present"": true,
@@ -18,7 +18,7 @@ opengwas_expiry_sentinel	credential_status	/Users/soeren.leibach/Projects/ms-aut
   ""table"": ""analysis/v46_operator_smoke_test_bundle/opengwas_token_expiry_sentinel/opengwas_token_expiry_sentinel.tsv""
 }
 "	(empty)
-locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v46_operator_smoke_test_bundle/locked_artifact_hash_audit --fail-on-drift	0	0.164	PASS	"{
+locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v46_operator_smoke_test_bundle/locked_artifact_hash_audit --fail-on-drift	0	0.055	PASS	"{
   ""baseline"": ""/Users/soeren.leibach/Projects/ms-auto-research/docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv"",
   ""n_artifacts"": 9,
   ""overall_status"": ""PASS"",
@@ -29,7 +29,7 @@ locked_artifact_hash_audit	integrity	/Users/soeren.leibach/Projects/ms-auto-rese
   }
 }
 "	(empty)
-author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate	0	0.893	PASS	"te"": ""scored"",
+author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_return_gate_runner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_return_gate	0	1.049	PASS	"te"": ""scored"",
   ""purpose"": ""author-run aggregate return gate runner; no biological claim"",
   ""redaction_status"": ""PASS"",
   ""redaction_summary"": {
@@ -104,7 +104,7 @@ author_run_return_gate_synthetic	returned_package	/Users/soeren.leibach/Projects
   ""synthetic"": true
 }
 "	(empty)
-author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_schema_validator	0	0.423	PASS	"{
+author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_author_run_schema_validator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/author_run_schema_validator	0	0.546	PASS	"{
   ""n_checks"": 253,
   ""n_fail"": 0,
   ""overall_status"": ""PASS"",
@@ -154,7 +154,7 @@ author_run_schema_validator_synthetic	returned_package	/Users/soeren.leibach/Pro
   ""synthetic"": true
 }
 "	(empty)
-route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator	0	0.411	PASS	"gafson_small_complete""
+route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/route_analyzable_pair_calculator	0	0.426	PASS	"gafson_small_complete""
 }
 {
   ""decision_band"": ""below_v45_planning_floor"",
@@ -223,7 +223,7 @@ route_analyzable_pair_synthetic	returned_package	/Users/soeren.leibach/Projects/
   ""synthetic_case"": ""gse228330_context_no_labels""
 }
 "	(empty)
-terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/terms_governance_matrix	0	0.429	PASS	"ts"",
+terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/terms_governance_matrix	0	0.503	PASS	"ts"",
   ""operator_gate_status"": ""pass"",
   ""purpose"": ""V46 terms-governance classifier; no biological claim"",
   ""reasons"": [
@@ -288,7 +288,7 @@ terms_governance_matrix_synthetic	terms_governance	/Users/soeren.leibach/Project
   ""synthetic"": true
 }
 "	(empty)
-metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/metric_format_adapter	0	1.288	PASS	"{
+metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/metric_format_adapter	0	1.393	PASS	"{
   ""manifest"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/adapter/metric_format_adapter_manifest.tsv"",
   ""n_files"": 9,
   ""n_missing_required"": 0,
@@ -322,7 +322,7 @@ metric_format_adapter_synthetic	returned_package	/Users/soeren.leibach/Projects/
   ""variant_package"": ""analysis/v46_operator_smoke_test_bundle/metric_format_adapter/synthetic_variant_package""
 }
 "	(empty)
-partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier	0	0.097	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
+partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier	0	0.078	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
   ""score_values_read"": false,
   ""source"": ""analysis/v46_operator_smoke_test_bundle/partial_label_return_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json"",
   ""synthetic"": true
@@ -372,7 +372,7 @@ partial_label_classifier_synthetic	returned_package	/Users/soeren.leibach/Projec
   ""synthetic"": true
 }
 "	(empty)
-receipt_manifest_schema_linter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/receipt_manifest_schema_linter	0	0.436	PASS	"{
+receipt_manifest_schema_linter_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/receipt_manifest_schema_linter	0	0.343	PASS	"{
   ""all_score_values_read_false"": true,
   ""cases"": ""analysis/v46_operator_smoke_test_bundle/receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_cases.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/receipt_manifest_schema_linter/receipt_manifest_schema_synthetic_lint.tsv"",
@@ -385,7 +385,7 @@ receipt_manifest_schema_linter_synthetic	returned_package	/Users/soeren.leibach/
   ""synthetic"": true
 }
 "	(empty)
-package_manifest_shape_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/package_manifest_shape_classifier	0	0.466	PASS	"ator_smoke_test_bundle/package_manifest_shape_classifier/scored_noncanonical_manifest/package_manifest_shape_classification.tsv"",
+package_manifest_shape_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/package_manifest_shape_classifier	0	0.363	PASS	"ator_smoke_test_bundle/package_manifest_shape_classifier/scored_noncanonical_manifest/package_manifest_shape_classification.tsv"",
   ""first30_scenario"": ""scored_noncanonical_aggregate"",
   ""metric_format_state_for_command_order"": ""noncanonical"",
   ""overall_status"": ""PASS"",
@@ -446,7 +446,7 @@ package_manifest_shape_classifier_synthetic	returned_package	/Users/soeren.leiba
   ""synthetic"": true
 }
 "	(empty)
-receipt_manifest_to_command_plan_handoff	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_to_command_plan_handoff.py --outdir analysis/v46_operator_smoke_test_bundle/receipt_manifest_to_command_plan_handoff --fail-on-error	0	0.432	PASS	"coreable"",
+receipt_manifest_to_command_plan_handoff	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_to_command_plan_handoff.py --outdir analysis/v46_operator_smoke_test_bundle/receipt_manifest_to_command_plan_handoff --fail-on-error	0	0.413	PASS	"coreable"",
   ""purpose"": ""V46 package-manifest shape classification; no biological claim and no score values read"",
   ""score_values_read"": false,
   ""synthetic"": true
@@ -513,7 +513,7 @@ receipt_manifest_to_command_plan_handoff	returned_package	/Users/soeren.leibach/
   ""synthetic"": true
 }
 "	(empty)
-returned_package_command_order_planner_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/returned_package_command_order_planner	0	0.068	PASS	" ""package_state"": ""scored"",
+returned_package_command_order_planner_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/returned_package_command_order_planner	0	0.51	PASS	" ""package_state"": ""scored"",
   ""plan_status"": ""PASS"",
   ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
   ""score_values_read"": false,
@@ -587,7 +587,7 @@ returned_package_command_order_planner_synthetic	returned_package	/Users/soeren.
   ""synthetic"": true
 }
 "	(empty)
-returned_package_route_state_matrix	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_operator_smoke_test_bundle/returned_package_route_state_matrix --fail-on-error	0	0.034	PASS	"{
+returned_package_route_state_matrix	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_route_state_matrix.py --outdir analysis/v46_operator_smoke_test_bundle/returned_package_route_state_matrix --fail-on-error	0	0.035	PASS	"{
   ""checks"": ""analysis/v46_operator_smoke_test_bundle/returned_package_route_state_matrix/returned_package_route_state_checks.tsv"",
   ""matrix"": ""analysis/v46_operator_smoke_test_bundle/returned_package_route_state_matrix/returned_package_route_state_matrix.tsv"",
   ""n_blocked_routes"": 18,
@@ -601,7 +601,7 @@ returned_package_route_state_matrix	returned_package	/Users/soeren.leibach/Proje
   ""synthetic"": true
 }
 "	(empty)
-aggregate_only_returned_package_composition_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun --fail-on-error	0	3.155	PASS	"{
+aggregate_only_returned_package_composition_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun --fail-on-error	0	3.099	PASS	"{
   ""checks"": ""analysis/v46_operator_smoke_test_bundle/aggregate_only_composition_dryrun/aggregate_only_composition_checks.tsv"",
   ""final_safe_interpretation_class"": ""BELOW_V45_PLANNING_FLOOR"",
   ""n_check_fail"": 0,
@@ -616,7 +616,7 @@ aggregate_only_returned_package_composition_dryrun	returned_package	/Users/soere
   ""synthetic"": true
 }
 "	(empty)
-unscoreable_return_composition_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_unscoreable_return_composition_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/unscoreable_return_composition_dryrun --fail-on-error	0	1.413	PASS	"{
+unscoreable_return_composition_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_unscoreable_return_composition_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/unscoreable_return_composition_dryrun --fail-on-error	0	1.652	PASS	"{
   ""checks"": ""analysis/v46_operator_smoke_test_bundle/unscoreable_return_composition_dryrun/unscoreable_composition_checks.tsv"",
   ""failure_taxonomy_code"": ""UNSCOREABLE_MISSING_LOCKED_RULE_METRICS"",
   ""missing_score_bearing_files"": [
@@ -640,7 +640,7 @@ unscoreable_return_composition_dryrun	returned_package	/Users/soeren.leibach/Pro
   ""synthetic"": true
 }
 "	(empty)
-safe_interpretation_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier	0	0.121	PASS	"n""
+safe_interpretation_classifier_synthetic	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/safe_interpretation_classifier	0	0.117	PASS	"n""
   },
   ""synthetic"": true
 }
@@ -689,7 +689,7 @@ safe_interpretation_classifier_synthetic	returned_package	/Users/soeren.leibach/
   ""synthetic"": true
 }
 "	(empty)
-safe_wording_fixture_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_operator_smoke_test_bundle/safe_wording_fixture_linter --fail-on-error	0	0.164	PASS	"{
+safe_wording_fixture_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_wording_fixture_linter.py --outdir analysis/v46_operator_smoke_test_bundle/safe_wording_fixture_linter --fail-on-error	0	0.099	PASS	"{
   ""fixture_index"": ""analysis/v46_operator_smoke_test_bundle/safe_wording_fixture_linter/safe_wording_fixture_index.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/safe_wording_fixture_linter/safe_wording_fixture_lint.tsv"",
   ""n_expectation_failures"": 0,
@@ -705,7 +705,7 @@ safe_wording_fixture_linter	returned_package	/Users/soeren.leibach/Projects/ms-a
   ""synthetic"": true
 }
 "	(empty)
-result_report_safe_class_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/result_report_safe_class_linter --fail-on-error	0	0.067	PASS	"{
+result_report_safe_class_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/result_report_safe_class_linter --fail-on-error	0	0.06	PASS	"{
   ""expectation_met"": true,
   ""expected_status"": ""PASS"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/result_report_safe_class_linter/blocked_good/result_report_safe_class_lint.tsv"",
@@ -774,7 +774,7 @@ result_report_safe_class_linter	returned_package	/Users/soeren.leibach/Projects/
   ""synthetic"": true
 }
 "	(empty)
-report_header_metadata_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_report_header_metadata_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/report_header_metadata_linter --fail-on-error	0	0.077	PASS	""": ""SCORED_AGGREGATE_CANONICAL_PATH"",
+report_header_metadata_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_report_header_metadata_linter.py synthetic-check --outdir analysis/v46_operator_smoke_test_bundle/report_header_metadata_linter --fail-on-error	0	0.062	PASS	""": ""SCORED_AGGREGATE_CANONICAL_PATH"",
     ""safe_class"": ""ELIGIBLE_FOR_PREREGISTERED_INTERPRETATION"",
     ""terms_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT""
   },
@@ -857,7 +857,7 @@ report_header_metadata_linter	returned_package	/Users/soeren.leibach/Projects/ms
   ""synthetic"": true
 }
 "	(empty)
-report_header_repair_template_coverage	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_report_header_repair_template_coverage.py --outdir analysis/v46_operator_smoke_test_bundle/report_header_repair_template_coverage --fail-on-error	0	0.05	PASS	"{
+report_header_repair_template_coverage	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_report_header_repair_template_coverage.py --outdir analysis/v46_operator_smoke_test_bundle/report_header_repair_template_coverage --fail-on-error	0	0.051	PASS	"{
   ""issues"": 7,
   ""lint_failures"": 0,
   ""outputs"": [
@@ -873,7 +873,7 @@ report_header_repair_template_coverage	returned_package	/Users/soeren.leibach/Pr
   ""uncovered_required_fields"": 0
 }
 "	(empty)
-safe_class_report_template_readiness	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_class_report_template_readiness.py --outdir analysis/v46_operator_smoke_test_bundle/safe_class_report_template_readiness --fail-on-error	0	0.618	PASS	"{
+safe_class_report_template_readiness	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_safe_class_report_template_readiness.py --outdir analysis/v46_operator_smoke_test_bundle/safe_class_report_template_readiness --fail-on-error	0	0.493	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/safe_class_report_template_readiness/safe_class_report_template_lint.tsv"",
   ""linter_results"": ""analysis/v46_operator_smoke_test_bundle/safe_class_report_template_readiness/safe_class_report_template_linter_results.tsv"",
@@ -887,7 +887,7 @@ safe_class_report_template_readiness	returned_package	/Users/soeren.leibach/Proj
   ""synthetic"": true
 }
 "	(empty)
-small_n_conclusion_language	power_design	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_operator_smoke_test_bundle/small_n_conclusion_language	0	0.04	PASS	"{
+small_n_conclusion_language	power_design	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_operator_smoke_test_bundle/small_n_conclusion_language	0	0.038	PASS	"{
   ""contains_synthetic_examples"": true,
   ""language_table"": ""analysis/v46_operator_smoke_test_bundle/small_n_conclusion_language/small_n_conclusion_language.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/small_n_conclusion_language/SMALL_N_CONCLUSION_LANGUAGE.md"",
@@ -908,7 +908,7 @@ small_n_conclusion_language	power_design	/Users/soeren.leibach/Projects/ms-auto-
   ""synthetic"": false
 }
 "	(empty)
-analyzable_pair_confidence_envelope	power_design	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_analyzable_pair_confidence_envelope.py --outdir analysis/v46_operator_smoke_test_bundle/analyzable_pair_confidence_envelope --fail-on-error	0	0.045	PASS	"{
+analyzable_pair_confidence_envelope	power_design	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_analyzable_pair_confidence_envelope.py --outdir analysis/v46_operator_smoke_test_bundle/analyzable_pair_confidence_envelope --fail-on-error	0	0.046	PASS	"{
   ""envelope"": ""analysis/v46_operator_smoke_test_bundle/analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/analyzable_pair_confidence_envelope/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE.md"",
@@ -924,7 +924,7 @@ analyzable_pair_confidence_envelope	power_design	/Users/soeren.leibach/Projects/
   ""synthetic"": false
 }
 "	(empty)
-return_repair_request_templates	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_operator_smoke_test_bundle/return_repair_request_templates --fail-on-error	0	0.063	PASS	"{
+return_repair_request_templates	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_operator_smoke_test_bundle/return_repair_request_templates --fail-on-error	0	0.049	PASS	"{
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/repair_request_template_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md"",
   ""n_lint_checks"": 100,
@@ -943,7 +943,7 @@ return_repair_request_templates	returned_package	/Users/soeren.leibach/Projects/
   ""template_index"": ""analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/repair_request_template_index.tsv""
 }
 "	(empty)
-partial_label_repair_prioritization	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_repair_prioritization.py --outdir analysis/v46_operator_smoke_test_bundle/partial_label_repair_prioritization --fail-on-error	0	0.038	PASS	"{
+partial_label_repair_prioritization	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_repair_prioritization.py --outdir analysis/v46_operator_smoke_test_bundle/partial_label_repair_prioritization --fail-on-error	0	0.041	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/partial_label_repair_prioritization/partial_label_repair_prioritization_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/partial_label_repair_prioritization/PARTIAL_LABEL_REPAIR_PRIORITIZATION.md"",
@@ -971,7 +971,7 @@ first30_returned_package_decision_table	returned_package	/Users/soeren.leibach/P
   ""table"": ""analysis/v46_operator_smoke_test_bundle/first30_returned_package_decision_table/first30_returned_package_decision_table.tsv""
 }
 "	(empty)
-first30_repair_template_coverage_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_operator_smoke_test_bundle/first30_repair_template_coverage_linter --fail-on-error	0	0.046	PASS	"{
+first30_repair_template_coverage_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_operator_smoke_test_bundle/first30_repair_template_coverage_linter --fail-on-error	0	0.039	PASS	"{
   ""all_score_values_read_false"": true,
   ""coverage"": ""analysis/v46_operator_smoke_test_bundle/first30_repair_template_coverage_linter/first30_repair_template_coverage.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/first30_repair_template_coverage_linter/first30_repair_template_coverage_lint.tsv"",
@@ -991,7 +991,7 @@ first30_repair_template_coverage_linter	returned_package	/Users/soeren.leibach/P
   ""synthetic"": false
 }
 "	(empty)
-first30_status_board_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_status_board_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/first30_status_board_dryrun --fail-on-error	0	0.038	PASS	"{
+first30_status_board_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_status_board_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/first30_status_board_dryrun --fail-on-error	0	0.034	PASS	"{
   ""all_score_values_read_false"": true,
   ""board"": ""analysis/v46_operator_smoke_test_bundle/first30_status_board_dryrun/first30_status_board_dryrun.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/first30_status_board_dryrun/first30_status_board_dryrun_lint.tsv"",
@@ -1004,7 +1004,7 @@ first30_status_board_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-a
   ""synthetic"": false
 }
 "	(empty)
-status_board_schema_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_status_board_schema_linter.py --outdir analysis/v46_operator_smoke_test_bundle/status_board_schema_linter --fail-on-error	0	0.053	PASS	"{
+status_board_schema_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_status_board_schema_linter.py --outdir analysis/v46_operator_smoke_test_bundle/status_board_schema_linter --fail-on-error	0	0.042	PASS	"{
   ""all_score_values_read_false"": true,
   ""live_board"": ""analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv"",
   ""live_markdown"": ""analysis/v46_first30_returned_package_status_board_dryrun/FIRST30_STATUS_BOARD_DRYRUN.md"",
@@ -1018,7 +1018,7 @@ status_board_schema_linter	returned_package	/Users/soeren.leibach/Projects/ms-au
   ""synthetic"": true
 }
 "	(empty)
-status_board_markdown_roundtrip_renderer	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_status_board_markdown_roundtrip_renderer.py --outdir analysis/v46_operator_smoke_test_bundle/status_board_markdown_roundtrip_renderer --fail-on-error	0	0.044	PASS	"{
+status_board_markdown_roundtrip_renderer	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_status_board_markdown_roundtrip_renderer.py --outdir analysis/v46_operator_smoke_test_bundle/status_board_markdown_roundtrip_renderer --fail-on-error	0	0.046	PASS	"{
   ""all_score_values_read_false"": true,
   ""board"": ""analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv"",
   ""diff"": ""analysis/v46_operator_smoke_test_bundle/status_board_markdown_roundtrip_renderer/first30_status_board_roundtrip.diff"",
@@ -1033,7 +1033,7 @@ status_board_markdown_roundtrip_renderer	returned_package	/Users/soeren.leibach/
   ""synthetic_drift_fixture"": ""analysis/v46_operator_smoke_test_bundle/status_board_markdown_roundtrip_renderer/synthetic_manual_drift.md""
 }
 "	(empty)
-returned_package_preflight_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_preflight_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/returned_package_preflight_dryrun --fail-on-error	0	4.436	PASS	"{
+returned_package_preflight_dryrun	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_preflight_dryrun.py --outdir analysis/v46_operator_smoke_test_bundle/returned_package_preflight_dryrun --fail-on-error	0	4.335	PASS	"{
   ""all_score_values_read_false"": true,
   ""cases"": ""analysis/v46_operator_smoke_test_bundle/returned_package_preflight_dryrun/returned_package_preflight_dryrun_cases.tsv"",
   ""n_case_fail"": 0,
@@ -1048,7 +1048,7 @@ returned_package_preflight_dryrun	returned_package	/Users/soeren.leibach/Project
   ""synthetic"": true
 }
 "	(empty)
-returned_package_state_transition_validator	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_operator_smoke_test_bundle/state_transition_validator --fail-on-error	0	0.067	PASS	"{
+returned_package_state_transition_validator	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_operator_smoke_test_bundle/state_transition_validator --fail-on-error	0	0.049	PASS	"{
   ""allowed_transitions"": ""analysis/v46_operator_smoke_test_bundle/state_transition_validator/returned_package_allowed_transitions.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/state_transition_validator/returned_package_state_transition_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/state_transition_validator/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR.md"",
@@ -1068,7 +1068,7 @@ returned_package_state_transition_validator	returned_package	/Users/soeren.leiba
   ""synthetic"": true
 }
 "	(empty)
-operator_transcript_fixture	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_operator_transcript_fixture.py --outdir analysis/v46_operator_smoke_test_bundle/operator_transcript_fixture --fail-on-error	0	0.068	PASS	"{
+operator_transcript_fixture	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_operator_transcript_fixture.py --outdir analysis/v46_operator_smoke_test_bundle/operator_transcript_fixture --fail-on-error	0	0.052	PASS	"{
   ""all_score_values_read_false"": true,
   ""cases"": ""analysis/v46_operator_smoke_test_bundle/operator_transcript_fixture/operator_transcript_cases.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/operator_transcript_fixture/operator_transcript_lint.tsv"",
@@ -1084,45 +1084,62 @@ operator_transcript_fixture	returned_package	/Users/soeren.leibach/Projects/ms-a
   ""synthetic"": true
 }
 "	(empty)
-returned_package_handoff_bundle_manifest	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_handoff_bundle_manifest.py --outdir analysis/v46_operator_smoke_test_bundle/handoff_bundle_manifest --fail-on-error	0	0.053	PASS	"{
+returned_package_handoff_bundle_manifest	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_handoff_bundle_manifest.py --outdir analysis/v46_operator_smoke_test_bundle/handoff_bundle_manifest --fail-on-error	0	0.055	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/handoff_bundle_manifest/returned_package_handoff_bundle_lint.tsv"",
   ""manifest"": ""analysis/v46_operator_smoke_test_bundle/handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/handoff_bundle_manifest/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST.md"",
-  ""n_lint_checks"": 100,
+  ""n_lint_checks"": 104,
   ""n_lint_fail"": 0,
-  ""n_manifest_rows"": 25,
+  ""n_manifest_rows"": 26,
   ""overall_status"": ""PASS"",
   ""purpose"": ""V46 returned-package handoff bundle manifest; no biological claim"",
   ""synthetic"": false
 }
 "	(empty)
-returned_package_doc_crosslink_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_operator_smoke_test_bundle/doc_crosslink_linter --fail-on-error	0	0.073	PASS	"{
+returned_package_quickstart_readme	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_quickstart_readme.py --outdir analysis/v46_operator_smoke_test_bundle/quickstart_readme --fail-on-error	0	0.046	PASS	"{
+  ""all_score_values_read_false"": true,
+  ""commands"": ""analysis/v46_operator_smoke_test_bundle/quickstart_readme/returned_package_quickstart_commands.tsv"",
+  ""lint"": ""analysis/v46_operator_smoke_test_bundle/quickstart_readme/returned_package_quickstart_lint.tsv"",
+  ""markdown"": ""analysis/v46_operator_smoke_test_bundle/quickstart_readme/RETURNED_PACKAGE_QUICKSTART.md"",
+  ""n_handoff_commands"": 26,
+  ""n_lint_checks"": 13,
+  ""n_lint_fail"": 0,
+  ""n_receipt_branch_examples"": 8,
+  ""n_regression_steps"": 34,
+  ""n_smoke_steps"": 38,
+  ""n_total_command_rows"": 34,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package generated quickstart; no biological claim"",
+  ""synthetic"": false
+}
+"	(empty)
+returned_package_doc_crosslink_linter	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_operator_smoke_test_bundle/doc_crosslink_linter --fail-on-error	0	0.078	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/doc_crosslink_linter/returned_package_doc_crosslink_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/doc_crosslink_linter/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER.md"",
   ""n_fail"": 0,
-  ""n_lint_checks"": 132,
+  ""n_lint_checks"": 136,
   ""n_lint_fail"": 0,
-  ""n_scripts"": 33,
+  ""n_scripts"": 34,
   ""overall_status"": ""PASS"",
   ""purpose"": ""V46 returned-package documentation cross-link linter; no biological claim"",
   ""synthetic"": false,
   ""table"": ""analysis/v46_operator_smoke_test_bundle/doc_crosslink_linter/returned_package_doc_crosslink.tsv""
 }
 "	(empty)
-returned_package_dependency_graph	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_dependency_graph.py --outdir analysis/v46_operator_smoke_test_bundle/dependency_graph --stale-status-mode warn --suite-status-mode warn --fail-on-error	0	0.066	PASS	"{
+returned_package_dependency_graph	returned_package	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_dependency_graph.py --outdir analysis/v46_operator_smoke_test_bundle/dependency_graph --stale-status-mode warn --suite-status-mode warn --fail-on-error	0	0.063	PASS	"{
   ""all_score_values_read_false"": true,
   ""dot"": ""analysis/v46_operator_smoke_test_bundle/dependency_graph/returned_package_dependency_graph.dot"",
   ""edges"": ""analysis/v46_operator_smoke_test_bundle/dependency_graph/returned_package_dependency_edges.tsv"",
   ""lint"": ""analysis/v46_operator_smoke_test_bundle/dependency_graph/returned_package_dependency_lint.tsv"",
   ""markdown"": ""analysis/v46_operator_smoke_test_bundle/dependency_graph/RETURNED_PACKAGE_DEPENDENCY_GRAPH.md"",
-  ""n_edges"": 843,
-  ""n_lint_checks"": 228,
-  ""n_lint_fail"": 3,
+  ""n_edges"": 867,
+  ""n_lint_checks"": 235,
+  ""n_lint_fail"": 4,
   ""n_lint_hard_fail"": 0,
-  ""n_lint_warn"": 3,
-  ""n_nodes"": 618,
+  ""n_lint_warn"": 4,
+  ""n_nodes"": 631,
   ""nodes"": ""analysis/v46_operator_smoke_test_bundle/dependency_graph/returned_package_dependency_nodes.tsv"",
   ""overall_status"": ""PASS"",
   ""purpose"": ""V46 returned-package dependency graph; no biological claim"",
@@ -1131,7 +1148,7 @@ returned_package_dependency_graph	returned_package	/Users/soeren.leibach/Project
   ""synthetic"": false
 }
 "	(empty)
-no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_operator_smoke_test_bundle/no_raw_git_scanner	0	0.515	PASS	"{
+no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_operator_smoke_test_bundle/no_raw_git_scanner	0	0.579	PASS	"{
   ""hard_forbidden_prefixes"": [
     ""data/quarantine/"",
     ""data/raw_v3/gafson_dmf_2018/"",

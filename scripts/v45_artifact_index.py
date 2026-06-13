@@ -36,7 +36,8 @@ def changed_paths() -> list[str]:
     # Include the current checkpoint before it has been committed, so the index
     # can describe its own generator and outputs in the commit that adds them.
     for line in git_lines(["ls-files", "--others", "--exclude-standard"]):
-        if "v45" in line.lower() or "V45" in line:
+        lower = line.lower()
+        if "v45" in lower or "v46" in lower:
             paths.add(line)
     return sorted(paths)
 
