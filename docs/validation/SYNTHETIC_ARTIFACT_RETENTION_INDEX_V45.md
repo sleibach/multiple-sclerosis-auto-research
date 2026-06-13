@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `129` V43-V46 analysis directories, with `88`
+The refreshed index covers `130` V43-V46 analysis directories, with `88`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -51,6 +51,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `integrity_governance` | `1` | `6` | Returned-package dependency graph only |
 | `integrity_governance` | `1` | `4` | Returned-package documentation cross-link only |
 | `integrity_governance` | `1` | `8` | Route packet checksum/freshness only |
+| `integrity_governance` | `1` | `4` | Safe-interpretation example coverage only |
 | `integrity_governance` | `1` | `6` | State-machine transition consistency only |
 | `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
 | `operations` | `1` | `4` | Acquisition follow-up status only |

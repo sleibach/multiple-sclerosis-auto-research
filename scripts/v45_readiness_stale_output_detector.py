@@ -756,6 +756,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_safe_interpretation_examples.py --outdir analysis/v46_safe_interpretation_examples --fail-on-error",
     },
     {
+        "artifact": "v46_safe_interpretation_example_coverage_linter",
+        "sources": [
+            "docs/validation/SAFE_INTERPRETATION_EXAMPLE_COVERAGE_LINTER_V46.md",
+            "analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv",
+            "analysis/v46_safe_interpretation_examples/safe_interpretation_examples.tsv",
+            "scripts/v46_safe_interpretation_example_coverage_linter.py",
+        ],
+        "outputs": [
+            "analysis/v46_safe_interpretation_example_coverage_linter/safe_interpretation_example_coverage_summary.json",
+            "analysis/v46_safe_interpretation_example_coverage_linter/safe_interpretation_example_coverage.tsv",
+            "analysis/v46_safe_interpretation_example_coverage_linter/safe_interpretation_example_coverage_lint.tsv",
+            "analysis/v46_safe_interpretation_example_coverage_linter/SAFE_INTERPRETATION_EXAMPLE_COVERAGE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_safe_interpretation_example_coverage_linter.py --outdir analysis/v46_safe_interpretation_example_coverage_linter --fail-on-error",
+    },
+    {
         "artifact": "v46_return_repair_request_templates",
         "sources": [
             "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",

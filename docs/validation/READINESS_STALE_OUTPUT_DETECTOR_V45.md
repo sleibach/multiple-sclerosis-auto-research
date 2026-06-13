@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `62`
+- artifacts checked: `63`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -68,6 +68,7 @@ Checked generated artifacts:
 - V46 small-n conclusion language table;
 - V46 analyzable-pair confidence envelope;
 - V46 safe-interpretation examples;
+- V46 safe-interpretation example coverage linter;
 - V46 return repair-request templates;
 - V46 partial-label repair prioritization;
 - V46 first-30-minute returned-package decision table;

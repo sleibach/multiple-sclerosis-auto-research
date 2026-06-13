@@ -1,0 +1,13 @@
+safe_class	report_mode	n_examples	example_ids	coverage_status	non_example_reason	score_values_read
+BLOCKED_TERMS_OR_RECEIPT_GATES	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by terms-governance, receipt-manifest, first-30 stop-route, and repair-template fixtures; no returned-package interpretation example is permitted.	false
+BLOCKED_REDACTION	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by author-run return gate and redaction precheck fixtures; no operator interpretation wording is allowed before redaction passes.	false
+BLOCKED_COMPLETENESS	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by unscoreable-return composition and repair-template fixtures; examples stop before safe interpretation when required outputs are missing.	false
+BLOCKED_RETURN_GATE	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by command-order and return-gate fixtures; no example should normalize a failed combined gate into result wording.	false
+BLOCKED_SCHEMA	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by receipt/schema and result-report linters; malformed aggregate outputs stop before example-card wording.	false
+BLOCKED_METADATA_CONTRADICTION	STOP_ONLY	0		EXPLICIT_NON_EXAMPLE_REASON	Covered by report-header metadata and metadata-contradiction guards; contradictory metadata blocks result review.	false
+CONTEXT_ONLY_OR_LABELS_NEEDED	STOP_ONLY	1	aggregate_only_no_labels	EXAMPLE_CARD		false
+BELOW_V45_PLANNING_FLOOR	STOP_ONLY	1	aggregate_only_below_floor	EXAMPLE_CARD		false
+INCONCLUSIVE_SMALL_COHORT	RESULT_SKELETON_ALLOWED_AFTER_GATES	2	partial_labels_effect_size_only;small_clean_full_labels	EXAMPLE_CARD		false
+MINIMUM_DECISION_GRADE_CAUTION	RESULT_SKELETON_ALLOWED_AFTER_GATES	1	minimum_decision_grade_clean	EXAMPLE_CARD		false
+CAUTION_BATCH_OR_CONFOUNDER	RESULT_SKELETON_ALLOWED_AFTER_GATES	1	batch_or_confounder_caution	EXAMPLE_CARD		false
+ELIGIBLE_FOR_PREREGISTERED_INTERPRETATION	RESULT_SKELETON_ALLOWED_AFTER_GATES	1	preferred_decision_grade_clean	EXAMPLE_CARD		false
