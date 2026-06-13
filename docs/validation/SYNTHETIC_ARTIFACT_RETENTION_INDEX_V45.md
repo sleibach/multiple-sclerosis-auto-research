@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `126` V43-V46 analysis directories, with `86`
+The refreshed index covers `127` V43-V46 analysis directories, with `86`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -70,6 +70,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `operations` | `1` | `4` | Returned-package handoff navigation only |
 | `operations` | `1` | `4` | Returned-package quickstart navigation only |
 | `operations` | `1` | `14` | Returned-package repair request drafts only |
+| `operations` | `1` | `11` | Returned-package safe-interpretation examples only |
 | `operations` | `1` | `6` | Route-specific arrival commands only |
 | `operations` | `1` | `12` | Unsent acquisition message drafts only |
 | `operations` | `4` | `5` | Acquisition operations only |

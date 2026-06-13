@@ -167,6 +167,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_analyzable_pair_confidence_envelope.py", "--outdir", rel(outdir / "analyzable_pair_confidence_envelope"), "--fail-on-error"],
         ),
         (
+            "safe_interpretation_examples",
+            "power_design",
+            [py, "scripts/v46_safe_interpretation_examples.py", "--outdir", rel(outdir / "safe_interpretation_examples"), "--fail-on-error"],
+        ),
+        (
             "return_repair_request_templates",
             "returned_package",
             [py, "scripts/v46_return_repair_request_templates.py", "--outdir", rel(outdir / "return_repair_request_templates"), "--fail-on-error"],

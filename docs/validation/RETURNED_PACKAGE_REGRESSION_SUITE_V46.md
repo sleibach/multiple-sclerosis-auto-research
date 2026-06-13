@@ -40,28 +40,29 @@ data, run validation, change locked rules, or interpret biological results.
 16. V46 safe-class report-template readiness map.
 17. V46 small-n conclusion language table.
 18. V46 analyzable-pair confidence envelope.
-19. V46 return repair-request templates.
-20. V46 partial-label repair prioritization.
-21. V46 first-30-minute returned-package decision table.
-22. V46 first-30 repair-template coverage linter.
-23. V46 first-30 returned-package status-board dry run.
-24. V46 returned-package status-board schema linter.
-25. V46 status-board Markdown round-trip renderer.
-26. V46 returned-package preflight dry run.
-27. V46 returned-package state-transition validator.
-28. V46 operator transcript fixture.
-29. V46 returned-package handoff bundle manifest.
-30. V46 returned-package generated quickstart README.
-31. V46 returned-package documentation cross-link linter.
-32. V45/V46 readiness stale-output detector.
-33. V46 returned-package dependency graph.
-34. V45 no-raw-data git scanner.
+19. V46 safe-interpretation examples.
+20. V46 return repair-request templates.
+21. V46 partial-label repair prioritization.
+22. V46 first-30-minute returned-package decision table.
+23. V46 first-30 repair-template coverage linter.
+24. V46 first-30 returned-package status-board dry run.
+25. V46 returned-package status-board schema linter.
+26. V46 status-board Markdown round-trip renderer.
+27. V46 returned-package preflight dry run.
+28. V46 returned-package state-transition validator.
+29. V46 operator transcript fixture.
+30. V46 returned-package handoff bundle manifest.
+31. V46 returned-package generated quickstart README.
+32. V46 returned-package documentation cross-link linter.
+33. V45/V46 readiness stale-output detector.
+34. V46 returned-package dependency graph.
+35. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `34`
+- steps: `35`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`

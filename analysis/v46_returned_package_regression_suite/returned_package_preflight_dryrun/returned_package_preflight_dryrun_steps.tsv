@@ -1,5 +1,5 @@
 case	step	command	expected_returncode	returncode	elapsed_seconds	status	stdout_tail	stderr_tail	score_values_read
-global	first30_decision_table	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/first30_decision_table --fail-on-error	0	0	0.052	PASS	"{
+global	first30_decision_table	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/first30_decision_table --fail-on-error	0	0	0.041	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/first30_decision_table/first30_returned_package_decision_lint.tsv"",
   ""markdown"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/first30_decision_table/FIRST30_RETURNED_PACKAGE_DECISION_TABLE.md"",
@@ -13,7 +13,7 @@ global	first30_decision_table	/Users/soeren.leibach/Projects/ms-auto-research/.v
   ""table"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/first30_decision_table/first30_returned_package_decision_table.tsv""
 }
 "	(empty)	false
-global	state_transition_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/state_transition_validator --fail-on-error	0	0	0.042	PASS	"{
+global	state_transition_validator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/state_transition_validator --fail-on-error	0	0	0.034	PASS	"{
   ""allowed_transitions"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/state_transition_validator/returned_package_allowed_transitions.tsv"",
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/state_transition_validator/returned_package_state_transition_lint.tsv"",
   ""markdown"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/state_transition_validator/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR.md"",
@@ -33,7 +33,7 @@ global	state_transition_validator	/Users/soeren.leibach/Projects/ms-auto-researc
   ""synthetic"": true
 }
 "	(empty)	false
-global	repair_template_coverage	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/repair_template_coverage --fail-on-error	0	0	0.041	PASS	"{
+global	repair_template_coverage	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/repair_template_coverage --fail-on-error	0	0	0.037	PASS	"{
   ""all_score_values_read_false"": true,
   ""coverage"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/repair_template_coverage/first30_repair_template_coverage.tsv"",
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/repair_template_coverage/first30_repair_template_coverage_lint.tsv"",
@@ -53,7 +53,7 @@ global	repair_template_coverage	/Users/soeren.leibach/Projects/ms-auto-research/
   ""synthetic"": false
 }
 "	(empty)	false
-canonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/canonical_scored_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/receipt_manifest_schema_lint	0	0	0.349	PASS	"{
+canonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/canonical_scored_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/receipt_manifest_schema_lint	0	0	0.305	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/canonical_scored_preflight/receipt_manifest.tsv"",
@@ -66,7 +66,7 @@ canonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Pr
   ""synthetic_case"": ""none""
 }
 "	(empty)	false
-canonical_scored_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/canonical_scored_preflight/receipt_manifest.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.512	PASS	"{
+canonical_scored_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/canonical_scored_preflight/receipt_manifest.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.278	PASS	"{
   ""classification"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/canonical_scored_preflight/package_manifest_shape_classifier/package_manifest_shape_classification.tsv"",
   ""first30_scenario"": ""scored_canonical_aggregate"",
   ""metric_format_state_for_command_order"": ""canonical"",
@@ -77,7 +77,7 @@ canonical_scored_preflight	package_manifest_shape_classification	/Users/soeren.l
   ""synthetic"": true
 }
 "	(empty)	false
-noncanonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/noncanonical_scored_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/receipt_manifest_schema_lint	0	0	0.363	PASS	"{
+noncanonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/noncanonical_scored_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/receipt_manifest_schema_lint	0	0	0.298	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/noncanonical_scored_preflight/receipt_manifest.tsv"",
@@ -90,7 +90,7 @@ noncanonical_scored_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach
   ""synthetic_case"": ""none""
 }
 "	(empty)	false
-noncanonical_scored_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/noncanonical_scored_preflight/receipt_manifest.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.471	PASS	"{
+noncanonical_scored_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/noncanonical_scored_preflight/receipt_manifest.tsv --terms-class AGGREGATE_ONLY_LOCAL_PREFLIGHT --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.34	PASS	"{
   ""classification"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/noncanonical_scored_preflight/package_manifest_shape_classifier/package_manifest_shape_classification.tsv"",
   ""first30_scenario"": ""scored_noncanonical_aggregate"",
   ""metric_format_state_for_command_order"": ""noncanonical"",
@@ -101,7 +101,7 @@ noncanonical_scored_preflight	package_manifest_shape_classification	/Users/soere
   ""synthetic"": true
 }
 "	(empty)	false
-unknown_alias_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unknown_alias_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unknown_alias_preflight/receipt_manifest_schema_lint	2	2	0.365	PASS	"{
+unknown_alias_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unknown_alias_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unknown_alias_preflight/receipt_manifest_schema_lint	2	2	0.272	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unknown_alias_preflight/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unknown_alias_preflight/receipt_manifest.tsv"",
@@ -114,7 +114,7 @@ unknown_alias_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Proje
   ""synthetic_case"": ""none""
 }
 "	(empty)	false
-unscoreable_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unscoreable_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/receipt_manifest_schema_lint	0	0	0.538	PASS	"{
+unscoreable_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unscoreable_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/receipt_manifest_schema_lint	0	0	0.286	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unscoreable_preflight/receipt_manifest.tsv"",
@@ -127,7 +127,7 @@ unscoreable_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Project
   ""synthetic_case"": ""none""
 }
 "	(empty)	false
-unscoreable_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unscoreable_preflight/receipt_manifest.tsv --terms-class AUTHOR_RUN_ONLY --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.406	PASS	"{
+unscoreable_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unscoreable_preflight/receipt_manifest.tsv --terms-class AUTHOR_RUN_ONLY --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.333	PASS	"{
   ""classification"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unscoreable_preflight/package_manifest_shape_classifier/package_manifest_shape_classification.tsv"",
   ""first30_scenario"": ""unscoreable_aggregate"",
   ""metric_format_state_for_command_order"": ""canonical"",
@@ -138,7 +138,7 @@ unscoreable_preflight	package_manifest_shape_classification	/Users/soeren.leibac
   ""synthetic"": true
 }
 "	(empty)	false
-terms_blocked_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/terms_blocked_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/receipt_manifest_schema_lint	0	0	0.544	PASS	"{
+terms_blocked_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/terms_blocked_preflight/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/receipt_manifest_schema_lint	0	0	0.271	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/terms_blocked_preflight/receipt_manifest.tsv"",
@@ -151,7 +151,7 @@ terms_blocked_preflight	receipt_manifest_schema_lint	/Users/soeren.leibach/Proje
   ""synthetic_case"": ""none""
 }
 "	(empty)	false
-terms_blocked_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/terms_blocked_preflight/receipt_manifest.tsv --terms-class NO_PROCESSING_ALLOWED --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.498	PASS	"{
+terms_blocked_preflight	package_manifest_shape_classification	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_package_manifest_shape_classifier.py classify --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/terms_blocked_preflight/receipt_manifest.tsv --terms-class NO_PROCESSING_ALLOWED --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/package_manifest_shape_classifier --fail-on-error	0	0	0.363	PASS	"{
   ""classification"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/terms_blocked_preflight/package_manifest_shape_classifier/package_manifest_shape_classification.tsv"",
   ""first30_scenario"": ""terms_blocked_return"",
   ""metric_format_state_for_command_order"": ""canonical"",
@@ -162,7 +162,7 @@ terms_blocked_preflight	package_manifest_shape_classification	/Users/soeren.leib
   ""synthetic"": true
 }
 "	(empty)	false
-unsafe_raw_manifest	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unsafe_raw_manifest/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unsafe_raw_manifest/receipt_manifest_schema_lint	2	2	0.499	PASS	"{
+unsafe_raw_manifest	receipt_manifest_schema_lint	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_receipt_manifest_schema_linter.py lint --manifest analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unsafe_raw_manifest/receipt_manifest.tsv --outdir analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unsafe_raw_manifest/receipt_manifest_schema_lint	2	2	0.311	PASS	"{
   ""all_score_values_read_false"": true,
   ""lint"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/unsafe_raw_manifest/receipt_manifest_schema_lint/receipt_manifest_schema_lint.tsv"",
   ""manifest"": ""analysis/v46_returned_package_regression_suite/returned_package_preflight_dryrun/synthetic/unsafe_raw_manifest/receipt_manifest.tsv"",

@@ -738,6 +738,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_analyzable_pair_confidence_envelope.py --outdir analysis/v46_analyzable_pair_confidence_envelope --fail-on-error",
     },
     {
+        "artifact": "v46_safe_interpretation_examples",
+        "sources": [
+            "docs/validation/SAFE_INTERPRETATION_EXAMPLES_V46.md",
+            "analysis/v46_safe_class_report_template_readiness/safe_class_report_template_map.tsv",
+            "analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv",
+            "analysis/v46_analyzable_pair_confidence_envelope/analyzable_pair_confidence_envelope.tsv",
+            "analysis/v46_partial_label_repair_prioritization/partial_label_repair_prioritization.tsv",
+            "scripts/v46_safe_interpretation_examples.py",
+        ],
+        "outputs": [
+            "analysis/v46_safe_interpretation_examples/safe_interpretation_examples_summary.json",
+            "analysis/v46_safe_interpretation_examples/safe_interpretation_examples.tsv",
+            "analysis/v46_safe_interpretation_examples/safe_interpretation_examples_lint.tsv",
+            "analysis/v46_safe_interpretation_examples/SAFE_INTERPRETATION_EXAMPLES.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_safe_interpretation_examples.py --outdir analysis/v46_safe_interpretation_examples --fail-on-error",
+    },
+    {
         "artifact": "v46_return_repair_request_templates",
         "sources": [
             "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",

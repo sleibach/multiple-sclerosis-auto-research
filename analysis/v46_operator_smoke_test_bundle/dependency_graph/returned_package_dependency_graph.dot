@@ -261,6 +261,7 @@ digraph returned_package_dependencies {
   "regression_step:returned_package_state_transition_validator" [label="returned_package_state_transition_validator", shape=ellipse];
   "regression_step:safe_class_report_template_readiness" [label="safe_class_report_template_readiness", shape=ellipse];
   "regression_step:safe_interpretation_classifier_synthetic" [label="safe_interpretation_classifier_synthetic", shape=ellipse];
+  "regression_step:safe_interpretation_examples" [label="safe_interpretation_examples", shape=ellipse];
   "regression_step:safe_wording_fixture_linter" [label="safe_wording_fixture_linter", shape=ellipse];
   "regression_step:small_n_conclusion_language" [label="small_n_conclusion_language", shape=ellipse];
   "regression_step:status_board_markdown_roundtrip_renderer" [label="status_board_markdown_roundtrip_renderer", shape=ellipse];
@@ -303,6 +304,7 @@ digraph returned_package_dependencies {
   "script:scripts/v46_returned_package_state_transition_validator.py" [label="scripts/v46_returned_package_state_transition_validator.py", shape=box];
   "script:scripts/v46_returned_package_status_board_schema_linter.py" [label="scripts/v46_returned_package_status_board_schema_linter.py", shape=box];
   "script:scripts/v46_safe_class_report_template_readiness.py" [label="scripts/v46_safe_class_report_template_readiness.py", shape=box];
+  "script:scripts/v46_safe_interpretation_examples.py" [label="scripts/v46_safe_interpretation_examples.py", shape=box];
   "script:scripts/v46_safe_wording_fixture_linter.py" [label="scripts/v46_safe_wording_fixture_linter.py", shape=box];
   "script:scripts/v46_small_n_conclusion_language_table.py" [label="scripts/v46_small_n_conclusion_language_table.py", shape=box];
   "script:scripts/v46_status_board_markdown_roundtrip_renderer.py" [label="scripts/v46_status_board_markdown_roundtrip_renderer.py", shape=box];
@@ -793,6 +795,7 @@ digraph returned_package_dependencies {
   "script:scripts/v46_safe_class_report_template_readiness.py" -> "handoff_artifact:safe_class_report_template_readiness" [label="runs_for_handoff_artifact"];
   "script:scripts/v46_safe_class_report_template_readiness.py" -> "regression_step:safe_class_report_template_readiness" [label="runs_for_suite_step"];
   "script:scripts/v46_safe_class_report_template_readiness.py" -> "smoke_step:safe_class_report_template_readiness" [label="runs_for_suite_step"];
+  "script:scripts/v46_safe_interpretation_examples.py" -> "regression_step:safe_interpretation_examples" [label="runs_for_suite_step"];
   "script:scripts/v46_safe_wording_fixture_linter.py" -> "regression_step:safe_wording_fixture_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_safe_wording_fixture_linter.py" -> "smoke_step:safe_wording_fixture_linter" [label="runs_for_suite_step"];
   "script:scripts/v46_small_n_conclusion_language_table.py" -> "handoff_artifact:small_n_language" [label="runs_for_handoff_artifact"];
@@ -1491,6 +1494,7 @@ digraph returned_package_dependencies {
   "suite:returned_package_regression_suite" -> "regression_step:returned_package_state_transition_validator" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_class_report_template_readiness" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_interpretation_classifier_synthetic" [label="contains_step"];
+  "suite:returned_package_regression_suite" -> "regression_step:safe_interpretation_examples" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:safe_wording_fixture_linter" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:small_n_conclusion_language" [label="contains_step"];
   "suite:returned_package_regression_suite" -> "regression_step:status_board_markdown_roundtrip_renderer" [label="contains_step"];

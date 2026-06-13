@@ -50,6 +50,7 @@ generate more internally executable tasks before continuing.
 | 30 | 2026-06-13T13:00:00Z | 2026-06-13T13:15:19Z | done | Added returned-package status-board schema linter for TSV/Markdown team-update outputs and integrated it into regression, smoke, handoff, crosslink, stale, and dependency-graph governance. |
 | 31 | 2026-06-13T13:16:40Z | 2026-06-13T13:27:20Z | done | Added safe-class report-template readiness map proving every V46 safe class has a stop/report skeleton path before score-bearing language. |
 | 32 | 2026-06-13T15:05:48Z | 2026-06-13T15:21:18Z | done | Added generated returned-package quickstart README from handoff and receipt-command plan tables, integrated it into regression/smoke/governance, and fixed the V45 artifact index to include uncommitted V46 files. |
+| 33 | 2026-06-13T15:21:18Z | 2026-06-13T15:31:24Z | done | Added safe-interpretation example cards for aggregate-only, partial-label, underpowered, diagnostic-caution, and preferred-decision returned packages; integrated them into regression/smoke/governance outputs. |
 
 ## Live Backlog
 
@@ -102,9 +103,10 @@ generate more internally executable tasks before continuing.
 | 45 | Operations | Add end-to-end returned-package operator transcript fixture from receipt manifest through status board and report skeleton without opening score-bearing values | done | `scripts/v46_operator_transcript_fixture.py`; PASS with `3` scenarios, `12` transcript steps, `69` lint checks, all `score_values_read=false`. Integrated into regression suite, smoke bundle, handoff manifest, doc cross-link linter, dependency graph, stale-output registry, and synthetic-artifact index. |
 | 46 | Infrastructure | Add compact returned-package quickstart README generated from the handoff manifest and command-order planner so operator instructions cannot drift from runnable commands | done | `scripts/v46_returned_package_quickstart_readme.py`; PASS with `26` handoff commands, `8` receipt branch examples, `34` total command rows, `13` lint checks, all `score_values_read=false`. Regression suite now `34` steps, smoke bundle now `38` steps, handoff manifest now `26` rows, doc cross-link linter checks `34` scripts, and dependency graph strict PASS with `631` nodes, `867` edges, `235` checks. |
 | 47 | Infrastructure/RPT | Add RPT unavailable fallback documentation and smoke-result normalizer if item 43 cannot implement the `sap-rpt-1-large` request schema quickly | done | Superseded by item 43: RPT is available through `rpt-smoke`; the new health wrapper normalizes per-family smoke results and prevents the false generic-smoke failure. |
-| 48 | Power/design | Add safe interpretation examples for aggregate-only, partial-label, and underpowered returned packages combining small-n language with safe-class report skeletons | todo | Self-generated after item 41; extends items 9 and 19 into concrete operator-facing examples. |
+| 48 | Power/design | Add safe interpretation examples for aggregate-only, partial-label, and underpowered returned packages combining small-n language with safe-class report skeletons | done | `scripts/v46_safe_interpretation_examples.py`; PASS with `7` examples, `56` lint checks, all `score_values_read=false`. Regression suite now `35` steps, smoke bundle now `39` steps, stale-output detector now checks `60` artifacts, and synthetic artifact index now covers `127` V43-V46 directories. |
 | 49 | Infrastructure | Add quickstart drift fixture that intentionally edits a copied README command and proves the generated quickstart/lint catches manual command drift | todo | Self-generated after item 46; hardens the new quickstart against manual-edit regression. |
 | 50 | Operations | Add one-page returned-package operator pocket card generated from quickstart, first-30 status board, and safe-class report-template map | todo | Self-generated after item 46; compact operator-facing derivative generated from existing machine-readable sources only. |
+| 51 | Infrastructure | Add safe-interpretation example coverage linter proving every safe class either has an example card or an explicit reason it is not represented in the examples bundle | todo | Self-generated after item 48; prevents the examples from silently covering only easy returned-package states. |
 
 ## Generated Follow-Ups
 
@@ -124,6 +126,20 @@ todo items.
 - 2026-06-13T15:21:18Z: Generated follow-up items 49-50 after item 46 to
   keep the executable backlog above threshold and harden the new generated
   quickstart plus compact operator-card surface.
+- 2026-06-13T15:31:24Z: Item 48 verification: safe-interpretation examples
+  PASS (`7` examples, `56` lint checks, `0` failures, all
+  `score_values_read=false`); regression suite PASS (`35` steps); operator
+  smoke bundle PASS (`39` steps); dependency graph strict PASS (`642` nodes,
+  `881` edges, `238` checks, `0` failures); stale-output detector PASS (`60`
+  artifacts, `0` stale); generated-checker registry PASS (`113` scripts);
+  synthetic artifact index refreshed (`127` directories, `86` synthetic-marked);
+  generated-doc freshness PASS; OpenGWAS HTTP 200 with JWT valid to
+  `2026-06-19 12:28 UTC` (`RENEW_SOON`); SAP AI Core health PASS for Claude,
+  Gemini, and RPT; locked hash audit PASS; no-raw scanner PASS with warnings
+  only; `git diff --check` PASS.
+- 2026-06-13T15:31:24Z: Generated follow-up item 51 after item 48 to keep
+  backlog above threshold and add coverage-accounting for safe-interpretation
+  examples.
 
 ## Running Notes
 

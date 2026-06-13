@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `59`
+- artifacts checked: `60`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -67,6 +67,7 @@ Checked generated artifacts:
 - V46 operator transcript fixture;
 - V46 small-n conclusion language table;
 - V46 analyzable-pair confidence envelope;
+- V46 safe-interpretation examples;
 - V46 return repair-request templates;
 - V46 partial-label repair prioritization;
 - V46 first-30-minute returned-package decision table;
