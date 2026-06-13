@@ -37,6 +37,7 @@ No external knowledge integration occurs until:
 | 8 | 2026-06-13T19:10:54Z | 2026-06-13T19:17:53Z | done | Added class-preserving external resource category rollup. Synthetic fixture PASS (`4/4` checks); real rollup PASS (`21` resources, `7` categories, `0` missing not-grounded markers). Corrected category routing with explicit resource-token mappings. Governance refreshed: generated-checker registry PASS (`121` scripts), stale detector PASS (`68` artifacts), doc freshness PASS, provenance audit PASS (`190` checks). |
 | 9 | 2026-06-13T19:19:39Z | 2026-06-13T19:23:08Z | done | Added class-aware convergence/contradiction placeholder skeleton. Synthetic fixture PASS (`5/5` checks); real skeleton PASS (`21` placeholder rows, `0` linked rows, `0` missing sources/markers). Provenance audit PASS (`190` checks), stale detector PASS (`69` artifacts). |
 | 10 | 2026-06-13T19:23:54Z | 2026-06-13T19:26:56Z | done | Added relationship-to-project-finding controlled vocabulary docs and linter. Synthetic fixture PASS (`4/4` checks; bad fixtures intentionally fail underlying lint); real lint PASS (`21` records, `63` checks, `0` failures). Provenance audit PASS and stale detector PASS (`70` artifacts). |
+| 11 | 2026-06-13T19:27:43Z | 2026-06-13T19:31:31Z | done | Added 5 source-verified public MS clinical/reference resource records: National MS Society, MSIF Atlas of MS, NICE NG220, NINDS MS CDE, and MS Society UK. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`26` records), category rollup PASS (`26` resources, `9` categories), schema lint PASS (`520` checks), relationship lint PASS (`78` checks), provenance audit PASS (`235` checks). |
 
 ## Live Backlog
 
@@ -58,11 +59,11 @@ No external knowledge integration occurs until:
 | 14 | Governance | Add optional resource-record JSON schema validation checker when `jsonschema` is available, with graceful unavailable status | done | Implemented dependency-free required-field/schema linter instead: `scripts/v47_external_record_schema_linter.py`; real records PASS (`420` checks, `0` failures). |
 | 15 | External integration | MS-specific landmark external knowledge records for current disease-course and DMT mechanisms | todo | Must be external-classed with sources; no changes to grounded conclusions. |
 | 16 | Navigation/index | Add resource-category rollup for external records so public readers can browse by literature / registry / genetics / data repository | done | `scripts/v47_external_resource_category_rollup.py`; outputs under `knowledge_external/catalogs/indexes/`; synthetic and real rollups PASS. |
-| 17 | External integration | MS society/clinical-reference resources for public-reader disease-course context | todo | Must be external-unverifiable context only; source-verified. |
+| 17 | External integration | MS society/clinical-reference resources for public-reader disease-course context | done | Added source-verified external-unverifiable records for National MS Society, MS Society UK, MSIF Atlas, NICE NG220, and NINDS MS CDE. |
 | 18 | Governance | Add relationship-to-project-finding controlled vocabulary documentation and lint examples | done | `docs/knowledge/RELATIONSHIP_TO_PROJECT_FINDINGS_V47.md`; `scripts/v47_relationship_vocabulary_linter.py`; real lint PASS (`21` records, `63` checks). |
 | 19 | Navigation/index | Add source-access-tier rollup for open / registration / application / controlled / mixed resources | todo | Reads `knowledge_external` only; preserves class/source markers; helps readers distinguish immediately usable public resources from controlled resources. |
 | 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | todo | Should catch classed rows rendered without provenance in generated navigation docs. |
-| 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | todo | Use official clinical / society / public-health sources; external-unverifiable only. |
+| 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | done | Covered by iteration 11 public clinical/reference resource records; no grounded findings changed. |
 | 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | todo | External context only; no treatment-response rule changes. |
 | 23 | Synthesis | Build class-aware convergence/contradiction skeleton with empty grounded-link rows until specific claim records exist | todo | Must live under `knowledge_external/synthesis/` and label every row by epistemic class. |
 
@@ -137,3 +138,12 @@ No external knowledge integration occurs until:
   fixture PASS (`4/4` checks; bad relationship and unsupported `supports`
   fixtures intentionally fail the underlying lint). Real lint PASS (`21`
   records, `63` checks, `0` failures); stale detector PASS (`70` artifacts).
+- 2026-06-13T19:31:31Z: Five public MS clinical/reference resource records
+  added after source verification: National MS Society Types of MS, MSIF Atlas
+  of MS, NICE NG220, NINDS MS Common Data Elements, and MS Society UK Types of
+  MS. All are `external-unverifiable` resource metadata and explicitly
+  `NOT_PROJECT_GROUNDED`. Real external index PASS (`26` records), category
+  rollup PASS (`26` resources, `9` categories), schema lint PASS (`520`
+  checks), relationship lint PASS (`78` checks), convergence skeleton PASS
+  (`26` placeholder rows, `0` linked rows), provenance audit PASS (`235`
+  checks, `26` records, `0` failures), stale detector PASS (`70` artifacts).

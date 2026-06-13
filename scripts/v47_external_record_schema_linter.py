@@ -102,7 +102,7 @@ def add_check(rows: list[dict[str, object]], path: str, record_id: str, check: s
             "record_id": record_id,
             "check": check,
             "status": "PASS" if ok else "FAIL",
-            "detail": detail,
+            "detail": detail or "-",
         }
     )
 
@@ -246,4 +246,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

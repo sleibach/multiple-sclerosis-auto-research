@@ -2,7 +2,7 @@
 
 Status: placeholder-only navigation. This file does not assert convergence, contradiction, support, or validation.
 
-- external rows represented: `21`
+- external rows represented: `26`
 - linked rows: `0`
 - rows missing source: `0`
 - rows missing marker: `0`
@@ -24,10 +24,15 @@ Status: placeholder-only navigation. This file does not assert convergence, cont
 | resource.geo.functional_genomics.2026-06-13 | `external-unverifiable` | https://www.ncbi.nlm.nih.gov/geo/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.gwas_catalog.ms.2026-06-13 | `external-unverifiable` | https://www.ebi.ac.uk/gwas/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.imsgc.publications.2026-06-13 | `external-unverifiable` | https://imsgc.net/publications/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
+| resource.ms_society_uk.types_of_ms.2026-06-13 | `external-unverifiable` | https://www.mssociety.org.uk/about-ms/types-of-ms | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.msbase.registry.2026-06-13 | `external-unverifiable` | https://www.msbase.org/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.msda.catalogue.2026-06-13 | `external-unverifiable` | https://msda.emif-catalogue.eu/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.msgd.database_commons.2026-06-13 | `external-unverifiable` | https://ngdc.cncb.ac.cn/databasecommons/database/id/9285 | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
+| resource.msif.atlas_of_ms.2026-06-13 | `external-unverifiable` | https://atlasofms.org/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.narcoms.registry.2026-06-13 | `external-unverifiable` | https://www.narcoms.org/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
+| resource.national_ms_society.types_of_ms.2026-06-13 | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
+| resource.nice.ng220_ms_management.2026-06-13 | `external-unverifiable` | https://www.nice.org.uk/guidance/ng220 | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
+| resource.ninds.ms_common_data_elements.2026-06-13 | `external-unverifiable` | https://www.commondataelements.ninds.nih.gov/Multiple%20Sclerosis | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.open_targets.platform.2026-06-13 | `external-unverifiable` | https://platform-docs.opentargets.org/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.osf.repository.2026-06-13 | `external-unverifiable` | https://www.cos.io/products/osf | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |
 | resource.pubmed.literature.2026-06-13 | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/ | `NOT_PROJECT_GROUNDED` | `UNLINKED_RESOURCE_METADATA_ONLY` | `placeholder_no_claim_conclusion` |

@@ -1,0 +1,19 @@
+{
+  "access_tier": "open",
+  "claim": "The NINDS Multiple Sclerosis Common Data Elements page is an external public resource for MS clinical-study data standards, CRF modules, and recommended data elements.",
+  "date_accessed": "2026-06-13",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "CDE fields can inform future intake-schema mapping or data-request templates, but any data-standard adoption must be implemented and tested separately.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Clinical-study data-standard context for future cohort intake and public navigation.",
+  "record_id": "resource.ninds.ms_common_data_elements.2026-06-13",
+  "record_type": "external_resource_catalog",
+  "relationship_to_project_findings": "orthogonal",
+  "resource_name": "NINDS Multiple Sclerosis Common Data Elements",
+  "source": {
+    "label": "NINDS CDE Multiple Sclerosis page",
+    "url": "https://www.commondataelements.ninds.nih.gov/Multiple%20Sclerosis"
+  },
+  "unique_knowledge_lacks_in_repo": "MS-specific clinical research data-standard and CRF-module vocabulary not represented in the repository's current validation schemas.",
+  "why_unverifiable": "The CDE recommendations and committee process are external; the project can use them only as context unless it implements and tests specific schema mappings."
+}
