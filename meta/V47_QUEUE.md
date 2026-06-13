@@ -44,6 +44,7 @@ No external knowledge integration occurs until:
 | 15 | 2026-06-13T19:44:24Z | 2026-06-13T19:47:47Z | done | Added external-record uniqueness linter and refilled backlog. Synthetic fixture PASS (`3/3` checks; duplicate fixtures intentionally fail underlying lint); real lint PASS (`31` records, `62` checks, `0` failures). Governance refreshed: generated-checker registry PASS (`126` scripts), stale detector PASS (`73` artifacts), provenance audit PASS (`280` checks). |
 | 16 | 2026-06-13T19:49:44Z | 2026-06-13T19:54:35Z | done | Added external source-domain rollup. Synthetic fixture PASS (`5/5` checks); real rollup PASS (`31` records, `26` source domains, `0` missing source locators, `0` missing markers). Governance refreshed: generated-checker registry PASS (`127` scripts), stale detector PASS (`74` artifacts), markdown lint PASS (`7` Markdown files, `127` checks), provenance audit PASS (`280` checks). |
 | 17 | 2026-06-13T19:55:26Z | 2026-06-13T20:02:36Z | done | Added conservative source URL reachability checker. Synthetic fixture PASS (`5/5` checks); real check PASS (`31` records, `30` reachable/redirected-2xx, `1` maintenance warning: MS Society UK returned 403 to automated checker). Transport status only, no claim validation. Governance refreshed: registry PASS (`128` scripts), stale detector PASS (`75` artifacts), provenance audit PASS (`280` checks). |
+| 18 | 2026-06-13T20:03:27Z | 2026-06-13T20:06:59Z | done | Added external-verifiable intake template and linter. Synthetic fixture PASS (`3/3` assertions; missing route and unsupported relationship fixtures intentionally fail underlying lint); real lint PASS (`31` records checked, `0` external-verifiable live records, `0` failures). Governance refreshed: registry PASS (`129` scripts), stale detector PASS (`76` artifacts), provenance audit PASS (`280` checks). |
 
 ## Live Backlog
 
@@ -75,10 +76,14 @@ No external knowledge integration occurs until:
 | 24 | Governance | Add external-record uniqueness linter for duplicate record IDs and duplicate source locators | done | `scripts/v47_external_record_uniqueness_linter.py`; real lint PASS (`31` records, `62` checks, `0` failures). |
 | 25 | Navigation/index | Add source-domain rollup for external resources and records | done | `scripts/v47_external_source_domain_rollup.py`; real rollup PASS (`31` records, `26` source domains, no missing source locators/markers). |
 | 26 | Governance | Add source URL reachability checker with conservative statuses and no claim validation | done | `scripts/v47_source_url_reachability_checker.py`; real check PASS (`31` records, `30` reachable/redirected-2xx, `1` maintenance warning). HTTP status explicitly not evidence. |
-| 27 | External-verifiable intake | Add external-verifiable claim intake template plus linter requiring future grounding route | todo | No external claim conclusions; template only. |
+| 27 | External-verifiable intake | Add external-verifiable claim intake template plus linter requiring future grounding route | done | `knowledge_external/templates/external_verifiable_claim_template.json.template`; `scripts/v47_external_verifiable_intake_linter.py`; live lint PASS with `0` external-verifiable records. |
 | 28 | Navigation/index | Build public `knowledge_external/INDEX.md` from class/category/access-tier indexes | todo | Reader-facing index must preserve the grounded/external boundary and link only external-tree artifacts. |
 | 29 | Competitor/source cataloging | Generate comparator matrix across resource records by coverage, access tier, and unique repo gap | todo | Metadata-only matrix; no external claim evidence. |
 | 30 | Governance | Add source-domain allowlist/denylist report for records with missing official-domain context | todo | Report-only; flags records needing source review without deleting or reclassing. |
+| 31 | Governance | Add reachability-warning review report for non-2xx/blocked source URLs | todo | Maintenance-only report from `EXTERNAL_SOURCE_URL_REACHABILITY`; no source deletion or claim validation. |
+| 32 | Governance | Add source-locator normalization linter for URL/DOI/PMID fields | todo | Flags malformed locator shapes before future external-verifiable records are accepted. |
+| 33 | Navigation/index | Add class-aware public index crosslink linter for `knowledge_external/INDEX.md` once generated | todo | Ensures reader-facing navigation links only external-tree artifacts and keeps class labels visible. |
+| 34 | External integration | Add source license/terms metadata template and linter for external resource records | todo | Metadata only; avoids implying acquisition permission from existence of a source URL. |
 
 ## Running Notes
 

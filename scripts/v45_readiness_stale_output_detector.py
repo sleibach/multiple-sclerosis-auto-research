@@ -426,6 +426,23 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_source_url_reachability_checker.py synthetic-check --outdir analysis/v47_source_url_reachability_checker --fail-on-error && .venv/bin/python scripts/v47_source_url_reachability_checker.py check --outdir knowledge_external/catalogs/indexes --timeout 8",
     },
     {
+        "artifact": "v47_external_verifiable_intake_linter",
+        "sources": [
+            "docs/knowledge/EXTERNAL_VERIFIABLE_INTAKE_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "knowledge_external/templates/external_verifiable_claim_template.json.template",
+            "scripts/v47_external_verifiable_intake_linter.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_verifiable_intake_linter/synthetic_external_verifiable_intake_summary.json",
+            "analysis/v47_external_verifiable_intake_linter/synthetic_external_verifiable_intake_checks.tsv",
+            "analysis/v47_external_verifiable_intake_linter/external_verifiable_intake_lint_summary.json",
+            "analysis/v47_external_verifiable_intake_linter/external_verifiable_intake_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_verifiable_intake_linter.py synthetic-check --outdir analysis/v47_external_verifiable_intake_linter --fail-on-error && .venv/bin/python scripts/v47_external_verifiable_intake_linter.py lint --outdir analysis/v47_external_verifiable_intake_linter --fail-on-error",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",

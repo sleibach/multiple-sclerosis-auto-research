@@ -101,7 +101,7 @@ def lint_markdown(root: Path, path: Path) -> list[dict[str, object]]:
                 "check": "no_source_table_external_rows",
                 "status": "PASS",
                 "detail": "No source-bearing external rows found; aggregate-only or structural doc.",
-                "header": "",
+                "header": "not_applicable",
             }
         )
     return rows
