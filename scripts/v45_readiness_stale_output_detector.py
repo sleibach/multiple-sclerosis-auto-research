@@ -499,6 +499,8 @@ CHECKS = [
             "scripts/v46_result_report_safe_class_linter.py",
             "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",
             "scripts/v46_return_repair_request_templates.py",
+            "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
+            "scripts/v46_first30_returned_package_decision_table.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -574,6 +576,23 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_return_repair_request_templates --fail-on-error",
     },
     {
+        "artifact": "v46_first30_returned_package_decision_table",
+        "sources": [
+            "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
+            "docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md",
+            "docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md",
+            "analysis/v46_returned_package_route_state_matrix/returned_package_route_state_matrix.tsv",
+            "scripts/v46_first30_returned_package_decision_table.py",
+        ],
+        "outputs": [
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_summary.json",
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_table.tsv",
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_lint.tsv",
+            "analysis/v46_first30_returned_package_decision_table/FIRST30_RETURNED_PACKAGE_DECISION_TABLE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_first30_returned_package_decision_table.py --outdir analysis/v46_first30_returned_package_decision_table --fail-on-error",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
@@ -607,6 +626,8 @@ CHECKS = [
             "scripts/v46_result_report_safe_class_linter.py",
             "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",
             "scripts/v46_return_repair_request_templates.py",
+            "docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md",
+            "scripts/v46_first30_returned_package_decision_table.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

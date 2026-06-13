@@ -1,0 +1,93 @@
+scenario	step_order	check	status	detail
+scored_canonical_aggregate	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+scored_canonical_aggregate	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+scored_canonical_aggregate	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+scored_canonical_aggregate	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+scored_canonical_aggregate	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+scored_canonical_aggregate	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+scored_canonical_aggregate	4	score_values_read_false	PASS	Generate route-specific command order
+scored_canonical_aggregate	4	no_interpretation_action	PASS	Generate route-specific command order
+scored_canonical_aggregate	5	score_values_read_false	PASS	Run redaction and completeness return gate
+scored_canonical_aggregate	5	no_interpretation_action	PASS	Run redaction and completeness return gate
+scored_canonical_aggregate	6	score_values_read_false	PASS	Run aggregate schema validator
+scored_canonical_aggregate	6	no_interpretation_action	PASS	Run aggregate schema validator
+scored_canonical_aggregate	7	score_values_read_false	PASS	Count analyzable response pairs and classify partial-label state
+scored_canonical_aggregate	7	no_interpretation_action	PASS	Count analyzable response pairs and classify partial-label state
+scored_canonical_aggregate	8	score_values_read_false	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+scored_canonical_aggregate	8	no_interpretation_action	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+scored_noncanonical_aggregate	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+scored_noncanonical_aggregate	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+scored_noncanonical_aggregate	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+scored_noncanonical_aggregate	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+scored_noncanonical_aggregate	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+scored_noncanonical_aggregate	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+scored_noncanonical_aggregate	4	score_values_read_false	PASS	Generate route-specific command order
+scored_noncanonical_aggregate	4	no_interpretation_action	PASS	Generate route-specific command order
+scored_noncanonical_aggregate	5	score_values_read_false	PASS	Normalize accepted noncanonical aggregate aliases if needed
+scored_noncanonical_aggregate	5	no_interpretation_action	PASS	Normalize accepted noncanonical aggregate aliases if needed
+scored_noncanonical_aggregate	6	score_values_read_false	PASS	Run redaction and completeness return gate
+scored_noncanonical_aggregate	6	no_interpretation_action	PASS	Run redaction and completeness return gate
+scored_noncanonical_aggregate	7	score_values_read_false	PASS	Run aggregate schema validator
+scored_noncanonical_aggregate	7	no_interpretation_action	PASS	Run aggregate schema validator
+scored_noncanonical_aggregate	8	score_values_read_false	PASS	Refresh small-n conclusion language constraints
+scored_noncanonical_aggregate	8	no_interpretation_action	PASS	Refresh small-n conclusion language constraints
+scored_noncanonical_aggregate	9	score_values_read_false	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+scored_noncanonical_aggregate	9	no_interpretation_action	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+scored_unknown_alias_aggregate	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+scored_unknown_alias_aggregate	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+scored_unknown_alias_aggregate	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+scored_unknown_alias_aggregate	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+scored_unknown_alias_aggregate	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+scored_unknown_alias_aggregate	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+scored_unknown_alias_aggregate	4	score_values_read_false	PASS	Generate route-specific command order
+scored_unknown_alias_aggregate	4	no_interpretation_action	PASS	Generate route-specific command order
+scored_unknown_alias_aggregate	5	score_values_read_false	PASS	Normalize accepted noncanonical aggregate aliases if needed
+scored_unknown_alias_aggregate	5	no_interpretation_action	PASS	Normalize accepted noncanonical aggregate aliases if needed
+scored_unknown_alias_aggregate	6	score_values_read_false	PASS	Run redaction and completeness return gate
+scored_unknown_alias_aggregate	6	no_interpretation_action	PASS	Run redaction and completeness return gate
+scored_unknown_alias_aggregate	7	score_values_read_false	PASS	Run aggregate schema validator
+scored_unknown_alias_aggregate	7	no_interpretation_action	PASS	Run aggregate schema validator
+scored_unknown_alias_aggregate	8	score_values_read_false	PASS	Refresh small-n conclusion language constraints
+scored_unknown_alias_aggregate	8	no_interpretation_action	PASS	Refresh small-n conclusion language constraints
+scored_unknown_alias_aggregate	9	score_values_read_false	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+scored_unknown_alias_aggregate	9	no_interpretation_action	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+unscoreable_aggregate	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+unscoreable_aggregate	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+unscoreable_aggregate	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+unscoreable_aggregate	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+unscoreable_aggregate	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+unscoreable_aggregate	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+unscoreable_aggregate	4	score_values_read_false	PASS	Generate route-specific command order
+unscoreable_aggregate	4	no_interpretation_action	PASS	Generate route-specific command order
+unscoreable_aggregate	5	score_values_read_false	PASS	Run redaction and completeness return gate
+unscoreable_aggregate	5	no_interpretation_action	PASS	Run redaction and completeness return gate
+unscoreable_aggregate	6	score_values_read_false	PASS	Run aggregate schema validator
+unscoreable_aggregate	6	no_interpretation_action	PASS	Run aggregate schema validator
+unscoreable_aggregate	7	score_values_read_false	PASS	Refresh small-n conclusion language constraints
+unscoreable_aggregate	7	no_interpretation_action	PASS	Refresh small-n conclusion language constraints
+unscoreable_aggregate	8	score_values_read_false	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+unscoreable_aggregate	8	no_interpretation_action	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+partial_label_scored_aggregate	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+partial_label_scored_aggregate	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+partial_label_scored_aggregate	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+partial_label_scored_aggregate	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+partial_label_scored_aggregate	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+partial_label_scored_aggregate	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+partial_label_scored_aggregate	4	score_values_read_false	PASS	Generate route-specific command order
+partial_label_scored_aggregate	4	no_interpretation_action	PASS	Generate route-specific command order
+partial_label_scored_aggregate	5	score_values_read_false	PASS	Run redaction and completeness return gate
+partial_label_scored_aggregate	5	no_interpretation_action	PASS	Run redaction and completeness return gate
+partial_label_scored_aggregate	6	score_values_read_false	PASS	Run aggregate schema validator
+partial_label_scored_aggregate	6	no_interpretation_action	PASS	Run aggregate schema validator
+partial_label_scored_aggregate	7	score_values_read_false	PASS	Count analyzable response pairs and classify partial-label state
+partial_label_scored_aggregate	7	no_interpretation_action	PASS	Count analyzable response pairs and classify partial-label state
+partial_label_scored_aggregate	8	score_values_read_false	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+partial_label_scored_aggregate	8	no_interpretation_action	PASS	Run safe-interpretation classifier or route to repair template without reading score values
+terms_blocked_return	1	score_values_read_false	PASS	Run local returned-package regression guard before touching package content
+terms_blocked_return	1	no_interpretation_action	PASS	Run local returned-package regression guard before touching package content
+terms_blocked_return	2	score_values_read_false	PASS	Record non-sensitive receipt metadata and file listing only
+terms_blocked_return	2	no_interpretation_action	PASS	Record non-sensitive receipt metadata and file listing only
+terms_blocked_return	3	score_values_read_false	PASS	Capture or resolve data-use terms class
+terms_blocked_return	3	no_interpretation_action	PASS	Capture or resolve data-use terms class
+terms_blocked_return	4	score_values_read_false	PASS	Stop at terms blocker; do not run package gates
+terms_blocked_return	4	no_interpretation_action	PASS	Stop at terms blocker; do not run package gates
