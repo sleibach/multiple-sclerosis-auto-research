@@ -168,6 +168,11 @@ REQUIRED_SCRIPTS = [
         "role": "handoff bundle manifest",
     },
     {
+        "script": "scripts/v46_operator_transcript_fixture.py",
+        "doc": "docs/validation/OPERATOR_TRANSCRIPT_FIXTURE_V46.md",
+        "role": "operator transcript fixture",
+    },
+    {
         "script": "scripts/v46_returned_package_regression_suite.py",
         "doc": "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
         "role": "returned-package regression suite",

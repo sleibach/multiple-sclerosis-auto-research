@@ -126,6 +126,7 @@ MANUAL_CLASS = {
     "analysis/v46_report_header_metadata_linter": ("synthetic_intake_verification", "report-header metadata regression only"),
     "analysis/v46_report_header_repair_template_coverage": ("synthetic_intake_verification", "report-header repair-template coverage only"),
     "analysis/v46_safe_class_report_template_readiness": ("synthetic_intake_verification", "report-template readiness only"),
+    "analysis/v46_operator_transcript_fixture": ("synthetic_intake_verification", "operator transcript fixture only"),
     "analysis/v46_small_n_conclusion_language": ("power_design_planning", "study design planning only"),
     "analysis/v46_analyzable_pair_confidence_envelope": ("power_design_planning", "study design planning only"),
     "analysis/v46_return_repair_request_templates": ("operations", "returned-package repair request drafts only"),

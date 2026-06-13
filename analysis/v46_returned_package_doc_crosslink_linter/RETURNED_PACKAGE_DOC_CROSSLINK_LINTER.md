@@ -6,7 +6,7 @@ This generated report verifies that V46 returned-package scripts are linked
 from both their committed documentation files and at least one operator-facing
 returned-package route reference.
 
-Overall status: `PASS`; scripts checked: `32`; failures: `0`.
+Overall status: `PASS`; scripts checked: `33`; failures: `0`.
 
 | Script | Doc | Operator refs | Status |
 |---|---|---:|---|
@@ -38,6 +38,7 @@ Overall status: `PASS`; scripts checked: `32`; failures: `0`.
 | `scripts/v46_returned_package_preflight_dryrun.py` | `docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md` | `3` | `PASS` |
 | `scripts/v46_returned_package_state_transition_validator.py` | `docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md` | `3` | `PASS` |
 | `scripts/v46_returned_package_handoff_bundle_manifest.py` | `docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md` | `3` | `PASS` |
+| `scripts/v46_operator_transcript_fixture.py` | `docs/validation/OPERATOR_TRANSCRIPT_FIXTURE_V46.md` | `4` | `PASS` |
 | `scripts/v46_returned_package_regression_suite.py` | `docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md` | `2` | `PASS` |
 | `scripts/v46_operator_smoke_test_bundle.py` | `docs/validation/OPERATOR_SMOKE_TEST_BUNDLE_V46.md` | `1` | `PASS` |
 | `scripts/v46_returned_package_doc_crosslink_linter.py` | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` | `4` | `PASS` |

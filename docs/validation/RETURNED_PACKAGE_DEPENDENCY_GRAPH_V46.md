@@ -22,9 +22,9 @@ score tables, expression matrices, labels, or quarantined cohorts.
 
 ## Current Result
 
-- nodes: `601`
-- edges: `817`
-- lint checks: `221`
+- nodes: `618`
+- edges: `843`
+- lint checks: `228`
 - lint failures: `0`
 - lint hard failures: `0`
 - lint warnings: `0`
@@ -49,4 +49,6 @@ validation result and does not authorize interpretation of any returned package.
 When the graph is run inside the aggregate regression or smoke-test suites, the
 suite invokes stale/suite status rows in warning mode to avoid a self-refresh
 cycle while those suites are being regenerated. The standalone command above is
-the strict audit and must pass with `0` hard failures.
+the strict audit and must pass with `0` hard failures. The graph's own stale
+detector row is also warning-only, because a stale detector snapshot can
+correctly say "rerun the graph" at the same moment the graph is being rerun.

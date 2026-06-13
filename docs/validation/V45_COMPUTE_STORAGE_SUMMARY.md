@@ -24,7 +24,7 @@ Outputs:
 |---|---:|
 | V45 analysis directories | 84 |
 | files | 799 |
-| total size | 85.992 MiB |
+| total size | 86.003 MiB |
 | synthetic/method-behavior size | 84.38 MiB |
 
 By class:

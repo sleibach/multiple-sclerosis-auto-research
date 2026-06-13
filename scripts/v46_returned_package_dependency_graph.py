@@ -189,14 +189,22 @@ def build_graph(
             output_node = add_node(nodes, "output", output, output, (ROOT / output).exists())
             add_edge(edges, artifact, output_node, "freshness_output_for", rel(STALE))
         is_fresh = row["status"] == "FRESH"
-        stale_status = "PASS" if is_fresh else ("WARN" if stale_status_mode == "warn" else "FAIL")
+        is_self_refresh_row = row["artifact"] == "v46_returned_package_dependency_graph"
+        stale_status = (
+            "PASS"
+            if is_fresh
+            else ("WARN" if stale_status_mode == "warn" or is_self_refresh_row else "FAIL")
+        )
+        detail = row["status"]
+        if is_self_refresh_row and not is_fresh:
+            detail = f"{row['status']}; self-refresh row is warning-only while this graph is being regenerated"
         lint.append(
             {
                 "scope": "stale_output_detector",
                 "item": row["artifact"],
                 "check": "artifact_fresh",
                 "status": stale_status,
-                "detail": row["status"],
+                "detail": detail,
                 "score_values_read": "false",
             }
         )

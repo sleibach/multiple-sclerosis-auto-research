@@ -3,7 +3,7 @@
 Status: infrastructure dependency map. No validation result and no biological claim.
 
 Overall status: `PASS`.
-Nodes: `601`; edges: `817`; lint checks: `221`; failures: `0`.
+Nodes: `618`; edges: `843`; lint checks: `228`; failures: `0`.
 
 Inputs are the returned-package handoff manifest, regression suite, smoke-test bundle, and stale-output detector.
 The graph is navigation/readiness infrastructure only and does not open returned scores, expression matrices, labels, or quarantined cohorts.

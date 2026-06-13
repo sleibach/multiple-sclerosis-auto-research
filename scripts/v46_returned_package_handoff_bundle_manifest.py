@@ -220,6 +220,15 @@ ARTIFACTS = [
     {
         "sequence": 23,
         "phase": "operator_navigation",
+        "artifact_id": "operator_transcript_fixture",
+        "role": "Demonstrate the end-to-end operator path from receipt metadata through status board and report skeleton without reading score values.",
+        "command": ".venv/bin/python scripts/v46_operator_transcript_fixture.py --outdir analysis/v46_operator_transcript_fixture --fail-on-error",
+        "doc": "docs/validation/OPERATOR_TRANSCRIPT_FIXTURE_V46.md",
+        "primary_output": "analysis/v46_operator_transcript_fixture/operator_transcript_fixture_summary.json",
+    },
+    {
+        "sequence": 24,
+        "phase": "operator_navigation",
         "artifact_id": "returned_package_doc_crosslink_linter",
         "role": "Verify every returned-package script has direct documentation and operator-route reachability.",
         "command": ".venv/bin/python scripts/v46_returned_package_doc_crosslink_linter.py --outdir analysis/v46_returned_package_doc_crosslink_linter --fail-on-error",
@@ -227,7 +236,7 @@ ARTIFACTS = [
         "primary_output": "analysis/v46_returned_package_doc_crosslink_linter/returned_package_doc_crosslink_summary.json",
     },
     {
-        "sequence": 24,
+        "sequence": 25,
         "phase": "operator_navigation",
         "artifact_id": "returned_package_dependency_graph",
         "role": "Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts.",
