@@ -1,0 +1,34 @@
+{
+  "completeness_status": "PASS",
+  "completeness_summary": {
+    "n_hard_fail": 0,
+    "n_required_now": 9,
+    "n_rows": 10,
+    "overall_status": "PASS",
+    "package_state": "scored",
+    "purpose": "author-run returned-output completeness check; no biological claim",
+    "root": "analysis/v46_returned_package_regression_suite/aggregate_only_composition/metric_adapter/normalized_package",
+    "status_counts": {
+      "MISSING": 1,
+      "PRESENT": 9
+    },
+    "synthetic": false
+  },
+  "overall_status": "PASS",
+  "package_state": "scored",
+  "purpose": "author-run aggregate return gate runner; no biological claim",
+  "redaction_status": "PASS",
+  "redaction_summary": {
+    "audit": "analysis/v46_returned_package_regression_suite/aggregate_only_composition/author_run_return_gate/redaction_precheck/author_run_redaction_precheck.tsv",
+    "n_block": 0,
+    "n_files_scanned": 9,
+    "n_warn": 0,
+    "overall_status": "PASS",
+    "purpose": "author-run aggregate package redaction precheck; no biological claim",
+    "root": "analysis/v46_returned_package_regression_suite/aggregate_only_composition/metric_adapter/normalized_package",
+    "synthetic": false
+  },
+  "root": "analysis/v46_returned_package_regression_suite/aggregate_only_composition/metric_adapter/normalized_package",
+  "steps": "analysis/v46_returned_package_regression_suite/aggregate_only_composition/author_run_return_gate/author_run_return_gate_steps.tsv",
+  "synthetic": false
+}

@@ -1,0 +1,18 @@
+{
+  "expect_class": "BLOCKED_SCHEMA",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not classify pass/fail/inconclusive from malformed aggregate outputs.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "BLOCKED_SCHEMA",
+  "safe_interpretation": "Report only schema/value-level failures and request repaired aggregate tables.",
+  "score_values_read": false,
+  "signals": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/schema_block/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/preferred_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/batch_confounder_clean.json",
+    "gate_summary": "analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v45_author_run_schema_validator/bad_metrics/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

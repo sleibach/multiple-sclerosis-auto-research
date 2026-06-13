@@ -1,0 +1,18 @@
+{
+  "expect_class": "CAUTION_BATCH_OR_CONFOUNDER",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not present a clean validation claim without the diagnostic caveat.",
+  "purpose": "V46 returned-package safe-interpretation classifier; no biological claim and no score values read",
+  "result_class": "CAUTION_BATCH_OR_CONFOUNDER",
+  "safe_interpretation": "Apply the V42 grid only with explicit batch/confounder caution and report adjusted diagnostics beside raw results.",
+  "score_values_read": false,
+  "signals": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/batch_confounder_warning/safe_interpretation_signals.tsv",
+  "sources": {
+    "analyzable_summary": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/preferred_pair_summary.json",
+    "batch_confounder_summary": "analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/batch_confounder_warning.json",
+    "gate_summary": "analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json",
+    "metadata_summary": "analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json",
+    "schema_summary": "analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json"
+  },
+  "synthetic": true
+}

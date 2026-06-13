@@ -447,6 +447,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_aggregate_only_returned_package_composition_dryrun --fail-on-error",
     },
     {
+        "artifact": "v46_returned_package_regression_suite",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_REGRESSION_SUITE_V46.md",
+            "scripts/v46_returned_package_regression_suite.py",
+            "scripts/v46_terms_governance_matrix.py",
+            "scripts/v46_author_run_metric_format_adapter.py",
+            "scripts/v46_partial_label_return_classifier.py",
+            "scripts/v46_returned_package_command_order_planner.py",
+            "scripts/v46_aggregate_only_returned_package_composition_dryrun.py",
+            "scripts/v46_returned_package_safe_interpretation.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_regression_suite.py --outdir analysis/v46_returned_package_regression_suite --fail-on-error",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",

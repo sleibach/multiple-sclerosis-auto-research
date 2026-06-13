@@ -1,0 +1,305 @@
+step	group	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+terms_governance_matrix_synthetic	route_terms	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_terms_governance_matrix.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/terms_governance_matrix	0	0.531	PASS	" terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""derived aggregate processing allowed; individual-level sharing remains restricted""
+  ],
+  ""result_class"": ""AGGREGATE_ONLY_LOCAL_PREFLIGHT"",
+  ""safe_route"": ""local processing may proceed, but only derived aggregate summaries may be committed/reported"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/synthetic/aggregate_only_local_preflight_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/author_run_only/terms_governance_decision.tsv"",
+  ""expect_class"": ""AUTHOR_RUN_ONLY"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not process transferred individual-level data locally"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""approved_internal_use indicates author-run-only handling""
+  ],
+  ""result_class"": ""AUTHOR_RUN_ONLY"",
+  ""safe_route"": ""send or use author-run frozen harness packet; receive aggregate outputs only"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/synthetic/author_run_only_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/no_processing/terms_governance_decision.tsv"",
+  ""expect_class"": ""NO_PROCESSING_ALLOWED"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not run preflight, module coverage, validation harness, or score interpretation"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""forbidden_use blocks local processing""
+  ],
+  ""result_class"": ""NO_PROCESSING_ALLOWED"",
+  ""safe_route"": ""do not process; request revised terms or an allowed aggregate author-run return"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/synthetic/no_processing_terms.tsv""
+}
+{
+  ""decision"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/ambiguous_terms/terms_governance_decision.tsv"",
+  ""expect_class"": ""AMBIGUOUS_TERMS_BLOCK"",
+  ""expectation_met"": true,
+  ""hard_stop"": ""do not treat unclear terms as approval"",
+  ""operator_gate_status"": ""blocked"",
+  ""purpose"": ""V46 terms-governance classifier; no biological claim"",
+  ""reasons"": [
+    ""status=pending_review is not approved_for_preflight""
+  ],
+  ""result_class"": ""AMBIGUOUS_TERMS_BLOCK"",
+  ""safe_route"": ""clarify terms before any preflight or package processing"",
+  ""synthetic"": true,
+  ""terms"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/synthetic/ambiguous_terms_terms.tsv""
+}
+{
+  ""case_table"": ""analysis/v46_returned_package_regression_suite/terms_governance_matrix/terms_governance_synthetic_cases.tsv"",
+  ""n_cases"": 5,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 synthetic terms-governance edge-case matrix; no biological claim"",
+  ""synthetic"": true
+}
+"	(empty)
+metric_format_adapter_synthetic	aggregate_format	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_author_run_metric_format_adapter.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/metric_format_adapter	0	1.206	PASS	"{
+  ""manifest"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 0,
+  ""normalized_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/synthetic_variant_package"",
+  ""synthetic"": true
+}
+{
+  ""manifest"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/missing_required_adapter/metric_format_adapter_manifest.tsv"",
+  ""n_files"": 9,
+  ""n_missing_required"": 1,
+  ""normalized_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/missing_required_adapter/normalized_package"",
+  ""overall_status"": ""FAIL"",
+  ""purpose"": ""V46 author-run metric format adapter; no biological claim and no score interpretation"",
+  ""source_root"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/synthetic_missing_required_package"",
+  ""synthetic"": true
+}
+{
+  ""adapter_summary"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/adapter/metric_format_adapter_summary.json"",
+  ""check_table"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/metric_format_adapter_synthetic_checks.tsv"",
+  ""missing_required_adapter_summary"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/missing_required_adapter/metric_format_adapter_summary.json"",
+  ""missing_required_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/synthetic_missing_required_package"",
+  ""n_checks"": 4,
+  ""n_fail"": 0,
+  ""normalized_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/adapter/normalized_package"",
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 author-run metric format adapter synthetic verification; no biological claim"",
+  ""synthetic"": true,
+  ""variant_package"": ""analysis/v46_returned_package_regression_suite/metric_format_adapter/synthetic_variant_package""
+}
+"	(empty)
+partial_label_classifier_synthetic	label_coverage	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_partial_label_return_classifier.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/partial_label_classifier	0	0.064	PASS	"on"": ""Report only effect-size-with-CI language for the labeled subset and explicitly state label coverage."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/synthetic/partial_effect_size_only_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""PARTIAL_LABELS_LIMITED_DECISION_CAUTION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not present a clean validation claim."",
+  ""metrics"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/partial_limited_decision/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""PARTIAL_LABELS_LIMITED_DECISION_CAUTION"",
+  ""safe_interpretation"": ""Apply the frozen grid only with an explicit partial-label caveat and label-coverage denominator."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/synthetic/partial_limited_decision_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not compute or interpret an AUC-like response metric."",
+  ""metrics"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/single_class_block/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""SINGLE_CLASS_LABELS_BLOCK_RESPONSE_VALIDATION"",
+  ""safe_interpretation"": ""Report that only one response class is labeled; request labels for both response classes."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/synthetic/single_class_block_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""PARTIAL_LABELS_TOO_FEW_OR_SINGLE_ARM"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not infer pass/fail/inconclusive from the returned score."",
+  ""metrics"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/too_few_one_arm/partial_label_metrics.tsv"",
+  ""purpose"": ""V46 partial-label return classifier; no biological claim and no score values read"",
+  ""result_class"": ""PARTIAL_LABELS_TOO_FEW_OR_SINGLE_ARM"",
+  ""safe_interpretation"": ""Report that the labeled subset is too small or too one-sided for response interpretation."",
+  ""score_values_read"": false,
+  ""source"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/synthetic/too_few_one_arm_analyzable_pair_summary.json"",
+  ""synthetic"": true
+}
+{
+  ""case_table"": ""analysis/v46_returned_package_regression_suite/partial_label_classifier/partial_label_synthetic_cases.tsv"",
+  ""n_cases"": 7,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 partial-label return classifier synthetic verification; no biological claim"",
+  ""synthetic"": true
+}
+"	(empty)
+returned_package_command_order_planner_synthetic	command_order	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_command_order_planner.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/command_order_planner	0	0.051	PASS	"package_kind"": ""author_run_aggregate"",
+  ""package_state"": ""scored"",
+  ""plan_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
+  ""score_values_read"": false,
+  ""status_reason"": ""terms allow local handling of aggregate preflight outputs"",
+  ""synthetic"": true,
+  ""terms_class"": ""LOCAL_PREFLIGHT_ALLOWED""
+}
+{
+  ""cohort_token"": ""synthetic_return"",
+  ""command_plan"": ""analysis/v46_returned_package_regression_suite/command_order_planner/author_run_only_aggregate_return/returned_package_command_plan.tsv"",
+  ""expect_status"": ""PASS"",
+  ""expectation_met"": true,
+  ""hard_stop_before_scores"": true,
+  ""metric_format_state"": ""canonical"",
+  ""n_conditional_steps"": 0,
+  ""n_steps"": 5,
+  ""n_stop_steps"": 0,
+  ""package_kind"": ""author_run_aggregate"",
+  ""package_state"": ""scored"",
+  ""plan_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
+  ""score_values_read"": false,
+  ""status_reason"": ""terms block local individual-level processing but allow aggregate author-run return handling"",
+  ""synthetic"": true,
+  ""terms_class"": ""AUTHOR_RUN_ONLY""
+}
+{
+  ""cohort_token"": ""synthetic_return"",
+  ""command_plan"": ""analysis/v46_returned_package_regression_suite/command_order_planner/ambiguous_terms_block/returned_package_command_plan.tsv"",
+  ""expect_status"": ""BLOCKED"",
+  ""expectation_met"": true,
+  ""hard_stop_before_scores"": true,
+  ""metric_format_state"": ""canonical"",
+  ""n_conditional_steps"": 0,
+  ""n_steps"": 2,
+  ""n_stop_steps"": 1,
+  ""package_kind"": ""author_run_aggregate"",
+  ""package_state"": ""scored"",
+  ""plan_status"": ""BLOCKED"",
+  ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
+  ""score_values_read"": false,
+  ""status_reason"": ""terms class AMBIGUOUS_TERMS_BLOCK blocks this package route"",
+  ""synthetic"": true,
+  ""terms_class"": ""AMBIGUOUS_TERMS_BLOCK""
+}
+{
+  ""cohort_token"": ""synthetic_return"",
+  ""command_plan"": ""analysis/v46_returned_package_regression_suite/command_order_planner/no_processing_block/returned_package_command_plan.tsv"",
+  ""expect_status"": ""BLOCKED"",
+  ""expectation_met"": true,
+  ""hard_stop_before_scores"": true,
+  ""metric_format_state"": ""canonical"",
+  ""n_conditional_steps"": 0,
+  ""n_steps"": 2,
+  ""n_stop_steps"": 1,
+  ""package_kind"": ""author_run_aggregate"",
+  ""package_state"": ""scored"",
+  ""plan_status"": ""BLOCKED"",
+  ""purpose"": ""V46 returned-package command-order planner; no biological claim and no score values read"",
+  ""score_values_read"": false,
+  ""status_reason"": ""terms class NO_PROCESSING_ALLOWED blocks this package route"",
+  ""synthetic"": true,
+  ""terms_class"": ""NO_PROCESSING_ALLOWED""
+}
+{
+  ""cases"": ""analysis/v46_returned_package_regression_suite/command_order_planner/returned_package_command_order_synthetic_cases.tsv"",
+  ""n_cases"": 6,
+  ""n_fail"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package command-order planner synthetic check; no biological claim"",
+  ""synthetic"": true
+}
+"	(empty)
+aggregate_only_composition_dryrun	composition	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_aggregate_only_returned_package_composition_dryrun.py --outdir analysis/v46_returned_package_regression_suite/aggregate_only_composition --fail-on-error	0	2.891	PASS	"{
+  ""checks"": ""analysis/v46_returned_package_regression_suite/aggregate_only_composition/aggregate_only_composition_checks.tsv"",
+  ""final_safe_interpretation_class"": ""BELOW_V45_PLANNING_FLOOR"",
+  ""n_check_fail"": 0,
+  ""n_checks"": 10,
+  ""n_step_fail"": 0,
+  ""n_steps"": 8,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 aggregate-only returned-package composition dry run; no biological claim"",
+  ""sample_level_data_read"": false,
+  ""score_values_interpreted"": false,
+  ""steps"": ""analysis/v46_returned_package_regression_suite/aggregate_only_composition/aggregate_only_composition_steps.tsv"",
+  ""synthetic"": true
+}
+"	(empty)
+safe_interpretation_classifier_synthetic	safe_wording	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v46_returned_package_safe_interpretation.py synthetic-check --outdir analysis/v46_returned_package_regression_suite/safe_interpretation_classifier	0	0.064	PASS	" ""BLOCKED_METADATA_CONTRADICTION"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not treat the returned package as validation-ready."",
+  ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
+  ""result_class"": ""BLOCKED_METADATA_CONTRADICTION"",
+  ""safe_interpretation"": ""Report only the metadata contradiction and request corrected metadata before interpretation."",
+  ""score_values_read"": false,
+  ""signals"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/metadata_contradiction/safe_interpretation_signals.tsv"",
+  ""sources"": {
+    ""analyzable_summary"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/preferred_pair_summary.json"",
+    ""batch_confounder_summary"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/batch_confounder_clean.json"",
+    ""gate_summary"": ""analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json"",
+    ""metadata_summary"": ""analysis/v45_metadata_contradiction_stress/batch_conflict_fail/metadata_contradiction_summary.json"",
+    ""schema_summary"": ""analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json""
+  },
+  ""synthetic"": true
+}
+{
+  ""expect_class"": ""CAUTION_BATCH_OR_CONFOUNDER"",
+  ""expectation_met"": true,
+  ""forbidden_interpretation"": ""Do not present a clean validation claim without the diagnostic caveat."",
+  ""purpose"": ""V46 returned-package safe-interpretation classifier; no biological claim and no score values read"",
+  ""result_class"": ""CAUTION_BATCH_OR_CONFOUNDER"",
+  ""safe_interpretation"": ""Apply the V42 grid only with explicit batch/confounder caution and report adjusted diagnostics beside raw results."",
+  ""score_values_read"": false,
+  ""signals"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/batch_confounder_warning/safe_interpretation_signals.tsv"",
+  ""sources"": {
+    ""analyzable_summary"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/preferred_pair_summary.json"",
+    ""batch_confounder_summary"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/synthetic/batch_confounder_warning.json"",
+    ""gate_summary"": ""analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_summary.json"",
+    ""metadata_summary"": ""analysis/v45_metadata_contradiction_stress/clean_pass/metadata_contradiction_summary.json"",
+    ""schema_summary"": ""analysis/v45_author_run_schema_validator/good/author_run_schema_validation_summary.json""
+  },
+  ""synthetic"": true
+}
+{
+  ""case_table"": ""analysis/v46_returned_package_regression_suite/safe_interpretation_classifier/safe_interpretation_synthetic_cases.tsv"",
+  ""n_cases"": 11,
+  ""n_expectation_failures"": 0,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""V46 returned-package safe-interpretation synthetic verification; no biological claim"",
+  ""synthetic"": true
+}
+"	(empty)
+readiness_stale_output_detector	governance	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_readiness_stale_output_detector.py --outdir analysis/v46_returned_package_regression_suite/readiness_stale_output_detector	0	0.039	PASS	"{
+  ""n_artifacts_checked"": 32,
+  ""n_stale_or_missing"": 1,
+  ""overall_status"": ""REFRESH_NEEDED"",
+  ""purpose"": ""readiness generated-output freshness check; no biological claim"",
+  ""synthetic"": false,
+  ""table"": ""analysis/v46_returned_package_regression_suite/readiness_stale_output_detector/readiness_stale_output_detector.tsv""
+}
+"	(empty)
+no_raw_git_scanner	repository_safety	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py --outdir analysis/v46_returned_package_regression_suite/no_raw_git_scanner	0	0.519	PASS	"{
+  ""hard_forbidden_prefixes"": [
+    ""data/quarantine/"",
+    ""data/raw_v3/gafson_dmf_2018/"",
+    ""data/raw_v3/karolinska_dmf_ros_2019/"",
+    ""data/raw_v3/gse228330_ocrelizumab_outcomes/""
+  ],
+  ""n_fail"": 0,
+  ""n_warn"": 11,
+  ""note"": ""WARN rows include historical public raw-data paths; FAIL rows block commit until resolved."",
+  ""overall_status"": ""PASS"",
+  ""status"": ""scanner_only""
+}
+"	(empty)

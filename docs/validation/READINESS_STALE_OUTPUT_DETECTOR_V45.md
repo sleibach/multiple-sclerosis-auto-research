@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `31`
+- artifacts checked: `32`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -54,6 +54,7 @@ Checked generated artifacts:
 - V46 safe-interpretation classifier;
 - V46 returned-package command-order planner;
 - V46 aggregate-only returned-package composition dry run;
+- V46 returned-package regression suite;
 - V46 external blocker aging audit;
 - V46 operator smoke-test bundle.
 

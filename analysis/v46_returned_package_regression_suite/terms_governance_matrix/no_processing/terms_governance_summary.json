@@ -1,0 +1,15 @@
+{
+  "decision": "analysis/v46_returned_package_regression_suite/terms_governance_matrix/no_processing/terms_governance_decision.tsv",
+  "expect_class": "NO_PROCESSING_ALLOWED",
+  "expectation_met": true,
+  "hard_stop": "do not run preflight, module coverage, validation harness, or score interpretation",
+  "operator_gate_status": "blocked",
+  "purpose": "V46 terms-governance classifier; no biological claim",
+  "reasons": [
+    "forbidden_use blocks local processing"
+  ],
+  "result_class": "NO_PROCESSING_ALLOWED",
+  "safe_route": "do not process; request revised terms or an allowed aggregate author-run return",
+  "synthetic": true,
+  "terms": "analysis/v46_returned_package_regression_suite/terms_governance_matrix/synthetic/no_processing_terms.tsv"
+}

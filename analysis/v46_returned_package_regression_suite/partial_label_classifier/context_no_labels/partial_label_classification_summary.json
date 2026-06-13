@@ -1,0 +1,12 @@
+{
+  "expect_class": "RESPONSE_LABELS_ABSENT_CONTEXT_ONLY",
+  "expectation_met": true,
+  "forbidden_interpretation": "Do not call this a response-validation cohort.",
+  "metrics": "analysis/v46_returned_package_regression_suite/partial_label_classifier/context_no_labels/partial_label_metrics.tsv",
+  "purpose": "V46 partial-label return classifier; no biological claim and no score values read",
+  "result_class": "RESPONSE_LABELS_ABSENT_CONTEXT_ONLY",
+  "safe_interpretation": "Use only for pharmacodynamic/context summaries; request response labels for validation.",
+  "score_values_read": false,
+  "source": "analysis/v45_route_analyzable_pair_calculator/gse228330_context_no_labels/analyzable_pair_summary.json",
+  "synthetic": true
+}
