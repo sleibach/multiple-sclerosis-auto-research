@@ -22,6 +22,8 @@ DEFAULTS = {
     "state_validator": ROOT / "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json",
     "packet_integrity": ROOT / "analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_summary.json",
     "precommit": ROOT / "analysis/v45_precommit_readiness/precommit_readiness_summary.json",
+    "returned_package_regression": ROOT / "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
+    "operator_smoke": ROOT / "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_summary.json",
 }
 
 TRACKER_TO_COHORT_ID = {
@@ -69,6 +71,8 @@ def build_actions() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[st
     state_validator = read_json(DEFAULTS["state_validator"])
     packet_integrity = read_json(DEFAULTS["packet_integrity"])
     precommit = read_json(DEFAULTS["precommit"])
+    returned_package_regression = read_json(DEFAULTS["returned_package_regression"])
+    operator_smoke = read_json(DEFAULTS["operator_smoke"])
 
     guard_rows = [
         {
@@ -85,6 +89,16 @@ def build_actions() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[st
             "guard": "route_packet_integrity",
             "status": str(packet_integrity.get("observed_status", "MISSING")),
             "source": rel(DEFAULTS["packet_integrity"]),
+        },
+        {
+            "guard": "v46_returned_package_regression_suite",
+            "status": str(returned_package_regression.get("overall_status", "MISSING")),
+            "source": rel(DEFAULTS["returned_package_regression"]),
+        },
+        {
+            "guard": "v46_operator_smoke_test_bundle",
+            "status": str(operator_smoke.get("overall_status", "MISSING")),
+            "source": rel(DEFAULTS["operator_smoke"]),
         },
     ]
     internal_block = any(row["status"] not in {"PASS", "EXPECTED_FAIL"} for row in guard_rows)

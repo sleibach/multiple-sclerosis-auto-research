@@ -3,8 +3,9 @@
 Status: generated operational navigation card. No biological claim.
 
 Purpose: collapse the live readiness dashboard, external blocker board,
-follow-up board, state-machine validator, route-packet integrity manifest, and
-precommit status into one short list of current operational actions.
+follow-up board, state-machine validator, route-packet integrity manifest,
+precommit status, and V46 returned-package regression guards into one short
+list of current operational actions.
 
 This card is read-only. It does not send requests, mark requests sent, mark data
 received, inspect quarantined files, or run a validation harness.
@@ -24,6 +25,8 @@ received, inspect quarantined files, or run a validation harness.
 - `analysis/v45_state_machine_validator/live/state_machine_validator_summary.json`
 - `analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_summary.json`
 - `analysis/v45_precommit_readiness/precommit_readiness_summary.json`
+- `analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json`
+- `analysis/v46_operator_smoke_test_bundle/operator_smoke_test_summary.json`
 
 ## Current Result
 
@@ -33,7 +36,9 @@ Current guard status:
 
 - precommit readiness: `PASS`;
 - state-machine transition validator: `PASS`;
-- route packet integrity: `PASS`.
+- route packet integrity: `PASS`;
+- V46 returned-package regression suite: `PASS`;
+- V46 operator smoke-test bundle: `PASS`.
 
 Current action summary:
 
@@ -55,6 +60,9 @@ Machine-readable outputs:
 When a request is actually sent, record it through:
 
 `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`
+
+Before handling any returned package, run the V46 returned-package regression
+suite and require a passing guard status in the generated current-action card.
 
 ## Interpretation Boundary
 

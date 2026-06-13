@@ -24,6 +24,7 @@ COMMAND_PLAN = {
     "gse228330_ocrelizumab_pbmc": "analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan/command_plan.md",
     "any_author_run_fallback": "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
 }
+RETURNED_PACKAGE_REGRESSION_COMMAND = ".venv/bin/python scripts/v46_returned_package_regression_suite.py --outdir analysis/v46_returned_package_regression_suite --fail-on-error"
 
 
 def parse_args() -> argparse.Namespace:
@@ -83,6 +84,7 @@ def main() -> int:
                 "arrival_packet": packet.get("packet", dec.get("arrival_packet", "")),
                 "status_template": dec.get("operator_status_template", ""),
                 "status_updater_or_gate": dec.get("status_updater_or_gate", ""),
+                "pre_return_package_regression": RETURNED_PACKAGE_REGRESSION_COMMAND,
                 "command_plan_or_return_gate": plan,
                 "may_score_now": dec.get("may_score_now", "no"),
                 "hard_stop": dec.get("hard_stop", "no module scoring, outcome scoring, or interpretation until gates pass"),
@@ -109,7 +111,7 @@ def main() -> int:
         lines.append(
             f"| {row['priority']} | `{row['cohort_id']}` | `{row['current_blocker']}` | "
             f"{row['operator_now']} | {row['if_package_arrives']} | "
-            f"`{row['command_plan_or_return_gate']}` | `{row['may_score_now']}` |"
+            f"`{row['pre_return_package_regression']}` then `{row['command_plan_or_return_gate']}` | `{row['may_score_now']}` |"
         )
     lines.extend(
         [
@@ -119,6 +121,7 @@ def main() -> int:
             "- `analysis/v45_current_action_card/current_action_card.tsv`",
             "- `analysis/v45_received_package_decision_tree/live/received_package_decision_tree.tsv`",
             "- `analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv`",
+            "- `analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json`",
             "",
             "This generated sequence is an operator convenience layer. The linked route packet and frozen preregistration remain authoritative.",
         ]

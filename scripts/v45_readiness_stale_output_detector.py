@@ -212,6 +212,8 @@ CHECKS = [
             "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json",
             "analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_summary.json",
             "analysis/v45_precommit_readiness/precommit_readiness_summary.json",
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
+            "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_summary.json",
             "scripts/v45_current_action_card.py",
         ],
         "outputs": [
@@ -230,6 +232,7 @@ CHECKS = [
             "analysis/v45_validation_command_runner/gafson_primary_plan/command_plan.md",
             "analysis/v45_validation_command_runner/karolinska_primary_plan/command_plan.md",
             "analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan/command_plan.md",
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
             "scripts/v45_cold_start_operator_sequence.py",
         ],
         "outputs": [

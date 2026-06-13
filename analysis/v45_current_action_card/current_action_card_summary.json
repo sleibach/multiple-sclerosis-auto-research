@@ -3,7 +3,9 @@
   "guard_statuses": {
     "precommit_readiness": "PASS",
     "route_packet_integrity": "PASS",
-    "state_machine_transition_validator": "PASS"
+    "state_machine_transition_validator": "PASS",
+    "v46_operator_smoke_test_bundle": "PASS",
+    "v46_returned_package_regression_suite": "PASS"
   },
   "guards": "analysis/v45_current_action_card/current_action_guard_status.tsv",
   "headline_status": "READY_AWAITING_EXTERNAL_DATA",
