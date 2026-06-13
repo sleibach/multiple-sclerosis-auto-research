@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `63`
+- artifacts checked: `64`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -81,6 +81,7 @@ Checked generated artifacts:
 - V46 returned-package handoff bundle manifest;
 - V46 returned-package quickstart README;
 - V46 quickstart drift fixture;
+- V46 quickstart command coverage matrix;
 - V46 returned-package operator pocket card;
 - V46 returned-package documentation cross-link linter;
 - V46 returned-package dependency graph;

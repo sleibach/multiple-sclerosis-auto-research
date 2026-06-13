@@ -982,6 +982,25 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_quickstart_drift_fixture.py --outdir analysis/v46_quickstart_drift_fixture --fail-on-error",
     },
     {
+        "artifact": "v46_quickstart_command_coverage_matrix",
+        "sources": [
+            "docs/validation/QUICKSTART_COMMAND_COVERAGE_MATRIX_V46.md",
+            "analysis/v46_returned_package_quickstart_readme/RETURNED_PACKAGE_QUICKSTART.md",
+            "analysis/v46_returned_package_quickstart_readme/returned_package_quickstart_commands.tsv",
+            "analysis/v46_returned_package_regression_suite/returned_package_regression_steps.tsv",
+            "analysis/v46_operator_smoke_test_bundle/operator_smoke_test_steps.tsv",
+            "analysis/v46_quickstart_drift_fixture/quickstart_drift_summary.json",
+            "scripts/v46_quickstart_command_coverage_matrix.py",
+        ],
+        "outputs": [
+            "analysis/v46_quickstart_command_coverage_matrix/quickstart_command_coverage_summary.json",
+            "analysis/v46_quickstart_command_coverage_matrix/quickstart_command_coverage_matrix.tsv",
+            "analysis/v46_quickstart_command_coverage_matrix/quickstart_command_coverage_lint.tsv",
+            "analysis/v46_quickstart_command_coverage_matrix/QUICKSTART_COMMAND_COVERAGE_MATRIX.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_quickstart_command_coverage_matrix.py --outdir analysis/v46_quickstart_command_coverage_matrix --fail-on-error",
+    },
+    {
         "artifact": "v46_returned_package_operator_pocket_card",
         "sources": [
             "docs/validation/RETURNED_PACKAGE_OPERATOR_POCKET_CARD_V46.md",

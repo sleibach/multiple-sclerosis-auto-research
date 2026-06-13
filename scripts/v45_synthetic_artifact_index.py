@@ -140,6 +140,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_status_board_schema_linter": ("synthetic_regression", "status-board schema regression only"),
     "analysis/v46_status_board_markdown_roundtrip_renderer": ("synthetic_regression", "status-board Markdown round-trip regression only"),
     "analysis/v46_quickstart_drift_fixture": ("synthetic_regression", "quickstart drift regression only"),
+    "analysis/v46_quickstart_command_coverage_matrix": ("integrity_governance", "quickstart command coverage only"),
     "analysis/v46_returned_package_preflight_dryrun": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_first30_repair_template_coverage_linter": ("integrity_governance", "first-30 repair-template coverage only"),
     "analysis/v46_returned_package_state_transition_validator": ("synthetic_intake_verification", "method behavior only"),

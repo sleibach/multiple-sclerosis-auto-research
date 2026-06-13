@@ -54,6 +54,7 @@ generate more internally executable tasks before continuing.
 | 34 | 2026-06-13T15:32:15Z | 2026-06-13T15:36:59Z | done | Added quickstart drift fixture proving copied/manual quickstart command edits and boundary removal are caught against the generated command table. |
 | 35 | 2026-06-13T15:37:49Z | 2026-06-13T15:39:54Z | done | Added returned-package operator pocket card generated from quickstart commands, first-30 status board, and safe-class boundaries. |
 | 36 | 2026-06-13T15:40:34Z | 2026-06-13T15:42:31Z | done | Added safe-interpretation example coverage linter proving all safe classes are represented by an example or explicit non-example reason. |
+| 37 | 2026-06-13T15:43:04Z | 2026-06-13T15:45:04Z | done | Added quickstart command coverage matrix proving all generated quickstart command rows are present in Markdown and protected by the drift fixture. |
 
 ## Live Backlog
 
@@ -110,7 +111,7 @@ generate more internally executable tasks before continuing.
 | 49 | Infrastructure | Add quickstart drift fixture that intentionally edits a copied README command and proves the generated quickstart/lint catches manual command drift | done | `scripts/v46_quickstart_drift_fixture.py`; PASS with `4` cases, `3` expected-fail mutations caught, `34` command rows checked, all `score_values_read=false`. Regression suite now `36` steps, smoke bundle now `40` steps, stale-output detector now checks `61` artifacts. |
 | 50 | Operations | Add one-page returned-package operator pocket card generated from quickstart, first-30 status board, and safe-class report-template map | done | `scripts/v46_returned_package_operator_pocket_card.py`; PASS with `7` selected commands, `6` first-30 scenarios, `6` safe classes, `7` lint checks, all `score_values_read=false`. Stale-output detector now checks `62` artifacts; synthetic artifact index now covers `129` directories. |
 | 51 | Infrastructure | Add safe-interpretation example coverage linter proving every safe class either has an example card or an explicit reason it is not represented in the examples bundle | done | `scripts/v46_safe_interpretation_example_coverage_linter.py`; PASS with `12` safe classes, `6` represented by examples, `6` explicit non-example reasons, `36` lint checks, all `score_values_read=false`. Stale-output detector now checks `63` artifacts; synthetic artifact index now covers `130` directories. |
-| 52 | Infrastructure | Add quickstart command coverage matrix mapping every generated quickstart command to source artifact, README section, suite inclusion, and drift-fixture parity coverage | todo | Self-generated after item 49; turns the drift fixture into a full coverage-accounting surface for operator commands. |
+| 52 | Infrastructure | Add quickstart command coverage matrix mapping every generated quickstart command to source artifact, README section, suite inclusion, and drift-fixture parity coverage | done | `scripts/v46_quickstart_command_coverage_matrix.py`; PASS with `34` command rows, `34` README-present rows, `34` drift-fixture-covered rows, `102` lint checks, all `score_values_read=false`. Stale-output detector now checks `64` artifacts; synthetic artifact index now covers `131` directories. |
 | 53 | Infrastructure | Add pocket-card drift fixture that mutates copied card commands and safe-class rows and proves the generated card cannot be manually edited silently | todo | Self-generated after item 50; mirrors item 49 for the compact operator card surface. |
 
 ## Generated Follow-Ups
@@ -178,6 +179,15 @@ todo items.
   generated-doc freshness PASS; stale-output detector PASS (`63` artifacts,
   `0` stale); generated-checker registry PASS (`116` scripts); synthetic
   artifact index refreshed (`130` directories, `88` synthetic-marked);
+  OpenGWAS HTTP 200 with JWT valid to `2026-06-19 12:28 UTC` (`RENEW_SOON`);
+  SAP AI Core health PASS for Claude, Gemini, and RPT; locked hash audit PASS;
+  no-raw scanner PASS with warnings only; `git diff --check` PASS.
+- 2026-06-13T15:45:04Z: Item 52 verification: quickstart command coverage
+  matrix PASS (`34` command rows, `34` README-present rows, `34`
+  drift-fixture-covered rows, `102` lint checks, all `score_values_read=false`);
+  generated-doc freshness PASS; stale-output detector PASS (`64` artifacts,
+  `0` stale); generated-checker registry PASS (`117` scripts); synthetic
+  artifact index refreshed (`131` directories, `88` synthetic-marked);
   OpenGWAS HTTP 200 with JWT valid to `2026-06-19 12:28 UTC` (`RENEW_SOON`);
   SAP AI Core health PASS for Claude, Gemini, and RPT; locked hash audit PASS;
   no-raw scanner PASS with warnings only; `git diff --check` PASS.
