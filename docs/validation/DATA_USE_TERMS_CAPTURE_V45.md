@@ -65,6 +65,24 @@ A received cohort may proceed to intake preflight only if:
 If terms are unclear, the cohort is an acquisition blocker, not a data-analysis
 blocker. Do not run the harness until the permitted use is clear.
 
+## V46 Terms-Governance Classifier
+
+After filling the non-sensitive terms summary, classify the allowed handling
+route before any local preflight:
+
+```bash
+.venv/bin/python scripts/v46_terms_governance_matrix.py classify \
+  --terms data/quarantine/<cohort>/governance/data_use_terms_summary.tsv \
+  --outdir analysis/v46_terms_governance_matrix/<cohort>
+```
+
+Use the emitted `operator_gate_status` for the first-24h data-use terms gate:
+
+- `pass`: local preflight is allowed under the stated route and all other gates
+  still apply;
+- `blocked`: do not run local preflight or scoring; follow the safe route in the
+  classifier output.
+
 ## Example Non-Sensitive Summary
 
 | Field | Example |

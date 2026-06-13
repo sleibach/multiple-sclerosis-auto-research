@@ -1,0 +1,15 @@
+{
+  "decision": "analysis/v46_terms_governance_matrix/ambiguous_terms/terms_governance_decision.tsv",
+  "expect_class": "AMBIGUOUS_TERMS_BLOCK",
+  "expectation_met": true,
+  "hard_stop": "do not treat unclear terms as approval",
+  "operator_gate_status": "blocked",
+  "purpose": "V46 terms-governance classifier; no biological claim",
+  "reasons": [
+    "status=pending_review is not approved_for_preflight"
+  ],
+  "result_class": "AMBIGUOUS_TERMS_BLOCK",
+  "safe_route": "clarify terms before any preflight or package processing",
+  "synthetic": true,
+  "terms": "analysis/v46_terms_governance_matrix/synthetic/ambiguous_terms_terms.tsv"
+}

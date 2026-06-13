@@ -1,0 +1,15 @@
+{
+  "decision": "analysis/v46_terms_governance_matrix/local_preflight_allowed/terms_governance_decision.tsv",
+  "expect_class": "LOCAL_PREFLIGHT_ALLOWED",
+  "expectation_met": true,
+  "hard_stop": "do not commit raw/private files unless terms explicitly allow it",
+  "operator_gate_status": "pass",
+  "purpose": "V46 terms-governance classifier; no biological claim",
+  "reasons": [
+    "terms permit redistribution and individual-level publication"
+  ],
+  "result_class": "LOCAL_PREFLIGHT_ALLOWED",
+  "safe_route": "local preflight and frozen harness may proceed after all other gates pass",
+  "synthetic": true,
+  "terms": "analysis/v46_terms_governance_matrix/synthetic/local_preflight_allowed_terms.tsv"
+}
