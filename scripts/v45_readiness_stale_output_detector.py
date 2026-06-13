@@ -390,6 +390,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_record_uniqueness_linter.py synthetic-check --outdir analysis/v47_external_record_uniqueness_linter --fail-on-error && .venv/bin/python scripts/v47_external_record_uniqueness_linter.py lint --outdir analysis/v47_external_record_uniqueness_linter --fail-on-error",
     },
     {
+        "artifact": "v47_external_source_domain_rollup",
+        "sources": [
+            "docs/knowledge/EXTERNAL_SOURCE_DOMAIN_ROLLUP_V47.md",
+            "knowledge_external/records",
+            "knowledge_external/catalogs/resources",
+            "scripts/v47_external_source_domain_rollup.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_source_domain_rollup/synthetic_source_domain_rollup_summary.json",
+            "analysis/v47_external_source_domain_rollup/synthetic_source_domain_rollup_checks.tsv",
+            "knowledge_external/catalogs/indexes/external_source_domain_rollup.tsv",
+            "knowledge_external/catalogs/indexes/external_source_domain_counts.tsv",
+            "knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md",
+            "knowledge_external/catalogs/indexes/external_source_domain_rollup_summary.json",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_source_domain_rollup.py synthetic-check --outdir analysis/v47_external_source_domain_rollup --fail-on-error && .venv/bin/python scripts/v47_external_source_domain_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",
