@@ -1,0 +1,32 @@
+scenario	check	status	detail
+scored_canonical_aggregate	first30_step_exists	PASS	scored_canonical_aggregate step 4
+scored_canonical_aggregate	next_command_present	PASS	.venv/bin/python scripts/v46_returned_package_command_order_planner.py plan --cohort-token <cohort>_<date> --package-root <returned_package_dir> --terms-capture <terms_capture_tsv> --terms-class <terms_class> --package-kind author_run_aggregate --package-state <package_state> --metric-format-state <metric_format_state> --outdir analysis/v46_returned_package_command_order_planner/<cohort>_<date> --expect-status <PASS_or_BLOCKED>
+scored_canonical_aggregate	repair_template_exists_or_not_needed	PASS	not_needed
+scored_canonical_aggregate	score_values_read_false	PASS	false
+scored_canonical_aggregate	allowed_language_pre_result	PASS	Returned package is in pre-result gated review; no validation interpretation is available yet.
+scored_noncanonical_aggregate	first30_step_exists	PASS	scored_noncanonical_aggregate step 5
+scored_noncanonical_aggregate	next_command_present	PASS	.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt --root <returned_package_dir> --outdir analysis/v46_author_run_metric_format_adapter/<cohort>_<date> --fail-on-error
+scored_noncanonical_aggregate	repair_template_exists_or_not_needed	PASS	schema_or_metric_format_mismatch
+scored_noncanonical_aggregate	score_values_read_false	PASS	false
+scored_noncanonical_aggregate	allowed_language_pre_result	PASS	Returned package requires format normalization before any result interpretation is available.
+scored_unknown_alias_aggregate	first30_step_exists	PASS	scored_unknown_alias_aggregate step 5
+scored_unknown_alias_aggregate	next_command_present	PASS	.venv/bin/python scripts/v46_author_run_metric_format_adapter.py adapt --root <returned_package_dir> --outdir analysis/v46_author_run_metric_format_adapter/<cohort>_<date> --fail-on-error
+scored_unknown_alias_aggregate	repair_template_exists_or_not_needed	PASS	schema_or_metric_format_mismatch
+scored_unknown_alias_aggregate	score_values_read_false	PASS	false
+scored_unknown_alias_aggregate	allowed_language_pre_result	PASS	Returned package is in format triage; no validation interpretation is available yet.
+unscoreable_aggregate	first30_step_exists	PASS	unscoreable_aggregate step 5
+unscoreable_aggregate	next_command_present	PASS	.venv/bin/python scripts/v45_author_run_return_gate_runner.py run --root <returned_or_normalized_package_dir> --package-state <package_state> --outdir analysis/v45_author_run_return_gate_runner/<cohort>_<date> --fail-on-error
+unscoreable_aggregate	repair_template_exists_or_not_needed	PASS	missing_score_bearing_aggregate_outputs
+unscoreable_aggregate	score_values_read_false	PASS	false
+unscoreable_aggregate	allowed_language_pre_result	PASS	Returned package is not result-reviewable unless required aggregate outputs are supplied.
+partial_label_scored_aggregate	first30_step_exists	PASS	partial_label_scored_aggregate step 7
+partial_label_scored_aggregate	next_command_present	PASS	.venv/bin/python scripts/v45_route_analyzable_pair_calculator.py calculate --route <route> --metadata <metadata_tsv> --outdir analysis/v45_route_analyzable_pair_calculator/<cohort>_<date> && .venv/bin/python scripts/v46_partial_label_return_classifier.py classify --analyzable-summary analysis/v45_route_analyzable_pair_calculator/<cohort>_<date>/analyzable_pair_summary.json --outdir analysis/v46_partial_label_return_classifier/<cohort>_<date>
+partial_label_scored_aggregate	repair_template_exists_or_not_needed	PASS	response_labels_absent_or_unmapped
+partial_label_scored_aggregate	score_values_read_false	PASS	false
+partial_label_scored_aggregate	allowed_language_pre_result	PASS	Returned package needs response-label coverage classification before any validation interpretation is available.
+terms_blocked_return	first30_step_exists	PASS	terms_blocked_return step 4
+terms_blocked_return	next_command_present	PASS	.venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_return_repair_request_templates --fail-on-error
+terms_blocked_return	repair_template_exists_or_not_needed	PASS	terms_or_receipt_not_cleared
+terms_blocked_return	score_values_read_false	PASS	false
+terms_blocked_return	allowed_language_pre_result	PASS	Returned package is blocked at terms or receipt clearance; no package review is permitted yet.
+all	all_first30_scenarios_represented	PASS	first30=['partial_label_scored_aggregate', 'scored_canonical_aggregate', 'scored_noncanonical_aggregate', 'scored_unknown_alias_aggregate', 'terms_blocked_return', 'unscoreable_aggregate'] status_board=['partial_label_scored_aggregate', 'scored_canonical_aggregate', 'scored_noncanonical_aggregate', 'scored_unknown_alias_aggregate', 'terms_blocked_return', 'unscoreable_aggregate']

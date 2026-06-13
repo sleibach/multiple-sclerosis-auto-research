@@ -187,6 +187,12 @@
       "n_files": 7
     },
     {
+      "allowed_interpretation": "first-30 returned-package status board only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 4
+    },
+    {
       "allowed_interpretation": "first-30-minute returned-package decision routing only",
       "class": "operations",
       "n_dirs": 1,
@@ -298,7 +304,7 @@
       "allowed_interpretation": "software/readiness regression only",
       "class": "synthetic_regression",
       "n_dirs": 2,
-      "n_files": 739
+      "n_files": 747
     },
     {
       "allowed_interpretation": "software regression only",
@@ -338,7 +344,7 @@
     }
   ],
   "n_dirs_containing_synthetic": 75,
-  "n_dirs_indexed": 111,
+  "n_dirs_indexed": 112,
   "purpose": "V43-V46 artifact governance index; no biological claim",
   "synthetic": false
 }

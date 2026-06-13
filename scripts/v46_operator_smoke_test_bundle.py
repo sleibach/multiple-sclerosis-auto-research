@@ -157,6 +157,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_first30_repair_template_coverage_linter.py", "--outdir", rel(outdir / "first30_repair_template_coverage_linter"), "--fail-on-error"],
         ),
         (
+            "first30_status_board_dryrun",
+            "returned_package",
+            [py, "scripts/v46_first30_returned_package_status_board_dryrun.py", "--outdir", rel(outdir / "first30_status_board_dryrun"), "--fail-on-error"],
+        ),
+        (
             "returned_package_state_transition_validator",
             "returned_package",
             [py, "scripts/v46_returned_package_state_transition_validator.py", "--outdir", rel(outdir / "state_transition_validator"), "--fail-on-error"],

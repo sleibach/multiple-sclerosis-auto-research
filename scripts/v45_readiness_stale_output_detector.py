@@ -524,6 +524,8 @@ CHECKS = [
             "scripts/v46_first30_returned_package_decision_table.py",
             "docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md",
             "scripts/v46_first30_repair_template_coverage_linter.py",
+            "docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md",
+            "scripts/v46_first30_returned_package_status_board_dryrun.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
             "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
@@ -659,6 +661,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_first30_repair_template_coverage_linter.py --outdir analysis/v46_first30_repair_template_coverage_linter --fail-on-error",
     },
     {
+        "artifact": "v46_first30_status_board_dryrun",
+        "sources": [
+            "docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md",
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_table.tsv",
+            "analysis/v46_return_repair_request_templates/repair_request_template_index.tsv",
+            "scripts/v46_first30_returned_package_status_board_dryrun.py",
+        ],
+        "outputs": [
+            "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json",
+            "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun.tsv",
+            "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_lint.tsv",
+            "analysis/v46_first30_returned_package_status_board_dryrun/FIRST30_STATUS_BOARD_DRYRUN.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_first30_returned_package_status_board_dryrun.py --outdir analysis/v46_first30_returned_package_status_board_dryrun --fail-on-error",
+    },
+    {
         "artifact": "v46_returned_package_state_transition_validator",
         "sources": [
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
@@ -686,6 +704,7 @@ CHECKS = [
             "analysis/v45_cold_start_operator_sequence/cold_start_operator_sequence_summary.json",
             "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json",
             "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_summary.json",
+            "analysis/v46_first30_returned_package_status_board_dryrun/first30_status_board_dryrun_summary.json",
             "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
             "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
             "scripts/v46_returned_package_handoff_bundle_manifest.py",
@@ -740,6 +759,8 @@ CHECKS = [
             "scripts/v46_first30_returned_package_decision_table.py",
             "docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md",
             "scripts/v46_first30_repair_template_coverage_linter.py",
+            "docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md",
+            "scripts/v46_first30_returned_package_status_board_dryrun.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
             "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
