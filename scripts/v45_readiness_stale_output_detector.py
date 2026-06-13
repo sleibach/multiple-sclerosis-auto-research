@@ -532,6 +532,27 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_result_report_safe_class_linter.py synthetic-check --outdir analysis/v46_result_report_safe_class_linter --fail-on-error",
     },
     {
+        "artifact": "v46_small_n_conclusion_language",
+        "sources": [
+            "docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md",
+            "docs/validation/PREREGISTRATION_V42.md",
+            "docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md",
+            "docs/validation/VALIDATION_POWER_DECISION_TABLE_V45.md",
+            "docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md",
+            "analysis/v45_route_analyzable_pair_calculator/route_analyzable_pair_synthetic_cases.tsv",
+            "analysis/v45_power_decision_table/stakeholder_power_decision_table.tsv",
+            "analysis/v45_power_decision_table/selected_scenarios_by_n.tsv",
+            "scripts/v46_small_n_conclusion_language_table.py",
+        ],
+        "outputs": [
+            "analysis/v46_small_n_conclusion_language/small_n_conclusion_language_summary.json",
+            "analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv",
+            "analysis/v46_small_n_conclusion_language/route_example_language.tsv",
+            "analysis/v46_small_n_conclusion_language/SMALL_N_CONCLUSION_LANGUAGE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_small_n_conclusion_language",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",

@@ -1,6 +1,6 @@
 doc	source	label	expected_text	status
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_artifact_index/summary.json	artifact_paths	| artifact-index paths | `1025` |	PASS
-docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	| V43-V46 method/governance directories | `103` |	PASS
+docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	| V43-V46 method/governance directories | `104` |	PASS
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_dirs	| V45 analysis directories in storage summary | `84` |	PASS
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_files	| V45 analysis files in storage summary | `796` |	PASS
 docs/validation/V45_GOVERNANCE_REFRESH.md	analysis/v45_compute_storage_summary/summary.json	storage_mib	| V45 analysis footprint | `85.466 MiB` |	PASS
@@ -27,9 +27,9 @@ docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summ
 docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md	analysis/v45_compute_storage_summary/summary.json	storage_total	| total size | 85.466 MiB |	PASS
 docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	analysis/v45_precommit_readiness/precommit_readiness_summary.json	precommit_total	| total | `PASS` | `101.339` |	PASS
 docs/validation/V45_READINESS_CHANGELOG.md	analysis/v45_precommit_readiness/precommit_readiness_summary.json	changelog_precommit	precommit readiness: `5/5` pass in `101.339` seconds	PASS
-docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	The refreshed index covers `103` V43-V46 analysis directories	PASS
-docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_marked_dirs	with `71`	PASS
-docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_dirs	- `103` V43-V46 analysis directories;	PASS
-docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_marked_dirs	- `71` directories with synthetic path/content markers;	PASS
+docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_dirs	The refreshed index covers `104` V43-V46 analysis directories	PASS
+docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md	analysis/v45_synthetic_artifact_index/summary.json	synthetic_marked_dirs	with `72`	PASS
+docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_dirs	- `104` V43-V46 analysis directories;	PASS
+docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md	analysis/v45_synthetic_artifact_index/summary.json	policy_marked_dirs	- `72` directories with synthetic path/content markers;	PASS
 docs/validation/V45_REGRESSION_AGGREGATOR.md	analysis/v45_regression_aggregator/regression_aggregator_summary.json	regression_total	Total runtime: `73.219` seconds.	PASS
-docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	scripts/v45_readiness_stale_output_detector.py	stale_artifacts_checked	- artifacts checked: `36`	PASS
+docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	scripts/v45_readiness_stale_output_detector.py	stale_artifacts_checked	- artifacts checked: `37`	PASS

@@ -118,6 +118,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_result_report_safe_class_linter.py", "synthetic-check", "--outdir", rel(outdir / "result_report_safe_class_linter"), "--fail-on-error"],
         ),
         (
+            "small_n_conclusion_language",
+            "power_language",
+            [py, "scripts/v46_small_n_conclusion_language_table.py", "--outdir", rel(outdir / "small_n_conclusion_language")],
+        ),
+        (
             "readiness_stale_output_detector",
             "governance",
             [py, "scripts/v45_readiness_stale_output_detector.py", "--outdir", rel(outdir / "readiness_stale_output_detector")],

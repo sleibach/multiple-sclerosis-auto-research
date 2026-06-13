@@ -120,6 +120,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_regression_suite": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_safe_wording_fixture_linter": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_result_report_safe_class_linter": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v46_small_n_conclusion_language": ("power_design_planning", "study design planning only"),
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
 }

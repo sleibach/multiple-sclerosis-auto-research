@@ -32,14 +32,15 @@ data, run validation, change locked rules, or interpret biological results.
 8. V46 safe-interpretation classifier synthetic check.
 9. V46 safe-wording fixture linter.
 10. V46 result-report safe-class linter.
-11. V45/V46 readiness stale-output detector.
-12. V45 no-raw-data git scanner.
+11. V46 small-n conclusion language table.
+12. V45/V46 readiness stale-output detector.
+13. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `12`
+- steps: `13`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`
