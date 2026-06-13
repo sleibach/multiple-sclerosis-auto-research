@@ -526,6 +526,8 @@ CHECKS = [
             "scripts/v46_first30_repair_template_coverage_linter.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
+            "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
+            "scripts/v46_returned_package_handoff_bundle_manifest.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -677,6 +679,26 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_returned_package_state_transition_validator.py --outdir analysis/v46_returned_package_state_transition_validator --fail-on-error",
     },
     {
+        "artifact": "v46_returned_package_handoff_bundle_manifest",
+        "sources": [
+            "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
+            "analysis/v45_current_action_card/current_action_card_summary.json",
+            "analysis/v45_cold_start_operator_sequence/cold_start_operator_sequence_summary.json",
+            "analysis/v46_package_manifest_shape_classifier/package_manifest_shape_synthetic_summary.json",
+            "analysis/v46_first30_returned_package_decision_table/first30_returned_package_decision_summary.json",
+            "analysis/v46_returned_package_state_transition_validator/returned_package_state_transition_summary.json",
+            "analysis/v46_first30_repair_template_coverage_linter/first30_repair_template_coverage_summary.json",
+            "scripts/v46_returned_package_handoff_bundle_manifest.py",
+        ],
+        "outputs": [
+            "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_summary.json",
+            "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_manifest.tsv",
+            "analysis/v46_returned_package_handoff_bundle_manifest/returned_package_handoff_bundle_lint.tsv",
+            "analysis/v46_returned_package_handoff_bundle_manifest/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_returned_package_handoff_bundle_manifest.py --outdir analysis/v46_returned_package_handoff_bundle_manifest --fail-on-error",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
@@ -720,6 +742,8 @@ CHECKS = [
             "scripts/v46_first30_repair_template_coverage_linter.py",
             "docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md",
             "scripts/v46_returned_package_state_transition_validator.py",
+            "docs/validation/RETURNED_PACKAGE_HANDOFF_BUNDLE_MANIFEST_V46.md",
+            "scripts/v46_returned_package_handoff_bundle_manifest.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

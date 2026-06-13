@@ -45,13 +45,14 @@ validation harness, or interpret biology.
 20. V46 first-30-minute returned-package decision table.
 21. V46 first-30 repair-template coverage linter.
 22. V46 returned-package state-transition validator.
-23. V45 no-raw-data git scanner.
+23. V46 returned-package handoff bundle manifest.
+24. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `23`;
+- steps: `24`;
 - failures: `0`;
 - overall status: `PASS`.
 

@@ -217,6 +217,12 @@
       "n_files": 10
     },
     {
+      "allowed_interpretation": "returned-package handoff navigation only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 4
+    },
+    {
       "allowed_interpretation": "returned-package repair request drafts only",
       "class": "operations",
       "n_dirs": 1,
@@ -292,7 +298,7 @@
       "allowed_interpretation": "software/readiness regression only",
       "class": "synthetic_regression",
       "n_dirs": 2,
-      "n_files": 731
+      "n_files": 739
     },
     {
       "allowed_interpretation": "software regression only",
@@ -331,8 +337,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 74,
-  "n_dirs_indexed": 110,
+  "n_dirs_containing_synthetic": 75,
+  "n_dirs_indexed": 111,
   "purpose": "V43-V46 artifact governance index; no biological claim",
   "synthetic": false
 }

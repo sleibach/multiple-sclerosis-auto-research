@@ -39,14 +39,15 @@ data, run validation, change locked rules, or interpret biological results.
 15. V46 first-30-minute returned-package decision table.
 16. V46 first-30 repair-template coverage linter.
 17. V46 returned-package state-transition validator.
-18. V45/V46 readiness stale-output detector.
-19. V45 no-raw-data git scanner.
+18. V46 returned-package handoff bundle manifest.
+19. V45/V46 readiness stale-output detector.
+20. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `19`
+- steps: `20`
 - failures: `0`
 - runtime: recorded in `returned_package_regression_summary.json`
 - overall status: `PASS`
