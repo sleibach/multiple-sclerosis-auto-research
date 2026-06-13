@@ -11,7 +11,7 @@ integrity_governance	command-plan integrity only	1	2
 integrity_governance	cross-route readiness consistency only	1	6
 integrity_governance	generated-checker registry only	1	2
 integrity_governance	generated-document freshness check only	1	2
-integrity_governance	locked-artifact integrity only	1	9
+integrity_governance	locked-artifact integrity only	1	11
 integrity_governance	no-score-before-gates documentation check only	1	5
 integrity_governance	outbound request packet integrity only	1	6
 integrity_governance	pre-commit readiness only	1	2
@@ -38,7 +38,7 @@ operations	returned-package repair request drafts only	1	14
 operations	route-specific arrival commands only	1	6
 operations	unsent acquisition message drafts only	1	12
 operations	acquisition operations only	4	5
-power_design_planning	study design planning only	4	28
+power_design_planning	study design planning only	5	34
 proposal_lens_grounding	proposal prioritization only	1	6
 public_metadata_preparation	acquisition readiness only	1	5
 public_metadata_scout	cohort availability evidence only	3	20
@@ -46,7 +46,7 @@ synthetic_harness_verification	method behavior only	3	42
 synthetic_intake_verification	expected missing-output guard only	1	2
 synthetic_intake_verification	method behavior only	25	491
 synthetic_method_characterization	method behavior only	10	195
-synthetic_regression	software/readiness regression only	2	667
+synthetic_regression	software/readiness regression only	2	679
 synthetic_regression	software regression only	4	120
 validation_infrastructure	command handoff only	1	9
 validation_infrastructure	expected missing-output guard only	1	3

@@ -48,7 +48,7 @@ analysis/v45_harness_regression_tests	synthetic_regression	software regression o
 analysis/v45_intake_template_dryrun	synthetic_intake_verification	method behavior only	19	True	True	True	none
 analysis/v45_karolinska_access	public_metadata_scout	cohort availability evidence only	7	False	False	False	analysis/v45_karolinska_access/summary.json
 analysis/v45_live_cohort_acquisition_index	operations	acquisition operations only	1	False	False	False	none
-analysis/v45_locked_artifact_hash_audit	integrity_governance	locked-artifact integrity only	9	True	True	True	none
+analysis/v45_locked_artifact_hash_audit	integrity_governance	locked-artifact integrity only	11	True	True	True	none
 analysis/v45_metadata_contradiction_stress	synthetic_intake_verification	method behavior only	14	True	True	True	none
 analysis/v45_metadata_missingness_scorer	synthetic_intake_verification	method behavior only	7	True	True	True	analysis/v45_metadata_missingness_scorer/synthetic_check_summary.json
 analysis/v45_module_coverage_precheck	synthetic_intake_verification	method behavior only	9	True	True	True	none
@@ -90,15 +90,16 @@ analysis/v45_tb_compartment_pathology	synthetic_method_characterization	method b
 analysis/v45_validation_command_runner	validation_infrastructure	command handoff only	9	False	False	False	none
 analysis/v45_validation_intake_preflight	synthetic_intake_verification	method behavior only	24	True	True	True	none
 analysis/v46_aggregate_only_returned_package_composition_dryrun	synthetic_intake_verification	method behavior only	77	True	True	True	none
+analysis/v46_analyzable_pair_confidence_envelope	power_design_planning	study design planning only	6	False	False	False	none
 analysis/v46_author_run_metric_format_adapter	synthetic_intake_verification	method behavior only	45	True	True	True	none
 analysis/v46_external_blocker_aging_audit	operations	external blocker timing status only	7	True	True	True	none
 analysis/v46_first30_returned_package_decision_table	operations	first-30-minute returned-package decision routing only	4	False	False	False	none
-analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	373	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
+analysis/v46_operator_smoke_test_bundle	synthetic_regression	software/readiness regression only	379	True	True	True	analysis/v46_operator_smoke_test_bundle/author_run_return_gate/synthetic_check_summary.json
 analysis/v46_partial_label_return_classifier	synthetic_intake_verification	method behavior only	20	True	True	True	none
 analysis/v46_result_report_safe_class_linter	synthetic_intake_verification	method behavior only	17	True	True	True	none
 analysis/v46_return_repair_request_templates	operations	returned-package repair request drafts only	14	False	False	False	none
 analysis/v46_returned_package_command_order_planner	synthetic_intake_verification	method behavior only	14	True	True	True	none
-analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	294	True	True	True	none
+analysis/v46_returned_package_regression_suite	synthetic_regression	software/readiness regression only	300	True	True	True	none
 analysis/v46_returned_package_route_state_matrix	synthetic_intake_verification	method behavior only	3	False	True	True	none
 analysis/v46_returned_package_safe_interpretation	synthetic_intake_verification	method behavior only	29	True	True	True	none
 analysis/v46_returned_package_state_transition_validator	synthetic_intake_verification	method behavior only	6	False	True	True	none

@@ -1,0 +1,36 @@
+band	min_response_group_n_range	scenario	scenario_description	simulated_n_per_group	n_cells	pass_rate_range	conclusive_rate_range	false_positive_rate_range	median_auc_ci_low_range
+no_mapped_response_groups	0_or_single_class	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	not_simulated	112	0.000-0.333	0.167-1.000	0.000-0.333	0.164-0.440
+no_mapped_response_groups	0_or_single_class	moderate_clean	Moderate effect, clean labels, no confounder structure.	not_simulated	14	0.167-0.750	0.250-0.750	0.000-0.000	0.431-0.607
+no_mapped_response_groups	0_or_single_class	large_clean	Large effect, clean labels, no confounder structure.	not_simulated	14	0.417-0.917	0.417-0.917	0.000-0.000	0.458-0.671
+no_mapped_response_groups	0_or_single_class	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	not_simulated	14	0.000-0.500	0.167-0.833	0.000-0.000	0.357-0.584
+no_mapped_response_groups	0_or_single_class	large_noisy_immune	Large effect with label noise and immune-tone structure.	not_simulated	14	0.167-0.583	0.250-0.667	0.000-0.000	0.357-0.598
+below_planning_floor	1-9	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	not_simulated	112	0.000-0.333	0.167-1.000	0.000-0.333	0.164-0.440
+below_planning_floor	1-9	moderate_clean	Moderate effect, clean labels, no confounder structure.	not_simulated	14	0.167-0.750	0.250-0.750	0.000-0.000	0.431-0.607
+below_planning_floor	1-9	large_clean	Large effect, clean labels, no confounder structure.	not_simulated	14	0.417-0.917	0.417-0.917	0.000-0.000	0.458-0.671
+below_planning_floor	1-9	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	not_simulated	14	0.000-0.500	0.167-0.833	0.000-0.000	0.357-0.584
+below_planning_floor	1-9	large_noisy_immune	Large effect with label noise and immune-tone structure.	not_simulated	14	0.167-0.583	0.250-0.667	0.000-0.000	0.357-0.598
+gafson_sized_effect_estimate_only	10-14	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	10	16	0.000-0.333	0.167-0.833	0.000-0.333	0.164-0.321
+gafson_sized_effect_estimate_only	10-14	moderate_clean	Moderate effect, clean labels, no confounder structure.	10	2	0.417-0.750	0.500-0.750	0.000-0.000	0.442-0.497
+gafson_sized_effect_estimate_only	10-14	large_clean	Large effect, clean labels, no confounder structure.	10	2	0.500-0.583	0.500-0.583	0.000-0.000	0.458-0.467
+gafson_sized_effect_estimate_only	10-14	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	10	2	0.333-0.333	0.333-0.333	0.000-0.000	0.357-0.376
+gafson_sized_effect_estimate_only	10-14	large_noisy_immune	Large effect with label noise and immune-tone structure.	10	2	0.250-0.583	0.250-0.583	0.000-0.000	0.357-0.447
+small_to_mid_caution	15-29	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	15,20	32	0.000-0.083	0.583-1.000	0.000-0.083	0.246-0.385
+small_to_mid_caution	15-29	moderate_clean	Moderate effect, clean labels, no confounder structure.	15,20	4	0.167-0.417	0.333-0.583	0.000-0.000	0.431-0.539
+small_to_mid_caution	15-29	large_clean	Large effect, clean labels, no confounder structure.	15,20	4	0.417-0.667	0.417-0.667	0.000-0.000	0.537-0.626
+small_to_mid_caution	15-29	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	15,20	4	0.083-0.333	0.417-0.833	0.000-0.000	0.398-0.469
+small_to_mid_caution	15-29	large_noisy_immune	Large effect with label noise and immune-tone structure.	15,20	4	0.333-0.417	0.500-0.667	0.000-0.000	0.475-0.530
+minimum_decision_grade	30-59	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	30,45	32	0.000-0.000	0.667-1.000	0.000-0.000	0.313-0.406
+minimum_decision_grade	30-59	moderate_clean	Moderate effect, clean labels, no confounder structure.	30,45	4	0.250-0.583	0.333-0.667	0.000-0.000	0.564-0.579
+minimum_decision_grade	30-59	large_clean	Large effect, clean labels, no confounder structure.	30,45	4	0.667-0.917	0.667-0.917	0.000-0.000	0.597-0.652
+minimum_decision_grade	30-59	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	30,45	4	0.167-0.500	0.167-0.833	0.000-0.000	0.535-0.578
+minimum_decision_grade	30-59	large_noisy_immune	Large effect with label noise and immune-tone structure.	30,45	4	0.167-0.417	0.333-0.667	0.000-0.000	0.512-0.578
+preferred_decision_grade	60-80	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	60,80	32	0.000-0.000	0.833-1.000	0.000-0.000	0.381-0.440
+preferred_decision_grade	60-80	moderate_clean	Moderate effect, clean labels, no confounder structure.	60,80	4	0.250-0.500	0.250-0.500	0.000-0.000	0.576-0.607
+preferred_decision_grade	60-80	large_clean	Large effect, clean labels, no confounder structure.	60,80	4	0.750-0.917	0.750-0.917	0.000-0.000	0.651-0.671
+preferred_decision_grade	60-80	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	60,80	4	0.000-0.083	0.167-0.333	0.000-0.000	0.509-0.584
+preferred_decision_grade	60-80	large_noisy_immune	Large effect with label noise and immune-tone structure.	60,80	4	0.167-0.417	0.250-0.417	0.000-0.000	0.553-0.598
+beyond_simulated_grid	>80	null_all_structures	Null cells across label noise, baseline SD, and confounder structures.	not_simulated	112	0.000-0.333	0.167-1.000	0.000-0.333	0.164-0.440
+beyond_simulated_grid	>80	moderate_clean	Moderate effect, clean labels, no confounder structure.	not_simulated	14	0.167-0.750	0.250-0.750	0.000-0.000	0.431-0.607
+beyond_simulated_grid	>80	large_clean	Large effect, clean labels, no confounder structure.	not_simulated	14	0.417-0.917	0.417-0.917	0.000-0.000	0.458-0.671
+beyond_simulated_grid	>80	moderate_noisy_immune	Moderate effect with label noise and immune-tone structure.	not_simulated	14	0.000-0.500	0.167-0.833	0.000-0.000	0.357-0.584
+beyond_simulated_grid	>80	large_noisy_immune	Large effect with label noise and immune-tone structure.	not_simulated	14	0.167-0.583	0.250-0.667	0.000-0.000	0.357-0.598

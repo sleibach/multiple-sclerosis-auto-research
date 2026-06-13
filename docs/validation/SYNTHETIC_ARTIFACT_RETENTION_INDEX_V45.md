@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `107` V43-V46 analysis directories, with `73`
+The refreshed index covers `108` V43-V46 analysis directories, with `73`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -38,7 +38,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `integrity_governance` | `1` | `6` | Cross-route readiness consistency only |
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
 | `integrity_governance` | `1` | `2` | Generated-document freshness check only |
-| `integrity_governance` | `1` | `9` | Locked-artifact integrity only |
+| `integrity_governance` | `1` | `11` | Locked-artifact integrity only |
 | `integrity_governance` | `1` | `5` | No-score-before-gates documentation check only |
 | `integrity_governance` | `1` | `6` | Outbound request packet integrity only |
 | `integrity_governance` | `1` | `2` | Pre-commit readiness only |
@@ -65,7 +65,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `operations` | `1` | `6` | Route-specific arrival commands only |
 | `operations` | `1` | `12` | Unsent acquisition message drafts only |
 | `operations` | `4` | `5` | Acquisition operations only |
-| `power_design_planning` | `4` | `28` | Study-design planning only |
+| `power_design_planning` | `5` | `34` | Study-design planning only |
 | `proposal_lens_grounding` | `1` | `6` | Proposal prioritization only |
 | `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
@@ -73,7 +73,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
 | `synthetic_intake_verification` | `25` | `491` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
-| `synthetic_regression` | `2` | `667` | Software/readiness regression only |
+| `synthetic_regression` | `2` | `679` | Software/readiness regression only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |

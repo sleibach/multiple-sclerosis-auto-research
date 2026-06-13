@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `40`
+- artifacts checked: `41`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -60,6 +60,7 @@ Checked generated artifacts:
 - V46 safe-wording fixture linter;
 - V46 result-report safe-class linter;
 - V46 small-n conclusion language table;
+- V46 analyzable-pair confidence envelope;
 - V46 return repair-request templates;
 - V46 first-30-minute returned-package decision table;
 - V46 returned-package state-transition validator;
