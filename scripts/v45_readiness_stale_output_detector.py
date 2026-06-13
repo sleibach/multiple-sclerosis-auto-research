@@ -1010,6 +1010,20 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_operator_smoke_test_bundle.py --outdir analysis/v46_operator_smoke_test_bundle --fail-on-error",
     },
     {
+        "artifact": "v46_sap_ai_core_health_check",
+        "sources": [
+            "docs/validation/SAP_AI_CORE_HEALTH_CHECK_V46.md",
+            "scripts/v46_sap_ai_core_health_check.py",
+            "scripts/sap_ai_core_client.py",
+            "meta/SAP_AI_CORE_ACCESS_V30.md",
+        ],
+        "outputs": [
+            "analysis/v46_sap_ai_core_health_check/sap_ai_core_health_summary.json",
+            "analysis/v46_sap_ai_core_health_check/sap_ai_core_health_checks.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_sap_ai_core_health_check.py --outdir analysis/v46_sap_ai_core_health_check --fail-on-error",
+    },
+    {
         "artifact": "opengwas_token_expiry_sentinel",
         "sources": [
             "scripts/v45_opengwas_token_expiry_sentinel.py",

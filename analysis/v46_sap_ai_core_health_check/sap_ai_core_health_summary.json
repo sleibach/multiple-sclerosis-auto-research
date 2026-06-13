@@ -1,0 +1,11 @@
+{
+  "checks": 3,
+  "fail_count": 0,
+  "important_operational_rule": "Use sap_ai_core_client.py rpt-smoke for sap-rpt-1-large; the generic smoke command is for LLM-style text generation and will correctly reject RPT as an unsupported generation schema.",
+  "outputs": [
+    "analysis/v46_sap_ai_core_health_check/sap_ai_core_health_checks.tsv"
+  ],
+  "overall_status": "PASS",
+  "pass_count": 3,
+  "purpose": "V46 SAP AI Core model-family-specific health check; no biological claim"
+}

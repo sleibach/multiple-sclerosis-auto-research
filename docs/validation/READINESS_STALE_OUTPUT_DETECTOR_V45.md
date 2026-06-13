@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `55`
+- artifacts checked: `56`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -78,7 +78,8 @@ Checked generated artifacts:
 - V46 returned-package documentation cross-link linter;
 - V46 returned-package dependency graph;
 - V46 external blocker aging audit;
-- V46 operator smoke-test bundle.
+- V46 operator smoke-test bundle;
+- V46 SAP AI Core health check.
 
 ## Interpretation
 

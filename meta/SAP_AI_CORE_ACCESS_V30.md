@@ -387,3 +387,30 @@ Interpretation:
 - RPT is usable through the committed Python client.
 - RPT output remained a proposal/ranking lens only and did not change the V41
   evidence verdict.
+
+## V46 Health-Check Wrapper
+
+V46 added a model-family-specific health checker to prevent command-path drift:
+
+```bash
+python3 scripts/v46_sap_ai_core_health_check.py \
+  --outdir analysis/v46_sap_ai_core_health_check \
+  --fail-on-error
+```
+
+Result on 2026-06-13:
+
+- Claude via Orchestration: PASS.
+- Gemini native generation: PASS.
+- SAP RPT via `/predict`: PASS.
+
+Operational rule:
+
+- Use `sap_ai_core_client.py smoke` for text-generation models such as Claude
+  and Gemini.
+- Use `sap_ai_core_client.py rpt-smoke` or `rpt-predict` for
+  `sap-rpt-1-large`.
+- If `sap_ai_core_client.py smoke --model sap-rpt-1-large` returns
+  `No implemented request schema for model: sap-rpt-1-large`, that means the
+  LLM-style command was used for a tabular prediction model. It is not evidence
+  that RPT is unavailable.

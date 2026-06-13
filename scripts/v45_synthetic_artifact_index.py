@@ -141,6 +141,7 @@ MANUAL_CLASS = {
     "analysis/v46_returned_package_dependency_graph": ("integrity_governance", "returned-package dependency graph only"),
     "analysis/v46_operator_smoke_test_bundle": ("synthetic_regression", "software/readiness regression only"),
     "analysis/v46_external_blocker_aging_audit": ("operations", "external blocker timing status only"),
+    "analysis/v46_sap_ai_core_health_check": ("integrity_governance", "SAP AI Core access health only"),
 }
 
 

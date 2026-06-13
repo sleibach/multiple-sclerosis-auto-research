@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `122` V43-V46 analysis directories, with `83`
+The refreshed index covers `123` V43-V46 analysis directories, with `83`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 
@@ -31,6 +31,7 @@ markers. Current V43-V46 analysis output footprint is approximately `157 MiB`.
 | `artifact_governance` | `1` | `3` | Storage/accounting only |
 | `artifact_governance` | `2` | `7` | Index only |
 | `integrity_governance` | `1` | `2` | OpenGWAS auth-expiry sentinel only |
+| `integrity_governance` | `1` | `2` | SAP AI Core access health only |
 | `integrity_governance` | `1` | `8` | Author-run packet checksum integrity only |
 | `integrity_governance` | `1` | `6` | Author-run packet dry-run integrity only |
 | `integrity_governance` | `1` | `6` | Collaborator package path integrity only |
