@@ -1,0 +1,101 @@
+template_id	check	status	detail
+terms_or_receipt_not_cleared	forbidden_pattern:\bvalidated\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bvalidation failed\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bthe rule passed\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bthe rule failed\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bkilled the lead\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bconfirmed response\b	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bauc\s*=	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\bp\s*=	PASS	absent
+terms_or_receipt_not_cleared	forbidden_pattern:\beffect size\s*=	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bvalidated\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bvalidation failed\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bthe rule passed\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bthe rule failed\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bkilled the lead\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bconfirmed response\b	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bauc\s*=	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\bp\s*=	PASS	absent
+redaction_or_private_content_block	forbidden_pattern:\beffect size\s*=	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bvalidated\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bvalidation failed\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bthe rule passed\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bthe rule failed\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bkilled the lead\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bconfirmed response\b	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bauc\s*=	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\bp\s*=	PASS	absent
+missing_score_bearing_aggregate_outputs	forbidden_pattern:\beffect size\s*=	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bvalidated\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bvalidation failed\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bthe rule passed\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bthe rule failed\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bkilled the lead\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bconfirmed response\b	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bauc\s*=	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\bp\s*=	PASS	absent
+schema_or_metric_format_mismatch	forbidden_pattern:\beffect size\s*=	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bvalidated\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bvalidation failed\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bthe rule passed\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bthe rule failed\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bkilled the lead\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bconfirmed response\b	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bauc\s*=	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\bp\s*=	PASS	absent
+response_labels_absent_or_unmapped	forbidden_pattern:\beffect size\s*=	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bvalidated\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bvalidation failed\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bthe rule passed\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bthe rule failed\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bkilled the lead\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bconfirmed response\b	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bauc\s*=	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\bp\s*=	PASS	absent
+response_label_orientation_ambiguous	forbidden_pattern:\beffect size\s*=	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bvalidated\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bvalidation failed\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bthe rule passed\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bthe rule failed\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bkilled the lead\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bconfirmed response\b	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bauc\s*=	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\bp\s*=	PASS	absent
+below_planning_floor_labeled_pairs	forbidden_pattern:\beffect size\s*=	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bvalidated\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bvalidation failed\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bthe rule passed\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bthe rule failed\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bkilled the lead\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bconfirmed response\b	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bauc\s*=	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\bp\s*=	PASS	absent
+metadata_or_pairing_contradiction	forbidden_pattern:\beffect size\s*=	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bvalidated\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bvalidation failed\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bthe rule passed\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bthe rule failed\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bkilled the lead\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bconfirmed response\b	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bauc\s*=	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\bp\s*=	PASS	absent
+primary_module_coverage_block	forbidden_pattern:\beffect size\s*=	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bvalidated\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bvalidation succeeded\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bvalidation failed\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bthe rule passed\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bthe rule failed\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bkilled the lead\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bconfirmed response\b	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bauc\s*=	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\bp\s*=	PASS	absent
+batch_or_confounder_metadata_needed	forbidden_pattern:\beffect size\s*=	PASS	absent

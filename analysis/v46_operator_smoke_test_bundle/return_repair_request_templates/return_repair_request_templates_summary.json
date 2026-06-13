@@ -1,0 +1,18 @@
+{
+  "lint": "analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/repair_request_template_lint.tsv",
+  "markdown": "analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md",
+  "n_lint_checks": 100,
+  "n_lint_fail": 0,
+  "n_templates": 10,
+  "overall_status": "PASS",
+  "purpose": "V46 return repair request templates; no biological claim",
+  "sources": {
+    "author_return_checklist": "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
+    "failure_taxonomy": "docs/validation/input_schemas/V45_preflight_failure_taxonomy.tsv",
+    "minimum_output_spec": "docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv",
+    "safe_interpretation": "docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md",
+    "small_n_language": "analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv"
+  },
+  "synthetic": false,
+  "template_index": "analysis/v46_operator_smoke_test_bundle/return_repair_request_templates/repair_request_template_index.tsv"
+}

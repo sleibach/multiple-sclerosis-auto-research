@@ -497,6 +497,8 @@ CHECKS = [
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
             "scripts/v46_result_report_safe_class_linter.py",
+            "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",
+            "scripts/v46_return_repair_request_templates.py",
         ],
         "outputs": [
             "analysis/v46_returned_package_regression_suite/returned_package_regression_summary.json",
@@ -553,6 +555,25 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v46_small_n_conclusion_language_table.py --outdir analysis/v46_small_n_conclusion_language",
     },
     {
+        "artifact": "v46_return_repair_request_templates",
+        "sources": [
+            "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",
+            "docs/validation/input_schemas/V45_preflight_failure_taxonomy.tsv",
+            "docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv",
+            "docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md",
+            "docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md",
+            "analysis/v46_small_n_conclusion_language/small_n_conclusion_language.tsv",
+            "scripts/v46_return_repair_request_templates.py",
+        ],
+        "outputs": [
+            "analysis/v46_return_repair_request_templates/return_repair_request_templates_summary.json",
+            "analysis/v46_return_repair_request_templates/repair_request_template_index.tsv",
+            "analysis/v46_return_repair_request_templates/repair_request_template_lint.tsv",
+            "analysis/v46_return_repair_request_templates/RETURN_REPAIR_REQUEST_TEMPLATES.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v46_return_repair_request_templates.py --outdir analysis/v46_return_repair_request_templates --fail-on-error",
+    },
+    {
         "artifact": "v46_external_blocker_aging_audit",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
@@ -584,6 +605,8 @@ CHECKS = [
             "scripts/v46_returned_package_safe_interpretation.py",
             "scripts/v46_safe_wording_fixture_linter.py",
             "scripts/v46_result_report_safe_class_linter.py",
+            "docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md",
+            "scripts/v46_return_repair_request_templates.py",
             "scripts/v46_external_blocker_aging_audit.py",
         ],
         "outputs": [

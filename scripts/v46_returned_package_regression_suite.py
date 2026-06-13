@@ -123,6 +123,11 @@ def command_plan(outdir: Path) -> list[tuple[str, str, list[str]]]:
             [py, "scripts/v46_small_n_conclusion_language_table.py", "--outdir", rel(outdir / "small_n_conclusion_language")],
         ),
         (
+            "return_repair_request_templates",
+            "repair_requests",
+            [py, "scripts/v46_return_repair_request_templates.py", "--outdir", rel(outdir / "return_repair_request_templates"), "--fail-on-error"],
+        ),
+        (
             "readiness_stale_output_detector",
             "governance",
             [py, "scripts/v45_readiness_stale_output_detector.py", "--outdir", rel(outdir / "readiness_stale_output_detector")],

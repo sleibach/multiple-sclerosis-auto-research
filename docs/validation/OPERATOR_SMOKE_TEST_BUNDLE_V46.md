@@ -39,13 +39,14 @@ validation harness, or interpret biology.
 14. V46 safe-wording fixture linter.
 15. V46 result-report safe-class linter.
 16. V46 small-n conclusion language table.
-17. V45 no-raw-data git scanner.
+17. V46 return repair-request templates.
+18. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `17`;
+- steps: `18`;
 - failures: `0`;
 - overall status: `PASS`.
 
