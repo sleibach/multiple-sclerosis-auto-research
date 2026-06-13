@@ -358,6 +358,22 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_resource_access_tier_rollup.py synthetic-check --outdir analysis/v47_external_resource_access_tier_rollup --fail-on-error && .venv/bin/python scripts/v47_external_resource_access_tier_rollup.py rollup --outdir knowledge_external/catalogs/indexes",
     },
     {
+        "artifact": "v47_external_markdown_index_linter",
+        "sources": [
+            "docs/knowledge/EXTERNAL_MARKDOWN_INDEX_LINTER_V47.md",
+            "knowledge_external/catalogs/indexes",
+            "knowledge_external/synthesis",
+            "scripts/v47_external_markdown_index_linter.py",
+        ],
+        "outputs": [
+            "analysis/v47_external_markdown_index_linter/synthetic_external_markdown_index_lint_summary.json",
+            "analysis/v47_external_markdown_index_linter/synthetic_external_markdown_index_lint_checks.tsv",
+            "analysis/v47_external_markdown_index_linter/external_markdown_index_lint_summary.json",
+            "analysis/v47_external_markdown_index_linter/external_markdown_index_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_external_markdown_index_linter.py synthetic-check --outdir analysis/v47_external_markdown_index_linter --fail-on-error && .venv/bin/python scripts/v47_external_markdown_index_linter.py lint --outdir analysis/v47_external_markdown_index_linter --fail-on-error",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",

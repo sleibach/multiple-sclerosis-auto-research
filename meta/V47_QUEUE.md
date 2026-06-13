@@ -40,6 +40,7 @@ No external knowledge integration occurs until:
 | 11 | 2026-06-13T19:27:43Z | 2026-06-13T19:31:31Z | done | Added 5 source-verified public MS clinical/reference resource records: National MS Society, MSIF Atlas of MS, NICE NG220, NINDS MS CDE, and MS Society UK. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`26` records), category rollup PASS (`26` resources, `9` categories), schema lint PASS (`520` checks), relationship lint PASS (`78` checks), provenance audit PASS (`235` checks). |
 | 12 | 2026-06-13T19:32:41Z | 2026-06-13T19:35:24Z | done | Added 5 public DMT/drug-reference resource records: FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. All are `external-unverifiable` and `NOT_PROJECT_GROUNDED`. Index PASS (`31` records), category rollup PASS (`31` resources, `10` categories), schema lint PASS (`620` checks), relationship lint PASS (`93` checks), convergence skeleton PASS (`31` placeholder rows), provenance audit PASS (`280` checks). |
 | 13 | 2026-06-13T19:36:15Z | 2026-06-13T19:39:22Z | done | Added external-resource access-tier rollup. Synthetic fixture PASS (`4/4` checks); real rollup PASS (`31` resources, `5` represented access tiers, `0` missing markers). Governance refreshed: generated-checker registry PASS (`124` scripts), stale detector PASS (`71` artifacts), doc freshness PASS, provenance audit PASS (`280` checks). |
+| 14 | 2026-06-13T19:40:10Z | 2026-06-13T19:43:17Z | done | Added generated external Markdown source/provenance linter. Synthetic fixture PASS (`3/3` checks; bad row intentionally fails underlying lint); real lint PASS (`6` Markdown files, `96` checks, `0` failures). Governance refreshed: generated-checker registry PASS (`125` scripts), stale detector PASS (`72` artifacts), provenance audit PASS (`280` checks). |
 
 ## Live Backlog
 
@@ -64,7 +65,7 @@ No external knowledge integration occurs until:
 | 17 | External integration | MS society/clinical-reference resources for public-reader disease-course context | done | Added source-verified external-unverifiable records for National MS Society, MS Society UK, MSIF Atlas, NICE NG220, and NINDS MS CDE. |
 | 18 | Governance | Add relationship-to-project-finding controlled vocabulary documentation and lint examples | done | `docs/knowledge/RELATIONSHIP_TO_PROJECT_FINDINGS_V47.md`; `scripts/v47_relationship_vocabulary_linter.py`; real lint PASS (`21` records, `63` checks). |
 | 19 | Navigation/index | Add source-access-tier rollup for open / registration / application / controlled / mixed resources | done | `scripts/v47_external_resource_access_tier_rollup.py`; real rollup PASS (`31` resources, `5` represented access tiers, no missing markers). |
-| 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | todo | Should catch classed rows rendered without provenance in generated navigation docs. |
+| 20 | Governance | Add markdown index linter to verify generated external index tables retain source URLs or labels per external row | done | `scripts/v47_external_markdown_index_linter.py`; real lint PASS (`6` generated Markdown files, `96` checks, `0` failures). |
 | 21 | External integration | Add authoritative public clinical-reference resource records for MS disease course and relapse/progression context | done | Covered by iteration 11 public clinical/reference resource records; no grounded findings changed. |
 | 22 | External integration | Add public DMT mechanism/reference resource records for FDA/EMA labels or authoritative drug monographs | done | Added source-verified external-unverifiable records for FDA FDALabel, DailyMed, EMA medicines, NHS England MS DMT algorithm, and National MS Society DMT reference. |
 | 23 | Synthesis | Build class-aware convergence/contradiction skeleton with empty grounded-link rows until specific claim records exist | todo | Must live under `knowledge_external/synthesis/` and label every row by epistemic class. |
@@ -164,3 +165,10 @@ No external knowledge integration occurs until:
   refreshed: generated-checker registry PASS (`124` scripts), stale detector
   PASS (`71` artifacts), generated-doc freshness PASS, provenance audit PASS
   (`280` checks, `31` records, `0` failures).
+- 2026-06-13T19:43:17Z: Generated external Markdown source/provenance linter
+  added. It checks source-column tables under `knowledge_external` and fails
+  external-classed rows that lack a URL/DOI/PMID locator. Synthetic fixture PASS
+  (`3/3` checks; bad row intentionally fails the underlying lint). Real lint
+  PASS (`6` Markdown files, `96` checks, `0` failures). Governance refreshed:
+  generated-checker registry PASS (`125` scripts), stale detector PASS (`72`
+  artifacts), provenance audit PASS (`280` checks, `31` records, `0` failures).
