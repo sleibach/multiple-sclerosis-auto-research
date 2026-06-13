@@ -128,6 +128,7 @@ MANUAL_CLASS = {
     "analysis/v46_partial_label_repair_prioritization": ("operations", "partial-label repair prioritization only"),
     "analysis/v46_first30_returned_package_decision_table": ("operations", "first-30-minute returned-package decision routing only"),
     "analysis/v46_first30_returned_package_status_board_dryrun": ("operations", "first-30 returned-package status board only"),
+    "analysis/v46_returned_package_status_board_schema_linter": ("synthetic_regression", "status-board schema regression only"),
     "analysis/v46_returned_package_preflight_dryrun": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v46_first30_repair_template_coverage_linter": ("integrity_governance", "first-30 repair-template coverage only"),
     "analysis/v46_returned_package_state_transition_validator": ("synthetic_intake_verification", "method behavior only"),

@@ -2,7 +2,7 @@
 
 Status: operator navigation infrastructure. No validation result and no biological claim.
 
-Purpose: provide one deterministic navigation artifact for returned-package handling. It links the current-action card, cold-start sequence, receipt-manifest linter, manifest classifier, first-30 decision table, first-30 status board, one-command preflight dry run, command-order planner, safe interpretation, small-n/power language, repair templates, partial-label repair prioritization, repair-template coverage, report guard, documentation cross-link linter, and dependency graph.
+Purpose: provide one deterministic navigation artifact for returned-package handling. It links the current-action card, cold-start sequence, receipt-manifest linter, manifest classifier, first-30 decision table, first-30 status board, status-board schema linter, one-command preflight dry run, command-order planner, safe interpretation, small-n/power language, repair templates, partial-label repair prioritization, repair-template coverage, report guard, documentation cross-link linter, and dependency graph.
 
 ## Current Run
 
@@ -15,8 +15,8 @@ Command:
 Result:
 
 - overall status: `PASS`
-- ordered manifest rows: `18`
-- lint checks: `72`
+- ordered manifest rows: `19`
+- lint checks: `76`
 - lint failures: `0`
 - all `score_values_read`: `false`
 

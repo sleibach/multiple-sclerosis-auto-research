@@ -47,18 +47,19 @@ validation harness, or interpret biology.
 22. V46 first-30-minute returned-package decision table.
 23. V46 first-30 repair-template coverage linter.
 24. V46 first-30 returned-package status-board dry run.
-25. V46 returned-package preflight dry run.
-26. V46 returned-package state-transition validator.
-27. V46 returned-package handoff bundle manifest.
-28. V46 returned-package documentation cross-link linter.
-29. V46 returned-package dependency graph.
-30. V45 no-raw-data git scanner.
+25. V46 returned-package status-board schema linter.
+26. V46 returned-package preflight dry run.
+27. V46 returned-package state-transition validator.
+28. V46 returned-package handoff bundle manifest.
+29. V46 returned-package documentation cross-link linter.
+30. V46 returned-package dependency graph.
+31. V45 no-raw-data git scanner.
 
 ## Current Result
 
 The committed run passed:
 
-- steps: `30`;
+- steps: `31`;
 - failures: `0`;
 - overall status: `PASS`.
 

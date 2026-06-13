@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `50`
+- artifacts checked: `51`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -68,6 +68,7 @@ Checked generated artifacts:
 - V46 first-30-minute returned-package decision table;
 - V46 first-30 repair-template coverage linter;
 - V46 first-30 returned-package status-board dry run;
+- V46 returned-package status-board schema linter;
 - V46 returned-package preflight dry run;
 - V46 returned-package state-transition validator;
 - V46 returned-package handoff bundle manifest;

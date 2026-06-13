@@ -3,7 +3,7 @@
 Status: operator navigation infrastructure. No validation result and no biological claim.
 
 This manifest lists the returned-package artifacts in deterministic operator order.
-Overall status: `PASS`; rows: `18`; lint failures: `0`.
+Overall status: `PASS`; rows: `19`; lint failures: `0`.
 
 | Order | Phase | Artifact | Role | Doc |
 |---:|---|---|---|---|
@@ -13,18 +13,19 @@ Overall status: `PASS`; rows: `18`; lint failures: `0`.
 | 4 | `pre_touch_guard` | `package_manifest_shape_classifier` | Classify the returned package from receipt manifest filenames and terms only. | `docs/validation/PACKAGE_MANIFEST_SHAPE_CLASSIFIER_V46.md` |
 | 5 | `first_30_minutes` | `first30_decision_table` | Follow the first 30 minutes of package handling without reading score values. | `docs/validation/FIRST30_RETURNED_PACKAGE_DECISION_TABLE_V46.md` |
 | 6 | `first_30_minutes` | `first30_status_board` | Summarize route, blocker, next command, and safe team wording without reading score values. | `docs/validation/FIRST30_RETURNED_PACKAGE_STATUS_BOARD_DRYRUN_V46.md` |
-| 7 | `preflight_composition` | `returned_package_preflight_dryrun` | Run one synthetic-safe command that composes schema lint, shape classification, first-30 routing, state validation, and repair coverage. | `docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md` |
-| 8 | `command_order` | `command_order_planner` | Generate the route-specific command order using package-state and metric-format state. | `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` |
-| 9 | `state_guard` | `state_transition_validator` | Verify no report/score state is reachable before required gates and safe class. | `docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md` |
-| 10 | `interpretation_boundary` | `safe_interpretation_classifier` | Assign the V46 safe class after all prerequisite gate summaries exist. | `docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md` |
-| 11 | `underpowered_language` | `small_n_language` | Constrain wording for underpowered or partial-label returns. | `docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md` |
-| 12 | `underpowered_language` | `analyzable_pair_confidence_envelope` | Map analyzable-pair counts to pass/fail/inconclusive wording constraints. | `docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md` |
-| 13 | `repair_handoff` | `repair_request_templates` | Draft safe author-facing repair requests for blocked returned-package states. | `docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md` |
-| 14 | `repair_handoff` | `partial_label_repair_prioritization` | Map partial-label classes to repair priority, confidence band, template, and next action. | `docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md` |
-| 15 | `repair_handoff` | `first30_repair_template_coverage` | Prove every first-30 stop route has local repair or a safe author-facing template. | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` |
-| 16 | `report_guard` | `result_report_safe_class_linter` | Ensure any report cites a safe class and avoids forbidden score language when blocked. | `docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md` |
-| 17 | `operator_navigation` | `returned_package_doc_crosslink_linter` | Verify every returned-package script has direct documentation and operator-route reachability. | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` |
-| 18 | `operator_navigation` | `returned_package_dependency_graph` | Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts. | `docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md` |
+| 7 | `first_30_minutes` | `status_board_schema_linter` | Verify team-update TSV/Markdown status-board outputs stay parseable and pre-result safe. | `docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md` |
+| 8 | `preflight_composition` | `returned_package_preflight_dryrun` | Run one synthetic-safe command that composes schema lint, shape classification, first-30 routing, state validation, and repair coverage. | `docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md` |
+| 9 | `command_order` | `command_order_planner` | Generate the route-specific command order using package-state and metric-format state. | `docs/validation/RETURNED_PACKAGE_COMMAND_ORDER_PLANNER_V46.md` |
+| 10 | `state_guard` | `state_transition_validator` | Verify no report/score state is reachable before required gates and safe class. | `docs/validation/RETURNED_PACKAGE_STATE_TRANSITION_VALIDATOR_V46.md` |
+| 11 | `interpretation_boundary` | `safe_interpretation_classifier` | Assign the V46 safe class after all prerequisite gate summaries exist. | `docs/validation/RETURNED_PACKAGE_SAFE_INTERPRETATION_V46.md` |
+| 12 | `underpowered_language` | `small_n_language` | Constrain wording for underpowered or partial-label returns. | `docs/validation/SMALL_N_CONCLUSION_LANGUAGE_V46.md` |
+| 13 | `underpowered_language` | `analyzable_pair_confidence_envelope` | Map analyzable-pair counts to pass/fail/inconclusive wording constraints. | `docs/validation/ANALYZABLE_PAIR_CONFIDENCE_ENVELOPE_V46.md` |
+| 14 | `repair_handoff` | `repair_request_templates` | Draft safe author-facing repair requests for blocked returned-package states. | `docs/validation/RETURN_REPAIR_REQUEST_TEMPLATES_V46.md` |
+| 15 | `repair_handoff` | `partial_label_repair_prioritization` | Map partial-label classes to repair priority, confidence band, template, and next action. | `docs/validation/PARTIAL_LABEL_REPAIR_PRIORITIZATION_V46.md` |
+| 16 | `repair_handoff` | `first30_repair_template_coverage` | Prove every first-30 stop route has local repair or a safe author-facing template. | `docs/validation/FIRST30_REPAIR_TEMPLATE_COVERAGE_LINTER_V46.md` |
+| 17 | `report_guard` | `result_report_safe_class_linter` | Ensure any report cites a safe class and avoids forbidden score language when blocked. | `docs/validation/RESULT_REPORT_SAFE_CLASS_LINTER_V46.md` |
+| 18 | `operator_navigation` | `returned_package_doc_crosslink_linter` | Verify every returned-package script has direct documentation and operator-route reachability. | `docs/validation/RETURNED_PACKAGE_DOC_CROSSLINK_LINTER_V46.md` |
+| 19 | `operator_navigation` | `returned_package_dependency_graph` | Map dependencies across handoff, regression, smoke, and stale-output readiness artifacts. | `docs/validation/RETURNED_PACKAGE_DEPENDENCY_GRAPH_V46.md` |
 
 Every row is a pre-score navigation or guard artifact. The manifest does not
 authorize result interpretation; the V46 safe class and V42 pre-registration

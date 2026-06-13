@@ -123,6 +123,11 @@ REQUIRED_SCRIPTS = [
         "role": "first-30 status-board dry run",
     },
     {
+        "script": "scripts/v46_returned_package_status_board_schema_linter.py",
+        "doc": "docs/validation/RETURNED_PACKAGE_STATUS_BOARD_SCHEMA_LINTER_V46.md",
+        "role": "status-board schema linter",
+    },
+    {
         "script": "scripts/v46_returned_package_preflight_dryrun.py",
         "doc": "docs/validation/RETURNED_PACKAGE_PREFLIGHT_DRYRUN_V46.md",
         "role": "one-command preflight dry run",

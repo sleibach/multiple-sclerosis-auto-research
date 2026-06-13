@@ -1,0 +1,5 @@
+fixture	expected_status	observed_status	expectation_met	n_checks	n_fail	score_values_read
+good	PASS	PASS	true	91	0	false
+missing_column	FAIL	FAIL	true	91	7	false
+score_values_read_true	FAIL	FAIL	true	91	1	false
+malformed_markdown	FAIL	FAIL	true	73	3	false

@@ -2,20 +2,20 @@
   "commands": [
     {
       "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_artifact_index.py",
-      "elapsed_seconds": 29.98,
+      "elapsed_seconds": 31.809,
       "name": "artifact_index",
       "primary_output": "analysis/v45_artifact_index/summary.json",
       "primary_output_exists": true,
       "primary_output_summary": {
         "evidence_class_counts": {
-          "documentation_or_governance": 737,
+          "documentation_or_governance": 750,
           "internal_convergence_null": 27,
           "proposal_lens_grounding": 7,
           "public_or_external_acquisition_operations": 114,
           "resume_state": 2,
-          "software": 103,
+          "software": 104,
           "synthesis_documentation": 14,
-          "synthetic_method_behavior": 1155,
+          "synthetic_method_behavior": 1161,
           "validation_infrastructure": 252
         },
         "first_v45_commit": "fb9bf15",
@@ -23,25 +23,25 @@
           "cohort_dependence": 87,
           "data_free_validation": 31,
           "external_account": 23,
-          "infrastructure": 1487,
+          "infrastructure": 1501,
           "infrastructure_rpt": 8,
           "power_design": 115,
           "resume_backbone": 2,
-          "robustness": 658
+          "robustness": 664
         },
         "n_evidence_classes": 9,
         "n_fronts": 8,
-        "n_paths_indexed": 2411,
+        "n_paths_indexed": 2431,
         "purpose": "V45 artifact governance index; no biological claim"
       },
       "returncode": 0,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\n  \"evidence_class_counts\": {\n    \"documentation_or_governance\": 737,\n    \"internal_convergence_null\": 27,\n    \"proposal_lens_grounding\": 7,\n    \"public_or_external_acquisition_operations\": 114,\n    \"resume_state\": 2,\n    \"software\": 103,\n    \"synthesis_documentation\": 14,\n    \"synthetic_method_behavior\": 1155,\n    \"validation_infrastructure\": 252\n  },\n  \"first_v45_commit\": \"fb9bf15\",\n  \"front_counts\": {\n    \"cohort_dependence\": 87,\n    \"data_free_validation\": 31,\n    \"external_account\": 23,\n    \"infrastructure\": 1487,\n    \"infrastructure_rpt\": 8,\n    \"power_design\": 115,\n    \"resume_backbone\": 2,\n    \"robustness\": 658\n  },\n  \"n_evidence_classes\": 9,\n  \"n_fronts\": 8,\n  \"n_paths_indexed\": 2411,\n  \"purpose\": \"V45 artifact governance index; no biological claim\"\n}\n"
+      "stdout_tail": "{\n  \"evidence_class_counts\": {\n    \"documentation_or_governance\": 750,\n    \"internal_convergence_null\": 27,\n    \"proposal_lens_grounding\": 7,\n    \"public_or_external_acquisition_operations\": 114,\n    \"resume_state\": 2,\n    \"software\": 104,\n    \"synthesis_documentation\": 14,\n    \"synthetic_method_behavior\": 1161,\n    \"validation_infrastructure\": 252\n  },\n  \"first_v45_commit\": \"fb9bf15\",\n  \"front_counts\": {\n    \"cohort_dependence\": 87,\n    \"data_free_validation\": 31,\n    \"external_account\": 23,\n    \"infrastructure\": 1501,\n    \"infrastructure_rpt\": 8,\n    \"power_design\": 115,\n    \"resume_backbone\": 2,\n    \"robustness\": 664\n  },\n  \"n_evidence_classes\": 9,\n  \"n_fronts\": 8,\n  \"n_paths_indexed\": 2431,\n  \"purpose\": \"V45 artifact governance index; no biological claim\"\n}\n"
     },
     {
       "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_synthetic_artifact_index.py",
-      "elapsed_seconds": 0.68,
+      "elapsed_seconds": 0.65,
       "name": "synthetic_artifact_index",
       "primary_output": "analysis/v45_synthetic_artifact_index/summary.json",
       "primary_output_exists": true,
@@ -366,10 +366,16 @@
             "n_files": 195
           },
           {
+            "allowed_interpretation": "status-board schema regression only",
+            "class": "synthetic_regression",
+            "n_dirs": 1,
+            "n_files": 9
+          },
+          {
             "allowed_interpretation": "software/readiness regression only",
             "class": "synthetic_regression",
             "n_dirs": 2,
-            "n_files": 923
+            "n_files": 941
           },
           {
             "allowed_interpretation": "software regression only",
@@ -408,19 +414,19 @@
             "n_files": 4
           }
         ],
-        "n_dirs_containing_synthetic": 78,
-        "n_dirs_indexed": 117,
+        "n_dirs_containing_synthetic": 79,
+        "n_dirs_indexed": 118,
         "purpose": "V43-V46 artifact governance index; no biological claim",
         "synthetic": false
       },
       "returncode": 0,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "vidence only\",\n      \"class\": \"public_metadata_scout\",\n      \"n_dirs\": 3,\n      \"n_files\": 20\n    },\n    {\n      \"allowed_interpretation\": \"method behavior only\",\n      \"class\": \"synthetic_harness_verification\",\n      \"n_dirs\": 3,\n      \"n_files\": 42\n    },\n    {\n      \"allowed_interpretation\": \"expected missing-output guard only\",\n      \"class\": \"synthetic_intake_verification\",\n      \"n_dirs\": 1,\n      \"n_files\": 2\n    },\n    {\n      \"allowed_interpretation\": \"method behavior only\",\n      \"class\": \"synthetic_intake_verification\",\n      \"n_dirs\": 28,\n      \"n_files\": 586\n    },\n    {\n      \"allowed_interpretation\": \"method behavior only\",\n      \"class\": \"synthetic_method_characterization\",\n      \"n_dirs\": 10,\n      \"n_files\": 195\n    },\n    {\n      \"allowed_interpretation\": \"software/readiness regression only\",\n      \"class\": \"synthetic_regression\",\n      \"n_dirs\": 2,\n      \"n_files\": 923\n    },\n    {\n      \"allowed_interpretation\": \"software regression only\",\n      \"class\": \"synthetic_regression\",\n      \"n_dirs\": 4,\n      \"n_files\": 120\n    },\n    {\n      \"allowed_interpretation\": \"command handoff only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 9\n    },\n    {\n      \"allowed_interpretation\": \"expected missing-output guard only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 3\n    },\n    {\n      \"allowed_interpretation\": \"handoff completeness only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 3\n    },\n    {\n      \"allowed_interpretation\": \"handoff manifest only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 4\n    },\n    {\n      \"allowed_interpretation\": \"toolchain readiness only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 4\n    }\n  ],\n  \"n_dirs_containing_synthetic\": 78,\n  \"n_dirs_indexed\": 117,\n  \"purpose\": \"V43-V46 artifact governance index; no biological claim\",\n  \"synthetic\": false\n}\n"
+      "stdout_tail": ",\n      \"class\": \"synthetic_harness_verification\",\n      \"n_dirs\": 3,\n      \"n_files\": 42\n    },\n    {\n      \"allowed_interpretation\": \"expected missing-output guard only\",\n      \"class\": \"synthetic_intake_verification\",\n      \"n_dirs\": 1,\n      \"n_files\": 2\n    },\n    {\n      \"allowed_interpretation\": \"method behavior only\",\n      \"class\": \"synthetic_intake_verification\",\n      \"n_dirs\": 28,\n      \"n_files\": 586\n    },\n    {\n      \"allowed_interpretation\": \"method behavior only\",\n      \"class\": \"synthetic_method_characterization\",\n      \"n_dirs\": 10,\n      \"n_files\": 195\n    },\n    {\n      \"allowed_interpretation\": \"status-board schema regression only\",\n      \"class\": \"synthetic_regression\",\n      \"n_dirs\": 1,\n      \"n_files\": 9\n    },\n    {\n      \"allowed_interpretation\": \"software/readiness regression only\",\n      \"class\": \"synthetic_regression\",\n      \"n_dirs\": 2,\n      \"n_files\": 941\n    },\n    {\n      \"allowed_interpretation\": \"software regression only\",\n      \"class\": \"synthetic_regression\",\n      \"n_dirs\": 4,\n      \"n_files\": 120\n    },\n    {\n      \"allowed_interpretation\": \"command handoff only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 9\n    },\n    {\n      \"allowed_interpretation\": \"expected missing-output guard only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 3\n    },\n    {\n      \"allowed_interpretation\": \"handoff completeness only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 3\n    },\n    {\n      \"allowed_interpretation\": \"handoff manifest only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 4\n    },\n    {\n      \"allowed_interpretation\": \"toolchain readiness only\",\n      \"class\": \"validation_infrastructure\",\n      \"n_dirs\": 1,\n      \"n_files\": 4\n    }\n  ],\n  \"n_dirs_containing_synthetic\": 79,\n  \"n_dirs_indexed\": 118,\n  \"purpose\": \"V43-V46 artifact governance index; no biological claim\",\n  \"synthetic\": false\n}\n"
     },
     {
       "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_compute_storage_summary.py",
-      "elapsed_seconds": 0.328,
+      "elapsed_seconds": 0.341,
       "name": "compute_storage_summary",
       "primary_output": "analysis/v45_compute_storage_summary/summary.json",
       "primary_output_exists": true,
@@ -478,7 +484,7 @@
             "artifact_dir": "analysis/v45_artifact_index",
             "class": "internal_or_governance",
             "n_files": 3,
-            "total_mib": 0.528
+            "total_mib": 0.532
           },
           {
             "artifact_dir": "analysis/v45_secondary_missing_timepoint_stress",
@@ -491,12 +497,12 @@
         "n_v45_analysis_dirs": 84,
         "purpose": "storage/compute transparency; no biological claim",
         "synthetic_or_method_behavior_mib": 84.378,
-        "total_mib": 85.876
+        "total_mib": 85.881
       },
       "returncode": 0,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "{\n  \"largest_dirs\": [\n    {\n      \"artifact_dir\": \"analysis/v45_tb_compartment_pathology\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 24.176\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_multiconfounder_batch_guard\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 5,\n      \"total_mib\": 21.311\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_postpartum_pathology\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 20.358\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_seed_variation_stability\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 5,\n      \"total_mib\": 8.763\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_secondary_batch_calibration\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 3,\n      \"total_mib\": 4.098\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_batch_guard_calibration_full\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 3.302\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_batch_guard_calibration\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 1.061\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_primary_harness_regression_tests\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 23,\n      \"total_mib\": 0.727\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_artifact_index\",\n      \"class\": \"internal_or_governance\",\n      \"n_files\": 3,\n      \"total_mib\": 0.528\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_secondary_missing_timepoint_stress\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 130,\n      \"total_mib\": 0.319\n    }\n  ],\n  \"n_files\": 799,\n  \"n_v45_analysis_dirs\": 84,\n  \"purpose\": \"storage/compute transparency; no biological claim\",\n  \"synthetic_or_method_behavior_mib\": 84.378,\n  \"total_mib\": 85.876\n}\n"
+      "stdout_tail": "{\n  \"largest_dirs\": [\n    {\n      \"artifact_dir\": \"analysis/v45_tb_compartment_pathology\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 24.176\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_multiconfounder_batch_guard\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 5,\n      \"total_mib\": 21.311\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_postpartum_pathology\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 20.358\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_seed_variation_stability\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 5,\n      \"total_mib\": 8.763\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_secondary_batch_calibration\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 3,\n      \"total_mib\": 4.098\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_batch_guard_calibration_full\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 3.302\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_batch_guard_calibration\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 4,\n      \"total_mib\": 1.061\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_primary_harness_regression_tests\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 23,\n      \"total_mib\": 0.727\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_artifact_index\",\n      \"class\": \"internal_or_governance\",\n      \"n_files\": 3,\n      \"total_mib\": 0.532\n    },\n    {\n      \"artifact_dir\": \"analysis/v45_secondary_missing_timepoint_stress\",\n      \"class\": \"synthetic_or_method_behavior\",\n      \"n_files\": 130,\n      \"total_mib\": 0.319\n    }\n  ],\n  \"n_files\": 799,\n  \"n_v45_analysis_dirs\": 84,\n  \"purpose\": \"storage/compute transparency; no biological claim\",\n  \"synthetic_or_method_behavior_mib\": 84.378,\n  \"total_mib\": 85.881\n}\n"
     }
   ],
   "n_commands": 3,

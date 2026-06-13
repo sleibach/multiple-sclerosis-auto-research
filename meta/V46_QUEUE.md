@@ -47,6 +47,7 @@ generate more internally executable tasks before continuing.
 | 27 | 2026-06-13T12:24:42Z | 2026-06-13T12:34:01Z | done | Added returned-package documentation cross-link linter proving every returned-package guard script has direct documentation and operator-route reachability. |
 | 28 | 2026-06-13T12:35:15Z | 2026-06-13T12:43:16Z | done | Added partial-label repair-prioritization table linking partial-label classes to confidence bands, repair templates, safe boundaries, and next operator actions. |
 | 29 | 2026-06-13T12:44:06Z | 2026-06-13T12:58:53Z | done | Added returned-package dependency graph with strict standalone audit and warning-mode suite integration to avoid freshness self-cycles. |
+| 30 | 2026-06-13T13:00:00Z | 2026-06-13T13:15:19Z | done | Added returned-package status-board schema linter for TSV/Markdown team-update outputs and integrated it into regression, smoke, handoff, crosslink, stale, and dependency-graph governance. |
 
 ## Live Backlog
 
@@ -89,14 +90,20 @@ generate more internally executable tasks before continuing.
 | 35 | Infrastructure | Add returned-package documentation cross-link linter proving each V46 returned-package script is reachable from an operator-facing doc | done | `scripts/v46_returned_package_doc_crosslink_linter.py`; PASS with `24` scripts, `96` lint checks, `0` failures, all `score_values_read=false`; regression suite now `24` steps, operator smoke bundle now `28` steps, handoff manifest now `16` rows. |
 | 36 | Power/design | Add partial-label repair-prioritization table linking analyzable-pair confidence bands to repair-request templates and next actions | done | `scripts/v46_partial_label_repair_prioritization.py`; PASS with `7` prioritization rows, `35` lint checks, `0` failures, all `score_values_read=false`; regression suite now `25` steps, operator smoke bundle now `29` steps, handoff manifest now `17` rows. |
 | 37 | Infrastructure | Add returned-package artifact dependency graph generator from handoff manifest, regression steps, smoke steps, and stale-output registry | done | `scripts/v46_returned_package_dependency_graph.py`; strict standalone PASS with `513` nodes, `672` edges, `178` lint checks, `0` hard failures, all `score_values_read=false`; suite/smoke graph calls use warning mode only to avoid refresh-cycle false failures. Regression suite now `26` steps, smoke bundle now `30` steps, handoff manifest now `18` rows. |
-| 38 | Operations | Add returned-package status-board schema linter for team-update TSV/Markdown outputs so operator-facing status rows stay parseable | todo | Self-generated after item 34; protects the first-30 status-board handoff from drift. |
+| 38 | Operations | Add returned-package status-board schema linter for team-update TSV/Markdown outputs so operator-facing status rows stay parseable | done | `scripts/v46_returned_package_status_board_schema_linter.py`; PASS with `91` live checks, `4` synthetic fixture cases, `0` fixture expectation failures, all `score_values_read=false`; regression suite now `27` steps, smoke bundle now `31` steps, handoff manifest now `19` rows. |
 | 39 | Returned-package handling | Add safe-class-to-report-template readiness map proving every safe interpretation class has an allowed report skeleton or explicit stop wording | todo | Self-generated after item 34; closes report-readiness gaps without reading score values. |
 | 40 | Infrastructure | Add receipt-manifest-to-command-plan handoff table linking manifest linter outcomes to the next executable command and stop condition | todo | Self-generated after item 34; connects schema preflight directly to mechanical operator actions. |
+| 41 | Operations | Add returned-package status-board Markdown round-trip renderer from TSV to prevent manual Markdown drift in team updates | todo | Self-generated after item 38; should prove Markdown can be regenerated mechanically from the parsed TSV without reading score values. |
+| 42 | Returned-package handling | Add returned-package report-header metadata linter requiring cohort token, route, terms class, safe class, and locked-rule hash before any result text | todo | Self-generated after item 38; closes report metadata completeness before score-bearing language is allowed. |
 
 ## Generated Follow-Ups
 
 Generated tasks must be added here before backlog drops below five executable
 todo items.
+
+- 2026-06-13T13:15:19Z: Generated follow-up items 41-42 to keep the
+  returned-package backlog above threshold and harden status-board/report
+  handoff mechanics after item 38.
 
 ## Running Notes
 
@@ -157,3 +164,5 @@ todo items.
 - Next selected task: item 37, returned-package artifact dependency graph generator.
 - 2026-06-13T12:58:53Z: Item 37 verification: dependency graph strict standalone PASS (`513` nodes, `672` edges, `178` lint checks, `0` hard failures, `0` warnings, all `score_values_read=false`); regression suite PASS (`26` steps); operator smoke bundle PASS (`30` steps); handoff manifest PASS (`18` rows, `72` lint checks); documentation cross-link linter PASS (`26` scripts, `104` lint checks); stale-output detector PASS (`50` artifacts, `0` stale); generated-checker registry PASS (`103` scripts); synthetic artifact index refreshed (`117` directories, `78` synthetic-marked); governance refresh PASS (`2411` indexed paths); OpenGWAS HTTP 200 with JWT valid to `2026-06-19 12:28 UTC` (`RENEW_SOON`); SAP AI Core health PASS for Claude, Gemini, and RPT; `py_compile` PASS; `git diff --check` PASS; locked artifact hash audit PASS; no-raw scanner PASS with warnings only.
 - 2026-06-13T12:58:53Z: Cumulative measured block time from `2026-06-13T09:45:14Z` is about `193.7` minutes; six-hour target not met, so continue. Next selected task: item 38, returned-package status-board schema linter.
+- 2026-06-13T13:15:19Z: Item 38 verification: status-board schema linter PASS (`91` live checks, `4` synthetic fixture cases, `0` fixture expectation failures, all `score_values_read=false`); regression suite PASS (`27` steps); operator smoke bundle PASS (`31` steps); handoff manifest PASS (`19` rows, `76` lint checks); documentation cross-link linter PASS (`27` scripts, `108` lint checks); stale-output detector PASS (`51` artifacts, `0` stale); dependency graph strict standalone PASS (`527` nodes, `693` edges, `185` lint checks, `0` hard failures, `0` warnings); generated-checker registry PASS (`104` scripts); synthetic artifact index refreshed (`118` directories, `79` synthetic-marked); governance refresh PASS (`2431` indexed paths); OpenGWAS HTTP 200 with JWT valid to `2026-06-19 12:28 UTC` (`RENEW_SOON`); SAP AI Core health PASS for Claude, Gemini, and RPT; `py_compile` PASS; `git diff --check` PASS; locked artifact hash audit PASS; no-raw scanner PASS with warnings only.
+- 2026-06-13T13:15:19Z: Cumulative measured block time from `2026-06-13T09:45:14Z` is about `210.1` minutes; six-hour target not met, so continue. Next selected task: item 39, safe-class-to-report-template readiness map.
