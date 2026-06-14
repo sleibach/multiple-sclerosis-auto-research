@@ -142,7 +142,7 @@ tracked purge target is:
 | 86 | medium | done | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 87 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 88 | medium | done | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
+| 89 | medium | done | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 90 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
 | 91 | medium | done | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 92 | medium | done | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -150,7 +150,7 @@ tracked purge target is:
 | 94 | medium | done | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 95 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 96 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
-| 97 | medium | todo | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
+| 97 | medium | done | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
 | 98 | medium | todo | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
@@ -953,3 +953,9 @@ tracked purge target is:
   `2026-06-14T22:29:16Z`.
 - Current cumulative active time at `2026-06-14T22:29:16Z`: `8340` seconds
   (`376` seconds session 1 plus `7964` seconds of current open session).
+- Task 97 checked open tasks for stale duplicates. Result: task 89 was a stale
+  duplicate of task 95 for the same `2026-06-14T22:30:00Z` OpenGWAS scheduled
+  recheck, so task 89 is closed as superseded and task 95 remains the active
+  scheduled OpenGWAS task. No other stale duplicate open tasks were present.
+- Current cumulative active time at `2026-06-14T22:29:48Z`: `8372` seconds
+  (`376` seconds session 1 plus `7996` seconds of current open session).
