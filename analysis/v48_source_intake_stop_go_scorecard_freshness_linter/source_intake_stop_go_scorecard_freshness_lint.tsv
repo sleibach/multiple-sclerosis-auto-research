@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md
+section_present.Required Controls	PASS	required stop/go scorecard section
+section_present.Scorecard Criteria	PASS	required stop/go scorecard section
+section_present.Decision Outcomes	PASS	required stop/go scorecard section
+section_present.Minimum Scorecard Entry	PASS	required stop/go scorecard section
+section_present.Forbidden Shortcuts	PASS	required stop/go scorecard section
+section_present.Verification Before Commit	PASS	required stop/go scorecard section
+section_present.Boundary	PASS	required stop/go scorecard section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_score_truth	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.no_numeric_evidence_score	PASS	required boundary phrase
+phrase_present.no_model_override	PASS	required boundary phrase
+phrase_present.candidate_not_finding	PASS	required boundary phrase
+phrase_present.routing_tool	PASS	required boundary phrase
+phrase_present.not_project_change	PASS	required boundary phrase
+table_count.scorecard_criteria	PASS	observed=10 expected=10
+table_count.decision_outcomes	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md observed=knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md
+summary_matches.n_decision_outcomes	PASS	expected=5 observed=5
+summary_matches.n_required_linked_controls	PASS	expected=8 observed=8
+summary_matches.n_scorecard_criteria	PASS	expected=10 observed=10
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-intake stop/go scorecard; template/navigation only; no biological claim observed=V48 source-intake stop/go scorecard; template/navigation only; no biological claim

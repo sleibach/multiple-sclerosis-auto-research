@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_stop_go_scorecard_freshness_linter/synthetic_stop_go.md
+section_present.Required Controls	FAIL	required stop/go scorecard section
+section_present.Scorecard Criteria	PASS	required stop/go scorecard section
+section_present.Decision Outcomes	FAIL	required stop/go scorecard section
+section_present.Minimum Scorecard Entry	FAIL	required stop/go scorecard section
+section_present.Forbidden Shortcuts	FAIL	required stop/go scorecard section
+section_present.Verification Before Commit	FAIL	required stop/go scorecard section
+section_present.Boundary	PASS	required stop/go scorecard section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_score_truth	FAIL	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.no_numeric_evidence_score	FAIL	required boundary phrase
+phrase_present.no_model_override	FAIL	required boundary phrase
+phrase_present.candidate_not_finding	FAIL	required boundary phrase
+phrase_present.routing_tool	FAIL	required boundary phrase
+phrase_present.not_project_change	FAIL	required boundary phrase
+table_count.scorecard_criteria	FAIL	observed=1 expected=10
+table_count.decision_outcomes	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md observed=stale
+summary_matches.n_decision_outcomes	FAIL	expected=5 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=8 observed=
+summary_matches.n_scorecard_criteria	FAIL	expected=10 observed=1
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake stop/go scorecard; template/navigation only; no biological claim observed=
