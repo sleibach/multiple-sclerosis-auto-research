@@ -39,7 +39,7 @@ span across resume gaps.
 | 11 | medium | done | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | 12 | medium | done | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/v48_future_grounding_queue_freshness_linter.py` |
 | 13 | medium | done | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
-| 14 | medium | todo | Add comparator matrix freshness linter tied to current resource records | `scripts/` |
+| 14 | medium | done | Add comparator matrix freshness linter tied to current resource records | `scripts/v48_resource_comparator_freshness_linter.py` |
 | 15 | medium | todo | Add convergence synthesis status vocabulary linter | `scripts/` |
 | 16 | medium | todo | Add project-finding reference existence linter for external support/contradiction records | `scripts/` |
 | 17 | medium | todo | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/` |
@@ -128,3 +128,8 @@ span across resume gaps.
   - documents indexed: `727`;
   - output: `knowledge/.index`.
 - Added new follow-up tasks 14-18 to keep the backlog above threshold.
+- Current open-session active time at `2026-06-14T13:46:01Z`: `1438` seconds.
+- Added resource comparator freshness linter:
+  - resource records: `31`;
+  - comparator matrix rows: `31`;
+  - stale/missing rows: `0`.
