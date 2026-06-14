@@ -29,6 +29,7 @@ FAILURE_MODE_BY_BOUNDARY = {
     "copyright/provenance hygiene control": "external summaries become oversized copied source passages",
     "synthesis coverage control": "convergence/contradiction rows fall out of sync with grounded findings or source records",
     "synthesis reference control": "external support/contradiction records point to missing grounded artifacts",
+    "sourcing priority control": "external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence",
     "resource metadata control": "resource comparator metadata drifts from source records",
     "domain review control": "source-domain classifications become stale",
     "domain relationship control": "source-domain relationship rollups drift from records or matrix rows",

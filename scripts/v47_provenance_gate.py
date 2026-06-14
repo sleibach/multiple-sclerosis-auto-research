@@ -70,6 +70,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_source_terms_freshness_linter/",
     "analysis/v48_source_terms_metadata_linter/",
     "analysis/v48_support_contradiction_coverage_linter/",
+    "analysis/v48_v37_gap_priority_freshness_linter/",
     "scripts/v47_provenance_gate.py",
     "meta/V47_QUEUE.md",
     "meta/V48_QUEUE.md",

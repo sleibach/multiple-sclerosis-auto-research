@@ -232,6 +232,13 @@ ARTIFACTS = [
         "boundary": "synthesis coverage control",
     },
     {
+        "artifact": "V37 external gap-priority freshness linter",
+        "path": "scripts/v48_v37_gap_priority_freshness_linter.py",
+        "summary": "analysis/v48_v37_gap_priority_freshness_linter/v37_gap_priority_freshness_lint_summary.json",
+        "purpose": "Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs.",
+        "boundary": "sourcing priority control",
+    },
+    {
         "artifact": "Decision-relevant convergence freshness linter",
         "path": "scripts/v48_decision_relevant_convergence_freshness_linter.py",
         "summary": "analysis/v48_decision_relevant_convergence_freshness_linter/decision_relevant_convergence_freshness_lint_summary.json",

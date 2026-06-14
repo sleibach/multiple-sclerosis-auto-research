@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `38`
+- artifacts tracked: `39`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -41,6 +41,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source URL duplicate freshness linter | `yes` | `PASS` | Ensures the source URL duplicate review matches current external source records. | source maintenance control | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `yes` | `PASS` | Ensures the V37 uncovered-finding rationale table matches the current coverage map. | synthesis coverage control | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
+| V37 external gap-priority freshness linter | `yes` | `not_applicable` | Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs. | sourcing priority control | `scripts/v48_v37_gap_priority_freshness_linter.py` |
 | Decision-relevant convergence freshness linter | `yes` | `PASS` | Ensures the decision-relevant convergence shortlist matches current converges/contradicts matrix rows. | synthesis coverage control | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
 | Convergence source-independence freshness linter | `yes` | `PASS` | Ensures source-independence accounting matches current V48 convergence matrix rows. | synthesis coverage control | `scripts/v48_convergence_source_independence_freshness_linter.py` |
 | Convergence matrix coverage linter | `yes` | `PASS` | Ensures priority grounded findings remain represented in the V48 matrix. | synthesis coverage control | `scripts/v48_convergence_matrix_coverage_linter.py` |

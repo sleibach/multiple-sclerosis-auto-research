@@ -149,6 +149,11 @@ Support/contradiction coverage linter||scripts/v48_support_contradiction_coverag
 Support/contradiction coverage linter||scripts/v48_support_contradiction_coverage_linter.py	field_matches.purpose	PASS	navigation=Ensures support/contradiction records appear in the V48 matrix. matrix=Ensures support/contradiction records appear in the V48 matrix.
 Support/contradiction coverage linter||scripts/v48_support_contradiction_coverage_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 Support/contradiction coverage linter||scripts/v48_support_contradiction_coverage_linter.py	failure_mode_mapped	PASS	convergence/contradiction rows fall out of sync with grounded findings or source records
+V37 external gap-priority freshness linter||scripts/v48_v37_gap_priority_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+V37 external gap-priority freshness linter||scripts/v48_v37_gap_priority_freshness_linter.py	field_matches.boundary	PASS	navigation=sourcing priority control matrix=sourcing priority control
+V37 external gap-priority freshness linter||scripts/v48_v37_gap_priority_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs. matrix=Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs.
+V37 external gap-priority freshness linter||scripts/v48_v37_gap_priority_freshness_linter.py	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
+V37 external gap-priority freshness linter||scripts/v48_v37_gap_priority_freshness_linter.py	failure_mode_mapped	PASS	external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence
 V37 external-coverage freshness linter||scripts/v48_v37_coverage_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 V37 external-coverage freshness linter||scripts/v48_v37_coverage_freshness_linter.py	field_matches.boundary	PASS	navigation=synthesis coverage control matrix=synthesis coverage control
 V37 external-coverage freshness linter||scripts/v48_v37_coverage_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. matrix=Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows.
@@ -189,4 +194,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=38 matrix=38
+summary	summary_control_count_matches_matrix	PASS	summary=39 matrix=39

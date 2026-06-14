@@ -1,0 +1,22 @@
+row_key	check	status	detail
+High	present_in_priority_map	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_v37_gap_priority_freshness_linter/synthetic_priority.tsv
+High	field_matches.rank	PASS	expected=1 observed=1
+High	field_matches.item	PASS	expected=High observed=High
+High	field_matches.category	PASS	expected=positive_supported observed=positive_supported
+High	field_matches.relevance	PASS	expected=5 observed=5
+High	field_matches.novelty	PASS	expected=4 observed=4
+High	field_matches.evidence_grade	PASS	expected=supported observed=supported
+High	field_matches.rationale_class	PASS	expected=no_relevant_external_record_imported observed=no_relevant_external_record_imported
+High	field_matches.priority_score	FAIL	expected=21 observed=20
+High	field_matches.priority_tier	PASS	expected=high observed=high
+High	field_matches.priority_reason	PASS	expected=relevance 5; novelty 4; evidence supported; rationale no_relevant_external_record_imported observed=relevance 5; novelty 4; evidence supported; rationale no_relevant_external_record_imported
+High	field_matches.safe_source_requirement	PASS	expected=Require a source directly overlapping the grounded finding before adding a V48 relationship row. observed=Require a source directly overlapping the grounded finding before adding a V48 relationship row.
+High	field_matches.supporting_artifact	PASS	expected=artifact observed=artifact
+High	field_matches.status	PASS	expected=status observed=status
+High	field_matches.next_action	PASS	expected=next observed=next
+Medium	present_in_priority_map	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_v37_gap_priority_freshness_linter/synthetic_priority.tsv
+Extra	no_extra_priority_row	FAIL	row is not present in current uncovered V37 coverage set
+summary	summary_priority_row_count_matches	FAIL	summary=99 expected=2
+summary	summary_high_priority_count_matches	FAIL	summary=99 expected=1
+summary	summary_tier_counts_match	FAIL	summary={'high': 99} expected={'high': 1, 'medium': 1}
+summary	summary_high_priority_items_match	FAIL	summary=['Extra'] expected=['High']
