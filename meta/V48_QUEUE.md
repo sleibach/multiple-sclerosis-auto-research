@@ -72,6 +72,14 @@ span across resume gaps.
 | 44 | medium | done | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
 | 45 | medium | done | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
 | 46 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 47 | medium | done | Add V48 preflight summary card freshness linter tied to current summaries and command list | `scripts/v48_preflight_summary_card_freshness_linter.py` |
+| 48 | medium | todo | Build V48 decision-relevant convergence shortlist for medical-team review | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
+| 49 | medium | todo | Add decision-relevant convergence shortlist freshness linter | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
+| 50 | medium | todo | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
+| 51 | medium | todo | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
+| 52 | medium | todo | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
+| 53 | medium | todo | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
+| 54 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -574,3 +582,27 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:59:51Z`: `5868` seconds.
+- Refilled backlog with tasks 47-54:
+  - preflight summary card freshness;
+  - decision-relevant convergence shortlist and freshness;
+  - source URL duplicate/canonicalization review and freshness;
+  - governance failure-mode matrix and freshness;
+  - post-task index rebuild.
+- Current open-session active time at `2026-06-14T15:00:33Z`: `5910` seconds.
+- Added V48 preflight summary card freshness linter:
+  - expected card components: `5`;
+  - card components: `5`;
+  - expected commands: `5`;
+  - real freshness checks: `36`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing component, stale status, extra component, wrong command, extra command, and bad summary-count failures;
+  - fixed a self-reference loop by removing the summary card itself from governance navigation while keeping the freshness linter under governance control;
+  - governance controls tracked: `33`;
+  - full preflight checks: `27`.
+- Verification passed:
+  - V48 governance preflight;
+  - preflight summary card freshness lint;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:05:03Z`: `6180` seconds.

@@ -1,0 +1,37 @@
+component	check	status	detail
+convergence_matrix	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card.tsv
+convergence_matrix	summary_path_matches	PASS	expected=knowledge_external/catalogs/indexes/convergence_contradiction_v48_summary.json observed=knowledge_external/catalogs/indexes/convergence_contradiction_v48_summary.json
+convergence_matrix	overall_status_matches	PASS	expected=PASS observed=PASS
+convergence_matrix	n_checks_matches	PASS	expected= observed=
+convergence_matrix	n_fail_matches	PASS	expected= observed=
+governance_navigation	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card.tsv
+governance_navigation	summary_path_matches	PASS	expected=knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json observed=knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json
+governance_navigation	overall_status_matches	PASS	expected=PASS observed=PASS
+governance_navigation	n_checks_matches	PASS	expected=33 observed=33
+governance_navigation	n_fail_matches	PASS	expected=0 observed=0
+governance_preflight	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card.tsv
+governance_preflight	summary_path_matches	PASS	expected=analysis/v48_governance_preflight/v48_governance_preflight_summary.json observed=analysis/v48_governance_preflight/v48_governance_preflight_summary.json
+governance_preflight	overall_status_matches	PASS	expected=PASS observed=PASS
+governance_preflight	n_checks_matches	PASS	expected=27 observed=27
+governance_preflight	n_fail_matches	PASS	expected=0 observed=0
+provenance_gate	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card.tsv
+provenance_gate	summary_path_matches	PASS	expected=analysis/v47_provenance_gate/provenance_gate_summary.json observed=analysis/v47_provenance_gate/provenance_gate_summary.json
+provenance_gate	overall_status_matches	PASS	expected=PASS observed=PASS
+provenance_gate	n_checks_matches	PASS	expected=354 observed=354
+provenance_gate	n_fail_matches	PASS	expected=0 observed=0
+source_terms_packet	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card.tsv
+source_terms_packet	summary_path_matches	PASS	expected=knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48_summary.json observed=knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48_summary.json
+source_terms_packet	overall_status_matches	PASS	expected=PASS observed=PASS
+source_terms_packet	n_checks_matches	PASS	expected=9 observed=9
+source_terms_packet	n_fail_matches	PASS	expected= observed=
+external_markdown_lint	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card_commands.tsv
+external_markdown_lint	command_matches	PASS	expected=python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error observed=python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error
+full_preflight	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card_commands.tsv
+full_preflight	command_matches	PASS	expected=python3 scripts/v48_governance_preflight.py observed=python3 scripts/v48_governance_preflight.py
+governance_navigation	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card_commands.tsv
+governance_navigation	command_matches	PASS	expected=python3 scripts/v48_governance_navigation.py observed=python3 scripts/v48_governance_navigation.py
+provenance_gate	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card_commands.tsv
+provenance_gate	command_matches	PASS	expected=python3 scripts/v47_provenance_gate.py audit observed=python3 scripts/v47_provenance_gate.py audit
+public_index_freshness	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_preflight_summary_card_commands.tsv
+public_index_freshness	command_matches	PASS	expected=python3 scripts/v48_public_index_freshness_linter.py lint --fail-on-error observed=python3 scripts/v48_public_index_freshness_linter.py lint --fail-on-error
+summary	summary_component_count_matches_rows	PASS	summary=5 rows=5

@@ -50,13 +50,6 @@ ARTIFACTS = [
         "boundary": "source terms metadata only",
     },
     {
-        "artifact": "V48 preflight summary card",
-        "path": "knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
-        "summary": "knowledge_external/catalogs/indexes/v48_preflight_summary_card_summary.json",
-        "purpose": "Compact command/status handoff for V48 external-knowledge governance.",
-        "boundary": "handoff/navigation only",
-    },
-    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",
@@ -125,6 +118,13 @@ ARTIFACTS = [
         "summary": "analysis/v48_governance_navigation_freshness_linter/governance_navigation_freshness_lint_summary.json",
         "purpose": "Ensures governance navigation remains aligned with the current preflight suite.",
         "boundary": "navigation control",
+    },
+    {
+        "artifact": "Preflight summary card freshness linter",
+        "path": "scripts/v48_preflight_summary_card_freshness_linter.py",
+        "summary": "analysis/v48_preflight_summary_card_freshness_linter/preflight_summary_card_freshness_lint_summary.json",
+        "purpose": "Ensures the V48 preflight summary card matches current component summaries and command handoff.",
+        "boundary": "handoff/navigation control",
     },
     {
         "artifact": "Source locator normalization linter",

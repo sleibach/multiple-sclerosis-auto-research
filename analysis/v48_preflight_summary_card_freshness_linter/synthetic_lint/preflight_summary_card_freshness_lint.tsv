@@ -1,0 +1,12 @@
+component	check	status	detail
+A	component_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_preflight_summary_card_freshness_linter/synthetic_root/card.tsv
+A	summary_path_matches	PASS	expected=analysis/v48_preflight_summary_card_freshness_linter/synthetic_root/a_summary.json observed=analysis/v48_preflight_summary_card_freshness_linter/synthetic_root/a_summary.json
+A	overall_status_matches	FAIL	expected=PASS observed=STALE
+A	n_checks_matches	PASS	expected=2 observed=2
+A	n_fail_matches	PASS	expected=0 observed=0
+B	component_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_preflight_summary_card_freshness_linter/synthetic_root/card.tsv
+EXTRA	no_extra_component	FAIL	card contains component not in expected input summaries
+run	command_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_preflight_summary_card_freshness_linter/synthetic_root/commands.tsv
+run	command_matches	FAIL	expected=right command observed=wrong command
+extra	no_extra_command	FAIL	card contains command not in expected command list
+summary	summary_component_count_matches_rows	FAIL	summary=99 rows=2
