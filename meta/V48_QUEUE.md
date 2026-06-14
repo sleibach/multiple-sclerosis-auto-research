@@ -19,7 +19,7 @@ span across resume gaps.
 
 - OpenGWAS: PASS. JWT valid until `2026-06-19 12:28 UTC`; renew soon.
 - SAP AI Core health: PASS for Claude and Gemini via `smoke`; PASS for RPT via `rpt-smoke` (`sap-rpt-1-large 1 d61aae51af327bbc`). Do not use generic `smoke --model rpt`; that route is unsupported.
-- V47 provenance gate: PASS at `39` external JSON records, `354` checks, `0` failures.
+- V47 provenance gate: PASS at `39` external JSON records, `358` checks, `0` failures.
 - RAG rebuild: PASS. TF-IDF index rebuilt at item 46 with `727` documents; `knowledge_external/` remains excluded from the grounded TF-IDF globs.
 
 ## Backlog
@@ -121,8 +121,14 @@ span across resume gaps.
 | 93 | medium | done | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
 | 94 | medium | done | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 95 | medium | done | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
-| 96 | medium | todo | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
+| 96 | medium | done | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | 97 | medium | todo | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
+| 98 | medium | todo | Add model-lens usage boundary card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
+| 99 | medium | todo | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
+| 100 | medium | todo | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
+| 101 | medium | todo | Build source-intake package manifest tying search packet, checklist, quickstart, and reader brief | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
+| 102 | medium | todo | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
+| 103 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -1346,4 +1352,16 @@ span across resume gaps.
     not make live model calls inside preflight.
 - Verification passed:
   - external Markdown linter: PASS (`294` checks, `42` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:34:57Z`: `15174` seconds.
+- Added model-lens usage boundary card for public readers:
+  - boundary: Claude, Gemini, and RPT are proposal lenses only;
+  - RPT status is route-specific: `rpt-smoke` passes, generic `smoke --model rpt`
+    remains unsupported;
+  - forbidden shortcuts: `5`;
+  - lenses documented: `3`;
+  - purpose: governance/navigation only, no biological claim.
+- Added follow-up tasks 98-103 to keep the executable backlog above threshold.
+- Final gates after task 96:
+  - external Markdown linter: PASS (`296` checks, `44` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
