@@ -27,6 +27,7 @@ CHECKS = [
     ("source_terms_metadata", ["scripts/v48_source_terms_metadata_linter.py", "lint"]),
     ("source_terms_freshness", ["scripts/v48_source_terms_freshness_linter.py", "lint"]),
     ("source_terms_coverage_freshness", ["scripts/v48_source_terms_coverage_freshness_linter.py", "lint"]),
+    ("governance_navigation_freshness", ["scripts/v48_governance_navigation_freshness_linter.py", "lint"]),
     ("support_contradiction_coverage", ["scripts/v48_support_contradiction_coverage_linter.py", "lint"]),
     ("contradiction_intake", ["scripts/v48_contradiction_intake_linter.py", "lint"]),
     ("convergence_matrix_coverage", ["scripts/v48_convergence_matrix_coverage_linter.py", "lint"]),
@@ -65,6 +66,8 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
 def main() -> int:
     OUTDIR.mkdir(parents=True, exist_ok=True)
     python = str(PYTHON if PYTHON.exists() else Path(sys.executable))
+    plan_rows = [{"check": name, "command": " ".join(args)} for name, args in CHECKS]
+    write_tsv(OUTDIR / "v48_governance_preflight_plan.tsv", plan_rows, ["check", "command"])
     rows: list[dict[str, object]] = []
     for name, args in CHECKS:
         cmd = [python, *args]

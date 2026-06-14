@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `17`
+- artifacts tracked: `26`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -17,8 +17,12 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | V48 source-terms coverage | `yes` | `not_applicable` | Source-terms metadata coverage and conservative reuse-note map. | source terms metadata only | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | V47 provenance gate | `yes` | `PASS` | Machine-enforced segregation of external knowledge from grounded trees. | segregation control | `scripts/v47_provenance_gate.py` |
 | External record schema linter | `yes` | `PASS` | Required external-record fields and source/class markers. | schema control | `scripts/v47_external_record_schema_linter.py` |
+| External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |
+| External Markdown index linter | `yes` | `PASS` | Ensures generated external Markdown rows retain source locators. | markdown provenance control | `scripts/v47_external_markdown_index_linter.py` |
+| External-verifiable intake linter | `yes` | `PASS` | Ensures future-groundable external claims remain queued, not findings. | future-grounding control | `scripts/v47_external_verifiable_intake_linter.py` |
 | Relationship vocabulary linter | `yes` | `PASS` | Allowed relationship vocabulary for external records. | vocabulary control | `scripts/v47_relationship_vocabulary_linter.py` |
 | Public external index crosslink linter | `yes` | `PASS` | Public external index link target freshness. | navigation control | `scripts/v48_public_index_crosslink_linter.py` |
+| Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Source locator normalization linter | `yes` | `PASS` | Source locator shape checks for external records. | source locator control | `scripts/v48_source_locator_normalization_linter.py` |
 | Source-terms metadata linter | `yes` | `PASS` | Completeness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_metadata_linter.py` |
 | Source-terms freshness linter | `yes` | `PASS` | Checked-date freshness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_freshness_linter.py` |
@@ -27,6 +31,11 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |
 | Source-domain review freshness linter | `yes` | `PASS` | Ensures the source-domain review matches current external records. | domain review control | `scripts/v48_source_domain_review_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
+| Convergence matrix coverage linter | `yes` | `PASS` | Ensures priority grounded findings remain represented in the V48 matrix. | synthesis coverage control | `scripts/v48_convergence_matrix_coverage_linter.py` |
+| Convergence status vocabulary linter | `yes` | `PASS` | Checks controlled relationship/status vocabulary in the V48 matrix. | vocabulary control | `scripts/v48_convergence_status_vocabulary_linter.py` |
+| Future-grounding queue freshness linter | `yes` | `PASS` | Ensures matrix follow-up actions are represented in the future-grounding queue. | future-grounding control | `scripts/v48_future_grounding_queue_freshness_linter.py` |
+| Project-finding reference linter | `yes` | `PASS` | Checks external support/contradiction records point to existing project finding artifacts. | synthesis reference control | `scripts/v48_project_finding_reference_linter.py` |
+| Resource comparator freshness linter | `yes` | `PASS` | Ensures the resource comparator matrix matches current external resource records. | resource metadata control | `scripts/v48_resource_comparator_freshness_linter.py` |
 
 ## Use
 

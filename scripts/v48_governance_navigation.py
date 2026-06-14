@@ -64,6 +64,27 @@ ARTIFACTS = [
         "boundary": "schema control",
     },
     {
+        "artifact": "External record uniqueness linter",
+        "path": "scripts/v47_external_record_uniqueness_linter.py",
+        "summary": "analysis/v47_external_record_uniqueness_linter/external_record_uniqueness_lint_summary.json",
+        "purpose": "Ensures external record IDs and paths remain unique.",
+        "boundary": "schema control",
+    },
+    {
+        "artifact": "External Markdown index linter",
+        "path": "scripts/v47_external_markdown_index_linter.py",
+        "summary": "analysis/v47_external_markdown_index_linter/external_markdown_index_lint_summary.json",
+        "purpose": "Ensures generated external Markdown rows retain source locators.",
+        "boundary": "markdown provenance control",
+    },
+    {
+        "artifact": "External-verifiable intake linter",
+        "path": "scripts/v47_external_verifiable_intake_linter.py",
+        "summary": "analysis/v47_external_verifiable_intake_linter/external_verifiable_intake_lint_summary.json",
+        "purpose": "Ensures future-groundable external claims remain queued, not findings.",
+        "boundary": "future-grounding control",
+    },
+    {
         "artifact": "Relationship vocabulary linter",
         "path": "scripts/v47_relationship_vocabulary_linter.py",
         "summary": "analysis/v47_relationship_vocabulary_linter/relationship_vocabulary_lint_summary.json",
@@ -75,6 +96,13 @@ ARTIFACTS = [
         "path": "scripts/v48_public_index_crosslink_linter.py",
         "summary": "analysis/v48_public_index_crosslink_linter/public_index_crosslink_lint_summary.json",
         "purpose": "Public external index link target freshness.",
+        "boundary": "navigation control",
+    },
+    {
+        "artifact": "Governance navigation freshness linter",
+        "path": "scripts/v48_governance_navigation_freshness_linter.py",
+        "summary": "analysis/v48_governance_navigation_freshness_linter/governance_navigation_freshness_lint_summary.json",
+        "purpose": "Ensures governance navigation remains aligned with the current preflight suite.",
         "boundary": "navigation control",
     },
     {
@@ -132,6 +160,41 @@ ARTIFACTS = [
         "summary": "analysis/v48_v37_coverage_freshness_linter/v37_coverage_freshness_lint_summary.json",
         "purpose": "Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows.",
         "boundary": "synthesis coverage control",
+    },
+    {
+        "artifact": "Convergence matrix coverage linter",
+        "path": "scripts/v48_convergence_matrix_coverage_linter.py",
+        "summary": "analysis/v48_convergence_matrix_coverage_linter/convergence_matrix_coverage_lint_summary.json",
+        "purpose": "Ensures priority grounded findings remain represented in the V48 matrix.",
+        "boundary": "synthesis coverage control",
+    },
+    {
+        "artifact": "Convergence status vocabulary linter",
+        "path": "scripts/v48_convergence_status_vocabulary_linter.py",
+        "summary": "analysis/v48_convergence_status_vocabulary_linter/convergence_status_vocabulary_lint_summary.json",
+        "purpose": "Checks controlled relationship/status vocabulary in the V48 matrix.",
+        "boundary": "vocabulary control",
+    },
+    {
+        "artifact": "Future-grounding queue freshness linter",
+        "path": "scripts/v48_future_grounding_queue_freshness_linter.py",
+        "summary": "analysis/v48_future_grounding_queue_freshness_linter/future_grounding_queue_freshness_lint_summary.json",
+        "purpose": "Ensures matrix follow-up actions are represented in the future-grounding queue.",
+        "boundary": "future-grounding control",
+    },
+    {
+        "artifact": "Project-finding reference linter",
+        "path": "scripts/v48_project_finding_reference_linter.py",
+        "summary": "analysis/v48_project_finding_reference_linter/project_finding_reference_lint_summary.json",
+        "purpose": "Checks external support/contradiction records point to existing project finding artifacts.",
+        "boundary": "synthesis reference control",
+    },
+    {
+        "artifact": "Resource comparator freshness linter",
+        "path": "scripts/v48_resource_comparator_freshness_linter.py",
+        "summary": "analysis/v48_resource_comparator_freshness_linter/resource_comparator_freshness_lint_summary.json",
+        "purpose": "Ensures the resource comparator matrix matches current external resource records.",
+        "boundary": "resource metadata control",
     },
 ]
 

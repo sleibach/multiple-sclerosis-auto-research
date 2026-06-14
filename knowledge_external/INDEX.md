@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `17`
+- V48 governance controls tracked: `26`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`

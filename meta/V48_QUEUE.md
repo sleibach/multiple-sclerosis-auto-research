@@ -59,7 +59,7 @@ span across resume gaps.
 | 31 | medium | done | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
 | 32 | medium | done | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 33 | medium | done | Build prioritized source-terms review queue for records still missing explicit terms metadata | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
-| 34 | medium | todo | Add governance-navigation freshness linter tied to current preflight checks and navigation rows | `scripts/v48_governance_navigation_freshness_linter.py` |
+| 34 | medium | done | Add governance-navigation freshness linter tied to current preflight checks and navigation rows | `scripts/v48_governance_navigation_freshness_linter.py` |
 | 35 | medium | todo | Add public-index freshness linter tied to current required external artifacts | `scripts/v48_public_index_freshness_linter.py` |
 | 36 | medium | todo | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
 | 37 | medium | todo | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
@@ -277,6 +277,23 @@ span across resume gaps.
   - synthetic public-index fixture passed.
 - Verification passed:
   - V48 governance preflight;
+  - public index crosslink lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:33:32Z`: `4289` seconds.
+- Added governance-navigation freshness linter:
+  - synthetic fixture passed;
+  - real preflight checks: `21`;
+  - real governance navigation rows: `26`;
+  - failures: `0`.
+- Fixed preflight bootstrap by writing `analysis/v48_governance_preflight/v48_governance_preflight_plan.tsv` before executing checks; the freshness linter compares against that plan so it can be included in preflight without reading stale previous results.
+- Updated governance navigation:
+  - controls tracked: `26`;
+  - missing artifacts: `0`;
+  - summaries with failures: `0`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance-navigation freshness lint;
   - public index crosslink lint;
   - external Markdown source/provenance lint;
   - V47 provenance gate.
