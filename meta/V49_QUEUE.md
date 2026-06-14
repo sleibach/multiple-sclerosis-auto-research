@@ -88,7 +88,7 @@ tracked purge target is:
 | 32 | medium | done | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
 | 33 | medium | done | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 34 | medium | done | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
-| 35 | medium | todo | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
+| 35 | medium | done | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
 | 36 | medium | todo | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
 | 37 | medium | todo | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 38 | high | todo | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
@@ -427,3 +427,11 @@ tracked purge target is:
 - Post-task gates: V47 provenance gate PASS and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T21:10:25Z`: `3609` seconds
   (`376` seconds session 1 plus `3233` seconds of current open session).
+- Task 35 reloaded `.env` and reran `scripts/check_opengwas_access.py`.
+  Result: `OPENGWAS_JWT` loaded, local decoded expiry remains
+  `2026-06-19 12:28 UTC`, `gwasinfo_ieu_b_18` HTTP `200`, `tophits_ieu_b_18`
+  HTTP `200`, and the check passed. Renewal is still required before any
+  OpenGWAS-dependent work after expiry; V49's external-content work is otherwise
+  OpenGWAS-independent.
+- Current cumulative active time at `2026-06-14T21:11:14Z`: `3658` seconds
+  (`376` seconds session 1 plus `3282` seconds of current open session).
