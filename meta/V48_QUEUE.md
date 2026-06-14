@@ -142,7 +142,7 @@ span across resume gaps.
 | 114 | medium | done | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
 | 115 | medium | done | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | done | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
-| 117 | medium | todo | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
+| 117 | medium | done | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
 | 118 | medium | todo | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
 | 119 | medium | todo | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | todo | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
@@ -1617,5 +1617,23 @@ span across resume gaps.
     grounding controls without making external claims evidence.
 - Added follow-up tasks 122-124 to keep the executable backlog above threshold.
 - Final gates after task 116:
+  - external Markdown linter: PASS (`303` checks, `51` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:27:53Z`: `18350` seconds.
+- Integrated the source-hit access/terms parking queue into public and
+  governance surfaces:
+  - public external index crosslinks: `45`;
+  - public-index freshness required targets: `39`;
+  - dependency graph: `36` artifact nodes, `127` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `73` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `73` controls, `27` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `73` controls represented;
+  - governance preflight: PASS with `54` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Final gates after task 117:
   - external Markdown linter: PASS (`303` checks, `51` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

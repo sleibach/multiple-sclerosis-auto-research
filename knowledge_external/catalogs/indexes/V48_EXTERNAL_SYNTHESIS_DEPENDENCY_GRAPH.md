@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `35`
-- dependency/control edges: `120`
+- artifact nodes: `36`
+- dependency/control edges: `127`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -35,6 +35,7 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | Source-intake operator quickstart | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` | 4 | 1 | future-search/navigation only |
 | Source-intake package manifest | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` | 6 | 1 | future-search/navigation only |
 | Source-hit acceptance decision tree | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` | 6 | 1 | future-search/navigation only |
+| Source-hit access/terms parking queue | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` | 6 | 1 | future-search/navigation only |
 | Relationship-row candidate template | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` | 3 | 1 | future-search/navigation only |
 | Contradiction triage mini-template | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` | 5 | 1 | future-search/navigation only |
 | Contradiction readiness playbook | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` | 1 | 1 | future contradiction handling only |

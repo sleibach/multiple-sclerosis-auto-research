@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `71`
+- artifacts tracked: `73`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -53,6 +53,8 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-intake package manifest freshness linter | `yes` | `PASS` | Ensures the source-intake package manifest keeps required components, operator steps, commands, and boundary phrases. | future-search control | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
 | Source-hit acceptance decision tree | `yes` | `PASS` | Decision tree for safely routing future source hits before external-record or relationship-row intake. | future-search control | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
 | Source-hit acceptance decision tree freshness linter | `yes` | `PASS` | Ensures the source-hit acceptance decision tree keeps required links, decision nodes, safe outcomes, and boundary phrases. | future-search control | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
+| Source-hit access/terms parking queue | `yes` | `PASS` | Template for parking promising source hits blocked by access, terms, reuse, or locator uncertainty without copying claims or making evidence. | future-search control | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
+| Source-hit access/terms parking queue freshness linter | `yes` | `PASS` | Ensures the parking queue keeps required fields, statuses, release conditions, linked controls, and no-evidence language. | future-search control | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | Relationship-row candidate template | `yes` | `PASS` | Draft template for future candidate convergence/contradiction rows before matrix acceptance. | future-search control | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | Relationship-row candidate template freshness linter | `yes` | `PASS` | Ensures the relationship-row candidate template keeps required fields, candidate statuses, forbidden shortcuts, and promotion rules. | future-search control | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | Contradiction triage mini-template | `yes` | `PASS` | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future-search control | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |

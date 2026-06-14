@@ -316,6 +316,20 @@ ARTIFACTS = [
         "boundary": "future-search control",
     },
     {
+        "artifact": "Source-hit access/terms parking queue",
+        "path": "knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/source_hit_access_terms_parking_queue_v48_summary.json",
+        "purpose": "Template for parking promising source hits blocked by access, terms, reuse, or locator uncertainty without copying claims or making evidence.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "Source-hit access/terms parking queue freshness linter",
+        "path": "scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py",
+        "summary": "analysis/v48_source_hit_access_terms_parking_queue_freshness_linter/source_hit_access_terms_parking_queue_freshness_lint_summary.json",
+        "purpose": "Ensures the parking queue keeps required fields, statuses, release conditions, linked controls, and no-evidence language.",
+        "boundary": "future-search control",
+    },
+    {
         "artifact": "Relationship-row candidate template",
         "path": "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
         "summary": "knowledge_external/catalogs/indexes/relationship_row_candidate_template_v48_summary.json",

@@ -241,6 +241,20 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Source-hit access/terms parking queue",
+        "output": "knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md",
+        "inputs": [
+            "knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+            "knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md",
+            "knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md",
+            "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
+            "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
+        ],
+        "controls": ["scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Relationship-row candidate template",
         "output": "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
         "inputs": [
