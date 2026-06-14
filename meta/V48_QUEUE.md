@@ -73,7 +73,7 @@ span across resume gaps.
 | 45 | medium | done | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
 | 46 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 47 | medium | done | Add V48 preflight summary card freshness linter tied to current summaries and command list | `scripts/v48_preflight_summary_card_freshness_linter.py` |
-| 48 | medium | todo | Build V48 decision-relevant convergence shortlist for medical-team review | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
+| 48 | medium | done | Build V48 decision-relevant convergence shortlist for medical-team review | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
 | 49 | medium | todo | Add decision-relevant convergence shortlist freshness linter | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
 | 50 | medium | todo | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 51 | medium | todo | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
@@ -606,3 +606,14 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:05:03Z`: `6180` seconds.
+- Built decision-relevant convergence/contradiction shortlist:
+  - source matrix rows: `12`;
+  - shortlist rows: `2`;
+  - convergences in matrix: `2`;
+  - contradictions in matrix: `0`;
+  - shortlist class: `corroborated_grounded_context` for both rows;
+  - boundary: synthesis/navigation only, no evidence change.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:07:29Z`: `6326` seconds.
