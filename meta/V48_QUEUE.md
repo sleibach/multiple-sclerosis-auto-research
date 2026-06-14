@@ -61,7 +61,7 @@ span across resume gaps.
 | 33 | medium | done | Build prioritized source-terms review queue for records still missing explicit terms metadata | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
 | 34 | medium | done | Add governance-navigation freshness linter tied to current preflight checks and navigation rows | `scripts/v48_governance_navigation_freshness_linter.py` |
 | 35 | medium | done | Add public-index freshness linter tied to current required external artifacts | `scripts/v48_public_index_freshness_linter.py` |
-| 36 | medium | todo | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
+| 36 | medium | done | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
 | 37 | medium | todo | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | 38 | medium | todo | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
 | 39 | medium | todo | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
@@ -310,6 +310,22 @@ span across resume gaps.
 - Verification passed:
   - V48 governance preflight;
   - public index crosslink lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:37:18Z`: `4515` seconds.
+- Built V48 source-domain relationship rollup:
+  - source domains: `27`;
+  - external records: `39`;
+  - V48 matrix rows: `12`;
+  - domains with convergence rows: `1`;
+  - domains with contradiction rows: `0`.
+- Updated public external index and required-link linter:
+  - navigation links: `18`;
+  - required public-index targets: `12`.
+- Verification passed:
+  - public external index synthetic fixture;
+  - public external index build;
+  - public-index freshness synthetic fixture and real lint;
+  - V48 governance preflight;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:27:28Z`: `3925` seconds.
 - Rebuilt post-artifact indexes:

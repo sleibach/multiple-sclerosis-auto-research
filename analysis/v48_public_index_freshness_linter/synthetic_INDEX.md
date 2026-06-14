@@ -1,6 +1,7 @@
 catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md
 catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md
 catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md
+catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md
 catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md
 catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md
 catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md

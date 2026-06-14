@@ -38,6 +38,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [Access-tier rollup](catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md) | Browse public/registration/application/controlled access tiers. | access metadata only |
 | [Source-domain rollup](catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md) | Browse records by source domain. | source locator metadata only |
 | [V48 source-domain review](catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md) | Classify source domains for maintenance, access, and terms review. | domain maintenance only |
+| [V48 source-domain relationship rollup](catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md) | Summarize external source domains by project-relationship and V48 matrix classes. | domain relationship metadata only |
 | [V48 source-terms coverage](catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md) | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |
 | [V48 source-terms review queue](catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md) | Prioritized terms-review queue for records missing explicit source_terms metadata. | source terms metadata only |
 | [V48 governance navigation](catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md) | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |

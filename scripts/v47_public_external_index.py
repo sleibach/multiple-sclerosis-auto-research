@@ -117,6 +117,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('Access-tier rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md')} | Browse public/registration/application/controlled access tiers. | access metadata only |",
         f"| {link('Source-domain rollup', 'catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md')} | Browse records by source domain. | source locator metadata only |",
         f"| {link('V48 source-domain review', 'catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md')} | Classify source domains for maintenance, access, and terms review. | domain maintenance only |",
+        f"| {link('V48 source-domain relationship rollup', 'catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md')} | Summarize external source domains by project-relationship and V48 matrix classes. | domain relationship metadata only |",
         f"| {link('V48 source-terms coverage', 'catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md')} | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |",
         f"| {link('V48 source-terms review queue', 'catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md')} | Prioritized terms-review queue for records missing explicit source_terms metadata. | source terms metadata only |",
         f"| {link('V48 governance navigation', 'catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md')} | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |",
@@ -144,7 +145,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 17,
+        "n_navigation_links": 18,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -186,6 +187,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "boundary_marker_present": "NOT_PROJECT_GROUNDED" in text,
         "navigation_link_present": "EXTERNAL_KNOWLEDGE_INDEX.md" in text,
         "source_terms_link_present": "SOURCE_TERMS_COVERAGE_V48.md" in text,
+        "source_domain_relationship_link_present": "SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md" in text,
         "source_terms_review_queue_link_present": "SOURCE_TERMS_REVIEW_QUEUE_V48.md" in text,
         "governance_link_present": "V48_GOVERNANCE_NAVIGATION.md" in text,
         "handoff_link_present": "V48_EXTERNAL_GOVERNANCE_HANDOFF.md" in text,
