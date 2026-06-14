@@ -81,7 +81,7 @@ span across resume gaps.
 | 53 | medium | done | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | 54 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 55 | high | done | Build convergence source-independence matrix so same-source corroborations are not overcounted | `knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md` |
-| 56 | medium | todo | Add convergence source-independence freshness linter | `scripts/v48_convergence_source_independence_freshness_linter.py` |
+| 56 | medium | done | Add convergence source-independence freshness linter | `scripts/v48_convergence_source_independence_freshness_linter.py` |
 | 57 | medium | todo | Build contradiction readiness playbook mapping future external contradictions to safe grounding actions | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` |
 | 58 | medium | todo | Add contradiction readiness playbook freshness linter | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | 59 | medium | todo | Build V37 external coverage gap prioritization by relevance, novelty, and evidence grade | `knowledge_external/synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md` |
@@ -728,3 +728,20 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:24:38Z`: `7355` seconds.
+- Added convergence source-independence freshness linter:
+  - expected rows: `12`;
+  - observed rows: `12`;
+  - real freshness checks: `121`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing row, stale canonical URL, stale group count, extra row, and bad summary-count failures;
+  - governance controls tracked: `37`;
+  - full preflight checks: `31`.
+- Verification passed:
+  - V48 governance preflight;
+  - convergence source-independence freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:27:26Z`: `7523` seconds.

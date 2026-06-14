@@ -9,6 +9,11 @@ Convergence matrix coverage linter||scripts/v48_convergence_matrix_coverage_lint
 Convergence matrix coverage linter||scripts/v48_convergence_matrix_coverage_linter.py	field_matches.purpose	PASS	navigation=Ensures priority grounded findings remain represented in the V48 matrix. matrix=Ensures priority grounded findings remain represented in the V48 matrix.
 Convergence matrix coverage linter||scripts/v48_convergence_matrix_coverage_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 Convergence matrix coverage linter||scripts/v48_convergence_matrix_coverage_linter.py	failure_mode_mapped	PASS	convergence/contradiction rows fall out of sync with grounded findings or source records
+Convergence source-independence freshness linter||scripts/v48_convergence_source_independence_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+Convergence source-independence freshness linter||scripts/v48_convergence_source_independence_freshness_linter.py	field_matches.boundary	PASS	navigation=synthesis coverage control matrix=synthesis coverage control
+Convergence source-independence freshness linter||scripts/v48_convergence_source_independence_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures source-independence accounting matches current V48 convergence matrix rows. matrix=Ensures source-independence accounting matches current V48 convergence matrix rows.
+Convergence source-independence freshness linter||scripts/v48_convergence_source_independence_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+Convergence source-independence freshness linter||scripts/v48_convergence_source_independence_freshness_linter.py	failure_mode_mapped	PASS	convergence/contradiction rows fall out of sync with grounded findings or source records
 Convergence status vocabulary linter||scripts/v48_convergence_status_vocabulary_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Convergence status vocabulary linter||scripts/v48_convergence_status_vocabulary_linter.py	field_matches.boundary	PASS	navigation=vocabulary control matrix=vocabulary control
 Convergence status vocabulary linter||scripts/v48_convergence_status_vocabulary_linter.py	field_matches.purpose	PASS	navigation=Checks controlled relationship/status vocabulary in the V48 matrix. matrix=Checks controlled relationship/status vocabulary in the V48 matrix.
@@ -179,4 +184,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=36 matrix=36
+summary	summary_control_count_matches_matrix	PASS	summary=37 matrix=37

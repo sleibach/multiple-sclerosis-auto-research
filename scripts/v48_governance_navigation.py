@@ -232,6 +232,13 @@ ARTIFACTS = [
         "boundary": "synthesis coverage control",
     },
     {
+        "artifact": "Convergence source-independence freshness linter",
+        "path": "scripts/v48_convergence_source_independence_freshness_linter.py",
+        "summary": "analysis/v48_convergence_source_independence_freshness_linter/convergence_source_independence_freshness_lint_summary.json",
+        "purpose": "Ensures source-independence accounting matches current V48 convergence matrix rows.",
+        "boundary": "synthesis coverage control",
+    },
+    {
         "artifact": "Convergence matrix coverage linter",
         "path": "scripts/v48_convergence_matrix_coverage_linter.py",
         "summary": "analysis/v48_convergence_matrix_coverage_linter/convergence_matrix_coverage_lint_summary.json",

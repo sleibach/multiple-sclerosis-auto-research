@@ -1,0 +1,14 @@
+row_key	check	status	detail
+A||E1	present_in_independence_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_source_independence_freshness_linter/synthetic_independence.tsv
+A||E1	field_matches.grounded_finding_id	PASS	expected=A observed=A
+A||E1	field_matches.external_record_id	PASS	expected=E1 observed=E1
+A||E1	field_matches.relationship_class	PASS	expected=converges observed=converges
+A||E1	field_matches.synthesis_status	PASS	expected=OK observed=OK
+A||E1	field_matches.external_source	PASS	expected=https://example.org/source observed=https://example.org/source
+A||E1	field_matches.canonical_source_url	FAIL	expected=https://example.org/source observed=stale
+A||E1	field_matches.source_domain	PASS	expected=example.org observed=example.org
+A||E1	field_matches.canonical_source_row_count	FAIL	expected=2 observed=1
+A||E1	field_matches.source_independence_class	FAIL	expected=shared_source_cluster observed=single_row_source
+B||E2	present_in_independence_matrix	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_source_independence_freshness_linter/synthetic_independence.tsv
+EXTRA||E3	no_extra_independence_row	FAIL	row is not present in current convergence matrix
+summary	summary_matrix_row_count_matches	FAIL	summary=99 expected=2
