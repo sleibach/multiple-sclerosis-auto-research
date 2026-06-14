@@ -171,7 +171,7 @@ tracked purge target is:
 | 116 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 112 and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 117 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after task 116 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 118 | medium | done | Refresh final and resume checkpoints after task 117 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 119 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 118 | `meta/V49_QUEUE.md` |
+| 119 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 118 | `meta/V49_QUEUE.md` |
 | 120 | medium | todo | Audit active-time accounting after the next session stretch | `meta/V49_QUEUE.md` |
 | 121 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 122 | medium | todo | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
@@ -1118,3 +1118,8 @@ tracked purge target is:
   seconds, latest guard state, and open tasks `119` through `123`.
 - Current cumulative active time at `2026-06-14T22:50:16Z`: `9600` seconds
   (`376` seconds session 1 plus `9224` seconds of current open session).
+- Task 119 verified post-task-118 working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+- Current cumulative active time at `2026-06-14T22:52:15Z`: `9719` seconds
+  (`376` seconds session 1 plus `9343` seconds of current open session).
