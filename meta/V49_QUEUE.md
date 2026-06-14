@@ -110,7 +110,7 @@ tracked purge target is:
 | 54 | medium | done | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 55 | medium | done | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 56 | high | done | Verify no tracked tmp/cache paths remain after the ignore-rule and history-rewrite work | `meta/V49_TMP_PATH_GUARD.md` |
-| 57 | medium | todo | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
+| 57 | medium | done | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
 | 58 | medium | todo | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 59 | medium | todo | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 60 | medium | todo | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
@@ -643,3 +643,12 @@ tracked purge target is:
   above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:44:11Z`: `5635` seconds
   (`376` seconds session 1 plus `5259` seconds of current open session).
+- Task 57 added `meta/V49_BINARY_EXTENSION_AUDIT.md`. Result: tracked
+  `.safetensors`: `0`; tracked `.h5ad`: `0`; tracked `.parquet`: `0`; tracked
+  `.tsv.gz`: `5`, all compact seeded synthetic method-characterization files
+  below `50 MiB` and outside tmp/cache paths.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), risky binary/columnar extension guard PASS, and large-file guard
+  PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:45:46Z`: `5730` seconds
+  (`376` seconds session 1 plus `5354` seconds of current open session).
