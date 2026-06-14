@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `26`
+- artifacts tracked: `27`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -22,6 +22,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | External-verifiable intake linter | `yes` | `PASS` | Ensures future-groundable external claims remain queued, not findings. | future-grounding control | `scripts/v47_external_verifiable_intake_linter.py` |
 | Relationship vocabulary linter | `yes` | `PASS` | Allowed relationship vocabulary for external records. | vocabulary control | `scripts/v47_relationship_vocabulary_linter.py` |
 | Public external index crosslink linter | `yes` | `PASS` | Public external index link target freshness. | navigation control | `scripts/v48_public_index_crosslink_linter.py` |
+| Public external index freshness linter | `yes` | `PASS` | Ensures required V48 external artifacts are linked from the public external index. | navigation control | `scripts/v48_public_index_freshness_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Source locator normalization linter | `yes` | `PASS` | Source locator shape checks for external records. | source locator control | `scripts/v48_source_locator_normalization_linter.py` |
 | Source-terms metadata linter | `yes` | `PASS` | Completeness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_metadata_linter.py` |

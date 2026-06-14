@@ -99,6 +99,13 @@ ARTIFACTS = [
         "boundary": "navigation control",
     },
     {
+        "artifact": "Public external index freshness linter",
+        "path": "scripts/v48_public_index_freshness_linter.py",
+        "summary": "analysis/v48_public_index_freshness_linter/public_index_freshness_lint_summary.json",
+        "purpose": "Ensures required V48 external artifacts are linked from the public external index.",
+        "boundary": "navigation control",
+    },
+    {
         "artifact": "Governance navigation freshness linter",
         "path": "scripts/v48_governance_navigation_freshness_linter.py",
         "summary": "analysis/v48_governance_navigation_freshness_linter/governance_navigation_freshness_lint_summary.json",
