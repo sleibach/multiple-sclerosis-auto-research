@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_audit_log_template_freshness_linter/synthetic_audit_log.md
+section_present.Required Controls	FAIL	required audit log section
+section_present.Audit Fields	PASS	required audit log section
+section_present.Decision Event Types	FAIL	required audit log section
+section_present.Minimum Audit Entry Skeleton	FAIL	required audit log section
+section_present.Forbidden Shortcuts	FAIL	required audit log section
+section_present.Verification Before Commit	FAIL	required audit log section
+section_present.Boundary	PASS	required audit log section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.audit_trail_only	FAIL	required boundary phrase
+phrase_present.not_source_record	FAIL	required boundary phrase
+phrase_present.no_copied_claims	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+phrase_present.no_relationship_by_itself	FAIL	required boundary phrase
+phrase_present.no_model_authority	FAIL	required boundary phrase
+phrase_present.boundary_statement_required	FAIL	required boundary phrase
+table_count.audit_fields	FAIL	observed=1 expected=14
+table_count.decision_event_types	FAIL	observed=0 expected=8
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md observed=stale
+summary_matches.n_audit_fields	FAIL	expected=14 observed=1
+summary_matches.n_decision_event_types	FAIL	expected=8 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=8 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake audit log template; template/navigation only; no biological claim observed=

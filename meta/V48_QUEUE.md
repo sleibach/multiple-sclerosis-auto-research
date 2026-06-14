@@ -150,7 +150,7 @@ span across resume gaps.
 | 122 | medium | done | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
 | 123 | medium | done | Integrate de-duplication, parked-source release/handoff, and one-page intake controls into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
 | 124 | medium | done | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
-| 125 | medium | todo | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
+| 125 | medium | done | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
 | 126 | medium | todo | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
 | 127 | medium | todo | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | 128 | medium | todo | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
@@ -1727,5 +1727,16 @@ span across resume gaps.
     function as evidence.
 - Added follow-up tasks 128-131 to keep the executable backlog above threshold.
 - Final gates after task 124:
+  - external Markdown linter: PASS (`306` checks, `54` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:43:05Z`: `19262` seconds.
+- Added source-intake audit log template freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    audit-field/event-type counts, and stale summary values fail;
+  - real freshness checks: `32`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; audit entries remain routing
+    records and not evidence.
+- Final gates after task 125:
   - external Markdown linter: PASS (`306` checks, `54` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
