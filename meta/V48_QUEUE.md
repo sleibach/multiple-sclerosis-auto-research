@@ -99,7 +99,7 @@ span across resume gaps.
 | 71 | medium | done | Build V48 high-priority source-search query packet from the sourcing plan without running searches | `knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md` |
 | 72 | medium | done | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | 73 | medium | done | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
-| 74 | medium | todo | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
+| 74 | medium | done | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | 75 | medium | todo | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | 76 | medium | todo | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | 77 | medium | todo | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
@@ -1014,3 +1014,22 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:24:34Z`: `10951` seconds.
+- Added external synthesis dependency graph freshness linter:
+  - graph nodes after self-control update: `23`;
+  - graph edges after self-control update: `66`;
+  - real freshness checks: `608`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing node, stale node field, stale edge field, extra edge, and bad summary-count failures;
+  - governance controls tracked: `45`;
+  - full preflight checks: `39`.
+- Added the dependency graph itself to the graph and mapped the `dependency/navigation control` boundary in the failure-mode matrix.
+- Verification passed:
+  - external synthesis dependency graph freshness lint;
+  - governance navigation freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - convergence executive-card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:28:22Z`: `11179` seconds.

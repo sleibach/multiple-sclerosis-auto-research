@@ -173,6 +173,13 @@ NODES = [
         "boundary": "source maintenance only",
     },
     {
+        "artifact": "V48 external synthesis dependency graph",
+        "output": "knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md",
+        "inputs": ["scripts/v48_external_synthesis_dependency_graph.py"],
+        "controls": ["scripts/v48_external_synthesis_dependency_freshness_linter.py"],
+        "boundary": "dependency/navigation control",
+    },
+    {
         "artifact": "V48 governance navigation",
         "output": "knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md",
         "inputs": [

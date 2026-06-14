@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `22`
-- dependency/control edges: `64`
+- artifact nodes: `23`
+- dependency/control edges: `66`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -30,6 +30,7 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | Contradiction readiness playbook | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` | 1 | 1 | future contradiction handling only |
 | Contradiction surveillance checklist | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` | 2 | 1 | future contradiction surveillance only |
 | External source URL duplicate review | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` | 1 | 1 | source maintenance only |
+| V48 external synthesis dependency graph | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` | 1 | 1 | dependency/navigation control |
 | V48 governance navigation | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` | 2 | 1 | navigation control |
 | V48 governance failure-mode matrix | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` | 1 | 1 | governance mapping control |
 | V48 preflight summary card | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` | 3 | 1 | handoff/navigation only |

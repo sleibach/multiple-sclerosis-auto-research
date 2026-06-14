@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `44`
-- boundary classes: `25`
+- controls mapped: `45`
+- boundary classes: `26`
 - unmapped boundaries: `0`
 
 ## Failure-Mode Matrix
@@ -11,6 +11,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | control | boundary | failure mode prevented | status | path |
 |---|---|---|---|---|
 | External claim-length safety linter | `copyright/provenance hygiene control` | external summaries become oversized copied source passages | `PASS` | `scripts/v48_external_claim_length_linter.py` |
+| External synthesis dependency freshness linter | `dependency/navigation control` | artifact dependency maps drift from current generated outputs, inputs, or controls | `PASS` | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | V48 source-domain review | `domain maintenance only` | domain classifications are overread as source-validity claims | `PASS` | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | Source-domain independence freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `PASS` | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source-domain relationship freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `PASS` | `scripts/v48_source_domain_relationship_freshness_linter.py` |

@@ -253,6 +253,13 @@ ARTIFACTS = [
         "boundary": "source maintenance control",
     },
     {
+        "artifact": "External synthesis dependency freshness linter",
+        "path": "scripts/v48_external_synthesis_dependency_freshness_linter.py",
+        "summary": "analysis/v48_external_synthesis_dependency_freshness_linter/external_synthesis_dependency_freshness_lint_summary.json",
+        "purpose": "Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts.",
+        "boundary": "dependency/navigation control",
+    },
+    {
         "artifact": "V37 external-coverage freshness linter",
         "path": "scripts/v48_v37_coverage_freshness_linter.py",
         "summary": "analysis/v48_v37_coverage_freshness_linter/v37_coverage_freshness_lint_summary.json",

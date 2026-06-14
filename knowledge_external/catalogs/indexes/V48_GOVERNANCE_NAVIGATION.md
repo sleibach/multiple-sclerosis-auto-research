@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `44`
+- artifacts tracked: `45`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -44,6 +44,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-domain relationship freshness linter | `yes` | `PASS` | Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. | domain relationship control | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | Source-domain independence freshness linter | `yes` | `PASS` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source URL duplicate freshness linter | `yes` | `PASS` | Ensures the source URL duplicate review matches current external source records. | source maintenance control | `scripts/v48_source_url_duplicate_freshness_linter.py` |
+| External synthesis dependency freshness linter | `yes` | `PASS` | Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts. | dependency/navigation control | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `yes` | `PASS` | Ensures the V37 uncovered-finding rationale table matches the current coverage map. | synthesis coverage control | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | V37 external gap-priority freshness linter | `yes` | `PASS` | Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs. | sourcing priority control | `scripts/v48_v37_gap_priority_freshness_linter.py` |

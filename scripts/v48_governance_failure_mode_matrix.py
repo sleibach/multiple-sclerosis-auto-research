@@ -34,6 +34,7 @@ FAILURE_MODE_BY_BOUNDARY = {
     "resource metadata control": "resource comparator metadata drifts from source records",
     "domain review control": "source-domain classifications become stale",
     "domain relationship control": "source-domain relationship rollups drift from records or matrix rows",
+    "dependency/navigation control": "artifact dependency maps drift from current generated outputs, inputs, or controls",
     "source maintenance control": "duplicate source URLs are mistaken for independent corroboration or left unreviewed",
     "transport maintenance only": "source URLs rot or redirect without being visible to maintainers",
     "external agreement is context; project artifacts remain evidence": "external agreement is over-promoted into evidence",

@@ -59,6 +59,11 @@ External record uniqueness linter||scripts/v47_external_record_uniqueness_linter
 External record uniqueness linter||scripts/v47_external_record_uniqueness_linter.py	field_matches.purpose	PASS	navigation=Ensures external record IDs and paths remain unique. matrix=Ensures external record IDs and paths remain unique.
 External record uniqueness linter||scripts/v47_external_record_uniqueness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 External record uniqueness linter||scripts/v47_external_record_uniqueness_linter.py	failure_mode_mapped	PASS	external records lack mandatory source, class, marker, or relationship fields
+External synthesis dependency freshness linter||scripts/v48_external_synthesis_dependency_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+External synthesis dependency freshness linter||scripts/v48_external_synthesis_dependency_freshness_linter.py	field_matches.boundary	PASS	navigation=dependency/navigation control matrix=dependency/navigation control
+External synthesis dependency freshness linter||scripts/v48_external_synthesis_dependency_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts. matrix=Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts.
+External synthesis dependency freshness linter||scripts/v48_external_synthesis_dependency_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+External synthesis dependency freshness linter||scripts/v48_external_synthesis_dependency_freshness_linter.py	failure_mode_mapped	PASS	artifact dependency maps drift from current generated outputs, inputs, or controls
 External-verifiable intake linter||scripts/v47_external_verifiable_intake_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 External-verifiable intake linter||scripts/v47_external_verifiable_intake_linter.py	field_matches.boundary	PASS	navigation=future-grounding control matrix=future-grounding control
 External-verifiable intake linter||scripts/v47_external_verifiable_intake_linter.py	field_matches.purpose	PASS	navigation=Ensures future-groundable external claims remain queued, not findings. matrix=Ensures future-groundable external claims remain queued, not findings.
@@ -219,4 +224,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=44 matrix=44
+summary	summary_control_count_matches_matrix	PASS	summary=45 matrix=45
