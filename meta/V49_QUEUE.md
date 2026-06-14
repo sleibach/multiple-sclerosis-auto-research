@@ -73,7 +73,7 @@ tracked purge target is:
 | 17 | high | done | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` |
 | 18 | high | done | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `knowledge_external/synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md` |
 | 19 | medium | todo | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
-| 20 | high | todo | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
+| 20 | high | done | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
 | 21 | medium | todo | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
 | 22 | medium | todo | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | 23 | medium | todo | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/COMPARATOR_MATRIX_V47.md` |
@@ -229,3 +229,13 @@ tracked purge target is:
   above `50 MiB`).
 - Current cumulative active time at `2026-06-14T20:41:58Z`: `1902` seconds
   (`376` seconds session 1 plus `1526` seconds of current open session).
+- Task 20 added V49 content-layer navigation links to `knowledge_external/INDEX.md`
+  for the relationship delta note, insufficient-overlap triage, uncovered
+  finding triage, source-specific import packets, validation-ready row
+  crosscheck, and V49 source-domain review.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`62` links, `0` failures), external Markdown linter
+  PASS (`364` checks), V47 provenance gate PASS (`436` checks, `47` records,
+  `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:43:50Z`: `2014` seconds
+  (`376` seconds session 1 plus `1638` seconds of current open session).
