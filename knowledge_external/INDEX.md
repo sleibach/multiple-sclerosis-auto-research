@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `57`
+- V48 governance controls tracked: `60`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -52,6 +52,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 preflight summary card](catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md) | Fast command/status handoff for V48 governance checks. | governance/navigation only |
 | [V48 external-governance handoff](catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md) | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |
 | [V48 AI Core tooling-health card](catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md) | Current smoke-test status for Claude, Gemini, and RPT client paths. | tooling/navigation only |
+| [V48 model-lens usage boundary](catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md) | Public boundary for using Claude, Gemini, and RPT as proposal lenses only. | governance/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |

@@ -123,7 +123,7 @@ span across resume gaps.
 | 95 | medium | done | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
 | 96 | medium | done | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | 97 | medium | done | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
-| 98 | medium | todo | Add model-lens usage boundary card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
+| 98 | medium | done | Add model-lens usage boundary card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
 | 99 | medium | todo | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 100 | medium | todo | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
 | 101 | medium | todo | Build source-intake package manifest tying search packet, checklist, quickstart, and reader brief | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
@@ -1375,5 +1375,14 @@ span across resume gaps.
   - boundary: deterministic governance/navigation freshness only; no live model
     calls and no biological claim.
 - Final gates after task 97:
+  - external Markdown linter: PASS (`296` checks, `44` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:38:36Z`: `15393` seconds.
+- Added model-lens usage boundary card to the public external index and public-index freshness requirements:
+  - public external index links: `40`;
+  - public-index freshness required targets: `34`;
+  - public-index freshness failures: `0`;
+  - public-index crosslink failures: `0`.
+- Final gates after task 98:
   - external Markdown linter: PASS (`296` checks, `44` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
