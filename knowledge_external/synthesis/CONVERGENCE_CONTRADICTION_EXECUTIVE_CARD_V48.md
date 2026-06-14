@@ -20,7 +20,7 @@ Status: synthesis/navigation only. This card summarizes V48 external-context rel
 | `source_independence` | domains with convergence | 1 | Domain concentration limits external-source independence. |
 | `coverage_gaps` | V37 uncovered priority rows | 20 | Sourcing priority is not validation or convergence. |
 | `coverage_gaps` | high-priority V37 sourcing gaps | 11 | Only same-definition external sources should be added. |
-| `governance` | preflight checks | 60 | Preflight checks provenance/navigation controls only. |
+| `governance` | preflight checks | 62 | Preflight checks provenance/navigation controls only. |
 | `governance` | preflight failures | 0 | Zero failures means the segregation controls passed. |
 
 ## Current Decision-Relevant Rows

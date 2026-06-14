@@ -158,7 +158,7 @@ span across resume gaps.
 | 130 | medium | done | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
 | 131 | medium | done | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | 132 | medium | done | Add V48 external intake controls coverage card freshness linter | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
-| 133 | medium | todo | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
+| 133 | medium | done | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 134 | medium | todo | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
 | 135 | medium | todo | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
 | 136 | medium | todo | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
@@ -1828,5 +1828,23 @@ span across resume gaps.
   - boundary: governance/navigation freshness only; coverage card remains a
     safeguards map, not evidence.
 - Final gates after task 132:
+  - external Markdown linter: PASS (`309` checks, `57` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:58:21Z`: `20178` seconds.
+- Integrated source-intake reproducibility checklist and controls coverage card
+  into public and governance surfaces:
+  - public external index crosslinks: `53`;
+  - public-index freshness required targets: `47`;
+  - dependency graph: `44` artifact nodes, `201` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `89` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `89` controls, `28` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `89` controls represented;
+  - governance preflight: PASS with `62` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Final gates after task 133:
   - external Markdown linter: PASS (`309` checks, `57` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

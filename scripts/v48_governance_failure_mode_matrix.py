@@ -46,6 +46,7 @@ FAILURE_MODE_BY_BOUNDARY = {
     "domain relationship metadata only": "source-domain counts are overread as biological convergence",
     "HTTP status is not claim validation": "reachable URLs are overread as validating source claims",
     "synthesis/navigation only": "navigation rows are overread as evidence or score changes",
+    "governance/navigation only": "governance summary cards are overread as evidence or source validation",
 }
 
 
