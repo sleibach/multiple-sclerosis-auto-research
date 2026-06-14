@@ -80,6 +80,14 @@ span across resume gaps.
 | 52 | medium | done | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
 | 53 | medium | done | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | 54 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 55 | high | done | Build convergence source-independence matrix so same-source corroborations are not overcounted | `knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md` |
+| 56 | medium | todo | Add convergence source-independence freshness linter | `scripts/v48_convergence_source_independence_freshness_linter.py` |
+| 57 | medium | todo | Build contradiction readiness playbook mapping future external contradictions to safe grounding actions | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` |
+| 58 | medium | todo | Add contradiction readiness playbook freshness linter | `scripts/v48_contradiction_readiness_freshness_linter.py` |
+| 59 | medium | todo | Build V37 external coverage gap prioritization by relevance, novelty, and evidence grade | `knowledge_external/synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md` |
+| 60 | medium | todo | Add V37 external coverage gap priority freshness linter | `scripts/v48_v37_gap_priority_freshness_linter.py` |
+| 61 | medium | todo | Build external source-domain independence rollup for convergence/insufficient-overlap rows | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md` |
+| 62 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 55-61 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -702,3 +710,21 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:22:31Z`: `7228` seconds.
+- Refilled backlog with tasks 55-62:
+  - convergence source-independence matrix and freshness;
+  - contradiction readiness playbook and freshness;
+  - V37 external coverage gap prioritization and freshness;
+  - source-domain independence rollup;
+  - post-task index rebuild.
+- Current open-session active time at `2026-06-14T15:23:18Z`: `7275` seconds.
+- Built convergence source-independence matrix:
+  - matrix rows: `12`;
+  - decision relationship rows: `2`;
+  - decision canonical sources: `1`;
+  - convergence rows: `2`;
+  - convergence canonical sources: `1`;
+  - decision rows are both `shared_source_cluster`, preventing overcounting two same-paper rows as two independent external corroborations.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:24:38Z`: `7355` seconds.
