@@ -117,7 +117,7 @@ span across resume gaps.
 | 87 | medium | done | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | done | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
-| 90 | medium | todo | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
+| 90 | medium | done | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | 91 | medium | todo | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 93 | medium | todo | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
@@ -1254,6 +1254,18 @@ span across resume gaps.
     biological claim was added.
 - Verification passed:
   - external Markdown linter: PASS (`294` checks, `42` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:16:54Z`: `14091` seconds.
+- Built source-intake operator quickstart:
+  - artifact: `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md`;
+  - mechanical intake steps: `9`;
+  - boundary: template/navigation only; no source record, relationship row, or
+    biological claim was added.
+- Reworded a forbidden authority phrase caught by the provenance gate so the
+  quickstart does not contain language that could imply external-source
+  validation authority.
+- Verification passed:
+  - external Markdown linter: PASS (`295` checks, `43` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
 - Added follow-up tasks 93-97 to keep the executable backlog above threshold
   and prevent the RPT status from drifting back to a false PASS.
