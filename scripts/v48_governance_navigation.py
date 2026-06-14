@@ -127,6 +127,13 @@ ARTIFACTS = [
         "boundary": "handoff/navigation control",
     },
     {
+        "artifact": "Governance failure-mode matrix freshness linter",
+        "path": "scripts/v48_governance_failure_mode_freshness_linter.py",
+        "summary": "analysis/v48_governance_failure_mode_freshness_linter/governance_failure_mode_freshness_lint_summary.json",
+        "purpose": "Ensures the governance failure-mode matrix matches current governance navigation rows.",
+        "boundary": "governance mapping control",
+    },
+    {
         "artifact": "Source locator normalization linter",
         "path": "scripts/v48_source_locator_normalization_linter.py",
         "summary": "analysis/v48_source_locator_normalization_linter/source_locator_normalization_lint_summary.json",

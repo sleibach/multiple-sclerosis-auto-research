@@ -45,6 +45,7 @@ CHECKS = [
     ("v37_coverage_freshness", ["scripts/v48_v37_coverage_freshness_linter.py", "lint"]),
     ("v37_uncovered_rationale_freshness", ["scripts/v48_v37_uncovered_rationale_freshness_linter.py", "lint"]),
     ("decision_relevant_convergence_freshness", ["scripts/v48_decision_relevant_convergence_freshness_linter.py", "lint"]),
+    ("governance_failure_mode_freshness", ["scripts/v48_governance_failure_mode_freshness_linter.py", "lint"]),
 ]
 
 

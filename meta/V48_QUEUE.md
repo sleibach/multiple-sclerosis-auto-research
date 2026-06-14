@@ -78,7 +78,7 @@ span across resume gaps.
 | 50 | medium | done | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 51 | medium | done | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | 52 | medium | done | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
-| 53 | medium | todo | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
+| 53 | medium | done | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | 54 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -668,3 +668,19 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:16:34Z`: `6871` seconds.
+- Added governance failure-mode matrix freshness linter:
+  - navigation rows: `36`;
+  - matrix rows: `36`;
+  - real freshness checks: `181`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing matrix row, stale boundary, unmapped failure mode, extra row, and bad summary-count failures;
+  - governance controls tracked: `36`;
+  - full preflight checks: `30`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:20:07Z`: `7084` seconds.

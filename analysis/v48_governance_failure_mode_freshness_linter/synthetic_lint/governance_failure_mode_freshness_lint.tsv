@@ -1,0 +1,9 @@
+row_key	check	status	detail
+A||scripts/a.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_governance_failure_mode_freshness_linter/synthetic_matrix.tsv
+A||scripts/a.py	field_matches.boundary	FAIL	navigation=schema control matrix=stale
+A||scripts/a.py	field_matches.purpose	PASS	navigation=schema matrix=schema
+A||scripts/a.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+A||scripts/a.py	failure_mode_mapped	FAIL	manual review needed
+B||scripts/b.py	present_in_matrix	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_governance_failure_mode_freshness_linter/synthetic_matrix.tsv
+EXTRA||scripts/extra.py	no_extra_matrix_row	FAIL	matrix row is not present in current governance navigation
+summary	summary_control_count_matches_matrix	FAIL	summary=99 matrix=2

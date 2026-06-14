@@ -23,6 +23,7 @@ FAILURE_MODE_BY_BOUNDARY = {
     "vocabulary control": "relationship/status values drift into ambiguous uncontrolled labels",
     "navigation control": "public or operator navigation becomes stale and hides required artifacts",
     "handoff/navigation control": "handoff card drifts from current checks or commands",
+    "governance mapping control": "control-to-failure-mode explanations drift from current governance navigation",
     "source locator control": "source locators become malformed or non-normalized",
     "source terms control": "source terms/reuse status is ambiguous or stale",
     "copyright/provenance hygiene control": "external summaries become oversized copied source passages",
