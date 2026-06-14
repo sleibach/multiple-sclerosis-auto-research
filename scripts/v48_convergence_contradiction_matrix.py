@@ -69,6 +69,16 @@ GROUNDING_MAP: list[dict[str, str]] = [
         "future_grounding_action": "Use the V42/V44 confounder and batch diagnostics when real validation data arrive.",
     },
     {
+        "grounded_finding_id": "Coupled APC remodeling architecture",
+        "external_record_id": "resource.msgd.database_commons.2026-06-13",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "A curated MS gene database can provide gene-level context, but the current resource metadata does not independently assert the project's coupled HLA/IFN-APC and MIF-CD74 architecture."
+        ),
+        "future_grounding_action": "Import specific CD74, MIF, HLA, and APC-axis external records only as segregated future-grounding context before comparing them to V26.",
+    },
+    {
         "grounded_finding_id": "T/B-readable early IFN/APC/STAT1 monitoring state",
         "external_record_id": "claim.dailymed.ocrelizumab_mechanism_context.2026-06-13",
         "relationship_class": "insufficient-overlap",
@@ -127,6 +137,16 @@ GROUNDING_MAP: list[dict[str, str]] = [
             "A curated MS gene database is a useful external resource, but it does not validate the project's held-out simulator negative or supply perturbation validation."
         ),
         "future_grounding_action": "Do not reopen simulator claims without a held-out perturbation dataset and frozen split.",
+    },
+    {
+        "grounded_finding_id": "Coupled-axis successor rule does not beat scalar",
+        "external_record_id": "claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "The DMF label offers treatment context but does not evaluate whether a coupled-axis response rule improves over the locked scalar."
+        ),
+        "future_grounding_action": "Keep V27 negative-established unless a future external cohort is tested with the frozen scalar and any pre-locked successor under a preregistered comparison.",
     },
 ]
 
