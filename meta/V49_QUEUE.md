@@ -64,12 +64,15 @@ tracked purge target is:
 | 8 | medium | done | Refresh future-grounding queue from any contradiction or groundable external closures | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | 9 | medium | done | Refresh comparator matrix only where V49 content reveals concrete source-coverage changes | no resource-record changes; no comparator refresh required |
 | 10 | medium | done | Rebuild public external index, governance preflight, provenance gate, and grounded TF-IDF after content updates | `knowledge_external/INDEX.md`, `knowledge/.index/` |
-| 11 | high | todo | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 11 | high | done | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 | 12 | high | todo | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
 | 13 | medium | todo | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 14 | medium | todo | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
+| 17 | high | todo | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
+| 18 | high | todo | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `docs/validation/` |
+| 19 | medium | todo | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 
 ## Iteration Notes
 
@@ -145,3 +148,14 @@ tracked purge target is:
   `knowledge_external/` remains outside grounded evidence indexing.
 - Current cumulative active time at `2026-06-14T20:24:31Z`: `855` seconds
   (`376` seconds session 1 plus `479` seconds of current open session).
+- Committed content gap closure as `1262d6ba` (`Close V49 convergence content
+  gaps`).
+- Task 11 triage generated `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md`
+  and `knowledge_external/synthesis/v49_insufficient_overlap_triage.tsv`.
+  Result: `16` insufficient-overlap rows triaged into `4` high-actionability,
+  `5` medium-actionability, and `7` low-actionability/context-only rows.
+- Post-triage external Markdown linter: PASS (`359` checks, `61` Markdown
+  files). V47 provenance gate: PASS (`436` checks, `47` external JSON records,
+  `0` failures).
+- Current cumulative active time at `2026-06-14T20:28:18Z`: `1082` seconds
+  (`376` seconds session 1 plus `706` seconds of current open session).
