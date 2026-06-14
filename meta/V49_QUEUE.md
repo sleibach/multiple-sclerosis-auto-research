@@ -72,7 +72,7 @@ tracked purge target is:
 | 16 | medium | done | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 17 | high | done | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` |
 | 18 | high | done | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `knowledge_external/synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md` |
-| 19 | medium | todo | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
+| 19 | medium | done | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` |
 | 20 | high | done | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
 | 21 | medium | todo | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
 | 22 | medium | todo | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
@@ -247,3 +247,14 @@ tracked purge target is:
   large-file guard PASS (`0` files above `50 MiB` in tracked/unignored scope).
 - Current cumulative active time at `2026-06-14T20:44:36Z`: `2060` seconds
   (`376` seconds session 1 plus `1684` seconds of current open session).
+- Task 19 added `knowledge_external/synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md`
+  and `knowledge_external/synthesis/v49_context_only_closure_guardrail.tsv`.
+  Result: the `7` low-actionability/context-only closures now each have a
+  named "do not reopen for" class and a narrow reopen trigger. The guardrail was
+  also linked from `knowledge_external/INDEX.md`.
+- Post-task gates: external Markdown linter PASS (`365` checks, `67`
+  Markdown files), V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures), public index freshness PASS (`50` checks), public
+  index crosslink linter PASS (`63` links), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:46:34Z`: `2178` seconds
+  (`376` seconds session 1 plus `1802` seconds of current open session).

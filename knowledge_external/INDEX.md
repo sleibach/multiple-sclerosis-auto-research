@@ -88,6 +88,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [V49 relationship delta note](synthesis/V49_RELATIONSHIP_DELTA_NOTE.md) | Compact summary of what V49 added to the V48 convergence/contradiction layer. | synthesis/navigation only |
 | [V49 insufficient-overlap triage](synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md) | Actionability triage for insufficient-overlap rows so context-only rows are not reopened without the named trigger. | synthesis/navigation only |
+| [V49 context-only closure guardrail](synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md) | Compact reopen-trigger rules for the seven low-actionability/context-only rows. | synthesis/navigation only |
 | [V49 uncovered finding triage](synthesis/V49_UNCOVERED_FINDING_TRIAGE.md) | Direct-source and no-expand routing for V37 findings still uncovered by relationship rows. | sourcing/navigation only |
 | [V49 source-specific import packets](synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md) | Narrow acceptance gates for future ZMIZ1, chr1 KIF21B/GPR25, and coupled APC-axis source intake. | future intake/navigation only |
 | [V49 validation-ready row crosscheck](synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md) | Crosscheck showing which validation-facing V49 rows are already covered by frozen V42/V44 harnesses. | synthesis/navigation only |
