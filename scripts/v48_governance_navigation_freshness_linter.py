@@ -72,7 +72,12 @@ def lint_paths(preflight: Path, navigation: Path, summary_path: Path, outdir: Pa
     nav_paths = {row.get("path", "") for row in nav_rows}
     rows: list[dict[str, object]] = []
     missing = sorted(preflight_paths - nav_paths)
-    extra_scripts = sorted(path for path in nav_paths - preflight_paths if path.startswith("scripts/"))
+    allowed_non_preflight_scripts = {
+        row.get("path", "")
+        for row in nav_rows
+        if row.get("path", "").startswith("scripts/") and row.get("boundary", "") == "transport maintenance only"
+    }
+    extra_scripts = sorted(path for path in nav_paths - preflight_paths - allowed_non_preflight_scripts if path.startswith("scripts/"))
     rows.append(
         {
             "check": "all_preflight_scripts_in_navigation",

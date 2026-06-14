@@ -63,7 +63,7 @@ span across resume gaps.
 | 35 | medium | done | Add public-index freshness linter tied to current required external artifacts | `scripts/v48_public_index_freshness_linter.py` |
 | 36 | medium | done | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
 | 37 | medium | done | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
-| 38 | medium | todo | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
+| 38 | medium | done | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
 | 39 | medium | todo | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -338,6 +338,20 @@ span across resume gaps.
   - preflight checks: `23`;
   - governance controls tracked: `28`.
 - Verification passed:
+  - V48 governance preflight;
+  - public-index freshness lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:42:04Z`: `4801` seconds.
+- Refreshed source URL reachability:
+  - records checked: `39`;
+  - reachable or redirected 2xx: `37`;
+  - non-success transport statuses: `2`;
+  - missing not-grounded markers: `0`;
+  - overall status: `PASS`.
+- Added the source URL reachability checker to governance navigation as `transport maintenance only`, not deterministic preflight, because third-party network availability can change.
+- Updated governance-navigation freshness linter to allow explicitly non-preflight transport-maintenance scripts.
+- Verification passed:
+  - governance-navigation freshness lint;
   - V48 governance preflight;
   - public-index freshness lint;
   - V47 provenance gate.

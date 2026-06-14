@@ -2,8 +2,8 @@
 
 Status: transport metadata only. HTTP reachability does not validate any external claim.
 
-- records checked: `37`
-- reachable 2xx or redirected 2xx: `35`
+- records checked: `39`
+- reachable 2xx or redirected 2xx: `37`
 - non-2xx/network/missing statuses: `2`
 - overall status: `PASS`
 
@@ -13,7 +13,7 @@ Status: transport metadata only. HTTP reachability does not validate any externa
 |---|---:|
 | `client_error` | 2 |
 | `reachable_2xx` | 32 |
-| `reachable_redirected_2xx` | 3 |
+| `reachable_redirected_2xx` | 5 |
 
 ## Records
 
@@ -56,3 +56,5 @@ Status: transport metadata only. HTTP reachability does not validate any externa
 | claim.ms_society_uk.ppms_course_context.2026-06-13 | `external-unverifiable` | https://www.mssociety.org.uk/about-ms/types-of-ms | `client_error` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
 | claim.national_ms_society.rrms_course_context.2026-06-13 | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
 | claim.national_ms_society.spms_course_context.2026-06-13 | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `reachable_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.ms_ibd.treatment_transfer_caution_context.2026-06-14 | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `reachable_redirected_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |
+| claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14 | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `reachable_redirected_2xx` | `NOT_PROJECT_GROUNDED` | `transport_status_only_not_claim_validation` |

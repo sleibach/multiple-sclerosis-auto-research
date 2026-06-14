@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `28`
+- artifacts tracked: `29`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -20,6 +20,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |
 | External Markdown index linter | `yes` | `PASS` | Ensures generated external Markdown rows retain source locators. | markdown provenance control | `scripts/v47_external_markdown_index_linter.py` |
 | External-verifiable intake linter | `yes` | `PASS` | Ensures future-groundable external claims remain queued, not findings. | future-grounding control | `scripts/v47_external_verifiable_intake_linter.py` |
+| Source URL reachability checker | `yes` | `PASS` | Records transport-level URL status for external source locators; not included in deterministic preflight because third-party network status can change. | transport maintenance only | `scripts/v47_source_url_reachability_checker.py` |
 | Relationship vocabulary linter | `yes` | `PASS` | Allowed relationship vocabulary for external records. | vocabulary control | `scripts/v47_relationship_vocabulary_linter.py` |
 | Public external index crosslink linter | `yes` | `PASS` | Public external index link target freshness. | navigation control | `scripts/v48_public_index_crosslink_linter.py` |
 | Public external index freshness linter | `yes` | `PASS` | Ensures required V48 external artifacts are linked from the public external index. | navigation control | `scripts/v48_public_index_freshness_linter.py` |

@@ -85,6 +85,13 @@ ARTIFACTS = [
         "boundary": "future-grounding control",
     },
     {
+        "artifact": "Source URL reachability checker",
+        "path": "scripts/v47_source_url_reachability_checker.py",
+        "summary": "knowledge_external/catalogs/indexes/external_source_url_reachability_summary.json",
+        "purpose": "Records transport-level URL status for external source locators; not included in deterministic preflight because third-party network status can change.",
+        "boundary": "transport maintenance only",
+    },
+    {
         "artifact": "Relationship vocabulary linter",
         "path": "scripts/v47_relationship_vocabulary_linter.py",
         "summary": "analysis/v47_relationship_vocabulary_linter/relationship_vocabulary_lint_summary.json",
