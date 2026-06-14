@@ -113,7 +113,7 @@ span across resume gaps.
 | 83 | medium | done | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | 84 | medium | done | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | 85 | medium | done | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
-| 86 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 86 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 87 | medium | todo | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | 88 | medium | todo | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | todo | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
@@ -1206,5 +1206,18 @@ span across resume gaps.
   - source markers were added to each line that uses external-class vocabulary,
     so the provenance gate can verify line-level provenance.
 - Verification passed:
+  - external Markdown linter: PASS (`293` checks, `41` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:07:46Z`: `13543` seconds.
+- Rebuilt public external index and governance/RAG state after tasks 79-85:
+  - public external index: `37` navigation links, including the new reader
+    brief and source intake checklist;
+  - public-index freshness: `31` required targets, `0` failures;
+  - public-index crosslink lint: `37` links, `0` failures;
+  - governance navigation: `53` artifacts, `0` missing artifacts;
+  - governance preflight: `43` checks, `0` failures;
+  - TF-IDF index: `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Final gates after task 86:
   - external Markdown linter: PASS (`293` checks, `41` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).

@@ -28,6 +28,7 @@ Grounded project findings remain in the normal project report/history/validation
 
 | artifact | purpose | boundary |
 |---|---|---|
+| [V48 external layer reader brief](EXTERNAL_LAYER_READER_BRIEF_V48.md) | Plain-language guide to what the external layer can and cannot do. | class-aware public navigation only |
 | [Class-aware external record index](catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md) | Browse every external record with source and class markers. | external only |
 | [Resource category rollup](catalogs/indexes/EXTERNAL_RESOURCE_CATEGORY_ROLLUP.md) | Browse resource metadata by category. | external resource metadata only |
 | [V48 external resource comparator matrix](catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md) | Compare external resources by coverage, access tier, unique gap, and this repo's distinct role. | external resource metadata only |
@@ -59,6 +60,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 V37 external coverage gap priority](synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md) | Sourcing-priority map for uncovered V37 findings. | sourcing/navigation only |
 | [V48 high-priority external sourcing plan](synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md) | Source-route plan for high-priority V37 external coverage gaps. | future intake/navigation only |
 | [V48 high-priority source-search query packet](synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md) | Concrete search-query packet for high-priority sourcing gaps; queries are candidates only. | future search/navigation only |
+| [V48 high-priority source intake checklist](templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md) | Checklist for safely reviewing source hits before any segregated external-record intake. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |

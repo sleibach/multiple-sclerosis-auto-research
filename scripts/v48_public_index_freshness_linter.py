@@ -16,6 +16,7 @@ DEFAULT_OUTDIR = ROOT / "analysis/v48_public_index_freshness_linter"
 
 
 REQUIRED_TARGETS = [
+    "EXTERNAL_LAYER_READER_BRIEF_V48.md",
     "catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md",
     "catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md",
     "catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md",
@@ -43,6 +44,7 @@ REQUIRED_TARGETS = [
     "synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md",
     "synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md",
     "synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md",
+    "templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
     "synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md",
     "synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
 ]
