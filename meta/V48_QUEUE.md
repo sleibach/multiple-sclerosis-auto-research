@@ -131,7 +131,7 @@ span across resume gaps.
 | 103 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 104 | medium | done | Build source-hit acceptance decision tree for future external-source intake | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
 | 105 | medium | done | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
-| 106 | medium | todo | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
+| 106 | medium | done | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | 107 | medium | todo | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | 108 | medium | todo | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
 | 109 | medium | todo | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
@@ -1474,4 +1474,14 @@ span across resume gaps.
     evidence.
 - Final gates after task 105:
   - external Markdown linter: PASS (`298` checks, `46` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:02:31Z`: `16828` seconds.
+- Built relationship-row candidate template for future convergence/contradiction candidates:
+  - required fields: `15`;
+  - allowed candidate statuses: `4`;
+  - forbidden shortcuts: `5`;
+  - boundary: template/navigation only; candidate rows are drafts, not
+    relationship-matrix assertions or evidence.
+- Final gates after task 106:
+  - external Markdown linter: PASS (`299` checks, `47` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
