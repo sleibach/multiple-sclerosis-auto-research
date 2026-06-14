@@ -141,12 +141,15 @@ span across resume gaps.
 | 113 | medium | done | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | 114 | medium | done | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
 | 115 | medium | done | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
-| 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
+| 116 | medium | done | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | 117 | medium | todo | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
 | 118 | medium | todo | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
 | 119 | medium | todo | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | todo | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
 | 121 | medium | todo | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
+| 122 | medium | todo | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
+| 123 | medium | todo | Integrate de-duplication and one-page intake checklist into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
+| 124 | medium | todo | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 
 ## Iteration Notes
 
@@ -1603,4 +1606,16 @@ span across resume gaps.
     routing/control issue, not evidence.
 - Final gates after task 115:
   - external Markdown linter: PASS (`302` checks, `50` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:25:05Z`: `18182` seconds.
+- Built compact one-page external intake operator checklist:
+  - operator steps: `10`;
+  - stop conditions: `6`;
+  - required linked controls: `10`;
+  - boundary: template/navigation only; routes future source hits through
+    locator, terms, de-duplication, acceptance, contradiction, and future
+    grounding controls without making external claims evidence.
+- Added follow-up tasks 122-124 to keep the executable backlog above threshold.
+- Final gates after task 116:
+  - external Markdown linter: PASS (`303` checks, `51` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
