@@ -115,11 +115,16 @@ span across resume gaps.
 | 85 | medium | done | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 87 | medium | done | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
-| 88 | medium | todo | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
+| 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | todo | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | 90 | medium | todo | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | 91 | medium | todo | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 93 | medium | todo | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
+| 94 | medium | todo | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
+| 95 | medium | todo | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
+| 96 | medium | todo | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
+| 97 | medium | todo | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 
 ## Iteration Notes
 
@@ -1238,3 +1243,17 @@ span across resume gaps.
 - Final gates after task 87:
   - external Markdown linter: PASS (`293` checks, `41` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:13:22Z`: `13879` seconds.
+- Built V48 AI Core tooling-health handoff card:
+  - artifact: `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md`;
+  - Claude smoke: PASS (`anthropic--claude-4.7-opus 1 def854013c7ac379`);
+  - Gemini smoke: PASS (`gemini-3.1-flash-lite 001 dcb4db8a86040bf7`);
+  - RPT smoke: UNAVAILABLE (`No implemented request schema for model:
+    sap-rpt-1-large`);
+  - boundary: tooling-health handoff only; no model output is evidence and no
+    biological claim was added.
+- Verification passed:
+  - external Markdown linter: PASS (`294` checks, `42` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Added follow-up tasks 93-97 to keep the executable backlog above threshold
+  and prevent the RPT status from drifting back to a false PASS.
