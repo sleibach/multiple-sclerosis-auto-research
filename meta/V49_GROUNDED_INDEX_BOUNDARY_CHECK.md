@@ -37,3 +37,14 @@ additional operational `meta/V49_*.md` files but would still exclude
 `knowledge_external/` as outside grounded evidence retrieval unless the project
 intentionally builds a separate class-aware external index.
 
+## Late V49 Recheck
+
+Rechecked at `2026-06-14T21:46:55Z` after later V49 meta/navigation additions.
+The TF-IDF object still contains `728` docs, `0` indexed `knowledge_external/`
+paths, and only `meta/V49_QUEUE.md` among indexed V49 paths. Raw string scans of
+the pickle can find the text `knowledge_external` because indexed meta documents
+discuss the external boundary; the path-level check is the relevant guard.
+
+Decision unchanged: do not rebuild the grounded index for V49 external content.
+If a future session rebuilds the grounded index, it should separately verify
+that indexed paths still exclude `knowledge_external/`.

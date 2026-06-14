@@ -111,7 +111,7 @@ tracked purge target is:
 | 55 | medium | done | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 56 | high | done | Verify no tracked tmp/cache paths remain after the ignore-rule and history-rewrite work | `meta/V49_TMP_PATH_GUARD.md` |
 | 57 | medium | done | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
-| 58 | medium | todo | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
+| 58 | medium | done | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 59 | medium | todo | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 60 | medium | todo | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
 | 61 | medium | todo | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
@@ -652,3 +652,13 @@ tracked purge target is:
   PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:45:46Z`: `5730` seconds
   (`376` seconds session 1 plus `5354` seconds of current open session).
+- Task 58 rechecked the grounded TF-IDF index boundary and updated
+  `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md`. Result: `728` indexed docs, `0`
+  indexed `knowledge_external/` paths, and only `meta/V49_QUEUE.md` among
+  indexed V49 paths. Raw pickle string hits for `knowledge_external` are text
+  mentions inside indexed meta docs, not external-layer paths.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), index path-boundary check PASS, and large-file guard PASS (`0`
+  tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:47:45Z`: `5849` seconds
+  (`376` seconds session 1 plus `5473` seconds of current open session).
