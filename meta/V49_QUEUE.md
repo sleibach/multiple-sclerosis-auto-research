@@ -160,7 +160,7 @@ tracked purge target is:
 | 104 | medium | done | Audit active-time accounting after the latest session stretch | `meta/V49_QUEUE.md` |
 | 105 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 106 | medium | done | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
-| 107 | high | todo | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
+| 107 | high | done | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
 | 108 | medium | todo | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 109 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 110 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -168,6 +168,7 @@ tracked purge target is:
 | 112 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 111 | `meta/V49_QUEUE.md` |
 | 113 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 114 | medium | todo | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 115 | medium | todo | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
 
@@ -1034,3 +1035,12 @@ tracked purge target is:
   refill.
 - Current cumulative active time at `2026-06-14T22:37:59Z`: `8863` seconds
   (`376` seconds session 1 plus `8487` seconds of current open session).
+- Task 107 added `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md`.
+  Direct TSV-derived counts confirm `23` relationship rows, `7` converges rows,
+  `16` insufficient-overlap rows, `0` contradiction rows, all `23` rows with
+  `row_status=PASS`, and V49 delta from `11` high-priority gaps to `0`. This is
+  external-layer navigation/audit only, not biological validation.
+- Follow-up task 115 was added because task 107 introduced a new V49 file that
+  must be listed in the artifact manifest.
+- Current cumulative active time at `2026-06-14T22:39:28Z`: `8952` seconds
+  (`376` seconds session 1 plus `8576` seconds of current open session).
