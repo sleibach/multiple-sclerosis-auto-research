@@ -148,7 +148,7 @@ span across resume gaps.
 | 120 | medium | done | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
 | 121 | medium | done | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 | 122 | medium | done | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
-| 123 | medium | todo | Integrate de-duplication and one-page intake checklist into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
+| 123 | medium | done | Integrate de-duplication, parked-source release/handoff, and one-page intake controls into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
 | 124 | medium | todo | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 | 125 | medium | todo | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
 | 126 | medium | todo | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
@@ -1693,5 +1693,23 @@ span across resume gaps.
   - boundary: template/navigation freshness only; operator shortcut remains
     routing-only and does not make external material evidence.
 - Final gates after task 122:
+  - external Markdown linter: PASS (`305` checks, `53` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:39:11Z`: `19028` seconds.
+- Integrated de-duplication, parked-source release, parked-source future-grounding
+  handoff, and one-page intake controls into public and governance surfaces:
+  - public external index crosslinks: `49`;
+  - public-index freshness required targets: `43`;
+  - dependency graph: `40` artifact nodes, `161` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `81` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `81` controls, `27` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `81` controls represented;
+  - governance preflight: PASS with `58` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Final gates after task 123:
   - external Markdown linter: PASS (`305` checks, `53` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

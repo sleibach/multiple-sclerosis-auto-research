@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `73`
+- artifacts tracked: `81`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -55,6 +55,14 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-hit acceptance decision tree freshness linter | `yes` | `PASS` | Ensures the source-hit acceptance decision tree keeps required links, decision nodes, safe outcomes, and boundary phrases. | future-search control | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | Source-hit access/terms parking queue | `yes` | `PASS` | Template for parking promising source hits blocked by access, terms, reuse, or locator uncertainty without copying claims or making evidence. | future-search control | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | Source-hit access/terms parking queue freshness linter | `yes` | `PASS` | Ensures the parking queue keeps required fields, statuses, release conditions, linked controls, and no-evidence language. | future-search control | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
+| Source de-duplication intake checklist | `yes` | `PASS` | Checklist for avoiding duplicate source and same-source overcounting before relationship or future-grounding intake. | future-search control | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
+| Source de-duplication intake checklist freshness linter | `yes` | `PASS` | Ensures the de-duplication checklist keeps required checks, duplicate states, safe merge actions, and no-overcounting language. | future-search control | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
+| Parked source release checklist | `yes` | `PASS` | Checklist for releasing parked source hits only after locator, access, terms, de-duplication, and boundary checks pass. | future-search control | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
+| Parked source release checklist freshness linter | `yes` | `PASS` | Ensures the parked-source release checklist keeps release checks, outcomes, linked controls, and no-evidence language. | future-search control | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
+| Parked source future-grounding handoff | `yes` | `PASS` | Rules for routing released, testable source hits to queued future-grounding tasks only. | future-search control | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
+| Parked source future-grounding handoff freshness linter | `yes` | `PASS` | Ensures the parked-source handoff keeps criteria, outcomes, linked controls, and not-a-finding language. | future-search control | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
+| External intake one-page checklist | `yes` | `PASS` | Compact operator checklist for routing future source hits through V47/V48 intake controls. | future-search control | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
+| External intake one-page checklist freshness linter | `yes` | `PASS` | Ensures the one-page intake checklist keeps required controls, operator steps, stop conditions, and boundary language. | future-search control | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
 | Relationship-row candidate template | `yes` | `PASS` | Draft template for future candidate convergence/contradiction rows before matrix acceptance. | future-search control | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | Relationship-row candidate template freshness linter | `yes` | `PASS` | Ensures the relationship-row candidate template keeps required fields, candidate statuses, forbidden shortcuts, and promotion rules. | future-search control | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | Contradiction triage mini-template | `yes` | `PASS` | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future-search control | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |

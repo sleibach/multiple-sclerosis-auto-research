@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `71`
+- V48 governance controls tracked: `73`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -69,8 +69,12 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 high-priority source intake checklist](templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md) | Checklist for safely reviewing source hits before any segregated external-record intake. | future search/navigation only |
 | [V48 source-intake operator quickstart](templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md) | Mechanical operator guide for routing source-search hits through safe segregated intake. | future search/navigation only |
 | [V48 source-intake package manifest](templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md) | Package-level map tying search packet, checklist, quickstart, reader brief, and future-grounding queue. | future search/navigation only |
+| [V48 external intake one-page checklist](templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md) | Compact operator checklist for routing source hits through V47/V48 intake controls. | future search/navigation only |
 | [V48 source-hit acceptance decision tree](templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md) | Safe routing tree for future source hits before external-record or relationship-row intake. | future search/navigation only |
 | [V48 source-hit access/terms parking queue](templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md) | Safe parking template for promising source hits blocked by access, terms, reuse, or locator uncertainty. | future search/navigation only |
+| [V48 source de-duplication intake checklist](templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md) | Checklist for avoiding same-source overcounting before relationship or future-grounding intake. | future search/navigation only |
+| [V48 parked source release checklist](templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md) | Checklist for moving a source hit out of access/terms parking without creating evidence. | future search/navigation only |
+| [V48 parked source future-grounding handoff](templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md) | Rules for turning released, testable source hits into queued future-grounding tasks only. | future search/navigation only |
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
 | [V48 contradiction triage mini-template](templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md) | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |
