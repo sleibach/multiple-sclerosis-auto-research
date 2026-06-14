@@ -5,12 +5,12 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T22:44:26Z`
+- checkpoint_utc: `2026-06-14T22:50:16Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `9250`
+- cumulative_active_seconds_at_checkpoint: `9600`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -21,7 +21,7 @@ time between session 1 and session 2 is excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `2f6ed2b0d21185ca47b81d6bd835e7396c49756b`
+  `49d186e87d32d031462e47d22f8649e2194a97b4`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -97,9 +97,9 @@ Recommended next internally executable tasks:
 
 1. Mark task `80` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `113` if active work reaches `2026-06-14T23:00:00Z`: rerun
+2. Complete task `121` if active work reaches `2026-06-14T23:00:00Z`: rerun
    OpenGWAS expiry/sentinel check.
-3. Complete task `112`: verify final working-tree cleanliness and tracked-size
+3. Complete task `119`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.

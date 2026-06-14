@@ -5,23 +5,23 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-14T22:44:26Z`
+- refreshed_utc: `2026-06-14T22:50:16Z`
 - current HEAD before this checkpoint refresh was written:
-  `2f6ed2b0d21185ca47b81d6bd835e7396c49756b`
+  `49d186e87d32d031462e47d22f8649e2194a97b4`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `9214`
-  seconds at `2026-06-14T22:43:50Z`
-- cumulative active time at this checkpoint timestamp: `9250` seconds
+- last recorded cumulative active time before this checkpoint refresh: `9566`
+  seconds at `2026-06-14T22:49:42Z`
+- cumulative active time at this checkpoint timestamp: `9600` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
 
 - session 1: `376` seconds
-- session 2 open elapsed at checkpoint: `8874` seconds
-- cumulative at checkpoint: `9250` seconds
+- session 2 open elapsed at checkpoint: `9224` seconds
+- cumulative at checkpoint: `9600` seconds
 
 ## Completed V49 Work
 
@@ -49,9 +49,11 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 112 | todo | Verify working-tree cleanliness and tracked-size policy after task 111. |
-| 113 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z`. |
-| 114 | todo | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks. |
+| 119 | todo | Verify working-tree cleanliness and tracked-size policy after task 118. |
+| 120 | todo | Audit active-time accounting after the next session stretch. |
+| 121 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z`. |
+| 122 | todo | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117. |
+| 123 | todo | Refill V49 backlog above threshold if task 122 leaves fewer than five executable tasks. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -84,7 +86,8 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 112. Run task 113 only once `2026-06-14T23:00:00Z` is
-reached. Use task 114 to refill the backlog above threshold if needed. Do not
-stop for a final summary unless the active 6-hour target is met, external
-termination occurs, or a documented all-fronts block exists.
+Continue V49 with task 119 and task 120. Run task 121 only once
+`2026-06-14T23:00:00Z` is reached. Use task 123 to refill the backlog above
+threshold if needed. Do not stop for a final summary unless the active 6-hour
+target is met, external termination occurs, or a documented all-fronts block
+exists.
