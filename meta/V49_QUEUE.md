@@ -186,7 +186,7 @@ tracked purge target is:
 | 131 | medium | done | Refresh rewrite/push handoff to latest HEAD after scheduled token and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 132 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 133 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 131-132 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 134 | medium | todo | Refresh final and resume checkpoints after task 133 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 134 | medium | done | Refresh final and resume checkpoints after task 133 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 135 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 134 | `meta/V49_QUEUE.md` |
 | 136 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 137 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:30:00Z` | `meta/V49_QUEUE.md` |
@@ -1233,3 +1233,9 @@ tracked purge target is:
   files.
 - Current cumulative active time at `2026-06-14T23:06:02Z`: `10546` seconds
   (`376` seconds session 1 plus `10170` seconds of current open session).
+- Task 134 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `51ea0657aa3ed77e00f2d81ce899e2a508b194b5`, cumulative active time `10585`
+  seconds, latest guard state, and open tasks `135` through `138`.
+- Current cumulative active time at `2026-06-14T23:06:41Z`: `10585` seconds
+  (`376` seconds session 1 plus `10209` seconds of current open session).
