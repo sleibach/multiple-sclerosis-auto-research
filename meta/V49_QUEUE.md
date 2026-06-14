@@ -89,7 +89,7 @@ tracked purge target is:
 | 33 | medium | done | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 34 | medium | done | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 35 | medium | done | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
-| 36 | medium | todo | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
+| 36 | medium | done | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
 | 37 | medium | todo | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 38 | high | todo | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 39 | medium | todo | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -435,3 +435,10 @@ tracked purge target is:
   OpenGWAS-independent.
 - Current cumulative active time at `2026-06-14T21:11:14Z`: `3658` seconds
   (`376` seconds session 1 plus `3282` seconds of current open session).
+- Task 36 added `meta/V49_RESUME_CHECKPOINT.md`, a resumability card with
+  current HEAD, remote status, completed V49 content, open tasks `37`-`42`,
+  latest gate status, and valid next action. This is not an end-of-block
+  summary because the 6-hour active target has not been met.
+- Post-task gates: V47 provenance gate PASS and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:12:27Z`: `3731` seconds
+  (`376` seconds session 1 plus `3355` seconds of current open session).
