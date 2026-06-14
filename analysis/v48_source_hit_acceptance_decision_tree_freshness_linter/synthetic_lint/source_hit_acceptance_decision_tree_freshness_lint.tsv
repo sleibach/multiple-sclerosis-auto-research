@@ -1,0 +1,34 @@
+check	status	detail
+tree_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_hit_acceptance_decision_tree_freshness_linter/synthetic_tree.md
+section_present.Required Inputs	FAIL	required decision-tree section
+section_present.Decision Tree	PASS	required decision-tree section
+section_present.Safe Outcomes	FAIL	required decision-tree section
+section_present.Verification Before Commit	FAIL	required decision-tree section
+section_present.Boundary	PASS	required decision-tree section
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+command_present.python3 scripts/v47_external_record_schema_linter.py lint --fail-on-error	FAIL	required verification command
+command_present.python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error	FAIL	required verification command
+command_present.python3 scripts/v47_provenance_gate.py audit --fail-on-error	FAIL	required verification command
+command_present.python3 scripts/v48_governance_preflight.py	FAIL	required verification command
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_run_searches	FAIL	required boundary phrase
+phrase_present.no_source_records	FAIL	required boundary phrase
+phrase_present.no_convergence	FAIL	required boundary phrase
+phrase_present.no_contradiction	FAIL	required boundary phrase
+phrase_present.no_grounded_change	FAIL	required boundary phrase
+phrase_present.generic_context_filter	FAIL	required boundary phrase
+phrase_present.no_external_evidence	FAIL	required boundary phrase
+phrase_present.no_external_override	FAIL	required boundary phrase
+table_count.decision_nodes	FAIL	observed=1 expected=10
+table_count.safe_outcomes	FAIL	observed=0 expected=6
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md observed=stale
+summary_matches.n_decision_nodes	FAIL	expected=10 observed=1
+summary_matches.n_required_linked_controls	FAIL	expected=6 observed=
+summary_matches.n_safe_outcomes	FAIL	expected=6 observed=0
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-hit acceptance decision tree; template/navigation only; no biological claim observed=

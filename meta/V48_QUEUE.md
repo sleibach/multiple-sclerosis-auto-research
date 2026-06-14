@@ -130,7 +130,7 @@ span across resume gaps.
 | 102 | medium | done | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
 | 103 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 104 | medium | done | Build source-hit acceptance decision tree for future external-source intake | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
-| 105 | medium | todo | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
+| 105 | medium | done | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | 106 | medium | todo | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | 107 | medium | todo | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | 108 | medium | todo | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
@@ -1462,5 +1462,16 @@ span across resume gaps.
   - boundary: template/navigation only; source-hit handling only, no relationship
     asserted and no external source promoted to evidence.
 - Final gates after task 104:
+  - external Markdown linter: PASS (`298` checks, `46` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:01:15Z`: `16752` seconds.
+- Added source-hit acceptance decision tree freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, links, stale decision
+    counts, stale outcome counts, and bad summary values fail;
+  - real freshness checks: `33`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; no source hit is promoted to
+    evidence.
+- Final gates after task 105:
   - external Markdown linter: PASS (`298` checks, `46` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
