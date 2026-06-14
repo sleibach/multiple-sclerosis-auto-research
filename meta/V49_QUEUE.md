@@ -90,7 +90,7 @@ tracked purge target is:
 | 34 | medium | done | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 35 | medium | done | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
 | 36 | medium | done | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
-| 37 | medium | todo | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 37 | medium | done | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 38 | high | todo | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 39 | medium | todo | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 40 | medium | todo | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
@@ -442,3 +442,13 @@ tracked purge target is:
 - Post-task gates: V47 provenance gate PASS and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T21:12:27Z`: `3731` seconds
   (`376` seconds session 1 plus `3355` seconds of current open session).
+- Task 37 added `meta/V49_ARTIFACT_MANIFEST.md`, a boundary-class manifest
+  for `50` V49-added files: `8` segregated source-context records, `2`
+  reproducibility scripts, `2` generated source-navigation summaries, `34`
+  external synthesis/catalog/navigation files, and `4` operational meta files.
+  It explicitly lists `0` new grounded finding or locked-rule files.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures) and large-file guard PASS (`0` tracked files above
+  `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:17:11Z`: `4015` seconds
+  (`376` seconds session 1 plus `3639` seconds of current open session).
