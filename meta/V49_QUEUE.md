@@ -109,6 +109,14 @@ tracked purge target is:
 | 53 | medium | done | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 54 | medium | done | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 55 | medium | done | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
+| 56 | high | done | Verify no tracked tmp/cache paths remain after the ignore-rule and history-rewrite work | `meta/V49_TMP_PATH_GUARD.md` |
+| 57 | medium | todo | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
+| 58 | medium | todo | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
+| 59 | medium | todo | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 60 | medium | todo | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
+| 61 | medium | todo | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 62 | medium | todo | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
+| 63 | medium | todo | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -623,3 +631,15 @@ tracked purge target is:
   required before any OpenGWAS-dependent work after expiry.
 - Current cumulative active time at `2026-06-14T21:42:31Z`: `5535` seconds
   (`376` seconds session 1 plus `5159` seconds of current open session).
+- Backlog refill: added tasks `56` through `63` after the open queue dropped
+  below threshold. These tasks keep V49 focused on repository push-safety,
+  binary/cache policy, grounded-index boundary checks, and final resumability
+  rather than new research.
+- Task 56 added `meta/V49_TMP_PATH_GUARD.md`. Result: tracked paths under
+  `phases/*/tmp/`: `0`; tracked paths under `tmp_v3/`: `0`; tracked paths under
+  any `/tmp/` segment: `0`.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), tmp-path guard PASS, and large-file guard PASS (`0` tracked files
+  above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:44:11Z`: `5635` seconds
+  (`376` seconds session 1 plus `5259` seconds of current open session).
