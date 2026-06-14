@@ -65,6 +65,13 @@ span across resume gaps.
 | 37 | medium | done | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | 38 | medium | done | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
 | 39 | medium | done | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 40 | medium | done | Build rationale table for V37 findings without V48 external relationship rows | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
+| 41 | medium | todo | Add V37 uncovered-rationale freshness linter tied to coverage map | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
+| 42 | medium | todo | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
+| 43 | medium | todo | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
+| 44 | medium | todo | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
+| 45 | medium | todo | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
+| 46 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -340,6 +347,30 @@ span across resume gaps.
 - Verification passed:
   - V48 governance preflight;
   - public-index freshness lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:43:27Z`: `4884` seconds.
+- Refilled backlog with tasks 40-46:
+  - uncovered V37 finding rationale;
+  - uncovered-rationale freshness;
+  - external claim-length safety;
+  - high-priority source_terms packet and freshness;
+  - preflight summary card;
+  - post-task index rebuild.
+- Current open-session active time at `2026-06-14T14:45:40Z`: `5017` seconds.
+- Built uncovered V37 finding rationale table:
+  - uncovered V37 findings: `20`;
+  - targeted external record needed: `15`;
+  - method-specific external context absent: `3`;
+  - avoid false corroboration: `1`;
+  - no relevant external record imported: `1`.
+- Updated public external index and required-link linter:
+  - navigation links: `19`;
+  - required targets: `13`.
+- Verification passed:
+  - public external index synthetic fixture and build;
+  - public-index freshness synthetic fixture and real lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:42:04Z`: `4801` seconds.
 - Refreshed source URL reachability:
