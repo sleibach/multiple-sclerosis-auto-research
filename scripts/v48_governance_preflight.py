@@ -29,6 +29,7 @@ CHECKS = [
     ("source_terms_freshness", ["scripts/v48_source_terms_freshness_linter.py", "lint"]),
     ("source_terms_coverage_freshness", ["scripts/v48_source_terms_coverage_freshness_linter.py", "lint"]),
     ("high_priority_source_terms_packet_freshness", ["scripts/v48_high_priority_source_terms_packet_freshness_linter.py", "lint"]),
+    ("high_priority_external_sourcing_plan_freshness", ["scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py", "lint"]),
     ("external_claim_length", ["scripts/v48_external_claim_length_linter.py", "lint"]),
     ("governance_navigation_freshness", ["scripts/v48_governance_navigation_freshness_linter.py", "lint"]),
     ("preflight_summary_card_freshness", ["scripts/v48_preflight_summary_card_freshness_linter.py", "lint"]),

@@ -176,6 +176,13 @@ ARTIFACTS = [
         "boundary": "source terms control",
     },
     {
+        "artifact": "High-priority external sourcing plan freshness linter",
+        "path": "scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py",
+        "summary": "analysis/v48_high_priority_external_sourcing_plan_freshness_linter/high_priority_external_sourcing_plan_freshness_lint_summary.json",
+        "purpose": "Ensures the high-priority external sourcing plan matches current high-priority V37 coverage gaps.",
+        "boundary": "future-grounding control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",

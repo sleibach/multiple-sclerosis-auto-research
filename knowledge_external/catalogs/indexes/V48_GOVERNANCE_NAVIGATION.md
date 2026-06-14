@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `41`
+- artifacts tracked: `42`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -26,13 +26,14 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Public external index freshness linter | `yes` | `PASS` | Ensures required V48 external artifacts are linked from the public external index. | navigation control | `scripts/v48_public_index_freshness_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Preflight summary card freshness linter | `yes` | `PASS` | Ensures the V48 preflight summary card matches current component summaries and command handoff. | handoff/navigation control | `scripts/v48_preflight_summary_card_freshness_linter.py` |
-| Convergence executive-card freshness linter | `yes` | `not_applicable` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |
+| Convergence executive-card freshness linter | `yes` | `PASS` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `yes` | `PASS` | Ensures the governance failure-mode matrix matches current governance navigation rows. | governance mapping control | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | Source locator normalization linter | `yes` | `PASS` | Source locator shape checks for external records. | source locator control | `scripts/v48_source_locator_normalization_linter.py` |
 | Source-terms metadata linter | `yes` | `PASS` | Completeness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_metadata_linter.py` |
 | Source-terms freshness linter | `yes` | `PASS` | Checked-date freshness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_freshness_linter.py` |
 | Source-terms coverage freshness linter | `yes` | `PASS` | Ensures the source-terms coverage report matches current external records. | source terms control | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | High-priority source-terms packet freshness linter | `yes` | `PASS` | Ensures the high-priority packet matches current high-priority source_terms review rows. | source terms control | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
+| High-priority external sourcing plan freshness linter | `yes` | `not_applicable` | Ensures the high-priority external sourcing plan matches current high-priority V37 coverage gaps. | future-grounding control | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |

@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `41`
+- controls mapped: `42`
 - boundary classes: `24`
 - unmapped boundaries: `0`
 
@@ -21,6 +21,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Contradiction-intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_contradiction_intake_linter.py` |
 | External-verifiable intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v47_external_verifiable_intake_linter.py` |
 | Future-grounding queue freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_future_grounding_queue_freshness_linter.py` |
+| High-priority external sourcing plan freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `not_applicable` | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `governance mapping control` | control-to-failure-mode explanations drift from current governance navigation | `PASS` | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | Preflight summary card freshness linter | `handoff/navigation control` | handoff card drifts from current checks or commands | `PASS` | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | External Markdown index linter | `markdown provenance control` | generated Markdown drops source/provenance labels | `PASS` | `scripts/v47_external_markdown_index_linter.py` |
@@ -40,7 +41,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-terms metadata linter | `source terms control` | source terms/reuse status is ambiguous or stale | `PASS` | `scripts/v48_source_terms_metadata_linter.py` |
 | V48 source-terms coverage | `source terms metadata only` | terms-review metadata is mistaken for reuse permission | `not_applicable` | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | V37 external gap-priority freshness linter | `sourcing priority control` | external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence | `PASS` | `scripts/v48_v37_gap_priority_freshness_linter.py` |
-| Convergence executive-card freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `not_applicable` | `scripts/v48_convergence_executive_card_freshness_linter.py` |
+| Convergence executive-card freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_executive_card_freshness_linter.py` |
 | Convergence matrix coverage linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | Convergence source-independence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_source_independence_freshness_linter.py` |
 | Decision-relevant convergence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |

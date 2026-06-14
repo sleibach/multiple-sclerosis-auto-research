@@ -1,0 +1,17 @@
+row_key	check	status	detail
+EBV/IFN APC imprint downgraded by specificity control	present_in_sourcing_plan	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_external_sourcing_plan_freshness_linter/synthetic_plan.tsv
+EBV/IFN APC imprint downgraded by specificity control	field_matches.rank	PASS	expected=1 observed=1
+EBV/IFN APC imprint downgraded by specificity control	field_matches.item	PASS	expected=EBV/IFN APC imprint downgraded by specificity control observed=EBV/IFN APC imprint downgraded by specificity control
+EBV/IFN APC imprint downgraded by specificity control	field_matches.priority_score	PASS	expected=14 observed=14
+EBV/IFN APC imprint downgraded by specificity control	field_matches.category	PASS	expected=kills_closed observed=kills_closed
+EBV/IFN APC imprint downgraded by specificity control	field_matches.evidence_grade	PASS	expected=negative-established observed=negative-established
+EBV/IFN APC imprint downgraded by specificity control	field_matches.source_type_needed	FAIL	expected=EBV-stratified immune-data source observed=stale
+EBV/IFN APC imprint downgraded by specificity control	field_matches.search_route	PASS	expected=Search for EBV-stratified MS/control immune transcriptomic sources with specificity controls. observed=Search for EBV-stratified MS/control immune transcriptomic sources with specificity controls.
+EBV/IFN APC imprint downgraded by specificity control	field_matches.acceptance_criteria	PASS	expected=Source must support a specificity-aware test route, not merely EBV-MS association context. observed=Source must support a specificity-aware test route, not merely EBV-MS association context.
+EBV/IFN APC imprint downgraded by specificity control	field_matches.forbidden_shortcut	PASS	expected=Do not use broad EBV-risk literature to reopen a specificity-failed imprint. observed=Do not use broad EBV-risk literature to reopen a specificity-failed imprint.
+EBV/IFN APC imprint downgraded by specificity control	field_matches.safe_source_requirement	PASS	expected=safe observed=safe
+EBV/IFN APC imprint downgraded by specificity control	field_matches.source_integration_action	PASS	expected=If found, add as a segregated external record first; classify relationship in V48 matrix only after source-specific overlap review. observed=If found, add as a segregated external record first; classify relationship in V48 matrix only after source-specific overlap review.
+GPR25 demoted from protected favorite	present_in_sourcing_plan	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_external_sourcing_plan_freshness_linter/synthetic_plan.tsv
+Extra	no_extra_sourcing_plan_row	FAIL	row is not currently high priority
+summary	summary_plan_row_count_matches	FAIL	expected=2 observed=99
+summary	summary_source_type_counts_match	FAIL	expected={'EBV-stratified immune-data source': 1, 'locus/signal-specific genetics source': 1} observed={'stale': 99}
