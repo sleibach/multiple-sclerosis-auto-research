@@ -78,6 +78,13 @@ ARTIFACTS = [
         "boundary": "synthesis/navigation only",
     },
     {
+        "artifact": "V48 model-lens usage boundary",
+        "path": "knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md",
+        "summary": "knowledge_external/catalogs/indexes/v48_model_lens_usage_boundary_summary.json",
+        "purpose": "Public boundary for using Claude, Gemini, and route-specific RPT `rpt-smoke` as proposal lenses only.",
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",
@@ -159,6 +166,13 @@ ARTIFACTS = [
         "path": "scripts/v48_rpt_availability_claim_linter.py",
         "summary": "analysis/v48_rpt_availability_claim_linter/rpt_availability_claim_lint_summary.json",
         "purpose": "Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status.",
+        "boundary": "navigation control",
+    },
+    {
+        "artifact": "Model-lens usage boundary freshness linter",
+        "path": "scripts/v48_model_lens_usage_boundary_freshness_linter.py",
+        "summary": "analysis/v48_model_lens_usage_boundary_freshness_linter/model_lens_usage_boundary_freshness_lint_summary.json",
+        "purpose": "Ensures the model-lens usage boundary keeps required sections, route-specific RPT wording, and no-model-output-as-evidence rules.",
         "boundary": "navigation control",
     },
     {

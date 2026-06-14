@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `60`
+- controls mapped: `62`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -36,6 +36,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | AI Core tooling-health freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | External layer reader brief freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | Governance navigation freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_governance_navigation_freshness_linter.py` |
+| Model-lens usage boundary freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 | Public external index crosslink linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_crosslink_linter.py` |
 | Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_freshness_linter.py` |
 | RPT availability claim linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_rpt_availability_claim_linter.py` |
@@ -65,6 +66,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | V48 AI Core tooling-health card | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | V48 evidence-boundary glossary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | V48 external layer reader brief | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
+| V48 model-lens usage boundary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | V48 relationship-matrix data dictionary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | Source URL reachability checker | `transport maintenance only` | source URLs rot or redirect without being visible to maintainers | `PASS` | `scripts/v47_source_url_reachability_checker.py` |
 | Convergence status vocabulary linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v48_convergence_status_vocabulary_linter.py` |

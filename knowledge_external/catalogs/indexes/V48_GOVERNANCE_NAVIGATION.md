@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `60`
+- artifacts tracked: `62`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -19,6 +19,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | V48 evidence-boundary glossary | `yes` | `PASS` | Glossary for V48 evidence and governance boundary labels. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | V48 external layer reader brief | `yes` | `PASS` | Plain-language guide to the external layer's capabilities, limits, and evidence boundary. | synthesis/navigation only | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | V48 AI Core tooling-health card | `yes` | `PASS` | Records current Claude/Gemini smoke status and route-specific RPT `rpt-smoke` status without treating model output as evidence. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
+| V48 model-lens usage boundary | `yes` | `PASS` | Public boundary for using Claude, Gemini, and route-specific RPT `rpt-smoke` as proposal lenses only. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | V47 provenance gate | `yes` | `PASS` | Machine-enforced segregation of external knowledge from grounded trees. | segregation control | `scripts/v47_provenance_gate.py` |
 | External record schema linter | `yes` | `PASS` | Required external-record fields and source/class markers. | schema control | `scripts/v47_external_record_schema_linter.py` |
 | External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |
@@ -31,6 +32,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | External layer reader brief freshness linter | `yes` | `PASS` | Ensures the public reader brief keeps required boundary sections, links, and source markers. | navigation control | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | AI Core tooling-health freshness linter | `yes` | `PASS` | Ensures the AI Core tooling-health handoff keeps reproducible command strings and truthful route statuses. | navigation control | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | RPT availability claim linter | `yes` | `PASS` | Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status. | navigation control | `scripts/v48_rpt_availability_claim_linter.py` |
+| Model-lens usage boundary freshness linter | `yes` | `PASS` | Ensures the model-lens usage boundary keeps required sections, route-specific RPT wording, and no-model-output-as-evidence rules. | navigation control | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Preflight summary card freshness linter | `yes` | `PASS` | Ensures the V48 preflight summary card matches current component summaries and command handoff. | handoff/navigation control | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | Convergence executive-card freshness linter | `yes` | `PASS` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |

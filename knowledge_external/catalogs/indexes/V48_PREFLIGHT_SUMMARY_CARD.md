@@ -11,9 +11,9 @@ Status: handoff/navigation only. This card summarizes governance controls; it do
 
 | component | status | checks/artifacts | failures/missing | summary |
 |---|---|---:|---:|---|
-| `governance_preflight` | `PASS` | 47 | 0 | `analysis/v48_governance_preflight/v48_governance_preflight_summary.json` |
+| `governance_preflight` | `PASS` | 48 | 0 | `analysis/v48_governance_preflight/v48_governance_preflight_summary.json` |
 | `provenance_gate` | `PASS` | 358 | 0 | `analysis/v47_provenance_gate/provenance_gate_summary.json` |
-| `governance_navigation` | `PASS` | 60 | 0 | `knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json` |
+| `governance_navigation` | `PASS` | 62 | 0 | `knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json` |
 | `convergence_matrix` | `PASS` |  |  | `knowledge_external/catalogs/indexes/convergence_contradiction_v48_summary.json` |
 | `source_terms_packet` | `PASS` | 9 |  | `knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48_summary.json` |
 

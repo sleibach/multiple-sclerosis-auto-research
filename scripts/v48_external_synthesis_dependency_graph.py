@@ -108,6 +108,16 @@ NODES = [
         "boundary": "synthesis/navigation only",
     },
     {
+        "artifact": "V48 model-lens usage boundary",
+        "output": "knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md",
+        "inputs": [
+            "knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
+            "scripts/sap_ai_core_client.py",
+        ],
+        "controls": ["scripts/v48_model_lens_usage_boundary_freshness_linter.py"],
+        "boundary": "governance/navigation only",
+    },
+    {
         "artifact": "V48 external resource comparator matrix",
         "output": "knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md",
         "inputs": ["knowledge_external/catalogs/records/resource.*.json"],

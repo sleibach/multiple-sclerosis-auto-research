@@ -124,7 +124,7 @@ span across resume gaps.
 | 96 | medium | done | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | 97 | medium | done | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 | 98 | medium | done | Add model-lens usage boundary card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
-| 99 | medium | todo | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
+| 99 | medium | done | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 100 | medium | todo | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
 | 101 | medium | todo | Build source-intake package manifest tying search packet, checklist, quickstart, and reader brief | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
 | 102 | medium | todo | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
@@ -1384,5 +1384,20 @@ span across resume gaps.
   - public-index freshness failures: `0`;
   - public-index crosslink failures: `0`.
 - Final gates after task 98:
+  - external Markdown linter: PASS (`296` checks, `44` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:45:16Z`: `15793` seconds.
+- Integrated the model-lens boundary card and freshness control into generated governance:
+  - dependency graph: `31` artifact nodes, `96` dependency/control edges, `0`
+    missing outputs, `0` missing control sources;
+  - governance navigation: `62` artifacts, `0` missing artifacts, `0` summaries
+    with failures;
+  - governance failure-mode matrix: `62` controls, `27` boundary classes, `0`
+    unmapped boundaries;
+  - evidence-boundary glossary: `62` controls represented;
+  - governance preflight: PASS with `48` checks and `0` failures.
+- Corrected the generated public-index builder so future public index rebuilds
+  retain the model-lens boundary card.
+- Final gates after task 99:
   - external Markdown linter: PASS (`296` checks, `44` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
