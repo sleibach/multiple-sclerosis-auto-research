@@ -126,7 +126,7 @@ tracked purge target is:
 | 70 | medium | done | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
 | 71 | medium | done | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 72 | medium | done | Run git fsck and object-store checkpoint after post-checkpoint commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 73 | high | todo | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 73 | high | done | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 74 | medium | todo | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
 | 75 | medium | todo | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 76 | medium | todo | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
@@ -776,3 +776,12 @@ tracked purge target is:
   garbage.
 - Current cumulative active time at `2026-06-14T22:04:45Z`: `6869` seconds
   (`376` seconds session 1 plus `6493` seconds of current open session).
+- Task 73 reran the guard suite after tasks 69-72. Results: V47 provenance
+  gate PASS (`436` checks, `47` external JSON records, `0` failures),
+  public-index freshness PASS (`50` checks), public-index crosslinks PASS
+  (`73` links), external Markdown/index lint PASS (`375` checks, `77`
+  Markdown files), tracked large-file guard PASS (`0` tracked files above
+  `50 MiB`), and Git blob guard PASS (`0` blobs above `50 MiB`). The guard
+  outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T22:06:42Z`: `6986` seconds
+  (`376` seconds session 1 plus `6610` seconds of current open session).
