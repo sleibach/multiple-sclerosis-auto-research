@@ -74,7 +74,7 @@ ARTIFACTS = [
         "artifact": "V48 AI Core tooling-health card",
         "path": "knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
         "summary": "knowledge_external/catalogs/indexes/v48_ai_core_tooling_health_summary.json",
-        "purpose": "Records current Claude/Gemini/RPT client-path smoke status without treating model output as evidence.",
+        "purpose": "Records current Claude/Gemini smoke status and route-specific RPT `rpt-smoke` status without treating model output as evidence.",
         "boundary": "synthesis/navigation only",
     },
     {
@@ -152,6 +152,13 @@ ARTIFACTS = [
         "path": "scripts/v48_ai_core_tooling_health_freshness_linter.py",
         "summary": "analysis/v48_ai_core_tooling_health_freshness_linter/ai_core_tooling_health_freshness_lint_summary.json",
         "purpose": "Ensures the AI Core tooling-health handoff keeps reproducible command strings and truthful route statuses.",
+        "boundary": "navigation control",
+    },
+    {
+        "artifact": "RPT availability claim linter",
+        "path": "scripts/v48_rpt_availability_claim_linter.py",
+        "summary": "analysis/v48_rpt_availability_claim_linter/rpt_availability_claim_lint_summary.json",
+        "purpose": "Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status.",
         "boundary": "navigation control",
     },
     {

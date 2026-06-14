@@ -1,0 +1,6 @@
+path	line	check	status	detail
+analysis/v48_rpt_availability_claim_linter/synthetic_bad.md		target_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_rpt_availability_claim_linter/synthetic_bad.md
+analysis/v48_rpt_availability_claim_linter/synthetic_bad.md	1	generic_smoke_pass_claim	FAIL	SAP AI Core smoke-passed for Claude, Gemini, and RPT.
+analysis/v48_rpt_availability_claim_linter/synthetic_bad.md	2	stale_unavailable_claim	FAIL	RPT smoke: UNAVAILABLE due to No implemented request schema for model: sap-rpt-1-large.
+analysis/v48_rpt_availability_claim_linter/synthetic_bad.md	3	rpt_pass_without_correct_route	FAIL	RPT PASS.
+analysis/v48_rpt_availability_claim_linter/synthetic_good.md		target_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_rpt_availability_claim_linter/synthetic_good.md

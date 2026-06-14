@@ -18,15 +18,16 @@ DEFAULT_OUTDIR = ROOT / "analysis/v48_ai_core_tooling_health_freshness_linter"
 EXPECTED_COMMANDS = {
     "claude": "python3 scripts/sap_ai_core_client.py smoke --model claude --timeout 45",
     "gemini": "python3 scripts/sap_ai_core_client.py smoke --model gemini --timeout 45",
-    "rpt": "python3 scripts/sap_ai_core_client.py smoke --model rpt --timeout 45",
+    "rpt": "python3 scripts/sap_ai_core_client.py rpt-smoke --timeout 120",
 }
 
 EXPECTED_CARD_PHRASES = {
     "claude_status": "| Claude via SAP AI Core Orchestration |",
     "gemini_status": "| Gemini via SAP AI Core |",
     "rpt_status": "| SAP RPT tabular route |",
-    "rpt_unavailable": "`UNAVAILABLE`",
-    "rpt_unimplemented_detail": "No implemented request schema for model: sap-rpt-1-large",
+    "rpt_pass": "`PASS`",
+    "rpt_predict_route": "rpt-smoke",
+    "rpt_model_detail": "sap-rpt-1-large 1 d61aae51af327bbc",
     "proposal_only": "model output is never evidence",
     "no_secret_storage": "no key or bearer token stored here",
 }
@@ -35,11 +36,11 @@ EXPECTED_SUMMARY = {
     "markdown": "knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
     "claude_status": "PASS",
     "gemini_status": "PASS",
-    "rpt_status": "UNAVAILABLE",
-    "rpt_status_detail": "No implemented request schema for model: sap-rpt-1-large",
+    "rpt_status": "PASS",
+    "rpt_status_detail": "sap-rpt-1-large 1 d61aae51af327bbc; status message ok",
     "model_spend": "not_exposed_by_client",
     "purpose": "V48 AI Core tooling-health handoff; no biological claim",
-    "overall_status": "REVIEW_NEEDED",
+    "overall_status": "PASS",
 }
 
 
@@ -122,20 +123,20 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
                 "",
                 "| Claude via SAP AI Core Orchestration | stale command | `PASS` | OK | proposal only |",
                 "| Gemini via SAP AI Core | stale command | `PASS` | OK | proposal only |",
-                "| SAP RPT tabular route | stale command | `PASS` | OK | wrong |",
+                "| SAP RPT tabular route | stale command | `UNAVAILABLE` | wrong | wrong |",
                 "",
                 "no key or bearer token stored here",
             ]
         )
         + "\n"
     )
-    summary.write_text(json.dumps({"checked_utc": "not_utc", "claude_status": "PASS", "gemini_status": "FAIL", "rpt_status": "PASS"}) + "\n")
+    summary.write_text(json.dumps({"checked_utc": "not_utc", "claude_status": "PASS", "gemini_status": "FAIL", "rpt_status": "UNAVAILABLE"}) + "\n")
     lint_out = outdir / "synthetic_lint"
     lint_health(card, summary, lint_out, fail_on_error=False)
     rows = list(csv.DictReader((lint_out / "ai_core_tooling_health_freshness_lint.tsv").open(), delimiter="\t"))
     checks = {
         "missing_command_fails": any(row["check"] == "command_present.claude" and row["status"] == "FAIL" for row in rows),
-        "missing_rpt_unavailable_fails": any(row["check"] == "phrase_present.rpt_unavailable" and row["status"] == "FAIL" for row in rows),
+        "missing_rpt_predict_route_fails": any(row["check"] == "phrase_present.rpt_predict_route" and row["status"] == "FAIL" for row in rows),
         "bad_summary_status_fails": any(row["check"] == "summary_matches.rpt_status" and row["status"] == "FAIL" for row in rows),
         "bad_checked_utc_fails": any(row["check"] == "summary_has_checked_utc" and row["status"] == "FAIL" for row in rows),
     }

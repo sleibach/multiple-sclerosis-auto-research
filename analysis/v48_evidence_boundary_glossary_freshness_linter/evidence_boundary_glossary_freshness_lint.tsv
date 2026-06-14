@@ -97,7 +97,7 @@ markdown provenance control	field_matches.example_artifacts	PASS	expected=Extern
 markdown provenance control	field_matches.example_paths	PASS	expected=scripts/v47_external_markdown_index_linter.py observed=scripts/v47_external_markdown_index_linter.py
 navigation control	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary.tsv
 navigation control	field_matches.boundary	PASS	expected=navigation control observed=navigation control
-navigation control	field_matches.n_controls	PASS	expected=5 observed=5
+navigation control	field_matches.n_controls	PASS	expected=6 observed=6
 navigation control	field_matches.failure_mode_prevented	PASS	expected=public or operator navigation becomes stale and hides required artifacts observed=public or operator navigation becomes stale and hides required artifacts
 navigation control	field_matches.allowed_use	PASS	expected=Use as an automated governance control for the named boundary: navigation control. observed=Use as an automated governance control for the named boundary: navigation control.
 navigation control	field_matches.forbidden_use	PASS	expected=Do not allow the controlled artifact to create this failure mode: public or operator navigation becomes stale and hides required artifacts. observed=Do not allow the controlled artifact to create this failure mode: public or operator navigation becomes stale and hides required artifacts.
@@ -216,5 +216,5 @@ vocabulary control	field_matches.forbidden_use	PASS	expected=Do not allow the co
 vocabulary control	field_matches.example_artifacts	PASS	expected=Convergence status vocabulary linter; Evidence-boundary glossary freshness linter; Relationship vocabulary linter observed=Convergence status vocabulary linter; Evidence-boundary glossary freshness linter; Relationship vocabulary linter
 vocabulary control	field_matches.example_paths	PASS	expected=scripts/v47_relationship_vocabulary_linter.py; scripts/v48_convergence_status_vocabulary_linter.py; scripts/v48_evidence_boundary_glossary_freshness_linter.py observed=scripts/v47_relationship_vocabulary_linter.py; scripts/v48_convergence_status_vocabulary_linter.py; scripts/v48_evidence_boundary_glossary_freshness_linter.py
 summary	summary_matches.n_boundaries	PASS	expected=27 observed=27
-summary	summary_matches.n_controls_represented	PASS	expected=59 observed=59
+summary	summary_matches.n_controls_represented	PASS	expected=60 observed=60
 summary	summary_matches.n_boundaries_without_failure_mode	PASS	expected=0 observed=0

@@ -18,9 +18,7 @@ span across resume gaps.
 ## Required Checks
 
 - OpenGWAS: PASS. JWT valid until `2026-06-19 12:28 UTC`; renew soon.
-- SAP AI Core health: PASS for Claude and Gemini smoke checks; RPT CLI is
-  unavailable in the current Python client (`No implemented request schema for
-  model: sap-rpt-1-large`) and is queued for correction/documentation.
+- SAP AI Core health: PASS for Claude and Gemini via `smoke`; PASS for RPT via `rpt-smoke` (`sap-rpt-1-large 1 d61aae51af327bbc`). Do not use generic `smoke --model rpt`; that route is unsupported.
 - V47 provenance gate: PASS at `39` external JSON records, `354` checks, `0` failures.
 - RAG rebuild: PASS. TF-IDF index rebuilt at item 46 with `727` documents; `knowledge_external/` remains excluded from the grounded TF-IDF globs.
 
@@ -115,14 +113,14 @@ span across resume gaps.
 | 85 | medium | done | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 87 | medium | done | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
-| 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
+| 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and route-specific RPT status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | done | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | 90 | medium | done | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | 91 | medium | done | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 93 | medium | done | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
 | 94 | medium | done | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
-| 95 | medium | todo | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
+| 95 | medium | done | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
 | 96 | medium | todo | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | 97 | medium | todo | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 
@@ -136,7 +134,8 @@ span across resume gaps.
 - Current open-session active time at `2026-06-14T13:32:40Z`: `637` seconds.
 - Completed required access checks:
   - OpenGWAS POST checks passed; JWT valid until `2026-06-19 12:28 UTC`.
-  - SAP AI Core smoke-passed for Claude, Gemini, and RPT.
+  - SAP AI Core smoke check passed for Claude and Gemini; RPT route was corrected
+    later in task 95 to use `rpt-smoke`.
   - V47 provenance gate passed after queue wording was corrected.
 - Added two segregated external literature/context records:
   - `claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14`.
@@ -816,7 +815,7 @@ span across resume gaps.
   - priority formula: `2*relevance + novelty + evidence_weight + rationale_weight + category_weight`;
   - boundary: sourcing/navigation only, not convergence, contradiction, validation, or biological evidence.
 - Verification passed:
-  - SAP AI Core health check for Claude, Gemini, and RPT;
+  - SAP AI Core health check for Claude, Gemini, and route-specific RPT status;
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:36:18Z`: `8055` seconds.
@@ -1199,8 +1198,7 @@ span across resume gaps.
   - external Markdown linter: PASS (`292` checks, `40` Markdown files);
   - V47 provenance gate: PASS (`354` checks, `39` external JSON records);
   - OpenGWAS check: PASS, JWT valid until `2026-06-19 12:28 UTC`;
-  - SAP AI Core smoke: Claude PASS, Gemini PASS, RPT unavailable in the
-    Python client (`sap-rpt-1-large` has no implemented request schema).
+  - SAP AI Core smoke: Claude PASS, Gemini PASS; the generic `smoke --model rpt` route was unsupported. Corrected at task 95: RPT passes via `rpt-smoke`.
 - Added follow-up tasks 87-92 to keep the executable backlog above threshold.
 - Current open-session active time at `2026-06-14T17:03:12Z`: `13269` seconds.
 - Built V48 external layer reader brief:
@@ -1248,8 +1246,7 @@ span across resume gaps.
   - artifact: `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md`;
   - Claude smoke: PASS (`anthropic--claude-4.7-opus 1 def854013c7ac379`);
   - Gemini smoke: PASS (`gemini-3.1-flash-lite 001 dcb4db8a86040bf7`);
-  - RPT smoke: UNAVAILABLE (`No implemented request schema for model:
-    sap-rpt-1-large`);
+  - RPT generic smoke route: unsupported; corrected at task 95: RPT passes via `rpt-smoke` with `sap-rpt-1-large 1 d61aae51af327bbc`;
   - boundary: tooling-health handoff only; no model output is evidence and no
     biological claim was added.
 - Verification passed:
@@ -1314,6 +1311,27 @@ span across resume gaps.
   - failure-mode matrix: `59` controls, `27` boundaries, `0` unmapped;
   - governance preflight: `46` checks, `0` failures.
 - Final gates after task 94:
+  - external Markdown linter: PASS (`295` checks, `43` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:32:44Z`: `15041` seconds.
+- Corrected RPT tooling status:
+  - generic `python3 scripts/sap_ai_core_client.py smoke --model rpt --timeout
+    45` is unsupported and should not be used for RPT;
+  - actual RPT path `python3 scripts/sap_ai_core_client.py rpt-smoke --timeout
+    120` passes with `sap-rpt-1-large 1 d61aae51af327bbc`;
+  - updated AI Core tooling-health card, summary, freshness linter, and current
+    queue status accordingly.
+- Added RPT availability claim linter:
+  - synthetic fixture: PASS, confirming generic-smoke RPT pass claims, stale
+    unavailable claims, and route-missing pass claims fail;
+  - real scanner targets: `5`;
+  - real scanner checks: `5`;
+  - real failures: `0`.
+- Integrated the scanner into governance navigation and preflight:
+  - governance navigation: `60` artifacts, `0` missing artifacts;
+  - failure-mode matrix: `60` controls, `27` boundaries, `0` unmapped;
+  - governance preflight: `47` checks, `0` failures.
+- Final gates after task 95:
   - external Markdown linter: PASS (`295` checks, `43` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
 - Added follow-up tasks 93-97 to keep the executable backlog above threshold

@@ -3,7 +3,7 @@
 Status: governance/navigation only. This glossary explains boundary labels used by V48 external-knowledge controls; it does not validate external claims or modify grounded findings.
 
 - boundary labels: `27`
-- controls represented: `59`
+- controls represented: `60`
 - boundaries without failure mode: `0`
 
 ## Glossary
@@ -22,7 +22,7 @@ Status: governance/navigation only. This glossary explains boundary labels used 
 | `governance mapping control` | 1 | Use as an automated governance control for the named boundary: governance mapping control. | Do not allow the controlled artifact to create this failure mode: control-to-failure-mode explanations drift from current governance navigation. | Governance failure-mode matrix freshness linter |
 | `handoff/navigation control` | 2 | Use as an automated governance control for the named boundary: handoff/navigation control. | Do not allow the controlled artifact to create this failure mode: handoff card drifts from current checks or commands. | Preflight summary card freshness linter; Unresolved external coverage handoff freshness linter |
 | `markdown provenance control` | 1 | Use as an automated governance control for the named boundary: markdown provenance control. | Do not allow the controlled artifact to create this failure mode: generated Markdown drops source/provenance labels. | External Markdown index linter |
-| `navigation control` | 5 | Use as an automated governance control for the named boundary: navigation control. | Do not allow the controlled artifact to create this failure mode: public or operator navigation becomes stale and hides required artifacts. | AI Core tooling-health freshness linter; External layer reader brief freshness linter; Governance navigation freshness linter; Public external index crosslink linter; Public external index freshness linter |
+| `navigation control` | 6 | Use as an automated governance control for the named boundary: navigation control. | Do not allow the controlled artifact to create this failure mode: public or operator navigation becomes stale and hides required artifacts. | AI Core tooling-health freshness linter; External layer reader brief freshness linter; Governance navigation freshness linter; Public external index crosslink linter; Public external index freshness linter |
 | `queued tasks are not findings` | 2 | Use for future-work queues that preserve a candidate action without asserting a result. | Do not allow the controlled artifact to create this failure mode: future tasks are misread as established results. | Unresolved external coverage handoff; V48 future-grounding queue |
 | `resource metadata control` | 1 | Use as an automated governance control for the named boundary: resource metadata control. | Do not allow the controlled artifact to create this failure mode: resource comparator metadata drifts from source records. | Resource comparator freshness linter |
 | `schema control` | 3 | Use as an automated governance control for the named boundary: schema control. | Do not allow the controlled artifact to create this failure mode: external records lack mandatory source, class, marker, or relationship fields. | External record schema linter; External record uniqueness linter; Relationship-matrix data dictionary freshness linter |

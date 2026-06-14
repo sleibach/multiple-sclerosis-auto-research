@@ -144,6 +144,11 @@ Public external index freshness linter||scripts/v48_public_index_freshness_linte
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures required V48 external artifacts are linked from the public external index. matrix=Ensures required V48 external artifacts are linked from the public external index.
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	failure_mode_mapped	PASS	public or operator navigation becomes stale and hides required artifacts
+RPT availability claim linter||scripts/v48_rpt_availability_claim_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+RPT availability claim linter||scripts/v48_rpt_availability_claim_linter.py	field_matches.boundary	PASS	navigation=navigation control matrix=navigation control
+RPT availability claim linter||scripts/v48_rpt_availability_claim_linter.py	field_matches.purpose	PASS	navigation=Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status. matrix=Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status.
+RPT availability claim linter||scripts/v48_rpt_availability_claim_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+RPT availability claim linter||scripts/v48_rpt_availability_claim_linter.py	failure_mode_mapped	PASS	public or operator navigation becomes stale and hides required artifacts
 Relationship vocabulary linter||scripts/v47_relationship_vocabulary_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Relationship vocabulary linter||scripts/v47_relationship_vocabulary_linter.py	field_matches.boundary	PASS	navigation=vocabulary control matrix=vocabulary control
 Relationship vocabulary linter||scripts/v47_relationship_vocabulary_linter.py	field_matches.purpose	PASS	navigation=Allowed relationship vocabulary for external records. matrix=Allowed relationship vocabulary for external records.
@@ -251,8 +256,8 @@ V47 provenance gate||scripts/v47_provenance_gate.py	field_matches.overall_status
 V47 provenance gate||scripts/v47_provenance_gate.py	failure_mode_mapped	PASS	external knowledge leaks into grounded trees or gains project-evidence authority
 V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	field_matches.boundary	PASS	navigation=synthesis/navigation only matrix=synthesis/navigation only
-V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	field_matches.purpose	PASS	navigation=Records current Claude/Gemini/RPT client-path smoke status without treating model output as evidence. matrix=Records current Claude/Gemini/RPT client-path smoke status without treating model output as evidence.
-V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	field_matches.overall_status	PASS	navigation=REVIEW_NEEDED matrix=REVIEW_NEEDED
+V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	field_matches.purpose	PASS	navigation=Records current Claude/Gemini smoke status and route-specific RPT `rpt-smoke` status without treating model output as evidence. matrix=Records current Claude/Gemini smoke status and route-specific RPT `rpt-smoke` status without treating model output as evidence.
+V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 V48 AI Core tooling-health card||knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	failure_mode_mapped	PASS	navigation rows are overread as evidence or score changes
 V48 convergence/contradiction analysis||knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 V48 convergence/contradiction analysis||knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md	field_matches.boundary	PASS	navigation=external agreement is context; project artifacts remain evidence matrix=external agreement is context; project artifacts remain evidence
@@ -294,4 +299,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=59 matrix=59
+summary	summary_control_count_matches_matrix	PASS	summary=60 matrix=60

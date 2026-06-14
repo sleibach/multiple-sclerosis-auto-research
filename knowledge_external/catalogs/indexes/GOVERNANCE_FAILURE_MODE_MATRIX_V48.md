@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `59`
+- controls mapped: `60`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -38,6 +38,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Governance navigation freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Public external index crosslink linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_crosslink_linter.py` |
 | Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_freshness_linter.py` |
+| RPT availability claim linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_rpt_availability_claim_linter.py` |
 | Unresolved external coverage handoff | `queued tasks are not findings` | future tasks are misread as established results | `PASS` | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | V48 future-grounding queue | `queued tasks are not findings` | future tasks are misread as established results | `not_applicable` | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | Resource comparator freshness linter | `resource metadata control` | resource comparator metadata drifts from source records | `PASS` | `scripts/v48_resource_comparator_freshness_linter.py` |
@@ -61,7 +62,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | V37 external-coverage freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | Project-finding reference linter | `synthesis reference control` | external support/contradiction records point to missing grounded artifacts | `PASS` | `scripts/v48_project_finding_reference_linter.py` |
-| V48 AI Core tooling-health card | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `REVIEW_NEEDED` | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
+| V48 AI Core tooling-health card | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | V48 evidence-boundary glossary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | V48 external layer reader brief | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | V48 relationship-matrix data dictionary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
