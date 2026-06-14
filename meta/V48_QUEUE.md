@@ -121,7 +121,7 @@ span across resume gaps.
 | 91 | medium | done | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 93 | medium | done | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
-| 94 | medium | todo | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
+| 94 | medium | done | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 95 | medium | todo | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
 | 96 | medium | todo | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
 | 97 | medium | todo | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
@@ -1304,6 +1304,16 @@ span across resume gaps.
   - public-index crosslink lint: `39` links, `0` failures;
   - governance preflight: `45` checks, `0` failures.
 - Final gates after task 93:
+  - external Markdown linter: PASS (`295` checks, `43` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:25:21Z`: `14598` seconds.
+- Integrated AI Core tooling-health card and freshness control into governance:
+  - AI Core tooling-health freshness checks: `20`, failures: `0`;
+  - dependency graph: `30` nodes, `93` edges, `0` missing controls;
+  - governance navigation: `59` artifacts, `0` missing artifacts;
+  - failure-mode matrix: `59` controls, `27` boundaries, `0` unmapped;
+  - governance preflight: `46` checks, `0` failures.
+- Final gates after task 94:
   - external Markdown linter: PASS (`295` checks, `43` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
 - Added follow-up tasks 93-97 to keep the executable backlog above threshold

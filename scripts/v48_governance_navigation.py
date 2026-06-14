@@ -71,6 +71,13 @@ ARTIFACTS = [
         "boundary": "synthesis/navigation only",
     },
     {
+        "artifact": "V48 AI Core tooling-health card",
+        "path": "knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
+        "summary": "knowledge_external/catalogs/indexes/v48_ai_core_tooling_health_summary.json",
+        "purpose": "Records current Claude/Gemini/RPT client-path smoke status without treating model output as evidence.",
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",
@@ -138,6 +145,13 @@ ARTIFACTS = [
         "path": "scripts/v48_external_layer_reader_brief_freshness_linter.py",
         "summary": "analysis/v48_external_layer_reader_brief_freshness_linter/external_layer_reader_brief_freshness_lint_summary.json",
         "purpose": "Ensures the public reader brief keeps required boundary sections, links, and source markers.",
+        "boundary": "navigation control",
+    },
+    {
+        "artifact": "AI Core tooling-health freshness linter",
+        "path": "scripts/v48_ai_core_tooling_health_freshness_linter.py",
+        "summary": "analysis/v48_ai_core_tooling_health_freshness_linter/ai_core_tooling_health_freshness_lint_summary.json",
+        "purpose": "Ensures the AI Core tooling-health handoff keeps reproducible command strings and truthful route statuses.",
         "boundary": "navigation control",
     },
     {

@@ -98,6 +98,16 @@ NODES = [
         "boundary": "synthesis/navigation only",
     },
     {
+        "artifact": "V48 AI Core tooling-health card",
+        "output": "knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
+        "inputs": [
+            "scripts/sap_ai_core_client.py",
+            "meta/V48_QUEUE.md",
+        ],
+        "controls": ["scripts/v48_ai_core_tooling_health_freshness_linter.py"],
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V48 external resource comparator matrix",
         "output": "knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md",
         "inputs": ["knowledge_external/catalogs/records/resource.*.json"],
