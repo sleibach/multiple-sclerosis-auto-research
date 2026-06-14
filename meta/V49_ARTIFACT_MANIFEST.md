@@ -6,9 +6,9 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `58`
+- new V49 files listed: `60`
 - segregated source-context records: `8`
-- external synthesis/catalog/navigation files: `37`
+- external synthesis/catalog/navigation files: `39`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
 - operational meta files: `9`
@@ -61,6 +61,8 @@ navigation/source-context outputs with grounded evidence.
 | `knowledge_external/synthesis/v49_zero_contradiction_caveat.tsv` | external synthesis/navigation | Machine-readable zero-contradiction caveat table. |
 | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md` | future source-intake/navigation | Candidate resources absent from the current comparator matrix. |
 | `knowledge_external/catalogs/indexes/v49_absent_resource_intake_candidates.tsv` | future source-intake/navigation | Machine-readable absent-resource candidate table. |
+| `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_ROUTING_AUDIT.md` | future source-intake/navigation | Audit confirming absent-resource candidates remain metadata-only until source terms and specific accessions are reviewed. |
+| `knowledge_external/catalogs/indexes/v49_absent_resource_routing_audit.tsv` | future source-intake/navigation | Machine-readable absent-resource routing audit. |
 | `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md` | queue/navigation overlay | Overlay reconciling V48 unresolved handoff rows after V49. |
 | `knowledge_external/synthesis/v49_unresolved_action_reconciliation.tsv` | queue/navigation overlay | Machine-readable unresolved-action reconciliation. |
 | `meta/V49_REWRITE_PUSH_HANDOFF.md` | operational meta | Human handoff for rewritten history push and clone re-sync. |

@@ -23,6 +23,7 @@ right artifact. It does not add evidence or change any finding.
 | Which rows should stay closed unless a narrow trigger appears? | `V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` | Prevents broad context sources from reopening seven low-actionability rows. |
 | Did V49 change the comparator matrix? | `V49_COMPARATOR_MATRIX_REVIEW.md` | Shows no new resource-level comparator rows are warranted from V49 source domains. |
 | Which resource candidates are still absent? | `V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md` | Lists future metadata-only intake candidates with acceptance gates. |
+| Are absent resources safe to use now? | `V49_ABSENT_RESOURCE_ROUTING_AUDIT.md` | Confirms candidate resources are metadata-only, require source-terms review, and are not usable validation data yet. |
 | What are the source-terms follow-ups? | `V49_SOURCE_TERMS_FOLLOWUP.md` | Separates metadata-only current use from fuller-reuse terms/access review. |
 | What happened to the V48 unresolved handoff? | `V49_UNRESOLVED_ACTION_RECONCILIATION.md` | Marks V48 rows as covered, narrowed, closed-unless-triggered, or unchanged after V49. |
 
