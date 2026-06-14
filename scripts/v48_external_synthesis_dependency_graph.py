@@ -317,6 +317,37 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Source-intake audit log template",
+        "output": "knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md",
+        "inputs": [
+            "knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md",
+            "knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md",
+            "knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md",
+            "knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md",
+            "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
+            "knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md",
+        ],
+        "controls": ["scripts/v48_source_intake_audit_log_template_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
+        "artifact": "Source-intake decision error taxonomy",
+        "output": "knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md",
+        "inputs": [
+            "knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md",
+            "knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md",
+            "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
+            "knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md",
+            "scripts/v47_provenance_gate.py",
+        ],
+        "controls": ["scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Relationship-row candidate template",
         "output": "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
         "inputs": [

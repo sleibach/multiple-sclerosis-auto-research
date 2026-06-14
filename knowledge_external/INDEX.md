@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `73`
+- V48 governance controls tracked: `81`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -75,6 +75,8 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 source de-duplication intake checklist](templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md) | Checklist for avoiding same-source overcounting before relationship or future-grounding intake. | future search/navigation only |
 | [V48 parked source release checklist](templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md) | Checklist for moving a source hit out of access/terms parking without creating evidence. | future search/navigation only |
 | [V48 parked source future-grounding handoff](templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md) | Rules for turning released, testable source hits into queued future-grounding tasks only. | future search/navigation only |
+| [V48 source-intake audit log template](templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md) | Audit trail template for future source-intake operator decisions. | future search/navigation only |
+| [V48 source-intake decision error taxonomy](templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md) | QA taxonomy for classifying future source-intake process errors. | future search/navigation only |
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
 | [V48 contradiction triage mini-template](templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md) | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |

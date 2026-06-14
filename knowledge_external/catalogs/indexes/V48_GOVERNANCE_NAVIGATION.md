@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `81`
+- artifacts tracked: `85`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -63,6 +63,10 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Parked source future-grounding handoff freshness linter | `yes` | `PASS` | Ensures the parked-source handoff keeps criteria, outcomes, linked controls, and not-a-finding language. | future-search control | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 | External intake one-page checklist | `yes` | `PASS` | Compact operator checklist for routing future source hits through V47/V48 intake controls. | future-search control | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | External intake one-page checklist freshness linter | `yes` | `PASS` | Ensures the one-page intake checklist keeps required controls, operator steps, stop conditions, and boundary language. | future-search control | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
+| Source-intake audit log template | `yes` | `PASS` | Audit trail template for future source-intake operator routing decisions without storing claims or evidence. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
+| Source-intake audit log template freshness linter | `yes` | `PASS` | Ensures the audit log template keeps audit fields, event types, linked controls, and no-evidence language. | future-search control | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
+| Source-intake decision error taxonomy | `yes` | `PASS` | QA taxonomy for classifying future external-source intake process errors without judging scientific truth. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
+| Source-intake decision error taxonomy freshness linter | `yes` | `PASS` | Ensures the decision-error taxonomy keeps error classes, severity levels, linked controls, and boundary language. | future-search control | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | Relationship-row candidate template | `yes` | `PASS` | Draft template for future candidate convergence/contradiction rows before matrix acceptance. | future-search control | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | Relationship-row candidate template freshness linter | `yes` | `PASS` | Ensures the relationship-row candidate template keeps required fields, candidate statuses, forbidden shortcuts, and promotion rules. | future-search control | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | Contradiction triage mini-template | `yes` | `PASS` | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future-search control | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |

@@ -153,10 +153,14 @@ span across resume gaps.
 | 125 | medium | done | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
 | 126 | medium | done | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
 | 127 | medium | done | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
-| 128 | medium | todo | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
+| 128 | medium | done | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 129 | medium | todo | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
 | 130 | medium | todo | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
 | 131 | medium | todo | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
+| 132 | medium | todo | Add V48 external intake controls coverage card freshness linter | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
+| 133 | medium | todo | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
+| 134 | medium | todo | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
+| 135 | medium | todo | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
 
 ## Iteration Notes
 
@@ -1759,5 +1763,24 @@ span across resume gaps.
   - boundary: template/navigation freshness only; taxonomy classifies intake
     process errors and does not judge scientific truth.
 - Final gates after task 127:
+  - external Markdown linter: PASS (`307` checks, `55` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:49:04Z`: `19621` seconds.
+- Integrated source-intake audit log and decision error taxonomy into public
+  and governance surfaces:
+  - public external index crosslinks: `51`;
+  - public-index freshness required targets: `45`;
+  - dependency graph: `42` artifact nodes, `178` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `85` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `85` controls, `27` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `85` controls represented;
+  - governance preflight: PASS with `60` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Added follow-up tasks 132-135 to keep the executable backlog above threshold.
+- Final gates after task 128:
   - external Markdown linter: PASS (`307` checks, `55` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

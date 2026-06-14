@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `81`
+- controls mapped: `85`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -43,6 +43,10 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-hit acceptance decision tree freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | Source-hit access/terms parking queue | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | Source-hit access/terms parking queue freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
+| Source-intake audit log template | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
+| Source-intake audit log template freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
+| Source-intake decision error taxonomy | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
+| Source-intake decision error taxonomy freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | Source-intake operator quickstart | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | Source-intake operator quickstart freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | Source-intake package manifest | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |

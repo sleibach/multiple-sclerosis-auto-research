@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `40`
-- dependency/control edges: `161`
+- artifact nodes: `42`
+- dependency/control edges: `178`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -40,6 +40,8 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | Parked source release checklist | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` | 7 | 1 | future-search/navigation only |
 | Parked source future-grounding handoff | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` | 7 | 1 | future-search/navigation only |
 | External intake one-page checklist | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` | 10 | 1 | future-search/navigation only |
+| Source-intake audit log template | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` | 8 | 1 | future-search/navigation only |
+| Source-intake decision error taxonomy | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` | 7 | 1 | future-search/navigation only |
 | Relationship-row candidate template | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` | 3 | 1 | future-search/navigation only |
 | Contradiction triage mini-template | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` | 5 | 1 | future-search/navigation only |
 | Contradiction readiness playbook | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` | 1 | 1 | future contradiction handling only |
