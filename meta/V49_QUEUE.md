@@ -193,7 +193,7 @@ tracked purge target is:
 | 138 | medium | done | Refill V49 backlog above threshold if task 136 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 139 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 138 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 140 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 141 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 139-140 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 141 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 139-140 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 142 | medium | todo | Refresh final and resume checkpoints after task 141 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 143 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 142 | `meta/V49_QUEUE.md` |
 | 144 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1275,3 +1275,14 @@ tracked purge target is:
   size `426.79 MiB`, `.git` size `443M`, commit count `644`, and `0` garbage.
 - Current cumulative active time at `2026-06-14T23:12:13Z`: `10917` seconds
   (`376` seconds session 1 plus `10541` seconds of current open session).
+- Task 141 reran guards after the handoff and Git integrity updates. Results:
+  V47 provenance gate PASS (`436` checks, `47` external JSON records, `0`
+  failures), public-index freshness PASS (`50` checks), public-index crosslinks
+  PASS (`73` links), external Markdown/index lint PASS (`376` checks, `78`
+  Markdown files), gap-audit and convergence-pointer routing PASS (`23` rows,
+  `7` converges, `16` insufficient-overlap, `0` contradictions, `0`
+  high-priority gap markers), tracked large-file guard PASS (`0` tracked files
+  above `50 MiB`), and Git blob guard PASS (`0` blobs above `50 MiB`). The guard
+  outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T23:14:07Z`: `11031` seconds
+  (`376` seconds session 1 plus `10655` seconds of current open session).
