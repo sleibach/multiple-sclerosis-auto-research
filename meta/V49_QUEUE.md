@@ -97,7 +97,7 @@ tracked purge target is:
 | 41 | medium | done | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 | 43 | medium | done | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 44 | medium | todo | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 44 | medium | done | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 45 | medium | todo | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 46 | medium | todo | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
 | 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
@@ -515,3 +515,14 @@ tracked purge target is:
   tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:25:39Z`: `4523` seconds
   (`376` seconds session 1 plus `4147` seconds of current open session).
+- Task 44 added the purge-reference audit to `V49_READER_QUICKSTART.md`,
+  `v49_reader_quickstart.tsv`, `V49_CONTENT_HANDOFF.md`, and
+  `v49_content_handoff.tsv`. Result: readers now have a direct route for why
+  old V3 files still reference purged paths and which scripts require
+  regenerated caches before rerun.
+- Post-task gates: external Markdown linter PASS (`375` checks, `77` Markdown
+  files), public index crosslink linter PASS (`73` links, `0` failures), V47
+  provenance gate PASS (`436` checks, `47` records, `0` failures), and
+  large-file guard PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:27:30Z`: `4634` seconds
+  (`376` seconds session 1 plus `4258` seconds of current open session).

@@ -9,6 +9,7 @@ right artifact. It does not add evidence or change any finding.
 |---|---|---|
 | What did V49 change overall? | `V49_CONTENT_HANDOFF.md` | Compact handoff across hygiene, gap closure, validation routing, import packets, closures, and source terms. |
 | Is the repo pushable now? | `meta/V49_REWRITE_PUSH_HANDOFF.md` | Records the history rewrite, remote removal, force-push step, and clone re-sync commands. |
+| Why do old V3 files still reference purged paths? | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` | Separates historical provenance references from live rerun dependencies after large-cache purge. |
 | Which V48 convergence gaps were closed? | `V49_RELATIONSHIP_DELTA_NOTE.md` | Summarizes the matrix delta and decision-relevant interpretation. |
 | Which external agreements count as independent source clusters? | `V49_SOURCE_INDEPENDENCE_DELTA.md` | Prevents counting `7` rows as `7` independent corroborations; the correct source-cluster count is `5`. |
 | Are there contradictions? | `V49_ZERO_CONTRADICTION_CAVEAT.md` | Explains why `0` current contradiction rows is not the same thing as consensus. |
@@ -27,14 +28,14 @@ right artifact. It does not add evidence or change any finding.
 If resuming V49/V50 with little context, read in this order:
 
 1. `meta/V49_REWRITE_PUSH_HANDOFF.md`
-2. `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md`
-3. `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
-4. `knowledge_external/synthesis/V49_READER_QUICKSTART.md`
-5. `meta/V49_QUEUE.md`
+2. `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`
+3. `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md`
+4. `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
+5. `knowledge_external/synthesis/V49_READER_QUICKSTART.md`
+6. `meta/V49_QUEUE.md`
 
 ## Boundary Reminder
 
 All artifacts named here are navigation, synthesis, source-intake, or queue
 controls. They do not convert external source context into project evidence.
 Grounded findings remain in the normal project findings/report/history trees.
-

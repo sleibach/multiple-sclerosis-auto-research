@@ -14,6 +14,7 @@ readiness routing, and closure guardrails.
 | area | V49 result | artifact | practical consequence |
 |---|---|---|---|
 | Oversized Git history | Tracked large tmp/cache/generated files were purged from history; ignore rules now block recurrence. | `.gitignore`, `meta/V49_QUEUE.md` | Repo is pushable after the human re-adds `origin`, force-pushes rewritten `main`, and re-syncs clones. |
+| Purged-path references | Remaining references to purged paths were audited. They are historical provenance or live historical-script rerun dependencies, not push blockers. | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` | Old V3 scripts that name purged caches need regenerated local inputs before rerun; old reports were not rewritten. |
 | High-priority convergence gaps | The `11` V48 high-priority gaps were closed; matrix now has `23` relationship rows: `7` corroboration-context, `0` contradiction, `16` insufficient-overlap/context. | `V49_RELATIONSHIP_DELTA_NOTE.md`; `CONVERGENCE_CONTRADICTION_V48.md` | The external layer is no longer mostly skeleton for high-priority findings. |
 | Validation-facing rows | `7` validation-facing/high-actionability rows were crosschecked; `2` primary V22 rows are already covered by V42/V44, `2` secondary rows by V44, and `3` require source-specific import instead of validation harness work. | `V49_VALIDATION_READY_ROW_CROSSCHECK.md` | No new validation-harness work is needed now; wait for blind data or run source-intake packets. |
 | Source-specific import routes | Three narrow future intake packets were defined: ZMIZ1 direction, chr1 KIF21B/GPR25 signal, and coupled APC-axis records. | `V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` | Future source intake must be signal-specific and direction-preserving where relevant; broad database presence is insufficient. |
@@ -60,9 +61,10 @@ readiness routing, and closure guardrails.
 
 Use this order when resuming V49/V50 external-knowledge work:
 
-1. `V49_RELATIONSHIP_DELTA_NOTE.md` for what changed.
-2. `V49_VALIDATION_READY_ROW_CROSSCHECK.md` for validation routing.
-3. `V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` for future source intake.
-4. `V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` for rows that should stay closed.
-5. `V49_NEW_SOURCE_DOMAIN_REVIEW.md` before deeper reuse of V49-added sources.
-
+1. `meta/V49_REWRITE_PUSH_HANDOFF.md` for the required rewritten-history push.
+2. `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` for post-purge rerun boundaries.
+3. `V49_RELATIONSHIP_DELTA_NOTE.md` for what changed.
+4. `V49_VALIDATION_READY_ROW_CROSSCHECK.md` for validation routing.
+5. `V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` for future source intake.
+6. `V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` for rows that should stay closed.
+7. `V49_NEW_SOURCE_DOMAIN_REVIEW.md` before deeper reuse of V49-added sources.
