@@ -56,6 +56,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_source_locator_normalization_linter/",
     "analysis/v48_source_terms_freshness_linter/",
     "analysis/v48_source_terms_metadata_linter/",
+    "analysis/v48_support_contradiction_coverage_linter/",
     "scripts/v47_provenance_gate.py",
     "meta/V47_QUEUE.md",
 ]

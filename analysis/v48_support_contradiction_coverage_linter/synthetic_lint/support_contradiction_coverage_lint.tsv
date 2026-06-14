@@ -1,0 +1,8 @@
+path	record_id	relationship_to_project_findings	check	status	detail
+knowledge_external/records/good_support.json	SYNTH_SUPPORT_GOOD	supports	project_finding_reference_present	PASS	"{""artifact"": ""docs/reports/FINDINGS_REPORT_V37.md"", ""finding_id"": ""Finding A""}"
+knowledge_external/records/good_support.json	SYNTH_SUPPORT_GOOD	supports	covered_by_v48_matrix_expected_relationship	PASS	expected_relationship_class=converges; rows=1
+knowledge_external/records/good_support.json	SYNTH_SUPPORT_GOOD	supports	matrix_row_matches_project_finding_id	PASS	Finding A
+knowledge_external/records/missing_matrix.json	SYNTH_SUPPORT_MISSING_MATRIX	supports	project_finding_reference_present	PASS	"{""artifact"": ""docs/reports/FINDINGS_REPORT_V37.md"", ""finding_id"": ""Finding B""}"
+knowledge_external/records/missing_matrix.json	SYNTH_SUPPORT_MISSING_MATRIX	supports	covered_by_v48_matrix_expected_relationship	FAIL	expected_relationship_class=converges; rows=0
+knowledge_external/records/missing_reference.json	SYNTH_CONTRADICTS_MISSING_REFERENCE	contradicts	project_finding_reference_present	FAIL	missing
+knowledge_external/records/missing_reference.json	SYNTH_CONTRADICTS_MISSING_REFERENCE	contradicts	covered_by_v48_matrix_expected_relationship	PASS	expected_relationship_class=contradicts; rows=1
