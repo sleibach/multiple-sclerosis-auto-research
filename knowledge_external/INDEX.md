@@ -37,6 +37,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [Resource category rollup](catalogs/indexes/EXTERNAL_RESOURCE_CATEGORY_ROLLUP.md) | Browse resource metadata by category. | external resource metadata only |
 | [V48 external resource comparator matrix](catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md) | Compare external resources by coverage, access tier, unique gap, and this repo's distinct role. | external resource metadata only |
 | [V49 comparator matrix review](catalogs/indexes/V49_COMPARATOR_MATRIX_REVIEW.md) | Review showing V49 source-domain additions do not require new resource-level comparator rows. | external resource metadata only |
+| [V49 absent resource intake candidates](catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md) | Future metadata-only intake candidates for resources not yet represented in the comparator matrix. | future intake/navigation only |
 | [Access-tier rollup](catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md) | Browse public/registration/application/controlled access tiers. | access metadata only |
 | [Source-domain rollup](catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md) | Browse records by source domain. | source locator metadata only |
 | [V48 source-domain review](catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md) | Classify source domains for maintenance, access, and terms review. | domain maintenance only |

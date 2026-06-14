@@ -81,7 +81,7 @@ tracked purge target is:
 | 25 | medium | done | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
 | 26 | medium | done | Cross-check V49 source-domain review decisions against the source-terms review queue and mark any row-specific parking follow-ups | `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
 | 27 | medium | done | Write a concise "zero contradictions is not consensus" caveat card for the public reader | `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
-| 28 | medium | todo | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
+| 28 | medium | done | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md` |
 | 29 | medium | todo | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | 30 | medium | todo | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 31 | high | todo | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -348,3 +348,16 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:56:43Z`: `2787` seconds
   (`376` seconds session 1 plus `2411` seconds of current open session).
+- Task 28 added `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md`
+  and `knowledge_external/catalogs/indexes/v49_absent_resource_intake_candidates.tsv`.
+  Result: `6` absent resource candidates were queued for future metadata-only
+  intake, not added as records: ImmPort and dbGaP MS studies as high priority;
+  Broad Single Cell Portal, Human Cell Atlas Data Portal, UCSC Cell Browser,
+  and Synapse as medium priority. Each has an acceptance gate preventing
+  unsupported claims of usability.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`70` links), external Markdown linter PASS (`372`
+  checks, `74` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:59:55Z`: `2979` seconds
+  (`376` seconds session 1 plus `2603` seconds of current open session).
