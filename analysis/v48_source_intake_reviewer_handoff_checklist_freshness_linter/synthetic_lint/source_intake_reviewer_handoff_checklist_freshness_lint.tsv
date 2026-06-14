@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_reviewer_handoff_checklist_freshness_linter/synthetic_handoff.md
+section_present.Required Controls	FAIL	required reviewer handoff section
+section_present.Handoff Fields	PASS	required reviewer handoff section
+section_present.Handoff Statuses	FAIL	required reviewer handoff section
+section_present.Minimum Handoff Entry	FAIL	required reviewer handoff section
+section_present.Forbidden Shortcuts	FAIL	required reviewer handoff section
+section_present.Verification Before Commit	FAIL	required reviewer handoff section
+section_present.Boundary	PASS	required reviewer handoff section
+link_present.meta/V48_QUEUE.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.preserves_state	FAIL	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_assert	FAIL	required boundary phrase
+phrase_present.do_not_handoff_uncommitted	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+phrase_present.quarantine_gate	FAIL	required boundary phrase
+phrase_present.operational_only	FAIL	required boundary phrase
+table_count.handoff_fields	FAIL	observed=1 expected=12
+table_count.handoff_statuses	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md observed=stale
+summary_matches.n_handoff_fields	FAIL	expected=12 observed=1
+summary_matches.n_handoff_statuses	FAIL	expected=5 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=8 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake reviewer handoff checklist; template/navigation only; no biological claim observed=

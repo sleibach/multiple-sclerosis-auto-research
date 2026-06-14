@@ -162,7 +162,7 @@ span across resume gaps.
 | 134 | medium | done | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
 | 135 | medium | done | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
 | 136 | medium | done | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
-| 137 | medium | todo | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
+| 137 | medium | done | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
 | 138 | medium | todo | Build V48 active-time accounting audit card distinguishing active time from wall-clock span | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
 | 139 | medium | todo | Add V48 active-time accounting audit card freshness linter | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
 | 140 | medium | todo | Integrate stop/go scorecard, reviewer handoff, and active-time audit controls into public index and governance after linters exist | `knowledge_external/INDEX.md` |
@@ -1883,5 +1883,16 @@ span across resume gaps.
   - boundary: template/navigation only; preserves operator continuity without
     source validation, relationship assertions, or evidence changes.
 - Final gates after task 136:
+  - external Markdown linter: PASS (`311` checks, `59` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T19:07:26Z`: `20723` seconds.
+- Added source-intake reviewer handoff checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    handoff-field/status counts, and stale summary values fail;
+  - real freshness checks: `32`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; handoffs remain operational
+    continuity records, not evidence.
+- Final gates after task 137:
   - external Markdown linter: PASS (`311` checks, `59` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
