@@ -50,6 +50,13 @@ ARTIFACTS = [
         "boundary": "source terms metadata only",
     },
     {
+        "artifact": "V48 preflight summary card",
+        "path": "knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
+        "summary": "knowledge_external/catalogs/indexes/v48_preflight_summary_card_summary.json",
+        "purpose": "Compact command/status handoff for V48 external-knowledge governance.",
+        "boundary": "handoff/navigation only",
+    },
+    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",

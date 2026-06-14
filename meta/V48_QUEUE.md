@@ -70,7 +70,7 @@ span across resume gaps.
 | 42 | medium | done | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
 | 43 | medium | done | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
 | 44 | medium | done | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
-| 45 | medium | todo | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
+| 45 | medium | done | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
 | 46 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -547,3 +547,15 @@ span across resume gaps.
   - governance-navigation freshness lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:54:59Z`: `5576` seconds.
+- Added V48 preflight summary card:
+  - components summarized: `5`;
+  - missing summaries: `0`;
+  - components with failure status: `0`;
+  - governance controls tracked: `33`;
+  - full preflight checks: `26`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:57:27Z`: `5724` seconds.

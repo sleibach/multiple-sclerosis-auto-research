@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `32`
+- artifacts tracked: `33`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -15,6 +15,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | V48 external resource comparator matrix | `yes` | `PASS` | External resource coverage, access tier, and unique gap matrix. | external resource metadata only | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
 | V48 source-domain review | `yes` | `PASS` | Domain classification for access and terms maintenance. | domain maintenance only | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | V48 source-terms coverage | `yes` | `not_applicable` | Source-terms metadata coverage and conservative reuse-note map. | source terms metadata only | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| V48 preflight summary card | `yes` | `PASS` | Compact command/status handoff for V48 external-knowledge governance. | handoff/navigation only | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
 | V47 provenance gate | `yes` | `PASS` | Machine-enforced segregation of external knowledge from grounded trees. | segregation control | `scripts/v47_provenance_gate.py` |
 | External record schema linter | `yes` | `PASS` | Required external-record fields and source/class markers. | schema control | `scripts/v47_external_record_schema_linter.py` |
 | External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |

@@ -1,0 +1,6 @@
+check	command
+full_preflight	python3 scripts/v48_governance_preflight.py
+provenance_gate	python3 scripts/v47_provenance_gate.py audit
+governance_navigation	python3 scripts/v48_governance_navigation.py
+external_markdown_lint	python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error
+public_index_freshness	python3 scripts/v48_public_index_freshness_linter.py lint --fail-on-error
