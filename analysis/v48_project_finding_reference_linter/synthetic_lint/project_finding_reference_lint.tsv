@@ -1,0 +1,11 @@
+path	record_id	check	status	detail
+knowledge_external/records/bad.json	SYNTH_BAD_REF	reference_object_present	PASS	dict
+knowledge_external/records/bad.json	SYNTH_BAD_REF	finding_id_present	PASS	missing
+knowledge_external/records/bad.json	SYNTH_BAD_REF	finding_id_in_v37_scores	FAIL	missing
+knowledge_external/records/bad.json	SYNTH_BAD_REF	artifact_present	PASS	docs/reports/MISSING.md
+knowledge_external/records/bad.json	SYNTH_BAD_REF	artifact_exists	FAIL	docs/reports/MISSING.md
+knowledge_external/records/good.json	SYNTH_GOOD_REF	reference_object_present	PASS	dict
+knowledge_external/records/good.json	SYNTH_GOOD_REF	finding_id_present	PASS	evidence one
+knowledge_external/records/good.json	SYNTH_GOOD_REF	finding_id_in_v37_scores	PASS	evidence one
+knowledge_external/records/good.json	SYNTH_GOOD_REF	artifact_present	PASS	docs/reports/FINDINGS_REPORT_V37.md
+knowledge_external/records/good.json	SYNTH_GOOD_REF	artifact_exists	PASS	docs/reports/FINDINGS_REPORT_V37.md

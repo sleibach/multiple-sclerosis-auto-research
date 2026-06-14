@@ -41,7 +41,7 @@ span across resume gaps.
 | 13 | medium | done | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
 | 14 | medium | done | Add comparator matrix freshness linter tied to current resource records | `scripts/v48_resource_comparator_freshness_linter.py` |
 | 15 | medium | done | Add convergence synthesis status vocabulary linter | `scripts/v48_convergence_status_vocabulary_linter.py` |
-| 16 | medium | todo | Add project-finding reference existence linter for external support/contradiction records | `scripts/` |
+| 16 | medium | done | Add project-finding reference existence linter for external support/contradiction records | `scripts/v48_project_finding_reference_linter.py` |
 | 17 | medium | todo | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/` |
 | 18 | medium | todo | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
 
@@ -138,3 +138,9 @@ span across resume gaps.
   - matrix rows: `12`;
   - vocabulary checks: `26`;
   - failures: `0`.
+- Current open-session active time at `2026-06-14T13:49:54Z`: `1671` seconds.
+- Added project-finding reference linter:
+  - linked external records: `2`;
+  - reference checks: `10`;
+  - failures: `0`;
+  - confirms support records point to existing V37 finding IDs and artifacts.
