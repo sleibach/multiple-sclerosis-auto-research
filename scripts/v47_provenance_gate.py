@@ -54,6 +54,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v47_provenance_gate/",
     "analysis/v48_contradiction_intake_linter/",
     "analysis/v48_contradiction_readiness_freshness_linter/",
+    "analysis/v48_convergence_executive_card_freshness_linter/",
     "analysis/v48_convergence_source_independence_freshness_linter/",
     "analysis/v48_decision_relevant_convergence_freshness_linter/",
     "analysis/v48_external_claim_length_linter/",

@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `40`
+- artifacts tracked: `41`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -26,6 +26,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Public external index freshness linter | `yes` | `PASS` | Ensures required V48 external artifacts are linked from the public external index. | navigation control | `scripts/v48_public_index_freshness_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Preflight summary card freshness linter | `yes` | `PASS` | Ensures the V48 preflight summary card matches current component summaries and command handoff. | handoff/navigation control | `scripts/v48_preflight_summary_card_freshness_linter.py` |
+| Convergence executive-card freshness linter | `yes` | `not_applicable` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `yes` | `PASS` | Ensures the governance failure-mode matrix matches current governance navigation rows. | governance mapping control | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | Source locator normalization linter | `yes` | `PASS` | Source locator shape checks for external records. | source locator control | `scripts/v48_source_locator_normalization_linter.py` |
 | Source-terms metadata linter | `yes` | `PASS` | Completeness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_metadata_linter.py` |
@@ -38,7 +39,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Contradiction readiness freshness linter | `yes` | `PASS` | Ensures contradiction readiness playbook counts and stages match the current matrix. | future-grounding control | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | Source-domain review freshness linter | `yes` | `PASS` | Ensures the source-domain review matches current external records. | domain review control | `scripts/v48_source_domain_review_freshness_linter.py` |
 | Source-domain relationship freshness linter | `yes` | `PASS` | Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. | domain relationship control | `scripts/v48_source_domain_relationship_freshness_linter.py` |
-| Source-domain independence freshness linter | `yes` | `not_applicable` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |
+| Source-domain independence freshness linter | `yes` | `PASS` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source URL duplicate freshness linter | `yes` | `PASS` | Ensures the source URL duplicate review matches current external source records. | source maintenance control | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `yes` | `PASS` | Ensures the V37 uncovered-finding rationale table matches the current coverage map. | synthesis coverage control | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |

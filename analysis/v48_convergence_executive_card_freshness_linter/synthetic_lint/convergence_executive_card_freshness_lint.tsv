@@ -1,0 +1,22 @@
+row_key	check	status	detail
+coverage_gaps||V37 uncovered priority rows	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+coverage_gaps||high-priority V37 sourcing gaps	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+governance||preflight checks	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+governance||preflight failures	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+relationship_counts||V48 matrix rows	metric_present_in_card	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+relationship_counts||V48 matrix rows	field_matches.section	PASS	expected=relationship_counts observed=relationship_counts
+relationship_counts||V48 matrix rows	field_matches.metric	PASS	expected=V48 matrix rows observed=V48 matrix rows
+relationship_counts||V48 matrix rows	field_matches.value	FAIL	expected=12 observed=stale
+relationship_counts||V48 matrix rows	field_matches.boundary	PASS	expected=External relationship rows are context, not evidence. observed=External relationship rows are context, not evidence.
+relationship_counts||contradiction rows	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+relationship_counts||convergence rows	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+source_independence||decision canonical source clusters	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+source_independence||domains with convergence	metric_present_in_card	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_convergence_executive_card_freshness_linter/synthetic_card.tsv
+extra||extra	no_extra_card_metric	FAIL	metric is not expected from current summaries
+summary	summary_matches.n_card_metrics	FAIL	expected=9 observed=99
+summary	summary_matches.n_decision_rows	FAIL	expected=2 observed=99
+summary	summary_matches.n_high_priority_gap_rows	FAIL	expected=11 observed=
+summary	summary_matches.n_convergence_rows	FAIL	expected=2 observed=
+summary	summary_matches.n_contradiction_rows	FAIL	expected=0 observed=
+summary	summary_matches.n_decision_canonical_source_clusters	FAIL	expected=1 observed=
+summary	summary_matches.governance_preflight_status	FAIL	expected=PASS observed=STALE

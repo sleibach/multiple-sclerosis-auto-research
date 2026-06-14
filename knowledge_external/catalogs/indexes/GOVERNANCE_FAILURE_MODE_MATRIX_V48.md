@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `40`
+- controls mapped: `41`
 - boundary classes: `24`
 - unmapped boundaries: `0`
 
@@ -12,7 +12,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 |---|---|---|---|---|
 | External claim-length safety linter | `copyright/provenance hygiene control` | external summaries become oversized copied source passages | `PASS` | `scripts/v48_external_claim_length_linter.py` |
 | V48 source-domain review | `domain maintenance only` | domain classifications are overread as source-validity claims | `PASS` | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
-| Source-domain independence freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `not_applicable` | `scripts/v48_source_domain_independence_freshness_linter.py` |
+| Source-domain independence freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `PASS` | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source-domain relationship freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `PASS` | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | Source-domain review freshness linter | `domain review control` | source-domain classifications become stale | `PASS` | `scripts/v48_source_domain_review_freshness_linter.py` |
 | V48 convergence/contradiction analysis | `external agreement is context; project artifacts remain evidence` | external agreement is over-promoted into evidence | `PASS` | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
@@ -40,6 +40,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-terms metadata linter | `source terms control` | source terms/reuse status is ambiguous or stale | `PASS` | `scripts/v48_source_terms_metadata_linter.py` |
 | V48 source-terms coverage | `source terms metadata only` | terms-review metadata is mistaken for reuse permission | `not_applicable` | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | V37 external gap-priority freshness linter | `sourcing priority control` | external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence | `PASS` | `scripts/v48_v37_gap_priority_freshness_linter.py` |
+| Convergence executive-card freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `not_applicable` | `scripts/v48_convergence_executive_card_freshness_linter.py` |
 | Convergence matrix coverage linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | Convergence source-independence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_source_independence_freshness_linter.py` |
 | Decision-relevant convergence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |

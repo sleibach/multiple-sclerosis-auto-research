@@ -127,6 +127,13 @@ ARTIFACTS = [
         "boundary": "handoff/navigation control",
     },
     {
+        "artifact": "Convergence executive-card freshness linter",
+        "path": "scripts/v48_convergence_executive_card_freshness_linter.py",
+        "summary": "analysis/v48_convergence_executive_card_freshness_linter/convergence_executive_card_freshness_lint_summary.json",
+        "purpose": "Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries.",
+        "boundary": "synthesis coverage control",
+    },
+    {
         "artifact": "Governance failure-mode matrix freshness linter",
         "path": "scripts/v48_governance_failure_mode_freshness_linter.py",
         "summary": "analysis/v48_governance_failure_mode_freshness_linter/governance_failure_mode_freshness_lint_summary.json",
