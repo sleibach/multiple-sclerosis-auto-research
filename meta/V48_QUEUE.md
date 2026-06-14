@@ -102,7 +102,7 @@ span across resume gaps.
 | 74 | medium | done | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | 75 | medium | done | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | 76 | medium | done | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
-| 77 | medium | todo | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
+| 77 | medium | done | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | 78 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -1062,3 +1062,12 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:34:19Z`: `11536` seconds.
+- Built unresolved external coverage handoff:
+  - total handoff actions: `43`;
+  - action counts: source-search `11`, source-acceptance criteria `11`, future-grounding queue `12`, contradiction surveillance `9`;
+  - priority counts: high `25`, medium `9`, low `9`;
+  - boundary: work-queue/navigation only; no external records were added and no grounded finding was changed.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:36:21Z`: `11658` seconds.
