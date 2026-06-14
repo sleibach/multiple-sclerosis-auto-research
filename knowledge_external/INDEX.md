@@ -12,6 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
+- V48 governance controls tracked: `15`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -38,6 +39,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [Source-domain rollup](catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md) | Browse records by source domain. | source locator metadata only |
 | [V48 source-domain review](catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md) | Classify source domains for maintenance, access, and terms review. | domain maintenance only |
 | [V48 source-terms coverage](catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md) | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |
+| [V48 governance navigation](catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md) | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |

@@ -49,7 +49,7 @@ span across resume gaps.
 | 21 | medium | done | Add support/contradiction convergence coverage linter for external records that reference project findings | `scripts/v48_support_contradiction_coverage_linter.py` |
 | 22 | medium | done | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
 | 23 | medium | done | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
-| 24 | medium | todo | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
+| 24 | medium | done | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 25 | medium | todo | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
 
 ## Iteration Notes
@@ -230,3 +230,15 @@ span across resume gaps.
   - source-domain review freshness lint;
   - external Markdown source/provenance lint;
   - resource comparator freshness lint.
+- Current open-session active time at `2026-06-14T14:11:35Z`: `2972` seconds.
+- Added generated V48 governance navigation summary:
+  - controls tracked: `15`;
+  - missing artifacts: `0`;
+  - summaries with failures: `0`.
+- Updated public external index to link the governance navigation page:
+  - navigation links: `13`;
+  - synthetic public-index fixture passed.
+- Verification passed:
+  - public index crosslink lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
