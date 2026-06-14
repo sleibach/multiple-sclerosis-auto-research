@@ -174,7 +174,7 @@ tracked purge target is:
 | 119 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 118 | `meta/V49_QUEUE.md` |
 | 120 | medium | done | Audit active-time accounting after the next session stretch | `meta/V49_QUEUE.md` |
 | 121 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
-| 122 | medium | todo | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 122 | medium | done | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 123 | medium | todo | Refill V49 backlog above threshold if task 122 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
@@ -1128,3 +1128,12 @@ tracked purge target is:
   cumulative active time `9747` seconds, wall-clock span since block start
   `10519` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue remains summed-session based.
+- Task 122 rechecked manifest and quickstart routing for the gap audit and
+  convergence pointer. Result: manifest still lists `56` V49 files and `35`
+  external synthesis/catalog/navigation files, includes
+  `V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md`, and notes the
+  `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer. Markdown and TSV
+  quickstarts both route to the populated convergence matrix and the
+  gap-closure completeness audit.
+- Current cumulative active time at `2026-06-14T22:53:19Z`: `9783` seconds
+  (`376` seconds session 1 plus `9407` seconds of current open session).
