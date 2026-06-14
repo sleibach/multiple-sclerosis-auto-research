@@ -1,0 +1,91 @@
+record_id	check	status	detail
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.record_type	PASS	queue=external_claim packet=external_claim
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.source_domain	PASS	queue=www.nature.com packet=www.nature.com
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.review_class	PASS	queue=publisher_literature packet=publisher_literature
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.source_url	PASS	queue=https://www.nature.com/articles/s41467-021-25768-0 packet=https://www.nature.com/articles/s41467-021-25768-0
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+claim.ms_ibd.treatment_transfer_caution_context.2026-06-14	record_path_resolved	PASS	packet row must point back to its external JSON record
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.record_type	PASS	queue=external_claim packet=external_claim
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.source_domain	PASS	queue=www.nature.com packet=www.nature.com
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.review_class	PASS	queue=publisher_literature packet=publisher_literature
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.source_url	PASS	queue=https://www.nature.com/articles/s41467-021-25768-0 packet=https://www.nature.com/articles/s41467-021-25768-0
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.disgenet.platform.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.disgenet.platform.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.disgenet.platform.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.disgenet.platform.2026-06-13	field_matches.source_domain	PASS	queue=disgenet.com packet=disgenet.com
+resource.disgenet.platform.2026-06-13	field_matches.review_class	PASS	queue=mixed_commercial_or_registration_access packet=mixed_commercial_or_registration_access
+resource.disgenet.platform.2026-06-13	field_matches.source_url	PASS	queue=https://disgenet.com/ packet=https://disgenet.com/
+resource.disgenet.platform.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.disgenet.platform.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.disgenet.platform.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.disgenet.platform.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.ega.controlled_genomics.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.ega.controlled_genomics.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.ega.controlled_genomics.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.ega.controlled_genomics.2026-06-13	field_matches.source_domain	PASS	queue=ega-archive.org packet=ega-archive.org
+resource.ega.controlled_genomics.2026-06-13	field_matches.review_class	PASS	queue=controlled_access_biomedical_archive packet=controlled_access_biomedical_archive
+resource.ega.controlled_genomics.2026-06-13	field_matches.source_url	PASS	queue=https://ega-archive.org/ packet=https://ega-archive.org/
+resource.ega.controlled_genomics.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.ega.controlled_genomics.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.ega.controlled_genomics.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.ega.controlled_genomics.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.europe_pmc.literature.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.europe_pmc.literature.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.europe_pmc.literature.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.europe_pmc.literature.2026-06-13	field_matches.source_domain	PASS	queue=europepmc.org packet=europepmc.org
+resource.europe_pmc.literature.2026-06-13	field_matches.review_class	PASS	queue=manual_review_domain packet=manual_review_domain
+resource.europe_pmc.literature.2026-06-13	field_matches.source_url	PASS	queue=https://europepmc.org/ packet=https://europepmc.org/
+resource.europe_pmc.literature.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.europe_pmc.literature.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.europe_pmc.literature.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.europe_pmc.literature.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.imsgc.publications.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.imsgc.publications.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.imsgc.publications.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.imsgc.publications.2026-06-13	field_matches.source_domain	PASS	queue=imsgc.net packet=imsgc.net
+resource.imsgc.publications.2026-06-13	field_matches.review_class	PASS	queue=manual_review_domain packet=manual_review_domain
+resource.imsgc.publications.2026-06-13	field_matches.source_url	PASS	queue=https://imsgc.net/publications/ packet=https://imsgc.net/publications/
+resource.imsgc.publications.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.imsgc.publications.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.imsgc.publications.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.imsgc.publications.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.msbase.registry.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.msbase.registry.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.msbase.registry.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.msbase.registry.2026-06-13	field_matches.source_domain	PASS	queue=www.msbase.org packet=www.msbase.org
+resource.msbase.registry.2026-06-13	field_matches.review_class	PASS	queue=application_or_registry_access packet=application_or_registry_access
+resource.msbase.registry.2026-06-13	field_matches.source_url	PASS	queue=https://www.msbase.org/ packet=https://www.msbase.org/
+resource.msbase.registry.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.msbase.registry.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.msbase.registry.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.msbase.registry.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.msda.catalogue.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.msda.catalogue.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.msda.catalogue.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.msda.catalogue.2026-06-13	field_matches.source_domain	PASS	queue=msda.emif-catalogue.eu packet=msda.emif-catalogue.eu
+resource.msda.catalogue.2026-06-13	field_matches.review_class	PASS	queue=registration_or_catalog_access packet=registration_or_catalog_access
+resource.msda.catalogue.2026-06-13	field_matches.source_url	PASS	queue=https://msda.emif-catalogue.eu/ packet=https://msda.emif-catalogue.eu/
+resource.msda.catalogue.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.msda.catalogue.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.msda.catalogue.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.msda.catalogue.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record
+resource.narcoms.registry.2026-06-13	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48.tsv
+resource.narcoms.registry.2026-06-13	field_matches.record_type	PASS	queue=external_resource_catalog packet=external_resource_catalog
+resource.narcoms.registry.2026-06-13	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+resource.narcoms.registry.2026-06-13	field_matches.source_domain	PASS	queue=www.narcoms.org packet=www.narcoms.org
+resource.narcoms.registry.2026-06-13	field_matches.review_class	PASS	queue=application_or_registry_access packet=application_or_registry_access
+resource.narcoms.registry.2026-06-13	field_matches.source_url	PASS	queue=https://www.narcoms.org/ packet=https://www.narcoms.org/
+resource.narcoms.registry.2026-06-13	field_matches.terms_review_reason	PASS	queue=controlled/commercial/manual/publisher terms can materially constrain reuse packet=controlled/commercial/manual/publisher terms can materially constrain reuse
+resource.narcoms.registry.2026-06-13	field_matches.recommended_next_step	PASS	queue=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely. packet=Check source terms URL and add conservative source_terms metadata, or leave missing_optional if terms cannot be stated safely.
+resource.narcoms.registry.2026-06-13	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+resource.narcoms.registry.2026-06-13	record_path_resolved	PASS	packet row must point back to its external JSON record

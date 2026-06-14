@@ -55,6 +55,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_contradiction_intake_linter/",
     "analysis/v48_external_claim_length_linter/",
     "analysis/v48_governance_preflight/",
+    "analysis/v48_high_priority_source_terms_packet_freshness_linter/",
     "analysis/v48_project_finding_reference_linter/",
     "analysis/v48_source_domain_relationship_freshness_linter/",
     "analysis/v48_source_domain_review_freshness_linter/",

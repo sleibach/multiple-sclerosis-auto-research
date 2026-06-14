@@ -28,6 +28,7 @@ CHECKS = [
     ("source_terms_metadata", ["scripts/v48_source_terms_metadata_linter.py", "lint"]),
     ("source_terms_freshness", ["scripts/v48_source_terms_freshness_linter.py", "lint"]),
     ("source_terms_coverage_freshness", ["scripts/v48_source_terms_coverage_freshness_linter.py", "lint"]),
+    ("high_priority_source_terms_packet_freshness", ["scripts/v48_high_priority_source_terms_packet_freshness_linter.py", "lint"]),
     ("external_claim_length", ["scripts/v48_external_claim_length_linter.py", "lint"]),
     ("governance_navigation_freshness", ["scripts/v48_governance_navigation_freshness_linter.py", "lint"]),
     ("support_contradiction_coverage", ["scripts/v48_support_contradiction_coverage_linter.py", "lint"]),

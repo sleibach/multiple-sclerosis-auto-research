@@ -148,6 +148,13 @@ ARTIFACTS = [
         "boundary": "source terms control",
     },
     {
+        "artifact": "High-priority source-terms packet freshness linter",
+        "path": "scripts/v48_high_priority_source_terms_packet_freshness_linter.py",
+        "summary": "analysis/v48_high_priority_source_terms_packet_freshness_linter/high_priority_source_terms_packet_freshness_lint_summary.json",
+        "purpose": "Ensures the high-priority packet matches current high-priority source_terms review rows.",
+        "boundary": "source terms control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",

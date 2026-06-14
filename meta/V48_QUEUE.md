@@ -69,7 +69,7 @@ span across resume gaps.
 | 41 | medium | done | Add V37 uncovered-rationale freshness linter tied to coverage map | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | 42 | medium | done | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
 | 43 | medium | done | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
-| 44 | medium | todo | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
+| 44 | medium | done | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
 | 45 | medium | todo | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
 | 46 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
@@ -534,3 +534,16 @@ span across resume gaps.
   - V47 provenance gate;
   - external Markdown source/provenance lint.
 - Current open-session active time at `2026-06-14T14:53:01Z`: `5458` seconds.
+- Added high-priority source_terms packet freshness linter:
+  - expected high-priority records: `9`;
+  - packet records: `9`;
+  - real freshness checks: `90`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing and extra packet-row failures;
+  - governance preflight checks: `26`;
+  - governance controls tracked: `32`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance-navigation freshness lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:54:59Z`: `5576` seconds.

@@ -1,0 +1,13 @@
+record_id	check	status	detail
+SYN_HIGH_MISSING	present_in_packet	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_terms_packet_freshness_linter/synthetic_packet.tsv
+SYN_HIGH_PRESENT	present_in_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_terms_packet_freshness_linter/synthetic_packet.tsv
+SYN_HIGH_PRESENT	field_matches.record_type	PASS	queue=external_claim packet=external_claim
+SYN_HIGH_PRESENT	field_matches.epistemic_class	PASS	queue=external-unverifiable packet=external-unverifiable
+SYN_HIGH_PRESENT	field_matches.source_domain	PASS	queue=example.org packet=example.org
+SYN_HIGH_PRESENT	field_matches.review_class	PASS	queue=publisher_literature packet=publisher_literature
+SYN_HIGH_PRESENT	field_matches.source_url	PASS	queue=https://example.org/a packet=https://example.org/a
+SYN_HIGH_PRESENT	field_matches.terms_review_reason	PASS	queue=terms matter packet=terms matter
+SYN_HIGH_PRESENT	field_matches.recommended_next_step	PASS	queue=review terms packet=review terms
+SYN_HIGH_PRESENT	not_project_grounded_marker	PASS	packet row must preserve external/not-grounded boundary marker
+SYN_HIGH_PRESENT	record_path_resolved	PASS	packet row must point back to its external JSON record
+SYN_HIGH_STALE	no_extra_packet_record	FAIL	packet contains a record that is not high-priority in the queue
