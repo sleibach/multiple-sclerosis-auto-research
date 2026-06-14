@@ -104,7 +104,7 @@ span across resume gaps.
 | 76 | medium | done | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | 77 | medium | done | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | 78 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
-| 79 | medium | todo | Add unresolved external coverage handoff freshness linter | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
+| 79 | medium | done | Add unresolved external coverage handoff freshness linter | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
 | 80 | medium | todo | Integrate unresolved handoff freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 81 | medium | todo | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | 82 | medium | todo | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
@@ -1099,3 +1099,14 @@ span across resume gaps.
   - TF-IDF rebuild.
 - Refilled backlog with generated tasks 79-86 because active time remains below the `21600` second target.
 - Current open-session active time at `2026-06-14T16:38:59Z`: `11816` seconds.
+- Added unresolved external coverage handoff freshness linter:
+  - expected handoff actions: `43`;
+  - real freshness checks: `390`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing action, stale action field, extra action, and bad summary-count failures;
+  - boundary: work-queue/navigation freshness only; no external records were added and no grounded finding was changed.
+- Verification passed:
+  - unresolved external coverage handoff freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:40:55Z`: `11932` seconds.

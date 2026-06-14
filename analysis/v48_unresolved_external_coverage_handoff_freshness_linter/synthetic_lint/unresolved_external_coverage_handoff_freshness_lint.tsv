@@ -1,0 +1,56 @@
+row_key	check	status	detail
+V48_HO_001	action_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_001	field_matches.action_id	PASS	expected=V48_HO_001 observed=V48_HO_001
+V48_HO_001	field_matches.action_type	PASS	expected=run_targeted_source_search observed=run_targeted_source_search
+V48_HO_001	field_matches.priority	FAIL	expected=high observed=stale
+V48_HO_001	field_matches.item	PASS	expected=Mucosal IBD early IFN/APC downshift validates while baseline fallback fails observed=Mucosal IBD early IFN/APC downshift validates while baseline fallback fails
+V48_HO_001	field_matches.source_artifact	PASS	expected=knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md observed=knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md
+V48_HO_001	field_matches.input_rows	PASS	expected=2 query rows; targets=GEO/ArrayExpress;PubMed/EuropePMC observed=2 query rows; targets=GEO/ArrayExpress;PubMed/EuropePMC
+V48_HO_001	field_matches.next_step	PASS	expected=Run the query packet outside this artifact, then ingest any usable hit through V47 segregated records before relationship classification. observed=Run the query packet outside this artifact, then ingest any usable hit through V47 segregated records before relationship classification.
+V48_HO_001	field_matches.boundary	PASS	expected=search handoff only; query hits are not findings observed=search handoff only; query hits are not findings
+V48_HO_002	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_003	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_004	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_005	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_006	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_007	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_008	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_009	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_010	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_011	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_012	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_013	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_014	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_015	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_016	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_017	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_018	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_019	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_020	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_021	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_022	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_023	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_024	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_025	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_026	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_027	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_028	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_029	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_030	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_031	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_032	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_033	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_034	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_035	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_036	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_037	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_038	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_039	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_040	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_041	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_042	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+V48_HO_043	action_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_unresolved_external_coverage_handoff_freshness_linter/synthetic_handoff.tsv
+EXTRA	no_extra_action	FAIL	action is not expected from current handoff inputs
+summary	summary_matches.n_actions	FAIL	expected=43 observed=999
+summary	summary_matches.action_type_counts	FAIL	expected={'apply_source_acceptance_criteria': 11, 'contradiction_surveillance': 9, 'future_grounding_queue': 12, 'run_targeted_source_search': 11} observed={'stale': 999}
+summary	summary_matches.priority_counts	FAIL	expected={'high': 25, 'low': 9, 'medium': 9} observed={'stale': 999}
