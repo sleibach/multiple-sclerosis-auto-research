@@ -84,7 +84,7 @@ tracked purge target is:
 | 28 | medium | done | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md` |
 | 29 | medium | done | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md` |
 | 30 | medium | done | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
-| 31 | high | todo | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 31 | high | done | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 32 | medium | todo | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
 | 33 | medium | todo | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 34 | medium | todo | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `knowledge/.index/` |
@@ -381,3 +381,10 @@ tracked purge target is:
   PASS.
 - Current cumulative active time at `2026-06-14T21:03:37Z`: `3201` seconds
   (`376` seconds session 1 plus `2825` seconds of current open session).
+- Task 31 added `meta/V49_REWRITE_PUSH_HANDOFF.md`. It records the history
+  rewrite paths, confirms the remote was removed by `git-filter-repo`, gives
+  the human re-add-origin and `--force-with-lease` push commands, and lists
+  clone re-sync and large-file verification commands.
+- Post-task gates: V47 provenance gate PASS and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:04:39Z`: `3263` seconds
+  (`376` seconds session 1 plus `2887` seconds of current open session).
