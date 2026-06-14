@@ -108,7 +108,7 @@ span across resume gaps.
 | 80 | medium | done | Integrate unresolved handoff freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 81 | medium | done | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | 82 | medium | done | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
-| 83 | medium | todo | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
+| 83 | medium | done | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | 84 | medium | todo | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | 85 | medium | todo | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
@@ -1158,3 +1158,13 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:50:16Z`: `12493` seconds.
+- Built V48 high-priority source intake checklist:
+  - source-plan rows: `11`;
+  - checklist steps per item: `9`;
+  - checklist rows: `99`;
+  - source route classes: `6`;
+  - boundary: template/navigation only; no external records were added and no grounded finding was changed.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:52:07Z`: `12604` seconds.
