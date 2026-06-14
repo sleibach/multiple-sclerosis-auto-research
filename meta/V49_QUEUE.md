@@ -163,7 +163,7 @@ tracked purge target is:
 | 107 | high | done | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
 | 108 | medium | done | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 109 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 110 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 110 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 111 | medium | todo | Refresh final and resume checkpoints after task 110 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 112 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 111 | `meta/V49_QUEUE.md` |
 | 113 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
@@ -1060,3 +1060,14 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:42:05Z`: `9109` seconds
   (`376` seconds session 1 plus `8733` seconds of current open session).
+- Task 110 reran guards after the gap audit, reader routing, manifest refresh,
+  and handoff refresh. Results: V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), public-index freshness PASS (`50`
+  checks), public-index crosslinks PASS (`73` links), external Markdown/index
+  lint PASS (`376` checks, `78` Markdown files), gap-audit routing/manifest
+  check PASS, tracked large-file guard PASS (`0` tracked files above `50 MiB`),
+  and Git blob guard PASS (`0` blobs above `50 MiB`). The external Markdown
+  linter outputs changed only because the new audit file increased Markdown
+  coverage.
+- Current cumulative active time at `2026-06-14T22:43:50Z`: `9214` seconds
+  (`376` seconds session 1 plus `8838` seconds of current open session).
