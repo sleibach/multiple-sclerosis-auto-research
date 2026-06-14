@@ -46,6 +46,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 source-terms coverage](catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md) | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |
 | [V48 source-terms review queue](catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md) | Prioritized terms-review queue for records missing explicit source_terms metadata. | source terms metadata only |
 | [V48 high-priority source-terms packet](catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md) | Focused packet for high-priority missing source_terms records. | source terms triage only |
+| [V49 source-terms follow-up](catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md) | Row-specific fuller-reuse follow-up for V49 records that already have metadata-only source_terms. | source terms metadata only |
 | [V48 governance navigation](catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md) | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |
 | [V48 governance failure-mode matrix](catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md) | Map each governance control to the failure mode it prevents. | governance/navigation only |
 | [V48 external synthesis dependency graph](catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md) | Map V48 external synthesis artifacts to their upstream inputs and freshness controls. | governance/navigation only |
