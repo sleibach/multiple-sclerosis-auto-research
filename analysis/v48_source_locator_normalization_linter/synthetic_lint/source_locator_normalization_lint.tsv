@@ -1,0 +1,20 @@
+path	record_id	check	status	detail
+knowledge_external/records/bad_doi.json	SYNTH_BAD_DOI	source_label_present	PASS	Bad DOI
+knowledge_external/records/bad_doi.json	SYNTH_BAD_DOI	at_least_one_locator_present	PASS	locators=1
+knowledge_external/records/bad_doi.json	SYNTH_BAD_DOI	doi_format	FAIL	https://doi.org/10.1234/example
+knowledge_external/records/bad_doi.json	SYNTH_BAD_DOI	doi_has_no_url_prefix	FAIL	https://doi.org/10.1234/example
+knowledge_external/records/bad_doi.json	SYNTH_BAD_DOI	not_grounded_marker_present	PASS	NOT_PROJECT_GROUNDED
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	source_label_present	PASS	Bad URL
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	at_least_one_locator_present	PASS	locators=1
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	url_has_http_scheme	FAIL	example.invalid/a b
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	url_has_no_whitespace	FAIL	example.invalid/a b
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	url_is_trimmed	PASS	example.invalid/a b
+knowledge_external/records/bad_url.json	SYNTH_BAD_URL	not_grounded_marker_present	PASS	NOT_PROJECT_GROUNDED
+knowledge_external/records/good.json	SYNTH_GOOD	source_label_present	PASS	Good
+knowledge_external/records/good.json	SYNTH_GOOD	at_least_one_locator_present	PASS	locators=2
+knowledge_external/records/good.json	SYNTH_GOOD	url_has_http_scheme	PASS	https://example.invalid/a
+knowledge_external/records/good.json	SYNTH_GOOD	url_has_no_whitespace	PASS	https://example.invalid/a
+knowledge_external/records/good.json	SYNTH_GOOD	url_is_trimmed	PASS	https://example.invalid/a
+knowledge_external/records/good.json	SYNTH_GOOD	doi_format	PASS	10.1234/example
+knowledge_external/records/good.json	SYNTH_GOOD	doi_has_no_url_prefix	PASS	10.1234/example
+knowledge_external/records/good.json	SYNTH_GOOD	not_grounded_marker_present	PASS	NOT_PROJECT_GROUNDED

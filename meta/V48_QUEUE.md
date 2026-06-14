@@ -33,7 +33,7 @@ span across resume gaps.
 | 5 | high | done | Build comparator matrix across external resource records by coverage, access tier, and unique repo gap | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
 | 6 | high | done | Queue future-grounding follow-up records for contradictions or high-value insufficient-overlap gaps | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | 7 | medium | done | Improve public external index with convergence/contradiction navigation | `knowledge_external/INDEX.md` |
-| 8 | medium | todo | Add source-locator normalization linter | `scripts/` |
+| 8 | medium | done | Add source-locator normalization linter | `scripts/v48_source_locator_normalization_linter.py` |
 | 9 | medium | todo | Add public index crosslink linter | `scripts/` |
 | 10 | medium | todo | Add source license/terms metadata template/linter | `knowledge_external/templates/`, `scripts/` |
 | 11 | medium | todo | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/` |
@@ -83,3 +83,12 @@ span across resume gaps.
   - V48 external resource comparator matrix;
   - V48 future-grounding queue.
 - Added new follow-up tasks 11-13 to keep the backlog above threshold.
+- Current open-session active time at `2026-06-14T13:37:09Z`: `906` seconds.
+- Added source-locator normalization linter:
+  - synthetic fixtures passed;
+  - real records checked: `39`;
+  - real checks: `238`;
+  - real failures: `0`.
+- Narrowly allowlisted the V48 source-locator analysis fixture directory in
+  the provenance gate, matching the existing V47 governance-output allowlist
+  pattern.
