@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_decision_error_taxonomy_freshness_linter/synthetic_error_taxonomy.md
+section_present.Required Controls	FAIL	required decision-error taxonomy section
+section_present.Error Classes	PASS	required decision-error taxonomy section
+section_present.Severity Levels	FAIL	required decision-error taxonomy section
+section_present.Minimum QA Record	FAIL	required decision-error taxonomy section
+section_present.Forbidden Shortcuts	FAIL	required decision-error taxonomy section
+section_present.Verification Before Commit	FAIL	required decision-error taxonomy section
+section_present.Boundary	PASS	required decision-error taxonomy section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	FAIL	required linked control
+link_present.scripts/v47_provenance_gate.py	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_judge_truth	FAIL	required boundary phrase
+phrase_present.does_not_change_grounded	FAIL	required boundary phrase
+phrase_present.external_override_critical	FAIL	required boundary phrase
+phrase_present.model_output_error	FAIL	required boundary phrase
+phrase_present.no_reclassify_grounded	FAIL	required boundary phrase
+phrase_present.no_audit_deletion	FAIL	required boundary phrase
+phrase_present.protects_boundary	FAIL	required boundary phrase
+table_count.error_classes	FAIL	observed=1 expected=10
+table_count.severity_levels	FAIL	observed=0 expected=4
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md observed=stale
+summary_matches.n_error_classes	FAIL	expected=10 observed=1
+summary_matches.n_required_linked_controls	FAIL	expected=7 observed=
+summary_matches.n_severity_levels	FAIL	expected=4 observed=0
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake decision error taxonomy; template/navigation only; no biological claim observed=

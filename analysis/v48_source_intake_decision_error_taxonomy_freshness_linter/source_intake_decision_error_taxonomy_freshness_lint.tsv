@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md
+section_present.Required Controls	PASS	required decision-error taxonomy section
+section_present.Error Classes	PASS	required decision-error taxonomy section
+section_present.Severity Levels	PASS	required decision-error taxonomy section
+section_present.Minimum QA Record	PASS	required decision-error taxonomy section
+section_present.Forbidden Shortcuts	PASS	required decision-error taxonomy section
+section_present.Verification Before Commit	PASS	required decision-error taxonomy section
+section_present.Boundary	PASS	required decision-error taxonomy section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	PASS	required linked control
+link_present.scripts/v47_provenance_gate.py	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.does_not_judge_truth	PASS	required boundary phrase
+phrase_present.does_not_change_grounded	PASS	required boundary phrase
+phrase_present.external_override_critical	PASS	required boundary phrase
+phrase_present.model_output_error	PASS	required boundary phrase
+phrase_present.no_reclassify_grounded	PASS	required boundary phrase
+phrase_present.no_audit_deletion	PASS	required boundary phrase
+phrase_present.protects_boundary	PASS	required boundary phrase
+table_count.error_classes	PASS	observed=10 expected=10
+table_count.severity_levels	PASS	observed=4 expected=4
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md observed=knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md
+summary_matches.n_error_classes	PASS	expected=10 observed=10
+summary_matches.n_required_linked_controls	PASS	expected=7 observed=7
+summary_matches.n_severity_levels	PASS	expected=4 observed=4
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-intake decision error taxonomy; template/navigation only; no biological claim observed=V48 source-intake decision error taxonomy; template/navigation only; no biological claim

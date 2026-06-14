@@ -152,7 +152,7 @@ span across resume gaps.
 | 124 | medium | done | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 | 125 | medium | done | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
 | 126 | medium | done | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
-| 127 | medium | todo | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
+| 127 | medium | done | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | 128 | medium | todo | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 129 | medium | todo | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
 | 130 | medium | todo | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
@@ -1748,5 +1748,16 @@ span across resume gaps.
   - boundary: template/navigation only; classifies future source-intake process
     errors without judging scientific truth or altering grounded findings.
 - Final gates after task 126:
+  - external Markdown linter: PASS (`307` checks, `55` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:46:24Z`: `19461` seconds.
+- Added source-intake decision error taxonomy freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    error-class/severity counts, and stale summary values fail;
+  - real freshness checks: `32`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; taxonomy classifies intake
+    process errors and does not judge scientific truth.
+- Final gates after task 127:
   - external Markdown linter: PASS (`307` checks, `55` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
