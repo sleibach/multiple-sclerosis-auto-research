@@ -75,7 +75,7 @@ span across resume gaps.
 | 47 | medium | done | Add V48 preflight summary card freshness linter tied to current summaries and command list | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | 48 | medium | done | Build V48 decision-relevant convergence shortlist for medical-team review | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
 | 49 | medium | done | Add decision-relevant convergence shortlist freshness linter | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
-| 50 | medium | todo | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
+| 50 | medium | done | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 51 | medium | todo | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | 52 | medium | todo | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
 | 53 | medium | todo | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
@@ -633,3 +633,13 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:10:12Z`: `6489` seconds.
+- Built source URL duplicate/canonicalization review:
+  - external records checked: `39`;
+  - missing source URLs: `0`;
+  - duplicate canonical URLs: `3`;
+  - duplicate groups: MS Society UK types page, National MS Society types page, and Nature MS/IBD paper;
+  - boundary: source URL maintenance only, duplicate URLs are not independent corroboration.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:11:57Z`: `6594` seconds.
