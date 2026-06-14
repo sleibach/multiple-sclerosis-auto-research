@@ -137,7 +137,7 @@ tracked purge target is:
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
 | 82 | medium | done | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
 | 83 | medium | done | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
-| 84 | medium | todo | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 84 | medium | done | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 85 | medium | todo | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 86 | medium | todo | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 87 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -870,3 +870,9 @@ tracked purge target is:
   checkpoints, scheduled OpenGWAS expiry state, and clean-state verification.
 - Current cumulative active time at `2026-06-14T22:17:14Z`: `7618` seconds
   (`376` seconds session 1 plus `7242` seconds of current open session).
+- Task 84 updated `meta/V49_ARTIFACT_MANIFEST.md` modified-file notes to include
+  `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` as a pointer to the
+  segregated external synthesis, explicitly not a copy of external claims into
+  the grounded/report tree.
+- Current cumulative active time at `2026-06-14T22:18:05Z`: `7669` seconds
+  (`376` seconds session 1 plus `7293` seconds of current open session).

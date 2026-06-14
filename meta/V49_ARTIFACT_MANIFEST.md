@@ -79,6 +79,9 @@ navigation/source-context outputs with grounded evidence.
 - `meta/V49_QUEUE.md`: live V49 active-time and backlog state.
 - `knowledge_external/INDEX.md`: class-aware public navigation links for V49
   artifacts.
+- `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md`: pointer to the segregated
+  external synthesis with V49 row counts; it does not duplicate external claims
+  into the grounded/report tree.
 - generated linter/preflight outputs under `analysis/v47_*` and
   `analysis/v48_*`: verification trail for the external layer.
 - `.gitignore`: rewritten-history state includes V49 large-file recurrence
