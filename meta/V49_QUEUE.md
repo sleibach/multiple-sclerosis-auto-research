@@ -91,11 +91,16 @@ tracked purge target is:
 | 35 | medium | done | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
 | 36 | medium | done | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
 | 37 | medium | done | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 38 | high | todo | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 38 | high | done | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 39 | medium | todo | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 40 | medium | todo | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 41 | medium | todo | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
+| 43 | medium | todo | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 44 | medium | todo | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 45 | medium | todo | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 46 | medium | todo | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
+| 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -452,3 +457,20 @@ tracked purge target is:
   `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:17:11Z`: `4015` seconds
   (`376` seconds session 1 plus `3639` seconds of current open session).
+- Task 38 added `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`. Result: no
+  tracked copy of the purged payloads remains and no exact purged payload path
+  exists on disk; `181` tracked files still contain historical references to
+  purged/touched path patterns, including `52` scripts that now require
+  regenerated local caches before historical V3 reruns. The remaining references
+  are documented as historical provenance or explicit rerun dependencies, not
+  push blockers.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures) and large-file guard PASS (`0` tracked files above
+  `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:19:52Z`: `4176` seconds
+  (`376` seconds session 1 plus `3800` seconds of current open session).
+- Backlog refill: added tasks `43` through `47` after task 38 dropped the open
+  executable queue below threshold. The new tasks focus on downstream manifest
+  freshness, reader-facing rerun boundaries, `.gitignore` verification, V43
+  summary sufficiency after the subject-level cache purge, and a later final
+  checkpoint.
