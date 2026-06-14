@@ -108,7 +108,7 @@ tracked purge target is:
 | 52 | medium | done | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
 | 53 | medium | done | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 54 | medium | done | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 55 | medium | todo | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
+| 55 | medium | done | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -616,3 +616,10 @@ tracked purge target is:
   PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:41:29Z`: `5473` seconds
   (`376` seconds session 1 plus `5097` seconds of current open session).
+- Task 55 reloaded `.env` and reran `scripts/check_opengwas_access.py` after
+  the next half-hour boundary. Result: `OPENGWAS_JWT` loaded, local decoded
+  expiry `2026-06-19 12:28 UTC`, `gwasinfo_ieu_b_18` HTTP `200`,
+  `tophits_ieu_b_18` HTTP `200`, and access check passed. Renewal remains
+  required before any OpenGWAS-dependent work after expiry.
+- Current cumulative active time at `2026-06-14T21:42:31Z`: `5535` seconds
+  (`376` seconds session 1 plus `5159` seconds of current open session).
