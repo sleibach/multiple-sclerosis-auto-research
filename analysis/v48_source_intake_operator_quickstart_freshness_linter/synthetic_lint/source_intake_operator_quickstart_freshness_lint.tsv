@@ -1,0 +1,30 @@
+check	status	detail
+quickstart_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_operator_quickstart_freshness_linter/synthetic_quickstart.md
+section_present.Scope	PASS	required quickstart section
+section_present.Mechanical Intake Order	PASS	required quickstart section
+section_present.Required Checklist	FAIL	required quickstart section
+section_present.Safe Classification Table	FAIL	required quickstart section
+section_present.Minimum Record Fields	FAIL	required quickstart section
+section_present.Verification Before Commit	FAIL	required quickstart section
+section_present.Boundary	PASS	required quickstart section
+mechanical_step_count_is_9	FAIL	observed=2
+phrase_present.status_template_only	PASS	required boundary/workflow phrase
+phrase_present.no_external_records	FAIL	required boundary/workflow phrase
+phrase_present.no_convergence_assertion	FAIL	required boundary/workflow phrase
+phrase_present.terms_before_content	FAIL	required boundary/workflow phrase
+phrase_present.forbidden_shortcut	FAIL	required boundary/workflow phrase
+phrase_present.checklist_before_review	FAIL	required boundary/workflow phrase
+phrase_present.not_source_record	PASS	required boundary/workflow phrase
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md	FAIL	required navigation target
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md	FAIL	required navigation target
+link_present.knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md	FAIL	required navigation target
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	FAIL	required navigation target
+link_present.knowledge_external/templates/README.md	FAIL	required navigation target
+link_present.scripts/v47_external_record_schema_linter.py	FAIL	required navigation target
+link_present.scripts/v47_external_markdown_index_linter.py	FAIL	required navigation target
+link_present.scripts/v47_provenance_gate.py	FAIL	required navigation target
+link_present.scripts/v48_governance_preflight.py	FAIL	required navigation target
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md observed=stale
+summary_matches.n_mechanical_steps	FAIL	expected=9 observed=999
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake operator quickstart; template/navigation only; no biological claim observed=

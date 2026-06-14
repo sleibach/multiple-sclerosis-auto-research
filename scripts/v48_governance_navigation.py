@@ -232,6 +232,20 @@ ARTIFACTS = [
         "boundary": "future-search control",
     },
     {
+        "artifact": "Source-intake operator quickstart",
+        "path": "knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/source_intake_operator_quickstart_v48_summary.json",
+        "purpose": "Operator guide mapping source-search hits through checklist-based segregated intake.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "Source-intake operator quickstart freshness linter",
+        "path": "scripts/v48_source_intake_operator_quickstart_freshness_linter.py",
+        "summary": "analysis/v48_source_intake_operator_quickstart_freshness_linter/source_intake_operator_quickstart_freshness_lint_summary.json",
+        "purpose": "Ensures the source-intake operator quickstart keeps required workflow sections, links, and boundary phrases.",
+        "boundary": "future-search control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",

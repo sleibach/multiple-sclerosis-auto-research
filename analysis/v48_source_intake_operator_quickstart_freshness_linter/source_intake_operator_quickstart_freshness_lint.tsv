@@ -1,0 +1,30 @@
+check	status	detail
+quickstart_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md
+section_present.Scope	PASS	required quickstart section
+section_present.Mechanical Intake Order	PASS	required quickstart section
+section_present.Required Checklist	PASS	required quickstart section
+section_present.Safe Classification Table	PASS	required quickstart section
+section_present.Minimum Record Fields	PASS	required quickstart section
+section_present.Verification Before Commit	PASS	required quickstart section
+section_present.Boundary	PASS	required quickstart section
+mechanical_step_count_is_9	PASS	observed=9
+phrase_present.status_template_only	PASS	required boundary/workflow phrase
+phrase_present.no_external_records	PASS	required boundary/workflow phrase
+phrase_present.no_convergence_assertion	PASS	required boundary/workflow phrase
+phrase_present.terms_before_content	PASS	required boundary/workflow phrase
+phrase_present.forbidden_shortcut	PASS	required boundary/workflow phrase
+phrase_present.checklist_before_review	PASS	required boundary/workflow phrase
+phrase_present.not_source_record	PASS	required boundary/workflow phrase
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md	PASS	required navigation target
+link_present.knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md	PASS	required navigation target
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	PASS	required navigation target
+link_present.knowledge_external/templates/README.md	PASS	required navigation target
+link_present.scripts/v47_external_record_schema_linter.py	PASS	required navigation target
+link_present.scripts/v47_external_markdown_index_linter.py	PASS	required navigation target
+link_present.scripts/v47_provenance_gate.py	PASS	required navigation target
+link_present.scripts/v48_governance_preflight.py	PASS	required navigation target
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md observed=knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md
+summary_matches.n_mechanical_steps	PASS	expected=9 observed=9
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-intake operator quickstart; template/navigation only; no biological claim observed=V48 source-intake operator quickstart; template/navigation only; no biological claim

@@ -118,7 +118,7 @@ span across resume gaps.
 | 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | done | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | 90 | medium | done | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
-| 91 | medium | todo | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
+| 91 | medium | done | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 93 | medium | todo | Add AI Core tooling-health card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
 | 94 | medium | todo | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
@@ -1265,6 +1265,23 @@ span across resume gaps.
   quickstart does not contain language that could imply external-source
   validation authority.
 - Verification passed:
+  - external Markdown linter: PASS (`295` checks, `43` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:20:03Z`: `14280` seconds.
+- Added source-intake operator quickstart freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, bad step count,
+    missing links, and stale summary counts fail;
+  - real freshness checks: `29`;
+  - real failures: `0`;
+  - required sections: `7`;
+  - required links: `9`.
+- Integrated quickstart control into dependency graph, governance navigation,
+  and preflight:
+  - dependency graph: `29` nodes, `90` edges, `0` missing controls;
+  - governance navigation: `57` artifacts, `0` missing artifacts;
+  - failure-mode matrix: `57` controls, `27` boundaries, `0` unmapped;
+  - governance preflight: `45` checks, `0` failures.
+- Final gates after task 91:
   - external Markdown linter: PASS (`295` checks, `43` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
 - Added follow-up tasks 93-97 to keep the executable backlog above threshold

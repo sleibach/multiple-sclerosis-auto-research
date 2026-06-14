@@ -181,6 +181,18 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Source-intake operator quickstart",
+        "output": "knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md",
+        "inputs": [
+            "docs/knowledge/EPISTEMIC_CLASSES.md",
+            "knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md",
+            "knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md",
+            "knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
+        ],
+        "controls": ["scripts/v48_source_intake_operator_quickstart_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Contradiction readiness playbook",
         "output": "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
         "inputs": ["knowledge_external/synthesis/convergence_contradiction_v48.tsv"],
