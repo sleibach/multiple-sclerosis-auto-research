@@ -1,0 +1,35 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md
+section_present.Required Controls	PASS	required parking-queue section
+section_present.Required Fields	PASS	required parking-queue section
+section_present.Parking Statuses	PASS	required parking-queue section
+section_present.Release Conditions	PASS	required parking-queue section
+section_present.Minimum Safe Entry Skeleton	PASS	required parking-queue section
+section_present.Forbidden Shortcuts	PASS	required parking-queue section
+section_present.Verification Before Commit	PASS	required parking-queue section
+section_present.Boundary	PASS	required parking-queue section
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_store_content	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.does_not_assert_relationship	PASS	required boundary phrase
+phrase_present.no_source_claim_copying	PASS	required boundary phrase
+phrase_present.no_relationship_row	PASS	required boundary phrase
+phrase_present.no_evidence	PASS	required boundary phrase
+phrase_present.no_model_shortcut	PASS	required boundary phrase
+phrase_present.release_conditions	PASS	required boundary phrase
+table_count.required_fields	PASS	observed=12 expected=12
+table_count.parking_statuses	PASS	observed=5 expected=5
+table_count.release_conditions	PASS	observed=6 expected=6
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md observed=knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md
+summary_matches.n_parking_statuses	PASS	expected=5 observed=5
+summary_matches.n_release_conditions	PASS	expected=6 observed=6
+summary_matches.n_required_fields	PASS	expected=12 observed=12
+summary_matches.n_required_linked_controls	PASS	expected=6 observed=6
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-hit access/terms parking queue template; template/navigation only; no biological claim observed=V48 source-hit access/terms parking queue template; template/navigation only; no biological claim

@@ -1,0 +1,35 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_hit_access_terms_parking_queue_freshness_linter/synthetic_parking_queue.md
+section_present.Required Controls	FAIL	required parking-queue section
+section_present.Required Fields	PASS	required parking-queue section
+section_present.Parking Statuses	FAIL	required parking-queue section
+section_present.Release Conditions	FAIL	required parking-queue section
+section_present.Minimum Safe Entry Skeleton	FAIL	required parking-queue section
+section_present.Forbidden Shortcuts	FAIL	required parking-queue section
+section_present.Verification Before Commit	FAIL	required parking-queue section
+section_present.Boundary	PASS	required parking-queue section
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_store_content	FAIL	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_assert_relationship	FAIL	required boundary phrase
+phrase_present.no_source_claim_copying	FAIL	required boundary phrase
+phrase_present.no_relationship_row	FAIL	required boundary phrase
+phrase_present.no_evidence	PASS	required boundary phrase
+phrase_present.no_model_shortcut	FAIL	required boundary phrase
+phrase_present.release_conditions	FAIL	required boundary phrase
+table_count.required_fields	FAIL	observed=1 expected=12
+table_count.parking_statuses	FAIL	observed=0 expected=5
+table_count.release_conditions	FAIL	observed=0 expected=6
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md observed=stale
+summary_matches.n_parking_statuses	FAIL	expected=5 observed=0
+summary_matches.n_release_conditions	FAIL	expected=6 observed=
+summary_matches.n_required_fields	FAIL	expected=12 observed=1
+summary_matches.n_required_linked_controls	FAIL	expected=6 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-hit access/terms parking queue template; template/navigation only; no biological claim observed=

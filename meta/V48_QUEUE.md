@@ -138,7 +138,7 @@ span across resume gaps.
 | 110 | medium | done | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
 | 111 | medium | done | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 112 | medium | done | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
-| 113 | medium | todo | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
+| 113 | medium | done | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | 114 | medium | todo | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
 | 115 | medium | todo | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
@@ -1569,5 +1569,16 @@ span across resume gaps.
     parked without copied source claims, relationship rows, or evidence claims.
 - Added follow-up tasks 117-121 to keep the executable backlog above threshold.
 - Final gates after task 112:
+  - external Markdown linter: PASS (`301` checks, `49` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:21:05Z`: `17942` seconds.
+- Added source-hit access/terms parking queue freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    field/status/release counts, and stale summary values fail;
+  - real freshness checks: `34`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; parked source hits remain
+    non-evidence until release conditions and provenance gates pass.
+- Final gates after task 113:
   - external Markdown linter: PASS (`301` checks, `49` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
