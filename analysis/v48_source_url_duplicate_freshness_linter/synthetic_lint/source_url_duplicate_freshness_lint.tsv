@@ -1,0 +1,8 @@
+canonical_url	check	status	detail
+https://example.org/a	present_in_review	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_url_duplicate_freshness_linter/synthetic_review.tsv
+https://example.org/a	field_matches.n_records	FAIL	expected=2 observed=99
+https://example.org/a	field_matches.record_ids	PASS	expected=A;B observed=A;B
+https://example.org/a	field_matches.record_paths	PASS	expected=a.json;b.json observed=a.json;b.json
+https://example.org/b	present_in_review	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_url_duplicate_freshness_linter/synthetic_review.tsv
+https://example.org/extra	no_extra_duplicate_group	FAIL	review row is not duplicated in current external records
+summary	summary_duplicate_count_matches_rows	FAIL	summary=99 rows=2

@@ -197,6 +197,13 @@ ARTIFACTS = [
         "boundary": "domain relationship control",
     },
     {
+        "artifact": "Source URL duplicate freshness linter",
+        "path": "scripts/v48_source_url_duplicate_freshness_linter.py",
+        "summary": "analysis/v48_source_url_duplicate_freshness_linter/source_url_duplicate_freshness_lint_summary.json",
+        "purpose": "Ensures the source URL duplicate review matches current external source records.",
+        "boundary": "source maintenance control",
+    },
+    {
         "artifact": "V37 external-coverage freshness linter",
         "path": "scripts/v48_v37_coverage_freshness_linter.py",
         "summary": "analysis/v48_v37_coverage_freshness_linter/v37_coverage_freshness_lint_summary.json",

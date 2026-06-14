@@ -62,6 +62,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_source_domain_relationship_freshness_linter/",
     "analysis/v48_source_domain_review_freshness_linter/",
     "analysis/v48_source_locator_normalization_linter/",
+    "analysis/v48_source_url_duplicate_freshness_linter/",
     "analysis/v48_source_terms_coverage_freshness_linter/",
     "analysis/v48_source_terms_freshness_linter/",
     "analysis/v48_source_terms_metadata_linter/",
