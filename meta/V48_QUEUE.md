@@ -93,7 +93,7 @@ span across resume gaps.
 | 65 | medium | done | Add executive summary card freshness linter | `scripts/v48_convergence_executive_card_freshness_linter.py` |
 | 66 | medium | done | Build external sourcing plan for high-priority V37 coverage gaps without adding external claims | `knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md` |
 | 67 | medium | done | Add high-priority external sourcing plan freshness linter | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
-| 68 | medium | todo | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
+| 68 | medium | done | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
 | 69 | medium | todo | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
 | 70 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
@@ -914,3 +914,13 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:04:10Z`: `9727` seconds.
+- Built contradiction surveillance checklist:
+  - checklist rows: `16`;
+  - current matrix surveillance rows: `7`;
+  - future sourcing surveillance rows: `9`;
+  - current contradiction rows: `0`;
+  - boundary: future tensions route to intake, overlap review, and future grounding; no grounded finding is overridden.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:06:59Z`: `10136` seconds.
