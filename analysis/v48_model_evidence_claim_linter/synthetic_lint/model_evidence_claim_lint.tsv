@@ -1,0 +1,6 @@
+path	line	check	status	detail
+analysis/v48_model_evidence_claim_linter/synthetic_bad.md		target_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_model_evidence_claim_linter/synthetic_bad.md
+analysis/v48_model_evidence_claim_linter/synthetic_bad.md	1	model_output_as_evidence_claim	FAIL	Claude output is evidence for the project conclusion.
+analysis/v48_model_evidence_claim_linter/synthetic_bad.md	2	model_output_validates_claim	FAIL	RPT validates the biological claim.
+analysis/v48_model_evidence_claim_linter/synthetic_bad.md	3	model_output_validates_claim	FAIL	Gemini confirms the rule result.
+analysis/v48_model_evidence_claim_linter/synthetic_good.md		target_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_model_evidence_claim_linter/synthetic_good.md
