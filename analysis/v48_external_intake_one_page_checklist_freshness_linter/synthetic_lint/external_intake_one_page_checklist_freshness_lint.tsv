@@ -1,0 +1,34 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_external_intake_one_page_checklist_freshness_linter/synthetic_one_page.md
+section_present.Required Controls	FAIL	required one-page checklist section
+section_present.Operator Steps	PASS	required one-page checklist section
+section_present.Stop Conditions	FAIL	required one-page checklist section
+section_present.Final Verification	FAIL	required one-page checklist section
+section_present.Boundary	PASS	required one-page checklist section
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	FAIL	required linked control
+link_present.knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_claims	FAIL	required boundary phrase
+phrase_present.does_not_assert	FAIL	required boundary phrase
+phrase_present.does_not_change_grounded	FAIL	required boundary phrase
+phrase_present.no_source_claims	FAIL	required boundary phrase
+phrase_present.candidate_only	FAIL	required boundary phrase
+phrase_present.tension_flag_only	FAIL	required boundary phrase
+phrase_present.grounded_remains_evidence	FAIL	required boundary phrase
+phrase_present.external_non_evidence	FAIL	required boundary phrase
+table_count.operator_steps	FAIL	observed=1 expected=10
+table_count.stop_conditions	FAIL	observed=0 expected=6
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md observed=stale
+summary_matches.n_operator_steps	FAIL	expected=10 observed=1
+summary_matches.n_required_linked_controls	FAIL	expected=10 observed=
+summary_matches.n_stop_conditions	FAIL	expected=6 observed=0
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 external intake one-page checklist; template/navigation only; no biological claim observed=

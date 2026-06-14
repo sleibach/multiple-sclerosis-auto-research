@@ -147,7 +147,7 @@ span across resume gaps.
 | 119 | medium | done | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | done | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
 | 121 | medium | done | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
-| 122 | medium | todo | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
+| 122 | medium | done | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
 | 123 | medium | todo | Integrate de-duplication and one-page intake checklist into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
 | 124 | medium | todo | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 | 125 | medium | todo | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
@@ -1682,5 +1682,16 @@ span across resume gaps.
   - boundary: template/navigation freshness only; handoff rows remain queued
     future work, not findings.
 - Final gates after task 121:
+  - external Markdown linter: PASS (`305` checks, `53` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:35:45Z`: `18822` seconds.
+- Added external intake one-page checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    operator-step/stop-condition counts, and stale summary values fail;
+  - real freshness checks: `33`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; operator shortcut remains
+    routing-only and does not make external material evidence.
+- Final gates after task 122:
   - external Markdown linter: PASS (`305` checks, `53` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

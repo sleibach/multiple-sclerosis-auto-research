@@ -1,0 +1,34 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md
+section_present.Required Controls	PASS	required one-page checklist section
+section_present.Operator Steps	PASS	required one-page checklist section
+section_present.Stop Conditions	PASS	required one-page checklist section
+section_present.Final Verification	PASS	required one-page checklist section
+section_present.Boundary	PASS	required one-page checklist section
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	PASS	required linked control
+link_present.knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_claims	PASS	required boundary phrase
+phrase_present.does_not_assert	PASS	required boundary phrase
+phrase_present.does_not_change_grounded	PASS	required boundary phrase
+phrase_present.no_source_claims	PASS	required boundary phrase
+phrase_present.candidate_only	PASS	required boundary phrase
+phrase_present.tension_flag_only	PASS	required boundary phrase
+phrase_present.grounded_remains_evidence	PASS	required boundary phrase
+phrase_present.external_non_evidence	PASS	required boundary phrase
+table_count.operator_steps	PASS	observed=10 expected=10
+table_count.stop_conditions	PASS	observed=6 expected=6
+summary_matches.markdown	PASS	expected=knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md observed=knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md
+summary_matches.n_operator_steps	PASS	expected=10 observed=10
+summary_matches.n_required_linked_controls	PASS	expected=10 observed=10
+summary_matches.n_stop_conditions	PASS	expected=6 observed=6
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 external intake one-page checklist; template/navigation only; no biological claim observed=V48 external intake one-page checklist; template/navigation only; no biological claim
