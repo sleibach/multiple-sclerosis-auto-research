@@ -75,6 +75,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
     category_summary = read_json(indexes / "external_resource_category_rollup_summary.json")
     access_summary = read_json(indexes / "external_resource_access_tier_rollup_summary.json")
     convergence_summary = read_json(indexes / "convergence_contradiction_v48_summary.json")
+    source_terms_summary = read_json(indexes / "source_terms_coverage_v48_summary.json")
     skeleton_summary = read_json(synthesis / "convergence_contradiction_skeleton_summary.json")
     counts = read_tsv(indexes / "external_knowledge_index_counts.tsv")
     count_lines = ["| field | value | count |", "|---|---|---:|"]
@@ -93,6 +94,8 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"- missing sources: `{index_summary.get('n_missing_source', 'unknown')}`",
         f"- missing not-grounded markers: `{index_summary.get('n_missing_not_grounded_marker', 'unknown')}`",
         f"- source domains represented: `{domain_summary.get('n_source_domains', 'unknown')}`",
+        f"- records with source_terms metadata: `{source_terms_summary.get('n_records_with_source_terms', 'unknown')}`",
+        f"- records missing optional source_terms metadata: `{source_terms_summary.get('n_records_missing_source_terms', 'unknown')}`",
         f"- reachability maintenance warnings: `{reachability_summary.get('n_non_success_status', 'unknown')}`",
         f"- V48 convergence rows asserted: `{convergence_summary.get('n_converges', 'unknown')}`",
         f"- V48 contradiction rows flagged: `{convergence_summary.get('n_contradicts', 'unknown')}`",
@@ -112,6 +115,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('Access-tier rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md')} | Browse public/registration/application/controlled access tiers. | access metadata only |",
         f"| {link('Source-domain rollup', 'catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md')} | Browse records by source domain. | source locator metadata only |",
         f"| {link('V48 source-domain review', 'catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md')} | Classify source domains for maintenance, access, and terms review. | domain maintenance only |",
+        f"| {link('V48 source-terms coverage', 'catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md')} | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |",
         f"| {link('Source URL reachability', 'catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md')} | Transport-status maintenance report. | HTTP status is not claim validation |",
         f"| {link('V48 convergence/contradiction analysis', 'synthesis/CONVERGENCE_CONTRADICTION_V48.md')} | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |",
         f"| {link('V48 future-grounding queue', 'synthesis/FUTURE_GROUNDING_QUEUE_V48.md')} | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |",
@@ -133,7 +137,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 11,
+        "n_navigation_links": 12,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -156,6 +160,7 @@ def build_synthetic_root(outdir: Path) -> Path:
     (indexes / "external_source_domain_rollup_summary.json").write_text(json.dumps({"n_source_domains": 2}) + "\n")
     (indexes / "external_resource_category_rollup_summary.json").write_text(json.dumps({"n_categories": 1}) + "\n")
     (indexes / "external_resource_access_tier_rollup_summary.json").write_text(json.dumps({"n_access_tiers": 1}) + "\n")
+    (indexes / "source_terms_coverage_v48_summary.json").write_text(json.dumps({"n_records_with_source_terms": 1, "n_records_missing_source_terms": 1}) + "\n")
     (synthesis / "convergence_contradiction_skeleton_summary.json").write_text(json.dumps({"n_linked_rows": 0}) + "\n")
     (indexes / "convergence_contradiction_v48_summary.json").write_text(json.dumps({"n_converges": 1, "n_contradicts": 0}) + "\n")
     (indexes / "external_knowledge_index_counts.tsv").write_text("field\tvalue\tcount\nepistemic_class\texternal-unverifiable\t2\n")
@@ -172,6 +177,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "index_written": (root / EXTERNAL_ROOT / "INDEX.md").exists(),
         "boundary_marker_present": "NOT_PROJECT_GROUNDED" in text,
         "navigation_link_present": "EXTERNAL_KNOWLEDGE_INDEX.md" in text,
+        "source_terms_link_present": "SOURCE_TERMS_COVERAGE_V48.md" in text,
         "summary_counts_present": "`2`" in text,
     }
     rows = [{"check": key, "status": "PASS" if value else "FAIL"} for key, value in checks.items()]
