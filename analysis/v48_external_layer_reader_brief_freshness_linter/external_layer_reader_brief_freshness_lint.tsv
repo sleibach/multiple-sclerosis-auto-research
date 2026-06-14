@@ -1,0 +1,31 @@
+check	status	detail
+brief_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md
+section_present.The Short Version	PASS	required reader-brief section
+section_present.What The External Layer Can Do	PASS	required reader-brief section
+section_present.What The External Layer Cannot Do	PASS	required reader-brief section
+section_present.How To Interpret Convergence	PASS	required reader-brief section
+section_present.How To Interpret Contradiction	PASS	required reader-brief section
+section_present.How To Intake A New External Source	PASS	required reader-brief section
+section_present.Reader Checklist	PASS	required reader-brief section
+section_present.Boundary	PASS	required reader-brief section
+phrase_present.status_navigation_only	PASS	required boundary phrase
+phrase_present.no_external_records	PASS	required boundary phrase
+phrase_present.not_evidence	PASS	required boundary phrase
+phrase_present.no_override	PASS	required boundary phrase
+phrase_present.grounded_remains_evidence	PASS	required boundary phrase
+phrase_present.contradiction_not_override	PASS	required boundary phrase
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	PASS	required navigation target
+link_present.knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md	PASS	required navigation target
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required navigation target
+link_present.scripts/v47_provenance_gate.py	PASS	required navigation target
+link_present.scripts/v48_governance_preflight.py	PASS	required navigation target
+external_marker_lines_have_source	PASS	failing_lines=
+summary_matches.markdown	PASS	expected=knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md observed=knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md
+summary_matches.n_sections	PASS	expected=8 observed=8
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 external layer reader brief; class-aware public navigation only; no biological claim observed=V48 external layer reader brief; class-aware public navigation only; no biological claim

@@ -114,7 +114,7 @@ span across resume gaps.
 | 84 | medium | done | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | 85 | medium | done | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
-| 87 | medium | todo | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
+| 87 | medium | done | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | 88 | medium | todo | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
 | 89 | medium | todo | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | 90 | medium | todo | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
@@ -1219,5 +1219,22 @@ span across resume gaps.
   - TF-IDF index: `727` grounded-tree documents; `knowledge_external/`
     remains excluded from grounded TF-IDF globs.
 - Final gates after task 86:
+  - external Markdown linter: PASS (`293` checks, `41` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:11:53Z`: `13790` seconds.
+- Added external layer reader brief freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links,
+    missing boundary phrases, and stale summary counts fail;
+  - real reader-brief checks: `30`;
+  - real failures: `0`;
+  - required sections: `8`;
+  - required links: `10`.
+- Integrated reader-brief control into dependency graph, governance navigation,
+  and preflight:
+  - dependency graph: `28` nodes, `85` edges, `0` missing controls;
+  - governance navigation: `55` artifacts, `0` missing artifacts;
+  - failure-mode matrix: `55` controls, `27` boundaries, `0` unmapped;
+  - governance preflight: `44` checks, `0` failures.
+- Final gates after task 87:
   - external Markdown linter: PASS (`293` checks, `41` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).

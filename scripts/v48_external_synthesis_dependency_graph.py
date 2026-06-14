@@ -86,6 +86,18 @@ NODES = [
         "boundary": "handoff/navigation only",
     },
     {
+        "artifact": "V48 external layer reader brief",
+        "output": "knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md",
+        "inputs": [
+            "docs/knowledge/EPISTEMIC_CLASSES.md",
+            "knowledge_external/INDEX.md",
+            "knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
+            "knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md",
+        ],
+        "controls": ["scripts/v48_external_layer_reader_brief_freshness_linter.py"],
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V48 external resource comparator matrix",
         "output": "knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md",
         "inputs": ["knowledge_external/catalogs/records/resource.*.json"],

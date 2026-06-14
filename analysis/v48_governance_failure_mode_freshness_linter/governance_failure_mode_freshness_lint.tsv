@@ -54,6 +54,11 @@ External claim-length safety linter||scripts/v48_external_claim_length_linter.py
 External claim-length safety linter||scripts/v48_external_claim_length_linter.py	field_matches.purpose	PASS	navigation=Prevents oversized external claim summaries or excerpt-like fields from entering external records. matrix=Prevents oversized external claim summaries or excerpt-like fields from entering external records.
 External claim-length safety linter||scripts/v48_external_claim_length_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 External claim-length safety linter||scripts/v48_external_claim_length_linter.py	failure_mode_mapped	PASS	external summaries become oversized copied source passages
+External layer reader brief freshness linter||scripts/v48_external_layer_reader_brief_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+External layer reader brief freshness linter||scripts/v48_external_layer_reader_brief_freshness_linter.py	field_matches.boundary	PASS	navigation=navigation control matrix=navigation control
+External layer reader brief freshness linter||scripts/v48_external_layer_reader_brief_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the public reader brief keeps required boundary sections, links, and source markers. matrix=Ensures the public reader brief keeps required boundary sections, links, and source markers.
+External layer reader brief freshness linter||scripts/v48_external_layer_reader_brief_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+External layer reader brief freshness linter||scripts/v48_external_layer_reader_brief_freshness_linter.py	failure_mode_mapped	PASS	public or operator navigation becomes stale and hides required artifacts
 External record schema linter||scripts/v47_external_record_schema_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 External record schema linter||scripts/v47_external_record_schema_linter.py	field_matches.boundary	PASS	navigation=schema control matrix=schema control
 External record schema linter||scripts/v47_external_record_schema_linter.py	field_matches.purpose	PASS	navigation=Required external-record fields and source/class markers. matrix=Required external-record fields and source/class markers.
@@ -239,6 +244,11 @@ V48 evidence-boundary glossary||knowledge_external/catalogs/indexes/V48_EVIDENCE
 V48 evidence-boundary glossary||knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md	field_matches.purpose	PASS	navigation=Glossary for V48 evidence and governance boundary labels. matrix=Glossary for V48 evidence and governance boundary labels.
 V48 evidence-boundary glossary||knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 V48 evidence-boundary glossary||knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md	failure_mode_mapped	PASS	navigation rows are overread as evidence or score changes
+V48 external layer reader brief||knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+V48 external layer reader brief||knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	field_matches.boundary	PASS	navigation=synthesis/navigation only matrix=synthesis/navigation only
+V48 external layer reader brief||knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	field_matches.purpose	PASS	navigation=Plain-language guide to the external layer's capabilities, limits, and evidence boundary. matrix=Plain-language guide to the external layer's capabilities, limits, and evidence boundary.
+V48 external layer reader brief||knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+V48 external layer reader brief||knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	failure_mode_mapped	PASS	navigation rows are overread as evidence or score changes
 V48 external resource comparator matrix||knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 V48 external resource comparator matrix||knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md	field_matches.boundary	PASS	navigation=external resource metadata only matrix=external resource metadata only
 V48 external resource comparator matrix||knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md	field_matches.purpose	PASS	navigation=External resource coverage, access tier, and unique gap matrix. matrix=External resource coverage, access tier, and unique gap matrix.
@@ -264,4 +274,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=53 matrix=53
+summary	summary_control_count_matches_matrix	PASS	summary=55 matrix=55

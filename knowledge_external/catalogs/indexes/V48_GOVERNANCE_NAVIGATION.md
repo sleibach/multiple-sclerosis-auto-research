@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `53`
+- artifacts tracked: `55`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -17,6 +17,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | V48 source-domain review | `yes` | `PASS` | Domain classification for access and terms maintenance. | domain maintenance only | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | V48 source-terms coverage | `yes` | `not_applicable` | Source-terms metadata coverage and conservative reuse-note map. | source terms metadata only | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | V48 evidence-boundary glossary | `yes` | `PASS` | Glossary for V48 evidence and governance boundary labels. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
+| V48 external layer reader brief | `yes` | `PASS` | Plain-language guide to the external layer's capabilities, limits, and evidence boundary. | synthesis/navigation only | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | V47 provenance gate | `yes` | `PASS` | Machine-enforced segregation of external knowledge from grounded trees. | segregation control | `scripts/v47_provenance_gate.py` |
 | External record schema linter | `yes` | `PASS` | Required external-record fields and source/class markers. | schema control | `scripts/v47_external_record_schema_linter.py` |
 | External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |
@@ -26,6 +27,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Relationship vocabulary linter | `yes` | `PASS` | Allowed relationship vocabulary for external records. | vocabulary control | `scripts/v47_relationship_vocabulary_linter.py` |
 | Public external index crosslink linter | `yes` | `PASS` | Public external index link target freshness. | navigation control | `scripts/v48_public_index_crosslink_linter.py` |
 | Public external index freshness linter | `yes` | `PASS` | Ensures required V48 external artifacts are linked from the public external index. | navigation control | `scripts/v48_public_index_freshness_linter.py` |
+| External layer reader brief freshness linter | `yes` | `PASS` | Ensures the public reader brief keeps required boundary sections, links, and source markers. | navigation control | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Preflight summary card freshness linter | `yes` | `PASS` | Ensures the V48 preflight summary card matches current component summaries and command handoff. | handoff/navigation control | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | Convergence executive-card freshness linter | `yes` | `PASS` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |

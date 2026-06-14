@@ -64,6 +64,13 @@ ARTIFACTS = [
         "boundary": "synthesis/navigation only",
     },
     {
+        "artifact": "V48 external layer reader brief",
+        "path": "knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/external_layer_reader_brief_v48_summary.json",
+        "purpose": "Plain-language guide to the external layer's capabilities, limits, and evidence boundary.",
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",
@@ -124,6 +131,13 @@ ARTIFACTS = [
         "path": "scripts/v48_public_index_freshness_linter.py",
         "summary": "analysis/v48_public_index_freshness_linter/public_index_freshness_lint_summary.json",
         "purpose": "Ensures required V48 external artifacts are linked from the public external index.",
+        "boundary": "navigation control",
+    },
+    {
+        "artifact": "External layer reader brief freshness linter",
+        "path": "scripts/v48_external_layer_reader_brief_freshness_linter.py",
+        "summary": "analysis/v48_external_layer_reader_brief_freshness_linter/external_layer_reader_brief_freshness_lint_summary.json",
+        "purpose": "Ensures the public reader brief keeps required boundary sections, links, and source markers.",
         "boundary": "navigation control",
     },
     {

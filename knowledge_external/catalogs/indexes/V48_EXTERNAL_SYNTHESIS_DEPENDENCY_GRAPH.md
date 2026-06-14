@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `27`
-- dependency/control edges: `80`
+- artifact nodes: `28`
+- dependency/control edges: `85`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -19,6 +19,7 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | V48 convergence source-independence matrix | `knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md` | 2 | 1 | independence accounting only; prevents overcounting same-source corroboration |
 | V48 source-domain independence rollup | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md` | 1 | 1 | source-domain accounting only |
 | V48 convergence/contradiction executive card | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md` | 4 | 1 | handoff/navigation only |
+| V48 external layer reader brief | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` | 4 | 1 | synthesis/navigation only |
 | V48 external resource comparator matrix | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` | 1 | 1 | external resource metadata only |
 | V48 source-domain review | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` | 1 | 1 | domain maintenance only |
 | V48 source-terms coverage | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` | 1 | 3 | source terms metadata only |
