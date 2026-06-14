@@ -131,7 +131,7 @@ tracked purge target is:
 | 75 | medium | done | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 76 | medium | done | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 77 | high | done | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
-| 78 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 78 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 79 | high | todo | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 80 | medium | todo | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
@@ -829,3 +829,8 @@ tracked purge target is:
   high-priority missing-input rows) plus an explicit segregation warning.
 - Current cumulative active time at `2026-06-14T22:10:48Z`: `7232` seconds
   (`376` seconds session 1 plus `6856` seconds of current open session).
+- Task 78 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `8d1bc40ddd79912fef7460891dbc7d08680dcb21` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:11:16Z`: `7260` seconds
+  (`376` seconds session 1 plus `6884` seconds of current open session).
