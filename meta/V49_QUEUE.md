@@ -75,7 +75,7 @@ tracked purge target is:
 | 19 | medium | done | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` |
 | 20 | high | done | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
 | 21 | medium | done | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
-| 22 | medium | todo | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 22 | medium | done | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md` |
 | 23 | medium | todo | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/COMPARATOR_MATRIX_V47.md` |
 | 24 | medium | done | Run full external governance, public-index freshness, provenance, and large-file safety checks after the next navigation/content refresh | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 25 | medium | todo | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
@@ -280,3 +280,15 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:48:34Z`: `2298` seconds
   (`376` seconds session 1 plus `1922` seconds of current open session).
+- Task 22 added `knowledge_external/synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md`
+  and `knowledge_external/synthesis/v49_import_packet_queue_reconciliation.tsv`.
+  Result: all three V49 source-specific import packets already have generated
+  future-grounding queue rows (`V48_FG_005`, `V48_FG_008`, `V48_FG_009`), but
+  all three need the V49 field-level overlay before intake. No generated queue
+  hand-edit was made.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`65` links), external Markdown linter PASS (`367`
+  checks, `69` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:50:03Z`: `2387` seconds
+  (`376` seconds session 1 plus `2011` seconds of current open session).

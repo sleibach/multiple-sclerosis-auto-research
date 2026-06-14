@@ -92,6 +92,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V49 context-only closure guardrail](synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md) | Compact reopen-trigger rules for the seven low-actionability/context-only rows. | synthesis/navigation only |
 | [V49 uncovered finding triage](synthesis/V49_UNCOVERED_FINDING_TRIAGE.md) | Direct-source and no-expand routing for V37 findings still uncovered by relationship rows. | sourcing/navigation only |
 | [V49 source-specific import packets](synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md) | Narrow acceptance gates for future ZMIZ1, chr1 KIF21B/GPR25, and coupled APC-axis source intake. | future intake/navigation only |
+| [V49 import-packet queue reconciliation](synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md) | Overlay mapping generated future-grounding queue rows to the stricter V49 import-packet field gates. | queue/navigation only |
 | [V49 validation-ready row crosscheck](synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md) | Crosscheck showing which validation-facing V49 rows are already covered by frozen V42/V44 harnesses. | synthesis/navigation only |
 | [V49 new source-domain review](catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md) | Access/terms review for the eight records added during V49. | source maintenance only |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |
