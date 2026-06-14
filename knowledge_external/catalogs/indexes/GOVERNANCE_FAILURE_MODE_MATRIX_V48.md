@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `49`
+- controls mapped: `51`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -37,6 +37,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Resource comparator freshness linter | `resource metadata control` | resource comparator metadata drifts from source records | `PASS` | `scripts/v48_resource_comparator_freshness_linter.py` |
 | External record schema linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v47_external_record_schema_linter.py` |
 | External record uniqueness linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v47_external_record_uniqueness_linter.py` |
+| Relationship-matrix data dictionary freshness linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
 | V47 provenance gate | `segregation control` | external knowledge leaks into grounded trees or gains project-evidence authority | `PASS` | `scripts/v47_provenance_gate.py` |
 | Source locator normalization linter | `source locator control` | source locators become malformed or non-normalized | `PASS` | `scripts/v48_source_locator_normalization_linter.py` |
 | Source URL duplicate freshness linter | `source maintenance control` | duplicate source URLs are mistaken for independent corroboration or left unreviewed | `PASS` | `scripts/v48_source_url_duplicate_freshness_linter.py` |
@@ -55,6 +56,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | V37 uncovered-rationale freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | Project-finding reference linter | `synthesis reference control` | external support/contradiction records point to missing grounded artifacts | `PASS` | `scripts/v48_project_finding_reference_linter.py` |
 | V48 evidence-boundary glossary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
+| V48 relationship-matrix data dictionary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | Source URL reachability checker | `transport maintenance only` | source URLs rot or redirect without being visible to maintainers | `PASS` | `scripts/v47_source_url_reachability_checker.py` |
 | Convergence status vocabulary linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v48_convergence_status_vocabulary_linter.py` |
 | Evidence-boundary glossary freshness linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |

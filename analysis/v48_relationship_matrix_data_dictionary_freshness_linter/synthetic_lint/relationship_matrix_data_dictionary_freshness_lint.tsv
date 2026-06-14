@@ -1,0 +1,26 @@
+row_key	check	status	detail
+grounded_finding_id	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+grounded_finding_id	field_matches.field_order	PASS	expected=1 observed=1
+grounded_finding_id	field_matches.field_name	PASS	expected=grounded_finding_id observed=grounded_finding_id
+grounded_finding_id	field_matches.field_class	PASS	expected=grounded_project_finding observed=grounded_project_finding
+grounded_finding_id	field_matches.definition	FAIL	expected=Project finding label used for relationship classification. observed=stale
+grounded_finding_id	field_matches.allowed_values	PASS	expected= observed=
+grounded_finding_id	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+grounded_category	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+grounded_evidence_grade	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+grounded_artifact	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+external_record_id	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+external_record_type	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+external_record_path	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+epistemic_class	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+external_source	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+not_project_grounded_marker	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+relationship_class	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+synthesis_status	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+interpretation	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+future_grounding_action	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+row_status	field_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_matrix_data_dictionary_freshness_linter/synthetic_dictionary.tsv
+extra_field	no_extra_field	FAIL	field is not in the current relationship matrix header
+summary	summary_matches.n_fields	FAIL	expected=15 observed=999
+summary	summary_matches.n_missing_definitions	FAIL	expected=0 observed=999
+summary	summary_matches.field_class_counts	FAIL	expected={'external_record': 6, 'future_work': 1, 'grounded_project_finding': 4, 'quality_control': 1, 'relationship_classification': 3} observed={'stale': 999}

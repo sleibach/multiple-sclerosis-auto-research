@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `25`
-- dependency/control edges: `74`
+- artifact nodes: `26`
+- dependency/control edges: `77`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -13,6 +13,7 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | artifact | output | inputs | controls | boundary |
 |---|---|---:|---:|---|
 | V48 convergence/contradiction matrix | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` | 2 | 4 | relationship classification only; external agreement is context and project artifacts remain evidence |
+| V48 relationship-matrix data dictionary | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` | 2 | 1 | synthesis/navigation only |
 | V48 future-grounding queue | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` | 1 | 2 | queued tasks are not findings |
 | V48 decision-relevant convergence shortlist | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` | 1 | 1 | navigation shortlist only; no score or rule change |
 | V48 convergence source-independence matrix | `knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md` | 2 | 1 | independence accounting only; prevents overcounting same-source corroboration |

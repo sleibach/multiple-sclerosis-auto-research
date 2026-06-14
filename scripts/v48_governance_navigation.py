@@ -22,6 +22,13 @@ ARTIFACTS = [
         "boundary": "external agreement is context; project artifacts remain evidence",
     },
     {
+        "artifact": "V48 relationship-matrix data dictionary",
+        "path": "knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md",
+        "summary": "knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary_summary.json",
+        "purpose": "Schema dictionary for V48 convergence/contradiction matrix fields and controlled values.",
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V48 future-grounding queue",
         "path": "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
         "summary": "knowledge_external/synthesis/future_grounding_queue_v48_summary.json",
@@ -209,6 +216,13 @@ ARTIFACTS = [
         "summary": "analysis/v48_support_contradiction_coverage_linter/support_contradiction_coverage_lint_summary.json",
         "purpose": "Ensures support/contradiction records appear in the V48 matrix.",
         "boundary": "synthesis coverage control",
+    },
+    {
+        "artifact": "Relationship-matrix data dictionary freshness linter",
+        "path": "scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py",
+        "summary": "analysis/v48_relationship_matrix_data_dictionary_freshness_linter/relationship_matrix_data_dictionary_freshness_lint_summary.json",
+        "purpose": "Ensures the V48 relationship-matrix data dictionary matches the current matrix header and controlled vocabularies.",
+        "boundary": "schema control",
     },
     {
         "artifact": "Contradiction-intake linter",

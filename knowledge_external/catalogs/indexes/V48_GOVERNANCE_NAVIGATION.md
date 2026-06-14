@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `49`
+- artifacts tracked: `51`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -11,6 +11,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | artifact | exists | status | purpose | boundary | path |
 |---|---|---|---|---|---|
 | V48 convergence/contradiction analysis | `yes` | `PASS` | Classed relationship analysis between selected grounded findings and external records. | external agreement is context; project artifacts remain evidence | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| V48 relationship-matrix data dictionary | `yes` | `PASS` | Schema dictionary for V48 convergence/contradiction matrix fields and controlled values. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | V48 future-grounding queue | `yes` | `not_applicable` | Future tasks from convergence or insufficient-overlap rows. | queued tasks are not findings | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | V48 external resource comparator matrix | `yes` | `PASS` | External resource coverage, access tier, and unique gap matrix. | external resource metadata only | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
 | V48 source-domain review | `yes` | `PASS` | Domain classification for access and terms maintenance. | domain maintenance only | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
@@ -38,6 +39,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | High-priority source-search query freshness linter | `yes` | `PASS` | Ensures the high-priority source-search query packet matches the current sourcing plan. | future-search control | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
+| Relationship-matrix data dictionary freshness linter | `yes` | `PASS` | Ensures the V48 relationship-matrix data dictionary matches the current matrix header and controlled vocabularies. | schema control | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |
 | Contradiction readiness freshness linter | `yes` | `PASS` | Ensures contradiction readiness playbook counts and stages match the current matrix. | future-grounding control | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | Contradiction surveillance freshness linter | `yes` | `PASS` | Ensures the contradiction surveillance checklist matches current matrix rows and high-priority sourcing plan rows. | future-grounding control | `scripts/v48_contradiction_surveillance_freshness_linter.py` |

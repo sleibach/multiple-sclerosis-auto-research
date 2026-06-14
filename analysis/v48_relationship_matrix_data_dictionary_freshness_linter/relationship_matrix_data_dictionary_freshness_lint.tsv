@@ -1,0 +1,109 @@
+row_key	check	status	detail
+grounded_finding_id	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+grounded_finding_id	field_matches.field_order	PASS	expected=1 observed=1
+grounded_finding_id	field_matches.field_name	PASS	expected=grounded_finding_id observed=grounded_finding_id
+grounded_finding_id	field_matches.field_class	PASS	expected=grounded_project_finding observed=grounded_project_finding
+grounded_finding_id	field_matches.definition	PASS	expected=Project finding label used for relationship classification. observed=Project finding label used for relationship classification.
+grounded_finding_id	field_matches.allowed_values	PASS	expected= observed=
+grounded_finding_id	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+grounded_category	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+grounded_category	field_matches.field_order	PASS	expected=2 observed=2
+grounded_category	field_matches.field_name	PASS	expected=grounded_category observed=grounded_category
+grounded_category	field_matches.field_class	PASS	expected=grounded_project_finding observed=grounded_project_finding
+grounded_category	field_matches.definition	PASS	expected=V37-style finding category such as positive, negative/decoupling, kill/closed, or methodological. observed=V37-style finding category such as positive, negative/decoupling, kill/closed, or methodological.
+grounded_category	field_matches.allowed_values	PASS	expected= observed=
+grounded_category	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+grounded_evidence_grade	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+grounded_evidence_grade	field_matches.field_order	PASS	expected=3 observed=3
+grounded_evidence_grade	field_matches.field_name	PASS	expected=grounded_evidence_grade observed=grounded_evidence_grade
+grounded_evidence_grade	field_matches.field_class	PASS	expected=grounded_project_finding observed=grounded_project_finding
+grounded_evidence_grade	field_matches.definition	PASS	expected=Evidence grade assigned by the grounded project report. observed=Evidence grade assigned by the grounded project report.
+grounded_evidence_grade	field_matches.allowed_values	PASS	expected= observed=
+grounded_evidence_grade	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+grounded_artifact	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+grounded_artifact	field_matches.field_order	PASS	expected=4 observed=4
+grounded_artifact	field_matches.field_name	PASS	expected=grounded_artifact observed=grounded_artifact
+grounded_artifact	field_matches.field_class	PASS	expected=grounded_project_finding observed=grounded_project_finding
+grounded_artifact	field_matches.definition	PASS	expected=Project artifact path that remains the evidence source. observed=Project artifact path that remains the evidence source.
+grounded_artifact	field_matches.allowed_values	PASS	expected= observed=
+grounded_artifact	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+external_record_id	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+external_record_id	field_matches.field_order	PASS	expected=5 observed=5
+external_record_id	field_matches.field_name	PASS	expected=external_record_id observed=external_record_id
+external_record_id	field_matches.field_class	PASS	expected=external_record observed=external_record
+external_record_id	field_matches.definition	PASS	expected=Segregated external record identifier. observed=Segregated external record identifier.
+external_record_id	field_matches.allowed_values	PASS	expected= observed=
+external_record_id	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+external_record_type	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+external_record_type	field_matches.field_order	PASS	expected=6 observed=6
+external_record_type	field_matches.field_name	PASS	expected=external_record_type observed=external_record_type
+external_record_type	field_matches.field_class	PASS	expected=external_record observed=external_record
+external_record_type	field_matches.definition	PASS	expected=External record subtype used for navigation and source-domain accounting. observed=External record subtype used for navigation and source-domain accounting.
+external_record_type	field_matches.allowed_values	PASS	expected= observed=
+external_record_type	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+external_record_path	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+external_record_path	field_matches.field_order	PASS	expected=7 observed=7
+external_record_path	field_matches.field_name	PASS	expected=external_record_path observed=external_record_path
+external_record_path	field_matches.field_class	PASS	expected=external_record observed=external_record
+external_record_path	field_matches.definition	PASS	expected=Path to the segregated external record. observed=Path to the segregated external record.
+external_record_path	field_matches.allowed_values	PASS	expected= observed=
+external_record_path	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+epistemic_class	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+epistemic_class	field_matches.field_order	PASS	expected=8 observed=8
+epistemic_class	field_matches.field_name	PASS	expected=epistemic_class observed=epistemic_class
+epistemic_class	field_matches.field_class	PASS	expected=external_record observed=external_record
+epistemic_class	field_matches.definition	PASS	expected=External epistemic class; not a project-grounded finding. observed=External epistemic class; not a project-grounded finding.
+epistemic_class	field_matches.allowed_values	PASS	expected=external-verifiable;external-unverifiable observed=external-verifiable;external-unverifiable
+epistemic_class	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+external_source	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+external_source	field_matches.field_order	PASS	expected=9 observed=9
+external_source	field_matches.field_name	PASS	expected=external_source observed=external_source
+external_source	field_matches.field_class	PASS	expected=external_record observed=external_record
+external_source	field_matches.definition	PASS	expected=External source locator used for provenance. observed=External source locator used for provenance.
+external_source	field_matches.allowed_values	PASS	expected= observed=
+external_source	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+not_project_grounded_marker	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+not_project_grounded_marker	field_matches.field_order	PASS	expected=10 observed=10
+not_project_grounded_marker	field_matches.field_name	PASS	expected=not_project_grounded_marker observed=not_project_grounded_marker
+not_project_grounded_marker	field_matches.field_class	PASS	expected=external_record observed=external_record
+not_project_grounded_marker	field_matches.definition	PASS	expected=Explicit marker preserving the external/grounded boundary. observed=Explicit marker preserving the external/grounded boundary.
+not_project_grounded_marker	field_matches.allowed_values	PASS	expected=NOT_PROJECT_GROUNDED observed=NOT_PROJECT_GROUNDED
+not_project_grounded_marker	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+relationship_class	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+relationship_class	field_matches.field_order	PASS	expected=11 observed=11
+relationship_class	field_matches.field_name	PASS	expected=relationship_class observed=relationship_class
+relationship_class	field_matches.field_class	PASS	expected=relationship_classification observed=relationship_classification
+relationship_class	field_matches.definition	PASS	expected=Controlled relationship label between the grounded finding and external record. observed=Controlled relationship label between the grounded finding and external record.
+relationship_class	field_matches.allowed_values	PASS	expected=contradicts;converges;insufficient-overlap observed=contradicts;converges;insufficient-overlap
+relationship_class	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+synthesis_status	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+synthesis_status	field_matches.field_order	PASS	expected=12 observed=12
+synthesis_status	field_matches.field_name	PASS	expected=synthesis_status observed=synthesis_status
+synthesis_status	field_matches.field_class	PASS	expected=relationship_classification observed=relationship_classification
+synthesis_status	field_matches.definition	PASS	expected=Controlled operational status derived from the relationship class. observed=Controlled operational status derived from the relationship class.
+synthesis_status	field_matches.allowed_values	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION;NO_DIRECT_EXTERNAL_CORROBORATION;RESOURCE_CAN_QUEUE_FUTURE_CHECK observed=CORROBORATION_FROM_INDEPENDENT_SOURCE;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION;NO_DIRECT_EXTERNAL_CORROBORATION;RESOURCE_CAN_QUEUE_FUTURE_CHECK
+synthesis_status	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+interpretation	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+interpretation	field_matches.field_order	PASS	expected=13 observed=13
+interpretation	field_matches.field_name	PASS	expected=interpretation observed=interpretation
+interpretation	field_matches.field_class	PASS	expected=relationship_classification observed=relationship_classification
+interpretation	field_matches.definition	PASS	expected=Short boundary-safe interpretation; external context never overrides grounded artifacts. observed=Short boundary-safe interpretation; external context never overrides grounded artifacts.
+interpretation	field_matches.allowed_values	PASS	expected= observed=
+interpretation	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+future_grounding_action	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+future_grounding_action	field_matches.field_order	PASS	expected=14 observed=14
+future_grounding_action	field_matches.field_name	PASS	expected=future_grounding_action observed=future_grounding_action
+future_grounding_action	field_matches.field_class	PASS	expected=future_work observed=future_work
+future_grounding_action	field_matches.definition	PASS	expected=Queued action if further grounding or refresh is warranted. observed=Queued action if further grounding or refresh is warranted.
+future_grounding_action	field_matches.allowed_values	PASS	expected= observed=
+future_grounding_action	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+row_status	field_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_relationship_matrix_data_dictionary.tsv
+row_status	field_matches.field_order	PASS	expected=15 observed=15
+row_status	field_matches.field_name	PASS	expected=row_status observed=row_status
+row_status	field_matches.field_class	PASS	expected=quality_control observed=quality_control
+row_status	field_matches.definition	PASS	expected=Row-level generation/check status. observed=Row-level generation/check status.
+row_status	field_matches.allowed_values	PASS	expected= observed=
+row_status	field_matches.boundary	PASS	expected=Data dictionary only; field definitions do not add external records or change grounded findings. observed=Data dictionary only; field definitions do not add external records or change grounded findings.
+summary	summary_matches.n_fields	PASS	expected=15 observed=15
+summary	summary_matches.n_missing_definitions	PASS	expected=0 observed=0
+summary	summary_matches.field_class_counts	PASS	expected={'external_record': 6, 'future_work': 1, 'grounded_project_finding': 4, 'quality_control': 1, 'relationship_classification': 3} observed={'external_record': 6, 'future_work': 1, 'grounded_project_finding': 4, 'quality_control': 1, 'relationship_classification': 3}

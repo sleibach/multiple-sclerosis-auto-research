@@ -30,6 +30,16 @@ NODES = [
         "boundary": "relationship classification only; external agreement is context and project artifacts remain evidence",
     },
     {
+        "artifact": "V48 relationship-matrix data dictionary",
+        "output": "knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md",
+        "inputs": [
+            "knowledge_external/synthesis/convergence_contradiction_v48.tsv",
+            "scripts/v48_convergence_status_vocabulary_linter.py",
+        ],
+        "controls": ["scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py"],
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V48 future-grounding queue",
         "output": "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
         "inputs": ["knowledge_external/synthesis/convergence_contradiction_v48.tsv"],

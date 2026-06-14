@@ -37,6 +37,7 @@ CHECKS = [
     ("convergence_executive_card_freshness", ["scripts/v48_convergence_executive_card_freshness_linter.py", "lint"]),
     ("support_contradiction_coverage", ["scripts/v48_support_contradiction_coverage_linter.py", "lint"]),
     ("contradiction_intake", ["scripts/v48_contradiction_intake_linter.py", "lint"]),
+    ("relationship_matrix_data_dictionary_freshness", ["scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py", "lint"]),
     ("contradiction_readiness_freshness", ["scripts/v48_contradiction_readiness_freshness_linter.py", "lint"]),
     ("contradiction_surveillance_freshness", ["scripts/v48_contradiction_surveillance_freshness_linter.py", "lint"]),
     ("unresolved_external_coverage_handoff_freshness", ["scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py", "lint"]),
