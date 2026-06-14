@@ -189,7 +189,7 @@ tracked purge target is:
 | 134 | medium | done | Refresh final and resume checkpoints after task 133 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 135 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 134 | `meta/V49_QUEUE.md` |
 | 136 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 137 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:30:00Z` | `meta/V49_QUEUE.md` |
+| 137 | medium | done | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:30:00Z` | `meta/V49_QUEUE.md` |
 | 138 | medium | done | Refill V49 backlog above threshold if task 136 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 139 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 138 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 140 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -1400,3 +1400,10 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T23:30:15Z`: `11999` seconds
   (`376` seconds session 1 plus `11623` seconds of current open session).
+- Task 137 reloaded `.env` and reran `scripts/check_opengwas_access.py` at the
+  scheduled 23:30 UTC boundary. Result: `OPENGWAS_JWT` loaded, local decoded
+  expiry `2026-06-19 12:28 UTC`, `gwasinfo_ieu_b_18` HTTP `200`,
+  `tophits_ieu_b_18` HTTP `200`, and access check passed. Renewal remains
+  required before OpenGWAS-dependent work after expiry.
+- Current cumulative active time at `2026-06-14T23:30:48Z`: `12032` seconds
+  (`376` seconds session 1 plus `11656` seconds of current open session).
