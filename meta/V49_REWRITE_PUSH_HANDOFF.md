@@ -123,6 +123,17 @@ Additional local state:
 The pack is not tiny because the repository still has substantial legitimate
 history, but the GitHub hard-blocking large blobs have been removed.
 
+## Git Integrity Check
+
+Checked at `2026-06-14T21:40:55Z` on HEAD
+`e6ad446f17b1275175c96c9bc3b22efabcd2e14b`:
+
+```bash
+git fsck --full --strict
+```
+
+Result: PASS. The command exited `0` and printed no findings.
+
 ## Next Repository Rule
 
 Do not commit files above `50 MiB`, files under `tmp/`, or regenerated caches.

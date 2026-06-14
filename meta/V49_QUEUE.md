@@ -107,7 +107,7 @@ tracked purge target is:
 | 51 | medium | done | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
 | 52 | medium | done | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
 | 53 | medium | done | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 54 | medium | todo | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 54 | medium | done | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 55 | medium | todo | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
@@ -608,3 +608,11 @@ tracked purge target is:
   tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:39:51Z`: `5375` seconds
   (`376` seconds session 1 plus `4999` seconds of current open session).
+- Task 54 ran `git fsck --full --strict` after the history rewrite and latest
+  commits. Result: PASS; exit code `0`, output size `0` bytes. The integrity
+  checkpoint was added to `meta/V49_REWRITE_PUSH_HANDOFF.md`.
+- Post-task gates: repeated `git fsck --full --strict` PASS, V47 provenance
+  gate PASS (`436` checks, `47` records, `0` failures), and large-file guard
+  PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:41:29Z`: `5473` seconds
+  (`376` seconds session 1 plus `5097` seconds of current open session).
