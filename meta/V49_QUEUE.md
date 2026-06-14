@@ -179,7 +179,7 @@ tracked purge target is:
 | 124 | medium | done | Refresh rewrite/push handoff to latest HEAD after routing consistency and duplicate cleanup | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 125 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 126 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 124-125 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 127 | medium | todo | Refresh final and resume checkpoints after task 126 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 127 | medium | done | Refresh final and resume checkpoints after task 126 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 128 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 127 | `meta/V49_QUEUE.md` |
 | 129 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 130 | medium | todo | Refill V49 backlog above threshold if task 129 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
@@ -1174,3 +1174,9 @@ tracked purge target is:
   files.
 - Current cumulative active time at `2026-06-14T22:57:13Z`: `10017` seconds
   (`376` seconds session 1 plus `9641` seconds of current open session).
+- Task 127 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `f7e180cec9054c182cf1d88392e19d98c27937d3`, cumulative active time `10051`
+  seconds, latest guard state, and open tasks `121` and `128` through `130`.
+- Current cumulative active time at `2026-06-14T22:57:47Z`: `10051` seconds
+  (`376` seconds session 1 plus `9675` seconds of current open session).
