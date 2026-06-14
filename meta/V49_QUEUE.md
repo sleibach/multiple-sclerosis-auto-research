@@ -121,9 +121,15 @@ tracked purge target is:
 | 65 | medium | done | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 66 | high | done | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 67 | medium | done | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
-| 68 | medium | todo | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
+| 68 | medium | done | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
 | 69 | medium | todo | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 70 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
+| 71 | medium | todo | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 72 | medium | todo | Run git fsck and object-store checkpoint after post-checkpoint commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 73 | high | todo | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 74 | medium | todo | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
+| 75 | medium | todo | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 76 | medium | todo | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 
 ## Iteration Notes
 
@@ -736,3 +742,13 @@ tracked purge target is:
   latest gate status, and the current active-time state.
 - Current cumulative active time at `2026-06-14T21:59:50Z`: `6574` seconds
   (`376` seconds session 1 plus `6198` seconds of current open session).
+- Task 68 audited active-time accounting at `2026-06-14T22:00:52Z`. Result:
+  session 1 active time `376` seconds, current session elapsed `6260` seconds,
+  cumulative active time `6636` seconds, wall-clock span since block start
+  `7408` seconds, excluded resume gap `772` seconds, active target `21600`
+  seconds, target met: `false`. The queue remains summed-session based, not
+  wall-clock based.
+- Backlog refill: added tasks `71` through `76` because the executable queue
+  dropped below threshold. These tasks keep the block on push-safety,
+  repository integrity, guard recency, and resumability without adding new
+  governance scaffolding.
