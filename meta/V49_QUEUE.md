@@ -200,7 +200,7 @@ tracked purge target is:
 | 145 | medium | done | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 146 | medium | done | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
 | 147 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 146 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 148 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 148 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 149 | medium | todo | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md`, `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
 | 150 | medium | todo | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md`, `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
 | 151 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -1331,3 +1331,9 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T23:19:05Z`: `11329` seconds
   (`376` seconds session 1 plus `10953` seconds of current open session).
+- Task 148 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `1040` loose objects (`13.23 MiB`), `21745` packed objects, `1` pack, pack
+  size `426.79 MiB`, `.git` size `443M`, commit count `652`, and `0` garbage.
+- Current cumulative active time at `2026-06-14T23:19:56Z`: `11380` seconds
+  (`376` seconds session 1 plus `11004` seconds of current open session).
