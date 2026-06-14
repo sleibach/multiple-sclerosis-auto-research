@@ -1,0 +1,28 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md
+section_present.Rule	PASS	required model-lens boundary section
+section_present.Allowed Uses	PASS	required model-lens boundary section
+section_present.Forbidden Shortcuts	PASS	required model-lens boundary section
+section_present.Current Tooling Status	PASS	required model-lens boundary section
+section_present.Required Verification	PASS	required model-lens boundary section
+section_present.Boundary	PASS	required model-lens boundary section
+lens_present.Claude	PASS	required lens row
+lens_present.Gemini	PASS	required lens row
+lens_present.RPT	PASS	required lens row
+phrase_present.proposal_lenses_only	PASS	required boundary phrase
+phrase_present.not_establish_biology	PASS	required boundary phrase
+phrase_present.no_grounded_override	PASS	required boundary phrase
+phrase_present.external_unverifiable_context	PASS	required boundary phrase
+phrase_present.no_generic_rpt_smoke	PASS	required boundary phrase
+phrase_present.no_model_output_evidence	PASS	required boundary phrase
+phrase_present.not_project_finding	PASS	required boundary phrase
+command_present.python3 scripts/v47_provenance_gate.py audit --fail-on-error	PASS	required verification command
+command_present.python3 scripts/v48_governance_preflight.py	PASS	required verification command
+link_present.knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	PASS	required navigation target
+table_count.allowed_uses	PASS	observed=3 expected=3
+table_count.forbidden_shortcuts	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md observed=knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md
+summary_matches.n_forbidden_shortcuts	PASS	expected=5 observed=5
+summary_matches.n_lenses	PASS	expected=3 observed=3
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 model-lens usage boundary; governance/navigation only; no biological claim observed=V48 model-lens usage boundary; governance/navigation only; no biological claim

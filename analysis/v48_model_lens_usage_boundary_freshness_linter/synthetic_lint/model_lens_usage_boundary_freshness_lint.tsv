@@ -1,0 +1,28 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_model_lens_usage_boundary_freshness_linter/synthetic_model_lens_boundary.md
+section_present.Rule	PASS	required model-lens boundary section
+section_present.Allowed Uses	PASS	required model-lens boundary section
+section_present.Forbidden Shortcuts	PASS	required model-lens boundary section
+section_present.Current Tooling Status	FAIL	required model-lens boundary section
+section_present.Required Verification	FAIL	required model-lens boundary section
+section_present.Boundary	PASS	required model-lens boundary section
+lens_present.Claude	PASS	required lens row
+lens_present.Gemini	FAIL	required lens row
+lens_present.RPT	FAIL	required lens row
+phrase_present.proposal_lenses_only	FAIL	required boundary phrase
+phrase_present.not_establish_biology	FAIL	required boundary phrase
+phrase_present.no_grounded_override	FAIL	required boundary phrase
+phrase_present.external_unverifiable_context	FAIL	required boundary phrase
+phrase_present.no_generic_rpt_smoke	FAIL	required boundary phrase
+phrase_present.no_model_output_evidence	FAIL	required boundary phrase
+phrase_present.not_project_finding	FAIL	required boundary phrase
+command_present.python3 scripts/v47_provenance_gate.py audit --fail-on-error	FAIL	required verification command
+command_present.python3 scripts/v48_governance_preflight.py	FAIL	required verification command
+link_present.knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md	FAIL	required navigation target
+table_count.allowed_uses	FAIL	observed=1 expected=3
+table_count.forbidden_shortcuts	FAIL	observed=1 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md observed=stale
+summary_matches.n_forbidden_shortcuts	FAIL	expected=5 observed=1
+summary_matches.n_lenses	FAIL	expected=3 observed=1
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 model-lens usage boundary; governance/navigation only; no biological claim observed=

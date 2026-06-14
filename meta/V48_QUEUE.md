@@ -122,7 +122,7 @@ span across resume gaps.
 | 94 | medium | done | Integrate AI Core tooling-health card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 95 | medium | done | Add no-false-RPT-availability scanner for V48 queue and external navigation artifacts | `scripts/v48_rpt_availability_claim_linter.py` |
 | 96 | medium | done | Build model-lens usage boundary card for public readers | `knowledge_external/catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md` |
-| 97 | medium | todo | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
+| 97 | medium | done | Add model-lens usage boundary freshness linter | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
 | 98 | medium | todo | Add model-lens usage boundary card to public index and public-index freshness requirements | `knowledge_external/INDEX.md` |
 | 99 | medium | todo | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 100 | medium | todo | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
@@ -1363,5 +1363,17 @@ span across resume gaps.
   - purpose: governance/navigation only, no biological claim.
 - Added follow-up tasks 98-103 to keep the executable backlog above threshold.
 - Final gates after task 96:
+  - external Markdown linter: PASS (`296` checks, `44` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:37:15Z`: `15312` seconds.
+- Added model-lens usage boundary freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing RPT lens row,
+    missing route-specific RPT warning, bad forbidden-shortcut count, and stale
+    summary counts fail;
+  - real freshness checks: `27`;
+  - real failures: `0`;
+  - boundary: deterministic governance/navigation freshness only; no live model
+    calls and no biological claim.
+- Final gates after task 97:
   - external Markdown linter: PASS (`296` checks, `44` Markdown files);
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
