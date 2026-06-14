@@ -100,7 +100,7 @@ tracked purge target is:
 | 44 | medium | done | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 45 | medium | done | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 46 | medium | done | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
-| 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
+| 47 | medium | done | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
 | 48 | high | done | Refresh the rewrite/push handoff to the latest HEAD after post-handoff commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 49 | high | done | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
 | 50 | medium | done | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -134,7 +134,7 @@ tracked purge target is:
 | 78 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 79 | high | done | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 80 | medium | done | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
+| 81 | medium | done | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
 | 82 | medium | done | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
 | 83 | medium | done | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 84 | medium | done | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
@@ -144,7 +144,14 @@ tracked purge target is:
 | 88 | medium | done | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 90 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
-| 91 | medium | todo | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 91 | medium | done | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 92 | medium | todo | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 93 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after task 92 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 94 | medium | todo | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 95 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
+| 96 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
+| 97 | medium | todo | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
+| 98 | medium | todo | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -910,3 +917,12 @@ tracked purge target is:
   `2026-06-14T22:30:00Z`.
 - Current cumulative active time at `2026-06-14T22:23:53Z`: `8017` seconds
   (`376` seconds session 1 plus `7641` seconds of current open session).
+- Task 91 refilled the backlog above threshold and closed stale duplicate open
+  tasks. Task 47 is complete via `meta/V49_FINAL_CHECKPOINT.md` refreshes in
+  tasks 63, 74, 80, and 88. Task 81's active-time audit is covered by repeated
+  active-time checkpoints, while the remaining scheduled OpenGWAS recheck is
+  tracked explicitly by tasks 89 and 95. New tasks `92` through `98` keep the
+  handoff, guards, checkpoints, scheduled token state, clean-tree checks, and
+  backlog hygiene current.
+- Current cumulative active time at `2026-06-14T22:24:22Z`: `8046` seconds
+  (`376` seconds session 1 plus `7670` seconds of current open session).
