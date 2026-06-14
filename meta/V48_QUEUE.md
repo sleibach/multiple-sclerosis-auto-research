@@ -112,7 +112,7 @@ span across resume gaps.
 | 82 | medium | done | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
 | 83 | medium | done | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | 84 | medium | done | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
-| 85 | medium | todo | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
+| 85 | medium | done | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 87 | medium | todo | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | 88 | medium | todo | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
@@ -1197,3 +1197,14 @@ span across resume gaps.
   - SAP AI Core smoke: Claude PASS, Gemini PASS, RPT unavailable in the
     Python client (`sap-rpt-1-large` has no implemented request schema).
 - Added follow-up tasks 87-92 to keep the executable backlog above threshold.
+- Current open-session active time at `2026-06-14T17:03:12Z`: `13269` seconds.
+- Built V48 external layer reader brief:
+  - artifact: `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md`;
+  - summary: `knowledge_external/catalogs/indexes/external_layer_reader_brief_v48_summary.json`;
+  - boundary: class-aware public navigation only; no external records were
+    added and no grounded finding, locked rule, or pre-registration was changed;
+  - source markers were added to each line that uses external-class vocabulary,
+    so the provenance gate can verify line-level provenance.
+- Verification passed:
+  - external Markdown linter: PASS (`293` checks, `41` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
