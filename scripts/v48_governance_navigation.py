@@ -211,6 +211,13 @@ ARTIFACTS = [
         "boundary": "synthesis coverage control",
     },
     {
+        "artifact": "Decision-relevant convergence freshness linter",
+        "path": "scripts/v48_decision_relevant_convergence_freshness_linter.py",
+        "summary": "analysis/v48_decision_relevant_convergence_freshness_linter/decision_relevant_convergence_freshness_lint_summary.json",
+        "purpose": "Ensures the decision-relevant convergence shortlist matches current converges/contradicts matrix rows.",
+        "boundary": "synthesis coverage control",
+    },
+    {
         "artifact": "Convergence matrix coverage linter",
         "path": "scripts/v48_convergence_matrix_coverage_linter.py",
         "summary": "analysis/v48_convergence_matrix_coverage_linter/convergence_matrix_coverage_lint_summary.json",

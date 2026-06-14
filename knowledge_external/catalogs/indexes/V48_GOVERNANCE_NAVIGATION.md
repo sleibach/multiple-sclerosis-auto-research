@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `33`
+- artifacts tracked: `34`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -38,6 +38,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-domain relationship freshness linter | `yes` | `PASS` | Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. | domain relationship control | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `yes` | `PASS` | Ensures the V37 uncovered-finding rationale table matches the current coverage map. | synthesis coverage control | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
+| Decision-relevant convergence freshness linter | `yes` | `PASS` | Ensures the decision-relevant convergence shortlist matches current converges/contradicts matrix rows. | synthesis coverage control | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
 | Convergence matrix coverage linter | `yes` | `PASS` | Ensures priority grounded findings remain represented in the V48 matrix. | synthesis coverage control | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | Convergence status vocabulary linter | `yes` | `PASS` | Checks controlled relationship/status vocabulary in the V48 matrix. | vocabulary control | `scripts/v48_convergence_status_vocabulary_linter.py` |
 | Future-grounding queue freshness linter | `yes` | `PASS` | Ensures matrix follow-up actions are represented in the future-grounding queue. | future-grounding control | `scripts/v48_future_grounding_queue_freshness_linter.py` |

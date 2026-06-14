@@ -74,7 +74,7 @@ span across resume gaps.
 | 46 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 47 | medium | done | Add V48 preflight summary card freshness linter tied to current summaries and command list | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | 48 | medium | done | Build V48 decision-relevant convergence shortlist for medical-team review | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
-| 49 | medium | todo | Add decision-relevant convergence shortlist freshness linter | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
+| 49 | medium | done | Add decision-relevant convergence shortlist freshness linter | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
 | 50 | medium | todo | Build external source URL duplicate/canonicalization report | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 51 | medium | todo | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | 52 | medium | todo | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
@@ -617,3 +617,19 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:07:29Z`: `6326` seconds.
+- Added decision-relevant convergence shortlist freshness linter:
+  - expected shortlist rows: `2`;
+  - observed shortlist rows: `2`;
+  - real freshness checks: `26`;
+  - real failures: `0`;
+  - synthetic fixture passed, including missing row, stale class, stale field, extra row, and bad summary-count failures;
+  - governance controls tracked: `34`;
+  - full preflight checks: `28`.
+- Verification passed:
+  - V48 governance preflight;
+  - decision-relevant convergence freshness lint;
+  - preflight summary card freshness lint;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:10:12Z`: `6489` seconds.

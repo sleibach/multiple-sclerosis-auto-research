@@ -1,0 +1,17 @@
+row_key	check	status	detail
+A||E1	present_in_shortlist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_decision_relevant_convergence_freshness_linter/synthetic_shortlist.tsv
+A||E1	shortlist_class_matches_relationship	FAIL	expected=corroborated_grounded_context observed=external_tension_to_ground
+A||E1	field_matches.grounded_finding_id	PASS	expected=A observed=A
+A||E1	field_matches.grounded_evidence_grade	PASS	expected=supported observed=supported
+A||E1	field_matches.grounded_artifact	PASS	expected=docs/example.md observed=docs/example.md
+A||E1	field_matches.external_record_id	PASS	expected=E1 observed=E1
+A||E1	field_matches.epistemic_class	PASS	expected=external-unverifiable observed=external-unverifiable
+A||E1	field_matches.external_source	PASS	expected=https://example.org observed=https://example.org
+A||E1	field_matches.relationship_class	PASS	expected=converges observed=converges
+A||E1	field_matches.synthesis_status	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE observed=CORROBORATION_FROM_INDEPENDENT_SOURCE
+A||E1	field_matches.interpretation	FAIL	expected=synthetic observed=stale
+A||E1	field_matches.future_grounding_action	PASS	expected=none observed=none
+B||E2	present_in_shortlist	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_decision_relevant_convergence_freshness_linter/synthetic_shortlist.tsv
+EXTRA||E3	no_extra_shortlist_row	FAIL	shortlist row is not a converges/contradicts matrix row
+summary	summary_shortlist_count_matches_rows	FAIL	summary=99 rows=2
+summary	summary_matrix_count_matches_current_matrix	FAIL	summary=99 matrix=2

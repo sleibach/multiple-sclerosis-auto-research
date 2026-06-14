@@ -43,6 +43,7 @@ CHECKS = [
     ("source_domain_relationship_freshness", ["scripts/v48_source_domain_relationship_freshness_linter.py", "lint"]),
     ("v37_coverage_freshness", ["scripts/v48_v37_coverage_freshness_linter.py", "lint"]),
     ("v37_uncovered_rationale_freshness", ["scripts/v48_v37_uncovered_rationale_freshness_linter.py", "lint"]),
+    ("decision_relevant_convergence_freshness", ["scripts/v48_decision_relevant_convergence_freshness_linter.py", "lint"]),
 ]
 
 
