@@ -190,7 +190,15 @@ tracked purge target is:
 | 135 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 134 | `meta/V49_QUEUE.md` |
 | 136 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 137 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:30:00Z` | `meta/V49_QUEUE.md` |
-| 138 | medium | todo | Refill V49 backlog above threshold if task 136 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 138 | medium | done | Refill V49 backlog above threshold if task 136 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 139 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 138 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 140 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 141 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 139-140 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 142 | medium | todo | Refresh final and resume checkpoints after task 141 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 143 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 142 | `meta/V49_QUEUE.md` |
+| 144 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 145 | medium | todo | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 146 | medium | todo | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1249,3 +1257,10 @@ tracked purge target is:
   cumulative active time `10795` seconds, wall-clock span since block start
   `11567` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue remains summed-session based.
+- Task 138 refilled the backlog above threshold after task 136. New tasks `139`
+  through `146` keep rewrite handoff, Git integrity, guard suite, checkpoints,
+  clean-state checks, active-time accounting, manifest/routing freshness, and
+  further refill work current. Task `137` remains scheduled for the
+  `2026-06-14T23:30:00Z` OpenGWAS expiry/sentinel boundary.
+- Current cumulative active time at `2026-06-14T23:10:35Z`: `10819` seconds
+  (`376` seconds session 1 plus `10443` seconds of current open session).
