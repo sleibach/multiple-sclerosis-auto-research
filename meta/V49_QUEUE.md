@@ -70,7 +70,7 @@ tracked purge target is:
 | 14 | medium | done | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/V49_RELATIONSHIP_DELTA_NOTE.md` |
 | 15 | medium | done | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
-| 17 | high | todo | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
+| 17 | high | done | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` |
 | 18 | high | todo | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `docs/validation/` |
 | 19 | medium | todo | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 
@@ -201,3 +201,12 @@ tracked purge target is:
   records, `0` failures).
 - Current cumulative active time at `2026-06-14T20:36:09Z`: `1553` seconds
   (`376` seconds session 1 plus `1177` seconds of current open session).
+- Task 17 added `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md`
+  and `knowledge_external/synthesis/v49_source_specific_import_packets.tsv`
+  for three high-actionability routes: ZMIZ1 direction import, chr1
+  KIF21B/GPR25 signal import, and coupled APC-axis record import.
+- Post-task gates: external Markdown linter PASS (`363` checks, `65`
+  Markdown files); V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures).
+- Current cumulative active time at `2026-06-14T20:37:44Z`: `1648` seconds
+  (`376` seconds session 1 plus `1272` seconds of current open session).
