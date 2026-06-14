@@ -65,7 +65,7 @@ tracked purge target is:
 | 9 | medium | done | Refresh comparator matrix only where V49 content reveals concrete source-coverage changes | no resource-record changes; no comparator refresh required |
 | 10 | medium | done | Rebuild public external index, governance preflight, provenance gate, and grounded TF-IDF after content updates | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 11 | high | done | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
-| 12 | high | todo | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
+| 12 | high | done | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V49_UNCOVERED_FINDING_TRIAGE.md` |
 | 13 | medium | todo | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 14 | medium | todo | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
@@ -159,3 +159,15 @@ tracked purge target is:
   `0` failures).
 - Current cumulative active time at `2026-06-14T20:28:18Z`: `1082` seconds
   (`376` seconds session 1 plus `706` seconds of current open session).
+- Committed insufficient-overlap triage as `0e12c50f` (`Triage V49
+  insufficient-overlap rows`).
+- Task 12 triage generated `knowledge_external/synthesis/V49_UNCOVERED_FINDING_TRIAGE.md`
+  and `knowledge_external/synthesis/v49_uncovered_finding_triage.tsv`.
+  Result: `9` uncovered V37 findings triaged into `4` medium direct-source
+  or dataset/test-only routes and `5` low-priority/optional or do-not-expand
+  routes.
+- Post-task gates: external Markdown linter PASS (`360` checks, `62`
+  Markdown files); V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures).
+- Current cumulative active time at `2026-06-14T20:30:45Z`: `1229` seconds
+  (`376` seconds session 1 plus `853` seconds of current open session).
