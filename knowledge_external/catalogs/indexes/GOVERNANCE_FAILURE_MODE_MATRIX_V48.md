@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `89`
+- controls mapped: `95`
 - boundary classes: `28`
 - unmapped boundaries: `0`
 
@@ -53,7 +53,13 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-intake package manifest freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
 | Source-intake reproducibility checklist | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
 | Source-intake reproducibility checklist freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
+| Source-intake reviewer handoff checklist | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
+| Source-intake reviewer handoff checklist freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
+| Source-intake stop/go scorecard | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
+| Source-intake stop/go scorecard freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `governance mapping control` | control-to-failure-mode explanations drift from current governance navigation | `PASS` | `scripts/v48_governance_failure_mode_freshness_linter.py` |
+| Active-time accounting audit card | `governance/navigation only` | governance summary cards are overread as evidence or source validation | `PASS` | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
+| Active-time accounting audit card freshness linter | `governance/navigation only` | governance summary cards are overread as evidence or source validation | `PASS` | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
 | Source-intake controls coverage card | `governance/navigation only` | governance summary cards are overread as evidence or source validation | `PASS` | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | Source-intake controls coverage card freshness linter | `governance/navigation only` | governance summary cards are overread as evidence or source validation | `PASS` | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
 | Preflight summary card freshness linter | `handoff/navigation control` | handoff card drifts from current checks or commands | `PASS` | `scripts/v48_preflight_summary_card_freshness_linter.py` |

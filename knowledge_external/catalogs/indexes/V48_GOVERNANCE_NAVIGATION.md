@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `89`
+- artifacts tracked: `95`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -69,8 +69,14 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-intake decision error taxonomy freshness linter | `yes` | `PASS` | Ensures the decision-error taxonomy keeps error classes, severity levels, linked controls, and boundary language. | future-search control | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | Source-intake reproducibility checklist | `yes` | `PASS` | Reviewer checklist for reproducing future source-intake routing decisions from locator, audit log, and controls. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
 | Source-intake reproducibility checklist freshness linter | `yes` | `PASS` | Ensures the reproducibility checklist keeps checks, reviewer outcomes, linked controls, and no-evidence language. | future-search control | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
+| Source-intake stop/go scorecard | `yes` | `PASS` | Pre-specified stop, park, or proceed routing template for future source hits. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
+| Source-intake stop/go scorecard freshness linter | `yes` | `PASS` | Ensures the stop/go scorecard keeps criteria, outcomes, linked controls, and no-evidence-score language. | future-search control | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
+| Source-intake reviewer handoff checklist | `yes` | `PASS` | Session-to-session handoff checklist for future source-intake review continuity. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
+| Source-intake reviewer handoff checklist freshness linter | `yes` | `PASS` | Ensures the reviewer handoff checklist keeps fields, statuses, links, and operational-only boundary language. | future-search control | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
 | Source-intake controls coverage card | `yes` | `PASS` | Summary card mapping V48 source-intake safeguards to the failure modes they prevent. | governance/navigation only | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | Source-intake controls coverage card freshness linter | `yes` | `PASS` | Ensures the source-intake controls coverage card keeps safeguard counts, failure-mode counts, links, and boundary language. | governance/navigation only | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
+| Active-time accounting audit card | `yes` | `PASS` | Operational card distinguishing cumulative active time from wall-clock span for V48 reporting. | governance/navigation only | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
+| Active-time accounting audit card freshness linter | `yes` | `PASS` | Ensures the active-time accounting audit keeps timing rules, audit checks, links, and operational-only boundary language. | governance/navigation only | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
 | Relationship-row candidate template | `yes` | `PASS` | Draft template for future candidate convergence/contradiction rows before matrix acceptance. | future-search control | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | Relationship-row candidate template freshness linter | `yes` | `PASS` | Ensures the relationship-row candidate template keeps required fields, candidate statuses, forbidden shortcuts, and promotion rules. | future-search control | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | Contradiction triage mini-template | `yes` | `PASS` | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future-search control | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |

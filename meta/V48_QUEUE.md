@@ -1,6 +1,6 @@
 # V48 Queue: Convergence/Contradiction Analysis + Active-Time Tracking
 
-Status: active. This queue tracks summed active session intervals, not calendar
+Status: complete. This queue tracks summed active session intervals, not calendar
 span across resume gaps.
 
 ## Timing
@@ -13,7 +13,7 @@ span across resume gaps.
 
 | session | start_utc | end_utc | active_seconds | note |
 |---:|---|---|---:|---|
-| 1 | `2026-06-14T13:22:03Z` | OPEN | OPEN | initial V48 session |
+| 1 | `2026-06-14T13:22:03Z` | `2026-06-14T19:26:07Z` | 21844 | initial V48 session; V48 active target met at clean governance/provenance commit point |
 
 ## Required Checks
 
@@ -165,7 +165,7 @@ span across resume gaps.
 | 137 | medium | done | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
 | 138 | medium | done | Build V48 active-time accounting audit card distinguishing active time from wall-clock span | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
 | 139 | medium | done | Add V48 active-time accounting audit card freshness linter | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
-| 140 | medium | todo | Integrate stop/go scorecard, reviewer handoff, and active-time audit controls into public index and governance after linters exist | `knowledge_external/INDEX.md` |
+| 140 | medium | done | Integrate stop/go scorecard, reviewer handoff, and active-time audit controls into public index and governance after linters exist | `knowledge_external/INDEX.md` |
 | 141 | medium | todo | Build V48 external intake command bundle for future operators | `knowledge_external/templates/SOURCE_INTAKE_COMMAND_BUNDLE_V48.md` |
 | 142 | medium | todo | Add V48 external intake command bundle freshness linter | `scripts/v48_source_intake_command_bundle_freshness_linter.py` |
 
@@ -1917,3 +1917,31 @@ span across resume gaps.
 - Final gates after task 139:
   - external Markdown linter: PASS (`312` checks, `60` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Integrated the stop/go scorecard, reviewer handoff checklist, and active-time
+  accounting audit card into public and governance surfaces:
+  - public external index crosslinks: `56`;
+  - public-index freshness required targets: `50`;
+  - dependency graph: `47` artifact nodes, `224` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `95` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `95` controls, `28` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `95` controls represented;
+  - governance preflight: PASS with `65` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Tooling health at close:
+  - OpenGWAS: PASS via POST-only access check; JWT valid until
+    `2026-06-19 12:28 UTC`, renew soon;
+  - SAP AI Core: Claude PASS with `smoke --model claude` resolving
+    deployment `def854013c7ac379`; Gemini PASS; RPT PASS;
+  - note: `smoke --model def854013c7ac379` does not resolve through the
+    CLI model-query selector, so use `--model claude` for Claude smoke tests.
+- Final gates after task 140:
+  - external Markdown linter: PASS (`312` checks, `60` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records);
+  - governance preflight: PASS (`65` checks, `0` failures);
+  - V48 active target met: `21844` active seconds (`6h 04m 04s`) from the
+    summed session interval; wall-clock span is also `21844` seconds because
+    V48 completed in one recorded session interval.

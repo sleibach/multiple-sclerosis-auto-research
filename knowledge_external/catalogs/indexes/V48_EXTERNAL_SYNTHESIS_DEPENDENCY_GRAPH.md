@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `44`
-- dependency/control edges: `201`
+- artifact nodes: `47`
+- dependency/control edges: `224`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -43,7 +43,10 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | Source-intake audit log template | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` | 8 | 1 | future-search/navigation only |
 | Source-intake decision error taxonomy | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` | 7 | 1 | future-search/navigation only |
 | Source-intake reproducibility checklist | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` | 8 | 1 | future-search/navigation only |
+| Source-intake stop/go scorecard | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` | 8 | 1 | future-search/navigation only |
+| Source-intake reviewer handoff checklist | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` | 8 | 1 | future-search/navigation only |
 | Source-intake controls coverage card | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` | 13 | 1 | governance/navigation only |
+| Active-time accounting audit card | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` | 4 | 1 | governance/navigation only |
 | Relationship-row candidate template | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` | 3 | 1 | future-search/navigation only |
 | Contradiction triage mini-template | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` | 5 | 1 | future-search/navigation only |
 | Contradiction readiness playbook | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` | 1 | 1 | future contradiction handling only |

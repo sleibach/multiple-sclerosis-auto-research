@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `85`
+- V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -78,7 +78,10 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 source-intake audit log template](templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md) | Audit trail template for future source-intake operator decisions. | future search/navigation only |
 | [V48 source-intake decision error taxonomy](templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md) | QA taxonomy for classifying future source-intake process errors. | future search/navigation only |
 | [V48 source-intake reproducibility checklist](templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md) | Reviewer checklist for reproducing future source-intake routing decisions. | future search/navigation only |
+| [V48 source-intake stop/go scorecard](templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md) | Pre-specified stop, park, or proceed routing template for future source hits. | future search/navigation only |
+| [V48 source-intake reviewer handoff checklist](templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md) | Session-to-session handoff checklist for future source-intake review. | future search/navigation only |
 | [V48 source-intake controls coverage](catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md) | Summary card mapping source-intake safeguards to failure modes. | governance/navigation only |
+| [V48 active-time accounting audit](catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md) | Operational card distinguishing cumulative active time from wall-clock span. | governance/navigation only |
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
 | [V48 contradiction triage mini-template](templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md) | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |

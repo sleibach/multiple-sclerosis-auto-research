@@ -364,6 +364,38 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Source-intake stop/go scorecard",
+        "output": "knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md",
+        "inputs": [
+            "knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+            "knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md",
+            "knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md",
+            "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
+        ],
+        "controls": ["scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
+        "artifact": "Source-intake reviewer handoff checklist",
+        "output": "knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md",
+        "inputs": [
+            "meta/V48_QUEUE.md",
+            "knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md",
+            "knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md",
+            "knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
+            "knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md",
+        ],
+        "controls": ["scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Source-intake controls coverage card",
         "output": "knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md",
         "inputs": [
@@ -382,6 +414,18 @@ NODES = [
             "knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md",
         ],
         "controls": ["scripts/v48_source_intake_controls_coverage_freshness_linter.py"],
+        "boundary": "governance/navigation only",
+    },
+    {
+        "artifact": "Active-time accounting audit card",
+        "output": "knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md",
+        "inputs": [
+            "meta/V48_QUEUE.md",
+            "knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
+            "knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md",
+            "scripts/v47_provenance_gate.py",
+        ],
+        "controls": ["scripts/v48_active_time_accounting_audit_freshness_linter.py"],
         "boundary": "governance/navigation only",
     },
     {
