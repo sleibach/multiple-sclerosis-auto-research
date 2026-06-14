@@ -103,7 +103,15 @@ span across resume gaps.
 | 75 | medium | done | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | 76 | medium | done | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | 77 | medium | done | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
-| 78 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 78 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 79 | medium | todo | Add unresolved external coverage handoff freshness linter | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
+| 80 | medium | todo | Integrate unresolved handoff freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
+| 81 | medium | todo | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
+| 82 | medium | todo | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
+| 83 | medium | todo | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
+| 84 | medium | todo | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
+| 85 | medium | todo | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
+| 86 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -1071,3 +1079,23 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:36:21Z`: `11658` seconds.
+- Rebuilt public external index, governance preflight, and grounded TF-IDF index after tasks 71-77:
+  - public external navigation links: `35`;
+  - public-index required targets: `29`;
+  - public-index crosslink failures: `0`;
+  - governance controls tracked: `47`;
+  - full preflight checks: `40`;
+  - V47 provenance gate checks: `354`;
+  - external Markdown lint checks: `290`;
+  - TF-IDF indexed grounded-tree documents: `727`;
+  - `knowledge_external/` remains excluded from the grounded TF-IDF globs.
+- Verification passed:
+  - public external index synthetic fixture;
+  - public-index freshness lint;
+  - public-index crosslink lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate;
+  - TF-IDF rebuild.
+- Refilled backlog with generated tasks 79-86 because active time remains below the `21600` second target.
+- Current open-session active time at `2026-06-14T16:38:59Z`: `11816` seconds.

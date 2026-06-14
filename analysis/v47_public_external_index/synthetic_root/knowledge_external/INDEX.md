@@ -42,6 +42,8 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 high-priority source-terms packet](catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md) | Focused packet for high-priority missing source_terms records. | source terms triage only |
 | [V48 governance navigation](catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md) | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |
 | [V48 governance failure-mode matrix](catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md) | Map each governance control to the failure mode it prevents. | governance/navigation only |
+| [V48 external synthesis dependency graph](catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md) | Map V48 external synthesis artifacts to their upstream inputs and freshness controls. | governance/navigation only |
+| [V48 evidence-boundary glossary](catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md) | Explain the boundary labels used by V48 external-knowledge controls. | governance/navigation only |
 | [V48 preflight summary card](catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md) | Fast command/status handoff for V48 governance checks. | governance/navigation only |
 | [V48 external-governance handoff](catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md) | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
@@ -56,6 +58,8 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 V37 uncovered finding rationale](synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md) | Rationale for V37 scored findings without V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 external coverage gap priority](synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md) | Sourcing-priority map for uncovered V37 findings. | sourcing/navigation only |
 | [V48 high-priority external sourcing plan](synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md) | Source-route plan for high-priority V37 external coverage gaps. | future intake/navigation only |
+| [V48 high-priority source-search query packet](synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md) | Concrete search-query packet for high-priority sourcing gaps; queries are candidates only. | future search/navigation only |
+| [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |
 | [Intake templates](templates/README.md) | Templates for future external-verifiable claim intake. | queued claims are not findings |
