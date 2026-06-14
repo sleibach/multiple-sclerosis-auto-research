@@ -140,7 +140,7 @@ span across resume gaps.
 | 112 | medium | done | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | 113 | medium | done | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | 114 | medium | done | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
-| 115 | medium | todo | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
+| 115 | medium | done | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | 117 | medium | todo | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
 | 118 | medium | todo | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
@@ -1591,5 +1591,16 @@ span across resume gaps.
   - boundary: template/navigation only; prevents same-source overcounting
     before any future convergence, contradiction, or future-grounding route.
 - Final gates after task 114:
+  - external Markdown linter: PASS (`302` checks, `50` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:23:36Z`: `18093` seconds.
+- Added source de-duplication intake checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    de-duplication/state/action counts, and stale summary values fail;
+  - real freshness checks: `34`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; source independence remains a
+    routing/control issue, not evidence.
+- Final gates after task 115:
   - external Markdown linter: PASS (`302` checks, `50` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

@@ -1,0 +1,35 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md
+section_present.Required Controls	PASS	required de-duplication checklist section
+section_present.De-Duplication Checks	PASS	required de-duplication checklist section
+section_present.Duplicate States	PASS	required de-duplication checklist section
+section_present.Safe Merge Actions	PASS	required de-duplication checklist section
+section_present.Minimum Independence Note	PASS	required de-duplication checklist section
+section_present.Forbidden Shortcuts	PASS	required de-duplication checklist section
+section_present.Verification Before Commit	PASS	required de-duplication checklist section
+section_present.Boundary	PASS	required de-duplication checklist section
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.does_not_assert_relationship	PASS	required boundary phrase
+phrase_present.does_not_change_grounded	PASS	required boundary phrase
+phrase_present.no_review_overcount	PASS	required boundary phrase
+phrase_present.no_model_shortcut	PASS	required boundary phrase
+phrase_present.no_unclear_independence	PASS	required boundary phrase
+phrase_present.not_evidence	PASS	required boundary phrase
+phrase_present.same_source_overcounting	PASS	required boundary phrase
+table_count.deduplication_checks	PASS	observed=9 expected=9
+table_count.duplicate_states	PASS	observed=5 expected=5
+table_count.safe_merge_actions	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md observed=knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md
+summary_matches.n_deduplication_checks	PASS	expected=9 observed=9
+summary_matches.n_duplicate_states	PASS	expected=5 observed=5
+summary_matches.n_required_linked_controls	PASS	expected=6 observed=6
+summary_matches.n_safe_merge_actions	PASS	expected=5 observed=5
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source de-duplication intake checklist; template/navigation only; no biological claim observed=V48 source de-duplication intake checklist; template/navigation only; no biological claim

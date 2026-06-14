@@ -1,0 +1,35 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_deduplication_intake_checklist_freshness_linter/synthetic_dedup_template.md
+section_present.Required Controls	FAIL	required de-duplication checklist section
+section_present.De-Duplication Checks	PASS	required de-duplication checklist section
+section_present.Duplicate States	FAIL	required de-duplication checklist section
+section_present.Safe Merge Actions	FAIL	required de-duplication checklist section
+section_present.Minimum Independence Note	FAIL	required de-duplication checklist section
+section_present.Forbidden Shortcuts	FAIL	required de-duplication checklist section
+section_present.Verification Before Commit	FAIL	required de-duplication checklist section
+section_present.Boundary	PASS	required de-duplication checklist section
+link_present.knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_assert_relationship	FAIL	required boundary phrase
+phrase_present.does_not_change_grounded	FAIL	required boundary phrase
+phrase_present.no_review_overcount	FAIL	required boundary phrase
+phrase_present.no_model_shortcut	FAIL	required boundary phrase
+phrase_present.no_unclear_independence	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+phrase_present.same_source_overcounting	FAIL	required boundary phrase
+table_count.deduplication_checks	FAIL	observed=1 expected=9
+table_count.duplicate_states	FAIL	observed=0 expected=5
+table_count.safe_merge_actions	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md observed=stale
+summary_matches.n_deduplication_checks	FAIL	expected=9 observed=1
+summary_matches.n_duplicate_states	FAIL	expected=5 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=6 observed=
+summary_matches.n_safe_merge_actions	FAIL	expected=5 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source de-duplication intake checklist; template/navigation only; no biological claim observed=
