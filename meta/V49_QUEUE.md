@@ -162,7 +162,7 @@ tracked purge target is:
 | 106 | medium | done | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 107 | high | done | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
 | 108 | medium | done | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 109 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 109 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 110 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 111 | medium | todo | Refresh final and resume checkpoints after task 110 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 112 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 111 | `meta/V49_QUEUE.md` |
@@ -1055,3 +1055,8 @@ tracked purge target is:
   `35`, and still `0` grounded finding or locked-rule files.
 - Current cumulative active time at `2026-06-14T22:41:27Z`: `9071` seconds
   (`376` seconds session 1 plus `8695` seconds of current open session).
+- Task 109 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `63f3cb33905737cee1271a5edf9fe3aa5d0ff210` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:42:05Z`: `9109` seconds
+  (`376` seconds session 1 plus `8733` seconds of current open session).

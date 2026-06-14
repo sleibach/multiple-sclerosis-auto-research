@@ -38,15 +38,25 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:31:43Z`:
+Current push target checkpoint, verified at `2026-06-14T22:42:05Z`:
 
 - current branch: `main`
-- current HEAD: `4d26af9bed2f1dcca07a4dfa3ca056be596aae72`
+- current HEAD: `63f3cb33905737cee1271a5edf9fe3aa5d0ff210`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+63f3cb33 Refresh V49 manifest for gap audit
+97a1911b Route V49 quickstart to gap closure audit
+4ce2c685 Add V49 gap closure completeness audit
+e9721678 Refill V49 backlog with gap audit
+bed8a086 Audit V49 active time after integrity stretch
+80f4a22f Record V49 clean state after integrity checkpoints
+63ffcc99 Refresh V49 checkpoints after integrity guards
+f883056b Record V49 guard pass after integrity checkpoint
+13f24768 Refresh V49 git integrity after token check
+ded7bf94 Refresh V49 handoff after scheduled token check
 4d26af9b Refill V49 backlog after scheduled token check
 e8128628 Record V49 scheduled OpenGWAS check
 8480b99f Close duplicate V49 scheduled OpenGWAS task
@@ -55,16 +65,6 @@ e8128628 Record V49 scheduled OpenGWAS check
 c959e8a7 Record V49 post-handoff guard pass
 38335b74 Refresh V49 handoff after backlog cleanup
 d471b85c Refill V49 backlog and close stale tasks
-9b622e2d Record V49 clean state after checkpoint refresh
-9bb71071 Refresh V49 checkpoints after quickstart guards
-5157be84 Record V49 quickstart guard pass
-94d5d7f8 Refresh V49 handoff after quickstart routing
-3149e598 Route V49 quickstart to convergence pointer
-6207d8b2 Document V49 convergence pointer in manifest
-3b32a2cc Refill V49 backlog after clean-state check
-32bb9362 Record V49 post-checkpoint clean state
-dafa859f Refresh V49 checkpoints after pointer guards
-4cd0fa72 Record V49 pointer guard pass
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
