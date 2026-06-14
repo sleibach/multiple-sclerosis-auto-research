@@ -139,7 +139,7 @@ span across resume gaps.
 | 111 | medium | done | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 112 | medium | done | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | 113 | medium | done | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
-| 114 | medium | todo | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
+| 114 | medium | done | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
 | 115 | medium | todo | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | 117 | medium | todo | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
@@ -1581,4 +1581,15 @@ span across resume gaps.
     non-evidence until release conditions and provenance gates pass.
 - Final gates after task 113:
   - external Markdown linter: PASS (`301` checks, `49` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:22:08Z`: `18005` seconds.
+- Built external source de-duplication intake checklist:
+  - de-duplication checks: `9`;
+  - duplicate states: `5`;
+  - safe merge actions: `5`;
+  - required linked controls: `6`;
+  - boundary: template/navigation only; prevents same-source overcounting
+    before any future convergence, contradiction, or future-grounding route.
+- Final gates after task 114:
+  - external Markdown linter: PASS (`302` checks, `50` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
