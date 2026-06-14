@@ -106,7 +106,7 @@ span across resume gaps.
 | 78 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 79 | medium | done | Add unresolved external coverage handoff freshness linter | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
 | 80 | medium | done | Integrate unresolved handoff freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
-| 81 | medium | todo | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
+| 81 | medium | done | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | 82 | medium | todo | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
 | 83 | medium | todo | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | 84 | medium | todo | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
@@ -1128,3 +1128,12 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:44:21Z`: `12138` seconds.
+- Built V48 relationship-matrix data dictionary:
+  - matrix fields: `15`;
+  - missing definitions: `0`;
+  - field classes: external record `6`, grounded project finding `4`, relationship classification `3`, future work `1`, quality control `1`;
+  - boundary: schema/navigation only; no external records were added and no grounded finding was changed.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:46:00Z`: `12237` seconds.

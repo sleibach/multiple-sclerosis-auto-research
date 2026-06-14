@@ -1,0 +1,16 @@
+field_order	field_name	field_class	definition	allowed_values	boundary
+1	grounded_finding_id	grounded_project_finding	Project finding label used for relationship classification.		Data dictionary only; field definitions do not add external records or change grounded findings.
+2	grounded_category	grounded_project_finding	V37-style finding category such as positive, negative/decoupling, kill/closed, or methodological.		Data dictionary only; field definitions do not add external records or change grounded findings.
+3	grounded_evidence_grade	grounded_project_finding	Evidence grade assigned by the grounded project report.		Data dictionary only; field definitions do not add external records or change grounded findings.
+4	grounded_artifact	grounded_project_finding	Project artifact path that remains the evidence source.		Data dictionary only; field definitions do not add external records or change grounded findings.
+5	external_record_id	external_record	Segregated external record identifier.		Data dictionary only; field definitions do not add external records or change grounded findings.
+6	external_record_type	external_record	External record subtype used for navigation and source-domain accounting.		Data dictionary only; field definitions do not add external records or change grounded findings.
+7	external_record_path	external_record	Path to the segregated external record.		Data dictionary only; field definitions do not add external records or change grounded findings.
+8	epistemic_class	external_record	External epistemic class; not a project-grounded finding.	external-verifiable;external-unverifiable	Data dictionary only; field definitions do not add external records or change grounded findings.
+9	external_source	external_record	External source locator used for provenance.		Data dictionary only; field definitions do not add external records or change grounded findings.
+10	not_project_grounded_marker	external_record	Explicit marker preserving the external/grounded boundary.	NOT_PROJECT_GROUNDED	Data dictionary only; field definitions do not add external records or change grounded findings.
+11	relationship_class	relationship_classification	Controlled relationship label between the grounded finding and external record.	contradicts;converges;insufficient-overlap	Data dictionary only; field definitions do not add external records or change grounded findings.
+12	synthesis_status	relationship_classification	Controlled operational status derived from the relationship class.	CORROBORATION_FROM_INDEPENDENT_SOURCE;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION;NO_DIRECT_EXTERNAL_CORROBORATION;RESOURCE_CAN_QUEUE_FUTURE_CHECK	Data dictionary only; field definitions do not add external records or change grounded findings.
+13	interpretation	relationship_classification	Short boundary-safe interpretation; external context never overrides grounded artifacts.		Data dictionary only; field definitions do not add external records or change grounded findings.
+14	future_grounding_action	future_work	Queued action if further grounding or refresh is warranted.		Data dictionary only; field definitions do not add external records or change grounded findings.
+15	row_status	quality_control	Row-level generation/check status.		Data dictionary only; field definitions do not add external records or change grounded findings.
