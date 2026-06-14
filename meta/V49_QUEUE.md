@@ -141,7 +141,7 @@ tracked purge target is:
 | 85 | medium | done | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 86 | medium | done | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 87 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 88 | medium | todo | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 88 | medium | done | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 90 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
 | 91 | medium | todo | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
@@ -897,3 +897,9 @@ tracked purge target is:
   blobs above `50 MiB`). The guard outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-14T22:21:30Z`: `7874` seconds
   (`376` seconds session 1 plus `7498` seconds of current open session).
+- Task 88 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `5157be8460c9b6631fe5c6e35da0837dc6223546`, cumulative active time `7902`
+  seconds, latest guard state, and open tasks `89` through `91`.
+- Current cumulative active time at `2026-06-14T22:21:58Z`: `7902` seconds
+  (`376` seconds session 1 plus `7526` seconds of current open session).

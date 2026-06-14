@@ -5,23 +5,23 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-14T22:13:30Z`
+- refreshed_utc: `2026-06-14T22:21:58Z`
 - current HEAD before this checkpoint refresh was written:
-  `4cd0fa7252ee3868ba023b0823cc53c0ad625e15`
+  `5157be8460c9b6631fe5c6e35da0837dc6223546`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `7365`
-  seconds at `2026-06-14T22:13:01Z`
-- cumulative active time at this checkpoint timestamp: `7394` seconds
+- last recorded cumulative active time before this checkpoint refresh: `7874`
+  seconds at `2026-06-14T22:21:30Z`
+- cumulative active time at this checkpoint timestamp: `7902` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
 
 - session 1: `376` seconds
-- session 2 open elapsed at checkpoint: `7018` seconds
-- cumulative at checkpoint: `7394` seconds
+- session 2 open elapsed at checkpoint: `7526` seconds
+- cumulative at checkpoint: `7902` seconds
 
 ## Completed V49 Work
 
@@ -49,9 +49,9 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 81 | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary. |
-| 82 | todo | Verify final working-tree cleanliness and tracked-size policy after task 80. |
-| 83 | todo | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks. |
+| 89 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z`. |
+| 90 | todo | Verify working-tree cleanliness and tracked-size policy after task 88. |
+| 91 | todo | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -84,8 +84,7 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 81 if the scheduling boundary has been reached, then
-task 82 and task 83. If active work crosses the next half-hour boundary, rerun
-the OpenGWAS expiry/sentinel check before further OpenGWAS-dependent work. Do
-not stop for a final summary unless the active 6-hour target is met, external
-termination occurs, or a documented all-fronts block exists.
+Continue V49 with task 90 unless `2026-06-14T22:30:00Z` has been reached, in
+which case run task 89 first. After task 90, use task 91 to refill the backlog
+above threshold. Do not stop for a final summary unless the active 6-hour target
+is met, external termination occurs, or a documented all-fronts block exists.
