@@ -6,12 +6,12 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `50`
+- new V49 files listed: `51`
 - segregated source-context records: `8`
 - external synthesis/catalog/navigation files: `34`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
-- operational meta files: `4`
+- operational meta files: `5`
 - grounded finding or locked-rule files added: `0`
 
 ## New Files
@@ -68,6 +68,7 @@ navigation/source-context outputs with grounded evidence.
 | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` | operational meta | Confirms V49 external artifacts are excluded from grounded TF-IDF index. |
 | `meta/V49_RESUME_CHECKPOINT.md` | operational meta | Resume card with current state, open tasks, and next action. |
 | `meta/V49_ARTIFACT_MANIFEST.md` | operational meta | Boundary-class manifest for V49-added files. |
+| `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` | operational meta | Audit of remaining references to purged large/cache/generated artifacts. |
 
 ## Modified Existing Files Of Note
 

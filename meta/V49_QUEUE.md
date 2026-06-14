@@ -96,7 +96,7 @@ tracked purge target is:
 | 40 | medium | done | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 41 | medium | done | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
-| 43 | medium | todo | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 43 | medium | done | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 44 | medium | todo | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 45 | medium | todo | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 46 | medium | todo | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
@@ -506,3 +506,12 @@ tracked purge target is:
   large-file guard PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:24:43Z`: `4467` seconds
   (`376` seconds session 1 plus `4091` seconds of current open session).
+- Task 43 refreshed `meta/V49_ARTIFACT_MANIFEST.md` after the post-manifest
+  purge-reference audit was added. Result: manifest row count now matches the
+  summary at `51` V49-added files, including `5` operational meta files and
+  still `0` grounded finding or locked-rule files.
+- Post-task gates: manifest row-count check PASS, V47 provenance gate PASS
+  (`436` checks, `47` records, `0` failures), and large-file guard PASS (`0`
+  tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:25:39Z`: `4523` seconds
+  (`376` seconds session 1 plus `4147` seconds of current open session).
