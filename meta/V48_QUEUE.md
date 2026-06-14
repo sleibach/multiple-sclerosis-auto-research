@@ -34,7 +34,7 @@ span across resume gaps.
 | 6 | high | done | Queue future-grounding follow-up records for contradictions or high-value insufficient-overlap gaps | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | 7 | medium | done | Improve public external index with convergence/contradiction navigation | `knowledge_external/INDEX.md` |
 | 8 | medium | done | Add source-locator normalization linter | `scripts/v48_source_locator_normalization_linter.py` |
-| 9 | medium | todo | Add public index crosslink linter | `scripts/` |
+| 9 | medium | done | Add public index crosslink linter | `scripts/v48_public_index_crosslink_linter.py` |
 | 10 | medium | todo | Add source license/terms metadata template/linter | `knowledge_external/templates/`, `scripts/` |
 | 11 | medium | todo | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/` |
 | 12 | medium | todo | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/` |
@@ -92,3 +92,8 @@ span across resume gaps.
 - Narrowly allowlisted the V48 source-locator analysis fixture directory in
   the provenance gate, matching the existing V47 governance-output allowlist
   pattern.
+- Current open-session active time at `2026-06-14T13:38:10Z`: `967` seconds.
+- Added public external-index crosslink linter:
+  - synthetic fixtures passed;
+  - real links checked: `10`;
+  - real failures: `0`.
