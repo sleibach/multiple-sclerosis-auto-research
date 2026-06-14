@@ -122,7 +122,7 @@ tracked purge target is:
 | 66 | high | done | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 67 | medium | done | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
 | 68 | medium | done | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
-| 69 | medium | todo | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
+| 69 | medium | done | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 70 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
 | 71 | medium | todo | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 72 | medium | todo | Run git fsck and object-store checkpoint after post-checkpoint commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -752,3 +752,10 @@ tracked purge target is:
   dropped below threshold. These tasks keep the block on push-safety,
   repository integrity, guard recency, and resumability without adding new
   governance scaffolding.
+- Task 69 reloaded `.env` and reran `scripts/check_opengwas_access.py`.
+  Result: `OPENGWAS_JWT` loaded, local decoded expiry
+  `2026-06-19 12:28 UTC`, `gwasinfo_ieu_b_18` HTTP `200`,
+  `tophits_ieu_b_18` HTTP `200`, and access check passed. Renewal remains
+  required before OpenGWAS-dependent work after expiry.
+- Current cumulative active time at `2026-06-14T22:01:47Z`: `6691` seconds
+  (`376` seconds session 1 plus `6315` seconds of current open session).
