@@ -68,7 +68,7 @@ tracked purge target is:
 | 12 | high | done | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V49_UNCOVERED_FINDING_TRIAGE.md` |
 | 13 | medium | done | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 14 | medium | done | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/V49_RELATIONSHIP_DELTA_NOTE.md` |
-| 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
+| 15 | medium | done | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 17 | high | todo | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 | 18 | high | todo | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `docs/validation/` |
@@ -190,3 +190,14 @@ tracked purge target is:
   records, `0` failures).
 - Current cumulative active time at `2026-06-14T20:34:31Z`: `1455` seconds
   (`376` seconds session 1 plus `1079` seconds of current open session).
+- Task 15 added `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md`
+  and `knowledge_external/catalogs/indexes/v49_new_source_domain_review.tsv`.
+  Result: `8` V49-added sources reviewed; `0` need parking for current
+  metadata-only use; `1` publisher-hosted source needs access/terms parking
+  before fuller reuse; `4` PMC-hosted sources need source-specific terms review
+  before table/figure/extended-text reuse.
+- Post-task gates: external Markdown linter PASS (`362` checks, `64`
+  Markdown files); V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures).
+- Current cumulative active time at `2026-06-14T20:36:09Z`: `1553` seconds
+  (`376` seconds session 1 plus `1177` seconds of current open session).
