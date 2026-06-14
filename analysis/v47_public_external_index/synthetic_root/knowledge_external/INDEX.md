@@ -47,12 +47,15 @@ Grounded project findings remain in the normal project report/history/validation
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
+| [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |
 | [V48 decision-relevant convergence shortlist](synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md) | Shortlist of current corroborated-context rows and contradictions, if any. | synthesis/navigation only |
 | [V48 contradiction readiness playbook](synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md) | Predefined handling for future external contradictions without overriding grounded findings. | future-grounding control |
+| [V48 contradiction surveillance checklist](synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md) | Future contradiction surveillance triggers by source class and finding category. | future-grounding control |
 | [V48 V37 finding external coverage map](synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md) | Coverage map showing which V37 scored findings have V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 uncovered finding rationale](synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md) | Rationale for V37 scored findings without V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 external coverage gap priority](synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md) | Sourcing-priority map for uncovered V37 findings. | sourcing/navigation only |
+| [V48 high-priority external sourcing plan](synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md) | Source-route plan for high-priority V37 external coverage gaps. | future intake/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |
 | [Intake templates](templates/README.md) | Templates for future external-verifiable claim intake. | queued claims are not findings |

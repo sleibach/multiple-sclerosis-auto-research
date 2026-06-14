@@ -95,7 +95,7 @@ span across resume gaps.
 | 67 | medium | done | Add high-priority external sourcing plan freshness linter | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | 68 | medium | done | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
 | 69 | medium | done | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
-| 70 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 70 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -941,3 +941,26 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:09:59Z`: `10476` seconds.
+- Rebuilt public external index, governance outputs, preflight, and TF-IDF index after tasks 63-69:
+  - public external navigation links: `31`;
+  - public-index required targets: `25`;
+  - public-index crosslink failures: `0`;
+  - governance controls tracked: `43`;
+  - full preflight checks: `37`;
+  - V47 provenance gate checks: `354`;
+  - external Markdown lint checks: `286`;
+  - TF-IDF indexed grounded-tree documents: `727`;
+  - `knowledge_external/` remains excluded from the grounded TF-IDF globs.
+- Verification passed:
+  - public external index synthetic fixture;
+  - public-index freshness lint;
+  - public-index crosslink lint;
+  - governance navigation freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - convergence executive-card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate;
+  - TF-IDF rebuild.
+- Current open-session active time at `2026-06-14T16:11:47Z`: `10664` seconds.
