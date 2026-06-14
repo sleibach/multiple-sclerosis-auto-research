@@ -38,15 +38,20 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:19:43Z`:
+Current push target checkpoint, verified at `2026-06-14T22:25:05Z`:
 
 - current branch: `main`
-- current HEAD: `3149e598153f2ed5f62d416c576445338db38921`
+- current HEAD: `d471b85c1f5cda82cdc5eeab5694459d36cc6adb`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+d471b85c Refill V49 backlog and close stale tasks
+9b622e2d Record V49 clean state after checkpoint refresh
+9bb71071 Refresh V49 checkpoints after quickstart guards
+5157be84 Record V49 quickstart guard pass
+94d5d7f8 Refresh V49 handoff after quickstart routing
 3149e598 Route V49 quickstart to convergence pointer
 6207d8b2 Document V49 convergence pointer in manifest
 3b32a2cc Refill V49 backlog after clean-state check
@@ -60,11 +65,6 @@ c85773eb Recheck V49 ignore recurrence protections
 d391e6f1 Refresh V49 final checkpoint state
 c98baded Record V49 final guard suite pass
 47dfe6c5 Refresh V49 git integrity checkpoint
-017c4e8e Refresh V49 push handoff after queue commits
-b2f98051 Record V49 clean tree and size guard
-9590784c Record V49 OpenGWAS expiry recheck
-eaf58d43 Audit V49 active time after checkpoint
-bd04d815 Refresh V49 resume checkpoint after guards
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop

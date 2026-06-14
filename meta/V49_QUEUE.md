@@ -145,7 +145,7 @@ tracked purge target is:
 | 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 90 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
 | 91 | medium | done | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
-| 92 | medium | todo | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 92 | medium | done | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 93 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after task 92 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 94 | medium | todo | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 95 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
@@ -926,3 +926,8 @@ tracked purge target is:
   backlog hygiene current.
 - Current cumulative active time at `2026-06-14T22:24:22Z`: `8046` seconds
   (`376` seconds session 1 plus `7670` seconds of current open session).
+- Task 92 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `d471b85c1f5cda82cdc5eeab5694459d36cc6adb` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:25:05Z`: `8089` seconds
+  (`376` seconds session 1 plus `7713` seconds of current open session).
