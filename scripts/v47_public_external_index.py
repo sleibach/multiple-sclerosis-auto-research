@@ -1,0 +1,197 @@
+#!/usr/bin/env python3
+"""Generate the public V47 external knowledge navigation index.
+
+The output is a reader-facing map of the external knowledge tree. It is
+navigation only: it preserves the epistemic boundary and does not validate or
+promote any external claim.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import shutil
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+EXTERNAL_ROOT = "knowledge_external"
+DEFAULT_OUTDIR = ROOT / EXTERNAL_ROOT
+DEFAULT_SYNTHETIC_OUTDIR = ROOT / "analysis/v47_public_external_index"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="command", required=True)
+    build = sub.add_parser("build", help="Build knowledge_external/INDEX.md")
+    build.add_argument("--root", type=Path, default=ROOT)
+    build.add_argument("--outdir", type=Path, default=DEFAULT_OUTDIR)
+    synth = sub.add_parser("synthetic-check", help="Run synthetic public-index fixture")
+    synth.add_argument("--outdir", type=Path, default=DEFAULT_SYNTHETIC_OUTDIR)
+    synth.add_argument("--fail-on-error", action="store_true")
+    return parser.parse_args()
+
+
+def rel(root: Path, path: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
+def read_json(path: Path) -> dict[str, object]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text())
+    return data if isinstance(data, dict) else {}
+
+
+def read_tsv(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def link(label: str, target: str) -> str:
+    return f"[{label}]({target})"
+
+
+def build_index(root: Path, outdir: Path) -> dict[str, object]:
+    outdir = outdir if outdir.is_absolute() else root / outdir
+    indexes = root / EXTERNAL_ROOT / "catalogs/indexes"
+    synthesis = root / EXTERNAL_ROOT / "synthesis"
+    index_rows = read_tsv(indexes / "external_knowledge_index.tsv")
+    index_summary = read_json(indexes / "external_knowledge_index_summary.json")
+    if not index_summary:
+        index_summary = {
+            "n_records": len(index_rows),
+            "n_missing_source": sum(1 for row in index_rows if row.get("source_present") not in {"True", "true", "1"}),
+            "n_missing_not_grounded_marker": sum(1 for row in index_rows if row.get("not_project_grounded_marker") != "NOT_PROJECT_GROUNDED"),
+        }
+    reachability_summary = read_json(indexes / "external_source_url_reachability_summary.json")
+    domain_summary = read_json(indexes / "external_source_domain_rollup_summary.json")
+    category_summary = read_json(indexes / "external_resource_category_rollup_summary.json")
+    access_summary = read_json(indexes / "external_resource_access_tier_rollup_summary.json")
+    convergence_summary = read_json(synthesis / "convergence_contradiction_skeleton_summary.json")
+    counts = read_tsv(indexes / "external_knowledge_index_counts.tsv")
+    count_lines = ["| field | value | count |", "|---|---|---:|"]
+    for row in counts:
+        count_lines.append(f"| `{row.get('field', '')}` | `{row.get('value', '')}` | {row.get('count', '')} |")
+    lines = [
+        "# External MS Knowledge Index",
+        "",
+        "Status: external knowledge navigation only. External records are `NOT_PROJECT_GROUNDED` and are not project evidence.",
+        "",
+        "Grounded project findings remain in the normal project report/history/validation trees. This index points only to the segregated external tree.",
+        "",
+        "## Counts",
+        "",
+        f"- external records indexed: `{index_summary.get('n_records', 'unknown')}`",
+        f"- missing sources: `{index_summary.get('n_missing_source', 'unknown')}`",
+        f"- missing not-grounded markers: `{index_summary.get('n_missing_not_grounded_marker', 'unknown')}`",
+        f"- source domains represented: `{domain_summary.get('n_source_domains', 'unknown')}`",
+        f"- reachability maintenance warnings: `{reachability_summary.get('n_non_success_status', 'unknown')}`",
+        f"- convergence rows linked to grounded findings: `{convergence_summary.get('n_linked_rows', 'unknown')}`",
+        "",
+        "## Epistemic-Class Counts",
+        "",
+        *count_lines,
+        "",
+        "## Navigation",
+        "",
+        "| artifact | purpose | boundary |",
+        "|---|---|---|",
+        f"| {link('Class-aware external record index', 'catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md')} | Browse every external record with source and class markers. | external only |",
+        f"| {link('Resource category rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_CATEGORY_ROLLUP.md')} | Browse resource metadata by category. | external resource metadata only |",
+        f"| {link('Access-tier rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md')} | Browse public/registration/application/controlled access tiers. | access metadata only |",
+        f"| {link('Source-domain rollup', 'catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md')} | Browse records by source domain. | source locator metadata only |",
+        f"| {link('Source URL reachability', 'catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md')} | Transport-status maintenance report. | HTTP status is not claim validation |",
+        f"| {link('Convergence/contradiction skeleton', 'synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md')} | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |",
+        f"| {link('Intake templates', 'templates/README.md')} | Templates for future external-verifiable claim intake. | queued claims are not findings |",
+        "",
+        "## Current Guardrails",
+        "",
+        "- External claims never alter grounded findings, locked rules, or pre-registrations.",
+        "- External-verifiable records require a future grounding route before they can be considered.",
+        "- External-unverifiable records remain context only.",
+        "- Model/RPT outputs are external-unverifiable proposals unless separately grounded.",
+        "",
+    ]
+    outdir.mkdir(parents=True, exist_ok=True)
+    (outdir / "INDEX.md").write_text("\n".join(lines))
+    summary = {
+        "synthetic": False,
+        "purpose": "V47 public external knowledge navigation index; no biological claim",
+        "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
+        "n_records": index_summary.get("n_records", 0),
+        "n_navigation_links": 7,
+        "overall_status": "PASS",
+    }
+    analysis_out = root / "analysis/v47_public_external_index"
+    analysis_out.mkdir(parents=True, exist_ok=True)
+    (analysis_out / "public_external_index_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(summary, indent=2, sort_keys=True))
+    return summary
+
+
+def build_synthetic_root(outdir: Path) -> Path:
+    root = outdir / "synthetic_root"
+    if root.exists():
+        shutil.rmtree(root)
+    indexes = root / EXTERNAL_ROOT / "catalogs/indexes"
+    synthesis = root / EXTERNAL_ROOT / "synthesis"
+    indexes.mkdir(parents=True, exist_ok=True)
+    synthesis.mkdir(parents=True, exist_ok=True)
+    (indexes / "external_knowledge_index_summary.json").write_text(json.dumps({"n_records": 2, "n_missing_source": 0, "n_missing_not_grounded_marker": 0}) + "\n")
+    (indexes / "external_source_url_reachability_summary.json").write_text(json.dumps({"n_non_success_status": 1}) + "\n")
+    (indexes / "external_source_domain_rollup_summary.json").write_text(json.dumps({"n_source_domains": 2}) + "\n")
+    (indexes / "external_resource_category_rollup_summary.json").write_text(json.dumps({"n_categories": 1}) + "\n")
+    (indexes / "external_resource_access_tier_rollup_summary.json").write_text(json.dumps({"n_access_tiers": 1}) + "\n")
+    (synthesis / "convergence_contradiction_skeleton_summary.json").write_text(json.dumps({"n_linked_rows": 0}) + "\n")
+    (indexes / "external_knowledge_index_counts.tsv").write_text("field\tvalue\tcount\nepistemic_class\texternal-unverifiable\t2\n")
+    return root
+
+
+def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
+    outdir = outdir if outdir.is_absolute() else ROOT / outdir
+    outdir.mkdir(parents=True, exist_ok=True)
+    root = build_synthetic_root(outdir)
+    summary = build_index(root, root / EXTERNAL_ROOT)
+    text = (root / EXTERNAL_ROOT / "INDEX.md").read_text()
+    checks = {
+        "index_written": (root / EXTERNAL_ROOT / "INDEX.md").exists(),
+        "boundary_marker_present": "NOT_PROJECT_GROUNDED" in text,
+        "navigation_link_present": "EXTERNAL_KNOWLEDGE_INDEX.md" in text,
+        "summary_counts_present": "`2`" in text,
+    }
+    rows = [{"check": key, "status": "PASS" if value else "FAIL"} for key, value in checks.items()]
+    with (outdir / "synthetic_public_external_index_checks.tsv").open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, delimiter="\t", fieldnames=["check", "status"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+    synth_summary = {
+        "synthetic": True,
+        "purpose": "V47 public external index synthetic fixture; no biological claim",
+        "n_checks": len(rows),
+        "n_fail": sum(1 for row in rows if row["status"] != "PASS"),
+        "overall_status": "PASS" if all(checks.values()) else "FAIL",
+    }
+    (outdir / "synthetic_public_external_index_summary.json").write_text(json.dumps(synth_summary, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(synth_summary, indent=2, sort_keys=True))
+    return 0 if synth_summary["overall_status"] == "PASS" or not fail_on_error else 2
+
+
+def main() -> int:
+    args = parse_args()
+    if args.command == "build":
+        summary = build_index(args.root.resolve(), args.outdir)
+        return 0 if summary["overall_status"] == "PASS" else 2
+    if args.command == "synthetic-check":
+        return synthetic_check(args.outdir, args.fail_on_error)
+    raise AssertionError(args.command)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

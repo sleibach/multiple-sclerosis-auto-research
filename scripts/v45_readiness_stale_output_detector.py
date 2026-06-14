@@ -443,6 +443,23 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v47_external_verifiable_intake_linter.py synthetic-check --outdir analysis/v47_external_verifiable_intake_linter --fail-on-error && .venv/bin/python scripts/v47_external_verifiable_intake_linter.py lint --outdir analysis/v47_external_verifiable_intake_linter --fail-on-error",
     },
     {
+        "artifact": "v47_public_external_index",
+        "sources": [
+            "docs/knowledge/PUBLIC_EXTERNAL_INDEX_V47.md",
+            "knowledge_external/catalogs/indexes",
+            "knowledge_external/synthesis",
+            "knowledge_external/templates/README.md",
+            "scripts/v47_public_external_index.py",
+        ],
+        "outputs": [
+            "knowledge_external/INDEX.md",
+            "analysis/v47_public_external_index/public_external_index_summary.json",
+            "analysis/v47_public_external_index/synthetic_public_external_index_summary.json",
+            "analysis/v47_public_external_index/synthetic_public_external_index_checks.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v47_public_external_index.py synthetic-check --outdir analysis/v47_public_external_index --fail-on-error && .venv/bin/python scripts/v47_public_external_index.py build",
+    },
+    {
         "artifact": "v47_convergence_contradiction_skeleton",
         "sources": [
             "docs/knowledge/CONVERGENCE_CONTRADICTION_SKELETON_V47.md",

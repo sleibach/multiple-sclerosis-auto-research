@@ -44,6 +44,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v47_external_record_uniqueness_linter/",
     "analysis/v47_external_source_domain_rollup/",
     "analysis/v47_external_verifiable_intake_linter/",
+    "analysis/v47_public_external_index/",
     "analysis/v47_source_url_reachability_checker/",
     "analysis/v47_external_resource_access_tier_rollup/",
     "analysis/v47_external_knowledge_index/",
@@ -168,7 +169,7 @@ def audit_external_record(root: Path, path: Path) -> list[GateIssue]:
 def audit_external_markdown(root: Path, path: Path) -> list[GateIssue]:
     rel_path = rel(root, path)
     if (
-        rel_path in {f"{EXTERNAL_ROOT}/README.md", f"{EXTERNAL_ROOT}/catalogs/README.md", f"{EXTERNAL_ROOT}/templates/README.md"}
+        rel_path in {f"{EXTERNAL_ROOT}/README.md", f"{EXTERNAL_ROOT}/INDEX.md", f"{EXTERNAL_ROOT}/catalogs/README.md", f"{EXTERNAL_ROOT}/templates/README.md"}
         or f"{EXTERNAL_ROOT}/schema/" in rel_path
         or rel_path.startswith(f"{EXTERNAL_ROOT}/catalogs/indexes/")
     ):
