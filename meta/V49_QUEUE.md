@@ -135,7 +135,7 @@ tracked purge target is:
 | 79 | high | done | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 80 | medium | done | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
-| 82 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
+| 82 | medium | done | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
 | 83 | medium | todo | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
@@ -849,3 +849,10 @@ tracked purge target is:
   seconds, latest guard state, and open tasks `81` through `83`.
 - Current cumulative active time at `2026-06-14T22:13:30Z`: `7394` seconds
   (`376` seconds session 1 plus `7018` seconds of current open session).
+- Task 82 verified post-checkpoint working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+  Task 81's OpenGWAS boundary recheck is not yet due; next boundary remains
+  `2026-06-14T22:30:00Z`.
+- Current cumulative active time at `2026-06-14T22:16:43Z`: `7587` seconds
+  (`376` seconds session 1 plus `7211` seconds of current open session).
