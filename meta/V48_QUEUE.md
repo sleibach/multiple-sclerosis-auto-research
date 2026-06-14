@@ -156,11 +156,14 @@ span across resume gaps.
 | 128 | medium | done | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 129 | medium | done | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
 | 130 | medium | done | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
-| 131 | medium | todo | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
+| 131 | medium | done | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | 132 | medium | todo | Add V48 external intake controls coverage card freshness linter | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
 | 133 | medium | todo | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 134 | medium | todo | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
 | 135 | medium | todo | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
+| 136 | medium | todo | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
+| 137 | medium | todo | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
+| 138 | medium | todo | Build V48 active-time accounting audit card distinguishing active time from wall-clock span | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
 
 ## Iteration Notes
 
@@ -1804,4 +1807,15 @@ span across resume gaps.
     a routing QA step, not evidence.
 - Final gates after task 130:
   - external Markdown linter: PASS (`308` checks, `56` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:53:14Z`: `19871` seconds.
+- Built source-intake controls coverage card:
+  - safeguards: `13`;
+  - failure modes covered: `11`;
+  - required linked controls: `13`;
+  - boundary: governance/navigation only; summarizes intake safeguards by
+    failure mode and does not evaluate external-source correctness.
+- Added follow-up tasks 136-138 to keep the executable backlog above threshold.
+- Final gates after task 131:
+  - external Markdown linter: PASS (`309` checks, `57` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
