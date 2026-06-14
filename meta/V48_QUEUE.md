@@ -64,7 +64,7 @@ span across resume gaps.
 | 36 | medium | done | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
 | 37 | medium | done | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | 38 | medium | done | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
-| 39 | medium | todo | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 39 | medium | done | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -352,6 +352,16 @@ span across resume gaps.
 - Updated governance-navigation freshness linter to allow explicitly non-preflight transport-maintenance scripts.
 - Verification passed:
   - governance-navigation freshness lint;
+  - V48 governance preflight;
+  - public-index freshness lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:42:48Z`: `4845` seconds.
+- Rebuilt post-task indexes:
+  - governance controls tracked: `29`;
+  - public external navigation links: `18`;
+  - TF-IDF knowledge index documents: `727`.
+- Smoke query `V48 source domain relationship rollup reachability` returned `meta/V48_QUEUE.md`, `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md`, and external rollup pointers.
+- Verification passed:
   - V48 governance preflight;
   - public-index freshness lint;
   - V47 provenance gate.
