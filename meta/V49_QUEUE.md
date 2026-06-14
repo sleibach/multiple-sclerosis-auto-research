@@ -127,7 +127,7 @@ tracked purge target is:
 | 71 | medium | done | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 72 | medium | done | Run git fsck and object-store checkpoint after post-checkpoint commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 73 | high | done | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 74 | medium | todo | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
+| 74 | medium | done | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
 | 75 | medium | todo | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 76 | medium | todo | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 
@@ -785,3 +785,9 @@ tracked purge target is:
   outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-14T22:06:42Z`: `6986` seconds
   (`376` seconds session 1 plus `6610` seconds of current open session).
+- Task 74 refreshed `meta/V49_FINAL_CHECKPOINT.md` to current pre-task HEAD
+  `c98baded2aa3fe0f312ff63d2eb93e7ef77599dd`, cumulative active time `7012`
+  seconds, OpenGWAS PASS at `2026-06-14T22:01:47Z`, `git fsck` PASS at
+  `2026-06-14T22:04:45Z`, and latest guard state.
+- Current cumulative active time at `2026-06-14T22:07:08Z`: `7012` seconds
+  (`376` seconds session 1 plus `6636` seconds of current open session).

@@ -5,12 +5,12 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T21:55:23Z`
+- checkpoint_utc: `2026-06-14T22:07:08Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `6307`
+- cumulative_active_seconds_at_checkpoint: `7012`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -20,8 +20,8 @@ time between session 1 and session 2 is excluded.
 ## Repository State
 
 - branch: `main`
-- checkpoint HEAD before this file was written:
-  `91cb343db9d16ddd0b675a5bc62b172d5bca46f2`
+- checkpoint HEAD before this file was refreshed:
+  `c98baded2aa3fe0f312ff63d2eb93e7ef77599dd`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -36,7 +36,7 @@ reproducible large/cache/generated paths:
 - `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv`
 - `analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz`
 
-Latest guard status before this checkpoint:
+Latest guard status before this checkpoint refresh:
 
 - tracked files above `50 MiB`: `0`
 - Git blobs above `50 MiB`: `0`
@@ -44,6 +44,7 @@ Latest guard status before this checkpoint:
 - risky tracked binary/cache extensions: `.safetensors` `0`, `.h5ad` `0`,
   `.parquet` `0`; tracked `.tsv.gz` files are compact seeded synthetic
   method-characterization artifacts below `50 MiB`
+- `git fsck --full --strict`: PASS at `2026-06-14T22:04:45Z`
 
 Human follow-up remains required before the rewritten history is synchronized:
 
@@ -83,21 +84,24 @@ force-push.
 - Public index crosslinks: PASS (`73` links).
 - External Markdown/index linter: PASS (`375` checks, `77` Markdown files).
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
-- OpenGWAS: PASS at `2026-06-14T21:42:31Z`; token valid until
+- OpenGWAS: PASS at `2026-06-14T22:01:47Z`; token valid until
   `2026-06-19 12:28 UTC`; renew before OpenGWAS-dependent work after expiry.
+- Large-file guard: PASS (`0` tracked files above `50 MiB`).
+- Git blob guard: PASS (`0` blobs above `50 MiB`).
 
 ## Current Open Work
 
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `63` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `74` complete in `meta/V49_QUEUE.md` after committing this
+   checkpoint refresh.
+2. Complete task `75`: recheck artifact manifest and resume-checkpoint
+   consistency after this refresh.
+3. Complete task `76`: verify `.gitignore` still blocks representative
+   tmp/cache/large-output paths.
+4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.
-2. Refresh `meta/V49_ARTIFACT_MANIFEST.md` to include this checkpoint.
-3. Refresh `meta/V49_REWRITE_PUSH_HANDOFF.md` to the latest HEAD after this
-   checkpoint and manifest refresh.
-4. Re-run V47 provenance, public-index, Markdown, large-file, and Git-blob
-   guards after the new operational meta files are added.
 5. Refill `meta/V49_QUEUE.md` above five executable tasks if the backlog drops
    below threshold.
 
