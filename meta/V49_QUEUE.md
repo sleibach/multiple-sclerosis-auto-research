@@ -199,7 +199,7 @@ tracked purge target is:
 | 144 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 145 | medium | done | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 146 | medium | done | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
-| 147 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 146 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 147 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 146 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 148 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 149 | medium | todo | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md`, `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
 | 150 | medium | todo | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md`, `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
@@ -1326,3 +1326,8 @@ tracked purge target is:
   boundary.
 - Current cumulative active time at `2026-06-14T23:18:09Z`: `11273` seconds
   (`376` seconds session 1 plus `10897` seconds of current open session).
+- Task 147 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `ab729c7d9205b27fe37d112422d6dcbdda7f1c5a` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T23:19:05Z`: `11329` seconds
+  (`376` seconds session 1 plus `10953` seconds of current open session).
