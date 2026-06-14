@@ -203,7 +203,7 @@ tracked purge target is:
 | 148 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 149 | medium | done | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md`, `knowledge_external/synthesis/v49_contradiction_routing_audit.tsv` |
 | 150 | medium | done | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_ROUTING_AUDIT.md`, `knowledge_external/catalogs/indexes/v49_absent_resource_routing_audit.tsv` |
-| 151 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 151 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 152 | medium | todo | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 153 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 152 | `meta/V49_QUEUE.md` |
 | 154 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1352,3 +1352,15 @@ tracked purge target is:
   status.
 - Current cumulative active time at `2026-06-14T23:23:37Z`: `11601` seconds
   (`376` seconds session 1 plus `11225` seconds of current open session).
+- Task 151 reran guards after the new routing audits. Results: V47 provenance
+  gate PASS (`436` checks, `47` external JSON records, `0` failures),
+  public-index freshness PASS (`50` checks), public-index crosslinks PASS (`73`
+  links), external Markdown/index lint PASS (`378` checks, `80` Markdown files),
+  gap-audit and routing counts PASS (`23` matrix rows, `7` converges, `16`
+  insufficient-overlap, `0` contradictions, `0` high-priority gap markers, `7`
+  contradiction-routing rows, `6` absent-resource-routing rows), tracked
+  large-file guard PASS (`0` tracked files above `50 MiB`), and Git blob guard
+  PASS (`0` blobs above `50 MiB`). The Markdown linter outputs were refreshed
+  for the two new external Markdown files.
+- Current cumulative active time at `2026-06-14T23:25:17Z`: `11701` seconds
+  (`376` seconds session 1 plus `11325` seconds of current open session).
