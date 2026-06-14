@@ -48,7 +48,7 @@ span across resume gaps.
 | 20 | medium | done | Add source-terms freshness linter comparing checked_date against record date_accessed | `scripts/v48_source_terms_freshness_linter.py` |
 | 21 | medium | done | Add support/contradiction convergence coverage linter for external records that reference project findings | `scripts/v48_support_contradiction_coverage_linter.py` |
 | 22 | medium | done | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
-| 23 | medium | todo | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
+| 23 | medium | done | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
 | 24 | medium | todo | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 25 | medium | todo | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
 
@@ -217,3 +217,16 @@ span across resume gaps.
   - external-verifiable intake lint;
   - external Markdown source/provenance lint;
   - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:09:36Z`: `2853` seconds.
+- Added V48 source-domain review freshness linter:
+  - synthetic fixture passed, including missing-record, changed-domain, and stale-review failure cases;
+  - current records: `39`;
+  - source-domain review rows: `39`;
+  - real checks: `117`;
+  - failures: `0`.
+- Added `meta/V48_QUEUE.md` to the provenance-gate resume-state allowlist, matching the existing V47 queue pattern.
+- Verification passed:
+  - V47 provenance gate;
+  - source-domain review freshness lint;
+  - external Markdown source/provenance lint;
+  - resource comparator freshness lint.

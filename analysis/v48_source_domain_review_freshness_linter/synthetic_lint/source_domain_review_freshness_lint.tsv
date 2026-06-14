@@ -1,0 +1,9 @@
+record_id	check	status	detail
+SYNTH_DOMAIN_CHANGED	record_present_in_source_domain_review	PASS	knowledge_external/records/changed.json
+SYNTH_DOMAIN_CHANGED	review_domain_matches_current_source_url	FAIL	current=current.example.invalid reviewed=old.example.invalid
+SYNTH_DOMAIN_CHANGED	review_source_url_matches_current	FAIL	https://current.example.invalid/
+SYNTH_DOMAIN_GOOD	record_present_in_source_domain_review	PASS	knowledge_external/records/good.json
+SYNTH_DOMAIN_GOOD	review_domain_matches_current_source_url	PASS	current=example.invalid reviewed=example.invalid
+SYNTH_DOMAIN_GOOD	review_source_url_matches_current	PASS	https://example.invalid/good
+SYNTH_DOMAIN_MISSING	record_present_in_source_domain_review	FAIL	knowledge_external/records/missing.json
+SYNTH_DOMAIN_STALE	stale_review_record_removed_from_current_records	FAIL	review row has no current external record

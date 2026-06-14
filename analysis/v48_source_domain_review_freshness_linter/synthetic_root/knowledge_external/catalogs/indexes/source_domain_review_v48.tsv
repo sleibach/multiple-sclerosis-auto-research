@@ -1,0 +1,4 @@
+domain	review_class	record_id	record_type	source_url	access_tier	path
+example.invalid	manual_review_domain	SYNTH_DOMAIN_GOOD	external_claim	https://example.invalid/good		knowledge_external/records/good.json
+old.example.invalid	manual_review_domain	SYNTH_DOMAIN_CHANGED	external_claim	https://old.example.invalid/		knowledge_external/records/changed.json
+stale.example.invalid	manual_review_domain	SYNTH_DOMAIN_STALE	external_claim	https://stale.example.invalid/		knowledge_external/records/stale.json
