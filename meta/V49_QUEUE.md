@@ -147,7 +147,7 @@ tracked purge target is:
 | 91 | medium | done | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 92 | medium | done | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 93 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after task 92 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 94 | medium | todo | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 94 | medium | done | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 95 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 96 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
 | 97 | medium | todo | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
@@ -940,3 +940,9 @@ tracked purge target is:
   `50 MiB`). The guard outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-14T22:26:47Z`: `8191` seconds
   (`376` seconds session 1 plus `7815` seconds of current open session).
+- Task 94 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `c959e8a7e4c240e6a8a47339e9a3cd2319c237f0`, cumulative active time `8221`
+  seconds, latest guard state, and open tasks `95` through `98`.
+- Current cumulative active time at `2026-06-14T22:27:17Z`: `8221` seconds
+  (`376` seconds session 1 plus `7845` seconds of current open session).
