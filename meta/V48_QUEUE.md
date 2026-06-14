@@ -57,7 +57,7 @@ span across resume gaps.
 | 29 | medium | done | Add source-terms coverage freshness linter tied to current external records | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | 30 | medium | done | Add V48 external-governance handoff card for future sessions | `knowledge_external/catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md` |
 | 31 | medium | done | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
-| 32 | medium | todo | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 32 | medium | done | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -272,6 +272,15 @@ span across resume gaps.
   - V48 governance preflight;
   - public index crosslink lint;
   - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:27:28Z`: `3925` seconds.
+- Rebuilt post-artifact indexes:
+  - public external index records: `39`;
+  - public external navigation links: `15`;
+  - TF-IDF knowledge index documents: `727`.
+- Smoke query `V48 convergence decision table governance handoff` returned `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` and `meta/V48_QUEUE.md`.
+- Verification passed:
+  - V48 governance preflight;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:26:38Z`: `3875` seconds.
 - Added compact convergence decision table:
