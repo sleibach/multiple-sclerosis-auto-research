@@ -40,7 +40,7 @@ span across resume gaps.
 | 12 | medium | done | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/v48_future_grounding_queue_freshness_linter.py` |
 | 13 | medium | done | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
 | 14 | medium | done | Add comparator matrix freshness linter tied to current resource records | `scripts/v48_resource_comparator_freshness_linter.py` |
-| 15 | medium | todo | Add convergence synthesis status vocabulary linter | `scripts/` |
+| 15 | medium | done | Add convergence synthesis status vocabulary linter | `scripts/v48_convergence_status_vocabulary_linter.py` |
 | 16 | medium | todo | Add project-finding reference existence linter for external support/contradiction records | `scripts/` |
 | 17 | medium | todo | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/` |
 | 18 | medium | todo | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
@@ -133,3 +133,8 @@ span across resume gaps.
   - resource records: `31`;
   - comparator matrix rows: `31`;
   - stale/missing rows: `0`.
+- Current open-session active time at `2026-06-14T13:47:36Z`: `1533` seconds.
+- Added convergence synthesis status vocabulary linter:
+  - matrix rows: `12`;
+  - vocabulary checks: `26`;
+  - failures: `0`.
