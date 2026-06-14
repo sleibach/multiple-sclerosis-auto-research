@@ -120,7 +120,7 @@ tracked purge target is:
 | 64 | medium | done | Refresh artifact manifest to include the final checkpoint and any post-checkpoint operational files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 65 | medium | done | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 66 | high | done | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 67 | medium | todo | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
+| 67 | medium | done | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
 | 68 | medium | todo | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
 | 69 | medium | todo | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 70 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
@@ -731,3 +731,8 @@ tracked purge target is:
   tracked files.
 - Current cumulative active time at `2026-06-14T21:59:21Z`: `6545` seconds
   (`376` seconds session 1 plus `6169` seconds of current open session).
+- Task 67 refreshed `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `e6235eedc744a7a2a14abce4a22d683b583df24f`, open tasks `68` through `70`,
+  latest gate status, and the current active-time state.
+- Current cumulative active time at `2026-06-14T21:59:50Z`: `6574` seconds
+  (`376` seconds session 1 plus `6198` seconds of current open session).
