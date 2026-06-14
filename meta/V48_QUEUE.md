@@ -132,7 +132,7 @@ span across resume gaps.
 | 104 | medium | done | Build source-hit acceptance decision tree for future external-source intake | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
 | 105 | medium | done | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | 106 | medium | done | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
-| 107 | medium | todo | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
+| 107 | medium | done | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | 108 | medium | todo | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
 | 109 | medium | todo | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
 | 110 | medium | todo | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
@@ -1483,5 +1483,16 @@ span across resume gaps.
   - boundary: template/navigation only; candidate rows are drafts, not
     relationship-matrix assertions or evidence.
 - Final gates after task 106:
+  - external Markdown linter: PASS (`299` checks, `47` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:04:29Z`: `16946` seconds.
+- Added relationship-row candidate template freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing statuses,
+    stale field/status counts, and bad summary values fail;
+  - real freshness checks: `33`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; candidate rows remain draft
+    controls, not evidence.
+- Final gates after task 107:
   - external Markdown linter: PASS (`299` checks, `47` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

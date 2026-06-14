@@ -1,0 +1,34 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_relationship_row_candidate_template_freshness_linter/synthetic_template.md
+section_present.When To Use	FAIL	required candidate-template section
+section_present.Candidate Row Fields	PASS	required candidate-template section
+section_present.Allowed Candidate Statuses	FAIL	required candidate-template section
+section_present.Forbidden Shortcuts	FAIL	required candidate-template section
+section_present.Promotion Rules	FAIL	required candidate-template section
+section_present.Boundary	PASS	required candidate-template section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required link
+link_present.knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md	FAIL	required link
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	FAIL	required link
+link_present.scripts/v48_governance_preflight.py	FAIL	required link
+candidate_status_present.candidate_convergence	FAIL	required candidate status
+candidate_status_present.candidate_contradiction	FAIL	required candidate status
+candidate_status_present.insufficient_overlap	FAIL	required candidate status
+candidate_status_present.future_grounding_only	FAIL	required candidate status
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_row	FAIL	required boundary phrase
+phrase_present.no_convergence	FAIL	required boundary phrase
+phrase_present.no_contradiction	FAIL	required boundary phrase
+phrase_present.same_definition	FAIL	required boundary phrase
+phrase_present.source_independence	FAIL	required boundary phrase
+phrase_present.candidate_not_finding	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+phrase_present.grounded_remains_evidence	FAIL	required boundary phrase
+table_count.required_fields	FAIL	observed=1 expected=15
+table_count.allowed_statuses	FAIL	observed=0 expected=4
+table_count.forbidden_shortcuts	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md observed=stale
+summary_matches.n_allowed_candidate_statuses	FAIL	expected=4 observed=0
+summary_matches.n_forbidden_shortcuts	FAIL	expected=5 observed=
+summary_matches.n_required_fields	FAIL	expected=15 observed=1
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 relationship-row candidate template; template/navigation only; no biological claim observed=
