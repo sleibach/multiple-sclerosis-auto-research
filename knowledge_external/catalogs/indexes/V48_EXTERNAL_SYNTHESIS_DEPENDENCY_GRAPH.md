@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `32`
-- dependency/control edges: `103`
+- artifact nodes: `34`
+- dependency/control edges: `114`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -34,6 +34,8 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | High-priority source intake checklist | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` | 2 | 1 | future-search/navigation only |
 | Source-intake operator quickstart | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` | 4 | 1 | future-search/navigation only |
 | Source-intake package manifest | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` | 6 | 1 | future-search/navigation only |
+| Source-hit acceptance decision tree | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` | 6 | 1 | future-search/navigation only |
+| Relationship-row candidate template | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` | 3 | 1 | future-search/navigation only |
 | Contradiction readiness playbook | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` | 1 | 1 | future contradiction handling only |
 | Contradiction surveillance checklist | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` | 2 | 1 | future contradiction surveillance only |
 | Unresolved external coverage handoff | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` | 5 | 1 | handoff/navigation only |

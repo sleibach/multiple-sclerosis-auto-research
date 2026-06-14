@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `65`
+- controls mapped: `69`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -27,6 +27,10 @@ Status: governance/navigation only. This matrix explains what each control preve
 | High-priority source intake checklist | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | High-priority source intake checklist freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | High-priority source-search query freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
+| Relationship-row candidate template | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
+| Relationship-row candidate template freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
+| Source-hit acceptance decision tree | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
+| Source-hit acceptance decision tree freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | Source-intake operator quickstart | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | Source-intake operator quickstart freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | Source-intake package manifest | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |

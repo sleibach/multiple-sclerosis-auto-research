@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `65`
+- artifacts tracked: `69`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -51,6 +51,10 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-intake operator quickstart freshness linter | `yes` | `PASS` | Ensures the source-intake operator quickstart keeps required workflow sections, links, and boundary phrases. | future-search control | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | Source-intake package manifest | `yes` | `PASS` | Package-level routing manifest tying source search, checklist, quickstart, reader brief, and future-grounding queue. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
 | Source-intake package manifest freshness linter | `yes` | `PASS` | Ensures the source-intake package manifest keeps required components, operator steps, commands, and boundary phrases. | future-search control | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
+| Source-hit acceptance decision tree | `yes` | `PASS` | Decision tree for safely routing future source hits before external-record or relationship-row intake. | future-search control | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
+| Source-hit acceptance decision tree freshness linter | `yes` | `PASS` | Ensures the source-hit acceptance decision tree keeps required links, decision nodes, safe outcomes, and boundary phrases. | future-search control | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
+| Relationship-row candidate template | `yes` | `PASS` | Draft template for future candidate convergence/contradiction rows before matrix acceptance. | future-search control | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
+| Relationship-row candidate template freshness linter | `yes` | `PASS` | Ensures the relationship-row candidate template keeps required fields, candidate statuses, forbidden shortcuts, and promotion rules. | future-search control | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Relationship-matrix data dictionary freshness linter | `yes` | `PASS` | Ensures the V48 relationship-matrix data dictionary matches the current matrix header and controlled vocabularies. | schema control | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |

@@ -227,6 +227,31 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Source-hit acceptance decision tree",
+        "output": "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+        "inputs": [
+            "knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md",
+            "knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
+            "knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md",
+            "knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md",
+            "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
+            "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
+        ],
+        "controls": ["scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
+        "artifact": "Relationship-row candidate template",
+        "output": "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
+        "inputs": [
+            "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+            "knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md",
+            "docs/knowledge/EPISTEMIC_CLASSES.md",
+        ],
+        "controls": ["scripts/v48_relationship_row_candidate_template_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Contradiction readiness playbook",
         "output": "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
         "inputs": ["knowledge_external/synthesis/convergence_contradiction_v48.tsv"],

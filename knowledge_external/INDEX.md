@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `62`
+- V48 governance controls tracked: `65`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -69,6 +69,8 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 high-priority source intake checklist](templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md) | Checklist for safely reviewing source hits before any segregated external-record intake. | future search/navigation only |
 | [V48 source-intake operator quickstart](templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md) | Mechanical operator guide for routing source-search hits through safe segregated intake. | future search/navigation only |
 | [V48 source-intake package manifest](templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md) | Package-level map tying search packet, checklist, quickstart, reader brief, and future-grounding queue. | future search/navigation only |
+| [V48 source-hit acceptance decision tree](templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md) | Safe routing tree for future source hits before external-record or relationship-row intake. | future search/navigation only |
+| [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |

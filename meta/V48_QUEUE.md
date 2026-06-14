@@ -133,9 +133,15 @@ span across resume gaps.
 | 105 | medium | done | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
 | 106 | medium | done | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
 | 107 | medium | done | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
-| 108 | medium | todo | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
+| 108 | medium | done | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
 | 109 | medium | todo | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
 | 110 | medium | todo | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
+| 111 | medium | todo | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 112 | medium | todo | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
+| 113 | medium | todo | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
+| 114 | medium | todo | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
+| 115 | medium | todo | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
+| 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 
 ## Iteration Notes
 
@@ -1494,5 +1500,17 @@ span across resume gaps.
   - boundary: template/navigation freshness only; candidate rows remain draft
     controls, not evidence.
 - Final gates after task 107:
+  - external Markdown linter: PASS (`299` checks, `47` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:07:50Z`: `17147` seconds.
+- Added source-hit package links to public index, governance navigation, and preflight:
+  - public external index links: `43`;
+  - public-index freshness required targets: `37`;
+  - dependency graph: `34` artifact nodes, `114` dependency/control edges;
+  - governance navigation: `69` artifacts, `0` missing artifacts, `0` summaries
+    with failures;
+  - governance preflight: PASS with `52` checks and `0` failures.
+- Added follow-up tasks 111-116 to keep the executable backlog above threshold.
+- Final gates after task 108:
   - external Markdown linter: PASS (`299` checks, `47` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
