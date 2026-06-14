@@ -99,7 +99,7 @@ tracked purge target is:
 | 43 | medium | done | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 44 | medium | done | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 45 | medium | done | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
-| 46 | medium | todo | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
+| 46 | medium | done | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
 | 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -538,3 +538,14 @@ tracked purge target is:
   PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:30:02Z`: `4786` seconds
   (`376` seconds session 1 plus `4410` seconds of current open session).
+- Task 46 updated `docs/validation/POWER_MAP_V43.md` with a V49 post-purge
+  sufficiency note. Result: the purged subject-level synthetic power cache is
+  intentionally absent, but the committed aggregate outputs remain sufficient
+  for the V43 power-map conclusions (`9409` cohort-result lines including
+  header; `785` summary lines including header; compact run summary retained).
+  Subject-level diagnostics require regenerating the purged cache.
+- Post-task gates: V43 aggregate check PASS, V47 provenance gate PASS (`436`
+  checks, `47` records, `0` failures), and large-file guard PASS (`0` tracked
+  files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:31:46Z`: `4890` seconds
+  (`376` seconds session 1 plus `4514` seconds of current open session).
