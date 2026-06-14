@@ -140,7 +140,7 @@ tracked purge target is:
 | 84 | medium | done | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 85 | medium | done | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 86 | medium | done | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 87 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 87 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 88 | medium | todo | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 90 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
@@ -888,3 +888,12 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:19:43Z`: `7767` seconds
   (`376` seconds session 1 plus `7391` seconds of current open session).
+- Task 87 reran guards after manifest, quickstart, and handoff updates. Results:
+  V47 provenance gate PASS (`436` checks, `47` external JSON records, `0`
+  failures), public-index freshness PASS (`50` checks), public-index crosslinks
+  PASS (`73` links), external Markdown/index lint PASS (`375` checks, `77`
+  Markdown files), docs/quickstart convergence routing PASS, tracked large-file
+  guard PASS (`0` tracked files above `50 MiB`), and Git blob guard PASS (`0`
+  blobs above `50 MiB`). The guard outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T22:21:30Z`: `7874` seconds
+  (`376` seconds session 1 plus `7498` seconds of current open session).
