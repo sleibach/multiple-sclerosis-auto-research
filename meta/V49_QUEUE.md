@@ -106,7 +106,7 @@ tracked purge target is:
 | 50 | medium | done | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 51 | medium | done | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
 | 52 | medium | done | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
-| 53 | medium | todo | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 53 | medium | done | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 54 | medium | todo | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 55 | medium | todo | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 
@@ -600,3 +600,11 @@ tracked purge target is:
   failures) and large-file guard PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:38:31Z`: `5295` seconds
   (`376` seconds session 1 plus `4919` seconds of current open session).
+- Task 53 refreshed `meta/V49_ARTIFACT_MANIFEST.md` to include
+  `meta/V49_LARGE_FILE_GUARD_FINAL.md`. Result: manifest row count `52`, with
+  `6` operational meta files and still `0` grounded finding or locked-rule files.
+- Post-task gates: manifest row-count check PASS, V47 provenance gate PASS
+  (`436` checks, `47` records, `0` failures), and large-file guard PASS (`0`
+  tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:39:51Z`: `5375` seconds
+  (`376` seconds session 1 plus `4999` seconds of current open session).
