@@ -1,0 +1,26 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md
+section_present.Required Controls	PASS	required active-time audit section
+section_present.Timing Rules	PASS	required active-time audit section
+section_present.Audit Checks	PASS	required active-time audit section
+section_present.Reporting Template	PASS	required active-time audit section
+section_present.Boundary	PASS	required active-time audit section
+link_present.meta/V48_QUEUE.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md	PASS	required linked control
+link_present.scripts/v47_provenance_gate.py	PASS	required linked control
+phrase_present.governance_navigation_only	PASS	required boundary phrase
+phrase_present.active_sum	PASS	required boundary phrase
+phrase_present.exclude_gaps	PASS	required boundary phrase
+phrase_present.target_metric	PASS	required boundary phrase
+phrase_present.separate_wall_clock	PASS	required boundary phrase
+phrase_present.operational_metadata	PASS	required boundary phrase
+phrase_present.does_not_affect_findings	PASS	required boundary phrase
+table_count.timing_rules	PASS	observed=5 expected=5
+table_count.audit_checks	PASS	observed=6 expected=6
+summary_matches.markdown	PASS	expected=knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md observed=knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md
+summary_matches.n_audit_checks	PASS	expected=6 observed=6
+summary_matches.n_required_linked_controls	PASS	expected=4 observed=4
+summary_matches.n_timing_rules	PASS	expected=5 observed=5
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 active-time accounting audit card; governance/navigation only; no biological claim observed=V48 active-time accounting audit card; governance/navigation only; no biological claim

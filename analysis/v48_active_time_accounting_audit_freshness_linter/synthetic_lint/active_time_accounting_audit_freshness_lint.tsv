@@ -1,0 +1,26 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_active_time_accounting_audit_freshness_linter/synthetic_active_time.md
+section_present.Required Controls	FAIL	required active-time audit section
+section_present.Timing Rules	PASS	required active-time audit section
+section_present.Audit Checks	FAIL	required active-time audit section
+section_present.Reporting Template	FAIL	required active-time audit section
+section_present.Boundary	PASS	required active-time audit section
+link_present.meta/V48_QUEUE.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md	FAIL	required linked control
+link_present.scripts/v47_provenance_gate.py	FAIL	required linked control
+phrase_present.governance_navigation_only	PASS	required boundary phrase
+phrase_present.active_sum	FAIL	required boundary phrase
+phrase_present.exclude_gaps	FAIL	required boundary phrase
+phrase_present.target_metric	FAIL	required boundary phrase
+phrase_present.separate_wall_clock	FAIL	required boundary phrase
+phrase_present.operational_metadata	FAIL	required boundary phrase
+phrase_present.does_not_affect_findings	FAIL	required boundary phrase
+table_count.timing_rules	FAIL	observed=1 expected=5
+table_count.audit_checks	FAIL	observed=0 expected=6
+summary_matches.markdown	FAIL	expected=knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md observed=stale
+summary_matches.n_audit_checks	FAIL	expected=6 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=4 observed=
+summary_matches.n_timing_rules	FAIL	expected=5 observed=1
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 active-time accounting audit card; governance/navigation only; no biological claim observed=

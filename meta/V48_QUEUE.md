@@ -164,7 +164,7 @@ span across resume gaps.
 | 136 | medium | done | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
 | 137 | medium | done | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
 | 138 | medium | done | Build V48 active-time accounting audit card distinguishing active time from wall-clock span | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
-| 139 | medium | todo | Add V48 active-time accounting audit card freshness linter | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
+| 139 | medium | done | Add V48 active-time accounting audit card freshness linter | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
 | 140 | medium | todo | Integrate stop/go scorecard, reviewer handoff, and active-time audit controls into public index and governance after linters exist | `knowledge_external/INDEX.md` |
 | 141 | medium | todo | Build V48 external intake command bundle for future operators | `knowledge_external/templates/SOURCE_INTAKE_COMMAND_BUNDLE_V48.md` |
 | 142 | medium | todo | Add V48 external intake command bundle freshness linter | `scripts/v48_source_intake_command_bundle_freshness_linter.py` |
@@ -1904,5 +1904,16 @@ span across resume gaps.
   - boundary: governance/navigation only; distinguishes summed active session
     time from wall-clock span and preserves the V48 stop-condition metric.
 - Final gates after task 138:
+  - external Markdown linter: PASS (`312` checks, `60` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T19:13:26Z`: `21083` seconds.
+- Added active-time accounting audit card freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    timing-rule/audit-check counts, and stale summary values fail;
+  - real freshness checks: `25`;
+  - real failures: `0`;
+  - boundary: governance/navigation freshness only; the card remains operational
+    timing metadata, not evidence.
+- Final gates after task 139:
   - external Markdown linter: PASS (`312` checks, `60` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
