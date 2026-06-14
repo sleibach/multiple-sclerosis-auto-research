@@ -37,7 +37,7 @@ span across resume gaps.
 | 9 | medium | done | Add public index crosslink linter | `scripts/v48_public_index_crosslink_linter.py` |
 | 10 | medium | done | Add source license/terms metadata template/linter | `knowledge_external/templates/source_terms_metadata_template.json.template`, `scripts/v48_source_terms_metadata_linter.py` |
 | 11 | medium | done | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/v48_convergence_matrix_coverage_linter.py` |
-| 12 | medium | todo | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/` |
+| 12 | medium | done | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/v48_future_grounding_queue_freshness_linter.py` |
 | 13 | medium | todo | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
 
 ## Iteration Notes
@@ -113,3 +113,8 @@ span across resume gaps.
   - required priority findings: `10`;
   - matrix rows: `12`;
   - missing priority findings: `0`.
+- Current open-session active time at `2026-06-14T13:43:41Z`: `1298` seconds.
+- Added future-grounding queue freshness linter:
+  - matrix follow-ups: `12`;
+  - queue rows: `12`;
+  - stale/missing rows: `0`.
