@@ -5,12 +5,12 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T23:14:36Z`
+- checkpoint_utc: `2026-06-14T23:25:50Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `11060`
+- cumulative_active_seconds_at_checkpoint: `11734`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -21,7 +21,7 @@ time between session 1 and session 2 is excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `27ce75529a8890d95ce00a438e4265170f830569`
+  `aa861e0d8a68ae195be238ab295e4d69e82fae48`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -44,7 +44,7 @@ Latest guard status before this checkpoint refresh:
 - risky tracked binary/cache extensions: `.safetensors` `0`, `.h5ad` `0`,
   `.parquet` `0`; tracked `.tsv.gz` files are compact seeded synthetic
   method-characterization artifacts below `50 MiB`
-- `git fsck --full --strict`: PASS at `2026-06-14T23:11:51Z`
+- `git fsck --full --strict`: PASS at `2026-06-14T23:19:32Z`
 
 Human follow-up remains required before the rewritten history is synchronized:
 
@@ -82,7 +82,7 @@ force-push.
   `0` failures).
 - Public index freshness: PASS (`50` checks).
 - Public index crosslinks: PASS (`73` links).
-- External Markdown/index linter: PASS (`376` checks, `78` Markdown files).
+- External Markdown/index linter: PASS (`378` checks, `80` Markdown files).
 - Docs convergence pointer consistency: PASS.
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
 - OpenGWAS: PASS at `2026-06-14T23:01:28Z`; token valid until
@@ -95,11 +95,11 @@ force-push.
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `142` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `152` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
 2. Complete task `137` if active work reaches `2026-06-14T23:30:00Z`: rerun
    OpenGWAS expiry/sentinel check.
-3. Complete task `143`: verify final working-tree cleanliness and tracked-size
+3. Complete task `153`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.

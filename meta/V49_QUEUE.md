@@ -204,7 +204,7 @@ tracked purge target is:
 | 149 | medium | done | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md`, `knowledge_external/synthesis/v49_contradiction_routing_audit.tsv` |
 | 150 | medium | done | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_ROUTING_AUDIT.md`, `knowledge_external/catalogs/indexes/v49_absent_resource_routing_audit.tsv` |
 | 151 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 152 | medium | todo | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 152 | medium | done | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 153 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 152 | `meta/V49_QUEUE.md` |
 | 154 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 155 | medium | todo | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
@@ -1364,3 +1364,9 @@ tracked purge target is:
   for the two new external Markdown files.
 - Current cumulative active time at `2026-06-14T23:25:17Z`: `11701` seconds
   (`376` seconds session 1 plus `11325` seconds of current open session).
+- Task 152 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `aa861e0d8a68ae195be238ab295e4d69e82fae48`, cumulative active time `11734`
+  seconds, latest guard state, and open tasks `137` and `153` through `155`.
+- Current cumulative active time at `2026-06-14T23:25:50Z`: `11734` seconds
+  (`376` seconds session 1 plus `11358` seconds of current open session).
