@@ -198,7 +198,16 @@ tracked purge target is:
 | 143 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 142 | `meta/V49_QUEUE.md` |
 | 144 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 145 | medium | done | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 146 | medium | todo | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
+| 146 | medium | done | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
+| 147 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 146 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 148 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 149 | medium | todo | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md`, `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
+| 150 | medium | todo | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md`, `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
+| 151 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 152 | medium | todo | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 153 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 152 | `meta/V49_QUEUE.md` |
+| 154 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 155 | medium | todo | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1309,3 +1318,11 @@ tracked purge target is:
   was clean before this queue note.
 - Current cumulative active time at `2026-06-14T23:17:29Z`: `11233` seconds
   (`376` seconds session 1 plus `10857` seconds of current open session).
+- Task 146 refilled the backlog above threshold after task 145. New tasks `147`
+  through `155` keep rewrite handoff, Git integrity, contradiction-surveillance
+  routing, absent-resource intake routing, guards, checkpoints, clean-state
+  checks, active-time accounting, and further refill work current. Task `137`
+  remains scheduled for the `2026-06-14T23:30:00Z` OpenGWAS expiry/sentinel
+  boundary.
+- Current cumulative active time at `2026-06-14T23:18:09Z`: `11273` seconds
+  (`376` seconds session 1 plus `10897` seconds of current open session).
