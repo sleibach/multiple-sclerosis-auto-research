@@ -99,6 +99,13 @@ ARTIFACTS = [
         "boundary": "source terms control",
     },
     {
+        "artifact": "Source-terms coverage freshness linter",
+        "path": "scripts/v48_source_terms_coverage_freshness_linter.py",
+        "summary": "analysis/v48_source_terms_coverage_freshness_linter/source_terms_coverage_freshness_lint_summary.json",
+        "purpose": "Ensures the source-terms coverage report matches current external records.",
+        "boundary": "source terms control",
+    },
+    {
         "artifact": "Support/contradiction coverage linter",
         "path": "scripts/v48_support_contradiction_coverage_linter.py",
         "summary": "analysis/v48_support_contradiction_coverage_linter/support_contradiction_coverage_lint_summary.json",

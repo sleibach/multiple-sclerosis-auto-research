@@ -26,6 +26,7 @@ CHECKS = [
     ("source_locator_normalization", ["scripts/v48_source_locator_normalization_linter.py", "lint"]),
     ("source_terms_metadata", ["scripts/v48_source_terms_metadata_linter.py", "lint"]),
     ("source_terms_freshness", ["scripts/v48_source_terms_freshness_linter.py", "lint"]),
+    ("source_terms_coverage_freshness", ["scripts/v48_source_terms_coverage_freshness_linter.py", "lint"]),
     ("support_contradiction_coverage", ["scripts/v48_support_contradiction_coverage_linter.py", "lint"]),
     ("contradiction_intake", ["scripts/v48_contradiction_intake_linter.py", "lint"]),
     ("convergence_matrix_coverage", ["scripts/v48_convergence_matrix_coverage_linter.py", "lint"]),

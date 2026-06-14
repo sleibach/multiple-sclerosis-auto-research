@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `16`
+- artifacts tracked: `17`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -22,6 +22,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source locator normalization linter | `yes` | `PASS` | Source locator shape checks for external records. | source locator control | `scripts/v48_source_locator_normalization_linter.py` |
 | Source-terms metadata linter | `yes` | `PASS` | Completeness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_metadata_linter.py` |
 | Source-terms freshness linter | `yes` | `PASS` | Checked-date freshness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_freshness_linter.py` |
+| Source-terms coverage freshness linter | `yes` | `PASS` | Ensures the source-terms coverage report matches current external records. | source terms control | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |
 | Source-domain review freshness linter | `yes` | `PASS` | Ensures the source-domain review matches current external records. | domain review control | `scripts/v48_source_domain_review_freshness_linter.py` |
