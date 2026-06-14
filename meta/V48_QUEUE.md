@@ -137,11 +137,16 @@ span across resume gaps.
 | 109 | medium | done | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
 | 110 | medium | done | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
 | 111 | medium | done | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
-| 112 | medium | todo | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
+| 112 | medium | done | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | 113 | medium | todo | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | 114 | medium | todo | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
 | 115 | medium | todo | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | todo | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
+| 117 | medium | todo | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
+| 118 | medium | todo | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
+| 119 | medium | todo | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
+| 120 | medium | todo | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
+| 121 | medium | todo | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 
 ## Iteration Notes
 
@@ -1553,4 +1558,16 @@ span across resume gaps.
     remains excluded from grounded TF-IDF globs.
 - Final gates after task 111:
   - external Markdown linter: PASS (`300` checks, `48` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:19:08Z`: `17825` seconds.
+- Built source-hit access/terms parking queue template:
+  - required fields: `12`;
+  - parking statuses: `5`;
+  - release conditions: `6`;
+  - required linked controls: `6`;
+  - boundary: template/navigation only; promising but blocked source hits are
+    parked without copied source claims, relationship rows, or evidence claims.
+- Added follow-up tasks 117-121 to keep the executable backlog above threshold.
+- Final gates after task 112:
+  - external Markdown linter: PASS (`301` checks, `49` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
