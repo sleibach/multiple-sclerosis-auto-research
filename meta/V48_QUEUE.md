@@ -94,7 +94,7 @@ span across resume gaps.
 | 66 | medium | done | Build external sourcing plan for high-priority V37 coverage gaps without adding external claims | `knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md` |
 | 67 | medium | done | Add high-priority external sourcing plan freshness linter | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | 68 | medium | done | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
-| 69 | medium | todo | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
+| 69 | medium | done | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
 | 70 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -924,3 +924,20 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:06:59Z`: `10136` seconds.
+- Added contradiction surveillance checklist freshness linter:
+  - real checklist rows checked: `16`;
+  - real freshness checks: `180`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing row, stale count, extra row, and bad summary-count failures;
+  - governance controls tracked: `43`;
+  - full preflight checks: `37`.
+- Verification passed:
+  - contradiction surveillance freshness lint;
+  - convergence executive-card freshness lint;
+  - governance navigation freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:09:59Z`: `10476` seconds.

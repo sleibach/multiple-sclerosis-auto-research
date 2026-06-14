@@ -37,6 +37,7 @@ CHECKS = [
     ("support_contradiction_coverage", ["scripts/v48_support_contradiction_coverage_linter.py", "lint"]),
     ("contradiction_intake", ["scripts/v48_contradiction_intake_linter.py", "lint"]),
     ("contradiction_readiness_freshness", ["scripts/v48_contradiction_readiness_freshness_linter.py", "lint"]),
+    ("contradiction_surveillance_freshness", ["scripts/v48_contradiction_surveillance_freshness_linter.py", "lint"]),
     ("convergence_matrix_coverage", ["scripts/v48_convergence_matrix_coverage_linter.py", "lint"]),
     ("future_grounding_queue_freshness", ["scripts/v48_future_grounding_queue_freshness_linter.py", "lint"]),
     ("resource_comparator_freshness", ["scripts/v48_resource_comparator_freshness_linter.py", "lint"]),

@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `42`
+- artifacts tracked: `43`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -33,11 +33,12 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-terms freshness linter | `yes` | `PASS` | Checked-date freshness checks for optional source_terms objects. | source terms control | `scripts/v48_source_terms_freshness_linter.py` |
 | Source-terms coverage freshness linter | `yes` | `PASS` | Ensures the source-terms coverage report matches current external records. | source terms control | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | High-priority source-terms packet freshness linter | `yes` | `PASS` | Ensures the high-priority packet matches current high-priority source_terms review rows. | source terms control | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
-| High-priority external sourcing plan freshness linter | `yes` | `not_applicable` | Ensures the high-priority external sourcing plan matches current high-priority V37 coverage gaps. | future-grounding control | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
+| High-priority external sourcing plan freshness linter | `yes` | `PASS` | Ensures the high-priority external sourcing plan matches current high-priority V37 coverage gaps. | future-grounding control | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |
 | Contradiction readiness freshness linter | `yes` | `PASS` | Ensures contradiction readiness playbook counts and stages match the current matrix. | future-grounding control | `scripts/v48_contradiction_readiness_freshness_linter.py` |
+| Contradiction surveillance freshness linter | `yes` | `not_applicable` | Ensures the contradiction surveillance checklist matches current matrix rows and high-priority sourcing plan rows. | future-grounding control | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
 | Source-domain review freshness linter | `yes` | `PASS` | Ensures the source-domain review matches current external records. | domain review control | `scripts/v48_source_domain_review_freshness_linter.py` |
 | Source-domain relationship freshness linter | `yes` | `PASS` | Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. | domain relationship control | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | Source-domain independence freshness linter | `yes` | `PASS` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |

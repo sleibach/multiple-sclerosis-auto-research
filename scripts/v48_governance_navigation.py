@@ -211,6 +211,13 @@ ARTIFACTS = [
         "boundary": "future-grounding control",
     },
     {
+        "artifact": "Contradiction surveillance freshness linter",
+        "path": "scripts/v48_contradiction_surveillance_freshness_linter.py",
+        "summary": "analysis/v48_contradiction_surveillance_freshness_linter/contradiction_surveillance_freshness_lint_summary.json",
+        "purpose": "Ensures the contradiction surveillance checklist matches current matrix rows and high-priority sourcing plan rows.",
+        "boundary": "future-grounding control",
+    },
+    {
         "artifact": "Source-domain review freshness linter",
         "path": "scripts/v48_source_domain_review_freshness_linter.py",
         "summary": "analysis/v48_source_domain_review_freshness_linter/source_domain_review_freshness_lint_summary.json",

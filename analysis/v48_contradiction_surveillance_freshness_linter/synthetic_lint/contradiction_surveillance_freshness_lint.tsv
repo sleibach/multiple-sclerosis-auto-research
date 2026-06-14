@@ -1,0 +1,18 @@
+row_key	check	status	detail
+current_matrix||external_claim||positive_supported	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_surveillance_freshness_linter/synthetic_checklist.tsv
+current_matrix||external_claim||positive_supported	field_matches.scope	PASS	expected=current_matrix observed=current_matrix
+current_matrix||external_claim||positive_supported	field_matches.source_class	PASS	expected=external_claim observed=external_claim
+current_matrix||external_claim||positive_supported	field_matches.finding_category	PASS	expected=positive_supported observed=positive_supported
+current_matrix||external_claim||positive_supported	field_matches.rows	PASS	expected=1 observed=1
+current_matrix||external_claim||positive_supported	field_matches.current_convergence_rows	FAIL	expected=1 observed=99
+current_matrix||external_claim||positive_supported	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
+current_matrix||external_claim||positive_supported	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
+current_matrix||external_claim||positive_supported	field_matches.planned_source_rows	PASS	expected=0 observed=0
+current_matrix||external_claim||positive_supported	field_matches.surveillance_trigger	PASS	expected=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction. observed=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction.
+current_matrix||external_claim||positive_supported	field_matches.safe_action	PASS	expected=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change. observed=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change.
+future_sourcing_plan||same-failure-mode source||kills_closed	present_in_checklist	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_surveillance_freshness_linter/synthetic_checklist.tsv
+extra||extra||extra	no_extra_checklist_row	FAIL	row is not expected from current matrix and sourcing plan
+summary	summary_matches.n_checklist_rows	FAIL	expected=2 observed=99
+summary	summary_matches.n_current_matrix_scopes	FAIL	expected=1 observed=
+summary	summary_matches.n_future_sourcing_scopes	FAIL	expected=1 observed=
+summary	summary_matches.n_current_contradiction_rows	FAIL	expected=0 observed=99
