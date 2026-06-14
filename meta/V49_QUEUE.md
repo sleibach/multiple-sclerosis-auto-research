@@ -116,7 +116,14 @@ tracked purge target is:
 | 60 | medium | done | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
 | 61 | medium | done | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 62 | medium | done | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
-| 63 | medium | todo | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
+| 63 | medium | done | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
+| 64 | medium | todo | Refresh artifact manifest to include the final checkpoint and any post-checkpoint operational files | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 65 | medium | todo | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 66 | high | todo | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 67 | medium | todo | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
+| 68 | medium | todo | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
+| 69 | medium | todo | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
+| 70 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -694,3 +701,13 @@ tracked purge target is:
   large-file guard also remained PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:53:25Z`: `6189` seconds
   (`376` seconds session 1 plus `5813` seconds of current open session).
+- Task 63 added `meta/V49_FINAL_CHECKPOINT.md` as a resumability checkpoint,
+  not an end-of-block summary. It records the history rewrite state,
+  convergence/contradiction content outcome, latest gates, and required human
+  push/re-sync steps.
+- Backlog refill: added tasks `64` through `70` because the executable queue
+  dropped below threshold. These follow-ups keep V49 focused on manifest
+  completeness, rewritten-history handoff accuracy, provenance/public-index
+  guards, active-time accounting, OpenGWAS expiry status, and clean resumability.
+- Current cumulative active time at `2026-06-14T21:55:58Z`: `6342` seconds
+  (`376` seconds session 1 plus `5966` seconds of current open session).
