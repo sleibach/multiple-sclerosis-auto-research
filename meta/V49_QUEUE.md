@@ -130,7 +130,7 @@ tracked purge target is:
 | 74 | medium | done | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
 | 75 | medium | done | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 76 | medium | done | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
-| 77 | high | todo | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
+| 77 | high | done | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
 | 78 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 79 | high | todo | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 80 | medium | todo | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -821,3 +821,11 @@ tracked purge target is:
   policy current.
 - Current cumulative active time at `2026-06-14T22:08:58Z`: `7122` seconds
   (`376` seconds session 1 plus `6746` seconds of current open session).
+- Task 77 compared `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` with
+  `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md`. The docs
+  copy is intentionally a pointer, not a duplicate of external claims. It was
+  updated with V49 status counts (`23` rows, `7` corroboration/context rows,
+  `0` contradiction rows, `16` insufficient-overlap/context rows, and `0`
+  high-priority missing-input rows) plus an explicit segregation warning.
+- Current cumulative active time at `2026-06-14T22:10:48Z`: `7232` seconds
+  (`376` seconds session 1 plus `6856` seconds of current open session).
