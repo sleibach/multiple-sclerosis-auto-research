@@ -149,10 +149,14 @@ span across resume gaps.
 | 121 | medium | done | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 | 122 | medium | done | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
 | 123 | medium | done | Integrate de-duplication, parked-source release/handoff, and one-page intake controls into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
-| 124 | medium | todo | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
+| 124 | medium | done | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 | 125 | medium | todo | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
 | 126 | medium | todo | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
 | 127 | medium | todo | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
+| 128 | medium | todo | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
+| 129 | medium | todo | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
+| 130 | medium | todo | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
+| 131 | medium | todo | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 
 ## Iteration Notes
 
@@ -1712,4 +1716,16 @@ span across resume gaps.
     remains excluded from grounded TF-IDF globs.
 - Final gates after task 123:
   - external Markdown linter: PASS (`305` checks, `53` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:41:28Z`: `19165` seconds.
+- Built source-intake audit log template:
+  - audit fields: `14`;
+  - decision event types: `8`;
+  - required linked controls: `8`;
+  - boundary: template/navigation only; audit entries record operator routing
+    decisions and do not store external claims, create relationship rows, or
+    function as evidence.
+- Added follow-up tasks 128-131 to keep the executable backlog above threshold.
+- Final gates after task 124:
+  - external Markdown linter: PASS (`306` checks, `54` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
