@@ -85,7 +85,7 @@ tracked purge target is:
 | 29 | medium | done | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md` |
 | 30 | medium | done | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 31 | high | done | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 32 | medium | todo | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
+| 32 | medium | done | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
 | 33 | medium | todo | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 34 | medium | todo | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `knowledge/.index/` |
 | 35 | medium | todo | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
@@ -388,3 +388,14 @@ tracked purge target is:
 - Post-task gates: V47 provenance gate PASS and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T21:04:39Z`: `3263` seconds
   (`376` seconds session 1 plus `2887` seconds of current open session).
+- Task 32 added `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md`
+  and `knowledge_external/synthesis/v49_source_independence_delta.tsv`.
+  Result: V49 convergence/context should be summarized as `7` rows backed by
+  `5` canonical source clusters, not `7` independent external corroborations.
+  The largest shared-source cluster is the Nature MS/IBD source with `3` rows.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`72` links), external Markdown linter PASS (`374`
+  checks, `76` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:06:08Z`: `3352` seconds
+  (`376` seconds session 1 plus `2976` seconds of current open session).
