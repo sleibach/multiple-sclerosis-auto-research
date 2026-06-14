@@ -1,0 +1,10 @@
+source_domain	check	status	detail
+example.invalid	domain_present_in_rollup	PASS	example.invalid
+example.invalid	n_records_matches_expected	PASS	expected=1 actual=1
+example.invalid	record_relationship_counts_matches_expected	PASS	expected=supports:1 actual=supports:1
+example.invalid	n_matrix_rows_matches_expected	PASS	expected=1 actual=1
+example.invalid	matrix_relationship_counts_matches_expected	PASS	expected=converges:1 actual=converges:1
+example.invalid	has_convergence_matches_expected	PASS	expected=yes actual=yes
+example.invalid	has_contradiction_matches_expected	PASS	expected=no actual=no
+missing.example.invalid	domain_present_in_rollup	FAIL	missing.example.invalid
+stale.example.invalid	stale_rollup_domain_removed_from_current_records	FAIL	stale.example.invalid

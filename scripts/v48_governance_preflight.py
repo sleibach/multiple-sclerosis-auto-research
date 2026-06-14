@@ -37,6 +37,7 @@ CHECKS = [
     ("convergence_status_vocabulary", ["scripts/v48_convergence_status_vocabulary_linter.py", "lint"]),
     ("project_finding_reference", ["scripts/v48_project_finding_reference_linter.py", "lint"]),
     ("source_domain_review_freshness", ["scripts/v48_source_domain_review_freshness_linter.py", "lint"]),
+    ("source_domain_relationship_freshness", ["scripts/v48_source_domain_relationship_freshness_linter.py", "lint"]),
     ("v37_coverage_freshness", ["scripts/v48_v37_coverage_freshness_linter.py", "lint"]),
 ]
 

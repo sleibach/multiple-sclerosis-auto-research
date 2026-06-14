@@ -162,6 +162,13 @@ ARTIFACTS = [
         "boundary": "domain review control",
     },
     {
+        "artifact": "Source-domain relationship freshness linter",
+        "path": "scripts/v48_source_domain_relationship_freshness_linter.py",
+        "summary": "analysis/v48_source_domain_relationship_freshness_linter/source_domain_relationship_freshness_lint_summary.json",
+        "purpose": "Ensures the source-domain relationship rollup matches current external records and V48 matrix rows.",
+        "boundary": "domain relationship control",
+    },
+    {
         "artifact": "V37 external-coverage freshness linter",
         "path": "scripts/v48_v37_coverage_freshness_linter.py",
         "summary": "analysis/v48_v37_coverage_freshness_linter/v37_coverage_freshness_lint_summary.json",
