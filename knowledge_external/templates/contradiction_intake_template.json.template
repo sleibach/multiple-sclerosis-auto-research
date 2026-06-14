@@ -1,0 +1,26 @@
+{
+  "record_id": "claim.short_source.short_contradiction_topic.YYYY-MM-DD",
+  "record_type": "external_claim",
+  "claim": "One precise external claim that appears to contradict a specific grounded project finding.",
+  "epistemic_class": "external-verifiable",
+  "source": {
+    "label": "Source label",
+    "url": "https://example.invalid/source",
+    "doi": "",
+    "pmid": "",
+    "citation": ""
+  },
+  "date_accessed": "YYYY-MM-DD",
+  "relationship_to_project_findings": "contradicts",
+  "project_finding_reference": {
+    "finding_id": "Exact grounded finding ID from docs/reports/FINDINGS_REPORT_V37.md or successor",
+    "artifact": "docs/reports/FINDINGS_REPORT_V37.md"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "relationship_note": "Why the external claim appears to contradict the grounded finding. This is a tension flag, not a resolution.",
+  "future_grounding_route": "Specific project-held or reachable data and exact analysis needed before the tension can affect project conclusions.",
+  "grounding_data_needed": "Dataset, modality, labels, metadata, or accession needed.",
+  "grounding_status": "queued_for_future_grounding",
+  "project_use": "Contradiction triage queue only; not evidence.",
+  "why_unverifiable": "The project has not rerun or acquired the underlying evidence behind this external claim."
+}

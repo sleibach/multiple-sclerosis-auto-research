@@ -47,7 +47,7 @@ span across resume gaps.
 | 19 | medium | done | Build source-terms coverage rollup for external records and resources | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 20 | medium | done | Add source-terms freshness linter comparing checked_date against record date_accessed | `scripts/v48_source_terms_freshness_linter.py` |
 | 21 | medium | done | Add support/contradiction convergence coverage linter for external records that reference project findings | `scripts/v48_support_contradiction_coverage_linter.py` |
-| 22 | medium | todo | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
+| 22 | medium | done | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
 | 23 | medium | todo | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
 | 24 | medium | todo | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 25 | medium | todo | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
@@ -207,3 +207,13 @@ span across resume gaps.
   - convergence matrix coverage lint;
   - future-grounding queue freshness lint;
   - project finding reference lint.
+- Current open-session active time at `2026-06-14T14:06:59Z`: `2696` seconds.
+- Added contradiction-intake template and linter:
+  - template requires `external-verifiable`, `contradicts`, project-finding reference, relationship note, future grounding route, and `NOT_PROJECT_GROUNDED`;
+  - synthetic fixture passed, including bad class, missing route, and missing reference failures;
+  - real live contradiction-intake records: `0`;
+  - real failures: `0`.
+- Verification passed:
+  - external-verifiable intake lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.

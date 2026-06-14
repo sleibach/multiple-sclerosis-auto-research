@@ -11,3 +11,10 @@ Rules:
   tested by a separate grounded project analysis;
 - never cite a queued external-verifiable claim as project evidence.
 
+Templates:
+
+- `external_verifiable_claim_template.json.template`: queue a future-groundable
+  external claim with no current support/contradiction assertion.
+- `contradiction_intake_template.json.template`: queue an external claim that
+  appears to contradict a grounded project finding. The contradiction remains a
+  flag for future grounding, not evidence against the project finding.
