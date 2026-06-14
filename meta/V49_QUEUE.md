@@ -132,7 +132,7 @@ tracked purge target is:
 | 76 | medium | done | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 77 | high | done | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
 | 78 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 79 | high | todo | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 79 | high | done | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 80 | medium | todo | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
 | 82 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
@@ -834,3 +834,12 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:11:16Z`: `7260` seconds
   (`376` seconds session 1 plus `6884` seconds of current open session).
+- Task 79 reran post-pointer guards. Results: V47 provenance gate PASS (`436`
+  checks, `47` external JSON records, `0` failures), public-index freshness
+  PASS (`50` checks), public-index crosslinks PASS (`73` links), external
+  Markdown/index lint PASS (`375` checks, `77` Markdown files), docs convergence
+  pointer consistency PASS, tracked large-file guard PASS (`0` tracked files
+  above `50 MiB`), and Git blob guard PASS (`0` blobs above `50 MiB`). The guard
+  outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T22:13:01Z`: `7365` seconds
+  (`376` seconds session 1 plus `6989` seconds of current open session).
