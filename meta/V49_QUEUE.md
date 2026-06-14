@@ -86,7 +86,7 @@ tracked purge target is:
 | 30 | medium | done | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 31 | high | done | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 32 | medium | done | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
-| 33 | medium | todo | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 33 | medium | done | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 34 | medium | todo | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `knowledge/.index/` |
 | 35 | medium | todo | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
 | 36 | medium | todo | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
@@ -399,3 +399,14 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T21:06:08Z`: `3352` seconds
   (`376` seconds session 1 plus `2976` seconds of current open session).
+- Task 33 added `knowledge_external/synthesis/V49_READER_QUICKSTART.md` and
+  `knowledge_external/synthesis/v49_reader_quickstart.tsv`. Result: common
+  V49 reader questions now route directly to the correct artifact, including
+  history rewrite handoff, validation readiness, import packets, context-only
+  closures, zero-contradiction caveat, and unresolved-action reconciliation.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`73` links), external Markdown linter PASS (`375`
+  checks, `77` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:07:32Z`: `3436` seconds
+  (`376` seconds session 1 plus `3060` seconds of current open session).
