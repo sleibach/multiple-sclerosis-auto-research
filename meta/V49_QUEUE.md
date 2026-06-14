@@ -197,7 +197,7 @@ tracked purge target is:
 | 142 | medium | done | Refresh final and resume checkpoints after task 141 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 143 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 142 | `meta/V49_QUEUE.md` |
 | 144 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 145 | medium | todo | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 145 | medium | done | Refresh V49 artifact manifest and quickstart routing if guard outputs changed | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 146 | medium | todo | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
@@ -1302,3 +1302,10 @@ tracked purge target is:
   cumulative active time `11203` seconds, wall-clock span since block start
   `11975` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue remains summed-session based.
+- Task 145 verified V49 manifest and quickstart routing freshness after the
+  latest guard outputs. Result: no edit needed; the manifest still includes the
+  gap-closure audit and docs pointer, the Markdown and TSV quickstarts route to
+  the populated convergence matrix and gap-closure audit, and the working tree
+  was clean before this queue note.
+- Current cumulative active time at `2026-06-14T23:17:29Z`: `11233` seconds
+  (`376` seconds session 1 plus `10857` seconds of current open session).
