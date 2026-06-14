@@ -129,7 +129,14 @@ tracked purge target is:
 | 73 | high | done | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 74 | medium | done | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
 | 75 | medium | done | Recheck artifact manifest and resume checkpoint consistency after tasks 71-74 | `meta/V49_ARTIFACT_MANIFEST.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 76 | medium | todo | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 76 | medium | done | Verify `.gitignore` still blocks representative tmp/cache/large-output paths after the final handoff refresh | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 77 | high | todo | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
+| 78 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 79 | high | todo | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 80 | medium | todo | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
+| 82 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
+| 83 | medium | todo | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -800,3 +807,17 @@ tracked purge target is:
   open task `76`.
 - Current cumulative active time at `2026-06-14T22:08:09Z`: `7073` seconds
   (`376` seconds session 1 plus `6697` seconds of current open session).
+- Task 76 rechecked `.gitignore` recurrence protections with representative
+  tmp/cache/large-output paths. Result: all checked paths resolved to ignore
+  rules, including `phases/*/tmp/` via `.gitignore:24:**/tmp/`, the purged
+  V43 subject-level synthetic cache via `.gitignore:34`, the legacy
+  `results_v3/` broad-H5AD contrast via `.gitignore:33`, and `tmp_v3/` via
+  `.gitignore:20`. The final recheck was added to
+  `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`.
+- Backlog refill: added tasks `77` through `83`. The key newly generated
+  content task is checking whether the named `docs/knowledge/` convergence/
+  contradiction deliverable is synchronized with the updated external synthesis
+  copy; the remaining tasks keep handoff, guards, checkpoints, timing, and size
+  policy current.
+- Current cumulative active time at `2026-06-14T22:08:58Z`: `7122` seconds
+  (`376` seconds session 1 plus `6746` seconds of current open session).

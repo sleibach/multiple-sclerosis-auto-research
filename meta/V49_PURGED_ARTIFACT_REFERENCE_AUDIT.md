@@ -70,6 +70,20 @@ the V49 ignore rules were tightened. All representative paths are now ignored:
 The legacy `results_v3/` broad-H5AD contrast path was not covered by the first
 V49 ignore rule set; task 45 added the explicit rule shown above.
 
+## Final Ignore-Rule Recheck
+
+Rechecked at `2026-06-14T22:08:58Z` after the final handoff refresh. All
+representative recurrence-risk paths still resolve to an ignore rule:
+
+| path | ignore rule |
+|---|---|
+| `phases/v3/tmp/foundation_wave6/geneformer_assets/Geneformer-V2-104M/model.safetensors` | `.gitignore:24:**/tmp/` |
+| `phases/v9/tmp/cache/example.h5ad` | `.gitignore:24:**/tmp/` |
+| `phases/v9/tmp/cache/gwascatalog_associations.parquet` | `.gitignore:24:**/tmp/` |
+| `analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz` | `.gitignore:34:analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz` |
+| `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` | `.gitignore:33:results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` |
+| `tmp_v3/any/cache.parquet` | `.gitignore:20:tmp_v3/` |
+
 ## Reference Classes
 
 ### Historical provenance references
