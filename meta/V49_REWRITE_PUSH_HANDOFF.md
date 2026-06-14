@@ -96,6 +96,33 @@ git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objec
 
 Both large-file commands should print nothing.
 
+## Local Object Store Checkpoint
+
+Checked at `2026-06-14T21:35:52Z` after the latest V49 commits:
+
+```text
+git count-objects -vH
+count: 602
+size: 9.85 MiB
+in-pack: 21745
+packs: 1
+size-pack: 426.79 MiB
+prune-packable: 0
+garbage: 0
+size-garbage: 0 bytes
+```
+
+Additional local state:
+
+- `.git` directory size: `440M`
+- commit count on `main`: `560`
+- current branch: `main`
+- tracked files above `50 MiB`: `0`
+- Git blobs above `50 MiB`: `0`
+
+The pack is not tiny because the repository still has substantial legitimate
+history, but the GitHub hard-blocking large blobs have been removed.
+
 ## Next Repository Rule
 
 Do not commit files above `50 MiB`, files under `tmp/`, or regenerated caches.
