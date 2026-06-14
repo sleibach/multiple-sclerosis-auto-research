@@ -2,17 +2,18 @@
 
 Status: navigation/synthesis only. This rollup summarizes provenance and relationship classes; it does not validate external claims.
 
-- source domains: `27`
-- domains with convergence rows: `1`
+- source domains: `29`
+- domains with convergence rows: `4`
 - domains with contradiction rows: `0`
-- external records: `39`
-- V48 matrix rows: `12`
+- external records: `47`
+- V48 matrix rows: `23`
 
 ## Domains
 
 | domain | records | record relationships | matrix rows | matrix relationships | convergence | contradiction |
 |---|---:|---|---:|---|---|---|
 | about.zenodo.org | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
+| annualreviews.org | 1 | `supports:1` | 1 | `converges:1` | `yes` | `no` |
 | atlasofms.org | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
 | clinicaltrials.gov | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
 | commondataelements.ninds.nih.gov | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
@@ -33,12 +34,13 @@ Status: navigation/synthesis only. This rollup summarizes provenance and relatio
 | mssociety.org.uk | 2 | `orthogonal:2` | 0 | `none` | `no` | `no` |
 | narcoms.org | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
 | nationalmssociety.org | 4 | `orthogonal:4` | 1 | `insufficient-overlap:1` | `no` | `no` |
-| nature.com | 2 | `supports:2` | 3 | `converges:2;insufficient-overlap:1` | `yes` | `no` |
+| nature.com | 2 | `supports:2` | 5 | `converges:3;insufficient-overlap:2` | `yes` | `no` |
 | ncbi.nlm.nih.gov | 2 | `orthogonal:2` | 0 | `none` | `no` | `no` |
 | ngdc.cncb.ac.cn | 1 | `orthogonal:1` | 2 | `insufficient-overlap:2` | `no` | `no` |
 | nice.org.uk | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
 | platform-docs.opentargets.org | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
-| pubmed.ncbi.nlm.nih.gov | 1 | `orthogonal:1` | 0 | `none` | `no` | `no` |
+| pmc.ncbi.nlm.nih.gov | 4 | `orthogonal:2;supports:2` | 4 | `converges:2;insufficient-overlap:2` | `yes` | `no` |
+| pubmed.ncbi.nlm.nih.gov | 4 | `orthogonal:3;supports:1` | 4 | `converges:1;insufficient-overlap:3` | `yes` | `no` |
 
 ## Interpretation
 

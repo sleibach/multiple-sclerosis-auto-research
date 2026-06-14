@@ -1,0 +1,31 @@
+{
+  "claim": "External MS MHC fine-mapping literature reports multiple statistically independent HLA and non-HLA effects within the MHC region.",
+  "date_accessed": "2026-06-14",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as segregated MHC-complexity context; any MS-comparator colocalization claim still requires project-level locus-specific fine-mapping and QTL grounding.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/FINDINGS_REPORT_V37.md",
+    "finding_id": "MHC overlap is distinct-signal, not simple shared biology"
+  },
+  "project_use": "External MHC fine-mapping context for V49 convergence review; not evidence for the project's MS-comparator colocalization result.",
+  "record_id": "claim.plos.ms_mhc_independent_effects_context.2026-06-14",
+  "record_type": "external_claim",
+  "relationship_note": "The source independently supports the general premise that MHC association is multi-signal rather than a single simple shared association.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Patsopoulos et al. Fine-Mapping the Genetic Association of the Major Histocompatibility Complex in Multiple Sclerosis: HLA and Non-HLA Effects. PLoS Genetics. 2013.",
+    "doi": "10.1371/journal.pgen.1003926",
+    "label": "PLOS Genetics MS MHC fine-mapping study",
+    "pmid": "24278027",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799/"
+  },
+  "tags": [
+    "mhc",
+    "hla",
+    "fine_mapping",
+    "multiple_sclerosis",
+    "independent_effects"
+  ],
+  "why_unverifiable": "The project does not rerun the external HLA imputation and MHC fine-mapping pipeline in this external layer."
+}

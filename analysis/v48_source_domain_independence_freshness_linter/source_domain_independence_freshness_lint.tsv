@@ -41,6 +41,48 @@ ngdc.cncb.ac.cn	field_matches.source_independence_classes	PASS	expected=not_deci
 ngdc.cncb.ac.cn	field_matches.canonical_source_urls	PASS	expected=https://ngdc.cncb.ac.cn/databasecommons/database/id/9285 observed=https://ngdc.cncb.ac.cn/databasecommons/database/id/9285
 ngdc.cncb.ac.cn	field_matches.grounded_findings	PASS	expected=Coupled APC remodeling architecture;No validated broad immune-state simulator from held data observed=Coupled APC remodeling architecture;No validated broad immune-state simulator from held data
 ngdc.cncb.ac.cn	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+pmc.ncbi.nlm.nih.gov	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+pmc.ncbi.nlm.nih.gov	field_matches.source_domain	PASS	expected=pmc.ncbi.nlm.nih.gov observed=pmc.ncbi.nlm.nih.gov
+pmc.ncbi.nlm.nih.gov	field_matches.matrix_rows	PASS	expected=4 observed=4
+pmc.ncbi.nlm.nih.gov	field_matches.canonical_source_clusters	PASS	expected=4 observed=4
+pmc.ncbi.nlm.nih.gov	field_matches.decision_relationship_rows	PASS	expected=2 observed=2
+pmc.ncbi.nlm.nih.gov	field_matches.convergence_rows	PASS	expected=2 observed=2
+pmc.ncbi.nlm.nih.gov	field_matches.contradiction_rows	PASS	expected=0 observed=0
+pmc.ncbi.nlm.nih.gov	field_matches.insufficient_overlap_rows	PASS	expected=2 observed=2
+pmc.ncbi.nlm.nih.gov	field_matches.relationship_counts	PASS	expected=converges:2;insufficient-overlap:2 observed=converges:2;insufficient-overlap:2
+pmc.ncbi.nlm.nih.gov	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1;NO_DIRECT_EXTERNAL_CORROBORATION:1 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1;NO_DIRECT_EXTERNAL_CORROBORATION:1
+pmc.ncbi.nlm.nih.gov	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:2;single_row_source:2 observed=not_decision_relationship:2;single_row_source:2
+pmc.ncbi.nlm.nih.gov	field_matches.canonical_source_urls	PASS	expected=https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799;https://pmc.ncbi.nlm.nih.gov/articles/PMC6396336;https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615;https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176 observed=https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799;https://pmc.ncbi.nlm.nih.gov/articles/PMC6396336;https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615;https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176
+pmc.ncbi.nlm.nih.gov	field_matches.grounded_findings	PASS	expected=GPR25 demoted from protected favorite;MHC overlap is distinct-signal, not simple shared biology;Mucosal IBD early IFN/APC downshift validates while baseline fallback fails;No load-bearing invariant found in V26 observed=GPR25 demoted from protected favorite;MHC overlap is distinct-signal, not simple shared biology;Mucosal IBD early IFN/APC downshift validates while baseline fallback fails;No load-bearing invariant found in V26
+pmc.ncbi.nlm.nih.gov	field_matches.interpretation_boundary	PASS	expected=Decision-relevant relationship is spread across multiple canonical source clusters; still external context, not project evidence. observed=Decision-relevant relationship is spread across multiple canonical source clusters; still external context, not project evidence.
+pubmed.ncbi.nlm.nih.gov	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+pubmed.ncbi.nlm.nih.gov	field_matches.source_domain	PASS	expected=pubmed.ncbi.nlm.nih.gov observed=pubmed.ncbi.nlm.nih.gov
+pubmed.ncbi.nlm.nih.gov	field_matches.matrix_rows	PASS	expected=4 observed=4
+pubmed.ncbi.nlm.nih.gov	field_matches.canonical_source_clusters	PASS	expected=3 observed=3
+pubmed.ncbi.nlm.nih.gov	field_matches.decision_relationship_rows	PASS	expected=1 observed=1
+pubmed.ncbi.nlm.nih.gov	field_matches.convergence_rows	PASS	expected=1 observed=1
+pubmed.ncbi.nlm.nih.gov	field_matches.contradiction_rows	PASS	expected=0 observed=0
+pubmed.ncbi.nlm.nih.gov	field_matches.insufficient_overlap_rows	PASS	expected=3 observed=3
+pubmed.ncbi.nlm.nih.gov	field_matches.relationship_counts	PASS	expected=converges:1;insufficient-overlap:3 observed=converges:1;insufficient-overlap:3
+pubmed.ncbi.nlm.nih.gov	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:1;NO_DIRECT_EXTERNAL_CORROBORATION:3 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:1;NO_DIRECT_EXTERNAL_CORROBORATION:3
+pubmed.ncbi.nlm.nih.gov	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:3;shared_source_cluster:1 observed=not_decision_relationship:3;shared_source_cluster:1
+pubmed.ncbi.nlm.nih.gov	field_matches.canonical_source_urls	PASS	expected=https://pubmed.ncbi.nlm.nih.gov/30596875;https://pubmed.ncbi.nlm.nih.gov/35025605;https://pubmed.ncbi.nlm.nih.gov/38049980 observed=https://pubmed.ncbi.nlm.nih.gov/30596875;https://pubmed.ncbi.nlm.nih.gov/35025605;https://pubmed.ncbi.nlm.nih.gov/38049980
+pubmed.ncbi.nlm.nih.gov	field_matches.grounded_findings	PASS	expected=EBV/IFN APC imprint downgraded by specificity control;Locked V7 general cross-disease baseline fallback killed;RA pregnancy comparator but blood APC treatment-response nontransfer;Tool-robust but simple V22 scalar observed=EBV/IFN APC imprint downgraded by specificity control;Locked V7 general cross-disease baseline fallback killed;RA pregnancy comparator but blood APC treatment-response nontransfer;Tool-robust but simple V22 scalar
+pubmed.ncbi.nlm.nih.gov	field_matches.interpretation_boundary	PASS	expected=Decision-relevant relationship is spread across multiple canonical source clusters; still external context, not project evidence. observed=Decision-relevant relationship is spread across multiple canonical source clusters; still external context, not project evidence.
+www.annualreviews.org	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+www.annualreviews.org	field_matches.source_domain	PASS	expected=www.annualreviews.org observed=www.annualreviews.org
+www.annualreviews.org	field_matches.matrix_rows	PASS	expected=1 observed=1
+www.annualreviews.org	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+www.annualreviews.org	field_matches.decision_relationship_rows	PASS	expected=1 observed=1
+www.annualreviews.org	field_matches.convergence_rows	PASS	expected=1 observed=1
+www.annualreviews.org	field_matches.contradiction_rows	PASS	expected=0 observed=0
+www.annualreviews.org	field_matches.insufficient_overlap_rows	PASS	expected=0 observed=0
+www.annualreviews.org	field_matches.relationship_counts	PASS	expected=converges:1 observed=converges:1
+www.annualreviews.org	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:1 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:1
+www.annualreviews.org	field_matches.source_independence_classes	PASS	expected=single_row_source:1 observed=single_row_source:1
+www.annualreviews.org	field_matches.canonical_source_urls	PASS	expected=https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838 observed=https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838
+www.annualreviews.org	field_matches.grounded_findings	PASS	expected=First-principles druggability discipline changed target interpretation observed=First-principles druggability discipline changed target interpretation
+www.annualreviews.org	field_matches.interpretation_boundary	PASS	expected=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations. observed=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations.
 www.ebi.ac.uk	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
 www.ebi.ac.uk	field_matches.source_domain	PASS	expected=www.ebi.ac.uk observed=www.ebi.ac.uk
 www.ebi.ac.uk	field_matches.matrix_rows	PASS	expected=1 observed=1
@@ -71,22 +113,22 @@ www.nationalmssociety.org	field_matches.grounded_findings	PASS	expected=Postpart
 www.nationalmssociety.org	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
 www.nature.com	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
 www.nature.com	field_matches.source_domain	PASS	expected=www.nature.com observed=www.nature.com
-www.nature.com	field_matches.matrix_rows	PASS	expected=3 observed=3
+www.nature.com	field_matches.matrix_rows	PASS	expected=5 observed=5
 www.nature.com	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
-www.nature.com	field_matches.decision_relationship_rows	PASS	expected=2 observed=2
-www.nature.com	field_matches.convergence_rows	PASS	expected=2 observed=2
+www.nature.com	field_matches.decision_relationship_rows	PASS	expected=3 observed=3
+www.nature.com	field_matches.convergence_rows	PASS	expected=3 observed=3
 www.nature.com	field_matches.contradiction_rows	PASS	expected=0 observed=0
-www.nature.com	field_matches.insufficient_overlap_rows	PASS	expected=1 observed=1
-www.nature.com	field_matches.relationship_counts	PASS	expected=converges:2;insufficient-overlap:1 observed=converges:2;insufficient-overlap:1
-www.nature.com	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1
-www.nature.com	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:1;shared_source_cluster:2 observed=not_decision_relationship:1;shared_source_cluster:2
+www.nature.com	field_matches.insufficient_overlap_rows	PASS	expected=2 observed=2
+www.nature.com	field_matches.relationship_counts	PASS	expected=converges:3;insufficient-overlap:2 observed=converges:3;insufficient-overlap:2
+www.nature.com	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:3;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:2 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:3;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:2
+www.nature.com	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:2;shared_source_cluster:3 observed=not_decision_relationship:2;shared_source_cluster:3
 www.nature.com	field_matches.canonical_source_urls	PASS	expected=https://www.nature.com/articles/s41467-021-25768-0 observed=https://www.nature.com/articles/s41467-021-25768-0
-www.nature.com	field_matches.grounded_findings	PASS	expected=Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer observed=Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer
+www.nature.com	field_matches.grounded_findings	PASS	expected=Crohn downstream IFN/APC convergence exceeds genetic proximity;Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer;UC genetics vs treatment-response layer split observed=Crohn downstream IFN/APC convergence exceeds genetic proximity;Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer;UC genetics vs treatment-response layer split
 www.nature.com	field_matches.interpretation_boundary	PASS	expected=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations. observed=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations.
-summary	summary_matches.n_source_domains	PASS	expected=6 observed=6
-summary	summary_matches.n_matrix_rows	PASS	expected=12 observed=12
-summary	summary_matches.n_canonical_source_clusters	PASS	expected=7 observed=7
-summary	summary_matches.n_decision_relationship_rows	PASS	expected=2 observed=2
-summary	summary_matches.n_decision_canonical_source_clusters	PASS	expected=1 observed=1
-summary	summary_matches.n_domains_with_convergence	PASS	expected=1 observed=1
+summary	summary_matches.n_source_domains	PASS	expected=9 observed=9
+summary	summary_matches.n_matrix_rows	PASS	expected=23 observed=23
+summary	summary_matches.n_canonical_source_clusters	PASS	expected=15 observed=15
+summary	summary_matches.n_decision_relationship_rows	PASS	expected=7 observed=7
+summary	summary_matches.n_decision_canonical_source_clusters	PASS	expected=5 observed=5
+summary	summary_matches.n_domains_with_convergence	PASS	expected=4 observed=4
 summary	summary_matches.n_domains_with_contradiction	PASS	expected=0 observed=0

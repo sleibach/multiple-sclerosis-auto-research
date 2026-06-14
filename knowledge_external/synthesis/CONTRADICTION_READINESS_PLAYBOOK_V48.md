@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This playbook defines what to do if future external context conflicts with a grounded project finding.
 
-- current matrix rows: `12`
+- current matrix rows: `23`
 - current contradictions: `0`
 - playbook steps: `4`
 

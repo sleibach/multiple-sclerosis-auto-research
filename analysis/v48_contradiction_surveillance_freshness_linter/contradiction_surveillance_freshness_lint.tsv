@@ -3,10 +3,10 @@ current_matrix||external_claim||decoupling_negative	present_in_checklist	PASS	/U
 current_matrix||external_claim||decoupling_negative	field_matches.scope	PASS	expected=current_matrix observed=current_matrix
 current_matrix||external_claim||decoupling_negative	field_matches.source_class	PASS	expected=external_claim observed=external_claim
 current_matrix||external_claim||decoupling_negative	field_matches.finding_category	PASS	expected=decoupling_negative observed=decoupling_negative
-current_matrix||external_claim||decoupling_negative	field_matches.rows	PASS	expected=1 observed=1
-current_matrix||external_claim||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=0 observed=0
+current_matrix||external_claim||decoupling_negative	field_matches.rows	PASS	expected=6 observed=6
+current_matrix||external_claim||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=2 observed=2
 current_matrix||external_claim||decoupling_negative	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-current_matrix||external_claim||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=1 observed=1
+current_matrix||external_claim||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=4 observed=4
 current_matrix||external_claim||decoupling_negative	field_matches.planned_source_rows	PASS	expected=0 observed=0
 current_matrix||external_claim||decoupling_negative	field_matches.surveillance_trigger	PASS	expected=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition. observed=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition.
 current_matrix||external_claim||decoupling_negative	field_matches.safe_action	PASS	expected=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change. observed=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change.
@@ -14,10 +14,10 @@ current_matrix||external_claim||kills_closed	present_in_checklist	PASS	/Users/so
 current_matrix||external_claim||kills_closed	field_matches.scope	PASS	expected=current_matrix observed=current_matrix
 current_matrix||external_claim||kills_closed	field_matches.source_class	PASS	expected=external_claim observed=external_claim
 current_matrix||external_claim||kills_closed	field_matches.finding_category	PASS	expected=kills_closed observed=kills_closed
-current_matrix||external_claim||kills_closed	field_matches.rows	PASS	expected=1 observed=1
+current_matrix||external_claim||kills_closed	field_matches.rows	PASS	expected=4 observed=4
 current_matrix||external_claim||kills_closed	field_matches.current_convergence_rows	PASS	expected=0 observed=0
 current_matrix||external_claim||kills_closed	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-current_matrix||external_claim||kills_closed	field_matches.current_insufficient_overlap_rows	PASS	expected=1 observed=1
+current_matrix||external_claim||kills_closed	field_matches.current_insufficient_overlap_rows	PASS	expected=4 observed=4
 current_matrix||external_claim||kills_closed	field_matches.planned_source_rows	PASS	expected=0 observed=0
 current_matrix||external_claim||kills_closed	field_matches.surveillance_trigger	PASS	expected=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain. observed=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain.
 current_matrix||external_claim||kills_closed	field_matches.safe_action	PASS	expected=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change. observed=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change.
@@ -25,8 +25,8 @@ current_matrix||external_claim||methodological	present_in_checklist	PASS	/Users/
 current_matrix||external_claim||methodological	field_matches.scope	PASS	expected=current_matrix observed=current_matrix
 current_matrix||external_claim||methodological	field_matches.source_class	PASS	expected=external_claim observed=external_claim
 current_matrix||external_claim||methodological	field_matches.finding_category	PASS	expected=methodological observed=methodological
-current_matrix||external_claim||methodological	field_matches.rows	PASS	expected=1 observed=1
-current_matrix||external_claim||methodological	field_matches.current_convergence_rows	PASS	expected=0 observed=0
+current_matrix||external_claim||methodological	field_matches.rows	PASS	expected=3 observed=3
+current_matrix||external_claim||methodological	field_matches.current_convergence_rows	PASS	expected=2 observed=2
 current_matrix||external_claim||methodological	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
 current_matrix||external_claim||methodological	field_matches.current_insufficient_overlap_rows	PASS	expected=1 observed=1
 current_matrix||external_claim||methodological	field_matches.planned_source_rows	PASS	expected=0 observed=0
@@ -36,8 +36,8 @@ current_matrix||external_claim||positive_supported	present_in_checklist	PASS	/Us
 current_matrix||external_claim||positive_supported	field_matches.scope	PASS	expected=current_matrix observed=current_matrix
 current_matrix||external_claim||positive_supported	field_matches.source_class	PASS	expected=external_claim observed=external_claim
 current_matrix||external_claim||positive_supported	field_matches.finding_category	PASS	expected=positive_supported observed=positive_supported
-current_matrix||external_claim||positive_supported	field_matches.rows	PASS	expected=5 observed=5
-current_matrix||external_claim||positive_supported	field_matches.current_convergence_rows	PASS	expected=2 observed=2
+current_matrix||external_claim||positive_supported	field_matches.rows	PASS	expected=6 observed=6
+current_matrix||external_claim||positive_supported	field_matches.current_convergence_rows	PASS	expected=3 observed=3
 current_matrix||external_claim||positive_supported	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
 current_matrix||external_claim||positive_supported	field_matches.current_insufficient_overlap_rows	PASS	expected=3 observed=3
 current_matrix||external_claim||positive_supported	field_matches.planned_source_rows	PASS	expected=0 observed=0
@@ -76,106 +76,7 @@ current_matrix||external_resource_catalog||positive_supported	field_matches.curr
 current_matrix||external_resource_catalog||positive_supported	field_matches.planned_source_rows	PASS	expected=0 observed=0
 current_matrix||external_resource_catalog||positive_supported	field_matches.surveillance_trigger	PASS	expected=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction. observed=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction.
 current_matrix||external_resource_catalog||positive_supported	field_matches.safe_action	PASS	expected=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change. observed=Add or update a contradiction-intake row only if the candidate has source-specific overlap; queue future grounding before any interpretation change.
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.source_class	PASS	expected=EBV-stratified immune-data source observed=EBV-stratified immune-data source
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.finding_category	PASS	expected=kills_closed observed=kills_closed
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.surveillance_trigger	PASS	expected=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain. observed=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain.
-future_sourcing_plan||EBV-stratified immune-data source||kills_closed	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.source_class	PASS	expected=IBD/MS transfer-specific literature or datasets observed=IBD/MS transfer-specific literature or datasets
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.finding_category	PASS	expected=decoupling_negative observed=decoupling_negative
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.rows	PASS	expected=2 observed=2
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.planned_source_rows	PASS	expected=2 observed=2
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.surveillance_trigger	PASS	expected=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition. observed=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition.
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||decoupling_negative	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.source_class	PASS	expected=IBD/MS transfer-specific literature or datasets observed=IBD/MS transfer-specific literature or datasets
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.finding_category	PASS	expected=positive_supported observed=positive_supported
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.surveillance_trigger	PASS	expected=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction. observed=Candidate says the grounded positive does not hold under the same definition, population, layer, or direction.
-future_sourcing_plan||IBD/MS transfer-specific literature or datasets||positive_supported	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.source_class	PASS	expected=locus/signal-specific genetics source observed=locus/signal-specific genetics source
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.finding_category	PASS	expected=decoupling_negative observed=decoupling_negative
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.surveillance_trigger	PASS	expected=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition. observed=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition.
-future_sourcing_plan||locus/signal-specific genetics source||decoupling_negative	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.source_class	PASS	expected=locus/signal-specific genetics source observed=locus/signal-specific genetics source
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.finding_category	PASS	expected=kills_closed observed=kills_closed
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.surveillance_trigger	PASS	expected=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain. observed=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain.
-future_sourcing_plan||locus/signal-specific genetics source||kills_closed	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||method/governance literature||methodological	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||method/governance literature||methodological	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||method/governance literature||methodological	field_matches.source_class	PASS	expected=method/governance literature observed=method/governance literature
-future_sourcing_plan||method/governance literature||methodological	field_matches.finding_category	PASS	expected=methodological observed=methodological
-future_sourcing_plan||method/governance literature||methodological	field_matches.rows	PASS	expected=2 observed=2
-future_sourcing_plan||method/governance literature||methodological	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||method/governance literature||methodological	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||method/governance literature||methodological	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||method/governance literature||methodological	field_matches.planned_source_rows	PASS	expected=2 observed=2
-future_sourcing_plan||method/governance literature||methodological	field_matches.surveillance_trigger	PASS	expected=Candidate challenges a project method result or governance rule under the same procedure. observed=Candidate challenges a project method result or governance rule under the same procedure.
-future_sourcing_plan||method/governance literature||methodological	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.source_class	PASS	expected=pregnancy/postpartum comparator literature or datasets observed=pregnancy/postpartum comparator literature or datasets
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.finding_category	PASS	expected=decoupling_negative observed=decoupling_negative
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.surveillance_trigger	PASS	expected=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition. observed=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition.
-future_sourcing_plan||pregnancy/postpartum comparator literature or datasets||decoupling_negative	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||same-failure-mode source||decoupling_negative	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.source_class	PASS	expected=same-failure-mode source observed=same-failure-mode source
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.finding_category	PASS	expected=decoupling_negative observed=decoupling_negative
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.surveillance_trigger	PASS	expected=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition. observed=Candidate says a project decoupling/negative relationship is actually shared, same-direction, or transferable under the same definition.
-future_sourcing_plan||same-failure-mode source||decoupling_negative	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-future_sourcing_plan||same-failure-mode source||kills_closed	present_in_checklist	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.scope	PASS	expected=future_sourcing_plan observed=future_sourcing_plan
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.source_class	PASS	expected=same-failure-mode source observed=same-failure-mode source
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.finding_category	PASS	expected=kills_closed observed=kills_closed
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.rows	PASS	expected=1 observed=1
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.current_convergence_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.current_contradiction_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.current_insufficient_overlap_rows	PASS	expected=0 observed=0
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.planned_source_rows	PASS	expected=1 observed=1
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.surveillance_trigger	PASS	expected=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain. observed=Candidate says a killed or closed lead succeeds under the same rule, direction, or validation domain.
-future_sourcing_plan||same-failure-mode source||kills_closed	field_matches.safe_action	PASS	expected=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row. observed=If a source is found, ingest it through V47 segregation first, then classify overlap before creating any contradiction row.
-summary	summary_matches.n_checklist_rows	PASS	expected=16 observed=16
+summary	summary_matches.n_checklist_rows	PASS	expected=7 observed=7
 summary	summary_matches.n_current_matrix_scopes	PASS	expected=7 observed=7
-summary	summary_matches.n_future_sourcing_scopes	PASS	expected=9 observed=9
+summary	summary_matches.n_future_sourcing_scopes	PASS	expected=0 observed=0
 summary	summary_matches.n_current_contradiction_rows	PASS	expected=0 observed=0

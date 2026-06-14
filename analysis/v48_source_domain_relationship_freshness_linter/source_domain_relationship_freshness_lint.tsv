@@ -6,6 +6,13 @@ about.zenodo.org	n_matrix_rows_matches_expected	PASS	expected=0 actual=0
 about.zenodo.org	matrix_relationship_counts_matches_expected	PASS	expected= actual=
 about.zenodo.org	has_convergence_matches_expected	PASS	expected=no actual=no
 about.zenodo.org	has_contradiction_matches_expected	PASS	expected=no actual=no
+annualreviews.org	domain_present_in_rollup	PASS	annualreviews.org
+annualreviews.org	n_records_matches_expected	PASS	expected=1 actual=1
+annualreviews.org	record_relationship_counts_matches_expected	PASS	expected=supports:1 actual=supports:1
+annualreviews.org	n_matrix_rows_matches_expected	PASS	expected=1 actual=1
+annualreviews.org	matrix_relationship_counts_matches_expected	PASS	expected=converges:1 actual=converges:1
+annualreviews.org	has_convergence_matches_expected	PASS	expected=yes actual=yes
+annualreviews.org	has_contradiction_matches_expected	PASS	expected=no actual=no
 atlasofms.org	domain_present_in_rollup	PASS	atlasofms.org
 atlasofms.org	n_records_matches_expected	PASS	expected=1 actual=1
 atlasofms.org	record_relationship_counts_matches_expected	PASS	expected=orthogonal:1 actual=orthogonal:1
@@ -149,8 +156,8 @@ nationalmssociety.org	has_contradiction_matches_expected	PASS	expected=no actual
 nature.com	domain_present_in_rollup	PASS	nature.com
 nature.com	n_records_matches_expected	PASS	expected=2 actual=2
 nature.com	record_relationship_counts_matches_expected	PASS	expected=supports:2 actual=supports:2
-nature.com	n_matrix_rows_matches_expected	PASS	expected=3 actual=3
-nature.com	matrix_relationship_counts_matches_expected	PASS	expected=converges:2;insufficient-overlap:1 actual=converges:2;insufficient-overlap:1
+nature.com	n_matrix_rows_matches_expected	PASS	expected=5 actual=5
+nature.com	matrix_relationship_counts_matches_expected	PASS	expected=converges:3;insufficient-overlap:2 actual=converges:3;insufficient-overlap:2
 nature.com	has_convergence_matches_expected	PASS	expected=yes actual=yes
 nature.com	has_contradiction_matches_expected	PASS	expected=no actual=no
 ncbi.nlm.nih.gov	domain_present_in_rollup	PASS	ncbi.nlm.nih.gov
@@ -181,10 +188,17 @@ platform-docs.opentargets.org	n_matrix_rows_matches_expected	PASS	expected=0 act
 platform-docs.opentargets.org	matrix_relationship_counts_matches_expected	PASS	expected= actual=
 platform-docs.opentargets.org	has_convergence_matches_expected	PASS	expected=no actual=no
 platform-docs.opentargets.org	has_contradiction_matches_expected	PASS	expected=no actual=no
+pmc.ncbi.nlm.nih.gov	domain_present_in_rollup	PASS	pmc.ncbi.nlm.nih.gov
+pmc.ncbi.nlm.nih.gov	n_records_matches_expected	PASS	expected=4 actual=4
+pmc.ncbi.nlm.nih.gov	record_relationship_counts_matches_expected	PASS	expected=orthogonal:2;supports:2 actual=orthogonal:2;supports:2
+pmc.ncbi.nlm.nih.gov	n_matrix_rows_matches_expected	PASS	expected=4 actual=4
+pmc.ncbi.nlm.nih.gov	matrix_relationship_counts_matches_expected	PASS	expected=converges:2;insufficient-overlap:2 actual=converges:2;insufficient-overlap:2
+pmc.ncbi.nlm.nih.gov	has_convergence_matches_expected	PASS	expected=yes actual=yes
+pmc.ncbi.nlm.nih.gov	has_contradiction_matches_expected	PASS	expected=no actual=no
 pubmed.ncbi.nlm.nih.gov	domain_present_in_rollup	PASS	pubmed.ncbi.nlm.nih.gov
-pubmed.ncbi.nlm.nih.gov	n_records_matches_expected	PASS	expected=1 actual=1
-pubmed.ncbi.nlm.nih.gov	record_relationship_counts_matches_expected	PASS	expected=orthogonal:1 actual=orthogonal:1
-pubmed.ncbi.nlm.nih.gov	n_matrix_rows_matches_expected	PASS	expected=0 actual=0
-pubmed.ncbi.nlm.nih.gov	matrix_relationship_counts_matches_expected	PASS	expected= actual=
-pubmed.ncbi.nlm.nih.gov	has_convergence_matches_expected	PASS	expected=no actual=no
+pubmed.ncbi.nlm.nih.gov	n_records_matches_expected	PASS	expected=4 actual=4
+pubmed.ncbi.nlm.nih.gov	record_relationship_counts_matches_expected	PASS	expected=orthogonal:3;supports:1 actual=orthogonal:3;supports:1
+pubmed.ncbi.nlm.nih.gov	n_matrix_rows_matches_expected	PASS	expected=4 actual=4
+pubmed.ncbi.nlm.nih.gov	matrix_relationship_counts_matches_expected	PASS	expected=converges:1;insufficient-overlap:3 actual=converges:1;insufficient-overlap:3
+pubmed.ncbi.nlm.nih.gov	has_convergence_matches_expected	PASS	expected=yes actual=yes
 pubmed.ncbi.nlm.nih.gov	has_contradiction_matches_expected	PASS	expected=no actual=no

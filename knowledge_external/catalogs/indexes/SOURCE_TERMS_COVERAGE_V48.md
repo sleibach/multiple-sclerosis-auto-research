@@ -2,9 +2,9 @@
 
 Status: provenance/navigation only. External records remain `external-unverifiable` or `external-verifiable` as tagged; source-terms metadata is not project-grounded evidence.
 
-- records checked: `39`
+- records checked: `47`
 - records with source_terms: `8`
-- records missing optional source_terms: `31`
+- records missing optional source_terms: `39`
 - NOT project grounded marker: `NOT_PROJECT_GROUNDED`
 
 ## Redistribution Coverage
@@ -12,7 +12,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | redistribution_allowed | count |
 |---|---:|
 | `metadata_only` | 8 |
-| `missing` | 31 |
+| `missing` | 39 |
 
 ## Records
 
@@ -52,11 +52,19 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.natalizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.ocrelizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
+| `claim.science.ebv_ms_longitudinal_risk_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/35025605/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.nature.ms_ibd_gpr25_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.probast_tripod.prediction_model_validation_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/30596875/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.open_targets.direction_tractability_context.2026-06-14` | `external-unverifiable` | https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838 | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.plos.ms_mhc_independent_effects_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.cshperspect.ms_biomarker_heterogeneity_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6396336/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.ms_society_uk.ppms_course_context.2026-06-13` | `external-unverifiable` | https://www.mssociety.org.uk/about-ms/types-of-ms | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.national_ms_society.rrms_course_context.2026-06-13` | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.national_ms_society.spms_course_context.2026-06-13` | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.ms_ibd.treatment_transfer_caution_context.2026-06-14` | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14` | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/38049980/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 
 ## Interpretation
 

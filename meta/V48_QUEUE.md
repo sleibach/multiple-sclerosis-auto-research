@@ -1935,7 +1935,8 @@ span across resume gaps.
   - OpenGWAS: PASS via POST-only access check; JWT valid until
     `2026-06-19 12:28 UTC`, renew soon;
   - SAP AI Core: Claude PASS with `smoke --model claude` resolving
-    deployment `def854013c7ac379`; Gemini PASS; RPT PASS;
+    deployment `def854013c7ac379`; Gemini PASS; RPT PASS via `rpt-smoke`
+    on `sap-rpt-1-large`;
   - note: `smoke --model def854013c7ac379` does not resolve through the
     CLI model-query selector, so use `--model claude` for Claude smoke tests.
 - Final gates after task 140:

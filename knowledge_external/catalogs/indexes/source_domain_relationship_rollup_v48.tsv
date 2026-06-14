@@ -1,5 +1,6 @@
 source_domain	n_records	record_relationship_counts	n_matrix_rows	matrix_relationship_counts	has_convergence	has_contradiction
 about.zenodo.org	1	orthogonal:1	0		no	no
+annualreviews.org	1	supports:1	1	converges:1	yes	no
 atlasofms.org	1	orthogonal:1	0		no	no
 clinicaltrials.gov	1	orthogonal:1	0		no	no
 commondataelements.ninds.nih.gov	1	orthogonal:1	0		no	no
@@ -20,9 +21,10 @@ msda.emif-catalogue.eu	1	orthogonal:1	0		no	no
 mssociety.org.uk	2	orthogonal:2	0		no	no
 narcoms.org	1	orthogonal:1	0		no	no
 nationalmssociety.org	4	orthogonal:4	1	insufficient-overlap:1	no	no
-nature.com	2	supports:2	3	converges:2;insufficient-overlap:1	yes	no
+nature.com	2	supports:2	5	converges:3;insufficient-overlap:2	yes	no
 ncbi.nlm.nih.gov	2	orthogonal:2	0		no	no
 ngdc.cncb.ac.cn	1	orthogonal:1	2	insufficient-overlap:2	no	no
 nice.org.uk	1	orthogonal:1	0		no	no
 platform-docs.opentargets.org	1	orthogonal:1	0		no	no
-pubmed.ncbi.nlm.nih.gov	1	orthogonal:1	0		no	no
+pmc.ncbi.nlm.nih.gov	4	orthogonal:2;supports:2	4	converges:2;insufficient-overlap:2	yes	no
+pubmed.ncbi.nlm.nih.gov	4	orthogonal:3;supports:1	4	converges:1;insufficient-overlap:3	yes	no

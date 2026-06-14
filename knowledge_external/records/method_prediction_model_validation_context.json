@@ -1,0 +1,30 @@
+{
+  "claim": "External prediction-model guidance and risk-of-bias tools emphasize prespecified evaluation, validation, applicability, and overfitting risk when developing or validating clinical prediction models.",
+  "date_accessed": "2026-06-14",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as methodological context for validation discipline; any biomarker claim still requires project-grounded cross-validation, null testing, and external cohort validation.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md",
+    "finding_id": "Tool-robust but simple V22 scalar"
+  },
+  "project_use": "External method context for V49 convergence review of the project's small-n prediction-model discipline; not evidence that the V22 scalar works.",
+  "record_id": "claim.probast_tripod.prediction_model_validation_context.2026-06-14",
+  "record_type": "external_claim",
+  "relationship_note": "The source aligns with the project's refusal to promote in-sample or flexible-model improvements without small-n-aware validation, but it does not validate any MS-specific scalar.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Wolff et al. PROBAST: A Tool to Assess the Risk of Bias and Applicability of Prediction Model Studies. Annals of Internal Medicine. 2019.",
+    "label": "PROBAST prediction-model risk-of-bias guidance",
+    "pmid": "30596875",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30596875/"
+  },
+  "tags": [
+    "prediction_model",
+    "validation",
+    "risk_of_bias",
+    "overfitting",
+    "method_context"
+  ],
+  "why_unverifiable": "The project cannot rerun consensus-methodology guidance from held MS data."
+}

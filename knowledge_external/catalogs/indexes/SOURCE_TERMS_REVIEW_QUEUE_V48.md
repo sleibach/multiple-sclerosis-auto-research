@@ -2,14 +2,14 @@
 
 Status: provenance/navigation only. Missing source_terms metadata is a review target, not a claim-validity failure.
 
-- missing source_terms records: `31`
+- missing source_terms records: `39`
 
 ## Priority Counts
 
 | priority | count |
 |---|---:|
 | `high` | 9 |
-| `medium` | 18 |
+| `medium` | 26 |
 | `low` | 4 |
 
 ## Queue
@@ -31,6 +31,14 @@ Status: provenance/navigation only. Missing source_terms metadata is a review ta
 | `medium` | `resource.figshare.repository.2026-06-13` | `external_resource_catalog` | info.figshare.com | `repository_platform` | https://info.figshare.com/about/ | public source but terms should be checked before data/text reuse |
 | `medium` | `resource.msgd.database_commons.2026-06-13` | `external_resource_catalog` | ngdc.cncb.ac.cn | `public_database_catalog` | https://ngdc.cncb.ac.cn/databasecommons/database/id/9285 | public source but terms should be checked before data/text reuse |
 | `medium` | `resource.open_targets.platform.2026-06-13` | `external_resource_catalog` | platform-docs.opentargets.org | `public_target_platform_docs` | https://platform-docs.opentargets.org/ | public source but terms should be checked before data/text reuse |
+| `medium` | `claim.cshperspect.ms_biomarker_heterogeneity_context.2026-06-14` | `external_claim` | pmc.ncbi.nlm.nih.gov | `missing_review_class` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6396336/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14` | `external_claim` | pmc.ncbi.nlm.nih.gov | `missing_review_class` | https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.nature.ms_ibd_gpr25_context.2026-06-14` | `external_claim` | pmc.ncbi.nlm.nih.gov | `missing_review_class` | https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.plos.ms_mhc_independent_effects_context.2026-06-14` | `external_claim` | pmc.ncbi.nlm.nih.gov | `missing_review_class` | https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14` | `external_claim` | pubmed.ncbi.nlm.nih.gov | `missing_review_class` | https://pubmed.ncbi.nlm.nih.gov/38049980/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.probast_tripod.prediction_model_validation_context.2026-06-14` | `external_claim` | pubmed.ncbi.nlm.nih.gov | `missing_review_class` | https://pubmed.ncbi.nlm.nih.gov/30596875/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.science.ebv_ms_longitudinal_risk_context.2026-06-14` | `external_claim` | pubmed.ncbi.nlm.nih.gov | `missing_review_class` | https://pubmed.ncbi.nlm.nih.gov/35025605/ | claim-level source should keep citation and reuse caveats explicit |
+| `medium` | `claim.open_targets.direction_tractability_context.2026-06-14` | `external_claim` | www.annualreviews.org | `missing_review_class` | https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838 | claim-level source should keep citation and reuse caveats explicit |
 | `medium` | `resource.ninds.ms_common_data_elements.2026-06-13` | `external_resource_catalog` | www.commondataelements.ninds.nih.gov | `public_clinical_data_standard` | https://www.commondataelements.ninds.nih.gov/Multiple%20Sclerosis | public source but terms should be checked before data/text reuse |
 | `medium` | `resource.osf.repository.2026-06-13` | `external_resource_catalog` | www.cos.io | `repository_platform` | https://www.cos.io/products/osf | public source but terms should be checked before data/text reuse |
 | `medium` | `resource.arrayexpress_biostudies.functional_genomics.2026-06-13` | `external_resource_catalog` | www.ebi.ac.uk | `public_or_controlled_biomedical_database` | https://www.ebi.ac.uk/arrayexpress/ | public source but terms should be checked before data/text reuse |

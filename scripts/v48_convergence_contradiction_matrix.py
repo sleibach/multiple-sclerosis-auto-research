@@ -148,6 +148,121 @@ GROUNDING_MAP: list[dict[str, str]] = [
         ),
         "future_grounding_action": "Keep V27 negative-established unless a future external cohort is tested with the frozen scalar and any pre-locked successor under a preregistered comparison.",
     },
+    {
+        "grounded_finding_id": "Mucosal IBD early IFN/APC downshift validates while baseline fallback fails",
+        "external_record_id": "claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14",
+        "relationship_class": "converges",
+        "synthesis_status": "CORROBORATION_FROM_INDEPENDENT_SOURCE",
+        "interpretation": (
+            "The external UC colonoid context reports JAK-inhibitor modulation of STAT1 activation and MHC-II expression. "
+            "This independently aligns with the project's dynamic mucosal IFN/APC response finding; the project artifact remains the evidence."
+        ),
+        "future_grounding_action": "If this context is used beyond corroboration, import paired mucosal response data under a frozen test rather than using literature context as validation.",
+    },
+    {
+        "grounded_finding_id": "UC genetics vs treatment-response layer split",
+        "external_record_id": "claim.ms_ibd.treatment_transfer_caution_context.2026-06-14",
+        "relationship_class": "converges",
+        "synthesis_status": "CORROBORATION_FROM_INDEPENDENT_SOURCE",
+        "interpretation": (
+            "The external MS-IBD treatment-transfer caution independently supports the premise that genetic relatedness and treatment-response transfer are not the same layer. "
+            "This aligns with the project's layer-split finding; the project artifact remains the evidence."
+        ),
+        "future_grounding_action": "Use disease-pair and treatment-pair specific data before transferring any therapeutic inference across layers.",
+    },
+    {
+        "grounded_finding_id": "First-principles druggability discipline changed target interpretation",
+        "external_record_id": "claim.open_targets.direction_tractability_context.2026-06-14",
+        "relationship_class": "converges",
+        "synthesis_status": "CORROBORATION_FROM_INDEPENDENT_SOURCE",
+        "interpretation": (
+            "The external target-prioritization context independently emphasizes tractability, safety, mechanism, and direction-of-effect rather than association alone. "
+            "This aligns with the project's discipline change; the project artifact remains the evidence."
+        ),
+        "future_grounding_action": "Continue treating target-class precedent as insufficient unless direction-matched and tractable for the specific project signal.",
+    },
+    {
+        "grounded_finding_id": "Locked V7 general cross-disease baseline fallback killed",
+        "external_record_id": "claim.probast_tripod.prediction_model_validation_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "Prediction-model validation guidance supports general caution about applicability and overfitting, but it does not independently test the project's specific cross-disease baseline-fallback kill."
+        ),
+        "future_grounding_action": "Keep the V7 fallback killed unless a predefined external dataset directly tests the baseline-fallback rule.",
+    },
+    {
+        "grounded_finding_id": "Tool-robust but simple V22 scalar",
+        "external_record_id": "claim.probast_tripod.prediction_model_validation_context.2026-06-14",
+        "relationship_class": "converges",
+        "synthesis_status": "CORROBORATION_FROM_INDEPENDENT_SOURCE",
+        "interpretation": (
+            "The external prediction-model guidance independently emphasizes validation, applicability, and overfitting risk. "
+            "This aligns with the project's decision to prefer the tool-robust simple scalar over more flexible alternatives; the project artifact remains the evidence."
+        ),
+        "future_grounding_action": "Do not add complexity to the locked rule without a preregistered external validation advantage.",
+    },
+    {
+        "grounded_finding_id": "Crohn downstream IFN/APC convergence exceeds genetic proximity",
+        "external_record_id": "claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION",
+        "interpretation": (
+            "The external genetics context supports weaker MS-CD than MS-UC genetic proximity, but it does not independently establish the project's downstream Crohn IFN/APC response convergence."
+        ),
+        "future_grounding_action": "Import or acquire Crohn response datasets before using Crohn as a downstream response-monitoring comparator.",
+    },
+    {
+        "grounded_finding_id": "RA pregnancy comparator but blood APC treatment-response nontransfer",
+        "external_record_id": "claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "The external RA/SLE pregnancy transcriptome source supports pregnancy-comparator context, but it does not independently test MS blood APC treatment-response nontransfer."
+        ),
+        "future_grounding_action": "Use RA pregnancy data only for pregnancy-timing hypotheses unless paired MS treatment-response data directly test transfer.",
+    },
+    {
+        "grounded_finding_id": "EBV/IFN APC imprint downgraded by specificity control",
+        "external_record_id": "claim.science.ebv_ms_longitudinal_risk_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "The external longitudinal EBV-MS risk result is important disease context, but it does not independently support or refute the project's APC/IFN imprint specificity-control downgrade."
+        ),
+        "future_grounding_action": "Reopen only with EBV-stratified expression data and predefined specificity controls.",
+    },
+    {
+        "grounded_finding_id": "GPR25 demoted from protected favorite",
+        "external_record_id": "claim.nature.ms_ibd_gpr25_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION",
+        "interpretation": (
+            "The external MS-IBD genetics context includes GPR25 as a putative functional gene, but it does not resolve the project's direction, tractability, or protected-favorite demotion."
+        ),
+        "future_grounding_action": "Keep GPR25 demoted unless signal-specific direction and tractability evidence is imported and grounded.",
+    },
+    {
+        "grounded_finding_id": "MHC overlap is distinct-signal, not simple shared biology",
+        "external_record_id": "claim.plos.ms_mhc_independent_effects_context.2026-06-14",
+        "relationship_class": "converges",
+        "synthesis_status": "CORROBORATION_FROM_INDEPENDENT_SOURCE",
+        "interpretation": (
+            "The external MS MHC fine-mapping context independently reports multiple independent effects in the MHC region. "
+            "This aligns with the project's caution that MHC overlap is not a simple shared-causal-variant claim; the project artifact remains the evidence."
+        ),
+        "future_grounding_action": "Continue requiring signal-specific fine-mapping before interpreting MHC overlap as shared biology.",
+    },
+    {
+        "grounded_finding_id": "No load-bearing invariant found in V26",
+        "external_record_id": "claim.cshperspect.ms_biomarker_heterogeneity_context.2026-06-14",
+        "relationship_class": "insufficient-overlap",
+        "synthesis_status": "NO_DIRECT_EXTERNAL_CORROBORATION",
+        "interpretation": (
+            "The external MS biomarker heterogeneity context is directionally compatible with the absence of a universal invariant, but it does not independently reproduce the project's V26 invariant search."
+        ),
+        "future_grounding_action": "Do not promote an invariant unless it passes the project's cross-modality null-tested invariant gate.",
+    },
 ]
 
 

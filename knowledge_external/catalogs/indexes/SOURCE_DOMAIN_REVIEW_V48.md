@@ -2,10 +2,10 @@
 
 Status: maintenance/navigation only. This report classifies source domains for future access and terms review; it does not validate source claims.
 
-- records reviewed: `39`
-- source domains: `27`
+- records reviewed: `47`
+- source domains: `29`
 - review classes: `19`
-- manual-review domain rows: `2`
+- manual-review domain rows: `3`
 
 ## Review Class Counts
 
@@ -13,9 +13,9 @@ Status: maintenance/navigation only. This report classifies source domains for f
 |---|---:|
 | `application_or_registry_access` | 2 |
 | `controlled_access_biomedical_archive` | 1 |
-| `manual_review_domain` | 2 |
+| `manual_review_domain` | 3 |
 | `mixed_commercial_or_registration_access` | 1 |
-| `public_biomedical_database` | 3 |
+| `public_biomedical_database` | 10 |
 | `public_clinical_data_standard` | 1 |
 | `public_clinical_guideline` | 2 |
 | `public_clinical_registry` | 1 |
@@ -36,6 +36,7 @@ Status: maintenance/navigation only. This report classifies source domains for f
 | domain | review class | records |
 |---|---|---:|
 | about.zenodo.org | `public_repository` | 1 |
+| annualreviews.org | `manual_review_domain` | 1 |
 | atlasofms.org | `public_epidemiology_reference` | 1 |
 | clinicaltrials.gov | `public_clinical_registry` | 1 |
 | commondataelements.ninds.nih.gov | `public_clinical_data_standard` | 1 |
@@ -61,4 +62,5 @@ Status: maintenance/navigation only. This report classifies source domains for f
 | ngdc.cncb.ac.cn | `public_database_catalog` | 1 |
 | nice.org.uk | `public_clinical_guideline` | 1 |
 | platform-docs.opentargets.org | `public_target_platform_docs` | 1 |
-| pubmed.ncbi.nlm.nih.gov | `public_biomedical_database` | 1 |
+| pmc.ncbi.nlm.nih.gov | `public_biomedical_database` | 4 |
+| pubmed.ncbi.nlm.nih.gov | `public_biomedical_database` | 4 |

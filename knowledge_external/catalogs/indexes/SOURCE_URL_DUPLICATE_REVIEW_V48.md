@@ -2,7 +2,7 @@
 
 Status: source-maintenance only. Duplicate source URLs are not evidence of independent corroboration.
 
-- external records checked: `39`
+- external records checked: `47`
 - missing source URLs: `0`
 - duplicate canonical URLs: `3`
 

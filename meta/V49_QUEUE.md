@@ -13,7 +13,8 @@ span across resume gaps.
 
 | session | start_utc | end_utc | active_seconds | note |
 |---:|---|---|---:|---|
-| 1 | `2026-06-14T19:57:24Z` | OPEN | OPEN | initial V49 session |
+| 1 | `2026-06-14T19:57:24Z` | `2026-06-14T20:03:40Z` | 376 | initial V49 session through Phase 0 health checks |
+| 2 | `2026-06-14T20:16:32Z` | OPEN | OPEN | resumed content-gap closure session |
 
 ## Phase 0 Oversized-File Audit
 
@@ -56,13 +57,19 @@ tracked purge target is:
 | 1 | high | done | Phase 0: purge tracked large tmp/cache/generated files from history and prevent recurrence | `.gitignore`, `meta/V49_QUEUE.md` |
 | 2 | high | done | Verify no tracked file remains above 50 MiB and no filesystem file above 100 MiB remains under tracked paths | `meta/V49_QUEUE.md` |
 | 3 | high | done | Run OpenGWAS, SAP AI Core, provenance gate, and external Markdown health checks after history rewrite | `meta/V49_QUEUE.md` |
-| 4 | high | todo | Close high-priority convergence/contradiction gap rows for bounded APC/HLA-II monitoring | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
-| 5 | high | todo | Close high-priority convergence/contradiction gap rows for MS-UC backdrop | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
-| 6 | high | todo | Close remaining high-priority V48 gap rows with asserted relationship or insufficient-overlap closure | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
-| 7 | medium | todo | Refresh decision-relevant convergence list after gap closure | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
-| 8 | medium | todo | Refresh future-grounding queue from any contradiction or groundable external closures | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
-| 9 | medium | todo | Refresh comparator matrix only where V49 content reveals concrete source-coverage changes | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
-| 10 | medium | todo | Rebuild public external index, governance preflight, provenance gate, and grounded TF-IDF after content updates | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 4 | high | done | Close high-priority convergence/contradiction gap rows for bounded APC/HLA-II monitoring | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| 5 | high | done | Close high-priority convergence/contradiction gap rows for MS-UC backdrop | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| 6 | high | done | Close remaining high-priority V48 gap rows with asserted relationship or insufficient-overlap closure | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| 7 | medium | done | Refresh decision-relevant convergence list after gap closure | `knowledge_external/synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md` |
+| 8 | medium | done | Refresh future-grounding queue from any contradiction or groundable external closures | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 9 | medium | done | Refresh comparator matrix only where V49 content reveals concrete source-coverage changes | no resource-record changes; no comparator refresh required |
+| 10 | medium | done | Rebuild public external index, governance preflight, provenance gate, and grounded TF-IDF after content updates | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 11 | high | todo | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 12 | high | todo | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
+| 13 | medium | todo | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| 14 | medium | todo | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
+| 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 
 ## Iteration Notes
 
@@ -102,3 +109,39 @@ tracked purge target is:
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
   - Tracked files above `50 MiB`: `0`.
 - Current open-session active time at `2026-06-14T20:03:40Z`: `376` seconds.
+
+### Iteration 2
+
+- Resumed at `2026-06-14T20:16:32Z`; session 1 was closed at the last
+  recorded active checkpoint (`2026-06-14T20:03:40Z`) so idle/compaction time
+  is not counted as active work.
+- Added 8 segregated external records with source/provenance markers to close
+  the high-priority V48 content gaps where a direct or adjacent source was
+  available.
+- Expanded the V48 convergence/contradiction matrix from `12` to `23` rows:
+  `7` corroboration-context rows, `0` contradiction rows, `16`
+  insufficient-overlap/context rows, and `0` missing-input rows.
+- Closed the prior `11` high-priority V37 external coverage gap rows. The
+  regenerated priority map now has `0` high-priority gaps and `9` medium
+  uncovered findings.
+- Refresh chain completed:
+  - class-aware external index: PASS with `47` external JSON records;
+  - convergence decision table: PASS with `23` rows;
+  - decision-relevant convergence shortlist: PASS with `7` rows;
+  - future-grounding queue: PASS with `23` tasks (`3` high priority);
+  - source-terms coverage: PASS with `47` records (`8` with explicit terms
+    metadata, `39` missing optional terms metadata);
+  - high-priority external sourcing plan/search/checklist: refreshed to `0`
+    current high-priority rows;
+  - unresolved external coverage handoff: PASS with `23` future-grounding
+    actions;
+  - governance preflight: PASS (`65` checks, `0` failures);
+  - V47 provenance gate: PASS (`436` checks, `47` external JSON records,
+    `0` failures).
+- Large-file safety:
+  - tracked files above `50 MiB`: `0`;
+  - non-ignored files above `100 MiB` outside raw-data/venv exclusions: `0`.
+- Grounded TF-IDF index rebuilt with `728` grounded-tree documents;
+  `knowledge_external/` remains outside grounded evidence indexing.
+- Current cumulative active time at `2026-06-14T20:24:31Z`: `855` seconds
+  (`376` seconds session 1 plus `479` seconds of current open session).

@@ -1,0 +1,31 @@
+{
+  "claim": "A UC colonoid study reports that tofacitinib reduced TNF and poly(I:C)-induced STAT1 activation and MHC-II expression in colonic epithelial organoids.",
+  "date_accessed": "2026-06-14",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as segregated mechanistic context unless a paired IBD or MS treatment-response transcriptomic cohort is imported and analyzed under a frozen harness.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/findings/KILL_HYP_V6_006.md",
+    "finding_id": "Mucosal IBD early IFN/APC downshift validates while baseline fallback fails"
+  },
+  "project_use": "External mucosal-JAK/MHC-II/STAT1 context for V49 convergence review; not evidence for the project dynamic-response result.",
+  "record_id": "claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14",
+  "record_type": "external_claim",
+  "relationship_note": "The source is independently aligned with a mucosal JAK/STAT1/MHC-II downshift mechanism but does not validate the project's MS treatment-response rule.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Gopalakrishnan et al. Tofacitinib Downregulates TNF and Poly(I:C)-Dependent MHC-II Expression in the Colonic Epithelium. Frontiers in Immunology. 2022.",
+    "doi": "10.3389/fimmu.2022.882277",
+    "label": "Frontiers in Immunology UC colonoid tofacitinib MHC-II study",
+    "pmcid": "PMC9152176",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176/"
+  },
+  "tags": [
+    "ulcerative_colitis",
+    "tofacitinib",
+    "stat1",
+    "mhc_ii",
+    "mucosal_response"
+  ],
+  "why_unverifiable": "The project does not rerun the external colonoid experiments or their source-level protein/RNA assays."
+}
