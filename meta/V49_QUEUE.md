@@ -169,7 +169,7 @@ tracked purge target is:
 | 113 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 114 | medium | done | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 116 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 112 and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 117 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after task 116 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 117 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after task 116 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 118 | medium | todo | Refresh final and resume checkpoints after task 117 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 119 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 118 | `meta/V49_QUEUE.md` |
 | 120 | medium | todo | Audit active-time accounting after the next session stretch | `meta/V49_QUEUE.md` |
@@ -1103,3 +1103,12 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:47:49Z`: `9453` seconds
   (`376` seconds session 1 plus `9077` seconds of current open session).
+- Task 117 reran guards after the handoff refresh. Results: V47 provenance gate
+  PASS (`436` checks, `47` external JSON records, `0` failures), public-index
+  freshness PASS (`50` checks), public-index crosslinks PASS (`73` links),
+  external Markdown/index lint PASS (`376` checks, `78` Markdown files),
+  gap-audit and convergence-pointer routing PASS, tracked large-file guard PASS
+  (`0` tracked files above `50 MiB`), and Git blob guard PASS (`0` blobs above
+  `50 MiB`). The guard outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T22:49:42Z`: `9566` seconds
+  (`376` seconds session 1 plus `9190` seconds of current open session).
