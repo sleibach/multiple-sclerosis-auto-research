@@ -56,7 +56,7 @@ span across resume gaps.
 | 28 | medium | done | Add V37 coverage freshness linter tied to `docs/reports/FINDINGS_SCORES_V37.tsv` | `scripts/v48_v37_coverage_freshness_linter.py` |
 | 29 | medium | done | Add source-terms coverage freshness linter tied to current external records | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | 30 | medium | done | Add V48 external-governance handoff card for future sessions | `knowledge_external/catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md` |
-| 31 | medium | todo | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
+| 31 | medium | done | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
 | 32 | medium | todo | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -267,6 +267,21 @@ span across resume gaps.
   - known gaps.
 - Updated public external index:
   - navigation links: `14`;
+  - synthetic public-index fixture passed.
+- Verification passed:
+  - V48 governance preflight;
+  - public index crosslink lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:26:38Z`: `3875` seconds.
+- Added compact convergence decision table:
+  - rows: `12`;
+  - corroborated context rows: `2`;
+  - no-direct-external-corroboration rows: `7`;
+  - insufficient-overlap rows: `3`;
+  - contradiction/tension rows: `0`.
+- Updated public external index:
+  - navigation links: `15`;
   - synthetic public-index fixture passed.
 - Verification passed:
   - V48 governance preflight;
