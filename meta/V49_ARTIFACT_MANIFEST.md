@@ -6,12 +6,12 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `54`
+- new V49 files listed: `55`
 - segregated source-context records: `8`
 - external synthesis/catalog/navigation files: `34`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
-- operational meta files: `8`
+- operational meta files: `9`
 - grounded finding or locked-rule files added: `0`
 
 ## New Files
@@ -72,6 +72,7 @@ navigation/source-context outputs with grounded evidence.
 | `meta/V49_LARGE_FILE_GUARD_FINAL.md` | operational meta | Final large-file guard after history rewrite and later V49 commits. |
 | `meta/V49_TMP_PATH_GUARD.md` | operational meta | Tracked-path guard confirming no tmp/cache paths remain tracked. |
 | `meta/V49_BINARY_EXTENSION_AUDIT.md` | operational meta | Audit of tracked binary/columnar/compressed extensions under V49 policy. |
+| `meta/V49_FINAL_CHECKPOINT.md` | operational meta | Resumability checkpoint after final external lint pass; not an end-of-block summary. |
 
 ## Modified Existing Files Of Note
 
