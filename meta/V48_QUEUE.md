@@ -86,7 +86,7 @@ span across resume gaps.
 | 58 | medium | done | Add contradiction readiness playbook freshness linter | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | 59 | medium | done | Build V37 external coverage gap prioritization by relevance, novelty, and evidence grade | `knowledge_external/synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md` |
 | 60 | medium | done | Add V37 external coverage gap priority freshness linter | `scripts/v48_v37_gap_priority_freshness_linter.py` |
-| 61 | medium | todo | Build external source-domain independence rollup for convergence/insufficient-overlap rows | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md` |
+| 61 | medium | done | Build external source-domain independence rollup for convergence/insufficient-overlap rows | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md` |
 | 62 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 55-61 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -799,3 +799,16 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:40:36Z`: `8313` seconds.
+- Built source-domain independence rollup:
+  - V48 matrix rows represented: `12`;
+  - source domains represented: `6`;
+  - canonical source clusters represented: `7`;
+  - decision relationship rows: `2`;
+  - decision canonical source clusters: `1`;
+  - domains with convergence rows: `1`;
+  - domains with contradiction rows: `0`;
+  - boundary: provenance/navigation only; row counts are not independent corroboration counts.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:42:20Z`: `8417` seconds.
