@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `37`
+- controls mapped: `38`
 - boundary classes: `23`
 - unmapped boundaries: `0`
 
@@ -16,6 +16,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-domain review freshness linter | `domain review control` | source-domain classifications become stale | `PASS` | `scripts/v48_source_domain_review_freshness_linter.py` |
 | V48 convergence/contradiction analysis | `external agreement is context; project artifacts remain evidence` | external agreement is over-promoted into evidence | `PASS` | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | V48 external resource comparator matrix | `external resource metadata only` | resource catalog facts are overread as biological findings | `PASS` | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
+| Contradiction readiness freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | Contradiction-intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_contradiction_intake_linter.py` |
 | External-verifiable intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v47_external_verifiable_intake_linter.py` |
 | Future-grounding queue freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_future_grounding_queue_freshness_linter.py` |

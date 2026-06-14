@@ -1,0 +1,28 @@
+item	check	status	detail
+intake	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_readiness_playbook_v48.tsv
+intake	stage_order	PASS	expected_index=0
+intake	trigger_present	PASS	external source appears to disagree with a grounded project finding
+intake	required_artifact_present	PASS	knowledge_external/templates/contradiction_intake_template.json.template
+intake	safe_action_present	PASS	create a segregated external-verifiable intake record with source, class, project-finding reference, relationship note, and future grounding route
+intake	forbidden_action_present	PASS	do not edit the grounded finding, locked rule, or validation pre-registration
+triage	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_readiness_playbook_v48.tsv
+triage	stage_order	PASS	expected_index=1
+triage	trigger_present	PASS	intake record exists
+triage	required_artifact_present	PASS	scripts/v48_contradiction_intake_linter.py
+triage	safe_action_present	PASS	classify likely explanation: population, phenotype definition, modality, directionality, date/version, or true discrepancy
+triage	forbidden_action_present	PASS	do not resolve by deferring to the external source
+future_grounding	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_readiness_playbook_v48.tsv
+future_grounding	stage_order	PASS	expected_index=2
+future_grounding	trigger_present	PASS	concrete project data or reachable public data can test the tension
+future_grounding	required_artifact_present	PASS	knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md
+future_grounding	safe_action_present	PASS	queue the exact test and required data; keep the contradiction as a flag until grounded
+future_grounding	forbidden_action_present	PASS	do not report model or literature agreement as evidence
+grounded_resolution	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/synthesis/contradiction_readiness_playbook_v48.tsv
+grounded_resolution	stage_order	PASS	expected_index=3
+grounded_resolution	trigger_present	PASS	a future rerunnable project analysis tests the contradiction
+grounded_resolution	required_artifact_present	PASS	normal grounded project artifact outside knowledge_external
+grounded_resolution	safe_action_present	PASS	update the grounded project state only through rerunnable analysis with evidence grade and artifact reference
+grounded_resolution	forbidden_action_present	PASS	do not let an external record directly change project scores or conclusions
+summary	summary_matrix_count_matches	PASS	summary=12 matrix=12
+summary	summary_contradiction_count_matches	PASS	summary=0 contradictions=0
+summary	summary_step_count_matches	PASS	summary=4 rows=4 expected=4

@@ -1,0 +1,19 @@
+item	check	status	detail
+intake	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_readiness_freshness_linter/synthetic_playbook.tsv
+intake	stage_order	FAIL	expected_index=0
+intake	trigger_present	PASS	x
+intake	required_artifact_present	FAIL	
+intake	safe_action_present	PASS	x
+intake	forbidden_action_present	PASS	x
+triage	stage_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_readiness_freshness_linter/synthetic_playbook.tsv
+triage	stage_order	FAIL	expected_index=1
+triage	trigger_present	PASS	x
+triage	required_artifact_present	PASS	x
+triage	safe_action_present	PASS	x
+triage	forbidden_action_present	PASS	x
+future_grounding	stage_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_readiness_freshness_linter/synthetic_playbook.tsv
+grounded_resolution	stage_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_readiness_freshness_linter/synthetic_playbook.tsv
+extra	no_extra_stage	FAIL	unexpected playbook stage
+summary	summary_matrix_count_matches	FAIL	summary=99 matrix=2
+summary	summary_contradiction_count_matches	FAIL	summary=99 contradictions=1
+summary	summary_step_count_matches	FAIL	summary=99 rows=3 expected=4

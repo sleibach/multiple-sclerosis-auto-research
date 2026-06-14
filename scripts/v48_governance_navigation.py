@@ -190,6 +190,13 @@ ARTIFACTS = [
         "boundary": "future-grounding control",
     },
     {
+        "artifact": "Contradiction readiness freshness linter",
+        "path": "scripts/v48_contradiction_readiness_freshness_linter.py",
+        "summary": "analysis/v48_contradiction_readiness_freshness_linter/contradiction_readiness_freshness_lint_summary.json",
+        "purpose": "Ensures contradiction readiness playbook counts and stages match the current matrix.",
+        "boundary": "future-grounding control",
+    },
+    {
         "artifact": "Source-domain review freshness linter",
         "path": "scripts/v48_source_domain_review_freshness_linter.py",
         "summary": "analysis/v48_source_domain_review_freshness_linter/source_domain_review_freshness_lint_summary.json",

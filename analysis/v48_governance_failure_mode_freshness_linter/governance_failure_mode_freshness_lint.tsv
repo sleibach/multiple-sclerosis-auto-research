@@ -1,4 +1,9 @@
 row_key	check	status	detail
+Contradiction readiness freshness linter||scripts/v48_contradiction_readiness_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+Contradiction readiness freshness linter||scripts/v48_contradiction_readiness_freshness_linter.py	field_matches.boundary	PASS	navigation=future-grounding control matrix=future-grounding control
+Contradiction readiness freshness linter||scripts/v48_contradiction_readiness_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures contradiction readiness playbook counts and stages match the current matrix. matrix=Ensures contradiction readiness playbook counts and stages match the current matrix.
+Contradiction readiness freshness linter||scripts/v48_contradiction_readiness_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
+Contradiction readiness freshness linter||scripts/v48_contradiction_readiness_freshness_linter.py	failure_mode_mapped	PASS	external-verifiable ideas are treated as findings before grounding
 Contradiction-intake linter||scripts/v48_contradiction_intake_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Contradiction-intake linter||scripts/v48_contradiction_intake_linter.py	field_matches.boundary	PASS	navigation=future-grounding control matrix=future-grounding control
 Contradiction-intake linter||scripts/v48_contradiction_intake_linter.py	field_matches.purpose	PASS	navigation=Ensures future contradiction records remain queued for grounding. matrix=Ensures future contradiction records remain queued for grounding.
@@ -184,4 +189,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=37 matrix=37
+summary	summary_control_count_matches_matrix	PASS	summary=38 matrix=38
