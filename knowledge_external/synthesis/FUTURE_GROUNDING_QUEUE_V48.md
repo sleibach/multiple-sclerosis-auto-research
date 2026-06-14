@@ -1,0 +1,22 @@
+# V48 Future-Grounding Queue
+
+Status: queue only. These rows are not findings and do not alter grounded conclusions.
+
+- queued tasks: `10`
+- high-priority tasks: `3`
+- optional refresh tasks: `2`
+- missing not-grounded markers: `0`
+- overall status: `PASS`
+
+| queue id | priority | status | grounded finding | external record | source | action |
+|---|---|---|---|---|---|---|
+| V48_FG_001 | `low` | `optional_refresh_only` | MS-UC is strongest tested genome-wide genetics comparator | `claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://www.nature.com/articles/s41467-021-25768-0 | No action needed for current interpretation; future refresh should hash and rerun the external summary-statistic inputs if imported. |
+| V48_FG_002 | `low` | `optional_refresh_only` | Layer-specific autoimmune transfer-validity map | `claim.ms_ibd.treatment_transfer_caution_context.2026-06-14` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://www.nature.com/articles/s41467-021-25768-0 | If pursued clinically, ground specific treatment-transfer claims in predefined patient-level or pharmacovigilance data. |
+| V48_FG_003 | `high` | `queued_for_future_grounding` | Bounded APC/HLA-II early treatment-response monitoring scalar | `claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | Validate with the frozen V42/V44 harness on a paired labeled DMF cohort; do not use label context as validation. |
+| V48_FG_004 | `low` | `queued_for_future_grounding` | V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | Use the V42/V44 confounder and batch diagnostics when real validation data arrive. |
+| V48_FG_005 | `low` | `queued_for_future_grounding` | T/B-readable early IFN/APC/STAT1 monitoring state | `claim.dailymed.ocrelizumab_mechanism_context.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | Ground only in paired response data with compartment-resolved or deconvolved readouts. |
+| V48_FG_006 | `low` | `queued_for_future_grounding` | Postpartum HLA-II/CD64 APC-arm imbalance | `claim.national_ms_society.rrms_course_context.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | Acquire true postpartum MS immune trajectory data with relapse-window timing. |
+| V48_FG_007 | `high` | `queued_for_future_grounding` | ZMIZ1 opposite-direction MS/Crohn decoupling | `resource.disgenet.platform.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://disgenet.com/ | Create a future-grounding task only after importing specific ZMIZ1 records with source snapshots and hashes. |
+| V48_FG_008 | `high` | `queued_for_future_grounding` | chr1 KIF21B/GPR25 locus resolves to real biology but hard target | `resource.gwas_catalog.ms.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://www.ebi.ac.uk/gwas/ | Import specific GWAS Catalog associations only as future-grounding records before comparison. |
+| V48_FG_009 | `low` | `queued_for_future_grounding` | PTGER4 mixed shared/distinct signal closes naive transfer | `claim.ms_ibd.treatment_transfer_caution_context.2026-06-14` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://www.nature.com/articles/s41467-021-25768-0 | Leave PTGER4 closed unless signal-specific external data are imported and grounded. |
+| V48_FG_010 | `low` | `queued_for_future_grounding` | No validated broad immune-state simulator from held data | `resource.msgd.database_commons.2026-06-13` (external-unverifiable / `NOT_PROJECT_GROUNDED`) | https://ngdc.cncb.ac.cn/databasecommons/database/id/9285 | Do not reopen simulator claims without a held-out perturbation dataset and frozen split. |

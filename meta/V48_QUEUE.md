@@ -31,11 +31,14 @@ span across resume gaps.
 | 3 | high | done | Populate convergence/contradiction analysis for bounded APC/HLA-II monitoring and MS-UC backdrop first | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | 4 | high | done | Extend convergence/contradiction analysis across V37 findings and V47 external records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | 5 | high | done | Build comparator matrix across external resource records by coverage, access tier, and unique repo gap | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
-| 6 | high | todo | Queue future-grounding follow-up records for contradictions or high-value insufficient-overlap gaps | `knowledge_external/records/` |
-| 7 | medium | todo | Improve public external index with convergence/contradiction navigation | `knowledge_external/INDEX.md` |
+| 6 | high | done | Queue future-grounding follow-up records for contradictions or high-value insufficient-overlap gaps | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 7 | medium | done | Improve public external index with convergence/contradiction navigation | `knowledge_external/INDEX.md` |
 | 8 | medium | todo | Add source-locator normalization linter | `scripts/` |
 | 9 | medium | todo | Add public index crosslink linter | `scripts/` |
 | 10 | medium | todo | Add source license/terms metadata template/linter | `knowledge_external/templates/`, `scripts/` |
+| 11 | medium | todo | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/` |
+| 12 | medium | todo | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/` |
+| 13 | medium | todo | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -70,3 +73,13 @@ span across resume gaps.
   - external markdown lint;
   - generated-checker registry;
   - generated-doc freshness linter.
+- Current open-session active time at `2026-06-14T13:34:54Z`: `771` seconds.
+- Built V48 future-grounding queue:
+  - tasks: `10`;
+  - high-priority tasks: `3`;
+  - optional refresh tasks: `2`.
+- Public external index now links:
+  - populated V48 convergence/contradiction synthesis;
+  - V48 external resource comparator matrix;
+  - V48 future-grounding queue.
+- Added new follow-up tasks 11-13 to keep the backlog above threshold.
