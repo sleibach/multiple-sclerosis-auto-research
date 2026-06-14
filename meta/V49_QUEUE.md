@@ -104,7 +104,7 @@ tracked purge target is:
 | 48 | high | done | Refresh the rewrite/push handoff to the latest HEAD after post-handoff commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 49 | high | done | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
 | 50 | medium | done | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 51 | medium | todo | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
+| 51 | medium | done | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
 | 52 | medium | todo | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
 | 53 | medium | todo | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 54 | medium | todo | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -587,3 +587,9 @@ tracked purge target is:
   tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:36:19Z`: `5163` seconds
   (`376` seconds session 1 plus `4787` seconds of current open session).
+- Task 51 audited active-time accounting at `2026-06-14T21:37:16Z`. Result:
+  session 1 active time `376` seconds, current session elapsed `4844` seconds,
+  cumulative active time `5220` seconds, wall-clock span since block start
+  `5992` seconds, excluded resume gap `772` seconds, active target `21600`
+  seconds, target met: `false`. The queue is still using summed session
+  intervals, not calendar span.
