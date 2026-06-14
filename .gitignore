@@ -19,6 +19,19 @@ analysis/v21_ldsc_backdrop/sumstats_raw/
 analysis/v21_ldsc_backdrop/munged/
 tmp_v3/
 
+# V49 repository hygiene: disposable temp/cache trees must never be staged.
+phases/*/tmp/
+**/tmp/
+
+# V49 large generated/cache artifacts. Keep scoped because some compressed TSV
+# outputs are legitimate small tracked summaries elsewhere.
+phases/*/tmp/**/*.safetensors
+phases/*/tmp/**/*.h5ad
+phases/*/tmp/**/*.parquet
+phases/*/tmp/**/*.tsv.gz
+phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv
+analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz
+
 # Public author code may be fetched for method inspection; record its revision.
 external/
 .env
