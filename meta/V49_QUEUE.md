@@ -105,7 +105,7 @@ tracked purge target is:
 | 49 | high | done | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
 | 50 | medium | done | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 51 | medium | done | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
-| 52 | medium | todo | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
+| 52 | medium | done | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
 | 53 | medium | todo | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 54 | medium | todo | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 55 | medium | todo | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
@@ -593,3 +593,10 @@ tracked purge target is:
   `5992` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue is still using summed session
   intervals, not calendar span.
+- Task 52 refreshed `meta/V49_RESUME_CHECKPOINT.md` with current pre-task HEAD
+  `8625c309fbdf4f2ee0ab56f42df3e15de4944edb`, open tasks `42`, `47`, `53`,
+  `54`, and conditional `55`, plus latest gate status.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures) and large-file guard PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:38:31Z`: `5295` seconds
+  (`376` seconds session 1 plus `4919` seconds of current open session).
