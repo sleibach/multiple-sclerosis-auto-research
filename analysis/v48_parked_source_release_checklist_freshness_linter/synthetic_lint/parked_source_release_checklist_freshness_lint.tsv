@@ -1,0 +1,32 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_parked_source_release_checklist_freshness_linter/synthetic_release_template.md
+section_present.Required Controls	FAIL	required release checklist section
+section_present.Release Checks	PASS	required release checklist section
+section_present.Release Outcomes	FAIL	required release checklist section
+section_present.Minimum Release Note	FAIL	required release checklist section
+section_present.Forbidden Shortcuts	FAIL	required release checklist section
+section_present.Verification Before Commit	FAIL	required release checklist section
+section_present.Boundary	PASS	required release checklist section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_copy_claims	FAIL	required boundary phrase
+phrase_present.does_not_assert_relationship	FAIL	required boundary phrase
+phrase_present.no_attractive_release	FAIL	required boundary phrase
+phrase_present.no_model_shortcut	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+phrase_present.grounded_remains_evidence	FAIL	required boundary phrase
+table_count.release_checks	FAIL	observed=1 expected=10
+table_count.release_outcomes	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md observed=stale
+summary_matches.n_release_checks	FAIL	expected=10 observed=1
+summary_matches.n_release_outcomes	FAIL	expected=5 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=7 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 parked source release checklist; template/navigation only; no biological claim observed=

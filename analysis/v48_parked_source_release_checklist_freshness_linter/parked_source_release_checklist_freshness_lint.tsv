@@ -1,0 +1,32 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md
+section_present.Required Controls	PASS	required release checklist section
+section_present.Release Checks	PASS	required release checklist section
+section_present.Release Outcomes	PASS	required release checklist section
+section_present.Minimum Release Note	PASS	required release checklist section
+section_present.Forbidden Shortcuts	PASS	required release checklist section
+section_present.Verification Before Commit	PASS	required release checklist section
+section_present.Boundary	PASS	required release checklist section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.does_not_copy_claims	PASS	required boundary phrase
+phrase_present.does_not_assert_relationship	PASS	required boundary phrase
+phrase_present.no_attractive_release	PASS	required boundary phrase
+phrase_present.no_model_shortcut	PASS	required boundary phrase
+phrase_present.not_evidence	PASS	required boundary phrase
+phrase_present.grounded_remains_evidence	PASS	required boundary phrase
+table_count.release_checks	PASS	observed=10 expected=10
+table_count.release_outcomes	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md observed=knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md
+summary_matches.n_release_checks	PASS	expected=10 observed=10
+summary_matches.n_release_outcomes	PASS	expected=5 observed=5
+summary_matches.n_required_linked_controls	PASS	expected=7 observed=7
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 parked source release checklist; template/navigation only; no biological claim observed=V48 parked source release checklist; template/navigation only; no biological claim

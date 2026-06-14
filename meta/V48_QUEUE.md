@@ -144,7 +144,7 @@ span across resume gaps.
 | 116 | medium | done | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | 117 | medium | done | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
 | 118 | medium | done | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
-| 119 | medium | todo | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
+| 119 | medium | done | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | todo | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
 | 121 | medium | todo | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 | 122 | medium | todo | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
@@ -1646,5 +1646,16 @@ span across resume gaps.
     intake review to begin but does not create a source record, relationship
     row, evidence claim, or finding.
 - Final gates after task 118:
+  - external Markdown linter: PASS (`304` checks, `52` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:31:30Z`: `18567` seconds.
+- Added parked-source release checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    release-check/outcome counts, and stale summary values fail;
+  - real freshness checks: `31`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; release from parking remains
+    an operator-routing event and not evidence.
+- Final gates after task 119:
   - external Markdown linter: PASS (`304` checks, `52` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
