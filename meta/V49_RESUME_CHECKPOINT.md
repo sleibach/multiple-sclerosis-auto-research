@@ -5,23 +5,23 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-14T22:27:17Z`
+- refreshed_utc: `2026-06-14T22:34:56Z`
 - current HEAD before this checkpoint refresh was written:
-  `c959e8a7e4c240e6a8a47339e9a3cd2319c237f0`
+  `f883056bf4e6a287fd0eb3fc8c5da3fd22a016c5`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `8191`
-  seconds at `2026-06-14T22:26:47Z`
-- cumulative active time at this checkpoint timestamp: `8221` seconds
+- last recorded cumulative active time before this checkpoint refresh: `8647`
+  seconds at `2026-06-14T22:34:23Z`
+- cumulative active time at this checkpoint timestamp: `8680` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
 
 - session 1: `376` seconds
-- session 2 open elapsed at checkpoint: `7845` seconds
-- cumulative at checkpoint: `8221` seconds
+- session 2 open elapsed at checkpoint: `8304` seconds
+- cumulative at checkpoint: `8680` seconds
 
 ## Completed V49 Work
 
@@ -49,10 +49,10 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 95 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z`. |
-| 96 | todo | Verify working-tree cleanliness and tracked-size policy after task 94. |
-| 97 | todo | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly. |
-| 98 | todo | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks. |
+| 103 | todo | Verify working-tree cleanliness and tracked-size policy after task 102. |
+| 104 | todo | Audit active-time accounting after the latest session stretch. |
+| 105 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z`. |
+| 106 | todo | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -85,8 +85,8 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 96 unless `2026-06-14T22:30:00Z` has been reached, in
-which case run task 95 first. After task 97, use task 98 to refill the backlog
-above threshold if needed. Do not stop for a final summary unless the active
-6-hour target is met, external termination occurs, or a documented all-fronts
-block exists.
+Continue V49 with task 103, then task 104. Run task 105 only once
+`2026-06-14T23:00:00Z` is reached. Use task 106 to refill the backlog above
+threshold if needed. Do not stop for a final summary unless the active 6-hour
+target is met, external termination occurs, or a documented all-fronts block
+exists.
