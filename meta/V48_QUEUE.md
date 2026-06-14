@@ -38,7 +38,12 @@ span across resume gaps.
 | 10 | medium | done | Add source license/terms metadata template/linter | `knowledge_external/templates/source_terms_metadata_template.json.template`, `scripts/v48_source_terms_metadata_linter.py` |
 | 11 | medium | done | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | 12 | medium | done | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/v48_future_grounding_queue_freshness_linter.py` |
-| 13 | medium | todo | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
+| 13 | medium | done | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
+| 14 | medium | todo | Add comparator matrix freshness linter tied to current resource records | `scripts/` |
+| 15 | medium | todo | Add convergence synthesis status vocabulary linter | `scripts/` |
+| 16 | medium | todo | Add project-finding reference existence linter for external support/contradiction records | `scripts/` |
+| 17 | medium | todo | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/` |
+| 18 | medium | todo | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
 
 ## Iteration Notes
 
@@ -118,3 +123,8 @@ span across resume gaps.
   - matrix follow-ups: `12`;
   - queue rows: `12`;
   - stale/missing rows: `0`.
+- Current open-session active time at `2026-06-14T13:44:42Z`: `1359` seconds.
+- Rebuilt TF-IDF knowledge index:
+  - documents indexed: `727`;
+  - output: `knowledge/.index`.
+- Added new follow-up tasks 14-18 to keep the backlog above threshold.
