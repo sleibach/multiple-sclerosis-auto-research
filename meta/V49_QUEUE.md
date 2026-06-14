@@ -66,7 +66,7 @@ tracked purge target is:
 | 10 | medium | done | Rebuild public external index, governance preflight, provenance gate, and grounded TF-IDF after content updates | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 11 | high | done | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 | 12 | high | done | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V49_UNCOVERED_FINDING_TRIAGE.md` |
-| 13 | medium | todo | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| 13 | medium | done | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 14 | medium | todo | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
 | 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
@@ -171,3 +171,12 @@ tracked purge target is:
   records, `0` failures).
 - Current cumulative active time at `2026-06-14T20:30:45Z`: `1229` seconds
   (`376` seconds session 1 plus `853` seconds of current open session).
+- Task 13 added conservative metadata-only source-terms blocks to the 8 V49
+  external records. Source-terms coverage now reports `16` records with terms
+  metadata and `31` missing optional terms metadata, down from `39`.
+- Post-task gates: source terms metadata linter PASS (`111` checks, `0`
+  failures), source terms freshness PASS, source terms coverage freshness PASS,
+  high-priority source-terms packet freshness PASS, external Markdown linter
+  PASS, V47 provenance gate PASS.
+- Current cumulative active time at `2026-06-14T20:33:00Z`: `1364` seconds
+  (`376` seconds session 1 plus `988` seconds of current open session).
