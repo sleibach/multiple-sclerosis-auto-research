@@ -12,7 +12,7 @@ Grounded project findings remain in the normal project report/history/validation
 - source domains represented: `27`
 - records with source_terms metadata: `8`
 - records missing optional source_terms metadata: `31`
-- V48 governance controls tracked: `33`
+- V48 governance controls tracked: `36`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `2`
 - V48 contradiction rows flagged: `0`
@@ -39,15 +39,18 @@ Grounded project findings remain in the normal project report/history/validation
 | [Source-domain rollup](catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md) | Browse records by source domain. | source locator metadata only |
 | [V48 source-domain review](catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md) | Classify source domains for maintenance, access, and terms review. | domain maintenance only |
 | [V48 source-domain relationship rollup](catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md) | Summarize external source domains by project-relationship and V48 matrix classes. | domain relationship metadata only |
+| [V48 source URL duplicate review](catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md) | Review repeated canonical source URLs so shared-source records are not overcounted as independent corroboration. | source maintenance only |
 | [V48 source-terms coverage](catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md) | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |
 | [V48 source-terms review queue](catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md) | Prioritized terms-review queue for records missing explicit source_terms metadata. | source terms metadata only |
 | [V48 high-priority source-terms packet](catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md) | Focused packet for high-priority missing source_terms records. | source terms triage only |
 | [V48 governance navigation](catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md) | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |
+| [V48 governance failure-mode matrix](catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md) | Map each governance control to the failure mode it prevents. | governance/navigation only |
 | [V48 preflight summary card](catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md) | Fast command/status handoff for V48 governance checks. | governance/navigation only |
 | [V48 external-governance handoff](catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md) | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
+| [V48 decision-relevant convergence shortlist](synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md) | Shortlist of current corroborated-context rows and contradictions, if any. | synthesis/navigation only |
 | [V48 V37 finding external coverage map](synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md) | Coverage map showing which V37 scored findings have V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 uncovered finding rationale](synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md) | Rationale for V37 scored findings without V48 external relationship rows. | synthesis/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |

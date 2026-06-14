@@ -79,7 +79,7 @@ span across resume gaps.
 | 51 | medium | done | Add source URL duplicate/canonicalization freshness linter | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | 52 | medium | done | Build governance control-to-failure-mode matrix for public readers | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` |
 | 53 | medium | done | Add governance failure-mode matrix freshness linter | `scripts/v48_governance_failure_mode_freshness_linter.py` |
-| 54 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 54 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -684,3 +684,21 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:20:07Z`: `7084` seconds.
+- Rebuilt public external index, governance outputs, preflight, and TF-IDF index after tasks 47-53:
+  - public external navigation links: `24`;
+  - public-index required targets: `18`;
+  - public-index crosslink failures: `0`;
+  - governance controls tracked: `36`;
+  - full preflight checks: `30`;
+  - V47 provenance gate checks: `354`;
+  - TF-IDF indexed grounded-tree documents: `727`;
+  - smoke query again returned grounded-tree documents and queue/history pointers, not `knowledge_external/`, preserving external segregation from grounded retrieval.
+- Verification passed:
+  - V48 governance preflight;
+  - V48 public-index freshness lint;
+  - V48 public-index crosslink lint;
+  - preflight summary card freshness lint;
+  - governance-navigation freshness lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:22:31Z`: `7228` seconds.
