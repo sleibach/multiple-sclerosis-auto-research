@@ -176,7 +176,7 @@ tracked purge target is:
 | 121 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 122 | medium | done | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 123 | medium | done | Refill V49 backlog above threshold if task 122 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
-| 124 | medium | todo | Refresh rewrite/push handoff to latest HEAD after routing consistency and duplicate cleanup | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 124 | medium | done | Refresh rewrite/push handoff to latest HEAD after routing consistency and duplicate cleanup | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 125 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 126 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 124-125 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 127 | medium | todo | Refresh final and resume checkpoints after task 126 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1152,3 +1152,8 @@ tracked purge target is:
   current.
 - Current cumulative active time at `2026-06-14T22:53:53Z`: `9817` seconds
   (`376` seconds session 1 plus `9441` seconds of current open session).
+- Task 124 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `8d7be7f3444fd66202c7f2c18515191247051523` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:54:38Z`: `9862` seconds
+  (`376` seconds session 1 plus `9486` seconds of current open session).

@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:47:49Z`:
+Current push target checkpoint, verified at `2026-06-14T22:54:38Z`:
 
 - current branch: `main`
-- current HEAD: `5a68dfe94c0b72d74ca058de55a9b995d746acfb`
+- current HEAD: `8d7be7f3444fd66202c7f2c18515191247051523`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+8d7be7f3 Refill V49 backlog and close token duplicates
+2b5ff806 Record V49 gap audit routing consistency
+62f09f13 Audit V49 active time after gap routing stretch
+518ab6d5 Record V49 clean state after gap routing checkpoint
+073c44c1 Refresh V49 checkpoints after gap routing guards
+49d186e8 Record V49 gap routing guard pass
+fed1e81f Refresh V49 handoff after gap checkpoint
 5a68dfe9 Refill V49 backlog after gap checkpoint
 b731b510 Record V49 clean state after gap audit checkpoint
 d9473578 Refresh V49 checkpoints after gap audit guards
@@ -58,13 +65,6 @@ bd35d5b4 Refresh V49 handoff after gap audit
 e9721678 Refill V49 backlog with gap audit
 bed8a086 Audit V49 active time after integrity stretch
 80f4a22f Record V49 clean state after integrity checkpoints
-63ffcc99 Refresh V49 checkpoints after integrity guards
-f883056b Record V49 guard pass after integrity checkpoint
-13f24768 Refresh V49 git integrity after token check
-ded7bf94 Refresh V49 handoff after scheduled token check
-4d26af9b Refill V49 backlog after scheduled token check
-e8128628 Record V49 scheduled OpenGWAS check
-8480b99f Close duplicate V49 scheduled OpenGWAS task
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
