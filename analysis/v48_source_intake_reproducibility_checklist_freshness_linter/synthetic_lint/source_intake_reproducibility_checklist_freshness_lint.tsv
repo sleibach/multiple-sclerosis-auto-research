@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_intake_reproducibility_checklist_freshness_linter/synthetic_reproducibility.md
+section_present.Required Controls	FAIL	required reproducibility checklist section
+section_present.Reproducibility Checks	PASS	required reproducibility checklist section
+section_present.Reviewer Outcomes	FAIL	required reproducibility checklist section
+section_present.Minimum Review Record	FAIL	required reproducibility checklist section
+section_present.Forbidden Shortcuts	FAIL	required reproducibility checklist section
+section_present.Verification Before Commit	FAIL	required reproducibility checklist section
+section_present.Boundary	PASS	required reproducibility checklist section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.reproduce_decision	FAIL	required boundary phrase
+phrase_present.does_not_add_records	FAIL	required boundary phrase
+phrase_present.does_not_judge_truth	FAIL	required boundary phrase
+phrase_present.reviewer_agreement_not_evidence	FAIL	required boundary phrase
+phrase_present.no_model_replacement	FAIL	required boundary phrase
+phrase_present.no_grounded_change	FAIL	required boundary phrase
+phrase_present.not_evidence	FAIL	required boundary phrase
+table_count.reproducibility_checks	FAIL	observed=1 expected=12
+table_count.reviewer_outcomes	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md observed=stale
+summary_matches.n_reproducibility_checks	FAIL	expected=12 observed=1
+summary_matches.n_required_linked_controls	FAIL	expected=8 observed=
+summary_matches.n_reviewer_outcomes	FAIL	expected=5 observed=0
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 source-intake reproducibility checklist; template/navigation only; no biological claim observed=

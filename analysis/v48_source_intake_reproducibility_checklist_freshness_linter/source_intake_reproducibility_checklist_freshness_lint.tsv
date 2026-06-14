@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md
+section_present.Required Controls	PASS	required reproducibility checklist section
+section_present.Reproducibility Checks	PASS	required reproducibility checklist section
+section_present.Reviewer Outcomes	PASS	required reproducibility checklist section
+section_present.Minimum Review Record	PASS	required reproducibility checklist section
+section_present.Forbidden Shortcuts	PASS	required reproducibility checklist section
+section_present.Verification Before Commit	PASS	required reproducibility checklist section
+section_present.Boundary	PASS	required reproducibility checklist section
+link_present.knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.reproduce_decision	PASS	required boundary phrase
+phrase_present.does_not_add_records	PASS	required boundary phrase
+phrase_present.does_not_judge_truth	PASS	required boundary phrase
+phrase_present.reviewer_agreement_not_evidence	PASS	required boundary phrase
+phrase_present.no_model_replacement	PASS	required boundary phrase
+phrase_present.no_grounded_change	PASS	required boundary phrase
+phrase_present.not_evidence	PASS	required boundary phrase
+table_count.reproducibility_checks	PASS	observed=12 expected=12
+table_count.reviewer_outcomes	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md observed=knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md
+summary_matches.n_reproducibility_checks	PASS	expected=12 observed=12
+summary_matches.n_required_linked_controls	PASS	expected=8 observed=8
+summary_matches.n_reviewer_outcomes	PASS	expected=5 observed=5
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-intake reproducibility checklist; template/navigation only; no biological claim observed=V48 source-intake reproducibility checklist; template/navigation only; no biological claim

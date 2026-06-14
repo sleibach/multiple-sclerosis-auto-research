@@ -155,7 +155,7 @@ span across resume gaps.
 | 127 | medium | done | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | 128 | medium | done | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 129 | medium | done | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
-| 130 | medium | todo | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
+| 130 | medium | done | Add external source-intake reproducibility checklist freshness linter | `scripts/v48_source_intake_reproducibility_checklist_freshness_linter.py` |
 | 131 | medium | todo | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | 132 | medium | todo | Add V48 external intake controls coverage card freshness linter | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
 | 133 | medium | todo | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
@@ -1792,5 +1792,16 @@ span across resume gaps.
   - boundary: template/navigation only; reviewer agreement reproduces a routing
     decision, not scientific truth or project-grounded evidence.
 - Final gates after task 129:
+  - external Markdown linter: PASS (`308` checks, `56` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:52:03Z`: `19800` seconds.
+- Added source-intake reproducibility checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    reproducibility-check/outcome counts, and stale summary values fail;
+  - real freshness checks: `32`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; reviewer reproduction remains
+    a routing QA step, not evidence.
+- Final gates after task 130:
   - external Markdown linter: PASS (`308` checks, `56` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
