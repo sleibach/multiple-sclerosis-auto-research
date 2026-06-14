@@ -177,7 +177,7 @@ tracked purge target is:
 | 122 | medium | done | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 123 | medium | done | Refill V49 backlog above threshold if task 122 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 124 | medium | done | Refresh rewrite/push handoff to latest HEAD after routing consistency and duplicate cleanup | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 125 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 125 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 126 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 124-125 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 127 | medium | todo | Refresh final and resume checkpoints after task 126 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 128 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 127 | `meta/V49_QUEUE.md` |
@@ -1157,3 +1157,10 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:54:38Z`: `9862` seconds
   (`376` seconds session 1 plus `9486` seconds of current open session).
+- Task 125 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `940` loose objects (`12.35 MiB`), `21745` packed objects, `1` pack,
+  pack size `426.79 MiB`, `.git` size `442M`, commit count `630`, and `0`
+  garbage.
+- Current cumulative active time at `2026-06-14T22:55:29Z`: `9913` seconds
+  (`376` seconds session 1 plus `9537` seconds of current open session).

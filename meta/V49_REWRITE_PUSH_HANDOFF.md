@@ -101,12 +101,12 @@ Both large-file commands should print nothing.
 
 ## Local Object Store Checkpoint
 
-Checked at `2026-06-14T22:32:36Z` after the latest V49 commits:
+Checked at `2026-06-14T22:55:29Z` after the latest V49 commits:
 
 ```text
 git count-objects -vH
-count: 830
-size: 11.48 MiB
+count: 940
+size: 12.35 MiB
 in-pack: 21745
 packs: 1
 size-pack: 426.79 MiB
@@ -117,8 +117,8 @@ size-garbage: 0 bytes
 
 Additional local state:
 
-- `.git` directory size: `441M`
-- commit count on `main`: `608`
+- `.git` directory size: `442M`
+- commit count on `main`: `630`
 - current branch: `main`
 - tracked files above `50 MiB`: `0`
 - Git blobs above `50 MiB`: `0`
@@ -128,8 +128,8 @@ history, but the GitHub hard-blocking large blobs have been removed.
 
 ## Git Integrity Check
 
-Checked at `2026-06-14T22:32:36Z` on HEAD
-`ded7bf940edf111a4d5956217fb18ddc1ecce5d7`:
+Checked at `2026-06-14T22:55:29Z` on HEAD
+`17cb003ebc282e682fb0c65901bc72ca0c64cb42`:
 
 ```bash
 git fsck --full --strict
