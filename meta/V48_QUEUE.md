@@ -151,7 +151,7 @@ span across resume gaps.
 | 123 | medium | done | Integrate de-duplication, parked-source release/handoff, and one-page intake controls into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
 | 124 | medium | done | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
 | 125 | medium | done | Add external source-intake audit log template freshness linter | `scripts/v48_source_intake_audit_log_template_freshness_linter.py` |
-| 126 | medium | todo | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
+| 126 | medium | done | Build source-intake decision error taxonomy for future operator QA | `knowledge_external/templates/SOURCE_INTAKE_DECISION_ERROR_TAXONOMY_V48.md` |
 | 127 | medium | todo | Add source-intake decision error taxonomy freshness linter | `scripts/v48_source_intake_decision_error_taxonomy_freshness_linter.py` |
 | 128 | medium | todo | Integrate source-intake audit log and decision error taxonomy into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 129 | medium | todo | Build external source-intake reproducibility checklist for future review of operator decisions | `knowledge_external/templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md` |
@@ -1739,4 +1739,14 @@ span across resume gaps.
     records and not evidence.
 - Final gates after task 125:
   - external Markdown linter: PASS (`306` checks, `54` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:44:54Z`: `19371` seconds.
+- Built source-intake decision error taxonomy:
+  - error classes: `10`;
+  - severity levels: `4`;
+  - required linked controls: `7`;
+  - boundary: template/navigation only; classifies future source-intake process
+    errors without judging scientific truth or altering grounded findings.
+- Final gates after task 126:
+  - external Markdown linter: PASS (`307` checks, `55` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
