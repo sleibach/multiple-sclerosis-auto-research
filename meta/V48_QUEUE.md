@@ -98,7 +98,7 @@ span across resume gaps.
 | 70 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 71 | medium | done | Build V48 high-priority source-search query packet from the sourcing plan without running searches | `knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md` |
 | 72 | medium | done | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
-| 73 | medium | todo | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
+| 73 | medium | done | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 74 | medium | todo | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | 75 | medium | todo | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | 76 | medium | todo | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
@@ -1003,3 +1003,14 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:22:13Z`: `10810` seconds.
+- Built V48 external synthesis dependency graph:
+  - artifact nodes: `22`;
+  - dependency/control edges: `64`;
+  - missing outputs: `0`;
+  - missing control sources: `0`;
+  - unguarded nodes: `0`;
+  - boundary: governance/navigation dependency mapping only; no external records were added and no grounded finding was changed.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:24:34Z`: `10951` seconds.
