@@ -20,6 +20,7 @@ FAILURE_MODE_BY_BOUNDARY = {
     "schema control": "external records lack mandatory source, class, marker, or relationship fields",
     "markdown provenance control": "generated Markdown drops source/provenance labels",
     "future-grounding control": "external-verifiable ideas are treated as findings before grounding",
+    "future-search control": "future search queries are mistaken for integrated external records, corroboration, or biological evidence",
     "vocabulary control": "relationship/status values drift into ambiguous uncontrolled labels",
     "navigation control": "public or operator navigation becomes stale and hides required artifacts",
     "handoff/navigation control": "handoff card drifts from current checks or commands",

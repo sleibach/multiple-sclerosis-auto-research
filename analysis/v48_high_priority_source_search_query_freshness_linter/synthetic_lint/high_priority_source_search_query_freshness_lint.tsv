@@ -1,0 +1,16 @@
+row_key	check	status	detail
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	present_in_query_packet	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_search_query_freshness_linter/synthetic_queries.tsv
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.rank	PASS	expected=1 observed=1
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.item	PASS	expected=Tool-robust but simple V22 scalar observed=Tool-robust but simple V22 scalar
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.source_type_needed	PASS	expected=method/governance literature observed=method/governance literature
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.search_target	PASS	expected=PubMed/EuropePMC observed=PubMed/EuropePMC
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.query	FAIL	"expected=""multiple sclerosis"" AND ""biomarker validation"" AND ""treatment response"" AND ""simple model"" AND (""validation"" OR ""biomarker"" OR ""target validation"" OR ""drug target"") observed=V22 stale internal label"
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.acceptance_criteria	PASS	expected=method-specific observed=method-specific
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.forbidden_shortcut	PASS	expected=no broad context observed=no broad context
+1||Tool-robust but simple V22 scalar||PubMed/EuropePMC	field_matches.integration_boundary	PASS	expected=Search results are candidates only; no claim enters the project without V47 segregated-record intake and V48 overlap review. observed=Search results are candidates only; no claim enters the project without V47 segregated-record intake and V48 overlap review.
+2||GPR25 demoted from protected favorite||GWAS/QTL catalogs	present_in_query_packet	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_search_query_freshness_linter/synthetic_queries.tsv
+2||GPR25 demoted from protected favorite||PubMed/EuropePMC	present_in_query_packet	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_search_query_freshness_linter/synthetic_queries.tsv
+99||Extra||PubMed/EuropePMC	no_extra_query_row	FAIL	row is not expected from the current sourcing plan
+summary	summary_matches.n_plan_rows	FAIL	expected=2 observed=99
+summary	summary_matches.n_query_rows	FAIL	expected=3 observed=99
+summary	summary_matches.target_counts	FAIL	expected={'GWAS/QTL catalogs': 1, 'PubMed/EuropePMC': 2} observed={'stale': 99}

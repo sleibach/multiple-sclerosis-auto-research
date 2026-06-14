@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `43`
-- boundary classes: `24`
+- controls mapped: `44`
+- boundary classes: `25`
 - unmapped boundaries: `0`
 
 ## Failure-Mode Matrix
@@ -23,6 +23,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | External-verifiable intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v47_external_verifiable_intake_linter.py` |
 | Future-grounding queue freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_future_grounding_queue_freshness_linter.py` |
 | High-priority external sourcing plan freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
+| High-priority source-search query freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `governance mapping control` | control-to-failure-mode explanations drift from current governance navigation | `PASS` | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | Preflight summary card freshness linter | `handoff/navigation control` | handoff card drifts from current checks or commands | `PASS` | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | External Markdown index linter | `markdown provenance control` | generated Markdown drops source/provenance labels | `PASS` | `scripts/v47_external_markdown_index_linter.py` |

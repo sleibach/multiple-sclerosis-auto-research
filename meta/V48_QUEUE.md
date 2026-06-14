@@ -97,7 +97,7 @@ span across resume gaps.
 | 69 | medium | done | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
 | 70 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 71 | medium | done | Build V48 high-priority source-search query packet from the sourcing plan without running searches | `knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md` |
-| 72 | medium | todo | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
+| 72 | medium | done | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | 73 | medium | todo | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 74 | medium | todo | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | 75 | medium | todo | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
@@ -985,3 +985,21 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:16:28Z`: `10465` seconds.
+- Added high-priority source-search query packet freshness linter:
+  - real query rows checked: `20`;
+  - real freshness checks: `183`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted stale internal-label query, missing row, extra row, and bad summary-count failures;
+  - governance controls tracked: `44`;
+  - full preflight checks: `38`.
+- Added the `future-search control` boundary to the governance failure-mode taxonomy so search packets cannot be mistaken for integrated external records, corroboration, or evidence.
+- Verification passed:
+  - high-priority source-search query freshness lint;
+  - governance navigation freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - convergence executive-card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:22:13Z`: `10810` seconds.

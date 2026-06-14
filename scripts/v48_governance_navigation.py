@@ -183,6 +183,13 @@ ARTIFACTS = [
         "boundary": "future-grounding control",
     },
     {
+        "artifact": "High-priority source-search query freshness linter",
+        "path": "scripts/v48_high_priority_source_search_query_freshness_linter.py",
+        "summary": "analysis/v48_high_priority_source_search_query_freshness_linter/high_priority_source_search_query_freshness_lint_summary.json",
+        "purpose": "Ensures the high-priority source-search query packet matches the current sourcing plan.",
+        "boundary": "future-search control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",
