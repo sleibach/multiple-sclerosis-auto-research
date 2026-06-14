@@ -76,7 +76,7 @@ tracked purge target is:
 | 20 | high | done | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
 | 21 | medium | done | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
 | 22 | medium | done | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md` |
-| 23 | medium | todo | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/COMPARATOR_MATRIX_V47.md` |
+| 23 | medium | done | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/V49_COMPARATOR_MATRIX_REVIEW.md` |
 | 24 | medium | done | Run full external governance, public-index freshness, provenance, and large-file safety checks after the next navigation/content refresh | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 25 | medium | todo | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
 | 26 | medium | todo | Cross-check V49 source-domain review decisions against the source-terms review queue and mark any row-specific parking follow-ups | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
@@ -292,3 +292,15 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:50:03Z`: `2387` seconds
   (`376` seconds session 1 plus `2011` seconds of current open session).
+- Task 23 added `knowledge_external/catalogs/indexes/V49_COMPARATOR_MATRIX_REVIEW.md`
+  and `knowledge_external/catalogs/indexes/v49_comparator_matrix_review.tsv`.
+  Result: V49-added source domains do not require new resource-level comparator
+  rows. DailyMed, DisGeNET, GWAS Catalog, MSGD, PubMed, and Europe PMC coverage
+  already handles the resource-level needs; PMC and Annual Reviews remain
+  source-domain/terms-review context rather than comparator resources.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`66` links), external Markdown linter PASS (`368`
+  checks, `70` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:51:37Z`: `2481` seconds
+  (`376` seconds session 1 plus `2105` seconds of current open session).
