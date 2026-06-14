@@ -161,7 +161,7 @@ span across resume gaps.
 | 133 | medium | done | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
 | 134 | medium | done | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
 | 135 | medium | done | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
-| 136 | medium | todo | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
+| 136 | medium | done | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
 | 137 | medium | todo | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
 | 138 | medium | todo | Build V48 active-time accounting audit card distinguishing active time from wall-clock span | `knowledge_external/catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md` |
 | 139 | medium | todo | Add V48 active-time accounting audit card freshness linter | `scripts/v48_active_time_accounting_audit_freshness_linter.py` |
@@ -1874,4 +1874,14 @@ span across resume gaps.
 - Added follow-up tasks 139-142 to keep the executable backlog above threshold.
 - Final gates after task 135:
   - external Markdown linter: PASS (`310` checks, `58` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T19:05:39Z`: `20616` seconds.
+- Built source-intake reviewer handoff checklist:
+  - handoff fields: `12`;
+  - handoff statuses: `5`;
+  - required linked controls: `8`;
+  - boundary: template/navigation only; preserves operator continuity without
+    source validation, relationship assertions, or evidence changes.
+- Final gates after task 136:
+  - external Markdown linter: PASS (`311` checks, `59` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
