@@ -159,7 +159,7 @@ span across resume gaps.
 | 131 | medium | done | Build V48 external intake controls coverage card summarizing source-hit safeguards by failure mode | `knowledge_external/catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md` |
 | 132 | medium | done | Add V48 external intake controls coverage card freshness linter | `scripts/v48_source_intake_controls_coverage_freshness_linter.py` |
 | 133 | medium | done | Integrate source-intake reproducibility checklist and controls coverage card into public index, dependency graph, governance navigation, and preflight after linters exist | `knowledge_external/INDEX.md` |
-| 134 | medium | todo | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
+| 134 | medium | done | Build external intake stop/go scorecard template for future source-hit decisions | `knowledge_external/templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md` |
 | 135 | medium | todo | Add external intake stop/go scorecard freshness linter | `scripts/v48_source_intake_stop_go_scorecard_freshness_linter.py` |
 | 136 | medium | todo | Build source-intake reviewer handoff checklist for session-to-session continuity | `knowledge_external/templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md` |
 | 137 | medium | todo | Add source-intake reviewer handoff checklist freshness linter | `scripts/v48_source_intake_reviewer_handoff_checklist_freshness_linter.py` |
@@ -1847,4 +1847,15 @@ span across resume gaps.
     remains excluded from grounded TF-IDF globs.
 - Final gates after task 133:
   - external Markdown linter: PASS (`309` checks, `57` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T19:00:19Z`: `20296` seconds.
+- Built source-intake stop/go scorecard:
+  - scorecard criteria: `10`;
+  - decision outcomes: `5`;
+  - required linked controls: `8`;
+  - boundary: template/navigation only; routes source hits to stop, park,
+    context-only, candidate intake, or future-grounding controls without rating
+    biological truth or changing project conclusions.
+- Final gates after task 134:
+  - external Markdown linter: PASS (`310` checks, `58` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
