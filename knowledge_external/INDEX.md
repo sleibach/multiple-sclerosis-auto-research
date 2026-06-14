@@ -64,6 +64,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 contradiction readiness playbook](synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md) | Predefined handling for future external contradictions without overriding grounded findings. | future-grounding control |
 | [V48 contradiction surveillance checklist](synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md) | Future contradiction surveillance triggers by source class and finding category. | future-grounding control |
 | [V49 contradiction surveillance shortlist](synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md) | Prioritized rows where a same-definition future source could create a real tension. | future-grounding control |
+| [V49 zero-contradiction caveat](synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md) | Reader note explaining that zero current contradiction rows does not imply external consensus. | synthesis/navigation only |
 | [V48 V37 finding external coverage map](synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md) | Coverage map showing which V37 scored findings have V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 uncovered finding rationale](synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md) | Rationale for V37 scored findings without V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 external coverage gap priority](synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md) | Sourcing-priority map for uncovered V37 findings. | sourcing/navigation only |
