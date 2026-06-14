@@ -1,0 +1,28 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md
+section_present.Required Controls	PASS	required contradiction-triage section
+section_present.Triage Questions	PASS	required contradiction-triage section
+section_present.Safe Outcomes	PASS	required contradiction-triage section
+section_present.Minimum Candidate Notes	PASS	required contradiction-triage section
+section_present.Boundary	PASS	required contradiction-triage section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_assert	PASS	required boundary phrase
+phrase_present.does_not_resolve	PASS	required boundary phrase
+phrase_present.does_not_override	PASS	required boundary phrase
+phrase_present.no_matrix_change	PASS	required boundary phrase
+phrase_present.same_definition	PASS	required boundary phrase
+phrase_present.tension_flag	PASS	required boundary phrase
+phrase_present.grounded_remains_evidence	PASS	required boundary phrase
+table_count.triage_questions	PASS	observed=8 expected=8
+table_count.safe_outcomes	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md observed=knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md
+summary_matches.n_required_linked_controls	PASS	expected=5 observed=5
+summary_matches.n_safe_outcomes	PASS	expected=5 observed=5
+summary_matches.n_triage_questions	PASS	expected=8 observed=8
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 contradiction triage mini-template; template/navigation only; no biological claim observed=V48 contradiction triage mini-template; template/navigation only; no biological claim

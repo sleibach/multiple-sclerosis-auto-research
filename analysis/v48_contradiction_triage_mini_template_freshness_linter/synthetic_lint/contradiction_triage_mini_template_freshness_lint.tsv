@@ -1,0 +1,28 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_contradiction_triage_mini_template_freshness_linter/synthetic_contradiction_template.md
+section_present.Required Controls	FAIL	required contradiction-triage section
+section_present.Triage Questions	PASS	required contradiction-triage section
+section_present.Safe Outcomes	FAIL	required contradiction-triage section
+section_present.Minimum Candidate Notes	FAIL	required contradiction-triage section
+section_present.Boundary	PASS	required contradiction-triage section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.does_not_assert	FAIL	required boundary phrase
+phrase_present.does_not_resolve	FAIL	required boundary phrase
+phrase_present.does_not_override	FAIL	required boundary phrase
+phrase_present.no_matrix_change	FAIL	required boundary phrase
+phrase_present.same_definition	FAIL	required boundary phrase
+phrase_present.tension_flag	FAIL	required boundary phrase
+phrase_present.grounded_remains_evidence	FAIL	required boundary phrase
+table_count.triage_questions	FAIL	observed=1 expected=8
+table_count.safe_outcomes	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md observed=stale
+summary_matches.n_required_linked_controls	FAIL	expected=5 observed=
+summary_matches.n_safe_outcomes	FAIL	expected=5 observed=0
+summary_matches.n_triage_questions	FAIL	expected=8 observed=1
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 contradiction triage mini-template; template/navigation only; no biological claim observed=

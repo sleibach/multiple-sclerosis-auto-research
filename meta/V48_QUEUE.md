@@ -135,7 +135,7 @@ span across resume gaps.
 | 107 | medium | done | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
 | 108 | medium | done | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
 | 109 | medium | done | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
-| 110 | medium | todo | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
+| 110 | medium | done | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
 | 111 | medium | todo | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 112 | medium | todo | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | 113 | medium | todo | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
@@ -1522,5 +1522,17 @@ span across resume gaps.
   - boundary: template/navigation only; external disagreement remains a tension
     flag, not an override or relationship-matrix update.
 - Final gates after task 109:
+  - external Markdown linter: PASS (`300` checks, `48` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:11:21Z`: `17358` seconds.
+- Added contradiction triage mini-template freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links,
+    stale triage-question counts, stale outcome counts, and bad summary values
+    fail;
+  - real freshness checks: `27`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; contradictions remain candidate
+    tensions until reviewed and grounded.
+- Final gates after task 110:
   - external Markdown linter: PASS (`300` checks, `48` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
