@@ -39,6 +39,7 @@ CHECKS = [
     ("source_domain_review_freshness", ["scripts/v48_source_domain_review_freshness_linter.py", "lint"]),
     ("source_domain_relationship_freshness", ["scripts/v48_source_domain_relationship_freshness_linter.py", "lint"]),
     ("v37_coverage_freshness", ["scripts/v48_v37_coverage_freshness_linter.py", "lint"]),
+    ("v37_uncovered_rationale_freshness", ["scripts/v48_v37_uncovered_rationale_freshness_linter.py", "lint"]),
 ]
 
 

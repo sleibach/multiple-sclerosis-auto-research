@@ -66,7 +66,7 @@ span across resume gaps.
 | 38 | medium | done | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
 | 39 | medium | done | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 40 | medium | done | Build rationale table for V37 findings without V48 external relationship rows | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
-| 41 | medium | todo | Add V37 uncovered-rationale freshness linter tied to coverage map | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
+| 41 | medium | done | Add V37 uncovered-rationale freshness linter tied to coverage map | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | 42 | medium | todo | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
 | 43 | medium | todo | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
 | 44 | medium | todo | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
@@ -371,6 +371,19 @@ span across resume gaps.
   - public-index freshness synthetic fixture and real lint;
   - V48 governance preflight;
   - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:47:22Z`: `5119` seconds.
+- Added V37 uncovered-rationale freshness linter:
+  - synthetic fixture passed;
+  - uncovered expected: `20`;
+  - rationale rows: `20`;
+  - failures: `0`.
+- Integrated the linter into governance:
+  - preflight checks: `24`;
+  - governance controls tracked: `30`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance-navigation freshness lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:42:04Z`: `4801` seconds.
 - Refreshed source URL reachability:

@@ -183,6 +183,13 @@ ARTIFACTS = [
         "boundary": "synthesis coverage control",
     },
     {
+        "artifact": "V37 uncovered-rationale freshness linter",
+        "path": "scripts/v48_v37_uncovered_rationale_freshness_linter.py",
+        "summary": "analysis/v48_v37_uncovered_rationale_freshness_linter/v37_uncovered_rationale_freshness_lint_summary.json",
+        "purpose": "Ensures the V37 uncovered-finding rationale table matches the current coverage map.",
+        "boundary": "synthesis coverage control",
+    },
+    {
         "artifact": "Convergence matrix coverage linter",
         "path": "scripts/v48_convergence_matrix_coverage_linter.py",
         "summary": "analysis/v48_convergence_matrix_coverage_linter/convergence_matrix_coverage_lint_summary.json",
