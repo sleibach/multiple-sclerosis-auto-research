@@ -52,6 +52,24 @@ Results:
 | `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` | missing | Legacy pre-restructure path for the same generated contrast table. |
 | `analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz` | missing | Purged seeded synthetic subject-level cache. Regenerate from `scripts/v43_method_validation_simulations.py`; summary/docs remain. |
 
+## Ignore-Rule Verification
+
+Checked representative purged payload paths with `git check-ignore -v` after
+the V49 ignore rules were tightened. All representative paths are now ignored:
+
+| path | ignore rule |
+|---|---|
+| `phases/v3/tmp/foundation_wave6/geneformer_assets/Geneformer-V2-104M/model.safetensors` | `.gitignore:24:**/tmp/` |
+| `phases/v3/tmp/cellstate_subagent/ibd_natcomm.h5ad` | `.gitignore:24:**/tmp/` |
+| `phases/v3/tmp/cellstate_subagent/psoriasis_adult.h5ad` | `.gitignore:24:**/tmp/` |
+| `phases/v3/tmp/gwascatalog_associations_20260317_convert.parquet` | `.gitignore:24:**/tmp/` |
+| `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` | `.gitignore:32:phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` |
+| `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` | `.gitignore:33:results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` |
+| `analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz` | `.gitignore:34:analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz` |
+
+The legacy `results_v3/` broad-H5AD contrast path was not covered by the first
+V49 ignore rule set; task 45 added the explicit rule shown above.
+
 ## Reference Classes
 
 ### Historical provenance references
@@ -102,4 +120,3 @@ Future reruns should:
 
 Do not re-add `phases/*/tmp/`, `tmp_v3/`, large model weights, large AnnData
 caches, large parquet caches, or the subject-level V43 synthetic cache to Git.
-

@@ -98,7 +98,7 @@ tracked purge target is:
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 | 43 | medium | done | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 44 | medium | done | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 45 | medium | todo | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 45 | medium | done | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 46 | medium | todo | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
 | 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
 
@@ -526,3 +526,15 @@ tracked purge target is:
   large-file guard PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:27:30Z`: `4634` seconds
   (`376` seconds session 1 plus `4258` seconds of current open session).
+- Task 45 verified representative purged payload paths with `git check-ignore
+  -v`. Result: the initial post-rewrite ignore rules covered the `phases/v3`
+  tmp paths, the `phases/v3/results` broad-H5AD contrast path, and the V43
+  synthetic subject cache, but not the legacy
+  `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` path.
+  V49 added the explicit legacy-path rule and recorded the passing check in
+  `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`.
+- Post-task gates: all `7` representative purged paths ignored, V47 provenance
+  gate PASS (`436` checks, `47` records, `0` failures), and large-file guard
+  PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:30:02Z`: `4786` seconds
+  (`376` seconds session 1 plus `4410` seconds of current open session).
