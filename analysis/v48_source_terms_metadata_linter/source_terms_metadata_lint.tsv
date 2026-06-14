@@ -2,16 +2,28 @@ path	record_id	check	status	detail
 knowledge_external/catalogs/resources/arrayexpress_biostudies_functional_genomics.json	resource.arrayexpress_biostudies.functional_genomics.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/biostudies_database.json	resource.biostudies.database.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/clinicaltrials_gov.json	resource.clinicaltrials_gov.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
+knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	license_or_terms_label_present	PASS	DailyMed/NLM drug-label resource terms; label-source caveat
+knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	terms_url_http_or_empty	PASS	https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm
+knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	reuse_notes_present	PASS	Catalog metadata only; individual labels should be versioned and checked before reuse because label contents are submitt
+knowledge_external/catalogs/resources/dailymed_drug_labels.json	resource.dailymed.drug_labels.2026-06-13	redistribution_value_allowed	PASS	metadata_only
 knowledge_external/catalogs/resources/disgenet_platform.json	resource.disgenet.platform.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/dryad_repository.json	resource.dryad.repository.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/ega_controlled_genomics.json	resource.ega.controlled_genomics.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/ema_medicines_database.json	resource.ema.medicines_database.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/ena_sequence_archive.json	resource.ena.sequence_archive.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/europe_pmc_literature.json	resource.europe_pmc.literature.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
+knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	license_or_terms_label_present	PASS	FDA website policies: public-domain US government content unless otherwise noted
+knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	terms_url_http_or_empty	PASS	https://www.fda.gov/about-fda/about-website/website-policies
+knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	reuse_notes_present	PASS	Catalog metadata only; specific labels should still be downloaded, versioned, and checked because regulatory label text 
+knowledge_external/catalogs/resources/fda_fdalabel_drug_labeling.json	resource.fda.fdalabel_drug_labeling.2026-06-13	redistribution_value_allowed	PASS	metadata_only
 knowledge_external/catalogs/resources/figshare_repository.json	resource.figshare.repository.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
+knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	license_or_terms_label_present	PASS	NCBI website/data usage policy with submitter-rights caveat
+knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	terms_url_http_or_empty	PASS	https://www.ncbi.nlm.nih.gov/home/about/policies/
+knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	reuse_notes_present	PASS	Catalog metadata only; NCBI policies say molecular data are not restricted by NCBI, but the project must check submitter
+knowledge_external/catalogs/resources/geo_functional_genomics.json	resource.geo.functional_genomics.2026-06-13	redistribution_value_allowed	PASS	metadata_only
 knowledge_external/catalogs/resources/gwas_catalog_multiple_sclerosis.json	resource.gwas_catalog.ms.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/imsgc_publications.json	resource.imsgc.publications.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/ms_society_uk_types_of_ms.json	resource.ms_society_uk.types_of_ms.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
@@ -27,12 +39,32 @@ knowledge_external/catalogs/resources/nice_ng220_ms_management.json	resource.nic
 knowledge_external/catalogs/resources/ninds_ms_common_data_elements.json	resource.ninds.ms_common_data_elements.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/open_targets_platform.json	resource.open_targets.platform.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/catalogs/resources/osf_repository.json	resource.osf.repository.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
+knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	license_or_terms_label_present	PASS	NCBI/NLM website and database policies with article-copyright caveat
+knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	terms_url_http_or_empty	PASS	https://www.ncbi.nlm.nih.gov/home/about/policies/
+knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	reuse_notes_present	PASS	Catalog metadata only; PubMed citations/abstracts and linked articles may have different rights, so use source links and
+knowledge_external/catalogs/resources/pubmed_literature.json	resource.pubmed.literature.2026-06-13	redistribution_value_allowed	PASS	metadata_only
+knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	license_or_terms_label_present	PASS	NCBI website/data usage policy with dataset-specific access caveat
+knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	terms_url_http_or_empty	PASS	https://www.ncbi.nlm.nih.gov/home/about/policies/
+knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	reuse_notes_present	PASS	Catalog metadata only; specific SRA run files and linked controlled-access data require dataset-level access, consent, a
+knowledge_external/catalogs/resources/sra_sequence_read_archive.json	resource.sra.sequence_read_archive.2026-06-13	redistribution_value_allowed	PASS	metadata_only
 knowledge_external/catalogs/resources/zenodo_repository.json	resource.zenodo.repository.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
-knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
+knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	license_or_terms_label_present	PASS	DailyMed/NLM drug-label resource terms; label-source caveat
+knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	terms_url_http_or_empty	PASS	https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm
+knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	reuse_notes_present	PASS	External label-context metadata only; do not redistribute full label text or treat label wording as project-grounded evi
+knowledge_external/records/dmt_dimethyl_fumarate_mechanism_label_context.json	claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13	redistribution_value_allowed	PASS	metadata_only
+knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	license_or_terms_label_present	PASS	DailyMed/NLM drug-label resource terms; label-source caveat
+knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	terms_url_http_or_empty	PASS	https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm
+knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	reuse_notes_present	PASS	External label-context metadata only; do not redistribute full label text or treat label wording as project-grounded evi
+knowledge_external/records/dmt_natalizumab_mechanism_label_context.json	claim.dailymed.natalizumab_mechanism_context.2026-06-13	redistribution_value_allowed	PASS	metadata_only
+knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	license_or_terms_label_present	PASS	DailyMed/NLM drug-label resource terms; label-source caveat
+knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	terms_url_http_or_empty	PASS	https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm
+knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	checked_date_present	PASS	2026-06-14
+knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	reuse_notes_present	PASS	External label-context metadata only; do not redistribute full label text or treat label wording as project-grounded evi
+knowledge_external/records/dmt_ocrelizumab_mechanism_label_context.json	claim.dailymed.ocrelizumab_mechanism_context.2026-06-13	redistribution_value_allowed	PASS	metadata_only
 knowledge_external/records/ms_disease_course_ppms_context.json	claim.ms_society_uk.ppms_course_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/records/ms_disease_course_rrms_context.json	claim.national_ms_society.rrms_course_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata
 knowledge_external/records/ms_disease_course_spms_context.json	claim.national_ms_society.spms_course_context.2026-06-13	source_terms_present	WARN	missing optional source_terms metadata

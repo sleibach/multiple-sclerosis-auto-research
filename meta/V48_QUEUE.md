@@ -43,7 +43,14 @@ span across resume gaps.
 | 15 | medium | done | Add convergence synthesis status vocabulary linter | `scripts/v48_convergence_status_vocabulary_linter.py` |
 | 16 | medium | done | Add project-finding reference existence linter for external support/contradiction records | `scripts/v48_project_finding_reference_linter.py` |
 | 17 | medium | done | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
-| 18 | medium | todo | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
+| 18 | medium | done | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
+| 19 | medium | todo | Build source-terms coverage rollup for external records and resources | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| 20 | medium | todo | Add source-terms freshness linter comparing checked_date against record date_accessed | `scripts/v48_source_terms_freshness_linter.py` |
+| 21 | medium | todo | Add support/contradiction convergence coverage linter for external records that reference project findings | `scripts/v48_support_contradiction_coverage_linter.py` |
+| 22 | medium | todo | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
+| 23 | medium | todo | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
+| 24 | medium | todo | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
+| 25 | medium | todo | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -151,3 +158,16 @@ span across resume gaps.
   - review classes: `19`;
   - manual-review domain rows: `2`.
 - Public external index crosslink lint now checks `11` links with `0` failures.
+- Current open-session active time at `2026-06-14T13:58:07Z`: `2164` seconds.
+- Backfilled complete source_terms metadata for eight unambiguous public/government or NLM/NCBI/FDA external records:
+  - source_terms records: `8` of `39`;
+  - warnings for missing optional source_terms: `31`;
+  - malformed source_terms failures: `0`.
+- Verification passed:
+  - external record schema lint;
+  - relationship vocabulary lint;
+  - source-locator normalization lint;
+  - public index crosslink lint;
+  - external Markdown index lint;
+  - V47 provenance gate.
+- Refilled backlog with tasks 19-25; backlog exhaustion is not a stop condition.
