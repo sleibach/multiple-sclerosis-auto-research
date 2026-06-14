@@ -127,7 +127,7 @@ span across resume gaps.
 | 99 | medium | done | Integrate model-lens boundary card and freshness control into dependency graph, governance navigation, and preflight | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 100 | medium | done | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
 | 101 | medium | done | Build source-intake package manifest tying search packet, checklist, quickstart, and reader brief | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
-| 102 | medium | todo | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
+| 102 | medium | done | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
 | 103 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
@@ -1420,5 +1420,17 @@ span across resume gaps.
   - boundary: template/navigation only; no searches run, no source records added,
     no convergence or contradiction asserted.
 - Final gates after task 101:
+  - external Markdown linter: PASS (`297` checks, `45` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:52:16Z`: `16213` seconds.
+- Added source-intake package manifest freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links,
+    stale component counts, stale operator-step counts, and bad summary values
+    fail;
+  - real freshness checks: `34`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; no searches run and no
+    external claims integrated.
+- Final gates after task 102:
   - external Markdown linter: PASS (`297` checks, `45` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

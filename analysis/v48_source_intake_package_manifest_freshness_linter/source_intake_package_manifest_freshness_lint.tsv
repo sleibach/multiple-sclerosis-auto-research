@@ -1,0 +1,35 @@
+check	status	detail
+manifest_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md
+section_present.Package Components	PASS	required source-intake package section
+section_present.Mandatory Operator Order	PASS	required source-intake package section
+section_present.Verification Commands	PASS	required source-intake package section
+section_present.What This Package Does Not Do	PASS	required source-intake package section
+section_present.Boundary	PASS	required source-intake package section
+link_present.knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md	PASS	required package component or source link
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md	PASS	required package component or source link
+link_present.knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md	PASS	required package component or source link
+link_present.knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md	PASS	required package component or source link
+link_present.knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md	PASS	required package component or source link
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required package component or source link
+link_present.docs/knowledge/EPISTEMIC_CLASSES.md	PASS	required package component or source link
+command_present.python3 scripts/v47_external_record_schema_linter.py lint --fail-on-error	PASS	required verification command
+command_present.python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error	PASS	required verification command
+command_present.python3 scripts/v47_provenance_gate.py audit --fail-on-error	PASS	required verification command
+command_present.python3 scripts/v48_governance_preflight.py	PASS	required verification command
+phrase_present.status_navigation_only	PASS	required boundary phrase
+phrase_present.no_searches	PASS	required boundary phrase
+phrase_present.no_external_records	PASS	required boundary phrase
+phrase_present.no_convergence	PASS	required boundary phrase
+phrase_present.no_contradiction	PASS	required boundary phrase
+phrase_present.no_grounded_change	PASS	required boundary phrase
+phrase_present.not_project_finding	PASS	required boundary phrase
+phrase_present.generic_context_forbidden	PASS	required boundary phrase
+phrase_present.grounded_remains_evidence	PASS	required boundary phrase
+table_count.package_components	PASS	observed=6 expected=6
+step_count.operator_order	PASS	observed=6 expected=6
+summary_matches.markdown	PASS	expected=knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md observed=knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md
+summary_matches.n_package_components	PASS	expected=6 observed=6
+summary_matches.n_operator_order_steps	PASS	expected=6 observed=6
+summary_matches.n_required_verification_commands	PASS	expected=4 observed=4
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 source-intake package manifest; template/navigation only; no biological claim observed=V48 source-intake package manifest; template/navigation only; no biological claim
