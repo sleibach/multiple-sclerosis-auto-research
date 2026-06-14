@@ -159,7 +159,15 @@ tracked purge target is:
 | 103 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
 | 104 | medium | done | Audit active-time accounting after the latest session stretch | `meta/V49_QUEUE.md` |
 | 105 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
-| 106 | medium | todo | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 106 | medium | done | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 107 | high | todo | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
+| 108 | medium | todo | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 109 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 110 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 111 | medium | todo | Refresh final and resume checkpoints after task 110 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 112 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 111 | `meta/V49_QUEUE.md` |
+| 113 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
+| 114 | medium | todo | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -1019,3 +1027,10 @@ tracked purge target is:
   `9601` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue remains summed-session based, not
   wall-clock based.
+- Task 106 refilled the backlog above threshold after task 104. New tasks
+  `107` through `114` add a direct V49 gap-closure completeness audit, reader
+  routing for that audit, handoff refresh, guard pass, checkpoint refresh,
+  clean-state verification, the next OpenGWAS scheduling boundary, and the next
+  refill.
+- Current cumulative active time at `2026-06-14T22:37:59Z`: `8863` seconds
+  (`376` seconds session 1 plus `8487` seconds of current open session).
