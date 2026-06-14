@@ -136,7 +136,15 @@ tracked purge target is:
 | 80 | medium | done | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
 | 82 | medium | done | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
-| 83 | medium | todo | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 83 | medium | done | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 84 | medium | todo | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 85 | medium | todo | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 86 | medium | todo | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 87 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 88 | medium | todo | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
+| 90 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 88 | `meta/V49_QUEUE.md` |
+| 91 | medium | todo | Refill V49 backlog above threshold if task 90 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -856,3 +864,9 @@ tracked purge target is:
   `2026-06-14T22:30:00Z`.
 - Current cumulative active time at `2026-06-14T22:16:43Z`: `7587` seconds
   (`376` seconds session 1 plus `7211` seconds of current open session).
+- Task 83 refilled the backlog above threshold after task 82 left too few open
+  executable items. New tasks `84` through `91` focus on the V49 docs-pointer
+  routing, manifest/readme-style discoverability, handoff freshness, guards,
+  checkpoints, scheduled OpenGWAS expiry state, and clean-state verification.
+- Current cumulative active time at `2026-06-14T22:17:14Z`: `7618` seconds
+  (`376` seconds session 1 plus `7242` seconds of current open session).
