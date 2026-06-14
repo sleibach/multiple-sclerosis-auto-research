@@ -143,7 +143,7 @@ span across resume gaps.
 | 115 | medium | done | Add external source de-duplication intake checklist freshness linter | `scripts/v48_source_deduplication_intake_checklist_freshness_linter.py` |
 | 116 | medium | done | Build compact one-page external intake operator checklist from V48 controls | `knowledge_external/templates/EXTERNAL_INTAKE_ONE_PAGE_CHECKLIST_V48.md` |
 | 117 | medium | done | Integrate source-hit parking queue into public index, dependency graph, governance navigation, and preflight after its linter exists | `knowledge_external/INDEX.md` |
-| 118 | medium | todo | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
+| 118 | medium | done | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
 | 119 | medium | todo | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | todo | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
 | 121 | medium | todo | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
@@ -1636,4 +1636,15 @@ span across resume gaps.
     remains excluded from grounded TF-IDF globs.
 - Final gates after task 117:
   - external Markdown linter: PASS (`303` checks, `51` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:29:44Z`: `18461` seconds.
+- Built parked-source release checklist:
+  - release checks: `10`;
+  - release outcomes: `5`;
+  - required linked controls: `7`;
+  - boundary: template/navigation only; release from parking permits normal
+    intake review to begin but does not create a source record, relationship
+    row, evidence claim, or finding.
+- Final gates after task 118:
+  - external Markdown linter: PASS (`304` checks, `52` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
