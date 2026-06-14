@@ -138,7 +138,7 @@ tracked purge target is:
 | 82 | medium | done | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
 | 83 | medium | done | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 84 | medium | done | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 85 | medium | todo | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 85 | medium | done | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 86 | medium | todo | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 87 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 88 | medium | todo | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -876,3 +876,10 @@ tracked purge target is:
   the grounded/report tree.
 - Current cumulative active time at `2026-06-14T22:18:05Z`: `7669` seconds
   (`376` seconds session 1 plus `7293` seconds of current open session).
+- Task 85 updated `knowledge_external/synthesis/V49_READER_QUICKSTART.md` and
+  `knowledge_external/synthesis/v49_reader_quickstart.tsv` with a direct route
+  to the populated convergence/contradiction matrix and the
+  `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer, while preserving
+  the rule that substantive external rows stay in the segregated external tree.
+- Current cumulative active time at `2026-06-14T22:19:13Z`: `7737` seconds
+  (`376` seconds session 1 plus `7361` seconds of current open session).
