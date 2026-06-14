@@ -100,7 +100,7 @@ span across resume gaps.
 | 72 | medium | done | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | 73 | medium | done | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 74 | medium | done | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
-| 75 | medium | todo | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
+| 75 | medium | done | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | 76 | medium | todo | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | 77 | medium | todo | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | 78 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
@@ -1033,3 +1033,12 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:28:22Z`: `11179` seconds.
+- Built V48 evidence-boundary glossary:
+  - boundary labels: `26`;
+  - controls represented: `45`;
+  - boundaries without failure mode: `0`;
+  - boundary: governance/navigation label definitions only; no external claims were added and no grounded finding was changed.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:29:57Z`: `11274` seconds.
