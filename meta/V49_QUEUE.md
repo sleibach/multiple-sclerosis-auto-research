@@ -118,7 +118,7 @@ tracked purge target is:
 | 62 | medium | done | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
 | 63 | medium | done | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
 | 64 | medium | done | Refresh artifact manifest to include the final checkpoint and any post-checkpoint operational files | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 65 | medium | todo | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 65 | medium | done | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 66 | high | todo | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 67 | medium | todo | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
 | 68 | medium | todo | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
@@ -716,3 +716,9 @@ tracked purge target is:
   meta files `9`, and still `0` grounded finding or locked-rule files.
 - Current cumulative active time at `2026-06-14T21:56:49Z`: `6393` seconds
   (`376` seconds session 1 plus `6017` seconds of current open session).
+- Task 65 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `f1b1ef2d8660277f33b53712c6251e9a462a5f4c` and updated the recent commit
+  chain. Remote status remains no remote configured; human force-push and
+  clone re-sync handoff remains pending.
+- Current cumulative active time at `2026-06-14T21:57:12Z`: `6416` seconds
+  (`376` seconds session 1 plus `6040` seconds of current open session).
