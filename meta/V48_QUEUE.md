@@ -96,7 +96,7 @@ span across resume gaps.
 | 68 | medium | done | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
 | 69 | medium | done | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
 | 70 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 63-69 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
-| 71 | medium | todo | Build V48 high-priority source-search query packet from the sourcing plan without running searches | `knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md` |
+| 71 | medium | done | Build V48 high-priority source-search query packet from the sourcing plan without running searches | `knowledge_external/synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md` |
 | 72 | medium | todo | Add high-priority source-search query packet freshness linter | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | 73 | medium | todo | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 74 | medium | todo | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
@@ -975,3 +975,13 @@ span across resume gaps.
 - Corrected arithmetic in the last three active-time checkpoints; active time remains the direct clock difference from `2026-06-14T13:22:03Z` for the still-open session.
 - Refilled backlog with generated tasks 71-78 because active time remains below the `21600` second target.
 - Current open-session active time at `2026-06-14T16:12:22Z`: `10219` seconds.
+- Built V48 high-priority source-search query packet:
+  - source-plan rows: `11`;
+  - query rows: `20`;
+  - target counts: GEO/ArrayExpress `7`, GWAS/QTL catalogs `2`, PubMed/EuropePMC `11`;
+  - boundary: future search/navigation only; no searches were run and no external claims were integrated;
+  - corrected query generation so internal project labels such as version numbers do not become external search terms.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:16:28Z`: `10465` seconds.
