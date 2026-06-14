@@ -154,7 +154,7 @@ tracked purge target is:
 | 98 | medium | done | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 99 | medium | done | Refresh rewrite/push handoff to latest HEAD after scheduled OpenGWAS and backlog cleanup commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 100 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 101 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 101 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 102 | medium | todo | Refresh final and resume checkpoints after task 101 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 103 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
 | 104 | medium | todo | Audit active-time accounting after the latest session stretch | `meta/V49_QUEUE.md` |
@@ -993,3 +993,12 @@ tracked purge target is:
   garbage.
 - Current cumulative active time at `2026-06-14T22:32:36Z`: `8540` seconds
   (`376` seconds session 1 plus `8164` seconds of current open session).
+- Task 101 reran guards after the handoff and Git integrity updates. Results:
+  V47 provenance gate PASS (`436` checks, `47` external JSON records, `0`
+  failures), public-index freshness PASS (`50` checks), public-index crosslinks
+  PASS (`73` links), external Markdown/index lint PASS (`375` checks, `77`
+  Markdown files), docs/quickstart convergence routing PASS, tracked large-file
+  guard PASS (`0` tracked files above `50 MiB`), and Git blob guard PASS (`0`
+  blobs above `50 MiB`). The guard outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-14T22:34:23Z`: `8647` seconds
+  (`376` seconds session 1 plus `8271` seconds of current open session).
