@@ -1,0 +1,10 @@
+section	metric	value	boundary
+relationship_counts	V48 matrix rows	12	External relationship rows are context, not evidence.
+relationship_counts	convergence rows	2	Convergence corroborates context; grounded artifacts remain evidence.
+relationship_counts	contradiction rows	0	Contradictions would flag future grounding, not override grounded findings.
+source_independence	decision canonical source clusters	1	Same canonical source cluster is not multiple independent corroborations.
+source_independence	domains with convergence	1	Domain concentration limits external-source independence.
+coverage_gaps	V37 uncovered priority rows	20	Sourcing priority is not validation or convergence.
+coverage_gaps	high-priority V37 sourcing gaps	11	Only same-definition external sources should be added.
+governance	preflight checks	34	Preflight checks provenance/navigation controls only.
+governance	preflight failures	0	Zero failures means the segregation controls passed.
