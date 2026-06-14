@@ -152,7 +152,7 @@ tracked purge target is:
 | 96 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
 | 97 | medium | done | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
 | 98 | medium | done | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
-| 99 | medium | todo | Refresh rewrite/push handoff to latest HEAD after scheduled OpenGWAS and backlog cleanup commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 99 | medium | done | Refresh rewrite/push handoff to latest HEAD after scheduled OpenGWAS and backlog cleanup commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 100 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 101 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 102 | medium | todo | Refresh final and resume checkpoints after task 101 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -981,3 +981,8 @@ tracked purge target is:
   boundary current.
 - Current cumulative active time at `2026-06-14T22:31:07Z`: `8451` seconds
   (`376` seconds session 1 plus `8075` seconds of current open session).
+- Task 99 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `4d26af9bed2f1dcca07a4dfa3ca056be596aae72` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:31:43Z`: `8487` seconds
+  (`376` seconds session 1 plus `8111` seconds of current open session).

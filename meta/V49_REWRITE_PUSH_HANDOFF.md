@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:25:05Z`:
+Current push target checkpoint, verified at `2026-06-14T22:31:43Z`:
 
 - current branch: `main`
-- current HEAD: `d471b85c1f5cda82cdc5eeab5694459d36cc6adb`
+- current HEAD: `4d26af9bed2f1dcca07a4dfa3ca056be596aae72`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+4d26af9b Refill V49 backlog after scheduled token check
+e8128628 Record V49 scheduled OpenGWAS check
+8480b99f Close duplicate V49 scheduled OpenGWAS task
+28353d95 Record V49 clean state after latest checkpoint
+6fe0c135 Refresh V49 checkpoints after handoff guard
+c959e8a7 Record V49 post-handoff guard pass
+38335b74 Refresh V49 handoff after backlog cleanup
 d471b85c Refill V49 backlog and close stale tasks
 9b622e2d Record V49 clean state after checkpoint refresh
 9bb71071 Refresh V49 checkpoints after quickstart guards
@@ -58,13 +65,6 @@ d471b85c Refill V49 backlog and close stale tasks
 32bb9362 Record V49 post-checkpoint clean state
 dafa859f Refresh V49 checkpoints after pointer guards
 4cd0fa72 Record V49 pointer guard pass
-f19a78b9 Refresh V49 handoff after convergence pointer sync
-8d1bc40d Sync V49 convergence pointer status
-c85773eb Recheck V49 ignore recurrence protections
-8bb428cc Refresh V49 resume checkpoint consistency
-d391e6f1 Refresh V49 final checkpoint state
-c98baded Record V49 final guard suite pass
-47dfe6c5 Refresh V49 git integrity checkpoint
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
