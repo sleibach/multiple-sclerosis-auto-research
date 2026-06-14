@@ -93,7 +93,7 @@ tracked purge target is:
 | 37 | medium | done | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 38 | high | done | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 39 | medium | done | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 40 | medium | todo | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| 40 | medium | done | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 41 | medium | todo | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 | 43 | medium | todo | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
@@ -483,3 +483,14 @@ tracked purge target is:
   (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:21:12Z`: `4256` seconds
   (`376` seconds session 1 plus `3880` seconds of current open session).
+- Task 40 rechecked source-terms status after later V49 artifacts. Result:
+  `47` current external JSON records, `16` records with `source_terms`, `31`
+  optional missing-source-terms records, and `0` V49-added records missing
+  `source_terms`. The later V49 synthesis/meta artifacts did not introduce new
+  external JSON records or source-terms drift.
+- Post-task gates: source-terms metadata/freshness/coverage/high-priority
+  packet linters PASS, external Markdown linter PASS (`375` checks, `77`
+  Markdown files), V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), and large-file guard PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:22:52Z`: `4356` seconds
+  (`376` seconds session 1 plus `3980` seconds of current open session).

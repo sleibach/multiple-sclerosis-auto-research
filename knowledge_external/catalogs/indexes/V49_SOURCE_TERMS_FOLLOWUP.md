@@ -19,6 +19,21 @@ figures, datasets, detailed methods, or quantitative source fields.
 - access/terms parking before fuller reuse: `1`
 - no fuller-reuse action unless future work needs source details: `3`
 
+## V49 Recheck
+
+Checked again at `2026-06-14T21:22:31Z` after the later V49 artifacts were
+added. The source-terms linter stack still passes:
+
+- current external JSON records in the coverage report: `47`
+- records with `source_terms`: `16`
+- records missing optional `source_terms`: `31`
+- V49-added records missing `source_terms`: `0`
+- malformed `source_terms` objects: `0`
+- high-priority source-terms packet freshness: `PASS`
+
+Conclusion: the later V49 synthesis/meta artifacts did not introduce new
+external JSON records and did not create source-terms status drift.
+
 ## Follow-Up Table
 
 | record | source domain | V48 queue status | V49 fuller-reuse decision | required follow-up before fuller reuse |
@@ -37,4 +52,3 @@ figures, datasets, detailed methods, or quantitative source fields.
 Do not add the V49 records back into the missing-object source-terms queue.
 Their current metadata-only use is already conservatively marked. Instead, use
 this follow-up table when a future session proposes deeper reuse.
-
