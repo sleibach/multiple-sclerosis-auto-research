@@ -32,6 +32,7 @@ REQUIRED_TARGETS = [
     "catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md",
     "catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
     "catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md",
+    "catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md",
     "synthesis/CONVERGENCE_CONTRADICTION_V48.md",
     "synthesis/CONVERGENCE_DECISION_TABLE_V48.md",
     "synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md",

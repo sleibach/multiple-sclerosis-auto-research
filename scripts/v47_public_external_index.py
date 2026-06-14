@@ -130,6 +130,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('V48 evidence-boundary glossary', 'catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md')} | Explain the boundary labels used by V48 external-knowledge controls. | governance/navigation only |",
         f"| {link('V48 preflight summary card', 'catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md')} | Fast command/status handoff for V48 governance checks. | governance/navigation only |",
         f"| {link('V48 external-governance handoff', 'catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md')} | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |",
+        f"| {link('V48 AI Core tooling-health card', 'catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md')} | Current smoke-test status for Claude, Gemini, and RPT client paths. | tooling/navigation only |",
         f"| {link('Source URL reachability', 'catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md')} | Transport-status maintenance report. | HTTP status is not claim validation |",
         f"| {link('V48 convergence/contradiction analysis', 'synthesis/CONVERGENCE_CONTRADICTION_V48.md')} | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |",
         f"| {link('V48 convergence decision table', 'synthesis/CONVERGENCE_DECISION_TABLE_V48.md')} | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |",
@@ -165,7 +166,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 38,
+        "n_navigation_links": 39,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -219,6 +220,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "evidence_boundary_glossary_link_present": "V48_EVIDENCE_BOUNDARY_GLOSSARY.md" in text,
         "preflight_summary_card_link_present": "V48_PREFLIGHT_SUMMARY_CARD.md" in text,
         "handoff_link_present": "V48_EXTERNAL_GOVERNANCE_HANDOFF.md" in text,
+        "ai_core_tooling_health_link_present": "V48_AI_CORE_TOOLING_HEALTH.md" in text,
         "decision_table_link_present": "CONVERGENCE_DECISION_TABLE_V48.md" in text,
         "convergence_executive_card_link_present": "CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md" in text,
         "convergence_source_independence_link_present": "CONVERGENCE_SOURCE_INDEPENDENCE_V48.md" in text,

@@ -47,6 +47,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 evidence-boundary glossary](catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md) | Explain the boundary labels used by V48 external-knowledge controls. | governance/navigation only |
 | [V48 preflight summary card](catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md) | Fast command/status handoff for V48 governance checks. | governance/navigation only |
 | [V48 external-governance handoff](catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md) | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |
+| [V48 AI Core tooling-health card](catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md) | Current smoke-test status for Claude, Gemini, and RPT client paths. | tooling/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
