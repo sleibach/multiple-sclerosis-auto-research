@@ -38,15 +38,17 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T23:29:54Z`:
+Current push target checkpoint, verified at `2026-06-14T23:31:21Z`:
 
 - current branch: `main`
-- current HEAD: `87acda54823bb263a80469d7c1e6fd8221767e7c`
+- current HEAD: `0e6fa717d3ad5063f25cddbdba47eea1bf9e7850`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+0e6fa717 Record V49 scheduled OpenGWAS boundary check
+da80f1b0 Refresh V49 handoff after routing audit batch
 87acda54 Refill V49 backlog after routing active-time audit
 e2fc0b56 Audit V49 active time after routing checkpoint
 82943a27 Record V49 clean state after routing audit checkpoint
@@ -59,9 +61,6 @@ ab729c7d Refill V49 backlog after routing freshness check
 d6bb1c7f Record V49 manifest routing freshness check
 fbea0c23 Audit V49 active time after guard checkpoint
 5ece929c Record V49 clean state after guard checkpoint
-d00f4580 Refresh V49 checkpoints after guard pass
-27ce7552 Record V49 guard pass after handoff update
-6ae35eb5 Refresh V49 git integrity after handoff update
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
@@ -98,12 +97,12 @@ Both large-file commands should print nothing.
 
 ## Local Object Store Checkpoint
 
-Checked at `2026-06-14T23:19:32Z` after the latest V49 commits:
+Checked at `2026-06-14T23:31:21Z` after the latest V49 commits:
 
 ```text
 git count-objects -vH
-count: 1040
-size: 13.23 MiB
+count: 1104
+size: 13.73 MiB
 in-pack: 21745
 packs: 1
 size-pack: 426.79 MiB
@@ -114,8 +113,8 @@ size-garbage: 0 bytes
 
 Additional local state:
 
-- `.git` directory size: `443M`
-- commit count on `main`: `652`
+- `.git` directory size: `444M`
+- commit count on `main`: `662`
 - current branch: `main`
 - tracked files above `50 MiB`: `0`
 - Git blobs above `50 MiB`: `0`
@@ -125,8 +124,8 @@ history, but the GitHub hard-blocking large blobs have been removed.
 
 ## Git Integrity Check
 
-Checked at `2026-06-14T23:19:32Z` on HEAD
-`1fe9df1f1e50cb7a2179bed3d2c67971e779dd54`:
+Checked at `2026-06-14T23:31:21Z` on HEAD
+`0e6fa717d3ad5063f25cddbdba47eea1bf9e7850`:
 
 ```bash
 git fsck --full --strict

@@ -209,7 +209,7 @@ tracked purge target is:
 | 154 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 155 | medium | done | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
 | 156 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 157 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 157 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 158 | medium | todo | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
 | 159 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 160 | medium | todo | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1407,3 +1407,9 @@ tracked purge target is:
   required before OpenGWAS-dependent work after expiry.
 - Current cumulative active time at `2026-06-14T23:30:48Z`: `12032` seconds
   (`376` seconds session 1 plus `11656` seconds of current open session).
+- Task 157 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `1104` loose objects (`13.73 MiB`), `21745` packed objects, `1` pack, pack
+  size `426.79 MiB`, `.git` size `444M`, commit count `662`, and `0` garbage.
+- Current cumulative active time at `2026-06-14T23:32:06Z`: `12110` seconds
+  (`376` seconds session 1 plus `11734` seconds of current open session).
