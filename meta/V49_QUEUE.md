@@ -78,7 +78,7 @@ tracked purge target is:
 | 22 | medium | done | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md` |
 | 23 | medium | done | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/V49_COMPARATOR_MATRIX_REVIEW.md` |
 | 24 | medium | done | Run full external governance, public-index freshness, provenance, and large-file safety checks after the next navigation/content refresh | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
-| 25 | medium | todo | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
+| 25 | medium | done | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
 | 26 | medium | todo | Cross-check V49 source-domain review decisions against the source-terms review queue and mark any row-specific parking follow-ups | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
 | 27 | medium | todo | Write a concise "zero contradictions is not consensus" caveat card for the public reader | `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
 | 28 | medium | todo | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
@@ -304,3 +304,13 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:51:37Z`: `2481` seconds
   (`376` seconds session 1 plus `2105` seconds of current open session).
+- Task 25 added `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md`
+  and `knowledge_external/synthesis/v49_contradiction_surveillance_shortlist.tsv`.
+  Result: zero contradictions remain asserted, but `7` rows now have explicit
+  future contradiction triggers and safe-routing actions.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`67` links), external Markdown linter PASS (`369`
+  checks, `71` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:53:20Z`: `2584` seconds
+  (`376` seconds session 1 plus `2208` seconds of current open session).
