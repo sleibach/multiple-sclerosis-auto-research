@@ -114,7 +114,7 @@ tracked purge target is:
 | 58 | medium | done | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 59 | medium | done | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 60 | medium | done | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
-| 61 | medium | todo | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 61 | medium | done | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 62 | medium | todo | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
 | 63 | medium | todo | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
 
@@ -675,3 +675,12 @@ tracked purge target is:
   `b67490a0bed00f756491e2e359d2aed5f7c6a030`.
 - Current cumulative active time at `2026-06-14T21:50:35Z`: `6019` seconds
   (`376` seconds session 1 plus `5643` seconds of current open session).
+- Task 61 refreshed `meta/V49_ARTIFACT_MANIFEST.md` to include
+  `meta/V49_TMP_PATH_GUARD.md` and `meta/V49_BINARY_EXTENSION_AUDIT.md`.
+  Result: manifest row count `54`, operational meta files `8`, and still `0`
+  grounded finding or locked-rule files.
+- Post-task gates: manifest row-count check PASS, V47 provenance gate PASS
+  (`436` checks, `47` records, `0` failures), and large-file guard PASS (`0`
+  tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:52:03Z`: `6107` seconds
+  (`376` seconds session 1 plus `5731` seconds of current open session).
