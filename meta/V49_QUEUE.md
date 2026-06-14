@@ -153,7 +153,7 @@ tracked purge target is:
 | 97 | medium | done | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
 | 98 | medium | done | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 99 | medium | done | Refresh rewrite/push handoff to latest HEAD after scheduled OpenGWAS and backlog cleanup commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 100 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 100 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 101 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 102 | medium | todo | Refresh final and resume checkpoints after task 101 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 103 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
@@ -986,3 +986,10 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-14T22:31:43Z`: `8487` seconds
   (`376` seconds session 1 plus `8111` seconds of current open session).
+- Task 100 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `830` loose objects (`11.48 MiB`), `21745` packed objects, `1` pack,
+  pack size `426.79 MiB`, `.git` size `441M`, commit count `608`, and `0`
+  garbage.
+- Current cumulative active time at `2026-06-14T22:32:36Z`: `8540` seconds
+  (`376` seconds session 1 plus `8164` seconds of current open session).
