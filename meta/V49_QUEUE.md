@@ -101,6 +101,14 @@ tracked purge target is:
 | 45 | medium | done | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 46 | medium | done | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
 | 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
+| 48 | high | done | Refresh the rewrite/push handoff to the latest HEAD after post-handoff commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 49 | high | todo | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
+| 50 | medium | todo | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 51 | medium | todo | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
+| 52 | medium | todo | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
+| 53 | medium | todo | Check whether V49 operational meta additions should be listed in the artifact manifest after task 52 | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 54 | medium | todo | Run a git integrity check after the history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 55 | medium | todo | Re-run OpenGWAS expiry/sentinel check if active work passes the next half-hour boundary | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -549,3 +557,16 @@ tracked purge target is:
   files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:31:46Z`: `4890` seconds
   (`376` seconds session 1 plus `4514` seconds of current open session).
+- Backlog refill: added tasks `48` through `55` after the open executable queue
+  dropped below threshold. The new work keeps V49 focused on push-safety,
+  rewritten-history integrity, active-time accounting, current resume state, and
+  expiry handling rather than new research.
+- Task 48 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to the latest completed
+  local HEAD before the task: `3a52cc72815fb03deabb68b3961df331db134cb9`.
+  Remote status remains no remote configured, so the human re-add-origin and
+  force-push step is still required.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures), remote-line count `0`, and large-file guard PASS
+  (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:33:19Z`: `4983` seconds
+  (`376` seconds session 1 plus `4607` seconds of current open session).
