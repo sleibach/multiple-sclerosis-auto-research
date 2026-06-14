@@ -136,7 +136,7 @@ span across resume gaps.
 | 108 | medium | done | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
 | 109 | medium | done | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
 | 110 | medium | done | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
-| 111 | medium | todo | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 111 | medium | done | Rebuild public index, governance navigation, preflight, and TF-IDF after source-hit template additions | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 112 | medium | todo | Build source-hit access/terms parking queue template for unusable but promising sources | `knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md` |
 | 113 | medium | todo | Add source-hit access/terms parking queue freshness linter | `scripts/v48_source_hit_access_terms_parking_queue_freshness_linter.py` |
 | 114 | medium | todo | Build external source de-duplication intake checklist | `knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md` |
@@ -1534,5 +1534,23 @@ span across resume gaps.
   - boundary: template/navigation freshness only; contradictions remain candidate
     tensions until reviewed and grounded.
 - Final gates after task 110:
+  - external Markdown linter: PASS (`300` checks, `48` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:17:19Z`: `17716` seconds.
+- Rebuilt public index, generated governance outputs, preflight, and grounded
+  TF-IDF index after source-hit template additions:
+  - public external index crosslinks: `44`;
+  - public-index freshness required targets: `38`;
+  - dependency graph: `35` artifact nodes, `120` dependency/control edges,
+    `0` missing outputs, `0` missing control sources;
+  - governance navigation: `71` artifacts, `0` missing artifacts, `0`
+    summaries with failures;
+  - governance failure-mode matrix: `71` controls, `27` boundary classes,
+    `0` unmapped boundaries;
+  - evidence-boundary glossary: `71` controls represented;
+  - governance preflight: PASS with `53` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Final gates after task 111:
   - external Markdown linter: PASS (`300` checks, `48` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

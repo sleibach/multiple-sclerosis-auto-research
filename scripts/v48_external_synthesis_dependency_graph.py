@@ -252,6 +252,19 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "Contradiction triage mini-template",
+        "output": "knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md",
+        "inputs": [
+            "knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md",
+            "knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md",
+            "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
+            "knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md",
+            "knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md",
+        ],
+        "controls": ["scripts/v48_contradiction_triage_mini_template_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Contradiction readiness playbook",
         "output": "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
         "inputs": ["knowledge_external/synthesis/convergence_contradiction_v48.tsv"],

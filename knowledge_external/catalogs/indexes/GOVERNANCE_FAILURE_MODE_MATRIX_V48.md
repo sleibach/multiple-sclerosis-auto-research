@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `69`
+- controls mapped: `71`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -24,6 +24,8 @@ Status: governance/navigation only. This matrix explains what each control preve
 | External-verifiable intake linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v47_external_verifiable_intake_linter.py` |
 | Future-grounding queue freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_future_grounding_queue_freshness_linter.py` |
 | High-priority external sourcing plan freshness linter | `future-grounding control` | external-verifiable ideas are treated as findings before grounding | `PASS` | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
+| Contradiction triage mini-template | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
+| Contradiction triage mini-template freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
 | High-priority source intake checklist | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
 | High-priority source intake checklist freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | High-priority source-search query freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |

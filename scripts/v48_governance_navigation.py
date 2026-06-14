@@ -330,6 +330,20 @@ ARTIFACTS = [
         "boundary": "future-search control",
     },
     {
+        "artifact": "Contradiction triage mini-template",
+        "path": "knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/contradiction_triage_mini_template_v48_summary.json",
+        "purpose": "Compact safe-routing template for future source hits that appear to disagree with grounded findings.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "Contradiction triage mini-template freshness linter",
+        "path": "scripts/v48_contradiction_triage_mini_template_freshness_linter.py",
+        "summary": "analysis/v48_contradiction_triage_mini_template_freshness_linter/contradiction_triage_mini_template_freshness_lint_summary.json",
+        "purpose": "Ensures the contradiction triage mini-template keeps required controls, triage questions, safe outcomes, and no-override language.",
+        "boundary": "future-search control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",

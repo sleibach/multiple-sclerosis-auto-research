@@ -2,18 +2,18 @@
 
 Status: handoff/navigation only. This card summarizes governance controls; it does not validate external claims or provide biological evidence.
 
-- overall status: `PASS`
+- overall status: `FAIL`
 - components summarized: `5`
 - missing summaries: `0`
-- components with failure status: `0`
+- components with failure status: `1`
 
 ## Current Status
 
 | component | status | checks/artifacts | failures/missing | summary |
 |---|---|---:|---:|---|
-| `governance_preflight` | `PASS` | 52 | 0 | `analysis/v48_governance_preflight/v48_governance_preflight_summary.json` |
+| `governance_preflight` | `FAIL` | 53 | 2 | `analysis/v48_governance_preflight/v48_governance_preflight_summary.json` |
 | `provenance_gate` | `PASS` | 359 | 0 | `analysis/v47_provenance_gate/provenance_gate_summary.json` |
-| `governance_navigation` | `PASS` | 69 | 0 | `knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json` |
+| `governance_navigation` | `PASS` | 71 | 0 | `knowledge_external/catalogs/indexes/v48_governance_navigation_summary.json` |
 | `convergence_matrix` | `PASS` |  |  | `knowledge_external/catalogs/indexes/convergence_contradiction_v48_summary.json` |
 | `source_terms_packet` | `PASS` | 9 |  | `knowledge_external/catalogs/indexes/high_priority_source_terms_packet_v48_summary.json` |
 

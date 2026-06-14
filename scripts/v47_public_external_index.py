@@ -150,6 +150,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('V48 source-intake package manifest', 'templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md')} | Package-level map tying search packet, checklist, quickstart, reader brief, and future-grounding queue. | future search/navigation only |",
         f"| {link('V48 source-hit acceptance decision tree', 'templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md')} | Safe routing tree for future source hits before external-record or relationship-row intake. | future search/navigation only |",
         f"| {link('V48 relationship-row candidate template', 'templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md')} | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |",
+        f"| {link('V48 contradiction triage mini-template', 'templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md')} | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future search/navigation only |",
         f"| {link('V48 unresolved external coverage handoff', 'synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md')} | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |",
         f"| {link('V48 future-grounding queue', 'synthesis/FUTURE_GROUNDING_QUEUE_V48.md')} | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |",
         f"| {link('Convergence/contradiction skeleton', 'synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md')} | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |",
@@ -242,6 +243,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "source_intake_package_manifest_link_present": "SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md" in text,
         "source_hit_acceptance_decision_tree_link_present": "SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md" in text,
         "relationship_row_candidate_template_link_present": "RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md" in text,
+        "contradiction_triage_mini_template_link_present": "CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md" in text,
         "unresolved_external_coverage_handoff_link_present": "UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md" in text,
         "summary_counts_present": "`2`" in text,
     }
