@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md
+section_present.Required Controls	PASS	required future-grounding handoff section
+section_present.Handoff Criteria	PASS	required future-grounding handoff section
+section_present.Handoff Outcomes	PASS	required future-grounding handoff section
+section_present.Minimum Future-Grounding Task	PASS	required future-grounding handoff section
+section_present.Forbidden Shortcuts	PASS	required future-grounding handoff section
+section_present.Verification Before Commit	PASS	required future-grounding handoff section
+section_present.Boundary	PASS	required future-grounding handoff section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	PASS	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	PASS	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.queued_task_only	PASS	required boundary phrase
+phrase_present.does_not_conclude	PASS	required boundary phrase
+phrase_present.no_relationship_assertion	PASS	required boundary phrase
+phrase_present.no_source_confidence	PASS	required boundary phrase
+phrase_present.no_vague_claims	PASS	required boundary phrase
+phrase_present.no_locked_rule_bypass	PASS	required boundary phrase
+phrase_present.not_finding	PASS	required boundary phrase
+phrase_present.future_project_run	PASS	required boundary phrase
+table_count.handoff_criteria	PASS	observed=8 expected=8
+table_count.handoff_outcomes	PASS	observed=5 expected=5
+summary_matches.markdown	PASS	expected=knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md observed=knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md
+summary_matches.n_handoff_criteria	PASS	expected=8 observed=8
+summary_matches.n_handoff_outcomes	PASS	expected=5 observed=5
+summary_matches.n_required_linked_controls	PASS	expected=7 observed=7
+summary_matches.overall_status	PASS	expected=PASS observed=PASS
+summary_matches.purpose	PASS	expected=V48 parked source future-grounding handoff rules; template/navigation only; no biological claim observed=V48 parked source future-grounding handoff rules; template/navigation only; no biological claim

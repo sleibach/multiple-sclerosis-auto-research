@@ -1,0 +1,33 @@
+check	status	detail
+template_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_parked_source_future_grounding_handoff_freshness_linter/synthetic_handoff_template.md
+section_present.Required Controls	FAIL	required future-grounding handoff section
+section_present.Handoff Criteria	PASS	required future-grounding handoff section
+section_present.Handoff Outcomes	FAIL	required future-grounding handoff section
+section_present.Minimum Future-Grounding Task	FAIL	required future-grounding handoff section
+section_present.Forbidden Shortcuts	FAIL	required future-grounding handoff section
+section_present.Verification Before Commit	FAIL	required future-grounding handoff section
+section_present.Boundary	PASS	required future-grounding handoff section
+link_present.knowledge_external/templates/SOURCE_HIT_ACCESS_TERMS_PARKING_QUEUE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/SOURCE_DEDUPLICATION_INTAKE_CHECKLIST_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md	FAIL	required linked control
+link_present.knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md	FAIL	required linked control
+phrase_present.template_navigation_only	PASS	required boundary phrase
+phrase_present.queued_task_only	FAIL	required boundary phrase
+phrase_present.does_not_conclude	FAIL	required boundary phrase
+phrase_present.no_relationship_assertion	FAIL	required boundary phrase
+phrase_present.no_source_confidence	FAIL	required boundary phrase
+phrase_present.no_vague_claims	FAIL	required boundary phrase
+phrase_present.no_locked_rule_bypass	FAIL	required boundary phrase
+phrase_present.not_finding	FAIL	required boundary phrase
+phrase_present.future_project_run	FAIL	required boundary phrase
+table_count.handoff_criteria	FAIL	observed=1 expected=8
+table_count.handoff_outcomes	FAIL	observed=0 expected=5
+summary_matches.markdown	FAIL	expected=knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md observed=stale
+summary_matches.n_handoff_criteria	FAIL	expected=8 observed=1
+summary_matches.n_handoff_outcomes	FAIL	expected=5 observed=0
+summary_matches.n_required_linked_controls	FAIL	expected=7 observed=
+summary_matches.overall_status	FAIL	expected=PASS observed=FAIL
+summary_matches.purpose	FAIL	expected=V48 parked source future-grounding handoff rules; template/navigation only; no biological claim observed=

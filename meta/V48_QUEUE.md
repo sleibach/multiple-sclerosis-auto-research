@@ -146,7 +146,7 @@ span across resume gaps.
 | 118 | medium | done | Build parked-source release checklist for moving a source hit out of access/terms parking | `knowledge_external/templates/PARKED_SOURCE_RELEASE_CHECKLIST_V48.md` |
 | 119 | medium | done | Add parked-source release checklist freshness linter | `scripts/v48_parked_source_release_checklist_freshness_linter.py` |
 | 120 | medium | done | Build parked-source to future-grounding handoff rules for sources that become testable after access/terms release | `knowledge_external/templates/PARKED_SOURCE_FUTURE_GROUNDING_HANDOFF_V48.md` |
-| 121 | medium | todo | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
+| 121 | medium | done | Add parked-source future-grounding handoff freshness linter | `scripts/v48_parked_source_future_grounding_handoff_freshness_linter.py` |
 | 122 | medium | todo | Add external intake one-page checklist freshness linter | `scripts/v48_external_intake_one_page_checklist_freshness_linter.py` |
 | 123 | medium | todo | Integrate de-duplication and one-page intake checklist into public index, dependency graph, governance navigation, and preflight after their linters exist | `knowledge_external/INDEX.md` |
 | 124 | medium | todo | Build external source-intake audit log template for future operator decisions | `knowledge_external/templates/SOURCE_INTAKE_AUDIT_LOG_TEMPLATE_V48.md` |
@@ -1671,5 +1671,16 @@ span across resume gaps.
     future-grounding tasks only, not relationship assertions or evidence.
 - Added follow-up tasks 125-127 to keep the executable backlog above threshold.
 - Final gates after task 120:
+  - external Markdown linter: PASS (`305` checks, `53` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T18:34:14Z`: `18731` seconds.
+- Added parked-source future-grounding handoff freshness linter:
+  - synthetic fixture: PASS, confirming missing sections, missing links, stale
+    criterion/outcome counts, and stale summary values fail;
+  - real freshness checks: `32`;
+  - real failures: `0`;
+  - boundary: template/navigation freshness only; handoff rows remain queued
+    future work, not findings.
+- Final gates after task 121:
   - external Markdown linter: PASS (`305` checks, `53` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
