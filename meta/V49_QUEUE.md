@@ -207,7 +207,15 @@ tracked purge target is:
 | 152 | medium | done | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 153 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 152 | `meta/V49_QUEUE.md` |
 | 154 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 155 | medium | todo | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
+| 155 | medium | done | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
+| 156 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 157 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 158 | medium | todo | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
+| 159 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 160 | medium | todo | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 161 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
+| 162 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 163 | medium | todo | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1380,3 +1388,10 @@ tracked purge target is:
   cumulative active time `11893` seconds, wall-clock span since block start
   `12665` seconds, excluded resume gap `772` seconds, active target `21600`
   seconds, target met: `false`. The queue remains summed-session based.
+- Task 155 refilled the backlog above threshold after task 154. New tasks `156`
+  through `163` keep rewrite handoff, Git integrity, external-index routing,
+  guards, checkpoints, clean-state checks, active-time accounting, and further
+  refill work current. Task `137` remains the single scheduled OpenGWAS
+  expiry/sentinel check for the `2026-06-14T23:30:00Z` boundary.
+- Current cumulative active time at `2026-06-14T23:29:07Z`: `11931` seconds
+  (`376` seconds session 1 plus `11555` seconds of current open session).
