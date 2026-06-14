@@ -119,6 +119,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('V48 source-domain review', 'catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md')} | Classify source domains for maintenance, access, and terms review. | domain maintenance only |",
         f"| {link('V48 source-terms coverage', 'catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md')} | Browse external records by source-terms metadata coverage and conservative reuse notes. | source terms metadata only |",
         f"| {link('V48 governance navigation', 'catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md')} | Browse V48 external-knowledge controls and latest pass/fail summaries. | governance/navigation only |",
+        f"| {link('V48 external-governance handoff', 'catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md')} | Compact command handoff and boundary rules for future external-knowledge sessions. | governance/navigation only |",
         f"| {link('Source URL reachability', 'catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md')} | Transport-status maintenance report. | HTTP status is not claim validation |",
         f"| {link('V48 convergence/contradiction analysis', 'synthesis/CONVERGENCE_CONTRADICTION_V48.md')} | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |",
         f"| {link('V48 future-grounding queue', 'synthesis/FUTURE_GROUNDING_QUEUE_V48.md')} | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |",
@@ -140,7 +141,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 13,
+        "n_navigation_links": 14,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -183,6 +184,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "navigation_link_present": "EXTERNAL_KNOWLEDGE_INDEX.md" in text,
         "source_terms_link_present": "SOURCE_TERMS_COVERAGE_V48.md" in text,
         "governance_link_present": "V48_GOVERNANCE_NAVIGATION.md" in text,
+        "handoff_link_present": "V48_EXTERNAL_GOVERNANCE_HANDOFF.md" in text,
         "summary_counts_present": "`2`" in text,
     }
     rows = [{"check": key, "status": "PASS" if value else "FAIL"} for key, value in checks.items()]
