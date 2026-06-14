@@ -151,7 +151,15 @@ tracked purge target is:
 | 95 | medium | done | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 96 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
 | 97 | medium | done | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
-| 98 | medium | todo | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 98 | medium | done | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 99 | medium | todo | Refresh rewrite/push handoff to latest HEAD after scheduled OpenGWAS and backlog cleanup commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 100 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 101 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 102 | medium | todo | Refresh final and resume checkpoints after task 101 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 103 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
+| 104 | medium | todo | Audit active-time accounting after the latest session stretch | `meta/V49_QUEUE.md` |
+| 105 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
+| 106 | medium | todo | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -966,3 +974,10 @@ tracked purge target is:
   required before OpenGWAS-dependent work after expiry.
 - Current cumulative active time at `2026-06-14T22:30:36Z`: `8420` seconds
   (`376` seconds session 1 plus `8044` seconds of current open session).
+- Task 98 refilled the backlog above threshold after task 97 left too few open
+  executable items. New tasks `99` through `106` keep the rewritten-history
+  handoff, Git integrity, provenance/navigation guards, checkpoints, clean-state
+  verification, active-time accounting, and the next OpenGWAS scheduling
+  boundary current.
+- Current cumulative active time at `2026-06-14T22:31:07Z`: `8451` seconds
+  (`376` seconds session 1 plus `8075` seconds of current open session).
