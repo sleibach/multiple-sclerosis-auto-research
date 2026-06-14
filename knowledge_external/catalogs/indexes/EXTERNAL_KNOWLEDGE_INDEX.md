@@ -2,7 +2,7 @@
 
 Status: navigation only. No project-grounded finding is made here.
 
-- records indexed: `37`
+- records indexed: `39`
 - records missing source: `0`
 - records missing not-grounded marker: `0`
 - overall status: `PASS`
@@ -11,9 +11,10 @@ Status: navigation only. No project-grounded finding is made here.
 
 | field | value | count |
 |---|---|---:|
-| epistemic_class | external-unverifiable | 37 |
+| epistemic_class | external-unverifiable | 39 |
 | relationship_to_project_findings | orthogonal | 37 |
-| record_type | external_claim | 6 |
+| relationship_to_project_findings | supports | 2 |
+| record_type | external_claim | 8 |
 | record_type | external_resource_catalog | 31 |
 
 ## Files

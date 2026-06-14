@@ -1,0 +1,30 @@
+{
+  "claim": "External MS-IBD literature reports that treatment choices for one disease can have adverse or non-transferable effects in the other, including cautions around interferon-beta and TNF-alpha antagonist contexts.",
+  "date_accessed": "2026-06-14",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "A future project task could ground specific treatment-transfer claims only if patient-level treatment/exposure/outcome data or a predefined pharmacovigilance dataset are acquired and analyzed under a registered protocol.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/FINDINGS_REPORT_V37.md",
+    "finding_id": "Layer-specific autoimmune transfer-validity map"
+  },
+  "project_use": "External context for convergence review of the project's layer-specific transfer-validity and naive-transfer kill findings; not project evidence.",
+  "record_id": "claim.ms_ibd.treatment_transfer_caution_context.2026-06-14",
+  "record_type": "external_claim",
+  "relationship_note": "This external literature claim is aligned with the project's grounded caution that cross-disease transfer should be axis- and mechanism-specific rather than disease-label-based.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Yang et al. Investigating the shared genetic architecture between multiple sclerosis and inflammatory bowel diseases. Nature Communications. 2021.",
+    "doi": "10.1038/s41467-021-25768-0",
+    "label": "Nature Communications MS-IBD shared genetics study",
+    "url": "https://www.nature.com/articles/s41467-021-25768-0"
+  },
+  "tags": [
+    "treatment_transfer",
+    "multiple_sclerosis",
+    "inflammatory_bowel_disease",
+    "interferon_beta",
+    "tnf_alpha"
+  ],
+  "why_unverifiable": "The claim is a literature statement about external clinical/treatment evidence; the project does not hold the underlying patient-level treatment-transfer evidence."
+}

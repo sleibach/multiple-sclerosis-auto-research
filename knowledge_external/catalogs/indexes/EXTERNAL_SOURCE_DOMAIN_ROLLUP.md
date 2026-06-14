@@ -2,8 +2,8 @@
 
 Status: navigation only. Domains are parsed from external source locators and are not evidence.
 
-- external records indexed: `37`
-- source domains represented: `26`
+- external records indexed: `39`
+- source domains represented: `27`
 - missing source locators: `0`
 - missing not-grounded markers: `0`
 - overall status: `PASS`
@@ -33,6 +33,7 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `mssociety.org.uk` | 2 | `external-unverifiable` |
 | `narcoms.org` | 1 | `external-unverifiable` |
 | `nationalmssociety.org` | 4 | `external-unverifiable` |
+| `nature.com` | 2 | `external-unverifiable` |
 | `ncbi.nlm.nih.gov` | 2 | `external-unverifiable` |
 | `ngdc.cncb.ac.cn` | 1 | `external-unverifiable` |
 | `nice.org.uk` | 1 | `external-unverifiable` |
@@ -80,3 +81,5 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `mssociety.org.uk` | claim.ms_society_uk.ppms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.mssociety.org.uk/about-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
 | `nationalmssociety.org` | claim.national_ms_society.rrms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
 | `nationalmssociety.org` | claim.national_ms_society.spms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `NOT_PROJECT_GROUNDED` |
+| `nature.com` | claim.ms_ibd.treatment_transfer_caution_context.2026-06-14 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41467-021-25768-0 | `NOT_PROJECT_GROUNDED` |
+| `nature.com` | claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41467-021-25768-0 | `NOT_PROJECT_GROUNDED` |

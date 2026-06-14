@@ -74,7 +74,8 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
     domain_summary = read_json(indexes / "external_source_domain_rollup_summary.json")
     category_summary = read_json(indexes / "external_resource_category_rollup_summary.json")
     access_summary = read_json(indexes / "external_resource_access_tier_rollup_summary.json")
-    convergence_summary = read_json(synthesis / "convergence_contradiction_skeleton_summary.json")
+    convergence_summary = read_json(indexes / "convergence_contradiction_v48_summary.json")
+    skeleton_summary = read_json(synthesis / "convergence_contradiction_skeleton_summary.json")
     counts = read_tsv(indexes / "external_knowledge_index_counts.tsv")
     count_lines = ["| field | value | count |", "|---|---|---:|"]
     for row in counts:
@@ -93,7 +94,9 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"- missing not-grounded markers: `{index_summary.get('n_missing_not_grounded_marker', 'unknown')}`",
         f"- source domains represented: `{domain_summary.get('n_source_domains', 'unknown')}`",
         f"- reachability maintenance warnings: `{reachability_summary.get('n_non_success_status', 'unknown')}`",
-        f"- convergence rows linked to grounded findings: `{convergence_summary.get('n_linked_rows', 'unknown')}`",
+        f"- V48 convergence rows asserted: `{convergence_summary.get('n_converges', 'unknown')}`",
+        f"- V48 contradiction rows flagged: `{convergence_summary.get('n_contradicts', 'unknown')}`",
+        f"- placeholder skeleton linked rows: `{skeleton_summary.get('n_linked_rows', 'unknown')}`",
         "",
         "## Epistemic-Class Counts",
         "",
@@ -105,9 +108,11 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "|---|---|---|",
         f"| {link('Class-aware external record index', 'catalogs/indexes/EXTERNAL_KNOWLEDGE_INDEX.md')} | Browse every external record with source and class markers. | external only |",
         f"| {link('Resource category rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_CATEGORY_ROLLUP.md')} | Browse resource metadata by category. | external resource metadata only |",
+        f"| {link('V48 external resource comparator matrix', 'catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md')} | Compare external resources by coverage, access tier, unique gap, and this repo's distinct role. | external resource metadata only |",
         f"| {link('Access-tier rollup', 'catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md')} | Browse public/registration/application/controlled access tiers. | access metadata only |",
         f"| {link('Source-domain rollup', 'catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md')} | Browse records by source domain. | source locator metadata only |",
         f"| {link('Source URL reachability', 'catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md')} | Transport-status maintenance report. | HTTP status is not claim validation |",
+        f"| {link('V48 convergence/contradiction analysis', 'synthesis/CONVERGENCE_CONTRADICTION_V48.md')} | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |",
         f"| {link('Convergence/contradiction skeleton', 'synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md')} | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |",
         f"| {link('Intake templates', 'templates/README.md')} | Templates for future external-verifiable claim intake. | queued claims are not findings |",
         "",
@@ -126,7 +131,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 7,
+        "n_navigation_links": 9,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -150,6 +155,7 @@ def build_synthetic_root(outdir: Path) -> Path:
     (indexes / "external_resource_category_rollup_summary.json").write_text(json.dumps({"n_categories": 1}) + "\n")
     (indexes / "external_resource_access_tier_rollup_summary.json").write_text(json.dumps({"n_access_tiers": 1}) + "\n")
     (synthesis / "convergence_contradiction_skeleton_summary.json").write_text(json.dumps({"n_linked_rows": 0}) + "\n")
+    (indexes / "convergence_contradiction_v48_summary.json").write_text(json.dumps({"n_converges": 1, "n_contradicts": 0}) + "\n")
     (indexes / "external_knowledge_index_counts.tsv").write_text("field\tvalue\tcount\nepistemic_class\texternal-unverifiable\t2\n")
     return root
 

@@ -1,0 +1,30 @@
+{
+  "claim": "A Nature Communications cross-trait GWAS study reported that the genetic correlation between multiple sclerosis and ulcerative colitis was greater than the genetic correlation between multiple sclerosis and Crohn disease in the datasets it analyzed.",
+  "date_accessed": "2026-06-14",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "The project has an independent grounded MS-UC genetic-correlation backdrop; any future refresh should re-download the exact external summary statistics or supplementary tables with hashes before treating this external literature claim as rerunnable.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/FINDINGS_REPORT_V37.md",
+    "finding_id": "MS-UC is strongest tested genome-wide genetics comparator"
+  },
+  "project_use": "External context for convergence review of the grounded MS-UC genetic-correlation backdrop; not project evidence.",
+  "record_id": "claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14",
+  "record_type": "external_claim",
+  "relationship_note": "This external literature claim is directionally aligned with the project's grounded conclusion that MS-UC is the strongest tested genome-wide genetics comparator, but it remains external context rather than project evidence.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Yang et al. Investigating the shared genetic architecture between multiple sclerosis and inflammatory bowel diseases. Nature Communications. 2021.",
+    "doi": "10.1038/s41467-021-25768-0",
+    "label": "Nature Communications MS-IBD shared genetics study",
+    "url": "https://www.nature.com/articles/s41467-021-25768-0"
+  },
+  "tags": [
+    "genetic_correlation",
+    "multiple_sclerosis",
+    "ulcerative_colitis",
+    "crohn_disease",
+    "ibd"
+  ],
+  "why_unverifiable": "The claim is from an external publication; V47/V48 do not rerun that publication's full external GWAS pipeline or verify its downloaded source data."
+}
