@@ -1,0 +1,21 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_ai_core_tooling_health_freshness_linter/synthetic_ai_core_health.md
+command_present.claude	FAIL	expected smoke command
+command_present.gemini	FAIL	expected smoke command
+command_present.rpt	FAIL	expected smoke command
+phrase_present.claude_status	PASS	expected tooling-health phrase
+phrase_present.gemini_status	PASS	expected tooling-health phrase
+phrase_present.rpt_status	PASS	expected tooling-health phrase
+phrase_present.rpt_unavailable	FAIL	expected tooling-health phrase
+phrase_present.rpt_unimplemented_detail	FAIL	expected tooling-health phrase
+phrase_present.proposal_only	FAIL	expected tooling-health phrase
+phrase_present.no_secret_storage	PASS	expected tooling-health phrase
+summary_matches.markdown	FAIL	expected=knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md observed=
+summary_matches.claude_status	PASS	expected=PASS observed=PASS
+summary_matches.gemini_status	FAIL	expected=PASS observed=FAIL
+summary_matches.rpt_status	FAIL	expected=UNAVAILABLE observed=PASS
+summary_matches.rpt_status_detail	FAIL	expected=No implemented request schema for model: sap-rpt-1-large observed=
+summary_matches.model_spend	FAIL	expected=not_exposed_by_client observed=
+summary_matches.purpose	FAIL	expected=V48 AI Core tooling-health handoff; no biological claim observed=
+summary_matches.overall_status	FAIL	expected=REVIEW_NEEDED observed=
+summary_has_checked_utc	FAIL	checked_utc must be an ISO-like UTC timestamp

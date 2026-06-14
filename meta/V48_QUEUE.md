@@ -116,7 +116,7 @@ span across resume gaps.
 | 86 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 87 | medium | done | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
 | 88 | medium | done | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
-| 89 | medium | todo | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
+| 89 | medium | done | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | 90 | medium | todo | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | 91 | medium | todo | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
 | 92 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
@@ -1257,3 +1257,14 @@ span across resume gaps.
   - V47 provenance gate: PASS (`358` checks, `39` external JSON records).
 - Added follow-up tasks 93-97 to keep the executable backlog above threshold
   and prevent the RPT status from drifting back to a false PASS.
+- Current open-session active time at `2026-06-14T17:15:14Z`: `13991` seconds.
+- Added AI Core tooling-health freshness linter:
+  - synthetic fixture: PASS, confirming stale commands, missing RPT
+    unavailable status, bad summary status, and malformed checked-UTC fail;
+  - real freshness checks: `20`;
+  - real failures: `0`;
+  - boundary: deterministic tooling/navigation freshness only; the linter does
+    not make live model calls inside preflight.
+- Verification passed:
+  - external Markdown linter: PASS (`294` checks, `42` Markdown files);
+  - V47 provenance gate: PASS (`358` checks, `39` external JSON records).

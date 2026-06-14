@@ -1,0 +1,21 @@
+check	status	detail
+card_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md
+command_present.claude	PASS	expected smoke command
+command_present.gemini	PASS	expected smoke command
+command_present.rpt	PASS	expected smoke command
+phrase_present.claude_status	PASS	expected tooling-health phrase
+phrase_present.gemini_status	PASS	expected tooling-health phrase
+phrase_present.rpt_status	PASS	expected tooling-health phrase
+phrase_present.rpt_unavailable	PASS	expected tooling-health phrase
+phrase_present.rpt_unimplemented_detail	PASS	expected tooling-health phrase
+phrase_present.proposal_only	PASS	expected tooling-health phrase
+phrase_present.no_secret_storage	PASS	expected tooling-health phrase
+summary_matches.markdown	PASS	expected=knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md observed=knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md
+summary_matches.claude_status	PASS	expected=PASS observed=PASS
+summary_matches.gemini_status	PASS	expected=PASS observed=PASS
+summary_matches.rpt_status	PASS	expected=UNAVAILABLE observed=UNAVAILABLE
+summary_matches.rpt_status_detail	PASS	expected=No implemented request schema for model: sap-rpt-1-large observed=No implemented request schema for model: sap-rpt-1-large
+summary_matches.model_spend	PASS	expected=not_exposed_by_client observed=not_exposed_by_client
+summary_matches.purpose	PASS	expected=V48 AI Core tooling-health handoff; no biological claim observed=V48 AI Core tooling-health handoff; no biological claim
+summary_matches.overall_status	PASS	expected=REVIEW_NEEDED observed=REVIEW_NEEDED
+summary_has_checked_utc	PASS	checked_utc must be an ISO-like UTC timestamp
