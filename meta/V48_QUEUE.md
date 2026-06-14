@@ -45,7 +45,7 @@ span across resume gaps.
 | 17 | medium | done | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | 18 | medium | done | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
 | 19 | medium | done | Build source-terms coverage rollup for external records and resources | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
-| 20 | medium | todo | Add source-terms freshness linter comparing checked_date against record date_accessed | `scripts/v48_source_terms_freshness_linter.py` |
+| 20 | medium | done | Add source-terms freshness linter comparing checked_date against record date_accessed | `scripts/v48_source_terms_freshness_linter.py` |
 | 21 | medium | todo | Add support/contradiction convergence coverage linter for external records that reference project findings | `scripts/v48_support_contradiction_coverage_linter.py` |
 | 22 | medium | todo | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
 | 23 | medium | todo | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
@@ -184,3 +184,15 @@ span across resume gaps.
   - public index crosslink lint;
   - external Markdown source/provenance lint;
   - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:03:06Z`: `2463` seconds.
+- Added V48 source_terms freshness linter:
+  - synthetic fixture passed, including stale-date and bad-date failure cases;
+  - real records checked: `39`;
+  - checks: `55`;
+  - warnings for missing optional source_terms: `31`;
+  - failures: `0`.
+- Added a narrow provenance-gate allowlist for the linter's synthetic analysis fixture directory.
+- Verification passed:
+  - V47 provenance gate;
+  - V48 source_terms metadata lint;
+  - external record schema lint.

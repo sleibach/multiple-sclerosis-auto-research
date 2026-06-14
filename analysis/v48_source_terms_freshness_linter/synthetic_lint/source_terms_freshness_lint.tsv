@@ -1,0 +1,10 @@
+path	record_id	check	status	detail
+knowledge_external/records/bad_date.json	SYNTH_FRESH_BAD_DATE	date_accessed_parseable	FAIL	not-a-date
+knowledge_external/records/bad_date.json	SYNTH_FRESH_BAD_DATE	source_terms_checked_date_parseable	FAIL	also-bad
+knowledge_external/records/good.json	SYNTH_FRESH_GOOD	date_accessed_parseable	PASS	2026-06-13
+knowledge_external/records/good.json	SYNTH_FRESH_GOOD	source_terms_checked_date_parseable	PASS	2026-06-14
+knowledge_external/records/good.json	SYNTH_FRESH_GOOD	source_terms_checked_not_older_than_accessed	PASS	checked=2026-06-14 accessed=2026-06-13
+knowledge_external/records/missing.json	SYNTH_FRESH_MISSING	source_terms_present_for_freshness	WARN	missing optional source_terms metadata
+knowledge_external/records/stale.json	SYNTH_FRESH_STALE	date_accessed_parseable	PASS	2026-06-14
+knowledge_external/records/stale.json	SYNTH_FRESH_STALE	source_terms_checked_date_parseable	PASS	2026-06-13
+knowledge_external/records/stale.json	SYNTH_FRESH_STALE	source_terms_checked_not_older_than_accessed	FAIL	checked=2026-06-13 accessed=2026-06-14
