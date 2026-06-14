@@ -6,9 +6,9 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `55`
+- new V49 files listed: `56`
 - segregated source-context records: `8`
-- external synthesis/catalog/navigation files: `34`
+- external synthesis/catalog/navigation files: `35`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
 - operational meta files: `9`
@@ -36,6 +36,7 @@ navigation/source-context outputs with grounded evidence.
 | `knowledge_external/synthesis/v49_uncovered_finding_triage.tsv` | external synthesis/navigation | Machine-readable uncovered-finding triage table. |
 | `knowledge_external/synthesis/V49_RELATIONSHIP_DELTA_NOTE.md` | external synthesis/navigation | Summary of relationship-matrix changes during V49. |
 | `knowledge_external/synthesis/v49_relationship_delta_note.tsv` | external synthesis/navigation | Machine-readable relationship-delta table. |
+| `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` | external synthesis/navigation | Direct audit confirming V49 closed the 11 high-priority convergence/contradiction gaps without promoting external context to evidence. |
 | `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md` | source maintenance/navigation | Access/terms review for eight V49-added source domains. |
 | `knowledge_external/catalogs/indexes/v49_new_source_domain_review.tsv` | source maintenance/navigation | Machine-readable V49 source-domain review table. |
 | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` | future source-intake/navigation | Narrow import packets for ZMIZ1, chr1 KIF21B/GPR25, and coupled APC axis. |
