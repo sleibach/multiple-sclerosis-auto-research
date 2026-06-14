@@ -82,7 +82,7 @@ span across resume gaps.
 | 54 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 47-53 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 55 | high | done | Build convergence source-independence matrix so same-source corroborations are not overcounted | `knowledge_external/synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md` |
 | 56 | medium | done | Add convergence source-independence freshness linter | `scripts/v48_convergence_source_independence_freshness_linter.py` |
-| 57 | medium | todo | Build contradiction readiness playbook mapping future external contradictions to safe grounding actions | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` |
+| 57 | medium | done | Build contradiction readiness playbook mapping future external contradictions to safe grounding actions | `knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md` |
 | 58 | medium | todo | Add contradiction readiness playbook freshness linter | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | 59 | medium | todo | Build V37 external coverage gap prioritization by relevance, novelty, and evidence grade | `knowledge_external/synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md` |
 | 60 | medium | todo | Add V37 external coverage gap priority freshness linter | `scripts/v48_v37_gap_priority_freshness_linter.py` |
@@ -745,3 +745,12 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:27:26Z`: `7523` seconds.
+- Built contradiction readiness playbook:
+  - current matrix rows: `12`;
+  - current contradictions: `0`;
+  - playbook steps: `4` (intake, triage, future grounding, grounded resolution);
+  - boundary: future external disagreements are flags for grounding, not overrides of grounded findings.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T15:29:10Z`: `7627` seconds.
