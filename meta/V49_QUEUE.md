@@ -156,7 +156,7 @@ tracked purge target is:
 | 100 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 101 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 99-100 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 102 | medium | done | Refresh final and resume checkpoints after task 101 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 103 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
+| 103 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 102 | `meta/V49_QUEUE.md` |
 | 104 | medium | todo | Audit active-time accounting after the latest session stretch | `meta/V49_QUEUE.md` |
 | 105 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 106 | medium | todo | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
@@ -1008,3 +1008,8 @@ tracked purge target is:
   seconds, latest guard state, and open tasks `103` through `106`.
 - Current cumulative active time at `2026-06-14T22:34:56Z`: `8680` seconds
   (`376` seconds session 1 plus `8304` seconds of current open session).
+- Task 103 verified post-task-102 working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+- Current cumulative active time at `2026-06-14T22:36:51Z`: `8795` seconds
+  (`376` seconds session 1 plus `8419` seconds of current open session).
