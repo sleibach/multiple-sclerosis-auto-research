@@ -112,7 +112,7 @@ tracked purge target is:
 | 56 | high | done | Verify no tracked tmp/cache paths remain after the ignore-rule and history-rewrite work | `meta/V49_TMP_PATH_GUARD.md` |
 | 57 | medium | done | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
 | 58 | medium | done | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
-| 59 | medium | todo | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 59 | medium | done | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 60 | medium | todo | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
 | 61 | medium | todo | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 62 | medium | todo | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
@@ -662,3 +662,11 @@ tracked purge target is:
   tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:47:45Z`: `5849` seconds
   (`376` seconds session 1 plus `5473` seconds of current open session).
+- Task 59 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to current pre-task HEAD
+  `ecda219525448444c9b321a6bbcf1a239b9ef2e3`. Remote status remains no remote
+  configured; human force-push handoff remains pending.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), remote-line count `0`, and large-file guard PASS (`0` tracked files
+  above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:49:42Z`: `5966` seconds
+  (`376` seconds session 1 plus `5590` seconds of current open session).
