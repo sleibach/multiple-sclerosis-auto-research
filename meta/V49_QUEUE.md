@@ -94,7 +94,7 @@ tracked purge target is:
 | 38 | high | done | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
 | 39 | medium | done | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 40 | medium | done | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
-| 41 | medium | todo | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
+| 41 | medium | done | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 | 43 | medium | todo | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 44 | medium | todo | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
@@ -494,3 +494,15 @@ tracked purge target is:
   failures), and large-file guard PASS (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:22:52Z`: `4356` seconds
   (`376` seconds session 1 plus `3980` seconds of current open session).
+- Task 41 reran the source URL duplicate review after V49 content additions and
+  updated `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md`.
+  Result: `47` current external JSON records, `0` missing source URLs, `3`
+  duplicate canonical URLs, and V49 did not change the duplicate-risk
+  interpretation. The duplicate URLs remain same-source/source-cluster cautions,
+  not independent corroboration.
+- Post-task gates: source URL duplicate freshness PASS (`13` checks, `0`
+  failures), external Markdown linter PASS (`375` checks, `77` Markdown files),
+  V47 provenance gate PASS (`436` checks, `47` records, `0` failures), and
+  large-file guard PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:24:43Z`: `4467` seconds
+  (`376` seconds session 1 plus `4091` seconds of current open session).

@@ -6,6 +6,19 @@ Status: source-maintenance only. Duplicate source URLs are not evidence of indep
 - missing source URLs: `0`
 - duplicate canonical URLs: `3`
 
+## V49 Recheck
+
+Checked again at `2026-06-14T21:24:17Z` after V49 content additions. The
+duplicate-review generator and freshness linter still pass:
+
+- current external JSON records: `47`
+- missing source URLs: `0`
+- duplicate canonical URLs: `3`
+- duplicate-risk interpretation changed by V49: `no`
+
+The three duplicate canonical URLs below are unchanged from the existing review.
+They remain same-source/source-cluster cautions, not independent corroboration.
+
 ## Duplicate Canonical URLs
 
 | canonical URL | records | record IDs | review reason |
