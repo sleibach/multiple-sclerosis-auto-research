@@ -102,7 +102,7 @@ tracked purge target is:
 | 46 | medium | done | Recheck that V43 method-validation summary artifacts remain sufficient after the subject-level cache purge | `docs/validation/POWER_MAP_V43.md` |
 | 47 | medium | todo | Build a final V49 hygiene-and-content checkpoint once remaining handoff and lint tasks are complete | `meta/V49_FINAL_CHECKPOINT.md` |
 | 48 | high | done | Refresh the rewrite/push handoff to the latest HEAD after post-handoff commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 49 | high | todo | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
+| 49 | high | done | Re-run Git object and tracked-file large-blob checks after the latest V49 commits | `meta/V49_LARGE_FILE_GUARD_FINAL.md` |
 | 50 | medium | todo | Record repository size/packed-object state after history rewrite and latest commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 51 | medium | todo | Verify V49 queue active-time accounting remains summed-session based and not wall-clock based | `meta/V49_QUEUE.md` |
 | 52 | medium | todo | Refresh the V49 resume checkpoint with current HEAD, open tasks, and latest gates | `meta/V49_RESUME_CHECKPOINT.md` |
@@ -570,3 +570,11 @@ tracked purge target is:
   (`0` tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:33:19Z`: `4983` seconds
   (`376` seconds session 1 plus `4607` seconds of current open session).
+- Task 49 added `meta/V49_LARGE_FILE_GUARD_FINAL.md`. Result: tracked
+  working-tree files above `50 MiB`: `0`; Git blobs above `50 MiB`: `0`;
+  unignored filesystem files above `100 MiB` outside raw-data/venv exclusions:
+  `0`.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` records, `0`
+  failures), tracked large-file guard PASS, and Git blob large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:34:47Z`: `5071` seconds
+  (`376` seconds session 1 plus `4695` seconds of current open session).
