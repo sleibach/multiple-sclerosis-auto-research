@@ -91,7 +91,7 @@ span across resume gaps.
 | 63 | medium | done | Add source-domain independence rollup freshness linter tied to the row-level independence matrix | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | 64 | medium | done | Build V48 convergence/contradiction executive summary card for medical-team review | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md` |
 | 65 | medium | done | Add executive summary card freshness linter | `scripts/v48_convergence_executive_card_freshness_linter.py` |
-| 66 | medium | todo | Build external sourcing plan for high-priority V37 coverage gaps without adding external claims | `knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md` |
+| 66 | medium | done | Build external sourcing plan for high-priority V37 coverage gaps without adding external claims | `knowledge_external/synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md` |
 | 67 | medium | todo | Add high-priority external sourcing plan freshness linter | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | 68 | medium | todo | Build contradiction surveillance checklist by source class and finding category | `knowledge_external/synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md` |
 | 69 | medium | todo | Add contradiction surveillance checklist freshness linter | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
@@ -887,3 +887,13 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:57:06Z`: `9303` seconds.
+- Built high-priority external sourcing plan:
+  - plan rows: `11`;
+  - source-route classes: `6`;
+  - route counts: EBV-stratified immune-data source `1`, IBD/MS transfer-specific literature or datasets `3`, locus/signal-specific genetics source `2`, method/governance literature `2`, pregnancy/postpartum comparator literature or datasets `1`, same-failure-mode source `2`;
+  - boundary: future intake/navigation only; no external claims added and no convergence asserted.
+- Corrected an initial route-classification bug before commit: substring `ra` was catching unrelated words; the classifier now uses word-boundary RA matching and checks EBV before pregnancy/RA routing.
+- Verification passed:
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:01:10Z`: `9547` seconds.
