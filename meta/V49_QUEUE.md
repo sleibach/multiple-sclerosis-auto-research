@@ -124,7 +124,7 @@ tracked purge target is:
 | 68 | medium | done | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
 | 69 | medium | done | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
 | 70 | medium | done | Verify final working-tree cleanliness and tracked-size policy after the post-checkpoint commits | `meta/V49_QUEUE.md` |
-| 71 | medium | todo | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 71 | medium | done | Refresh rewrite/push handoff to latest HEAD after resume and time-accounting commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 72 | medium | todo | Run git fsck and object-store checkpoint after post-checkpoint commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 73 | high | todo | Re-run provenance, public-index, Markdown, large-file, and Git-blob guards after tasks 69-72 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 74 | medium | todo | Refresh final checkpoint with latest active-time, handoff, and guard state | `meta/V49_FINAL_CHECKPOINT.md` |
@@ -764,3 +764,8 @@ tracked purge target is:
   files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
 - Current cumulative active time at `2026-06-14T22:03:38Z`: `6802` seconds
   (`376` seconds session 1 plus `6426` seconds of current open session).
+- Task 71 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `b2f9805163759cf530da9d0a53b6eab560ed438d` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:04:02Z`: `6826` seconds
+  (`376` seconds session 1 plus `6450` seconds of current open session).
