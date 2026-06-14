@@ -181,7 +181,7 @@ tracked purge target is:
 | 126 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 124-125 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 127 | medium | done | Refresh final and resume checkpoints after task 126 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 128 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 127 | `meta/V49_QUEUE.md` |
-| 129 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 129 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 130 | medium | todo | Refill V49 backlog above threshold if task 129 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
@@ -1192,3 +1192,8 @@ tracked purge target is:
   required before OpenGWAS-dependent work after expiry.
 - Current cumulative active time at `2026-06-14T23:01:28Z`: `10272` seconds
   (`376` seconds session 1 plus `9896` seconds of current open session).
+- Task 129 audited active-time accounting at `2026-06-14T23:02:05Z`. Result:
+  session 1 active time `376` seconds, current session elapsed `9933` seconds,
+  cumulative active time `10309` seconds, wall-clock span since block start
+  `11081` seconds, excluded resume gap `772` seconds, active target `21600`
+  seconds, target met: `false`. The queue remains summed-session based.
