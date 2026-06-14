@@ -58,6 +58,13 @@ span across resume gaps.
 | 30 | medium | done | Add V48 external-governance handoff card for future sessions | `knowledge_external/catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md` |
 | 31 | medium | done | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
 | 32 | medium | done | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 33 | medium | done | Build prioritized source-terms review queue for records still missing explicit terms metadata | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
+| 34 | medium | todo | Add governance-navigation freshness linter tied to current preflight checks and navigation rows | `scripts/v48_governance_navigation_freshness_linter.py` |
+| 35 | medium | todo | Add public-index freshness linter tied to current required external artifacts | `scripts/v48_public_index_freshness_linter.py` |
+| 36 | medium | todo | Build V48 source-domain-by-relationship rollup for convergence and future-grounding visibility | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_RELATIONSHIP_ROLLUP_V48.md` |
+| 37 | medium | todo | Add source-domain relationship rollup freshness linter | `scripts/v48_source_domain_relationship_freshness_linter.py` |
+| 38 | medium | todo | Re-run source URL reachability and integrate status into governance preflight if current scripts support it | `knowledge_external/catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md` |
+| 39 | medium | todo | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -281,6 +288,28 @@ span across resume gaps.
 - Smoke query `V48 convergence decision table governance handoff` returned `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` and `meta/V48_QUEUE.md`.
 - Verification passed:
   - V48 governance preflight;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:28:02Z`: `3959` seconds.
+- Refilled backlog with tasks 33-39:
+  - source-terms review queue;
+  - governance-navigation freshness linter;
+  - public-index freshness linter;
+  - source-domain relationship rollup and freshness check;
+  - reachability refresh;
+  - post-task index rebuild.
+- Current open-session active time at `2026-06-14T14:29:44Z`: `4061` seconds.
+- Built prioritized source_terms review queue:
+  - missing source_terms records: `31`;
+  - high-priority terms review records: `9`;
+  - medium-priority terms review records: `18`;
+  - low-priority terms review records: `4`.
+- Updated public external index:
+  - navigation links: `16`;
+  - synthetic public-index fixture passed.
+- Verification passed:
+  - V48 governance preflight;
+  - public index crosslink lint;
+  - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:26:38Z`: `3875` seconds.
 - Added compact convergence decision table:
