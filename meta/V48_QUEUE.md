@@ -50,7 +50,7 @@ span across resume gaps.
 | 22 | medium | done | Add contradiction-intake template and linter for future external tensions | `knowledge_external/templates/contradiction_intake_template.json.template`, `scripts/v48_contradiction_intake_linter.py` |
 | 23 | medium | done | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
 | 24 | medium | done | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
-| 25 | medium | todo | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
+| 25 | medium | done | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -183,6 +183,14 @@ span across resume gaps.
 - Verification passed:
   - public index crosslink lint;
   - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:12:29Z`: `3026` seconds.
+- Rebuilt the sparse TF-IDF knowledge index:
+  - document count: `727`;
+  - output: `knowledge/.index`;
+  - smoke query `V48 governance navigation source terms` returned `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` and `meta/V48_QUEUE.md`.
+- The existing index builder intentionally does not ingest `knowledge_external`; external knowledge remains segregated and navigable through `knowledge_external/INDEX.md`.
+- Verification passed:
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:03:06Z`: `2463` seconds.
 - Added V48 source_terms freshness linter:
