@@ -139,7 +139,7 @@ tracked purge target is:
 | 83 | medium | done | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 84 | medium | done | Add the updated `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` pointer to the manifest's modified-file notes | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 85 | medium | done | Check whether the V49 reader quickstart should route public readers to the `docs/knowledge/` pointer as well as the external synthesis | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 86 | medium | todo | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 86 | medium | done | Refresh rewrite/push handoff to latest HEAD after tasks 83-85 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 87 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 84-86 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 88 | medium | todo | Refresh final and resume checkpoints after task 87 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 89 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
@@ -883,3 +883,8 @@ tracked purge target is:
   the rule that substantive external rows stay in the segregated external tree.
 - Current cumulative active time at `2026-06-14T22:19:13Z`: `7737` seconds
   (`376` seconds session 1 plus `7361` seconds of current open session).
+- Task 86 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `3149e598153f2ed5f62d416c576445338db38921` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T22:19:43Z`: `7767` seconds
+  (`376` seconds session 1 plus `7391` seconds of current open session).

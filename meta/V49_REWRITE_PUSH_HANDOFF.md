@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:11:16Z`:
+Current push target checkpoint, verified at `2026-06-14T22:19:43Z`:
 
 - current branch: `main`
-- current HEAD: `8d1bc40ddd79912fef7460891dbc7d08680dcb21`
+- current HEAD: `3149e598153f2ed5f62d416c576445338db38921`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+3149e598 Route V49 quickstart to convergence pointer
+6207d8b2 Document V49 convergence pointer in manifest
+3b32a2cc Refill V49 backlog after clean-state check
+32bb9362 Record V49 post-checkpoint clean state
+dafa859f Refresh V49 checkpoints after pointer guards
+4cd0fa72 Record V49 pointer guard pass
+f19a78b9 Refresh V49 handoff after convergence pointer sync
 8d1bc40d Sync V49 convergence pointer status
 c85773eb Recheck V49 ignore recurrence protections
 8bb428cc Refresh V49 resume checkpoint consistency
@@ -58,13 +65,6 @@ b2f98051 Record V49 clean tree and size guard
 9590784c Record V49 OpenGWAS expiry recheck
 eaf58d43 Audit V49 active time after checkpoint
 bd04d815 Refresh V49 resume checkpoint after guards
-e6235eed Record V49 post-checkpoint guard pass
-4fdbbf0c Refresh V49 push handoff after checkpoint
-f1b1ef2d Refresh V49 artifact manifest after checkpoint
-4f12635a Add V49 final resumability checkpoint
-91cb343d Record V49 final external lint pass
-16bc14e8 Refresh V49 manifest for guard artifacts
-f2238a70 Record V49 clean tree precheck
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
