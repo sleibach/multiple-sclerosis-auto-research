@@ -90,6 +90,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
 | [V48 contradiction triage mini-template](templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md) | Compact safe-routing template for future source hits that appear to disagree with grounded findings. | future search/navigation only |
 | [V48 unresolved external coverage handoff](synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md) | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |
+| [V49 unresolved action reconciliation](synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md) | Overlay showing which V48 handoff rows are covered, narrowed, closed-unless-triggered, or unchanged after V49. | work-queue/navigation only |
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [V49 relationship delta note](synthesis/V49_RELATIONSHIP_DELTA_NOTE.md) | Compact summary of what V49 added to the V48 convergence/contradiction layer. | synthesis/navigation only |
 | [V49 content handoff](synthesis/V49_CONTENT_HANDOFF.md) | Medical-team handoff for V49 hygiene, gap closure, validation routing, import packets, and closure guardrails. | synthesis/navigation only |

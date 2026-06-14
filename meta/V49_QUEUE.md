@@ -82,7 +82,7 @@ tracked purge target is:
 | 26 | medium | done | Cross-check V49 source-domain review decisions against the source-terms review queue and mark any row-specific parking follow-ups | `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
 | 27 | medium | done | Write a concise "zero contradictions is not consensus" caveat card for the public reader | `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
 | 28 | medium | done | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md` |
-| 29 | medium | todo | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
+| 29 | medium | done | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md` |
 | 30 | medium | todo | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 31 | high | todo | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 32 | medium | todo | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
@@ -361,3 +361,15 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:59:55Z`: `2979` seconds
   (`376` seconds session 1 plus `2603` seconds of current open session).
+- Task 29 added `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
+  and `knowledge_external/synthesis/v49_unresolved_action_reconciliation.tsv`.
+  Result: all `23` V48 handoff rows were reconciled: `4` are covered by
+  validation/readiness crosscheck, `3` narrowed by import packets, `7` closed
+  unless the context-only trigger appears, and `9` remain unchanged under the
+  V48 action. The generated V48 handoff was not hand-edited.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`71` links), external Markdown linter PASS (`373`
+  checks, `75` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:02:09Z`: `3113` seconds
+  (`376` seconds session 1 plus `2737` seconds of current open session).
