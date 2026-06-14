@@ -95,7 +95,7 @@ tracked purge target is:
 | 39 | medium | done | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 40 | medium | done | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 41 | medium | done | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
-| 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
+| 42 | medium | done | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 | 43 | medium | done | Refresh the V49 artifact manifest after post-manifest V49 files are added | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 44 | medium | done | Add the purge-reference audit to the reader-facing V49 handoff/navigation where it prevents rerun confusion | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 45 | medium | done | Verify `.gitignore` protections catch representative purged cache/output paths and record the ignore-check result | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
@@ -115,7 +115,7 @@ tracked purge target is:
 | 59 | medium | done | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 60 | medium | done | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
 | 61 | medium | done | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
-| 62 | medium | todo | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
+| 62 | medium | done | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
 | 63 | medium | todo | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -684,3 +684,13 @@ tracked purge target is:
   tracked files above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:52:03Z`: `6107` seconds
   (`376` seconds session 1 plus `5731` seconds of current open session).
+- Task 62, also closing the earlier duplicate task 42, ran the final external
+  public-index and Markdown lint stack after tasks 56-61. Results:
+  `scripts/v48_public_index_freshness_linter.py lint` PASS (`50` checks),
+  `scripts/v48_public_index_crosslink_linter.py lint` PASS (`73` links),
+  `scripts/v47_external_markdown_index_linter.py lint` PASS (`375` checks,
+  `77` Markdown files), and `scripts/v47_provenance_gate.py audit` PASS
+  (`436` checks, `47` external JSON records, `0` failures). The tracked
+  large-file guard also remained PASS (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:53:25Z`: `6189` seconds
+  (`376` seconds session 1 plus `5813` seconds of current open session).
