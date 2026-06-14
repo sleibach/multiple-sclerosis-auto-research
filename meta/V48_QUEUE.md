@@ -67,7 +67,7 @@ span across resume gaps.
 | 39 | medium | done | Rebuild public external index, governance navigation, and TF-IDF index after tasks 33-38 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 | 40 | medium | done | Build rationale table for V37 findings without V48 external relationship rows | `knowledge_external/synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md` |
 | 41 | medium | done | Add V37 uncovered-rationale freshness linter tied to coverage map | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
-| 42 | medium | todo | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
+| 42 | medium | done | Build external-record claim-length/source-excerpt safety linter to prevent oversized copied claims | `scripts/v48_external_claim_length_linter.py` |
 | 43 | medium | todo | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
 | 44 | medium | todo | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
 | 45 | medium | todo | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
@@ -513,3 +513,15 @@ span across resume gaps.
   - public index crosslink lint;
   - external Markdown source/provenance lint;
   - V47 provenance gate.
+- Added external claim-length/source-excerpt safety linter:
+  - real external records checked: `39`;
+  - real text-length checks: `174`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted overlong claim and overlong excerpt-field failures;
+  - governance preflight checks: `25`;
+  - governance controls tracked: `31`.
+- Verification passed:
+  - V48 governance preflight;
+  - governance-navigation freshness lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:51:20Z`: `5357` seconds.

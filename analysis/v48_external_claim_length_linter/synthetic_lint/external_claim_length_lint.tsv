@@ -1,0 +1,8 @@
+path	record_id	field	word_limit	word_count	status	detail
+knowledge_external/records/bad.json	SYNTH_LENGTH_BAD	claim	60	70	FAIL	short sourced summary required; do not paste long source passages
+knowledge_external/records/bad.json	SYNTH_LENGTH_BAD	why_unverifiable	80	2	PASS	short sourced summary required; do not paste long source passages
+knowledge_external/records/bad_excerpt.json	SYNTH_EXCERPT_BAD	claim	60	3	PASS	short sourced summary required; do not paste long source passages
+knowledge_external/records/bad_excerpt.json	SYNTH_EXCERPT_BAD	why_unverifiable	80	2	PASS	short sourced summary required; do not paste long source passages
+knowledge_external/records/bad_excerpt.json	SYNTH_EXCERPT_BAD	source_excerpt	25	30	FAIL	excerpt/quote/verbatim-like fields must stay below the short-quote limit and remain source-bound
+knowledge_external/records/good.json	SYNTH_LENGTH_GOOD	claim	60	3	PASS	short sourced summary required; do not paste long source passages
+knowledge_external/records/good.json	SYNTH_LENGTH_GOOD	why_unverifiable	80	2	PASS	short sourced summary required; do not paste long source passages

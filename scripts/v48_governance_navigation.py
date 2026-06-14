@@ -148,6 +148,13 @@ ARTIFACTS = [
         "boundary": "source terms control",
     },
     {
+        "artifact": "External claim-length safety linter",
+        "path": "scripts/v48_external_claim_length_linter.py",
+        "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",
+        "purpose": "Prevents oversized external claim summaries or excerpt-like fields from entering external records.",
+        "boundary": "copyright/provenance hygiene control",
+    },
+    {
         "artifact": "Support/contradiction coverage linter",
         "path": "scripts/v48_support_contradiction_coverage_linter.py",
         "summary": "analysis/v48_support_contradiction_coverage_linter/support_contradiction_coverage_lint_summary.json",
