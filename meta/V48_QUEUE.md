@@ -20,7 +20,7 @@ span across resume gaps.
 - OpenGWAS: PASS. JWT valid until `2026-06-19 12:28 UTC`; renew soon.
 - SAP AI Core health: PASS for Claude, Gemini, and RPT smoke checks.
 - V47 provenance gate: PASS at `39` external JSON records, `354` checks, `0` failures.
-- RAG rebuild: pending after content/index updates.
+- RAG rebuild: PASS. TF-IDF index rebuilt at item 46 with `727` documents; `knowledge_external/` remains excluded from the grounded TF-IDF globs.
 
 ## Backlog
 
@@ -71,7 +71,7 @@ span across resume gaps.
 | 43 | medium | done | Build high-priority source_terms review packet for the 9 high-priority missing terms records | `knowledge_external/catalogs/indexes/HIGH_PRIORITY_SOURCE_TERMS_PACKET_V48.md` |
 | 44 | medium | done | Add high-priority source_terms packet freshness linter | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
 | 45 | medium | done | Add V48 governance preflight summary card for fast command handoff | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` |
-| 46 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 46 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 40-45 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -559,3 +559,18 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:57:27Z`: `5724` seconds.
+- Rebuilt public external index, governance outputs, and TF-IDF index:
+  - public external navigation links: `21`;
+  - public-index freshness required targets: `15`;
+  - public-index crosslink failures: `0`;
+  - governance preflight checks: `26`;
+  - V47 provenance gate checks: `354`;
+  - TF-IDF indexed grounded-tree documents: `727`;
+  - smoke query returned grounded docs and queue/history pointers, not `knowledge_external/`, preserving external segregation from the grounded retrieval index.
+- Verification passed:
+  - V48 governance preflight;
+  - V48 public-index freshness lint;
+  - V48 public-index crosslink lint;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:59:51Z`: `5868` seconds.
