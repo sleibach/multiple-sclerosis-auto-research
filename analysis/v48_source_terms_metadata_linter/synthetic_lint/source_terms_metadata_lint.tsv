@@ -1,0 +1,12 @@
+path	record_id	check	status	detail
+knowledge_external/records/bad_terms.json	SYNTH_BAD_TERMS	license_or_terms_label_present	FAIL	
+knowledge_external/records/bad_terms.json	SYNTH_BAD_TERMS	terms_url_http_or_empty	FAIL	example.invalid/terms
+knowledge_external/records/bad_terms.json	SYNTH_BAD_TERMS	checked_date_present	FAIL	
+knowledge_external/records/bad_terms.json	SYNTH_BAD_TERMS	reuse_notes_present	FAIL	
+knowledge_external/records/bad_terms.json	SYNTH_BAD_TERMS	redistribution_value_allowed	FAIL	maybe
+knowledge_external/records/good_terms.json	SYNTH_GOOD_TERMS	license_or_terms_label_present	PASS	Synthetic permissive
+knowledge_external/records/good_terms.json	SYNTH_GOOD_TERMS	terms_url_http_or_empty	PASS	https://example.invalid/terms
+knowledge_external/records/good_terms.json	SYNTH_GOOD_TERMS	checked_date_present	PASS	2026-06-14
+knowledge_external/records/good_terms.json	SYNTH_GOOD_TERMS	reuse_notes_present	PASS	Synthetic metadata only.
+knowledge_external/records/good_terms.json	SYNTH_GOOD_TERMS	redistribution_value_allowed	PASS	metadata_only
+knowledge_external/records/missing_terms.json	SYNTH_MISSING_TERMS	source_terms_present	WARN	missing optional source_terms metadata

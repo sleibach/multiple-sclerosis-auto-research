@@ -35,7 +35,7 @@ span across resume gaps.
 | 7 | medium | done | Improve public external index with convergence/contradiction navigation | `knowledge_external/INDEX.md` |
 | 8 | medium | done | Add source-locator normalization linter | `scripts/v48_source_locator_normalization_linter.py` |
 | 9 | medium | done | Add public index crosslink linter | `scripts/v48_public_index_crosslink_linter.py` |
-| 10 | medium | todo | Add source license/terms metadata template/linter | `knowledge_external/templates/`, `scripts/` |
+| 10 | medium | done | Add source license/terms metadata template/linter | `knowledge_external/templates/source_terms_metadata_template.json.template`, `scripts/v48_source_terms_metadata_linter.py` |
 | 11 | medium | todo | Add convergence matrix coverage linter to ensure priority grounded findings stay represented | `scripts/` |
 | 12 | medium | todo | Add future-grounding queue freshness check tied to V48 matrix rows | `scripts/` |
 | 13 | medium | todo | Rebuild RAG index after V48 artifacts stabilize | `knowledge/.index/` |
@@ -97,3 +97,12 @@ span across resume gaps.
   - synthetic fixtures passed;
   - real links checked: `10`;
   - real failures: `0`.
+- Current open-session active time at `2026-06-14T13:40:20Z`: `1097` seconds.
+- Added source license/terms metadata template and linter:
+  - synthetic fixtures passed;
+  - real records checked: `39`;
+  - records with current source_terms metadata: `0`;
+  - warnings for missing optional source_terms: `39`;
+  - real failures: `0`.
+- Narrowly allowlisted the V48 source-terms analysis fixture directory in the
+  provenance gate.
