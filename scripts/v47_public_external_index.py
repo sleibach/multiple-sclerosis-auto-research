@@ -144,6 +144,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         f"| {link('V48 high-priority external sourcing plan', 'synthesis/HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md')} | Source-route plan for high-priority V37 external coverage gaps. | future intake/navigation only |",
         f"| {link('V48 high-priority source-search query packet', 'synthesis/HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md')} | Concrete search-query packet for high-priority sourcing gaps; queries are candidates only. | future search/navigation only |",
         f"| {link('V48 high-priority source intake checklist', 'templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md')} | Checklist for safely reviewing source hits before any segregated external-record intake. | future search/navigation only |",
+        f"| {link('V48 source-intake operator quickstart', 'templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md')} | Mechanical operator guide for routing source-search hits through safe segregated intake. | future search/navigation only |",
         f"| {link('V48 unresolved external coverage handoff', 'synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md')} | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | work-queue/navigation only |",
         f"| {link('V48 future-grounding queue', 'synthesis/FUTURE_GROUNDING_QUEUE_V48.md')} | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |",
         f"| {link('Convergence/contradiction skeleton', 'synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md')} | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |",
@@ -164,7 +165,7 @@ def build_index(root: Path, outdir: Path) -> dict[str, object]:
         "purpose": "V47 public external knowledge navigation index; no biological claim",
         "index": rel(root, outdir / "INDEX.md") if root == ROOT else str(outdir / "INDEX.md"),
         "n_records": index_summary.get("n_records", 0),
-        "n_navigation_links": 37,
+        "n_navigation_links": 38,
         "overall_status": "PASS",
     }
     analysis_out = root / "analysis/v47_public_external_index"
@@ -230,6 +231,7 @@ def synthetic_check(outdir: Path, fail_on_error: bool) -> int:
         "high_priority_external_sourcing_plan_link_present": "HIGH_PRIORITY_EXTERNAL_SOURCING_PLAN_V48.md" in text,
         "high_priority_source_search_queries_link_present": "HIGH_PRIORITY_SOURCE_SEARCH_QUERIES_V48.md" in text,
         "high_priority_source_intake_checklist_link_present": "HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md" in text,
+        "source_intake_operator_quickstart_link_present": "SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md" in text,
         "unresolved_external_coverage_handoff_link_present": "UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md" in text,
         "summary_counts_present": "`2`" in text,
     }
