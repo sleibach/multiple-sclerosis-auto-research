@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This glossary explains boundary labels used by V48 external-knowledge controls; it does not validate external claims or modify grounded findings.
 
-- boundary labels: `26`
-- controls represented: `45`
+- boundary labels: `27`
+- controls represented: `47`
 - boundaries without failure mode: `0`
 
 ## Glossary
@@ -34,8 +34,9 @@ Status: governance/navigation only. This glossary explains boundary labels used 
 | `sourcing priority control` | 1 | Use as an automated governance control for the named boundary: sourcing priority control. | Do not allow the controlled artifact to create this failure mode: external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence. | V37 external gap-priority freshness linter |
 | `synthesis coverage control` | 7 | Use as an automated governance control for the named boundary: synthesis coverage control. | Do not allow the controlled artifact to create this failure mode: convergence/contradiction rows fall out of sync with grounded findings or source records. | Convergence executive-card freshness linter; Convergence matrix coverage linter; Convergence source-independence freshness linter; Decision-relevant convergence freshness linter; Support/contradiction coverage linter |
 | `synthesis reference control` | 1 | Use as an automated governance control for the named boundary: synthesis reference control. | Do not allow the controlled artifact to create this failure mode: external support/contradiction records point to missing grounded artifacts. | Project-finding reference linter |
+| `synthesis/navigation only` | 1 | Use for summaries and navigation that point to controlled artifacts. | Do not allow the controlled artifact to create this failure mode: navigation rows are overread as evidence or score changes. | V48 evidence-boundary glossary |
 | `transport maintenance only` | 1 | Use as metadata or navigation only for the named boundary: transport maintenance only. | Do not allow the controlled artifact to create this failure mode: source URLs rot or redirect without being visible to maintainers. | Source URL reachability checker |
-| `vocabulary control` | 2 | Use as an automated governance control for the named boundary: vocabulary control. | Do not allow the controlled artifact to create this failure mode: relationship/status values drift into ambiguous uncontrolled labels. | Convergence status vocabulary linter; Relationship vocabulary linter |
+| `vocabulary control` | 3 | Use as an automated governance control for the named boundary: vocabulary control. | Do not allow the controlled artifact to create this failure mode: relationship/status values drift into ambiguous uncontrolled labels. | Convergence status vocabulary linter; Evidence-boundary glossary freshness linter; Relationship vocabulary linter |
 
 ## Boundary
 

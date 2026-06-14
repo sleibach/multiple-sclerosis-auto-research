@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This graph maps external-layer synthesis artifacts to their inputs and freshness controls; it does not add external records, assert convergence, or change grounded findings.
 
-- artifact nodes: `23`
-- dependency/control edges: `66`
+- artifact nodes: `24`
+- dependency/control edges: `68`
 - missing outputs: `0`
 - missing control sources: `0`
 - unguarded nodes: `0`
@@ -33,6 +33,7 @@ Status: governance/navigation only. This graph maps external-layer synthesis art
 | V48 external synthesis dependency graph | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` | 1 | 1 | dependency/navigation control |
 | V48 governance navigation | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` | 2 | 1 | navigation control |
 | V48 governance failure-mode matrix | `knowledge_external/catalogs/indexes/GOVERNANCE_FAILURE_MODE_MATRIX_V48.md` | 1 | 1 | governance mapping control |
+| V48 evidence-boundary glossary | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` | 1 | 1 | synthesis/navigation only |
 | V48 preflight summary card | `knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md` | 3 | 1 | handoff/navigation only |
 | Public external index | `knowledge_external/INDEX.md` | 2 | 3 | class-aware public navigation only |
 

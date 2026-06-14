@@ -1,0 +1,39 @@
+row_key	check	status	detail
+copyright/provenance hygiene control	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+copyright/provenance hygiene control	field_matches.boundary	PASS	expected=copyright/provenance hygiene control observed=copyright/provenance hygiene control
+copyright/provenance hygiene control	field_matches.n_controls	PASS	expected=1 observed=1
+copyright/provenance hygiene control	field_matches.failure_mode_prevented	PASS	expected=external summaries become oversized copied source passages observed=external summaries become oversized copied source passages
+copyright/provenance hygiene control	field_matches.allowed_use	FAIL	expected=Use as an automated governance control for the named boundary: copyright/provenance hygiene control. observed=stale
+copyright/provenance hygiene control	field_matches.forbidden_use	PASS	expected=Do not allow the controlled artifact to create this failure mode: external summaries become oversized copied source passages. observed=Do not allow the controlled artifact to create this failure mode: external summaries become oversized copied source passages.
+copyright/provenance hygiene control	field_matches.example_artifacts	PASS	expected=External claim-length safety linter observed=External claim-length safety linter
+copyright/provenance hygiene control	field_matches.example_paths	PASS	expected=scripts/v48_external_claim_length_linter.py observed=scripts/v48_external_claim_length_linter.py
+dependency/navigation control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+domain maintenance only	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+domain relationship control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+domain review control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+external agreement is context; project artifacts remain evidence	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+external resource metadata only	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+future-grounding control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+future-search control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+governance mapping control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+handoff/navigation control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+markdown provenance control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+navigation control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+queued tasks are not findings	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+resource metadata control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+schema control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+segregation control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+source locator control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+source maintenance control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+source terms control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+source terms metadata only	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+sourcing priority control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+synthesis coverage control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+synthesis reference control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+synthesis/navigation only	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+transport maintenance only	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+vocabulary control	boundary_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_evidence_boundary_glossary_freshness_linter/synthetic_glossary.tsv
+extra-boundary	no_extra_boundary	FAIL	boundary is not present in the current governance failure-mode matrix
+summary	summary_matches.n_boundaries	FAIL	expected=27 observed=999
+summary	summary_matches.n_controls_represented	FAIL	expected=47 observed=999
+summary	summary_matches.n_boundaries_without_failure_mode	FAIL	expected=0 observed=

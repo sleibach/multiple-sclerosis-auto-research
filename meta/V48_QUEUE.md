@@ -101,7 +101,7 @@ span across resume gaps.
 | 73 | medium | done | Build V48 external synthesis dependency graph mapping artifacts, inputs, and freshness controls | `knowledge_external/catalogs/indexes/V48_EXTERNAL_SYNTHESIS_DEPENDENCY_GRAPH.md` |
 | 74 | medium | done | Add external synthesis dependency graph freshness linter | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
 | 75 | medium | done | Build V48 evidence-boundary glossary from current governance/navigation boundary labels | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
-| 76 | medium | todo | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
+| 76 | medium | done | Add evidence-boundary glossary freshness linter | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | 77 | medium | todo | Build external coverage unresolved handoff grouped by action type and priority | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | 78 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 71-77 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
@@ -1042,3 +1042,23 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:29:57Z`: `11274` seconds.
+- Added evidence-boundary glossary freshness linter:
+  - current boundary labels: `27`;
+  - controls represented after navigation/failure-mode refresh: `47`;
+  - real freshness checks: `219`;
+  - real failures: `0`;
+  - synthetic fixture passed, including planted missing boundary, stale definition, extra boundary, and bad summary-count failures;
+  - dependency graph after glossary/linter integration: `24` nodes and `68` edges;
+  - full preflight checks: `40`.
+- Updated provenance-gate generated-output allowlist for `analysis/v48_evidence_boundary_glossary_freshness_linter/`, because the linter intentionally records controlled boundary vocabulary containing `external-verifiable` in generated analysis output.
+- Verification passed:
+  - evidence-boundary glossary freshness lint;
+  - external synthesis dependency graph freshness lint;
+  - governance navigation freshness lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - convergence executive-card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate.
+- Current open-session active time at `2026-06-14T16:34:19Z`: `11536` seconds.

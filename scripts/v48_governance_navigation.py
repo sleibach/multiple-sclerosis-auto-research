@@ -50,6 +50,13 @@ ARTIFACTS = [
         "boundary": "source terms metadata only",
     },
     {
+        "artifact": "V48 evidence-boundary glossary",
+        "path": "knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md",
+        "summary": "knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary_summary.json",
+        "purpose": "Glossary for V48 evidence and governance boundary labels.",
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V47 provenance gate",
         "path": "scripts/v47_provenance_gate.py",
         "summary": "analysis/v47_provenance_gate/provenance_gate_summary.json",
@@ -258,6 +265,13 @@ ARTIFACTS = [
         "summary": "analysis/v48_external_synthesis_dependency_freshness_linter/external_synthesis_dependency_freshness_lint_summary.json",
         "purpose": "Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts.",
         "boundary": "dependency/navigation control",
+    },
+    {
+        "artifact": "Evidence-boundary glossary freshness linter",
+        "path": "scripts/v48_evidence_boundary_glossary_freshness_linter.py",
+        "summary": "analysis/v48_evidence_boundary_glossary_freshness_linter/evidence_boundary_glossary_freshness_lint_summary.json",
+        "purpose": "Ensures the evidence-boundary glossary matches the current governance failure-mode matrix.",
+        "boundary": "vocabulary control",
     },
     {
         "artifact": "V37 external-coverage freshness linter",

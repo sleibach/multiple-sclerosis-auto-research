@@ -58,6 +58,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_convergence_executive_card_freshness_linter/",
     "analysis/v48_convergence_source_independence_freshness_linter/",
     "analysis/v48_decision_relevant_convergence_freshness_linter/",
+    "analysis/v48_evidence_boundary_glossary_freshness_linter/",
     "analysis/v48_external_claim_length_linter/",
     "analysis/v48_governance_failure_mode_freshness_linter/",
     "analysis/v48_governance_preflight/",

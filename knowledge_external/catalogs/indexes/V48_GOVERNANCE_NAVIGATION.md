@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `45`
+- artifacts tracked: `47`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -15,6 +15,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | V48 external resource comparator matrix | `yes` | `PASS` | External resource coverage, access tier, and unique gap matrix. | external resource metadata only | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
 | V48 source-domain review | `yes` | `PASS` | Domain classification for access and terms maintenance. | domain maintenance only | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | V48 source-terms coverage | `yes` | `not_applicable` | Source-terms metadata coverage and conservative reuse-note map. | source terms metadata only | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| V48 evidence-boundary glossary | `yes` | `PASS` | Glossary for V48 evidence and governance boundary labels. | synthesis/navigation only | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | V47 provenance gate | `yes` | `PASS` | Machine-enforced segregation of external knowledge from grounded trees. | segregation control | `scripts/v47_provenance_gate.py` |
 | External record schema linter | `yes` | `PASS` | Required external-record fields and source/class markers. | schema control | `scripts/v47_external_record_schema_linter.py` |
 | External record uniqueness linter | `yes` | `PASS` | Ensures external record IDs and paths remain unique. | schema control | `scripts/v47_external_record_uniqueness_linter.py` |
@@ -45,6 +46,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Source-domain independence freshness linter | `yes` | `PASS` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source URL duplicate freshness linter | `yes` | `PASS` | Ensures the source URL duplicate review matches current external source records. | source maintenance control | `scripts/v48_source_url_duplicate_freshness_linter.py` |
 | External synthesis dependency freshness linter | `yes` | `PASS` | Ensures the external synthesis dependency graph matches current generator-declared artifacts, inputs, controls, and counts. | dependency/navigation control | `scripts/v48_external_synthesis_dependency_freshness_linter.py` |
+| Evidence-boundary glossary freshness linter | `yes` | `PASS` | Ensures the evidence-boundary glossary matches the current governance failure-mode matrix. | vocabulary control | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | V37 external-coverage freshness linter | `yes` | `PASS` | Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows. | synthesis coverage control | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `yes` | `PASS` | Ensures the V37 uncovered-finding rationale table matches the current coverage map. | synthesis coverage control | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | V37 external gap-priority freshness linter | `yes` | `PASS` | Ensures the V37 external coverage gap priority map matches current coverage and rationale inputs. | sourcing priority control | `scripts/v48_v37_gap_priority_freshness_linter.py` |

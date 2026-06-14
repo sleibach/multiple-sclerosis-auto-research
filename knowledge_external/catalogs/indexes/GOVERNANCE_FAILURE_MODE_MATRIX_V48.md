@@ -2,8 +2,8 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `45`
-- boundary classes: `26`
+- controls mapped: `47`
+- boundary classes: `27`
 - unmapped boundaries: `0`
 
 ## Failure-Mode Matrix
@@ -52,8 +52,10 @@ Status: governance/navigation only. This matrix explains what each control preve
 | V37 external-coverage freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_v37_coverage_freshness_linter.py` |
 | V37 uncovered-rationale freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_v37_uncovered_rationale_freshness_linter.py` |
 | Project-finding reference linter | `synthesis reference control` | external support/contradiction records point to missing grounded artifacts | `PASS` | `scripts/v48_project_finding_reference_linter.py` |
+| V48 evidence-boundary glossary | `synthesis/navigation only` | navigation rows are overread as evidence or score changes | `PASS` | `knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md` |
 | Source URL reachability checker | `transport maintenance only` | source URLs rot or redirect without being visible to maintainers | `PASS` | `scripts/v47_source_url_reachability_checker.py` |
 | Convergence status vocabulary linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v48_convergence_status_vocabulary_linter.py` |
+| Evidence-boundary glossary freshness linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v48_evidence_boundary_glossary_freshness_linter.py` |
 | Relationship vocabulary linter | `vocabulary control` | relationship/status values drift into ambiguous uncontrolled labels | `PASS` | `scripts/v47_relationship_vocabulary_linter.py` |
 
 ## Boundary

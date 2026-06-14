@@ -197,6 +197,13 @@ NODES = [
         "boundary": "governance mapping control",
     },
     {
+        "artifact": "V48 evidence-boundary glossary",
+        "output": "knowledge_external/catalogs/indexes/V48_EVIDENCE_BOUNDARY_GLOSSARY.md",
+        "inputs": ["knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv"],
+        "controls": ["scripts/v48_evidence_boundary_glossary_freshness_linter.py"],
+        "boundary": "synthesis/navigation only",
+    },
+    {
         "artifact": "V48 preflight summary card",
         "output": "knowledge_external/catalogs/indexes/V48_PREFLIGHT_SUMMARY_CARD.md",
         "inputs": [

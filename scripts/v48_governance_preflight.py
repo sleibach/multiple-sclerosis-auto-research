@@ -49,6 +49,7 @@ CHECKS = [
     ("source_domain_independence_freshness", ["scripts/v48_source_domain_independence_freshness_linter.py", "lint"]),
     ("source_url_duplicate_freshness", ["scripts/v48_source_url_duplicate_freshness_linter.py", "lint"]),
     ("external_synthesis_dependency_freshness", ["scripts/v48_external_synthesis_dependency_freshness_linter.py", "lint"]),
+    ("evidence_boundary_glossary_freshness", ["scripts/v48_evidence_boundary_glossary_freshness_linter.py", "lint"]),
     ("v37_coverage_freshness", ["scripts/v48_v37_coverage_freshness_linter.py", "lint"]),
     ("v37_uncovered_rationale_freshness", ["scripts/v48_v37_uncovered_rationale_freshness_linter.py", "lint"]),
     ("v37_gap_priority_freshness", ["scripts/v48_v37_gap_priority_freshness_linter.py", "lint"]),
