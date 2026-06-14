@@ -71,8 +71,13 @@ tracked purge target is:
 | 15 | medium | done | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 17 | high | done | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` |
-| 18 | high | todo | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `docs/validation/` |
+| 18 | high | done | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `knowledge_external/synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md` |
 | 19 | medium | todo | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
+| 20 | high | todo | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
+| 21 | medium | todo | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
+| 22 | medium | todo | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
+| 23 | medium | todo | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/COMPARATOR_MATRIX_V47.md` |
+| 24 | medium | todo | Run full external governance, public-index freshness, provenance, and large-file safety checks after the next navigation/content refresh | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 
 ## Iteration Notes
 
@@ -210,3 +215,17 @@ tracked purge target is:
   records, `0` failures).
 - Current cumulative active time at `2026-06-14T20:37:44Z`: `1648` seconds
   (`376` seconds session 1 plus `1272` seconds of current open session).
+- Task 18 added `knowledge_external/synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md`
+  and `knowledge_external/synthesis/v49_validation_ready_row_crosscheck.tsv`.
+  Result: `7` validation-facing or high-actionability rows reviewed; `2`
+  primary V22 validation/guardrail rows are already covered by the frozen
+  V42/V44 harness path, `2` secondary lead rows are covered by V44 secondary
+  preregistrations and synthetic checks, and `3` rows are not validation-harness
+  rows because they require source-specific imports under the V49 packets.
+  New mechanical validation checks required now: `0`.
+- Post-task gates: external Markdown linter PASS (`364` checks, `66`
+  Markdown files); V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures); large-file guard PASS (`0` tracked/unignored files
+  above `50 MiB`).
+- Current cumulative active time at `2026-06-14T20:41:58Z`: `1902` seconds
+  (`376` seconds session 1 plus `1526` seconds of current open session).
