@@ -113,7 +113,7 @@ tracked purge target is:
 | 57 | medium | done | Audit tracked binary/columnar/compressed file extensions against the V49 ignore policy | `meta/V49_BINARY_EXTENSION_AUDIT.md` |
 | 58 | medium | done | Recheck grounded index boundary after late V49 meta/navigation updates | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 59 | medium | done | Refresh rewrite/push handoff HEAD again after latest V49 commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 60 | medium | todo | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
+| 60 | medium | done | Verify final working tree cleanliness before a resumability checkpoint | `meta/V49_FINAL_CHECKPOINT.md` |
 | 61 | medium | todo | Update artifact manifest if tasks 56-60 add new operational meta files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 62 | medium | todo | Run final external public index and Markdown lint after tasks 56-61 | `analysis/v47_external_markdown_index_linter/` |
 | 63 | medium | todo | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
@@ -670,3 +670,8 @@ tracked purge target is:
   above `50 MiB`).
 - Current cumulative active time at `2026-06-14T21:49:42Z`: `5966` seconds
   (`376` seconds session 1 plus `5590` seconds of current open session).
+- Task 60 checked working-tree cleanliness before final checkpoint work. Result:
+  `git status --short` printed nothing at HEAD
+  `b67490a0bed00f756491e2e359d2aed5f7c6a030`.
+- Current cumulative active time at `2026-06-14T21:50:35Z`: `6019` seconds
+  (`376` seconds session 1 plus `5643` seconds of current open session).
