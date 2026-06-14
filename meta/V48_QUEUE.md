@@ -87,7 +87,7 @@ span across resume gaps.
 | 59 | medium | done | Build V37 external coverage gap prioritization by relevance, novelty, and evidence grade | `knowledge_external/synthesis/V37_EXTERNAL_COVERAGE_GAP_PRIORITY_V48.md` |
 | 60 | medium | done | Add V37 external coverage gap priority freshness linter | `scripts/v48_v37_gap_priority_freshness_linter.py` |
 | 61 | medium | done | Build external source-domain independence rollup for convergence/insufficient-overlap rows | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_INDEPENDENCE_ROLLUP_V48.md` |
-| 62 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 55-61 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 62 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 55-61 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -812,3 +812,24 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T15:42:20Z`: `8417` seconds.
+- Rebuilt public external index, governance outputs, preflight, and TF-IDF index after tasks 55-61:
+  - public external navigation links: `28`;
+  - public-index required targets: `22`;
+  - public-index crosslink failures: `0`;
+  - governance controls tracked: `39`;
+  - full preflight checks: `33`;
+  - V47 provenance gate checks: `354`;
+  - external Markdown lint checks: `283`;
+  - TF-IDF indexed grounded-tree documents: `727`;
+  - `knowledge_external/` remains excluded from the grounded TF-IDF globs.
+- Verification passed:
+  - public external index synthetic fixture;
+  - public-index freshness lint;
+  - public-index crosslink lint;
+  - governance failure-mode freshness lint;
+  - preflight summary card freshness lint;
+  - V48 governance preflight;
+  - external Markdown source/provenance lint;
+  - V47 provenance gate;
+  - TF-IDF rebuild.
+- Current open-session active time at `2026-06-14T15:46:27Z`: `8664` seconds.

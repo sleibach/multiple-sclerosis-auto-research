@@ -25,7 +25,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | External Markdown index linter | `markdown provenance control` | generated Markdown drops source/provenance labels | `PASS` | `scripts/v47_external_markdown_index_linter.py` |
 | Governance navigation freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Public external index crosslink linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_crosslink_linter.py` |
-| Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_freshness_linter.py` |
+| Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `not_applicable` | `scripts/v48_public_index_freshness_linter.py` |
 | V48 future-grounding queue | `queued tasks are not findings` | future tasks are misread as established results | `not_applicable` | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | Resource comparator freshness linter | `resource metadata control` | resource comparator metadata drifts from source records | `PASS` | `scripts/v48_resource_comparator_freshness_linter.py` |
 | External record schema linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v47_external_record_schema_linter.py` |
@@ -38,7 +38,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | Source-terms freshness linter | `source terms control` | source terms/reuse status is ambiguous or stale | `PASS` | `scripts/v48_source_terms_freshness_linter.py` |
 | Source-terms metadata linter | `source terms control` | source terms/reuse status is ambiguous or stale | `PASS` | `scripts/v48_source_terms_metadata_linter.py` |
 | V48 source-terms coverage | `source terms metadata only` | terms-review metadata is mistaken for reuse permission | `not_applicable` | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
-| V37 external gap-priority freshness linter | `sourcing priority control` | external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence | `not_applicable` | `scripts/v48_v37_gap_priority_freshness_linter.py` |
+| V37 external gap-priority freshness linter | `sourcing priority control` | external sourcing priorities are mistaken for corroboration, contradiction, or biological evidence | `PASS` | `scripts/v48_v37_gap_priority_freshness_linter.py` |
 | Convergence matrix coverage linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_matrix_coverage_linter.py` |
 | Convergence source-independence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_convergence_source_independence_freshness_linter.py` |
 | Decision-relevant convergence freshness linter | `synthesis coverage control` | convergence/contradiction rows fall out of sync with grounded findings or source records | `PASS` | `scripts/v48_decision_relevant_convergence_freshness_linter.py` |
