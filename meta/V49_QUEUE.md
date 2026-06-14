@@ -119,7 +119,7 @@ tracked purge target is:
 | 63 | medium | done | Build final V49 checkpoint after task 62 if active target still unmet | `meta/V49_FINAL_CHECKPOINT.md` |
 | 64 | medium | done | Refresh artifact manifest to include the final checkpoint and any post-checkpoint operational files | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 65 | medium | done | Refresh rewrite/push handoff to latest HEAD after the final checkpoint and manifest refresh | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 66 | high | todo | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 66 | high | done | Re-run provenance, public-index, Markdown, tracked-large-file, and Git-blob guards after checkpoint/manifest updates | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 67 | medium | todo | Refresh V49 resume checkpoint to latest HEAD and open-task state after task 66 | `meta/V49_RESUME_CHECKPOINT.md` |
 | 68 | medium | todo | Audit queue active-time accounting after the checkpoint/refill so summed active time remains correct | `meta/V49_QUEUE.md` |
 | 69 | medium | todo | Re-run OpenGWAS expiry/sentinel check if the active session crosses the next half-hour boundary | `meta/V49_QUEUE.md` |
@@ -722,3 +722,12 @@ tracked purge target is:
   clone re-sync handoff remains pending.
 - Current cumulative active time at `2026-06-14T21:57:12Z`: `6416` seconds
   (`376` seconds session 1 plus `6040` seconds of current open session).
+- Task 66 reran the post-checkpoint guard suite. Results: V47 provenance gate
+  PASS (`436` checks, `47` external JSON records, `0` failures), public-index
+  freshness PASS (`50` checks), public-index crosslinks PASS (`73` links),
+  external Markdown/index lint PASS (`375` checks, `77` Markdown files),
+  tracked large-file guard PASS (`0` tracked files above `50 MiB`), and Git blob
+  guard PASS (`0` blobs above `50 MiB`). The guard outputs did not modify
+  tracked files.
+- Current cumulative active time at `2026-06-14T21:59:21Z`: `6545` seconds
+  (`376` seconds session 1 plus `6169` seconds of current open session).
