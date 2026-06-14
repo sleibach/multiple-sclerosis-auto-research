@@ -148,7 +148,7 @@ tracked purge target is:
 | 92 | medium | done | Refresh rewrite/push handoff to latest HEAD after stale-task cleanup and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 93 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after task 92 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 94 | medium | done | Refresh final and resume checkpoints after task 93 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 95 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
+| 95 | medium | done | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T22:30:00Z` | `meta/V49_QUEUE.md` |
 | 96 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 94 | `meta/V49_QUEUE.md` |
 | 97 | medium | done | Check for stale duplicate open tasks older than the current backlog and close/supersede them explicitly | `meta/V49_QUEUE.md` |
 | 98 | medium | todo | Refill V49 backlog above threshold if task 97 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
@@ -959,3 +959,10 @@ tracked purge target is:
   scheduled OpenGWAS task. No other stale duplicate open tasks were present.
 - Current cumulative active time at `2026-06-14T22:29:48Z`: `8372` seconds
   (`376` seconds session 1 plus `7996` seconds of current open session).
+- Task 95 reloaded `.env` and reran `scripts/check_opengwas_access.py` at the
+  scheduled boundary. Result: `OPENGWAS_JWT` loaded, local decoded expiry
+  `2026-06-19 12:28 UTC`, `gwasinfo_ieu_b_18` HTTP `200`,
+  `tophits_ieu_b_18` HTTP `200`, and access check passed. Renewal remains
+  required before OpenGWAS-dependent work after expiry.
+- Current cumulative active time at `2026-06-14T22:30:36Z`: `8420` seconds
+  (`376` seconds session 1 plus `8044` seconds of current open session).
