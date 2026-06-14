@@ -81,12 +81,12 @@ governance mapping control	field_matches.example_artifacts	PASS	expected=Governa
 governance mapping control	field_matches.example_paths	PASS	expected=scripts/v48_governance_failure_mode_freshness_linter.py observed=scripts/v48_governance_failure_mode_freshness_linter.py
 handoff/navigation control	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary.tsv
 handoff/navigation control	field_matches.boundary	PASS	expected=handoff/navigation control observed=handoff/navigation control
-handoff/navigation control	field_matches.n_controls	PASS	expected=1 observed=1
+handoff/navigation control	field_matches.n_controls	PASS	expected=2 observed=2
 handoff/navigation control	field_matches.failure_mode_prevented	PASS	expected=handoff card drifts from current checks or commands observed=handoff card drifts from current checks or commands
 handoff/navigation control	field_matches.allowed_use	PASS	expected=Use as an automated governance control for the named boundary: handoff/navigation control. observed=Use as an automated governance control for the named boundary: handoff/navigation control.
 handoff/navigation control	field_matches.forbidden_use	PASS	expected=Do not allow the controlled artifact to create this failure mode: handoff card drifts from current checks or commands. observed=Do not allow the controlled artifact to create this failure mode: handoff card drifts from current checks or commands.
-handoff/navigation control	field_matches.example_artifacts	PASS	expected=Preflight summary card freshness linter observed=Preflight summary card freshness linter
-handoff/navigation control	field_matches.example_paths	PASS	expected=scripts/v48_preflight_summary_card_freshness_linter.py observed=scripts/v48_preflight_summary_card_freshness_linter.py
+handoff/navigation control	field_matches.example_artifacts	PASS	expected=Preflight summary card freshness linter; Unresolved external coverage handoff freshness linter observed=Preflight summary card freshness linter; Unresolved external coverage handoff freshness linter
+handoff/navigation control	field_matches.example_paths	PASS	expected=scripts/v48_preflight_summary_card_freshness_linter.py; scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py observed=scripts/v48_preflight_summary_card_freshness_linter.py; scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py
 markdown provenance control	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary.tsv
 markdown provenance control	field_matches.boundary	PASS	expected=markdown provenance control observed=markdown provenance control
 markdown provenance control	field_matches.n_controls	PASS	expected=1 observed=1
@@ -105,12 +105,12 @@ navigation control	field_matches.example_artifacts	PASS	expected=Governance navi
 navigation control	field_matches.example_paths	PASS	expected=scripts/v48_governance_navigation_freshness_linter.py; scripts/v48_public_index_crosslink_linter.py; scripts/v48_public_index_freshness_linter.py observed=scripts/v48_governance_navigation_freshness_linter.py; scripts/v48_public_index_crosslink_linter.py; scripts/v48_public_index_freshness_linter.py
 queued tasks are not findings	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary.tsv
 queued tasks are not findings	field_matches.boundary	PASS	expected=queued tasks are not findings observed=queued tasks are not findings
-queued tasks are not findings	field_matches.n_controls	PASS	expected=1 observed=1
+queued tasks are not findings	field_matches.n_controls	PASS	expected=2 observed=2
 queued tasks are not findings	field_matches.failure_mode_prevented	PASS	expected=future tasks are misread as established results observed=future tasks are misread as established results
 queued tasks are not findings	field_matches.allowed_use	PASS	expected=Use for future-work queues that preserve a candidate action without asserting a result. observed=Use for future-work queues that preserve a candidate action without asserting a result.
 queued tasks are not findings	field_matches.forbidden_use	PASS	expected=Do not allow the controlled artifact to create this failure mode: future tasks are misread as established results. observed=Do not allow the controlled artifact to create this failure mode: future tasks are misread as established results.
-queued tasks are not findings	field_matches.example_artifacts	PASS	expected=V48 future-grounding queue observed=V48 future-grounding queue
-queued tasks are not findings	field_matches.example_paths	PASS	expected=knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md observed=knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md
+queued tasks are not findings	field_matches.example_artifacts	PASS	expected=Unresolved external coverage handoff; V48 future-grounding queue observed=Unresolved external coverage handoff; V48 future-grounding queue
+queued tasks are not findings	field_matches.example_paths	PASS	expected=knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md; knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md observed=knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md; knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md
 resource metadata control	boundary_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/v48_evidence_boundary_glossary.tsv
 resource metadata control	field_matches.boundary	PASS	expected=resource metadata control observed=resource metadata control
 resource metadata control	field_matches.n_controls	PASS	expected=1 observed=1
@@ -216,5 +216,5 @@ vocabulary control	field_matches.forbidden_use	PASS	expected=Do not allow the co
 vocabulary control	field_matches.example_artifacts	PASS	expected=Convergence status vocabulary linter; Evidence-boundary glossary freshness linter; Relationship vocabulary linter observed=Convergence status vocabulary linter; Evidence-boundary glossary freshness linter; Relationship vocabulary linter
 vocabulary control	field_matches.example_paths	PASS	expected=scripts/v47_relationship_vocabulary_linter.py; scripts/v48_convergence_status_vocabulary_linter.py; scripts/v48_evidence_boundary_glossary_freshness_linter.py observed=scripts/v47_relationship_vocabulary_linter.py; scripts/v48_convergence_status_vocabulary_linter.py; scripts/v48_evidence_boundary_glossary_freshness_linter.py
 summary	summary_matches.n_boundaries	PASS	expected=27 observed=27
-summary	summary_matches.n_controls_represented	PASS	expected=47 observed=47
+summary	summary_matches.n_controls_represented	PASS	expected=49 observed=49
 summary	summary_matches.n_boundaries_without_failure_mode	PASS	expected=0 observed=0

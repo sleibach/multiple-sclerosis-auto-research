@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `47`
+- controls mapped: `49`
 - boundary classes: `27`
 - unmapped boundaries: `0`
 
@@ -27,10 +27,12 @@ Status: governance/navigation only. This matrix explains what each control preve
 | High-priority source-search query freshness linter | `future-search control` | future search queries are mistaken for integrated external records, corroboration, or biological evidence | `PASS` | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
 | Governance failure-mode matrix freshness linter | `governance mapping control` | control-to-failure-mode explanations drift from current governance navigation | `PASS` | `scripts/v48_governance_failure_mode_freshness_linter.py` |
 | Preflight summary card freshness linter | `handoff/navigation control` | handoff card drifts from current checks or commands | `PASS` | `scripts/v48_preflight_summary_card_freshness_linter.py` |
+| Unresolved external coverage handoff freshness linter | `handoff/navigation control` | handoff card drifts from current checks or commands | `PASS` | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
 | External Markdown index linter | `markdown provenance control` | generated Markdown drops source/provenance labels | `PASS` | `scripts/v47_external_markdown_index_linter.py` |
 | Governance navigation freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Public external index crosslink linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_crosslink_linter.py` |
 | Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_freshness_linter.py` |
+| Unresolved external coverage handoff | `queued tasks are not findings` | future tasks are misread as established results | `PASS` | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
 | V48 future-grounding queue | `queued tasks are not findings` | future tasks are misread as established results | `not_applicable` | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | Resource comparator freshness linter | `resource metadata control` | resource comparator metadata drifts from source records | `PASS` | `scripts/v48_resource_comparator_freshness_linter.py` |
 | External record schema linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v47_external_record_schema_linter.py` |

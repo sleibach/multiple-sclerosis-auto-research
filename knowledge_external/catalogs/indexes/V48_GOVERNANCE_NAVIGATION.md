@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `47`
+- artifacts tracked: `49`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -41,6 +41,8 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | Contradiction-intake linter | `yes` | `PASS` | Ensures future contradiction records remain queued for grounding. | future-grounding control | `scripts/v48_contradiction_intake_linter.py` |
 | Contradiction readiness freshness linter | `yes` | `PASS` | Ensures contradiction readiness playbook counts and stages match the current matrix. | future-grounding control | `scripts/v48_contradiction_readiness_freshness_linter.py` |
 | Contradiction surveillance freshness linter | `yes` | `PASS` | Ensures the contradiction surveillance checklist matches current matrix rows and high-priority sourcing plan rows. | future-grounding control | `scripts/v48_contradiction_surveillance_freshness_linter.py` |
+| Unresolved external coverage handoff | `yes` | `PASS` | Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions. | queued tasks are not findings | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
+| Unresolved external coverage handoff freshness linter | `yes` | `PASS` | Ensures the unresolved external coverage handoff matches current source-search, future-grounding, and surveillance inputs. | handoff/navigation control | `scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py` |
 | Source-domain review freshness linter | `yes` | `PASS` | Ensures the source-domain review matches current external records. | domain review control | `scripts/v48_source_domain_review_freshness_linter.py` |
 | Source-domain relationship freshness linter | `yes` | `PASS` | Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. | domain relationship control | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | Source-domain independence freshness linter | `yes` | `PASS` | Ensures the source-domain independence rollup matches the current row-level source-independence matrix. | domain relationship control | `scripts/v48_source_domain_independence_freshness_linter.py` |

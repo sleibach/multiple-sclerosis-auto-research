@@ -232,6 +232,20 @@ ARTIFACTS = [
         "boundary": "future-grounding control",
     },
     {
+        "artifact": "Unresolved external coverage handoff",
+        "path": "knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/unresolved_external_coverage_handoff_v48_summary.json",
+        "purpose": "Consolidated unresolved source-search, source-acceptance, future-grounding, and surveillance actions.",
+        "boundary": "queued tasks are not findings",
+    },
+    {
+        "artifact": "Unresolved external coverage handoff freshness linter",
+        "path": "scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py",
+        "summary": "analysis/v48_unresolved_external_coverage_handoff_freshness_linter/unresolved_external_coverage_handoff_freshness_lint_summary.json",
+        "purpose": "Ensures the unresolved external coverage handoff matches current source-search, future-grounding, and surveillance inputs.",
+        "boundary": "handoff/navigation control",
+    },
+    {
         "artifact": "Source-domain review freshness linter",
         "path": "scripts/v48_source_domain_review_freshness_linter.py",
         "summary": "analysis/v48_source_domain_review_freshness_linter/source_domain_review_freshness_lint_summary.json",

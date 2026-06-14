@@ -166,6 +166,19 @@ NODES = [
         "boundary": "future contradiction surveillance only",
     },
     {
+        "artifact": "Unresolved external coverage handoff",
+        "output": "knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md",
+        "inputs": [
+            "knowledge_external/synthesis/v37_external_coverage_gap_priority_v48.tsv",
+            "knowledge_external/synthesis/high_priority_external_sourcing_plan_v48.tsv",
+            "knowledge_external/synthesis/high_priority_source_search_queries_v48.tsv",
+            "knowledge_external/synthesis/future_grounding_queue_v48.tsv",
+            "knowledge_external/synthesis/contradiction_surveillance_checklist_v48.tsv",
+        ],
+        "controls": ["scripts/v48_unresolved_external_coverage_handoff_freshness_linter.py"],
+        "boundary": "handoff/navigation only",
+    },
+    {
         "artifact": "External source URL duplicate review",
         "output": "knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md",
         "inputs": ["knowledge_external/catalogs/records/"],
