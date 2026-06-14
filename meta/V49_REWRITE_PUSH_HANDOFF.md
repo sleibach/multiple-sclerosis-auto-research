@@ -38,15 +38,23 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T23:18:43Z`:
+Current push target checkpoint, verified at `2026-06-14T23:29:54Z`:
 
 - current branch: `main`
-- current HEAD: `ab729c7d9205b27fe37d112422d6dcbdda7f1c5a`
+- current HEAD: `87acda54823bb263a80469d7c1e6fd8221767e7c`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+87acda54 Refill V49 backlog after routing active-time audit
+e2fc0b56 Audit V49 active time after routing checkpoint
+82943a27 Record V49 clean state after routing audit checkpoint
+8d47cfec Refresh V49 checkpoints after routing audit guards
+aa861e0d Record V49 guard pass after routing audits
+5a20e419 Add V49 absent resource routing audit
+e73991a8 Add V49 contradiction routing audit
+551e3d0e Refresh V49 git integrity after routing refill
 ab729c7d Refill V49 backlog after routing freshness check
 d6bb1c7f Record V49 manifest routing freshness check
 fbea0c23 Audit V49 active time after guard checkpoint
@@ -54,14 +62,6 @@ fbea0c23 Audit V49 active time after guard checkpoint
 d00f4580 Refresh V49 checkpoints after guard pass
 27ce7552 Record V49 guard pass after handoff update
 6ae35eb5 Refresh V49 git integrity after handoff update
-3e234264 Refresh V49 handoff after checkpoint audit
-04b25d17 Refill V49 backlog after active-time audit
-4bcaba7b Audit V49 active time after clean-state checkpoint
-4b625ff3 Record V49 clean state after checkpoint refresh
-38e204b2 Refresh V49 checkpoints after token audit guards
-51ea0657 Record V49 guard pass after token audit handoff
-1afec495 Refresh V49 git integrity after token audit
-4422b904 Refresh V49 handoff after scheduled token audit
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop

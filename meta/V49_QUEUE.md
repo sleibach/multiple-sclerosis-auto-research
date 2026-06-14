@@ -208,7 +208,7 @@ tracked purge target is:
 | 153 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 152 | `meta/V49_QUEUE.md` |
 | 154 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 155 | medium | done | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
-| 156 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 156 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 157 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 158 | medium | todo | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
 | 159 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -1395,3 +1395,8 @@ tracked purge target is:
   expiry/sentinel check for the `2026-06-14T23:30:00Z` boundary.
 - Current cumulative active time at `2026-06-14T23:29:07Z`: `11931` seconds
   (`376` seconds session 1 plus `11555` seconds of current open session).
+- Task 156 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `87acda54823bb263a80469d7c1e6fd8221767e7c` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-14T23:30:15Z`: `11999` seconds
+  (`376` seconds session 1 plus `11623` seconds of current open session).
