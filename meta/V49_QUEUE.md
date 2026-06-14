@@ -161,7 +161,7 @@ tracked purge target is:
 | 105 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
 | 106 | medium | done | Refill V49 backlog above threshold if task 104 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 107 | high | done | Build a V49 gap-closure completeness audit from the relationship matrix, priority map, and pointer deliverable | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` |
-| 108 | medium | todo | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 108 | medium | done | Add the gap-closure completeness audit to the V49 reader quickstart if it improves navigation | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 109 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 108 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 110 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, large-file, and Git-blob guards after tasks 107-109 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 111 | medium | todo | Refresh final and resume checkpoints after task 110 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1044,3 +1044,8 @@ tracked purge target is:
   must be listed in the artifact manifest.
 - Current cumulative active time at `2026-06-14T22:39:28Z`: `8952` seconds
   (`376` seconds session 1 plus `8576` seconds of current open session).
+- Task 108 added `V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` to
+  `knowledge_external/synthesis/V49_READER_QUICKSTART.md` and
+  `knowledge_external/synthesis/v49_reader_quickstart.tsv`.
+- Current cumulative active time at `2026-06-14T22:40:30Z`: `9014` seconds
+  (`376` seconds session 1 plus `8638` seconds of current open session).
