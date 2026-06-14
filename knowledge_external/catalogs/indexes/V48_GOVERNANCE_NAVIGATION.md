@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `62`
+- artifacts tracked: `65`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -33,6 +33,7 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | AI Core tooling-health freshness linter | `yes` | `PASS` | Ensures the AI Core tooling-health handoff keeps reproducible command strings and truthful route statuses. | navigation control | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
 | RPT availability claim linter | `yes` | `PASS` | Prevents queue and external navigation text from claiming RPT availability through the wrong route or stale unavailable status. | navigation control | `scripts/v48_rpt_availability_claim_linter.py` |
 | Model-lens usage boundary freshness linter | `yes` | `PASS` | Ensures the model-lens usage boundary keeps required sections, route-specific RPT wording, and no-model-output-as-evidence rules. | navigation control | `scripts/v48_model_lens_usage_boundary_freshness_linter.py` |
+| Model-output evidence-claim linter | `yes` | `PASS` | Prevents model-lens output from being framed as evidence or validation in handoff/navigation text. | navigation control | `scripts/v48_model_evidence_claim_linter.py` |
 | Governance navigation freshness linter | `yes` | `PASS` | Ensures governance navigation remains aligned with the current preflight suite. | navigation control | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Preflight summary card freshness linter | `yes` | `PASS` | Ensures the V48 preflight summary card matches current component summaries and command handoff. | handoff/navigation control | `scripts/v48_preflight_summary_card_freshness_linter.py` |
 | Convergence executive-card freshness linter | `yes` | `PASS` | Ensures the V48 convergence/contradiction executive card matches current relationship, independence, gap-priority, and preflight summaries. | synthesis coverage control | `scripts/v48_convergence_executive_card_freshness_linter.py` |
@@ -48,6 +49,8 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | High-priority source intake checklist freshness linter | `yes` | `PASS` | Ensures the high-priority source intake checklist matches the current source plan and query packet. | future-search control | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | Source-intake operator quickstart | `yes` | `PASS` | Operator guide mapping source-search hits through checklist-based segregated intake. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
 | Source-intake operator quickstart freshness linter | `yes` | `PASS` | Ensures the source-intake operator quickstart keeps required workflow sections, links, and boundary phrases. | future-search control | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
+| Source-intake package manifest | `yes` | `PASS` | Package-level routing manifest tying source search, checklist, quickstart, reader brief, and future-grounding queue. | future-search control | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
+| Source-intake package manifest freshness linter | `yes` | `PASS` | Ensures the source-intake package manifest keeps required components, operator steps, commands, and boundary phrases. | future-search control | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Relationship-matrix data dictionary freshness linter | `yes` | `PASS` | Ensures the V48 relationship-matrix data dictionary matches the current matrix header and controlled vocabularies. | schema control | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |

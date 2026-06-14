@@ -128,7 +128,14 @@ span across resume gaps.
 | 100 | medium | done | Add model-output-as-evidence wording scanner for V48 queue and external navigation artifacts | `scripts/v48_model_evidence_claim_linter.py` |
 | 101 | medium | done | Build source-intake package manifest tying search packet, checklist, quickstart, and reader brief | `knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md` |
 | 102 | medium | done | Add source-intake package manifest freshness linter | `scripts/v48_source_intake_package_manifest_freshness_linter.py` |
-| 103 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 103 | medium | done | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 96-102 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 104 | medium | todo | Build source-hit acceptance decision tree for future external-source intake | `knowledge_external/templates/SOURCE_HIT_ACCEPTANCE_DECISION_TREE_V48.md` |
+| 105 | medium | todo | Add source-hit acceptance decision tree freshness linter | `scripts/v48_source_hit_acceptance_decision_tree_freshness_linter.py` |
+| 106 | medium | todo | Build relationship-row candidate template for future convergence/contradiction candidates | `knowledge_external/templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md` |
+| 107 | medium | todo | Add relationship-row candidate template freshness linter | `scripts/v48_relationship_row_candidate_template_freshness_linter.py` |
+| 108 | medium | todo | Add source-hit package links to public index, governance navigation, and preflight | `knowledge_external/INDEX.md` |
+| 109 | medium | todo | Build external contradiction triage mini-template for future source hits | `knowledge_external/templates/CONTRADICTION_TRIAGE_MINI_TEMPLATE_V48.md` |
+| 110 | medium | todo | Add contradiction triage mini-template freshness linter | `scripts/v48_contradiction_triage_mini_template_freshness_linter.py` |
 
 ## Iteration Notes
 
@@ -1432,5 +1439,18 @@ span across resume gaps.
   - boundary: template/navigation freshness only; no searches run and no
     external claims integrated.
 - Final gates after task 102:
+  - external Markdown linter: PASS (`297` checks, `45` Markdown files);
+  - V47 provenance gate: PASS (`359` checks, `39` external JSON records).
+- Current open-session active time at `2026-06-14T17:57:33Z`: `16530` seconds.
+- Rebuilt public external index, generated governance outputs, preflight, and grounded TF-IDF index after tasks 96-102:
+  - public external index links include the model-lens boundary and source-intake package manifest;
+  - dependency graph: `32` artifact nodes, `103` dependency/control edges;
+  - governance navigation: `65` artifacts, `0` missing artifacts, `0` summaries with failures;
+  - governance failure-mode matrix: `65` controls, `27` boundary classes, `0` unmapped boundaries;
+  - governance preflight: PASS with `50` checks and `0` failures;
+  - TF-IDF index rebuilt with `727` grounded-tree documents; `knowledge_external/`
+    remains excluded from grounded TF-IDF globs.
+- Added follow-up tasks 104-110 to keep the executable backlog above threshold.
+- Final gates after task 103:
   - external Markdown linter: PASS (`297` checks, `45` Markdown files);
   - V47 provenance gate: PASS (`359` checks, `39` external JSON records).

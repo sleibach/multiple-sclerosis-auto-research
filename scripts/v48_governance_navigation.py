@@ -176,6 +176,13 @@ ARTIFACTS = [
         "boundary": "navigation control",
     },
     {
+        "artifact": "Model-output evidence-claim linter",
+        "path": "scripts/v48_model_evidence_claim_linter.py",
+        "summary": "analysis/v48_model_evidence_claim_linter/model_evidence_claim_lint_summary.json",
+        "purpose": "Prevents model-lens output from being framed as evidence or validation in handoff/navigation text.",
+        "boundary": "navigation control",
+    },
+    {
         "artifact": "Governance navigation freshness linter",
         "path": "scripts/v48_governance_navigation_freshness_linter.py",
         "summary": "analysis/v48_governance_navigation_freshness_linter/governance_navigation_freshness_lint_summary.json",
@@ -278,6 +285,20 @@ ARTIFACTS = [
         "path": "scripts/v48_source_intake_operator_quickstart_freshness_linter.py",
         "summary": "analysis/v48_source_intake_operator_quickstart_freshness_linter/source_intake_operator_quickstart_freshness_lint_summary.json",
         "purpose": "Ensures the source-intake operator quickstart keeps required workflow sections, links, and boundary phrases.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "Source-intake package manifest",
+        "path": "knowledge_external/templates/SOURCE_INTAKE_PACKAGE_MANIFEST_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/source_intake_package_manifest_v48_summary.json",
+        "purpose": "Package-level routing manifest tying source search, checklist, quickstart, reader brief, and future-grounding queue.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "Source-intake package manifest freshness linter",
+        "path": "scripts/v48_source_intake_package_manifest_freshness_linter.py",
+        "summary": "analysis/v48_source_intake_package_manifest_freshness_linter/source_intake_package_manifest_freshness_lint_summary.json",
+        "purpose": "Ensures the source-intake package manifest keeps required components, operator steps, commands, and boundary phrases.",
         "boundary": "future-search control",
     },
     {
