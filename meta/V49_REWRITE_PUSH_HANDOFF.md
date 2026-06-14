@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T22:54:38Z`:
+Current push target checkpoint, verified at `2026-06-14T23:03:19Z`:
 
 - current branch: `main`
-- current HEAD: `8d7be7f3444fd66202c7f2c18515191247051523`
+- current HEAD: `3a978397f6bbda5e990f22ab58ce97e056dfb14e`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+3a978397 Refill V49 backlog after active time audit
+3e5688b3 Audit V49 active time after scheduled token check
+2f460d61 Record V49 scheduled OpenGWAS and clean state
+ff22782c Refresh V49 checkpoints after routing cleanup guards
+f7e180ce Record V49 guard pass after routing cleanup
+2542bbdd Refresh V49 git integrity after routing cleanup
+17cb003e Refresh V49 handoff after routing cleanup
 8d7be7f3 Refill V49 backlog and close token duplicates
 2b5ff806 Record V49 gap audit routing consistency
 62f09f13 Audit V49 active time after gap routing stretch
@@ -58,13 +65,6 @@ fed1e81f Refresh V49 handoff after gap checkpoint
 b731b510 Record V49 clean state after gap audit checkpoint
 d9473578 Refresh V49 checkpoints after gap audit guards
 2f6ed2b0 Record V49 gap audit guard pass
-bd35d5b4 Refresh V49 handoff after gap audit
-63f3cb33 Refresh V49 manifest for gap audit
-97a1911b Route V49 quickstart to gap closure audit
-4ce2c685 Add V49 gap closure completeness audit
-e9721678 Refill V49 backlog with gap audit
-bed8a086 Audit V49 active time after integrity stretch
-80f4a22f Record V49 clean state after integrity checkpoints
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
