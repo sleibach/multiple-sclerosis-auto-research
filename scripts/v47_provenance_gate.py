@@ -63,6 +63,7 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_preflight_summary_card_freshness_linter/",
     "analysis/v48_project_finding_reference_linter/",
     "analysis/v48_source_domain_relationship_freshness_linter/",
+    "analysis/v48_source_domain_independence_freshness_linter/",
     "analysis/v48_source_domain_review_freshness_linter/",
     "analysis/v48_source_locator_normalization_linter/",
     "analysis/v48_source_url_duplicate_freshness_linter/",

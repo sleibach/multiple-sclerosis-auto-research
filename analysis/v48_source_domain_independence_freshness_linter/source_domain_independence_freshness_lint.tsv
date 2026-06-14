@@ -1,0 +1,92 @@
+source_domain	check	status	detail
+dailymed.nlm.nih.gov	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+dailymed.nlm.nih.gov	field_matches.source_domain	PASS	expected=dailymed.nlm.nih.gov observed=dailymed.nlm.nih.gov
+dailymed.nlm.nih.gov	field_matches.matrix_rows	PASS	expected=4 observed=4
+dailymed.nlm.nih.gov	field_matches.canonical_source_clusters	PASS	expected=2 observed=2
+dailymed.nlm.nih.gov	field_matches.decision_relationship_rows	PASS	expected=0 observed=0
+dailymed.nlm.nih.gov	field_matches.convergence_rows	PASS	expected=0 observed=0
+dailymed.nlm.nih.gov	field_matches.contradiction_rows	PASS	expected=0 observed=0
+dailymed.nlm.nih.gov	field_matches.insufficient_overlap_rows	PASS	expected=4 observed=4
+dailymed.nlm.nih.gov	field_matches.relationship_counts	PASS	expected=insufficient-overlap:4 observed=insufficient-overlap:4
+dailymed.nlm.nih.gov	field_matches.synthesis_status_counts	PASS	expected=NO_DIRECT_EXTERNAL_CORROBORATION:4 observed=NO_DIRECT_EXTERNAL_CORROBORATION:4
+dailymed.nlm.nih.gov	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:4 observed=not_decision_relationship:4
+dailymed.nlm.nih.gov	field_matches.canonical_source_urls	PASS	expected=https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d;https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a observed=https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d;https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a
+dailymed.nlm.nih.gov	field_matches.grounded_findings	PASS	expected=Bounded APC/HLA-II early treatment-response monitoring scalar;Coupled-axis successor rule does not beat scalar;T/B-readable early IFN/APC/STAT1 monitoring state;V22 scalar is immune-tone bounded, not steroid/composition artifact observed=Bounded APC/HLA-II early treatment-response monitoring scalar;Coupled-axis successor rule does not beat scalar;T/B-readable early IFN/APC/STAT1 monitoring state;V22 scalar is immune-tone bounded, not steroid/composition artifact
+dailymed.nlm.nih.gov	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+disgenet.com	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+disgenet.com	field_matches.source_domain	PASS	expected=disgenet.com observed=disgenet.com
+disgenet.com	field_matches.matrix_rows	PASS	expected=1 observed=1
+disgenet.com	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+disgenet.com	field_matches.decision_relationship_rows	PASS	expected=0 observed=0
+disgenet.com	field_matches.convergence_rows	PASS	expected=0 observed=0
+disgenet.com	field_matches.contradiction_rows	PASS	expected=0 observed=0
+disgenet.com	field_matches.insufficient_overlap_rows	PASS	expected=1 observed=1
+disgenet.com	field_matches.relationship_counts	PASS	expected=insufficient-overlap:1 observed=insufficient-overlap:1
+disgenet.com	field_matches.synthesis_status_counts	PASS	expected=RESOURCE_CAN_QUEUE_FUTURE_CHECK:1 observed=RESOURCE_CAN_QUEUE_FUTURE_CHECK:1
+disgenet.com	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:1 observed=not_decision_relationship:1
+disgenet.com	field_matches.canonical_source_urls	PASS	expected=https://disgenet.com/ observed=https://disgenet.com/
+disgenet.com	field_matches.grounded_findings	PASS	expected=ZMIZ1 opposite-direction MS/Crohn decoupling observed=ZMIZ1 opposite-direction MS/Crohn decoupling
+disgenet.com	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+ngdc.cncb.ac.cn	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+ngdc.cncb.ac.cn	field_matches.source_domain	PASS	expected=ngdc.cncb.ac.cn observed=ngdc.cncb.ac.cn
+ngdc.cncb.ac.cn	field_matches.matrix_rows	PASS	expected=2 observed=2
+ngdc.cncb.ac.cn	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+ngdc.cncb.ac.cn	field_matches.decision_relationship_rows	PASS	expected=0 observed=0
+ngdc.cncb.ac.cn	field_matches.convergence_rows	PASS	expected=0 observed=0
+ngdc.cncb.ac.cn	field_matches.contradiction_rows	PASS	expected=0 observed=0
+ngdc.cncb.ac.cn	field_matches.insufficient_overlap_rows	PASS	expected=2 observed=2
+ngdc.cncb.ac.cn	field_matches.relationship_counts	PASS	expected=insufficient-overlap:2 observed=insufficient-overlap:2
+ngdc.cncb.ac.cn	field_matches.synthesis_status_counts	PASS	expected=NO_DIRECT_EXTERNAL_CORROBORATION:2 observed=NO_DIRECT_EXTERNAL_CORROBORATION:2
+ngdc.cncb.ac.cn	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:2 observed=not_decision_relationship:2
+ngdc.cncb.ac.cn	field_matches.canonical_source_urls	PASS	expected=https://ngdc.cncb.ac.cn/databasecommons/database/id/9285 observed=https://ngdc.cncb.ac.cn/databasecommons/database/id/9285
+ngdc.cncb.ac.cn	field_matches.grounded_findings	PASS	expected=Coupled APC remodeling architecture;No validated broad immune-state simulator from held data observed=Coupled APC remodeling architecture;No validated broad immune-state simulator from held data
+ngdc.cncb.ac.cn	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+www.ebi.ac.uk	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+www.ebi.ac.uk	field_matches.source_domain	PASS	expected=www.ebi.ac.uk observed=www.ebi.ac.uk
+www.ebi.ac.uk	field_matches.matrix_rows	PASS	expected=1 observed=1
+www.ebi.ac.uk	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+www.ebi.ac.uk	field_matches.decision_relationship_rows	PASS	expected=0 observed=0
+www.ebi.ac.uk	field_matches.convergence_rows	PASS	expected=0 observed=0
+www.ebi.ac.uk	field_matches.contradiction_rows	PASS	expected=0 observed=0
+www.ebi.ac.uk	field_matches.insufficient_overlap_rows	PASS	expected=1 observed=1
+www.ebi.ac.uk	field_matches.relationship_counts	PASS	expected=insufficient-overlap:1 observed=insufficient-overlap:1
+www.ebi.ac.uk	field_matches.synthesis_status_counts	PASS	expected=RESOURCE_CAN_QUEUE_FUTURE_CHECK:1 observed=RESOURCE_CAN_QUEUE_FUTURE_CHECK:1
+www.ebi.ac.uk	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:1 observed=not_decision_relationship:1
+www.ebi.ac.uk	field_matches.canonical_source_urls	PASS	expected=https://www.ebi.ac.uk/gwas observed=https://www.ebi.ac.uk/gwas
+www.ebi.ac.uk	field_matches.grounded_findings	PASS	expected=chr1 KIF21B/GPR25 locus resolves to real biology but hard target observed=chr1 KIF21B/GPR25 locus resolves to real biology but hard target
+www.ebi.ac.uk	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+www.nationalmssociety.org	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+www.nationalmssociety.org	field_matches.source_domain	PASS	expected=www.nationalmssociety.org observed=www.nationalmssociety.org
+www.nationalmssociety.org	field_matches.matrix_rows	PASS	expected=1 observed=1
+www.nationalmssociety.org	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+www.nationalmssociety.org	field_matches.decision_relationship_rows	PASS	expected=0 observed=0
+www.nationalmssociety.org	field_matches.convergence_rows	PASS	expected=0 observed=0
+www.nationalmssociety.org	field_matches.contradiction_rows	PASS	expected=0 observed=0
+www.nationalmssociety.org	field_matches.insufficient_overlap_rows	PASS	expected=1 observed=1
+www.nationalmssociety.org	field_matches.relationship_counts	PASS	expected=insufficient-overlap:1 observed=insufficient-overlap:1
+www.nationalmssociety.org	field_matches.synthesis_status_counts	PASS	expected=NO_DIRECT_EXTERNAL_CORROBORATION:1 observed=NO_DIRECT_EXTERNAL_CORROBORATION:1
+www.nationalmssociety.org	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:1 observed=not_decision_relationship:1
+www.nationalmssociety.org	field_matches.canonical_source_urls	PASS	expected=https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms observed=https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms
+www.nationalmssociety.org	field_matches.grounded_findings	PASS	expected=Postpartum HLA-II/CD64 APC-arm imbalance observed=Postpartum HLA-II/CD64 APC-arm imbalance
+www.nationalmssociety.org	field_matches.interpretation_boundary	PASS	expected=Insufficient-overlap/resource context only; not external corroboration or contradiction. observed=Insufficient-overlap/resource context only; not external corroboration or contradiction.
+www.nature.com	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/source_domain_independence_rollup_v48.tsv
+www.nature.com	field_matches.source_domain	PASS	expected=www.nature.com observed=www.nature.com
+www.nature.com	field_matches.matrix_rows	PASS	expected=3 observed=3
+www.nature.com	field_matches.canonical_source_clusters	PASS	expected=1 observed=1
+www.nature.com	field_matches.decision_relationship_rows	PASS	expected=2 observed=2
+www.nature.com	field_matches.convergence_rows	PASS	expected=2 observed=2
+www.nature.com	field_matches.contradiction_rows	PASS	expected=0 observed=0
+www.nature.com	field_matches.insufficient_overlap_rows	PASS	expected=1 observed=1
+www.nature.com	field_matches.relationship_counts	PASS	expected=converges:2;insufficient-overlap:1 observed=converges:2;insufficient-overlap:1
+www.nature.com	field_matches.synthesis_status_counts	PASS	expected=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1 observed=CORROBORATION_FROM_INDEPENDENT_SOURCE:2;GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION:1
+www.nature.com	field_matches.source_independence_classes	PASS	expected=not_decision_relationship:1;shared_source_cluster:2 observed=not_decision_relationship:1;shared_source_cluster:2
+www.nature.com	field_matches.canonical_source_urls	PASS	expected=https://www.nature.com/articles/s41467-021-25768-0 observed=https://www.nature.com/articles/s41467-021-25768-0
+www.nature.com	field_matches.grounded_findings	PASS	expected=Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer observed=Layer-specific autoimmune transfer-validity map;MS-UC is strongest tested genome-wide genetics comparator;PTGER4 mixed shared/distinct signal closes naive transfer
+www.nature.com	field_matches.interpretation_boundary	PASS	expected=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations. observed=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations.
+summary	summary_matches.n_source_domains	PASS	expected=6 observed=6
+summary	summary_matches.n_matrix_rows	PASS	expected=12 observed=12
+summary	summary_matches.n_canonical_source_clusters	PASS	expected=7 observed=7
+summary	summary_matches.n_decision_relationship_rows	PASS	expected=2 observed=2
+summary	summary_matches.n_decision_canonical_source_clusters	PASS	expected=1 observed=1
+summary	summary_matches.n_domains_with_convergence	PASS	expected=1 observed=1
+summary	summary_matches.n_domains_with_contradiction	PASS	expected=0 observed=0

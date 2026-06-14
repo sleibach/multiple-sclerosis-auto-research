@@ -92,7 +92,7 @@ Public external index crosslink linter||scripts/v48_public_index_crosslink_linte
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.boundary	PASS	navigation=navigation control matrix=navigation control
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures required V48 external artifacts are linked from the public external index. matrix=Ensures required V48 external artifacts are linked from the public external index.
-Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
+Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 Public external index freshness linter||scripts/v48_public_index_freshness_linter.py	failure_mode_mapped	PASS	public or operator navigation becomes stale and hides required artifacts
 Relationship vocabulary linter||scripts/v47_relationship_vocabulary_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Relationship vocabulary linter||scripts/v47_relationship_vocabulary_linter.py	field_matches.boundary	PASS	navigation=vocabulary control matrix=vocabulary control
@@ -119,6 +119,11 @@ Source locator normalization linter||scripts/v48_source_locator_normalization_li
 Source locator normalization linter||scripts/v48_source_locator_normalization_linter.py	field_matches.purpose	PASS	navigation=Source locator shape checks for external records. matrix=Source locator shape checks for external records.
 Source locator normalization linter||scripts/v48_source_locator_normalization_linter.py	field_matches.overall_status	PASS	navigation=PASS matrix=PASS
 Source locator normalization linter||scripts/v48_source_locator_normalization_linter.py	failure_mode_mapped	PASS	source locators become malformed or non-normalized
+Source-domain independence freshness linter||scripts/v48_source_domain_independence_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
+Source-domain independence freshness linter||scripts/v48_source_domain_independence_freshness_linter.py	field_matches.boundary	PASS	navigation=domain relationship control matrix=domain relationship control
+Source-domain independence freshness linter||scripts/v48_source_domain_independence_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the source-domain independence rollup matches the current row-level source-independence matrix. matrix=Ensures the source-domain independence rollup matches the current row-level source-independence matrix.
+Source-domain independence freshness linter||scripts/v48_source_domain_independence_freshness_linter.py	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
+Source-domain independence freshness linter||scripts/v48_source_domain_independence_freshness_linter.py	failure_mode_mapped	PASS	source-domain relationship rollups drift from records or matrix rows
 Source-domain relationship freshness linter||scripts/v48_source_domain_relationship_freshness_linter.py	present_in_matrix	PASS	/Users/soeren.leibach/Projects/ms-auto-research/knowledge_external/catalogs/indexes/governance_failure_mode_matrix_v48.tsv
 Source-domain relationship freshness linter||scripts/v48_source_domain_relationship_freshness_linter.py	field_matches.boundary	PASS	navigation=domain relationship control matrix=domain relationship control
 Source-domain relationship freshness linter||scripts/v48_source_domain_relationship_freshness_linter.py	field_matches.purpose	PASS	navigation=Ensures the source-domain relationship rollup matches current external records and V48 matrix rows. matrix=Ensures the source-domain relationship rollup matches current external records and V48 matrix rows.
@@ -194,4 +199,4 @@ V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVE
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.purpose	PASS	navigation=Source-terms metadata coverage and conservative reuse-note map. matrix=Source-terms metadata coverage and conservative reuse-note map.
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	field_matches.overall_status	PASS	navigation=not_applicable matrix=not_applicable
 V48 source-terms coverage||knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md	failure_mode_mapped	PASS	terms-review metadata is mistaken for reuse permission
-summary	summary_control_count_matches_matrix	PASS	summary=39 matrix=39
+summary	summary_control_count_matches_matrix	PASS	summary=40 matrix=40

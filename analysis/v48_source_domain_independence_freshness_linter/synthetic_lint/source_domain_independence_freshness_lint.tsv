@@ -1,0 +1,24 @@
+source_domain	check	status	detail
+example.org	domain_present_in_rollup	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_domain_independence_freshness_linter/synthetic_rollup.tsv
+example.org	field_matches.source_domain	PASS	expected=example.org observed=example.org
+example.org	field_matches.matrix_rows	PASS	expected=1 observed=1
+example.org	field_matches.canonical_source_clusters	FAIL	expected=1 observed=2
+example.org	field_matches.decision_relationship_rows	PASS	expected=1 observed=1
+example.org	field_matches.convergence_rows	PASS	expected=1 observed=1
+example.org	field_matches.contradiction_rows	PASS	expected=0 observed=0
+example.org	field_matches.insufficient_overlap_rows	PASS	expected=0 observed=0
+example.org	field_matches.relationship_counts	PASS	expected=converges:1 observed=converges:1
+example.org	field_matches.synthesis_status_counts	PASS	expected=OK:1 observed=OK:1
+example.org	field_matches.source_independence_classes	PASS	expected=single_row_source:1 observed=single_row_source:1
+example.org	field_matches.canonical_source_urls	PASS	expected=https://example.org/a observed=https://example.org/a
+example.org	field_matches.grounded_findings	PASS	expected=Finding A observed=Finding A
+example.org	field_matches.interpretation_boundary	PASS	expected=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations. observed=Decision-relevant convergence is present, but the domain contributes one canonical source cluster; do not count multiple rows as independent corroborations.
+missing.example.org	domain_present_in_rollup	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_source_domain_independence_freshness_linter/synthetic_rollup.tsv
+extra.example.org	no_extra_domain_rollup_row	FAIL	domain not present in current source-independence matrix
+summary	summary_matches.n_source_domains	FAIL	expected=2 observed=99
+summary	summary_matches.n_matrix_rows	FAIL	expected=2 observed=99
+summary	summary_matches.n_canonical_source_clusters	FAIL	expected=2 observed=99
+summary	summary_matches.n_decision_relationship_rows	FAIL	expected=1 observed=
+summary	summary_matches.n_decision_canonical_source_clusters	FAIL	expected=1 observed=
+summary	summary_matches.n_domains_with_convergence	FAIL	expected=1 observed=
+summary	summary_matches.n_domains_with_contradiction	FAIL	expected=0 observed=

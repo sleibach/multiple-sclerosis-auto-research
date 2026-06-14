@@ -211,6 +211,13 @@ ARTIFACTS = [
         "boundary": "domain relationship control",
     },
     {
+        "artifact": "Source-domain independence freshness linter",
+        "path": "scripts/v48_source_domain_independence_freshness_linter.py",
+        "summary": "analysis/v48_source_domain_independence_freshness_linter/source_domain_independence_freshness_lint_summary.json",
+        "purpose": "Ensures the source-domain independence rollup matches the current row-level source-independence matrix.",
+        "boundary": "domain relationship control",
+    },
+    {
         "artifact": "Source URL duplicate freshness linter",
         "path": "scripts/v48_source_url_duplicate_freshness_linter.py",
         "summary": "analysis/v48_source_url_duplicate_freshness_linter/source_url_duplicate_freshness_lint_summary.json",

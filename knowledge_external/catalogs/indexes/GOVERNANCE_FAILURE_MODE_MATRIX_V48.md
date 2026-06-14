@@ -2,7 +2,7 @@
 
 Status: governance/navigation only. This matrix explains what each control prevents; it does not validate external claims.
 
-- controls mapped: `39`
+- controls mapped: `40`
 - boundary classes: `24`
 - unmapped boundaries: `0`
 
@@ -12,6 +12,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 |---|---|---|---|---|
 | External claim-length safety linter | `copyright/provenance hygiene control` | external summaries become oversized copied source passages | `PASS` | `scripts/v48_external_claim_length_linter.py` |
 | V48 source-domain review | `domain maintenance only` | domain classifications are overread as source-validity claims | `PASS` | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
+| Source-domain independence freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `not_applicable` | `scripts/v48_source_domain_independence_freshness_linter.py` |
 | Source-domain relationship freshness linter | `domain relationship control` | source-domain relationship rollups drift from records or matrix rows | `PASS` | `scripts/v48_source_domain_relationship_freshness_linter.py` |
 | Source-domain review freshness linter | `domain review control` | source-domain classifications become stale | `PASS` | `scripts/v48_source_domain_review_freshness_linter.py` |
 | V48 convergence/contradiction analysis | `external agreement is context; project artifacts remain evidence` | external agreement is over-promoted into evidence | `PASS` | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
@@ -25,7 +26,7 @@ Status: governance/navigation only. This matrix explains what each control preve
 | External Markdown index linter | `markdown provenance control` | generated Markdown drops source/provenance labels | `PASS` | `scripts/v47_external_markdown_index_linter.py` |
 | Governance navigation freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_governance_navigation_freshness_linter.py` |
 | Public external index crosslink linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_crosslink_linter.py` |
-| Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `not_applicable` | `scripts/v48_public_index_freshness_linter.py` |
+| Public external index freshness linter | `navigation control` | public or operator navigation becomes stale and hides required artifacts | `PASS` | `scripts/v48_public_index_freshness_linter.py` |
 | V48 future-grounding queue | `queued tasks are not findings` | future tasks are misread as established results | `not_applicable` | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | Resource comparator freshness linter | `resource metadata control` | resource comparator metadata drifts from source records | `PASS` | `scripts/v48_resource_comparator_freshness_linter.py` |
 | External record schema linter | `schema control` | external records lack mandatory source, class, marker, or relationship fields | `PASS` | `scripts/v47_external_record_schema_linter.py` |
