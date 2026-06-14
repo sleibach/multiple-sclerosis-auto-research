@@ -167,7 +167,15 @@ tracked purge target is:
 | 111 | medium | done | Refresh final and resume checkpoints after task 110 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 112 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 111 | `meta/V49_QUEUE.md` |
 | 113 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
-| 114 | medium | todo | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 114 | medium | done | Refill V49 backlog above threshold if task 112 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
+| 116 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 112 and backlog refill | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 117 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after task 116 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 118 | medium | todo | Refresh final and resume checkpoints after task 117 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 119 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 118 | `meta/V49_QUEUE.md` |
+| 120 | medium | todo | Audit active-time accounting after the next session stretch | `meta/V49_QUEUE.md` |
+| 121 | medium | todo | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:00:00Z` | `meta/V49_QUEUE.md` |
+| 122 | medium | todo | Recheck manifest and quickstart routing for the gap audit and convergence pointer after task 117 | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 123 | medium | todo | Refill V49 backlog above threshold if task 122 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1083,3 +1091,10 @@ tracked purge target is:
   files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
 - Current cumulative active time at `2026-06-14T22:46:36Z`: `9380` seconds
   (`376` seconds session 1 plus `9004` seconds of current open session).
+- Task 114 refilled the backlog above threshold after task 112. Task 113 remains
+  the scheduled OpenGWAS check for `2026-06-14T23:00:00Z`; new tasks `116`
+  through `123` keep handoff, guards, checkpoints, clean-state checks,
+  active-time accounting, scheduled token state, and gap-audit navigation
+  consistency current.
+- Current cumulative active time at `2026-06-14T22:47:09Z`: `9413` seconds
+  (`376` seconds session 1 plus `9037` seconds of current open session).
