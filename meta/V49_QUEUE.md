@@ -67,7 +67,7 @@ tracked purge target is:
 | 11 | high | done | Review the 16 insufficient-overlap rows and rank which future tests are genuinely groundable versus context-only | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
 | 12 | high | done | Inspect the 9 remaining medium uncovered V37 findings and decide whether direct-source intake is warranted or would risk false corroboration | `knowledge_external/synthesis/V49_UNCOVERED_FINDING_TRIAGE.md` |
 | 13 | medium | done | Add source-terms metadata or review notes for the 8 V49-added records where a quick conservative source-terms classification is possible | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
-| 14 | medium | todo | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md` |
+| 14 | medium | done | Build a concise V49 relationship-delta note for the medical-team reader: what was newly corroborated, what stayed insufficient-overlap, and what contradictions remain absent | `knowledge_external/synthesis/V49_RELATIONSHIP_DELTA_NOTE.md` |
 | 15 | medium | todo | Run a source-domain review of the newly added sources and decide whether any require access/terms parking before future reuse | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | 16 | medium | todo | Re-run full external governance and large-file safety checks after the next content task before committing | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
 | 17 | high | todo | Expand the three source-specific high-actionability import routes into concrete future work packets: ZMIZ1, chr1 KIF21B/GPR25, and coupled APC architecture | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md` |
@@ -180,3 +180,13 @@ tracked purge target is:
   PASS, V47 provenance gate PASS.
 - Current cumulative active time at `2026-06-14T20:33:00Z`: `1364` seconds
   (`376` seconds session 1 plus `988` seconds of current open session).
+- Task 14 added `knowledge_external/synthesis/V49_RELATIONSHIP_DELTA_NOTE.md`
+  and `knowledge_external/synthesis/v49_relationship_delta_note.tsv`.
+  It summarizes the V49 delta: matrix size `12 -> 23`, corroboration-context
+  rows `2 -> 7`, contradiction rows `0 -> 0`, insufficient-overlap rows
+  `10 -> 16`, and high-priority V37 external coverage gaps `11 -> 0`.
+- Post-task gates: external Markdown linter PASS (`361` checks, `63`
+  Markdown files); V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures).
+- Current cumulative active time at `2026-06-14T20:34:31Z`: `1455` seconds
+  (`376` seconds session 1 plus `1079` seconds of current open session).
