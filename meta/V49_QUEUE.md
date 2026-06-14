@@ -185,7 +185,7 @@ tracked purge target is:
 | 130 | medium | done | Refill V49 backlog above threshold if task 129 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
 | 131 | medium | done | Refresh rewrite/push handoff to latest HEAD after scheduled token and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 132 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 133 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 131-132 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 133 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 131-132 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 134 | medium | todo | Refresh final and resume checkpoints after task 133 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 135 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 134 | `meta/V49_QUEUE.md` |
 | 136 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1223,3 +1223,13 @@ tracked purge target is:
   garbage.
 - Current cumulative active time at `2026-06-14T23:04:11Z`: `10435` seconds
   (`376` seconds session 1 plus `10059` seconds of current open session).
+- Task 133 reran guards after the handoff and Git integrity updates. Results:
+  V47 provenance gate PASS (`436` checks, `47` external JSON records, `0`
+  failures), public-index freshness PASS (`50` checks), public-index crosslinks
+  PASS (`73` links), external Markdown/index lint PASS (`376` checks, `78`
+  Markdown files), gap-audit and convergence-pointer routing PASS, tracked
+  large-file guard PASS (`0` tracked files above `50 MiB`), and Git blob guard
+  PASS (`0` blobs above `50 MiB`). The guard outputs did not modify tracked
+  files.
+- Current cumulative active time at `2026-06-14T23:06:02Z`: `10546` seconds
+  (`376` seconds session 1 plus `10170` seconds of current open session).
