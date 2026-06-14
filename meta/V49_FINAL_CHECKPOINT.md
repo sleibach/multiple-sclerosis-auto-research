@@ -5,12 +5,12 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T22:34:56Z`
+- checkpoint_utc: `2026-06-14T22:44:26Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `8680`
+- cumulative_active_seconds_at_checkpoint: `9250`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -21,7 +21,7 @@ time between session 1 and session 2 is excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `f883056bf4e6a287fd0eb3fc8c5da3fd22a016c5`
+  `2f6ed2b0d21185ca47b81d6bd835e7396c49756b`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -82,7 +82,7 @@ force-push.
   `0` failures).
 - Public index freshness: PASS (`50` checks).
 - Public index crosslinks: PASS (`73` links).
-- External Markdown/index linter: PASS (`375` checks, `77` Markdown files).
+- External Markdown/index linter: PASS (`376` checks, `78` Markdown files).
 - Docs convergence pointer consistency: PASS.
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
 - OpenGWAS: PASS at `2026-06-14T22:01:47Z`; token valid until
@@ -97,9 +97,9 @@ Recommended next internally executable tasks:
 
 1. Mark task `80` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `105` if active work reaches `2026-06-14T23:00:00Z`: rerun
+2. Complete task `113` if active work reaches `2026-06-14T23:00:00Z`: rerun
    OpenGWAS expiry/sentinel check.
-3. Complete task `103`: verify final working-tree cleanliness and tracked-size
+3. Complete task `112`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.
