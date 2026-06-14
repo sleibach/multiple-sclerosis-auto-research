@@ -16,6 +16,7 @@ right artifact. It does not add evidence or change any finding.
 | Which external agreements count as independent source clusters? | `V49_SOURCE_INDEPENDENCE_DELTA.md` | Prevents counting `7` rows as `7` independent corroborations; the correct source-cluster count is `5`. |
 | Are there contradictions? | `V49_ZERO_CONTRADICTION_CAVEAT.md` | Explains why `0` current contradiction rows is not the same thing as consensus. |
 | Which future contradictions should be watched? | `V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` | Lists the rows where same-definition future sources could create real tension. |
+| If a future contradiction appears, where does it route? | `V49_CONTRADICTION_ROUTING_AUDIT.md` | Confirms every surveillance row has a future-grounding route and safe non-overriding action. |
 | Is the V22 validation path already covered? | `V49_VALIDATION_READY_ROW_CROSSCHECK.md` | Shows the primary V22 and confounder/batch guardrails are covered by V42/V44. |
 | Which rows need source-specific intake? | `V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` | Defines acceptance gates for ZMIZ1, chr1 KIF21B/GPR25, and coupled APC-axis records. |
 | How do those import packets relate to the future-grounding queue? | `V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md` | Maps broad generated queue rows to stricter V49 field gates. |
@@ -34,7 +35,8 @@ If resuming V49/V50 with little context, read in this order:
 3. `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md`
 4. `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
 5. `knowledge_external/synthesis/V49_READER_QUICKSTART.md`
-6. `meta/V49_QUEUE.md`
+6. `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md`
+7. `meta/V49_QUEUE.md`
 
 ## Boundary Reminder
 

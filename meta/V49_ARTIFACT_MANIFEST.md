@@ -6,9 +6,9 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `56`
+- new V49 files listed: `58`
 - segregated source-context records: `8`
-- external synthesis/catalog/navigation files: `35`
+- external synthesis/catalog/navigation files: `37`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
 - operational meta files: `9`
@@ -53,6 +53,8 @@ navigation/source-context outputs with grounded evidence.
 | `knowledge_external/catalogs/indexes/v49_comparator_matrix_review.tsv` | source maintenance/navigation | Machine-readable comparator-matrix review. |
 | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` | future source-intake/navigation | Shortlist of rows where future same-definition sources could create real tension. |
 | `knowledge_external/synthesis/v49_contradiction_surveillance_shortlist.tsv` | future source-intake/navigation | Machine-readable contradiction surveillance shortlist. |
+| `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md` | future source-intake/navigation | Audit confirming every contradiction-surveillance row has a safe future-grounding route without implying a current contradiction. |
+| `knowledge_external/synthesis/v49_contradiction_routing_audit.tsv` | future source-intake/navigation | Machine-readable contradiction routing audit. |
 | `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` | source maintenance/navigation | Fuller-reuse terms/access follow-up for V49 records. |
 | `knowledge_external/catalogs/indexes/v49_source_terms_followup.tsv` | source maintenance/navigation | Machine-readable source-terms follow-up table. |
 | `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` | external synthesis/navigation | Caveat that zero current contradiction rows does not imply consensus. |

@@ -201,7 +201,7 @@ tracked purge target is:
 | 146 | medium | done | Refill V49 backlog above threshold after task 144 or 145 | `meta/V49_QUEUE.md` |
 | 147 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 146 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 148 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 149 | medium | todo | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md`, `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
+| 149 | medium | done | Audit contradiction-surveillance shortlist routing against the zero-contradiction caveat and future-grounding queue | `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md`, `knowledge_external/synthesis/v49_contradiction_routing_audit.tsv` |
 | 150 | medium | todo | Verify absent-resource intake candidates have access-tier/source-terms routing and no implied grounded status | `knowledge_external/catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md`, `knowledge_external/catalogs/indexes/V49_SOURCE_TERMS_FOLLOWUP.md` |
 | 151 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 147-150 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 152 | medium | todo | Refresh final and resume checkpoints after task 151 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1337,3 +1337,10 @@ tracked purge target is:
   size `426.79 MiB`, `.git` size `443M`, commit count `652`, and `0` garbage.
 - Current cumulative active time at `2026-06-14T23:19:56Z`: `11380` seconds
   (`376` seconds session 1 plus `11004` seconds of current open session).
+- Task 149 added `V49_CONTRADICTION_ROUTING_AUDIT.md` and
+  `v49_contradiction_routing_audit.tsv`, then updated the artifact manifest and
+  reader quickstart. Result: all `7` contradiction-surveillance rows have an
+  explicit future-grounding route and safe non-overriding action, and `0` rows
+  imply a current contradiction or immediate grounded-finding edit.
+- Current cumulative active time at `2026-06-14T23:22:11Z`: `11515` seconds
+  (`376` seconds session 1 plus `11139` seconds of current open session).
