@@ -5,12 +5,12 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T22:07:08Z`
+- checkpoint_utc: `2026-06-14T22:13:30Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `7012`
+- cumulative_active_seconds_at_checkpoint: `7394`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -21,7 +21,7 @@ time between session 1 and session 2 is excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `c98baded2aa3fe0f312ff63d2eb93e7ef77599dd`
+  `4cd0fa7252ee3868ba023b0823cc53c0ad625e15`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -83,6 +83,7 @@ force-push.
 - Public index freshness: PASS (`50` checks).
 - Public index crosslinks: PASS (`73` links).
 - External Markdown/index linter: PASS (`375` checks, `77` Markdown files).
+- Docs convergence pointer consistency: PASS.
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
 - OpenGWAS: PASS at `2026-06-14T22:01:47Z`; token valid until
   `2026-06-19 12:28 UTC`; renew before OpenGWAS-dependent work after expiry.
@@ -94,12 +95,12 @@ force-push.
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `74` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `80` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `75`: recheck artifact manifest and resume-checkpoint
-   consistency after this refresh.
-3. Complete task `76`: verify `.gitignore` still blocks representative
-   tmp/cache/large-output paths.
+2. Complete task `81`: audit active-time accounting and OpenGWAS expiry state
+   at the next scheduling boundary.
+3. Complete task `82`: verify final working-tree cleanliness and tracked-size
+   policy after this checkpoint refresh.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.
 5. Refill `meta/V49_QUEUE.md` above five executable tasks if the backlog drops

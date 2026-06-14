@@ -133,7 +133,7 @@ tracked purge target is:
 | 77 | high | done | Check and synchronize the named `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` deliverable with the updated external synthesis if stale | `docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md` |
 | 78 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 76 and any deliverable synchronization | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 79 | high | done | Re-run provenance, public-index, Markdown, large-file, Git-blob, and docs-deliverable consistency guards after task 77/78 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 80 | medium | todo | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 80 | medium | done | Refresh final and resume checkpoints after task 79 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 81 | medium | todo | Audit active-time accounting and OpenGWAS expiry state at the next scheduling boundary | `meta/V49_QUEUE.md` |
 | 82 | medium | todo | Verify final working-tree cleanliness and tracked-size policy after task 80 | `meta/V49_QUEUE.md` |
 | 83 | medium | todo | Refill V49 backlog above threshold if task 82 leaves fewer than five executable tasks | `meta/V49_QUEUE.md` |
@@ -843,3 +843,9 @@ tracked purge target is:
   outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-14T22:13:01Z`: `7365` seconds
   (`376` seconds session 1 plus `6989` seconds of current open session).
+- Task 80 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `4cd0fa7252ee3868ba023b0823cc53c0ad625e15`, cumulative active time `7394`
+  seconds, latest guard state, and open tasks `81` through `83`.
+- Current cumulative active time at `2026-06-14T22:13:30Z`: `7394` seconds
+  (`376` seconds session 1 plus `7018` seconds of current open session).
