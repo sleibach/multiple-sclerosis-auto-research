@@ -74,10 +74,16 @@ tracked purge target is:
 | 18 | high | done | Cross-check that validation-ready high-actionability rows are already covered by frozen V42/V44 harnesses; queue only missing mechanical checks | `knowledge_external/synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md` |
 | 19 | medium | done | Summarize the seven low-actionability/context-only closures so future sessions do not reopen them without the named narrow data trigger | `knowledge_external/synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md` |
 | 20 | high | done | Add the V49 validation-ready crosscheck and import-packet outputs to the class-aware navigation index where useful without moving them into grounded validation docs | `knowledge_external/INDEX.md` |
-| 21 | medium | todo | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
+| 21 | medium | done | Build a V49 medical-team content handoff table consolidating gap closure, validation readiness, import packets, and context-only closures | `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` |
 | 22 | medium | todo | Cross-check source-specific import packets against the future-grounding queue and add any missing narrow follow-up rows | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V48.md` |
 | 23 | medium | todo | Review the comparator matrix for whether the V49-added source domains change any coverage/access-tier conclusions | `knowledge_external/catalogs/indexes/COMPARATOR_MATRIX_V47.md` |
 | 24 | medium | done | Run full external governance, public-index freshness, provenance, and large-file safety checks after the next navigation/content refresh | `analysis/v48_governance_preflight/`, `analysis/v47_provenance_gate/` |
+| 25 | medium | todo | Build a V49 contradiction-surveillance shortlist from the zero-contradiction result so future sessions know which rows could plausibly produce a real tension | `knowledge_external/synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md` |
+| 26 | medium | todo | Cross-check V49 source-domain review decisions against the source-terms review queue and mark any row-specific parking follow-ups | `knowledge_external/catalogs/indexes/SOURCE_TERMS_REVIEW_QUEUE_V48.md` |
+| 27 | medium | todo | Write a concise "zero contradictions is not consensus" caveat card for the public reader | `knowledge_external/synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md` |
+| 28 | medium | todo | Identify any comparator resources still absent from the external catalog after V49 and queue narrow metadata-only intake candidates | `knowledge_external/catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md` |
+| 29 | medium | todo | Reconcile V49 content artifacts with the unresolved external coverage handoff so duplicated or superseded next actions are removed | `knowledge_external/synthesis/UNRESOLVED_EXTERNAL_COVERAGE_HANDOFF_V48.md` |
+| 30 | medium | todo | Rebuild the external governance navigation cards after the V49 content additions if freshness checks indicate drift | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 
 ## Iteration Notes
 
@@ -258,3 +264,19 @@ tracked purge target is:
   index crosslink linter PASS (`63` links), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T20:46:34Z`: `2178` seconds
   (`376` seconds session 1 plus `1802` seconds of current open session).
+- Backlog refill: added tasks `25` through `30` so V49 remains above the
+  executable-task threshold. The new tasks prioritize content handoff,
+  contradiction surveillance, comparator/resource coverage, source-terms
+  follow-up, and unresolved-action reconciliation rather than additional
+  governance scaffolding.
+- Task 21 added `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md` and
+  `knowledge_external/synthesis/v49_content_handoff.tsv`, then linked the
+  handoff from `knowledge_external/INDEX.md`. The handoff consolidates Phase 0
+  hygiene, high-priority gap closure, validation-routing, source-specific import
+  packets, context-only closure guardrails, and source-domain review.
+- Post-task gates: public index freshness PASS (`50` checks), public index
+  crosslink linter PASS (`64` links), external Markdown linter PASS (`366`
+  checks, `68` Markdown files), V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T20:48:34Z`: `2298` seconds
+  (`376` seconds session 1 plus `1922` seconds of current open session).
