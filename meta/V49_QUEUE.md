@@ -92,7 +92,7 @@ tracked purge target is:
 | 36 | medium | done | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
 | 37 | medium | done | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 38 | high | done | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
-| 39 | medium | todo | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 39 | medium | done | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 40 | medium | todo | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
 | 41 | medium | todo | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
 | 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
@@ -474,3 +474,12 @@ tracked purge target is:
   freshness, reader-facing rerun boundaries, `.gitignore` verification, V43
   summary sufficiency after the subject-level cache purge, and a later final
   checkpoint.
+- Task 39 updated `meta/V49_REWRITE_PUSH_HANDOFF.md` with the current push
+  checkpoint: HEAD `fbef66cf6ae8ace47aae14094a87072db0ff0cce`, recent commit
+  chain, and verified remote status (`git remote -v` printed nothing). The
+  human force-push/re-sync step remains pending outside this environment.
+- Post-task gates: V47 provenance gate PASS (`436` checks, `47` external JSON
+  records, `0` failures), remote-line count `0`, and large-file guard PASS
+  (`0` tracked files above `50 MiB`).
+- Current cumulative active time at `2026-06-14T21:21:12Z`: `4256` seconds
+  (`376` seconds session 1 plus `3880` seconds of current open session).

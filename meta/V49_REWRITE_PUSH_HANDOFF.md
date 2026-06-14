@@ -38,6 +38,32 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
+Current push target checkpoint, verified at `2026-06-14T21:20:49Z`:
+
+- current branch: `main`
+- current HEAD: `fbef66cf6ae8ace47aae14094a87072db0ff0cce`
+- remote status: no remote configured (`git remote -v` printed nothing)
+
+Recent local commit chain at this checkpoint:
+
+```text
+fbef66cf Audit V49 purged artifact references
+fb9d4a48 Add V49 artifact manifest
+d169125d Add V49 resume checkpoint
+9ec47cbb Record V49 OpenGWAS token status
+d363ae84 Record V49 grounded index boundary check
+1ed229ee Add V49 reader quickstart
+6b9eaf08 Add V49 source independence delta
+aced6317 Add V49 rewrite push handoff
+24bf51cd Refresh V49 governance checkpoint
+db73dc24 Reconcile V49 unresolved external actions
+2d4c8627 Queue V49 absent resource intake candidates
+2a1e6ab4 Add V49 zero contradiction caveat
+6f9209bd Add V49 source terms follow-up
+8d4fd3f4 Add V49 contradiction surveillance shortlist
+41a12d9e Review V49 comparator matrix coverage
+```
+
 If `--force-with-lease` rejects because the remote changed independently, stop
 and inspect the remote commits before pushing. Do not use blind force unless the
 remote state has been intentionally superseded.
@@ -76,4 +102,3 @@ Do not commit files above `50 MiB`, files under `tmp/`, or regenerated caches.
 If a future method needs large raw data, model weights, H5AD, parquet, or
 compressed subject-level simulation tables, keep them ignored and commit only
 the rerunnable scripts plus compact summaries.
-
