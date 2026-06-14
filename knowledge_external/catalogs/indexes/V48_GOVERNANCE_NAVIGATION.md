@@ -2,7 +2,7 @@
 
 Status: external-knowledge governance/navigation only. These controls keep external context separate from grounded findings; they do not validate external claims.
 
-- artifacts tracked: `51`
+- artifacts tracked: `53`
 - missing artifacts: `0`
 - summaries with failures: `0`
 
@@ -37,6 +37,8 @@ Status: external-knowledge governance/navigation only. These controls keep exter
 | High-priority source-terms packet freshness linter | `yes` | `PASS` | Ensures the high-priority packet matches current high-priority source_terms review rows. | source terms control | `scripts/v48_high_priority_source_terms_packet_freshness_linter.py` |
 | High-priority external sourcing plan freshness linter | `yes` | `PASS` | Ensures the high-priority external sourcing plan matches current high-priority V37 coverage gaps. | future-grounding control | `scripts/v48_high_priority_external_sourcing_plan_freshness_linter.py` |
 | High-priority source-search query freshness linter | `yes` | `PASS` | Ensures the high-priority source-search query packet matches the current sourcing plan. | future-search control | `scripts/v48_high_priority_source_search_query_freshness_linter.py` |
+| High-priority source intake checklist | `yes` | `PASS` | Template for safely reviewing high-priority source hits before any segregated external-record intake. | future-search control | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
+| High-priority source intake checklist freshness linter | `yes` | `PASS` | Ensures the high-priority source intake checklist matches the current source plan and query packet. | future-search control | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | External claim-length safety linter | `yes` | `PASS` | Prevents oversized external claim summaries or excerpt-like fields from entering external records. | copyright/provenance hygiene control | `scripts/v48_external_claim_length_linter.py` |
 | Support/contradiction coverage linter | `yes` | `PASS` | Ensures support/contradiction records appear in the V48 matrix. | synthesis coverage control | `scripts/v48_support_contradiction_coverage_linter.py` |
 | Relationship-matrix data dictionary freshness linter | `yes` | `PASS` | Ensures the V48 relationship-matrix data dictionary matches the current matrix header and controlled vocabularies. | schema control | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |

@@ -204,6 +204,20 @@ ARTIFACTS = [
         "boundary": "future-search control",
     },
     {
+        "artifact": "High-priority source intake checklist",
+        "path": "knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
+        "summary": "knowledge_external/catalogs/indexes/high_priority_source_intake_checklist_v48_summary.json",
+        "purpose": "Template for safely reviewing high-priority source hits before any segregated external-record intake.",
+        "boundary": "future-search control",
+    },
+    {
+        "artifact": "High-priority source intake checklist freshness linter",
+        "path": "scripts/v48_high_priority_source_intake_checklist_freshness_linter.py",
+        "summary": "analysis/v48_high_priority_source_intake_checklist_freshness_linter/high_priority_source_intake_checklist_freshness_lint_summary.json",
+        "purpose": "Ensures the high-priority source intake checklist matches the current source plan and query packet.",
+        "boundary": "future-search control",
+    },
+    {
         "artifact": "External claim-length safety linter",
         "path": "scripts/v48_external_claim_length_linter.py",
         "summary": "analysis/v48_external_claim_length_linter/external_claim_length_lint_summary.json",

@@ -18,7 +18,9 @@ span across resume gaps.
 ## Required Checks
 
 - OpenGWAS: PASS. JWT valid until `2026-06-19 12:28 UTC`; renew soon.
-- SAP AI Core health: PASS for Claude, Gemini, and RPT smoke checks.
+- SAP AI Core health: PASS for Claude and Gemini smoke checks; RPT CLI is
+  unavailable in the current Python client (`No implemented request schema for
+  model: sap-rpt-1-large`) and is queued for correction/documentation.
 - V47 provenance gate: PASS at `39` external JSON records, `354` checks, `0` failures.
 - RAG rebuild: PASS. TF-IDF index rebuilt at item 46 with `727` documents; `knowledge_external/` remains excluded from the grounded TF-IDF globs.
 
@@ -109,9 +111,15 @@ span across resume gaps.
 | 81 | medium | done | Build V48 relationship-matrix data dictionary for public readers | `knowledge_external/catalogs/indexes/V48_RELATIONSHIP_MATRIX_DATA_DICTIONARY.md` |
 | 82 | medium | done | Add relationship-matrix data dictionary freshness linter | `scripts/v48_relationship_matrix_data_dictionary_freshness_linter.py` |
 | 83 | medium | done | Build V48 high-priority source intake checklist from sourcing/search/handoff artifacts | `knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md` |
-| 84 | medium | todo | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
+| 84 | medium | done | Add high-priority source intake checklist freshness linter | `scripts/v48_high_priority_source_intake_checklist_freshness_linter.py` |
 | 85 | medium | todo | Build V48 public reader brief explaining what the external layer can and cannot do | `knowledge_external/EXTERNAL_LAYER_READER_BRIEF_V48.md` |
 | 86 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 79-85 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
+| 87 | medium | todo | Add public reader brief freshness linter after the brief exists | `scripts/v48_external_layer_reader_brief_freshness_linter.py` |
+| 88 | medium | todo | Build V48 AI Core tooling-health handoff card documenting Claude/Gemini pass and RPT unimplemented status | `knowledge_external/catalogs/indexes/V48_AI_CORE_TOOLING_HEALTH.md` |
+| 89 | medium | todo | Add AI Core tooling-health freshness linter tied to reproducible smoke commands and current summaries | `scripts/v48_ai_core_tooling_health_freshness_linter.py` |
+| 90 | medium | todo | Build source-intake operator quickstart that maps search hits to the checklist without adding claims | `knowledge_external/templates/SOURCE_INTAKE_OPERATOR_QUICKSTART_V48.md` |
+| 91 | medium | todo | Add source-intake operator quickstart freshness linter | `scripts/v48_source_intake_operator_quickstart_freshness_linter.py` |
+| 92 | medium | todo | Rebuild public external index, governance navigation, preflight, and TF-IDF index after tasks 85-91 | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -1168,3 +1176,24 @@ span across resume gaps.
   - external Markdown source/provenance lint;
   - V47 provenance gate.
 - Current open-session active time at `2026-06-14T16:52:07Z`: `12604` seconds.
+- Current open-session active time at `2026-06-14T16:59:29Z`: `13046` seconds.
+- Added high-priority source intake checklist freshness linter:
+  - synthetic fixture: PASS, confirming missing rows, stale query-target
+    fields, extra rows, and bad summary-count failures are detected;
+  - real checklist rows: `99`;
+  - real freshness checks: `1095`;
+  - real failures: `0`.
+- Integrated the checklist control into the dependency graph, governance
+  navigation, and preflight:
+  - dependency graph: `27` nodes, `80` edges, `0` missing controls;
+  - governance navigation: `53` artifacts, `0` missing artifacts;
+  - failure-mode matrix: `53` controls, `27` boundaries, `0` unmapped;
+  - evidence-boundary glossary: `27` boundaries, `53` controls represented;
+  - governance preflight: `43` checks, `0` failures.
+- Final gates after task 84:
+  - external Markdown linter: PASS (`292` checks, `40` Markdown files);
+  - V47 provenance gate: PASS (`354` checks, `39` external JSON records);
+  - OpenGWAS check: PASS, JWT valid until `2026-06-19 12:28 UTC`;
+  - SAP AI Core smoke: Claude PASS, Gemini PASS, RPT unavailable in the
+    Python client (`sap-rpt-1-large` has no implemented request schema).
+- Added follow-up tasks 87-92 to keep the executable backlog above threshold.

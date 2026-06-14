@@ -159,6 +159,16 @@ NODES = [
         "boundary": "future-search/navigation only",
     },
     {
+        "artifact": "High-priority source intake checklist",
+        "output": "knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md",
+        "inputs": [
+            "knowledge_external/synthesis/high_priority_external_sourcing_plan_v48.tsv",
+            "knowledge_external/synthesis/high_priority_source_search_queries_v48.tsv",
+        ],
+        "controls": ["scripts/v48_high_priority_source_intake_checklist_freshness_linter.py"],
+        "boundary": "future-search/navigation only",
+    },
+    {
         "artifact": "Contradiction readiness playbook",
         "output": "knowledge_external/synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md",
         "inputs": ["knowledge_external/synthesis/convergence_contradiction_v48.tsv"],

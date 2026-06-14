@@ -1,0 +1,36 @@
+row_key	check	status	detail
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	checklist_row_present	PASS	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.rank	PASS	expected=1 observed=1
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.item	PASS	expected=Tool-robust but simple V22 scalar observed=Tool-robust but simple V22 scalar
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.source_type_needed	PASS	expected=method/governance literature observed=method/governance literature
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.query_targets	FAIL	expected=GEO/ArrayExpress;PubMed/EuropePMC observed=stale
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.check_order	PASS	expected=1 observed=1
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.check_id	PASS	expected=source_locator_recorded observed=source_locator_recorded
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.acceptance_criteria	PASS	expected=method-specific observed=method-specific
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.forbidden_shortcut	PASS	expected=no broad context observed=no broad context
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.required_before_matrix_entry	PASS	expected=yes observed=yes
+1||Tool-robust but simple V22 scalar||1||source_locator_recorded	field_matches.boundary	PASS	expected=intake checklist only; a checked source is still external until separately grounded observed=intake checklist only; a checked source is still external until separately grounded
+1||Tool-robust but simple V22 scalar||2||source_terms_reviewed	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||3||source_snapshot_or_access_date_recorded	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||4||epistemic_class_assigned	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||5||not_project_grounded_marker_present	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||6||same_definition_overlap_reviewed	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||7||forbidden_shortcut_checked	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||8||relationship_matrix_candidate_prepared	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+1||Tool-robust but simple V22 scalar||9||future_grounding_route_recorded_if_verifiable	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||1||source_locator_recorded	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||2||source_terms_reviewed	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||3||source_snapshot_or_access_date_recorded	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||4||epistemic_class_assigned	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||5||not_project_grounded_marker_present	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||6||same_definition_overlap_reviewed	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||7||forbidden_shortcut_checked	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||8||relationship_matrix_candidate_prepared	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+2||GPR25 demoted from protected favorite||9||future_grounding_route_recorded_if_verifiable	checklist_row_present	FAIL	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v48_high_priority_source_intake_checklist_freshness_linter/synthetic_checklist.tsv
+99||Extra source item||99||extra_check	no_extra_checklist_row	FAIL	row is not expected from the current source plan and query packet
+summary	summary_matches.n_plan_rows	FAIL	expected=2 observed=99
+summary	summary_matches.n_checklist_steps	FAIL	expected=9 observed=99
+summary	summary_matches.n_checklist_rows	FAIL	expected=18 observed=99
+summary	summary_matches.source_type_counts	FAIL	expected={'locus/signal-specific genetics source': 1, 'method/governance literature': 1} observed={'stale': 99}
+summary	summary_matches.markdown	FAIL	expected=knowledge_external/templates/HIGH_PRIORITY_SOURCE_INTAKE_CHECKLIST_V48.md observed=
+summary	summary_matches.tsv	FAIL	expected=knowledge_external/templates/high_priority_source_intake_checklist_v48.tsv observed=
