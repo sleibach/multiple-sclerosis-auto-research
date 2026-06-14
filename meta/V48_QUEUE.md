@@ -51,6 +51,13 @@ span across resume gaps.
 | 23 | medium | done | Add source-domain review freshness linter tied to current external records | `scripts/v48_source_domain_review_freshness_linter.py` |
 | 24 | medium | done | Add class-aware public navigation summary for V48 governance outputs | `knowledge_external/catalogs/indexes/V48_GOVERNANCE_NAVIGATION.md` |
 | 25 | medium | done | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
+| 26 | high | done | Add one-command V48 provenance/governance preflight runner | `scripts/v48_governance_preflight.py` |
+| 27 | high | todo | Build V37 scored-finding coverage map against V48 convergence/contradiction rows | `knowledge_external/synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md` |
+| 28 | medium | todo | Add V37 coverage freshness linter tied to `docs/reports/FINDINGS_SCORES_V37.tsv` | `scripts/v48_v37_coverage_freshness_linter.py` |
+| 29 | medium | todo | Add source-terms coverage freshness linter tied to current external records | `scripts/v48_source_terms_coverage_freshness_linter.py` |
+| 30 | medium | todo | Add V48 external-governance handoff card for future sessions | `knowledge_external/catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md` |
+| 31 | medium | todo | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
+| 32 | medium | todo | Rebuild public external index and RAG index after the next governance artifacts | `knowledge_external/INDEX.md`, `knowledge/.index/` |
 
 ## Iteration Notes
 
@@ -192,6 +199,24 @@ span across resume gaps.
 - The existing index builder intentionally does not ingest `knowledge_external`; external knowledge remains segregated and navigable through `knowledge_external/INDEX.md`.
 - Verification passed:
   - V47 provenance gate.
+- Current open-session active time at `2026-06-14T14:13:11Z`: `3068` seconds.
+- Refilled backlog with tasks 26-32:
+  - governance preflight runner;
+  - V37 scored-finding coverage map;
+  - coverage freshness linter;
+  - source-terms report freshness linter;
+  - external-governance handoff card;
+  - convergence decision table;
+  - post-artifact index rebuild.
+- Current open-session active time at `2026-06-14T14:15:33Z`: `3210` seconds.
+- Added one-command V48 governance preflight runner:
+  - checks executed: `18`;
+  - failures: `0`;
+  - output: `analysis/v48_governance_preflight/v48_governance_preflight.tsv`.
+- Added a narrow provenance-gate allowlist for the preflight output directory because it stores serialized checker summaries containing external-class markers.
+- Verification passed:
+  - V48 governance preflight;
+  - V47 provenance gate after preflight output generation.
 - Current open-session active time at `2026-06-14T14:03:06Z`: `2463` seconds.
 - Added V48 source_terms freshness linter:
   - synthetic fixture passed, including stale-date and bad-date failure cases;
