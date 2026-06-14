@@ -42,7 +42,7 @@ span across resume gaps.
 | 14 | medium | done | Add comparator matrix freshness linter tied to current resource records | `scripts/v48_resource_comparator_freshness_linter.py` |
 | 15 | medium | done | Add convergence synthesis status vocabulary linter | `scripts/v48_convergence_status_vocabulary_linter.py` |
 | 16 | medium | done | Add project-finding reference existence linter for external support/contradiction records | `scripts/v48_project_finding_reference_linter.py` |
-| 17 | medium | todo | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/` |
+| 17 | medium | done | Build source-domain allowlist/review report for external records | `knowledge_external/catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md` |
 | 18 | medium | todo | Backfill source_terms metadata for unambiguous public/government source records, with citations | `knowledge_external/` |
 
 ## Iteration Notes
@@ -144,3 +144,10 @@ span across resume gaps.
   - reference checks: `10`;
   - failures: `0`;
   - confirms support records point to existing V37 finding IDs and artifacts.
+- Current open-session active time at `2026-06-14T13:52:05Z`: `1802` seconds.
+- Added source-domain review report:
+  - records reviewed: `39`;
+  - domains: `27`;
+  - review classes: `19`;
+  - manual-review domain rows: `2`.
+- Public external index crosslink lint now checks `11` links with `0` failures.
