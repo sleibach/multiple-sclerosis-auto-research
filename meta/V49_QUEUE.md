@@ -87,9 +87,15 @@ tracked purge target is:
 | 31 | high | done | Write a repository hygiene handoff for the history rewrite, including remote re-add, force-push, and clone re-sync steps | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 32 | medium | done | Cross-check V49 relationship rows for same-source overcounting and add a source-independence delta note if needed | `knowledge_external/synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md` |
 | 33 | medium | done | Build a compact V49 reader quickstart that points to the right artifact for each user question | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 34 | medium | todo | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `knowledge/.index/` |
+| 34 | medium | done | Verify no V49-generated artifact accidentally belongs in grounded RAG indexing and rebuild grounded index only if required | `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md` |
 | 35 | medium | todo | Run a final OpenGWAS expiry/sentinel check and record token-renewal status for V49 handoff | `meta/V49_QUEUE.md` |
 | 36 | medium | todo | Build a V49 resumability checkpoint card listing completed commits, open tasks, gates, and valid next action | `meta/V49_RESUME_CHECKPOINT.md` |
+| 37 | medium | todo | Build a V49 artifact manifest listing every new V49 file and its boundary class for reviewers | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 38 | high | todo | Check tracked references to purged large-file paths and add a provenance note where references intentionally remain to reproducible generated artifacts | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md` |
+| 39 | medium | todo | Verify the rewritten repository still has no configured remote and record current HEAD/commit chain for the human push handoff | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 40 | medium | todo | Confirm V49 external artifacts do not introduce new external JSON records without source_terms review status | `knowledge_external/catalogs/indexes/SOURCE_TERMS_COVERAGE_V48.md` |
+| 41 | medium | todo | Run source URL duplicate review after V49 and record whether new source clusters changed duplicate-risk interpretation | `knowledge_external/catalogs/indexes/SOURCE_URL_DUPLICATE_REVIEW_V48.md` |
+| 42 | medium | todo | Run final public index and external Markdown lint after the remaining V49 artifacts are added | `analysis/v47_external_markdown_index_linter/` |
 
 ## Iteration Notes
 
@@ -410,3 +416,14 @@ tracked purge target is:
   external JSON records, `0` failures), and large-file guard PASS.
 - Current cumulative active time at `2026-06-14T21:07:32Z`: `3436` seconds
   (`376` seconds session 1 plus `3060` seconds of current open session).
+- Backlog refill: added tasks `37` through `42` to keep V49 above threshold.
+  The added work focuses on artifact manifesting, purge-reference auditing,
+  rewrite/push handoff verification, source-terms status, source-duplicate risk,
+  and final lints.
+- Task 34 added `meta/V49_GROUNDED_INDEX_BOUNDARY_CHECK.md`. Result: current
+  TF-IDF index has `728` documents, `0` indexed `knowledge_external/` paths,
+  and only `meta/V49_QUEUE.md` among V49 files. No RAG rebuild is required for
+  V49 external content because the external tree is structurally excluded.
+- Post-task gates: V47 provenance gate PASS and large-file guard PASS.
+- Current cumulative active time at `2026-06-14T21:10:25Z`: `3609` seconds
+  (`376` seconds session 1 plus `3233` seconds of current open session).
