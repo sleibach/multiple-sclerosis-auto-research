@@ -119,6 +119,13 @@ ARTIFACTS = [
         "purpose": "Ensures the source-domain review matches current external records.",
         "boundary": "domain review control",
     },
+    {
+        "artifact": "V37 external-coverage freshness linter",
+        "path": "scripts/v48_v37_coverage_freshness_linter.py",
+        "summary": "analysis/v48_v37_coverage_freshness_linter/v37_coverage_freshness_lint_summary.json",
+        "purpose": "Ensures the V37 scored-finding coverage map matches current V37 scores and V48 matrix rows.",
+        "boundary": "synthesis coverage control",
+    },
 ]
 
 

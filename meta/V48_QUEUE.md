@@ -53,7 +53,7 @@ span across resume gaps.
 | 25 | medium | done | Rebuild RAG index after source-terms and governance updates | `knowledge/.index/` |
 | 26 | high | done | Add one-command V48 provenance/governance preflight runner | `scripts/v48_governance_preflight.py` |
 | 27 | high | done | Build V37 scored-finding coverage map against V48 convergence/contradiction rows | `knowledge_external/synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md` |
-| 28 | medium | todo | Add V37 coverage freshness linter tied to `docs/reports/FINDINGS_SCORES_V37.tsv` | `scripts/v48_v37_coverage_freshness_linter.py` |
+| 28 | medium | done | Add V37 coverage freshness linter tied to `docs/reports/FINDINGS_SCORES_V37.tsv` | `scripts/v48_v37_coverage_freshness_linter.py` |
 | 29 | medium | todo | Add source-terms coverage freshness linter tied to current external records | `scripts/v48_source_terms_coverage_freshness_linter.py` |
 | 30 | medium | todo | Add V48 external-governance handoff card for future sessions | `knowledge_external/catalogs/indexes/V48_EXTERNAL_GOVERNANCE_HANDOFF.md` |
 | 31 | medium | todo | Add compact convergence/contradiction decision table for medical-team review | `knowledge_external/synthesis/CONVERGENCE_DECISION_TABLE_V48.md` |
@@ -229,6 +229,21 @@ span across resume gaps.
   - V48 governance preflight;
   - V47 provenance gate;
   - external Markdown source/provenance lint.
+- Current open-session active time at `2026-06-14T14:20:13Z`: `3490` seconds.
+- Added V37 coverage freshness linter:
+  - synthetic fixture passed;
+  - real V37 rows: `32`;
+  - real V48 matrix rows: `12`;
+  - real coverage rows: `32`;
+  - failures: `0`.
+- Integrated the new linter into the V48 governance preflight and governance navigation:
+  - preflight checks: `19`;
+  - governance controls tracked: `16`.
+- Verification passed:
+  - V48 governance preflight;
+  - public external index build;
+  - public index crosslink lint;
+  - V47 provenance gate.
 - Current open-session active time at `2026-06-14T14:03:06Z`: `2463` seconds.
 - Added V48 source_terms freshness linter:
   - synthetic fixture passed, including stale-date and bad-date failure cases;
