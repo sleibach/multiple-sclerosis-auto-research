@@ -251,7 +251,7 @@ tracked purge target is:
 | 192 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 193 | medium | done | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 194 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 195 | medium | todo | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 195 | medium | done | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 196 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
 | 197 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 198 | medium | todo | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
@@ -1749,4 +1749,12 @@ tracked purge target is:
   `50 MiB`: `0`, and Git blobs above `50 MiB`: `0`.
 - Current cumulative active time at `2026-06-20T08:55:32Z`: `16539` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4370` seconds of
+  current open session 3). Target met: `false`.
+- Task 195 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `61ff93bca0bc005adbc9548c3f112d3ecb10c77c`, cumulative active time `16597`
+  seconds, timeout-safe session state, expired OpenGWAS status, latest
+  task-192/task-194 guard state, and open tasks `196` through `198`.
+- Current cumulative active time at `2026-06-20T08:56:30Z`: `16597` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4428` seconds of
   current open session 3). Target met: `false`.

@@ -5,16 +5,16 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-20T08:32:07Z`
+- refreshed_utc: `2026-06-20T08:56:30Z`
 - current HEAD before this checkpoint refresh was written:
-  `2f4f2dd87125d37d2793005432a87457fa9fc84c`
+  `61ff93bca0bc005adbc9548c3f112d3ecb10c77c`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `15097`
-  seconds at `2026-06-20T08:31:30Z`
-- cumulative active time at this checkpoint timestamp: `15134` seconds
+- last recorded cumulative active time before this checkpoint refresh: `16539`
+  seconds at `2026-06-20T08:55:32Z`
+- cumulative active time at this checkpoint timestamp: `16597` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
@@ -22,8 +22,8 @@ Active time is the sum of session intervals, not wall-clock span:
 - session 1: `376` seconds
 - session 2: `11793` seconds, closed at the last recorded active timestamp
   before timeout
-- session 3 open elapsed at checkpoint: `2965` seconds
-- cumulative at checkpoint: `15134` seconds
+- session 3 open elapsed at checkpoint: `4428` seconds
+- cumulative at checkpoint: `16597` seconds
 
 ## Completed V49 Work
 
@@ -43,7 +43,8 @@ Active time is the sum of session intervals, not wall-clock span:
   absent-resource intake candidates, absent-resource routing audit,
   unresolved-action reconciliation, source-independence delta, reader
   quickstart, public-index links for the routing audits, grounded-index boundary
-  check, purged-reference audit, and V49 artifact manifest.
+  check, purged-reference audit, relationship provenance audit,
+  insufficient-overlap cause summary, and V49 artifact manifest.
 - Operational handoffs completed and refreshed: rewrite/push handoff, large-file
   guard, tmp-path guard, risky-extension audit, OpenGWAS renewal handoff, final
   checkpoint, and post-checkpoint guard pass.
@@ -52,9 +53,9 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 186 | todo | Verify working-tree cleanliness and tracked-size policy after task 185. |
-| 187 | todo | Audit active-time accounting after the next checkpoint stretch. |
-| 188 | todo | Refill V49 backlog above threshold after task 187. |
+| 196 | todo | Verify working-tree cleanliness and tracked-size policy after task 195. |
+| 197 | todo | Audit active-time accounting after the next checkpoint stretch. |
+| 198 | todo | Refill V49 backlog above threshold after task 197. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -62,18 +63,18 @@ below threshold.
 ## Latest Gate Status
 
 - V47 provenance gate: PASS (`436` checks, `47` external JSON records,
-  `0` failures), freshly rerun at task `184`.
+  `0` failures), freshly rerun at task `192`.
 - Public index freshness: PASS (`50` checks), freshly rerun at task `184`.
-- Public index crosslinks: PASS (`75` links), freshly rerun at task `184`.
-- External Markdown/index lint: PASS (`378` checks, `80` Markdown files),
-  freshly rerun at task `184`.
+- Public index crosslinks: PASS (`77` links), freshly rerun at task `192`.
+- External Markdown/index lint: PASS (`380` checks, `82` Markdown files),
+  freshly rerun at task `192`.
 - Gap/routing counts: PASS (`23` relationship rows, `7` converges, `0`
   contradictions, `16` insufficient-overlap, `0` high-priority gap markers,
   `7` contradiction-routing rows, `6` absent-resource-routing rows), freshly
-  rerun at task `184`.
+  rerun at task `192`.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`), freshly rerun at
-  task `184`.
-- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `184`.
+  task `194`.
+- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `194`.
 - Docs convergence pointer consistency: prior PASS.
 - Grounded TF-IDF boundary: prior PASS (`0` indexed `knowledge_external/`
   paths).
@@ -94,7 +95,7 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 186 and task 187. Use task 188 to refill the backlog
+Continue V49 with task 196 and task 197. Use task 198 to refill the backlog
 above threshold if needed. Do not stop for a final summary unless the active
 6-hour target is met, external termination occurs, or a documented all-fronts
 block exists.
