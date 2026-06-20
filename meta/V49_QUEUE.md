@@ -14,7 +14,8 @@ span across resume gaps.
 | session | start_utc | end_utc | active_seconds | note |
 |---:|---|---|---:|---|
 | 1 | `2026-06-14T19:57:24Z` | `2026-06-14T20:03:40Z` | 376 | initial V49 session through Phase 0 health checks |
-| 2 | `2026-06-14T20:16:32Z` | OPEN | OPEN | resumed content-gap closure session |
+| 2 | `2026-06-14T20:16:32Z` | `2026-06-14T23:33:05Z` | 11793 | resumed content-gap closure session; closed at last recorded active timestamp before timeout |
+| 3 | `2026-06-20T07:42:42Z` | OPEN | OPEN | resumed after timeout; timeout gap excluded from active time |
 
 ## Phase 0 Oversized-File Audit
 
@@ -41,8 +42,11 @@ tracked purge target is:
 
 ## Required Checks
 
-- OpenGWAS: PASS at session start. JWT valid until `2026-06-19 12:28 UTC`;
-  renew soon. Access check used POST-only endpoints and returned HTTP 200.
+- OpenGWAS: initial V49 PASS at session start. JWT was valid until
+  `2026-06-19 12:28 UTC`. Resume check on `2026-06-20T07:42:42Z` loaded the
+  token but returned HTTP `401`, consistent with expiry. Route around
+  OpenGWAS-dependent work until the token is renewed; do not treat expired-auth
+  failures as data nulls.
 - SAP AI Core: PASS after Phase 0 for Claude (`def854013c7ac379` via
   `--model claude`), Gemini (`gemini-2.5-pro`), and RPT (`sap-rpt-1-large`).
 - V47 provenance gate: PASS after Phase 0 (`359` checks, `39` external JSON
@@ -210,12 +214,13 @@ tracked purge target is:
 | 155 | medium | done | Refill V49 backlog above threshold after task 154 | `meta/V49_QUEUE.md` |
 | 156 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 157 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 158 | medium | todo | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
+| 158 | medium | done | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
 | 159 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 160 | medium | todo | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 161 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
 | 162 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 163 | medium | todo | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
+| 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1413,3 +1418,20 @@ tracked purge target is:
   size `426.79 MiB`, `.git` size `444M`, commit count `662`, and `0` garbage.
 - Current cumulative active time at `2026-06-14T23:32:06Z`: `12110` seconds
   (`376` seconds session 1 plus `11734` seconds of current open session).
+- Task 158 audited `knowledge_external/INDEX.md` routing for the new routing
+  audits and added direct links to `V49_CONTRADICTION_ROUTING_AUDIT.md` and
+  `V49_ABSENT_RESOURCE_ROUTING_AUDIT.md`. Link targets exist, and both rows are
+  labeled navigation/future-intake controls rather than evidence.
+- Current cumulative active time at `2026-06-14T23:33:05Z`: `12169` seconds
+  (`376` seconds session 1 plus `11793` seconds of current open session).
+- Resumed after timeout at `2026-06-20T07:42:42Z`. The timeout gap from
+  `2026-06-14T23:33:05Z` to `2026-06-20T07:42:42Z` is explicitly excluded from
+  active-time accounting: session 2 is closed at the last recorded active
+  timestamp, and session 3 starts at the new `date -u` read.
+- Resume checks: `SAP_AI_CORE_API_KEY` is present. `scripts/check_opengwas_access.py`
+  loaded `OPENGWAS_JWT`, decoded expiry `2026-06-19 12:28 UTC`, and returned
+  HTTP `401` on `gwasinfo_ieu_b_18`, consistent with an expired JWT. V49 should
+  route around OpenGWAS-dependent work until the token is renewed.
+- Current cumulative active time at `2026-06-20T07:43:19Z`: `12206` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `37` seconds of
+  current open session 3). Target met: `false`.

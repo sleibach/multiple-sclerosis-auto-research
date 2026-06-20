@@ -38,6 +38,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 external resource comparator matrix](catalogs/indexes/EXTERNAL_RESOURCE_COMPARATOR_MATRIX_V48.md) | Compare external resources by coverage, access tier, unique gap, and this repo's distinct role. | external resource metadata only |
 | [V49 comparator matrix review](catalogs/indexes/V49_COMPARATOR_MATRIX_REVIEW.md) | Review showing V49 source-domain additions do not require new resource-level comparator rows. | external resource metadata only |
 | [V49 absent resource intake candidates](catalogs/indexes/V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md) | Future metadata-only intake candidates for resources not yet represented in the comparator matrix. | future intake/navigation only |
+| [V49 absent resource routing audit](catalogs/indexes/V49_ABSENT_RESOURCE_ROUTING_AUDIT.md) | Safe-routing audit confirming absent resource candidates stay metadata-only until source terms and specific accessions are reviewed. | future intake/navigation only |
 | [Access-tier rollup](catalogs/indexes/EXTERNAL_RESOURCE_ACCESS_TIER_ROLLUP.md) | Browse public/registration/application/controlled access tiers. | access metadata only |
 | [Source-domain rollup](catalogs/indexes/EXTERNAL_SOURCE_DOMAIN_ROLLUP.md) | Browse records by source domain. | source locator metadata only |
 | [V48 source-domain review](catalogs/indexes/SOURCE_DOMAIN_REVIEW_V48.md) | Classify source domains for maintenance, access, and terms review. | domain maintenance only |
@@ -66,6 +67,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 contradiction readiness playbook](synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md) | Predefined handling for future external contradictions without overriding grounded findings. | future-grounding control |
 | [V48 contradiction surveillance checklist](synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md) | Future contradiction surveillance triggers by source class and finding category. | future-grounding control |
 | [V49 contradiction surveillance shortlist](synthesis/V49_CONTRADICTION_SURVEILLANCE_SHORTLIST.md) | Prioritized rows where a same-definition future source could create a real tension. | future-grounding control |
+| [V49 contradiction routing audit](synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md) | Safe-routing audit confirming every contradiction-surveillance row has a future-grounding route and no current contradiction claim. | future-grounding control |
 | [V49 zero-contradiction caveat](synthesis/V49_ZERO_CONTRADICTION_CAVEAT.md) | Reader note explaining that zero current contradiction rows does not imply external consensus. | synthesis/navigation only |
 | [V48 V37 finding external coverage map](synthesis/V37_FINDING_EXTERNAL_COVERAGE_V48.md) | Coverage map showing which V37 scored findings have V48 external relationship rows. | synthesis/navigation only |
 | [V48 V37 uncovered finding rationale](synthesis/V37_UNCOVERED_FINDING_RATIONALE_V48.md) | Rationale for V37 scored findings without V48 external relationship rows. | synthesis/navigation only |
