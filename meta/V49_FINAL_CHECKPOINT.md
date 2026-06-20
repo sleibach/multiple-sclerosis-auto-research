@@ -5,23 +5,26 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-14T23:25:50Z`
+- checkpoint_utc: `2026-06-20T07:47:28Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
-- session_2_start_utc: `2026-06-14T20:16:32Z`
-- cumulative_active_seconds_at_checkpoint: `11734`
+- session_2: `2026-06-14T20:16:32Z` to `2026-06-14T23:33:05Z` = `11793`
+  active seconds
+- session_3_start_utc: `2026-06-20T07:42:42Z`
+- cumulative_active_seconds_at_checkpoint: `12455`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
 The active-time accounting is summed session time, not wall-clock span. Idle
-time between session 1 and session 2 is excluded.
+time between session 1 and session 2, and the timeout gap between session 2 and
+session 3, are excluded.
 
 ## Repository State
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `aa861e0d8a68ae195be238ab295e4d69e82fae48`
+  `0ce5eb8552b14b37000dc62fc9004f4152166d35`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -44,7 +47,7 @@ Latest guard status before this checkpoint refresh:
 - risky tracked binary/cache extensions: `.safetensors` `0`, `.h5ad` `0`,
   `.parquet` `0`; tracked `.tsv.gz` files are compact seeded synthetic
   method-characterization artifacts below `50 MiB`
-- `git fsck --full --strict`: PASS at `2026-06-14T23:19:32Z`
+- `git fsck --full --strict`: PASS at `2026-06-14T23:31:21Z`
 
 Human follow-up remains required before the rewritten history is synchronized:
 
@@ -75,18 +78,22 @@ force-push.
 - Comparator-matrix review found no new V49 resource-level coverage changes.
 - External future-grounding and absent-resource intake candidates were recorded
   without promoting external claims to grounded evidence.
+- Contradiction-surveillance and absent-resource routing audits were added and
+  linked from the public external index; both are future-intake/navigation
+  controls, not evidence.
 
 ## Latest Gates
 
 - V47 provenance gate: PASS (`436` checks, `47` external JSON records,
   `0` failures).
 - Public index freshness: PASS (`50` checks).
-- Public index crosslinks: PASS (`73` links).
+- Public index crosslinks: PASS (`75` links).
 - External Markdown/index linter: PASS (`378` checks, `80` Markdown files).
 - Docs convergence pointer consistency: PASS.
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
-- OpenGWAS: PASS at `2026-06-14T23:01:28Z`; token valid until
-  `2026-06-19 12:28 UTC`; renew before OpenGWAS-dependent work after expiry.
+- OpenGWAS: EXPIRED on resume. `scripts/check_opengwas_access.py` loaded the
+  JWT but returned HTTP `401` on `2026-06-20T07:42:42Z`; token decoded expiry is
+  `2026-06-19 12:28 UTC`. Route around OpenGWAS-dependent work until renewal.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`).
 - Git blob guard: PASS (`0` blobs above `50 MiB`).
 
@@ -95,12 +102,12 @@ force-push.
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `152` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `160` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `137` if active work reaches `2026-06-14T23:30:00Z`: rerun
-   OpenGWAS expiry/sentinel check.
-3. Complete task `153`: verify final working-tree cleanliness and tracked-size
+2. Complete task `161`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
+3. Complete task `162`: audit active-time accounting after the checkpoint
+   stretch.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.
 5. Refill `meta/V49_QUEUE.md` above five executable tasks if the backlog drops

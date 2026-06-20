@@ -5,23 +5,25 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-14T23:25:50Z`
+- refreshed_utc: `2026-06-20T07:47:28Z`
 - current HEAD before this checkpoint refresh was written:
-  `aa861e0d8a68ae195be238ab295e4d69e82fae48`
+  `0ce5eb8552b14b37000dc62fc9004f4152166d35`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `11701`
-  seconds at `2026-06-14T23:25:17Z`
-- cumulative active time at this checkpoint timestamp: `11734` seconds
+- last recorded cumulative active time before this checkpoint refresh: `12417`
+  seconds at `2026-06-20T07:46:50Z`
+- cumulative active time at this checkpoint timestamp: `12455` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
 
 - session 1: `376` seconds
-- session 2 open elapsed at checkpoint: `11358` seconds
-- cumulative at checkpoint: `11734` seconds
+- session 2: `11793` seconds, closed at the last recorded active timestamp
+  before timeout
+- session 3 open elapsed at checkpoint: `286` seconds
+- cumulative at checkpoint: `12455` seconds
 
 ## Completed V49 Work
 
@@ -40,8 +42,8 @@ Active time is the sum of session intervals, not wall-clock span:
   routing audit, source-terms follow-up, zero-contradiction caveat,
   absent-resource intake candidates, absent-resource routing audit,
   unresolved-action reconciliation, source-independence delta, reader
-  quickstart, grounded-index boundary check, purged-reference audit, and V49
-  artifact manifest.
+  quickstart, public-index links for the routing audits, grounded-index boundary
+  check, purged-reference audit, and V49 artifact manifest.
 - Operational handoffs completed and refreshed: rewrite/push handoff, large-file
   guard, tmp-path guard, risky-extension audit, final checkpoint, and
   post-checkpoint guard pass.
@@ -50,10 +52,9 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 137 | conditional | Run scheduled OpenGWAS expiry/sentinel recheck if active work reaches `2026-06-14T23:30:00Z`. |
-| 153 | todo | Verify working-tree cleanliness and tracked-size policy after task 152. |
-| 154 | todo | Audit active-time accounting after the next checkpoint stretch. |
-| 155 | todo | Refill V49 backlog above threshold after task 154. |
+| 161 | todo | Verify working-tree cleanliness and tracked-size policy after task 160. |
+| 162 | todo | Audit active-time accounting after the next checkpoint stretch. |
+| 163 | todo | Refill V49 backlog above threshold after task 162. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -63,15 +64,15 @@ below threshold.
 - V47 provenance gate: PASS (`436` checks, `47` external JSON records,
   `0` failures).
 - Public index freshness: PASS (`50` checks).
-- Public index crosslinks: PASS (`73` links).
+- Public index crosslinks: PASS (`75` links).
 - External Markdown/index lint: PASS (`378` checks, `80` Markdown files).
 - Docs convergence pointer consistency: PASS.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`).
 - Git blob guard: PASS (`0` blobs above `50 MiB`).
 - Grounded TF-IDF boundary: PASS (`0` indexed `knowledge_external/` paths).
-- OpenGWAS: PASS at `2026-06-14T23:01:28Z`; token valid until
-  `2026-06-19 12:28 UTC`, renewal needed before OpenGWAS-dependent work after
-  expiry.
+- OpenGWAS: EXPIRED on resume. `scripts/check_opengwas_access.py` loaded the
+  JWT but returned HTTP `401` on `2026-06-20T07:42:42Z`; token decoded expiry is
+  `2026-06-19 12:28 UTC`. Route around OpenGWAS-dependent work until renewal.
 
 ## Human Handoff Still Required
 
@@ -86,8 +87,7 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 153 and task 154. Run task 137 once
-`2026-06-14T23:30:00Z` is reached. Use task 155 to refill the backlog above
-threshold if needed. Do not stop for a final summary unless the active 6-hour
-target is met, external termination occurs, or a documented all-fronts block
-exists.
+Continue V49 with task 161 and task 162. Use task 163 to refill the backlog
+above threshold if needed. Do not stop for a final summary unless the active
+6-hour target is met, external termination occurs, or a documented all-fronts
+block exists.

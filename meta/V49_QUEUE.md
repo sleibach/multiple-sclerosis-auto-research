@@ -216,7 +216,7 @@ tracked purge target is:
 | 157 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 158 | medium | done | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
 | 159 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 160 | medium | todo | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 160 | medium | done | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 161 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
 | 162 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 163 | medium | todo | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
@@ -1447,4 +1447,12 @@ tracked purge target is:
   The public-index crosslink outputs were refreshed for the two new links.
 - Current cumulative active time at `2026-06-20T07:46:50Z`: `12417` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `248` seconds of
+  current open session 3). Target met: `false`.
+- Task 160 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `0ce5eb8552b14b37000dc62fc9004f4152166d35`, cumulative active time `12455`
+  seconds, timeout-safe session state, expired OpenGWAS status, latest guard
+  state, and open tasks `161` through `163`.
+- Current cumulative active time at `2026-06-20T07:47:28Z`: `12455` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `286` seconds of
   current open session 3). Target met: `false`.
