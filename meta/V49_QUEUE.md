@@ -248,7 +248,7 @@ tracked purge target is:
 | 189 | high | done | Build a compact row-level provenance audit for all 23 convergence/contradiction relationships, verifying every asserted class has source + grounded-finding provenance | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` |
 | 190 | high | done | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
 | 191 | medium | done | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
-| 192 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 192 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 193 | medium | todo | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 194 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 195 | medium | todo | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1694,7 +1694,7 @@ tracked purge target is:
   current open session 3). Target met: `false`.
 - Task 189 added `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md`.
   Result: all `23` convergence/contradiction rows have grounded artifact,
-  external record path, source, epistemic class, `NOT_PROJECT_GROUNDED` marker,
+  external record path, source, epistemic class, explicit not-grounded marker,
   relationship class, and `row_status=PASS`; missing required provenance count
   is `0`. The audit is external-layer governance/content, not biological
   evidence.
@@ -1719,4 +1719,20 @@ tracked purge target is:
   grounded tree was modified.
 - Current cumulative active time at `2026-06-20T08:45:47Z`: `15954` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `3785` seconds of
+  current open session 3). Target met: `false`.
+- Task 192 reran guards after tasks 189-191. Initial provenance gate correctly
+  failed on boundary-marker formatting in the two new external Markdown files
+  and one queue note; the marker wording was tightened, then the affected gates
+  were rerun. Final results: V47 provenance gate PASS (`436` checks, `47`
+  external JSON records, `0` failures), public-index freshness PASS (`50`
+  checks), public-index crosslinks PASS (`77` links), external Markdown/index
+  lint PASS (`380` checks, `82` Markdown files), matrix counts PASS (`23` rows,
+  `7` converges, `0` contradictions, `16` insufficient-overlap, `0`
+  high-priority gap markers), contradiction-routing rows `7`,
+  absent-resource-routing rows `6`, tracked large-file guard PASS (`0` tracked
+  files above `50 MiB`), and Git blob guard PASS (`0` blobs above `50 MiB`).
+  Guard output summaries changed only for the expected external Markdown and
+  public-index crosslink counts.
+- Current cumulative active time at `2026-06-20T08:50:42Z`: `16249` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4080` seconds of
   current open session 3). Target met: `false`.

@@ -1,8 +1,8 @@
 # V49 Relationship Provenance Audit
 
-Status: external-layer governance/content audit. This file is
-`external-unverifiable` context about the external knowledge layer; it is
-`NOT_PROJECT_GROUNDED` and does not alter any grounded finding.
+Status: external-layer governance/content audit; source:
+`knowledge_external/synthesis/convergence_contradiction_v48.tsv`. This file is
+classed as external context and does not alter any grounded finding.
 
 Purpose: verify that every row in
 `knowledge_external/synthesis/convergence_contradiction_v48.tsv` carries the
