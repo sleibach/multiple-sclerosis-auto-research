@@ -38,30 +38,28 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-20T08:25:14Z`:
+Current push target checkpoint, verified at `2026-06-20T08:51:57Z`:
 
 - current branch: `main`
-- current HEAD: `19f708176560977cab65ae6300b81dd61fab3fc7`
+- current HEAD: `a70708a7cb5ddc8ccf2b0bee220d7b0ed494cbdb`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+a70708a7 Record V49 guard pass for relationship provenance summaries
+9ec2f606 Index V49 relationship provenance summaries
+ed721fdc Summarize V49 insufficient-overlap causes
+4280482b Add V49 relationship provenance audit
+e7f6a9bf Refill V49 backlog after OpenGWAS guard active-time audit
+205a5989 Audit V49 active time after OpenGWAS guard checkpoint
+ec40f7d6 Record V49 clean state after OpenGWAS guard checkpoint
+438a8c29 Refresh V49 checkpoints after OpenGWAS active-time guards
+2f4f2dd8 Record V49 guard pass after OpenGWAS active-time refill
+e5bfccf8 Audit V49 ignore recurrence after OpenGWAS refill
+b66bb742 Refresh V49 git integrity after OpenGWAS active-time refill
+650edd7c Refresh V49 handoff after OpenGWAS active-time refill
 19f70817 Refill V49 backlog after OpenGWAS active-time audit
-3c644cc9 Audit V49 active time after OpenGWAS checkpoint
-25dd0e7a Record V49 clean state after OpenGWAS checkpoint
-ecbf4327 Refresh V49 checkpoints after OpenGWAS renewal guards
-7af5406e Record V49 guard pass after OpenGWAS renewal card
-99d063d0 Refresh V49 git integrity after OpenGWAS renewal card
-ea2fd2ab Refresh V49 handoff after OpenGWAS renewal card
-b894f9c9 Add V49 OpenGWAS renewal handoff
-5f8da12c Refill V49 backlog with OpenGWAS renewal handoff
-9b464eef Audit V49 active time after timeout guard checkpoint
-e5b32756 Record V49 clean state after timeout guard checkpoint
-ce5c616d Refresh V49 checkpoints after timeout handoff guards
-ba70c7a0 Record V49 guard pass after timeout handoff
-e99f62af Record V49 manifest index consistency audit
-6df95206 Refresh V49 git integrity after timeout checkpoint
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop

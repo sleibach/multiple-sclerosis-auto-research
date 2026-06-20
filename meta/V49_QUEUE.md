@@ -249,7 +249,7 @@ tracked purge target is:
 | 190 | high | done | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
 | 191 | medium | done | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
 | 192 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
-| 193 | medium | todo | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 193 | medium | done | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 194 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 195 | medium | todo | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 196 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
@@ -1735,4 +1735,10 @@ tracked purge target is:
   public-index crosslink counts.
 - Current cumulative active time at `2026-06-20T08:50:42Z`: `16249` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4080` seconds of
+  current open session 3). Target met: `false`.
+- Task 193 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `a70708a7cb5ddc8ccf2b0bee220d7b0ed494cbdb` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-20T08:51:57Z`: `16324` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4155` seconds of
   current open session 3). Target met: `false`.
