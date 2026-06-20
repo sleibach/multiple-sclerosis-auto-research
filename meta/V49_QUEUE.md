@@ -255,7 +255,7 @@ tracked purge target is:
 | 196 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
 | 197 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 198 | medium | done | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
-| 199 | medium | todo | Refresh V49 artifact manifest for relationship provenance audit and insufficient-overlap cause summary | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 199 | medium | done | Refresh V49 artifact manifest for relationship provenance audit and insufficient-overlap cause summary | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 200 | medium | todo | Update V49 reader quickstart so readers can find the relationship provenance audit and insufficient-overlap cause summary | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 201 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 199-200 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 202 | medium | todo | Refresh rewrite/push handoff to latest HEAD after manifest/quickstart and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -1785,4 +1785,11 @@ tracked purge target is:
   OpenGWAS-dependent analysis is queued while the token is expired.
 - Current cumulative active time at `2026-06-20T09:01:31Z`: `16898` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4729` seconds of
+  current open session 3). Target met: `false`.
+- Task 199 refreshed `meta/V49_ARTIFACT_MANIFEST.md` for
+  `V49_RELATIONSHIP_PROVENANCE_AUDIT.md` and
+  `V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md`. Manifest count now lists `63`
+  new V49 files, including `41` external synthesis/catalog/navigation files.
+- Current cumulative active time at `2026-06-20T09:02:44Z`: `16971` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4802` seconds of
   current open session 3). Target met: `false`.
