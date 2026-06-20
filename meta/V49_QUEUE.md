@@ -253,7 +253,7 @@ tracked purge target is:
 | 194 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 195 | medium | done | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 196 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
-| 197 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 197 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 198 | medium | todo | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
@@ -1764,3 +1764,8 @@ tracked purge target is:
 - Current cumulative active time at `2026-06-20T09:00:16Z`: `16823` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4654` seconds of
   current open session 3). Target met: `false`.
+- Task 197 audited active-time accounting at `2026-06-20T09:00:55Z`. Result:
+  session 1 active time `376` seconds, session 2 active time `11793` seconds,
+  current session 3 elapsed `4693` seconds, cumulative active time `16862`
+  seconds, active target `21600` seconds, target met: `false`. The timeout gap
+  between session 2 and session 3 remains excluded.
