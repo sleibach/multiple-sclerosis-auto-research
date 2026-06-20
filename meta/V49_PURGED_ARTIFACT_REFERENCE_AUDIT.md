@@ -84,6 +84,34 @@ representative recurrence-risk paths still resolve to an ignore rule:
 | `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` | `.gitignore:33:results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv` |
 | `tmp_v3/any/cache.parquet` | `.gitignore:20:tmp_v3/` |
 
+## Timeout-Resume Recurrence Recheck
+
+Rechecked at `2026-06-20T08:27:59Z` after the timeout-resume V49 commits. The
+repository still blocks representative temp/cache recurrence paths:
+
+| representative path | ignore rule |
+|---|---|
+| `phases/v3/tmp/example.safetensors` | `.gitignore:24:**/tmp/` |
+| `tmp/foo.h5ad` | `.gitignore:24:**/tmp/` |
+| `phases/v9/tmp/cache.parquet` | `.gitignore:24:**/tmp/` |
+| `phases/v3/tmp/cache.tsv.gz` | `.gitignore:24:**/tmp/` |
+| `analysis/example/tmp/cache.parquet` | `.gitignore:24:**/tmp/` |
+
+Tracked recurrence-pattern check:
+
+| check | result |
+|---|---:|
+| tracked files under any `tmp/` path | `0` |
+| tracked `.safetensors`, `.h5ad`, or `.parquet` files | `0` |
+| tracked `.tsv.gz` files matching the broad recurrence pattern | `5` |
+| tracked `.tsv.gz` files above `50 MiB` | `0` |
+
+The five tracked `.tsv.gz` files are compact seeded synthetic method-validation
+artifacts outside temp/cache paths. Sizes at this recheck ranged from `45,216`
+bytes to `23,904,581` bytes, below the V49 `50 MiB` tracking ceiling. They are
+not the purged `analysis/v43_method_validation/synthetic/power_simulation_subjects.tsv.gz`
+cache and are not GitHub push blockers.
+
 ## Reference Classes
 
 ### Historical provenance references
