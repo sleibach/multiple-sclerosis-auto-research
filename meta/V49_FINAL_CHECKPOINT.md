@@ -5,14 +5,14 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-20T08:08:29Z`
+- checkpoint_utc: `2026-06-20T08:19:28Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2: `2026-06-14T20:16:32Z` to `2026-06-14T23:33:05Z` = `11793`
   active seconds
 - session_3_start_utc: `2026-06-20T07:42:42Z`
-- cumulative_active_seconds_at_checkpoint: `13716`
+- cumulative_active_seconds_at_checkpoint: `14375`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -24,7 +24,7 @@ session 3, are excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `ba70c7a08d10b99900a3e4831e5994356e0da86b`
+  `7af5406e6d7fd98a02c40353785fb93ab01b9efd`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -47,7 +47,7 @@ Latest guard status before this checkpoint refresh:
 - risky tracked binary/cache extensions: `.safetensors` `0`, `.h5ad` `0`,
   `.parquet` `0`; tracked `.tsv.gz` files are compact seeded synthetic
   method-characterization artifacts below `50 MiB`
-- `git fsck --full --strict`: PASS at `2026-06-14T23:31:21Z`
+- `git fsck --full --strict`: PASS at `2026-06-20T08:16:26Z`
 
 Human follow-up remains required before the rewritten history is synchronized:
 
@@ -81,6 +81,8 @@ force-push.
 - Contradiction-surveillance and absent-resource routing audits were added and
   linked from the public external index; both are future-intake/navigation
   controls, not evidence.
+- OpenGWAS expiry is recorded in `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md`; HTTP
+  `401` is explicitly auth failure, not a biological null.
 
 ## Latest Gates
 
@@ -102,11 +104,11 @@ force-push.
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `169` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `177` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `170`: verify final working-tree cleanliness and tracked-size
+2. Complete task `178`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
-3. Complete task `171`: audit active-time accounting after the checkpoint
+3. Complete task `179`: audit active-time accounting after the checkpoint
    stretch.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.

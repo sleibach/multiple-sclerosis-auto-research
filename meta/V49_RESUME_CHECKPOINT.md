@@ -5,16 +5,16 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-20T08:08:29Z`
+- refreshed_utc: `2026-06-20T08:19:28Z`
 - current HEAD before this checkpoint refresh was written:
-  `ba70c7a08d10b99900a3e4831e5994356e0da86b`
+  `7af5406e6d7fd98a02c40353785fb93ab01b9efd`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `13656`
-  seconds at `2026-06-20T08:07:29Z`
-- cumulative active time at this checkpoint timestamp: `13716` seconds
+- last recorded cumulative active time before this checkpoint refresh: `14337`
+  seconds at `2026-06-20T08:18:50Z`
+- cumulative active time at this checkpoint timestamp: `14375` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
@@ -22,8 +22,8 @@ Active time is the sum of session intervals, not wall-clock span:
 - session 1: `376` seconds
 - session 2: `11793` seconds, closed at the last recorded active timestamp
   before timeout
-- session 3 open elapsed at checkpoint: `1547` seconds
-- cumulative at checkpoint: `13716` seconds
+- session 3 open elapsed at checkpoint: `2206` seconds
+- cumulative at checkpoint: `14375` seconds
 
 ## Completed V49 Work
 
@@ -45,16 +45,16 @@ Active time is the sum of session intervals, not wall-clock span:
   quickstart, public-index links for the routing audits, grounded-index boundary
   check, purged-reference audit, and V49 artifact manifest.
 - Operational handoffs completed and refreshed: rewrite/push handoff, large-file
-  guard, tmp-path guard, risky-extension audit, final checkpoint, and
-  post-checkpoint guard pass.
+  guard, tmp-path guard, risky-extension audit, OpenGWAS renewal handoff, final
+  checkpoint, and post-checkpoint guard pass.
 
 ## Open V49 Tasks
 
 | task | status | next action |
 |---:|---|---|
-| 170 | todo | Verify working-tree cleanliness and tracked-size policy after task 169. |
-| 171 | todo | Audit active-time accounting after the next checkpoint stretch. |
-| 172 | todo | Refill V49 backlog above threshold after task 171. |
+| 178 | todo | Verify working-tree cleanliness and tracked-size policy after task 177. |
+| 179 | todo | Audit active-time accounting after the next checkpoint stretch. |
+| 180 | todo | Refill V49 backlog above threshold after task 179. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -87,7 +87,7 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 170 and task 171. Use task 172 to refill the backlog
+Continue V49 with task 178 and task 179. Use task 180 to refill the backlog
 above threshold if needed. Do not stop for a final summary unless the active
 6-hour target is met, external termination occurs, or a documented all-fronts
 block exists.
