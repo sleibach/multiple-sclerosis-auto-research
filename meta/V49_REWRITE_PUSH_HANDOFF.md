@@ -38,28 +38,27 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-20T08:51:57Z`:
+Current push target checkpoint, verified at `2026-06-20T09:07:52Z`:
 
 - current branch: `main`
-- current HEAD: `a70708a7cb5ddc8ccf2b0bee220d7b0ed494cbdb`
+- current HEAD: `5755ced896911d444e1462e4e1f67bcf0c235dd5`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+5755ced8 Record V49 guard pass after manifest quickstart updates
+989926af Route V49 relationship summaries in reader quickstart
+3e507f1a Refresh V49 artifact manifest for relationship summaries
+dd2850e5 Refill V49 backlog after relationship provenance active-time audit
+5c60919c Audit V49 active time after relationship provenance checkpoint
+66826b5a Record V49 clean state after relationship provenance checkpoint
+e9428025 Refresh V49 checkpoints after relationship provenance integrity
+61ff93bc Refresh V49 git integrity after relationship provenance guards
+a3e629d4 Refresh V49 handoff after relationship provenance guards
 a70708a7 Record V49 guard pass for relationship provenance summaries
 9ec2f606 Index V49 relationship provenance summaries
 ed721fdc Summarize V49 insufficient-overlap causes
-4280482b Add V49 relationship provenance audit
-e7f6a9bf Refill V49 backlog after OpenGWAS guard active-time audit
-205a5989 Audit V49 active time after OpenGWAS guard checkpoint
-ec40f7d6 Record V49 clean state after OpenGWAS guard checkpoint
-438a8c29 Refresh V49 checkpoints after OpenGWAS active-time guards
-2f4f2dd8 Record V49 guard pass after OpenGWAS active-time refill
-e5bfccf8 Audit V49 ignore recurrence after OpenGWAS refill
-b66bb742 Refresh V49 git integrity after OpenGWAS active-time refill
-650edd7c Refresh V49 handoff after OpenGWAS active-time refill
-19f70817 Refill V49 backlog after OpenGWAS active-time audit
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
