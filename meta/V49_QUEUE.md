@@ -231,7 +231,7 @@ tracked purge target is:
 | 172 | medium | done | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
 | 173 | high | done | Write an expired-OpenGWAS renewal handoff so future sessions cannot confuse HTTP 401 auth with biological nulls | `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md` |
 | 174 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 173 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 175 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 175 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 176 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 173-175 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 177 | medium | todo | Refresh final and resume checkpoints after task 176 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 178 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 177 | `meta/V49_QUEUE.md` |
@@ -1565,4 +1565,11 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-20T08:15:49Z`: `14156` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1987` seconds of
+  current open session 3). Target met: `false`.
+- Task 175 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `1188` loose objects (`14.51 MiB`), `21745` packed objects, `1` pack, pack
+  size `426.79 MiB`, `.git` size `444M`, commit count `679`, and `0` garbage.
+- Current cumulative active time at `2026-06-20T08:16:59Z`: `14226` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `2057` seconds of
   current open session 3). Target met: `false`.
