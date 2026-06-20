@@ -217,7 +217,7 @@ tracked purge target is:
 | 158 | medium | done | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
 | 159 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 160 | medium | done | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 161 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
+| 161 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
 | 162 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 163 | medium | todo | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
 | 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
@@ -1455,4 +1455,10 @@ tracked purge target is:
   state, and open tasks `161` through `163`.
 - Current cumulative active time at `2026-06-20T07:47:28Z`: `12455` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `286` seconds of
+  current open session 3). Target met: `false`.
+- Task 161 verified post-task-160 working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+- Current cumulative active time at `2026-06-20T07:51:49Z`: `12716` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `547` seconds of
   current open session 3). Target met: `false`.
