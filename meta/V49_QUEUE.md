@@ -228,7 +228,15 @@ tracked purge target is:
 | 169 | medium | done | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 170 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
 | 171 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 172 | medium | todo | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
+| 172 | medium | done | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
+| 173 | high | todo | Write an expired-OpenGWAS renewal handoff so future sessions cannot confuse HTTP 401 auth with biological nulls | `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md` |
+| 174 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 173 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 175 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 176 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 173-175 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 177 | medium | todo | Refresh final and resume checkpoints after task 176 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 178 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 177 | `meta/V49_QUEUE.md` |
+| 179 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 180 | medium | todo | Refill V49 backlog above threshold after task 179 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1536,3 +1544,11 @@ tracked purge target is:
   current session 3 elapsed `1814` seconds, cumulative active time `13983`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 172 refilled the backlog above threshold after task 171. New tasks `173`
+  through `180` add an expired-OpenGWAS renewal handoff and continue rewrite
+  handoff, Git integrity, guards, checkpoints, clean-state checks, active-time
+  accounting, and further refill work. No OpenGWAS-dependent analysis is queued
+  while the token is expired.
+- Current cumulative active time at `2026-06-20T08:13:39Z`: `14026` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1857` seconds of
+  current open session 3). Target met: `false`.
