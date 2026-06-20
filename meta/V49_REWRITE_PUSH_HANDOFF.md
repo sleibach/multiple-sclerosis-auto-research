@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-14T23:31:21Z`:
+Current push target checkpoint, verified at `2026-06-20T07:55:29Z`:
 
 - current branch: `main`
-- current HEAD: `0e6fa717d3ad5063f25cddbdba47eea1bf9e7850`
+- current HEAD: `d88ffce2d8e72336253c814e80b28054392c68fe`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+d88ffce2 Refill V49 backlog after timeout active-time audit
+49f4223c Audit V49 active time after timeout checkpoint
+5198e9a9 Record V49 clean state after timeout checkpoint
+d7772e14 Refresh V49 checkpoints after timeout resume guards
+0ce5eb85 Record V49 guard pass after timeout resume
+9d93c8c2 Record V49 timeout resume and index routing
+0fcec8c4 Refresh V49 git integrity after OpenGWAS boundary check
 0e6fa717 Record V49 scheduled OpenGWAS boundary check
 da80f1b0 Refresh V49 handoff after routing audit batch
 87acda54 Refill V49 backlog after routing active-time audit
@@ -54,13 +61,6 @@ e2fc0b56 Audit V49 active time after routing checkpoint
 82943a27 Record V49 clean state after routing audit checkpoint
 8d47cfec Refresh V49 checkpoints after routing audit guards
 aa861e0d Record V49 guard pass after routing audits
-5a20e419 Add V49 absent resource routing audit
-e73991a8 Add V49 contradiction routing audit
-551e3d0e Refresh V49 git integrity after routing refill
-ab729c7d Refill V49 backlog after routing freshness check
-d6bb1c7f Record V49 manifest routing freshness check
-fbea0c23 Audit V49 active time after guard checkpoint
-5ece929c Record V49 clean state after guard checkpoint
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop

@@ -221,7 +221,7 @@ tracked purge target is:
 | 162 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 163 | medium | done | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
 | 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
-| 165 | medium | todo | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 165 | medium | done | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 166 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 167 | medium | todo | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
 | 168 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -1482,4 +1482,10 @@ tracked purge target is:
   the JWT is expired and must be renewed first.
 - Current cumulative active time at `2026-06-20T07:53:53Z`: `12840` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `671` seconds of
+  current open session 3). Target met: `false`.
+- Task 165 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `d88ffce2d8e72336253c814e80b28054392c68fe` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-20T07:56:06Z`: `12973` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `804` seconds of
   current open session 3). Target met: `false`.
