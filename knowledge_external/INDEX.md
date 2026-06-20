@@ -63,6 +63,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |
 | [V49 source-independence delta](synthesis/V49_SOURCE_INDEPENDENCE_DELTA.md) | V49 note that 7 convergence/context rows correspond to 5 canonical source clusters. | provenance/navigation only |
+| [V49 relationship provenance audit](synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md) | Row-level audit showing all 23 relationship rows carry grounded artifact, source, class, marker, and relationship provenance. | provenance/navigation only |
 | [V48 decision-relevant convergence shortlist](synthesis/DECISION_RELEVANT_CONVERGENCES_V48.md) | Shortlist of current corroborated-context rows and contradictions, if any. | synthesis/navigation only |
 | [V48 contradiction readiness playbook](synthesis/CONTRADICTION_READINESS_PLAYBOOK_V48.md) | Predefined handling for future external contradictions without overriding grounded findings. | future-grounding control |
 | [V48 contradiction surveillance checklist](synthesis/CONTRADICTION_SURVEILLANCE_CHECKLIST_V48.md) | Future contradiction surveillance triggers by source class and finding category. | future-grounding control |
@@ -99,6 +100,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V49 content handoff](synthesis/V49_CONTENT_HANDOFF.md) | Medical-team handoff for V49 hygiene, gap closure, validation routing, import packets, and closure guardrails. | synthesis/navigation only |
 | [V49 reader quickstart](synthesis/V49_READER_QUICKSTART.md) | Question-to-artifact routing guide for V49 content and resume paths. | navigation only |
 | [V49 insufficient-overlap triage](synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md) | Actionability triage for insufficient-overlap rows so context-only rows are not reopened without the named trigger. | synthesis/navigation only |
+| [V49 insufficient-overlap cause summary](synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md) | Cause-level closure summary explaining why the 16 insufficient-overlap rows are not unresolved gaps. | synthesis/navigation only |
 | [V49 context-only closure guardrail](synthesis/V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md) | Compact reopen-trigger rules for the seven low-actionability/context-only rows. | synthesis/navigation only |
 | [V49 uncovered finding triage](synthesis/V49_UNCOVERED_FINDING_TRIAGE.md) | Direct-source and no-expand routing for V37 findings still uncovered by relationship rows. | sourcing/navigation only |
 | [V49 source-specific import packets](synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md) | Narrow acceptance gates for future ZMIZ1, chr1 KIF21B/GPR25, and coupled APC-axis source intake. | future intake/navigation only |
