@@ -238,7 +238,7 @@ tracked purge target is:
 | 179 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 180 | medium | done | Refill V49 backlog above threshold after task 179 | `meta/V49_QUEUE.md` |
 | 181 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 180 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 182 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 182 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 183 | medium | todo | Re-run representative .gitignore and tracked tmp/cache recurrence spot checks after the latest commits | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`, `.gitignore` |
 | 184 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 181-183 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 185 | medium | todo | Refresh final and resume checkpoints after task 184 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1625,4 +1625,12 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-20T08:25:14Z`: `14721` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `2552` seconds of
+  current open session 3). Target met: `false`.
+- Task 182 ran `git fsck --full --strict`, refreshed object-store state, and
+  reran large-object guards. Result: `git fsck` PASS with no output, `1220`
+  loose objects (`14.82 MiB`), `21745` packed objects, `1` pack, pack size
+  `426.79 MiB`, `.git` size `444M`, commit count `686`, tracked files above
+  `50 MiB`: `0`, and Git blobs above `50 MiB`: `0`.
+- Current cumulative active time at `2026-06-20T08:27:13Z`: `14840` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `2671` seconds of
   current open session 3). Target met: `false`.
