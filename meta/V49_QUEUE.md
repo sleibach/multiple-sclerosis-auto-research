@@ -226,7 +226,7 @@ tracked purge target is:
 | 167 | medium | done | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
 | 168 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 169 | medium | done | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 170 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
+| 170 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
 | 171 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 172 | medium | todo | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
@@ -1524,4 +1524,10 @@ tracked purge target is:
   state, and open tasks `170` through `172`.
 - Current cumulative active time at `2026-06-20T08:08:29Z`: `13716` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1547` seconds of
+  current open session 3). Target met: `false`.
+- Task 170 verified post-task-169 working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+- Current cumulative active time at `2026-06-20T08:12:16Z`: `13943` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1774` seconds of
   current open session 3). Target met: `false`.
