@@ -246,7 +246,7 @@ tracked purge target is:
 | 187 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 188 | medium | done | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
 | 189 | high | done | Build a compact row-level provenance audit for all 23 convergence/contradiction relationships, verifying every asserted class has source + grounded-finding provenance | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` |
-| 190 | high | todo | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
+| 190 | high | done | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
 | 191 | medium | todo | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
 | 192 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 193 | medium | todo | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -1700,4 +1700,15 @@ tracked purge target is:
   evidence.
 - Current cumulative active time at `2026-06-20T08:43:26Z`: `15813` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `3644` seconds of
+  current open session 3). Target met: `false`.
+- Task 190 added
+  `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md`.
+  Result: the `16` insufficient-overlap rows are closed into `11`
+  `NO_DIRECT_EXTERNAL_CORROBORATION`, `3`
+  `GENERAL_CONTEXT_NOT_LOCUS_CORROBORATION`, and `2`
+  `RESOURCE_CAN_QUEUE_FUTURE_CHECK` rows, each with a concrete future trigger.
+  The summary makes clear these are closed relationship assessments, not hidden
+  unresolved gaps.
+- Current cumulative active time at `2026-06-20T08:44:39Z`: `15886` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `3717` seconds of
   current open session 3). Target met: `false`.
