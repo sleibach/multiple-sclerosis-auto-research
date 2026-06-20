@@ -5,16 +5,16 @@ Status: resumability card. This is not an end-of-block summary because the
 
 ## Current State
 
-- refreshed_utc: `2026-06-20T08:56:30Z`
+- refreshed_utc: `2026-06-20T09:12:13Z`
 - current HEAD before this checkpoint refresh was written:
-  `61ff93bca0bc005adbc9548c3f112d3ecb10c77c`
+  `bbdcb7dd0effa5a7ae17aa7cd5d7bf709462f789`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `16539`
-  seconds at `2026-06-20T08:55:32Z`
-- cumulative active time at this checkpoint timestamp: `16597` seconds
+- last recorded cumulative active time before this checkpoint refresh: `17490`
+  seconds at `2026-06-20T09:11:23Z`
+- cumulative active time at this checkpoint timestamp: `17540` seconds
 - block target met: `no`
 
 Active time is the sum of session intervals, not wall-clock span:
@@ -22,8 +22,8 @@ Active time is the sum of session intervals, not wall-clock span:
 - session 1: `376` seconds
 - session 2: `11793` seconds, closed at the last recorded active timestamp
   before timeout
-- session 3 open elapsed at checkpoint: `4428` seconds
-- cumulative at checkpoint: `16597` seconds
+- session 3 open elapsed at checkpoint: `5371` seconds
+- cumulative at checkpoint: `17540` seconds
 
 ## Completed V49 Work
 
@@ -53,9 +53,9 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 196 | todo | Verify working-tree cleanliness and tracked-size policy after task 195. |
-| 197 | todo | Audit active-time accounting after the next checkpoint stretch. |
-| 198 | todo | Refill V49 backlog above threshold after task 197. |
+| 205 | todo | Verify working-tree cleanliness and tracked-size policy after task 204. |
+| 206 | todo | Audit active-time accounting after the next checkpoint stretch. |
+| 207 | todo | Refill V49 backlog above threshold after task 206. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -63,18 +63,18 @@ below threshold.
 ## Latest Gate Status
 
 - V47 provenance gate: PASS (`436` checks, `47` external JSON records,
-  `0` failures), freshly rerun at task `192`.
-- Public index freshness: PASS (`50` checks), freshly rerun at task `184`.
-- Public index crosslinks: PASS (`77` links), freshly rerun at task `192`.
+  `0` failures), freshly rerun at task `201`.
+- Public index freshness: PASS (`50` checks), freshly rerun at task `201`.
+- Public index crosslinks: PASS (`77` links), freshly rerun at task `201`.
 - External Markdown/index lint: PASS (`380` checks, `82` Markdown files),
-  freshly rerun at task `192`.
+  freshly rerun at task `201`.
 - Gap/routing counts: PASS (`23` relationship rows, `7` converges, `0`
   contradictions, `16` insufficient-overlap, `0` high-priority gap markers,
   `7` contradiction-routing rows, `6` absent-resource-routing rows), freshly
-  rerun at task `192`.
+  rerun at task `201`.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`), freshly rerun at
-  task `194`.
-- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `194`.
+  task `203`.
+- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `203`.
 - Docs convergence pointer consistency: prior PASS.
 - Grounded TF-IDF boundary: prior PASS (`0` indexed `knowledge_external/`
   paths).
@@ -95,7 +95,7 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 196 and task 197. Use task 198 to refill the backlog
+Continue V49 with task 205 and task 206. Use task 207 to refill the backlog
 above threshold if needed. Do not stop for a final summary unless the active
 6-hour target is met, external termination occurs, or a documented all-fronts
 block exists.
