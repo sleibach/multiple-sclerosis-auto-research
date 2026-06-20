@@ -236,7 +236,15 @@ tracked purge target is:
 | 177 | medium | done | Refresh final and resume checkpoints after task 176 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 178 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 177 | `meta/V49_QUEUE.md` |
 | 179 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 180 | medium | todo | Refill V49 backlog above threshold after task 179 | `meta/V49_QUEUE.md` |
+| 180 | medium | done | Refill V49 backlog above threshold after task 179 | `meta/V49_QUEUE.md` |
+| 181 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 180 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 182 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 183 | medium | todo | Re-run representative .gitignore and tracked tmp/cache recurrence spot checks after the latest commits | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`, `.gitignore` |
+| 184 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 181-183 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 185 | medium | todo | Refresh final and resume checkpoints after task 184 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 186 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 185 | `meta/V49_QUEUE.md` |
+| 187 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 188 | medium | todo | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1604,3 +1612,11 @@ tracked purge target is:
   current session 3 elapsed `2406` seconds, cumulative active time `14575`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 180 refilled the backlog above threshold after task 179. New tasks `181`
+  through `188` continue rewrite handoff, Git integrity, ignore-policy
+  recurrence checks, guards, checkpoints, clean-state checks, active-time
+  accounting, and further refill work. No OpenGWAS-dependent analysis is queued
+  while the token is expired.
+- Current cumulative active time at `2026-06-20T08:23:27Z`: `14614` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `2445` seconds of
+  current open session 3). Target met: `false`.
