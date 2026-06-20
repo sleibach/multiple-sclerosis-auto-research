@@ -254,7 +254,16 @@ tracked purge target is:
 | 195 | medium | done | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 196 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
 | 197 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 198 | medium | todo | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
+| 198 | medium | done | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
+| 199 | medium | todo | Refresh V49 artifact manifest for relationship provenance audit and insufficient-overlap cause summary | `meta/V49_ARTIFACT_MANIFEST.md` |
+| 200 | medium | todo | Update V49 reader quickstart so readers can find the relationship provenance audit and insufficient-overlap cause summary | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 201 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 199-200 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 202 | medium | todo | Refresh rewrite/push handoff to latest HEAD after manifest/quickstart and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 203 | medium | todo | Run git fsck and object-store checkpoint after the next manifest/quickstart commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 204 | medium | todo | Refresh final and resume checkpoints after task 203 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 205 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 204 | `meta/V49_QUEUE.md` |
+| 206 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 207 | medium | todo | Refill V49 backlog above threshold after task 206 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1769,3 +1778,11 @@ tracked purge target is:
   current session 3 elapsed `4693` seconds, cumulative active time `16862`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 198 refilled the backlog above threshold after task 197. New tasks `199`
+  through `207` update the artifact manifest and reader quickstart for the new
+  relationship-summary artifacts, then repeat guards, handoff, Git integrity,
+  checkpoints, clean-state, active-time accounting, and further refill work. No
+  OpenGWAS-dependent analysis is queued while the token is expired.
+- Current cumulative active time at `2026-06-20T09:01:31Z`: `16898` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4729` seconds of
+  current open session 3). Target met: `false`.
