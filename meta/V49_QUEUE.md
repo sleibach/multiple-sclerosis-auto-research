@@ -15,7 +15,7 @@ span across resume gaps.
 |---:|---|---|---:|---|
 | 1 | `2026-06-14T19:57:24Z` | `2026-06-14T20:03:40Z` | 376 | initial V49 session through Phase 0 health checks |
 | 2 | `2026-06-14T20:16:32Z` | `2026-06-14T23:33:05Z` | 11793 | resumed content-gap closure session; closed at last recorded active timestamp before timeout |
-| 3 | `2026-06-20T07:42:42Z` | OPEN | OPEN | resumed after timeout; timeout gap excluded from active time |
+| 3 | `2026-06-20T07:42:42Z` | `2026-06-20T11:14:05Z` | 12683 | resumed after timeout; timeout gap excluded from active time; V49 target reached at clean checkpoint |
 
 ## Phase 0 Oversized-File Audit
 
@@ -270,7 +270,7 @@ tracked purge target is:
 | 211 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 212 | medium | done | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 213 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 214 | medium | todo | Refresh final and resume checkpoints after task 213 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 214 | medium | done | Refresh final and resume checkpoints after task 213 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 215 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 214 | `meta/V49_QUEUE.md` |
 | 216 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 217 | medium | todo | Refill V49 backlog above threshold after task 216 | `meta/V49_QUEUE.md` |
@@ -1914,3 +1914,12 @@ tracked purge target is:
 - Current cumulative active time at `2026-06-20T11:12:50Z`: `24777` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `12608` seconds
   of current session 3). Target met: `true`.
+- Task 214 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `be979f6c7b0fdad48595ace15f2a7e0edec39a7d`, closed session 3 at
+  `2026-06-20T11:14:05Z`, and recorded cumulative active time `24852` seconds.
+  Target met: `true`; V49 can stop after this clean checkpoint and final
+  summary.
+- Final cumulative active time at `2026-06-20T11:14:05Z`: `24852` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `12683` seconds
+  of session 3). Target met: `true`.

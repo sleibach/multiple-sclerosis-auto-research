@@ -1,20 +1,21 @@
 # V49 Final Checkpoint
 
-Status: resumability checkpoint, not an end-of-block summary. The V49 active
-6-hour target has not been met.
+Status: end-of-block clean checkpoint. The V49 active 6-hour target has been
+met.
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-20T09:12:13Z`
+- checkpoint_utc: `2026-06-20T11:14:05Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2: `2026-06-14T20:16:32Z` to `2026-06-14T23:33:05Z` = `11793`
   active seconds
-- session_3_start_utc: `2026-06-20T07:42:42Z`
-- cumulative_active_seconds_at_checkpoint: `17540`
+- session_3: `2026-06-20T07:42:42Z` to `2026-06-20T11:14:05Z` = `12683`
+  active seconds
+- cumulative_active_seconds_at_checkpoint: `24852`
 - active_target_seconds: `21600`
-- active_target_met: `no`
+- active_target_met: `yes`
 
 The active-time accounting is summed session time, not wall-clock span. Idle
 time between session 1 and session 2, and the timeout gap between session 2 and
@@ -24,7 +25,7 @@ session 3, are excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `bbdcb7dd0effa5a7ae17aa7cd5d7bf709462f789`
+  `be979f6c7b0fdad48595ace15f2a7e0edec39a7d`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -47,7 +48,7 @@ Latest guard status before this checkpoint refresh:
 - risky tracked binary/cache extensions: `.safetensors` `0`, `.h5ad` `0`,
   `.parquet` `0`; tracked `.tsv.gz` files are compact seeded synthetic
   method-characterization artifacts below `50 MiB`
-- `git fsck --full --strict`: PASS at `2026-06-20T09:08:45Z`
+- `git fsck --full --strict`: PASS at `2026-06-20T10:34:51Z`
 
 Human follow-up remains required before the rewritten history is synchronized:
 
@@ -87,6 +88,12 @@ force-push.
   rows; the cause summary closed the `16` insufficient-overlap rows into `11`
   no-direct-corroboration, `3` general-context-not-signal-specific, and `2`
   resource-can-queue-future-check classes.
+- Corroboration-strength tiers and contradiction evidence-type artifacts were
+  added and linked from the public external index. The tier summary separates
+  the `7` convergence/context rows into `2` strongest independent-context rows,
+  `2` useful source-specific context rows, and `3` method/governance context
+  rows. The contradiction evidence-type map names minimum evidence fields and
+  non-triggers for the `7` surveillance rows.
 - OpenGWAS expiry is recorded in `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md`; HTTP
   `401` is explicitly auth failure, not a biological null.
 
@@ -109,25 +116,11 @@ force-push.
   JWT but returned HTTP `401` on `2026-06-20T07:42:42Z`; token decoded expiry is
   `2026-06-19 12:28 UTC`. Route around OpenGWAS-dependent work until renewal.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`), freshly rerun at
-  task `203`.
-- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `203`.
+  task `213`.
+- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `213`.
 
 ## Current Open Work
 
-Because the active target is not met, V49 must continue after this checkpoint.
-Recommended next internally executable tasks:
-
-1. Mark task `204` complete in `meta/V49_QUEUE.md` after committing this
-   checkpoint refresh.
-2. Complete task `205`: verify final working-tree cleanliness and tracked-size
-   policy after this checkpoint refresh.
-3. Complete task `206`: audit active-time accounting after the checkpoint
-   stretch.
-4. Refresh the rewrite/push handoff again if HEAD advances after this
-   checkpoint.
-5. Complete task `207` to refill `meta/V49_QUEUE.md` above five executable
-   tasks if the backlog drops
-   below threshold.
-
-Do not stop for a final run summary unless the active 6-hour target is met,
-external termination occurs, or a documented all-fronts block exists.
+The active target is met. V49 may stop after this checkpoint and final summary.
+Open queued tasks `215` through `217` remain optional next-cycle hygiene tasks,
+not blockers to the V49 stop condition.

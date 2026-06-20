@@ -1,29 +1,28 @@
 # V49 Resume Checkpoint
 
-Status: resumability card. This is not an end-of-block summary because the
-6-hour active target has not been met.
+Status: end-of-block resumability card. The 6-hour active target has been met.
 
 ## Current State
 
-- refreshed_utc: `2026-06-20T09:12:13Z`
+- refreshed_utc: `2026-06-20T11:14:05Z`
 - current HEAD before this checkpoint refresh was written:
-  `bbdcb7dd0effa5a7ae17aa7cd5d7bf709462f789`
+  `be979f6c7b0fdad48595ace15f2a7e0edec39a7d`
 - branch: `main`
 - remote: not configured after `git-filter-repo`
 - working tree before this checkpoint refresh: clean except for this refresh
 - active target: `21600` seconds
-- last recorded cumulative active time before this checkpoint refresh: `17490`
-  seconds at `2026-06-20T09:11:23Z`
-- cumulative active time at this checkpoint timestamp: `17540` seconds
-- block target met: `no`
+- last recorded cumulative active time before this checkpoint refresh: `24777`
+  seconds at `2026-06-20T11:12:50Z`
+- cumulative active time at this checkpoint timestamp: `24852` seconds
+- block target met: `yes`
 
 Active time is the sum of session intervals, not wall-clock span:
 
 - session 1: `376` seconds
 - session 2: `11793` seconds, closed at the last recorded active timestamp
   before timeout
-- session 3 open elapsed at checkpoint: `5371` seconds
-- cumulative at checkpoint: `17540` seconds
+- session 3: `12683` seconds, closed at checkpoint
+- cumulative at checkpoint: `24852` seconds
 
 ## Completed V49 Work
 
@@ -44,7 +43,8 @@ Active time is the sum of session intervals, not wall-clock span:
   unresolved-action reconciliation, source-independence delta, reader
   quickstart, public-index links for the routing audits, grounded-index boundary
   check, purged-reference audit, relationship provenance audit,
-  insufficient-overlap cause summary, and V49 artifact manifest.
+  insufficient-overlap cause summary, corroboration-strength tiers,
+  contradiction evidence-type map, and V49 artifact manifest.
 - Operational handoffs completed and refreshed: rewrite/push handoff, large-file
   guard, tmp-path guard, risky-extension audit, OpenGWAS renewal handoff, final
   checkpoint, and post-checkpoint guard pass.
@@ -53,9 +53,9 @@ Active time is the sum of session intervals, not wall-clock span:
 
 | task | status | next action |
 |---:|---|---|
-| 205 | todo | Verify working-tree cleanliness and tracked-size policy after task 204. |
-| 206 | todo | Audit active-time accounting after the next checkpoint stretch. |
-| 207 | todo | Refill V49 backlog above threshold after task 206. |
+| 215 | optional-next-cycle | Verify working-tree cleanliness and tracked-size policy after task 214. |
+| 216 | optional-next-cycle | Audit active-time accounting after task 214 if another V49 continuation is requested. |
+| 217 | optional-next-cycle | Refill backlog only if V49 is deliberately continued past target. |
 
 Refill the backlog above five executable tasks if open executable tasks fall
 below threshold.
@@ -73,8 +73,8 @@ below threshold.
   `7` contradiction-routing rows, `6` absent-resource-routing rows), freshly
   rerun at task `201`.
 - Large-file guard: PASS (`0` tracked files above `50 MiB`), freshly rerun at
-  task `203`.
-- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `203`.
+  task `213`.
+- Git blob guard: PASS (`0` blobs above `50 MiB`), freshly rerun at task `213`.
 - Docs convergence pointer consistency: prior PASS.
 - Grounded TF-IDF boundary: prior PASS (`0` indexed `knowledge_external/`
   paths).
@@ -95,7 +95,6 @@ git push --force-with-lease origin main
 
 ## Valid Next Action
 
-Continue V49 with task 205 and task 206. Use task 207 to refill the backlog
-above threshold if needed. Do not stop for a final summary unless the active
-6-hour target is met, external termination occurs, or a documented all-fronts
-block exists.
+V49 target is met. Stop after committing this checkpoint and reporting the final
+run summary. If a future continuation is explicitly requested, resume with task
+215 as a hygiene check; it is not required for V49 completion.

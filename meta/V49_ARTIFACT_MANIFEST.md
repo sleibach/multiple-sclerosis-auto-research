@@ -6,9 +6,9 @@ navigation/source-context outputs with grounded evidence.
 
 ## Summary
 
-- new V49 files listed: `63`
+- new V49 files listed: `65`
 - segregated source-context records: `8`
-- external synthesis/catalog/navigation files: `41`
+- external synthesis/catalog/navigation files: `43`
 - reproducibility scripts: `2`
 - generated source-navigation summaries: `2`
 - operational meta files: `10`
@@ -39,6 +39,8 @@ navigation/source-context outputs with grounded evidence.
 | `knowledge_external/synthesis/V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md` | external synthesis/navigation | Direct audit confirming V49 closed the 11 high-priority convergence/contradiction gaps without promoting external context to evidence. |
 | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` | external synthesis/navigation | Row-level audit confirming all convergence/contradiction relationship rows carry required provenance and boundary fields. |
 | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` | external synthesis/navigation | Cause-level closure summary for the 16 insufficient-overlap rows. |
+| `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md` | external synthesis/navigation | Tiered interpretation of the seven convergence/context rows by decision value and source independence. |
+| `knowledge_external/synthesis/V49_CONTRADICTION_EVIDENCE_TYPES.md` | external synthesis/navigation | Evidence-type and minimum-field map for future contradiction surveillance rows. |
 | `knowledge_external/catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md` | source maintenance/navigation | Access/terms review for eight V49-added source domains. |
 | `knowledge_external/catalogs/indexes/v49_new_source_domain_review.tsv` | source maintenance/navigation | Machine-readable V49 source-domain review table. |
 | `knowledge_external/synthesis/V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md` | future source-intake/navigation | Narrow import packets for ZMIZ1, chr1 KIF21B/GPR25, and coupled APC axis. |
