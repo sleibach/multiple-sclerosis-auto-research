@@ -252,7 +252,7 @@ tracked purge target is:
 | 193 | medium | done | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 194 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 195 | medium | done | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
-| 196 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
+| 196 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
 | 197 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 198 | medium | todo | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
@@ -1757,4 +1757,10 @@ tracked purge target is:
   task-192/task-194 guard state, and open tasks `196` through `198`.
 - Current cumulative active time at `2026-06-20T08:56:30Z`: `16597` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4428` seconds of
+  current open session 3). Target met: `false`.
+- Task 196 verified post-task-195 working-tree and size-policy state. Result:
+  `git status --short` printed nothing, tracked-file guard found `0` tracked
+  files above `50 MiB`, and Git blob guard found `0` blobs above `50 MiB`.
+- Current cumulative active time at `2026-06-20T09:00:16Z`: `16823` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4654` seconds of
   current open session 3). Target met: `false`.
