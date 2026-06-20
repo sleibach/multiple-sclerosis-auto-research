@@ -223,7 +223,7 @@ tracked purge target is:
 | 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
 | 165 | medium | done | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 166 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 167 | medium | todo | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
+| 167 | medium | done | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
 | 168 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 169 | medium | todo | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 170 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
@@ -1495,4 +1495,13 @@ tracked purge target is:
   size `426.79 MiB`, `.git` size `443M`, commit count `670`, and `0` garbage.
 - Current cumulative active time at `2026-06-20T07:57:58Z`: `13085` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `916` seconds of
+  current open session 3). Target met: `false`.
+- Task 167 audited artifact-manifest and public-index consistency after the
+  timeout resume additions. Result: no edit needed; `meta/V49_ARTIFACT_MANIFEST.md`
+  still lists the two V49 routing audits and the operational queue/checkpoint
+  files, `knowledge_external/INDEX.md` links both routing audits, and
+  `V49_READER_QUICKSTART.md` routes to both audits. The timeout resume changed
+  operational state, not the V49 artifact set.
+- Current cumulative active time at `2026-06-20T07:59:24Z`: `13171` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1002` seconds of
   current open session 3). Target met: `false`.
