@@ -229,7 +229,7 @@ tracked purge target is:
 | 170 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
 | 171 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 172 | medium | done | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
-| 173 | high | todo | Write an expired-OpenGWAS renewal handoff so future sessions cannot confuse HTTP 401 auth with biological nulls | `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md` |
+| 173 | high | done | Write an expired-OpenGWAS renewal handoff so future sessions cannot confuse HTTP 401 auth with biological nulls | `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md` |
 | 174 | medium | todo | Refresh rewrite/push handoff to latest HEAD after task 173 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 175 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 176 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 173-175 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
@@ -1551,4 +1551,12 @@ tracked purge target is:
   while the token is expired.
 - Current cumulative active time at `2026-06-20T08:13:39Z`: `14026` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1857` seconds of
+  current open session 3). Target met: `false`.
+- Task 173 added `meta/V49_OPENGWAS_RENEWAL_HANDOFF.md` and updated
+  `meta/V49_ARTIFACT_MANIFEST.md`. Result: OpenGWAS HTTP `401` is explicitly
+  recorded as expired-token auth, not a biological null; future sessions must
+  renew `OPENGWAS_JWT` and rerun `scripts/check_opengwas_access.py` before any
+  OpenGWAS-dependent work.
+- Current cumulative active time at `2026-06-20T08:14:44Z`: `14091` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1922` seconds of
   current open session 3). Target met: `false`.
