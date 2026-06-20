@@ -215,7 +215,7 @@ tracked purge target is:
 | 156 | medium | done | Refresh rewrite/push handoff to latest HEAD after task 155 | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 157 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 158 | medium | done | Audit public external index routing for the two new V49 routing-audit artifacts and add navigation links if missing | `knowledge_external/INDEX.md` |
-| 159 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 159 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 156-158 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 160 | medium | todo | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 161 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
 | 162 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1434,4 +1434,17 @@ tracked purge target is:
   route around OpenGWAS-dependent work until the token is renewed.
 - Current cumulative active time at `2026-06-20T07:43:19Z`: `12206` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `37` seconds of
+  current open session 3). Target met: `false`.
+- Task 159 reran guards after timeout-safe resume and public-index routing.
+  Results: V47 provenance gate PASS (`436` checks, `47` external JSON records,
+  `0` failures), public-index freshness PASS (`50` checks), public-index
+  crosslinks PASS (`75` links), external Markdown/index lint PASS (`378` checks,
+  `80` Markdown files), gap-audit and routing counts PASS (`23` matrix rows,
+  `7` converges, `16` insufficient-overlap, `0` contradictions, `0`
+  high-priority gap markers, `7` contradiction-routing rows, `6`
+  absent-resource-routing rows), tracked large-file guard PASS (`0` tracked
+  files above `50 MiB`), and Git blob guard PASS (`0` blobs above `50 MiB`).
+  The public-index crosslink outputs were refreshed for the two new links.
+- Current cumulative active time at `2026-06-20T07:46:50Z`: `12417` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `248` seconds of
   current open session 3). Target met: `false`.
