@@ -222,7 +222,7 @@ tracked purge target is:
 | 163 | medium | done | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
 | 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
 | 165 | medium | done | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 166 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 166 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 167 | medium | todo | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
 | 168 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 169 | medium | todo | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1488,4 +1488,11 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-20T07:56:06Z`: `12973` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `804` seconds of
+  current open session 3). Target met: `false`.
+- Task 166 ran `git fsck --full --strict` and refreshed object-store state in
+  `meta/V49_REWRITE_PUSH_HANDOFF.md`. Result: `git fsck` PASS with no output,
+  `1146` loose objects (`14.10 MiB`), `21745` packed objects, `1` pack, pack
+  size `426.79 MiB`, `.git` size `443M`, commit count `670`, and `0` garbage.
+- Current cumulative active time at `2026-06-20T07:57:58Z`: `13085` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `916` seconds of
   current open session 3). Target met: `false`.
