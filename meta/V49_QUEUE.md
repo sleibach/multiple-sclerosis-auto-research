@@ -268,7 +268,7 @@ tracked purge target is:
 | 209 | high | done | Build a contradiction-evidence-type map defining what exact future source/data would convert surveillance rows into real contradictions | `knowledge_external/synthesis/V49_CONTRADICTION_EVIDENCE_TYPES.md` |
 | 210 | medium | done | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 211 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
-| 212 | medium | todo | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 212 | medium | done | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 213 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 214 | medium | todo | Refresh final and resume checkpoints after task 213 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 215 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 214 | `meta/V49_QUEUE.md` |
@@ -1899,4 +1899,10 @@ tracked purge target is:
   external Markdown and public-index crosslink counts.
 - Current cumulative active time at `2026-06-20T09:59:21Z`: `20368` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `8199` seconds of
+  current open session 3). Target met: `false`.
+- Task 212 refreshed `meta/V49_REWRITE_PUSH_HANDOFF.md` to latest pre-task HEAD
+  `d59faed9421047e6784c4729762907828808f70e` and updated the recent commit
+  chain. Remote status remains no remote configured.
+- Current cumulative active time at `2026-06-20T10:00:16Z`: `20423` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `8254` seconds of
   current open session 3). Target met: `false`.

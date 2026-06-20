@@ -38,27 +38,27 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-20T09:07:52Z`:
+Current push target checkpoint, verified at `2026-06-20T10:00:16Z`:
 
 - current branch: `main`
-- current HEAD: `5755ced896911d444e1462e4e1f67bcf0c235dd5`
+- current HEAD: `d59faed9421047e6784c4729762907828808f70e`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+d59faed9 Record V49 guard pass after corroboration routing summaries
+c7f6fdf2 Index V49 corroboration and contradiction routing summaries
+a54a3ed9 Add V49 contradiction evidence type map
+5783b7d3 Add V49 corroboration strength tiers
+42346d77 Refill V49 backlog after manifest quickstart active-time audit
+a69f0475 Audit V49 active time after manifest quickstart checkpoint
+ee7e9886 Record V49 clean state after manifest quickstart checkpoint
+f792d53e Refresh V49 checkpoints after manifest quickstart integrity
+bbdcb7dd Refresh V49 git integrity after manifest quickstart guards
+e430ea4e Refresh V49 handoff after manifest quickstart guards
 5755ced8 Record V49 guard pass after manifest quickstart updates
 989926af Route V49 relationship summaries in reader quickstart
-3e507f1a Refresh V49 artifact manifest for relationship summaries
-dd2850e5 Refill V49 backlog after relationship provenance active-time audit
-5c60919c Audit V49 active time after relationship provenance checkpoint
-66826b5a Record V49 clean state after relationship provenance checkpoint
-e9428025 Refresh V49 checkpoints after relationship provenance integrity
-61ff93bc Refresh V49 git integrity after relationship provenance guards
-a3e629d4 Refresh V49 handoff after relationship provenance guards
-a70708a7 Record V49 guard pass for relationship provenance summaries
-9ec2f606 Index V49 relationship provenance summaries
-ed721fdc Summarize V49 insufficient-overlap causes
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
