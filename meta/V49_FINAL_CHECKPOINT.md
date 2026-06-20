@@ -5,14 +5,14 @@ Status: resumability checkpoint, not an end-of-block summary. The V49 active
 
 ## Timestamp And Active-Time State
 
-- checkpoint_utc: `2026-06-20T07:47:28Z`
+- checkpoint_utc: `2026-06-20T08:08:29Z`
 - block_start_utc: `2026-06-14T19:57:24Z`
 - session_1: `2026-06-14T19:57:24Z` to `2026-06-14T20:03:40Z` = `376`
   active seconds
 - session_2: `2026-06-14T20:16:32Z` to `2026-06-14T23:33:05Z` = `11793`
   active seconds
 - session_3_start_utc: `2026-06-20T07:42:42Z`
-- cumulative_active_seconds_at_checkpoint: `12455`
+- cumulative_active_seconds_at_checkpoint: `13716`
 - active_target_seconds: `21600`
 - active_target_met: `no`
 
@@ -24,7 +24,7 @@ session 3, are excluded.
 
 - branch: `main`
 - checkpoint HEAD before this file was refreshed:
-  `0ce5eb8552b14b37000dc62fc9004f4152166d35`
+  `ba70c7a08d10b99900a3e4831e5994356e0da86b`
 - working tree before this file was written: clean
 - remote status: no remote configured after `git-filter-repo`
 
@@ -102,11 +102,11 @@ force-push.
 Because the active target is not met, V49 must continue after this checkpoint.
 Recommended next internally executable tasks:
 
-1. Mark task `160` complete in `meta/V49_QUEUE.md` after committing this
+1. Mark task `169` complete in `meta/V49_QUEUE.md` after committing this
    checkpoint refresh.
-2. Complete task `161`: verify final working-tree cleanliness and tracked-size
+2. Complete task `170`: verify final working-tree cleanliness and tracked-size
    policy after this checkpoint refresh.
-3. Complete task `162`: audit active-time accounting after the checkpoint
+3. Complete task `171`: audit active-time accounting after the checkpoint
    stretch.
 4. Refresh the rewrite/push handoff again if HEAD advances after this
    checkpoint.

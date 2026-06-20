@@ -225,7 +225,7 @@ tracked purge target is:
 | 166 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 167 | medium | done | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
 | 168 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 169 | medium | todo | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 169 | medium | done | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 170 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
 | 171 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 172 | medium | todo | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
@@ -1516,4 +1516,12 @@ tracked purge target is:
   PASS (`0` blobs above `50 MiB`). Guard outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-20T08:07:29Z`: `13656` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1487` seconds of
+  current open session 3). Target met: `false`.
+- Task 169 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `ba70c7a08d10b99900a3e4831e5994356e0da86b`, cumulative active time `13716`
+  seconds, timeout-safe session state, expired OpenGWAS status, latest guard
+  state, and open tasks `170` through `172`.
+- Current cumulative active time at `2026-06-20T08:08:29Z`: `13716` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1547` seconds of
   current open session 3). Target met: `false`.
