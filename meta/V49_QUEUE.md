@@ -241,7 +241,7 @@ tracked purge target is:
 | 182 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 183 | medium | done | Re-run representative .gitignore and tracked tmp/cache recurrence spot checks after the latest commits | `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`, `.gitignore` |
 | 184 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 181-183 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
-| 185 | medium | todo | Refresh final and resume checkpoints after task 184 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 185 | medium | done | Refresh final and resume checkpoints after task 184 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 186 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 185 | `meta/V49_QUEUE.md` |
 | 187 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 188 | medium | todo | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
@@ -1654,4 +1654,12 @@ tracked purge target is:
   PASS (`0` blobs above `50 MiB`). Guard outputs did not modify tracked files.
 - Current cumulative active time at `2026-06-20T08:31:30Z`: `15097` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `2928` seconds of
+  current open session 3). Target met: `false`.
+- Task 185 refreshed `meta/V49_FINAL_CHECKPOINT.md` and
+  `meta/V49_RESUME_CHECKPOINT.md` to current pre-task HEAD
+  `2f4f2dd87125d37d2793005432a87457fa9fc84c`, cumulative active time `15134`
+  seconds, timeout-safe session state, expired OpenGWAS status, latest fresh
+  task-184 guard state, and open tasks `186` through `188`.
+- Current cumulative active time at `2026-06-20T08:32:07Z`: `15134` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `2965` seconds of
   current open session 3). Target met: `false`.
