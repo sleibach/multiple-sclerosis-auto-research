@@ -266,7 +266,7 @@ tracked purge target is:
 | 207 | medium | done | Refill V49 backlog above threshold after task 206 | `meta/V49_QUEUE.md` |
 | 208 | high | done | Build a V49 corroboration-strength tier summary for the 7 convergence rows, separating source independence, decision relevance, and evidence boundary | `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md` |
 | 209 | high | done | Build a contradiction-evidence-type map defining what exact future source/data would convert surveillance rows into real contradictions | `knowledge_external/synthesis/V49_CONTRADICTION_EVIDENCE_TYPES.md` |
-| 210 | medium | todo | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 210 | medium | done | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 211 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 212 | medium | todo | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 213 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
@@ -1879,4 +1879,11 @@ tracked purge target is:
   contradictions.
 - Current cumulative active time at `2026-06-20T09:22:14Z`: `18141` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `5972` seconds of
+  current open session 3). Target met: `false`.
+- Task 210 added public external-index and reader-quickstart routes for
+  `V49_CORROBORATION_STRENGTH_TIERS.md` and
+  `V49_CONTRADICTION_EVIDENCE_TYPES.md`. Both remain external-layer
+  navigation/control artifacts and do not alter grounded findings.
+- Current cumulative active time at `2026-06-20T09:23:20Z`: `18207` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `6038` seconds of
   current open session 3). Target met: `false`.
