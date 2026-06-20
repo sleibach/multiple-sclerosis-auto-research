@@ -257,7 +257,7 @@ tracked purge target is:
 | 198 | medium | done | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
 | 199 | medium | done | Refresh V49 artifact manifest for relationship provenance audit and insufficient-overlap cause summary | `meta/V49_ARTIFACT_MANIFEST.md` |
 | 200 | medium | done | Update V49 reader quickstart so readers can find the relationship provenance audit and insufficient-overlap cause summary | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 201 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 199-200 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 201 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 199-200 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 202 | medium | todo | Refresh rewrite/push handoff to latest HEAD after manifest/quickstart and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 203 | medium | todo | Run git fsck and object-store checkpoint after the next manifest/quickstart commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 204 | medium | todo | Refresh final and resume checkpoints after task 203 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
@@ -1799,4 +1799,16 @@ tracked purge target is:
   `V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md`.
 - Current cumulative active time at `2026-06-20T09:03:52Z`: `17039` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4870` seconds of
+  current open session 3). Target met: `false`.
+- Task 201 reran guards after tasks 199-200. Results: V47 provenance gate PASS
+  (`436` checks, `47` external JSON records, `0` failures), public-index
+  freshness PASS (`50` checks), public-index crosslinks PASS (`77` links),
+  external Markdown/index lint PASS (`380` checks, `82` Markdown files),
+  gap-audit and routing counts PASS (`23` matrix rows, `7` converges, `0`
+  contradictions, `16` insufficient-overlap, `0` high-priority gap markers, `7`
+  contradiction-routing rows, `6` absent-resource-routing rows), tracked
+  large-file guard PASS (`0` tracked files above `50 MiB`), and Git blob guard
+  PASS (`0` blobs above `50 MiB`). Guard outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-20T09:07:10Z`: `17237` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `5068` seconds of
   current open session 3). Target met: `false`.
