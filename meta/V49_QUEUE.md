@@ -263,7 +263,17 @@ tracked purge target is:
 | 204 | medium | done | Refresh final and resume checkpoints after task 203 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 205 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 204 | `meta/V49_QUEUE.md` |
 | 206 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 207 | medium | todo | Refill V49 backlog above threshold after task 206 | `meta/V49_QUEUE.md` |
+| 207 | medium | done | Refill V49 backlog above threshold after task 206 | `meta/V49_QUEUE.md` |
+| 208 | high | todo | Build a V49 corroboration-strength tier summary for the 7 convergence rows, separating source independence, decision relevance, and evidence boundary | `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md` |
+| 209 | high | todo | Build a contradiction-evidence-type map defining what exact future source/data would convert surveillance rows into real contradictions | `knowledge_external/synthesis/V49_CONTRADICTION_EVIDENCE_TYPES.md` |
+| 210 | medium | todo | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 211 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 212 | medium | todo | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 213 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 214 | medium | todo | Refresh final and resume checkpoints after task 213 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 215 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 214 | `meta/V49_QUEUE.md` |
+| 216 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 217 | medium | todo | Refill V49 backlog above threshold after task 216 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1845,3 +1855,11 @@ tracked purge target is:
   current session 3 elapsed `5733` seconds, cumulative active time `17902`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 207 refilled the backlog above threshold after task 206. New tasks `208`
+  through `217` add content-first corroboration-strength and contradiction
+  evidence-type summaries, then public routing, guards, handoff, Git integrity,
+  checkpoints, clean-state, active-time accounting, and further refill work. No
+  OpenGWAS-dependent analysis is queued while the token is expired.
+- Current cumulative active time at `2026-06-20T09:19:01Z`: `17948` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `5779` seconds of
+  current open session 3). Target met: `false`.
