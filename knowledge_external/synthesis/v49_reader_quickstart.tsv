@@ -4,6 +4,7 @@ Is the repo pushable now?	meta/V49_REWRITE_PUSH_HANDOFF.md	Records the history r
 Why do old V3 files still reference purged paths?	meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md	Separates historical provenance references from live rerun dependencies after large-cache purge.
 Where is the populated convergence/contradiction matrix?	knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V48.md; pointer: docs/knowledge/CONVERGENCE_CONTRADICTION_V48.md	The substantive rows stay in the segregated external tree; the docs pointer provides public routing and V49 counts without duplicating external claims into grounded trees.
 Did V49 fully close the 11 high-priority gaps?	V49_GAP_CLOSURE_COMPLETENESS_AUDIT.md	Direct TSV-derived audit: 11 high-priority gaps became 0, with 5 new corroboration-context rows and 6 insufficient-overlap closures.
+Do all relationship rows carry required provenance?	V49_RELATIONSHIP_PROVENANCE_AUDIT.md	Row-level audit showing all 23 relationship rows carry grounded artifact, source, class, marker, relationship class, and row-status fields.
 Which V48 convergence gaps were closed?	V49_RELATIONSHIP_DELTA_NOTE.md	Summarizes the matrix delta and decision-relevant interpretation.
 Which external agreements count as independent source clusters?	V49_SOURCE_INDEPENDENCE_DELTA.md	Prevents counting 7 rows as 7 independent corroborations; the correct source-cluster count is 5.
 Are there contradictions?	V49_ZERO_CONTRADICTION_CAVEAT.md	Explains why 0 current contradiction rows is not the same thing as consensus.
@@ -13,6 +14,7 @@ Is the V22 validation path already covered?	V49_VALIDATION_READY_ROW_CROSSCHECK.
 Which rows need source-specific intake?	V49_SOURCE_SPECIFIC_IMPORT_PACKETS.md	Defines acceptance gates for ZMIZ1, chr1 KIF21B/GPR25, and coupled APC-axis records.
 How do those import packets relate to the future-grounding queue?	V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md	Maps broad generated queue rows to stricter V49 field gates.
 Which rows should stay closed unless a narrow trigger appears?	V49_CONTEXT_ONLY_CLOSURE_GUARDRAIL.md	Prevents broad context sources from reopening seven low-actionability rows.
+Why are the 16 insufficient-overlap rows closed rather than unresolved?	V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md	Groups the 16 rows into no-direct-corroboration, general-context-not-signal-specific, and resource-can-queue-future-check causes with concrete future triggers.
 Did V49 change the comparator matrix?	V49_COMPARATOR_MATRIX_REVIEW.md	Shows no new resource-level comparator rows are warranted from V49 source domains.
 Which resource candidates are still absent?	V49_ABSENT_RESOURCE_INTAKE_CANDIDATES.md	Lists future metadata-only intake candidates with acceptance gates.
 Are absent resources safe to use now?	V49_ABSENT_RESOURCE_ROUTING_AUDIT.md	Confirms candidate resources are metadata-only, require source-terms review, and are not usable validation data yet.
