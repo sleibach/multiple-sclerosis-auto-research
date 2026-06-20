@@ -244,7 +244,17 @@ tracked purge target is:
 | 185 | medium | done | Refresh final and resume checkpoints after task 184 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 186 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 185 | `meta/V49_QUEUE.md` |
 | 187 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 188 | medium | todo | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
+| 188 | medium | done | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
+| 189 | high | todo | Build a compact row-level provenance audit for all 23 convergence/contradiction relationships, verifying every asserted class has source + grounded-finding provenance | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` |
+| 190 | high | todo | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
+| 191 | medium | todo | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
+| 192 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 193 | medium | todo | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 194 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 195 | medium | todo | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 196 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
+| 197 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 198 | medium | todo | Refill V49 backlog above threshold after task 197 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1674,3 +1684,11 @@ tracked purge target is:
   current session 3 elapsed `3460` seconds, cumulative active time `15629`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 188 refilled the backlog above threshold after task 187. New tasks `189`
+  through `198` prioritize content-first relationship provenance and
+  insufficient-overlap closure summaries, then guard, handoff, checkpoint,
+  cleanliness, active-time, and further refill work. No OpenGWAS-dependent
+  analysis is queued while the token is expired.
+- Current cumulative active time at `2026-06-20T08:41:07Z`: `15674` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `3505` seconds of
+  current open session 3). Target met: `false`.
