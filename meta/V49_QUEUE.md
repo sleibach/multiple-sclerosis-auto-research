@@ -264,7 +264,7 @@ tracked purge target is:
 | 205 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 204 | `meta/V49_QUEUE.md` |
 | 206 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 207 | medium | done | Refill V49 backlog above threshold after task 206 | `meta/V49_QUEUE.md` |
-| 208 | high | todo | Build a V49 corroboration-strength tier summary for the 7 convergence rows, separating source independence, decision relevance, and evidence boundary | `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md` |
+| 208 | high | done | Build a V49 corroboration-strength tier summary for the 7 convergence rows, separating source independence, decision relevance, and evidence boundary | `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md` |
 | 209 | high | todo | Build a contradiction-evidence-type map defining what exact future source/data would convert surveillance rows into real contradictions | `knowledge_external/synthesis/V49_CONTRADICTION_EVIDENCE_TYPES.md` |
 | 210 | medium | todo | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 211 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
@@ -1862,4 +1862,13 @@ tracked purge target is:
   OpenGWAS-dependent analysis is queued while the token is expired.
 - Current cumulative active time at `2026-06-20T09:19:01Z`: `17948` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `5779` seconds of
+  current open session 3). Target met: `false`.
+- Task 208 added `knowledge_external/synthesis/V49_CORROBORATION_STRENGTH_TIERS.md`.
+  Result: the `7` convergence/context rows are separated into `2` Tier-1
+  strongest independent-context rows, `2` Tier-2 useful source-specific context
+  rows, and `3` Tier-3 method/governance context rows, while preserving the
+  source-independence correction that `7` rows correspond to `5` canonical
+  source clusters.
+- Current cumulative active time at `2026-06-20T09:20:43Z`: `18050` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `5881` seconds of
   current open session 3). Target met: `false`.
