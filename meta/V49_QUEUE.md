@@ -219,8 +219,16 @@ tracked purge target is:
 | 160 | medium | done | Refresh final and resume checkpoints after task 159 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 161 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 160 | `meta/V49_QUEUE.md` |
 | 162 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
-| 163 | medium | todo | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
+| 163 | medium | done | Refill V49 backlog above threshold after task 162 | `meta/V49_QUEUE.md` |
 | 164 | high | done | Resume after timeout: close inactive interval, start a new active session, and flag expired OpenGWAS token | `meta/V49_QUEUE.md` |
+| 165 | medium | todo | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 166 | medium | todo | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 167 | medium | todo | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
+| 168 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 169 | medium | todo | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
+| 170 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
+| 171 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 172 | medium | todo | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
 ## Iteration Notes
@@ -1467,3 +1475,11 @@ tracked purge target is:
   current session 3 elapsed `587` seconds, cumulative active time `12756`
   seconds, active target `21600` seconds, target met: `false`. The timeout gap
   between session 2 and session 3 remains excluded.
+- Task 163 refilled the backlog above threshold after task 162. New tasks `165`
+  through `172` keep rewrite handoff, Git integrity, manifest/index
+  consistency, guards, checkpoints, clean-state checks, active-time accounting,
+  and further refill work current. No OpenGWAS-dependent task was added because
+  the JWT is expired and must be renewed first.
+- Current cumulative active time at `2026-06-20T07:53:53Z`: `12840` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `671` seconds of
+  current open session 3). Target met: `false`.
