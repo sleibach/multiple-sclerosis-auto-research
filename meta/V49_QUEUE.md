@@ -224,7 +224,7 @@ tracked purge target is:
 | 165 | medium | done | Refresh rewrite/push handoff to latest HEAD after timeout checkpoint and active-time commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 166 | medium | done | Run git fsck and object-store checkpoint after the latest post-rewrite commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 167 | medium | done | Audit V49 artifact manifest and public index consistency after the timeout resume additions | `meta/V49_ARTIFACT_MANIFEST.md`, `knowledge_external/INDEX.md` |
-| 168 | high | todo | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
+| 168 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 169 | medium | todo | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 170 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
 | 171 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1504,4 +1504,16 @@ tracked purge target is:
   operational state, not the V49 artifact set.
 - Current cumulative active time at `2026-06-20T07:59:24Z`: `13171` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1002` seconds of
+  current open session 3). Target met: `false`.
+- Task 168 reran guards after tasks 165-167. Results: V47 provenance gate PASS
+  (`436` checks, `47` external JSON records, `0` failures), public-index
+  freshness PASS (`50` checks), public-index crosslinks PASS (`75` links),
+  external Markdown/index lint PASS (`378` checks, `80` Markdown files),
+  gap-audit and routing counts PASS (`23` matrix rows, `7` converges, `16`
+  insufficient-overlap, `0` contradictions, `0` high-priority gap markers, `7`
+  contradiction-routing rows, `6` absent-resource-routing rows), tracked
+  large-file guard PASS (`0` tracked files above `50 MiB`), and Git blob guard
+  PASS (`0` blobs above `50 MiB`). Guard outputs did not modify tracked files.
+- Current cumulative active time at `2026-06-20T08:07:29Z`: `13656` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `1487` seconds of
   current open session 3). Target met: `false`.
