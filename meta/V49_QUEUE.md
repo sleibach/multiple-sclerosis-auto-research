@@ -227,7 +227,7 @@ tracked purge target is:
 | 168 | high | done | Re-run provenance, public-index, Markdown, docs-pointer, gap-audit, large-file, and Git-blob guards after tasks 165-167 | `analysis/v47_external_markdown_index_linter/`, `analysis/v47_provenance_gate/` |
 | 169 | medium | done | Refresh final and resume checkpoints after task 168 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 170 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 169 | `meta/V49_QUEUE.md` |
-| 171 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
+| 171 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 172 | medium | todo | Refill V49 backlog above threshold after task 171 | `meta/V49_QUEUE.md` |
 | 115 | medium | done | Refresh artifact manifest to include the V49 gap-closure completeness audit | `meta/V49_ARTIFACT_MANIFEST.md` |
 
@@ -1531,3 +1531,8 @@ tracked purge target is:
 - Current cumulative active time at `2026-06-20T08:12:16Z`: `13943` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `1774` seconds of
   current open session 3). Target met: `false`.
+- Task 171 audited active-time accounting at `2026-06-20T08:12:56Z`. Result:
+  session 1 active time `376` seconds, session 2 active time `11793` seconds,
+  current session 3 elapsed `1814` seconds, cumulative active time `13983`
+  seconds, active target `21600` seconds, target met: `false`. The timeout gap
+  between session 2 and session 3 remains excluded.
