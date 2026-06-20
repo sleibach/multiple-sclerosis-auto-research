@@ -245,7 +245,7 @@ tracked purge target is:
 | 186 | medium | done | Verify working-tree cleanliness and tracked-size policy after task 185 | `meta/V49_QUEUE.md` |
 | 187 | medium | done | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
 | 188 | medium | done | Refill V49 backlog above threshold after task 187 | `meta/V49_QUEUE.md` |
-| 189 | high | todo | Build a compact row-level provenance audit for all 23 convergence/contradiction relationships, verifying every asserted class has source + grounded-finding provenance | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` |
+| 189 | high | done | Build a compact row-level provenance audit for all 23 convergence/contradiction relationships, verifying every asserted class has source + grounded-finding provenance | `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md` |
 | 190 | high | todo | Summarize the 16 insufficient-overlap closures by concrete cause and future trigger so they do not read like unresolved gaps | `knowledge_external/synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md` |
 | 191 | medium | todo | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
 | 192 | high | todo | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
@@ -1691,4 +1691,13 @@ tracked purge target is:
   analysis is queued while the token is expired.
 - Current cumulative active time at `2026-06-20T08:41:07Z`: `15674` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `3505` seconds of
+  current open session 3). Target met: `false`.
+- Task 189 added `knowledge_external/synthesis/V49_RELATIONSHIP_PROVENANCE_AUDIT.md`.
+  Result: all `23` convergence/contradiction rows have grounded artifact,
+  external record path, source, epistemic class, `NOT_PROJECT_GROUNDED` marker,
+  relationship class, and `row_status=PASS`; missing required provenance count
+  is `0`. The audit is external-layer governance/content, not biological
+  evidence.
+- Current cumulative active time at `2026-06-20T08:43:26Z`: `15813` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `3644` seconds of
   current open session 3). Target met: `false`.
