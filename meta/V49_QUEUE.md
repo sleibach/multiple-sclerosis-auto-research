@@ -250,7 +250,7 @@ tracked purge target is:
 | 191 | medium | done | Add the provenance audit and insufficient-overlap cause summary to the public external index if they improve navigation | `knowledge_external/INDEX.md` |
 | 192 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after content tasks 189-191 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 193 | medium | done | Refresh rewrite/push handoff to latest HEAD after content and guard tasks | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 194 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 194 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 195 | medium | todo | Refresh final and resume checkpoints after task 194 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 196 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 195 | `meta/V49_QUEUE.md` |
 | 197 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1741,4 +1741,12 @@ tracked purge target is:
   chain. Remote status remains no remote configured.
 - Current cumulative active time at `2026-06-20T08:51:57Z`: `16324` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `4155` seconds of
+  current open session 3). Target met: `false`.
+- Task 194 ran `git fsck --full --strict`, refreshed object-store state, and
+  reran large-object guards. Result: `git fsck` PASS with no output, `1292`
+  loose objects (`15.45 MiB`), `21745` packed objects, `1` pack, pack size
+  `426.79 MiB`, `.git` size `445M`, commit count `698`, tracked files above
+  `50 MiB`: `0`, and Git blobs above `50 MiB`: `0`.
+- Current cumulative active time at `2026-06-20T08:55:32Z`: `16539` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `4370` seconds of
   current open session 3). Target met: `false`.
