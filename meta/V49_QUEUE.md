@@ -269,7 +269,7 @@ tracked purge target is:
 | 210 | medium | done | Add the corroboration tiers and contradiction evidence-type map to the public external index and reader quickstart if useful | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 211 | high | done | Re-run provenance, public-index, external Markdown, matrix-count, large-file, and Git-blob guards after tasks 208-210 | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 212 | medium | done | Refresh rewrite/push handoff to latest HEAD after corroboration/contradiction content and guards | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
-| 213 | medium | todo | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
+| 213 | medium | done | Run git fsck and object-store checkpoint after the next content/guard commits | `meta/V49_REWRITE_PUSH_HANDOFF.md` |
 | 214 | medium | todo | Refresh final and resume checkpoints after task 213 | `meta/V49_FINAL_CHECKPOINT.md`, `meta/V49_RESUME_CHECKPOINT.md` |
 | 215 | medium | todo | Verify working-tree cleanliness and tracked-size policy after task 214 | `meta/V49_QUEUE.md` |
 | 216 | medium | todo | Audit active-time accounting after the next checkpoint stretch | `meta/V49_QUEUE.md` |
@@ -1906,3 +1906,11 @@ tracked purge target is:
 - Current cumulative active time at `2026-06-20T10:00:16Z`: `20423` seconds
   (`376` seconds session 1 plus `11793` seconds session 2 plus `8254` seconds of
   current open session 3). Target met: `false`.
+- Task 213 ran `git fsck --full --strict`, refreshed object-store state, and
+  reran large-object guards. Result: `git fsck` PASS with no output, `1399`
+  loose objects (`16.47 MiB`), `21745` packed objects, `1` pack, pack size
+  `426.79 MiB`, `.git` size `446M`, commit count `717`, tracked files above
+  `50 MiB`: `0`, and Git blobs above `50 MiB`: `0`.
+- Current cumulative active time at `2026-06-20T11:12:50Z`: `24777` seconds
+  (`376` seconds session 1 plus `11793` seconds session 2 plus `12608` seconds
+  of current session 3). Target met: `true`.
