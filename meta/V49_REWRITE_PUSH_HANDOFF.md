@@ -38,15 +38,22 @@ git remote add origin https://github.com/sleibach/multiple-sclerosis-auto-resear
 git push --force-with-lease origin main
 ```
 
-Current push target checkpoint, verified at `2026-06-20T08:15:22Z`:
+Current push target checkpoint, verified at `2026-06-20T08:25:14Z`:
 
 - current branch: `main`
-- current HEAD: `b894f9c90ae8c2f2551de50c0507419fd8416c60`
+- current HEAD: `19f708176560977cab65ae6300b81dd61fab3fc7`
 - remote status: no remote configured (`git remote -v` printed nothing)
 
 Recent local commit chain at this checkpoint:
 
 ```text
+19f70817 Refill V49 backlog after OpenGWAS active-time audit
+3c644cc9 Audit V49 active time after OpenGWAS checkpoint
+25dd0e7a Record V49 clean state after OpenGWAS checkpoint
+ecbf4327 Refresh V49 checkpoints after OpenGWAS renewal guards
+7af5406e Record V49 guard pass after OpenGWAS renewal card
+99d063d0 Refresh V49 git integrity after OpenGWAS renewal card
+ea2fd2ab Refresh V49 handoff after OpenGWAS renewal card
 b894f9c9 Add V49 OpenGWAS renewal handoff
 5f8da12c Refill V49 backlog with OpenGWAS renewal handoff
 9b464eef Audit V49 active time after timeout guard checkpoint
@@ -55,14 +62,6 @@ ce5c616d Refresh V49 checkpoints after timeout handoff guards
 ba70c7a0 Record V49 guard pass after timeout handoff
 e99f62af Record V49 manifest index consistency audit
 6df95206 Refresh V49 git integrity after timeout checkpoint
-4e0aadb4 Refresh V49 handoff after timeout checkpoint
-d88ffce2 Refill V49 backlog after timeout active-time audit
-49f4223c Audit V49 active time after timeout checkpoint
-5198e9a9 Record V49 clean state after timeout checkpoint
-d7772e14 Refresh V49 checkpoints after timeout resume guards
-0ce5eb85 Record V49 guard pass after timeout resume
-9d93c8c2 Record V49 timeout resume and index routing
-0fcec8c4 Refresh V49 git integrity after OpenGWAS boundary check
 ```
 
 If `--force-with-lease` rejects because the remote changed independently, stop
