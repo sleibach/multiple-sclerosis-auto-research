@@ -106,7 +106,7 @@ Checked at V50 start:
 | 29 | medium | done | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 30 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
 | 31 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
-| 32 | medium | todo | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
+| 32 | medium | done | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
 | 33 | medium | todo | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
 | 34 | medium | todo | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
 
@@ -496,4 +496,18 @@ Checked at V50 start:
   external Markdown lint PASS (`481` checks, `95` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:09:35Z`: `7697` seconds.
+  Target met: `false`.
+- Task 31 commit: `35dd535b` (`Add V50 EBV specificity source search`). Push
+  succeeded: `origin/main` advanced from `46c7734c` to `35dd535b`.
+- Task 32 wrote `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md`
+  and linked it from the external index. Result: GSE255952 now has an explicit
+  stop/go checklist for a future steroid-panel stress test, including pairing,
+  compartment, response-label, patient/relapse-course grouping, gene-ID, batch,
+  and null-plan requirements. It explicitly forbids routing the dataset as a
+  DMF/V22 validation cohort.
+- Task 32 guards: public index crosslink PASS (`90` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`482` checks, `96` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:12:28Z`: `7870` seconds.
   Target met: `false`.
