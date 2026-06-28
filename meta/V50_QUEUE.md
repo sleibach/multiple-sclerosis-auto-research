@@ -125,7 +125,7 @@ Checked at V50 start:
 | 48 | medium | done | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
 | 49 | high | done | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
 | 50 | high | done | Build an allele-harmonization preparation table from the validated GWAS Catalog fetcher output | `analysis/v50_allele_harmonization_prep/`, `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md` |
-| 51 | high | todo | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
+| 51 | high | done | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
 | 52 | medium | todo | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
 | 53 | medium | todo | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
 | 54 | medium | todo | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
@@ -767,4 +767,14 @@ Checked at V50 start:
   failures); tracked file size guard PASS; tracked tmp-path guard PASS; local
   `HEAD` large-blob guard PASS; local `HEAD` tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:14:02Z`: `11564` seconds.
+  Target met: `false`.
+- Task 50 commit: `4c7ead4a` (`Add V50 allele harmonization prep`). Push
+  succeeded: `origin/main` advanced from `3bdec2a5` to `4c7ead4a`.
+- Task 51 wrote `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md`. Result: the
+  public landing path is stale for a GitHub reader. `README.md` still says the
+  current phase is V43, and `meta/CURRENT_STATUS.md` / `meta/NEXT_ACTIONS.md`
+  are last updated at the V44 state. Later V45-V50 artifacts exist, but the
+  main landing path does not yet route readers to them cleanly. This is a
+  navigation freshness issue, not a scientific-result issue.
+- Current cumulative active time at `2026-06-28T16:17:35Z`: `11777` seconds.
   Target met: `false`.
