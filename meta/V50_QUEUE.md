@@ -152,7 +152,7 @@ Checked at V50 start:
 | 75 | medium | done | Replay task-68 candidate rows through the V50 non-OpenGWAS source-hit review template as QA | `analysis/v50_task68_template_replay/`, `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md` |
 | 76 | medium | done | Build a V50 negative source-search index so repeated non-OpenGWAS metadata searches are not duplicated | `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md` |
 | 77 | medium | done | Build a compact Karolinska/parallel-cohort label request packet using current V50 trigger and template language | `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md` |
-| 78 | medium | todo | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
+| 78 | medium | done | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
 | 79 | medium | todo | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
 | 80 | medium | todo | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 
@@ -1191,4 +1191,25 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:59:11Z`: `17873` seconds.
+  Target met: `false`.
+- Task 77 commit: `fa800fda` (`Add V50 Karolinska label request packet`). Push
+  succeeded: `origin/main` advanced from `042237c7` to `fa800fda`.
+- Task 78 wrote
+  `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` and
+  linked it from `knowledge_external/INDEX.md`. The card ties together route
+  health, public guard status, metadata-search outputs, the V50 source-hit
+  review template, the negative/near-miss index, and the current safe
+  interpretation: route reachability and metadata search are not validation
+  evidence, and all near-misses remain partial/context until same-definition
+  gates pass.
+- Current cumulative active time at `2026-06-28T18:02:07Z`: `18049` seconds.
+  Target met: `false`.
+- Task 78 guards: external Markdown lint PASS (`538` checks, `120` Markdown
+  files, `0` failures); public index crosslink PASS (`114` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:04:04Z`: `18166` seconds.
   Target met: `false`.
