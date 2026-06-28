@@ -126,7 +126,7 @@ Checked at V50 start:
 | 49 | high | done | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
 | 50 | high | done | Build an allele-harmonization preparation table from the validated GWAS Catalog fetcher output | `analysis/v50_allele_harmonization_prep/`, `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md` |
 | 51 | high | done | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
-| 52 | medium | todo | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
+| 52 | medium | done | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
 | 53 | medium | todo | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
 | 54 | medium | todo | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
 | 55 | medium | todo | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
@@ -777,4 +777,18 @@ Checked at V50 start:
   main landing path does not yet route readers to them cleanly. This is a
   navigation freshness issue, not a scientific-result issue.
 - Current cumulative active time at `2026-06-28T16:17:35Z`: `11777` seconds.
+  Target met: `false`.
+- Task 51 commit: `6a4948f0` (`Add V50 public landing freshness audit`). Push
+  succeeded: `origin/main` advanced from `4c7ead4a` to `6a4948f0`.
+- Task 52 wrote `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` and
+  linked it from the external index. Result: public wording now has a safe
+  one-sentence description, short abstract, URL citation format, artifact-level
+  citation routes, safe claims, and explicit claims to avoid. It refuses
+  overstatements such as calling the repo the most comprehensive public MS
+  source or calling the V22 rule clinically validated.
+- Task 52 guards: external Markdown lint PASS (`527` checks, `109` Markdown
+  files, `0` failures); public index crosslink PASS (`103` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:20:40Z`: `11962` seconds.
   Target met: `false`.
