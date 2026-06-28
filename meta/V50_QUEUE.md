@@ -153,7 +153,7 @@ Checked at V50 start:
 | 86 | medium | done | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | done | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 88 | high | done | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
-| 89 | medium | todo | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
+| 89 | medium | done | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
 | 90 | medium | todo | Cross-link Karolinska request packet, returned-package rules, and V50 source-hit gates into one validation-intake handoff | `docs/validation/` |
 | 91 | medium | todo | Add a machine-readable future-grounding queue for non-OpenGWAS exact-cohort trigger events | `knowledge_external/synthesis/`, `analysis/` |
 | 92 | medium | todo | Audit V50 content files for overclaim language after source-search and convergence/contradiction updates | `analysis/`, `knowledge_external/synthesis/` |
@@ -1418,3 +1418,48 @@ Checked at V50 start:
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:57:34Z`: `21376` seconds.
   Target met: `false`.
+- Task 88 commit: `1ee44075` (`Refill V50 backlog near target`). Push
+  succeeded: `origin/main` advanced from `113cb29b` to `1ee44075`.
+- Task 89 wrote
+  `knowledge_external/synthesis/V50_SOURCE_SEARCH_DEDUPLICATION_DECISION_TABLE.md`
+  and linked it from `knowledge_external/INDEX.md`. The table gives public
+  source-accounting rules for duplicate, partial, context-only, false-positive,
+  and candidate validation-source hits. It is navigation only and does not
+  change any source count or evidence grade.
+- Current cumulative active time at `2026-06-28T18:59:55Z`: `21517` seconds.
+  Target met: `false`.
+- Task 89 guards: external Markdown lint PASS (`544` checks, `126` Markdown
+  files, `0` failures); public index crosslink PASS (`120` links, `0`
+  failures); provenance PASS (`653` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T19:02:13Z`: `21655` seconds.
+  Target met: `true`.
+
+## End-Of-Block Run Summary
+
+- Stop condition: condition 1 met. Cumulative measured active work reached
+  `21655` seconds (`6h 00m 55s`) at a clean resumable point.
+- Wall-clock span: `2026-06-28T13:01:18Z` to `2026-06-28T19:02:13Z`
+  (`6h 00m 55s`) for this single continuous V50 session.
+- Iterations completed in this continuation: tasks `80` through `89`.
+- New tasks self-generated in this continuation: tasks `81` through `104`;
+  remaining executable backlog starts at task `90`.
+- Push status: remote reconciliation is resolved; every committed iteration in
+  this continuation pushed to `origin/main` by plain fast-forward push. Latest
+  pre-final-push parent is `1ee44075`.
+- OpenGWAS status: expired; no OpenGWAS endpoints used. All route checks report
+  `open_gwas_used=false`.
+- Provenance-gate result: PASS at end (`653` checks, `71` external JSON records,
+  `0` failures).
+- Source-search content outcomes: machine-readable negative/near-miss index,
+  no-recount checker, GSE235357 / S-EPMC10360655 no-recount handoff,
+  BioStudies query reproducibility packet, public reader source-search path, and
+  deduplication decision table added. The reviewed V50 source-search state
+  remains `0` verified exact validation cohorts and `0` allowed independent
+  source counts.
+- Model spend: none in this continuation; no SAP AI Core model calls were used.
+- Next action: if V50 continues, start task `90`; otherwise V51 should inherit
+  the remaining backlog and the expired-OpenGWAS boundary.

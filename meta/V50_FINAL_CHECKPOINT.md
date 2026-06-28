@@ -1,34 +1,33 @@
 # V50 Checkpoint
 
-Status: resumable checkpoint, not an end-of-block summary. The V50 active-time
-target is not met.
+Status: end-of-block checkpoint. The V50 active-time target is met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T18:53:25Z`
+- checkpoint UTC: `2026-06-28T19:02:13Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `21127` seconds
+- cumulative active time at checkpoint: `21655` seconds
 - active target: `21600` seconds
-- target met: `false`
+- target met: `true`
 
 ## Git / Push
 
 - local HEAD before this checkpoint update:
-  `c56d0aadf158df85b049f48e0be7aea3b4684ea1`
+  `1ee44075d9a2e0729b6a23448c1e6a8e3a9c58b4`
 - remote `origin/main` before this checkpoint update:
-  `c56d0aadf158df85b049f48e0be7aea3b4684ea1`
+  `1ee44075d9a2e0729b6a23448c1e6a8e3a9c58b4`
 - push status: functioning with plain `git push origin main`
 - large-file guard status through task 86: PASS
 - tracked tmp-path guard status through task 86: PASS
-- provenance gate status through task 86: PASS (`653` checks, `71` external
+- provenance gate status through task 89: PASS (`653` checks, `71` external
   JSON records, `0` failures)
-- external Markdown/index gates through task 86: PASS (`543` external Markdown
-  checks, `119` public index links, `0` failures)
-- status-freshness linter through task 86: PASS (`16` checks, `0` failures)
-- non-OpenGWAS route checker through task 87: PASS (`8` routes, `0` failures,
-  `0` OpenGWAS use; checked `2026-06-28T18:53:25Z`)
-- public guard wrapper through task 87 start: PASS (`2` guard families, `0`
-  failures, `0` OpenGWAS use; checked `2026-06-28T18:52:14Z`)
+- external Markdown/index gates through task 89: PASS (`544` external Markdown
+  checks, `120` public index links, `0` failures)
+- status-freshness linter through task 89: PASS (`16` checks, `0` failures)
+- non-OpenGWAS route checker through task 89: PASS (`8` routes, `0` failures,
+  `0` OpenGWAS use; checked `2026-06-28T19:01:19Z`)
+- public guard wrapper through task 89: PASS (`2` guard families, `0`
+  failures, `0` OpenGWAS use; checked `2026-06-28T19:01:20Z`)
 
 Routine guard commands before each V50 push:
 
@@ -107,7 +106,10 @@ git push origin main
   URLs, `80` raw hits, `56` deduplicated hits, `6` manual-review rows, and `0`
   verified exact candidates recorded.
 - public reader path: now includes a dedicated source-search guardrail path.
-- public guard status card: PASS as of `2026-06-28T18:52:14Z`
+- source-search deduplication decision table: compact public source-accounting
+  guide for duplicate, partial, context-only, false-positive, and candidate
+  validation-source hits.
+- public guard status card: PASS as of `2026-06-28T19:01:20Z`
 - README status: refreshed to V50
 - `meta/CURRENT_STATUS.md`: refreshed to V50 and OpenGWAS-expired state
 - `meta/NEXT_ACTIONS.md`: refreshed with V50 queue/push/provenance and
@@ -174,11 +176,13 @@ git push origin main
 - `knowledge_external/synthesis/V50_BIOSTUDIES_QUERY_REPRODUCIBILITY_PACKET.md`
 - `analysis/v50_biostudies_query_reproducibility/`
 - `scripts/v50_build_biostudies_query_packet.py`
+- `knowledge_external/synthesis/V50_SOURCE_SEARCH_DEDUPLICATION_DECISION_TABLE.md`
 
 ## Next Executable Items
 
-The active-time target remains unmet. After task 87, continue with the current
-backlog. High-value non-OpenGWAS tasks include:
+The active-time target is met. Stop condition 1 is satisfied at a clean
+resumable point after pushing task 89. Remaining backlog for V51 or a future
+continuation:
 
 1. run the remaining active-time refill item if the target remains unmet;
 2. cross-link Karolinska request packet, returned-package rules, and V50
