@@ -99,7 +99,7 @@ Checked at V50 start:
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
 | 24 | high | done | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
-| 25 | medium | todo | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
+| 25 | medium | done | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
 | 26 | medium | todo | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
 | 27 | medium | todo | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
 | 28 | medium | todo | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
@@ -399,4 +399,19 @@ Checked at V50 start:
   external Markdown lint PASS (`476` checks, `90` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:45:04Z`: `6226` seconds.
+  Target met: `false`.
+- Task 24 commit: `dd146984` (`Add V50 GWAS Catalog allele routing`). Push
+  succeeded: `origin/main` advanced from `7a9202b8` to `dd146984`.
+- Task 25 wrote `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md`
+  and saved a metadata-only GEO SOFT snapshot/summary under
+  `analysis/v50_gse255952_metadata_scout/`. Result: GSE255952 is public,
+  metadata-verified for `48` samples, CD19+ B-cell and CD4+ T-helper-cell
+  compartments, paired before/after high-dose methylprednisolone relapse
+  therapy, and 13 improved versus 6 non-improved relapse treatments. It is a
+  future steroid-panel stress-test route, not a DMF/V22 validation cohort.
+- Task 25 guards: public index crosslink PASS (`85` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`477` checks, `91` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:49:25Z`: `6487` seconds.
   Target met: `false`.
