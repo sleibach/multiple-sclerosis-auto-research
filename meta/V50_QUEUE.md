@@ -75,12 +75,19 @@ Checked at V50 start:
 | 7 | high | done | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
 | 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
-| 10 | medium | todo | Refill V50 backlog above threshold after task 9 | `meta/V50_QUEUE.md` |
+| 10 | medium | done | Refill V50 backlog above threshold after task 13 | `meta/V50_QUEUE.md` |
 | 11 | high | done | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 12 | high | done | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 13 | medium | done | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
+| 16 | high | todo | Acquire PTGER4-specific external records for MS/IBD signal conflict and naive-transfer closure | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 17 | high | todo | Build V50 future-grounding delta queue for all newly sharper records that are groundable without OpenGWAS | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md` |
+| 18 | medium | todo | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
+| 19 | medium | todo | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 20 | high | todo | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
+| 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -251,4 +258,12 @@ Checked at V50 start:
   Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:01:01Z`: `3583` seconds.
+  Target met: `false`.
+- Task 13 commit: `504fe54f` (`Add V50 Crohn treatment response context`).
+  Push succeeded: `origin/main` advanced from `595c47ed` to `504fe54f`.
+- Task 10 refilled the executable backlog above threshold with task IDs `16`
+  through `22`, prioritizing PTGER4-specific content, future-grounding routing,
+  medical-team handoff, treatment-response confounder source specificity,
+  source-independence accounting, and a V50 checkpoint.
+- Current cumulative active time at `2026-06-28T14:02:14Z`: `3656` seconds.
   Target met: `false`.
