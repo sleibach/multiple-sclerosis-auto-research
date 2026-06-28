@@ -129,7 +129,7 @@ Checked at V50 start:
 | 52 | medium | done | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
 | 53 | medium | done | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
 | 54 | medium | done | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
-| 55 | medium | todo | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
+| 55 | medium | done | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
 | 56 | medium | todo | Add a V50 push/guard status checkpoint after the next two content tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -824,4 +824,19 @@ Checked at V50 start:
   failures); provenance PASS (`652` checks, `71` external JSON records, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:29:10Z`: `12472` seconds.
+  Target met: `false`.
+- Task 54 commit: `7cd9cd3f` (`Add V50 non OpenGWAS route inventory`). Push
+  succeeded: `origin/main` advanced from `9a0898e0` to `7cd9cd3f`.
+- Task 55 wrote `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`
+  and linked it from the external index. Result: public readers now have a
+  compact relationship glossary distinguishing convergence, externally
+  corroborated context, contradiction, insufficient overlap, orthogonal,
+  context only, validation, future grounding, same-definition triggers,
+  source-specific records, resource metadata, transport status, and no-claim
+  language.
+- Task 55 guards: external Markdown lint PASS (`530` checks, `112` Markdown
+  files, `0` failures); public index crosslink PASS (`106` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:32:09Z`: `12651` seconds.
   Target met: `false`.
