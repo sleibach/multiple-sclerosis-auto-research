@@ -115,7 +115,7 @@ Checked at V50 start:
 | 38 | medium | done | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
 | 39 | medium | done | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
 | 40 | medium | done | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
-| 41 | high | todo | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
+| 41 | high | done | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
 | 42 | high | todo | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
 | 43 | medium | todo | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
 | 44 | medium | todo | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
@@ -625,4 +625,21 @@ Checked at V50 start:
   GWAS Catalog fetcher plus validation, source-terms gap audit, public-reader
   routing, and a post-refill checkpoint.
 - Current cumulative active time at `2026-06-28T15:40:12Z`: `9534` seconds.
+  Target met: `false`.
+- Task 40 commit: `96f56ae6` (`Refill V50 content backlog`). Push succeeded:
+  `origin/main` advanced from `5aa91148` to `96f56ae6`.
+- Task 41 wrote
+  `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` and linked
+  it from the external index. Result: no public `1:1` MS resource equivalent
+  was identified; MSGD is the closest public MS molecular knowledgebase,
+  MSDA/MSBase/NARCOMS are stronger for registry or cohort dimensions, and
+  GWAS/GEO/literature archives are broader inputs rather than an integrated
+  rerunnable research record. The card is classed as external resource
+  navigation only and does not claim this repo is the most comprehensive source
+  in every domain.
+- Task 41 guards: public index crosslink PASS (`96` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`520` checks, `102` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:43:29Z`: `9731` seconds.
   Target met: `false`.
