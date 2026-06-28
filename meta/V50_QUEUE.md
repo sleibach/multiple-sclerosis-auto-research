@@ -137,7 +137,7 @@ Checked at V50 start:
 | 60 | high | done | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
 | 61 | medium | done | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
 | 62 | medium | done | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
-| 63 | medium | todo | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
+| 63 | medium | done | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
 | 64 | medium | todo | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -920,4 +920,20 @@ Checked at V50 start:
 - Task 62 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:52:32Z`: `13874` seconds.
+  Target met: `false`.
+- Task 62 commit: `94b25876` (`Add V50 non OpenGWAS route checker`). Push
+  succeeded: `origin/main` advanced from `7a86969f` to `94b25876`.
+- Task 63 wrote
+  `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md`
+  and linked it from the external index. Result: the eight public routes from
+  task 54/62 now map to explicit future-grounding tasks, acceptance gates, stop
+  conditions, outputs, and evidence boundaries. The queue prioritizes GWAS
+  Catalog allele harmonization, Europe PMC / NCBI GDS cohort source search,
+  BioStudies accession discovery, and lower-priority endpoint/target/citation
+  context routes.
+- Task 63 guards: external Markdown lint PASS (`531` checks, `113` Markdown
+  files, `0` failures); public index crosslink PASS (`107` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:55:39Z`: `14061` seconds.
   Target met: `false`.
