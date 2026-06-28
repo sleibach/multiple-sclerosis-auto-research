@@ -2,8 +2,8 @@
 
 Status: provenance/navigation only. External records remain `external-unverifiable` or `external-verifiable` as tagged; source-terms metadata is not project-grounded evidence.
 
-- records checked: `61`
-- records with source_terms: `30`
+- records checked: `63`
+- records with source_terms: `32`
 - records missing optional source_terms: `31`
 - NOT project grounded marker: `NOT_PROJECT_GROUNDED`
 
@@ -11,7 +11,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 
 | redistribution_allowed | count |
 |---|---:|
-| `metadata_only` | 30 |
+| `metadata_only` | 32 |
 | `missing` | 31 |
 
 ## Records
@@ -51,6 +51,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `resource.zenodo.repository.2026-06-13` | `external-unverifiable` | https://about.zenodo.org/ | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.ncbi_gene.cd74_mhc2_mif_molecular_context.2026-06-28` | `external-unverifiable` | https://www.ncbi.nlm.nih.gov/gene/972 | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.gwas_catalog.chr1_rs7522462_kif21b_gpr25_ms.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs7522462&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |
+| `claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/37776235/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.diebold_2022.dmf_high_dimensional_immune_monitoring_context.2026-06-28` | `external-unverifiable` | https://www.pnas.org/doi/10.1073/pnas.2205042119 | `present` | `metadata_only` | `2026-06-28` | https://www.pnas.org/page/about/permissions | `NOT_PROJECT_GROUNDED` |
 | `claim.carlstrom_2019.dmf_monocyte_ros_response_context.2026-06-28` | `external-unverifiable` | https://www.nature.com/articles/s41467-019-11139-3 | `present` | `metadata_only` | `2026-06-28` | https://www.nature.com/ncomms/about/open-access | `NOT_PROJECT_GROUNDED` |
 | `claim.gafson_2018.dmf_pbmc_neda4_transcriptome_context.2026-06-28` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/ | `present` | `metadata_only` | `2026-06-28` | https://creativecommons.org/licenses/by/4.0/ | `NOT_PROJECT_GROUNDED` |
@@ -65,6 +66,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.nature.ms_ibd_gpr25_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.jimmunol_2014.hla_dra1_cd74_mif_eae_context.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/24683185/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.nat_immunol_2024.imid_antitnf_single_cell_atlas.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/39438660/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.jmg_2010.kif21b_ms_susceptibility_replication.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/20587413/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.probast_tripod.prediction_model_validation_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/30596875/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.open_targets.direction_tractability_context.2026-06-14` | `external-unverifiable` | https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838 | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |

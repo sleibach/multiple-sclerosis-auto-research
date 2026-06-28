@@ -6,17 +6,17 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `61`
+- external records indexed: `63`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `27`
-- records with source_terms metadata: `30`
+- records with source_terms metadata: `32`
 - records missing optional source_terms metadata: `31`
 - V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `7`
 - V48 contradiction rows flagged: `0`
-- V50 additional source-specific convergences asserted: `7`
+- V50 additional source-specific convergences asserted: `9`
 - V50 contradictions flagged: `0`
 - placeholder skeleton linked rows: `unknown`
 
@@ -24,10 +24,10 @@ Grounded project findings remain in the normal project report/history/validation
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 61 |
+| `epistemic_class` | `external-unverifiable` | 63 |
 | `relationship_to_project_findings` | `orthogonal` | 44 |
-| `relationship_to_project_findings` | `supports` | 17 |
-| `record_type` | `external_claim` | 30 |
+| `relationship_to_project_findings` | `supports` | 19 |
+| `record_type` | `external_claim` | 32 |
 | `record_type` | `external_resource_catalog` | 31 |
 
 ## Navigation

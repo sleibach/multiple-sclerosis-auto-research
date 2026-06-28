@@ -21,8 +21,8 @@ Compared with V48/V49:
 After V50 sharper-source acquisition:
 
 - original high-priority gap rows revisited so far: `6` of `16`
-- newly added source-specific external records assessed here: `14`
-- decision-relevant new convergences: `7`
+- newly added source-specific external records assessed here: `16`
+- decision-relevant new convergences: `9`
 - genuine contradictions surfaced: `0`
 - high-priority rows that remain non-corroborating despite sharper context:
   `2` (`bounded V22 scalar`, `V22 immune-tone/confounder audit`)
@@ -38,6 +38,9 @@ scalar or its confounder audit. They therefore remain validation-context
 records, not external corroboration of the rule.
 Sharper EBV records also improve mechanistic context but still do not test the
 project's autoimmune-specific IFN/APC imprint controls.
+IBD treatment-response records now provide direct Crohn interferon-module
+response context, with an explicit external caution that baseline transcriptome
+differences were not sufficiently sensitive as a clinical predictor.
 
 ## Decision-Relevant New Convergences
 
@@ -102,6 +105,22 @@ project's autoimmune-specific IFN/APC imprint controls.
   HLA-DR, CD74, and MIF in CNS autoimmune model biology, strengthening
   mechanistic plausibility while remaining outside project-grounded human MS
   evidence.
+- Grounded: `Crohn downstream IFN/APC convergence exceeds genetic proximity`
+  (supported; source artifact: `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`;
+  `docs/findings/KILL_HYP_V6_006.md`). External:
+  `claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28`
+  (source: https://pubmed.ncbi.nlm.nih.gov/37776235/). Status:
+  `CORROBORATION_FROM_INDEPENDENT_SOURCE_WITH_PREDICTION_CAVEAT`. The external
+  Crohn anti-TNF blood transcriptome source independently supports
+  interferon-related treatment-response biology, while warning that baseline
+  expression alone was not clinically predictive enough.
+- Grounded: `Layer-specific autoimmune transfer-validity map` (supported;
+  source artifact: `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`). External:
+  `claim.nat_immunol_2024.imid_antitnf_single_cell_atlas.2026-06-28` (source:
+  https://pubmed.ncbi.nlm.nih.gov/39438660/). Status:
+  `CORROBORATION_FROM_INDEPENDENT_SOURCE`. The external single-cell atlas
+  independently supports cross-disease cellular treatment-response mapping as a
+  valid layer, without validating any specific project module.
 
 ## Contradictions Flagged
 
@@ -131,6 +150,8 @@ project's autoimmune-specific IFN/APC imprint controls.
 | GPR25 demoted from protected favorite | `claim.iuphar.gpr25_orphan_gpcr_context.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.guidetopharmacology.org/services/targets?name=GPR25 | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The external record supports the demotion logic: GPR25 being a GPCR is not enough when it remains orphan/emerging-pharmacology and direction is unresolved. |
 | EBV/IFN APC imprint downgraded by specificity control | `claim.nature_2022.ebna1_glialcam_crossreactive_bcells_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/35073561/ | `orthogonal` | `EBV_MS_MECHANISM_NOT_APC_SPECIFICITY_TEST` | The source supports EBV-linked B-cell molecular mimicry context in MS, but it does not test whether the project's EBV/IFN APC imprint is specific versus autoimmune comparators. |
 | EBV/IFN APC imprint downgraded by specificity control | `claim.biorxiv_2026.ebv_anti_cns_bcell_apc_ms_context.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/41727017/ | `orthogonal` | `PREPRINT_EBV_APC_CONTEXT_NOT_GROUNDED_SPECIFICITY` | The source is closer to the EBV/APC hypothesis than generic EBV-risk literature, but preprint status and no project rerun keep it as context; it does not overturn the specificity-control downgrade. |
+| Crohn downstream IFN/APC convergence exceeds genetic proximity | `claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/37776235/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE_WITH_PREDICTION_CAVEAT` | The source overlaps Crohn treatment response and interferon-related blood modules; it converges with downstream response-layer biology while warning that baseline expression differences were not sufficiently sensitive for clinical prediction. |
+| Layer-specific autoimmune transfer-validity map | `claim.nat_immunol_2024.imid_antitnf_single_cell_atlas.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/39438660/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The source supports cross-disease cellular treatment-response mapping as a distinct layer, consistent with the project's transfer-validity map. |
 
 ## Updated Decision List
 
@@ -140,6 +161,7 @@ Externally corroborated grounded findings added by V50:
 2. `chr1 KIF21B/GPR25 locus resolves to real biology but hard target`
 3. `GPR25 demoted from protected favorite`
 4. `Coupled APC remodeling architecture`
+5. `Crohn downstream IFN/APC convergence exceeds genetic proximity`
 
 Rows still needing sharper same-definition sources or future grounding:
 
@@ -176,3 +198,6 @@ Rows still needing sharper same-definition sources or future grounding:
 - Treat EBV mechanistic and preprint sources as context only until an accessible
   dataset can test EBV-linked IFN/APC module behavior against non-MS autoimmune
   comparators under the project's predefined specificity controls.
+- Treat the PANTS Crohn source as response-layer corroboration with a biomarker
+  caution: it supports IFN-related treatment-response biology but warns against
+  naive clinical prediction from baseline expression alone.

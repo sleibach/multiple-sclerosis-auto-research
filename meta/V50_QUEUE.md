@@ -78,7 +78,7 @@ Checked at V50 start:
 | 10 | medium | todo | Refill V50 backlog above threshold after task 9 | `meta/V50_QUEUE.md` |
 | 11 | high | done | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 12 | high | done | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
-| 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 13 | medium | done | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
 
@@ -229,4 +229,26 @@ Checked at V50 start:
   Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T13:55:05Z`: `3227` seconds.
+  Target met: `false`.
+- Task 12 commit: `595c47ed` (`Add V50 EBV specificity context records`).
+  Push succeeded: `origin/main` advanced from `b325d5a2` to `595c47ed`.
+  Per-iteration plain pushes are now functioning for this clone.
+- Current cumulative active time at `2026-06-28T13:56:27Z`: `3309` seconds.
+  Target met: `false`.
+- Task 13 added two sharper Crohn/IBD treatment-response transfer records:
+  PANTS Crohn anti-TNF blood interferon-module context and a Nature Immunology
+  longitudinal anti-TNF single-cell atlas context. V50 now counts `9`
+  source-specific convergences and still `0` contradictions. The PANTS record
+  is explicitly interpreted as response-layer corroboration with a biomarker
+  prediction caveat.
+- Task 13 regenerated external indexes after record intake: external records
+  indexed `63`, source-terms rows `63`, records with explicit source_terms
+  `32`, missing sources `0`, missing record markers `0`.
+- Task 13 guards: public index crosslink PASS (`80` links, `0` failures);
+  source-terms freshness PASS (`252` checks, `63` coverage rows, `63` current
+  records, `0` failures); provenance PASS (`580` checks, `63` external JSON
+  records, `0` failures); external Markdown lint PASS (`416` checks, `86`
+  Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:01:01Z`: `3583` seconds.
   Target met: `false`.

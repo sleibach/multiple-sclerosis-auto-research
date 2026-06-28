@@ -1,0 +1,39 @@
+{
+  "claim": "A PANTS Crohn disease anti-TNF blood transcriptome study reported baseline immune gene-module differences associated with primary anti-TNF response and noted interferon-related genes upregulated uniquely in responders, while also reporting that baseline expression differences did not predict response with sufficient sensitivity for clinical use.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as Crohn treatment-response context only unless source data are imported and IFN/APC modules are scored under project definitions against the project's response-transfer framework.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md; docs/findings/KILL_HYP_V6_006.md",
+    "finding_id": "Crohn downstream IFN/APC convergence exceeds genetic proximity"
+  },
+  "project_use": "Sharper Crohn treatment-response context for V50 reassessment of downstream IFN/APC convergence and transfer limits.",
+  "record_id": "claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source overlaps Crohn treatment response and interferon-related blood modules, so it is closer than generic MS-IBD genetic context; it also cautions that baseline transcriptomics was not clinically predictive enough.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Biasci et al. Baseline Expression of Immune Gene Modules in Blood is Associated With Primary Response to Anti-TNF Therapy in Crohn's Disease Patients. Journal of Crohn's and Colitis. 2024.",
+    "doi": "10.1093/ecco-jcc/jjad166",
+    "label": "PANTS Crohn anti-TNF blood immune-module response study",
+    "pmid": "37776235",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37776235/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PubMed bibliographic metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic metadata and a short paraphrased claim only; do not redistribute article text or treat it as project-grounded evidence.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "crohn_disease",
+    "anti_tnf",
+    "interferon",
+    "blood_transcriptome",
+    "treatment_response",
+    "ifn_apc_transfer"
+  ],
+  "why_unverifiable": "The project has not imported and rerun the PANTS expression-response data under project module definitions."
+}
