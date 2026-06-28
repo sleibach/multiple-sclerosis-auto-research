@@ -140,7 +140,7 @@ Checked at V50 start:
 | 63 | medium | done | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
 | 64 | medium | done | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 | 65 | high | done | Refill the V50 backlog after task 64 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
-| 66 | high | todo | Implement a compact V50 public-guard wrapper that runs status freshness and non-OpenGWAS route checks together | `scripts/v50_run_public_guards.py`, `analysis/v50_public_guards/` |
+| 66 | high | done | Implement a compact V50 public-guard wrapper that runs status freshness and non-OpenGWAS route checks together | `scripts/v50_run_public_guards.py`, `analysis/v50_public_guards/` |
 | 67 | high | todo | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
 | 68 | high | todo | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
 | 69 | medium | todo | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
@@ -962,4 +962,14 @@ Checked at V50 start:
   automation, the GWAS Catalog harmonization route, exact treatment-response
   cohort source search through non-OpenGWAS APIs, and follow-up checkpointing.
 - Current cumulative active time at `2026-06-28T17:00:38Z`: `14360` seconds.
+  Target met: `false`.
+- Task 65 commit: `8c76037f` (`Refill V50 backlog after public guards`). Push
+  succeeded: `origin/main` advanced from `116ff7d0` to `8c76037f`.
+- Task 66 implemented `scripts/v50_run_public_guards.py` and generated
+  `analysis/v50_public_guards/`. Result: py_compile PASS and wrapper PASS
+  (`2` guard families, `0` failures, `0` OpenGWAS use). The wrapper runs the
+  status-freshness linter and the non-OpenGWAS route checker together.
+- Task 66 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:03:21Z`: `14523` seconds.
   Target met: `false`.
