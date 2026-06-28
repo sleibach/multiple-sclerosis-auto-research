@@ -136,7 +136,7 @@ Checked at V50 start:
 | 59 | high | done | Refresh `meta/CURRENT_STATUS.md` with V45-V50 operational state and expired-OpenGWAS routing | `meta/CURRENT_STATUS.md` |
 | 60 | high | done | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
 | 61 | medium | done | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
-| 62 | medium | todo | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
+| 62 | medium | done | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
 | 63 | medium | todo | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
 | 64 | medium | todo | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -909,4 +909,15 @@ Checked at V50 start:
 - Task 61 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:49:05Z`: `13667` seconds.
+  Target met: `false`.
+- Task 61 commit: `7a86969f` (`Add V50 status freshness linter`). Push
+  succeeded: `origin/main` advanced from `7070edb0` to `7a86969f`.
+- Task 62 implemented `scripts/v50_check_non_opengwas_routes.py` and generated
+  `analysis/v50_non_opengwas_route_checks/`. Result: py_compile PASS and route
+  check PASS (`8` routes, `0` failures, `0` OpenGWAS use). The checker covers
+  GWAS Catalog REST, Europe PMC, NCBI E-utilities/GDS, BioStudies,
+  ClinicalTrials.gov v2, Crossref, Open Targets GraphQL, and ENA Portal.
+- Task 62 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:52:32Z`: `13874` seconds.
   Target met: `false`.
