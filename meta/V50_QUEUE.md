@@ -110,7 +110,7 @@ Checked at V50 start:
 | 33 | medium | done | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
 | 34 | medium | done | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
 | 35 | medium | done | Build a V50 validation-context boundary card for why DMF/steroid/composition sources do not validate the locked V22 scalar | `knowledge_external/synthesis/V50_VALIDATION_CONTEXT_BOUNDARY_CARD.md` |
-| 36 | medium | todo | Build a V50 candidate-source parking queue for partial T/B and EBV hits that failed same-definition intake | `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` |
+| 36 | medium | done | Build a V50 candidate-source parking queue for partial T/B and EBV hits that failed same-definition intake | `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` |
 | 37 | medium | todo | Run source URL reachability for V50-added source URLs and summarize any transport-only issues | `knowledge_external/catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md` |
 | 38 | medium | todo | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
 | 39 | medium | todo | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
@@ -555,4 +555,17 @@ Checked at V50 start:
   external Markdown lint PASS (`484` checks, `98` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:21:16Z`: `8398` seconds.
+  Target met: `false`.
+- Task 35 commit: `3930fb74` (`Add V50 validation context boundary`). Push
+  succeeded: `origin/main` advanced from `6529e85a` to `3930fb74`.
+- Task 36 wrote
+  `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` and
+  linked it from the external index. Result: partial T/B and EBV candidate
+  sources are preserved with release conditions, while explicitly not counted as
+  records, convergences, or contradictions.
+- Task 36 guards: public index crosslink PASS (`93` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`485` checks, `99` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:25:43Z`: `8665` seconds.
   Target met: `false`.
