@@ -11,8 +11,10 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V43**. The V4 directory structure remains canonical, and
-V11 introduced the resume backbone for short-session continuity.
+The current live operational phase is **V50**. The V4 directory structure
+remains canonical, and V11 introduced the resume backbone for short-session
+continuity. For the newest resumable state, read `meta/V50_QUEUE.md` and
+`meta/V50_FINAL_CHECKPOINT.md` after `meta/CURRENT_STATUS.md`.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
@@ -163,6 +165,16 @@ V11 introduced the resume backbone for short-session continuity.
   `30` nonresponders in the grid. The pipeline self-audit reproduced the V41
   boundary: joint z is near the family-wise search tail (FWER `0.0706`), while
   recurrence is far outside synthetic null (FWER `0.0002`).
+  V44-V46 then reduced dependence on a single delayed validation cohort by
+  hardening the validation harness, broadening pre-registration readiness,
+  strengthening data-free convergence checks, and building returned-package
+  handling paths. V47-V50 added a segregated external-context layer with
+  machine-enforced provenance, sharpened convergence/contradiction comparisons
+  against source-specific public records, purged oversized disposable caches
+  from history, restored per-iteration push discipline, and built non-OpenGWAS
+  routes for continued public-source work while the OpenGWAS JWT is expired.
+  These later phases do not change the locked V22 rule or the V42 validation
+  pre-registration.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -280,6 +292,12 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V41 | Maximum-capability joint inference over the full corpus. | Produced `docs/history/JOINT_INFERENCE_V41.md` and `analysis/v41_joint_inference/`. Joint inference recovered the known APC/HLA-II/IFN/MIF-CD74 monitoring axis and known metabolic/immune-tone context, but found no unexpected new held-out-validated signal; the public-data computation boundary is now explicit. |
 | V42 | Pre-registration and validation-readiness hardening for the Gafson cohort. | Produced `docs/validation/PREREGISTRATION_V42.md`, `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`, `scripts/v42_gafson_validation_harness.py`, and `analysis/v42_harness_validation/`. The future Gafson DMF/NEDA-4 test is now a frozen, mechanical validation with synthetic null/planted self-tests and no new discovery claims. |
 | V43 | Compute-intensive synthetic method-characterization for validation power, harness robustness, and pipeline self-audit. | Produced `docs/validation/POWER_MAP_V43.md`, `docs/validation/HARNESS_ROBUSTNESS_V43.md`, `docs/history/PIPELINE_SELF_AUDIT_V43.md`, and `analysis/v43_method_validation/`. Synthetic-only result: Gafson-small cohorts are often inconclusive; roughly `30` responders and `30` nonresponders are needed for 80% pass probability under a clean effect size `1.00`; batch-response-confounded data are the main false-positive robustness risk; V41 recurrence is far beyond synthetic null while joint z is family-wise borderline. |
+| V44 | Reduce single-cohort dependence while blind to Gafson. | Produced `docs/validation/ALT_COHORT_SCOUT_V44.md`, `docs/validation/BATCH_GUARD_V44.md`, secondary-lead pre-registrations, internal-convergence checks, and infrastructure status. Gafson remains important but no longer the only readiness path. |
+| V45-V46 | Six-hour continuous self-directed hardening blocks. | Extended returned-package handling, schema validation, token-expiry safeguards, robustness checks, cohort-access steps, and durable infrastructure while keeping discovery closed and locked rules unchanged. |
+| V47 | External-context knowledge-base expansion under strict provenance segregation. | Added `docs/knowledge/EPISTEMIC_CLASSES.md`, `knowledge_external/`, and `scripts/v47_provenance_gate.py` so external context is stored separately from grounded project findings. |
+| V48 | Convergence/contradiction analysis and active-time tracking correction. | Populated the first class-aware external relationship layer and corrected long-block accounting to use summed active session time rather than wall-clock span. |
+| V49 | Repository hygiene and convergence-content completion. | Purged disposable oversized cache paths from history, added push-safe ignore rules, closed the initial convergence/contradiction gaps, and documented required history-rewrite handling. |
+| V50 | Per-iteration push plus sharper external-context content. | Restored healthy per-iteration pushes to GitHub, added source-specific public records and route inventories, built GWAS Catalog fetcher validation and allele-harmonization prep, and added public-reader/citation/glossary guidance while OpenGWAS remains expired. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

@@ -132,7 +132,7 @@ Checked at V50 start:
 | 55 | medium | done | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
 | 56 | medium | done | Add a V50 push/guard status checkpoint after the next two content tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 | 57 | high | done | Refill the V50 backlog after task 56 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
-| 58 | high | todo | Refresh README public current-status wording and phase ledger with V44-V50 pointers without moving external claims into grounded prose | `README.md` |
+| 58 | high | done | Refresh README public current-status wording and phase ledger with V44-V50 pointers without moving external claims into grounded prose | `README.md` |
 | 59 | high | todo | Refresh `meta/CURRENT_STATUS.md` with V45-V50 operational state and expired-OpenGWAS routing | `meta/CURRENT_STATUS.md` |
 | 60 | high | todo | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
 | 61 | medium | todo | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
@@ -866,4 +866,16 @@ Checked at V50 start:
   current-status/action files, and converting task 54's non-OpenGWAS route
   inventory into reusable checkers and future-grounding routes.
 - Current cumulative active time at `2026-06-28T16:36:43Z`: `12925` seconds.
+  Target met: `false`.
+- Task 57 commit: `15665be2` (`Refill V50 backlog after checkpoint`). Push
+  succeeded: `origin/main` advanced from `bd854160` to `15665be2`.
+- Task 58 refreshed `README.md` public current-status wording and phase ledger.
+  Result: the README no longer says V43 is current; it points readers to
+  `meta/V50_QUEUE.md` and `meta/V50_FINAL_CHECKPOINT.md` for the latest
+  resumable state, adds compact V44-V50 phase rows, and preserves the boundary
+  that later external-context work does not change locked rules or the V42
+  pre-registration.
+- Task 58 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:39:27Z`: `13089` seconds.
   Target met: `false`.
