@@ -5,22 +5,23 @@ target is not met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T16:34:23Z`
+- checkpoint UTC: `2026-06-28T16:58:11Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `12785` seconds
+- cumulative active time at checkpoint: `14213` seconds
 - active target: `21600` seconds
 - target met: `false`
 
 ## Git / Push
 
-- local HEAD: `3172d6d974061f17e65ff43a28d38d8faea6ed1a`
-- remote `origin/main`: `3172d6d974061f17e65ff43a28d38d8faea6ed1a`
+- local HEAD: `7bb1ffb573c4817e82e6496cfea0c5d1c00b83fa`
+- remote `origin/main`: `7bb1ffb573c4817e82e6496cfea0c5d1c00b83fa`
 - push status: functioning with plain `git push origin main`
-- current working tree before checkpoint edit: clean
-- large-file guard status through task 55: PASS
-- tracked tmp-path guard status through task 55: PASS
-- provenance gate status through task 55: PASS
-- external Markdown/index gates through task 55: PASS
+- large-file guard status through task 63: PASS
+- tracked tmp-path guard status through task 63: PASS
+- provenance gate status through task 63: PASS
+- external Markdown/index gates through task 63: PASS
+- status-freshness linter through task 61: PASS (`16` checks, `0` failures)
+- non-OpenGWAS route checker through task 62: PASS (`8` routes, `0` failures)
 
 ## OpenGWAS
 
@@ -28,7 +29,9 @@ target is not met.
 - decoded expiry: `2026-06-19T12:28:39Z`
 - route: do not use OpenGWAS until token renewal and a passing
   `scripts/check_opengwas_access.py` run
-- handoff: `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`
+- safe alternatives:
+  `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`;
+  `scripts/v50_check_non_opengwas_routes.py`
 
 ## V50 Content State
 
@@ -45,10 +48,18 @@ target is not met.
   project-direction comparable without further harmonization
 - non-OpenGWAS route inventory: `8 / 8` checked public routes returned HTTP
   `200` after schema correction where needed; `0` OpenGWAS use
+- README status: refreshed to V50
+- `meta/CURRENT_STATUS.md`: refreshed to V50 and OpenGWAS-expired state
+- `meta/NEXT_ACTIONS.md`: refreshed with V50 queue/push/provenance and
+  non-OpenGWAS route instructions
 - public repo push status: healthy as of this checkpoint
 
 ## Key Artifacts Added Or Updated
 
+- `README.md`
+- `meta/CURRENT_STATUS.md`
+- `meta/NEXT_ACTIONS.md`
+- `meta/V50_QUEUE.md`
 - `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md`
 - `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md`
 - `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md`
@@ -70,6 +81,11 @@ target is not met.
 - `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md`
 - `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`
 - `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`
+- `scripts/v50_status_freshness_linter.py`
+- `analysis/v50_status_freshness_linter/`
+- `scripts/v50_check_non_opengwas_routes.py`
+- `analysis/v50_non_opengwas_route_checks/`
+- `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md`
 - `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`
 
 ## Next Executable Items
@@ -77,15 +93,14 @@ target is not met.
 The active-time target remains unmet. The next iteration must refill the
 backlog before continuing. High-value non-OpenGWAS tasks to generate include:
 
-1. update public landing files using the task 51 freshness audit without moving
-   external claims into grounded status prose;
-2. convert the non-OpenGWAS route inventory into reusable route checker scripts
-   for the routes most likely to be reused;
-3. create a minimal stale-status linter that flags README/CURRENT_STATUS phase
-   mismatch without editing scientific content;
-4. build a route-specific future-grounding queue from the non-OpenGWAS API
-   inventory;
-5. refresh the push/guard checkpoint after the next two content tasks.
+1. implement a compact freshness-check wrapper that runs both V50 status and
+   non-OpenGWAS route checks together;
+2. run the GWAS Catalog allele-harmonization future-grounding route as far as
+   possible without OpenGWAS;
+3. use Europe PMC / NCBI GDS to search for exact paired treatment-response
+   cohort candidates under the V50 trigger rules;
+4. add current-status freshness checks to the routine guard list;
+5. refresh this checkpoint after the next two content tasks.
 
 This checkpoint exists so a future session resumes without re-reading the whole
 V50 chain.

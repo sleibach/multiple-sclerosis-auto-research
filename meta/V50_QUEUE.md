@@ -138,7 +138,7 @@ Checked at V50 start:
 | 61 | medium | done | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
 | 62 | medium | done | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
 | 63 | medium | done | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
-| 64 | medium | todo | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
+| 64 | medium | done | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -936,4 +936,14 @@ Checked at V50 start:
   failures); provenance PASS (`652` checks, `71` external JSON records, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:55:39Z`: `14061` seconds.
+  Target met: `false`.
+- Task 63 commit: `7bb1ffb5` (`Add V50 non OpenGWAS future grounding queue`).
+  Push succeeded: `origin/main` advanced from `94b25876` to `7bb1ffb5`.
+- Task 64 refreshed `meta/V50_FINAL_CHECKPOINT.md`. Result: local `HEAD` and
+  remote `origin/main` both point to
+  `7bb1ffb573c4817e82e6496cfea0c5d1c00b83fa`; README, CURRENT_STATUS,
+  NEXT_ACTIONS, status-freshness linter, route checker, and route-specific
+  future-grounding queue are all reflected in the checkpoint. Active target
+  remains unmet, so the next step is another backlog refill.
+- Current cumulative active time at `2026-06-28T16:58:11Z`: `14213` seconds.
   Target met: `false`.
