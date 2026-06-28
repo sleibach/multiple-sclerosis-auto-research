@@ -134,7 +134,7 @@ Checked at V50 start:
 | 57 | high | done | Refill the V50 backlog after task 56 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
 | 58 | high | done | Refresh README public current-status wording and phase ledger with V44-V50 pointers without moving external claims into grounded prose | `README.md` |
 | 59 | high | done | Refresh `meta/CURRENT_STATUS.md` with V45-V50 operational state and expired-OpenGWAS routing | `meta/CURRENT_STATUS.md` |
-| 60 | high | todo | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
+| 60 | high | done | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
 | 61 | medium | todo | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
 | 62 | medium | todo | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
 | 63 | medium | todo | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
@@ -888,4 +888,14 @@ Checked at V50 start:
 - Task 59 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:43:16Z`: `13318` seconds.
+  Target met: `false`.
+- Task 59 commit: `52d15db5` (`Refresh current status for V50`). Push
+  succeeded: `origin/main` advanced from `6684ba60` to `52d15db5`.
+- Task 60 refreshed `meta/NEXT_ACTIONS.md`. Result: resumed sessions now start
+  with a V50 block that points to `meta/V50_QUEUE.md`, records push/provenance
+  requirements, marks OpenGWAS as expired, and routes source-discovery work to
+  the non-OpenGWAS inventory while token renewal is pending.
+- Task 60 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:46:07Z`: `13489` seconds.
   Target met: `false`.

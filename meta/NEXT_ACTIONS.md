@@ -1,10 +1,52 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-12 17:50 CEST
+Last updated: 2026-06-28 18:45 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V50 update:
+
+- Queue / resume backbone: `meta/V50_QUEUE.md`.
+- Latest checkpoint: `meta/V50_FINAL_CHECKPOINT.md`.
+- Public landing freshness audit: `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md`.
+- External-context index: `knowledge_external/INDEX.md`.
+- Public reader/citation/glossary cards:
+  `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`;
+  `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md`;
+  `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md`;
+  `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`.
+- Non-OpenGWAS route inventory:
+  `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`;
+  `analysis/v50_non_opengwas_route_inventory/`.
+- Current push status: plain `git push origin main` is functioning on the
+  rewritten-history remote as of V50 task 59.
+
+Current V50 requirements:
+
+- Continue V50 from `meta/V50_QUEUE.md` until the six-hour active target is met
+  or a valid stop condition is reached.
+- Run `scripts/v47_provenance_gate.py audit` before each push.
+- Verify no tracked file exceeds `50 MiB` and no tracked path sits under
+  `tmp/` before each push.
+- Push every committed iteration to `origin/main`.
+- OpenGWAS JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until
+  renewed and verified.
+- Use non-OpenGWAS routes from `V50_NON_OPENGWAS_ROUTE_INVENTORY.md` for
+  source discovery and metadata-only work while the token is expired.
+
+First V50 actions:
+
+1. Continue the first unresolved V50 queue item.
+2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
+   status diverges from the live queue.
+3. Implement a stale-status linter for README/CURRENT_STATUS/NEXT_ACTIONS phase
+   drift.
+4. Implement reusable non-OpenGWAS route smoke checkers for the highest-value
+   public APIs.
+5. Keep external-context material under `knowledge_external/`; do not copy
+   external claims into grounded status prose.
 
 V44 update:
 
@@ -62,8 +104,8 @@ First post-V44 actions:
 4. If postpartum MS relapse-window or T/B-compartment data arrive before
    Gafson, use the corresponding V44 preregistered harness; do not create or
    tune a rule after seeing the data.
-5. Renew OpenGWAS JWT before any OpenGWAS-dependent work after
-   `2026-06-19 12:28 UTC`.
+5. Renew OpenGWAS JWT before any new OpenGWAS-dependent work; the previous JWT
+   expired at `2026-06-19T12:28:39Z`.
 
 V43 update:
 
@@ -120,9 +162,9 @@ V42 update:
   - planted-signal cohort expected to pass and did pass:
     `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`.
 - OpenGWAS:
-  - POST check passed HTTP 200;
-  - JWT expires `2026-06-19 12:28 UTC`;
-  - renew before any validation-adjacent OpenGWAS check after that timestamp.
+  - historical POST check passed HTTP 200;
+  - JWT expired at `2026-06-19T12:28:39Z`;
+  - renew before any validation-adjacent OpenGWAS check.
 
 First post-V42 action:
 
@@ -201,8 +243,8 @@ V40 update:
 - Grounded probe report: `docs/history/DIMENSION_PROBES_V40.md`.
 - Probe outputs: `analysis/v40_dimension_probes/`.
 - Tooling health:
-  - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC` and now
-    near-expiry;
+  - OpenGWAS was HTTP 200 during V40, but the JWT is now expired at
+    `2026-06-19T12:28:39Z`;
   - Claude and Gemini smoke-pass through `scripts/sap_ai_core_client.py`;
   - SAP RPT was not used in V40 because no working call path was confirmed in
     that run; V41 later smoke-passed RPT and used it as proposal lens only.
