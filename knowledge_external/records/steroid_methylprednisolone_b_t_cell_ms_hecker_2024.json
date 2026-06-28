@@ -1,0 +1,40 @@
+{
+  "claim": "Hecker et al. profiled CD19+ B-cell and CD4+ T-cell transcriptomes before and after high-dose methylprednisolone therapy for MS relapse, providing cell-type-specific glucocorticoid-response context.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use GSE255952/GSE-linked processed data as a future non-OpenGWAS route to test whether the V32 glucocorticoid signature captures B-cell and T-helper-cell methylprednisolone response.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record for cell-type-specific steroid transcriptome confounding in MS relapse therapy.",
+  "record_id": "claim.biopha_2024.methylprednisolone_b_t_cell_transcriptome_ms.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source is especially relevant to V32 because it separates B-cell and T-helper-cell transcriptomes, but it remains a future grounding route until imported and rerun.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Hecker M, Fitzner B, Koczan D, et al. Differential gene expression in B cells and T helper cells following high-dose glucocorticoid therapy for multiple sclerosis relapse. Biomedicine & Pharmacotherapy. 2024;175:116721.",
+    "doi": "10.1016/j.biopha.2024.116721",
+    "geo_accession": "GSE255952",
+    "label": "Hecker 2024 methylprednisolone B-cell/T-helper-cell transcriptome",
+    "pmid": "38749180",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38749180/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Publisher/PubMed metadata plus public GEO locator; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and locator only; do not import expression values without a separate future grounding task.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "methylprednisolone",
+    "glucocorticoid",
+    "b_cell",
+    "cd4_t_cell",
+    "transcriptome",
+    "multiple_sclerosis"
+  ],
+  "why_unverifiable": "The project has not imported GSE255952 or evaluated the V32 steroid-confounder panel on the cell-type-specific data."
+}

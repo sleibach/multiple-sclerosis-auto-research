@@ -1,0 +1,38 @@
+{
+  "claim": "Montes Diaz et al. reported that dimethyl fumarate treatment in MS is associated with persistent changes in innate and adaptive immune-cell composition.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as source-specific cell-composition context when checking whether validation cohorts require composition diagnostics or deconvolution; do not treat as evidence about the locked V22 scalar.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record supporting the necessity of cell-composition diagnostics around DMF response data.",
+  "record_id": "claim.sci_rep_2018.dmf_persistent_immune_composition_ms.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source supports cell-composition shift as a real DMF-related confounder class, but it does not test the V22 APC/HLA-II scalar.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Montes Diaz G, Fraussen J, Van Wijmeersch B, Hupperts R, Somers V. Dimethyl fumarate induces a persistent change in the composition of the innate and adaptive immune system in multiple sclerosis patients. Scientific Reports. 2018;8:8194.",
+    "doi": "10.1038/s41598-018-26519-w",
+    "label": "Montes Diaz 2018 DMF immune-cell composition study",
+    "pmid": "29844361",
+    "url": "https://www.nature.com/articles/s41598-018-26519-w"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Open-access Scientific Reports article; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only.",
+    "terms_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "immune_composition",
+    "flow_cytometry",
+    "multiple_sclerosis",
+    "cell_composition_confounder"
+  ],
+  "why_unverifiable": "The project has not rerun the immune-phenotyping data or mapped composition shifts to V22 module behavior."
+}

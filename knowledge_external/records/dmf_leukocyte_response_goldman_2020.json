@@ -1,0 +1,39 @@
+{
+  "claim": "Goldman et al. studied patient-specific modulation of leukocyte response during dimethyl fumarate treatment in MS, including absolute lymphocyte count, absolute neutrophil count, and neutrophil-lymphocyte ratio.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as source-specific context for pre-specified cell-count and composition diagnostics in validation cohorts; do not treat as transcriptomic validation.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md; docs/validation/PREREGISTRATION_V42.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record for simple leukocyte-count composition diagnostics during DMF validation.",
+  "record_id": "claim.plos_one_2020.dmf_leukocyte_response_patient_factors_ms.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source supports tracking basic leukocyte composition and ratio changes as validation diagnostics, but does not evaluate the V22 transcriptomic scalar.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Goldman MD, Dwyer L, Coleman R, Sohn MW, Stuve O. Patient-specific factors modulate leukocyte response in dimethyl fumarate treated MS patients. PLOS ONE. 2020;15:e0228617.",
+    "doi": "10.1371/journal.pone.0228617",
+    "label": "Goldman 2020 DMF leukocyte response factors",
+    "pmid": "32045436",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32045436/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PLOS ONE article metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only.",
+    "terms_url": "https://journals.plos.org/plosone/s/licenses-and-copyright"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "leukocyte_count",
+    "lymphocyte_count",
+    "neutrophil_lymphocyte_ratio",
+    "multiple_sclerosis",
+    "composition_diagnostic"
+  ],
+  "why_unverifiable": "The project has not imported the clinical count data or evaluated it alongside the frozen validation harness."
+}

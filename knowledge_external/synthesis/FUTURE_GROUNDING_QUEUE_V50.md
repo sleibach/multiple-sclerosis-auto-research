@@ -45,6 +45,21 @@ standalone grounding task unless a specific same-definition dataset appears:
 | `claim.nature_2022.ebna1_glialcam_crossreactive_bcells_ms.2026-06-28` | https://pubmed.ncbi.nlm.nih.gov/35073561/ | EBV-MS B-cell mechanism, not IFN/APC imprint specificity test. |
 | `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | Crohn-side PTGER4 expression context, not MS transfer validation. |
 
+## Task 20 Confounder-Source Addendum
+
+These records were added after the first V50 routing pass. They sharpen
+validation guard context around steroid and composition confounding, but they do
+not validate the locked V22 scalar or revise the V32 verdict.
+
+| id | priority | status | external record | source | proposed grounding task | blocker / route |
+|---|---|---|---|---|---|---|
+| V50_FG_010 | medium | queued_context_only | `claim.jneurol_2004.methylprednisolone_ms_immune_gene_suppression.2026-06-28` | https://link.springer.com/article/10.1007/s00415-004-0516-y | Use as a source-specific steroid-response context when checking the frozen validation harness's glucocorticoid panel. | No same-definition V22 score data; context only unless raw expression can be recovered. |
+| V50_FG_011 | medium | queued_context_only | `claim.cns_neurosci_ther_2024.glucocorticoid_resistance_ms_whole_blood.2026-06-28` | https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/ | If source data are accessible, compare reported glucocorticoid-resistance signatures against the V32 steroid panel. | Data-access and schema check needed before grounding. |
+| V50_FG_012 | medium | queued | `claim.biopha_2024.methylprednisolone_b_t_cell_transcriptome_ms.2026-06-28` | https://pubmed.ncbi.nlm.nih.gov/38749180/ | Check GSE255952 availability and test whether cell-type-specific methylprednisolone response genes overlap the V32 steroid panel. | Non-OpenGWAS route; requires GEO retrieval and gene-ID/schema validation. |
+| V50_FG_013 | medium | queued_context_only | `claim.sci_rep_2018.dmf_persistent_immune_composition_ms.2026-06-28` | https://www.nature.com/articles/s41598-018-26519-w | Use as source-specific rationale for cell-composition diagnostics in validation. | Not a transcriptomic V22 validation dataset. |
+| V50_FG_014 | medium | queued_context_only | `claim.plos_one_2020.dmf_leukocyte_response_patient_factors_ms.2026-06-28` | https://pubmed.ncbi.nlm.nih.gov/32045436/ | If validation packages include blood counts, check absolute lymphocyte, neutrophil, and ratio diagnostics alongside the frozen harness. | Requires real validation package fields; no current data import. |
+| V50_FG_015 | medium | queued_context_only | `claim.mult_scler_2017.dmf_response_lymphocyte_subsets_ms.2026-06-28` | https://journals.sagepub.com/doi/10.1177/1352458517703799 | Use as source-specific rationale for lymphocyte-subset diagnostics where available. | No V22 module expression data in the external record. |
+
 ## Operating Rules
 
 1. External records never become evidence by being queued here.

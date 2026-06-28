@@ -22,7 +22,10 @@ change is that the comparisons are now more head-to-head:
 - `0` genuine contradictions surfaced under same-definition comparison.
 - `2` high-priority treatment-response rows still do not have external
   corroboration of the exact project claim.
-- `18` sharper V50 records were routed into future grounding, blocked-data, or
+- `6` source-specific steroid/glucocorticoid and leukocyte-composition records
+  were added as validation-guard context without increasing the V22
+  rule-corroboration count.
+- `18` first-pass sharper V50 records were routed into future grounding, blocked-data, or
   context-only paths in `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md`.
 
 ## Decision-Relevant Corroborations
@@ -42,7 +45,7 @@ change is that the comparisons are now more head-to-head:
 | project item | V50 result | source(s) | why this matters |
 |---|---|---|---|
 | Locked V22 bounded APC/HLA-II monitoring scalar | sharper context only, not external validation | Gafson 2018 DMF PBMC/NEDA-4 context: https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/; DMF ROS response: https://www.nature.com/articles/s41467-019-11139-3; GSE235357 context: https://www.omicsdi.org/dataset/geo/GSE235357; DMF immune monitoring: https://www.pnas.org/doi/10.1073/pnas.2205042119 | These sources make the validation context concrete, but none independently tests the frozen V22 scalar or threshold. The real test remains the pre-registered harness. |
-| V22 immune-tone/confounder audit | still project-specific | Gafson 2018 context: https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/ | External records did not score the V32 confounder panels under project definitions. |
+| V22 immune-tone/confounder audit | guard context sharpened, result still project-specific | Gafson 2018 context: https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/; steroid immune-gene suppression: https://link.springer.com/article/10.1007/s00415-004-0516-y; glucocorticoid-resistance transcriptomics: https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/; B/T methylprednisolone transcriptomes: https://pubmed.ncbi.nlm.nih.gov/38749180/; DMF composition shift: https://www.nature.com/articles/s41598-018-26519-w; leukocyte response factors: https://pubmed.ncbi.nlm.nih.gov/32045436/; lymphocyte-subset response: https://journals.sagepub.com/doi/10.1177/1352458517703799 | These sources confirm steroid and composition are real validation guards. They still do not score the V32 panels under project definitions or validate the V22 scalar's adjusted behavior. |
 | EBV/IFN APC imprint specificity downgrade | context only, no rescue | EBNA1/GlialCAM: https://pubmed.ncbi.nlm.nih.gov/35073561/; EBV anti-CNS B-cell APC preprint: https://pubmed.ncbi.nlm.nih.gov/41727017/ | External EBV-MS biology remains compatible with MS relevance, but does not overturn the project's autoimmune-specificity control result. |
 
 ## Contradiction Caveat
@@ -63,8 +66,10 @@ be read narrowly:
    rs4613763, and chr1 rs7522462 without OpenGWAS.
 2. Keep Gafson and GSE235357 as validation-data routes only; do not treat them
    as literature proof of the locked V22 rule.
-3. Do not reopen GPR25 or PTGER4 as targets without new direction-matched
+3. Use steroid/composition sources to harden validation diagnostics only; do not
+   use them to revise the locked rule or to claim adjusted validation.
+4. Do not reopen GPR25 or PTGER4 as targets without new direction-matched
    functional evidence.
-4. Treat coupled APC external records as plausibility support until an
+5. Treat coupled APC external records as plausibility support until an
    independent human MS dataset reproduces the full coupled structure under the
    project definitions.

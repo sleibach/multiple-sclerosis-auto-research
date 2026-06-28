@@ -94,7 +94,7 @@ Checked at V50 start:
 | 17 | high | done | Build V50 future-grounding delta queue for all newly sharper records that are groundable without OpenGWAS | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md` |
 | 18 | medium | done | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
 | 19 | medium | done | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 20 | high | todo | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 20 | high | done | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -330,4 +330,29 @@ Checked at V50 start:
   external Markdown lint PASS (`430` checks, `88` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:25:15Z`: `5037` seconds.
+  Target met: `false`.
+- Task 19 commit: `fbe474cf` (`Update V50 reader routing`). Push succeeded:
+  `origin/main` advanced from `ce00beb8` to `fbe474cf`.
+- Task 20 added six source-specific treatment-response confounder records:
+  three steroid/glucocorticoid transcriptome records and three DMF leukocyte or
+  immune-composition records. `CONVERGENCE_CONTRADICTION_V50.md` classifies
+  them as validation-guard context: they sharpen why V32 scored steroid and
+  composition panels, but they do not externally validate the locked V22 scalar
+  or the V32 adjustment verdict.
+- Task 20 regenerated the class-aware external record index, source-domain
+  rollup, and source-terms coverage. Result: `71` external records indexed,
+  `35` source domains represented, `40` records with explicit source-terms
+  metadata, `31` records missing optional source-terms metadata, and `0`
+  missing sources or not-grounded markers.
+- Task 20 guards: record schema PASS (`1100` checks, `71` records, `0`
+  failures); record uniqueness PASS (`142` checks, `71` records, `0`
+  failures); source-terms metadata PASS (`231` checks, `40` records with
+  source terms, `31` warnings, `0` failures); source-terms freshness PASS
+  (`151` checks, `0` failures); source-terms coverage freshness PASS (`284`
+  checks, `71` current records, `0` failures); public index crosslink PASS
+  (`82` links, `0` failures); provenance PASS (`652` checks, `71` records,
+  `0` failures); external Markdown lint PASS (`474` checks, `88` Markdown
+  files, `0` failures); tracked file size guard PASS; tracked tmp-path guard
+  PASS.
+- Current cumulative active time at `2026-06-28T14:34:33Z`: `5595` seconds.
   Target met: `false`.

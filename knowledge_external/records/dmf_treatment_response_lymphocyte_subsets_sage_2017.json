@@ -1,0 +1,38 @@
+{
+  "claim": "A Multiple Sclerosis Journal study reported that DMF treatment response was associated with lymphocyte-subset changes, including disproportionate CD8+ T-cell reduction and altered CD4/CD8 ratio.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as source-specific composition-response context if validation cohorts include lymphocyte subsets; otherwise keep as external context only.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md; docs/validation/PREREGISTRATION_V42.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record for response-linked lymphocyte-subset composition as a potential confounder or diagnostic companion to transcriptomic validation.",
+  "record_id": "claim.mult_scler_2017.dmf_response_lymphocyte_subsets_ms.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source strengthens the rationale for cell-composition adjustment in DMF response work, but it does not test whether the V22 scalar survives adjustment.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Treatment response to dimethyl fumarate is characterized by disproportionate CD8+ T cell reduction in MS. Multiple Sclerosis Journal. 2017.",
+    "doi": "10.1177/1352458517703799",
+    "label": "2017 DMF treatment response lymphocyte-subset study",
+    "url": "https://journals.sagepub.com/doi/10.1177/1352458517703799"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "SAGE article page; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only.",
+    "terms_url": "https://us.sagepub.com/en-us/nam/terms-and-conditions"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "treatment_response",
+    "cd8_t_cell",
+    "lymphocyte_subsets",
+    "cell_composition",
+    "multiple_sclerosis"
+  ],
+  "why_unverifiable": "The project has not imported the lymphocyte-subset data or tested whether these composition shifts explain the V22 scalar."
+}

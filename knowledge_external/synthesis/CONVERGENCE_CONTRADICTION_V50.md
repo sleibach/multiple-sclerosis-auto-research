@@ -21,9 +21,11 @@ Compared with V48/V49:
 After V50 sharper-source acquisition:
 
 - original high-priority gap rows revisited so far: `7` of `16`
-- newly added source-specific external records assessed here: `18`
+- newly added source-specific external records assessed here: `24`
 - decision-relevant new convergences: `11`
 - genuine contradictions surfaced: `0`
+- source-specific confounder-scope context records added without changing the
+  V22 rule-corroboration count: `6`
 - high-priority rows that remain non-corroborating despite sharper context:
   `2` (`bounded V22 scalar`, `V22 immune-tone/confounder audit`)
 
@@ -44,6 +46,10 @@ differences were not sufficiently sensitive as a clinical predictor.
 PTGER4 now has a source-specific same-rsid MS/Crohn opposite-allele record and
 Crohn-side expression-modulation context, strengthening the project's closure of
 naive PTGER4 transfer.
+V50 also added six steroid/glucocorticoid and leukocyte-composition records.
+These sharpen why the V32 confounder audit was necessary, but they do not
+externally corroborate the project-specific result that the locked V22 scalar is
+immune-tone bounded rather than explained by steroid or composition effects.
 
 ## Decision-Relevant New Convergences
 
@@ -174,6 +180,21 @@ naive PTGER4 transfer.
 | PTGER4 mixed shared/distinct signal closes naive transfer | `claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | Same-rsid external rows preserve opposite MS/Crohn PTGER4 risk alleles, supporting transfer caution rather than a shared-direction target claim. |
 | PTGER4 mixed shared/distinct signal closes naive transfer | `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The source supports Crohn-side PTGER4 regulatory biology but does not rescue PTGER4 as a direction-matched MS target. |
 
+## Treatment-Response Confounder Context Added In Task 20
+
+These records are source-specific context for the V32 audit design. They support
+the need to score steroid and composition confounders, but they do not validate
+the locked V22 scalar or the V32 survival/attenuation result.
+
+| project item | new external record | class / marker | source | relationship | status | interpretation |
+|---|---|---|---|---|---|---|
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.jneurol_2004.methylprednisolone_ms_immune_gene_suppression.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://link.springer.com/article/10.1007/s00415-004-0516-y | `context` | `CONFIRMS_CONFOUNDER_CLASS_NOT_AUDIT_RESULT` | Steroid therapy can reshape MS blood immune-expression signals, supporting glucocorticoid scoring as a required validation guard. It does not test the V22 scalar. |
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.cns_neurosci_ther_2024.glucocorticoid_resistance_ms_whole_blood.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/ | `context` | `CONFIRMS_CONFOUNDER_CLASS_NOT_AUDIT_RESULT` | Whole-blood transcriptomic glucocorticoid-response heterogeneity reinforces steroid-response confounding risk in MS relapse biology. It does not evaluate the project score. |
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.biopha_2024.methylprednisolone_b_t_cell_transcriptome_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/38749180/ | `context` | `POTENTIALLY_GROUNDABLE_STEROID_PANEL_DATA` | Cell-type-specific B-cell and T-helper-cell methylprednisolone transcriptomes are a concrete future route to test or refine steroid-response panels. No V22 adjustment result follows until rerun. |
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.sci_rep_2018.dmf_persistent_immune_composition_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.nature.com/articles/s41598-018-26519-w | `context` | `CONFIRMS_COMPOSITION_CONFOUNDER_CLASS_NOT_AUDIT_RESULT` | Persistent DMF-associated immune-cell composition shifts support the need for composition diagnostics and deconvolution in validation. They do not explain or validate the V22 scalar. |
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.plos_one_2020.dmf_leukocyte_response_patient_factors_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/32045436/ | `context` | `CONFIRMS_COMPOSITION_DIAGNOSTIC_NEED_NOT_AUDIT_RESULT` | Leukocyte-count and neutrophil-lymphocyte-ratio modulation supports simple composition diagnostics alongside transcriptomic validation. It does not test V22. |
+| V22 scalar is immune-tone bounded, not steroid/composition artifact | `claim.mult_scler_2017.dmf_response_lymphocyte_subsets_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://journals.sagepub.com/doi/10.1177/1352458517703799 | `context` | `CONFIRMS_RESPONSE_LINKED_SUBSET_SHIFT_NOT_AUDIT_RESULT` | Response-linked lymphocyte-subset changes sharpen the cell-composition risk around DMF response work. They do not validate the project scalar. |
+
 ## Updated Decision List
 
 Externally corroborated grounded findings added by V50:
@@ -213,6 +234,9 @@ Rows still needing sharper same-definition sources or future grounding:
 - Treat Gafson 2018 and GSE235357 as validation-data routes, not literature
   corroboration. They should enter only through the frozen V42/V44 harness and
   associated quarantine rules.
+- Treat steroid/glucocorticoid and leukocyte-composition sources as validation
+  guard context. They strengthen the pre-specified need for confounder scoring,
+  but do not change the V32 verdict until rerun on a validation cohort.
 - Treat the CD74/MIF/HLA-II sources as mechanistic context only. A future
   external-validation route would need independent human MS cell-state data that
   jointly scores HLA-II/IFN-APC and MIF-CD74 structure under the V26 axis

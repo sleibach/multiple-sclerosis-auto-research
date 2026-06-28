@@ -2,8 +2,8 @@
 
 Status: navigation only. Domains are parsed from external source locators and are not evidence.
 
-- external records indexed: `39`
-- source domains represented: `27`
+- external records indexed: `71`
+- source domains represented: `35`
 - missing source locators: `0`
 - missing not-grounded markers: `0`
 - overall status: `PASS`
@@ -13,6 +13,8 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | source domain | count | epistemic classes |
 |---|---:|---|
 | `about.zenodo.org` | 1 | `external-unverifiable` |
+| `academic.oup.com` | 1 | `external-unverifiable` |
+| `annualreviews.org` | 1 | `external-unverifiable` |
 | `atlasofms.org` | 1 | `external-unverifiable` |
 | `clinicaltrials.gov` | 1 | `external-unverifiable` |
 | `commondataelements.ninds.nih.gov` | 1 | `external-unverifiable` |
@@ -20,25 +22,31 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `dailymed.nlm.nih.gov` | 4 | `external-unverifiable` |
 | `datadryad.org` | 1 | `external-unverifiable` |
 | `disgenet.com` | 1 | `external-unverifiable` |
-| `ebi.ac.uk` | 4 | `external-unverifiable` |
+| `ebi.ac.uk` | 7 | `external-unverifiable` |
 | `ega-archive.org` | 1 | `external-unverifiable` |
 | `ema.europa.eu` | 1 | `external-unverifiable` |
 | `england.nhs.uk` | 1 | `external-unverifiable` |
 | `europepmc.org` | 1 | `external-unverifiable` |
 | `fda.gov` | 1 | `external-unverifiable` |
+| `guidetopharmacology.org` | 1 | `external-unverifiable` |
 | `imsgc.net` | 1 | `external-unverifiable` |
 | `info.figshare.com` | 1 | `external-unverifiable` |
+| `journals.sagepub.com` | 1 | `external-unverifiable` |
+| `link.springer.com` | 1 | `external-unverifiable` |
 | `msbase.org` | 1 | `external-unverifiable` |
 | `msda.emif-catalogue.eu` | 1 | `external-unverifiable` |
 | `mssociety.org.uk` | 2 | `external-unverifiable` |
 | `narcoms.org` | 1 | `external-unverifiable` |
 | `nationalmssociety.org` | 4 | `external-unverifiable` |
-| `nature.com` | 2 | `external-unverifiable` |
-| `ncbi.nlm.nih.gov` | 2 | `external-unverifiable` |
+| `nature.com` | 4 | `external-unverifiable` |
+| `ncbi.nlm.nih.gov` | 3 | `external-unverifiable` |
 | `ngdc.cncb.ac.cn` | 1 | `external-unverifiable` |
 | `nice.org.uk` | 1 | `external-unverifiable` |
+| `omicsdi.org` | 1 | `external-unverifiable` |
 | `platform-docs.opentargets.org` | 1 | `external-unverifiable` |
-| `pubmed.ncbi.nlm.nih.gov` | 1 | `external-unverifiable` |
+| `pmc.ncbi.nlm.nih.gov` | 6 | `external-unverifiable` |
+| `pnas.org` | 1 | `external-unverifiable` |
+| `pubmed.ncbi.nlm.nih.gov` | 14 | `external-unverifiable` |
 
 ## Records
 
@@ -75,11 +83,43 @@ Status: navigation only. Domains are parsed from external source locators and ar
 | `pubmed.ncbi.nlm.nih.gov` | PubMed | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/ | `NOT_PROJECT_GROUNDED` |
 | `ncbi.nlm.nih.gov` | NCBI Sequence Read Archive | `external-unverifiable` | `orthogonal` | https://www.ncbi.nlm.nih.gov/sra | `NOT_PROJECT_GROUNDED` |
 | `about.zenodo.org` | Zenodo | `external-unverifiable` | `orthogonal` | https://about.zenodo.org/ | `NOT_PROJECT_GROUNDED` |
+| `ncbi.nlm.nih.gov` | claim.ncbi_gene.cd74_mhc2_mif_molecular_context.2026-06-28 | `external-unverifiable` | `supports` | https://www.ncbi.nlm.nih.gov/gene/972 | `NOT_PROJECT_GROUNDED` |
+| `ebi.ac.uk` | claim.gwas_catalog.chr1_rs7522462_kif21b_gpr25_ms.2026-06-28 | `external-unverifiable` | `supports` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs7522462&projection=associationBySnp | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/37776235/ | `NOT_PROJECT_GROUNDED` |
+| `pnas.org` | claim.diebold_2022.dmf_high_dimensional_immune_monitoring_context.2026-06-28 | `external-unverifiable` | `supports` | https://www.pnas.org/doi/10.1073/pnas.2205042119 | `NOT_PROJECT_GROUNDED` |
+| `nature.com` | claim.sci_rep_2018.dmf_persistent_immune_composition_ms.2026-06-28 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41598-018-26519-w | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.plos_one_2020.dmf_leukocyte_response_patient_factors_ms.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/32045436/ | `NOT_PROJECT_GROUNDED` |
+| `nature.com` | claim.carlstrom_2019.dmf_monocyte_ros_response_context.2026-06-28 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41467-019-11139-3 | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.gafson_2018.dmf_pbmc_neda4_transcriptome_context.2026-06-28 | `external-unverifiable` | `supports` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/ | `NOT_PROJECT_GROUNDED` |
+| `omicsdi.org` | claim.sanchez_sanz_2023.dmf_pbmc_response_signature_context.2026-06-28 | `external-unverifiable` | `supports` | https://www.omicsdi.org/dataset/geo/GSE235357 | `NOT_PROJECT_GROUNDED` |
+| `journals.sagepub.com` | claim.mult_scler_2017.dmf_response_lymphocyte_subsets_ms.2026-06-28 | `external-unverifiable` | `supports` | https://journals.sagepub.com/doi/10.1177/1352458517703799 | `NOT_PROJECT_GROUNDED` |
 | `dailymed.nlm.nih.gov` | claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `NOT_PROJECT_GROUNDED` |
 | `dailymed.nlm.nih.gov` | claim.dailymed.natalizumab_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `NOT_PROJECT_GROUNDED` |
 | `dailymed.nlm.nih.gov` | claim.dailymed.ocrelizumab_mechanism_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.biorxiv_2026.ebv_anti_cns_bcell_apc_ms_context.2026-06-28 | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/41727017/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.nature_2022.ebna1_glialcam_crossreactive_bcells_ms.2026-06-28 | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/35073561/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.science.ebv_ms_longitudinal_risk_context.2026-06-14 | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/35025605/ | `NOT_PROJECT_GROUNDED` |
+| `guidetopharmacology.org` | claim.iuphar.gpr25_orphan_gpcr_context.2026-06-28 | `external-unverifiable` | `supports` | https://www.guidetopharmacology.org/services/targets?name=GPR25 | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.nature.ms_ibd_gpr25_context.2026-06-14 | `external-unverifiable` | `orthogonal` | https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.jimmunol_2014.hla_dra1_cd74_mif_eae_context.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/24683185/ | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.frontiers.uc_tofacitinib_mhc_stat1_context.2026-06-14 | `external-unverifiable` | `supports` | https://pmc.ncbi.nlm.nih.gov/articles/PMC9152176/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.nat_immunol_2024.imid_antitnf_single_cell_atlas.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/39438660/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.jmg_2010.kif21b_ms_susceptibility_replication.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/20587413/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.probast_tripod.prediction_model_validation_context.2026-06-14 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/30596875/ | `NOT_PROJECT_GROUNDED` |
+| `annualreviews.org` | claim.open_targets.direction_tractability_context.2026-06-14 | `external-unverifiable` | `supports` | https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-102523-103838 | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.plos.ms_mhc_independent_effects_context.2026-06-14 | `external-unverifiable` | `supports` | https://pmc.ncbi.nlm.nih.gov/articles/PMC3836799/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.eji_2018.mif_cd74_bcell_ms_context.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/30160778/ | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.cshperspect.ms_biomarker_heterogeneity_context.2026-06-14 | `external-unverifiable` | `orthogonal` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6396336/ | `NOT_PROJECT_GROUNDED` |
 | `mssociety.org.uk` | claim.ms_society_uk.ppms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.mssociety.org.uk/about-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
 | `nationalmssociety.org` | claim.national_ms_society.rrms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms | `NOT_PROJECT_GROUNDED` |
 | `nationalmssociety.org` | claim.national_ms_society.spms_course_context.2026-06-13 | `external-unverifiable` | `orthogonal` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `NOT_PROJECT_GROUNDED` |
 | `nature.com` | claim.ms_ibd.treatment_transfer_caution_context.2026-06-14 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41467-021-25768-0 | `NOT_PROJECT_GROUNDED` |
 | `nature.com` | claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14 | `external-unverifiable` | `supports` | https://www.nature.com/articles/s41467-021-25768-0 | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | `NOT_PROJECT_GROUNDED` |
+| `ebi.ac.uk` | claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28 | `external-unverifiable` | `supports` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14 | `external-unverifiable` | `orthogonal` | https://pubmed.ncbi.nlm.nih.gov/38049980/ | `NOT_PROJECT_GROUNDED` |
+| `pmc.ncbi.nlm.nih.gov` | claim.cns_neurosci_ther_2024.glucocorticoid_resistance_ms_whole_blood.2026-06-28 | `external-unverifiable` | `supports` | https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/ | `NOT_PROJECT_GROUNDED` |
+| `pubmed.ncbi.nlm.nih.gov` | claim.biopha_2024.methylprednisolone_b_t_cell_transcriptome_ms.2026-06-28 | `external-unverifiable` | `supports` | https://pubmed.ncbi.nlm.nih.gov/38749180/ | `NOT_PROJECT_GROUNDED` |
+| `link.springer.com` | claim.jneurol_2004.methylprednisolone_ms_immune_gene_suppression.2026-06-28 | `external-unverifiable` | `supports` | https://link.springer.com/article/10.1007/s00415-004-0516-y | `NOT_PROJECT_GROUNDED` |
+| `academic.oup.com` | claim.hmg_2019.zmiz1_dendritic_vitamin_d_context.2026-06-28 | `external-unverifiable` | `orthogonal` | https://academic.oup.com/hmg/article/28/2/269/5115479 | `NOT_PROJECT_GROUNDED` |
+| `ebi.ac.uk` | claim.gwas_catalog.zmiz1_rs1250550_ms_crohn_opposite_alleles.2026-06-28 | `external-unverifiable` | `supports` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp | `NOT_PROJECT_GROUNDED` |

@@ -1,0 +1,40 @@
+{
+  "claim": "Bagnoud et al. analyzed whole-blood transcriptomes in MS relapse and reported genes associated with glucocorticoid-sensitive versus glucocorticoid-resistant response.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "If expression data and labels are accessible, use the reported glucocorticoid-resistance context to stress-test the V32 steroid confounder panel; until rerun, keep as external context only.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record for steroid-responsiveness heterogeneity in MS blood transcriptomes.",
+  "record_id": "claim.cns_neurosci_ther_2024.glucocorticoid_resistance_ms_whole_blood.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source directly supports the relevance of glucocorticoid-response heterogeneity as a confounder-risk class, but it does not evaluate the V22 score.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Bagnoud M, Remlinger J, Joly S, et al. Predicting glucocorticoid resistance in multiple sclerosis relapse via a whole blood transcriptomic analysis. CNS Neuroscience & Therapeutics. 2024;30:e14484.",
+    "doi": "10.1111/cns.14484",
+    "label": "Bagnoud 2024 glucocorticoid resistance whole-blood transcriptomics",
+    "pmcid": "PMC10848073",
+    "pmid": "37817393",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Open-access article; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; underlying data are not imported here.",
+    "terms_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "glucocorticoid_resistance",
+    "multiple_sclerosis",
+    "relapse",
+    "whole_blood",
+    "transcriptome",
+    "confounder"
+  ],
+  "why_unverifiable": "The project has not rerun the Bagnoud et al. transcriptomic analysis or evaluated the V22 scalar against those response labels."
+}

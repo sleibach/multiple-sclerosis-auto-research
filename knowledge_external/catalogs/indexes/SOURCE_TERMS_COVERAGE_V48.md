@@ -2,8 +2,8 @@
 
 Status: provenance/navigation only. External records remain `external-unverifiable` or `external-verifiable` as tagged; source-terms metadata is not project-grounded evidence.
 
-- records checked: `65`
-- records with source_terms: `34`
+- records checked: `71`
+- records with source_terms: `40`
 - records missing optional source_terms: `31`
 - NOT project grounded marker: `NOT_PROJECT_GROUNDED`
 
@@ -11,7 +11,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 
 | redistribution_allowed | count |
 |---|---:|
-| `metadata_only` | 34 |
+| `metadata_only` | 40 |
 | `missing` | 31 |
 
 ## Records
@@ -53,9 +53,12 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.gwas_catalog.chr1_rs7522462_kif21b_gpr25_ms.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs7522462&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |
 | `claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/37776235/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.diebold_2022.dmf_high_dimensional_immune_monitoring_context.2026-06-28` | `external-unverifiable` | https://www.pnas.org/doi/10.1073/pnas.2205042119 | `present` | `metadata_only` | `2026-06-28` | https://www.pnas.org/page/about/permissions | `NOT_PROJECT_GROUNDED` |
+| `claim.sci_rep_2018.dmf_persistent_immune_composition_ms.2026-06-28` | `external-unverifiable` | https://www.nature.com/articles/s41598-018-26519-w | `present` | `metadata_only` | `2026-06-28` | https://creativecommons.org/licenses/by/4.0/ | `NOT_PROJECT_GROUNDED` |
+| `claim.plos_one_2020.dmf_leukocyte_response_patient_factors_ms.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/32045436/ | `present` | `metadata_only` | `2026-06-28` | https://journals.plos.org/plosone/s/licenses-and-copyright | `NOT_PROJECT_GROUNDED` |
 | `claim.carlstrom_2019.dmf_monocyte_ros_response_context.2026-06-28` | `external-unverifiable` | https://www.nature.com/articles/s41467-019-11139-3 | `present` | `metadata_only` | `2026-06-28` | https://www.nature.com/ncomms/about/open-access | `NOT_PROJECT_GROUNDED` |
 | `claim.gafson_2018.dmf_pbmc_neda4_transcriptome_context.2026-06-28` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/ | `present` | `metadata_only` | `2026-06-28` | https://creativecommons.org/licenses/by/4.0/ | `NOT_PROJECT_GROUNDED` |
 | `claim.sanchez_sanz_2023.dmf_pbmc_response_signature_context.2026-06-28` | `external-unverifiable` | https://www.omicsdi.org/dataset/geo/GSE235357 | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html | `NOT_PROJECT_GROUNDED` |
+| `claim.mult_scler_2017.dmf_response_lymphocyte_subsets_ms.2026-06-28` | `external-unverifiable` | https://journals.sagepub.com/doi/10.1177/1352458517703799 | `present` | `metadata_only` | `2026-06-28` | https://us.sagepub.com/en-us/nam/terms-and-conditions | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.natalizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.ocrelizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
@@ -81,6 +84,9 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |
 | `claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/38049980/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.cns_neurosci_ther_2024.glucocorticoid_resistance_ms_whole_blood.2026-06-28` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC10848073/ | `present` | `metadata_only` | `2026-06-28` | https://creativecommons.org/licenses/by/4.0/ | `NOT_PROJECT_GROUNDED` |
+| `claim.biopha_2024.methylprednisolone_b_t_cell_transcriptome_ms.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/38749180/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
+| `claim.jneurol_2004.methylprednisolone_ms_immune_gene_suppression.2026-06-28` | `external-unverifiable` | https://link.springer.com/article/10.1007/s00415-004-0516-y | `present` | `metadata_only` | `2026-06-28` | https://www.springernature.com/gp/open-research/policies/journal-policies | `NOT_PROJECT_GROUNDED` |
 | `claim.hmg_2019.zmiz1_dendritic_vitamin_d_context.2026-06-28` | `external-unverifiable` | https://academic.oup.com/hmg/article/28/2/269/5115479 | `present` | `metadata_only` | `2026-06-28` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.gwas_catalog.zmiz1_rs1250550_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |
 

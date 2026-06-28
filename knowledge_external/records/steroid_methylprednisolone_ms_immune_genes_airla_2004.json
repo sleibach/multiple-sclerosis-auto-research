@@ -1,0 +1,38 @@
+{
+  "claim": "Airla et al. reported peripheral blood immune-system gene suppression after methylprednisolone treatment during multiple sclerosis exacerbations.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as source-specific steroid transcriptome context for future construction or validation of glucocorticoid-response confounder panels; do not use as evidence that the V22 scalar survives steroid adjustment.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact"
+  },
+  "project_use": "Sharper V50 source record supporting why glucocorticoid-response signatures are a required confounder panel in treatment-response validation.",
+  "record_id": "claim.jneurol_2004.methylprednisolone_ms_immune_gene_suppression.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source supports steroid transcriptome confounding as a real concern in MS blood expression studies, but it does not test the locked V22 scalar or the V32 adjustment result.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Airla N, Luomala M, Elovaara I, Kettunen E, Knuutila S, Lehtimaki T. Suppression of immune system genes by methylprednisolone in exacerbations of multiple sclerosis. Journal of Neurology. 2004;251:1215-1219.",
+    "doi": "10.1007/s00415-004-0516-y",
+    "label": "Airla 2004 methylprednisolone MS immune-gene suppression",
+    "pmid": "15503100",
+    "url": "https://link.springer.com/article/10.1007/s00415-004-0516-y"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Springer article page; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only.",
+    "terms_url": "https://www.springernature.com/gp/open-research/policies/journal-policies"
+  },
+  "tags": [
+    "methylprednisolone",
+    "glucocorticoid",
+    "multiple_sclerosis",
+    "blood_transcriptome",
+    "confounder"
+  ],
+  "why_unverifiable": "The project has not rerun the Airla et al. expression data or mapped it to the frozen V32 glucocorticoid confounder panel."
+}
