@@ -148,7 +148,7 @@ Checked at V50 start:
 | 71 | medium | done | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 72 | medium | done | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 | 73 | high | done | Refill the V50 backlog after task 72 because the active target remains unmet | `meta/V50_QUEUE.md` |
-| 74 | high | todo | Extend treatment-response cohort source search to BioStudies and ArrayExpress metadata using the V50 source-hit review template | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md` |
+| 74 | high | done | Extend treatment-response cohort source search to BioStudies and ArrayExpress metadata using the V50 source-hit review template | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md` |
 | 75 | medium | todo | Replay task-68 candidate rows through the V50 non-OpenGWAS source-hit review template as QA | `analysis/v50_task68_template_replay/`, `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md` |
 | 76 | medium | todo | Build a V50 negative source-search index so repeated non-OpenGWAS metadata searches are not duplicated | `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md` |
 | 77 | medium | todo | Build a compact Karolinska/parallel-cohort label request packet using current V50 trigger and template language | `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md` |
@@ -1110,4 +1110,27 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:37:09Z`: `16551` seconds.
+  Target met: `false`.
+- Task 73 commit: `78956e71` (`Refill V50 backlog after checkpoint`). Push
+  succeeded: `origin/main` advanced from `a7c7ffb4` to `78956e71`.
+- Task 74 ran a metadata-only BioStudies / ArrayExpress-style treatment-response
+  source search and wrote
+  `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md`
+  with outputs under `analysis/v50_biostudies_treatment_response_search/`.
+  Result: `8` queries, `80` raw hits, `56` deduplicated hits, `29` detail
+  records fetched, `6` heuristic candidate rows, `6` manually reviewed rows,
+  `3` near-candidates, and `0` verified exact paired early-treatment V22/V32
+  validation candidates. `S-EPMC10360655` is a high-value near-candidate
+  (DMF PBMC RNA-seq baseline/12-month NEDA/EDA response) but remains
+  `partial_hit_metadata_only`, not a clean early-treatment validation cohort.
+- Current cumulative active time at `2026-06-28T17:42:04Z`: `16846` seconds.
+  Target met: `false`.
+- Task 74 guards: external Markdown lint PASS (`535` checks, `117` Markdown
+  files, `0` failures); public index crosslink PASS (`111` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:43:49Z`: `16951` seconds.
   Target met: `false`.
