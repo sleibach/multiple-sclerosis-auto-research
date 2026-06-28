@@ -1,0 +1,39 @@
+{
+  "claim": "Diebold et al. reported high-dimensional immune profiling of PBMCs from dimethyl fumarate-treated MS patients and proposed a treatment-response monitoring population involving GM-CSF, IFN-gamma, and CXCR3-expressing memory T helper cells.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as a sharper immune-monitoring comparator; any claim about agreement or conflict with the project's T/B-readable IFN/APC/STAT1 state requires a predefined mapping and rerunnable analysis.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/validation/TB_COMPARTMENT_PREREGISTRATION_V44.md; docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md",
+    "finding_id": "T/B-readable early IFN/APC/STAT1 monitoring state; Tool-robust but simple V22 scalar"
+  },
+  "project_use": "Sharper external immune-monitoring record for V50 reassessment of compartment-readable DMF response markers.",
+  "record_id": "claim.diebold_2022.dmf_high_dimensional_immune_monitoring_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source independently supports immune-cell monitoring of DMF response, but it emphasizes a T helper cytokine/CXCR3 population rather than directly validating the project's APC/HLA-II scalar.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Diebold et al. High-dimensional immune profiling identifies a biomarker to monitor dimethyl fumarate response in multiple sclerosis. Proceedings of the National Academy of Sciences. 2022.",
+    "doi": "10.1073/pnas.2205042119",
+    "label": "Diebold 2022 high-dimensional DMF immune-response monitoring study",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2205042119"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PNAS article metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic/source metadata and a short paraphrased claim only; do not redistribute full article text, figures, or tables.",
+    "terms_url": "https://www.pnas.org/page/about/permissions"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "mass_cytometry",
+    "immune_monitoring",
+    "gm_csf",
+    "ifng",
+    "cxcr3",
+    "t_helper"
+  ],
+  "why_unverifiable": "The project has not rerun the mass-cytometry cohorts or spectral-flow validation from the source data."
+}

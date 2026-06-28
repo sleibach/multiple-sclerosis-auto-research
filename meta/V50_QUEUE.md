@@ -68,7 +68,7 @@ Checked at V50 start:
 |---:|---|---|---|---|
 | 1 | high | done | Start V50 queue, record active-time rules, remote blocker, OpenGWAS expiry, and tool health | `meta/V50_QUEUE.md` |
 | 2 | high | done | Diagnose all 16 V49 insufficient-overlap rows by specificity gap, novelty gap, and exact sharper-source requirement | `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` |
-| 3 | high | todo | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 3 | high | done | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 4 | high | todo | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 5 | high | todo | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 6 | medium | todo | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
@@ -108,4 +108,15 @@ Checked at V50 start:
   gene/locus-specific direction records, APC-axis compartment records,
   EBV-specificity sources, and Crohn IFN/APC response sources.
 - Current cumulative active time at `2026-06-28T13:06:43Z`: `325` seconds.
+  Target met: `false`.
+- Task 3 added four sharper segregated external records for the DMF /
+  treatment-response insufficient-overlap rows: Gafson 2018 PBMC RNA-seq/NEDA-4
+  response, Carlström 2019 monocyte ROS response, Sánchez-Sanz 2023 PBMC
+  response transcriptome / GSE235357, and Diebold 2022 high-dimensional immune
+  monitoring. These records are source-specific context only, not validation of
+  the V22 scalar.
+- Task 2 push attempt after commit `18530373` rejected non-fast-forward because
+  remote `main` still has the pre-rewrite history. The explicit human
+  reconciliation command remains unchanged.
+- Current cumulative active time at `2026-06-28T13:11:43Z`: `625` seconds.
   Target met: `false`.

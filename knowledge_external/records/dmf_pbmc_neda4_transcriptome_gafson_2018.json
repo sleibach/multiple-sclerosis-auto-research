@@ -1,0 +1,40 @@
+{
+  "claim": "Gafson et al. studied PBMC RNA-seq in relapsing-remitting MS patients starting dimethyl fumarate, with baseline, 6-week, and 15-month samples and NEDA-4 response labels; early responder-associated transcriptome changes were reported at 6 weeks.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as a sharper external source record until the underlying paired expression and labels are ingested through the frozen V42/V44 validation harness.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/locked_rules/LOCKED_RULE_V22.md; docs/validation/PREREGISTRATION_V42.md",
+    "finding_id": "Bounded APC/HLA-II early treatment-response monitoring scalar"
+  },
+  "project_use": "Sharper external context for V50 reassessment of DMF treatment-response transcriptomic specificity; not validation of the V22 scalar.",
+  "record_id": "claim.gafson_2018.dmf_pbmc_neda4_transcriptome_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source directly matches the paired DMF PBMC transcriptome and NEDA-4 response setting, but it does not by itself assert the project's APC/HLA-II scalar or frozen threshold.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Gafson et al. Mononuclear cell transcriptome changes associated with dimethyl fumarate in MS. Neurology: Neuroimmunology & Neuroinflammation. 2018.",
+    "doi": "10.1212/NXI.0000000000000470",
+    "label": "Gafson 2018 DMF PBMC RNA-seq / NEDA-4 response study",
+    "pmcid": "PMC6168332",
+    "pmid": "30283812",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168332/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "CC BY 4.0 article; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not treat article text or conclusions as project-grounded evidence.",
+    "terms_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "pbmc",
+    "rna_seq",
+    "neda4",
+    "treatment_response",
+    "gafson_2018"
+  ],
+  "why_unverifiable": "The project has not yet ingested and rerun the underlying paired expression and NEDA-4 labels under the frozen validation harness."
+}

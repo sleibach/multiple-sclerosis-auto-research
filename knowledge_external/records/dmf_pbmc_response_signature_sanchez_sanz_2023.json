@@ -1,0 +1,40 @@
+{
+  "claim": "Sánchez-Sanz et al. reported that dimethyl fumarate-treated MS responders and non-responders showed different PBMC transcriptomic responses during treatment, with GEO dataset GSE235357 listed for the transcriptomic profile.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "If sample-level expression and response labels are usable from GSE235357 or associated supplements, route through the frozen validation or future-grounding harness before treating it as evidence.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/validation/ALT_COHORT_SCOUT_V44.md; docs/locked_rules/LOCKED_RULE_V22.md",
+    "finding_id": "Bounded APC/HLA-II early treatment-response monitoring scalar"
+  },
+  "project_use": "Sharper external record for possible DMF response transcriptome replication/cohort scouting.",
+  "record_id": "claim.sanchez_sanz_2023.dmf_pbmc_response_signature_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source is closer than a drug label because it reports DMF PBMC transcriptomic responder/non-responder differences, but V50 has not yet verified whether it has the exact timepoints and labels needed for the locked V22 harness.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Sánchez-Sanz et al. Dimethyl fumarate-related immune and transcriptional signature is associated with clinical response in multiple sclerosis-treated patients. Frontiers in Immunology. 2023.",
+    "doi": "10.3389/fimmu.2023.1209923",
+    "geo_accession": "GSE235357",
+    "label": "Sánchez-Sanz 2023 DMF PBMC response transcriptome / GSE235357",
+    "pmid": "37483622",
+    "url": "https://www.omicsdi.org/dataset/geo/GSE235357"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "OmicsDI/GEO metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores dataset/source metadata and a short paraphrased claim only; any sample-level use requires source-specific accession and terms review.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "pbmc",
+    "rna_seq",
+    "geo",
+    "gse235357",
+    "treatment_response"
+  ],
+  "why_unverifiable": "The project has not yet downloaded, inspected, or rerun GSE235357 or the associated response-label metadata under the frozen project harness."
+}

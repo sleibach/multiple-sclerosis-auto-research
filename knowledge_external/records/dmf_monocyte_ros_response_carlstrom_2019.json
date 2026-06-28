@@ -1,0 +1,37 @@
+{
+  "claim": "Carlström et al. reported in a longitudinal RRMS dimethyl fumarate cohort that monocyte-related changes, including monocyte counts and monocytic ROS, distinguished beneficial treatment responders from non-responders.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as a source-specific monocyte/response context record; any comparison to the project's APC/HLA-II or immune-tone findings requires a separate rerunnable analysis.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md; docs/history/DEEP_STRUCTURE_V26.md",
+    "finding_id": "V22 scalar is immune-tone bounded, not steroid/composition artifact; Coupled APC remodeling architecture"
+  },
+  "project_use": "Sharper monocyte-response context for V50 reassessment of APC/myeloid treatment-response specificity.",
+  "record_id": "claim.carlstrom_2019.dmf_monocyte_ros_response_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source supports a myeloid/monocyte treatment-response layer for DMF, but it does not directly test the project's HLA-II/APC scalar or confounder-adjusted score.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Carlström et al. Therapeutic efficacy of dimethyl fumarate in relapsing-remitting multiple sclerosis associates with ROS pathway in monocytes. Nature Communications. 2019.",
+    "doi": "10.1038/s41467-019-11139-3",
+    "label": "Carlström 2019 DMF monocyte ROS response study",
+    "url": "https://www.nature.com/articles/s41467-019-11139-3"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Nature Communications article; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not redistribute article text, figures, or tables.",
+    "terms_url": "https://www.nature.com/ncomms/about/open-access"
+  },
+  "tags": [
+    "dimethyl_fumarate",
+    "monocytes",
+    "ros",
+    "treatment_response",
+    "rrms"
+  ],
+  "why_unverifiable": "The project has not rerun this cohort's monocyte, ROS, methylome, transcriptome, or genotype analyses from source data."
+}
