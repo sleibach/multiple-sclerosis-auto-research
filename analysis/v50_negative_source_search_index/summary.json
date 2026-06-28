@@ -1,0 +1,27 @@
+{
+  "canonical_clusters": {
+    "apheresis_relapse_context": 1,
+    "diebold_2022_dmf_immune_monitoring": 1,
+    "dmf_neda_clinical_no_transcriptome_context": 1,
+    "false_positive_non_ms_animal_liver": 1,
+    "fingolimod_response_transcriptome_context": 2,
+    "gse235357_sanchez_sanz_dmf_pbmc_response": 1,
+    "ifnb_spms_transcriptional_response_context": 1,
+    "ms_bcell_dysfunction_context": 1,
+    "rela_crel_mechanistic_context": 2
+  },
+  "checked_utc": "2026-06-28T18:25:00+00:00",
+  "exact_validation_candidates": 0,
+  "independent_source_count_allowed": 0,
+  "input": "analysis/v50_source_hit_independence_qa/source_hit_independence_qa.tsv",
+  "open_gwas_used": false,
+  "output": "analysis/v50_negative_source_search_index/negative_near_miss_index.tsv",
+  "purpose": "V50 machine-readable negative/near-miss source-search index; navigation only; no biological claim",
+  "rows_indexed": 11,
+  "safe_use_counts": {
+    "context_only": 7,
+    "partial_hit_metadata_only": 3,
+    "reject_false_positive": 1
+  },
+  "synthetic": false
+}

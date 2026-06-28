@@ -14,6 +14,12 @@ finding.
 | `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md` | EBI BioStudies / ArrayExpress-style metadata | `8` queries, `80` raw hits, `56` deduplicated hits | `0` | Found near-candidates, but no exact early-treatment V22/V32 validation cohort. |
 | `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md` | QA replay of Europe PMC / NCBI GDS candidates | `5` candidate rows replayed | `0` | Template replay confirmed `4` context-only rows and `1` false positive. |
 
+Machine-readable companion:
+`knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md`;
+generated outputs:
+`analysis/v50_negative_source_search_index/negative_near_miss_index.tsv` and
+`analysis/v50_negative_source_search_index/summary.json`.
+
 ## Near-Miss Rows To Avoid Re-Counting
 
 | source | why it is useful | why it is not exact | future handling |

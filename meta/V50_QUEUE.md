@@ -146,7 +146,7 @@ Checked at V50 start:
 | 79 | medium | done | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
 | 80 | medium | done | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 81 | high | done | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
-| 82 | medium | todo | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
+| 82 | medium | done | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
 | 83 | medium | todo | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
 | 84 | medium | todo | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
 | 85 | medium | todo | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
@@ -1274,4 +1274,25 @@ Checked at V50 start:
   cleanly at `2026-06-28T18:21:37Z` with `8` routes, `0` failures, and `0`
   OpenGWAS use. Tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:21:44Z`: `19226` seconds.
+  Target met: `false`.
+- Task 81 commit: `2c18b022` (`Refill V50 backlog after checkpoint`). Push
+  succeeded: `origin/main` advanced from `30b240b9` to `2c18b022`.
+- Task 82 added a reproducible machine-readable negative/near-miss source-search
+  index: `scripts/v50_build_negative_source_search_index.py`,
+  `analysis/v50_negative_source_search_index/negative_near_miss_index.tsv`,
+  `analysis/v50_negative_source_search_index/summary.json`, and
+  `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md`.
+  It indexes `11` reviewed source hits, `9` canonical clusters, `0` exact
+  validation candidates, and `0` allowed independent source counts; every row is
+  marked `no_recount_without_new_same_definition_package=true`.
+- Current cumulative active time at `2026-06-28T18:25:49Z`: `19471` seconds.
+  Target met: `false`.
+- Task 82 guards: external Markdown lint PASS (`540` checks, `122` Markdown
+  files, `0` failures); public index crosslink PASS (`116` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:27:23Z`: `19565` seconds.
   Target met: `false`.
