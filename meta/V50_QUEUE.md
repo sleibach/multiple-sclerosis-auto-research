@@ -147,7 +147,7 @@ Checked at V50 start:
 | 80 | medium | done | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 81 | high | done | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 82 | medium | done | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
-| 83 | medium | todo | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
+| 83 | medium | done | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
 | 84 | medium | todo | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
 | 85 | medium | todo | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
 | 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
@@ -1295,4 +1295,23 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:27:23Z`: `19565` seconds.
+  Target met: `false`.
+- Task 82 commit: `fc471770` (`Add V50 machine-readable source search index`).
+  Push succeeded: `origin/main` advanced from `2c18b022` to `fc471770`.
+- Task 83 added `scripts/v50_check_source_hit_recount.py`,
+  `knowledge_external/templates/V50_SOURCE_HIT_NO_RECOUNT_CHECKER.md`, and
+  self-audit outputs under `analysis/v50_source_hit_recount_checker/`. The
+  self-audit checked the current no-recount index against itself and correctly
+  flagged `11 / 11` rows as `BLOCK_RECOUNT`, with `0` pass-new rows and `0`
+  OpenGWAS use.
+- Current cumulative active time at `2026-06-28T18:30:29Z`: `19751` seconds.
+  Target met: `false`.
+- Task 83 guards: external Markdown lint PASS (`541` checks, `123` Markdown
+  files, `0` failures); public index crosslink PASS (`117` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:32:11Z`: `19853` seconds.
   Target met: `false`.
