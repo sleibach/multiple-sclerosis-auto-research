@@ -77,7 +77,7 @@ Checked at V50 start:
 | 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
 | 10 | medium | todo | Refill V50 backlog above threshold after task 9 | `meta/V50_QUEUE.md` |
 | 11 | high | done | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
-| 12 | high | todo | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 12 | high | done | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
@@ -210,4 +210,23 @@ Checked at V50 start:
   Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T13:49:44Z`: `2906` seconds.
+  Target met: `false`.
+- Task 11 commit: `b325d5a2` (`Add V50 coupled APC external records`). Push
+  attempt rejected non-fast-forward because remote `main` still has the
+  pre-rewrite history.
+- Task 12 added two sharper EBV records: Nature 2022 EBNA1/GlialCAM
+  cross-reactive B-cell context, and a 2026 bioRxiv EBV anti-CNS B-cell APC
+  preprint context. V50 classifies both as orthogonal EBV mechanism/context,
+  not corroboration of the project's IFN/APC imprint specificity.
+- Task 12 regenerated external indexes after record intake: external records
+  indexed `61`, source-terms rows `61`, records with explicit source_terms
+  `30`, missing sources `0`, missing record markers `0`. V50 convergence count
+  remains `7`; contradictions remain `0`.
+- Task 12 guards: public index crosslink PASS (`80` links, `0` failures);
+  source-terms freshness PASS (`244` checks, `61` coverage rows, `61` current
+  records, `0` failures); provenance PASS (`562` checks, `61` external JSON
+  records, `0` failures); external Markdown lint PASS (`412` checks, `86`
+  Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T13:55:05Z`: `3227` seconds.
   Target met: `false`.

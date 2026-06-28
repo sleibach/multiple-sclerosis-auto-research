@@ -21,7 +21,7 @@ Compared with V48/V49:
 After V50 sharper-source acquisition:
 
 - original high-priority gap rows revisited so far: `6` of `16`
-- newly added source-specific external records assessed here: `12`
+- newly added source-specific external records assessed here: `14`
 - decision-relevant new convergences: `7`
 - genuine contradictions surfaced: `0`
 - high-priority rows that remain non-corroborating despite sharper context:
@@ -36,6 +36,8 @@ metadata. The treatment-response records are much more specific than the DMF
 drug label, but they still do not independently assert the frozen V22 APC/HLA-II
 scalar or its confounder audit. They therefore remain validation-context
 records, not external corroboration of the rule.
+Sharper EBV records also improve mechanistic context but still do not test the
+project's autoimmune-specific IFN/APC imprint controls.
 
 ## Decision-Relevant New Convergences
 
@@ -127,6 +129,8 @@ records, not external corroboration of the rule.
 | chr1 KIF21B/GPR25 locus resolves to real biology but hard target | `claim.gwas_catalog.chr1_rs7522462_kif21b_gpr25_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs7522462&projection=associationBySnp | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The external row converges on a real MS chr1 locus and keeps causal-gene ambiguity explicit, aligning with the project hard-target interpretation. |
 | chr1 KIF21B/GPR25 locus resolves to real biology but hard target | `claim.jmg_2010.kif21b_ms_susceptibility_replication.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/20587413/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The external record supports KIF21B susceptibility-locus context but does not promote KIF21B to intervention-grade status. |
 | GPR25 demoted from protected favorite | `claim.iuphar.gpr25_orphan_gpcr_context.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.guidetopharmacology.org/services/targets?name=GPR25 | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The external record supports the demotion logic: GPR25 being a GPCR is not enough when it remains orphan/emerging-pharmacology and direction is unresolved. |
+| EBV/IFN APC imprint downgraded by specificity control | `claim.nature_2022.ebna1_glialcam_crossreactive_bcells_ms.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/35073561/ | `orthogonal` | `EBV_MS_MECHANISM_NOT_APC_SPECIFICITY_TEST` | The source supports EBV-linked B-cell molecular mimicry context in MS, but it does not test whether the project's EBV/IFN APC imprint is specific versus autoimmune comparators. |
+| EBV/IFN APC imprint downgraded by specificity control | `claim.biorxiv_2026.ebv_anti_cns_bcell_apc_ms_context.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/41727017/ | `orthogonal` | `PREPRINT_EBV_APC_CONTEXT_NOT_GROUNDED_SPECIFICITY` | The source is closer to the EBV/APC hypothesis than generic EBV-risk literature, but preprint status and no project rerun keep it as context; it does not overturn the specificity-control downgrade. |
 
 ## Updated Decision List
 
@@ -169,3 +173,6 @@ Rows still needing sharper same-definition sources or future grounding:
   external-validation route would need independent human MS cell-state data that
   jointly scores HLA-II/IFN-APC and MIF-CD74 structure under the V26 axis
   definitions.
+- Treat EBV mechanistic and preprint sources as context only until an accessible
+  dataset can test EBV-linked IFN/APC module behavior against non-MS autoimmune
+  comparators under the project's predefined specificity controls.

@@ -2,8 +2,8 @@
 
 Status: provenance/navigation only. External records remain `external-unverifiable` or `external-verifiable` as tagged; source-terms metadata is not project-grounded evidence.
 
-- records checked: `59`
-- records with source_terms: `28`
+- records checked: `61`
+- records with source_terms: `30`
 - records missing optional source_terms: `31`
 - NOT project grounded marker: `NOT_PROJECT_GROUNDED`
 
@@ -11,7 +11,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 
 | redistribution_allowed | count |
 |---|---:|
-| `metadata_only` | 28 |
+| `metadata_only` | 30 |
 | `missing` | 31 |
 
 ## Records
@@ -58,6 +58,8 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.dailymed.dimethyl_fumarate_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c42107a-2a42-4263-97b6-ae0d7675c92a | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.natalizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962 | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
 | `claim.dailymed.ocrelizumab_mechanism_context.2026-06-13` | `external-unverifiable` | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d | `present` | `metadata_only` | `2026-06-14` | https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm | `NOT_PROJECT_GROUNDED` |
+| `claim.biorxiv_2026.ebv_anti_cns_bcell_apc_ms_context.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/41727017/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
+| `claim.nature_2022.ebna1_glialcam_crossreactive_bcells_ms.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/35073561/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
 | `claim.science.ebv_ms_longitudinal_risk_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/35025605/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.iuphar.gpr25_orphan_gpcr_context.2026-06-28` | `external-unverifiable` | https://www.guidetopharmacology.org/services/targets?name=GPR25 | `present` | `metadata_only` | `2026-06-28` | https://www.guidetopharmacology.org/about.jsp#terms | `NOT_PROJECT_GROUNDED` |
 | `claim.nature.ms_ibd_gpr25_context.2026-06-14` | `external-unverifiable` | https://pmc.ncbi.nlm.nih.gov/articles/PMC8463615/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
