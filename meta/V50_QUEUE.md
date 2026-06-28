@@ -113,7 +113,7 @@ Checked at V50 start:
 | 36 | medium | done | Build a V50 candidate-source parking queue for partial T/B and EBV hits that failed same-definition intake | `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` |
 | 37 | medium | done | Run source URL reachability for V50-added source URLs and summarize any transport-only issues | `knowledge_external/catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md` |
 | 38 | medium | done | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
-| 39 | medium | todo | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
+| 39 | medium | done | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
 | 40 | medium | todo | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
@@ -593,4 +593,18 @@ Checked at V50 start:
 - Task 38 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:33:29Z`: `9131` seconds.
+  Target met: `false`.
+- Task 38 commit: `3c1a368e` (`Add V50 push status card`). Push succeeded:
+  `origin/main` advanced from `57a1ed34` to `3c1a368e`.
+- Task 39 wrote
+  `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` and linked it
+  from the external index. Result: V50 reader-facing shorthand such as
+  `externally corroborated`, `support`, and `zero contradiction` preserves the
+  evidence boundary when read with the paired source-specific, not-validation,
+  and project-artifact-remains-evidence qualifiers. No rewrite was required.
+- Task 39 guards: public index crosslink PASS (`95` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`519` checks, `101` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:38:05Z`: `9407` seconds.
   Target met: `false`.
