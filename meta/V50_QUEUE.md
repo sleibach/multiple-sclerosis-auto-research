@@ -67,7 +67,7 @@ Checked at V50 start:
 | id | priority | status | task | artifact |
 |---:|---|---|---|---|
 | 1 | high | done | Start V50 queue, record active-time rules, remote blocker, OpenGWAS expiry, and tool health | `meta/V50_QUEUE.md` |
-| 2 | high | todo | Diagnose all 16 V49 insufficient-overlap rows by specificity gap, novelty gap, and exact sharper-source requirement | `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` |
+| 2 | high | done | Diagnose all 16 V49 insufficient-overlap rows by specificity gap, novelty gap, and exact sharper-source requirement | `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` |
 | 3 | high | todo | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 4 | high | todo | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 5 | high | todo | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
@@ -99,4 +99,13 @@ Checked at V50 start:
   V50 will keep committing locally and retrying plain push after each iteration
   until the one-time remote reconciliation is complete.
 - Current cumulative active time at `2026-06-28T13:05:14Z`: `236` seconds.
+  Target met: `false`.
+- Task 2 added `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md`.
+  Result: the `16` insufficient-overlap rows were diagnosed into `6` coarse
+  external-source rows where sharper sources are likely possible, `4`
+  likely-novel/project-specific rows, `2` resource-metadata-only rows, and `4`
+  context-only rows. V50 priority is sharper DMF/response-marker sources,
+  gene/locus-specific direction records, APC-axis compartment records,
+  EBV-specificity sources, and Crohn IFN/APC response sources.
+- Current cumulative active time at `2026-06-28T13:06:43Z`: `325` seconds.
   Target met: `false`.
