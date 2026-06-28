@@ -1,0 +1,55 @@
+{
+  "claim": "GWAS Catalog rs4613763 association rows preserve a PTGER4 disease-pair allele contrast: the Crohn disease row lists rs4613763-C as the risk allele with OR 1.32, while the multiple-sclerosis row lists rs4613763-G as the risk allele with OR 1.20.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as a source-specific allele-direction intake record for future harmonized PTGER4 MS/IBD comparison; do not use external rows as project evidence.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md; docs/reports/FINDINGS_REPORT_V37.md",
+    "finding_id": "PTGER4 mixed shared/distinct signal closes naive transfer"
+  },
+  "project_use": "Sharper external PTGER4 direction record for V50 reassessment of the project closure of naive MS/IBD transfer at PTGER4.",
+  "record_id": "claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This directly supports the project's caution that PTGER4 cannot be treated as a simple shared-direction transfer target across MS and Crohn disease.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "api_rows": [
+      {
+        "association_id": "11301",
+        "efo_trait": "Crohn disease",
+        "or": 1.32,
+        "p_value": 7e-27,
+        "risk_allele": "rs4613763-C",
+        "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/11301"
+      },
+      {
+        "association_id": "23777",
+        "efo_trait": "multiple sclerosis",
+        "or": 1.2,
+        "p_value": 3e-16,
+        "risk_allele": "rs4613763-G",
+        "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/23777"
+      }
+    ],
+    "citation": "NHGRI-EBI GWAS Catalog association rows for rs4613763 queried through the public REST API.",
+    "label": "GWAS Catalog PTGER4 rs4613763 MS/Crohn association rows",
+    "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "GWAS Catalog public API metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not treat API content as project-grounded evidence.",
+    "terms_url": "https://www.ebi.ac.uk/gwas/docs/about"
+  },
+  "tags": [
+    "ptger4",
+    "rs4613763",
+    "multiple_sclerosis",
+    "crohn_disease",
+    "directionality",
+    "transfer_caution"
+  ],
+  "why_unverifiable": "The project has not rerun external GWAS Catalog curation, allele harmonization, or cross-disease PTGER4 comparison in this external layer."
+}

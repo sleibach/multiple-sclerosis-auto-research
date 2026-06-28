@@ -1,0 +1,38 @@
+{
+  "claim": "A PLOS Genetics Crohn disease study mapped a 5p13.1 susceptibility region to a gene desert and reported modulation of PTGER4 expression as a plausible mechanism for the Crohn signal.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as Crohn-side functional context unless exact variants and expression/QTL effects are imported and harmonized against the project's PTGER4 MS/IBD direction framework.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/FINDINGS_REPORT_V37.md",
+    "finding_id": "PTGER4 mixed shared/distinct signal closes naive transfer"
+  },
+  "project_use": "External Crohn-side PTGER4 functional-direction context supporting why PTGER4 transfer requires signal-specific direction rather than generic target overlap.",
+  "record_id": "claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This supports Crohn-side PTGER4 regulatory biology but does not validate a direction-matched MS intervention.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Libioulle et al. Novel Crohn disease locus identified by genome-wide association maps to a gene desert on 5p13.1 and modulates expression of PTGER4. PLOS Genetics. 2007.",
+    "doi": "10.1371/journal.pgen.0030058",
+    "label": "PLOS Genetics PTGER4 Crohn expression-modulation study",
+    "pmid": "17447842",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17447842/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PubMed bibliographic metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic metadata and a short paraphrased claim only; do not redistribute article text or treat it as project-grounded evidence.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "ptger4",
+    "crohn_disease",
+    "gene_expression",
+    "5p13_1",
+    "transfer_caution"
+  ],
+  "why_unverifiable": "The project has not rerun the external Crohn GWAS/expression analysis or harmonized it to MS direction in the external layer."
+}

@@ -20,9 +20,9 @@ Compared with V48/V49:
 
 After V50 sharper-source acquisition:
 
-- original high-priority gap rows revisited so far: `6` of `16`
-- newly added source-specific external records assessed here: `16`
-- decision-relevant new convergences: `9`
+- original high-priority gap rows revisited so far: `7` of `16`
+- newly added source-specific external records assessed here: `18`
+- decision-relevant new convergences: `11`
 - genuine contradictions surfaced: `0`
 - high-priority rows that remain non-corroborating despite sharper context:
   `2` (`bounded V22 scalar`, `V22 immune-tone/confounder audit`)
@@ -41,6 +41,9 @@ project's autoimmune-specific IFN/APC imprint controls.
 IBD treatment-response records now provide direct Crohn interferon-module
 response context, with an explicit external caution that baseline transcriptome
 differences were not sufficiently sensitive as a clinical predictor.
+PTGER4 now has a source-specific same-rsid MS/Crohn opposite-allele record and
+Crohn-side expression-modulation context, strengthening the project's closure of
+naive PTGER4 transfer.
 
 ## Decision-Relevant New Convergences
 
@@ -121,6 +124,22 @@ differences were not sufficiently sensitive as a clinical predictor.
   `CORROBORATION_FROM_INDEPENDENT_SOURCE`. The external single-cell atlas
   independently supports cross-disease cellular treatment-response mapping as a
   valid layer, without validating any specific project module.
+- Grounded: `PTGER4 mixed shared/distinct signal closes naive transfer`
+  (negative-established; source artifact: `docs/reports/FINDINGS_REPORT_V37.md`).
+  External:
+  `claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28`
+  (source:
+  https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp).
+  Status: `CORROBORATION_FROM_INDEPENDENT_SOURCE`. The external same-rsid rows
+  preserve opposite MS/Crohn risk alleles at PTGER4, supporting the project's
+  naive-transfer closure.
+- Grounded: `PTGER4 mixed shared/distinct signal closes naive transfer`
+  (negative-established; source artifact: `docs/reports/FINDINGS_REPORT_V37.md`).
+  External: `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28`
+  (source: https://pubmed.ncbi.nlm.nih.gov/17447842/). Status:
+  `CORROBORATION_FROM_INDEPENDENT_SOURCE`. The external Crohn-side expression
+  modulation source supports signal-specific PTGER4 biology while not implying
+  direction-matched MS transfer.
 
 ## Contradictions Flagged
 
@@ -152,6 +171,8 @@ differences were not sufficiently sensitive as a clinical predictor.
 | EBV/IFN APC imprint downgraded by specificity control | `claim.biorxiv_2026.ebv_anti_cns_bcell_apc_ms_context.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/41727017/ | `orthogonal` | `PREPRINT_EBV_APC_CONTEXT_NOT_GROUNDED_SPECIFICITY` | The source is closer to the EBV/APC hypothesis than generic EBV-risk literature, but preprint status and no project rerun keep it as context; it does not overturn the specificity-control downgrade. |
 | Crohn downstream IFN/APC convergence exceeds genetic proximity | `claim.jcc_2024.crohn_pants_antitnf_interferon_modules.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/37776235/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE_WITH_PREDICTION_CAVEAT` | The source overlaps Crohn treatment response and interferon-related blood modules; it converges with downstream response-layer biology while warning that baseline expression differences were not sufficiently sensitive for clinical prediction. |
 | Layer-specific autoimmune transfer-validity map | `claim.nat_immunol_2024.imid_antitnf_single_cell_atlas.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/39438660/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The source supports cross-disease cellular treatment-response mapping as a distinct layer, consistent with the project's transfer-validity map. |
+| PTGER4 mixed shared/distinct signal closes naive transfer | `claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | Same-rsid external rows preserve opposite MS/Crohn PTGER4 risk alleles, supporting transfer caution rather than a shared-direction target claim. |
+| PTGER4 mixed shared/distinct signal closes naive transfer | `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28` | `external-unverifiable` / `NOT_PROJECT_GROUNDED` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | `converges` | `CORROBORATION_FROM_INDEPENDENT_SOURCE` | The source supports Crohn-side PTGER4 regulatory biology but does not rescue PTGER4 as a direction-matched MS target. |
 
 ## Updated Decision List
 
@@ -162,6 +183,7 @@ Externally corroborated grounded findings added by V50:
 3. `GPR25 demoted from protected favorite`
 4. `Coupled APC remodeling architecture`
 5. `Crohn downstream IFN/APC convergence exceeds genetic proximity`
+6. `PTGER4 mixed shared/distinct signal closes naive transfer`
 
 Rows still needing sharper same-definition sources or future grounding:
 
@@ -201,3 +223,7 @@ Rows still needing sharper same-definition sources or future grounding:
 - Treat the PANTS Crohn source as response-layer corroboration with a biomarker
   caution: it supports IFN-related treatment-response biology but warns against
   naive clinical prediction from baseline expression alone.
+- Treat PTGER4 external records as stronger support for transfer caution, not
+  for reactivation. Same-rsid opposite alleles and Crohn-side expression
+  modulation preserve the need for direction-matched grounding before any target
+  claim.

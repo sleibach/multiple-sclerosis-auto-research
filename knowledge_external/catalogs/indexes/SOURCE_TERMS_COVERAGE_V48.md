@@ -2,8 +2,8 @@
 
 Status: provenance/navigation only. External records remain `external-unverifiable` or `external-verifiable` as tagged; source-terms metadata is not project-grounded evidence.
 
-- records checked: `63`
-- records with source_terms: `32`
+- records checked: `65`
+- records with source_terms: `34`
 - records missing optional source_terms: `31`
 - NOT project grounded marker: `NOT_PROJECT_GROUNDED`
 
@@ -11,7 +11,7 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 
 | redistribution_allowed | count |
 |---|---:|
-| `metadata_only` | 32 |
+| `metadata_only` | 34 |
 | `missing` | 31 |
 
 ## Records
@@ -78,6 +78,8 @@ Status: provenance/navigation only. External records remain `external-unverifiab
 | `claim.national_ms_society.spms_course_context.2026-06-13` | `external-unverifiable` | https://www.nationalmssociety.org/understanding-ms/what-is-ms/types-of-ms/secondary-progressive-ms | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.ms_ibd.treatment_transfer_caution_context.2026-06-14` | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.nature.ms_uc_greater_genetic_correlation_context.2026-06-14` | `external-unverifiable` | https://www.nature.com/articles/s41467-021-25768-0 | `missing_optional` | `missing` | `missing` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
+| `claim.plos_genet_2007.ptger4_crohn_expression_modulation.2026-06-28` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/17447842/ | `present` | `metadata_only` | `2026-06-28` | https://www.ncbi.nlm.nih.gov/home/about/policies/ | `NOT_PROJECT_GROUNDED` |
+| `claim.gwas_catalog.ptger4_rs4613763_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs4613763&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |
 | `claim.ard.ra_sle_pregnancy_transcriptome_context.2026-06-14` | `external-unverifiable` | https://pubmed.ncbi.nlm.nih.gov/38049980/ | `present` | `metadata_only` | `2026-06-14` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.hmg_2019.zmiz1_dendritic_vitamin_d_context.2026-06-28` | `external-unverifiable` | https://academic.oup.com/hmg/article/28/2/269/5115479 | `present` | `metadata_only` | `2026-06-28` | missing-terms-url | `NOT_PROJECT_GROUNDED` |
 | `claim.gwas_catalog.zmiz1_rs1250550_ms_crohn_opposite_alleles.2026-06-28` | `external-unverifiable` | https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp | `present` | `metadata_only` | `2026-06-28` | https://www.ebi.ac.uk/gwas/docs/about | `NOT_PROJECT_GROUNDED` |

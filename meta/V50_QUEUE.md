@@ -81,7 +81,7 @@ Checked at V50 start:
 | 13 | medium | done | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
-| 16 | high | todo | Acquire PTGER4-specific external records for MS/IBD signal conflict and naive-transfer closure | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 16 | high | done | Acquire PTGER4-specific external records for MS/IBD signal conflict and naive-transfer closure | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 17 | high | todo | Build V50 future-grounding delta queue for all newly sharper records that are groundable without OpenGWAS | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md` |
 | 18 | medium | todo | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
 | 19 | medium | todo | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
@@ -266,4 +266,19 @@ Checked at V50 start:
   medical-team handoff, treatment-response confounder source specificity,
   source-independence accounting, and a V50 checkpoint.
 - Current cumulative active time at `2026-06-28T14:02:14Z`: `3656` seconds.
+  Target met: `false`.
+- Task 16 added PTGER4-specific records: GWAS Catalog same-rsid rs4613763
+  MS/Crohn opposite allele rows, and PLOS Genetics Crohn-side PTGER4 expression
+  modulation context. V50 now counts `11` source-specific convergences and `0`
+  contradictions; PTGER4 remains closed as a naive transfer target.
+- Task 16 regenerated external indexes after record intake: external records
+  indexed `65`, source-terms rows `65`, records with explicit source_terms
+  `34`, missing sources `0`, missing record markers `0`.
+- Task 16 guards: public index crosslink PASS (`80` links, `0` failures);
+  source-terms freshness PASS (`260` checks, `65` coverage rows, `65` current
+  records, `0` failures); provenance PASS (`598` checks, `65` external JSON
+  records, `0` failures); external Markdown lint PASS (`420` checks, `86`
+  Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:11:52Z`: `4234` seconds.
   Target met: `false`.
