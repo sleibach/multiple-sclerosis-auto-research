@@ -97,6 +97,13 @@ Checked at V50 start:
 | 20 | high | done | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
+| 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
+| 24 | high | todo | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
+| 25 | medium | todo | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
+| 26 | medium | todo | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
+| 27 | medium | todo | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
+| 28 | medium | todo | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
+| 29 | medium | todo | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -355,4 +362,12 @@ Checked at V50 start:
   files, `0` failures); tracked file size guard PASS; tracked tmp-path guard
   PASS.
 - Current cumulative active time at `2026-06-28T14:34:33Z`: `5595` seconds.
+  Target met: `false`.
+- Task 20 commit: `681f139d` (`Add V50 confounder source records`). Push
+  succeeded: `origin/main` advanced from `fbe474cf` to `681f139d`.
+- Task 23 refilled the executable backlog above threshold with task IDs `24`
+  through `29`, prioritizing non-OpenGWAS allele routing, GSE255952 metadata
+  scouting, zero-contradiction specificity, remaining-source search, expired
+  token handoff, and a checkpoint.
+- Current cumulative active time at `2026-06-28T14:36:51Z`: `5733` seconds.
   Target met: `false`.
