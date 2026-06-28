@@ -118,7 +118,7 @@ Checked at V50 start:
 | 41 | high | done | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
 | 42 | high | done | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
 | 43 | medium | done | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
-| 44 | medium | todo | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
+| 44 | medium | done | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
 | 45 | medium | todo | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
 | 46 | medium | todo | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
 | 47 | medium | todo | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
@@ -673,4 +673,15 @@ Checked at V50 start:
   external Markdown lint PASS (`522` checks, `104` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:49:38Z`: `10100` seconds.
+  Target met: `false`.
+- Task 43 commit: `623a5be8` (`Add V50 source route prioritization`). Push
+  succeeded: `origin/main` advanced from `894a15d9` to `623a5be8`.
+- Task 44 implemented `scripts/v50_fetch_gwas_catalog_associations.py`, a
+  reusable public GWAS Catalog REST fetcher for the queued V50 rsids. The script
+  uses no OpenGWAS endpoints, writes flattened TSV plus JSON summary, and labels
+  output as external API routing metadata only. Smoke run on rs1250550,
+  rs4613763, and rs7522462 returned `12` rows with `0` errors and no OpenGWAS
+  use; `python3 -m py_compile` passed. Validation against the prior V50 routing
+  TSV remains task 45.
+- Current cumulative active time at `2026-06-28T15:53:36Z`: `10338` seconds.
   Target met: `false`.
