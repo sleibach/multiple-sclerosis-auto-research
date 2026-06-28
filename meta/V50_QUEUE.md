@@ -70,7 +70,7 @@ Checked at V50 start:
 | 2 | high | done | Diagnose all 16 V49 insufficient-overlap rows by specificity gap, novelty gap, and exact sharper-source requirement | `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` |
 | 3 | high | done | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 4 | high | done | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
-| 5 | high | todo | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 5 | high | done | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 6 | medium | todo | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 7 | high | done | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
@@ -79,7 +79,7 @@ Checked at V50 start:
 | 11 | high | todo | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 12 | high | todo | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
-| 14 | high | todo | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 15 | medium | todo | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
 
 ## Iteration Notes
@@ -151,4 +151,25 @@ Checked at V50 start:
   files, `0` failures); local `HEAD` large-blob guard PASS; tracked file size
   guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T13:31:59Z`: `1841` seconds.
+  Target met: `false`.
+- Task 4 commit: `6751aea2` (`Add sharper V50 ZMIZ1 chr1 external records`).
+- Task 4 push attempt rejected non-fast-forward because remote `main` still has
+  the pre-rewrite history. Required human reconciliation remains the explicit
+  lease-bound force push recorded above.
+- Task 5 / 14 wrote
+  `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md`. Result:
+  V50 revisited `5` of the `16` original insufficient-overlap rows, assessed
+  `9` newly added source-specific records, added `4` decision-relevant new
+  convergences, and surfaced `0` genuine contradictions. DMF response records
+  are sharper validation context but still do not corroborate the locked V22
+  scalar itself.
+- Current cumulative active time at `2026-06-28T13:34:40Z`: `2002` seconds.
+  Target met: `false`.
+- Task 5 / 14 pre-push guards: initial provenance run failed on line-wrapped
+  class markers in the new synthesis; wording was fixed so class/source labels
+  remain on compliant sourced rows. Final provenance PASS (`517` checks, `56`
+  external JSON records, `0` failures); external Markdown lint PASS (`393`
+  checks, `86` Markdown files, `0` failures); local `HEAD` large-blob guard
+  PASS; tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T13:37:12Z`: `2154` seconds.
   Target met: `false`.
