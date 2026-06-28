@@ -120,3 +120,14 @@ Checked at V50 start:
   reconciliation command remains unchanged.
 - Current cumulative active time at `2026-06-28T13:11:43Z`: `625` seconds.
   Target met: `false`.
+- Task 3 pre-push guards: provenance PASS (`472` checks, `51` external JSON
+  records, `0` failures); external Markdown lint PASS (`383` checks, `85`
+  Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Task 3 commit: `2148432d` (`Add sharper V50 DMF response external records`).
+- Task 3 push attempt rejected non-fast-forward because remote `main` still has
+  the pre-rewrite history. Required human step remains the explicit
+  `--force-with-lease=refs/heads/main:dabc45526f3e665dc7a2110c0e0d360d1fe661d8`
+  reconciliation command.
+- Current cumulative active time at `2026-06-28T13:13:23Z`: `725` seconds.
+  Target met: `false`.
