@@ -117,7 +117,7 @@ Checked at V50 start:
 | 40 | medium | done | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
 | 41 | high | done | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
 | 42 | high | done | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
-| 43 | medium | todo | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
+| 43 | medium | done | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
 | 44 | medium | todo | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
 | 45 | medium | todo | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
 | 46 | medium | todo | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
@@ -658,4 +658,19 @@ Checked at V50 start:
   external Markdown lint PASS (`521` checks, `103` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:46:34Z`: `9916` seconds.
+  Target met: `false`.
+- Task 42 commit: `894a15d9` (`Add V50 V22 V32 contradiction triggers`).
+  Push succeeded: `origin/main` advanced from `0d92237d` to `894a15d9`.
+- Task 43 wrote `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md`
+  and linked it from the external index. Result: while OpenGWAS is expired, the
+  top executable route is the GWAS Catalog rsid fetcher plus validation against
+  existing V50 routing outputs. Gafson/GSE235357 remain higher clinical value
+  but blocked on usable data; GSE255952 is a scoped steroid-panel route only;
+  broad DMF/steroid/composition literature remains context unless the V22/V32
+  trigger packet is satisfied.
+- Task 43 guards: public index crosslink PASS (`98` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`522` checks, `104` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:49:38Z`: `10100` seconds.
   Target met: `false`.
