@@ -148,7 +148,7 @@ Checked at V50 start:
 | 81 | high | done | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 82 | medium | done | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
 | 83 | medium | done | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
-| 84 | medium | todo | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
+| 84 | medium | done | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
 | 85 | medium | todo | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
 | 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
@@ -1314,4 +1314,27 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:32:11Z`: `19853` seconds.
+  Target met: `false`.
+- Task 83 commit: `0a6def92` (`Add V50 source hit no-recount checker`). Push
+  succeeded: `origin/main` advanced from `fc471770` to `0a6def92`.
+- Task 84 wrote
+  `knowledge_external/synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md` and
+  linked it from `knowledge_external/INDEX.md`. The handoff keeps the
+  project-local GSE235357 lane separate from the external Sánchez-Sanz /
+  BioStudies metadata lane, states that `S-EPMC10360655`, PMID `37483622`, DOI
+  `10.3389/fimmu.2023.1209923`, and `GSE235357` are one source family for V50
+  accounting, and blocks any independent source count unless a new
+  same-definition package or label/access event appears.
+- Current cumulative active time at `2026-06-28T18:35:18Z`: `20040` seconds.
+  Target met: `false`.
+- Task 84 guards: first provenance run caught one unsourced external-class
+  continuation marker in the handoff; fixed without weakening the gate. Final
+  guards: external Markdown lint PASS (`542` checks, `124` Markdown files, `0`
+  failures); public index crosslink PASS (`118` links, `0` failures);
+  provenance PASS (`653` checks, `71` external JSON records, `0` failures);
+  status freshness PASS (`16` checks, `0` failures); non-OpenGWAS route checker
+  PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard wrapper PASS
+  (`2` guard families, `0` failures, `0` OpenGWAS use); tracked file size guard
+  PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:37:56Z`: `20198` seconds.
   Target met: `false`.
