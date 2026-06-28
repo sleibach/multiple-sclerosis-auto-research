@@ -135,7 +135,7 @@ Checked at V50 start:
 | 58 | high | done | Refresh README public current-status wording and phase ledger with V44-V50 pointers without moving external claims into grounded prose | `README.md` |
 | 59 | high | done | Refresh `meta/CURRENT_STATUS.md` with V45-V50 operational state and expired-OpenGWAS routing | `meta/CURRENT_STATUS.md` |
 | 60 | high | done | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
-| 61 | medium | todo | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
+| 61 | medium | done | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
 | 62 | medium | todo | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
 | 63 | medium | todo | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
 | 64 | medium | todo | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
@@ -898,4 +898,15 @@ Checked at V50 start:
 - Task 60 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:46:07Z`: `13489` seconds.
+  Target met: `false`.
+- Task 60 commit: `7070edb0` (`Refresh next actions for V50`). Push succeeded:
+  `origin/main` advanced from `52d15db5` to `7070edb0`.
+- Task 61 implemented `scripts/v50_status_freshness_linter.py` and generated
+  `analysis/v50_status_freshness_linter/`. Result: py_compile PASS and lint
+  PASS (`16` checks, `0` failures), confirming README/CURRENT_STATUS/NEXT_ACTIONS
+  point to V50 and no stale OpenGWAS-validity wording remains in the checked
+  landing files.
+- Task 61 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:49:05Z`: `13667` seconds.
   Target met: `false`.
