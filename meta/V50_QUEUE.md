@@ -109,7 +109,7 @@ Checked at V50 start:
 | 32 | medium | done | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
 | 33 | medium | done | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
 | 34 | medium | done | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
-| 35 | medium | todo | Build a V50 validation-context boundary card for why DMF/steroid/composition sources do not validate the locked V22 scalar | `knowledge_external/synthesis/V50_VALIDATION_CONTEXT_BOUNDARY_CARD.md` |
+| 35 | medium | done | Build a V50 validation-context boundary card for why DMF/steroid/composition sources do not validate the locked V22 scalar | `knowledge_external/synthesis/V50_VALIDATION_CONTEXT_BOUNDARY_CARD.md` |
 | 36 | medium | todo | Build a V50 candidate-source parking queue for partial T/B and EBV hits that failed same-definition intake | `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` |
 | 37 | medium | todo | Run source URL reachability for V50-added source URLs and summarize any transport-only issues | `knowledge_external/catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md` |
 | 38 | medium | todo | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
@@ -541,4 +541,18 @@ Checked at V50 start:
   working tree clean before this queue update. Tasks `35` through `40` were
   generated because the active-time target remains unmet.
 - Current cumulative active time at `2026-06-28T15:17:20Z`: `8162` seconds.
+  Target met: `false`.
+- Task 34 commit: `6529e85a` (`Refill V50 post-checkpoint backlog`). Push
+  succeeded: `origin/main` advanced from `e72a11ea` to `6529e85a`.
+- Task 35 wrote
+  `knowledge_external/synthesis/V50_VALIDATION_CONTEXT_BOUNDARY_CARD.md` and
+  linked it from the external index. Result: the boundary is explicit that DMF,
+  steroid/glucocorticoid, and cell-composition sources sharpen validation
+  context and guard design, but do not validate the locked V22 scalar or V32
+  adjustment result.
+- Task 35 guards: public index crosslink PASS (`92` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`484` checks, `98` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:21:16Z`: `8398` seconds.
   Target met: `false`.
