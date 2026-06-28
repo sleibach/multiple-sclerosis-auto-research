@@ -18,6 +18,8 @@ V50 update:
   `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md`;
   `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md`;
   `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`.
+- Karolinska / parallel-cohort request overlay:
+  `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md`.
 - Non-OpenGWAS route inventory:
   `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`;
   `analysis/v50_non_opengwas_route_inventory/`.
