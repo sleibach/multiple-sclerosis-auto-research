@@ -83,7 +83,7 @@ Checked at V50 start:
 | 6 | medium | done | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 7 | high | done | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
-| 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
+| 9 | medium | done | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_FINAL_CHECKPOINT.md` |
 | 10 | medium | done | Refill V50 backlog above threshold after task 13 | `meta/V50_QUEUE.md` |
 | 11 | high | done | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 12 | high | done | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
@@ -96,14 +96,19 @@ Checked at V50 start:
 | 19 | medium | done | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 20 | high | done | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 21 | medium | done | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
-| 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
+| 22 | medium | done | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
 | 24 | high | done | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
 | 25 | medium | done | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
 | 26 | medium | done | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
 | 27 | medium | done | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
 | 28 | medium | done | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
-| 29 | medium | todo | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
+| 29 | medium | done | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
+| 30 | high | todo | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
+| 31 | high | todo | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
+| 32 | medium | todo | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
+| 33 | medium | todo | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
+| 34 | medium | todo | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -454,4 +459,13 @@ Checked at V50 start:
 - Task 28 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:57:24Z`: `6966` seconds.
+  Target met: `false`.
+- Task 28 commit: `1266bf53` (`Add V50 OpenGWAS expired handoff`). Push
+  succeeded: `origin/main` advanced from `e3104cfe` to `1266bf53`.
+- Tasks 9 / 22 / 29 wrote `meta/V50_FINAL_CHECKPOINT.md`. Result: local and
+  remote `main` both pointed to `1266bf53` at checkpoint creation, cumulative
+  active time was `7099` seconds, target was not met, OpenGWAS remained expired,
+  and the next executable items were named explicitly. Tasks `30` through `34`
+  were generated to keep the block moving after the checkpoint.
+- Current cumulative active time at `2026-06-28T14:59:37Z`: `7099` seconds.
   Target met: `false`.
