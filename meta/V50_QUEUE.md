@@ -145,7 +145,7 @@ Checked at V50 start:
 | 68 | high | done | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
 | 69 | medium | done | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
 | 70 | medium | done | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
-| 71 | medium | todo | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
+| 71 | medium | done | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 72 | medium | todo | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -1046,4 +1046,23 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:24:56Z`: `15818` seconds.
+  Target met: `false`.
+- Task 70 commit: `31cc0cd7` (`Add V50 non OpenGWAS source hit template`).
+  Push succeeded: `origin/main` advanced from `5559e18f` to `31cc0cd7`.
+- Task 71 reran the V50 public guard wrapper and wrote
+  `meta/V50_PUBLIC_GUARD_STATUS.md`. Result: wrapper PASS (`2` guard families,
+  `0` failures, `0` OpenGWAS use); status freshness PASS (`16` checks, `0`
+  failures); non-OpenGWAS route checker PASS (`8` routes, `0` failures). The
+  card is operational/status only and does not assert cohort usability or
+  biological evidence.
+- Current cumulative active time at `2026-06-28T17:27:47Z`: `15989` seconds.
+  Target met: `false`.
+- Task 71 full pre-commit guards: external Markdown lint PASS (`534` checks,
+  `116` Markdown files, `0` failures); public index crosslink PASS (`110`
+  links, `0` failures); provenance PASS (`652` checks, `71` external JSON
+  records, `0` failures); status freshness PASS (`16` checks, `0` failures);
+  non-OpenGWAS route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use);
+  public guard wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS
+  use); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:29:33Z`: `16095` seconds.
   Target met: `false`.

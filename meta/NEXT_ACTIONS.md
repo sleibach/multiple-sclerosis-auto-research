@@ -11,6 +11,7 @@ V50 update:
 - Queue / resume backbone: `meta/V50_QUEUE.md`.
 - Latest checkpoint: `meta/V50_FINAL_CHECKPOINT.md`.
 - Public landing freshness audit: `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md`.
+- Public guard status card: `meta/V50_PUBLIC_GUARD_STATUS.md`.
 - External-context index: `knowledge_external/INDEX.md`.
 - Public reader/citation/glossary cards:
   `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`;
