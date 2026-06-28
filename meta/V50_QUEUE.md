@@ -92,7 +92,7 @@ Checked at V50 start:
 | 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
 | 16 | high | done | Acquire PTGER4-specific external records for MS/IBD signal conflict and naive-transfer closure | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 17 | high | done | Build V50 future-grounding delta queue for all newly sharper records that are groundable without OpenGWAS | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md` |
-| 18 | medium | todo | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
+| 18 | medium | done | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
 | 19 | medium | todo | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 20 | high | todo | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
@@ -304,4 +304,17 @@ Checked at V50 start:
   failures); local `HEAD` large-blob guard PASS; tracked file size guard PASS;
   tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:17:53Z`: `4595` seconds.
+  Target met: `false`.
+- Task 17 commit: `cd132cff` (`Add V50 future grounding queue`). Push
+  succeeded: `origin/main` advanced from `d9047621` to `cd132cff`.
+- Task 18 wrote `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` and
+  linked it from `knowledge_external/INDEX.md`. The handoff summarizes the
+  V50 decision-relevant corroborations, explicitly separates treatment-response
+  context from validation of the locked scalar, and records the narrow
+  zero-contradiction caveat.
+- Task 18 guards: public index crosslink PASS (`82` links, `0` failures);
+  provenance PASS (`598` checks, `65` external JSON records, `0` failures);
+  external Markdown lint PASS (`430` checks, `88` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:22:11Z`: `4853` seconds.
   Target met: `false`.

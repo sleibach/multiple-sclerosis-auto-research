@@ -103,6 +103,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 future-grounding queue](synthesis/FUTURE_GROUNDING_QUEUE_V48.md) | Concrete follow-up tasks from V48 convergence/insufficient-overlap rows. | queued tasks are not findings |
 | [V49 relationship delta note](synthesis/V49_RELATIONSHIP_DELTA_NOTE.md) | Compact summary of what V49 added to the V48 convergence/contradiction layer. | synthesis/navigation only |
 | [V49 content handoff](synthesis/V49_CONTENT_HANDOFF.md) | Medical-team handoff for V49 hygiene, gap closure, validation routing, import packets, and closure guardrails. | synthesis/navigation only |
+| [V50 content handoff](synthesis/V50_CONTENT_HANDOFF.md) | Medical-team handoff for V50 source-specific corroborations, non-corroborations, and zero-contradiction caveat. | synthesis/navigation only |
 | [V49 reader quickstart](synthesis/V49_READER_QUICKSTART.md) | Question-to-artifact routing guide for V49 content and resume paths. | navigation only |
 | [V49 insufficient-overlap triage](synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md) | Actionability triage for insufficient-overlap rows so context-only rows are not reopened without the named trigger. | synthesis/navigation only |
 | [V49 insufficient-overlap cause summary](synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md) | Cause-level closure summary explaining why the 16 insufficient-overlap rows are not unresolved gaps. | synthesis/navigation only |
