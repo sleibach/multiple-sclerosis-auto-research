@@ -108,7 +108,13 @@ Checked at V50 start:
 | 31 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
 | 32 | medium | done | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
 | 33 | medium | done | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
-| 34 | medium | todo | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
+| 34 | medium | done | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
+| 35 | medium | todo | Build a V50 validation-context boundary card for why DMF/steroid/composition sources do not validate the locked V22 scalar | `knowledge_external/synthesis/V50_VALIDATION_CONTEXT_BOUNDARY_CARD.md` |
+| 36 | medium | todo | Build a V50 candidate-source parking queue for partial T/B and EBV hits that failed same-definition intake | `knowledge_external/synthesis/V50_CANDIDATE_SOURCE_PARKING_QUEUE.md` |
+| 37 | medium | todo | Run source URL reachability for V50-added source URLs and summarize any transport-only issues | `knowledge_external/catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md` |
+| 38 | medium | todo | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
+| 39 | medium | todo | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
+| 40 | medium | todo | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -525,4 +531,14 @@ Checked at V50 start:
   external Markdown lint PASS (`483` checks, `97` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:15:12Z`: `8034` seconds.
+  Target met: `false`.
+- Task 33 commit: `e72a11ea` (`Add V50 allele harmonization checklist`). Push
+  succeeded: `origin/main` advanced from `c279fb73` to `e72a11ea`.
+- Task 34 post-checkpoint guard/pass summary: local `HEAD` and remote
+  `origin/main` both pointed to `e72a11eabd65e0f9f81142920d0759e409bd8924`;
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  committed-tree large-file guard PASS; committed-tree tmp-path guard PASS;
+  working tree clean before this queue update. Tasks `35` through `40` were
+  generated because the active-time target remains unmet.
+- Current cumulative active time at `2026-06-28T15:17:20Z`: `8162` seconds.
   Target met: `false`.
