@@ -131,6 +131,14 @@ Checked at V50 start:
 | 54 | medium | done | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
 | 55 | medium | done | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
 | 56 | medium | done | Add a V50 push/guard status checkpoint after the next two content tasks | `meta/V50_FINAL_CHECKPOINT.md` |
+| 57 | high | done | Refill the V50 backlog after task 56 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
+| 58 | high | todo | Refresh README public current-status wording and phase ledger with V44-V50 pointers without moving external claims into grounded prose | `README.md` |
+| 59 | high | todo | Refresh `meta/CURRENT_STATUS.md` with V45-V50 operational state and expired-OpenGWAS routing | `meta/CURRENT_STATUS.md` |
+| 60 | high | todo | Refresh `meta/NEXT_ACTIONS.md` with V50 queue, push/provenance requirements, and non-OpenGWAS next routes | `meta/NEXT_ACTIONS.md` |
+| 61 | medium | todo | Implement a stale-status linter that flags README/CURRENT_STATUS/NEXT_ACTIONS phase drift | `scripts/v50_status_freshness_linter.py`, `analysis/v50_status_freshness_linter/` |
+| 62 | medium | todo | Implement reusable smoke checkers for the highest-value non-OpenGWAS API routes from task 54 | `scripts/v50_check_non_opengwas_routes.py`, `analysis/v50_non_opengwas_route_checks/` |
+| 63 | medium | todo | Build a route-specific future-grounding queue from the non-OpenGWAS route inventory | `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md` |
+| 64 | medium | todo | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -849,4 +857,13 @@ Checked at V50 start:
   states that the active target is still unmet, so the next step is backlog
   refill.
 - Current cumulative active time at `2026-06-28T16:34:23Z`: `12785` seconds.
+  Target met: `false`.
+- Task 56 commit: `bd854160` (`Update V50 checkpoint after route inventory`).
+  Push succeeded: `origin/main` advanced from `3172d6d9` to `bd854160`.
+- Task 57 refilled the backlog with eight executable items because cumulative
+  active time remains below target. The new tranche prioritizes fixing the
+  public landing freshness gap discovered in task 51, maintaining canonical
+  current-status/action files, and converting task 54's non-OpenGWAS route
+  inventory into reusable checkers and future-grounding routes.
+- Current cumulative active time at `2026-06-28T16:36:43Z`: `12925` seconds.
   Target met: `false`.
