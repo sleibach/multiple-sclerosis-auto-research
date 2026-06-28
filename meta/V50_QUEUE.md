@@ -93,3 +93,10 @@ Checked at V50 start:
   history reconciliation before all-ref guards can be green.
 - Current cumulative active time at `2026-06-28T13:04:35Z`: `197` seconds.
   Target met: `false`.
+- Task 1 push attempt: `git push origin main` rejected non-fast-forward because
+  remote `main` still has the pre-rewrite history. Required human step remains:
+  `git push --force-with-lease=refs/heads/main:dabc45526f3e665dc7a2110c0e0d360d1fe661d8 origin main:main`.
+  V50 will keep committing locally and retrying plain push after each iteration
+  until the one-time remote reconciliation is complete.
+- Current cumulative active time at `2026-06-28T13:05:14Z`: `236` seconds.
+  Target met: `false`.
