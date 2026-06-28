@@ -68,6 +68,35 @@ They are not project evidence.
 | Is there a public MS knowledgebase equivalent to this repo? | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
 | What can be run while OpenGWAS is expired? | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md`; `scripts/v50_fetch_gwas_catalog_associations.py` |
 | Which future treatment-response source would count as a contradiction? | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
+| Which treatment-response source searches already failed to find an exact cohort? | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md`; `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md` |
+| How do I avoid recounting a near-miss as a new validation cohort? | `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md`; `knowledge_external/templates/V50_SOURCE_HIT_NO_RECOUNT_CHECKER.md` |
+| Why is `S-EPMC10360655` / `GSE235357` not a fresh independent cohort? | `knowledge_external/synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md` |
+
+## Source-Search Guardrail Path
+
+For source-search provenance and no-recount handling, read in this order:
+
+1. `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md`
+   - Purpose: route-level chain from non-OpenGWAS public checks to search
+     outputs and safe interpretation.
+2. `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md`
+   - Purpose: prose index of negative searches and near-misses that must not be
+     rediscovered as exact cohorts.
+3. `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md`
+   - Purpose: generated TSV/JSON no-recount index for scripts and future
+     source scouts.
+4. `knowledge_external/templates/V50_SOURCE_HIT_NO_RECOUNT_CHECKER.md`
+   - Purpose: operator instructions for `scripts/v50_check_source_hit_recount.py`.
+5. `knowledge_external/synthesis/V50_BIOSTUDIES_QUERY_REPRODUCIBILITY_PACKET.md`
+   - Purpose: exact BioStudies query strings and encoded API URLs from the V50
+     treatment-response metadata search.
+6. `knowledge_external/synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md`
+   - Purpose: route-specific handling for the Sánchez-Sanz / GSE235357 source
+     family.
+
+This path is source-accounting only. It does not validate a biological result
+and does not prove that no external validation cohort exists. Source:
+`docs/knowledge/EPISTEMIC_CLASSES.md`.
 
 ## Interpretation Rules
 

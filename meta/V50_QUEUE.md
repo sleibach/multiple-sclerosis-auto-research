@@ -150,7 +150,7 @@ Checked at V50 start:
 | 83 | medium | done | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
 | 84 | medium | done | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
 | 85 | medium | done | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
-| 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
+| 86 | medium | done | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 89 | medium | todo | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
@@ -1357,4 +1357,24 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:44:08Z`: `20570` seconds.
+  Target met: `false`.
+- Task 85 commit: `82849a04` (`Add V50 BioStudies query reproducibility
+  packet`). Push succeeded: `origin/main` advanced from `2ab388d9` to
+  `82849a04`.
+- Task 86 updated `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` with
+  a dedicated source-search guardrail path covering the non-OpenGWAS provenance
+  card, prose and machine-readable negative source-search indexes, no-recount
+  checker, BioStudies query reproducibility packet, and the GSE235357 /
+  S-EPMC10360655 handoff. This is navigation only and does not change any source
+  count or evidence grade.
+- Current cumulative active time at `2026-06-28T18:46:50Z`: `20732` seconds.
+  Target met: `false`.
+- Task 86 guards: external Markdown lint PASS (`543` checks, `125` Markdown
+  files, `0` failures); public index crosslink PASS (`119` links, `0`
+  failures); provenance PASS (`653` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:48:29Z`: `21131` seconds.
   Target met: `false`.
