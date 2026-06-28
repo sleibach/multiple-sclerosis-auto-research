@@ -153,7 +153,7 @@ Checked at V50 start:
 | 76 | medium | done | Build a V50 negative source-search index so repeated non-OpenGWAS metadata searches are not duplicated | `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md` |
 | 77 | medium | done | Build a compact Karolinska/parallel-cohort label request packet using current V50 trigger and template language | `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md` |
 | 78 | medium | done | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
-| 79 | medium | todo | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
+| 79 | medium | done | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
 | 80 | medium | todo | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 
 ## Iteration Notes
@@ -1212,4 +1212,27 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:04:04Z`: `18166` seconds.
+  Target met: `false`.
+- Task 78 commit: `7b8265fd`
+  (`Add V50 non OpenGWAS search provenance card`). Push succeeded:
+  `origin/main` advanced from `fa800fda` to `7b8265fd`.
+- Task 79 ran a source-hit duplicate/independence QA pass over V50 non-OpenGWAS
+  cohort-search outputs and wrote
+  `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md`, with
+  outputs under `analysis/v50_source_hit_independence_qa/`. Result: `11` rows
+  reviewed, `0` independent source counts allowed, `3` duplicate/already-existing
+  clusters, `3` partial-hit rows, `7` context-only rows, and `1` false positive.
+  The key effect is preventing `S-EPMC10360655` / `GSE235357` and Diebold 2022
+  metadata rediscoveries from being overcounted as independent validation
+  sources.
+- Current cumulative active time at `2026-06-28T18:09:21Z`: `18483` seconds.
+  Target met: `false`.
+- Task 79 guards: external Markdown lint PASS (`539` checks, `121` Markdown
+  files, `0` failures); public index crosslink PASS (`115` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:11:23Z`: `18605` seconds.
   Target met: `false`.

@@ -1,9 +1,9 @@
 route_id	service	method	http_status	elapsed_ms	bytes_sampled	status	open_gwas_used	url	error
-gwas_catalog_association_by_rsid	NHGRI-EBI GWAS Catalog REST	GET	200	1282	2048	PASS	False	https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp	
-europe_pmc_search	Europe PMC REST	GET	200	96	1002	PASS	False	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=multiple+sclerosis&format=json&pageSize=1	
-ncbi_eutils_geo_search	NCBI E-utilities GDS	GET	200	387	567	PASS	False	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=multiple+sclerosis&retmode=json&retmax=1	
-biostudies_search	EBI BioStudies API	GET	200	96	817	PASS	False	https://www.ebi.ac.uk/biostudies/api/v1/search?query=multiple+sclerosis&pageSize=1	
+gwas_catalog_association_by_rsid	NHGRI-EBI GWAS Catalog REST	GET	200	1693	2048	PASS	False	https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp	
+europe_pmc_search	Europe PMC REST	GET	200	95	1002	PASS	False	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=multiple+sclerosis&format=json&pageSize=1	
+ncbi_eutils_geo_search	NCBI E-utilities GDS	GET	200	332	567	PASS	False	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=multiple+sclerosis&retmode=json&retmax=1	
+biostudies_search	EBI BioStudies API	GET	200	91	817	PASS	False	https://www.ebi.ac.uk/biostudies/api/v1/search?query=multiple+sclerosis&pageSize=1	
 clinicaltrials_v2_search	ClinicalTrials.gov API v2	GET	200	156	2048	PASS	False	https://clinicaltrials.gov/api/v2/studies?query.term=multiple+sclerosis&pageSize=1	
-crossref_works_search	Crossref REST	GET	200	1048	2048	PASS	False	https://api.crossref.org/works?query=multiple+sclerosis&rows=1	
-opentargets_graphql_search	Open Targets Platform GraphQL	POST	200	112	1649	PASS	False	https://api.platform.opentargets.org/api/v4/graphql	
-ena_portal_study_search	ENA Portal API	GET	200	87	85	PASS	False	https://www.ebi.ac.uk/ena/portal/api/search?result=study&query=study_title%3D%22multiple+sclerosis%22&fields=study_accession%2Cstudy_title&limit=1&format=json	
+crossref_works_search	Crossref REST	GET	200	1895	2048	PASS	False	https://api.crossref.org/works?query=multiple+sclerosis&rows=1	
+opentargets_graphql_search	Open Targets Platform GraphQL	POST	200	50	1649	PASS	False	https://api.platform.opentargets.org/api/v4/graphql	
+ena_portal_study_search	ENA Portal API	GET	200	81	85	PASS	False	https://www.ebi.ac.uk/ena/portal/api/search?result=study&query=study_title%3D%22multiple+sclerosis%22&fields=study_accession%2Cstudy_title&limit=1&format=json	
