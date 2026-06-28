@@ -17,12 +17,12 @@ span across resume gaps.
 
 ## Remote / Push Status
 
-Current status after V50 task 12:
+Current status after V50 task 80 start:
 
 - `origin/main` and local `HEAD` are reconciled on the rewritten history.
 - plain `git push origin main` has succeeded repeatedly since task 12.
-- current remote check before task 17 commit: `origin/main` at
-  `d90476216ee631dca00adc63f4b2350b5fe30853`, matching local `HEAD`.
+- current remote check before task 80 update: `origin/main` at
+  `f889222dda954e36c320fe243e08ff2f351ab51e`, matching local `HEAD`.
 - push policy: use plain pushes unless a future status check shows an actual
   desync; do not run a blind force push.
 
@@ -35,21 +35,11 @@ Remote status at V50 start:
   remote has `41` right-only commits from the pre-rewrite history.
 - push state: `BLOCKED_ON_HUMAN_RECONCILIATION`
 
-The human attempted `git push --force-with-lease origin main`, which failed with
-`stale info` because the remote lease had not yet been fetched after re-adding
-`origin`. V50 fetched the remote ref into `origin/main`; the safe human command
-is now:
-
-```bash
-git push --force-with-lease=refs/heads/main:dabc45526f3e665dc7a2110c0e0d360d1fe661d8 origin main:main
-```
-
-Do not run a blind force push. If the explicit lease rejects, fetch and inspect
-the new remote `main` before retrying.
-
-Until the one-time reconciliation succeeds, V50 commits locally, runs all
-guards, attempts plain push after each iteration, records rejection, and does
-not force-push over the divergent remote.
+Historical reconciliation note: the first human `git push --force-with-lease
+origin main` attempt failed with `stale info` because the remote lease had not
+yet been fetched after re-adding `origin`. That state is resolved. Continue with
+plain `git push origin main`; if a future non-fast-forward rejection appears,
+fetch and inspect before any force-with-lease.
 
 ## OpenGWAS Status
 
@@ -154,7 +144,15 @@ Checked at V50 start:
 | 77 | medium | done | Build a compact Karolinska/parallel-cohort label request packet using current V50 trigger and template language | `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md` |
 | 78 | medium | done | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
 | 79 | medium | done | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
-| 80 | medium | todo | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
+| 80 | medium | done | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
+| 81 | high | todo | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
+| 82 | medium | todo | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
+| 83 | medium | todo | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
+| 84 | medium | todo | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
+| 85 | medium | todo | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
+| 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
+| 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
+| 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -1235,4 +1233,17 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:11:23Z`: `18605` seconds.
+  Target met: `false`.
+- Task 79 commit: `f889222d` (`Add V50 source hit independence QA`). Push
+  succeeded: `origin/main` advanced from `7b8265fd` to `f889222d`.
+- Task 80 refreshed `meta/V50_FINAL_CHECKPOINT.md` and
+  `meta/V50_PUBLIC_GUARD_STATUS.md` after the second source-search QA tranche.
+  Current local `HEAD` and `origin/main` both pointed to
+  `f889222dda954e36c320fe243e08ff2f351ab51e` before the task-80 commit. The
+  public guard wrapper last passed at `2026-06-28T18:16:37Z` with `2` guard
+  families, `0` failures, and `0` OpenGWAS use. The checkpoint now records
+  task-74 through task-79 source-search outputs, the `0` verified exact
+  validation-cohort result, and the backlog refill requirement because the
+  active target remains unmet.
+- Current cumulative active time at `2026-06-28T18:16:38Z`: `18920` seconds.
   Target met: `false`.

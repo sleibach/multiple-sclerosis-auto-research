@@ -5,30 +5,30 @@ target is not met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T17:31:18Z`
+- checkpoint UTC: `2026-06-28T18:16:38Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `16200` seconds
+- cumulative active time at checkpoint: `18920` seconds
 - active target: `21600` seconds
 - target met: `false`
 
 ## Git / Push
 
 - local HEAD before this checkpoint update:
-  `e079890ba282e381d459b98e09f60bc00d0feb08`
+  `f889222dda954e36c320fe243e08ff2f351ab51e`
 - remote `origin/main` before this checkpoint update:
-  `e079890ba282e381d459b98e09f60bc00d0feb08`
+  `f889222dda954e36c320fe243e08ff2f351ab51e`
 - push status: functioning with plain `git push origin main`
-- large-file guard status through task 71: PASS
-- tracked tmp-path guard status through task 71: PASS
-- provenance gate status through task 71: PASS (`652` checks, `71` external
+- large-file guard status through task 79: PASS
+- tracked tmp-path guard status through task 79: PASS
+- provenance gate status through task 79: PASS (`652` checks, `71` external
   JSON records, `0` failures)
-- external Markdown/index gates through task 71: PASS (`534` external Markdown
-  checks, `110` public index links, `0` failures)
-- status-freshness linter through task 71: PASS (`16` checks, `0` failures)
-- non-OpenGWAS route checker through task 71: PASS (`8` routes, `0` failures,
+- external Markdown/index gates through task 79: PASS (`539` external Markdown
+  checks, `115` public index links, `0` failures)
+- status-freshness linter through task 79: PASS (`16` checks, `0` failures)
+- non-OpenGWAS route checker through task 79: PASS (`8` routes, `0` failures,
   `0` OpenGWAS use)
-- public guard wrapper through task 71: PASS (`2` guard families, `0`
-  failures, `0` OpenGWAS use)
+- public guard wrapper through task 80: PASS (`2` guard families, `0`
+  failures, `0` OpenGWAS use; checked `2026-06-28T18:16:37Z`)
 
 Routine guard commands before each V50 push:
 
@@ -80,7 +80,23 @@ git push origin main
   candidates; this is a negative source-search result, not a biological null
 - V50 source-hit review template: added for metadata-only non-OpenGWAS hits
   with same-definition gates, safe outcomes, and no-expression-import boundary
-- public guard status card: PASS as of `2026-06-28T17:28:30Z`
+- BioStudies / ArrayExpress treatment-response source search: `8` queries,
+  `80` raw hits, `56` deduplicated hits, `29` detail records fetched, `6`
+  manually reviewed heuristic rows, `3` near-candidates, and `0` verified exact
+  paired early-treatment V22/V32 validation candidates. `S-EPMC10360655`
+  (`GSE235357`) remains a near-candidate / already-known metadata route, not an
+  independent exact validation cohort.
+- task-68 candidate replay through the V50 source-hit template: `5` rows, `0`
+  exact candidates, `4` context-only rows, and `1` false positive.
+- negative source-search index: records Europe PMC, NCBI GDS, and BioStudies
+  searches and their near-misses so they are not recounted as independent
+  validation cohorts.
+- Karolinska label-request packet: complete for parallel-cohort response-label
+  access, with same-definition gates and safe intake rules.
+- source-hit independence QA: `11` rows reviewed, `0` independent source counts
+  allowed, `3` duplicate/already-existing clusters, `3` partial-hit rows, `7`
+  context-only rows, and `1` false positive.
+- public guard status card: PASS as of `2026-06-28T18:16:37Z`
 - README status: refreshed to V50
 - `meta/CURRENT_STATUS.md`: refreshed to V50 and OpenGWAS-expired state
 - `meta/NEXT_ACTIONS.md`: refreshed with V50 queue/push/provenance and
@@ -128,23 +144,36 @@ git push origin main
 - `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md`
 - `meta/V50_PUBLIC_GUARD_STATUS.md`
 - `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`
+- `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md`
+- `analysis/v50_biostudies_treatment_response_search/`
+- `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md`
+- `analysis/v50_task68_template_replay/`
+- `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md`
+- `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md`
+- `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md`
+- `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md`
+- `analysis/v50_source_hit_independence_qa/`
 
 ## Next Executable Items
 
-The active-time target remains unmet. After task 72, the current V50 tranche is
-effectively exhausted, so the next iteration must refill the backlog above five
-executable items before continuing. High-value non-OpenGWAS tasks to generate
-include:
+The active-time target remains unmet. After task 80, refill the backlog above
+five executable items before continuing. High-value non-OpenGWAS tasks to
+generate include:
 
 1. generate the next V50 backlog tranche because cumulative active time is still
    below `21600` seconds;
-2. extend the treatment-response cohort source search to BioStudies /
-   ArrayExpress metadata using the V50 source-hit review template;
-3. apply the non-OpenGWAS source-hit template to the existing task-68 candidate
-   rows as a QA replay;
-4. add a compact source-search negative-results index so repeated public
-   metadata searches are not duplicated;
-5. update the V50 final checkpoint again after the next two pushed iterations.
+2. build a machine-readable negative/near-miss source-search index from the
+   task-68, task-74, and task-79 reviews;
+3. add a no-recount checker that flags future source hits matching current
+   near-miss / duplicate clusters;
+4. write a route-specific handoff for `GSE235357` / `S-EPMC10360655`,
+   explaining why it remains already-known and not an independent validation
+   cohort;
+5. publish the exact BioStudies / ArrayExpress query reproducibility packet from
+   task 74;
+6. update the public reader path with the source-search provenance and negative
+   index;
+7. refresh this checkpoint again after the next two pushed iterations.
 
 This checkpoint exists so a future session resumes without re-reading the whole
 V50 chain.
