@@ -116,7 +116,7 @@ Checked at V50 start:
 | 39 | medium | done | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
 | 40 | medium | done | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
 | 41 | high | done | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
-| 42 | high | todo | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
+| 42 | high | done | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
 | 43 | medium | todo | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
 | 44 | medium | todo | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
 | 45 | medium | todo | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
@@ -642,4 +642,20 @@ Checked at V50 start:
   external Markdown lint PASS (`520` checks, `102` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:43:29Z`: `9731` seconds.
+  Target met: `false`.
+- Task 41 commit: `0d92237d` (`Add V50 public MS knowledge base position`).
+  Push succeeded: `origin/main` advanced from `96f56ae6` to `0d92237d`.
+- Task 42 wrote
+  `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md`
+  and linked it from the external index. Result: future treatment-response
+  sources now have explicit same-definition requirements before they can be
+  classified as V22 or V32 convergence/contradiction. Broad DMF, APC, steroid,
+  or composition context stays context unless the source has the frozen dynamic
+  score, comparable labels, enough module coverage, and, for V32, comparable
+  confounder adjustment.
+- Task 42 guards: public index crosslink PASS (`97` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`521` checks, `103` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:46:34Z`: `9916` seconds.
   Target met: `false`.
