@@ -27,9 +27,23 @@ Current V50 requirements:
 
 - Continue V50 from `meta/V50_QUEUE.md` until the six-hour active target is met
   or a valid stop condition is reached.
-- Run `scripts/v47_provenance_gate.py audit` before each push.
+- Run the V50 guard set before each push:
+
+  ```bash
+  python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error
+  python3 scripts/v48_public_index_crosslink_linter.py lint --fail-on-error
+  python3 scripts/v47_provenance_gate.py audit
+  python3 scripts/v50_status_freshness_linter.py lint --fail-on-error
+  python3 scripts/v50_check_non_opengwas_routes.py check --fail-on-error
+  python3 scripts/v50_run_public_guards.py run --fail-on-error
+  git ls-files -z | while IFS= read -r -d '' f; do [ -f "$f" ] || continue; size=$(wc -c < "$f"); if [ "$size" -gt 52428800 ]; then printf '%s\t%s\n' "$size" "$f"; fi; done
+  git ls-files | rg '(^|/)tmp/' || true
+  git status -sb
+  ```
+
 - Verify no tracked file exceeds `50 MiB` and no tracked path sits under
-  `tmp/` before each push.
+  `tmp/` before each push; the guard block above should print no offending
+  tracked files or paths.
 - Push every committed iteration to `origin/main`.
 - OpenGWAS JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until
   renewed and verified.

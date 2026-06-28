@@ -23,6 +23,21 @@ target is not met.
 - status-freshness linter through task 61: PASS (`16` checks, `0` failures)
 - non-OpenGWAS route checker through task 62: PASS (`8` routes, `0` failures)
 
+Routine guard commands before each V50 push:
+
+```bash
+python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error
+python3 scripts/v48_public_index_crosslink_linter.py lint --fail-on-error
+python3 scripts/v47_provenance_gate.py audit
+python3 scripts/v50_status_freshness_linter.py lint --fail-on-error
+python3 scripts/v50_check_non_opengwas_routes.py check --fail-on-error
+python3 scripts/v50_run_public_guards.py run --fail-on-error
+git ls-files -z | while IFS= read -r -d '' f; do [ -f "$f" ] || continue; size=$(wc -c < "$f"); if [ "$size" -gt 52428800 ]; then printf '%s\t%s\n' "$size" "$f"; fi; done
+git ls-files | rg '(^|/)tmp/' || true
+git status -sb
+git push origin main
+```
+
 ## OpenGWAS
 
 - status: expired

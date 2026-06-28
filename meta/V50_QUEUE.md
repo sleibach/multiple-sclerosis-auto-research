@@ -143,7 +143,7 @@ Checked at V50 start:
 | 66 | high | done | Implement a compact V50 public-guard wrapper that runs status freshness and non-OpenGWAS route checks together | `scripts/v50_run_public_guards.py`, `analysis/v50_public_guards/` |
 | 67 | high | done | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
 | 68 | high | done | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
-| 69 | medium | todo | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
+| 69 | medium | done | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
 | 70 | medium | todo | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
 | 71 | medium | todo | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 72 | medium | todo | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
@@ -1005,4 +1005,27 @@ Checked at V50 start:
   failures); provenance PASS (`652` checks, `71` external JSON records, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:15:34Z`: `15256` seconds.
+  Target met: `false`.
+- Task 68 commit: `36be5f40` (`Add V50 treatment response cohort search`).
+  Push succeeded: `origin/main` advanced from `d0f0ccf1` to `36be5f40`.
+- Task 69 added the exact V50 guard command block to
+  `meta/V50_FINAL_CHECKPOINT.md` and `meta/NEXT_ACTIONS.md`, including external
+  Markdown/index lint, provenance, status freshness, non-OpenGWAS route checks,
+  public guard wrapper, tracked file-size guard, tmp-path guard, status check,
+  and push command. This is operational scaffolding only, not a research result.
+- Current cumulative active time at `2026-06-28T17:18:00Z`: `15402` seconds.
+  Target met: `false`.
+- Task 69 guard dry-run initially caught a command-documentation bug: the V50
+  route checker and public wrapper require the `check` and `run` subcommands.
+  The command blocks were corrected to
+  `python3 scripts/v50_check_non_opengwas_routes.py check --fail-on-error` and
+  `python3 scripts/v50_run_public_guards.py run --fail-on-error`.
+- Task 69 guards after correction: external Markdown lint PASS (`533` checks,
+  `115` Markdown files, `0` failures); public index crosslink PASS (`109`
+  links, `0` failures); provenance PASS (`652` checks, `71` external JSON
+  records, `0` failures); status freshness PASS (`16` checks, `0` failures);
+  non-OpenGWAS route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use);
+  public guard wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS
+  use); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:20:37Z`: `15559` seconds.
   Target met: `false`.
