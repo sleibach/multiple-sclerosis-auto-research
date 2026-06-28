@@ -95,7 +95,7 @@ Checked at V50 start:
 | 18 | medium | done | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
 | 19 | medium | done | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 20 | high | done | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
-| 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
+| 21 | medium | done | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
 | 24 | high | todo | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
@@ -370,4 +370,18 @@ Checked at V50 start:
   scouting, zero-contradiction specificity, remaining-source search, expired
   token handoff, and a checkpoint.
 - Current cumulative active time at `2026-06-28T14:36:51Z`: `5733` seconds.
+  Target met: `false`.
+- Task 23 commit: `ae814490` (`Refill V50 backlog`). Push succeeded:
+  `origin/main` advanced from `681f139d` to `ae814490`.
+- Task 21 wrote `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md`
+  and linked it from `knowledge_external/INDEX.md`. Result: V50 has `11`
+  source-specific convergence rows, but the conservative independence count is
+  `9` platform-level source families because the three GWAS Catalog allele rows
+  share a database platform. The `6` task-20 confounder records are counted
+  separately as validation-guard context, not V22 rule corroboration.
+- Task 21 guards: public index crosslink PASS (`83` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`475` checks, `89` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:40:39Z`: `5961` seconds.
   Target met: `false`.
