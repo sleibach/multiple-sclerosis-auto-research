@@ -141,7 +141,7 @@ Checked at V50 start:
 | 64 | medium | done | Refresh the V50 checkpoint after the next public-status and checker tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 | 65 | high | done | Refill the V50 backlog after task 64 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
 | 66 | high | done | Implement a compact V50 public-guard wrapper that runs status freshness and non-OpenGWAS route checks together | `scripts/v50_run_public_guards.py`, `analysis/v50_public_guards/` |
-| 67 | high | todo | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
+| 67 | high | done | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
 | 68 | high | todo | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
 | 69 | medium | todo | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
 | 70 | medium | todo | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
@@ -972,4 +972,20 @@ Checked at V50 start:
 - Task 66 guards: provenance PASS (`652` checks, `71` external JSON records,
   `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:03:21Z`: `14523` seconds.
+  Target met: `false`.
+- Task 66 commit: `0fa4fe83` (`Add V50 public guard wrapper`). Push succeeded:
+  `origin/main` advanced from `8c76037f` to `0fa4fe83`.
+- Task 67 ran the GWAS Catalog harmonization future-grounding route as far as
+  possible without OpenGWAS and wrote
+  `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md`, with
+  outputs under `analysis/v50_gwas_catalog_harmonization_route/`. Result: `3`
+  rsids checked, `2` source-reported cross-trait allele contrasts extractable,
+  `0` project-direction harmonized rows, and no project-direction conclusion
+  allowed until strand/orientation and project effect-convention mapping are
+  resolved.
+- Task 67 guards: external Markdown lint PASS (`532` checks, `114` Markdown
+  files, `0` failures); public index crosslink PASS (`108` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:07:50Z`: `14792` seconds.
   Target met: `false`.
