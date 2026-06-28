@@ -18,3 +18,6 @@ Templates:
 - `contradiction_intake_template.json.template`: queue an external claim that
   appears to contradict a grounded project finding. The contradiction remains a
   flag for future grounding, not evidence against the project finding.
+- `V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md`: review metadata-only
+  non-OpenGWAS source hits for same-definition cohort gates, safe outcomes, and
+  required next actions without importing data or asserting usability.

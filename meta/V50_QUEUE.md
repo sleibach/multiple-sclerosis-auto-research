@@ -144,7 +144,7 @@ Checked at V50 start:
 | 67 | high | done | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
 | 68 | high | done | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
 | 69 | medium | done | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
-| 70 | medium | todo | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
+| 70 | medium | done | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
 | 71 | medium | todo | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 72 | medium | todo | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -1028,4 +1028,22 @@ Checked at V50 start:
   public guard wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS
   use); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:20:37Z`: `15559` seconds.
+  Target met: `false`.
+- Task 69 commit: `5559e18f` (`Add V50 guard commands to resume docs`). Push
+  succeeded: `origin/main` advanced from `36be5f40` to `5559e18f`.
+- Task 70 added
+  `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md`
+  and linked it from `knowledge_external/templates/README.md` and
+  `knowledge_external/INDEX.md`. The template requires source locator, route,
+  access tier, terms, data-level, pairing, response endpoint, module-gene
+  coverage, same-definition status, and a safe outcome before any future source
+  hit can be counted as candidate exact cohort or queued for grounding.
+- Task 70 guards: external Markdown lint PASS (`534` checks, `116` Markdown
+  files, `0` failures); public index crosslink PASS (`110` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:24:56Z`: `15818` seconds.
   Target met: `false`.

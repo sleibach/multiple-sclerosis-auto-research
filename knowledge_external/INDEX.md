@@ -110,6 +110,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 source-intake reproducibility checklist](templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md) | Reviewer checklist for reproducing future source-intake routing decisions. | future search/navigation only |
 | [V48 source-intake stop/go scorecard](templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md) | Pre-specified stop, park, or proceed routing template for future source hits. | future search/navigation only |
 | [V48 source-intake reviewer handoff checklist](templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md) | Session-to-session handoff checklist for future source-intake review. | future search/navigation only |
+| [V50 non-OpenGWAS source-hit review template](templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md) | Metadata-only review template for non-OpenGWAS source hits before any cohort usability or future-grounding claim. | future search/navigation only |
 | [V48 source-intake controls coverage](catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md) | Summary card mapping source-intake safeguards to failure modes. | governance/navigation only |
 | [V48 active-time accounting audit](catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md) | Operational card distinguishing cumulative active time from wall-clock span. | governance/navigation only |
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
