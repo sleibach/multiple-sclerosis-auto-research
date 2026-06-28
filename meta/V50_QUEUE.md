@@ -149,7 +149,7 @@ Checked at V50 start:
 | 82 | medium | done | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
 | 83 | medium | done | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
 | 84 | medium | done | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
-| 85 | medium | todo | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
+| 85 | medium | done | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
 | 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
@@ -1337,4 +1337,24 @@ Checked at V50 start:
   (`2` guard families, `0` failures, `0` OpenGWAS use); tracked file size guard
   PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T18:37:56Z`: `20198` seconds.
+  Target met: `false`.
+- Task 84 commit: `2ab388d9` (`Add V50 GSE235357 source handoff`). Push
+  succeeded: `origin/main` advanced from `0a6def92` to `2ab388d9`.
+- Task 85 added `scripts/v50_build_biostudies_query_packet.py`,
+  `analysis/v50_biostudies_query_reproducibility/biostudies_query_packet.tsv`,
+  `analysis/v50_biostudies_query_reproducibility/summary.json`, and
+  `knowledge_external/synthesis/V50_BIOSTUDIES_QUERY_REPRODUCIBILITY_PACKET.md`.
+  The packet records `8` exact BioStudies queries, encoded API URLs, `80` raw
+  hits, `56` deduplicated hits, `6` manual-review rows, `0` verified exact
+  candidates, and `0` OpenGWAS use.
+- Current cumulative active time at `2026-06-28T18:42:15Z`: `20457` seconds.
+  Target met: `false`.
+- Task 85 guards: external Markdown lint PASS (`543` checks, `125` Markdown
+  files, `0` failures); public index crosslink PASS (`119` links, `0`
+  failures); provenance PASS (`653` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:44:08Z`: `20570` seconds.
   Target met: `false`.

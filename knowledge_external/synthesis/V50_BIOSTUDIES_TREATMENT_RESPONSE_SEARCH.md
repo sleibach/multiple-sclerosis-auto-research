@@ -19,6 +19,11 @@ count any cohort usable without the V50 same-definition gates.
 - `analysis/v50_biostudies_treatment_response_search/biostudies_trigger_triage.tsv`
 - `analysis/v50_biostudies_treatment_response_search/candidate_manual_review.tsv`
 - `analysis/v50_biostudies_treatment_response_search/summary.json`
+- `analysis/v50_biostudies_query_reproducibility/biostudies_query_packet.tsv`
+- `analysis/v50_biostudies_query_reproducibility/summary.json`
+
+Exact query strings and encoded BioStudies API URLs are recorded in
+`knowledge_external/synthesis/V50_BIOSTUDIES_QUERY_REPRODUCIBILITY_PACKET.md`.
 
 ## Search Scale
 
