@@ -128,7 +128,7 @@ Checked at V50 start:
 | 51 | high | done | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
 | 52 | medium | done | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
 | 53 | medium | done | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
-| 54 | medium | todo | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
+| 54 | medium | done | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
 | 55 | medium | todo | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
 | 56 | medium | todo | Add a V50 push/guard status checkpoint after the next two content tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -808,4 +808,20 @@ Checked at V50 start:
   (`284` checks, `0` failures); tracked file size guard PASS; tracked tmp-path
   guard PASS.
 - Current cumulative active time at `2026-06-28T16:24:35Z`: `12197` seconds.
+  Target met: `false`.
+- Task 53 commit: `9a0898e0` (`Add V50 high priority source terms packet`).
+  Push succeeded: `origin/main` advanced from `d56b338a` to `9a0898e0`.
+- Task 54 smoke-checked and documented non-OpenGWAS public API routes in
+  `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`, with
+  machine-readable outputs under `analysis/v50_non_opengwas_route_inventory/`.
+  Result: `8` routes checked, `8` HTTP 200 after schema correction where
+  needed, and `0` OpenGWAS endpoint use. Ready routes are GWAS Catalog REST,
+  Europe PMC, NCBI E-utilities/GDS, EBI BioStudies, ClinicalTrials.gov v2,
+  Crossref, Open Targets GraphQL, and ENA Portal with query-syntax cautions for
+  the last two.
+- Task 54 guards: external Markdown lint PASS (`529` checks, `111` Markdown
+  files, `0` failures); public index crosslink PASS (`105` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:29:10Z`: `12472` seconds.
   Target met: `false`.

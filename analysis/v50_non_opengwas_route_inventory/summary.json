@@ -1,0 +1,107 @@
+{
+  "date_utc": "2026-06-28T16:29:00Z",
+  "n_http_200": 8,
+  "n_ready": 8,
+  "n_routes_checked": 8,
+  "open_gwas_used": false,
+  "purpose": "V50 non-OpenGWAS route inventory smoke summary; transport/schema only; no biological claim",
+  "routes": [
+    {
+      "bytes_downloaded": 97490,
+      "endpoint": "https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "Already backed by scripts/v50_fetch_gwas_catalog_associations.py; metadata/association routing only.",
+      "open_gwas_used": false,
+      "route": "gwas_catalog_association_by_rsid",
+      "service": "NHGRI-EBI GWAS Catalog REST",
+      "smoke_query": "rsId=rs1250550&projection=associationBySnp",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 1002,
+      "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "Literature/data-availability mining route; not evidence without source intake.",
+      "open_gwas_used": false,
+      "route": "europe_pmc_search",
+      "service": "Europe PMC REST",
+      "smoke_query": "query=multiple sclerosis&format=json&pageSize=1",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 567,
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "GEO/GDS discovery route; downstream dataset use still requires paired/label/module-gene verification.",
+      "open_gwas_used": false,
+      "route": "ncbi_eutils_geo_search",
+      "service": "NCBI E-utilities GDS",
+      "smoke_query": "db=gds&term=multiple sclerosis&retmode=json&retmax=1",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 817,
+      "endpoint": "https://www.ebi.ac.uk/biostudies/api/v1/search",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "BioStudies/ArrayExpress-style study discovery route; metadata only until dataset terms and structure verified.",
+      "open_gwas_used": false,
+      "route": "biostudies_search",
+      "service": "EBI BioStudies API",
+      "smoke_query": "query=multiple sclerosis&pageSize=1",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 11117,
+      "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "Trial/endpoint context route; not molecular validation evidence.",
+      "open_gwas_used": false,
+      "route": "clinicaltrials_v2_search",
+      "service": "ClinicalTrials.gov API v2",
+      "smoke_query": "query.term=multiple sclerosis&pageSize=1",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 24353,
+      "endpoint": "https://api.crossref.org/works",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "DOI/metadata fallback route; use publisher/PMC sources for claim intake when possible.",
+      "open_gwas_used": false,
+      "route": "crossref_works_search",
+      "service": "Crossref REST",
+      "smoke_query": "query=multiple sclerosis&rows=1",
+      "status": "ready"
+    },
+    {
+      "bytes_downloaded": 1649,
+      "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+      "http_status": 200,
+      "method": "POST",
+      "notes": "Target context route; initial query= argument failed, corrected queryString schema works.",
+      "open_gwas_used": false,
+      "route": "opentargets_graphql_search",
+      "service": "Open Targets Platform GraphQL",
+      "smoke_query": "{ search(queryString: \"multiple sclerosis\") { hits { id name entity } } }",
+      "status": "ready_with_graphql_schema"
+    },
+    {
+      "bytes_downloaded": 85,
+      "endpoint": "https://www.ebi.ac.uk/ena/portal/api/search",
+      "http_status": 200,
+      "method": "GET",
+      "notes": "Raw sequence study discovery route; broad quoted free-text query failed, fielded query works.",
+      "open_gwas_used": false,
+      "route": "ena_portal_study_search",
+      "service": "ENA Portal API",
+      "smoke_query": "result=study&query=study_title=\"multiple sclerosis\"&fields=study_accession,study_title&limit=1&format=json",
+      "status": "ready_with_query_syntax_caution"
+    }
+  ],
+  "synthetic": false
+}
