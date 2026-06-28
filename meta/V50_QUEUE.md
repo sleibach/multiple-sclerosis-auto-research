@@ -142,7 +142,7 @@ Checked at V50 start:
 | 65 | high | done | Refill the V50 backlog after task 64 because the 6-hour active target remains unmet | `meta/V50_QUEUE.md` |
 | 66 | high | done | Implement a compact V50 public-guard wrapper that runs status freshness and non-OpenGWAS route checks together | `scripts/v50_run_public_guards.py`, `analysis/v50_public_guards/` |
 | 67 | high | done | Run the GWAS Catalog allele-harmonization future-grounding route as far as possible without OpenGWAS | `analysis/v50_gwas_catalog_harmonization_route/`, `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md` |
-| 68 | high | todo | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
+| 68 | high | done | Use Europe PMC and NCBI GDS to search for exact paired treatment-response cohort candidates under V50 trigger rules | `analysis/v50_treatment_response_cohort_search/`, `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md` |
 | 69 | medium | todo | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
 | 70 | medium | todo | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
 | 71 | medium | todo | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
@@ -988,4 +988,21 @@ Checked at V50 start:
   failures); provenance PASS (`652` checks, `71` external JSON records, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:07:50Z`: `14792` seconds.
+  Target met: `false`.
+- Task 67 commit: `d0f0ccf1` (`Add V50 GWAS harmonization route result`). Push
+  succeeded: `origin/main` advanced from `0fa4fe83` to `d0f0ccf1`.
+- Task 68 ran metadata-only Europe PMC and NCBI GDS searches for exact paired
+  treatment-response cohort candidates under the V50 trigger rules, without
+  importing expression data and without calling OpenGWAS. Result: `4` Europe
+  PMC queries yielded `32` deduplicated hits, `3` NCBI GDS queries yielded `17`
+  deduplicated hits, `5` heuristic candidate rows were manually reviewed, and
+  `0` verified exact paired treatment-response candidates were found. This is a
+  negative source-search result only, not a biological null.
+- Current cumulative active time at `2026-06-28T17:13:33Z`: `15135` seconds.
+  Target met: `false`.
+- Task 68 guards: external Markdown lint PASS (`533` checks, `115` Markdown
+  files, `0` failures); public index crosslink PASS (`109` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:15:34Z`: `15256` seconds.
   Target met: `false`.

@@ -130,6 +130,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V50 next source prioritization](synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md) | Ranking of V50 source routes by decision value and executability while OpenGWAS is expired. | synthesis/navigation only |
 | [V50 non-OpenGWAS route inventory](synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md) | Smoke-tested public API routes that remain usable while the OpenGWAS JWT is expired. | routing/navigation only |
 | [V50 non-OpenGWAS future-grounding queue](synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md) | Route-specific future tasks for safe public API use while OpenGWAS is expired. | queued tasks are not findings |
+| [V50 treatment-response cohort search](synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md) | Metadata-only Europe PMC / NCBI GDS search; no verified exact paired treatment-response cohort candidate found. | source search/navigation only |
 | [V49 reader quickstart](synthesis/V49_READER_QUICKSTART.md) | Question-to-artifact routing guide for V49 content and resume paths. | navigation only |
 | [V49 insufficient-overlap triage](synthesis/V49_INSUFFICIENT_OVERLAP_TRIAGE.md) | Actionability triage for insufficient-overlap rows so context-only rows are not reopened without the named trigger. | synthesis/navigation only |
 | [V49 insufficient-overlap cause summary](synthesis/V49_INSUFFICIENT_OVERLAP_CAUSE_SUMMARY.md) | Cause-level closure summary explaining why the 16 insufficient-overlap rows are not unresolved gaps. | synthesis/navigation only |

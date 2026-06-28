@@ -1,0 +1,20 @@
+{
+  "candidate_metadata_review_needed": 5,
+  "europepmc_hits_dedup": 32,
+  "europepmc_queries": 4,
+  "manual_candidate_review_rows": 5,
+  "manual_review_output": "analysis/v50_treatment_response_cohort_search/candidate_manual_review.tsv",
+  "ncbi_gds_hits_dedup": 17,
+  "ncbi_gds_queries": 3,
+  "not_exact_trigger": 26,
+  "opengwas_used": false,
+  "outputs": {
+    "europepmc_hits": "analysis/v50_treatment_response_cohort_search/europepmc_hits.tsv",
+    "ncbi_gds_hits": "analysis/v50_treatment_response_cohort_search/ncbi_gds_hits.tsv",
+    "trigger_triage": "analysis/v50_treatment_response_cohort_search/trigger_triage.tsv"
+  },
+  "partial_hit_metadata_only": 18,
+  "purpose": "V50 metadata-only treatment-response cohort search through Europe PMC and NCBI GDS; no expression import; no biological claim",
+  "synthetic": false,
+  "verified_exact_paired_treatment_response_candidates": 0
+}
