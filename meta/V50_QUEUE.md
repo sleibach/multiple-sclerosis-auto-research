@@ -107,7 +107,7 @@ Checked at V50 start:
 | 30 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
 | 31 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
 | 32 | medium | done | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
-| 33 | medium | todo | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
+| 33 | medium | done | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
 | 34 | medium | todo | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
@@ -510,4 +510,19 @@ Checked at V50 start:
   external Markdown lint PASS (`482` checks, `96` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:12:28Z`: `7870` seconds.
+  Target met: `false`.
+- Task 32 commit: `c279fb73` (`Add V50 GSE255952 import checklist`). Push
+  succeeded: `origin/main` advanced from `35dd535b` to `c279fb73`.
+- Task 33 wrote
+  `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` and
+  linked it from the external index. Result: future rs1250550, rs4613763, and
+  rs7522462 checks now require explicit phenotype, risk allele, effect size,
+  p-value, source row, orientation, ambiguous-allele, project-convention mapping,
+  exclusions, and no-target-claim outputs before any project-grounded direction
+  statement.
+- Task 33 guards: public index crosslink PASS (`91` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`483` checks, `97` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:15:12Z`: `8034` seconds.
   Target met: `false`.
