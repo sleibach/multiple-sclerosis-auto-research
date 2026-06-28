@@ -105,7 +105,7 @@ Checked at V50 start:
 | 28 | medium | done | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
 | 29 | medium | done | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 30 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
-| 31 | high | todo | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
+| 31 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
 | 32 | medium | todo | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
 | 33 | medium | todo | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
 | 34 | medium | todo | Add a V50 post-checkpoint guard/pass summary after the checkpoint commit and push | `meta/V50_QUEUE.md` |
@@ -482,4 +482,18 @@ Checked at V50 start:
   external Markdown lint PASS (`480` checks, `94` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:06:01Z`: `7483` seconds.
+  Target met: `false`.
+- Task 30 commit: `46c7734c` (`Add V50 TB monitoring source search`). Push
+  succeeded: `origin/main` advanced from `4d561834` to `46c7734c`.
+- Task 31 wrote
+  `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md`.
+  Result: the EBV search found closer EBV/APC/B-cell and SLE/MS EBV-context
+  candidates, but no same-definition source testing the project EBV/IFN APC
+  imprint against MS controls and non-MS autoimmune comparators under comparable
+  expression/module definitions. The EBV specificity row remains downgraded.
+- Task 31 guards: public index crosslink PASS (`89` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`481` checks, `95` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:09:35Z`: `7697` seconds.
   Target met: `false`.
