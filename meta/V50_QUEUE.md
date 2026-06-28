@@ -149,7 +149,7 @@ Checked at V50 start:
 | 72 | medium | done | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 | 73 | high | done | Refill the V50 backlog after task 72 because the active target remains unmet | `meta/V50_QUEUE.md` |
 | 74 | high | done | Extend treatment-response cohort source search to BioStudies and ArrayExpress metadata using the V50 source-hit review template | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/V50_BIOSTUDIES_TREATMENT_RESPONSE_SEARCH.md` |
-| 75 | medium | todo | Replay task-68 candidate rows through the V50 non-OpenGWAS source-hit review template as QA | `analysis/v50_task68_template_replay/`, `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md` |
+| 75 | medium | done | Replay task-68 candidate rows through the V50 non-OpenGWAS source-hit review template as QA | `analysis/v50_task68_template_replay/`, `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md` |
 | 76 | medium | todo | Build a V50 negative source-search index so repeated non-OpenGWAS metadata searches are not duplicated | `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md` |
 | 77 | medium | todo | Build a compact Karolinska/parallel-cohort label request packet using current V50 trigger and template language | `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md` |
 | 78 | medium | todo | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
@@ -1133,4 +1133,24 @@ Checked at V50 start:
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:43:49Z`: `16951` seconds.
+  Target met: `false`.
+- Task 74 commit: `9f567723` (`Add V50 BioStudies treatment response search`).
+  Push succeeded: `origin/main` advanced from `78956e71` to `9f567723`.
+- Task 75 replayed the five task-68 Europe PMC / NCBI GDS heuristic candidate
+  rows through the V50 non-OpenGWAS source-hit review template and wrote
+  `knowledge_external/synthesis/V50_TASK68_TEMPLATE_REPLAY.md`, with outputs
+  under `analysis/v50_task68_template_replay/`. Result: `5` rows replayed, `0`
+  candidate exact cohorts, `0` partial metadata hits, `4` context-only rows,
+  and `1` rejected false positive. This is process QA only and does not change
+  source-search conclusions.
+- Current cumulative active time at `2026-06-28T17:47:31Z`: `17173` seconds.
+  Target met: `false`.
+- Task 75 guards: external Markdown lint PASS (`536` checks, `118` Markdown
+  files, `0` failures); public index crosslink PASS (`112` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:49:41Z`: `17303` seconds.
   Target met: `false`.
