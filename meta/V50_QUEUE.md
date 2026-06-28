@@ -146,7 +146,7 @@ Checked at V50 start:
 | 69 | medium | done | Add V50 public guard commands to the checkpoint and next-actions operational checklist | `meta/V50_FINAL_CHECKPOINT.md`, `meta/NEXT_ACTIONS.md` |
 | 70 | medium | done | Build a small-source hit review template specifically for non-OpenGWAS cohort-search results | `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md` |
 | 71 | medium | done | Re-run the public-guard wrapper and publish a guard status card after implementation | `meta/V50_PUBLIC_GUARD_STATUS.md` |
-| 72 | medium | todo | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
+| 72 | medium | done | Refresh the V50 checkpoint after the next guard/cohort-search tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -1065,4 +1065,22 @@ Checked at V50 start:
   public guard wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS
   use); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T17:29:33Z`: `16095` seconds.
+  Target met: `false`.
+- Task 71 commit: `e079890b` (`Add V50 public guard status card`). Push
+  succeeded: `origin/main` advanced from `31cc0cd7` to `e079890b`.
+- Task 72 refreshed `meta/V50_FINAL_CHECKPOINT.md` to reflect the pushed state
+  through task 71, including public guard wrapper status, task-68
+  treatment-response cohort-search result, task-70 source-hit review template,
+  current OpenGWAS-expired routing, and the required next action: refill the V50
+  backlog because the active target remains unmet.
+- Current cumulative active time at `2026-06-28T17:32:02Z`: `16244` seconds.
+  Target met: `false`.
+- Task 72 guards: external Markdown lint PASS (`534` checks, `116` Markdown
+  files, `0` failures); public index crosslink PASS (`110` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T17:33:39Z`: `16341` seconds.
   Target met: `false`.

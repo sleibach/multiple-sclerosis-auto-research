@@ -5,23 +5,30 @@ target is not met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T16:58:11Z`
+- checkpoint UTC: `2026-06-28T17:31:18Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `14213` seconds
+- cumulative active time at checkpoint: `16200` seconds
 - active target: `21600` seconds
 - target met: `false`
 
 ## Git / Push
 
-- local HEAD: `7bb1ffb573c4817e82e6496cfea0c5d1c00b83fa`
-- remote `origin/main`: `7bb1ffb573c4817e82e6496cfea0c5d1c00b83fa`
+- local HEAD before this checkpoint update:
+  `e079890ba282e381d459b98e09f60bc00d0feb08`
+- remote `origin/main` before this checkpoint update:
+  `e079890ba282e381d459b98e09f60bc00d0feb08`
 - push status: functioning with plain `git push origin main`
-- large-file guard status through task 63: PASS
-- tracked tmp-path guard status through task 63: PASS
-- provenance gate status through task 63: PASS
-- external Markdown/index gates through task 63: PASS
-- status-freshness linter through task 61: PASS (`16` checks, `0` failures)
-- non-OpenGWAS route checker through task 62: PASS (`8` routes, `0` failures)
+- large-file guard status through task 71: PASS
+- tracked tmp-path guard status through task 71: PASS
+- provenance gate status through task 71: PASS (`652` checks, `71` external
+  JSON records, `0` failures)
+- external Markdown/index gates through task 71: PASS (`534` external Markdown
+  checks, `110` public index links, `0` failures)
+- status-freshness linter through task 71: PASS (`16` checks, `0` failures)
+- non-OpenGWAS route checker through task 71: PASS (`8` routes, `0` failures,
+  `0` OpenGWAS use)
+- public guard wrapper through task 71: PASS (`2` guard families, `0`
+  failures, `0` OpenGWAS use)
 
 Routine guard commands before each V50 push:
 
@@ -61,8 +68,19 @@ git push origin main
 - GWAS Catalog fetcher validation: PASS (`12 / 12` prior rows reproduced)
 - allele-harmonization prep: complete as manifest only; `0` rows currently
   project-direction comparable without further harmonization
+- GWAS Catalog harmonization route result: `3` rsids checked, `2`
+  source-reported cross-trait allele contrasts extractable, `0`
+  project-direction harmonized rows; no project-direction conclusion allowed
+  until strand/orientation and project effect-convention mapping are resolved
 - non-OpenGWAS route inventory: `8 / 8` checked public routes returned HTTP
   `200` after schema correction where needed; `0` OpenGWAS use
+- treatment-response cohort source search: Europe PMC (`32` deduplicated hits)
+  and NCBI GDS (`17` deduplicated hits) produced `5` heuristic candidate rows,
+  `5` manually reviewed rows, and `0` verified exact paired treatment-response
+  candidates; this is a negative source-search result, not a biological null
+- V50 source-hit review template: added for metadata-only non-OpenGWAS hits
+  with same-definition gates, safe outcomes, and no-expression-import boundary
+- public guard status card: PASS as of `2026-06-28T17:28:30Z`
 - README status: refreshed to V50
 - `meta/CURRENT_STATUS.md`: refreshed to V50 and OpenGWAS-expired state
 - `meta/NEXT_ACTIONS.md`: refreshed with V50 queue/push/provenance and
@@ -101,21 +119,32 @@ git push origin main
 - `scripts/v50_check_non_opengwas_routes.py`
 - `analysis/v50_non_opengwas_route_checks/`
 - `knowledge_external/synthesis/V50_NON_OPENGWAS_FUTURE_GROUNDING_QUEUE.md`
+- `scripts/v50_run_public_guards.py`
+- `analysis/v50_public_guards/`
+- `knowledge_external/synthesis/V50_GWAS_HARMONIZATION_ROUTE_RESULT.md`
+- `analysis/v50_gwas_catalog_harmonization_route/`
+- `knowledge_external/synthesis/V50_TREATMENT_RESPONSE_COHORT_SEARCH.md`
+- `analysis/v50_treatment_response_cohort_search/`
+- `knowledge_external/templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md`
+- `meta/V50_PUBLIC_GUARD_STATUS.md`
 - `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`
 
 ## Next Executable Items
 
-The active-time target remains unmet. The next iteration must refill the
-backlog before continuing. High-value non-OpenGWAS tasks to generate include:
+The active-time target remains unmet. After task 72, the current V50 tranche is
+effectively exhausted, so the next iteration must refill the backlog above five
+executable items before continuing. High-value non-OpenGWAS tasks to generate
+include:
 
-1. implement a compact freshness-check wrapper that runs both V50 status and
-   non-OpenGWAS route checks together;
-2. run the GWAS Catalog allele-harmonization future-grounding route as far as
-   possible without OpenGWAS;
-3. use Europe PMC / NCBI GDS to search for exact paired treatment-response
-   cohort candidates under the V50 trigger rules;
-4. add current-status freshness checks to the routine guard list;
-5. refresh this checkpoint after the next two content tasks.
+1. generate the next V50 backlog tranche because cumulative active time is still
+   below `21600` seconds;
+2. extend the treatment-response cohort source search to BioStudies /
+   ArrayExpress metadata using the V50 source-hit review template;
+3. apply the non-OpenGWAS source-hit template to the existing task-68 candidate
+   rows as a QA replay;
+4. add a compact source-search negative-results index so repeated public
+   metadata searches are not duplicated;
+5. update the V50 final checkpoint again after the next two pushed iterations.
 
 This checkpoint exists so a future session resumes without re-reading the whole
 V50 chain.
