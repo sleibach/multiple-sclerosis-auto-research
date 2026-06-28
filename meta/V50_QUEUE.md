@@ -102,7 +102,7 @@ Checked at V50 start:
 | 25 | medium | done | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
 | 26 | medium | done | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
 | 27 | medium | done | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
-| 28 | medium | todo | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
+| 28 | medium | done | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
 | 29 | medium | todo | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -443,4 +443,15 @@ Checked at V50 start:
   external Markdown lint PASS (`479` checks, `93` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:55:22Z`: `6844` seconds.
+  Target met: `false`.
+- Task 27 commit: `e3104cfe` (`Add V50 remaining source search packet`). Push
+  succeeded: `origin/main` advanced from `d5ecd86b` to `e3104cfe`.
+- Task 28 wrote `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`. Result: future sessions
+  have an explicit operational guard that the OpenGWAS JWT expired at
+  `2026-06-19T12:28:39Z`; OpenGWAS-dependent work is blocked until renewal and
+  a passing `scripts/check_opengwas_access.py` run, while non-OpenGWAS routes
+  remain allowed.
+- Task 28 guards: provenance PASS (`652` checks, `71` external JSON records,
+  `0` failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:57:24Z`: `6966` seconds.
   Target met: `false`.
