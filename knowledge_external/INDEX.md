@@ -112,6 +112,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V49 import-packet queue reconciliation](synthesis/V49_IMPORT_PACKET_QUEUE_RECONCILIATION.md) | Overlay mapping generated future-grounding queue rows to the stricter V49 import-packet field gates. | queue/navigation only |
 | [V49 validation-ready row crosscheck](synthesis/V49_VALIDATION_READY_ROW_CROSSCHECK.md) | Crosscheck showing which validation-facing V49 rows are already covered by frozen V42/V44 harnesses. | synthesis/navigation only |
 | [V49 new source-domain review](catalogs/indexes/V49_NEW_SOURCE_DOMAIN_REVIEW.md) | Access/terms review for the eight records added during V49. | source maintenance only |
+| [V50 future-grounding delta queue](synthesis/FUTURE_GROUNDING_QUEUE_V50.md) | Safe routing of V50 sharper external records into future grounding tasks, blocked routes, and context-only records. | queued tasks are not findings |
 | [Convergence/contradiction skeleton](synthesis/CONVERGENCE_CONTRADICTION_SKELETON.md) | Placeholder rows until a grounded-link review is performed. | no convergence claim unless linked and grounded |
 | [Intake templates](templates/README.md) | Templates for future external-verifiable claim intake. | queued claims are not findings |
 
