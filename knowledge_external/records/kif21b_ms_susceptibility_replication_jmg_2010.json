@@ -1,0 +1,38 @@
+{
+  "claim": "A Journal of Medical Genetics letter reported replication of KIF21B as a susceptibility locus for multiple sclerosis and noted prior establishment of KIF21B as a susceptibility locus for inflammatory bowel disease and MS.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as segregated literature context unless the exact SNP-level data are re-imported and compared to the project's chr1 eQTL/colocalization analysis.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md",
+    "finding_id": "chr1 KIF21B/GPR25 locus resolves to real biology but hard target"
+  },
+  "project_use": "External literature context for the KIF21B side of the chr1 locus; not evidence for therapeutic tractability or direction-matched intervention.",
+  "record_id": "claim.jmg_2010.kif21b_ms_susceptibility_replication.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source converges on KIF21B as a real susceptibility-locus context, but does not resolve whether KIF21B is the causal transcript or whether its project-inferred direction is druggable.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Goris et al. Replication of KIF21B as a susceptibility locus for multiple sclerosis. Journal of Medical Genetics. 2010.",
+    "doi": "10.1136/jmg.2009.075911",
+    "label": "JMG KIF21B MS susceptibility replication",
+    "pmid": "20587413",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20587413/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PubMed bibliographic metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic metadata and a short paraphrased claim only; do not redistribute article text or treat it as project-grounded evidence.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "kif21b",
+    "multiple_sclerosis",
+    "susceptibility_locus",
+    "inflammatory_bowel_disease",
+    "chr1"
+  ],
+  "why_unverifiable": "The project has not rerun the external study's genotype association analysis in the external layer."
+}

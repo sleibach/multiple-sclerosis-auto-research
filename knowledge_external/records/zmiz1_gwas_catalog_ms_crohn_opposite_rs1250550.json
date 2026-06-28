@@ -1,0 +1,55 @@
+{
+  "claim": "GWAS Catalog rs1250550 association rows preserve a disease-specific allele-direction contrast at ZMIZ1: the multiple-sclerosis row lists rs1250550-A as the risk allele with OR 1.10, while a Crohn disease row lists rs1250550-G as the risk allele with OR 1.19.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use the association row IDs as a source-specific intake packet for future allele-harmonized MS/Crohn direction grounding; do not treat the external rows as rerun project evidence.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md; docs/history/LEAD_INVENTORY_V29.md",
+    "finding_id": "ZMIZ1 opposite-direction MS/Crohn decoupling"
+  },
+  "project_use": "Sharper external convergence record for V50 reassessment of the ZMIZ1 direction-dependent decoupling finding.",
+  "record_id": "claim.gwas_catalog.zmiz1_rs1250550_ms_crohn_opposite_alleles.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This is a source-specific convergence candidate because it preserves the same rsid, disease labels, effect alleles, and odds-ratio direction needed for a head-to-head comparison; allele harmonization still belongs in a future grounding task.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "api_rows": [
+      {
+        "association_id": "23798",
+        "efo_trait": "multiple sclerosis",
+        "or": 1.1,
+        "p_value": 6e-9,
+        "risk_allele": "rs1250550-A",
+        "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/23798"
+      },
+      {
+        "association_id": "23802",
+        "efo_trait": "Crohn disease",
+        "or": 1.19,
+        "p_value": 1e-30,
+        "risk_allele": "rs1250550-G",
+        "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/23802"
+      }
+    ],
+    "citation": "NHGRI-EBI GWAS Catalog association rows for rs1250550 queried through the public REST API.",
+    "label": "GWAS Catalog ZMIZ1 rs1250550 MS/Crohn association rows",
+    "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs1250550&projection=associationBySnp"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "GWAS Catalog public API metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not treat API content as project-grounded evidence.",
+    "terms_url": "https://www.ebi.ac.uk/gwas/docs/about"
+  },
+  "tags": [
+    "zmiz1",
+    "rs1250550",
+    "multiple_sclerosis",
+    "crohn_disease",
+    "directionality",
+    "gwas_catalog"
+  ],
+  "why_unverifiable": "The project has not rerun the underlying GWAS Catalog curation, allele harmonization, or cross-disease summary-statistic analysis in the external layer."
+}

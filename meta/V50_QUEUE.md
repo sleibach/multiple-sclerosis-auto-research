@@ -69,13 +69,18 @@ Checked at V50 start:
 | 1 | high | done | Start V50 queue, record active-time rules, remote blocker, OpenGWAS expiry, and tool health | `meta/V50_QUEUE.md` |
 | 2 | high | done | Diagnose all 16 V49 insufficient-overlap rows by specificity gap, novelty gap, and exact sharper-source requirement | `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` |
 | 3 | high | done | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
-| 4 | high | todo | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 4 | high | done | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 5 | high | todo | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 6 | medium | todo | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
-| 7 | high | todo | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
-| 8 | medium | todo | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
+| 7 | high | done | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
+| 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
 | 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
 | 10 | medium | todo | Refill V50 backlog above threshold after task 9 | `meta/V50_QUEUE.md` |
+| 11 | high | todo | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 12 | high | todo | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 14 | high | todo | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
+| 15 | medium | todo | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
 
 ## Iteration Notes
 
@@ -130,4 +135,20 @@ Checked at V50 start:
   `--force-with-lease=refs/heads/main:dabc45526f3e665dc7a2110c0e0d360d1fe661d8`
   reconciliation command.
 - Current cumulative active time at `2026-06-28T13:13:23Z`: `725` seconds.
+  Target met: `false`.
+- Task 4 added five sharper segregated external records for ZMIZ1 and chr1:
+  GWAS Catalog rs1250550 MS/Crohn opposite allele rows, HMG ZMIZ1 immune-cell
+  context, GWAS Catalog chr1 rs7522462 MS locus context, JMG KIF21B MS
+  susceptibility replication context, and IUPHAR GPR25 orphan-GPCR tractability
+  context. These records are kept in the external knowledge tree; they sharpen
+  convergence/contradiction assessment without changing the grounded findings.
+- Current cumulative active time at `2026-06-28T13:28:41Z`: `1643` seconds.
+  Target met: `false`.
+- Task 4 pre-push guards: initial provenance run correctly failed when the queue
+  note repeated an external class marker outside the external tree; queue wording
+  was fixed. Final provenance PASS (`517` checks, `56` external JSON records,
+  `0` failures); external Markdown lint PASS (`383` checks, `85` Markdown
+  files, `0` failures); local `HEAD` large-blob guard PASS; tracked file size
+  guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T13:31:59Z`: `1841` seconds.
   Target met: `false`.

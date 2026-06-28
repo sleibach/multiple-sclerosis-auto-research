@@ -1,0 +1,38 @@
+{
+  "claim": "A Human Molecular Genetics study of autoimmune GWAS loci in immune cells reported rs1250551 as an MS-associated ZMIZ1 locus with mononuclear-phagocyte and vitamin-D-context expression effects.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as segregated mechanistic context unless the project's held expression/QTL data are used to rerun the ZMIZ1 cell-state and vitamin-D-context predictions.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md; docs/history/LEAD_INVENTORY_V29.md",
+    "finding_id": "ZMIZ1 opposite-direction MS/Crohn decoupling"
+  },
+  "project_use": "Sharper external mechanistic context for V50 ZMIZ1 interpretation; not evidence that the project's allele-direction finding is correct.",
+  "record_id": "claim.hmg_2019.zmiz1_dendritic_vitamin_d_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "The source overlaps ZMIZ1 and immune-cell state context, but it is mechanistic context rather than a direct MS/Crohn direction comparison.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Schibeci et al. Impact of autoimmune GWAS loci on gene expression in dendritic cells and macrophages. Human Molecular Genetics. 2019.",
+    "doi": "10.1093/hmg/ddy357",
+    "label": "HMG autoimmune GWAS loci expression study with ZMIZ1 context",
+    "url": "https://academic.oup.com/hmg/article/28/2/269/5115479"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "Publisher article metadata and short paraphrase only; full reuse terms not independently reviewed",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic metadata and a short paraphrased claim only; do not redistribute full text, figures, or tables.",
+    "terms_url": ""
+  },
+  "tags": [
+    "zmiz1",
+    "rs1250551",
+    "dendritic_cells",
+    "macrophages",
+    "vitamin_d",
+    "expression_context"
+  ],
+  "why_unverifiable": "The project has not rerun the external publication's immune-cell expression and stimulation analysis in the external layer."
+}

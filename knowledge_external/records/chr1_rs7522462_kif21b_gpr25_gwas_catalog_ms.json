@@ -1,0 +1,47 @@
+{
+  "claim": "GWAS Catalog association row 23727 lists rs7522462-G at chr1q32.1 as a multiple-sclerosis risk allele with OR 1.11 and p-value 2e-9; the row reports C1orf106 and KIF21B as author genes and the SNP's genomic context includes GPR25 in the local interval.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use as a source-specific intake record for future allele-harmonized chr1 comparison; causal-gene and tractability conclusions still require project-grounded QTL/colocalization and target-direction analysis.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md",
+    "finding_id": "chr1 KIF21B/GPR25 locus resolves to real biology but hard target"
+  },
+  "project_use": "Sharper external locus record replacing the previous broad GWAS Catalog resource-only row for V50 reassessment.",
+  "record_id": "claim.gwas_catalog.chr1_rs7522462_kif21b_gpr25_ms.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This record converges on a real MS chr1q32.1 association overlapping the project's KIF21B/GPR25 interval, while preserving causal-gene ambiguity rather than resolving it into an intervention-grade GPR25 or KIF21B target.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "api_row": {
+      "association_id": "23727",
+      "efo_trait": "multiple sclerosis",
+      "or": 1.11,
+      "p_value": 2e-9,
+      "risk_allele": "rs7522462-G",
+      "rsid": "rs7522462",
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/23727"
+    },
+    "citation": "NHGRI-EBI GWAS Catalog association row for rs7522462 queried through the public REST API.",
+    "label": "GWAS Catalog chr1 rs7522462 MS association row",
+    "url": "https://www.ebi.ac.uk/gwas/rest/api/associations/search/findByRsId?rsId=rs7522462&projection=associationBySnp"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "GWAS Catalog public API metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not treat API content as project-grounded evidence.",
+    "terms_url": "https://www.ebi.ac.uk/gwas/docs/about"
+  },
+  "tags": [
+    "chr1q32_1",
+    "rs7522462",
+    "kif21b",
+    "gpr25",
+    "c1orf106",
+    "multiple_sclerosis",
+    "gwas_catalog"
+  ],
+  "why_unverifiable": "The project has not rerun the GWAS Catalog curation, causal-gene assignment, or chr1 colocalization analysis in the external layer."
+}

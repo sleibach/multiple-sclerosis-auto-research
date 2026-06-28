@@ -1,0 +1,36 @@
+{
+  "claim": "IUPHAR/Guide to Pharmacology lists GPR25 as a Class A orphan GPCR with emerging pharmacology.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as segregated target-class context; any GPR25 intervention claim still requires project-grounded causal-gene evidence plus direction-matched pharmacology.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md",
+    "finding_id": "GPR25 demoted from protected favorite"
+  },
+  "project_use": "Sharper external tractability context for why GPR25 should not be promoted from locus context to intervention-grade target without direction-matched pharmacology.",
+  "record_id": "claim.iuphar.gpr25_orphan_gpcr_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This supports the project's caution that GPCR class membership alone is insufficient; GPR25 remains an orphan/emerging-pharmacology target context rather than a validated direction-matched MS target.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "IUPHAR/BPS Guide to Pharmacology target service record for GPR25.",
+    "label": "IUPHAR GPR25 target service record",
+    "url": "https://www.guidetopharmacology.org/services/targets?name=GPR25"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "IUPHAR service metadata; metadata-only reuse in V50",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores source metadata and a short paraphrased claim only; do not redistribute service output wholesale or treat it as project-grounded evidence.",
+    "terms_url": "https://www.guidetopharmacology.org/about.jsp#terms"
+  },
+  "tags": [
+    "gpr25",
+    "gpcr",
+    "orphan_receptor",
+    "tractability",
+    "chr1"
+  ],
+  "why_unverifiable": "The project has not independently validated GPR25 pharmacology or direction-matched targetability in held data."
+}
