@@ -152,7 +152,7 @@ Checked at V50 start:
 | 85 | medium | done | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
 | 86 | medium | done | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | done | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
-| 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
+| 88 | high | done | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 89 | medium | todo | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
 | 90 | medium | todo | Cross-link Karolinska request packet, returned-package rules, and V50 source-hit gates into one validation-intake handoff | `docs/validation/` |
 | 91 | medium | todo | Add a machine-readable future-grounding queue for non-OpenGWAS exact-cohort trigger events | `knowledge_external/synthesis/`, `analysis/` |
@@ -161,6 +161,14 @@ Checked at V50 start:
 | 94 | medium | todo | Create a compact pushed-commit ledger for V50 tasks 68 onward | `meta/` |
 | 95 | medium | todo | Add a no-silent-validation-source-counting checklist for future cohort scouts | `knowledge_external/templates/` |
 | 96 | high | todo | Refill the V50 backlog again if active time remains below target after tasks 82-87 | `meta/V50_QUEUE.md` |
+| 97 | medium | todo | Add a source-search deduplication decision table distilled from the no-recount checker outputs | `knowledge_external/synthesis/` |
+| 98 | medium | todo | Create a route-status volatility note for Crossref `429` handling in non-OpenGWAS guards | `knowledge_external/synthesis/`, `meta/` |
+| 99 | medium | todo | Add a source-search artifact dependency map linking query packets, hit reviews, no-recount index, and handoffs | `knowledge_external/synthesis/` |
+| 100 | medium | todo | Build a compact validation-source counting policy card for public readers | `knowledge_external/synthesis/` |
+| 101 | medium | todo | Check all V50 source-search artifacts for stale references to pre-task-82 index state | `analysis/`, `knowledge_external/` |
+| 102 | medium | todo | Add a lightweight local test for `v50_check_source_hit_recount.py` using a temporary generated candidate TSV outside tracked paths | `scripts/`, `analysis/` |
+| 103 | medium | todo | Prepare the V50 end-of-block run summary if the 6-hour active target is met after current verification | `meta/V50_QUEUE.md` |
+| 104 | high | todo | Continue mission-aligned V50 content work if active time remains below target after task 88 | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -1390,4 +1398,23 @@ Checked at V50 start:
   then reran cleanly at `2026-06-28T18:53:25Z` with `8` routes, `0` failures,
   and `0` OpenGWAS use.
 - Current cumulative active time at `2026-06-28T18:53:25Z`: `21127` seconds.
+  Target met: `false`.
+- Task 87 commit: `113cb29b` (`Refresh V50 checkpoint after source
+  infrastructure`). Push succeeded: `origin/main` advanced from `c56d0aad` to
+  `113cb29b`.
+- Task 88 refilled the backlog with tasks 97-104 so the block remains
+  resumable after the source-search infrastructure tranche. The new tasks focus
+  on source-count policy, route-volatility handling, artifact dependency
+  mapping, stale-reference checks, checker testing, and end-of-block summary
+  preparation if the active target is met.
+- Current cumulative active time at `2026-06-28T18:55:40Z`: `21262` seconds.
+  Target met: `false`.
+- Task 88 guards: external Markdown lint PASS (`543` checks, `125` Markdown
+  files, `0` failures); public index crosslink PASS (`119` links, `0`
+  failures); provenance PASS (`653` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); non-OpenGWAS
+  route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:57:34Z`: `21376` seconds.
   Target met: `false`.
