@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-12 17:50 CEST
+Last updated: 2026-06-28 18:42 CEST
 
 ## Mission State
 
@@ -131,8 +131,58 @@ postpartum APC-arm and T/B compartment leads, a joint-vs-recurrence weak-leg
 self-audit, stricter internal convergence nulls, SAP AI Core/RPT tooling status
 documentation, and a skeptical external account draft. No V22 rule change, no
 Gafson data read, and no discovery reopening occurred.
+V45 and V46 then ran six-hour self-directed hardening blocks. They deepened
+returned-package handling, schema validation, token-expiry safeguards,
+robustness checks, cohort-access steps, data-free validation support, and
+durable infrastructure while keeping discovery closed and locked rules
+unchanged.
+V47 added a segregated external-context knowledge layer governed by
+`docs/knowledge/EPISTEMIC_CLASSES.md` and `scripts/v47_provenance_gate.py`.
+External context is stored under `knowledge_external/` and is not project
+evidence unless a later committed grounding analysis tests it.
+V48 and V49 populated and hardened the convergence/contradiction layer. V49
+also purged disposable oversized cache paths from history, added push-safe
+ignore rules, and restored repository hygiene after the history rewrite.
+V50 is the current live operational phase. It restored healthy per-iteration
+pushes to GitHub, sharpened external-context records, built GWAS Catalog
+fetcher validation and allele-harmonization prep, added public-reader/citation
+guidance, and created non-OpenGWAS public API routes because the OpenGWAS JWT is
+expired. V50 does not change the locked V22 rule, the V42 pre-registration, or
+the V41 public-data discovery boundary.
 
 Current frontier:
+
+- V50 operational/public-knowledge state:
+  - Queue / resume backbone:
+    `meta/V50_QUEUE.md`.
+  - Latest checkpoint:
+    `meta/V50_FINAL_CHECKPOINT.md`.
+  - External-context boundary:
+    `docs/knowledge/EPISTEMIC_CLASSES.md`;
+    `knowledge_external/INDEX.md`;
+    `scripts/v47_provenance_gate.py`.
+  - Current V50 content handoff:
+    `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md`.
+  - Public-reader path and conservative description:
+    `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`;
+    `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md`;
+    `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md`;
+    `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`.
+  - Non-OpenGWAS route inventory:
+    `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`;
+    `analysis/v50_non_opengwas_route_inventory/`.
+  - Repository hygiene:
+    V49 purged oversized disposable cache paths from history; plain
+    `git push origin main` is functioning again as of V50 task 58.
+  - OpenGWAS:
+    JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until renewed.
+    Route through V50's non-OpenGWAS public APIs or wait for renewal.
+  - Current decision:
+    - Keep the grounded/external boundary explicit.
+    - Keep pushing every iteration while V50 is active.
+    - Do not run OpenGWAS-dependent work until token renewal.
+    - Treat all external-context records as navigation/context unless a later
+      project-grounding analysis tests them.
 
 - V44 single-cohort-dependence reduction state:
   - Queue / resume backbone:
@@ -235,9 +285,9 @@ Current frontier:
     - planted-signal cohort expected to pass and did pass:
       `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`.
   - OpenGWAS:
-    - POST access checked HTTP 200;
-    - JWT valid until `2026-06-19 12:28 UTC`;
-    - renew before any validation-adjacent OpenGWAS check after that timestamp.
+    - historical POST access checked HTTP 200 before expiry;
+    - JWT expired at `2026-06-19T12:28:39Z`;
+    - renew before any validation-adjacent OpenGWAS check.
   - Current decision:
     - do not tune or reopen the V22 rule;
     - acquire/receive the Gafson et al. 2018 DMF PBMC RNA-seq processed counts
@@ -278,7 +328,8 @@ Current frontier:
     - zero successes; 95% upper bound on hidden unexpected joint-validated
       signal fraction in this corpus: `0.127`.
   - Tooling:
-    - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC`, near-expiry;
+    - OpenGWAS was HTTP 200 during V41/V42-era checks, but the JWT is now
+      expired as of `2026-06-19T12:28:39Z`;
     - Claude, Gemini, and SAP RPT smoke-passed;
     - SAP RPT returned 19 predictions as a proposal/ranking lens only and did
       not change the evidence verdict.
@@ -299,8 +350,8 @@ Current frontier:
     - `analysis/v40_dimension_probes/apc_network_topology_summary.json`;
     - `analysis/v40_dimension_probes/v40_dimension_probe_summary.json`.
   - Tooling health:
-    - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC`, flagged
-      near-expiry;
+    - OpenGWAS was HTTP 200 during V40, but the JWT is now expired as of
+      `2026-06-19T12:28:39Z`;
     - Claude 4.7 Opus and Gemini 2.5 Pro smoke-passed through the existing
       SAP AI Core client;
     - SAP RPT was not used in V40 because no working call path was confirmed in
@@ -688,21 +739,24 @@ Status counts:
 
 ## OpenGWAS Access
 
-OpenGWAS access works when `.env` is loaded explicitly. This shell does not
-auto-load `.env`.
+OpenGWAS access is currently disabled because the JWT expired at
+`2026-06-19T12:28:39Z`. This shell does not auto-load `.env`, and even after
+loading `.env`, OpenGWAS-dependent work must wait for a renewed token.
 
 Verification command:
 
 - `.venv/bin/python scripts/check_opengwas_access.py`
 
-Verified on 2026-06-05:
+Historical verification on 2026-06-05:
 
 - `/user`: HTTP `200`.
 - POST `/gwasinfo` for `ieu-b-18`: HTTP `200`.
 - POST `/tophits` for `ieu-b-18`: HTTP `200`.
 
 Use OpenGWAS API v4 POST calls for `gwasinfo`, `tophits`, and `associations`.
-Do not reuse old GET-style scripts.
+Do not reuse old GET-style scripts. Do not call OpenGWAS again until token
+renewal succeeds; use V50 non-OpenGWAS routes for source discovery and
+metadata-only work in the meantime.
 
 ## V13 Genetics Checkpoint
 
@@ -858,7 +912,8 @@ grounded MS intervention hypothesis.
 
 Data gates:
 
-- OpenGWAS access verified; token valid until `2026-06-19 12:28 UTC`.
+- OpenGWAS access was verified during V17; that token expired at
+  `2026-06-19T12:28:39Z` and must be renewed before any new OpenGWAS work.
 - GTEx API reachable, but historical full eQTL archive URLs still return HTTP
   `404`; no proxy `x-deny-reason`.
 - eQTLGen full cis file reachable at `download.gcc.rug.nl` by `curl -k`;
