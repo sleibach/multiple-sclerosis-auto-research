@@ -104,7 +104,7 @@ Checked at V50 start:
 | 27 | medium | done | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
 | 28 | medium | done | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
 | 29 | medium | done | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
-| 30 | high | todo | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
+| 30 | high | done | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for T/B-readable monitoring state | `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md` |
 | 31 | high | todo | Execute a non-OpenGWAS source-search pass from the V50 remaining-source packet for EBV specificity controls | `knowledge_external/synthesis/V50_EBV_SPECIFICITY_SOURCE_SEARCH_RESULTS.md` |
 | 32 | medium | todo | Build a no-expression-import checklist for future GSE255952 steroid-panel grounding | `knowledge_external/synthesis/V50_GSE255952_IMPORT_CHECKLIST.md` |
 | 33 | medium | todo | Build a non-OpenGWAS allele-harmonization checklist for V50 GWAS Catalog rsid routes | `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_CHECKLIST.md` |
@@ -468,4 +468,18 @@ Checked at V50 start:
   and the next executable items were named explicitly. Tasks `30` through `34`
   were generated to keep the block moving after the checkpoint.
 - Current cumulative active time at `2026-06-28T14:59:37Z`: `7099` seconds.
+  Target met: `false`.
+- Tasks 9 / 22 / 29 commit: `4d561834` (`Add V50 checkpoint`). Push succeeded:
+  `origin/main` advanced from `1266bf53` to `4d561834`.
+- Task 30 wrote
+  `knowledge_external/synthesis/V50_TB_MONITORING_SOURCE_SEARCH_RESULTS.md`.
+  Result: a narrow non-OpenGWAS source search found partial B-cell,
+  IFN-beta, and immune-phenotype treatment-response candidates, but no
+  same-definition source for the T/B-readable early IFN/APC/STAT1 monitoring
+  state. The row remains insufficiently externally covered.
+- Task 30 guards: public index crosslink PASS (`88` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`480` checks, `94` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T15:06:01Z`: `7483` seconds.
   Target met: `false`.
