@@ -6,26 +6,28 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `47`
+- external records indexed: `56`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `27`
-- records with source_terms metadata: `16`
+- records with source_terms metadata: `25`
 - records missing optional source_terms metadata: `31`
 - V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `7`
 - V48 contradiction rows flagged: `0`
+- V50 additional source-specific convergences asserted: `4`
+- V50 contradictions flagged: `0`
 - placeholder skeleton linked rows: `unknown`
 
 ## Epistemic-Class Counts
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 47 |
-| `relationship_to_project_findings` | `orthogonal` | 41 |
-| `relationship_to_project_findings` | `supports` | 6 |
-| `record_type` | `external_claim` | 16 |
+| `epistemic_class` | `external-unverifiable` | 56 |
+| `relationship_to_project_findings` | `orthogonal` | 42 |
+| `relationship_to_project_findings` | `supports` | 14 |
+| `record_type` | `external_claim` | 25 |
 | `record_type` | `external_resource_catalog` | 31 |
 
 ## Navigation
@@ -59,6 +61,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 model-lens usage boundary](catalogs/indexes/V48_MODEL_LENS_USAGE_BOUNDARY.md) | Public boundary for using Claude, Gemini, and RPT as proposal lenses only. | governance/navigation only |
 | [Source URL reachability](catalogs/indexes/EXTERNAL_SOURCE_URL_REACHABILITY.md) | Transport-status maintenance report. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
+| [V50 convergence/contradiction reassessment](synthesis/CONVERGENCE_CONTRADICTION_V50.md) | Reassessment of high-priority insufficient-overlap rows after adding sharper DMF, ZMIZ1, chr1, and GPR25 source-specific records. | external agreement is context; project artifacts remain evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
 | [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |

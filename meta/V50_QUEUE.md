@@ -71,7 +71,7 @@ Checked at V50 start:
 | 3 | high | done | Acquire sharper external records for bounded APC/HLA-II monitoring and V22 immune-tone confounding without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 4 | high | done | Acquire sharper external records for ZMIZ1 and chr1 KIF21B/GPR25 direction/tractability claims without using OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 5 | high | done | Reassess convergence/contradiction rows against newly sharpened records and update counts honestly | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
-| 6 | medium | todo | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 6 | medium | done | Update public external index and reader quickstart for V50 sharper-source artifacts | `knowledge_external/INDEX.md`, `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 7 | high | done | Run provenance, public-index, external Markdown, matrix-count, large-file, tmp-path, and Git-blob guards after first V50 content iteration | `analysis/v47_provenance_gate/`, `analysis/v47_external_markdown_index_linter/` |
 | 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
 | 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
@@ -80,7 +80,7 @@ Checked at V50 start:
 | 12 | high | todo | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
-| 15 | medium | todo | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
+| 15 | medium | done | Update source-domain follow-up/index coverage for V50-added records | `knowledge_external/catalogs/indexes/`, `knowledge_external/INDEX.md` |
 
 ## Iteration Notes
 
@@ -173,3 +173,21 @@ Checked at V50 start:
   PASS; tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T13:37:12Z`: `2154` seconds.
   Target met: `false`.
+- Task 5 / 14 commit: `811f698d`
+  (`Reassess V50 convergence with sharper records`). Push attempt rejected
+  non-fast-forward because remote `main` still has the pre-rewrite history.
+- Task 6 / 15 rebuilt the external record index and source-terms coverage after
+  V50 record intake. Result: external records indexed increased to `56`,
+  missing sources `0`, missing record markers `0`, source-terms rows `56`,
+  records with explicit source_terms `25`, records missing optional source_terms
+  `31`. `knowledge_external/INDEX.md` now links the V50 reassessment.
+- Task 6 / 15 guards: public index crosslink PASS (`80` links, `0` failures);
+  public index freshness PASS (`50` checks, `0` failures); source-terms
+  freshness PASS (`224` checks, `56` coverage rows, `56` current records,
+  `0` failures); provenance PASS (`517` checks, `56` external JSON records,
+  `0` failures); local `HEAD` large-blob guard PASS; tracked file size guard
+  PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T13:40:20Z`: `2342` seconds.
+  Target met: `false`.
+- Current cumulative active time after final task 6 / 15 index correction at
+  `2026-06-28T13:43:03Z`: `2505` seconds. Target met: `false`.
