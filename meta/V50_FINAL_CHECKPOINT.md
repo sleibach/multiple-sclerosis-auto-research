@@ -5,30 +5,30 @@ target is not met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T18:16:38Z`
+- checkpoint UTC: `2026-06-28T18:53:25Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `18920` seconds
+- cumulative active time at checkpoint: `21127` seconds
 - active target: `21600` seconds
 - target met: `false`
 
 ## Git / Push
 
 - local HEAD before this checkpoint update:
-  `f889222dda954e36c320fe243e08ff2f351ab51e`
+  `c56d0aadf158df85b049f48e0be7aea3b4684ea1`
 - remote `origin/main` before this checkpoint update:
-  `f889222dda954e36c320fe243e08ff2f351ab51e`
+  `c56d0aadf158df85b049f48e0be7aea3b4684ea1`
 - push status: functioning with plain `git push origin main`
-- large-file guard status through task 79: PASS
-- tracked tmp-path guard status through task 79: PASS
-- provenance gate status through task 79: PASS (`652` checks, `71` external
+- large-file guard status through task 86: PASS
+- tracked tmp-path guard status through task 86: PASS
+- provenance gate status through task 86: PASS (`653` checks, `71` external
   JSON records, `0` failures)
-- external Markdown/index gates through task 79: PASS (`539` external Markdown
-  checks, `115` public index links, `0` failures)
-- status-freshness linter through task 79: PASS (`16` checks, `0` failures)
-- non-OpenGWAS route checker through task 79: PASS (`8` routes, `0` failures,
-  `0` OpenGWAS use)
-- public guard wrapper through task 80: PASS (`2` guard families, `0`
-  failures, `0` OpenGWAS use; checked `2026-06-28T18:16:37Z`)
+- external Markdown/index gates through task 86: PASS (`543` external Markdown
+  checks, `119` public index links, `0` failures)
+- status-freshness linter through task 86: PASS (`16` checks, `0` failures)
+- non-OpenGWAS route checker through task 87: PASS (`8` routes, `0` failures,
+  `0` OpenGWAS use; checked `2026-06-28T18:53:25Z`)
+- public guard wrapper through task 87 start: PASS (`2` guard families, `0`
+  failures, `0` OpenGWAS use; checked `2026-06-28T18:52:14Z`)
 
 Routine guard commands before each V50 push:
 
@@ -90,13 +90,24 @@ git push origin main
   exact candidates, `4` context-only rows, and `1` false positive.
 - negative source-search index: records Europe PMC, NCBI GDS, and BioStudies
   searches and their near-misses so they are not recounted as independent
-  validation cohorts.
+  validation cohorts; machine-readable companion indexes `11` rows, `9`
+  canonical clusters, `0` exact validation candidates, and `0` allowed
+  independent source counts.
 - Karolinska label-request packet: complete for parallel-cohort response-label
   access, with same-definition gates and safe intake rules.
 - source-hit independence QA: `11` rows reviewed, `0` independent source counts
   allowed, `3` duplicate/already-existing clusters, `3` partial-hit rows, `7`
   context-only rows, and `1` false positive.
-- public guard status card: PASS as of `2026-06-28T18:16:37Z`
+- source-hit no-recount checker: self-audit flagged `11 / 11` current
+  no-recount index rows as `BLOCK_RECOUNT`, with `0` pass-new rows.
+- `GSE235357` / `S-EPMC10360655` handoff: source-family accounting clarified;
+  not a fresh independent validation cohort unless a new same-definition
+  package or label/access event appears.
+- BioStudies query reproducibility packet: `8` exact BioStudies queries, API
+  URLs, `80` raw hits, `56` deduplicated hits, `6` manual-review rows, and `0`
+  verified exact candidates recorded.
+- public reader path: now includes a dedicated source-search guardrail path.
+- public guard status card: PASS as of `2026-06-28T18:52:14Z`
 - README status: refreshed to V50
 - `meta/CURRENT_STATUS.md`: refreshed to V50 and OpenGWAS-expired state
 - `meta/NEXT_ACTIONS.md`: refreshed with V50 queue/push/provenance and
@@ -153,27 +164,33 @@ git push origin main
 - `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md`
 - `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md`
 - `analysis/v50_source_hit_independence_qa/`
+- `knowledge_external/catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md`
+- `analysis/v50_negative_source_search_index/`
+- `scripts/v50_build_negative_source_search_index.py`
+- `knowledge_external/templates/V50_SOURCE_HIT_NO_RECOUNT_CHECKER.md`
+- `analysis/v50_source_hit_recount_checker/`
+- `scripts/v50_check_source_hit_recount.py`
+- `knowledge_external/synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md`
+- `knowledge_external/synthesis/V50_BIOSTUDIES_QUERY_REPRODUCIBILITY_PACKET.md`
+- `analysis/v50_biostudies_query_reproducibility/`
+- `scripts/v50_build_biostudies_query_packet.py`
 
 ## Next Executable Items
 
-The active-time target remains unmet. After task 80, refill the backlog above
-five executable items before continuing. High-value non-OpenGWAS tasks to
-generate include:
+The active-time target remains unmet. After task 87, continue with the current
+backlog. High-value non-OpenGWAS tasks include:
 
-1. generate the next V50 backlog tranche because cumulative active time is still
-   below `21600` seconds;
-2. build a machine-readable negative/near-miss source-search index from the
-   task-68, task-74, and task-79 reviews;
-3. add a no-recount checker that flags future source hits matching current
-   near-miss / duplicate clusters;
-4. write a route-specific handoff for `GSE235357` / `S-EPMC10360655`,
-   explaining why it remains already-known and not an independent validation
-   cohort;
-5. publish the exact BioStudies / ArrayExpress query reproducibility packet from
-   task 74;
-6. update the public reader path with the source-search provenance and negative
-   index;
-7. refresh this checkpoint again after the next two pushed iterations.
+1. run the remaining active-time refill item if the target remains unmet;
+2. cross-link Karolinska request packet, returned-package rules, and V50
+   source-hit gates into one validation-intake handoff;
+3. add a machine-readable future-grounding queue for non-OpenGWAS exact-cohort
+   trigger events;
+4. audit V50 content files for overclaim language after source-search updates;
+5. build a public-safe OpenGWAS-expired route note tying renewal, disabled
+   endpoints, and non-OpenGWAS alternatives together;
+6. create a compact pushed-commit ledger for V50 tasks 68 onward;
+7. add a no-silent-validation-source-counting checklist for future cohort
+   scouts.
 
 This checkpoint exists so a future session resumes without re-reading the whole
 V50 chain.

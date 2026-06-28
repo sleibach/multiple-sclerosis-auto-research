@@ -151,7 +151,7 @@ Checked at V50 start:
 | 84 | medium | done | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
 | 85 | medium | done | Publish the exact BioStudies / ArrayExpress query reproducibility packet from task 74 | `analysis/v50_biostudies_treatment_response_search/`, `knowledge_external/synthesis/` |
 | 86 | medium | done | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
-| 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
+| 87 | medium | done | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 89 | medium | todo | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
 | 90 | medium | todo | Cross-link Karolinska request packet, returned-package rules, and V50 source-hit gates into one validation-intake handoff | `docs/validation/` |
@@ -1376,5 +1376,18 @@ Checked at V50 start:
   route checker PASS (`8` routes, `0` failures, `0` OpenGWAS use); public guard
   wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use); tracked
   file size guard PASS; tracked tmp-path guard PASS.
-- Current cumulative active time at `2026-06-28T18:48:29Z`: `21131` seconds.
+- Current cumulative active time at `2026-06-28T18:48:29Z`: `20831` seconds.
+  Target met: `false`.
+- Task 86 commit: `c56d0aad` (`Update V50 public reader source search path`).
+  Push succeeded: `origin/main` advanced from `82849a04` to `c56d0aad`.
+- Task 87 reran the public guard wrapper and refreshed
+  `meta/V50_PUBLIC_GUARD_STATUS.md` and `meta/V50_FINAL_CHECKPOINT.md`. The
+  checkpoint now records source-search infrastructure through task 86, the
+  corrected active-time arithmetic, current local/remote `HEAD` at
+  `c56d0aadf158df85b049f48e0be7aea3b4684ea1`, and the latest public guard
+  wrapper PASS at `2026-06-28T18:52:14Z` with `2` guard families, `0` failures,
+  and `0` OpenGWAS use. The direct route checker transiently hit Crossref `429`,
+  then reran cleanly at `2026-06-28T18:53:25Z` with `8` routes, `0` failures,
+  and `0` OpenGWAS use.
+- Current cumulative active time at `2026-06-28T18:53:25Z`: `21127` seconds.
   Target met: `false`.
