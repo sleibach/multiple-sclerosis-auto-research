@@ -114,7 +114,15 @@ Checked at V50 start:
 | 37 | medium | done | Run source URL reachability for V50-added source URLs and summarize any transport-only issues | `knowledge_external/catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md` |
 | 38 | medium | done | Build a V50 push/publication status card showing current remote HEAD and guard status for public repo readers | `meta/V50_PUSH_STATUS_CARD.md` |
 | 39 | medium | done | Audit V50 generated artifacts for exact no-claim language around external records and queued tasks | `knowledge_external/synthesis/V50_NO_CLAIM_LANGUAGE_AUDIT.md` |
-| 40 | medium | todo | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
+| 40 | medium | done | Refill the backlog again after task 39 if cumulative active time remains below target | `meta/V50_QUEUE.md` |
+| 41 | high | todo | Build a class-aware public MS knowledge-base position card answering whether any public source matches this repo's breadth | `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md` |
+| 42 | high | todo | Build exact same-definition contradiction trigger packets for V22 and V32 so future sources cannot be over- or under-classified | `knowledge_external/synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md` |
+| 43 | medium | todo | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
+| 44 | medium | todo | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
+| 45 | medium | todo | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
+| 46 | medium | todo | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
+| 47 | medium | todo | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
+| 48 | medium | todo | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -607,4 +615,14 @@ Checked at V50 start:
   external Markdown lint PASS (`519` checks, `101` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:38:05Z`: `9407` seconds.
+  Target met: `false`.
+- Task 39 commit: `5aa91148` (`Add V50 no-claim language audit`). Push
+  succeeded: `origin/main` advanced from `3c1a368e` to `5aa91148`.
+- Task 40 refilled the backlog with eight new executable items because
+  cumulative active time remains below the `21600` second target. The new
+  items prioritize content: a public-source comparison card, exact V22/V32
+  contradiction triggers, source-route prioritization, a reusable non-OpenGWAS
+  GWAS Catalog fetcher plus validation, source-terms gap audit, public-reader
+  routing, and a post-refill checkpoint.
+- Current cumulative active time at `2026-06-28T15:40:12Z`: `9534` seconds.
   Target met: `false`.
