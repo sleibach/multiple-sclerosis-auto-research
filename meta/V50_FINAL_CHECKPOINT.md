@@ -5,21 +5,22 @@ target is not met.
 
 ## Time
 
-- checkpoint UTC: `2026-06-28T16:06:42Z`
+- checkpoint UTC: `2026-06-28T16:34:23Z`
 - block start UTC: `2026-06-28T13:01:18Z`
-- cumulative active time at checkpoint: `11124` seconds
+- cumulative active time at checkpoint: `12785` seconds
 - active target: `21600` seconds
 - target met: `false`
 
 ## Git / Push
 
-- local HEAD: `0a4ef45f29ee6637f6660789739f8ddb45977b3a`
-- remote `origin/main`: `0a4ef45f29ee6637f6660789739f8ddb45977b3a`
+- local HEAD: `3172d6d974061f17e65ff43a28d38d8faea6ed1a`
+- remote `origin/main`: `3172d6d974061f17e65ff43a28d38d8faea6ed1a`
 - push status: functioning with plain `git push origin main`
-- current working tree at checkpoint: clean before writing this file
-- large-file guard status through task 47: PASS
-- tracked tmp-path guard status through task 47: PASS
-- provenance gate status through task 47: PASS
+- current working tree before checkpoint edit: clean
+- large-file guard status through task 55: PASS
+- tracked tmp-path guard status through task 55: PASS
+- provenance gate status through task 55: PASS
+- external Markdown/index gates through task 55: PASS
 
 ## OpenGWAS
 
@@ -40,6 +41,10 @@ target is not met.
 - V50 genuine contradictions: `0`
 - task-20 confounder context records: `6`
 - GWAS Catalog fetcher validation: PASS (`12 / 12` prior rows reproduced)
+- allele-harmonization prep: complete as manifest only; `0` rows currently
+  project-direction comparable without further harmonization
+- non-OpenGWAS route inventory: `8 / 8` checked public routes returned HTTP
+  `200` after schema correction where needed; `0` OpenGWAS use
 - public repo push status: healthy as of this checkpoint
 
 ## Key Artifacts Added Or Updated
@@ -59,19 +64,28 @@ target is not met.
 - `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md`
 - `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md`
 - `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`
+- `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md`
+- `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md`
+- `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md`
+- `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md`
+- `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`
+- `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`
 - `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md`
 
 ## Next Executable Items
 
-The previous backlog is nearly exhausted and the active-time target remains
-unmet. The next iteration must refill the backlog before continuing. High-value
-non-OpenGWAS tasks to generate include:
+The active-time target remains unmet. The next iteration must refill the
+backlog before continuing. High-value non-OpenGWAS tasks to generate include:
 
-1. an allele-harmonization preparation table using the validated fetcher output;
-2. a public landing-page freshness audit for stale current-phase wording;
-3. a V50 external-record optional-terms high-priority follow-up packet;
-4. a class-aware reader card for how to cite this repository publicly;
-5. a final guard/push status checkpoint after the next content task.
+1. update public landing files using the task 51 freshness audit without moving
+   external claims into grounded status prose;
+2. convert the non-OpenGWAS route inventory into reusable route checker scripts
+   for the routes most likely to be reused;
+3. create a minimal stale-status linter that flags README/CURRENT_STATUS phase
+   mismatch without editing scientific content;
+4. build a route-specific future-grounding queue from the non-OpenGWAS API
+   inventory;
+5. refresh the push/guard checkpoint after the next two content tasks.
 
 This checkpoint exists so a future session resumes without re-reading the whole
 V50 chain.
