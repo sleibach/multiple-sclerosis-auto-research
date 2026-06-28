@@ -100,7 +100,7 @@ Checked at V50 start:
 | 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
 | 24 | high | done | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
 | 25 | medium | done | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
-| 26 | medium | todo | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
+| 26 | medium | done | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
 | 27 | medium | todo | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
 | 28 | medium | todo | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
 | 29 | medium | todo | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
@@ -414,4 +414,19 @@ Checked at V50 start:
   external Markdown lint PASS (`477` checks, `91` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:49:25Z`: `6487` seconds.
+  Target met: `false`.
+- Task 25 commit: `32a0249f` (`Add V50 GSE255952 metadata scout`). Push
+  succeeded: `origin/main` advanced from `dd146984` to `32a0249f`.
+- Task 26 wrote
+  `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md`
+  and linked it from the external index. Result: V50's `0` contradiction count
+  is constrained to same-definition, comparable-evidence records; it is not a
+  claim of broad external consensus. The audit names what future evidence would
+  count as a real contradiction for V22, V32, ZMIZ1, chr1, PTGER4, coupled APC,
+  and EBV specificity.
+- Task 26 guards: public index crosslink PASS (`86` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`478` checks, `92` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:52:28Z`: `6670` seconds.
   Target met: `false`.
