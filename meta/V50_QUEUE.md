@@ -123,7 +123,14 @@ Checked at V50 start:
 | 46 | medium | done | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
 | 47 | medium | done | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 48 | medium | done | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
-| 49 | high | todo | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
+| 49 | high | done | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
+| 50 | high | todo | Build an allele-harmonization preparation table from the validated GWAS Catalog fetcher output | `analysis/v50_allele_harmonization_prep/`, `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md` |
+| 51 | high | todo | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
+| 52 | medium | todo | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
+| 53 | medium | todo | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
+| 54 | medium | todo | Build a non-OpenGWAS external API route inventory for future safe work while the JWT is expired | `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md` |
+| 55 | medium | todo | Write a compact V50 source-specific claim glossary for public readers distinguishing convergence, context, validation, and future grounding | `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md` |
+| 56 | medium | todo | Add a V50 push/guard status checkpoint after the next two content tasks | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
 
@@ -736,4 +743,13 @@ Checked at V50 start:
   OpenGWAS remains expired; checkpoint states cumulative active time is still
   below target and the next step must be backlog refill.
 - Current cumulative active time at `2026-06-28T16:07:19Z`: `11161` seconds.
+  Target met: `false`.
+- Task 48 commit: `a8a1bc10` (`Update V50 checkpoint`). Push succeeded:
+  `origin/main` advanced from `0a4ef45f` to `a8a1bc10`.
+- Task 49 refilled the backlog with seven executable items because cumulative
+  active time remains below target. The new items prioritize content and public
+  usability: allele-harmonization prep, landing-page freshness, public citation
+  wording, high-priority source-terms follow-up, non-OpenGWAS route inventory,
+  relationship glossary, and a later push/guard checkpoint.
+- Current cumulative active time at `2026-06-28T16:08:56Z`: `11258` seconds.
   Target met: `false`.
