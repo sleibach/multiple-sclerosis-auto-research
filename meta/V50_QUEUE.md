@@ -121,7 +121,7 @@ Checked at V50 start:
 | 44 | medium | done | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
 | 45 | medium | done | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
 | 46 | medium | done | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
-| 47 | medium | todo | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
+| 47 | medium | done | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 48 | medium | todo | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
 
 ## Iteration Notes
@@ -712,4 +712,18 @@ Checked at V50 start:
   external Markdown lint PASS (`524` checks, `106` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:01:14Z`: `10796` seconds.
+  Target met: `false`.
+- Task 46 commit: `ff0d0f5e` (`Add V50 source terms gap audit`). Push
+  succeeded: `origin/main` advanced from `907d1a00` to `ff0d0f5e`.
+- Task 47 wrote `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` and
+  linked it from the external index. Result: public readers now have a short
+  path from `README.md` and `meta/CURRENT_STATUS.md` to the V37 findings report,
+  V42 validation plan, V47 epistemic-class boundary, V50 content handoff, and
+  V50 public-source position card without moving external claims into grounded
+  files.
+- Task 47 guards: public index crosslink PASS (`101` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`525` checks, `107` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:04:55Z`: `11017` seconds.
   Target met: `false`.
