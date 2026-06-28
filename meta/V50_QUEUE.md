@@ -120,7 +120,7 @@ Checked at V50 start:
 | 43 | medium | done | Rank V50 external source routes by decision value and executability while OpenGWAS is expired | `knowledge_external/synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md` |
 | 44 | medium | done | Implement a reusable non-OpenGWAS GWAS Catalog association fetcher for queued rsid follow-up routes | `scripts/v50_fetch_gwas_catalog_associations.py` |
 | 45 | medium | done | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
-| 46 | medium | todo | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
+| 46 | medium | done | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
 | 47 | medium | todo | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 48 | medium | todo | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -697,4 +697,19 @@ Checked at V50 start:
   external Markdown lint PASS (`523` checks, `105` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T15:57:20Z`: `10562` seconds.
+  Target met: `false`.
+- Task 45 commit: `907d1a00` (`Validate V50 GWAS Catalog fetcher`). Push
+  succeeded: `origin/main` advanced from `de5b5e2d` to `907d1a00`.
+- Task 46 wrote
+  `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` and
+  linked it from the external index. Result: source-terms coverage remains `40`
+  present and `31` missing optional, but no V50 sharper source-specific record
+  is missing optional terms. High-value follow-up is limited to active or
+  strategically important resources such as GWAS Catalog, MSGD, MSDA, MSBase,
+  and NARCOMS, plus the shared Nature MS-IBD source if future reuse deepens.
+- Task 46 guards: public index crosslink PASS (`100` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`524` checks, `106` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:01:14Z`: `10796` seconds.
   Target met: `false`.
