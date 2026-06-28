@@ -145,7 +145,7 @@ Checked at V50 start:
 | 78 | medium | done | Add a public non-OpenGWAS search provenance card tying route checks, search outputs, and safe interpretations together | `knowledge_external/synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md` |
 | 79 | medium | done | Run a source-hit duplicate/independence QA pass on V50 non-OpenGWAS cohort-search outputs | `analysis/v50_source_hit_independence_qa/`, `knowledge_external/synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md` |
 | 80 | medium | done | Refresh V50 checkpoint and public guard status after the next two source-search QA iterations | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
-| 81 | high | todo | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
+| 81 | high | done | Refill the V50 backlog because cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
 | 82 | medium | todo | Build a machine-readable negative/near-miss source-search index from task-68, task-74, and task-79 rows | `analysis/v50_negative_source_search_index/`, `knowledge_external/catalogs/indexes/` |
 | 83 | medium | todo | Add a no-recount checker that flags source hits matching current duplicate or near-miss validation-source clusters | `scripts/`, `analysis/` |
 | 84 | medium | todo | Write a route-specific handoff for `GSE235357` / `S-EPMC10360655` explaining already-known status and non-independence | `knowledge_external/synthesis/` |
@@ -153,6 +153,14 @@ Checked at V50 start:
 | 86 | medium | todo | Update the class-aware public reader path with source-search provenance and negative-index links | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 87 | medium | todo | Re-run public guards and refresh checkpoint after the next two source-search infrastructure items | `meta/V50_FINAL_CHECKPOINT.md`, `meta/V50_PUBLIC_GUARD_STATUS.md` |
 | 88 | high | todo | Refill the V50 backlog again if cumulative active time remains below the 6-hour target | `meta/V50_QUEUE.md` |
+| 89 | medium | todo | Add a compact source-search deduplication decision table for public readers | `knowledge_external/synthesis/` |
+| 90 | medium | todo | Cross-link Karolinska request packet, returned-package rules, and V50 source-hit gates into one validation-intake handoff | `docs/validation/` |
+| 91 | medium | todo | Add a machine-readable future-grounding queue for non-OpenGWAS exact-cohort trigger events | `knowledge_external/synthesis/`, `analysis/` |
+| 92 | medium | todo | Audit V50 content files for overclaim language after source-search and convergence/contradiction updates | `analysis/`, `knowledge_external/synthesis/` |
+| 93 | medium | todo | Build a public-safe OpenGWAS-expired route note tying renewal, disabled endpoints, and non-OpenGWAS alternatives together | `meta/`, `knowledge_external/synthesis/` |
+| 94 | medium | todo | Create a compact pushed-commit ledger for V50 tasks 68 onward | `meta/` |
+| 95 | medium | todo | Add a no-silent-validation-source-counting checklist for future cohort scouts | `knowledge_external/templates/` |
+| 96 | high | todo | Refill the V50 backlog again if active time remains below target after tasks 82-87 | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -1246,4 +1254,24 @@ Checked at V50 start:
   validation-cohort result, and the backlog refill requirement because the
   active target remains unmet.
 - Current cumulative active time at `2026-06-28T18:16:38Z`: `18920` seconds.
+  Target met: `false`.
+- Task 80 commit: `30b240b9` (`Refresh V50 checkpoint after source search QA`).
+  Push succeeded by plain fast-forward: `origin/main` advanced from `f889222d`
+  to `30b240b9`. This resolves the stale `--force-with-lease` symptom in
+  practice: current policy is plain `git push origin main` after guard pass.
+- Task 81 refilled the executable backlog with tasks 89-96, prioritizing
+  source-search deduplication, validation-intake handoff, future trigger queues,
+  overclaim audit, expired-OpenGWAS routing, pushed-commit ledger, and a future
+  scout checklist. This is queue maintenance only; no biological claim.
+- Current cumulative active time at `2026-06-28T18:19:45Z`: `19107` seconds.
+  Target met: `false`.
+- Task 81 guards: external Markdown lint PASS (`539` checks, `121` Markdown
+  files, `0` failures); public index crosslink PASS (`115` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); status freshness PASS (`16` checks, `0` failures); public guard
+  wrapper PASS (`2` guard families, `0` failures, `0` OpenGWAS use). The direct
+  non-OpenGWAS route checker first hit a transient Crossref `429`, then reran
+  cleanly at `2026-06-28T18:21:37Z` with `8` routes, `0` failures, and `0`
+  OpenGWAS use. Tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T18:21:44Z`: `19226` seconds.
   Target met: `false`.
