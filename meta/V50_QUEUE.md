@@ -122,7 +122,8 @@ Checked at V50 start:
 | 45 | medium | done | Validate the GWAS Catalog fetcher against the existing V50 rsid routing output and write a reproducibility note | `analysis/v50_gwas_catalog_fetcher_validation/`, `knowledge_external/synthesis/V50_GWAS_FETCHER_VALIDATION.md` |
 | 46 | medium | done | Audit V50 records missing optional source_terms metadata and queue only value-adding source-terms follow-ups | `knowledge_external/catalogs/indexes/V50_SOURCE_TERMS_GAP_AUDIT.md` |
 | 47 | medium | done | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
-| 48 | medium | todo | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
+| 48 | medium | done | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
+| 49 | high | todo | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
 
 ## Iteration Notes
 
@@ -726,4 +727,13 @@ Checked at V50 start:
   external Markdown lint PASS (`525` checks, `107` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T16:04:55Z`: `11017` seconds.
+  Target met: `false`.
+- Task 47 commit: `0a4ef45f` (`Add V50 public reader path`). Push succeeded:
+  `origin/main` advanced from `ff0d0f5e` to `0a4ef45f`.
+- Task 48 refreshed `meta/V50_FINAL_CHECKPOINT.md`. Result: local `HEAD` and
+  remote `origin/main` both point to
+  `0a4ef45f29ee6637f6660789739f8ddb45977b3a`; plain pushes are functioning;
+  OpenGWAS remains expired; checkpoint states cumulative active time is still
+  below target and the next step must be backlog refill.
+- Current cumulative active time at `2026-06-28T16:07:19Z`: `11161` seconds.
   Target met: `false`.
