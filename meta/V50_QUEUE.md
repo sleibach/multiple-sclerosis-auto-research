@@ -124,7 +124,7 @@ Checked at V50 start:
 | 47 | medium | done | Produce a V50 public-reader short path from GitHub landing page to grounded vs external knowledge boundaries | `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md` |
 | 48 | medium | done | Add a V50 post-refill push/status checkpoint after the next content iteration | `meta/V50_FINAL_CHECKPOINT.md` |
 | 49 | high | done | Refill the backlog again after task 48 because active target remains unmet | `meta/V50_QUEUE.md` |
-| 50 | high | todo | Build an allele-harmonization preparation table from the validated GWAS Catalog fetcher output | `analysis/v50_allele_harmonization_prep/`, `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md` |
+| 50 | high | done | Build an allele-harmonization preparation table from the validated GWAS Catalog fetcher output | `analysis/v50_allele_harmonization_prep/`, `knowledge_external/synthesis/V50_ALLELE_HARMONIZATION_PREP.md` |
 | 51 | high | todo | Audit public landing-page freshness so GitHub readers are not misled by stale current-phase wording | `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md` |
 | 52 | medium | todo | Produce a class-aware public citation/description card for how to describe the repository without overclaiming | `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md` |
 | 53 | medium | todo | Build a high-priority source-terms follow-up packet for the five resource rows identified in task 46 | `knowledge_external/catalogs/indexes/V50_HIGH_PRIORITY_SOURCE_TERMS_PACKET.md` |
@@ -752,4 +752,19 @@ Checked at V50 start:
   wording, high-priority source-terms follow-up, non-OpenGWAS route inventory,
   relationship glossary, and a later push/guard checkpoint.
 - Current cumulative active time at `2026-06-28T16:08:56Z`: `11258` seconds.
+  Target met: `false`.
+- Task 49 commit: `3bdec2a5` (`Refill V50 post-checkpoint backlog`). Push
+  succeeded: `origin/main` advanced from `a8a1bc10` to `3bdec2a5`.
+- Task 50 built the allele-harmonization preparation manifest from the
+  validated GWAS Catalog fetcher output. Result: `12` source rows, `5`
+  direction-input candidate rows, `5` rows missing or ambiguous for reported
+  allele use, `2` background rows, and `0` rows currently comparable to project
+  direction without separate strand/orientation/effect-convention resolution.
+  This is an input manifest only; it is not direction evidence.
+- Task 50 guards: external Markdown lint PASS (`526` checks, `108` Markdown
+  files, `0` failures); public index crosslink PASS (`102` links, `0`
+  failures); provenance PASS (`652` checks, `71` external JSON records, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS; local
+  `HEAD` large-blob guard PASS; local `HEAD` tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T16:14:02Z`: `11564` seconds.
   Target met: `false`.
