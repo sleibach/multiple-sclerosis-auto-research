@@ -1,6 +1,6 @@
-# V49 Reader Quickstart
+# V49/V50 Reader Quickstart
 
-Status: navigation only. This quickstart routes common V49 questions to the
+Status: navigation only. This quickstart routes common V49/V50 questions to the
 right artifact. It does not add evidence or change any finding.
 
 ## Start Here
@@ -31,17 +31,31 @@ right artifact. It does not add evidence or change any finding.
 | What are the source-terms follow-ups? | `V49_SOURCE_TERMS_FOLLOWUP.md` | Separates metadata-only current use from fuller-reuse terms/access review. |
 | What happened to the V48 unresolved handoff? | `V49_UNRESOLVED_ACTION_RECONCILIATION.md` | Marks V48 rows as covered, narrowed, closed-unless-triggered, or unchanged after V49. |
 
+## V50 Sharper-Source Routing
+
+| question | read this first | why |
+|---|---|---|
+| What did V50 add beyond V49? | `V50_CONTENT_HANDOFF.md` | Compact handoff for the V50 source-specific corroborations, non-corroborations, and zero-contradiction caveat. |
+| Which V49 insufficient-overlap rows were worth sharpening? | `V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md` | Diagnoses the 16 insufficient-overlap rows by source-specificity gap, project-specific novelty, resource-metadata limitation, or context-only status. |
+| What is the updated V50 convergence/contradiction result? | `CONVERGENCE_CONTRADICTION_V50.md` | Reassesses high-priority rows after adding source-specific DMF, ZMIZ1, chr1, coupled APC, EBV, Crohn, and PTGER4 records. |
+| Which V50 records are now future grounding tasks? | `FUTURE_GROUNDING_QUEUE_V50.md` | Routes all 18 V50 sharper records into immediate non-OpenGWAS tasks, blocked-data routes, or context-only records. |
+| Did V50 validate the locked V22 scalar externally? | `V50_CONTENT_HANDOFF.md`; detail: `CONVERGENCE_CONTRADICTION_V50.md` | No. V50 sharpened DMF validation context but did not find an external source that independently tests the frozen V22 scalar or confounder audit. |
+| Which V50 genetics rows are strongest? | `CONVERGENCE_CONTRADICTION_V50.md` | ZMIZ1 opposite-direction and PTGER4 transfer-caution rows now have source-specific GWAS Catalog support; future allele-harmonized reruns remain separate tasks. |
+| What is safe to run while OpenGWAS is expired? | `FUTURE_GROUNDING_QUEUE_V50.md` | Lists three immediate non-OpenGWAS routes based on public GWAS Catalog records, and blocks OpenGWAS-dependent refresh until renewal. |
+
 ## Minimal Resume Path
 
 If resuming V49/V50 with little context, read in this order:
 
-1. `meta/V49_REWRITE_PUSH_HANDOFF.md`
-2. `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`
-3. `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md`
-4. `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
-5. `knowledge_external/synthesis/V49_READER_QUICKSTART.md`
-6. `knowledge_external/synthesis/V49_CONTRADICTION_ROUTING_AUDIT.md`
-7. `meta/V49_QUEUE.md`
+1. `meta/V50_QUEUE.md`
+2. `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md`
+3. `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md`
+4. `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md`
+5. `knowledge_external/synthesis/V50_INSUFFICIENT_OVERLAP_DIAGNOSIS.md`
+6. `knowledge_external/synthesis/V49_CONTENT_HANDOFF.md`
+7. `knowledge_external/synthesis/V49_UNRESOLVED_ACTION_RECONCILIATION.md`
+8. `meta/V49_REWRITE_PUSH_HANDOFF.md`
+9. `meta/V49_PURGED_ARTIFACT_REFERENCE_AUDIT.md`
 
 ## Boundary Reminder
 

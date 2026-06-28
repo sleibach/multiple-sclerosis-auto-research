@@ -93,7 +93,7 @@ Checked at V50 start:
 | 16 | high | done | Acquire PTGER4-specific external records for MS/IBD signal conflict and naive-transfer closure | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 17 | high | done | Build V50 future-grounding delta queue for all newly sharper records that are groundable without OpenGWAS | `knowledge_external/synthesis/FUTURE_GROUNDING_QUEUE_V50.md` |
 | 18 | medium | done | Write a V50 medical-team content handoff summarizing corroborations, non-corroborations, and no-contradiction caveat | `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md` |
-| 19 | medium | todo | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
+| 19 | medium | done | Update V49/V50 reader quickstart routing for sharper-source records and V50 matrix | `knowledge_external/synthesis/V49_READER_QUICKSTART.md` |
 | 20 | high | todo | Acquire source-specific records for treatment-response confounder/steroid/composition literature, if any, without OpenGWAS | `knowledge_external/records/`, `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
 | 21 | medium | todo | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
@@ -317,4 +317,17 @@ Checked at V50 start:
   external Markdown lint PASS (`430` checks, `88` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:22:11Z`: `4853` seconds.
+  Target met: `false`.
+- Task 18 commit: `ce00beb8` (`Add V50 content handoff`). Push succeeded:
+  `origin/main` advanced from `cd132cff` to `ce00beb8`.
+- Task 19 updated `knowledge_external/synthesis/V49_READER_QUICKSTART.md` into
+  a V49/V50 routing guide. The new V50 section points readers to the V50
+  content handoff, insufficient-overlap diagnosis, updated matrix, future
+  grounding queue, treatment-response non-corroboration, strongest genetics
+  rows, and OpenGWAS-expired safe routes.
+- Task 19 guards: public index crosslink PASS (`82` links, `0` failures);
+  provenance PASS (`598` checks, `65` external JSON records, `0` failures);
+  external Markdown lint PASS (`430` checks, `88` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:25:15Z`: `5037` seconds.
   Target met: `false`.
