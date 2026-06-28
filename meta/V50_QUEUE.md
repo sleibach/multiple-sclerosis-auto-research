@@ -101,7 +101,7 @@ Checked at V50 start:
 | 24 | high | done | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
 | 25 | medium | done | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
 | 26 | medium | done | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
-| 27 | medium | todo | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
+| 27 | medium | done | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
 | 28 | medium | todo | Write OpenGWAS-expired safe-route handoff for V50/V51 non-OpenGWAS work and renewal trigger | `meta/V50_OPENGWAS_EXPIRED_HANDOFF.md` |
 | 29 | medium | todo | Add a final V50 checkpoint after the next push cycle with counts, remote status, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 
@@ -429,4 +429,18 @@ Checked at V50 start:
   external Markdown lint PASS (`478` checks, `92` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:52:28Z`: `6670` seconds.
+  Target met: `false`.
+- Task 26 commit: `d5ecd86b` (`Add V50 contradiction specificity audit`). Push
+  succeeded: `origin/main` advanced from `32a0249f` to `d5ecd86b`.
+- Task 27 wrote
+  `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` and
+  linked it from the external index. Result: future source search is narrowed to
+  two remaining rows, T/B-readable early IFN/APC/STAT1 monitoring state and
+  EBV/IFN APC imprint specificity, with query packets, acceptance gates, and
+  rejection rules to avoid generic disease-course or EBV-risk sources.
+- Task 27 guards: public index crosslink PASS (`87` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`479` checks, `93` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:55:22Z`: `6844` seconds.
   Target met: `false`.
