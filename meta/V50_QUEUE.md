@@ -98,7 +98,7 @@ Checked at V50 start:
 | 21 | medium | done | Run a V50 source-domain independence/dedup check over newly added records to avoid overcounting PubMed and GWAS Catalog clusters | `knowledge_external/synthesis/V50_SOURCE_INDEPENDENCE_DELTA.md` |
 | 22 | medium | todo | Add a V50 resume/checkpoint card with push status, OpenGWAS expiry, current counts, and next executable item | `meta/V50_FINAL_CHECKPOINT.md` |
 | 23 | medium | done | Refill V50 executable backlog after task 20 to keep the block above threshold | `meta/V50_QUEUE.md` |
-| 24 | high | todo | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
+| 24 | high | done | Draft non-OpenGWAS GWAS Catalog allele-routing plan for rs1250550, rs4613763, and rs7522462 | `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` |
 | 25 | medium | todo | Scout GSE255952 metadata and schema route for methylprednisolone B/T-cell transcriptome grounding without importing expression values | `knowledge_external/synthesis/V50_GSE255952_METADATA_SCOUT.md` |
 | 26 | medium | todo | Audit zero-contradiction specificity after V50 sharper records so broad context rows are not over-read as consensus | `knowledge_external/synthesis/V50_ZERO_CONTRADICTION_SPECIFICITY_AUDIT.md` |
 | 27 | medium | todo | Build a remaining-source search packet for T/B-readable monitoring state and EBV specificity controls | `knowledge_external/synthesis/V50_REMAINING_SOURCE_SEARCH_PACKET.md` |
@@ -384,4 +384,19 @@ Checked at V50 start:
   external Markdown lint PASS (`475` checks, `89` Markdown files, `0`
   failures); tracked file size guard PASS; tracked tmp-path guard PASS.
 - Current cumulative active time at `2026-06-28T14:40:39Z`: `5961` seconds.
+  Target met: `false`.
+- Task 21 commit: `7a9202b8` (`Add V50 source independence delta`). Push
+  succeeded: `origin/main` advanced from `ae814490` to `7a9202b8`.
+- Task 24 queried the EBI GWAS Catalog public API, without OpenGWAS, for
+  `rs1250550`, `rs4613763`, and `rs7522462`, writing
+  `analysis/v50_gwas_catalog_allele_routing/gwas_catalog_rsid_rows_v50.tsv`
+  with `12` returned rows and
+  `knowledge_external/synthesis/V50_GWAS_CATALOG_ALLELE_ROUTING.md` with the
+  safe follow-up plan. The route keeps ZMIZ1 and PTGER4 as allele-harmonization
+  tasks and chr1 as locus-context only.
+- Task 24 guards: public index crosslink PASS (`84` links, `0` failures);
+  provenance PASS (`652` checks, `71` external JSON records, `0` failures);
+  external Markdown lint PASS (`476` checks, `90` Markdown files, `0`
+  failures); tracked file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T14:45:04Z`: `6226` seconds.
   Target met: `false`.
