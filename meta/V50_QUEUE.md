@@ -76,7 +76,7 @@ Checked at V50 start:
 | 8 | medium | done | Commit first V50 content iteration and attempt plain push; record success or blocker | `meta/V50_QUEUE.md` |
 | 9 | medium | todo | Refresh final/resume checkpoints or add V50 checkpoint card after first guard/push cycle | `meta/V50_QUEUE.md` |
 | 10 | medium | todo | Refill V50 backlog above threshold after task 9 | `meta/V50_QUEUE.md` |
-| 11 | high | todo | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
+| 11 | high | done | Acquire sharper external records for coupled APC-axis compartment/cell-interaction claims | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 12 | high | todo | Acquire sharper external records for EBV-specificity and EBV/IFN APC imprint context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 13 | medium | todo | Acquire sharper external records for Crohn/IBD IFN/APC treatment-response transfer context | `knowledge_external/records/`, `knowledge_external/synthesis/` |
 | 14 | high | done | Reassess ZMIZ1 and chr1 rows specifically against the new V50 source-specific records | `knowledge_external/synthesis/CONVERGENCE_CONTRADICTION_V50.md` |
@@ -191,3 +191,23 @@ Checked at V50 start:
   Target met: `false`.
 - Current cumulative active time after final task 6 / 15 index correction at
   `2026-06-28T13:43:03Z`: `2505` seconds. Target met: `false`.
+- Task 11 added three sharper coupled APC-axis external records: EJI 2018
+  MIF/CD74/CXCR4 in MS B cells, NCBI Gene CD74 MHC-II/MIF molecular context,
+  and J Immunol 2014 HLA-DRA1/CD74/MIF EAE context. The V50 reassessment now
+  classifies the coupled APC remodeling architecture as externally
+  corroborated at the molecular/mechanistic-context level, not externally
+  validated as the exact V26 axis.
+- Task 11 regenerated external indexes after record intake: external records
+  indexed `59`, source-terms rows `59`, records with explicit source_terms
+  `28`, missing sources `0`, missing record markers `0`. Public index V50
+  convergence count updated to `7`.
+- Current cumulative active time at `2026-06-28T13:47:42Z`: `2784` seconds.
+  Target met: `false`.
+- Task 11 guards: public index crosslink PASS (`80` links, `0` failures);
+  source-terms freshness PASS (`236` checks, `59` coverage rows, `59` current
+  records, `0` failures); provenance PASS (`544` checks, `59` external JSON
+  records, `0` failures); external Markdown lint PASS (`408` checks, `86`
+  Markdown files, `0` failures); local `HEAD` large-blob guard PASS; tracked
+  file size guard PASS; tracked tmp-path guard PASS.
+- Current cumulative active time at `2026-06-28T13:49:44Z`: `2906` seconds.
+  Target met: `false`.

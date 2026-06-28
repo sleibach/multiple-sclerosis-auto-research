@@ -1,0 +1,39 @@
+{
+  "claim": "A European Journal of Immunology study reported that MIF and the MIF receptor CD74 were downregulated, while CXCR4 was upregulated, in B cells from early MS patients, and described reciprocal regulation among MIF, CD74, and CXCR4 in human B cells.",
+  "date_accessed": "2026-06-28",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as segregated MS B-cell MIF/CD74 context unless the project's held cell-state data are used to rerun B-cell MIF/CD74/CXCR4 scoring and compare it to the V26 coupled-axis loadings.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/workups/deep_structure/DEEP_STRUCTURE_V26.md",
+    "finding_id": "Coupled APC remodeling architecture"
+  },
+  "project_use": "Sharper external context for the MIF-CD74 receptor-state side of the V26 coupled APC-axis architecture.",
+  "record_id": "claim.eji_2018.mif_cd74_bcell_ms_context.2026-06-28",
+  "record_type": "external_claim",
+  "relationship_note": "This source overlaps MS, B cells, MIF, CD74, and CXCR4, but it does not independently reproduce the project's cross-modality coupled HLA/IFN-APC plus MIF-CD74 architecture.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Klasen et al. The macrophage migration inhibitory factor pathway in human B cells is tightly controlled and dysregulated in multiple sclerosis. European Journal of Immunology. 2018.",
+    "doi": "10.1002/eji.201847623",
+    "label": "EJI MIF/CD74 pathway in human B cells and MS",
+    "pmid": "30160778",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30160778/"
+  },
+  "source_terms": {
+    "checked_date": "2026-06-28",
+    "license_or_terms_label": "PubMed bibliographic metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "V50 stores bibliographic metadata and a short paraphrased claim only; do not redistribute article text or treat it as project-grounded evidence.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "mif",
+    "cd74",
+    "cxcr4",
+    "b_cells",
+    "multiple_sclerosis",
+    "coupled_apc_axis"
+  ],
+  "why_unverifiable": "The project has not rerun the external publication's B-cell expression and functional analysis in the external layer."
+}
