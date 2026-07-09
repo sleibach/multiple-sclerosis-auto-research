@@ -77,9 +77,11 @@ ALLOWED_NON_EXTERNAL_PREFIXES = [
     "analysis/v48_source_terms_metadata_linter/",
     "analysis/v48_support_contradiction_coverage_linter/",
     "analysis/v48_v37_gap_priority_freshness_linter/",
+    "analysis/v51_structural_prediction_gate/",
     "scripts/v47_provenance_gate.py",
     "meta/V47_QUEUE.md",
     "meta/V48_QUEUE.md",
+    "meta/V51_QUEUE.md",
 ]
 EXTERNAL_MARKERS = [
     "external-verifiable",
@@ -148,6 +150,18 @@ def external_json_files(root: Path) -> list[Path]:
     base = root / EXTERNAL_ROOT
     if not base.exists():
         return []
+
+    def is_structural_payload(path: Path) -> bool:
+        rel_path = rel(root, path)
+        if not rel_path.startswith(f"{EXTERNAL_ROOT}/structures/"):
+            return False
+        if path.name == "record.json":
+            return False
+        data, _ = load_json(path)
+        if isinstance(data, dict) and data.get("record_type") == "structural_prediction":
+            return False
+        return True
+
     return sorted(
         path
         for path in base.rglob("*.json")
@@ -155,6 +169,7 @@ def external_json_files(root: Path) -> list[Path]:
         and f"{EXTERNAL_ROOT}/catalogs/indexes/" not in rel(root, path)
         and "schema" not in path.parts
         and not path.name.endswith(".schema.json")
+        and not is_structural_payload(path)
     )
 
 

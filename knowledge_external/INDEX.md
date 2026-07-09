@@ -6,12 +6,12 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `71`
+- external records indexed: `72`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `35`
 - records with source_terms metadata: `40`
-- records missing optional source_terms metadata: `31`
+- records missing optional source_terms metadata: `32`
 - V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `7`
@@ -24,11 +24,12 @@ Grounded project findings remain in the normal project report/history/validation
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 71 |
+| `epistemic_class` | `external-unverifiable` | 72 |
 | `relationship_to_project_findings` | `orthogonal` | 44 |
-| `relationship_to_project_findings` | `supports` | 27 |
+| `relationship_to_project_findings` | `supports` | 28 |
 | `record_type` | `external_claim` | 40 |
 | `record_type` | `external_resource_catalog` | 31 |
+| `record_type` | `structural_prediction` | 1 |
 
 ## Navigation
 
@@ -127,6 +128,8 @@ Grounded project findings remain in the normal project report/history/validation
 | [V50 public reader path](synthesis/V50_PUBLIC_READER_PATH.md) | Short GitHub-to-evidence route showing how to navigate grounded findings and external context without mixing them. | class-aware public navigation only |
 | [V50 public citation card](synthesis/V50_PUBLIC_CITATION_CARD.md) | Conservative public wording for describing or citing the repository without overstating validation, novelty, or external consensus. | class-aware public navigation only |
 | [V50 relationship glossary](synthesis/V50_RELATIONSHIP_GLOSSARY.md) | Compact definitions for convergence, contradiction, validation, context, insufficient overlap, and future grounding. | class-aware public navigation only |
+| [External structural predictions](structures/README.md) | Browse segregated AlphaFold-style predicted structure records and confidence payloads. | structural predictions are external context only |
+| [V51 GPR25 AlphaFold context](synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md) | Confidence-qualified AlphaFold DB context for GPR25 druggability-direction discussion. | prediction-informed context only |
 | [V50 V22/V32 contradiction trigger packet](synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md) | Same-definition intake rules for future sources before V22/V32 convergence or contradiction can be asserted. | future-grounding control |
 | [V50 next source prioritization](synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md) | Ranking of V50 source routes by decision value and executability while OpenGWAS is expired. | synthesis/navigation only |
 | [V50 non-OpenGWAS route inventory](synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md) | Smoke-tested public API routes that remain usable while the OpenGWAS JWT is expired. | routing/navigation only |

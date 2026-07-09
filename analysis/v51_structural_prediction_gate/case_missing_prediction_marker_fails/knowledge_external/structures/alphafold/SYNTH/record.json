@@ -1,0 +1,41 @@
+{
+  "claim": "Synthetic AlphaFold-style structural-prediction record used only to test the V51 gate.",
+  "confidence": {
+    "pae": {
+      "matrix_path": "knowledge_external/structures/alphafold/SYNTH/synthetic_pae.json",
+      "mean": 0.5
+    },
+    "plddt": {
+      "mean": 85.0,
+      "per_residue_path": "knowledge_external/structures/alphafold/SYNTH/synthetic_plddt.tsv"
+    }
+  },
+  "date_accessed": "2026-07-09",
+  "epistemic_class": "external-unverifiable",
+  "model": {
+    "model_entity_id": "AF-SYNTH-F1",
+    "model_version": "synthetic-v1",
+    "retrieval_date": "2026-07-09",
+    "source": "Synthetic AlphaFold-like fixture",
+    "source_url": "https://example.invalid/alphafold/synthetic"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "protein": {
+    "gene_symbol": "SYNTH",
+    "organism": "Synthetic organism",
+    "sequence": "MA",
+    "sequence_source": "synthetic fixture",
+    "uniprot_id": "SYNTH"
+  },
+  "record_id": "V51_SYNTH_STRUCTURAL_GOOD",
+  "record_type": "structural_prediction",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "label": "Synthetic AlphaFold fixture",
+    "url": "https://example.invalid/alphafold/synthetic"
+  },
+  "structure_files": {
+    "pdb_path": "knowledge_external/structures/alphafold/SYNTH/synthetic.pdb"
+  },
+  "why_unverifiable": "Synthetic fixture and predicted-structure class are not project-grounded experimental evidence."
+}

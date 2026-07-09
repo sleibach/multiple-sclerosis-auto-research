@@ -18,5 +18,7 @@ Required principle:
   conclusions.
 
 Machine-readable external claim records belong under `knowledge_external/records/`.
+Structural-prediction records and their confidence payloads belong under
+`knowledge_external/structures/` and must also pass the V51 structural gate.
 Class-aware syntheses and catalogues belong under `knowledge_external/synthesis/`
 or a dedicated subdirectory created with the same provenance fields.

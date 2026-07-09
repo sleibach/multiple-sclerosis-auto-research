@@ -1,0 +1,92 @@
+{
+  "claim": "AlphaFold DB provides a predicted structure for GPR25 (O00155) with mean pLDDT 82.447 and mean PAE 12.9196; this is predicted structural context, not experimental evidence.",
+  "confidence": {
+    "pae": {
+      "fraction_le_10": 0.568826,
+      "fraction_le_20": 0.705934,
+      "fraction_le_5": 0.372856,
+      "matrix_path": "knowledge_external/structures/alphafold/GPR25_O00155/AF-O00155-F1-predicted_aligned_error_v6.json",
+      "max": 32.0,
+      "max_predicted_aligned_error": 31.75,
+      "mean": 12.9196,
+      "median": 8.0,
+      "min": 0.0,
+      "n_cols": 361,
+      "n_rows": 361,
+      "n_values": 130321,
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-O00155-F1-predicted_aligned_error_v6.json",
+      "stored_locally": true
+    },
+    "plddt": {
+      "fraction_confident_ge_70": 0.795014,
+      "fraction_low_lt_50": 0.141274,
+      "fraction_very_high_ge_90": 0.598338,
+      "low_confidence_segments_lt_50": [
+        {
+          "end": 28,
+          "length": 28,
+          "start": 1
+        },
+        {
+          "end": 360,
+          "length": 23,
+          "start": 338
+        }
+      ],
+      "max": 98.31,
+      "mean": 82.447,
+      "median": 92.06,
+      "min": 30.16,
+      "n_residues": 361,
+      "per_residue_path": "knowledge_external/structures/alphafold/GPR25_O00155/plddt_per_residue.tsv",
+      "source_json_path": "knowledge_external/structures/alphafold/GPR25_O00155/AF-O00155-F1-confidence_v6.json",
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-O00155-F1-confidence_v6.json"
+    }
+  },
+  "date_accessed": "2026-07-09",
+  "epistemic_class": "external-unverifiable",
+  "model": {
+    "model_created_date": "2025-08-01T00:00:00Z",
+    "model_entity_id": "AF-O00155-F1",
+    "model_version": "6",
+    "pae_doc_url": "https://alphafold.ebi.ac.uk/files/AF-O00155-F1-predicted_aligned_error_v6.json",
+    "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-O00155-F1-model_v6.pdb",
+    "plddt_doc_url": "https://alphafold.ebi.ac.uk/files/AF-O00155-F1-confidence_v6.json",
+    "provider_id": "GDM",
+    "retrieval_date": "2026-07-09",
+    "source": "AlphaFold DB",
+    "source_url": "https://alphafold.ebi.ac.uk/api/prediction/O00155",
+    "tool_used": "AlphaFold Monomer v2.0 pipeline"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "predicted_structure_not_experimental_marker": "PREDICTED_STRUCTURE_NOT_EXPERIMENTAL",
+  "project_use": "Prediction-informed structural context only. Confidence-qualified and never treated as a grounded project finding.",
+  "protein": {
+    "gene_symbol": "GPR25",
+    "is_uniprot_reviewed": true,
+    "organism": "Homo sapiens",
+    "sequence": "MAPTEPWSPSPGSAPWDYSGLDGLEELELCPAGDLPYGYVYIPALYLAAFAVGLLGNAFVVWLLAGRRGPRRLVDTFVLHLAAADLGFVLTLPLWAAAAALGGRWPFGDGLCKLSSFALAGTRCAGALLLAGMSVDRYLAVVKLLEARPLRTPRCALASCCGVWAVALLAGLPSLVYRGLQPLPGGQDSQCGEEPSHAFQGLSLLLLLLTFVLPLVVTLFCYCRISRRLRRPPHVGRARRNSLRIIFAIESTFVGSWLPFSALRAVFHLARLGALPLPCPLLLALRWGLTIATCLAFVNSCANPLIYLLLDRSFRARALDGACGRTGRLARRISSASSLSRDDSSVFRCRAQAANTASASW",
+    "sequence_checksum": "82faf697cfba177f48e6ac0448cc7d63",
+    "sequence_end": 361,
+    "sequence_source": "AlphaFold DB metadata from https://alphafold.ebi.ac.uk/api/prediction/O00155",
+    "sequence_start": 1,
+    "uniprot_id": "O00155",
+    "uniprot_id_full": "GPR25_HUMAN"
+  },
+  "record_id": "V51_ALPHAFOLD_GPR25_O00155",
+  "record_type": "structural_prediction",
+  "relationship_note": "This record can inform the chr1 GPR25/KIF21B druggability-direction context but is not evidence for the grounded genetics verdict and does not alter locked rules or lead status.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "AlphaFold Protein Structure Database public prediction entry.",
+    "label": "AlphaFold DB AF-O00155-F1 model v6",
+    "url": "https://alphafold.ebi.ac.uk/api/prediction/O00155"
+  },
+  "structure_files": {
+    "confidence_summary_path": "knowledge_external/structures/alphafold/GPR25_O00155/confidence_summary.json",
+    "metadata_path": "knowledge_external/structures/alphafold/GPR25_O00155/alphafold_metadata.json",
+    "pdb_path": "knowledge_external/structures/alphafold/GPR25_O00155/AF-O00155-F1-model_v6.pdb",
+    "pdb_sha256": "19087b457c3e1ad5ff29eae4fac9fdbd24cb1535149e88fb72e710881d155004"
+  },
+  "why_unverifiable": "The structure is a computational AlphaFold DB prediction and has not been experimentally solved or regrounded by this project."
+}

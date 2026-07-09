@@ -6,40 +6,53 @@ Start every resumed session here. Work the first unresolved item unless a higher
 
 ## Queue
 
-V50 update:
+V51 update:
 
-- Queue / resume backbone: `meta/V50_QUEUE.md`.
-- Latest checkpoint: `meta/V50_FINAL_CHECKPOINT.md`.
-- Public landing freshness audit: `meta/V50_PUBLIC_LANDING_FRESHNESS_AUDIT.md`.
-- Public guard status card: `meta/V50_PUBLIC_GUARD_STATUS.md`.
-- External-context index: `knowledge_external/INDEX.md`.
-- Public reader/citation/glossary cards:
-  `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`;
-  `knowledge_external/synthesis/V50_PUBLIC_MS_KB_POSITION_CARD.md`;
-  `knowledge_external/synthesis/V50_PUBLIC_CITATION_CARD.md`;
-  `knowledge_external/synthesis/V50_RELATIONSHIP_GLOSSARY.md`.
-- Karolinska / parallel-cohort request overlay:
-  `docs/validation/KAROLINSKA_LABEL_REQUEST_PACKET_V50.md`.
-- Non-OpenGWAS route inventory:
-  `knowledge_external/synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md`;
-  `analysis/v50_non_opengwas_route_inventory/`.
+- Queue / resume backbone: `meta/V51_QUEUE.md`.
+- Structural-prediction class and gate:
+  `docs/knowledge/EPISTEMIC_CLASSES.md`;
+  `scripts/v51_structural_prediction_gate.py`;
+  `analysis/v51_structural_prediction_gate/`.
+- AlphaFold DB client:
+  `scripts/v51_alphafold_db_client.py`.
+- First real structural-prediction record:
+  `knowledge_external/structures/alphafold/GPR25_O00155/record.json`.
+- Prediction-informed chr1/GPR25 context:
+  `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
+- External-context index:
+  `knowledge_external/INDEX.md`.
 - Current push status: plain `git push origin main` is functioning on the
-  rewritten-history remote as of V50 task 59.
+  rewritten-history remote.
 
-Current V50 requirements:
+Current V51 requirements:
 
-- Continue V50 from `meta/V50_QUEUE.md` until the six-hour active target is met
-  or a valid stop condition is reached.
-- Run the V50 guard set before each push:
+- V51 is task-completion-gated, not time-gated: it is complete only when
+  AlphaFold DB retrieval works end to end on a real decision-relevant target,
+  confidence is parsed, the structural/provenance gates pass, and the result is
+  committed and pushed.
+- Run the V51 guard set before each push:
 
   ```bash
-  python3 scripts/v47_external_markdown_index_linter.py lint --fail-on-error
-  python3 scripts/v48_public_index_crosslink_linter.py lint --fail-on-error
-  python3 scripts/v47_provenance_gate.py audit
+  python3 scripts/v47_provenance_gate.py audit --fail-on-error
+  python3 scripts/v51_structural_prediction_gate.py synthetic-check --outdir analysis/v51_structural_prediction_gate --fail-on-error
+  python3 scripts/v51_structural_prediction_gate.py audit --fail-on-error
   python3 scripts/v50_status_freshness_linter.py lint --fail-on-error
-  python3 scripts/v50_check_non_opengwas_routes.py check --fail-on-error
-  python3 scripts/v50_run_public_guards.py run --fail-on-error
-  git ls-files -z | while IFS= read -r -d '' f; do [ -f "$f" ] || continue; size=$(wc -c < "$f"); if [ "$size" -gt 52428800 ]; then printf '%s\t%s\n' "$size" "$f"; fi; done
+  python3 scripts/v46_sap_ai_core_health_check.py --outdir analysis/v46_sap_ai_core_health_check --fail-on-error
+  python3 - <<'PY'
+  import os, subprocess, sys
+  offenders = []
+  for path in subprocess.check_output(['git', 'ls-files'], text=True).splitlines():
+      try:
+          size = os.path.getsize(path)
+      except OSError:
+          continue
+      if size > 50 * 1024 * 1024:
+          offenders.append((size, path))
+  if offenders:
+      print('\n'.join(f'{size}\t{path}' for size, path in offenders))
+      sys.exit(1)
+  print('tracked_file_size_guard=PASS')
+  PY
   git ls-files | rg '(^|/)tmp/' || true
   git status -sb
   ```
@@ -50,20 +63,17 @@ Current V50 requirements:
 - Push every committed iteration to `origin/main`.
 - OpenGWAS JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until
   renewed and verified.
-- Use non-OpenGWAS routes from `V50_NON_OPENGWAS_ROUTE_INVENTORY.md` for
-  source discovery and metadata-only work while the token is expired.
+- Structural predictions are segregated external context, not grounded
+  project findings; they cannot alter locked rules, pre-registrations, or the
+  V19 chr1 genetics verdict.
 
-First V50 actions:
+First V51 actions:
 
-1. Continue the first unresolved V50 queue item.
+1. Complete AlphaFold DB Path A retrieval for a decision-relevant chr1 target.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
-3. Implement a stale-status linter for README/CURRENT_STATUS/NEXT_ACTIONS phase
-   drift.
-4. Implement reusable non-OpenGWAS route smoke checkers for the highest-value
-   public APIs.
-5. Keep external-context material under `knowledge_external/`; do not copy
-   external claims into grounded status prose.
+3. Keep structural records under `knowledge_external/structures/`; do not copy
+   predicted-structure claims into grounded status prose.
 
 V44 update:
 

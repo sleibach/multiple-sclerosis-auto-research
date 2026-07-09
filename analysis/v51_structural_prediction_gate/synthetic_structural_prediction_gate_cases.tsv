@@ -1,0 +1,6 @@
+case_id	expected_status	observed_status	expectation_met	n_fail	audit_dir
+proper_structural_prediction_passes	PASS	PASS	true	0	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v51_structural_prediction_gate/case_proper_structural_prediction_passes_audit
+missing_confidence_fails	FAIL	FAIL	true	4	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v51_structural_prediction_gate/case_missing_confidence_fails_audit
+missing_prediction_marker_fails	FAIL	FAIL	true	1	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v51_structural_prediction_gate/case_missing_prediction_marker_fails_audit
+missing_model_version_fails	FAIL	FAIL	true	1	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v51_structural_prediction_gate/case_missing_model_version_fails_audit
+structural_prediction_in_grounded_tree_fails	FAIL	FAIL	true	1	/Users/soeren.leibach/Projects/ms-auto-research/analysis/v51_structural_prediction_gate/case_structural_prediction_in_grounded_tree_fails_audit

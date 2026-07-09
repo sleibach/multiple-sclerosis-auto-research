@@ -1,0 +1,48 @@
+{
+  "gene_symbol": "GPR25",
+  "model_entity_id": "AF-O00155-F1",
+  "model_version": "6",
+  "pae": {
+    "fraction_le_10": 0.568826,
+    "fraction_le_20": 0.705934,
+    "fraction_le_5": 0.372856,
+    "max": 32.0,
+    "max_predicted_aligned_error": 31.75,
+    "mean": 12.9196,
+    "median": 8.0,
+    "min": 0.0,
+    "n_cols": 361,
+    "n_rows": 361,
+    "n_values": 130321
+  },
+  "pae_payload_stored_locally": true,
+  "payload_sha256": {
+    "confidence_json": "a3be873f3563578763dbaf2bcf0d646a9ff718e7eaa468535f90cbe5d1d7bdf3",
+    "pae_json": "376d9e6d0e9ba4f032292dd438977e16d273576d132a1a6405b27aec80dc5cb7",
+    "pdb": "19087b457c3e1ad5ff29eae4fac9fdbd24cb1535149e88fb72e710881d155004"
+  },
+  "plddt": {
+    "fraction_confident_ge_70": 0.795014,
+    "fraction_low_lt_50": 0.141274,
+    "fraction_very_high_ge_90": 0.598338,
+    "low_confidence_segments_lt_50": [
+      {
+        "end": 28,
+        "length": 28,
+        "start": 1
+      },
+      {
+        "end": 360,
+        "length": 23,
+        "start": 338
+      }
+    ],
+    "max": 98.31,
+    "mean": 82.447,
+    "median": 92.06,
+    "min": 30.16,
+    "n_residues": 361
+  },
+  "purpose": "V51 AlphaFold DB confidence summary; predicted structure, not experimental evidence",
+  "uniprot_id": "O00155"
+}

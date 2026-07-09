@@ -143,25 +143,31 @@ evidence unless a later committed grounding analysis tests it.
 V48 and V49 populated and hardened the convergence/contradiction layer. V49
 also purged disposable oversized cache paths from history, added push-safe
 ignore rules, and restored repository hygiene after the history rewrite.
-V50 is the current live operational phase. It restored healthy per-iteration
-pushes to GitHub, sharpened external-context records, built GWAS Catalog
-fetcher validation and allele-harmonization prep, added public-reader/citation
-guidance, and created non-OpenGWAS public API routes because the OpenGWAS JWT is
-expired. V50 does not change the locked V22 rule, the V42 pre-registration, or
-the V41 public-data discovery boundary.
+V51 is the current live operational phase. It integrates AlphaFold DB structural
+prediction retrieval as its own strictly segregated external structural context
+class, with confidence-aware records under `knowledge_external/structures/`.
+V51 does not change the locked V22 rule, the V42 pre-registration, the V41
+public-data discovery boundary, or the V19 chr1 grounded genetics verdict.
 
 Current frontier:
 
-- V50 operational/public-knowledge state:
+- V51 structural-prediction integration state:
   - Queue / resume backbone:
-    `meta/V50_QUEUE.md`.
-  - Latest checkpoint:
-    `meta/V50_FINAL_CHECKPOINT.md`.
+    `meta/V51_QUEUE.md`.
+  - Structural-prediction class and gate:
+    `docs/knowledge/EPISTEMIC_CLASSES.md`;
+    `scripts/v51_structural_prediction_gate.py`.
+  - AlphaFold DB client:
+    `scripts/v51_alphafold_db_client.py`.
+  - First real structural record:
+    `knowledge_external/structures/alphafold/GPR25_O00155/record.json`.
+  - Prediction-informed context note:
+    `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
   - External-context boundary:
     `docs/knowledge/EPISTEMIC_CLASSES.md`;
     `knowledge_external/INDEX.md`;
     `scripts/v47_provenance_gate.py`.
-  - Current V50 content handoff:
+  - Prior V50 content handoff:
     `knowledge_external/synthesis/V50_CONTENT_HANDOFF.md`.
   - Public-reader path and conservative description:
     `knowledge_external/synthesis/V50_PUBLIC_READER_PATH.md`;
@@ -179,7 +185,7 @@ Current frontier:
     Route through V50's non-OpenGWAS public APIs or wait for renewal.
   - Current decision:
     - Keep the grounded/external boundary explicit.
-    - Keep pushing every iteration while V50 is active.
+    - Keep pushing every committed iteration while V51 is active.
     - Do not run OpenGWAS-dependent work until token renewal.
     - Treat all external-context records as navigation/context unless a later
       project-grounding analysis tests them.

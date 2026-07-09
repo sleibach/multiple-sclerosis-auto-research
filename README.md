@@ -11,10 +11,10 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current live operational phase is **V50**. The V4 directory structure
+The current live operational phase is **V51**. The V4 directory structure
 remains canonical, and V11 introduced the resume backbone for short-session
-continuity. For the newest resumable state, read `meta/V50_QUEUE.md` and
-`meta/V50_FINAL_CHECKPOINT.md` after `meta/CURRENT_STATUS.md`.
+continuity. For the newest resumable state, read `meta/V51_QUEUE.md` after
+`meta/CURRENT_STATUS.md`.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
