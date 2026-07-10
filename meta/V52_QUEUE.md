@@ -90,7 +90,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Validation package route classifier table | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`; machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
 | Validation route classifier worked examples | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`; plausible incoming packages mapped to route classes without running analysis. |
 | Incoming package preflight checklist consolidation | done | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`; one-page preflight ordering terms, quarantine/checksum, route classification, field dictionary, acceptance criteria, hash check, and result templates. |
-| Chr1 target-resolution decision compact | todo | Create a compact go/no-go table for chr1 packages after classifier routing. |
+| Chr1 target-resolution decision compact | done | `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`; compact go/no-go states for chr1 packages after classifier routing. |
 | Monitoring package minimum viable package checklist | todo | Create a concise required-vs-nice-to-have checklist for paired PBMC response packages. |
 | Therapeutic package handoff bundle index | todo | Bundle the operator-facing validation, chr1, and hash artifacts into a sendable handoff index. |
 | V52 route classifier TSV validation command | todo | Add a compact TSV schema check command for the classifier table. |
@@ -393,3 +393,7 @@ and V51 structural context without reopening broad public-data discovery.
   incoming packages now have a single ordered pre-analysis path from terms and
   checksum through route classification, field checks, acceptance, hash check,
   route card, and result shell selection.
+- 2026-07-10T12:52:05Z: Wrote
+  `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`.
+  Result: packages routed to chr1 now have explicit not-scoreable, ambiguous,
+  direction-supported, wrong-direction-control, and replicated-candidate states.

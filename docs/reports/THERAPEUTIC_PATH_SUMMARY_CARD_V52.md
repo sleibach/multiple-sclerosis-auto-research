@@ -94,6 +94,8 @@ therapeutic target.
   `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`.
 - Wrote chr1 wrong-direction control checklist:
   `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`.
+- Wrote chr1 target-resolution decision compact:
+  `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`.
 - Wrote therapeutic route risk register:
   `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`.
 - Wrote therapeutic route assumption ledger:
@@ -204,6 +206,7 @@ Concrete field specification:
 - `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`
 - `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`
 - `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`
+- `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`
 - `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`
 - `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`
 - `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`
