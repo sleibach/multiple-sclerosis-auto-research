@@ -143,7 +143,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier duplicate package-ID guard | done | `scripts/v52_package_route_classifier.py` now rejects duplicate `package_id` rows; expected-fail fixture reports `manifest_duplicate_package_id`; guard note hash-covered. |
 | Package ID validator path-traversal regression | done | Expanded package-ID validator fixture to 9 cases including slash, dot-dot, double underscore, and trailing underscore; 0 expectation failures. |
 | Route classifier empty-fields regression | done | Empty `provided_fields` fixture returns `unscoreable_no_route` with no assigned route; regression note hash-covered. |
-| Intake audit non-placeholder email negative fixture | todo | Synthetic-check that the intake safety audit detects a non-placeholder email in a tracked-safe manifest shape without committing sensitive data. |
+| Intake audit non-placeholder email negative fixture | done | Added synthetic reserved-domain email fixture, `--all-files` audit path, expected-fail output, and hash-covered regression note; production tracked intake audit still passes. |
 | Package-intake route-output schema audit | todo | Verify every committed route-classifier output has the expected 9-column schema and no extra columns. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -701,3 +701,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/PACKAGE_ROUTE_CLASSIFIER_EMPTY_FIELDS_REGRESSION_V52.md`.
   Result: the empty manifest row returns `unscoreable_no_route` with no assigned
   route, and the 50-row operator hash snapshot verifies.
+- 2026-07-10T15:21:02Z: Completed the received-package intake non-placeholder
+  email negative fixture. The synthetic reserved-domain email fixture fails
+  exactly on `non_placeholder_email`; the production tracked intake audit still
+  passes with 3 files, 14 checks, and 0 failures.

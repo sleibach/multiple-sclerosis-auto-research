@@ -52,7 +52,9 @@ FORBIDDEN_TSV_HEADERS = {
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 
-def tracked_files(intake_root: Path) -> list[Path]:
+def intake_files(intake_root: Path, all_files: bool) -> list[Path]:
+    if all_files:
+        return sorted(path for path in intake_root.rglob("*") if path.is_file())
     rel_root = intake_root.relative_to(ROOT)
     output = subprocess.check_output(["git", "ls-files", str(rel_root)], cwd=ROOT, text=True)
     return [ROOT / line for line in output.splitlines() if line.strip()]
@@ -61,7 +63,7 @@ def tracked_files(intake_root: Path) -> list[Path]:
 def add(rows: list[dict[str, str]], path: Path, check: str, status: str, detail: str) -> None:
     rows.append(
         {
-            "path": str(path.relative_to(ROOT)),
+            "path": str(path.resolve().relative_to(ROOT)),
             "check": check,
             "status": status,
             "detail": detail,
@@ -132,10 +134,12 @@ def main() -> None:
     parser.add_argument("--intake-root", type=Path, default=DEFAULT_INTAKE_ROOT)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--max-bytes", type=int, default=1_000_000)
+    parser.add_argument("--all-files", action="store_true")
     parser.add_argument("--fail-on-error", action="store_true")
     args = parser.parse_args()
 
-    files = tracked_files(args.intake_root)
+    intake_root = args.intake_root if args.intake_root.is_absolute() else ROOT / args.intake_root
+    files = intake_files(intake_root.resolve(), args.all_files)
     rows: list[dict[str, str]] = []
     for path in files:
         audit_file(path, rows, args.max_bytes)

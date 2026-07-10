@@ -1,0 +1,6 @@
+path	check	status	detail
+analysis/v52_received_intake_safety_negative_email_fixture/manifest.tsv	size	PASS	bytes=323; max=1000000
+analysis/v52_received_intake_safety_negative_email_fixture/manifest.tsv	raw_extension	PASS	forbidden_suffixes=
+analysis/v52_received_intake_safety_negative_email_fixture/manifest.tsv	allowed_suffix	PASS	suffix=.tsv
+analysis/v52_received_intake_safety_negative_email_fixture/manifest.tsv	non_placeholder_email	FAIL	emails=operator@example.com
+analysis/v52_received_intake_safety_negative_email_fixture/manifest.tsv	raw_like_tsv_headers	PASS	headers=
