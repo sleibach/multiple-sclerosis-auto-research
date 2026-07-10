@@ -190,6 +190,8 @@ Current frontier:
     `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
   - chr1 direction-matched experiment blueprint:
     `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`.
+  - chr1 collaborator assay request appendix:
+    `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
   - Structure-aware no-go / reopen table:
     `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`.
   - GPR25 direction-matched modality spec:

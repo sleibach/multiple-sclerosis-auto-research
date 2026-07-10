@@ -60,9 +60,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Target package acceptance criteria TSV | done | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`; machine-readable accept/partial/reject criteria by package type. |
 | Prospective monitoring utility study sketch | done | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`; defines the post-validation prospective utility study needed before any score-guided clinical action. |
 | Monitoring-to-clinical-utility boundary checklist | done | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`; separates scoreability, external validation, pharmacodynamic monitoring, clinical utility, and treatment-action evidence. |
-| Chr1 collaborator assay request appendix | todo | Translate chr1 direction-matched data requirements into a collaborator-facing assay appendix. |
+| Chr1 collaborator assay request appendix | done | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`; translates chr1 direction-matched requirements into concrete genotype, cell-state, protein, perturbation, and metadata asks. |
 | V52 machine-readable artifact manifest | todo | Emit a TSV or JSONL manifest of V52 artifacts, type, status, and primary use for downstream navigation. |
 | Therapeutic route risk register | todo | Catalog residual operational, evidentiary, and interpretation risks for each V52 route without changing verdicts. |
+| Therapeutic route assumption ledger | todo | Make explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions. |
+| Incoming-package communication templates | todo | Draft concise accept/partial/reject response templates for monitoring and chr1 packages using existing criteria. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -234,3 +236,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
   Result: V52 now has explicit allowed/forbidden wording and claim boundaries
   from technical scoreability through treatment-action utility.
+- 2026-07-10T11:16:30Z: Wrote
+  `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
+  Result: chr1 collaborator requests now specify genotype targets, cell-state
+  coverage, protein/perturbation expectations, metadata, and package classes
+  without reopening chr1 as a target.

@@ -147,5 +147,6 @@ metadata and any direction-matched perturbation readouts.
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
 - `docs/validation/POWER_MAP_V43.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
+- `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`
 - `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`
 - `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`
