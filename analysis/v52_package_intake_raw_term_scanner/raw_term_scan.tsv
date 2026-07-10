@@ -1,0 +1,43 @@
+document	line	check	status	detail
+docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md	23	raw_or_credential_wording	PASS_CONTEXTUAL	- Do not include human names, emails, tokens, signed URLs, or patient
+docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md	30	raw_or_credential_wording	PASS_CONTEXTUAL	3. Keep raw or restricted files out of git.
+docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md	32	raw_or_credential_wording	PASS_CONTEXTUAL	- Raw package files belong only under the ignored quarantine path.
+docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md	38	raw_or_credential_wording	PASS_CONTEXTUAL	- If sample-level labels or file names are restricted, create a redacted
+docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md	70	raw_or_credential_wording	PASS_CONTEXTUAL	- raw or restricted content is quarantined outside git
+analysis/received_package_intake/README.md	6	raw_or_credential_wording	PASS_CONTEXTUAL	metadata artifacts only. It is not a raw-data holding area and does not contain
+analysis/received_package_intake/README.md	12	raw_or_credential_wording	PASS_CONTEXTUAL	restricted or identifying content:
+analysis/received_package_intake/README.md	23	raw_or_credential_wording	PASS_CONTEXTUAL	- raw expression matrices or assay files
+analysis/received_package_intake/README.md	26	raw_or_credential_wording	PASS_CONTEXTUAL	- patient identifiers, dates of birth, emails, tokens, signed URLs, or access
+analysis/received_package_intake/README.md	27	raw_or_credential_wording	PASS_CONTEXTUAL	credentials
+analysis/received_package_intake/README.md	28	raw_or_credential_wording	PASS_CONTEXTUAL	- restricted collaborator package files
+analysis/received_package_intake/README.md	31	raw_or_credential_wording	PASS_CONTEXTUAL	Raw or restricted files belong only under the ignored quarantine path described
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	6	raw_or_credential_wording	PASS_CONTEXTUAL	validation rule, and does not authorize inspection of restricted data. It defines
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	7	raw_or_credential_wording	PASS_CONTEXTUAL	where received-package metadata, classifier outputs, and raw files may live.
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	22	raw_or_credential_wording	PASS_CONTEXTUAL	identifiers, emails, accession tokens, or access credentials in the package ID.
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	31	raw_or_credential_wording	PASS_CONTEXTUAL	| restricted raw files | `data/raw/received_packages/<package_id>/` | ignored by `.gitignore`; never commit |
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	32	raw_or_credential_wording	PASS_CONTEXTUAL	| safe metadata manifest | `analysis/received_package_intake/<package_id>/manifest.tsv` | commit only if access terms allow and no restricted content is present |
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	33	raw_or_credential_wording	PASS_CONTEXTUAL	| redacted metadata manifest | `analysis/received_package_intake/<package_id>/manifest_redacted.tsv` | commit if it contains only non-restricted metadata |
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	58	raw_or_credential_wording	PASS_CONTEXTUAL	1. raw expression matrices from restricted packages;
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	63	raw_or_credential_wording	PASS_CONTEXTUAL	5. access credentials or signed URLs.
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	66	raw_or_credential_wording	PASS_CONTEXTUAL	classify restricted content by convenience.
+docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md	70	raw_or_credential_wording	PASS_CONTEXTUAL	Use `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` to decide
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	1	raw_or_credential_wording	PASS_CONTEXTUAL	# Manifest Metadata Versus Raw Data Git Policy V52
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	7	raw_or_credential_wording	PASS_CONTEXTUAL	metadata manifests that may be committed from raw or restricted package content
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	19	raw_or_credential_wording	PASS_CONTEXTUAL	values, expression values, access tokens, signed URLs, or restricted raw data;
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	21	raw_or_credential_wording	PASS_CONTEXTUAL	5. the package route can be interpreted without exposing restricted content.
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	34	raw_or_credential_wording	PASS_CONTEXTUAL	1. raw expression matrices;
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	37	raw_or_credential_wording	PASS_CONTEXTUAL	4. proprietary supplements or data-owner restricted files;
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	38	raw_or_credential_wording	PASS_CONTEXTUAL	5. credentials, tokens, signed URLs, or access links;
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	43	raw_or_credential_wording	PASS_CONTEXTUAL	`data/raw/received_packages/<package_id>/`
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	47	raw_or_credential_wording	PASS_CONTEXTUAL	If unsure whether a received file is metadata or raw/restricted content, treat it
+docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md	48	raw_or_credential_wording	PASS_CONTEXTUAL	as restricted. Record a receipt blocker and request clarification. Do not commit
+docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md	18	raw_or_credential_wording	PASS_CONTEXTUAL	| `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md` | safe paths and names for manifests, classifier outputs, and raw-package quarantine |
+docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md	21	raw_or_credential_wording	PASS_CONTEXTUAL	| `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` | boundary between commit-eligible manifests and raw/restricted package content |
+docs/validation/DATA_OWNER_PACKAGE_README_V52.md	11	raw_or_credential_wording	PASS_CONTEXTUAL	Send a manifest before sending raw data. The manifest should state:
+docs/validation/DATA_OWNER_PACKAGE_README_V52.md	20	raw_or_credential_wording	PASS_CONTEXTUAL	Do not send restricted raw data until the allowed-use terms are clear.
+docs/validation/DATA_OWNER_PACKAGE_README_V52.md	67	raw_or_credential_wording	PASS_CONTEXTUAL	| metadata versus raw data git policy | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` |
+docs/validation/DATA_OWNER_PACKAGE_README_V52.md	78	raw_or_credential_wording	PASS_CONTEXTUAL	1. raw restricted files before allowed-use terms are documented;
+docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md	6	raw_or_credential_wording	PASS_CONTEXTUAL	does not inspect raw received-package data.
+docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md	15	raw_or_credential_wording	PASS_CONTEXTUAL	- no raw-data file extensions
+docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md	16	raw_or_credential_wording	PASS_CONTEXTUAL	- no non-placeholder email addresses
+docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md	17	raw_or_credential_wording	PASS_CONTEXTUAL	- no TSV headers that look like raw per-sample clinical or expression data

@@ -136,7 +136,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Manifest template README consistency recheck | done | `scripts/v52_manifest_readme_consistency_audit.py`; data-owner README, manifest template, quickstart, and handoff bundle passed 23 consistency checks with 0 failures. |
 | Operator hash coverage after regression docs | done | Added six stable regression/smoke/audit docs to the V52 operator hash snapshot; 43-row snapshot verifies and coverage audit updated. |
 | Route classifier full examples regression | done | Converted all 10 route-classifier examples to manifest shape; initial 2 example-table mismatches corrected; rerun has 0 expected-route failures and 0 unexpected status failures. |
-| Package intake raw-term scanner for operator docs | todo | Scan package-intake operator docs for forbidden credential/token/raw-data wording patterns outside explicit prohibition contexts. |
+| Package intake raw-term scanner for operator docs | done | `scripts/v52_package_intake_raw_term_scanner.py`; 42 raw/credential wording checks, 0 hard failures, 0 warnings; scan note hash-covered. |
 | Received-package dry-run replay audit | todo | Replay the received-package dry-run manifest through current route classifier and compare against the committed dry-run route output. |
 | Handoff bundle ordered-flow audit | todo | Verify Universal Intake bundle order still follows ID check, access terms, safe paths, manifest, classifier, safety audit, and blocker handling. |
 | Package-intake generated-output inventory | todo | Record which package-intake analysis outputs are synthetic/regression artifacts versus stable operator controls, so future commits do not hash mutable outputs accidentally. |
@@ -658,3 +658,9 @@ and V51 structural context without reopening broad public-data discovery.
   changing classifier logic, added `docs/validation/ROUTE_CLASSIFIER_EXAMPLES_REGRESSION_V52.md`,
   and refreshed the operator hash snapshot. Result: 10 examples now produce 0
   expected-route failures and the 44-row snapshot verifies.
+- 2026-07-10T14:51:46Z: Added
+  `scripts/v52_package_intake_raw_term_scanner.py`,
+  `docs/validation/PACKAGE_INTAKE_RAW_TERM_SCAN_V52.md`, and recorded
+  `analysis/v52_package_intake_raw_term_scanner/raw_term_scan.tsv`. Result: 42
+  raw/credential wording checks, 0 hard failures, 0 warnings, and the 45-row
+  operator hash snapshot verifies.
