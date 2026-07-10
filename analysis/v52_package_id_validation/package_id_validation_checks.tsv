@@ -4,3 +4,7 @@ valid_chr1	20260710_chr1_collaborator_genotype_expression	PASS	PASS	{'package_id
 invalid_uppercase	20260710_Karolinska_DMF	FAIL	FAIL	{'package_id': '20260710_Karolinska_DMF', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
 invalid_no_date	karolinska_dmf_manifest	FAIL	FAIL	{'package_id': 'karolinska_dmf_manifest', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
 invalid_hyphen	20260710_karolinska-dmf	FAIL	FAIL	{'package_id': '20260710_karolinska-dmf', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_slash	20260710_karolinska/dmf	FAIL	FAIL	{'package_id': '20260710_karolinska/dmf', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_dotdot	20260710_../secret	FAIL	FAIL	{'package_id': '20260710_../secret', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_double_underscore	20260710_karolinska__dmf	FAIL	FAIL	{'package_id': '20260710_karolinska__dmf', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_trailing_underscore	20260710_karolinska_	FAIL	FAIL	{'package_id': '20260710_karolinska_', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}

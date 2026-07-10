@@ -20,6 +20,10 @@ validator or file-naming policy.
 | uppercase rejected | `20260710_Karolinska_DMF` | FAIL |
 | missing date rejected | `karolinska_dmf_manifest` | FAIL |
 | hyphen rejected | `20260710_karolinska-dmf` | FAIL |
+| slash rejected | `20260710_karolinska/dmf` | FAIL |
+| path traversal rejected | `20260710_../secret` | FAIL |
+| double underscore rejected | `20260710_karolinska__dmf` | FAIL |
+| trailing underscore rejected | `20260710_karolinska_` | FAIL |
 
 ## Rerun Command
 
@@ -35,6 +39,10 @@ cases = [
     ("invalid_uppercase", "20260710_Karolinska_DMF", "FAIL"),
     ("invalid_no_date", "karolinska_dmf_manifest", "FAIL"),
     ("invalid_hyphen", "20260710_karolinska-dmf", "FAIL"),
+    ("invalid_slash", "20260710_karolinska/dmf", "FAIL"),
+    ("invalid_dotdot", "20260710_../secret", "FAIL"),
+    ("invalid_double_underscore", "20260710_karolinska__dmf", "FAIL"),
+    ("invalid_trailing_underscore", "20260710_karolinska_", "FAIL"),
 ]
 rows = []
 for case, package_id, expected in cases:
@@ -77,4 +85,4 @@ PY
 The current recorded fixture is
 `analysis/v52_package_id_validation/package_id_validation_checks.tsv`.
 
-Current result: 5 cases, 0 expectation failures.
+Current result: 9 cases, 0 expectation failures.

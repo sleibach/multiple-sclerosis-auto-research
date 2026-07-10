@@ -141,7 +141,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Handoff bundle ordered-flow audit | done | `scripts/v52_handoff_ordered_flow_audit.py`; Universal Intake bundle order passed 16 ordered-flow checks with 0 failures. |
 | Package-intake generated-output inventory | done | `docs/validation/PACKAGE_INTAKE_GENERATED_OUTPUT_INVENTORY_V52.md`; 16 generated package-intake outputs inventoried as synthetic/regression outputs, distinct from stable hash-covered controls. |
 | Route classifier duplicate package-ID guard | done | `scripts/v52_package_route_classifier.py` now rejects duplicate `package_id` rows; expected-fail fixture reports `manifest_duplicate_package_id`; guard note hash-covered. |
-| Package ID validator path-traversal regression | todo | Add invalid package-ID regression cases for slashes, dots, double underscores, and trailing underscores. |
+| Package ID validator path-traversal regression | done | Expanded package-ID validator fixture to 9 cases including slash, dot-dot, double underscore, and trailing underscore; 0 expectation failures. |
 | Route classifier empty-fields regression | todo | Add a manifest fixture with empty `provided_fields` and verify it returns `unscoreable_no_route` or fails safely. |
 | Intake audit non-placeholder email negative fixture | todo | Synthetic-check that the intake safety audit detects a non-placeholder email in a tracked-safe manifest shape without committing sensitive data. |
 | Package-intake route-output schema audit | todo | Verify every committed route-classifier output has the expected 9-column schema and no extra columns. |
@@ -692,3 +692,7 @@ and V51 structural context without reopening broad public-data discovery.
   and added `docs/validation/PACKAGE_ROUTE_CLASSIFIER_DUPLICATE_ID_GUARD_V52.md`.
   Result: duplicate manifest rows fail with `manifest_duplicate_package_id`, and
   the 49-row operator hash snapshot verifies.
+- 2026-07-10T15:10:19Z: Expanded the package-ID validator regression fixture
+  from 5 to 9 cases, adding slash, path-traversal, double-underscore, and
+  trailing-underscore failures. Result: 2 valid IDs pass, 7 malformed IDs fail,
+  and the 49-row operator hash snapshot verifies.
