@@ -126,7 +126,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Received-package intake directory smoke audit | done | `scripts/v52_received_intake_safety_audit.py` and `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv` verify current tracked intake files: 3 files, 14 checks, 0 failures. |
 | Package intake operator quickstart card | done | `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` gives the mechanical package-intake sequence from package ID through access terms, manifest, classifier, safety audit, and blocker handling. |
 | Package ID validator regression fixture | done | `docs/validation/PACKAGE_ID_VALIDATOR_REGRESSION_FIXTURE_V52.md` records the command-driven five-case regression fixture; rerun produced 0 expectation failures. |
-| Received-package intake README hash coverage | todo | Add the intake-directory README and quickstart card to the V52 operator artifact hash snapshot if they are stable operator controls. |
+| Received-package intake README hash coverage | done | Added `analysis/received_package_intake/README.md` and `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` to the stable operator hash snapshot; 36-row snapshot verifies. |
 | Package-intake handoff bundle refresh | todo | Link the intake README and quickstart card from the handoff bundle if they materially improve operator navigation. |
 | Intake safety audit handoff link | todo | Link the received-package intake safety audit from the handoff bundle and quickstart where it improves operator navigation. |
 | Intake safety audit regression fixture | todo | Add a short regression note for the intake safety audit and its expected 3-file/14-check/0-failure result on the synthetic intake directory. |
@@ -601,3 +601,9 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/PACKAGE_ID_VALIDATOR_REGRESSION_FIXTURE_V52.md` and reran the
   five-case package-ID fixture. Result: 2 valid IDs pass, 3 malformed IDs fail,
   and the recorded TSV has 0 expectation failures.
+- 2026-07-10T14:23:58Z: Added
+  `analysis/received_package_intake/README.md` and
+  `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` to
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: the 36-row
+  stable operator hash snapshot verifies, and the coverage audit now reflects
+  the two newly frozen intake controls.
