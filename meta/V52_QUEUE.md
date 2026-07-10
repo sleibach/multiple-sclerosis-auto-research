@@ -87,7 +87,13 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic no-target public abstract | done | `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`; public abstract states monitoring-ready and no current target without overclaiming. |
 | OpenGWAS expiry-day runbook | done | `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`; expiry-day and renewal routing, with auth failures classified as operational blockers. |
 | V52 artifact hash verification command note | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`; compact command note for checking the operator artifact hash snapshot against current files. |
-| Validation package route classifier table | todo | Create a machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
+| Validation package route classifier table | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`; machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
+| Validation route classifier worked examples | todo | Add examples that map plausible incoming packages to route classes without running analysis. |
+| Incoming package preflight checklist consolidation | todo | Produce a one-page preflight that orders checksum, terms, route classification, field dictionary, and acceptance criteria. |
+| Chr1 target-resolution decision compact | todo | Create a compact go/no-go table for chr1 packages after classifier routing. |
+| Monitoring package minimum viable package checklist | todo | Create a concise required-vs-nice-to-have checklist for paired PBMC response packages. |
+| Therapeutic package handoff bundle index | todo | Bundle the operator-facing validation, chr1, and hash artifacts into a sendable handoff index. |
+| V52 route classifier TSV validation command | todo | Add a compact TSV schema check command for the classifier table. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -372,3 +378,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`. Result: V52
   operator handoff artifacts now have an explicit SHA256 drift-check command,
   mismatch interpretation table, and regeneration rule.
+- 2026-07-10T12:36:11Z: Wrote
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` and refilled
+  the backlog above threshold. Result: incoming packages now route mechanically
+  to monitoring validation, chr1 target-resolution, secondary biology,
+  context-only, access-blocked, or unscoreable classes before analysis.

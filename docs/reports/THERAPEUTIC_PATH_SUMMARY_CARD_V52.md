@@ -72,6 +72,8 @@ therapeutic target.
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Wrote validation package field dictionary:
   `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`.
+- Wrote validation package route classifier:
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`.
 - Wrote bounded genetics handoff:
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Wrote bounded OpenGWAS pre-expiry command list:
@@ -174,6 +176,7 @@ Concrete field specification:
 - `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`
 - `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`
+- `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
 - `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`
