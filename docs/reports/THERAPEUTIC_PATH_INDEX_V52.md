@@ -43,6 +43,7 @@ resolution.
 | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` | validation operator / data triage | machine-readable accept/partial/reject criteria by package type |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |
 | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` | validation operator | exact command order for preflight, self-test, frozen harness, and interpretation routing |
+| `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` | validation operator / reviewer | fixed result-report shell for future Gafson/Karolinska output |
 | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` | medical team / study designer | defines the post-validation prospective utility study needed before clinical action |
 | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md` | medical team / external reviewer | separates scoreability, validation, pharmacodynamic monitoring, clinical utility, and treatment-action claims |
 | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md` | project operator / collaborator contact | concise accept/partial/reject response templates for monitoring and chr1 packages |

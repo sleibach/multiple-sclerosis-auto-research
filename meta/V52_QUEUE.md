@@ -65,7 +65,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic route risk register | done | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`; catalogs residual route-level and cross-cutting risks, mitigations, and escalation triggers without changing verdicts. |
 | Therapeutic route assumption ledger | done | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`; makes explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions and how future data could revise them. |
 | Incoming-package communication templates | done | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`; gives accept, partial-context, reject/unscoreable, access-term-blocked, and missing-field response templates. |
-| Monitoring validation result report template | todo | Draft a frozen result-report shell for future Gafson/Karolinska output with pass/fail/inconclusive fields only. |
+| Monitoring validation result report template | done | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future Gafson/Karolinska preflight, primary metrics, confounder/batch results, final class, and next action. |
 | chr1 package result report template | todo | Draft a frozen result-report shell for future chr1 genotype-linked package interpretation. |
 | V52 package checksum intake checklist | todo | Convert package receipt hygiene into a concise checksum/access-terms checklist for incoming monitoring and target packages. |
 | Therapeutic route decision log template | todo | Create a template for future route-status changes requiring evidence, gate result, and non-counting context fields. |
@@ -260,3 +260,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`. Result:
   future package responses can distinguish accepted, partial, rejected, access
   blocked, and missing-field cases without improvising interpretation.
+- 2026-07-10T11:28:27Z: Wrote
+  `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`. Result:
+  future Gafson/Karolinska output now has a fixed result-report shell with
+  preflight, metrics, confounder/batch, class, and non-command sections.

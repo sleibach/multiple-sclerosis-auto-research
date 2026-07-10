@@ -44,6 +44,8 @@ therapeutic target.
   `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
 - Wrote incoming-package communication templates:
   `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
+- Wrote monitoring validation result-report template:
+  `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`.
 - Wrote a sendable medical-team request packet:
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Wrote bounded genetics handoff:
@@ -124,6 +126,7 @@ Concrete field specification:
 - `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
 - `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
+- `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`
 - `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`
 - `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`
 - `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`

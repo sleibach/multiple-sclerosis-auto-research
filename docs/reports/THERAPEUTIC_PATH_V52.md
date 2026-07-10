@@ -53,6 +53,7 @@ data and a direction-matched modality exist.
 | Target package acceptance criteria | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` |
 | Monitoring validation decision tree | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` |
 | Monitoring validation command manifest | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` |
+| Monitoring validation result-report template | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` |
 | Prospective monitoring utility study sketch | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` |
 | Monitoring clinical-utility boundary checklist | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md` |
 | Incoming package communication templates | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md` |
