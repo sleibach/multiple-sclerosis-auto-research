@@ -17,19 +17,21 @@ stable operator SHA256 snapshot.
 ## Result
 
 The handoff bundle lists 26 unique artifacts. The current hash snapshot lists
-25 artifacts. Nineteen handoff artifacts are hash-covered by the snapshot.
-Seven handoff artifacts are not hash-covered.
+26 artifacts. Twenty handoff artifacts are hash-covered by the snapshot. Six
+handoff artifacts are not hash-covered.
 
 This is not automatically an error. Some handoff artifacts are mutable
 navigation or status documents, and the snapshot cannot safely hash itself. The
-audit separates likely intentional exclusions from one stable operator artifact
-that should be considered for snapshot coverage.
+audit separates intentional exclusions from context or governance artifacts
+where freezing is a policy choice rather than a correctness requirement. The
+only clear stable operator-control gap identified by the first audit pass,
+`docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`, has now
+been added to the snapshot.
 
 ## Handoff Artifacts Not Hash-Covered
 
 | artifact | coverage assessment | action |
 |---|---|---|
-| `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md` | stable operator checklist; omission appears unintentional | add to the hash snapshot in the next operator-hash refresh |
 | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` | high-level summary; useful context but not a package-execution control | leave out unless the project decides summary cards should be frozen |
 | `docs/reports/THERAPEUTIC_PATH_V52.md` | synthesis report; reference context rather than operator control | leave out unless synthesis reports become frozen package controls |
 | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv` | live status/dashboard artifact expected to change after future outcomes | intentionally mutable; do not freeze as a stable hash target |
@@ -55,9 +57,7 @@ part of the minimal package bundle sent to every data owner.
 
 ## Verdict
 
-Coverage is mostly coherent. The main actionable gap is
-`docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`, which is
-a stable chr1 operator-control artifact in the handoff bundle and should be
-added to the snapshot. The remaining uncovered artifacts are either intentionally
-mutable, self-referential, or context/governance artifacts where freezing is a
-project policy choice rather than a correctness requirement.
+Coverage is coherent after remediation. The stable chr1 operator-control
+checklist is now hash-covered. The remaining uncovered artifacts are either
+intentionally mutable, self-referential, or context/governance artifacts where
+freezing is a project policy choice rather than a correctness requirement.
