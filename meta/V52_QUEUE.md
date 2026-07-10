@@ -111,7 +111,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Manifest template classifier smoke fixture | done | Filled synthetic manifest-template row classified as `monitoring_validation`, `matched`, 7/7 fields present. |
 | Link manifest template into data-owner README and handoff bundle | done | Added template references to `docs/validation/DATA_OWNER_PACKAGE_README_V52.md` and `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. |
 | Add manifest template to hash snapshot | done | Added template row to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; refreshed and verified 28 rows. |
-| Package route CLI usage note | todo | Add a concise operator note for running `scripts/v52_package_route_classifier.py` on a received manifest. |
+| Package route CLI usage note | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`; linked from handoff bundle, added to hash snapshot, and snapshot verified with 29 rows. |
 | Post-manifest package RAG refresh | todo | Rebuild sparse RAG index after manifest-template artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -503,3 +503,9 @@ and V51 structural context without reopening broad public-data discovery.
   then updated `docs/validation/PACKAGE_ROUTE_CLASSIFIER_INTAKE_FIXTURE_V52.md`.
   Result: a filled manifest-template row routes to `monitoring_validation` with
   `matched` status and 7 of 7 required fields present.
+- 2026-07-10T13:37:11Z: Wrote
+  `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`, linked it
+  from the handoff bundle, added it to the stable operator hash snapshot, and
+  refreshed hashes. Result: route-classifier CLI usage and status interpretation
+  are now frozen as an operator-control artifact; the snapshot verifies with 29
+  rows.

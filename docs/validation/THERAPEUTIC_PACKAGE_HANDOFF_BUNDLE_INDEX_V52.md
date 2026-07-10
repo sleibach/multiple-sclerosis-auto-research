@@ -17,6 +17,7 @@ Use for every incoming package before route-specific work.
 | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv` | data-owner manifest template with classifier-compatible `provided_fields` |
 | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` | ordered pre-analysis path from terms to route decision |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` | route incoming package to validation, chr1, secondary, context, or reject |
+| `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md` | operator command and status interpretation for manifest route classification |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` | worked package-route examples |
 | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` | required and optional fields by route |
 | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` | accept, partial, reject, or unscoreable criteria |
