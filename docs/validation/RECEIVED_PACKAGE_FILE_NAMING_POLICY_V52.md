@@ -21,6 +21,9 @@ Examples:
 Use only lowercase letters, numbers, and underscores. Do not include patient
 identifiers, emails, accession tokens, or access credentials in the package ID.
 
+Check package IDs with `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`
+before creating an intake path.
+
 ## Paths
 
 | content | path pattern | git status |

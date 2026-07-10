@@ -121,7 +121,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier preflight checklist link | done | Added raw-data git policy, file-naming policy, classifier operator note, and status decision table to preflight checks/source artifacts; refreshed snapshot hash. |
 | Received-package intake path dry run | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`; synthetic package under `analysis/received_package_intake/` routed to `monitoring_validation`, `matched`, 7/7 fields present. |
 | Receipt blocker template | done | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`; standard blocker note for terms/raw-data/manifest failures before analysis; linked and hash-covered. |
-| Package ID sanitizer/check note | todo | Specify how to validate package IDs against lowercase alphanumeric underscore rules before creating intake paths. |
+| Package ID sanitizer/check note | done | `scripts/v52_validate_package_id.py`, `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`, and synthetic checks validate `YYYYMMDD_lowercase_alnum_underscore_segments`; note is hash-covered. |
 | Received-package intake directory README | todo | Add a README explaining that `analysis/received_package_intake/` may contain safe metadata only, not raw restricted data. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -569,3 +569,10 @@ and V51 structural context without reopening broad public-data discovery.
   bundle and file-naming policy, added it to the operator hash snapshot, and
   refreshed hashes. Result: pre-analysis blockers now have a fixed format, and
   the 33-row snapshot verifies cleanly.
+- 2026-07-10T14:08:46Z: Added `scripts/v52_validate_package_id.py`,
+  `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`, and
+  `analysis/v52_package_id_validation/package_id_validation_checks.tsv`, then
+  linked the note from the file-naming policy and handoff bundle and refreshed
+  hashes. Result: package IDs are syntax-checked before intake path creation,
+  synthetic pass/fail cases behave as expected, and the 34-row snapshot verifies
+  cleanly.

@@ -1,0 +1,6 @@
+case	package_id	expected_status	observed_status	stdout
+valid_karolinska	20260710_karolinska_dmf_manifest	PASS	PASS	{'package_id': '20260710_karolinska_dmf_manifest', 'status': 'PASS', 'detail': 'PASS'}
+valid_chr1	20260710_chr1_collaborator_genotype_expression	PASS	PASS	{'package_id': '20260710_chr1_collaborator_genotype_expression', 'status': 'PASS', 'detail': 'PASS'}
+invalid_uppercase	20260710_Karolinska_DMF	FAIL	FAIL	{'package_id': '20260710_Karolinska_DMF', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_no_date	karolinska_dmf_manifest	FAIL	FAIL	{'package_id': 'karolinska_dmf_manifest', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}
+invalid_hyphen	20260710_karolinska-dmf	FAIL	FAIL	{'package_id': '20260710_karolinska-dmf', 'status': 'FAIL', 'detail': 'must match YYYYMMDD_lowercase_alnum_underscore_segments'}

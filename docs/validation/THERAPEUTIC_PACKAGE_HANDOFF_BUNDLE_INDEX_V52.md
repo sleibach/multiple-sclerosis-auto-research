@@ -15,6 +15,7 @@ Use for every incoming package before route-specific work.
 |---|---|
 | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` | access terms, quarantine, checksum, and no-large-file intake |
 | `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md` | safe paths and names for manifests, classifier outputs, and raw-package quarantine |
+| `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md` | syntax check for received-package IDs before creating intake paths |
 | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` | boundary between commit-eligible manifests and raw/restricted package content |
 | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md` | standard blocker note when package handling stops before analysis |
 | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv` | data-owner manifest template with classifier-compatible `provided_fields` |
