@@ -23,6 +23,8 @@ V52 update:
   `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
 - Structure-aware no-go / reopen table:
   `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`.
+- PTGER4 signal-specific reopen spec:
+  `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`.
 - Therapeutic validation handoff:
   `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
 - Structural-prediction class and gate:

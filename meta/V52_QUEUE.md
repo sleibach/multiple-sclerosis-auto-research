@@ -41,7 +41,9 @@ and V51 structural context without reopening broad public-data discovery.
 | Public-facing therapeutic summary card | done | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`; compact medical-team handoff: validate monitoring first, no target intervention-grade, exact next data asks. |
 | Chr1 genotype-linked data specification | done | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`; exact future data package needed to resolve GPR25 vs KIF21B and direction/modality. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
-| PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
+| PTGER4 signal-specific reopen spec | done | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`; reopen requires one disease-relevant signal, one causal direction, one relevant cell state, and one plausible modality. |
+| GPR25 direction-matched modality spec | todo | Define exact agonism/restoration evidence needed before GPR25 can move from conditional biology to target workup. |
+| KIF21B restoration modality spec | todo | Define what up-function/restoration modality evidence would be plausible enough to revisit KIF21B. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
 
@@ -121,3 +123,10 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T10:21:13Z: Wrote `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
   Result: renewed token expiry and route-around behavior are explicit for
   targeted genetics reruns.
+- 2026-07-10T10:22:46Z: OpenGWAS renewal watch committed and pushed as
+  `63e84fca`; local and `origin/main` match. Continuing with PTGER4
+  signal-specific reopen spec.
+- 2026-07-10T10:24:13Z: Wrote
+  `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`. Result:
+  PTGER4 has a strict reopen gate; structure or generic GPCR tractability alone
+  still does not count.
