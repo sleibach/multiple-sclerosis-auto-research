@@ -1,0 +1,83 @@
+{
+  "claim": "A source-specific V53 comparison finds external molecular and structural plausibility context for the coupled HLA-II/CD74/MIF axis, but no same-definition external validation or contradiction of the project-grounded MIF/CD74 therapeutic null.",
+  "counts": {
+    "contradicts": 0,
+    "converges_as_context": 3,
+    "insufficient_overlap_or_tension": 2,
+    "orthogonal": 1,
+    "relationship_rows": 6
+  },
+  "date_accessed": "2026-07-10",
+  "decision_relevant_result": "External structure and mechanism records make physical plausibility concrete but do not supply the missing human component-specific association or stable favorable intervention direction. The grounded target non-promotion is unchanged.",
+  "epistemic_class": "external-unverifiable",
+  "grounded_reference": {
+    "artifacts": [
+      "analysis/v53_mif_cd74_grounded_audit/REPORT.md",
+      "analysis/v53_mif_cd74_grounded_audit/evidence_ledger.tsv",
+      "analysis/v53_mif_cd74_grounded_audit/direction_consistency.tsv"
+    ],
+    "status": "Project data support a recurrent tone-loaded APC receptor-state context but not MIF-specific causality, receptor-specific adjusted response, stable therapy direction, or target promotion."
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Segregated convergence/contradiction context only; the project-grounded audit remains the evidence.",
+  "record_id": "V53_MIF_CD74_CONVERGENCE_CONTRADICTION",
+  "record_type": "external_convergence_contradiction_synthesis",
+  "relationship_note": "Convergence raises plausibility context and tension flags follow-up; neither changes the grounded finding.",
+  "relationship_to_project_findings": "orthogonal",
+  "relationships": [
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/records/mif_cd74_bcell_pathway_ms_eji_2018.json",
+      "grounded_component": "recurrent coupled APC receptor-state context",
+      "interpretation": "The source places MIF, CD74, and CXCR4 in an MS B-cell context but does not reproduce the multi-modality axis or test treatment direction.",
+      "relationship": "converges_as_context",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30160778/"
+    },
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/records/cd74_ncbi_mhc2_mif_molecular_context.json",
+      "grounded_component": "CD74 bridge between HLA-II and receptor-state modules",
+      "interpretation": "The annotation supports molecular bridge plausibility but is not MS-specific and does not test the project axis.",
+      "relationship": "converges_as_context",
+      "source": "https://www.ncbi.nlm.nih.gov/gene/972"
+    },
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/synthesis/v53_mif_cd74_structure_context/record.json",
+      "grounded_component": "HLA-II/CD74 physical coupling context",
+      "interpretation": "The 8VRW experimental complex supplies physical CD74-HLA-DR15 interface context, not evidence for MIF causality or an MS intervention direction.",
+      "relationship": "converges_as_context",
+      "source": "https://data.rcsb.org/rest/v1/core/entry/8VRW"
+    },
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/records/hla_dra1_cd74_mif_eae_jimmunol_2014.json",
+      "grounded_component": "no MIF-specific causal or therapeutic claim in held human data",
+      "interpretation": "The animal-model intervention creates mechanistic tension worth noting, but species, construct, endpoint, and evidence type differ; it is not a same-definition contradiction.",
+      "relationship": "insufficient_overlap_or_tension",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24683185/"
+    },
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/synthesis/v53_mif_cd74_structure_context/record.json",
+      "grounded_component": "MIF/CD74 target non-promotion",
+      "interpretation": "Experimental inhibitor-bound MIF structures establish physical inhibitor compatibility only. They do not establish favorable MS direction or component-specific project support.",
+      "relationship": "orthogonal",
+      "source": "https://data.rcsb.org/rest/v1/core/entry/3IJJ"
+    },
+    {
+      "external_class": "external-unverifiable",
+      "external_record": "knowledge_external/synthesis/v53_mif_cd74_structure_context/record.json",
+      "grounded_component": "MIF-CD74 receptor interaction as a therapeutic mechanism",
+      "interpretation": "The zero-result exact-UniProt MIF-plus-CD74 PDB search is a structure-coverage gap only and cannot be used as evidence against biological interaction.",
+      "relationship": "insufficient_overlap_or_tension",
+      "source": "https://search.rcsb.org/rcsbsearch/v2/query"
+    }
+  ],
+  "source": {
+    "citation": "Source-specific external records and primary AlphaFold/RCSB structural metadata listed per relationship row.",
+    "label": "V53 MIF/CD74 segregated source comparison",
+    "url": "https://search.rcsb.org/rcsbsearch/v2/query"
+  },
+  "why_unverifiable": "The project did not independently reproduce the external molecular annotations, publications, animal experiment, or structure determinations."
+}

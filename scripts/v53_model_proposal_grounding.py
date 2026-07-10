@@ -40,6 +40,13 @@ def write_tsv(path: Path, rows: list[dict[str, Any]]) -> None:
     if not rows:
         raise RuntimeError(f"Refusing to write empty table: {path}")
     fieldnames = list(dict.fromkeys(key for row in rows for key in row))
+    normalized_rows = [
+        {
+            field: "NA" if row.get(field) is None or row.get(field) == "" else row.get(field)
+            for field in fieldnames
+        }
+        for row in rows
+    ]
     with path.open("w", newline="") as handle:
         writer = csv.DictWriter(
             handle,
@@ -48,7 +55,7 @@ def write_tsv(path: Path, rows: list[dict[str, Any]]) -> None:
             lineterminator="\n",
         )
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(normalized_rows)
 
 
 def supported_skeleton() -> list[tuple[str, str]]:

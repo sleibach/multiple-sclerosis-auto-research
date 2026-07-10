@@ -29,9 +29,9 @@ exhausted public-data discovery search as a source of findings.
 | Coupled-axis network controllability probe | done | 24 signatures and 20,000 label permutations; RFX5 ranked first but no corrected or cross-stimulus control candidate. |
 | Multi-lineage unconventional generation | done | Claude 8 + Gemini 8 proposals; grounded counts 1 supported methodological negative, 2 not-supported, 2 inconclusive, 11 untestable. |
 | RPT structured-axis generation | done | 16 leave-one-out feasibility predictions matched schema triage; no independent biology or anomaly added. |
-| External convergence/contradiction check for MIF/CD74 | in-progress | Classed external context only; no external claim as evidence. |
+| External convergence/contradiction check for MIF/CD74 | done | 6 source-specific rows: 3 context convergences, 2 insufficient-overlap/tensions, 1 orthogonal, 0 same-definition contradictions; no verdict change. |
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
-| Causal-identifiability threshold sensitivity | todo | Test whether the zero-orientation result survives reasonable supported-edge definitions. |
+| Causal-identifiability threshold sensitivity | in-progress | Test whether the zero-orientation result survives reasonable supported-edge definitions. |
 | V26 matrix semantic contract | todo | Machine-readable row-unit/timepoint/label contract to prevent invalid patient/temporal analyses. |
 | RFX5 single-context boundary packet | todo | Record exactly what independent perturbation context would be required; no promotion. |
 | Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
@@ -102,3 +102,10 @@ exhausted public-data discovery search as a source of findings.
   and zero consensus direction. No biological lead was promoted. Cumulative
   active time accrued through this checkpoint is 2h04m44s; the resumed session
   interval remains open.
+- 2026-07-10T23:03:15Z: Completed the segregated MIF/CD74 source comparison.
+  Six source-specific relationships produced three plausibility-context
+  convergences, two insufficient-overlap/tension rows, one orthogonal row, and
+  zero same-definition contradictions. The target null is unchanged. Also
+  normalized blank generated TSV cells to remove trailing-tab warnings.
+  Cumulative active time accrued through this checkpoint is 2h07m58s; the
+  resumed session interval remains open.

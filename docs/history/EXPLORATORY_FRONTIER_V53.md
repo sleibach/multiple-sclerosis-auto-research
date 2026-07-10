@@ -55,6 +55,11 @@ ligand causality and not a direction-resolved therapeutic mechanism. Physical
 tractability cannot repair missing causal specificity or the therapy-direction
 conflict. The prior Tier-1 demotion stands.
 
+A separately segregated source-specific convergence/contradiction check is at
+`knowledge_external/synthesis/V53_MIF_CD74_CONVERGENCE_CONTRADICTION.json`.
+It identified no same-definition external contradiction and made no change to
+the grounded verdict.
+
 Exact data that could change the verdict:
 
 1. An MS lesion or treatment cohort measuring MIF, CD74, CD44, CXCR4, HLA-II,
