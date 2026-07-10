@@ -18,6 +18,8 @@ Grounded project findings remain in the normal project report/history/validation
 - V48 contradiction rows flagged: `0`
 - V50 additional source-specific convergences asserted: `11`
 - V50 contradictions flagged: `0`
+- V52 therapeutic convergence rows reviewed: `10`
+- V52 therapeutic contradictions flagged: `0`
 - placeholder skeleton linked rows: `unknown`
 
 ## Epistemic-Class Counts
@@ -66,6 +68,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V50 source reachability delta](catalogs/indexes/V50_SOURCE_REACHABILITY_DELTA.md) | Transport-status summary for V50-added records; three HTTP 403 maintenance warnings, no claim-validity change. | HTTP status is not claim validation |
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V50 convergence/contradiction reassessment](synthesis/CONVERGENCE_CONTRADICTION_V50.md) | Reassessment of high-priority insufficient-overlap rows after adding sharper DMF, ZMIZ1, chr1, and GPR25 source-specific records. | external agreement is context; project artifacts remain evidence |
+| [V52 therapeutic convergence/contradiction check](synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md) | Therapeutic-path review of source-specific V50/V51/V52 context; zero genuine therapeutic contradictions surfaced. | external context does not change therapeutic-path evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
 | [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |

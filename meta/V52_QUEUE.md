@@ -33,12 +33,14 @@ and V51 structural context without reopening broad public-data discovery.
 | Structure-informed chr1 review: KIF21B | done | Retrieved AlphaFold DB `AF-O75037-F1` v6; motor-domain context is structurally interpretable but restoration/up-function direction keeps target closed. |
 | Restored-OpenGWAS catch-up inventory | done | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`; token active; bounded confirmed-locus rerun only. |
 | Restored-OpenGWAS smoke rerun for genetics scripts | done | `scripts/v14_susie_coloc_confirmed_loci.py` reran POST-only `/ld/matrix` routes; no target verdict changed. |
-| Therapeutic contradiction/convergence check | todo | Revisit therapeutic-relevant external records for true contradictions; do not treat external sources as evidence. |
+| Therapeutic contradiction/convergence check | done | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md`; 10 therapeutic rows reviewed, 6 convergences/context corroborations, 4 context/orthogonal rows, 0 genuine contradictions, 0 therapeutic verdict changes. |
 | Validation-readiness tie-in | todo | Note what Gafson/Karolinska validation would make clinically actionable. |
-| Guard and push iteration | in-progress | V47 provenance, V51 structural, external index, SAP health, status freshness, and size/tmp guards pass as of 2026-07-10T09:55:38Z; commit/push next. |
+| Guard and push iteration | done | V47 provenance, V51 structural, external index, SAP health, status freshness, size/tmp guards passed; commit `f396b814` pushed to `origin/main` at 2026-07-10T09:56:54Z. |
 | Structure-informed PTGER4 triage | todo | Check whether any existing structure context could matter; likely no because closure is signal/direction, not structure. |
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | todo | Inventory whether a POST-only bounded rerun can sharpen ZMIZ1 without broad discovery. |
 | Public-facing therapeutic summary card | todo | Compact medical-team handoff after report stabilizes. |
+| Chr1 genotype-linked data specification | todo | Turn V52 reopen criteria into exact sample/data fields for a future chr1 causal-gene dataset. |
+| V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 
 ## Per-Iteration Notes
 
@@ -56,3 +58,12 @@ and V51 structural context without reopening broad public-data discovery.
   synthetic fixtures, structural record audit, external Markdown/index linters,
   SAP AI Core health, V52-aware status freshness, tracked-file size guard, and
   tracked-`tmp/` guard. Preparing first V52 commit and push.
+- 2026-07-10T09:56:54Z: First V52 iteration committed and pushed as
+  `f396b814`; local and `origin/main` match. Continuing with therapeutic
+  convergence/contradiction content rather than stopping below the 6h active
+  target.
+- 2026-07-10T09:59:16Z: Wrote and indexed
+  `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md`.
+  Result: no genuine therapeutic contradiction surfaced; external context
+  supports validation guardrails and cautionary target closures but does not
+  validate the scalar or create an intervention-grade target.

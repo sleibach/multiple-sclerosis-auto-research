@@ -42,6 +42,7 @@ data and a direction-matched modality exist.
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
+| External-context convergence / contradiction check | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md` |
 | OpenGWAS restored access | `scripts/check_opengwas_access.py`, run 2026-07-10; POST-only HTTP 200 on `gwasinfo` and `tophits`; decoded expiry `2026-07-24 08:00 UTC` |
 
 Structural predictions are used only as confidence-qualified context for
@@ -220,3 +221,7 @@ caution.
 5. **Medical-team ask:** prioritize Gafson/Karolinska validation data and, if
    target discovery remains a priority, genotype-linked immune/CSF expression
    plus protein data for the chr1 haplotype.
+6. **External-context check:** V52 found no genuine therapeutic contradiction
+   in the segregated external layer; external context supports cautionary
+   interpretations and validation guardrails, but does not validate the scalar
+   or create an intervention-grade target.
