@@ -55,6 +55,7 @@ data and a direction-matched modality exist.
 | KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | PTGER4 structural prediction context | `knowledge_external/structures/alphafold/PTGER4_P35408/record.json`; `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | External-context convergence / contradiction check | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md` |
+| Therapeutic contradiction surveillance triggers | `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md` |
 | OpenGWAS restored access | `scripts/check_opengwas_access.py`, run 2026-07-10; POST-only HTTP 200 on `gwasinfo` and `tophits`; decoded expiry `2026-07-24 08:00 UTC` |
 
 Structural predictions are used only as confidence-qualified context for

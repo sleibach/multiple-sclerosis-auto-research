@@ -162,6 +162,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
   - Structural evidence-boundary QA:
     `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
+  - Therapeutic contradiction surveillance triggers:
+    `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`.
   - Restored OpenGWAS bounded catch-up:
     `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
   - Restored OpenGWAS bounded rerun manifest:

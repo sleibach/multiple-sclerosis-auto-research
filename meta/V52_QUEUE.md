@@ -48,7 +48,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Medical-team therapeutic request packet | done | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`; separates monitoring validation, chr1 target-development, postpartum, and T/B data asks. |
 | Structure evidence boundary QA | done | `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`; tightened over-strong "confirms" wording and kept AlphaFold as context only. |
 | Restored-genetics bounded rerun manifest | done | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`; records completed bounded reruns, allowed polish, and excluded discovery. |
-| Therapeutic contradiction surveillance triggers | todo | Define future contradiction triggers that should be queued if sharper external context conflicts with a grounded V52 verdict. |
+| Therapeutic contradiction surveillance triggers | done | `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`; defines same-level contradiction triggers, non-triggers, and queueing rule. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -170,3 +170,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`.
   Result: renewed-token genetics work is bounded to completed V14/V19 reruns
   and specific future polish; broad public-data discovery remains closed.
+- 2026-07-10T10:44:24Z: Wrote
+  `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`. Result:
+  future sources now have explicit same-evidence-level contradiction triggers,
+  non-triggers, and a queueing rule before any V52 verdict can be revisited.
