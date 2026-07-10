@@ -13,6 +13,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_PATH_V52.md`.
 - Restored OpenGWAS bounded catch-up:
   `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
+- ZMIZ1 restored-OpenGWAS direction handoff:
+  `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Therapeutic validation handoff:
   `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
 - Structural-prediction class and gate:

@@ -37,7 +37,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Validation-readiness tie-in | done | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`; clarifies what Gafson/Karolinska pass, immune-tone-bounded pass, fail, inconclusive, or unscoreable package means for clinical action. |
 | Guard and push iteration | done | V47 provenance, V51 structural, external index, SAP health, status freshness, size/tmp guards passed; commit `f396b814` pushed to `origin/main` at 2026-07-10T09:56:54Z. |
 | Structure-informed PTGER4 triage | done | AlphaFold DB `AF-P35408-F1` v6 retrieved; receptor-core structural context is compatible with tractability, but closure is confirmed because the blocker is mixed signal and direction, not lack of structure. |
-| Restored-OpenGWAS ZMIZ1 bounded direction handoff | todo | Inventory whether a POST-only bounded rerun can sharpen ZMIZ1 without broad discovery. |
+| Restored-OpenGWAS ZMIZ1 bounded direction handoff | done | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`; restored token can polish bounded direction manifests but does not create a ZMIZ1 target route. |
 | Public-facing therapeutic summary card | todo | Compact medical-team handoff after report stabilizes. |
 | Chr1 genotype-linked data specification | todo | Turn V52 reopen criteria into exact sample/data fields for a future chr1 causal-gene dataset. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
@@ -84,3 +84,10 @@ and V51 structural context without reopening broad public-data discovery.
   `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
   Result: PTGER4 remains closed as a naive transfer target; structure sharpens
   receptor-core context but does not address mixed-signal/direction blockers.
+- 2026-07-10T10:09:18Z: PTGER4 structural triage committed and pushed as
+  `e9558a63`; local and `origin/main` match. Continuing with ZMIZ1
+  restored-OpenGWAS bounded direction handoff.
+- 2026-07-10T10:10:51Z: Wrote
+  `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`. Result:
+  restored OpenGWAS can support bounded chr10 direction-manifest polish, but
+  ZMIZ1 remains a transfer-validity warning and not a therapeutic target.
