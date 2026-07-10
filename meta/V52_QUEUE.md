@@ -104,7 +104,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Add chr1 wrong-direction checklist to hash snapshot | done | Added `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md` to the stable operator hash snapshot; hash verification passed with 26 rows. |
 | Data-owner README consistency audit | done | `docs/validation/DATA_OWNER_README_CONSISTENCY_AUDIT_V52.md`; README package types align with classifier/handoff; one metadata/aggregate-only field-dictionary gap identified. |
 | Add metadata-only field dictionary row | done | Added `source_description`, `available_fields`, and `missing_sample_level_elements` rows for `metadata_only_or_aggregate_only`; refreshed the frozen field-dictionary hash. |
-| Package route classifier intake fixture | todo | Build a small synthetic manifest-fixture table or script that classifies incoming package metadata against the V52 route classifier without touching real data. |
+| Package route classifier intake fixture | done | `scripts/v52_package_route_classifier.py` plus synthetic manifests/output; five full synthetic package matches and one intentional partial monitoring package. |
 | Operator bundle stable-vs-mutable policy note | todo | Record which package artifacts are intentionally frozen, mutable, or context-only so future hash coverage decisions are mechanical. |
 | V52 package-doc consistency audit | todo | Cross-check route classifier, examples, preflight, minimum package checklist, and handoff bundle for route-name and artifact-reference consistency. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -469,3 +469,9 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`, and verified the
   snapshot. Result: aggregate-only packages now have mechanical context-only
   intake fields, and the frozen field-dictionary hash is current.
+- 2026-07-10T13:21:39Z: Added `scripts/v52_package_route_classifier.py`,
+  `analysis/v52_package_route_classifier/synthetic_package_manifests.tsv`,
+  `analysis/v52_package_route_classifier/synthetic_route_classification.tsv`,
+  and `docs/validation/PACKAGE_ROUTE_CLASSIFIER_INTAKE_FIXTURE_V52.md`. Result:
+  the synthetic intake smoke test has five full route matches and one intentional
+  incomplete monitoring package marked `partial_or_unscoreable`.
