@@ -62,6 +62,7 @@ data and a direction-matched modality exist.
 | Target package acceptance criteria | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` |
 | Validation package field dictionary | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` |
 | Validation package route classifier | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` |
+| Validation package route classifier JSON mirror | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json` |
 | Validation package route classifier examples | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` |
 | Validation package route classifier schema check | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md` |
 | Incoming package preflight checklist | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` |

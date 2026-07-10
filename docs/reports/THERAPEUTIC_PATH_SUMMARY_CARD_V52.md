@@ -76,6 +76,8 @@ therapeutic target.
   `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`.
 - Wrote validation package route classifier:
   `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`.
+- Wrote validation package route classifier JSON mirror:
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`.
 - Wrote validation package route classifier examples:
   `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
 - Wrote validation package route classifier schema check:
@@ -191,6 +193,7 @@ Concrete field specification:
 - `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`
+- `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`
 - `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`

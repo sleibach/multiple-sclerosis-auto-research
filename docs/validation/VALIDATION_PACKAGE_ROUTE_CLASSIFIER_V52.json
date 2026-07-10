@@ -1,0 +1,107 @@
+{
+  "generated_from": "docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv",
+  "generated_on": "2026-07-10",
+  "purpose": "Machine-readable mirror of V52 package route classifier; no package analysis and no evidence added.",
+  "routes": [
+    {
+      "allowed_result_class": "pass;immune-tone-bounded-pass;fail;inconclusive;unscoreable",
+      "forbidden_use": "do not tune V22 threshold or reinterpret unplanned endpoints",
+      "minimum_fields": "subject_id;baseline_expression;early_treatment_expression;response_label;feature_annotation;module_gene_coverage;batch_QC_metadata",
+      "next_action": "run docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md",
+      "package_signal": "paired baseline plus early on-treatment PBMC expression with response labels",
+      "primary_artifact": "docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md",
+      "reject_or_context_only_if": "reject if baseline or early sample is absent; reject if response label is absent; reject if V22 module coverage fails",
+      "route_class": "monitoring_validation",
+      "route_if_partial": "allow reduced-trust monitoring run if steroid/cell-count metadata are missing but pairing labels coverage and batch checks are scoreable"
+    },
+    {
+      "allowed_result_class": "causal-gene-resolved;direction-resolved;still-ambiguous;unscoreable",
+      "forbidden_use": "do not promote GPR25 or KIF21B to target-ready from association alone",
+      "minimum_fields": "chr1_credible_set_dosage;ancestry_PCs;candidate_gene_expression_or_protein;cell_state_labels;disease_status",
+      "next_action": "run docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md",
+      "package_signal": "genotype-linked immune or CSF molecular package for chr1 locus",
+      "primary_artifact": "docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md",
+      "reject_or_context_only_if": "reject if genotype-to-readout link is absent; reject if candidate gene readout is absent; context-only if cell state is not interpretable",
+      "route_class": "chr1_target_resolution",
+      "route_if_partial": "allow causal-gene or direction-only handoff if perturbation is absent but genotype-to-readout link is intact"
+    },
+    {
+      "allowed_result_class": "worth-future-grounding;wrong-direction-control;not-supported;unscoreable",
+      "forbidden_use": "do not treat inhibition knockdown or degradation as rescue when restoration is required",
+      "minimum_fields": "resolved_candidate_gene;protective_direction;perturbation_modality;MS_relevant_phenotype_readout;wrong_direction_controls",
+      "next_action": "update docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv only after all gates are met",
+      "package_signal": "direction-matched perturbation package for resolved chr1 gene",
+      "primary_artifact": "docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md",
+      "reject_or_context_only_if": "reject if candidate gene is unresolved; reject if protective direction is missing; context-only if phenotype is not MS-relevant",
+      "route_class": "chr1_modality_workup",
+      "route_if_partial": "allow control-only classification if modality deliberately moves opposite to protective direction"
+    },
+    {
+      "allowed_result_class": "supported-secondary;not-supported;confounded;inconclusive;unscoreable",
+      "forbidden_use": "do not convert postpartum biology into a therapeutic target or monitoring rule",
+      "minimum_fields": "postpartum_timing;relapse_timing;immune_profile;APC_HLAII_CD64_coverage;DMT_steroid_infection_metadata",
+      "next_action": "run preregistered postpartum harness if available",
+      "package_signal": "postpartum MS relapse-window immune trajectory package",
+      "primary_artifact": "docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv",
+      "reject_or_context_only_if": "reject if no MS postpartum samples; reject if relapse-window endpoint is absent; context-only if APC-axis coverage fails",
+      "route_class": "postpartum_secondary_biology",
+      "route_if_partial": "allow confounded-secondary-biology class if core timing and axis coverage are present but DMT/steroid metadata are incomplete"
+    },
+    {
+      "allowed_result_class": "supported-secondary;not-supported;composition-limited;inconclusive;unscoreable",
+      "forbidden_use": "do not claim within-cell remodeling when only composition changed",
+      "minimum_fields": "T_B_compartment_resolution;paired_timing_or_response_labels;cell_fraction_metadata;batch_QC_metadata",
+      "next_action": "run preregistered T/B harness if available",
+      "package_signal": "T/B compartment remodeling or monitoring package",
+      "primary_artifact": "docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv",
+      "reject_or_context_only_if": "reject if T/B resolution is absent; reject if composition shift is unseparable for the proposed claim",
+      "route_class": "TB_secondary_monitoring",
+      "route_if_partial": "allow limited secondary class if compartment labels and timing exist but composition metadata are partial"
+    },
+    {
+      "allowed_result_class": "context-only;unscoreable",
+      "forbidden_use": "do not count as treatment-response validation",
+      "minimum_fields": "treatment_timing;expression_or_immune_profile;feature_annotation",
+      "next_action": "record pharmacodynamic context and keep validation status unchanged",
+      "package_signal": "treatment-timed expression or immune profile without response labels",
+      "primary_artifact": "docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md",
+      "reject_or_context_only_if": "context-only if response labels are absent or not pre-specified; reject if timing is absent",
+      "route_class": "pharmacodynamic_context_only",
+      "route_if_partial": "allow within-subject delta context if subject pairing is present but labels are absent"
+    },
+    {
+      "allowed_result_class": "feasibility-context-only;unscoreable",
+      "forbidden_use": "do not override causal-gene direction cell-state or modality blockers",
+      "minimum_fields": "protein_id;model_source_and_version;confidence_metrics;relationship_to_lead",
+      "next_action": "store in segregated structure context and update no-go table only if wording needs tightening",
+      "package_signal": "protein structure or tractability package tied to a lead",
+      "primary_artifact": "docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md",
+      "reject_or_context_only_if": "reject if source version or confidence metrics are missing; reject if used as disease evidence",
+      "route_class": "structure_context_only",
+      "route_if_partial": "allow feasibility note only when source version and confidence are complete"
+    },
+    {
+      "allowed_result_class": "access-blocked;reject",
+      "forbidden_use": "do not inspect restricted content before allowed-use status is clear",
+      "minimum_fields": "data_availability_statement;license_or_terms;allowed_use_summary",
+      "next_action": "request terms clarification or a permitted derivative package",
+      "package_signal": "package cannot be used because terms or access constraints are unresolved",
+      "primary_artifact": "docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md",
+      "reject_or_context_only_if": "reject for active analysis if terms forbid local analysis or redistribution",
+      "route_class": "access_or_terms_blocked",
+      "route_if_partial": "route to blocked pending human/legal decision if metadata exists but terms are unclear"
+    },
+    {
+      "allowed_result_class": "context-only;unscoreable",
+      "forbidden_use": "do not infer validation performance from aggregate-only evidence",
+      "minimum_fields": "source_description;available_fields;missing_sample_level_elements",
+      "next_action": "record acquisition gap and request sample-level package",
+      "package_signal": "metadata summary aggregate plot or paper table without sample-level scoreable data",
+      "primary_artifact": "docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv",
+      "reject_or_context_only_if": "reject for validation if sample-level expression pairing labels or genotype links are unavailable",
+      "route_class": "metadata_only_or_aggregate_only",
+      "route_if_partial": "route to context-only if it clarifies acquisition path or cohort feasibility"
+    }
+  ],
+  "row_count": 9
+}

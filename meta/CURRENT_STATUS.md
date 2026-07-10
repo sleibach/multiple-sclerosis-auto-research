@@ -256,6 +256,8 @@ Current frontier:
     `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`.
   - Validation package route classifier:
     `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`.
+  - Validation package route classifier JSON mirror:
+    `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`.
   - Validation package route classifier examples:
     `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
   - Validation package route classifier schema check:

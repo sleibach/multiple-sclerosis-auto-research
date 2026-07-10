@@ -96,7 +96,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 route classifier TSV validation command | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`; compact schema and alignment check for classifier and examples TSVs. |
 | Refresh operator artifact hash snapshot for new package artifacts | done | Added route classifier, examples, schema check, preflight, monitoring checklist, chr1 compact, handoff index, and hash-verify note to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. |
 | Package handoff link smoke audit | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`; checked 26 handoff bundle links and found 0 missing paths. |
-| Route classifier JSON export for tooling | todo | Create a small generated JSON mirror of classifier rows for downstream package intake scripts. |
+| Route classifier JSON export for tooling | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`; generated JSON mirror of the 9-row route classifier TSV for downstream package intake scripts. |
 | Data-owner package README | todo | Write a concise README that tells a data owner which package bundle to send without exposing internal queue detail. |
 | Monitoring and chr1 handoff bundle hash refresh command | todo | Add the exact command sequence to refresh hashes after intentional operator artifact changes. |
 | V52 post-package-doc RAG refresh | todo | Rebuild sparse RAG index after the V52 package-handling artifacts are complete. |
@@ -422,3 +422,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T13:18:32Z: Wrote
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`. Result: the
   handoff bundle has 26 linked artifacts and 0 missing paths in the repo.
+- 2026-07-10T13:23:05Z: Generated
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json` from the TSV
+  classifier. Result: downstream tooling now has a JSON mirror of all 9 route
+  rows without changing package interpretation.
