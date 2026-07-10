@@ -143,11 +143,15 @@ evidence unless a later committed grounding analysis tests it.
 V48 and V49 populated and hardened the convergence/contradiction layer. V49
 also purged disposable oversized cache paths from history, added push-safe
 ignore rules, and restored repository hygiene after the history rewrite.
-V52 is the current live operational phase. It synthesizes the therapeutic path
+V52 synthesized the therapeutic path
 from the mature project evidence, renewed OpenGWAS access, and V51 structural
 context without reopening broad public-data discovery. V52 does not change the
 locked V22 rule, the V42 pre-registration, the V41 public-data discovery
 boundary, or the V19 chr1 grounded genetics verdict.
+V53 is the current live operational phase. It explores structure-first,
+MIF/CD74, combinatorial, and cross-domain hypotheses with the mature toolkit,
+while preserving V41's discovery-exhaustion boundary and requiring real-data
+grounding before any proposal advances. Resume from `meta/V53_QUEUE.md`.
 
 Current frontier:
 

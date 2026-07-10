@@ -6,9 +6,15 @@ Start every resumed session here. Work the first unresolved item unless a higher
 
 ## Queue
 
-V52 update:
+V53 update:
 
-- Queue / resume backbone: `meta/V52_QUEUE.md`.
+- Queue / resume backbone: `meta/V53_QUEUE.md`.
+- Cumulative exploratory report:
+  `docs/history/EXPLORATORY_FRONTIER_V53.md`.
+- Primary first probe: mature re-audit of MIF/CD74 component specificity,
+  direction, and structure context against the prior Tier-1 demotion.
+
+V52 completed state:
 - Therapeutic-path synthesis:
   `docs/reports/THERAPEUTIC_PATH_V52.md`.
 - V52 therapeutic artifact index:
@@ -160,11 +166,11 @@ V52 update:
 - Current push status: plain `git push origin main` is functioning on the
   rewritten-history remote.
 
-Current V52 requirements:
+Current V53 requirements:
 
-- V52 is a six-hour active-time block. Continue from `meta/V52_QUEUE.md`,
+- V53 is a six-hour active-time block. Continue from `meta/V53_QUEUE.md`,
   maintain >5 executable tasks, and do not reopen broad discovery.
-- Run the V52 guard set before each push:
+- Run the V53 guard set before each push:
 
   ```bash
   python3 scripts/v47_provenance_gate.py audit --fail-on-error
@@ -201,11 +207,11 @@ Current V52 requirements:
   project findings; they cannot alter locked rules, pre-registrations, or the
   V19 chr1 genetics verdict.
 
-First V52 actions:
+First V53 actions:
 
-1. Continue the first unresolved V52 queue item. Current next executable items
-   are the V52 validation/therapeutic documentation polish tasks in
-   `meta/V52_QUEUE.md`.
+1. Continue the first unresolved V53 queue item from `meta/V53_QUEUE.md`.
+   Current priority is the MIF/CD74 grounded re-audit, followed by
+   structure-first APC-axis probing.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
 3. Keep structural records under `knowledge_external/structures/`; do not treat
