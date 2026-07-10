@@ -83,6 +83,7 @@ resolution.
 | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` | genetics reruns | completed renewed-token checks and results |
 | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md` | genetics reruns | allowed bounded reruns and explicitly excluded discovery work |
 | `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md` | genetics reruns | exact bounded POST-only command list before token expiry |
+| `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md` | genetics reruns | expiry-day and renewal routing to prevent auth failure from becoming a false null |
 
 ## Structural Context
 

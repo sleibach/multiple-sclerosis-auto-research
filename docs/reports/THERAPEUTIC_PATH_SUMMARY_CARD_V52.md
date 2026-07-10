@@ -74,6 +74,8 @@ therapeutic target.
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Wrote bounded OpenGWAS pre-expiry command list:
   `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
+- Wrote OpenGWAS expiry-day runbook:
+  `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`.
 - Wrote chr1 collaborator assay request appendix:
   `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
 - Wrote chr1 no-go communication appendix:
@@ -182,6 +184,7 @@ Concrete field specification:
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
 - `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`
+- `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`
 - `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`

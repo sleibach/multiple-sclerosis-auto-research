@@ -85,7 +85,7 @@ and V51 structural context without reopening broad public-data discovery.
 | chr1 wrong-direction control checklist | done | `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`; labels and interpretation rules for wrong-direction perturbation controls. |
 | Post-validation route update playbook | done | `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`; future route-status transition rules for monitoring and chr1 package outcomes. |
 | Therapeutic no-target public abstract | done | `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`; public abstract states monitoring-ready and no current target without overclaiming. |
-| OpenGWAS expiry-day runbook | todo | Write the operational runbook for token expiry, renewal, and no-false-null routing after 2026-07-24. |
+| OpenGWAS expiry-day runbook | done | `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`; expiry-day and renewal routing, with auth failures classified as operational blockers. |
 | V52 artifact hash verification command note | todo | Add a compact command note for checking `V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` against current files. |
 | Validation package route classifier table | todo | Create a machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -361,3 +361,10 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`. Result:
   external/public wording now states the no-current-target conclusion while
   preserving the monitoring validation path as the live actionable route.
+- 2026-07-10T12:21:21Z: Wrote `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`.
+  Result: future sessions now have explicit expiry-day, expired-token, service
+  blocker, and renewed-token routing that prevents OpenGWAS auth failures from
+  being interpreted as genetics nulls.
+- 2026-07-10T12:23:48Z: Resume checkpoint after context compaction. Continuing
+  the same open V52 active interval with the expiry-day runbook guard,
+  commit, and push step before starting the hash-verification command note.

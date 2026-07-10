@@ -216,6 +216,8 @@ Current frontier:
     `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
   - OpenGWAS renewal watch:
     `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
+  - OpenGWAS expiry-day runbook:
+    `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`.
   - ZMIZ1 restored-OpenGWAS direction handoff:
     `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
   - chr1 genotype-linked future data spec:
