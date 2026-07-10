@@ -99,7 +99,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier JSON export for tooling | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`; generated JSON mirror of the 9-row route classifier TSV for downstream package intake scripts. |
 | Data-owner package README | done | `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`; external-facing package guide for data owners without queue detail. |
 | Monitoring and chr1 handoff bundle hash refresh command | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_REFRESH_COMMANDS.md`; exact command sequence for refreshing snapshot hashes after intentional operator artifact edits. |
-| V52 post-package-doc RAG refresh | todo | Rebuild sparse RAG index after the V52 package-handling artifacts are complete. |
+| V52 post-package-doc RAG refresh | done | Rebuilt sparse RAG index over 798 documents; package-layer smoke query returned handoff link audit, handoff bundle, data-owner README, queue, and classifier schema artifacts. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -434,3 +434,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_REFRESH_COMMANDS.md` and added it to
   the hash snapshot. Result: intentional operator artifact edits now have an
   exact hash-refresh and verification sequence.
+- 2026-07-10T13:05:00Z: Rebuilt the sparse RAG index with
+  `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`. Result:
+  `knowledge/.index/manifest.json` reports 798 documents, and the package-layer
+  smoke query `V52 package route classifier handoff bundle data owner README`
+  returned V52 handoff, route-classifier, data-owner, and queue artifacts.
