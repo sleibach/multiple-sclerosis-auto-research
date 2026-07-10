@@ -93,7 +93,13 @@ and V51 structural context without reopening broad public-data discovery.
 | Chr1 target-resolution decision compact | done | `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`; compact go/no-go states for chr1 packages after classifier routing. |
 | Monitoring package minimum viable package checklist | done | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`; concise required-vs-preferred checklist for paired PBMC response packages. |
 | Therapeutic package handoff bundle index | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`; grouped universal intake, monitoring, chr1, and route governance handoff bundles. |
-| V52 route classifier TSV validation command | todo | Add a compact TSV schema check command for the classifier table. |
+| V52 route classifier TSV validation command | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`; compact schema and alignment check for classifier and examples TSVs. |
+| Refresh operator artifact hash snapshot for new package artifacts | todo | Add the route classifier, examples, preflight, monitoring checklist, chr1 compact, and handoff index to the stable hash snapshot if they should be frozen. |
+| Package handoff link smoke audit | todo | Check every link in the universal, monitoring, chr1, and governance handoff bundles resolves. |
+| Route classifier JSON export for tooling | todo | Create a small generated JSON mirror of classifier rows for downstream package intake scripts. |
+| Data-owner package README | todo | Write a concise README that tells a data owner which package bundle to send without exposing internal queue detail. |
+| Monitoring and chr1 handoff bundle hash refresh command | todo | Add the exact command sequence to refresh hashes after intentional operator artifact changes. |
+| V52 post-package-doc RAG refresh | todo | Rebuild sparse RAG index after the V52 package-handling artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -405,3 +411,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. Result:
   operator-facing V52 artifacts are grouped into universal intake, monitoring,
   chr1, and governance/drift-check bundles.
+- 2026-07-10T13:09:05Z: Wrote
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md` and
+  refilled the backlog. Result: classifier and worked-example TSVs now have a
+  documented schema, route-alignment, and primary-artifact existence check.

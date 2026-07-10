@@ -53,6 +53,7 @@ resolution.
 | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` | validation operator / data triage | machine-readable field dictionary for monitoring, chr1, postpartum, T/B, pharmacodynamic-only, and structure-context packages |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` | validation operator / data triage | machine-readable route classifier for incoming packages before any analysis |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` | validation operator / data triage | worked examples for applying the route classifier without analysis |
+| `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md` | validation operator / maintainer | command to check classifier and examples schema alignment |
 | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` | validation operator / data triage | ordered terms, quarantine, route, field, acceptance, and handoff preflight |
 | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md` | validation operator / data owner | grouped universal, monitoring, chr1, and governance handoff bundles |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |

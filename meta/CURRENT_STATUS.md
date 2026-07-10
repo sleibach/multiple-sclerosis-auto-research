@@ -258,6 +258,8 @@ Current frontier:
     `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`.
   - Validation package route classifier examples:
     `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
+  - Validation package route classifier schema check:
+    `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`.
   - Incoming package preflight checklist:
     `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`.
   - Therapeutic package handoff bundle index:
