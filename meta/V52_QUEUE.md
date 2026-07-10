@@ -68,7 +68,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring validation result report template | done | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future Gafson/Karolinska preflight, primary metrics, confounder/batch results, final class, and next action. |
 | chr1 package result report template | done | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future chr1 intake, causal-gene, direction, cell-state, perturbation, modality, and final decision classes. |
 | V52 package checksum intake checklist | done | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`; concise access-terms, quarantine, checksum, package-type, no-raw-git, and stop/go checklist for incoming packages. |
-| Therapeutic route decision log template | todo | Create a template for future route-status changes requiring evidence, gate result, and non-counting context fields. |
+| Therapeutic route decision log template | done | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`; fixed future route-status change template requiring counted evidence, gate results, and explicit non-counting context. |
+| V52 route-status dashboard table | todo | Create a compact TSV dashboard of route, current status, next gate, and blocker for operators. |
+| Monitoring operator one-page run card | todo | Compress package receipt through final result class into a one-page operator card. |
+| chr1 operator one-page run card | todo | Compress chr1 package receipt through final staged decision class into a one-page operator card. |
+| V52 artifact cross-link audit | todo | Check key V52 artifacts are linked from manifest, index, summary, current status, and next actions. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -273,3 +277,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`. Result: incoming
   monitoring and target packages now have a concise terms, quarantine,
   checksum, raw-git, package-type, and stop/go receipt checklist.
+- 2026-07-10T11:35:09Z: Wrote
+  `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`. Result:
+  future route-status changes now require counted evidence, gate results,
+  explicit non-counting context, and consistency checks before commitment.
