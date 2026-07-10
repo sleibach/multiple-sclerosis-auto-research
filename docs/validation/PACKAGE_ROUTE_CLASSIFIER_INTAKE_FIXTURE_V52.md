@@ -49,6 +49,19 @@ synthetic monitoring package row:
   `analysis/v52_package_route_classifier/manifest_template_smoke_output.tsv`
 - result: `monitoring_validation`, `matched`, 7 of 7 required fields present.
 
+## Negative Schema Fixture
+
+The classifier now fails before routing if a received manifest lacks required
+headers. The synthetic bad manifest
+`analysis/v52_package_route_classifier/bad_manifest_missing_required_header.tsv`
+omits `provided_fields` and exits non-zero with:
+
+`manifest_missing_required_columns: provided_fields`
+
+The recorded synthetic check is:
+
+`analysis/v52_package_route_classifier/schema_negative_checks.tsv`
+
 ## Boundary
 
 This script only checks presence of the classifier's `minimum_fields`. It does
@@ -63,3 +76,5 @@ or route-specific operator cards.
 - `analysis/v52_package_route_classifier/synthetic_route_classification.tsv`
 - `analysis/v52_package_route_classifier/manifest_template_smoke_input.tsv`
 - `analysis/v52_package_route_classifier/manifest_template_smoke_output.tsv`
+- `analysis/v52_package_route_classifier/bad_manifest_missing_required_header.tsv`
+- `analysis/v52_package_route_classifier/schema_negative_checks.tsv`

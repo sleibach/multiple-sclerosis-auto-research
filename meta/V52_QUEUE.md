@@ -113,6 +113,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Add manifest template to hash snapshot | done | Added template row to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; refreshed and verified 28 rows. |
 | Package route CLI usage note | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`; linked from handoff bundle, added to hash snapshot, and snapshot verified with 29 rows. |
 | Post-manifest package RAG refresh | done | Rebuilt sparse RAG index over 804 documents; manifest-layer smoke query returned operator note, package-doc audit, intake fixture, README audit, and handoff bundle. |
+| Route classifier manifest schema hardening | done | `scripts/v52_package_route_classifier.py` now fails clearly if manifest headers lack `package_id` or `provided_fields`. |
+| Route classifier negative schema fixture | done | Added bad manifest missing `provided_fields`; expected-fail check recorded in `analysis/v52_package_route_classifier/schema_negative_checks.tsv`. |
+| Classifier status-to-preflight decision table | todo | Add a compact table mapping `matched`, `partial_or_unscoreable`, and `unscoreable_no_route` to allowed operator actions. |
+| Received package file-naming policy | todo | Specify output paths and names for received-package classifier outputs without committing restricted data. |
+| Manifest no-raw-data git policy note | todo | Add a short note distinguishing metadata manifests safe for git from raw restricted package files that must stay quarantined. |
+| Route classifier preflight checklist link | todo | Add the CLI operator note to the preflight source artifacts if not already represented there. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -515,3 +521,10 @@ and V51 structural context without reopening broad public-data discovery.
   smoke query `V52 incoming package manifest template route classifier operator
   note` returned the route-classifier operator note, package-doc audit, intake
   fixture, README audit, and handoff bundle.
+- 2026-07-10T13:43:23Z: Hardened
+  `scripts/v52_package_route_classifier.py` with explicit required-manifest
+  header validation, added
+  `analysis/v52_package_route_classifier/bad_manifest_missing_required_header.tsv`,
+  and recorded `analysis/v52_package_route_classifier/schema_negative_checks.tsv`.
+  Result: positive synthetic fixtures still pass, and a manifest missing
+  `provided_fields` fails before routing with a clear error.

@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CLASSIFIER = ROOT / "docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv"
+REQUIRED_MANIFEST_COLUMNS = {"package_id", "provided_fields"}
 
 
 def split_fields(value: str) -> list[str]:
@@ -24,6 +25,16 @@ def split_fields(value: str) -> list[str]:
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def read_manifest_tsv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="") as handle:
+        reader = csv.DictReader(handle, delimiter="\t")
+        fieldnames = set(reader.fieldnames or [])
+        missing = sorted(REQUIRED_MANIFEST_COLUMNS - fieldnames)
+        if missing:
+            raise SystemExit({"manifest_missing_required_columns": str(path), "missing": missing})
+        return list(reader)
 
 
 def classify_manifest(manifest: dict[str, str], routes: list[dict[str, str]]) -> dict[str, str]:
@@ -71,7 +82,7 @@ def main() -> None:
     args = parser.parse_args()
 
     routes = read_tsv(args.classifier)
-    manifests = read_tsv(args.manifests)
+    manifests = read_manifest_tsv(args.manifests)
     results = [classify_manifest(manifest, routes) for manifest in manifests]
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
