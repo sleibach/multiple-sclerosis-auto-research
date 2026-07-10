@@ -19,6 +19,7 @@ docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md	surveillance	current	
 docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md	validation	current	operational_handoff	interpret Gafson/Karolinska outcomes	keeps V42/V44 frozen
 docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md	validation	current	data_request	sendable data package request	monitoring and chr1 packages separated
 docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv	validation	current	machine_readable_gate	accept/partial/reject criteria by package type	package triage only
+docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv	validation	current	machine_readable_dictionary	required and optional fields by package type	mechanical package checking
 docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md	validation	current	operational_handoff	mechanical package-to-outcome routing	no rule tuning
 docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md	validation	current	operational_command	exact validation command order	uses .venv python precheck
 docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md	validation	current	result_template	future Gafson/Karolinska result-report shell	blank template only
