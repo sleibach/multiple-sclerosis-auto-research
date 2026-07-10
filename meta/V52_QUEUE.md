@@ -145,7 +145,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier empty-fields regression | done | Empty `provided_fields` fixture returns `unscoreable_no_route` with no assigned route; regression note hash-covered. |
 | Intake audit non-placeholder email negative fixture | done | Added synthetic reserved-domain email fixture, `--all-files` audit path, expected-fail output, and hash-covered regression note; production tracked intake audit still passes. |
 | Package-intake route-output schema audit | done | `scripts/v52_route_output_schema_audit.py` found 7 committed route-classifier outputs, all with the exact 9-column schema and no extra columns. |
-| Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
+| Post-intake-hardening RAG refresh | done | Rebuilt sparse RAG index over 826 documents; smoke queries returned route-output schema audit and negative-email fixture as top hits. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -708,3 +708,8 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T15:26:08Z: Added the package route-output schema audit. It found
   7 committed route-classifier outputs, all with the exact 9-column schema and
   no extra columns; the route-output schema audit note is hash-covered.
+- 2026-07-10T15:29:10Z: Rebuilt the sparse RAG index over 826 documents. Smoke
+  queries for route-output schema and non-placeholder email fixture returned
+  `docs/validation/PACKAGE_ROUTE_OUTPUT_SCHEMA_AUDIT_V52.md` and
+  `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_NEGATIVE_EMAIL_FIXTURE_V52.md`
+  as top hits.
