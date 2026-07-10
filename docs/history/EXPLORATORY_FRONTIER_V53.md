@@ -253,6 +253,21 @@ by itself, re-estimate or demote the V26 architecture supported across four
 modalities. No frozen module or locked rule was changed. See
 `analysis/v53_deoverlapped_module_sensitivity/REPORT.md`.
 
+The same sensitivity was then executed from the five held cell-state h5ad files
+across all 12 V26 donor-level contexts. The original pipeline was reproduced to
+maximum donor-score error `9.71e-17` and V26-matrix error `8.33e-17`. After
+removing all shared readout genes, the HLA-II/APC versus receptor-state edge
+collapses from `rho=0.832` to `0.175` (`q=0.582`); the paired attenuation CI is
+`-1.380` to `-0.051`. This establishes that the original cell-state dependency
+is materially definition-overlap-sensitive.
+
+This second layer failure triggers a global re-assessment of the coupled-axis
+formulation. It does not erase the separately grounded recurrence of an APC
+state, but the claim that HLA-II/APC and receptor-state are independently
+coupled cannot remain robust without comparable disjoint-readout support in the
+treatment-response layers. Those rebuilds are now the highest-priority open
+V53 work. No module definition or locked rule has been edited.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -295,8 +310,11 @@ None yet.
    design, but it is not a therapeutic lead.
 2. Perturbation-layer HLA-II/receptor-state coupling is not robust to both
    globally disjoint readouts and a cytokine-stratified null; the broader
-   multi-modality architecture remains unchanged pending comparable
-   de-overlap tests in other modalities.
+   multi-modality architecture is under re-assessment.
+3. Cell-state HLA-II/receptor-state coupling is definition-overlap-sensitive:
+   the disjoint score collapses from `rho=0.832` to `0.175`, with attenuation
+   established by paired bootstrap. The recurrent APC state remains distinct
+   from an independently coupled two-arm architecture.
 
 ### Promising-but-needs-data
 

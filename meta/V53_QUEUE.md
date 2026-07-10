@@ -39,7 +39,11 @@ exhausted public-data discovery search as a source of findings.
 | Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
 | Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
 | De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
-| Cross-modality de-overlap feasibility | todo | Inventory which non-perturbation modalities retain gene-level inputs capable of the same disjoint-readout sensitivity; run every executable layer. |
+| Cross-modality de-overlap feasibility | in-progress | Perturbation and cell-state layers are executable and complete; treatment-response raw inputs are held and queued; cross-disease summary depends on rebuilt component layers. |
+| Cell-state module de-overlap | done | Five held h5ad files, 12 contexts; exact rebuild. HLA/receptor rho 0.832 to 0.175, q=0.582, attenuation CI -1.380 to -0.051. Global coupled-axis formulation now requires re-assessment. |
+| Treatment-response sample-layer de-overlap | todo | Recompute IBD and RA response module scores from held gene-level matrices using disjoint modules; re-run dependency tests. |
+| Pharmacodynamic multi-cohort de-overlap | todo | Inventory and recompute every treatment-pharmacodynamic context with retained gene-level inputs; mark irrecoverable aggregate-only rows explicitly. |
+| Cross-disease summary de-overlap | todo | Rebuild only after executable underlying cell-state layers are resolved; do not infer from overlapping aggregate summaries. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -158,3 +162,11 @@ exhausted public-data discovery search as a source of findings.
   disjoint/context gate. This weakens one modality but does not re-estimate the
   four-modality architecture. Cumulative active time accrued through this
   checkpoint is 2h41m20s; the resumed session interval remains open.
+- 2026-07-10T23:42:15Z: Completed full cell-state de-overlap from five held
+  h5ad files and 12 donor-level contexts. The pipeline exactly reproduces V26,
+  but the HLA-II/receptor-state edge collapses from rho 0.832 to 0.175
+  (`q=0.582`), with paired attenuation CI -1.380 to -0.051. Two evidence layers
+  now fail disjoint-readout robustness, so the global coupled-axis formulation
+  is under re-assessment while the recurrent APC state remains separate.
+  Cumulative active time accrued through this checkpoint is 2h46m58s; the
+  resumed session interval remains open.

@@ -1,0 +1,21 @@
+{
+  "boundary": "This recomputes the 12 direct-h5ad cell-state contexts only. Treatment-response and cross-disease-summary layers require separate provenance-preserving rebuilds.",
+  "global_coupled_axis_status_changed": false,
+  "hla_mif_original_spearman": 0.8321678321678322,
+  "hla_mif_survives_deoverlap_gate": false,
+  "hla_mif_unique_q_bh": 0.5818709064546773,
+  "hla_mif_unique_spearman": 0.17482517482517487,
+  "max_absolute_donor_high_fraction_rebuild_error": 9.71445146547012e-17,
+  "max_absolute_donor_mean_rebuild_error": 9.71445146547012e-17,
+  "max_absolute_v26_matrix_rebuild_error": 8.326672684688674e-17,
+  "n_contexts": 12,
+  "n_source_h5ad_files": 5,
+  "purpose": "V53 cell-state dependency sensitivity using globally disjoint module genes",
+  "unique_gene_counts": {
+    "hla_ii_apc": 2,
+    "ifn_apc": 4,
+    "lysosomal_apc": 6,
+    "mif_cd74_receptor_state": 2
+  },
+  "verdict": "CELL_STATE_HLA_MIF_EDGE_FAILS_DISJOINT_READOUT_GATE_GLOBAL_STATUS_REQUIRES_REASSESSMENT"
+}
