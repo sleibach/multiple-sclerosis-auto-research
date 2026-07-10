@@ -28,9 +28,8 @@ handling state, not a data package type a data owner should choose as a primary
 submission category.
 
 No blocking inconsistency was found between README package types and route
-classifier classes. One non-blocking documentation gap remains: the
-metadata/aggregate-only context route is present in the README and classifier,
-but it has no corresponding field-dictionary row.
+classifier classes. The metadata/aggregate-only context route is present in the
+README, classifier, and field dictionary after remediation.
 
 ## Package-Type To Route Mapping
 
@@ -43,7 +42,7 @@ but it has no corresponding field-dictionary row.
 | T/B compartment data | secondary monitoring validation | `TB_secondary_monitoring` | aligned |
 | treatment-timed expression without response labels | pharmacodynamic context only | `pharmacodynamic_context_only` | aligned |
 | protein structure or tractability file | feasibility context only | `structure_context_only` | aligned |
-| aggregate paper table or plot | acquisition lead or context only | `metadata_only_or_aggregate_only` | aligned but field dictionary gap |
+| aggregate paper table or plot | acquisition lead or context only | `metadata_only_or_aggregate_only` | aligned |
 
 ## Field-Dictionary Coverage
 
@@ -57,11 +56,11 @@ The field dictionary covers the scoreable or semi-scoreable route families:
 - `pharmacodynamic_only_DMF_context`
 - `structure_only_target_context`
 
-The classifier route `metadata_only_or_aggregate_only` has minimum fields
-(`source_description`, `available_fields`, `missing_sample_level_elements`) but
-does not yet have a matching field-dictionary entry. This does not affect
-scoreable validation because aggregate-only material is context-only or an
-acquisition lead, but adding the row would make package intake more mechanical.
+The classifier route `metadata_only_or_aggregate_only` has matching
+field-dictionary entries for `source_description`, `available_fields`, and
+`missing_sample_level_elements`. This keeps aggregate-only material mechanically
+classified as context-only or an acquisition lead and prevents it from being
+mistaken for validation evidence.
 
 ## Handoff References
 
@@ -77,7 +76,6 @@ are also represented in the handoff-bundle flow:
 
 ## Verdict
 
-The data-owner README is operationally consistent with the V52 classifier and
-handoff bundle. The only follow-up is to add a field-dictionary entry for the
-metadata/aggregate-only route so context-only packages can be documented as
-mechanically as scoreable packages.
+The data-owner README is operationally consistent with the V52 classifier,
+field dictionary, preflight checklist, and handoff bundle. No package-type
+consistency blocker remains.
