@@ -62,7 +62,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring-to-clinical-utility boundary checklist | done | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`; separates scoreability, external validation, pharmacodynamic monitoring, clinical utility, and treatment-action evidence. |
 | Chr1 collaborator assay request appendix | done | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`; translates chr1 direction-matched requirements into concrete genotype, cell-state, protein, perturbation, and metadata asks. |
 | V52 machine-readable artifact manifest | done | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`; enumerates V52 artifact path, category, status, evidence role, primary use, and notes for downstream tooling. |
-| Therapeutic route risk register | todo | Catalog residual operational, evidentiary, and interpretation risks for each V52 route without changing verdicts. |
+| Therapeutic route risk register | done | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`; catalogs residual route-level and cross-cutting risks, mitigations, and escalation triggers without changing verdicts. |
 | Therapeutic route assumption ledger | todo | Make explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions. |
 | Incoming-package communication templates | todo | Draft concise accept/partial/reject response templates for monitoring and chr1 packages using existing criteria. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
@@ -244,3 +244,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T11:18:51Z: Wrote
   `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`. Result: V52 artifacts
   now have a machine-readable manifest for downstream navigation and checks.
+- 2026-07-10T11:21:43Z: Wrote
+  `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`. Result: each V52 route
+  now has explicit residual risks, mitigation artifacts, and escalation
+  triggers, preserving the monitoring-first/no-current-target verdict.
