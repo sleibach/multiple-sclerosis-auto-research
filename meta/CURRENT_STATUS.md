@@ -182,6 +182,8 @@ Current frontier:
     `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
   - Incoming package communication templates:
     `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
+  - Package checksum intake checklist:
+    `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`.
   - Structural evidence-boundary QA:
     `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
   - Therapeutic contradiction surveillance triggers:

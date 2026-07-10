@@ -44,6 +44,8 @@ therapeutic target.
   `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
 - Wrote incoming-package communication templates:
   `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
+- Wrote package checksum intake checklist:
+  `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`.
 - Wrote monitoring validation result-report template:
   `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`.
 - Wrote a sendable medical-team request packet:
@@ -132,6 +134,7 @@ Concrete field specification:
 - `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`
 - `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`
 - `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`
+- `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`

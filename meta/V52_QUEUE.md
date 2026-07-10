@@ -67,7 +67,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Incoming-package communication templates | done | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`; gives accept, partial-context, reject/unscoreable, access-term-blocked, and missing-field response templates. |
 | Monitoring validation result report template | done | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future Gafson/Karolinska preflight, primary metrics, confounder/batch results, final class, and next action. |
 | chr1 package result report template | done | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future chr1 intake, causal-gene, direction, cell-state, perturbation, modality, and final decision classes. |
-| V52 package checksum intake checklist | todo | Convert package receipt hygiene into a concise checksum/access-terms checklist for incoming monitoring and target packages. |
+| V52 package checksum intake checklist | done | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`; concise access-terms, quarantine, checksum, package-type, no-raw-git, and stop/go checklist for incoming packages. |
 | Therapeutic route decision log template | todo | Create a template for future route-status changes requiring evidence, gate result, and non-counting context fields. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
@@ -269,3 +269,7 @@ and V51 structural context without reopening broad public-data discovery.
   future chr1 packages now have a fixed staged report shell from intake through
   final target-workup-ready, biology-only, wrong-direction, incomplete, or
   closed class.
+- 2026-07-10T11:33:05Z: Wrote
+  `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`. Result: incoming
+  monitoring and target packages now have a concise terms, quarantine,
+  checksum, raw-git, package-type, and stop/go receipt checklist.
