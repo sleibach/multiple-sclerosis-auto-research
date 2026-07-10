@@ -71,6 +71,9 @@ Target-development package, if target work remains a priority:
 2. Perturbation readout for the resolved causal gene.
 3. A modality that moves in the genetically protective direction.
 
+Concrete field specification:
+`docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
+
 ## What Not To Do
 
 - Do not spend wet-lab budget on GPR25, KIF21B, PTGER4, or ZMIZ1 as
@@ -85,6 +88,7 @@ Target-development package, if target work remains a priority:
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
+- `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`
 - `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`
 - `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`

@@ -162,6 +162,8 @@ Current frontier:
     `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
   - ZMIZ1 restored-OpenGWAS direction handoff:
     `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
+  - chr1 genotype-linked future data spec:
+    `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
   - Therapeutic validation handoff:
     `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
   - Structural-prediction class and gate:

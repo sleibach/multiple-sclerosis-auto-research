@@ -39,7 +39,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Structure-informed PTGER4 triage | done | AlphaFold DB `AF-P35408-F1` v6 retrieved; receptor-core structural context is compatible with tractability, but closure is confirmed because the blocker is mixed signal and direction, not lack of structure. |
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | done | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`; restored token can polish bounded direction manifests but does not create a ZMIZ1 target route. |
 | Public-facing therapeutic summary card | done | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`; compact medical-team handoff: validate monitoring first, no target intervention-grade, exact next data asks. |
-| Chr1 genotype-linked data specification | todo | Turn V52 reopen criteria into exact sample/data fields for a future chr1 causal-gene dataset. |
+| Chr1 genotype-linked data specification | done | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`; exact future data package needed to resolve GPR25 vs KIF21B and direction/modality. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
 | Structure-aware no-go table | todo | Convert GPR25/KIF21B/PTGER4 structure findings into a compact no-go / reopen-trigger table. |
@@ -100,3 +100,10 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`, linked from the main
   therapeutic report and live navigation. It states the public-facing V52
   bottom line: validate monitoring first; no intervention-grade target yet.
+- 2026-07-10T10:14:28Z: Therapeutic summary card committed and pushed as
+  `a49ea3f4`; local and `origin/main` match. Continuing with chr1
+  genotype-linked data specification.
+- 2026-07-10T10:16:04Z: Wrote
+  `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`. Result: chr1
+  target work now has an exact genotype-linked immune/CSF expression/protein
+  and perturbation data ask; no target is reopened without that package.

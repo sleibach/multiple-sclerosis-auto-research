@@ -41,6 +41,7 @@ data and a direction-matched modality exist.
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |
 | Therapeutic validation handoff | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md` |
 | chr1 KIF21B/GPR25 genetics/druggability | `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md` |
+| chr1 genotype-linked future data spec | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md` |
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | ZMIZ1 restored-OpenGWAS direction handoff | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
@@ -223,8 +224,9 @@ caution.
    rechecks; it does not reopen discovery and does not automatically rescue a
    closed lead.
 5. **Medical-team ask:** prioritize Gafson/Karolinska validation data and, if
-   target discovery remains a priority, genotype-linked immune/CSF expression
-   plus protein data for the chr1 haplotype.
+   target discovery remains a priority, the genotype-linked immune/CSF
+   expression plus protein package specified in
+   `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
 6. **External-context check:** V52 found no genuine therapeutic contradiction
    in the segregated external layer; external context supports cautionary
    interpretations and validation guardrails, but does not validate the scalar
