@@ -16,6 +16,7 @@ commands, not a validation result.
 - `python3 scripts/v52_validate_package_id.py --help`
 - `python3 scripts/v52_package_route_classifier.py --help`
 - `python3 scripts/v52_received_intake_safety_audit.py --help`
+- `python3 scripts/v52_route_output_schema_audit.py --help`
 
 ## Recorded Result
 
@@ -23,7 +24,7 @@ Recorded output:
 
 `analysis/v52_package_intake_cli_help_snapshot/cli_help_snapshot.tsv`
 
-Current result: 3 commands checked, 0 failures. Each command returned exit code
+Current result: 4 commands checked, 0 failures. Each command returned exit code
 0 and printed a usage block.
 
 ## Boundary
