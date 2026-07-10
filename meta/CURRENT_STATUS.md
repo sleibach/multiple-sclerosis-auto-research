@@ -172,6 +172,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`.
   - Prospective monitoring utility study sketch:
     `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
+  - Monitoring clinical-utility boundary checklist:
+    `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
   - Structural evidence-boundary QA:
     `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
   - Therapeutic contradiction surveillance triggers:

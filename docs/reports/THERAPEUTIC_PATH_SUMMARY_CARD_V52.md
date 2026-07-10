@@ -38,6 +38,8 @@ therapeutic target.
   `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
 - Wrote prospective monitoring utility study sketch:
   `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
+- Wrote monitoring clinical-utility boundary checklist:
+  `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
 - Wrote a sendable medical-team request packet:
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Wrote bounded genetics handoff:
@@ -110,6 +112,7 @@ Concrete field specification:
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
 - `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`
+- `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`

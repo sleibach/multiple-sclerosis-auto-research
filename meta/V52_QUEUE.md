@@ -59,7 +59,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic claim hierarchy | done | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`; separates locked rules, grounded findings, provisional monitoring, mechanism context, target handoffs, structure context, and future asks. |
 | Target package acceptance criteria TSV | done | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`; machine-readable accept/partial/reject criteria by package type. |
 | Prospective monitoring utility study sketch | done | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`; defines the post-validation prospective utility study needed before any score-guided clinical action. |
-| Monitoring-to-clinical-utility boundary checklist | todo | Convert utility-study boundaries into a compact checklist for external reviewers and medical-team decisions. |
+| Monitoring-to-clinical-utility boundary checklist | done | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`; separates scoreability, external validation, pharmacodynamic monitoring, clinical utility, and treatment-action evidence. |
 | Chr1 collaborator assay request appendix | todo | Translate chr1 direction-matched data requirements into a collaborator-facing assay appendix. |
 | V52 machine-readable artifact manifest | todo | Emit a TSV or JSONL manifest of V52 artifacts, type, status, and primary use for downstream navigation. |
 | Therapeutic route risk register | todo | Catalog residual operational, evidentiary, and interpretation risks for each V52 route without changing verdicts. |
@@ -230,3 +230,7 @@ and V51 structural context without reopening broad public-data discovery.
   a positive external validation is explicitly separated from clinical utility;
   score-guided action would need a later prospective decision-impact/action
   study, not post-hoc interpretation of Gafson or Karolinska.
+- 2026-07-10T11:14:27Z: Wrote
+  `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
+  Result: V52 now has explicit allowed/forbidden wording and claim boundaries
+  from technical scoreability through treatment-action utility.

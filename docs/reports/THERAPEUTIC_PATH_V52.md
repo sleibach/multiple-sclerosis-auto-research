@@ -51,6 +51,7 @@ data and a direction-matched modality exist.
 | Monitoring validation decision tree | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` |
 | Monitoring validation command manifest | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` |
 | Prospective monitoring utility study sketch | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` |
+| Monitoring clinical-utility boundary checklist | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md` |
 | chr1 KIF21B/GPR25 genetics/druggability | `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md` |
 | chr1 genotype-linked future data spec | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md` |
 | chr1 direction-matched experiment blueprint | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md` |
