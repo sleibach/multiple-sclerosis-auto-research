@@ -23,6 +23,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`.
 - Therapeutic artifact consistency audit:
   `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`.
+- Therapeutic claim hierarchy:
+  `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`.
 - Structural evidence-boundary QA:
   `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Therapeutic contradiction surveillance triggers:

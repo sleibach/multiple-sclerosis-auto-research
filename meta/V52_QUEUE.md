@@ -56,7 +56,7 @@ and V51 structural context without reopening broad public-data discovery.
 | External-skeptic therapeutic rebuttal checklist | done | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`; pre-answers monitoring-first, no-target, structure, OpenGWAS, confounder, and power objections. |
 | V52 artifact consistency audit | done | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`; no inconsistency found across V52 therapeutic report, summary, matrices, request packet, and validation handoffs. |
 | Monitoring validation command manifest | done | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`; exact interpreter precheck, preflight gates, frozen harness command, outputs, and non-commands. |
-| Therapeutic claim hierarchy | todo | Separate validated facts, provisional monitoring claims, target handoffs, structure context, and future asks in one hierarchy. |
+| Therapeutic claim hierarchy | done | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`; separates locked rules, grounded findings, provisional monitoring, mechanism context, target handoffs, structure context, and future asks. |
 | Target package acceptance criteria TSV | todo | Make a compact data-package acceptance table for chr1 and secondary target/biology routes. |
 | Prospective monitoring utility study sketch | todo | Define what a post-validation clinical-utility study would need without changing the frozen rule. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
@@ -212,3 +212,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`. Result:
   future validation operators have exact command order and an interpreter
   precheck; `.venv/bin/python` imports numpy/pandas successfully.
+- 2026-07-10T11:06:12Z: Wrote
+  `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`. Result: V52 now has an
+  explicit hierarchy separating what can be claimed from what is context or a
+  future data ask.
