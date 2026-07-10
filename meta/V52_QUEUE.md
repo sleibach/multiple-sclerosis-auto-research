@@ -1,6 +1,6 @@
 # V52 Queue: Therapeutic-Path Synthesis
 
-Status: in-progress
+Status: completed
 
 V52 uses the active-time block machine, but its first value-complete target is a
 therapeutic-path synthesis that combines V37 findings, restored OpenGWAS access,
@@ -10,9 +10,14 @@ and V51 structural context without reopening broad public-data discovery.
 
 - Block start UTC: 2026-07-10T09:43:31Z
 - Active target: 6h cumulative active time
+- Active target status: met
+- Cumulative active runtime: 6h00m04s
+- Block end UTC: 2026-07-10T15:43:35Z
 - Active session intervals:
-  - 2026-07-10T09:43:31Z - open
+  - 2026-07-10T09:43:31Z - 2026-07-10T15:43:35Z (6h00m04s active)
 - Wall-clock span start UTC: 2026-07-10T09:43:31Z
+- Wall-clock span end UTC: 2026-07-10T15:43:35Z
+- Wall-clock span: 6h00m04s
 
 ## Environment And Remote
 
@@ -151,7 +156,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package-intake generated-output inventory refresh | done | Refreshed generated-output inventory to 34 package-intake artifacts, covering route-classifier fixtures, intake negative email, and route-output schema audit fixtures. |
 | Package-intake script help snapshot generator note | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_REFRESH_NOTE_V52.md` records the mechanical four-command regeneration snippet. |
 | Package-intake audit script surface cross-check | todo | Verify package-intake scripts mentioned in docs have matching help snapshot coverage or an explicit exclusion. |
-| Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
+| Final V52 active-time/run summary update | done | Closed the session interval at 2026-07-10T15:43:35Z; cumulative active runtime and wall-clock span are both 6h00m04s for this single continuous session. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
 
@@ -734,3 +739,6 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T15:41:15Z: Added package-intake CLI help refresh note documenting
   the mechanical four-command regeneration snippet for the committed help
   snapshot.
+- 2026-07-10T15:43:35Z: V52 active target met at a clean point. Final HEAD is
+  `0c9e50ba`; working tree clean; OpenGWAS checker returned HTTP 200 with token
+  expiry `2026-07-24 08:00 UTC`; tracked size/tmp guard passed.
