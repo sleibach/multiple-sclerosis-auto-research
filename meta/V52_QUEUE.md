@@ -71,7 +71,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic route decision log template | done | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`; fixed future route-status change template requiring counted evidence, gate results, and explicit non-counting context. |
 | V52 route-status dashboard table | done | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`; compact machine-readable route status, next gate, blocker, action, and verdict dashboard. |
 | Monitoring operator one-page run card | done | `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page monitoring package receipt-to-result class card for operators. |
-| chr1 operator one-page run card | todo | Compress chr1 package receipt through final staged decision class into a one-page operator card. |
+| chr1 operator one-page run card | done | `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page chr1 genotype-linked package receipt-to-final-staged-class card. |
 | V52 artifact cross-link audit | todo | Check key V52 artifacts are linked from manifest, index, summary, current status, and next actions. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
@@ -289,3 +289,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`. Result: future
   monitoring operators have a compact package receipt, command sequence,
   result-class, and non-command quick card.
+- 2026-07-10T11:41:35Z: Wrote
+  `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`. Result: future
+  chr1 operators have a compact receipt, staged-review, final-class, and
+  non-command quick card.

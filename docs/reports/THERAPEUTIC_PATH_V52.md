@@ -66,6 +66,7 @@ data and a direction-matched modality exist.
 | chr1 direction-matched experiment blueprint | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md` |
 | chr1 collaborator assay request appendix | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md` |
 | chr1 package result-report template | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md` |
+| chr1 operator one-page card | `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md` |
 | Structure-aware no-go / reopen table | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md` |
 | GPR25 direction-matched modality spec | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md` |
 | KIF21B restoration modality spec | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md` |
