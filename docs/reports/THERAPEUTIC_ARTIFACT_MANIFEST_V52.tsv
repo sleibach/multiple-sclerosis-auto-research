@@ -1,0 +1,46 @@
+artifact	category	status	evidence_role	primary_use	notes
+docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md	executive_synthesis	current	navigation_summary	medical-team one-page bottom line	monitoring first; no intervention-grade target
+docs/reports/THERAPEUTIC_PATH_V52.md	executive_synthesis	current	synthesis	full therapeutic-path verdict	primary V52 synthesis
+docs/reports/THERAPEUTIC_PATH_INDEX_V52.md	navigation	current	navigation	artifact reading order and index	no evidence added
+docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv	navigation	current	machine_readable_manifest	downstream artifact enumeration	this file
+docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv	route_matrix	current	machine_readable_status	route and lead status table	13 therapeutic-route rows
+docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv	route_matrix	current	machine_readable_gate	reopen criteria for closed or conditional routes	non-counting evidence explicit
+docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md	reviewer_support	current	synthesis_guard	pre-answer external objections	artifact-backed residual gaps
+docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md	reviewer_support	current	consistency_audit	check V52 message consistency	no verdict change
+docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md	reviewer_support	current	claim_boundary	claim-level separation	grounded/provisional/context/future asks separated
+docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md	reviewer_support	current	structure_context_guard	keeps AlphaFold DB outputs as context only	no target verdict change
+docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md	surveillance	current	future_tension_rule	define future contradiction triggers	queueing rule only
+docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md	validation	current	operational_handoff	interpret Gafson/Karolinska outcomes	keeps V42/V44 frozen
+docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md	validation	current	data_request	sendable data package request	monitoring and chr1 packages separated
+docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv	validation	current	machine_readable_gate	accept/partial/reject criteria by package type	package triage only
+docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md	validation	current	operational_handoff	mechanical package-to-outcome routing	no rule tuning
+docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md	validation	current	operational_command	exact validation command order	uses .venv python precheck
+docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md	validation	current	future_study_design	post-validation clinical utility study design	utility not inferred from validation alone
+docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md	validation	current	claim_boundary	scoreability-to-action boundary wording	forbidden wording explicit
+docs/validation/PREREGISTRATION_V42.md	validation	frozen	locked_validation_plan	Gafson analysis plan	not changed in V52
+docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	validation	frozen	locked_interpretation	Gafson outcome meanings	not changed in V52
+docs/validation/POWER_MAP_V43.md	validation	supporting	method_characterization	cohort-size expectations	synthetic method behavior only
+docs/validation/BATCH_GUARD_V44.md	validation	supporting	method_characterization	batch false-positive guard	additive reporting guard
+docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md	genetics	current	targeted_rerun	renewed-token bounded genetics checks	no discovery reopening
+docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md	genetics	current	scope_guard	allowed bounded genetics reruns	explicitly excludes broad discovery
+meta/OPENGWAS_RENEWAL_WATCH_V52.md	genetics	current	operational_watch	token expiry and auth-route behavior	expires 2026-07-24 08:00 UTC
+docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md	genetics	current	future_data_spec	chr1 causal gene/cell/direction package	hard-target handoff
+docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md	genetics	current	future_experiment_blueprint	staged chr1 reopen experiment	direction-matched chain required
+docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md	genetics	current	collaborator_request	chr1 assay and metadata request	no target reopening
+docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md	genetics	current	modality_gate	GPR25 agonism/restoration requirements	class tractability not enough
+docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md	genetics	current	modality_gate	KIF21B restoration/up-function requirements	generic inhibition wrong-direction
+docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md	genetics	current	reopen_gate	PTGER4 signal-specific reopen requirements	generic GPCR tractability not enough
+docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md	genetics	current	transfer_warning	ZMIZ1 direction handoff	cautionary decoupling not target
+docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md	genetics	current	no_go_table	structure-aware no-go/reopen status	structure cannot override direction
+knowledge_external/structures/alphafold/GPR25_O00155/record.json	structure_context	current	confidence_record	GPR25 AlphaFold DB record	segregated context only
+knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md	structure_context	current	tractability_context	GPR25 receptor-core context	context only; no verdict change
+knowledge_external/structures/alphafold/KIF21B_O75037/record.json	structure_context	current	confidence_record	KIF21B AlphaFold DB record	segregated context only
+knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md	structure_context	current	tractability_context	KIF21B motor-domain context	context only; no verdict change
+knowledge_external/structures/alphafold/PTGER4_P35408/record.json	structure_context	current	confidence_record	PTGER4 AlphaFold DB record	segregated context only
+knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md	structure_context	current	tractability_context	PTGER4 receptor-core context	context only; no verdict change
+knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md	external_context	current	convergence_check	external-context head-to-head therapeutic check	0 genuine therapeutic contradictions surfaced
+docs/knowledge/EPISTEMIC_CLASSES.md	governance	current	provenance_boundary	epistemic class definitions	external context kept separate
+scripts/v47_provenance_gate.py	governance	current	provenance_gate	enforce external-context segregation	must pass before push
+meta/V52_QUEUE.md	resume	current	queue	active-time and backlog state	live V52 backbone
+meta/CURRENT_STATUS.md	navigation	current	status	project state summary	V52 frontier listed
+meta/NEXT_ACTIONS.md	navigation	current	next_actions	resume entry point	V52 first unresolved item listed

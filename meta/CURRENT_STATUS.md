@@ -158,6 +158,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_PATH_V52.md`.
   - V52 therapeutic artifact index:
     `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`.
+  - V52 therapeutic artifact manifest:
+    `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`.
   - Public-facing therapeutic summary card:
     `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
   - Machine-readable therapeutic target evidence matrix:

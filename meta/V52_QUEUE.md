@@ -61,7 +61,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Prospective monitoring utility study sketch | done | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`; defines the post-validation prospective utility study needed before any score-guided clinical action. |
 | Monitoring-to-clinical-utility boundary checklist | done | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`; separates scoreability, external validation, pharmacodynamic monitoring, clinical utility, and treatment-action evidence. |
 | Chr1 collaborator assay request appendix | done | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`; translates chr1 direction-matched requirements into concrete genotype, cell-state, protein, perturbation, and metadata asks. |
-| V52 machine-readable artifact manifest | todo | Emit a TSV or JSONL manifest of V52 artifacts, type, status, and primary use for downstream navigation. |
+| V52 machine-readable artifact manifest | done | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`; enumerates V52 artifact path, category, status, evidence role, primary use, and notes for downstream tooling. |
 | Therapeutic route risk register | todo | Catalog residual operational, evidentiary, and interpretation risks for each V52 route without changing verdicts. |
 | Therapeutic route assumption ledger | todo | Make explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions. |
 | Incoming-package communication templates | todo | Draft concise accept/partial/reject response templates for monitoring and chr1 packages using existing criteria. |
@@ -241,3 +241,6 @@ and V51 structural context without reopening broad public-data discovery.
   Result: chr1 collaborator requests now specify genotype targets, cell-state
   coverage, protein/perturbation expectations, metadata, and package classes
   without reopening chr1 as a target.
+- 2026-07-10T11:18:51Z: Wrote
+  `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`. Result: V52 artifacts
+  now have a machine-readable manifest for downstream navigation and checks.
