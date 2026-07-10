@@ -47,3 +47,12 @@ Before creating a package subdirectory:
 
 If any step fails because terms, labels, or safe metadata are missing, stop and
 write a blocker using `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`.
+
+Before committing any files under this directory, run:
+
+```bash
+python3 scripts/v52_received_intake_safety_audit.py --fail-on-error
+```
+
+The current recorded smoke-audit output is
+`analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv`.

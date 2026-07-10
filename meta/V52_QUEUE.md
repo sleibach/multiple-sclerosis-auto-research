@@ -123,7 +123,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Receipt blocker template | done | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`; standard blocker note for terms/raw-data/manifest failures before analysis; linked and hash-covered. |
 | Package ID sanitizer/check note | done | `scripts/v52_validate_package_id.py`, `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`, and synthetic checks validate `YYYYMMDD_lowercase_alnum_underscore_segments`; note is hash-covered. |
 | Received-package intake directory README | done | `analysis/received_package_intake/README.md` now states safe metadata/classifier outputs only, raw or restricted files prohibited, and the required intake flow. |
-| Received-package intake directory smoke audit | todo | Verify tracked intake-directory files contain only safe metadata/classifier outputs and no obvious raw-expression or restricted-label columns. |
+| Received-package intake directory smoke audit | done | `scripts/v52_received_intake_safety_audit.py` and `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv` verify current tracked intake files: 3 files, 14 checks, 0 failures. |
 | Package intake operator quickstart card | todo | Add a compact operator card linking package ID validation, manifest template, route classifier, preflight decision table, and receipt blocker flow. |
 | Package ID validator regression fixture | todo | Record an explicit command-driven regression note for valid/invalid package IDs so operators can rerun the check after edits. |
 | Received-package intake README hash coverage | todo | Add the intake-directory README and quickstart card to the V52 operator artifact hash snapshot if they are stable operator controls. |
@@ -585,3 +585,7 @@ and V51 structural context without reopening broad public-data discovery.
   Result: the intake directory now has a local boundary note stating that only
   safe metadata/classifier artifacts belong there and raw or restricted package
   files remain quarantined outside git.
+- 2026-07-10T14:20:05Z: Added `scripts/v52_received_intake_safety_audit.py`,
+  `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`, and recorded
+  `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv`. Result:
+  current tracked intake files pass 14 commit-safety checks with 0 failures.
