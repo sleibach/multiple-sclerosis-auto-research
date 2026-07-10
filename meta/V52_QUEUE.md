@@ -120,7 +120,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Manifest no-raw-data git policy note | done | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md`; distinguishes commit-eligible metadata/classifier outputs from raw/restricted package content; added to hash snapshot. |
 | Route classifier preflight checklist link | done | Added raw-data git policy, file-naming policy, classifier operator note, and status decision table to preflight checks/source artifacts; refreshed snapshot hash. |
 | Received-package intake path dry run | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`; synthetic package under `analysis/received_package_intake/` routed to `monitoring_validation`, `matched`, 7/7 fields present. |
-| Receipt blocker template | todo | Add a small template for access-term or raw-data blockers discovered before analysis. |
+| Receipt blocker template | done | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`; standard blocker note for terms/raw-data/manifest failures before analysis; linked and hash-covered. |
 | Package ID sanitizer/check note | todo | Specify how to validate package IDs against lowercase alphanumeric underscore rules before creating intake paths. |
 | Received-package intake directory README | todo | Add a README explaining that `analysis/received_package_intake/` may contain safe metadata only, not raw restricted data. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
@@ -564,3 +564,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`. Result: the
   prescribed received-package path produces a `monitoring_validation` `matched`
   classification with 7 of 7 required fields present.
+- 2026-07-10T14:04:35Z: Wrote
+  `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`, linked it from the handoff
+  bundle and file-naming policy, added it to the operator hash snapshot, and
+  refreshed hashes. Result: pre-analysis blockers now have a fixed format, and
+  the 33-row snapshot verifies cleanly.

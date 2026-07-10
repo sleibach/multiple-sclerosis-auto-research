@@ -68,6 +68,9 @@ Use `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` to decide
 whether a manifest, classifier output, checksum summary, or blocker note is safe
 to commit.
 
+Use `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md` when an intake blocker
+must be recorded.
+
 ## Boundary
 
 This policy controls file placement and names only. It does not decide package
