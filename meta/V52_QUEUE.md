@@ -80,7 +80,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic path reviewer quickstart | done | `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`; reader roles, challenge map, and claim-boundary reminders. |
 | Monitoring pass/fail public wording table | done | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`; safe public wording, caveat, forbidden wording, and next action by monitoring result class. |
 | chr1 no-go communication appendix | done | `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`; collaborator-safe wording for real chr1 biology without target promotion. |
-| V52 artifact hash snapshot | todo | Record hashes for key V52 operator artifacts for package-handoff integrity. |
+| V52 artifact hash snapshot | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; SHA256 snapshot of key operator artifacts, excluding mutable navigation docs. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -333,3 +333,7 @@ and V51 structural context without reopening broad public-data discovery.
   chr1 now has collaborator-safe language that preserves the real-biology
   handoff while explicitly blocking GPR25/KIF21B target promotion without
   genotype-linked cell-state, direction, perturbation, and modality evidence.
+- 2026-07-10T12:08:26Z: Wrote
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: key
+  monitoring, chr1, and OpenGWAS operator artifacts now have SHA256 hashes for
+  future package-handoff drift checks; mutable navigation docs are excluded.

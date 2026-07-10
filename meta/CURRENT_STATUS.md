@@ -164,6 +164,8 @@ Current frontier:
     `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`.
   - Local sparse knowledge index status:
     `knowledge/tools/RAG_STATUS.md`.
+  - V52 operator artifact hash snapshot:
+    `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`.
   - V52 therapeutic route status dashboard:
     `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
   - Public-facing therapeutic summary card:

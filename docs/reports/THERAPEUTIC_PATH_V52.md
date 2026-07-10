@@ -40,6 +40,7 @@ data and a direction-matched modality exist.
 | V52 therapeutic artifact manifest | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv` |
 | V52 artifact cross-link audit | `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md` |
 | Local sparse knowledge index status | `knowledge/tools/RAG_STATUS.md`; `knowledge/.index/manifest.json`; `knowledge/.index/tfidf_index.pkl` |
+| V52 operator artifact hash snapshot | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` |
 | V52 therapeutic route status dashboard | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv` |
 | Machine-readable therapeutic evidence matrix | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` |
 | Machine-readable therapeutic reopen checklist | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` |
