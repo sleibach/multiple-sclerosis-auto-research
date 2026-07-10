@@ -137,7 +137,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Operator hash coverage after regression docs | done | Added six stable regression/smoke/audit docs to the V52 operator hash snapshot; 43-row snapshot verifies and coverage audit updated. |
 | Route classifier full examples regression | done | Converted all 10 route-classifier examples to manifest shape; initial 2 example-table mismatches corrected; rerun has 0 expected-route failures and 0 unexpected status failures. |
 | Package intake raw-term scanner for operator docs | done | `scripts/v52_package_intake_raw_term_scanner.py`; 42 raw/credential wording checks, 0 hard failures, 0 warnings; scan note hash-covered. |
-| Received-package dry-run replay audit | todo | Replay the received-package dry-run manifest through current route classifier and compare against the committed dry-run route output. |
+| Received-package dry-run replay audit | done | `scripts/v52_received_package_dry_run_replay_audit.py`; replayed the synthetic dry-run manifest and matched the committed route output exactly. |
 | Handoff bundle ordered-flow audit | todo | Verify Universal Intake bundle order still follows ID check, access terms, safe paths, manifest, classifier, safety audit, and blocker handling. |
 | Package-intake generated-output inventory | todo | Record which package-intake analysis outputs are synthetic/regression artifacts versus stable operator controls, so future commits do not hash mutable outputs accidentally. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
@@ -664,3 +664,9 @@ and V51 structural context without reopening broad public-data discovery.
   `analysis/v52_package_intake_raw_term_scanner/raw_term_scan.tsv`. Result: 42
   raw/credential wording checks, 0 hard failures, 0 warnings, and the 45-row
   operator hash snapshot verifies.
+- 2026-07-10T14:55:33Z: Added
+  `scripts/v52_received_package_dry_run_replay_audit.py`,
+  `docs/validation/RECEIVED_PACKAGE_DRY_RUN_REPLAY_AUDIT_V52.md`, and recorded
+  `analysis/v52_received_package_dry_run_replay/`. Result: replayed synthetic
+  dry-run route output exactly matches the committed dry-run classifier output,
+  and the 46-row operator hash snapshot verifies.
