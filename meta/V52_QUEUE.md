@@ -107,6 +107,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Package route classifier intake fixture | done | `scripts/v52_package_route_classifier.py` plus synthetic manifests/output; five full synthetic package matches and one intentional partial monitoring package. |
 | Operator bundle stable-vs-mutable policy note | done | `docs/reports/V52_OPERATOR_ARTIFACT_STABILITY_POLICY.md`; defines stable operator controls, mutable dashboards, context reports, synthetic fixture outputs, and self-reference exclusions; added to hash snapshot. |
 | V52 package-doc consistency audit | done | `docs/validation/PACKAGE_DOC_CONSISTENCY_AUDIT_V52.md`; all 9 classifier routes represented in examples/preflight, 0 missing primary or handoff artifacts, 0 unresolved field-dictionary source refs. |
+| Incoming package manifest template | done | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv`; placeholder manifest includes `provided_fields` compatible with the V52 route-classifier intake script. |
+| Manifest template classifier smoke fixture | todo | Run the manifest template through the package route classifier with a filled synthetic example and record expected route behavior. |
+| Link manifest template into data-owner README and handoff bundle | done | Added template references to `docs/validation/DATA_OWNER_PACKAGE_README_V52.md` and `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. |
+| Add manifest template to hash snapshot | done | Added template row to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; refreshed and verified 28 rows. |
+| Package route CLI usage note | todo | Add a concise operator note for running `scripts/v52_package_route_classifier.py` on a received manifest. |
+| Post-manifest package RAG refresh | todo | Rebuild sparse RAG index after manifest-template artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -485,3 +491,9 @@ and V51 structural context without reopening broad public-data discovery.
   classes appear in examples and preflight, classifier primary artifacts and
   handoff paths exist, and all 20 unique field-dictionary source references
   resolve by path or basename.
+- 2026-07-10T13:31:04Z: Added
+  `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv`, linked it from
+  the data-owner README and handoff bundle, added it to the operator hash
+  snapshot, refreshed hashes, and updated the hash coverage audit. Result: the
+  data-owner manifest shape is now discoverable, classifier-compatible, and
+  hash-covered; the snapshot verifies with 28 rows.

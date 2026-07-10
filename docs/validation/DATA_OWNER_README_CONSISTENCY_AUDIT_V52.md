@@ -68,6 +68,7 @@ All README "Files To Read Before Sending" references are present in the repo and
 are also represented in the handoff-bundle flow:
 
 - `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`
+- `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`
 - `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`
