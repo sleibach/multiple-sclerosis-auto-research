@@ -92,7 +92,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Incoming package preflight checklist consolidation | done | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`; one-page preflight ordering terms, quarantine/checksum, route classification, field dictionary, acceptance criteria, hash check, and result templates. |
 | Chr1 target-resolution decision compact | done | `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`; compact go/no-go states for chr1 packages after classifier routing. |
 | Monitoring package minimum viable package checklist | done | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`; concise required-vs-preferred checklist for paired PBMC response packages. |
-| Therapeutic package handoff bundle index | todo | Bundle the operator-facing validation, chr1, and hash artifacts into a sendable handoff index. |
+| Therapeutic package handoff bundle index | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`; grouped universal intake, monitoring, chr1, and route governance handoff bundles. |
 | V52 route classifier TSV validation command | todo | Add a compact TSV schema check command for the classifier table. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -401,3 +401,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`. Result:
   paired PBMC response packages now have a concise required-vs-preferred field
   checklist before frozen monitoring analysis.
+- 2026-07-10T13:03:12Z: Wrote
+  `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. Result:
+  operator-facing V52 artifacts are grouped into universal intake, monitoring,
+  chr1, and governance/drift-check bundles.

@@ -64,6 +64,7 @@ data and a direction-matched modality exist.
 | Validation package route classifier | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` |
 | Validation package route classifier examples | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` |
 | Incoming package preflight checklist | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` |
+| Therapeutic package handoff bundle index | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md` |
 | Monitoring validation decision tree | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` |
 | Monitoring validation command manifest | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` |
 | Monitoring validation result-report template | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` |

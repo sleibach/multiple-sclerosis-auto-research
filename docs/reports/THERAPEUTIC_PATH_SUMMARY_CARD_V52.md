@@ -80,6 +80,8 @@ therapeutic target.
   `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
 - Wrote incoming package preflight checklist:
   `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`.
+- Wrote therapeutic package handoff bundle index:
+  `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`.
 - Wrote bounded genetics handoff:
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Wrote bounded OpenGWAS pre-expiry command list:
@@ -187,6 +189,7 @@ Concrete field specification:
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`
 - `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`
+- `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
 - `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`
