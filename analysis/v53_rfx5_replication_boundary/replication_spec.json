@@ -1,0 +1,40 @@
+{
+  "contexts_required": [
+    "primary human monocyte-derived APCs under IFN-gamma stimulation",
+    "primary human B cells under a pre-locked constitutive-or-CD40L HLA-II condition"
+  ],
+  "current_status": "NOT_A_CONTROL_CANDIDATE_AND_NOT_A_THERAPEUTIC_TARGET",
+  "design": [
+    "paired donor design with RFX5 CRISPRi and non-targeting control in each context",
+    "pre-lock one guide-quality threshold and exclude failed perturbations without using module outcomes",
+    "freeze the V26 HLA-II/APC, receptor-state, IFN/APC, and GILT/lysosomal gene sets before assay",
+    "analyze donor-level pseudobulk; technical cells are not independent replicates",
+    "include a broad IFN/JAK control and a transcriptional-gate comparator, neither counted as RFX5 replication"
+  ],
+  "molecular_replication_gate": {
+    "collateral_guard": "mean standardized IFN/APC and GILT/lysosomal effects each>=-0.3 in each context",
+    "criterion": "both expected-direction one-sided sign tests BH q<=0.10 and standardized mean effects<=-0.5 in each context",
+    "cross_context_rule": "the complete gate must pass independently in both contexts",
+    "primary_targets": [
+      "hla_ii_apc",
+      "mif_cd74_receptor_state"
+    ]
+  },
+  "power_boundary": {
+    "minimum_n_per_context_for_joint_power_ge_0_80_by_assumed_effect": {
+      "0.5": null,
+      "0.8": 48,
+      "1.0": 32,
+      "1.2": 32,
+      "1.5": 32
+    },
+    "warning": "The project has no donor-level RFX5 variance estimate. These are assumption-labeled synthetic design probabilities, not an empirical effect-size estimate."
+  },
+  "purpose": "Pre-specified independent replication boundary for a nominal single-context RFX5 perturbation pattern",
+  "therapeutic_reopening_gate": [
+    "molecular replication alone retains RFX5 as a mechanism comparator, not a drug target",
+    "a practical partial-modulation modality must phenocopy the molecular gate",
+    "the same modality must preserve broad IFN/APC and antigen-presentation host-defense function in a pre-specified functional assay",
+    "an MS-relevant causal or response anchor must be established independently"
+  ]
+}

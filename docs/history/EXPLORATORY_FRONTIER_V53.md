@@ -144,6 +144,25 @@ score `0.588`) but was single-context and non-significant after correction
 larger collateral IFN suppression. The method therefore recovers the existing
 selectivity boundary rather than nominating a new control point.
 
+The RFX5 boundary was then made explicit in
+`analysis/v53_rfx5_replication_boundary/REPORT.md`. Its single held IFN-gamma
+signature is descriptively selective (`HLA-II/APC=-0.706`, receptor-state
+`=-0.573`, IFN/APC `=-0.050`), but the network selective-score and cosine
+q-values are `0.678` and `0.903`; the older therapeutic route audit passes only
+`2/8` gates. It is therefore a nominal mechanism comparator, not a control-node
+result and not a target.
+
+The committed follow-up specification requires donor-level RFX5 CRISPRi to
+pass the same molecular and collateral gates independently in two primary-human
+APC contexts. A three-seed, 450,000-cohort synthetic design map shows that the
+two-context design needs 48 donors per context under an assumed standardized
+effect of `0.8`, or 32 under effects of `1.0-1.5`, to exceed 80% joint success
+probability; an effect of `0.5` does not reach 80% by 96 donors. These are
+assumption-labeled method-design results, not an empirical RFX5 effect estimate.
+Even molecular replication would not establish a therapeutic route without a
+practical partial-modulation modality, functional host-defense preservation,
+and an independent MS-relevant anchor.
+
 ## Workstream E: Multi-Lineage And RPT Proposals
 
 Status: complete for the first divergent round. Model outputs remained
@@ -232,3 +251,5 @@ value is state-readout context.
    signature under the current held perturbation matrix.
 3. A replicated selective APC-axis network-control node under the current held
    perturbation and dependency matrices.
+4. RFX5 as a corrected, cross-context control node or therapeutic target; its
+   current value is limited to a nominal single-context mechanism comparator.

@@ -33,7 +33,7 @@ exhausted public-data discovery search as a source of findings.
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
 | Causal-identifiability threshold sensitivity | done | 10 skeleton variants, 3-6 edges, all with 0 consensus-oriented edges. |
 | V26 matrix semantic contract | done | Six frozen matrix contracts; 72/72 real checks pass, synthetic valid/invalid requests behave correctly, and 12/16 model capability requests are blocked as semantically unsupported. |
-| RFX5 single-context boundary packet | todo | Record exactly what independent perturbation context would be required; no promotion. |
+| RFX5 single-context boundary packet | done | One descriptive IFNG row fails corrected network gates (q=0.678/0.903); exact two-primary-context replication spec plus 450,000-cohort three-seed synthetic design map committed; no promotion. |
 | Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
 | Causal-orientation acquisition design | todo | Pre-specify the smallest factorial/temporal intervention dataset that can orient the APC skeleton; include a simulation-based precision check. |
 | Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
@@ -123,3 +123,11 @@ exhausted public-data discovery search as a source of findings.
   four, matching the substantive schema boundary without treating
   untestability as a biological null. Cumulative active time accrued through
   this checkpoint is 2h16m51s; the resumed session interval remains open.
+- 2026-07-10T23:17:59Z: Completed the RFX5 boundary packet. Its single IFNG
+  signature is descriptively selective but fails corrected network gates
+  (`q=0.678` and `0.903`), the prior route passes only 2/8 gates, and there is
+  no independent context. A three-seed 450,000-cohort synthetic map now powers
+  an exact two-primary-context replication design without treating synthetic
+  output as biology. RFX5 remains a mechanism comparator, not a control node or
+  target. Cumulative active time accrued through this checkpoint is 2h22m42s;
+  the resumed session interval remains open.
