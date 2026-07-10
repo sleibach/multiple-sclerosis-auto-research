@@ -1,0 +1,23 @@
+{
+  "purpose": "V53 grounded MIF/CD74 re-audit; no new discovery claim",
+  "seed": 53001,
+  "n_sign_null": 20000,
+  "module_definitions_recovered": 9,
+  "module_definitions_containing_MIF": 3,
+  "direction_consistency": {
+    "n_therapy_cohorts_total": 3,
+    "n_direction_bearing_cohorts": 2,
+    "n_positive_direction": 1,
+    "n_negative_direction": 1,
+    "n_near_null": 1,
+    "minimum_directional_abs_hedges_g": 0.2,
+    "observed_majority": 1,
+    "exact_two_sided_majority_sign_p": 1.0,
+    "empirical_majority_sign_p": 1.0,
+    "seed": 53001,
+    "n_sign_null": 20000
+  },
+  "receptor_specific_adjusted_successes": 0,
+  "verdict": "NOT_SUPPORTED_AS_THERAPEUTIC_TARGET_RETAIN_AS_TONE_LOADED_STATE_READOUT",
+  "interpretation": "Held data support a recurrent, tone-loaded CD74/HLA-II receptor-state context. They do not support MIF ligand causality, receptor-specific response after IFN/APC adjustment, or a stable therapy direction. The prior Tier-1 demotion stands."
+}
