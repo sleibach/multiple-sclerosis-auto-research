@@ -94,7 +94,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring package minimum viable package checklist | done | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`; concise required-vs-preferred checklist for paired PBMC response packages. |
 | Therapeutic package handoff bundle index | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`; grouped universal intake, monitoring, chr1, and route governance handoff bundles. |
 | V52 route classifier TSV validation command | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`; compact schema and alignment check for classifier and examples TSVs. |
-| Refresh operator artifact hash snapshot for new package artifacts | todo | Add the route classifier, examples, preflight, monitoring checklist, chr1 compact, and handoff index to the stable hash snapshot if they should be frozen. |
+| Refresh operator artifact hash snapshot for new package artifacts | done | Added route classifier, examples, schema check, preflight, monitoring checklist, chr1 compact, handoff index, and hash-verify note to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. |
 | Package handoff link smoke audit | todo | Check every link in the universal, monitoring, chr1, and governance handoff bundles resolves. |
 | Route classifier JSON export for tooling | todo | Create a small generated JSON mirror of classifier rows for downstream package intake scripts. |
 | Data-owner package README | todo | Write a concise README that tells a data owner which package bundle to send without exposing internal queue detail. |
@@ -415,3 +415,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md` and
   refilled the backlog. Result: classifier and worked-example TSVs now have a
   documented schema, route-alignment, and primary-artifact existence check.
+- 2026-07-10T13:14:20Z: Refreshed
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: the newer V52
+  package-route, preflight, monitoring-minimum, chr1 compact, handoff-bundle,
+  and hash-verification artifacts are now covered by the stable SHA256 snapshot.
