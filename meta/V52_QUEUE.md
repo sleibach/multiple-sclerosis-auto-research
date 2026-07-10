@@ -106,7 +106,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Add metadata-only field dictionary row | done | Added `source_description`, `available_fields`, and `missing_sample_level_elements` rows for `metadata_only_or_aggregate_only`; refreshed the frozen field-dictionary hash. |
 | Package route classifier intake fixture | done | `scripts/v52_package_route_classifier.py` plus synthetic manifests/output; five full synthetic package matches and one intentional partial monitoring package. |
 | Operator bundle stable-vs-mutable policy note | done | `docs/reports/V52_OPERATOR_ARTIFACT_STABILITY_POLICY.md`; defines stable operator controls, mutable dashboards, context reports, synthetic fixture outputs, and self-reference exclusions; added to hash snapshot. |
-| V52 package-doc consistency audit | todo | Cross-check route classifier, examples, preflight, minimum package checklist, and handoff bundle for route-name and artifact-reference consistency. |
+| V52 package-doc consistency audit | done | `docs/validation/PACKAGE_DOC_CONSISTENCY_AUDIT_V52.md`; all 9 classifier routes represented in examples/preflight, 0 missing primary or handoff artifacts, 0 unresolved field-dictionary source refs. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -480,3 +480,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`, refreshed hashes, and
   updated the hash coverage audit. Result: stable-vs-mutable hash decisions are
   now mechanical, and the 27-row snapshot verifies cleanly.
+- 2026-07-10T13:27:12Z: Wrote
+  `docs/validation/PACKAGE_DOC_CONSISTENCY_AUDIT_V52.md`. Result: all 9 route
+  classes appear in examples and preflight, classifier primary artifacts and
+  handoff paths exist, and all 20 unique field-dictionary source references
+  resolve by path or basename.
