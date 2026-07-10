@@ -264,6 +264,8 @@ Current frontier:
     `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`.
   - Therapeutic package handoff bundle index:
     `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`.
+  - Therapeutic package handoff link audit:
+    `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`.
   - Monitoring validation decision tree:
     `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
   - Monitoring validation command manifest:

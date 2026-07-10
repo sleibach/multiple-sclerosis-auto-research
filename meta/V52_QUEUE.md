@@ -95,7 +95,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic package handoff bundle index | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`; grouped universal intake, monitoring, chr1, and route governance handoff bundles. |
 | V52 route classifier TSV validation command | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`; compact schema and alignment check for classifier and examples TSVs. |
 | Refresh operator artifact hash snapshot for new package artifacts | done | Added route classifier, examples, schema check, preflight, monitoring checklist, chr1 compact, handoff index, and hash-verify note to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. |
-| Package handoff link smoke audit | todo | Check every link in the universal, monitoring, chr1, and governance handoff bundles resolves. |
+| Package handoff link smoke audit | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`; checked 26 handoff bundle links and found 0 missing paths. |
 | Route classifier JSON export for tooling | todo | Create a small generated JSON mirror of classifier rows for downstream package intake scripts. |
 | Data-owner package README | todo | Write a concise README that tells a data owner which package bundle to send without exposing internal queue detail. |
 | Monitoring and chr1 handoff bundle hash refresh command | todo | Add the exact command sequence to refresh hashes after intentional operator artifact changes. |
@@ -419,3 +419,6 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: the newer V52
   package-route, preflight, monitoring-minimum, chr1 compact, handoff-bundle,
   and hash-verification artifacts are now covered by the stable SHA256 snapshot.
+- 2026-07-10T13:18:32Z: Wrote
+  `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`. Result: the
+  handoff bundle has 26 linked artifacts and 0 missing paths in the repo.

@@ -56,6 +56,7 @@ resolution.
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md` | validation operator / maintainer | command to check classifier and examples schema alignment |
 | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` | validation operator / data triage | ordered terms, quarantine, route, field, acceptance, and handoff preflight |
 | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md` | validation operator / data owner | grouped universal, monitoring, chr1, and governance handoff bundles |
+| `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md` | validation operator / maintainer | smoke audit that all handoff bundle links resolve |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |
 | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` | validation operator | exact command order for preflight, self-test, frozen harness, and interpretation routing |
 | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` | validation operator / reviewer | fixed result-report shell for future Gafson/Karolinska output |
