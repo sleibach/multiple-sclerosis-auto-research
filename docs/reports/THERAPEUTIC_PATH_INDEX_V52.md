@@ -53,6 +53,7 @@ resolution.
 | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` | validation operator / data triage | machine-readable field dictionary for monitoring, chr1, postpartum, T/B, pharmacodynamic-only, and structure-context packages |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` | validation operator / data triage | machine-readable route classifier for incoming packages before any analysis |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` | validation operator / data triage | worked examples for applying the route classifier without analysis |
+| `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` | validation operator / data triage | ordered terms, quarantine, route, field, acceptance, and handoff preflight |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |
 | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` | validation operator | exact command order for preflight, self-test, frozen harness, and interpretation routing |
 | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` | validation operator / reviewer | fixed result-report shell for future Gafson/Karolinska output |

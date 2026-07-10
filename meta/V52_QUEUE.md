@@ -89,7 +89,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 artifact hash verification command note | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`; compact command note for checking the operator artifact hash snapshot against current files. |
 | Validation package route classifier table | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`; machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
 | Validation route classifier worked examples | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`; plausible incoming packages mapped to route classes without running analysis. |
-| Incoming package preflight checklist consolidation | todo | Produce a one-page preflight that orders checksum, terms, route classification, field dictionary, and acceptance criteria. |
+| Incoming package preflight checklist consolidation | done | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`; one-page preflight ordering terms, quarantine/checksum, route classification, field dictionary, acceptance criteria, hash check, and result templates. |
 | Chr1 target-resolution decision compact | todo | Create a compact go/no-go table for chr1 packages after classifier routing. |
 | Monitoring package minimum viable package checklist | todo | Create a concise required-vs-nice-to-have checklist for paired PBMC response packages. |
 | Therapeutic package handoff bundle index | todo | Bundle the operator-facing validation, chr1, and hash artifacts into a sendable handoff index. |
@@ -388,3 +388,8 @@ and V51 structural context without reopening broad public-data discovery.
   Result: ten plausible incoming package shapes now have pre-analysis route
   classes, allowed interpretations, forbidden interpretations, and next
   actions.
+- 2026-07-10T12:47:10Z: Wrote
+  `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`. Result:
+  incoming packages now have a single ordered pre-analysis path from terms and
+  checksum through route classification, field checks, acceptance, hash check,
+  route card, and result shell selection.

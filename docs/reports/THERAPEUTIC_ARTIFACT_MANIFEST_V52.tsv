@@ -27,6 +27,7 @@ docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv	validation	current	ma
 docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv	validation	current	machine_readable_dictionary	required and optional fields by package type	mechanical package checking
 docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv	validation	current	machine_readable_classifier	route incoming package to validation or context class	no frozen-rule change
 docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv	validation	current	machine_readable_examples	worked package-route examples	no analysis run
+docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md	validation	current	preflight_checklist	ordered package receipt-to-route checks	no analysis run
 docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md	validation	current	operational_handoff	mechanical package-to-outcome routing	no rule tuning
 docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md	validation	current	operational_command	exact validation command order	uses .venv python precheck
 docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md	validation	current	result_template	future Gafson/Karolinska result-report shell	blank template only
