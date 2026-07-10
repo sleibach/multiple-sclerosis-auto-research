@@ -96,6 +96,7 @@ Concrete field specification:
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
 - `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`
 - `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
+- `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`
 - `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`
 - `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`

@@ -17,6 +17,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
 - Machine-readable therapeutic target evidence matrix:
   `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
+- Machine-readable therapeutic reopen checklist:
+  `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`.
 - Structural evidence-boundary QA:
   `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Therapeutic contradiction surveillance triggers:

@@ -52,7 +52,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring validation decision tree | done | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`; mechanical if/then tree for package eligibility, scoring, outcome class, and next action. |
 | V52 therapeutic artifact index | done | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`; navigation by executive synthesis, validation, genetics/target handoff, structural context, and surveillance. |
 | chr1 direction-matched experiment blueprint | done | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`; staged flow from package intake through causal gene, direction, perturbation, modality, and final class. |
-| Therapeutic reopen checklist TSV | todo | Create a compact machine-readable go/no-go checklist for every closed or conditional lead. |
+| Therapeutic reopen checklist TSV | done | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`; machine-readable reopen gates and non-counting evidence for closed/conditional leads. |
 | External-skeptic therapeutic rebuttal checklist | todo | Pre-answer the strongest skeptical objections to the V52 monitoring-first / no-target verdict using committed artifacts. |
 | V52 artifact consistency audit | todo | Check that summary card, matrix, request packet, and main report state the same route ranking and no-target conclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -191,3 +191,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`.
   Result: chr1 has a staged future experiment plan that can classify packages
   as target-workup ready, biology-only, wrong-direction, incomplete, or closed.
+- 2026-07-10T10:55:12Z: Wrote
+  `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`. Result: closed and
+  conditional routes now have machine-readable reopen gates and explicit
+  non-counting evidence.

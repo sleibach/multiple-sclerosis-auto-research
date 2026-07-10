@@ -24,6 +24,7 @@ resolution.
 | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` | medical team / project lead | one-page bottom line: monitoring first, no intervention-grade target |
 | `docs/reports/THERAPEUTIC_PATH_V52.md` | scientific reviewer | full synthesis of monitoring route, genetics closures, structure context, and restored OpenGWAS |
 | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` | downstream tooling / spreadsheet review | machine-readable route and lead status table |
+| `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` | downstream tooling / go-no-go review | machine-readable reopen gates and non-counting evidence for closed or conditional leads |
 | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md` | all readers | navigation across V52 artifacts |
 
 ## Validation Execution
