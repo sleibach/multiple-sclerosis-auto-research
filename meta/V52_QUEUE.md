@@ -40,7 +40,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | done | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`; restored token can polish bounded direction manifests but does not create a ZMIZ1 target route. |
 | Public-facing therapeutic summary card | done | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`; compact medical-team handoff: validate monitoring first, no target intervention-grade, exact next data asks. |
 | Chr1 genotype-linked data specification | done | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`; exact future data package needed to resolve GPR25 vs KIF21B and direction/modality. |
-| V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
+| V52 therapeutic validation handoff | done | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`; converts monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | done | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`; reopen requires one disease-relevant signal, one causal direction, one relevant cell state, and one plausible modality. |
 | GPR25 direction-matched modality spec | done | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`; requires causal-gene resolution, cell-state presence, protective higher/restored direction, functional readout, and agonism/restoration modality. |
 | KIF21B restoration modality spec | done | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`; standard inhibition/degradation/knockdown remain wrong-direction unless future data prove otherwise. |
@@ -49,6 +49,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Structure evidence boundary QA | done | `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`; tightened over-strong "confirms" wording and kept AlphaFold as context only. |
 | Restored-genetics bounded rerun manifest | done | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`; records completed bounded reruns, allowed polish, and excluded discovery. |
 | Therapeutic contradiction surveillance triggers | done | `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`; defines same-level contradiction triggers, non-triggers, and queueing rule. |
+| Monitoring validation decision tree | done | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`; mechanical if/then tree for package eligibility, scoring, outcome class, and next action. |
+| V52 therapeutic artifact index | todo | Build a single navigable index of V52 therapeutic-path artifacts and their intended reader/use. |
+| chr1 direction-matched experiment blueprint | todo | Convert the chr1 package specs into an experiment-flow blueprint for causal-gene and modality resolution. |
+| Therapeutic reopen checklist TSV | todo | Create a compact machine-readable go/no-go checklist for every closed or conditional lead. |
+| External-skeptic therapeutic rebuttal checklist | todo | Pre-answer the strongest skeptical objections to the V52 monitoring-first / no-target verdict using committed artifacts. |
+| V52 artifact consistency audit | todo | Check that summary card, matrix, request packet, and main report state the same route ranking and no-target conclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -174,3 +180,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`. Result:
   future sources now have explicit same-evidence-level contradiction triggers,
   non-triggers, and a queueing rule before any V52 verdict can be revisited.
+- 2026-07-10T10:47:14Z: Refilled the V52 backlog and wrote
+  `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`. Result: package
+  receipt and outcome interpretation now have a compact if/then handoff without
+  changing V42/V44 rules.

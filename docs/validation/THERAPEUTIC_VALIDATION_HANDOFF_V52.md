@@ -81,3 +81,6 @@ forcing a pass/fail interpretation.
 
 The consolidated sendable request packet is
 `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
+
+The compact if/then decision tree for package receipt and outcome
+interpretation is `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
