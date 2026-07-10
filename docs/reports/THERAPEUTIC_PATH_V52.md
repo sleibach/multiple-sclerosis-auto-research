@@ -49,6 +49,7 @@ data and a direction-matched modality exist.
 | KIF21B restoration modality spec | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md` |
 | PTGER4 signal-specific reopen spec | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md` |
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
+| Restored OpenGWAS bounded rerun manifest | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md` |
 | ZMIZ1 restored-OpenGWAS direction handoff | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |

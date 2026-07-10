@@ -47,7 +47,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Machine-readable therapeutic target matrix | done | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`; 13 route/lead rows encode impact path, blocker, reopen evidence, next action, and verdict. |
 | Medical-team therapeutic request packet | done | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`; separates monitoring validation, chr1 target-development, postpartum, and T/B data asks. |
 | Structure evidence boundary QA | done | `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`; tightened over-strong "confirms" wording and kept AlphaFold as context only. |
-| Restored-genetics bounded rerun manifest | todo | List every bounded OpenGWAS-dependent rerun now covered by renewed token and every route deliberately excluded as discovery. |
+| Restored-genetics bounded rerun manifest | done | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`; records completed bounded reruns, allowed polish, and excluded discovery. |
 | Therapeutic contradiction surveillance triggers | todo | Define future contradiction triggers that should be queued if sharper external context conflicts with a grounded V52 verdict. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -166,3 +166,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T10:39:33Z: Ran structural wording QA across V52 therapeutic docs
   and wrote `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`. Tightened
   over-strong "confirms" wording; no target verdict changed.
+- 2026-07-10T10:42:22Z: Wrote
+  `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`.
+  Result: renewed-token genetics work is bounded to completed V14/V19 reruns
+  and specific future polish; broad public-data discovery remains closed.

@@ -19,6 +19,8 @@ V52 update:
   `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Restored OpenGWAS bounded catch-up:
   `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
+- Restored OpenGWAS bounded rerun manifest:
+  `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`.
 - OpenGWAS renewal watch:
   `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
 - ZMIZ1 restored-OpenGWAS direction handoff:
