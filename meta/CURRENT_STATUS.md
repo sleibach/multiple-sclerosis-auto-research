@@ -180,6 +180,8 @@ Current frontier:
     `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
   - Monitoring clinical-utility boundary checklist:
     `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
+  - Incoming package communication templates:
+    `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
   - Structural evidence-boundary QA:
     `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
   - Therapeutic contradiction surveillance triggers:

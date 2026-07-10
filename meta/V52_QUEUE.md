@@ -64,7 +64,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 machine-readable artifact manifest | done | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`; enumerates V52 artifact path, category, status, evidence role, primary use, and notes for downstream tooling. |
 | Therapeutic route risk register | done | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`; catalogs residual route-level and cross-cutting risks, mitigations, and escalation triggers without changing verdicts. |
 | Therapeutic route assumption ledger | done | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`; makes explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions and how future data could revise them. |
-| Incoming-package communication templates | todo | Draft concise accept/partial/reject response templates for monitoring and chr1 packages using existing criteria. |
+| Incoming-package communication templates | done | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`; gives accept, partial-context, reject/unscoreable, access-term-blocked, and missing-field response templates. |
 | Monitoring validation result report template | todo | Draft a frozen result-report shell for future Gafson/Karolinska output with pass/fail/inconclusive fields only. |
 | chr1 package result report template | todo | Draft a frozen result-report shell for future chr1 genotype-linked package interpretation. |
 | V52 package checksum intake checklist | todo | Convert package receipt hygiene into a concise checksum/access-terms checklist for incoming monitoring and target packages. |
@@ -256,3 +256,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`. Result:
   assumptions behind the monitoring-first and no-current-target conclusions are
   explicit, including what future data would revise or falsify them.
+- 2026-07-10T11:26:08Z: Wrote
+  `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`. Result:
+  future package responses can distinguish accepted, partial, rejected, access
+  blocked, and missing-field cases without improvising interpretation.
