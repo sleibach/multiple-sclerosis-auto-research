@@ -129,8 +129,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Received-package intake README hash coverage | done | Added `analysis/received_package_intake/README.md` and `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` to the stable operator hash snapshot; 36-row snapshot verifies. |
 | Package-intake handoff bundle refresh | done | Handoff bundle now links the package intake quickstart and intake-directory README from Universal Intake; updated bundle hash included in the 37-row snapshot. |
 | Intake safety audit handoff link | done | Handoff bundle and quickstart now link `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`; safety-audit note added to the stable hash snapshot. |
-| Intake safety audit regression fixture | todo | Add a short regression note for the intake safety audit and its expected 3-file/14-check/0-failure result on the synthetic intake directory. |
+| Intake safety audit regression fixture | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`; rerun confirmed 3 tracked intake files, 14 checks, 0 failures. |
 | Package intake artifact cross-reference audit | todo | Check package-intake docs for unresolved references after adding the quickstart, README, and safety audit. |
+| Package intake CLI help snapshot | todo | Record the help output shape for package-ID validation, route classification, and intake safety-audit scripts so operator CLI drift is visible. |
+| Package intake combined smoke suite | todo | Add a command note that runs package ID validation, route classification fixture, and intake safety audit in one safe synthetic-only sequence. |
+| Manifest template README consistency recheck | todo | Recheck that the data-owner README, manifest template, quickstart, and handoff bundle describe the same package routes and fields. |
+| Operator hash coverage after regression docs | todo | Add any newly stable regression or combined-smoke artifacts to the operator hash snapshot and update coverage audit. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -612,3 +616,7 @@ and V51 structural context without reopening broad public-data discovery.
   note from the quickstart, and added the safety-audit note to the stable
   operator hash snapshot. Result: the 37-row snapshot verifies and the handoff
   bundle now exposes the complete intake safety path.
+- 2026-07-10T14:29:51Z: Added
+  `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`
+  and reran `scripts/v52_received_intake_safety_audit.py --fail-on-error`.
+  Result: 3 tracked intake files, 14 checks, and 0 failures.
