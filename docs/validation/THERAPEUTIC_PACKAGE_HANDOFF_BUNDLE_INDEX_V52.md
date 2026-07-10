@@ -13,8 +13,10 @@ Use for every incoming package before route-specific work.
 
 | artifact | purpose |
 |---|---|
+| `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` | one-page mechanical package-intake sequence |
 | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` | access terms, quarantine, checksum, and no-large-file intake |
 | `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md` | safe paths and names for manifests, classifier outputs, and raw-package quarantine |
+| `analysis/received_package_intake/README.md` | local boundary note for commit-eligible intake metadata and classifier outputs |
 | `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md` | syntax check for received-package IDs before creating intake paths |
 | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` | boundary between commit-eligible manifests and raw/restricted package content |
 | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md` | standard blocker note when package handling stops before analysis |
@@ -26,6 +28,7 @@ Use for every incoming package before route-specific work.
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` | worked package-route examples |
 | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` | required and optional fields by route |
 | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` | accept, partial, reject, or unscoreable criteria |
+| `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md` | commit-safety smoke audit for tracked received-package intake artifacts |
 
 ## Bundle 2: Monitoring Validation
 

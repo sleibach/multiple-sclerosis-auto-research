@@ -127,8 +127,8 @@ and V51 structural context without reopening broad public-data discovery.
 | Package intake operator quickstart card | done | `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` gives the mechanical package-intake sequence from package ID through access terms, manifest, classifier, safety audit, and blocker handling. |
 | Package ID validator regression fixture | done | `docs/validation/PACKAGE_ID_VALIDATOR_REGRESSION_FIXTURE_V52.md` records the command-driven five-case regression fixture; rerun produced 0 expectation failures. |
 | Received-package intake README hash coverage | done | Added `analysis/received_package_intake/README.md` and `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` to the stable operator hash snapshot; 36-row snapshot verifies. |
-| Package-intake handoff bundle refresh | todo | Link the intake README and quickstart card from the handoff bundle if they materially improve operator navigation. |
-| Intake safety audit handoff link | todo | Link the received-package intake safety audit from the handoff bundle and quickstart where it improves operator navigation. |
+| Package-intake handoff bundle refresh | done | Handoff bundle now links the package intake quickstart and intake-directory README from Universal Intake; updated bundle hash included in the 37-row snapshot. |
+| Intake safety audit handoff link | done | Handoff bundle and quickstart now link `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`; safety-audit note added to the stable hash snapshot. |
 | Intake safety audit regression fixture | todo | Add a short regression note for the intake safety audit and its expected 3-file/14-check/0-failure result on the synthetic intake directory. |
 | Package intake artifact cross-reference audit | todo | Check package-intake docs for unresolved references after adding the quickstart, README, and safety audit. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
@@ -607,3 +607,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: the 36-row
   stable operator hash snapshot verifies, and the coverage audit now reflects
   the two newly frozen intake controls.
+- 2026-07-10T14:27:10Z: Linked the package intake quickstart, intake README,
+  and intake safety-audit note from the handoff bundle, linked the safety-audit
+  note from the quickstart, and added the safety-audit note to the stable
+  operator hash snapshot. Result: the 37-row snapshot verifies and the handoff
+  bundle now exposes the complete intake safety path.

@@ -49,6 +49,7 @@ before classification.
      `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`.
 
 6. Run the intake safety audit before commit.
+   - Note: `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`
    - Command:
      ```bash
      python3 scripts/v52_received_intake_safety_audit.py --fail-on-error
