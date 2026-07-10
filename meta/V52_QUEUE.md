@@ -51,7 +51,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic contradiction surveillance triggers | done | `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`; defines same-level contradiction triggers, non-triggers, and queueing rule. |
 | Monitoring validation decision tree | done | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`; mechanical if/then tree for package eligibility, scoring, outcome class, and next action. |
 | V52 therapeutic artifact index | done | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`; navigation by executive synthesis, validation, genetics/target handoff, structural context, and surveillance. |
-| chr1 direction-matched experiment blueprint | todo | Convert the chr1 package specs into an experiment-flow blueprint for causal-gene and modality resolution. |
+| chr1 direction-matched experiment blueprint | done | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`; staged flow from package intake through causal gene, direction, perturbation, modality, and final class. |
 | Therapeutic reopen checklist TSV | todo | Create a compact machine-readable go/no-go checklist for every closed or conditional lead. |
 | External-skeptic therapeutic rebuttal checklist | todo | Pre-answer the strongest skeptical objections to the V52 monitoring-first / no-target verdict using committed artifacts. |
 | V52 artifact consistency audit | todo | Check that summary card, matrix, request packet, and main report state the same route ranking and no-target conclusion. |
@@ -187,3 +187,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T10:49:29Z: Wrote
   `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`. Result: V52 therapeutic
   artifacts are now navigable by reader intent and operational use.
+- 2026-07-10T10:53:14Z: Wrote
+  `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`.
+  Result: chr1 has a staged future experiment plan that can classify packages
+  as target-workup ready, biology-only, wrong-direction, incomplete, or closed.

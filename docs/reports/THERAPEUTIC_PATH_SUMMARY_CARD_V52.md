@@ -104,6 +104,7 @@ Concrete field specification:
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
+- `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`
 - `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`
 - `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`
 - `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`
