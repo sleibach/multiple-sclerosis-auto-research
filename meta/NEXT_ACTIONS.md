@@ -17,6 +17,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`.
 - V52 artifact cross-link audit:
   `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`.
+- Local sparse knowledge index status:
+  `knowledge/tools/RAG_STATUS.md`.
 - V52 therapeutic route status dashboard:
   `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
 - Public-facing therapeutic summary card:
@@ -158,8 +160,8 @@ Current V52 requirements:
 First V52 actions:
 
 1. Continue the first unresolved V52 queue item. Current next executable items
-   are the RAG/index refresh check and the V52 validation/therapeutic
-   documentation polish tasks in `meta/V52_QUEUE.md`.
+   are the V52 validation/therapeutic documentation polish tasks in
+   `meta/V52_QUEUE.md`.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
 3. Keep structural records under `knowledge_external/structures/`; do not treat

@@ -75,7 +75,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 artifact cross-link audit | done | `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`; checked key V52 artifacts across manifest, index, summary, current status, next actions, and queue; no unexpected missing links. |
 | OpenGWAS pre-expiry bounded-polish command list | done | `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`; exact bounded POST-only commands before 2026-07-24, with broad discovery excluded. |
 | Bounded OpenGWAS script existence audit | done | Folded into `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`; V14/V19 are preferred bounded commands; V13/V21 scripts are not pre-approved for V52 polish. |
-| V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
+| V52 RAG/index refresh | done | `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`; refreshed `knowledge/.index/` over 783 documents and smoke-query returned V52 therapeutic artifacts. |
 | Validation package field dictionary | todo | Create a compact field dictionary bridging monitoring and chr1 package requirements. |
 | Therapeutic path reviewer quickstart | todo | Create a short reviewer-oriented quickstart for reading the V52 therapeutic artifacts in the right order. |
 | Monitoring pass/fail public wording table | todo | Define safe public wording for clean pass, immune-tone-bounded pass, fail, inconclusive, and unscoreable validation outcomes. |
@@ -308,3 +308,9 @@ and V51 structural context without reopening broad public-data discovery.
   Result: renewed-token use before `2026-07-24 08:00 UTC` is limited to the
   auth sentinel, V14 confirmed-locus rerun, and V19 chr1 local reanalysis;
   older exploratory scripts are explicitly not pre-approved for V52 polish.
+- 2026-07-10T11:51:34Z: Rebuilt the local sparse TF-IDF knowledge index with
+  `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`. Result:
+  `knowledge/.index/manifest.json` reports `783` documents; smoke query
+  `V52 therapeutic path monitoring chr1 OpenGWAS` returned V52 therapeutic
+  artifacts including `docs/reports/THERAPEUTIC_PATH_V52.md` and
+  `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
