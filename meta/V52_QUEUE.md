@@ -54,7 +54,7 @@ and V51 structural context without reopening broad public-data discovery.
 | chr1 direction-matched experiment blueprint | done | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`; staged flow from package intake through causal gene, direction, perturbation, modality, and final class. |
 | Therapeutic reopen checklist TSV | done | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`; machine-readable reopen gates and non-counting evidence for closed/conditional leads. |
 | External-skeptic therapeutic rebuttal checklist | done | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`; pre-answers monitoring-first, no-target, structure, OpenGWAS, confounder, and power objections. |
-| V52 artifact consistency audit | todo | Check that summary card, matrix, request packet, and main report state the same route ranking and no-target conclusion. |
+| V52 artifact consistency audit | done | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`; no inconsistency found across V52 therapeutic report, summary, matrices, request packet, and validation handoffs. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -199,3 +199,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`. Result: the
   strongest objections to the V52 monitoring-first/no-target conclusion now have
   artifact-backed answers and explicit residual gaps.
+- 2026-07-10T10:59:51Z: Ran V52 artifact consistency scan and wrote
+  `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`. Result:
+  monitoring-first, no-current-target, chr1-handoff, structure-boundary, and
+  bounded-OpenGWAS messages are consistent across checked artifacts.

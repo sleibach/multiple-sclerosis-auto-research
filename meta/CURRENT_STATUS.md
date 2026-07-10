@@ -166,6 +166,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`.
   - Therapeutic skeptic rebuttal checklist:
     `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`.
+  - Therapeutic artifact consistency audit:
+    `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`.
   - Structural evidence-boundary QA:
     `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
   - Therapeutic contradiction surveillance triggers:
