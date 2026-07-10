@@ -255,6 +255,32 @@ Operational warning: OpenGWAS is not required for this validation, but the
 current JWT expires at `2026-06-19 12:28 UTC`. Renew the token before any
 validation-adjacent OpenGWAS-dependent check after that timestamp.
 
+## V52 Therapeutic-Path Handoff Addendum
+
+V52 reframed the validation objective around the project’s honest therapeutic
+path: the primary near-term impact is an early treatment-response monitoring /
+stratification tool, not a direct drug target. This does not change the frozen
+V22 rule, V42 pre-registration, V42 outcome grid, or V44 batch guard.
+
+New additive handoff:
+
+- `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
+
+Key operational consequences:
+
+1. A clean Gafson/Karolinska pass supports an early DMF-like pharmacodynamic
+   monitoring readout, not a baseline selection rule or clinical switching
+   threshold.
+2. An immune-tone-bounded pass remains useful but must be reported with the V32
+   confounder context.
+3. An inconclusive small cohort contributes effect-size and CI information for
+   the next powered data ask.
+4. A validation package meant to settle the rule should aim for at least `30`
+   responders and `30` nonresponders when labels are clean, with larger groups
+   preferred under label noise or confounding.
+5. Structure and restored genetics are separate therapeutic-path context; they
+   do not alter validation scoring.
+
 ## V44 Batch-Diagnostic Guard Addendum
 
 V44 added a blind, additive batch-diagnostic guard after V43 showed that

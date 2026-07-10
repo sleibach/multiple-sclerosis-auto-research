@@ -34,7 +34,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Restored-OpenGWAS catch-up inventory | done | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`; token active; bounded confirmed-locus rerun only. |
 | Restored-OpenGWAS smoke rerun for genetics scripts | done | `scripts/v14_susie_coloc_confirmed_loci.py` reran POST-only `/ld/matrix` routes; no target verdict changed. |
 | Therapeutic contradiction/convergence check | done | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md`; 10 therapeutic rows reviewed, 6 convergences/context corroborations, 4 context/orthogonal rows, 0 genuine contradictions, 0 therapeutic verdict changes. |
-| Validation-readiness tie-in | todo | Note what Gafson/Karolinska validation would make clinically actionable. |
+| Validation-readiness tie-in | done | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`; clarifies what Gafson/Karolinska pass, immune-tone-bounded pass, fail, inconclusive, or unscoreable package means for clinical action. |
 | Guard and push iteration | done | V47 provenance, V51 structural, external index, SAP health, status freshness, size/tmp guards passed; commit `f396b814` pushed to `origin/main` at 2026-07-10T09:56:54Z. |
 | Structure-informed PTGER4 triage | todo | Check whether any existing structure context could matter; likely no because closure is signal/direction, not structure. |
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | todo | Inventory whether a POST-only bounded rerun can sharpen ZMIZ1 without broad discovery. |
@@ -67,3 +67,11 @@ and V51 structural context without reopening broad public-data discovery.
   Result: no genuine therapeutic contradiction surfaced; external context
   supports validation guardrails and cautionary target closures but does not
   validate the scalar or create an intervention-grade target.
+- 2026-07-10T10:01:18Z: Therapeutic convergence check committed and pushed as
+  `f1573e33`; local and `origin/main` match. Continuing with validation-
+  readiness tie-in.
+- 2026-07-10T10:02:53Z: Wrote
+  `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md` and linked it from
+  the therapeutic report, validation-readiness doc, current status, and next
+  actions. It keeps V42/V44 frozen and translates outcomes into medical-team
+  actionability.

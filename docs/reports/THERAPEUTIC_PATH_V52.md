@@ -38,6 +38,7 @@ data and a direction-matched modality exist.
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |
+| Therapeutic validation handoff | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md` |
 | chr1 KIF21B/GPR25 genetics/druggability | `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md` |
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |

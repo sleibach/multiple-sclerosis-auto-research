@@ -158,6 +158,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_PATH_V52.md`.
   - Restored OpenGWAS bounded catch-up:
     `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
+  - Therapeutic validation handoff:
+    `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
   - Structural-prediction class and gate:
     `docs/knowledge/EPISTEMIC_CLASSES.md`;
     `scripts/v51_structural_prediction_gate.py`.
