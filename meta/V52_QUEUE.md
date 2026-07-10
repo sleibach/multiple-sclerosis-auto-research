@@ -70,7 +70,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 package checksum intake checklist | done | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`; concise access-terms, quarantine, checksum, package-type, no-raw-git, and stop/go checklist for incoming packages. |
 | Therapeutic route decision log template | done | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`; fixed future route-status change template requiring counted evidence, gate results, and explicit non-counting context. |
 | V52 route-status dashboard table | done | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`; compact machine-readable route status, next gate, blocker, action, and verdict dashboard. |
-| Monitoring operator one-page run card | todo | Compress package receipt through final result class into a one-page operator card. |
+| Monitoring operator one-page run card | done | `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page monitoring package receipt-to-result class card for operators. |
 | chr1 operator one-page run card | todo | Compress chr1 package receipt through final staged decision class into a one-page operator card. |
 | V52 artifact cross-link audit | todo | Check key V52 artifacts are linked from manifest, index, summary, current status, and next actions. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
@@ -285,3 +285,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`. Result: operators
   now have a compact machine-readable dashboard of route status, next gate,
   blocker, action, and verdict.
+- 2026-07-10T11:39:36Z: Wrote
+  `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`. Result: future
+  monitoring operators have a compact package receipt, command sequence,
+  result-class, and non-command quick card.
