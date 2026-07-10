@@ -149,7 +149,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route-output schema malformed-output negative fixture | done | Synthetic output with an extra column fails the route-output schema audit as expected; production scan still finds 7 outputs and 0 failures. |
 | Route-output schema no-output negative fixture | done | Synthetic manifest-only scan finds zero route outputs and fails under `--fail-on-error`; production scan excludes synthetic negative fixture dirs and still passes. |
 | Package-intake generated-output inventory refresh | done | Refreshed generated-output inventory to 34 package-intake artifacts, covering route-classifier fixtures, intake negative email, and route-output schema audit fixtures. |
-| Package-intake script help snapshot generator note | todo | Document the mechanical command used to regenerate the package-intake CLI help snapshot after adding a script. |
+| Package-intake script help snapshot generator note | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_REFRESH_NOTE_V52.md` records the mechanical four-command regeneration snippet. |
 | Package-intake audit script surface cross-check | todo | Verify package-intake scripts mentioned in docs have matching help snapshot coverage or an explicit exclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -731,3 +731,6 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T15:39:11Z: Refreshed package-intake generated-output inventory to
   34 artifacts with 0 missing paths, covering route-classifier fixtures, intake
   negative-email output, and route-output schema audit fixtures.
+- 2026-07-10T15:41:15Z: Added package-intake CLI help refresh note documenting
+  the mechanical four-command regeneration snippet for the committed help
+  snapshot.
