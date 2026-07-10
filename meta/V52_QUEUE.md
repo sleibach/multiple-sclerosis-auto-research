@@ -69,7 +69,7 @@ and V51 structural context without reopening broad public-data discovery.
 | chr1 package result report template | done | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future chr1 intake, causal-gene, direction, cell-state, perturbation, modality, and final decision classes. |
 | V52 package checksum intake checklist | done | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`; concise access-terms, quarantine, checksum, package-type, no-raw-git, and stop/go checklist for incoming packages. |
 | Therapeutic route decision log template | done | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`; fixed future route-status change template requiring counted evidence, gate results, and explicit non-counting context. |
-| V52 route-status dashboard table | todo | Create a compact TSV dashboard of route, current status, next gate, and blocker for operators. |
+| V52 route-status dashboard table | done | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`; compact machine-readable route status, next gate, blocker, action, and verdict dashboard. |
 | Monitoring operator one-page run card | todo | Compress package receipt through final result class into a one-page operator card. |
 | chr1 operator one-page run card | todo | Compress chr1 package receipt through final staged decision class into a one-page operator card. |
 | V52 artifact cross-link audit | todo | Check key V52 artifacts are linked from manifest, index, summary, current status, and next actions. |
@@ -281,3 +281,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`. Result:
   future route-status changes now require counted evidence, gate results,
   explicit non-counting context, and consistency checks before commitment.
+- 2026-07-10T11:37:24Z: Wrote
+  `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`. Result: operators
+  now have a compact machine-readable dashboard of route status, next gate,
+  blocker, action, and verdict.

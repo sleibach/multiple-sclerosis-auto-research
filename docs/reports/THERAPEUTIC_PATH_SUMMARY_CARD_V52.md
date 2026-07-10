@@ -30,6 +30,8 @@ therapeutic target.
   `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`.
 - Wrote the V52 therapeutic artifact manifest:
   `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`.
+- Wrote the V52 therapeutic route status dashboard:
+  `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
 - Wrote the machine-readable target evidence matrix:
   `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
 - Wrote the structural evidence-boundary QA:
@@ -118,6 +120,7 @@ Concrete field specification:
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
 - `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`
 - `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`
+- `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`
 - `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
 - `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`
 - `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`
