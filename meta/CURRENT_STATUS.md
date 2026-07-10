@@ -254,6 +254,8 @@ Current frontier:
     `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`.
   - Validation package route classifier:
     `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`.
+  - Validation package route classifier examples:
+    `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
   - Monitoring validation decision tree:
     `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
   - Monitoring validation command manifest:

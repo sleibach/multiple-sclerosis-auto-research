@@ -88,7 +88,7 @@ and V51 structural context without reopening broad public-data discovery.
 | OpenGWAS expiry-day runbook | done | `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`; expiry-day and renewal routing, with auth failures classified as operational blockers. |
 | V52 artifact hash verification command note | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`; compact command note for checking the operator artifact hash snapshot against current files. |
 | Validation package route classifier table | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`; machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
-| Validation route classifier worked examples | todo | Add examples that map plausible incoming packages to route classes without running analysis. |
+| Validation route classifier worked examples | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`; plausible incoming packages mapped to route classes without running analysis. |
 | Incoming package preflight checklist consolidation | todo | Produce a one-page preflight that orders checksum, terms, route classification, field dictionary, and acceptance criteria. |
 | Chr1 target-resolution decision compact | todo | Create a compact go/no-go table for chr1 packages after classifier routing. |
 | Monitoring package minimum viable package checklist | todo | Create a concise required-vs-nice-to-have checklist for paired PBMC response packages. |
@@ -383,3 +383,8 @@ and V51 structural context without reopening broad public-data discovery.
   the backlog above threshold. Result: incoming packages now route mechanically
   to monitoring validation, chr1 target-resolution, secondary biology,
   context-only, access-blocked, or unscoreable classes before analysis.
+- 2026-07-10T12:41:22Z: Wrote
+  `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`.
+  Result: ten plausible incoming package shapes now have pre-analysis route
+  classes, allowed interpretations, forbidden interpretations, and next
+  actions.
