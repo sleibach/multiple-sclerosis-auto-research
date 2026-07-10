@@ -157,6 +157,7 @@ Proposal records and grounding:
 - `scripts/v53_model_proposal_grounding.py`
 - `analysis/v53_model_proposal_grounding/REPORT.md`
 - `analysis/v53_model_proposal_grounding/proposal_triage.tsv`
+- `analysis/v53_causal_identifiability_sensitivity/REPORT.md`
 - `knowledge_external/model_outputs/v53_rpt_proposal_lens/record.json`
 
 Claude and Gemini each generated eight proposals. Grounded outcomes across all
@@ -171,6 +172,11 @@ HLA-II/IFN-APC/receptor-state skeleton admits six acyclic orientations in one
 Markov-equivalence class, with zero consensus-oriented edges. This establishes
 that current summary dependencies cannot identify causal direction; it does not
 claim that biological direction is absent.
+
+Sensitivity analysis tested 10 strict, permissive, perturbation-only,
+replicated, and leave-one-modality-out skeletons spanning three to six edges.
+Every variant retained zero consensus-oriented edges. The methodological
+negative is therefore not an edge-threshold artifact.
 
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation

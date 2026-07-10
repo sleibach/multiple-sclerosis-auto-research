@@ -1,0 +1,11 @@
+variant	n_edges	edges	n_possible_orientations	n_acyclic_orientations	n_markov_equivalence_classes_without_orientation_data	n_consensus_oriented_edges	consensus_oriented_edges	minimum_direction_frequency_across_edges	direction_identified
+any_modality_q_le_0_10	6	gilt_lysosomal_apc--hla_ii_apc;gilt_lysosomal_apc--ifn_apc;gilt_lysosomal_apc--mif_cd74_receptor_state;hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	64	24	1	0	none	0.5	False
+at_least_two_modalities_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+leave_out_cell_state_h5ad__at_least_two_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+leave_out_cross_disease_summary__at_least_two_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+leave_out_perturbation_mixscale__at_least_two_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+leave_out_treatment_pharmacodynamic__at_least_two_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+leave_out_treatment_response_tests__at_least_two_q_le_0_10	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+perturbation_only_q_le_0_10	6	gilt_lysosomal_apc--hla_ii_apc;gilt_lysosomal_apc--ifn_apc;gilt_lysosomal_apc--mif_cd74_receptor_state;hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	64	24	1	0	none	0.5	False
+replicated_modalities_ge_2	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False
+strict_claim_grade_supported	3	hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state	8	6	1	0	none	0.5	False

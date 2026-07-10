@@ -31,8 +31,8 @@ exhausted public-data discovery search as a source of findings.
 | RPT structured-axis generation | done | 16 leave-one-out feasibility predictions matched schema triage; no independent biology or anomaly added. |
 | External convergence/contradiction check for MIF/CD74 | done | 6 source-specific rows: 3 context convergences, 2 insufficient-overlap/tensions, 1 orthogonal, 0 same-definition contradictions; no verdict change. |
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
-| Causal-identifiability threshold sensitivity | in-progress | Test whether the zero-orientation result survives reasonable supported-edge definitions. |
-| V26 matrix semantic contract | todo | Machine-readable row-unit/timepoint/label contract to prevent invalid patient/temporal analyses. |
+| Causal-identifiability threshold sensitivity | done | 10 skeleton variants, 3-6 edges, all with 0 consensus-oriented edges. |
+| V26 matrix semantic contract | in-progress | Machine-readable row-unit/timepoint/label contract to prevent invalid patient/temporal analyses. |
 | RFX5 single-context boundary packet | todo | Record exactly what independent perturbation context would be required; no promotion. |
 | Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
@@ -109,3 +109,8 @@ exhausted public-data discovery search as a source of findings.
   normalized blank generated TSV cells to remove trailing-tab warnings.
   Cumulative active time accrued through this checkpoint is 2h07m58s; the
   resumed session interval remains open.
+- 2026-07-10T23:05:55Z: Completed causal-identifiability sensitivity. All 10
+  skeleton variants spanning 3-6 edges retained zero consensus-oriented edges,
+  so the methodological negative is not a support-threshold or single-modality
+  artifact. Cumulative active time accrued through this checkpoint is 2h10m38s;
+  the resumed session interval remains open.

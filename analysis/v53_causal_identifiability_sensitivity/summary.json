@@ -1,0 +1,19 @@
+{
+  "edge_count_range": [
+    3,
+    6
+  ],
+  "input": "analysis/v26_deep_structure/workstream_b_module_dependencies.tsv",
+  "interpretation": "The result is structural, not biological: undirected summary dependencies provide no intervention target direction. Signed correlation is not an arrow.",
+  "modules": [
+    "gilt_lysosomal_apc",
+    "hla_ii_apc",
+    "ifn_apc",
+    "mif_cd74_receptor_state"
+  ],
+  "n_skeleton_variants": 10,
+  "n_variants_with_any_consensus_orientation": 0,
+  "next_data": "A true module-level intervention or sufficiently sampled temporal design with pre-specified causal assumptions is required to orient the APC network.",
+  "purpose": "V53 causal-identifiability sensitivity across edge-selection rules",
+  "verdict": "ZERO_EDGE_DIRECTION_SURVIVES_ALL_REASONABLE_SKELETON_DEFINITIONS"
+}
