@@ -739,6 +739,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T15:41:15Z: Added package-intake CLI help refresh note documenting
   the mechanical four-command regeneration snippet for the committed help
   snapshot.
-- 2026-07-10T15:43:35Z: V52 active target met at a clean point. Final HEAD is
-  `0c9e50ba`; working tree clean; OpenGWAS checker returned HTTP 200 with token
-  expiry `2026-07-24 08:00 UTC`; tracked size/tmp guard passed.
+- 2026-07-10T15:43:35Z: V52 active target met at a clean point. Final pushed
+  close-out HEAD is `4f3a7293`; working tree clean; OpenGWAS checker returned
+  HTTP 200 with token expiry `2026-07-24 08:00 UTC`; tracked size/tmp guard
+  passed.
