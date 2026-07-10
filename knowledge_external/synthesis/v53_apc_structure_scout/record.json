@@ -1,0 +1,31 @@
+{
+  "claim": "APC-axis proteins have uneven but often substantial structural coverage; structural availability did not remove any project-defined causal, directional, selectivity, or modality blocker in this target-gated scout.",
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "limitations": [
+    "Whole-chain pLDDT does not establish a druggable pocket or biologically relevant interface.",
+    "RCSB entry counts measure coverage, not therapeutic suitability.",
+    "No target can advance without its project-defined causal, direction, selectivity, and modality gates."
+  ],
+  "n_target_status_changes": 0,
+  "n_targets": 13,
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Structure-first triage with an explicit no-rescue rule.",
+  "record_id": "V53_APC_STRUCTURE_SCOUT",
+  "record_type": "external_structural_scout",
+  "relationship_note": "The map tests physical context availability only; project target gates remain defined by separately cited rerunnable analyses.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "AlphaFold DB confidence metadata and RCSB exact-UniProt structure metadata.",
+    "label": "AlphaFold DB and RCSB PDB public APIs",
+    "url": "https://alphafold.ebi.ac.uk/"
+  },
+  "structure_context_grade_counts": {
+    "high_context_availability": 6,
+    "low_context_availability": 1,
+    "moderate_context_availability": 6,
+    "unavailable": 0
+  },
+  "table_path": "knowledge_external/synthesis/v53_apc_structure_scout/apc_structure_scout.tsv",
+  "why_unverifiable": "The structure predictions and experimental metadata are external records that the project did not experimentally produce or validate."
+}

@@ -66,10 +66,9 @@ Exact data that could change the verdict:
 
 ## Workstream A: Structure-First APC/HLA-II Angles
 
-Status: first MIF/CD74 pass complete; broader APC/HLA-II map in progress.
-Structure is used to assess physical tractability and interface confidence
-only; it cannot promote MIF/CD74 or any other axis node without grounded
-direction and mechanism.
+Status: complete. Structure was used to assess physical tractability and
+interface confidence only; it did not promote MIF/CD74 or any other axis node
+without grounded direction and mechanism.
 
 The segregated structure-context pass is recorded at:
 
@@ -77,10 +76,14 @@ The segregated structure-context pass is recorded at:
 - `knowledge_external/structures/alphafold/CD74_P04233/record.json`
 - `knowledge_external/synthesis/v53_mif_cd74_structure_context/record.json`
 - `knowledge_external/synthesis/V53_MIF_CD74_DIRECTION_MATCHED_ASSESSMENT.json`
+- `knowledge_external/synthesis/v53_apc_structure_scout/record.json`
+- `knowledge_external/synthesis/v53_apc_structure_scout/apc_structure_scout.tsv`
 
 It does not change the grounded target verdict. The binding constraint remains
 the held-data result: no component-specific adjusted support and no stable
-therapy direction.
+therapy direction. Across the broader target-gated map, structural availability
+did not remove any existing causal, directional, selectivity, or modality
+blocker.
 
 ## Workstream C: Combinatorial Intervention Logic
 

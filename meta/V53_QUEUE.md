@@ -23,7 +23,7 @@ exhausted public-data discovery search as a source of findings.
 |---|---|---|
 | MIF/CD74 grounded project-data audit | done | 0 adjusted receptor-specific successes; MIF in 3/9 module definitions; direction 1 positive/1 negative/1 near-null, sign-null p=1.0; prior Tier-1 demotion confirmed. |
 | MIF/CD74 structure-first context | done | MIF/CD74 AlphaFold records plus RCSB coverage/contact audit; monomer confidence is weak at the experimental CD74-HLA interface, so no inferred complex claim. |
-| APC/HLA-II structure-first target map | in-progress | Map HLA-II, CD74/MIF, cathepsin, IFN/APC proteins to grounded project axes and available structures. |
+| APC/HLA-II structure-first target map | done | Target-gated map covers 13 proteins; structural availability changed 0 causal/directional/selectivity/modality gates. |
 | MIF/CD74 direction-matched therapeutic verdict | done | Structure changes physical-tractability context, not absent causal/directional support; target remains not promoted. |
 | Coupled-axis combinatorial intervention probe | todo | Test whether multi-node project-data patterns exceed single-node patterns under null-aware evaluation. |
 | Coupled-axis network controllability probe | todo | Apply a cross-domain control-point analysis and ground any node ranking against held perturbation/data structure. |
@@ -76,3 +76,8 @@ exhausted public-data discovery search as a source of findings.
   structure cannot repair missing component-specific support or inconsistent
   therapy direction. Cumulative active time accrued through this checkpoint is
   1h36m27s; the resumed session interval remains open.
+- 2026-07-10T22:38:14Z: Completed the 13-node APC/HLA-II structure-first scout.
+  It found substantial structure context for many nodes but zero target-status
+  changes after applying the existing causal, directional, selectivity, and
+  modality prefilters. Cumulative active time accrued through this checkpoint
+  is 1h42m57s; the resumed session interval remains open.
