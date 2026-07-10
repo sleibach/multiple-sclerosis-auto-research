@@ -1,0 +1,4 @@
+classifier_status	condition	allowed_operator_action	forbidden_operator_action	next_artifact
+matched	all classifier minimum_fields for the assigned route are present	continue to preflight checklist and route-specific operator card	run validation or target interpretation before completing preflight	docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md
+partial_or_unscoreable	a closest route exists but at least one required field is missing	request missing fields, classify as partial/context/unscoreable, or stop per preflight	treat as scoreable validation or target-resolution package	docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv
+unscoreable_no_route	no route has required-field overlap	reject for analysis or request a new manifest	invent an ad hoc route or inspect restricted raw data	docs/validation/DATA_OWNER_PACKAGE_README_V52.md

@@ -51,6 +51,10 @@ Expected synthetic result:
 
 ## Status Interpretation
 
+Machine-readable table:
+
+`docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`
+
 | status | meaning | action |
 |---|---|---|
 | `matched` | all `minimum_fields` for the assigned route are present | continue to the preflight checklist and route-specific operator card |

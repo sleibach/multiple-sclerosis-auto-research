@@ -115,7 +115,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Post-manifest package RAG refresh | done | Rebuilt sparse RAG index over 804 documents; manifest-layer smoke query returned operator note, package-doc audit, intake fixture, README audit, and handoff bundle. |
 | Route classifier manifest schema hardening | done | `scripts/v52_package_route_classifier.py` now fails clearly if manifest headers lack `package_id` or `provided_fields`. |
 | Route classifier negative schema fixture | done | Added bad manifest missing `provided_fields`; expected-fail check recorded in `analysis/v52_package_route_classifier/schema_negative_checks.tsv`. |
-| Classifier status-to-preflight decision table | todo | Add a compact table mapping `matched`, `partial_or_unscoreable`, and `unscoreable_no_route` to allowed operator actions. |
+| Classifier status-to-preflight decision table | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`; linked from operator note and handoff bundle; added to hash snapshot, verified with 30 rows. |
 | Received package file-naming policy | todo | Specify output paths and names for received-package classifier outputs without committing restricted data. |
 | Manifest no-raw-data git policy note | todo | Add a short note distinguishing metadata manifests safe for git from raw restricted package files that must stay quarantined. |
 | Route classifier preflight checklist link | todo | Add the CLI operator note to the preflight source artifacts if not already represented there. |
@@ -528,3 +528,9 @@ and V51 structural context without reopening broad public-data discovery.
   and recorded `analysis/v52_package_route_classifier/schema_negative_checks.tsv`.
   Result: positive synthetic fixtures still pass, and a manifest missing
   `provided_fields` fails before routing with a clear error.
+- 2026-07-10T13:46:32Z: Added
+  `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`,
+  linked it from the route-classifier operator note and handoff bundle, added it
+  to the operator hash snapshot, and refreshed hashes. Result: classifier output
+  statuses now have machine-readable allowed/forbidden operator actions, and the
+  30-row snapshot verifies cleanly.
