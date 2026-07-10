@@ -11,6 +11,8 @@ V52 update:
 - Queue / resume backbone: `meta/V52_QUEUE.md`.
 - Therapeutic-path synthesis:
   `docs/reports/THERAPEUTIC_PATH_V52.md`.
+- V52 therapeutic artifact index:
+  `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`.
 - Public-facing therapeutic summary card:
   `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
 - Machine-readable therapeutic target evidence matrix:

@@ -36,6 +36,7 @@ data and a direction-matched modality exist.
 | evidence layer | artifact |
 |---|---|
 | Public-facing V52 handoff | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` |
+| V52 therapeutic artifact index | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md` |
 | Machine-readable therapeutic evidence matrix | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` |
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
