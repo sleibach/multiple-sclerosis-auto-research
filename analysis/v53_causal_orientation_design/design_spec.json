@@ -1,0 +1,25 @@
+{
+  "assumptions_to_validate_before_orientation": [
+    "intervention is selective at the module level rather than merely targeting a member gene",
+    "relevant effects are nonzero and monotone over the locked readout window",
+    "DAG/acyclic approximation is adequate over that window",
+    "no unmodeled intervention-dependent batch or donor imbalance"
+  ],
+  "current_blocker": "RFX5 is only a nominal HLA-II member-gene proxy, IFNGR/JAK perturbations broadly collapse IFN/APC, and MIF/CD74 has no component-specific validated intervention. None is a valid do(module) instrument.",
+  "permissive_k4_addition": "one validated selective intervention on gilt_lysosomal_apc",
+  "primary_analysis": "For each intervention, test every non-intervened module versus control; BH across the fixed reachability family; effect floor 0.25 standardized units; map the binary reachability signature to a topological order.",
+  "purpose": "Pre-specified acquisition design to orient, not discover, the APC module graph",
+  "recommended_nonlinearity_check": "Add the double-intervention arm after the minimal single-intervention design; use it to test interaction/nonadditivity, not to tune the orientation gate.",
+  "required_measurements": [
+    "all four frozen module scores from donor-level pseudobulk",
+    "perturbation efficiency measured independently of module outcomes",
+    "at least one early and one later readout to detect violations of endpoint-only DAG assumptions"
+  ],
+  "strict_k3_minimal_arms": [
+    "non-targeting/control",
+    "one validated selective intervention on hla_ii_apc",
+    "one validated selective intervention on ifn_apc"
+  ],
+  "synthetic_marker": "SYNTHETIC_METHOD_CHARACTERIZATION_NOT_BIOLOGICAL_EVIDENCE",
+  "temporal_fallback": "If module-selective instruments cannot be built, acquire randomized-pulse donor-level trajectories with at least six pre-locked timepoints and analyze under a separately pre-specified dynamic model; current aggregate rows cannot power this route."
+}

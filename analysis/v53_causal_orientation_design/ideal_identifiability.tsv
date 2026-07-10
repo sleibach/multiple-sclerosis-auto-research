@@ -1,0 +1,10 @@
+complete_dag_nodes	possible_topological_orders	perfect_single_node_interventions	distinct_reachability_signatures	all_orders_distinguishable	assumptions
+3	6	0	1	False	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+3	6	1	4	False	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+3	6	2	6	True	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+3	6	3	6	True	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+4	24	0	1	False	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+4	24	1	8	False	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+4	24	2	18	False	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+4	24	3	24	True	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability
+4	24	4	24	True	acyclic complete DAG; nonzero effects; perfect module-selective interventions; exact reachability

@@ -1,0 +1,19 @@
+{
+  "biological_direction_inferred": false,
+  "current_instrument_status": "NO_HELD_PERTURBATION_SATISFIES_PERFECT_MODULE_SELECTIVE_INTERVENTION_ASSUMPTION",
+  "minimum_n_per_arm_for_worst_order_recovery_ge_0_80": {
+    "0.3": null,
+    "0.5": 192,
+    "0.8": 128
+  },
+  "permissive_k4_minimum_perfect_interventions": 3,
+  "purpose": "V53 minimal direction-informative APC module intervention design",
+  "seeds": [
+    53101,
+    53102,
+    53103
+  ],
+  "strict_k3_minimum_perfect_interventions": 2,
+  "synthetic_replicates": 594000,
+  "verdict": "DESIGN_IDENTIFIABLE_IN_PRINCIPLE_CURRENTLY_BLOCKED_ON_VALID_MODULE_INSTRUMENTS"
+}

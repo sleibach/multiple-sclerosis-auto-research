@@ -219,6 +219,22 @@ assumptions. True module-level intervention and temporal data are examples;
 sample-level identifiable functional-form or cross-environment invariance
 models are other possible routes.
 
+V53 then computed the minimal intervention design in
+`analysis/v53_causal_orientation_design/REPORT.md`. For the strict complete K3,
+one perfect module intervention yields four reachability signatures for six
+orders; two interventions distinguish all six. For permissive complete K4,
+three interventions are minimal for all 24 orders. Across 594,000 three-seed
+synthetic order/design replicates, worst-order recovery first exceeds 80% at
+128 donors per arm under an assumed edge coefficient of `0.8` and 192 under
+`0.5`; `0.3` does not reach the threshold through 256 donors per arm. This is
+method-design characterization, not an empirical APC effect estimate.
+
+The design is not presently executable: RFX5 is not a validated selective
+`do(HLA-II/APC)` instrument, IFNGR/JAK perturbs broad IFN tone, and MIF/CD74 has
+no component-specific validated intervention. The next causal acquisition
+problem is instrument validation, not a more complex orientation algorithm on
+the existing summaries.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
