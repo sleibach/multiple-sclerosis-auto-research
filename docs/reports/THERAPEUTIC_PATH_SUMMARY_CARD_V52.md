@@ -42,6 +42,8 @@ therapeutic target.
   `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
 - Wrote therapeutic reviewer quickstart:
   `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`.
+- Wrote therapeutic no-target public abstract:
+  `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`.
 - Wrote the structural evidence-boundary QA:
   `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Added KIF21B and PTGER4 AlphaFold DB structural records under the segregated
@@ -154,6 +156,7 @@ Concrete field specification:
 - `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`
 - `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`
 - `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`
+- `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`
 - `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`
 - `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`
 - `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`

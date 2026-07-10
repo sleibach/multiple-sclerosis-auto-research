@@ -84,7 +84,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring result-class examples | done | `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`; concrete scenario-to-class examples for future monitoring packages. |
 | chr1 wrong-direction control checklist | done | `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`; labels and interpretation rules for wrong-direction perturbation controls. |
 | Post-validation route update playbook | done | `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`; future route-status transition rules for monitoring and chr1 package outcomes. |
-| Therapeutic no-target public abstract | todo | Draft a concise external abstract that states monitoring-first and no-current-target without weakening the result. |
+| Therapeutic no-target public abstract | done | `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`; public abstract states monitoring-ready and no current target without overclaiming. |
 | OpenGWAS expiry-day runbook | todo | Write the operational runbook for token expiry, renewal, and no-false-null routing after 2026-07-24. |
 | V52 artifact hash verification command note | todo | Add a compact command note for checking `V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` against current files. |
 | Validation package route classifier table | todo | Create a machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
@@ -357,3 +357,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`. Result:
   future monitoring and chr1 package outcomes now have explicit route-status
   transition rules and required downstream artifact updates.
+- 2026-07-10T12:19:05Z: Wrote
+  `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`. Result:
+  external/public wording now states the no-current-target conclusion while
+  preserving the monitoring validation path as the live actionable route.

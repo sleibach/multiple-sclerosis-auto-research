@@ -33,6 +33,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`.
 - Therapeutic reviewer quickstart:
   `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`.
+- Therapeutic no-target public abstract:
+  `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`.
 - Therapeutic artifact consistency audit:
   `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`.
 - Therapeutic claim hierarchy:
