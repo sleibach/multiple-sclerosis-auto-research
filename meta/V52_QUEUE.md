@@ -102,7 +102,8 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 post-package-doc RAG refresh | done | Rebuilt sparse RAG index over 798 documents; package-layer smoke query returned handoff link audit, handoff bundle, data-owner README, queue, and classifier schema artifacts. |
 | Package artifact hash coverage audit | done | `docs/reports/V52_PACKAGE_ARTIFACT_HASH_COVERAGE_AUDIT.md`; 26 handoff artifacts checked against 26 hash-snapshot rows after remediation; 20 covered, 6 intentionally mutable/context/self-reference uncovered. |
 | Add chr1 wrong-direction checklist to hash snapshot | done | Added `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md` to the stable operator hash snapshot; hash verification passed with 26 rows. |
-| Data-owner README consistency audit | todo | Check README package types, manifest fields, and route labels against classifier, field dictionary, and handoff bundle. |
+| Data-owner README consistency audit | done | `docs/validation/DATA_OWNER_README_CONSISTENCY_AUDIT_V52.md`; README package types align with classifier/handoff; one metadata/aggregate-only field-dictionary gap identified. |
+| Add metadata-only field dictionary row | todo | Add field-dictionary entries for `metadata_only_or_aggregate_only` so context-only aggregate packages are mechanically documented. |
 | Package route classifier intake fixture | todo | Build a small synthetic manifest-fixture table or script that classifies incoming package metadata against the V52 route classifier without touching real data. |
 | Operator bundle stable-vs-mutable policy note | todo | Record which package artifacts are intentionally frozen, mutable, or context-only so future hash coverage decisions are mechanical. |
 | V52 package-doc consistency audit | todo | Cross-check route classifier, examples, preflight, minimum package checklist, and handoff bundle for route-name and artifact-reference consistency. |
@@ -457,3 +458,8 @@ and V51 structural context without reopening broad public-data discovery.
   rows; 20 of 26 handoff artifacts are now hash-covered, with the remaining
   uncovered artifacts classified as mutable, context/governance, or
   self-referential.
+- 2026-07-10T13:15:06Z: Wrote
+  `docs/validation/DATA_OWNER_README_CONSISTENCY_AUDIT_V52.md`. Result: the
+  data-owner README package types align with the V52 classifier and handoff
+  bundle; the only follow-up is adding field-dictionary rows for the
+  metadata/aggregate-only context route.
