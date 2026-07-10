@@ -112,7 +112,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Link manifest template into data-owner README and handoff bundle | done | Added template references to `docs/validation/DATA_OWNER_PACKAGE_README_V52.md` and `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. |
 | Add manifest template to hash snapshot | done | Added template row to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; refreshed and verified 28 rows. |
 | Package route CLI usage note | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`; linked from handoff bundle, added to hash snapshot, and snapshot verified with 29 rows. |
-| Post-manifest package RAG refresh | todo | Rebuild sparse RAG index after manifest-template artifacts are complete. |
+| Post-manifest package RAG refresh | done | Rebuilt sparse RAG index over 804 documents; manifest-layer smoke query returned operator note, package-doc audit, intake fixture, README audit, and handoff bundle. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -509,3 +509,9 @@ and V51 structural context without reopening broad public-data discovery.
   refreshed hashes. Result: route-classifier CLI usage and status interpretation
   are now frozen as an operator-control artifact; the snapshot verifies with 29
   rows.
+- 2026-07-10T13:39:41Z: Rebuilt the sparse RAG index with
+  `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`. Result:
+  `knowledge/.index/manifest.json` reports 804 documents, and the manifest-layer
+  smoke query `V52 incoming package manifest template route classifier operator
+  note` returned the route-classifier operator note, package-doc audit, intake
+  fixture, README audit, and handoff bundle.
