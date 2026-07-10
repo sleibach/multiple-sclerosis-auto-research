@@ -62,6 +62,12 @@ Commit only safe metadata, classifier outputs, and blocker notes. Never commit:
 If terms are unclear, record a receipt blocker and stop. Do not inspect or
 classify restricted content by convenience.
 
+## Related Git Boundary
+
+Use `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` to decide
+whether a manifest, classifier output, checksum summary, or blocker note is safe
+to commit.
+
 ## Boundary
 
 This policy controls file placement and names only. It does not decide package

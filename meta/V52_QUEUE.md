@@ -117,7 +117,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier negative schema fixture | done | Added bad manifest missing `provided_fields`; expected-fail check recorded in `analysis/v52_package_route_classifier/schema_negative_checks.tsv`. |
 | Classifier status-to-preflight decision table | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`; linked from operator note and handoff bundle; added to hash snapshot, verified with 30 rows. |
 | Received package file-naming policy | done | `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md`; raw files under ignored `data/raw/received_packages/`, safe manifests/classifier outputs under `analysis/received_package_intake/`; added to hash snapshot. |
-| Manifest no-raw-data git policy note | todo | Add a short note distinguishing metadata manifests safe for git from raw restricted package files that must stay quarantined. |
+| Manifest no-raw-data git policy note | done | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md`; distinguishes commit-eligible metadata/classifier outputs from raw/restricted package content; added to hash snapshot. |
 | Route classifier preflight checklist link | todo | Add the CLI operator note to the preflight source artifacts if not already represented there. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -541,3 +541,9 @@ and V51 structural context without reopening broad public-data discovery.
   `data/raw/received_packages/<package_id>/`, while safe manifests and
   classifier outputs use `analysis/received_package_intake/<package_id>/`; the
   31-row snapshot verifies cleanly.
+- 2026-07-10T13:54:45Z: Wrote
+  `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md`, linked it
+  from the data-owner README, handoff bundle, and received-package naming policy,
+  then added it to the operator hash snapshot and refreshed hashes. Result:
+  commit-eligible manifest metadata is explicitly separated from raw/restricted
+  package content, and the 32-row snapshot verifies cleanly.

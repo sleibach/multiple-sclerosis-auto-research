@@ -64,6 +64,7 @@ summary is not enough to reopen GPR25 or KIF21B as a target.
 |---|---|
 | universal preflight | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` |
 | manifest template | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv` |
+| metadata versus raw data git policy | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` |
 | route classifier | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` |
 | route examples | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` |
 | monitoring minimum package | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md` |
