@@ -134,7 +134,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package intake CLI help snapshot | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_SNAPSHOT_V52.md`; 3 intake script help commands returned exit code 0 and printed usage blocks. |
 | Package intake combined smoke suite | done | `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`; synthetic-only combined suite ran package-ID pass/fail, route classification, and intake safety audit with 4 steps and 0 failures. |
 | Manifest template README consistency recheck | done | `scripts/v52_manifest_readme_consistency_audit.py`; data-owner README, manifest template, quickstart, and handoff bundle passed 23 consistency checks with 0 failures. |
-| Operator hash coverage after regression docs | todo | Add any newly stable regression or combined-smoke artifacts to the operator hash snapshot and update coverage audit. |
+| Operator hash coverage after regression docs | done | Added six stable regression/smoke/audit docs to the V52 operator hash snapshot; 43-row snapshot verifies and coverage audit updated. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -643,3 +643,8 @@ and V51 structural context without reopening broad public-data discovery.
   `analysis/v52_manifest_readme_consistency_audit/manifest_readme_consistency_audit.tsv`.
   Result: manifest headers, data-owner README route phrases, quickstart
   references, and handoff references passed 23 checks with 0 failures.
+- 2026-07-10T14:42:11Z: Added six stable regression/smoke/audit documents to
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` and refreshed hashes.
+  Result: the 43-row snapshot verifies, and
+  `docs/reports/V52_PACKAGE_ARTIFACT_HASH_COVERAGE_AUDIT.md` records the expanded
+  snapshot-only guard set.
