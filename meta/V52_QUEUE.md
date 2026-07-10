@@ -142,7 +142,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package-intake generated-output inventory | done | `docs/validation/PACKAGE_INTAKE_GENERATED_OUTPUT_INVENTORY_V52.md`; 16 generated package-intake outputs inventoried as synthetic/regression outputs, distinct from stable hash-covered controls. |
 | Route classifier duplicate package-ID guard | done | `scripts/v52_package_route_classifier.py` now rejects duplicate `package_id` rows; expected-fail fixture reports `manifest_duplicate_package_id`; guard note hash-covered. |
 | Package ID validator path-traversal regression | done | Expanded package-ID validator fixture to 9 cases including slash, dot-dot, double underscore, and trailing underscore; 0 expectation failures. |
-| Route classifier empty-fields regression | todo | Add a manifest fixture with empty `provided_fields` and verify it returns `unscoreable_no_route` or fails safely. |
+| Route classifier empty-fields regression | done | Empty `provided_fields` fixture returns `unscoreable_no_route` with no assigned route; regression note hash-covered. |
 | Intake audit non-placeholder email negative fixture | todo | Synthetic-check that the intake safety audit detects a non-placeholder email in a tracked-safe manifest shape without committing sensitive data. |
 | Package-intake route-output schema audit | todo | Verify every committed route-classifier output has the expected 9-column schema and no extra columns. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
@@ -696,3 +696,8 @@ and V51 structural context without reopening broad public-data discovery.
   from 5 to 9 cases, adding slash, path-traversal, double-underscore, and
   trailing-underscore failures. Result: 2 valid IDs pass, 7 malformed IDs fail,
   and the 49-row operator hash snapshot verifies.
+- 2026-07-10T15:14:33Z: Added empty-`provided_fields` route-classifier
+  regression artifacts and
+  `docs/validation/PACKAGE_ROUTE_CLASSIFIER_EMPTY_FIELDS_REGRESSION_V52.md`.
+  Result: the empty manifest row returns `unscoreable_no_route` with no assigned
+  route, and the 50-row operator hash snapshot verifies.
