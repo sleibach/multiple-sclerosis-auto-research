@@ -1,0 +1,2 @@
+package_id	expected_route	assigned_route	status	matched_required_count	required_count	missing_required_fields	candidate_full_routes	expected_matches_assigned	unexpected_extra_column
+20260710_bad_schema	monitoring_validation	monitoring_validation	matched	7	7		monitoring_validation	true	synthetic extra column should fail schema audit

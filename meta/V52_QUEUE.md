@@ -146,6 +146,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Intake audit non-placeholder email negative fixture | done | Added synthetic reserved-domain email fixture, `--all-files` audit path, expected-fail output, and hash-covered regression note; production tracked intake audit still passes. |
 | Package-intake route-output schema audit | done | `scripts/v52_route_output_schema_audit.py` found 7 committed route-classifier outputs, all with the exact 9-column schema and no extra columns. |
 | Post-intake-hardening RAG refresh | done | Rebuilt sparse RAG index over 826 documents; smoke queries returned route-output schema audit and negative-email fixture as top hits. |
+| Route-output schema malformed-output negative fixture | done | Synthetic output with an extra column fails the route-output schema audit as expected; production scan still finds 7 outputs and 0 failures. |
+| Route-output schema no-output negative fixture | todo | Synthetic expected-fail check that route-output schema audit rejects a scan with zero route outputs. |
+| Package-intake generated-output inventory refresh | todo | Add route-output schema audit output and negative fixtures to the generated-output inventory if they are not already represented. |
+| Package-intake script help snapshot generator note | todo | Document the mechanical command used to regenerate the package-intake CLI help snapshot after adding a script. |
+| Package-intake audit script surface cross-check | todo | Verify package-intake scripts mentioned in docs have matching help snapshot coverage or an explicit exclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -713,3 +718,9 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/PACKAGE_ROUTE_OUTPUT_SCHEMA_AUDIT_V52.md` and
   `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_NEGATIVE_EMAIL_FIXTURE_V52.md`
   as top hits.
+- 2026-07-10T15:30:54Z: Active time remains below the 6-hour target after RAG
+  refresh, so the backlog was refilled with package-intake schema and script
+  coverage hardening tasks.
+- 2026-07-10T15:32:52Z: Added malformed route-output schema negative fixture.
+  The synthetic output with an extra column fails the route-output schema audit
+  as expected; the normal production scan still finds 7 outputs and 0 failures.

@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT = ROOT / "analysis/v52_route_output_schema_audit/route_output_schema_audit.tsv"
+DEFAULT_SCAN_ROOT = ROOT / "analysis"
 EXPECTED_COLUMNS = [
     "package_id",
     "expected_route",
@@ -28,8 +29,11 @@ EXPECTED_COLUMNS = [
 ]
 
 
-def tracked_tsvs() -> list[Path]:
-    output = subprocess.check_output(["git", "ls-files", "analysis"], cwd=ROOT, text=True)
+def scan_tsvs(scan_root: Path, all_files: bool) -> list[Path]:
+    if all_files:
+        return sorted(path for path in scan_root.rglob("*.tsv") if path.is_file())
+    rel_root = scan_root.relative_to(ROOT)
+    output = subprocess.check_output(["git", "ls-files", str(rel_root)], cwd=ROOT, text=True)
     return sorted(ROOT / line for line in output.splitlines() if line.endswith(".tsv"))
 
 
@@ -46,9 +50,9 @@ def count_data_rows(path: Path) -> int:
         return sum(1 for _ in reader)
 
 
-def audit_outputs() -> list[dict[str, str]]:
+def audit_outputs(scan_root: Path, all_files: bool) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
-    for path in tracked_tsvs():
+    for path in scan_tsvs(scan_root, all_files):
         header = read_header(path)
         if "assigned_route" not in header:
             continue
@@ -86,12 +90,15 @@ def write_rows(rows: list[dict[str, str]], out: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--scan-root", type=Path, default=DEFAULT_SCAN_ROOT)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--all-files", action="store_true")
     parser.add_argument("--fail-on-error", action="store_true")
     args = parser.parse_args()
 
+    scan_root = args.scan_root if args.scan_root.is_absolute() else ROOT / args.scan_root
     out = args.out if args.out.is_absolute() else ROOT / args.out
-    rows = audit_outputs()
+    rows = audit_outputs(scan_root.resolve(), args.all_files)
     write_rows(rows, out)
     failures = [row for row in rows if row["status"] != "PASS"]
     print({"outputs": len(rows), "failures": len(failures), "out": str(out)})
