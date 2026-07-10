@@ -132,7 +132,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Intake safety audit regression fixture | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`; rerun confirmed 3 tracked intake files, 14 checks, 0 failures. |
 | Package intake artifact cross-reference audit | done | `scripts/v52_package_intake_cross_reference_audit.py`; 9 package-intake documents, 67 path references, 0 missing-reference failures. |
 | Package intake CLI help snapshot | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_SNAPSHOT_V52.md`; 3 intake script help commands returned exit code 0 and printed usage blocks. |
-| Package intake combined smoke suite | todo | Add a command note that runs package ID validation, route classification fixture, and intake safety audit in one safe synthetic-only sequence. |
+| Package intake combined smoke suite | done | `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`; synthetic-only combined suite ran package-ID pass/fail, route classification, and intake safety audit with 4 steps and 0 failures. |
 | Manifest template README consistency recheck | todo | Recheck that the data-owner README, manifest template, quickstart, and handoff bundle describe the same package routes and fields. |
 | Operator hash coverage after regression docs | todo | Add any newly stable regression or combined-smoke artifacts to the operator hash snapshot and update coverage audit. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
@@ -631,3 +631,9 @@ and V51 structural context without reopening broad public-data discovery.
   `analysis/v52_package_intake_cli_help_snapshot/cli_help_snapshot.tsv`.
   Result: package-ID validator, route classifier, and intake safety-audit help
   commands all returned exit code 0 and printed usage blocks.
+- 2026-07-10T14:36:39Z: Added
+  `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`, recorded
+  `analysis/v52_package_intake_combined_smoke_suite/combined_smoke_suite.tsv`,
+  and generated a synthetic route-classifier output for the suite. Result: 4
+  synthetic-only intake steps, 0 failures, and the synthetic monitoring manifest
+  remains classified as `monitoring_validation` / `matched`.
