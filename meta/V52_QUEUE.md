@@ -53,7 +53,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 therapeutic artifact index | done | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`; navigation by executive synthesis, validation, genetics/target handoff, structural context, and surveillance. |
 | chr1 direction-matched experiment blueprint | done | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`; staged flow from package intake through causal gene, direction, perturbation, modality, and final class. |
 | Therapeutic reopen checklist TSV | done | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`; machine-readable reopen gates and non-counting evidence for closed/conditional leads. |
-| External-skeptic therapeutic rebuttal checklist | todo | Pre-answer the strongest skeptical objections to the V52 monitoring-first / no-target verdict using committed artifacts. |
+| External-skeptic therapeutic rebuttal checklist | done | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`; pre-answers monitoring-first, no-target, structure, OpenGWAS, confounder, and power objections. |
 | V52 artifact consistency audit | todo | Check that summary card, matrix, request packet, and main report state the same route ranking and no-target conclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -195,3 +195,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`. Result: closed and
   conditional routes now have machine-readable reopen gates and explicit
   non-counting evidence.
+- 2026-07-10T10:57:12Z: Wrote
+  `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`. Result: the
+  strongest objections to the V52 monitoring-first/no-target conclusion now have
+  artifact-backed answers and explicit residual gaps.
