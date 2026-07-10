@@ -22,9 +22,9 @@ exhausted public-data discovery search as a source of findings.
 | item | status | note |
 |---|---|---|
 | MIF/CD74 grounded project-data audit | done | 0 adjusted receptor-specific successes; MIF in 3/9 module definitions; direction 1 positive/1 negative/1 near-null, sign-null p=1.0; prior Tier-1 demotion confirmed. |
-| MIF/CD74 structure-first context | in-progress | Retrieve confidence-scored AlphaFold records and assess interface/pocket context without treating prediction as evidence. |
-| APC/HLA-II structure-first target map | todo | Map HLA-II, CD74/MIF, cathepsin, IFN/APC proteins to grounded project axes and available structures. |
-| MIF/CD74 direction-matched therapeutic verdict | todo | Combine grounded direction with structure context and first-principles modality constraints. |
+| MIF/CD74 structure-first context | done | MIF/CD74 AlphaFold records plus RCSB coverage/contact audit; monomer confidence is weak at the experimental CD74-HLA interface, so no inferred complex claim. |
+| APC/HLA-II structure-first target map | in-progress | Map HLA-II, CD74/MIF, cathepsin, IFN/APC proteins to grounded project axes and available structures. |
+| MIF/CD74 direction-matched therapeutic verdict | done | Structure changes physical-tractability context, not absent causal/directional support; target remains not promoted. |
 | Coupled-axis combinatorial intervention probe | todo | Test whether multi-node project-data patterns exceed single-node patterns under null-aware evaluation. |
 | Coupled-axis network controllability probe | todo | Apply a cross-domain control-point analysis and ground any node ranking against held perturbation/data structure. |
 | Multi-lineage unconventional generation | todo | Claude and Gemini propose divergent concrete hypotheses; model output remains proposal-only. |
@@ -69,3 +69,10 @@ exhausted public-data discovery search as a source of findings.
   Provenance gate passed 684 checks and the structural gate passed 86 checks,
   both with zero failures. Cumulative active time accrued through this
   checkpoint is 1h27m30s; the resumed session interval remains open.
+- 2026-07-10T22:31:44Z: Completed the MIF/CD74 structure-first pass. Retrieved
+  confidence-scored AlphaFold records, audited exact-UniProt RCSB coverage, and
+  parsed a reproducible experimental CD74-HLA-DR15 contact map without storing
+  raw coordinates. The direction-matched verdict remains not promoted because
+  structure cannot repair missing component-specific support or inconsistent
+  therapy direction. Cumulative active time accrued through this checkpoint is
+  1h36m27s; the resumed session interval remains open.

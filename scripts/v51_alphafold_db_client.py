@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Retrieve AlphaFold DB structures as V51 structural-prediction records.
+"""Retrieve AlphaFold DB structures as classed structural-prediction records.
 
-This client implements Path A for V51: public AlphaFold DB retrieval. It does
-not run AlphaFold locally and does not download model weights. Retrieved
-structures are recorded as external-unverifiable predictions with confidence
-metadata for the V51 structural gate.
+This client implements the public AlphaFold DB retrieval path introduced in
+V51. It does not run AlphaFold locally and does not download model weights.
+Retrieved structures are recorded as external-unverifiable predictions with
+confidence metadata for the V51 structural gate.
 """
 
 from __future__ import annotations
@@ -35,6 +35,25 @@ def parse_args() -> argparse.Namespace:
     fetch.add_argument("--uniprot-id", required=True, help="UniProt accession, e.g. O00155")
     fetch.add_argument("--gene-symbol", help="Expected gene symbol, e.g. GPR25")
     fetch.add_argument("--out-root", type=Path, default=DEFAULT_OUT_ROOT)
+    fetch.add_argument(
+        "--relationship-to-project",
+        choices=("supports", "contradicts", "orthogonal", "untested"),
+        default="untested",
+        help="Context relationship; predictions remain non-evidentiary regardless of this tag",
+    )
+    fetch.add_argument(
+        "--relationship-note",
+        default=(
+            "This predicted structure is confidence-qualified context only; it is not "
+            "evidence for a project finding and does not alter locked rules or lead status."
+        ),
+        help="Target-specific project-context note stored in the structural record",
+    )
+    fetch.add_argument(
+        "--record-prefix",
+        default="V51",
+        help="Record provenance prefix, e.g. V51 or V53",
+    )
     fetch.add_argument("--force", action="store_true", help="Overwrite existing payload files")
     return parser.parse_args()
 
@@ -192,7 +211,15 @@ def write_plddt_tsv(path: Path, rows: list[dict[str, Any]], sequence: str) -> No
             handle.write(f"{row['residue_index']}\t{pos}\t{aa}\t{row['plddt']:.2f}\t{row['confidence_category']}\n")
 
 
-def fetch_entry(uniprot_id: str, gene_symbol: str | None, out_root: Path, force: bool) -> dict[str, Any]:
+def fetch_entry(
+    uniprot_id: str,
+    gene_symbol: str | None,
+    out_root: Path,
+    force: bool,
+    relationship_to_project: str,
+    relationship_note: str,
+    record_prefix: str,
+) -> dict[str, Any]:
     api_url = ALPHAFOLD_API.format(uniprot_id=uniprot_id)
     metadata_entries = fetch_json(api_url)
     entry = choose_entry(metadata_entries, gene_symbol)
@@ -239,7 +266,10 @@ def fetch_entry(uniprot_id: str, gene_symbol: str | None, out_root: Path, force:
         write_bytes(pae_path, pae_payload, force=force)
     write_json(metadata_path, entry, force=force)
     summary = {
-        "purpose": "V51 AlphaFold DB confidence summary; predicted structure, not experimental evidence",
+        "purpose": (
+            f"{record_prefix} AlphaFold DB confidence summary; predicted structure, "
+            "not experimental evidence"
+        ),
         "gene_symbol": gene,
         "uniprot_id": accession,
         "model_entity_id": model_entity_id,
@@ -257,7 +287,7 @@ def fetch_entry(uniprot_id: str, gene_symbol: str | None, out_root: Path, force:
 
     retrieval_date = datetime.now(UTC).date().isoformat()
     record = {
-        "record_id": f"V51_ALPHAFOLD_{gene}_{accession}",
+        "record_id": f"{record_prefix}_ALPHAFOLD_{gene}_{accession}",
         "record_type": "structural_prediction",
         "claim": (
             f"AlphaFold DB provides a predicted structure for {gene} ({accession}) "
@@ -271,18 +301,14 @@ def fetch_entry(uniprot_id: str, gene_symbol: str | None, out_root: Path, force:
             "citation": "AlphaFold Protein Structure Database public prediction entry.",
         },
         "date_accessed": retrieval_date,
-        "relationship_to_project_findings": "supports",
+        "relationship_to_project_findings": relationship_to_project,
         "not_project_grounded_marker": NOT_GROUNDED,
         "predicted_structure_not_experimental_marker": PREDICTION_MARKER,
         "why_unverifiable": (
             "The structure is a computational AlphaFold DB prediction and has not "
             "been experimentally solved or regrounded by this project."
         ),
-        "relationship_note": (
-            "This record can inform the chr1 GPR25/KIF21B druggability-direction "
-            "context but is not evidence for the grounded genetics verdict and "
-            "does not alter locked rules or lead status."
-        ),
+        "relationship_note": relationship_note,
         "protein": {
             "uniprot_id": accession,
             "uniprot_id_full": str(entry.get("uniprotId") or ""),
@@ -342,7 +368,15 @@ def main() -> int:
     args = parse_args()
     if args.command == "fetch":
         out_root = args.out_root if args.out_root.is_absolute() else ROOT / args.out_root
-        fetch_entry(args.uniprot_id, args.gene_symbol, out_root, args.force)
+        fetch_entry(
+            args.uniprot_id,
+            args.gene_symbol,
+            out_root,
+            args.force,
+            args.relationship_to_project,
+            args.relationship_note,
+            args.record_prefix,
+        )
         return 0
     raise AssertionError(args.command)
 

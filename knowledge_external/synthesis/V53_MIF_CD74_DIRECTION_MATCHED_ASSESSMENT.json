@@ -1,0 +1,47 @@
+{
+  "assessment": {
+    "causal_specificity": "not_supported_in_held_project_data",
+    "cd74_structure_context": "A near-full experimental CD74-HLA-DR15 complex supports physical interface analysis, but the AlphaFold monomer is weak at that interface and does not establish a MIF-CD74 complex.",
+    "direction_match": "not_established; held therapy cohorts include opposite directions and a near-null result",
+    "mif_structure_context": "MIF has high-confidence predicted coverage and multiple experimental inhibitor-bound structures, establishing physical inhibitor compatibility but not a favorable MS intervention direction.",
+    "target_status_after_structure": "NOT_PROMOTED",
+    "why_status_did_not_change": "Physical tractability cannot replace component-specific adjusted association, causal attribution, or a clinically favorable intervention direction."
+  },
+  "claim": "Structure-informed context changes the physical-tractability description of MIF/CD74 but does not reopen it as a direction-matched MS therapeutic target.",
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "external_inputs": [
+    {
+      "class": "external-unverifiable",
+      "path": "knowledge_external/structures/alphafold/MIF_P14174/record.json",
+      "source": "https://alphafold.ebi.ac.uk/api/prediction/P14174"
+    },
+    {
+      "class": "external-unverifiable",
+      "path": "knowledge_external/structures/alphafold/CD74_P04233/record.json",
+      "source": "https://alphafold.ebi.ac.uk/api/prediction/P04233"
+    },
+    {
+      "class": "external-unverifiable",
+      "path": "knowledge_external/synthesis/v53_mif_cd74_structure_context/record.json",
+      "source": "https://search.rcsb.org/rcsbsearch/v2/query"
+    }
+  ],
+  "grounded_inputs": [
+    "analysis/v53_mif_cd74_grounded_audit/summary.json",
+    "analysis/v53_mif_cd74_grounded_audit/evidence_ledger.tsv",
+    "analysis/v53_mif_cd74_grounded_audit/direction_consistency.tsv"
+  ],
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Segregated direction-matched tractability context only; the grounded MIF/CD74 null remains authoritative.",
+  "record_id": "V53_MIF_CD74_DIRECTION_MATCHED_ASSESSMENT",
+  "record_type": "external_structural_synthesis",
+  "relationship_note": "The external structural context is orthogonal to the grounded therapeutic null and does not change lead status.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "AlphaFold DB predictions and RCSB PDB experimental structure metadata, interpreted alongside separately listed project-grounded artifacts.",
+    "label": "V53 segregated MIF/CD74 structure and direction assessment",
+    "url": "https://search.rcsb.org/rcsbsearch/v2/query"
+  },
+  "why_unverifiable": "The structural inputs are external predictions or experimental records that the project did not experimentally reproduce; they remain context rather than project evidence."
+}

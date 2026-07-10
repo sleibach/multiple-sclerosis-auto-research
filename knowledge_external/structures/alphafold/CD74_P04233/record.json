@@ -1,0 +1,167 @@
+{
+  "claim": "AlphaFold DB provides a predicted structure for CD74 (P04233) with mean pLDDT 69.9257 and mean PAE 24.852; this is predicted structural context, not experimental evidence.",
+  "confidence": {
+    "pae": {
+      "fraction_le_10": 0.124795,
+      "fraction_le_20": 0.185834,
+      "fraction_le_5": 0.085087,
+      "matrix_path": "knowledge_external/structures/alphafold/CD74_P04233/AF-P04233-F1-predicted_aligned_error_v6.json",
+      "max": 32.0,
+      "max_predicted_aligned_error": 31.75,
+      "mean": 24.852,
+      "median": 29.0,
+      "min": 0.0,
+      "n_cols": 296,
+      "n_rows": 296,
+      "n_values": 87616,
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-P04233-F1-predicted_aligned_error_v6.json",
+      "stored_locally": true
+    },
+    "plddt": {
+      "fraction_confident_ge_70": 0.540541,
+      "fraction_low_lt_50": 0.27027,
+      "fraction_very_high_ge_90": 0.256757,
+      "low_confidence_segments_lt_50": [
+        {
+          "end": 3,
+          "length": 3,
+          "start": 1
+        },
+        {
+          "end": 5,
+          "length": 1,
+          "start": 5
+        },
+        {
+          "end": 8,
+          "length": 1,
+          "start": 8
+        },
+        {
+          "end": 10,
+          "length": 1,
+          "start": 10
+        },
+        {
+          "end": 14,
+          "length": 3,
+          "start": 12
+        },
+        {
+          "end": 16,
+          "length": 1,
+          "start": 16
+        },
+        {
+          "end": 39,
+          "length": 22,
+          "start": 18
+        },
+        {
+          "end": 41,
+          "length": 1,
+          "start": 41
+        },
+        {
+          "end": 43,
+          "length": 1,
+          "start": 43
+        },
+        {
+          "end": 107,
+          "length": 2,
+          "start": 106
+        },
+        {
+          "end": 132,
+          "length": 24,
+          "start": 109
+        },
+        {
+          "end": 134,
+          "length": 1,
+          "start": 134
+        },
+        {
+          "end": 200,
+          "length": 1,
+          "start": 200
+        },
+        {
+          "end": 202,
+          "length": 1,
+          "start": 202
+        },
+        {
+          "end": 290,
+          "length": 13,
+          "start": 278
+        },
+        {
+          "end": 292,
+          "length": 1,
+          "start": 292
+        },
+        {
+          "end": 296,
+          "length": 3,
+          "start": 294
+        }
+      ],
+      "max": 96.06,
+      "mean": 69.9257,
+      "median": 75.44,
+      "min": 34.78,
+      "n_residues": 296,
+      "per_residue_path": "knowledge_external/structures/alphafold/CD74_P04233/plddt_per_residue.tsv",
+      "source_json_path": "knowledge_external/structures/alphafold/CD74_P04233/AF-P04233-F1-confidence_v6.json",
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-P04233-F1-confidence_v6.json"
+    }
+  },
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "model": {
+    "model_created_date": "2025-08-01T00:00:00Z",
+    "model_entity_id": "AF-P04233-F1",
+    "model_version": "6",
+    "pae_doc_url": "https://alphafold.ebi.ac.uk/files/AF-P04233-F1-predicted_aligned_error_v6.json",
+    "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P04233-F1-model_v6.pdb",
+    "plddt_doc_url": "https://alphafold.ebi.ac.uk/files/AF-P04233-F1-confidence_v6.json",
+    "provider_id": "GDM",
+    "retrieval_date": "2026-07-10",
+    "source": "AlphaFold DB",
+    "source_url": "https://alphafold.ebi.ac.uk/api/prediction/P04233",
+    "tool_used": "AlphaFold Monomer v2.0 pipeline"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "predicted_structure_not_experimental_marker": "PREDICTED_STRUCTURE_NOT_EXPERIMENTAL",
+  "project_use": "Prediction-informed structural context only. Confidence-qualified and never treated as a grounded project finding.",
+  "protein": {
+    "gene_symbol": "CD74",
+    "is_uniprot_reviewed": true,
+    "organism": "Homo sapiens",
+    "sequence": "MHRRRSRSCREDQKPVMDDQRDLISNNEQLPMLGRRPGAPESKCSRGALYTGFSILVTLLLAGQATTAYFLYQQQGRLDKLTVTSQNLQLENLRMKLPKPPKPVSKMRMATPLLMQALPMGALPQGPMQNATKYGNMTEDHVMHLLQNADPLKVYPPLKGSFPENLRHLKNTMETIDWKVFESWMHHWLLFEMSRHSLEQKPTDAPPKVLTKCQEEVSHIPAVHPGSFRPKCDENGNYLPLQCYGSIGYCWCVFPNGTEVPNTRSRGHHNCSESLELEDPSSGLGVTKQDLGPVPM",
+    "sequence_checksum": "2991837d7224dd528e45e3d8d09b87ab",
+    "sequence_end": 296,
+    "sequence_source": "AlphaFold DB metadata from https://alphafold.ebi.ac.uk/api/prediction/P04233",
+    "sequence_start": 1,
+    "uniprot_id": "P04233",
+    "uniprot_id_full": "HG2A_HUMAN"
+  },
+  "record_id": "V53_ALPHAFOLD_CD74_P04233",
+  "record_type": "structural_prediction",
+  "relationship_note": "This record informs confidence-limited CD74 physical-modelability context but cannot support receptor-specific causality, therapeutic direction, or target promotion.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "AlphaFold Protein Structure Database public prediction entry.",
+    "label": "AlphaFold DB AF-P04233-F1 model v6",
+    "url": "https://alphafold.ebi.ac.uk/api/prediction/P04233"
+  },
+  "structure_files": {
+    "confidence_summary_path": "knowledge_external/structures/alphafold/CD74_P04233/confidence_summary.json",
+    "metadata_path": "knowledge_external/structures/alphafold/CD74_P04233/alphafold_metadata.json",
+    "pdb_path": "knowledge_external/structures/alphafold/CD74_P04233/AF-P04233-F1-model_v6.pdb",
+    "pdb_sha256": "4d53fadba3659bf0d87865f79341e0eb405aa13106786681ab49207a76182d39"
+  },
+  "why_unverifiable": "The structure is a computational AlphaFold DB prediction and has not been experimentally solved or regrounded by this project."
+}

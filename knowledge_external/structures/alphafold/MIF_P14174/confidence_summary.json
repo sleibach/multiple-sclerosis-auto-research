@@ -1,0 +1,37 @@
+{
+  "gene_symbol": "MIF",
+  "model_entity_id": "AF-P14174-F1",
+  "model_version": "6",
+  "pae": {
+    "fraction_le_10": 0.997127,
+    "fraction_le_20": 1.0,
+    "fraction_le_5": 0.990019,
+    "max": 17.0,
+    "max_predicted_aligned_error": 31.75,
+    "mean": 1.8482,
+    "median": 2.0,
+    "min": 0.0,
+    "n_cols": 115,
+    "n_rows": 115,
+    "n_values": 13225
+  },
+  "pae_payload_stored_locally": true,
+  "payload_sha256": {
+    "confidence_json": "0433cab78901478068b3f1fb55e0f0deddcc6ba751b6538ce31507d6d3fcda71",
+    "pae_json": "3bacfa3f365cb4b5504248b7e408d92ae4538ca9fc1fbe88bfb1979ce1aede1a",
+    "pdb": "0e2d1c0803f393d1c550686e7de92a24d9e274a9b0ca61d93c4e1fc902b5675d"
+  },
+  "plddt": {
+    "fraction_confident_ge_70": 1.0,
+    "fraction_low_lt_50": 0.0,
+    "fraction_very_high_ge_90": 1.0,
+    "low_confidence_segments_lt_50": [],
+    "max": 98.94,
+    "mean": 98.5872,
+    "median": 98.69,
+    "min": 95.5,
+    "n_residues": 115
+  },
+  "purpose": "V53 AlphaFold DB confidence summary; predicted structure, not experimental evidence",
+  "uniprot_id": "P14174"
+}
