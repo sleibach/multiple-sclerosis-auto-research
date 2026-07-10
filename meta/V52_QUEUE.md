@@ -125,9 +125,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Received-package intake directory README | done | `analysis/received_package_intake/README.md` now states safe metadata/classifier outputs only, raw or restricted files prohibited, and the required intake flow. |
 | Received-package intake directory smoke audit | done | `scripts/v52_received_intake_safety_audit.py` and `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv` verify current tracked intake files: 3 files, 14 checks, 0 failures. |
 | Package intake operator quickstart card | done | `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` gives the mechanical package-intake sequence from package ID through access terms, manifest, classifier, safety audit, and blocker handling. |
-| Package ID validator regression fixture | todo | Record an explicit command-driven regression note for valid/invalid package IDs so operators can rerun the check after edits. |
+| Package ID validator regression fixture | done | `docs/validation/PACKAGE_ID_VALIDATOR_REGRESSION_FIXTURE_V52.md` records the command-driven five-case regression fixture; rerun produced 0 expectation failures. |
 | Received-package intake README hash coverage | todo | Add the intake-directory README and quickstart card to the V52 operator artifact hash snapshot if they are stable operator controls. |
 | Package-intake handoff bundle refresh | todo | Link the intake README and quickstart card from the handoff bundle if they materially improve operator navigation. |
+| Intake safety audit handoff link | todo | Link the received-package intake safety audit from the handoff bundle and quickstart where it improves operator navigation. |
+| Intake safety audit regression fixture | todo | Add a short regression note for the intake safety audit and its expected 3-file/14-check/0-failure result on the synthetic intake directory. |
+| Package intake artifact cross-reference audit | todo | Check package-intake docs for unresolved references after adding the quickstart, README, and safety audit. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -589,8 +592,12 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`, and recorded
   `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv`. Result:
   current tracked intake files pass 14 commit-safety checks with 0 failures.
-- 2026-07-10T14:25:17Z: Added
+- 2026-07-10T14:20:52Z: Added
   `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md`. Result: package
   intake now has a one-page mechanical sequence from package ID validation
   through access-term review, safe manifest creation, route classification,
   intake safety audit, and blocker handling.
+- 2026-07-10T14:21:12Z: Added
+  `docs/validation/PACKAGE_ID_VALIDATOR_REGRESSION_FIXTURE_V52.md` and reran the
+  five-case package-ID fixture. Result: 2 valid IDs pass, 3 malformed IDs fail,
+  and the recorded TSV has 0 expectation failures.
