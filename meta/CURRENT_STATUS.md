@@ -160,6 +160,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
   - Restored OpenGWAS bounded catch-up:
     `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
+  - OpenGWAS renewal watch:
+    `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
   - ZMIZ1 restored-OpenGWAS direction handoff:
     `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
   - chr1 genotype-linked future data spec:

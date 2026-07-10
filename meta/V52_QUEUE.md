@@ -43,7 +43,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
-| OpenGWAS renewal watch note | todo | Add a V52 operational note that token expires 2026-07-24 and targeted reruns should finish or renew before then. |
+| OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
 
 ## Per-Iteration Notes
 
@@ -115,3 +115,9 @@ and V51 structural context without reopening broad public-data discovery.
   KIF21B, PTGER4, and ZMIZ1 remain no-go for target promotion until
   direction-matched biology and modality evidence arrive; AlphaFold context does
   not override grounded genetics.
+- 2026-07-10T10:20:12Z: Structure-aware no-go table committed and pushed as
+  `fe27f02e`; local and `origin/main` match. Continuing with OpenGWAS renewal
+  watch note.
+- 2026-07-10T10:21:13Z: Wrote `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
+  Result: renewed token expiry and route-around behavior are explicit for
+  targeted genetics reruns.
