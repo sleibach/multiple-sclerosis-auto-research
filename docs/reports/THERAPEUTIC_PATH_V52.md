@@ -51,6 +51,7 @@ data and a direction-matched modality exist.
 | Therapeutic route risk register | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` |
 | Therapeutic route assumption ledger | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md` |
 | Therapeutic route decision-log template | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md` |
+| Post-validation route update playbook | `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md` |
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |

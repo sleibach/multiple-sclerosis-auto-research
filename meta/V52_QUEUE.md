@@ -83,7 +83,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 artifact hash snapshot | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; SHA256 snapshot of key operator artifacts, excluding mutable navigation docs. |
 | Monitoring result-class examples | done | `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`; concrete scenario-to-class examples for future monitoring packages. |
 | chr1 wrong-direction control checklist | done | `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`; labels and interpretation rules for wrong-direction perturbation controls. |
-| Post-validation route update playbook | todo | Create the route-status update playbook for PASS/FAIL/INCONCLUSIVE monitoring and chr1 package outcomes. |
+| Post-validation route update playbook | done | `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`; future route-status transition rules for monitoring and chr1 package outcomes. |
 | Therapeutic no-target public abstract | todo | Draft a concise external abstract that states monitoring-first and no-current-target without weakening the result. |
 | OpenGWAS expiry-day runbook | todo | Write the operational runbook for token expiry, renewal, and no-false-null routing after 2026-07-24. |
 | V52 artifact hash verification command note | todo | Add a compact command note for checking `V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` against current files. |
@@ -353,3 +353,7 @@ and V51 structural context without reopening broad public-data discovery.
   Result: future chr1 perturbation packages now have pre-specified labels and
   interpretation rules so inhibitors, knockdowns, antagonists, and other
   wrong-direction tests remain controls unless genetics proves them protective.
+- 2026-07-10T12:16:32Z: Wrote
+  `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`. Result:
+  future monitoring and chr1 package outcomes now have explicit route-status
+  transition rules and required downstream artifact updates.

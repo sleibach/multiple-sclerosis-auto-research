@@ -37,6 +37,7 @@ resolution.
 | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` | project maintainer / medical team | residual risk, mitigation artifact, and escalation trigger by route |
 | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md` | project maintainer / reviewer | assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions |
 | `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md` | project maintainer / reviewer | required fields for any future route-status change |
+| `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md` | project maintainer / reviewer | future route-status transition rules after monitoring or chr1 package outcomes |
 | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md` | all readers | navigation across V52 artifacts |
 | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv` | tooling / reviewers | full machine-readable manifest of V52 artifact purposes |
 

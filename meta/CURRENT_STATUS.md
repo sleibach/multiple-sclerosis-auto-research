@@ -188,6 +188,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`.
   - Therapeutic route decision-log template:
     `docs/reports/THERAPEUTIC_ROUTE_DECISION_LOG_TEMPLATE_V52.md`.
+  - Post-validation route update playbook:
+    `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`.
   - Prospective monitoring utility study sketch:
     `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
   - Monitoring clinical-utility boundary checklist:
