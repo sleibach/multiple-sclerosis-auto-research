@@ -131,7 +131,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Intake safety audit handoff link | done | Handoff bundle and quickstart now link `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`; safety-audit note added to the stable hash snapshot. |
 | Intake safety audit regression fixture | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`; rerun confirmed 3 tracked intake files, 14 checks, 0 failures. |
 | Package intake artifact cross-reference audit | done | `scripts/v52_package_intake_cross_reference_audit.py`; 9 package-intake documents, 67 path references, 0 missing-reference failures. |
-| Package intake CLI help snapshot | todo | Record the help output shape for package-ID validation, route classification, and intake safety-audit scripts so operator CLI drift is visible. |
+| Package intake CLI help snapshot | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_SNAPSHOT_V52.md`; 3 intake script help commands returned exit code 0 and printed usage blocks. |
 | Package intake combined smoke suite | todo | Add a command note that runs package ID validation, route classification fixture, and intake safety audit in one safe synthetic-only sequence. |
 | Manifest template README consistency recheck | todo | Recheck that the data-owner README, manifest template, quickstart, and handoff bundle describe the same package routes and fields. |
 | Operator hash coverage after regression docs | todo | Add any newly stable regression or combined-smoke artifacts to the operator hash snapshot and update coverage audit. |
@@ -626,3 +626,8 @@ and V51 structural context without reopening broad public-data discovery.
   `analysis/v52_package_intake_cross_reference_audit/package_intake_cross_reference_audit.tsv`.
   Result: 9 package-intake documents, 67 repository-path references, and 0
   missing-reference failures.
+- 2026-07-10T14:34:23Z: Added
+  `docs/validation/PACKAGE_INTAKE_CLI_HELP_SNAPSHOT_V52.md` and recorded
+  `analysis/v52_package_intake_cli_help_snapshot/cli_help_snapshot.tsv`.
+  Result: package-ID validator, route classifier, and intake safety-audit help
+  commands all returned exit code 0 and printed usage blocks.
