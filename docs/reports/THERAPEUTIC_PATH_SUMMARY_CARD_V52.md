@@ -36,6 +36,8 @@ therapeutic target.
   `knowledge/tools/RAG_STATUS.md`.
 - Wrote V52 operator artifact hash snapshot:
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`.
+- Wrote V52 operator artifact hash verification command note:
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`.
 - Wrote the V52 therapeutic route status dashboard:
   `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
 - Wrote the machine-readable target evidence matrix:
@@ -153,6 +155,7 @@ Concrete field specification:
 - `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`
 - `knowledge/tools/RAG_STATUS.md`
 - `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`
+- `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`
 - `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`
 - `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
 - `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`

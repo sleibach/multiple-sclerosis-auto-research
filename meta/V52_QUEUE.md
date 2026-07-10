@@ -86,7 +86,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Post-validation route update playbook | done | `docs/reports/POST_VALIDATION_ROUTE_UPDATE_PLAYBOOK_V52.md`; future route-status transition rules for monitoring and chr1 package outcomes. |
 | Therapeutic no-target public abstract | done | `docs/reports/THERAPEUTIC_NO_TARGET_PUBLIC_ABSTRACT_V52.md`; public abstract states monitoring-ready and no current target without overclaiming. |
 | OpenGWAS expiry-day runbook | done | `meta/OPENGWAS_EXPIRY_DAY_RUNBOOK_V52.md`; expiry-day and renewal routing, with auth failures classified as operational blockers. |
-| V52 artifact hash verification command note | todo | Add a compact command note for checking `V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` against current files. |
+| V52 artifact hash verification command note | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`; compact command note for checking the operator artifact hash snapshot against current files. |
 | Validation package route classifier table | todo | Create a machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -368,3 +368,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T12:23:48Z: Resume checkpoint after context compaction. Continuing
   the same open V52 active interval with the expiry-day runbook guard,
   commit, and push step before starting the hash-verification command note.
+- 2026-07-10T12:29:02Z: Wrote
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`. Result: V52
+  operator handoff artifacts now have an explicit SHA256 drift-check command,
+  mismatch interpretation table, and regeneration rule.
