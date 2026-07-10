@@ -133,7 +133,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package intake artifact cross-reference audit | done | `scripts/v52_package_intake_cross_reference_audit.py`; 9 package-intake documents, 67 path references, 0 missing-reference failures. |
 | Package intake CLI help snapshot | done | `docs/validation/PACKAGE_INTAKE_CLI_HELP_SNAPSHOT_V52.md`; 3 intake script help commands returned exit code 0 and printed usage blocks. |
 | Package intake combined smoke suite | done | `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`; synthetic-only combined suite ran package-ID pass/fail, route classification, and intake safety audit with 4 steps and 0 failures. |
-| Manifest template README consistency recheck | todo | Recheck that the data-owner README, manifest template, quickstart, and handoff bundle describe the same package routes and fields. |
+| Manifest template README consistency recheck | done | `scripts/v52_manifest_readme_consistency_audit.py`; data-owner README, manifest template, quickstart, and handoff bundle passed 23 consistency checks with 0 failures. |
 | Operator hash coverage after regression docs | todo | Add any newly stable regression or combined-smoke artifacts to the operator hash snapshot and update coverage audit. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -637,3 +637,9 @@ and V51 structural context without reopening broad public-data discovery.
   and generated a synthetic route-classifier output for the suite. Result: 4
   synthetic-only intake steps, 0 failures, and the synthetic monitoring manifest
   remains classified as `monitoring_validation` / `matched`.
+- 2026-07-10T14:39:30Z: Added
+  `scripts/v52_manifest_readme_consistency_audit.py`,
+  `docs/validation/MANIFEST_README_CONSISTENCY_RECHECK_V52.md`, and recorded
+  `analysis/v52_manifest_readme_consistency_audit/manifest_readme_consistency_audit.tsv`.
+  Result: manifest headers, data-owner README route phrases, quickstart
+  references, and handoff references passed 23 checks with 0 failures.
