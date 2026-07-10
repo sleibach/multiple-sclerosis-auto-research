@@ -44,6 +44,12 @@ and V51 structural context without reopening broad public-data discovery.
 | PTGER4 signal-specific reopen spec | done | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`; reopen requires one disease-relevant signal, one causal direction, one relevant cell state, and one plausible modality. |
 | GPR25 direction-matched modality spec | done | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`; requires causal-gene resolution, cell-state presence, protective higher/restored direction, functional readout, and agonism/restoration modality. |
 | KIF21B restoration modality spec | done | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`; standard inhibition/degradation/knockdown remain wrong-direction unless future data prove otherwise. |
+| Machine-readable therapeutic target matrix | done | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`; 13 route/lead rows encode impact path, blocker, reopen evidence, next action, and verdict. |
+| Medical-team therapeutic request packet | todo | Convert the monitoring-first and chr1 target-package conclusions into one sendable request checklist. |
+| Structure evidence boundary QA | todo | Audit V52 docs for any wording that accidentally promotes predicted structure beyond context. |
+| Restored-genetics bounded rerun manifest | todo | List every bounded OpenGWAS-dependent rerun now covered by renewed token and every route deliberately excluded as discovery. |
+| Therapeutic contradiction surveillance triggers | todo | Define future contradiction triggers that should be queued if sharper external context conflicts with a grounded V52 verdict. |
+| Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
 
@@ -145,3 +151,10 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`. Result:
   KIF21B requires causal resolution plus restoration/up-function modality and
   protective perturbation evidence before target workup.
+- 2026-07-10T10:33:44Z: KIF21B restoration specification committed and pushed
+  as `30368f2b`; local and `origin/main` match. Refilled the executable backlog
+  and started the machine-readable therapeutic target evidence matrix.
+- 2026-07-10T10:33:44Z: Wrote
+  `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`, a 13-row
+  machine-readable therapeutic route matrix. Shape check passed: every row has
+  10 tab-separated fields.

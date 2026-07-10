@@ -36,6 +36,7 @@ data and a direction-matched modality exist.
 | evidence layer | artifact |
 |---|---|
 | Public-facing V52 handoff | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` |
+| Machine-readable therapeutic evidence matrix | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` |
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |
@@ -235,3 +236,6 @@ caution.
    in the segregated external layer; external context supports cautionary
    interpretations and validation guardrails, but does not validate the scalar
    or create an intervention-grade target.
+
+The same route-level verdicts are encoded for downstream use in
+`docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.

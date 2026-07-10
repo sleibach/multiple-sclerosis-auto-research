@@ -26,6 +26,8 @@ therapeutic target.
   expiry decoded as `2026-07-24 08:00 UTC`.
 - Wrote the full therapeutic-path report:
   `docs/reports/THERAPEUTIC_PATH_V52.md`.
+- Wrote the machine-readable target evidence matrix:
+  `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
 - Added KIF21B and PTGER4 AlphaFold DB structural records under the segregated
   external structural layer.
 - Wrote validation handoff:
@@ -86,6 +88,7 @@ Concrete field specification:
 ## Source Artifacts
 
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
+- `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
