@@ -13,6 +13,15 @@ steps read mechanically. This audit checks every committed route-classifier
 output discovered by the `assigned_route` column marker and requires the exact
 9-column output schema.
 
+Default production scans exclude the named synthetic expected-fail fixture
+directories:
+
+- `analysis/v52_route_output_schema_negative_fixture/`
+- `analysis/v52_route_output_schema_no_output_fixture/`
+
+Those fixtures are included only when explicitly passed with `--scan-root` and
+`--all-files`.
+
 ## Expected Output Schema
 
 ```text

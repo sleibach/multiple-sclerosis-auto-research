@@ -12,7 +12,8 @@ The route-output schema audit must reject route-classifier outputs with extra or
 missing columns. The production audit scans committed `analysis/` TSVs by
 default. For regression testing, `scripts/v52_route_output_schema_audit.py`
 supports `--scan-root` and `--all-files`, which lets a synthetic malformed
-fixture be scanned without treating it as a production route output.
+fixture be scanned without treating it as a production route output. Default
+production scans exclude the named synthetic negative fixture directories.
 
 ## Fixture
 

@@ -27,6 +27,10 @@ EXPECTED_COLUMNS = [
     "candidate_full_routes",
     "expected_matches_assigned",
 ]
+SYNTHETIC_NEGATIVE_FIXTURE_DIRS = {
+    "v52_route_output_schema_negative_fixture",
+    "v52_route_output_schema_no_output_fixture",
+}
 
 
 def scan_tsvs(scan_root: Path, all_files: bool) -> list[Path]:
@@ -50,9 +54,15 @@ def count_data_rows(path: Path) -> int:
         return sum(1 for _ in reader)
 
 
-def audit_outputs(scan_root: Path, all_files: bool) -> list[dict[str, str]]:
+def is_synthetic_negative_fixture(path: Path) -> bool:
+    return bool(set(path.relative_to(ROOT).parts) & SYNTHETIC_NEGATIVE_FIXTURE_DIRS)
+
+
+def audit_outputs(scan_root: Path, all_files: bool, exclude_synthetic_negative_fixtures: bool) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for path in scan_tsvs(scan_root, all_files):
+        if exclude_synthetic_negative_fixtures and is_synthetic_negative_fixture(path):
+            continue
         header = read_header(path)
         if "assigned_route" not in header:
             continue
@@ -98,7 +108,9 @@ def main() -> None:
 
     scan_root = args.scan_root if args.scan_root.is_absolute() else ROOT / args.scan_root
     out = args.out if args.out.is_absolute() else ROOT / args.out
-    rows = audit_outputs(scan_root.resolve(), args.all_files)
+    scan_root = scan_root.resolve()
+    exclude_synthetic_negative_fixtures = scan_root == DEFAULT_SCAN_ROOT.resolve() and not args.all_files
+    rows = audit_outputs(scan_root, args.all_files, exclude_synthetic_negative_fixtures)
     write_rows(rows, out)
     failures = [row for row in rows if row["status"] != "PASS"]
     print({"outputs": len(rows), "failures": len(failures), "out": str(out)})

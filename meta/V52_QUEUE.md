@@ -147,7 +147,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package-intake route-output schema audit | done | `scripts/v52_route_output_schema_audit.py` found 7 committed route-classifier outputs, all with the exact 9-column schema and no extra columns. |
 | Post-intake-hardening RAG refresh | done | Rebuilt sparse RAG index over 826 documents; smoke queries returned route-output schema audit and negative-email fixture as top hits. |
 | Route-output schema malformed-output negative fixture | done | Synthetic output with an extra column fails the route-output schema audit as expected; production scan still finds 7 outputs and 0 failures. |
-| Route-output schema no-output negative fixture | todo | Synthetic expected-fail check that route-output schema audit rejects a scan with zero route outputs. |
+| Route-output schema no-output negative fixture | done | Synthetic manifest-only scan finds zero route outputs and fails under `--fail-on-error`; production scan excludes synthetic negative fixture dirs and still passes. |
 | Package-intake generated-output inventory refresh | todo | Add route-output schema audit output and negative fixtures to the generated-output inventory if they are not already represented. |
 | Package-intake script help snapshot generator note | todo | Document the mechanical command used to regenerate the package-intake CLI help snapshot after adding a script. |
 | Package-intake audit script surface cross-check | todo | Verify package-intake scripts mentioned in docs have matching help snapshot coverage or an explicit exclusion. |
@@ -724,3 +724,7 @@ and V51 structural context without reopening broad public-data discovery.
 - 2026-07-10T15:32:52Z: Added malformed route-output schema negative fixture.
   The synthetic output with an extra column fails the route-output schema audit
   as expected; the normal production scan still finds 7 outputs and 0 failures.
+- 2026-07-10T15:36:37Z: Added no-output route schema negative fixture. The
+  synthetic manifest-only scan finds zero route outputs and fails under
+  `--fail-on-error`; the production scan excludes named synthetic negative
+  fixture directories and still finds 7 valid route outputs with 0 failures.
