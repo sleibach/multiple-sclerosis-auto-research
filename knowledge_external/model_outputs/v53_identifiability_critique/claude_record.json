@@ -1,0 +1,69 @@
+{
+  "claim": "Anthropic Claude generated adversarial objections to the V53 causal-identifiability bound; every objection remains proposal-only until checked against committed artifacts.",
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "lineage": "Anthropic Claude",
+  "model": "anthropic--claude-4.7-opus",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "objections": [
+    {
+      "check_against_committed_artifacts": "Inspect the V26 methods text for any statement that observational Markov equivalence is the only identifiability route; check whether LiNGAM/ANM/ICP-style assumptions were pre-registered as excluded.",
+      "minimum_fix": "Add a clause: 'under standard observational faithfulness with no parametric or invariance assumptions.'",
+      "objection": "The claim states all six acyclic orientations of K3 are 'observationally Markov equivalent,' but Markov equivalence is defined over DAGs with the same skeleton AND same v-structures; while the conclusion holds here (no unshielded colliders in a complete triangle means all six share the empty v-structure set), the wording should explicitly note that equivalence is under the faithfulness/observational-only assumption and does not preclude orientation under additional assumptions (e.g., non-Gaussianity, additive noise, invariance across environments).",
+      "objection_id": "mec_scope_language",
+      "type": "overclaim",
+      "would_change_bounded_verdict_if_valid": false
+    },
+    {
+      "check_against_committed_artifacts": "Check whether the committed artifact enumerates which perturbed genes map to which of the three modules and whether a pre-specified rule ('gene-in-module perturbation orients outgoing edges from that module') was declared and then declined.",
+      "minimum_fix": "State explicitly that gene-to-module membership mappings are not used for orientation and justify (e.g., ambiguous membership, no committed mapping table), or add the mapping-based orientation as a separate sensitivity.",
+      "objection": "The enumeration treats the 24-row perturbation matrix as providing zero orientation information, but the input semantics say it 'establishes gene-to-module effects.' If any perturbed gene is a known member of exactly one of the three aggregate modules, that gene-level intervention induces a partial ordering constraint on the module-level DAG under a stated membership assumption. The claim of 'zero orientations shared by all six' is only valid if such membership-based orientation is explicitly declared out of scope.",
+      "objection_id": "perturbation_matrix_use",
+      "type": "data_semantic_error",
+      "would_change_bounded_verdict_if_valid": true
+    },
+    {
+      "check_against_committed_artifacts": "Check whether the V26 artifact pre-specifies DAG (acyclic) semantics versus allowing directed cyclic graphs, and whether a cyclic-model sensitivity was enumerated.",
+      "minimum_fix": "Add one sentence declaring acyclicity as an assumption and noting cyclic models were not enumerated.",
+      "objection": "The enumeration excludes 'two cyclic orientations' and reports six acyclic DAGs out of 2^3=8. This is arithmetically correct, but the acyclicity restriction is a modeling choice; if the biology permits feedback (which module-level signaling frequently does), then SCC-level rather than DAG-level identifiability should be reported. The current wording does not disclose that acyclicity was assumed.",
+      "objection_id": "cycle_exclusion_justification",
+      "type": "missing_sensitivity",
+      "would_change_bounded_verdict_if_valid": false
+    },
+    {
+      "check_against_committed_artifacts": "Check whether the sensitivity list includes an FCI-style enumeration over MAGs on the K3 skeleton, or explicitly declares causal sufficiency as an assumption.",
+      "minimum_fix": "State causal sufficiency as an assumption, or add a MAG/PAG enumeration variant.",
+      "objection": "The enumeration considers only DAGs over the three observed modules and does not enumerate MAGs/PAGs that admit latent common causes. Under latent confounding, the equivalence class is different (bidirected edges possible), and the count '6 acyclic DAGs' is not the correct object for the identifiability bound. The bounded conclusion 'zero orientations shared' may still hold, but the enumerated space is under-specified.",
+      "objection_id": "latent_confounder_omission",
+      "type": "missing_sensitivity",
+      "would_change_bounded_verdict_if_valid": false
+    },
+    {
+      "check_against_committed_artifacts": "Inspect the committed variant table for the ten thresholds/rules and confirm none produced a skeleton with at least one unshielded collider; if any did, report shared oriented edges from that variant.",
+      "minimum_fix": "Publish the ten variant definitions and their resulting skeletons; if any admits v-structures, report the induced oriented edges.",
+      "objection": "The sensitivity paragraph claims 'ten pre-specified edge-selection variants' spanning 3-6 edges and states all reduced to K3+isolate or K4, but does not enumerate the variants' selection thresholds or show that intermediate skeletons (e.g., a path, a v-structure with an unshielded collider on the fourth module) were reachable. If v-structure-containing skeletons were possible under some threshold but not surfaced, the 'zero shared orientations' summary understates achievable orientation.",
+      "objection_id": "sensitivity_variant_specification",
+      "type": "missing_sensitivity",
+      "would_change_bounded_verdict_if_valid": true
+    },
+    {
+      "check_against_committed_artifacts": "Check whether V26 pre-registered exclusion of parametric identifiability methods; if so, the wording is defensible.",
+      "minimum_fix": "Replace 'is required' with 'is required under the pre-specified nonparametric observational assumptions used here.'",
+      "objection": "The current wording is consistent with the enumeration and bounded appropriately, but 'A true module-level intervention or sufficiently sampled temporal design ... is required' is slightly stronger than necessary: parametric identifiability (e.g., non-Gaussian noise, heteroscedastic invariance) can orient edges without interventions or time. This is a wording overclaim rather than a mathematical error.",
+      "objection_id": "wording_tightening",
+      "type": "overclaim",
+      "would_change_bounded_verdict_if_valid": false
+    }
+  ],
+  "record_id": "V53_IDENTIFIABILITY_CRITIQUE_CLAUDE",
+  "record_type": "model_generated_method_critique",
+  "relationship_note": "The critiques can tighten wording or trigger checks but cannot alter the grounded result by assertion.",
+  "relationship_to_project_findings": "untested",
+  "service": "SAP AI Core",
+  "source": {
+    "citation": "SAP AI Core model inference invoked through scripts/sap_ai_core_client.py.",
+    "label": "anthropic--claude-4.7-opus via SAP AI Core",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "Model-generated critique is not empirical or mathematical evidence until independently checked against the committed code and data."
+}

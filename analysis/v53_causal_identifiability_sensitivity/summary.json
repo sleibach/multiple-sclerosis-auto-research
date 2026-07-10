@@ -4,7 +4,7 @@
     6
   ],
   "input": "analysis/v26_deep_structure/workstream_b_module_dependencies.tsv",
-  "interpretation": "The result is structural, not biological: undirected summary dependencies provide no intervention target direction. Signed correlation is not an arrow.",
+  "interpretation": "The result is structural, not biological: under a DAG representation with no direction-enabling functional-form, invariance, or background assumptions, the undirected summary dependencies provide no intervention target direction. Signed correlation is not an arrow. Allowing cycles or latent common causes broadens rather than resolves the current ambiguity.",
   "modules": [
     "gilt_lysosomal_apc",
     "hla_ii_apc",
@@ -13,7 +13,7 @@
   ],
   "n_skeleton_variants": 10,
   "n_variants_with_any_consensus_orientation": 0,
-  "next_data": "A true module-level intervention or sufficiently sampled temporal design with pre-specified causal assumptions is required to orient the APC network.",
+  "next_data": "Direction requires additional direction-informative data or justified assumptions. Examples include a true module-level intervention, sufficiently sampled temporal data, or sample-level data supporting a pre-specified identifiable functional or cross-environment invariance model.",
   "purpose": "V53 causal-identifiability sensitivity across edge-selection rules",
-  "verdict": "ZERO_EDGE_DIRECTION_SURVIVES_ALL_REASONABLE_SKELETON_DEFINITIONS"
+  "verdict": "ZERO_EDGE_DIRECTION_SURVIVES_TEN_PRE_SPECIFIED_SKELETON_RULES"
 }

@@ -192,10 +192,32 @@ Markov-equivalence class, with zero consensus-oriented edges. This establishes
 that current summary dependencies cannot identify causal direction; it does not
 claim that biological direction is absent.
 
-Sensitivity analysis tested 10 strict, permissive, perturbation-only,
-replicated, and leave-one-modality-out skeletons spanning three to six edges.
-Every variant retained zero consensus-oriented edges. The methodological
-negative is therefore not an edge-threshold artifact.
+Sensitivity analysis tested 10 pre-specified strict, permissive,
+perturbation-only, replicated, and leave-one-modality-out skeleton rules
+spanning three to six edges. Every resulting K3 or K4 variant retained zero
+consensus-oriented edges. The methodological negative is therefore not an
+edge-threshold artifact within those rules. It is explicitly conditional on a
+DAG representation without extra functional-form, invariance, or background
+assumptions; cycles and latent common causes were not enumerated and would
+broaden current ambiguity.
+
+Claude and Gemini then adversarially reviewed the exact bound. Their seven
+objections were proposal-only and were adjudicated in
+`analysis/v53_identifiability_critique/REPORT.md`. Six valid wording or
+assumption disclosures were incorporated, but zero objections changed a
+module-edge verdict. The only new data challenge asked whether perturbing an
+exclusive module-member gene could orient the module graph. A committed
+membership sensitivity tested all 12 ordered module pairs: zero passed strict
+coverage, sign-consistency, magnitude, and readout-nonoverlap requirements.
+Gene intervention is not `do(module)`, and the HLA-II/receptor-state modules
+share five genes. Current aggregate gene-perturbation signatures therefore do
+not repair module-level non-identifiability.
+
+The corrected acquisition boundary is broader and more precise: direction
+requires additional direction-informative data or justified identifying
+assumptions. True module-level intervention and temporal data are examples;
+sample-level identifiable functional-form or cross-environment invariance
+models are other possible routes.
 
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation

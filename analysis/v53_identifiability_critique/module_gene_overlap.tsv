@@ -1,0 +1,7 @@
+module_a	module_b	n_genes_a	n_genes_b	n_shared_genes	shared_genes	jaccard_overlap	zero_overlap_required_for_strict_membership_orientation
+gilt_lysosomal_apc	hla_ii_apc	8	8	0	none	0.0	True
+gilt_lysosomal_apc	ifn_apc	8	12	1	IFI30	0.05263157894736842	False
+gilt_lysosomal_apc	mif_cd74_receptor_state	8	7	0	none	0.0	True
+hla_ii_apc	ifn_apc	8	12	2	CD74;CIITA	0.1111111111111111	False
+hla_ii_apc	mif_cd74_receptor_state	8	7	5	CD74;HLA-DPA1;HLA-DPB1;HLA-DRA;HLA-DRB1	0.5	False
+ifn_apc	mif_cd74_receptor_state	12	7	1	CD74	0.05555555555555555	False

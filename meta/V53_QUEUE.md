@@ -34,9 +34,11 @@ exhausted public-data discovery search as a source of findings.
 | Causal-identifiability threshold sensitivity | done | 10 skeleton variants, 3-6 edges, all with 0 consensus-oriented edges. |
 | V26 matrix semantic contract | done | Six frozen matrix contracts; 72/72 real checks pass, synthetic valid/invalid requests behave correctly, and 12/16 model capability requests are blocked as semantically unsupported. |
 | RFX5 single-context boundary packet | done | One descriptive IFNG row fails corrected network gates (q=0.678/0.903); exact two-primary-context replication spec plus 450,000-cohort three-seed synthetic design map committed; no promotion. |
-| Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
+| Multi-lineage identifiability critique | done | Seven objections adjudicated; six wording/assumption tightenings, 0 verdict changes. Exclusive-member perturbation sensitivity tested 12 ordered pairs and oriented 0 module edges. |
 | Causal-orientation acquisition design | todo | Pre-specify the smallest factorial/temporal intervention dataset that can orient the APC skeleton; include a simulation-based precision check. |
 | Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
+| Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
+| De-overlapped APC module sensitivity | todo | Quantify how much perturbation-axis coupling remains after removing shared HLA/CD74 readout genes; sensitivity only, not a rule change. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -131,3 +133,11 @@ exhausted public-data discovery search as a source of findings.
   output as biology. RFX5 remains a mechanism comparator, not a control node or
   target. Cumulative active time accrued through this checkpoint is 2h22m42s;
   the resumed session interval remains open.
+- 2026-07-10T23:25:55Z: Completed two-lineage adversarial review of the causal
+  identifiability bound. Seven objections produced six grounded wording or
+  assumption tightenings and zero verdict changes. The concrete gene-membership
+  challenge was tested across all 12 ordered module pairs; zero satisfied the
+  strict proxy-orientation gate, and overlapping readouts prevent treating a
+  member-gene perturbation as `do(module)`. Cumulative active time accrued
+  through this checkpoint is 2h30m38s; the resumed session interval remains
+  open.

@@ -184,14 +184,19 @@ def main() -> int:
             bool(row["direction_identified"]) for row in rows
         ),
         "edge_count_range": [min(row["n_edges"] for row in rows), max(row["n_edges"] for row in rows)],
-        "verdict": "ZERO_EDGE_DIRECTION_SURVIVES_ALL_REASONABLE_SKELETON_DEFINITIONS",
+        "verdict": "ZERO_EDGE_DIRECTION_SURVIVES_TEN_PRE_SPECIFIED_SKELETON_RULES",
         "interpretation": (
-            "The result is structural, not biological: undirected summary dependencies provide "
-            "no intervention target direction. Signed correlation is not an arrow."
+            "The result is structural, not biological: under a DAG representation with no "
+            "direction-enabling functional-form, invariance, or background assumptions, the "
+            "undirected summary dependencies provide no intervention target direction. Signed "
+            "correlation is not an arrow. Allowing cycles or latent common causes broadens rather "
+            "than resolves the current ambiguity."
         ),
         "next_data": (
-            "A true module-level intervention or sufficiently sampled temporal design with "
-            "pre-specified causal assumptions is required to orient the APC network."
+            "Direction requires additional direction-informative data or justified assumptions. "
+            "Examples include a true module-level intervention, sufficiently sampled temporal "
+            "data, or sample-level data supporting a pre-specified identifiable functional or "
+            "cross-environment invariance model."
         ),
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
@@ -204,8 +209,11 @@ def main() -> int:
         "",
         f"Verdict: **{summary['verdict']}**.",
         "",
-        "This is a methodological boundary. It does not show that the biological network lacks",
-        "direction; it shows that the current undirected summary evidence cannot identify it.",
+        "This is a methodological boundary under a DAG representation without additional",
+        "functional-form, invariance, or background-knowledge assumptions. It does not show that",
+        "the biological network lacks direction; it shows that the current undirected summary",
+        "evidence cannot identify it. Cycles and latent common causes were not enumerated and",
+        "would broaden, not resolve, the current summary-level ambiguity.",
     ]
     (OUT / "REPORT.md").write_text("\n".join(report) + "\n")
     print(json.dumps(summary, indent=2, sort_keys=True))
