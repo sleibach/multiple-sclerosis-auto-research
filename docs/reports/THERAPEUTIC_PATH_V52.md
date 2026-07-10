@@ -126,12 +126,12 @@ Structural context:
 - V19 domain summary: all seven transmembrane helices have mean pLDDT
   `>= 90.899`.
 
-Verdict: structure confirms the original first-principles point that GPR25 has
-a plausible GPCR fold and tractable receptor-like core. It does **not** solve
-the reasons the lead was demoted: causal-gene uncertainty, weak cell-state
-support, minimal chemical matter, and a required direction of higher signaling
-or restoration. GPR25 moves **nowhere closer to intervention-grade** in V52; it
-remains a conditional causal-biology candidate.
+Verdict: structural prediction context supports the original first-principles
+point that GPR25 has a plausible GPCR fold and tractable receptor-like core. It
+does **not** solve the reasons the lead was demoted: causal-gene uncertainty,
+weak cell-state support, minimal chemical matter, and a required direction of
+higher signaling or restoration. GPR25 moves **nowhere closer to
+intervention-grade** in V52; it remains a conditional causal-biology candidate.
 
 Evidence that would reopen GPR25:
 
@@ -187,7 +187,7 @@ Evidence that would reopen KIF21B:
 
 | lead | current status | why closed or parked | what would reopen |
 |---|---|---|---|
-| PTGER4 | closed naive transfer target | multi-signal locus with direction conflict; AlphaFold confirms receptor-core structural context but druggability does not rescue mixed causal interpretation | signal-specific cell-type QTL resolving a protective MS direction plus MS-safe modality |
+| PTGER4 | closed naive transfer target | multi-signal locus with direction conflict; AlphaFold supports receptor-core structural context but druggability does not rescue mixed causal interpretation | signal-specific cell-type QTL resolving a protective MS direction plus MS-safe modality |
 | ZMIZ1 | transfer-validity warning | same locus has opposite MS/Crohn direction; restored OpenGWAS can polish the direction manifest but not create a target | direct MS eQTL/protein direction and perturbation showing MS-protective modulation |
 | NAMPT/eNAMPT | marker/covariate only | metabolic/inflammatory context and confounding, not target-grade evidence | causal perturbation and direction-matched MS benefit, not broad stress correlation |
 | EBV/IFN APC imprint | downgraded | specificity controls failed; context too broad | EBV-stratified B-cell/APC data showing MS-specific, module-specific imprint |
@@ -240,3 +240,7 @@ caution.
 
 The same route-level verdicts are encoded for downstream use in
 `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
+
+Structural wording was audited in
+`docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`; the V52 verdicts are
+unchanged.

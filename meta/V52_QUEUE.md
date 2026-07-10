@@ -46,7 +46,7 @@ and V51 structural context without reopening broad public-data discovery.
 | KIF21B restoration modality spec | done | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`; standard inhibition/degradation/knockdown remain wrong-direction unless future data prove otherwise. |
 | Machine-readable therapeutic target matrix | done | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`; 13 route/lead rows encode impact path, blocker, reopen evidence, next action, and verdict. |
 | Medical-team therapeutic request packet | done | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`; separates monitoring validation, chr1 target-development, postpartum, and T/B data asks. |
-| Structure evidence boundary QA | todo | Audit V52 docs for any wording that accidentally promotes predicted structure beyond context. |
+| Structure evidence boundary QA | done | `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`; tightened over-strong "confirms" wording and kept AlphaFold as context only. |
 | Restored-genetics bounded rerun manifest | todo | List every bounded OpenGWAS-dependent rerun now covered by renewed token and every route deliberately excluded as discovery. |
 | Therapeutic contradiction surveillance triggers | todo | Define future contradiction triggers that should be queued if sharper external context conflicts with a grounded V52 verdict. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -163,3 +163,6 @@ and V51 structural context without reopening broad public-data discovery.
   the medical-team request now separates the primary treatment-response
   validation package from the separate chr1 target-development package and
   secondary postpartum/T-B packages.
+- 2026-07-10T10:39:33Z: Ran structural wording QA across V52 therapeutic docs
+  and wrote `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`. Tightened
+  over-strong "confirms" wording; no target verdict changed.

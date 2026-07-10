@@ -15,6 +15,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
 - Machine-readable therapeutic target evidence matrix:
   `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`.
+- Structural evidence-boundary QA:
+  `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Restored OpenGWAS bounded catch-up:
   `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
 - OpenGWAS renewal watch:
