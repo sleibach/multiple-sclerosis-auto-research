@@ -123,6 +123,8 @@ V52 update:
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`.
 - Therapeutic package handoff link audit:
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`.
+- Data-owner package README:
+  `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`.
 - Monitoring validation decision tree:
   `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
 - Monitoring validation command manifest:

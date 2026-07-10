@@ -88,6 +88,8 @@ therapeutic target.
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`.
 - Wrote therapeutic package handoff link audit:
   `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`.
+- Wrote data-owner package README:
+  `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`.
 - Wrote bounded genetics handoff:
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Wrote bounded OpenGWAS pre-expiry command list:
@@ -199,6 +201,7 @@ Concrete field specification:
 - `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`
 - `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`
 - `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`
+- `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
 - `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`

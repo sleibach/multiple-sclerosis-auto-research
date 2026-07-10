@@ -97,7 +97,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Refresh operator artifact hash snapshot for new package artifacts | done | Added route classifier, examples, schema check, preflight, monitoring checklist, chr1 compact, handoff index, and hash-verify note to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. |
 | Package handoff link smoke audit | done | `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_LINK_AUDIT_V52.md`; checked 26 handoff bundle links and found 0 missing paths. |
 | Route classifier JSON export for tooling | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json`; generated JSON mirror of the 9-row route classifier TSV for downstream package intake scripts. |
-| Data-owner package README | todo | Write a concise README that tells a data owner which package bundle to send without exposing internal queue detail. |
+| Data-owner package README | done | `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`; external-facing package guide for data owners without queue detail. |
 | Monitoring and chr1 handoff bundle hash refresh command | todo | Add the exact command sequence to refresh hashes after intentional operator artifact changes. |
 | V52 post-package-doc RAG refresh | todo | Rebuild sparse RAG index after the V52 package-handling artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -426,3 +426,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.json` from the TSV
   classifier. Result: downstream tooling now has a JSON mirror of all 9 route
   rows without changing package interpretation.
+- 2026-07-10T13:28:30Z: Wrote
+  `docs/validation/DATA_OWNER_PACKAGE_README_V52.md`. Result: data owners now
+  have a concise guide for what manifest and package types to send before any
+  analysis or raw-data transfer.
