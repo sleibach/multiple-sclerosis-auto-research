@@ -18,7 +18,7 @@ Recorded output:
 
 `analysis/v52_package_intake_generated_output_inventory/generated_output_inventory.tsv`
 
-Current result: 16 generated package-intake outputs inventoried, 0 missing.
+Current result: 34 generated package-intake outputs inventoried, 0 missing.
 
 ## Policy
 

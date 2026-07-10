@@ -148,7 +148,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Post-intake-hardening RAG refresh | done | Rebuilt sparse RAG index over 826 documents; smoke queries returned route-output schema audit and negative-email fixture as top hits. |
 | Route-output schema malformed-output negative fixture | done | Synthetic output with an extra column fails the route-output schema audit as expected; production scan still finds 7 outputs and 0 failures. |
 | Route-output schema no-output negative fixture | done | Synthetic manifest-only scan finds zero route outputs and fails under `--fail-on-error`; production scan excludes synthetic negative fixture dirs and still passes. |
-| Package-intake generated-output inventory refresh | todo | Add route-output schema audit output and negative fixtures to the generated-output inventory if they are not already represented. |
+| Package-intake generated-output inventory refresh | done | Refreshed generated-output inventory to 34 package-intake artifacts, covering route-classifier fixtures, intake negative email, and route-output schema audit fixtures. |
 | Package-intake script help snapshot generator note | todo | Document the mechanical command used to regenerate the package-intake CLI help snapshot after adding a script. |
 | Package-intake audit script surface cross-check | todo | Verify package-intake scripts mentioned in docs have matching help snapshot coverage or an explicit exclusion. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -728,3 +728,6 @@ and V51 structural context without reopening broad public-data discovery.
   synthetic manifest-only scan finds zero route outputs and fails under
   `--fail-on-error`; the production scan excludes named synthetic negative
   fixture directories and still finds 7 valid route outputs with 0 failures.
+- 2026-07-10T15:39:11Z: Refreshed package-intake generated-output inventory to
+  34 artifacts with 0 missing paths, covering route-classifier fixtures, intake
+  negative-email output, and route-output schema audit fixtures.
