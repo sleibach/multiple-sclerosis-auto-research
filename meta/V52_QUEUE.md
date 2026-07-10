@@ -79,7 +79,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Validation package field dictionary | done | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`; machine-readable required and optional fields by package type. |
 | Therapeutic path reviewer quickstart | done | `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`; reader roles, challenge map, and claim-boundary reminders. |
 | Monitoring pass/fail public wording table | done | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`; safe public wording, caveat, forbidden wording, and next action by monitoring result class. |
-| chr1 no-go communication appendix | todo | Create collaborator-safe wording for why chr1 is real biology but not target-ready without genotype-linked direction evidence. |
+| chr1 no-go communication appendix | done | `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`; collaborator-safe wording for real chr1 biology without target promotion. |
 | V52 artifact hash snapshot | todo | Record hashes for key V52 operator artifacts for package-handoff integrity. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -328,3 +328,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`. Result: each
   future monitoring result class now has pre-specified public wording, internal
   wording, required caveat, forbidden wording, and next action.
+- 2026-07-10T12:04:38Z: Wrote
+  `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`. Result:
+  chr1 now has collaborator-safe language that preserves the real-biology
+  handoff while explicitly blocking GPR25/KIF21B target promotion without
+  genotype-linked cell-state, direction, perturbation, and modality evidence.

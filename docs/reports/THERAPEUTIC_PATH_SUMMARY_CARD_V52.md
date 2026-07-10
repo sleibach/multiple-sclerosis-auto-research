@@ -70,6 +70,8 @@ therapeutic target.
   `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
 - Wrote chr1 collaborator assay request appendix:
   `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
+- Wrote chr1 no-go communication appendix:
+  `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`.
 - Wrote chr1 package result-report template:
   `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`.
 - Wrote chr1 operator one-page card:
@@ -169,6 +171,7 @@ Concrete field specification:
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`
 - `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`
+- `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`
 - `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`
 - `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`
 - `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`
