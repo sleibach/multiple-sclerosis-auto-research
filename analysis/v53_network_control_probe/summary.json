@@ -1,0 +1,31 @@
+{
+  "goal": {
+    "gilt_lysosomal_apc": 0.0,
+    "hla_ii_apc": -1.0,
+    "ifn_apc": 0.0,
+    "mif_cd74_receptor_state": -1.0
+  },
+  "horizon": 5,
+  "inputs": [
+    "analysis/v26_deep_structure/workstream_b_module_dependencies.tsv",
+    "analysis/v26_deep_structure/perturbation_module_matrix.tsv"
+  ],
+  "interpretation": "Association-network propagation did not nominate a causal target. A node must also pass held-data direction, modality, and perturbation-specificity gates.",
+  "modules": [
+    "gilt_lysosomal_apc",
+    "hla_ii_apc",
+    "ifn_apc",
+    "mif_cd74_receptor_state"
+  ],
+  "n_permutations": 20000,
+  "n_perturbation_signatures": 24,
+  "n_preliminary_context_passes": 0,
+  "network_edge_rule": "median Spearman across V26 claim_grade=supported modality rows",
+  "network_is_causal": false,
+  "preliminary_context_pass_labels": [],
+  "purpose": "V53 bounded association-network control probe",
+  "replicated_control_candidates": [],
+  "seed": 53003,
+  "spectral_radius": 0.8,
+  "verdict": "NO_REPLICATED_SELECTIVE_CONTROL_NODE_UNDER_NULL_GATE"
+}

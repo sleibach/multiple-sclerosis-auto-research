@@ -26,8 +26,8 @@ exhausted public-data discovery search as a source of findings.
 | APC/HLA-II structure-first target map | done | Target-gated map covers 13 proteins; structural availability changed 0 causal/directional/selectivity/modality gates. |
 | MIF/CD74 direction-matched therapeutic verdict | done | Structure changes physical-tractability context, not absent causal/directional support; target remains not promoted. |
 | Coupled-axis combinatorial intervention probe | done | 24 signatures, 12 tests, 20,000 permutations; 0 pair-prioritization passes after BH plus max-T FWER. |
-| Coupled-axis network controllability probe | in-progress | Apply a cross-domain control-point analysis and ground any node ranking against held perturbation/data structure. |
-| Multi-lineage unconventional generation | todo | Claude and Gemini propose divergent concrete hypotheses; model output remains proposal-only. |
+| Coupled-axis network controllability probe | done | 24 signatures and 20,000 label permutations; RFX5 ranked first but no corrected or cross-stimulus control candidate. |
+| Multi-lineage unconventional generation | in-progress | Claude and Gemini propose divergent concrete hypotheses; model output remains proposal-only. |
 | RPT structured-axis generation | todo | Feed structured axis tables to RPT and ground any surfaced relationship. |
 | External convergence/contradiction check for MIF/CD74 | todo | Classed external context only; no external claim as evidence. |
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
@@ -86,3 +86,8 @@ exhausted public-data discovery search as a source of findings.
   passed BH plus max-T control. The current data do not justify a combination
   experiment or multi-target upgrade. Cumulative active time accrued through
   this checkpoint is 1h45m47s; the resumed session interval remains open.
+- 2026-07-10T22:45:52Z: Completed the bounded association-network control
+  probe. RFX5 ranked first but no signature survived correction and replicated
+  across stimuli; broad IFNGR/JAK control remained collateral-heavy. Cumulative
+  active time accrued through this checkpoint is 1h50m35s; the resumed session
+  interval remains open.

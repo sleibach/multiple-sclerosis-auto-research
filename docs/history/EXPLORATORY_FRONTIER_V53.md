@@ -114,7 +114,30 @@ combination experiment or a multi-target therapeutic upgrade.
 
 ## Workstream D: Cross-Domain Methods
 
-Status: queued.
+Status: **not-supported for control-node nomination**.
+
+Executable audit:
+
+- `scripts/v53_network_control_probe.py`
+- `analysis/v53_network_control_probe/REPORT.md`
+- `analysis/v53_network_control_probe/network_edges.tsv`
+- `analysis/v53_network_control_probe/stable_adjacency_matrix.tsv`
+- `analysis/v53_network_control_probe/control_signature_tests.tsv`
+- `analysis/v53_network_control_probe/summary.json`
+
+The bounded control-systems import used the replicated V26 module-dependency
+network and 24 held perturbation signatures. The network is explicitly a
+symmetric association network, not a causal graph. A control candidate had to
+align with selective HLA-II plus receptor-state suppression, spare IFN/APC and
+lysosomal collateral, survive 20,000 module-label permutations with BH
+correction, and replicate across stimuli.
+
+No perturbation passed the preliminary corrected gate and no node replicated.
+`RFX5` was the best fixed-direction signature (goal cosine `0.905`, selective
+score `0.588`) but was single-context and non-significant after correction
+(`q=0.678`). IFNGR/JAK signatures achieved large target movement only with
+larger collateral IFN suppression. The method therefore recovers the existing
+selectivity boundary rather than nominating a new control point.
 
 ## Workstream E: Multi-Lineage And RPT Proposals
 
@@ -138,3 +161,5 @@ value is state-readout context.
    project data.
 2. Additive two-node APC-axis combinations as superior to the best single-node
    signature under the current held perturbation matrix.
+3. A replicated selective APC-axis network-control node under the current held
+   perturbation and dependency matrices.
