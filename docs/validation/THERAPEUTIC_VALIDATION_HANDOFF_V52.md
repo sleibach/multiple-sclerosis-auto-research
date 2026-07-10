@@ -78,3 +78,6 @@ ask for:
 If the available cohort is below the V43 powered-design target, treat it as an
 effect-size estimation cohort and pre-plan a larger follow-up rather than
 forcing a pass/fail interpretation.
+
+The consolidated sendable request packet is
+`docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.

@@ -32,6 +32,8 @@ therapeutic target.
   external structural layer.
 - Wrote validation handoff:
   `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
+- Wrote a sendable medical-team request packet:
+  `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Wrote bounded genetics handoff:
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Rechecked therapeutic external-context convergence:
@@ -90,6 +92,7 @@ Concrete field specification:
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
 - `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
+- `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`

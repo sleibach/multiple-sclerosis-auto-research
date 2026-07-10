@@ -41,6 +41,7 @@ data and a direction-matched modality exist.
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |
 | Therapeutic validation handoff | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md` |
+| Medical-team data request packet | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md` |
 | chr1 KIF21B/GPR25 genetics/druggability | `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md` |
 | chr1 genotype-linked future data spec | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md` |
 | Structure-aware no-go / reopen table | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md` |

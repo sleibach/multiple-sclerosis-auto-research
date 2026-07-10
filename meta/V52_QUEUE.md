@@ -45,7 +45,7 @@ and V51 structural context without reopening broad public-data discovery.
 | GPR25 direction-matched modality spec | done | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`; requires causal-gene resolution, cell-state presence, protective higher/restored direction, functional readout, and agonism/restoration modality. |
 | KIF21B restoration modality spec | done | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`; standard inhibition/degradation/knockdown remain wrong-direction unless future data prove otherwise. |
 | Machine-readable therapeutic target matrix | done | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`; 13 route/lead rows encode impact path, blocker, reopen evidence, next action, and verdict. |
-| Medical-team therapeutic request packet | todo | Convert the monitoring-first and chr1 target-package conclusions into one sendable request checklist. |
+| Medical-team therapeutic request packet | done | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`; separates monitoring validation, chr1 target-development, postpartum, and T/B data asks. |
 | Structure evidence boundary QA | todo | Audit V52 docs for any wording that accidentally promotes predicted structure beyond context. |
 | Restored-genetics bounded rerun manifest | todo | List every bounded OpenGWAS-dependent rerun now covered by renewed token and every route deliberately excluded as discovery. |
 | Therapeutic contradiction surveillance triggers | todo | Define future contradiction triggers that should be queued if sharper external context conflicts with a grounded V52 verdict. |
@@ -158,3 +158,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`, a 13-row
   machine-readable therapeutic route matrix. Shape check passed: every row has
   10 tab-separated fields.
+- 2026-07-10T10:37:15Z: Wrote
+  `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`. Result:
+  the medical-team request now separates the primary treatment-response
+  validation package from the separate chr1 target-development package and
+  secondary postpartum/T-B packages.
