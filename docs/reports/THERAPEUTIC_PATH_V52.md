@@ -43,6 +43,7 @@ data and a direction-matched modality exist.
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
+| PTGER4 structural prediction context | `knowledge_external/structures/alphafold/PTGER4_P35408/record.json`; `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | External-context convergence / contradiction check | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md` |
 | OpenGWAS restored access | `scripts/check_opengwas_access.py`, run 2026-07-10; POST-only HTTP 200 on `gwasinfo` and `tophits`; decoded expiry `2026-07-24 08:00 UTC` |
 
@@ -177,7 +178,7 @@ Evidence that would reopen KIF21B:
 
 | lead | current status | why closed or parked | what would reopen |
 |---|---|---|---|
-| PTGER4 | closed naive transfer target | multi-signal locus with direction conflict; druggability does not rescue mixed causal interpretation | signal-specific cell-type QTL resolving a protective MS direction plus MS-safe modality |
+| PTGER4 | closed naive transfer target | multi-signal locus with direction conflict; AlphaFold confirms receptor-core structural context but druggability does not rescue mixed causal interpretation | signal-specific cell-type QTL resolving a protective MS direction plus MS-safe modality |
 | ZMIZ1 | transfer-validity warning | same locus has opposite MS/Crohn direction; no direct tractable MS modality | direct MS eQTL/protein direction and perturbation showing MS-protective modulation |
 | NAMPT/eNAMPT | marker/covariate only | metabolic/inflammatory context and confounding, not target-grade evidence | causal perturbation and direction-matched MS benefit, not broad stress correlation |
 | EBV/IFN APC imprint | downgraded | specificity controls failed; context too broad | EBV-stratified B-cell/APC data showing MS-specific, module-specific imprint |

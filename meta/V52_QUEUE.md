@@ -36,11 +36,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic contradiction/convergence check | done | `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md`; 10 therapeutic rows reviewed, 6 convergences/context corroborations, 4 context/orthogonal rows, 0 genuine contradictions, 0 therapeutic verdict changes. |
 | Validation-readiness tie-in | done | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`; clarifies what Gafson/Karolinska pass, immune-tone-bounded pass, fail, inconclusive, or unscoreable package means for clinical action. |
 | Guard and push iteration | done | V47 provenance, V51 structural, external index, SAP health, status freshness, size/tmp guards passed; commit `f396b814` pushed to `origin/main` at 2026-07-10T09:56:54Z. |
-| Structure-informed PTGER4 triage | todo | Check whether any existing structure context could matter; likely no because closure is signal/direction, not structure. |
+| Structure-informed PTGER4 triage | done | AlphaFold DB `AF-P35408-F1` v6 retrieved; receptor-core structural context is compatible with tractability, but closure is confirmed because the blocker is mixed signal and direction, not lack of structure. |
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | todo | Inventory whether a POST-only bounded rerun can sharpen ZMIZ1 without broad discovery. |
 | Public-facing therapeutic summary card | todo | Compact medical-team handoff after report stabilizes. |
 | Chr1 genotype-linked data specification | todo | Turn V52 reopen criteria into exact sample/data fields for a future chr1 causal-gene dataset. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
+| PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
 
 ## Per-Iteration Notes
 
@@ -75,3 +76,11 @@ and V51 structural context without reopening broad public-data discovery.
   the therapeutic report, validation-readiness doc, current status, and next
   actions. It keeps V42/V44 frozen and translates outcomes into medical-team
   actionability.
+- 2026-07-10T10:04:01Z: Validation handoff committed and pushed as
+  `91f1b780`; local and `origin/main` match. Continuing with PTGER4
+  structure-informed triage.
+- 2026-07-10T10:06:23Z: Retrieved PTGER4 AlphaFold DB `AF-P35408-F1` v6
+  (`P35408`) and wrote
+  `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
+  Result: PTGER4 remains closed as a naive transfer target; structure sharpens
+  receptor-core context but does not address mixed-signal/direction blockers.

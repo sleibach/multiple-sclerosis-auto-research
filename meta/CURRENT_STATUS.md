@@ -168,6 +168,9 @@ Current frontier:
   - chr1 structural records:
     `knowledge_external/structures/alphafold/GPR25_O00155/record.json`;
     `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`.
+  - PTGER4 structural context:
+    `knowledge_external/structures/alphafold/PTGER4_P35408/record.json`;
+    `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
   - Prediction-informed context notes:
     `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
     `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.

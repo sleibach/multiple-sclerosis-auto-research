@@ -25,10 +25,14 @@ V52 update:
   `knowledge_external/structures/alphafold/GPR25_O00155/record.json`.
 - Second structural-prediction record:
   `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`.
+- PTGER4 structural-prediction record:
+  `knowledge_external/structures/alphafold/PTGER4_P35408/record.json`.
 - Prediction-informed chr1/GPR25 context:
   `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
 - Prediction-informed chr1/KIF21B context:
   `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
+- Prediction-informed PTGER4 context:
+  `knowledge_external/synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
 - External-context index:
   `knowledge_external/INDEX.md`.
 - Current push status: plain `git push origin main` is functioning on the

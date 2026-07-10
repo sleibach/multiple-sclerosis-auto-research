@@ -6,12 +6,12 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `73`
+- external records indexed: `74`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `35`
 - records with source_terms metadata: `40`
-- records missing optional source_terms metadata: `33`
+- records missing optional source_terms metadata: `34`
 - V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
 - V48 convergence rows asserted: `7`
@@ -26,12 +26,12 @@ Grounded project findings remain in the normal project report/history/validation
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 73 |
+| `epistemic_class` | `external-unverifiable` | 74 |
 | `relationship_to_project_findings` | `orthogonal` | 44 |
-| `relationship_to_project_findings` | `supports` | 29 |
+| `relationship_to_project_findings` | `supports` | 30 |
 | `record_type` | `external_claim` | 40 |
 | `record_type` | `external_resource_catalog` | 31 |
-| `record_type` | `structural_prediction` | 2 |
+| `record_type` | `structural_prediction` | 3 |
 
 ## Navigation
 
@@ -134,6 +134,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [External structural predictions](structures/README.md) | Browse segregated AlphaFold-style predicted structure records and confidence payloads. | structural predictions are external context only |
 | [V51 GPR25 AlphaFold context](synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md) | Confidence-qualified AlphaFold DB context for GPR25 druggability-direction discussion. | prediction-informed context only |
 | [V52 KIF21B AlphaFold context](synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md) | Confidence-qualified AlphaFold DB context for KIF21B motor-domain druggability-direction discussion. | prediction-informed context only |
+| [V52 PTGER4 AlphaFold context](synthesis/V52_PTGER4_ALPHAFOLD_DRUGGABILITY_CONTEXT.md) | Confidence-qualified AlphaFold DB context for PTGER4 druggability-direction discussion. | prediction-informed context only |
 | [V50 V22/V32 contradiction trigger packet](synthesis/V50_V22_V32_CONTRADICTION_TRIGGER_PACKET.md) | Same-definition intake rules for future sources before V22/V32 convergence or contradiction can be asserted. | future-grounding control |
 | [V50 next source prioritization](synthesis/V50_NEXT_SOURCE_PRIORITIZATION.md) | Ranking of V50 source routes by decision value and executability while OpenGWAS is expired. | synthesis/navigation only |
 | [V50 non-OpenGWAS route inventory](synthesis/V50_NON_OPENGWAS_ROUTE_INVENTORY.md) | Smoke-tested public API routes that remain usable while the OpenGWAS JWT is expired. | routing/navigation only |

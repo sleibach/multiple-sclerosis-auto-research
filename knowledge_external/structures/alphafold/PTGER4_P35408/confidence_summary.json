@@ -1,0 +1,63 @@
+{
+  "gene_symbol": "PTGER4",
+  "model_entity_id": "AF-P35408-F1",
+  "model_version": "6",
+  "pae": {
+    "fraction_le_10": 0.324434,
+    "fraction_le_20": 0.448145,
+    "fraction_le_5": 0.226208,
+    "max": 32.0,
+    "max_predicted_aligned_error": 31.75,
+    "mean": 19.0695,
+    "median": 24.0,
+    "min": 0.0,
+    "n_cols": 488,
+    "n_rows": 488,
+    "n_values": 238144
+  },
+  "pae_payload_stored_locally": true,
+  "payload_sha256": {
+    "confidence_json": "131490e23c72346ab9ce9c59491c4e9f976efda395a54394ea2db46dc3995361",
+    "pae_json": "19ccb15435859f5982bc51c26f917e1f6c96821e31ca56a6e8eaa56695dfa5ae",
+    "pdb": "10316cc756098988f1063d01621a9ead08343d2f57ce9037914521a3151e9096"
+  },
+  "plddt": {
+    "fraction_confident_ge_70": 0.569672,
+    "fraction_low_lt_50": 0.305328,
+    "fraction_very_high_ge_90": 0.383197,
+    "low_confidence_segments_lt_50": [
+      {
+        "end": 2,
+        "length": 2,
+        "start": 1
+      },
+      {
+        "end": 13,
+        "length": 10,
+        "start": 4
+      },
+      {
+        "end": 17,
+        "length": 2,
+        "start": 16
+      },
+      {
+        "end": 243,
+        "length": 2,
+        "start": 242
+      },
+      {
+        "end": 488,
+        "length": 133,
+        "start": 356
+      }
+    ],
+    "max": 97.62,
+    "mean": 70.8763,
+    "median": 80.47,
+    "min": 28.73,
+    "n_residues": 488
+  },
+  "purpose": "V51 AlphaFold DB confidence summary; predicted structure, not experimental evidence",
+  "uniprot_id": "P35408"
+}
