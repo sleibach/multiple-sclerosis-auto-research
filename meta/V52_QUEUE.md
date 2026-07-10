@@ -73,8 +73,14 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring operator one-page run card | done | `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page monitoring package receipt-to-result class card for operators. |
 | chr1 operator one-page run card | done | `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page chr1 genotype-linked package receipt-to-final-staged-class card. |
 | V52 artifact cross-link audit | done | `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`; checked key V52 artifacts across manifest, index, summary, current status, next actions, and queue; no unexpected missing links. |
-| OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
+| OpenGWAS pre-expiry bounded-polish command list | done | `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`; exact bounded POST-only commands before 2026-07-24, with broad discovery excluded. |
+| Bounded OpenGWAS script existence audit | done | Folded into `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`; V14/V19 are preferred bounded commands; V13/V21 scripts are not pre-approved for V52 polish. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
+| Validation package field dictionary | todo | Create a compact field dictionary bridging monitoring and chr1 package requirements. |
+| Therapeutic path reviewer quickstart | todo | Create a short reviewer-oriented quickstart for reading the V52 therapeutic artifacts in the right order. |
+| Monitoring pass/fail public wording table | todo | Define safe public wording for clean pass, immune-tone-bounded pass, fail, inconclusive, and unscoreable validation outcomes. |
+| chr1 no-go communication appendix | todo | Create collaborator-safe wording for why chr1 is real biology but not target-ready without genotype-linked direction evidence. |
+| V52 artifact hash snapshot | todo | Record hashes for key V52 operator artifacts for package-handoff integrity. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -297,3 +303,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`. Result: key V52 artifacts
   are discoverable from manifest, index, status, next actions, and queue; the
   only summary-card exception is the intentional absence of a self-reference.
+- 2026-07-10T11:47:20Z: Wrote
+  `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
+  Result: renewed-token use before `2026-07-24 08:00 UTC` is limited to the
+  auth sentinel, V14 confirmed-locus rerun, and V19 chr1 local reanalysis;
+  older exploratory scripts are explicitly not pre-approved for V52 polish.

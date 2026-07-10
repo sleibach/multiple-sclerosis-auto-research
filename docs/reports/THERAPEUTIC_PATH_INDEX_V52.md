@@ -72,6 +72,7 @@ resolution.
 | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md` | multiple | why structure does not override causal-gene/direction/modality blockers |
 | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` | genetics reruns | completed renewed-token checks and results |
 | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md` | genetics reruns | allowed bounded reruns and explicitly excluded discovery work |
+| `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md` | genetics reruns | exact bounded POST-only command list before token expiry |
 
 ## Structural Context
 

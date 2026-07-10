@@ -53,6 +53,8 @@ V52 update:
   `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
 - Restored OpenGWAS bounded rerun manifest:
   `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`.
+- OpenGWAS pre-expiry bounded command list:
+  `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
 - OpenGWAS renewal watch:
   `meta/OPENGWAS_RENEWAL_WATCH_V52.md`.
 - ZMIZ1 restored-OpenGWAS direction handoff:
@@ -155,7 +157,9 @@ Current V52 requirements:
 
 First V52 actions:
 
-1. Continue the first unresolved V52 queue item.
+1. Continue the first unresolved V52 queue item. Current next executable items
+   are the RAG/index refresh check and the V52 validation/therapeutic
+   documentation polish tasks in `meta/V52_QUEUE.md`.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
 3. Keep structural records under `knowledge_external/structures/`; do not treat

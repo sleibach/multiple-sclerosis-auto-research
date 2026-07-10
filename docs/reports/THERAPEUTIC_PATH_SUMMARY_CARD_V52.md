@@ -58,6 +58,8 @@ therapeutic target.
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Wrote bounded genetics handoff:
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
+- Wrote bounded OpenGWAS pre-expiry command list:
+  `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
 - Wrote chr1 collaborator assay request appendix:
   `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
 - Wrote chr1 package result-report template:
@@ -151,6 +153,7 @@ Concrete field specification:
 - `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
+- `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`
 - `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`

@@ -74,6 +74,7 @@ data and a direction-matched modality exist.
 | PTGER4 signal-specific reopen spec | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md` |
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | Restored OpenGWAS bounded rerun manifest | `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md` |
+| OpenGWAS pre-expiry bounded command list | `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md` |
 | ZMIZ1 restored-OpenGWAS direction handoff | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md` |
 | GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
 | KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
@@ -236,6 +237,13 @@ For V52, restored OpenGWAS should be used only for targeted catch-up:
   already specify a bounded locus and allele-harmonized method;
 - avoid broad new locus discovery, because V41 closed unconstrained public-data
   discovery under the current corpus gate.
+
+The exact pre-expiry command list is fixed in
+`docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`.
+The priority commands are the auth sentinel, the V14 confirmed-locus SuSiE
+coloc refresh, and the V19 chr1 local reanalysis. Scripts from older exploratory
+phases are not pre-approved unless a later queue item first defines a bounded
+non-discovery purpose.
 
 No V52 target verdict should change merely because authentication is restored.
 It changes only if a targeted frozen rerun produces a different grounded result.
