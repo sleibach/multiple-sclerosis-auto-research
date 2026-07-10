@@ -17,7 +17,7 @@ stable operator SHA256 snapshot.
 ## Result
 
 The handoff bundle lists 36 unique artifacts. The current hash snapshot lists
-43 artifacts. Thirty handoff artifacts are hash-covered by the snapshot. Six
+44 artifacts. Thirty handoff artifacts are hash-covered by the snapshot. Six
 handoff artifacts are not hash-covered.
 
 This is not automatically an error. Some handoff artifacts are mutable
@@ -41,7 +41,7 @@ been added to the snapshot.
 
 ## Snapshot Artifacts Not In The Handoff Bundle
 
-The snapshot also covers thirteen stable artifacts that are not listed in the handoff
+The snapshot also covers fourteen stable artifacts that are not listed in the handoff
 bundle:
 
 - `docs/validation/MANIFEST_README_CONSISTENCY_RECHECK_V52.md`
@@ -51,6 +51,7 @@ bundle:
 - `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`
 - `docs/validation/PACKAGE_INTAKE_CROSS_REFERENCE_AUDIT_V52.md`
 - `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`
+- `docs/validation/ROUTE_CLASSIFIER_EXAMPLES_REGRESSION_V52.md`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_SCHEMA_CHECK_V52.md`
 - `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`
 - `docs/reports/V52_OPERATOR_ARTIFACT_HASH_REFRESH_COMMANDS.md`

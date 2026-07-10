@@ -135,6 +135,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Package intake combined smoke suite | done | `docs/validation/PACKAGE_INTAKE_COMBINED_SMOKE_SUITE_V52.md`; synthetic-only combined suite ran package-ID pass/fail, route classification, and intake safety audit with 4 steps and 0 failures. |
 | Manifest template README consistency recheck | done | `scripts/v52_manifest_readme_consistency_audit.py`; data-owner README, manifest template, quickstart, and handoff bundle passed 23 consistency checks with 0 failures. |
 | Operator hash coverage after regression docs | done | Added six stable regression/smoke/audit docs to the V52 operator hash snapshot; 43-row snapshot verifies and coverage audit updated. |
+| Route classifier full examples regression | done | Converted all 10 route-classifier examples to manifest shape; initial 2 example-table mismatches corrected; rerun has 0 expected-route failures and 0 unexpected status failures. |
+| Package intake raw-term scanner for operator docs | todo | Scan package-intake operator docs for forbidden credential/token/raw-data wording patterns outside explicit prohibition contexts. |
+| Received-package dry-run replay audit | todo | Replay the received-package dry-run manifest through current route classifier and compare against the committed dry-run route output. |
+| Handoff bundle ordered-flow audit | todo | Verify Universal Intake bundle order still follows ID check, access terms, safe paths, manifest, classifier, safety audit, and blocker handling. |
+| Package-intake generated-output inventory | todo | Record which package-intake analysis outputs are synthetic/regression artifacts versus stable operator controls, so future commits do not hash mutable outputs accidentally. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -648,3 +653,8 @@ and V51 structural context without reopening broad public-data discovery.
   Result: the 43-row snapshot verifies, and
   `docs/reports/V52_PACKAGE_ARTIFACT_HASH_COVERAGE_AUDIT.md` records the expanded
   snapshot-only guard set.
+- 2026-07-10T14:46:55Z: Ran the full route-classifier examples regression. The
+  first pass found 2 example-table mismatches; fixed the examples table without
+  changing classifier logic, added `docs/validation/ROUTE_CLASSIFIER_EXAMPLES_REGRESSION_V52.md`,
+  and refreshed the operator hash snapshot. Result: 10 examples now produce 0
+  expected-route failures and the 44-row snapshot verifies.
