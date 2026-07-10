@@ -57,7 +57,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 artifact consistency audit | done | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`; no inconsistency found across V52 therapeutic report, summary, matrices, request packet, and validation handoffs. |
 | Monitoring validation command manifest | done | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`; exact interpreter precheck, preflight gates, frozen harness command, outputs, and non-commands. |
 | Therapeutic claim hierarchy | done | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`; separates locked rules, grounded findings, provisional monitoring, mechanism context, target handoffs, structure context, and future asks. |
-| Target package acceptance criteria TSV | todo | Make a compact data-package acceptance table for chr1 and secondary target/biology routes. |
+| Target package acceptance criteria TSV | done | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`; machine-readable accept/partial/reject criteria by package type. |
 | Prospective monitoring utility study sketch | todo | Define what a post-validation clinical-utility study would need without changing the frozen rule. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -216,3 +216,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`. Result: V52 now has an
   explicit hierarchy separating what can be claimed from what is context or a
   future data ask.
+- 2026-07-10T11:08:13Z: Wrote
+  `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`. Result:
+  incoming packages now have route-specific accept, partial-context, and reject
+  criteria before any analysis.

@@ -53,6 +53,8 @@ V52 update:
   `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`.
 - Medical-team therapeutic data request packet:
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
+- Target package acceptance criteria:
+  `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`.
 - Monitoring validation decision tree:
   `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
 - Monitoring validation command manifest:

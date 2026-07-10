@@ -141,6 +141,7 @@ metadata and any direction-matched perturbation readouts.
 - `docs/reports/THERAPEUTIC_PATH_V52.md`
 - `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`
 - `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv`
+- `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`
 - `docs/validation/PREREGISTRATION_V42.md`
 - `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
