@@ -124,7 +124,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package ID sanitizer/check note | done | `scripts/v52_validate_package_id.py`, `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`, and synthetic checks validate `YYYYMMDD_lowercase_alnum_underscore_segments`; note is hash-covered. |
 | Received-package intake directory README | done | `analysis/received_package_intake/README.md` now states safe metadata/classifier outputs only, raw or restricted files prohibited, and the required intake flow. |
 | Received-package intake directory smoke audit | done | `scripts/v52_received_intake_safety_audit.py` and `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv` verify current tracked intake files: 3 files, 14 checks, 0 failures. |
-| Package intake operator quickstart card | todo | Add a compact operator card linking package ID validation, manifest template, route classifier, preflight decision table, and receipt blocker flow. |
+| Package intake operator quickstart card | done | `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md` gives the mechanical package-intake sequence from package ID through access terms, manifest, classifier, safety audit, and blocker handling. |
 | Package ID validator regression fixture | todo | Record an explicit command-driven regression note for valid/invalid package IDs so operators can rerun the check after edits. |
 | Received-package intake README hash coverage | todo | Add the intake-directory README and quickstart card to the V52 operator artifact hash snapshot if they are stable operator controls. |
 | Package-intake handoff bundle refresh | todo | Link the intake README and quickstart card from the handoff bundle if they materially improve operator navigation. |
@@ -589,3 +589,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`, and recorded
   `analysis/v52_received_intake_safety_audit/intake_safety_audit.tsv`. Result:
   current tracked intake files pass 14 commit-safety checks with 0 failures.
+- 2026-07-10T14:25:17Z: Added
+  `docs/validation/PACKAGE_INTAKE_OPERATOR_QUICKSTART_V52.md`. Result: package
+  intake now has a one-page mechanical sequence from package ID validation
+  through access-term review, safe manifest creation, route classification,
+  intake safety audit, and blocker handling.
