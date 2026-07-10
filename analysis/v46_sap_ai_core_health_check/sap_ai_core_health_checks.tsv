@@ -1,19 +1,19 @@
 model_family	model	command_kind	command	returncode	elapsed_seconds	expected_text_present	family_specific_guard	status	stdout_tail	stderr_tail
-claude_orchestration	anthropic--claude-4.7-opus	smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py smoke --model anthropic--claude-4.7-opus --timeout 60 --max-output-tokens 64	0	1.766	True	PASS	PASS	"oauth: ok; expires_in: 43199
+claude_orchestration	anthropic--claude-4.7-opus	smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py smoke --model anthropic--claude-4.7-opus --timeout 60 --max-output-tokens 64	0	2.848	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: anthropic--claude-4.7-opus 1 def854013c7ac379
-smoke_elapsed_sec: 1.07
+smoke_elapsed_sec: 2.14
 response: OK
 "	(empty)
-gemini_native	gemini-2.5-pro	smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py smoke --model gemini-2.5-pro --timeout 60 --max-output-tokens 256	0	3.294	True	PASS	PASS	"oauth: ok; expires_in: 43199
+gemini_native	gemini-2.5-pro	smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py smoke --model gemini-2.5-pro --timeout 60 --max-output-tokens 256	0	3.1	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: gemini-2.5-pro 001 d6dc532885507ac7
-smoke_elapsed_sec: 2.68
+smoke_elapsed_sec: 2.49
 response: OK
 "	(empty)
-sap_rpt_predict	sap-rpt-1-large	rpt-smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py rpt-smoke --model sap-rpt-1-large --timeout 120	0	1.091	True	PASS	PASS	"oauth: ok; expires_in: 43199
+sap_rpt_predict	sap-rpt-1-large	rpt-smoke	/opt/homebrew/opt/python@3.14/bin/python3.14 scripts/sap_ai_core_client.py rpt-smoke --model sap-rpt-1-large --timeout 120	0	0.766	True	PASS	PASS	"oauth: ok; expires_in: 43199
 model: sap-rpt-1-large 1 d61aae51af327bbc
-smoke_elapsed_sec: 0.48
+smoke_elapsed_sec: 0.27
 {
-  ""id"": ""80f013c8-d777-41f1-aee5-82b57400dc3a"",
+  ""id"": ""bfff90f3-830b-4af0-b3cb-9e4d1f535974"",
   ""metadata"": {
     ""num_columns"": 4,
     ""num_predictions"": 1,

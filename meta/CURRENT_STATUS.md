@@ -160,6 +160,8 @@ Current frontier:
     `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md`.
   - V52 therapeutic artifact manifest:
     `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`.
+  - V52 artifact cross-link audit:
+    `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`.
   - V52 therapeutic route status dashboard:
     `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
   - Public-facing therapeutic summary card:

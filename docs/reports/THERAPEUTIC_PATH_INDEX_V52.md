@@ -24,6 +24,7 @@ resolution.
 | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` | medical team / project lead | one-page bottom line: monitoring first, no intervention-grade target |
 | `docs/reports/THERAPEUTIC_PATH_V52.md` | scientific reviewer | full synthesis of monitoring route, genetics closures, structure context, and restored OpenGWAS |
 | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv` | downstream tooling / indexer | machine-readable artifact path, category, status, evidence role, and primary use |
+| `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md` | maintainer | cross-link audit for key V52 artifacts across manifest, index, summary, status, next actions, and queue |
 | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv` | downstream tooling / operator | compact route status, next gate, blocker, action, and verdict table |
 | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` | downstream tooling / spreadsheet review | machine-readable route and lead status table |
 | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` | downstream tooling / go-no-go review | machine-readable reopen gates and non-counting evidence for closed or conditional leads |

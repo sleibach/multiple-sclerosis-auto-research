@@ -72,7 +72,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 route-status dashboard table | done | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`; compact machine-readable route status, next gate, blocker, action, and verdict dashboard. |
 | Monitoring operator one-page run card | done | `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page monitoring package receipt-to-result class card for operators. |
 | chr1 operator one-page run card | done | `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`; one-page chr1 genotype-linked package receipt-to-final-staged-class card. |
-| V52 artifact cross-link audit | todo | Check key V52 artifacts are linked from manifest, index, summary, current status, and next actions. |
+| V52 artifact cross-link audit | done | `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`; checked key V52 artifacts across manifest, index, summary, current status, next actions, and queue; no unexpected missing links. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -293,3 +293,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`. Result: future
   chr1 operators have a compact receipt, staged-review, final-class, and
   non-command quick card.
+- 2026-07-10T11:43:58Z: Wrote
+  `docs/reports/V52_ARTIFACT_CROSS_LINK_AUDIT.md`. Result: key V52 artifacts
+  are discoverable from manifest, index, status, next actions, and queue; the
+  only summary-card exception is the intentional absence of a self-reference.
