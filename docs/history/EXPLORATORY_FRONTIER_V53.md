@@ -141,14 +141,60 @@ selectivity boundary rather than nominating a new control point.
 
 ## Workstream E: Multi-Lineage And RPT Proposals
 
-Status: queued. Model outputs will be proposal-only and grounded before any
-status assignment.
+Status: complete for the first divergent round. Model outputs remained
+proposal-only and were grounded before status assignment.
+
+Proposal records and grounding:
+
+- `knowledge_external/model_outputs/v53_unconventional_generation/claude_record.json`
+- `knowledge_external/model_outputs/v53_unconventional_generation/gemini_record.json`
+- `knowledge_external/model_outputs/v53_unconventional_generation/consolidated_proposals.tsv`
+- `scripts/v53_model_proposal_grounding.py`
+- `analysis/v53_model_proposal_grounding/REPORT.md`
+- `analysis/v53_model_proposal_grounding/proposal_triage.tsv`
+- `knowledge_external/model_outputs/v53_rpt_proposal_lens/record.json`
+
+Claude and Gemini each generated eight proposals. Grounded outcomes across all
+16 were: one supported methodological negative, two not-supported, two
+inconclusive, and 11 untestable with current data. The high untestable count is
+substantive: the V26 matrices contain aggregate contrasts and context summaries,
+not patient-level trajectories, temporal series, or complex-structure
+predictions.
+
+The one supported item formalized causal non-identifiability. The three-edge
+HLA-II/IFN-APC/receptor-state skeleton admits six acyclic orientations in one
+Markov-equivalence class, with zero consensus-oriented edges. This establishes
+that current summary dependencies cannot identify causal direction; it does not
+claim that biological direction is absent.
+
+The negative-space proposal failed: among the three module pairs assessable in
+all five modalities, there were zero strict forbidden edges (permutation
+enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
+nine matched aggregate R/NR pairs, nonresponder-minus-responder absolute error
+was `-0.0201` for HLA-II and `-0.0135` for receptor-state, with both confidence
+intervals crossing zero and corrected one-sided `q=0.641`.
+
+RPT ran 16 leave-one-proposal-out tabular feasibility calls and agreed with all
+explicit schema classifications. Because `HELD_SCHEMA_MATCH` directly encodes
+the decisive constraint, this is a tooling/consistency check, not independent
+scientific corroboration and not a new hypothesis.
+
+Multi-lineage value verdict: **yes for one methodological boundary, no for a
+new biological or therapeutic lead**. Model confidence played no role. The
+current client does not expose monetary spend or token-usage telemetry, so spend
+is recorded as unavailable rather than estimated.
 
 ## Current Ranked Slate
 
 ### Grounded-and-promising
 
 None yet.
+
+### Grounded Methodological Boundary
+
+1. Current APC module summaries do not identify causal edge direction. The
+   exact equivalence-class result is worth carrying into future experiment
+   design, but it is not a therapeutic lead.
 
 ### Promising-but-needs-data
 

@@ -1,0 +1,122 @@
+{
+  "claim": "anthropic--claude-4.7-opus generated eight V53 computational hypotheses; every item is a proposal with zero finding status until grounded on project data.",
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "generation": {
+    "max_output_tokens": 10000,
+    "normalization": "none",
+    "parsed_output_sha256": "a523975e65299450d51ecca0c69cf6b36e46302040fd459c25e64ac1ebc4640f",
+    "prompt_path": "analysis/v53_multilineage_generation/generation_prompt.md",
+    "proposal_count": 8,
+    "spend": "not exposed by the current SAP AI Core client response path",
+    "temperature": "client family default"
+  },
+  "model": {
+    "deployment_id": "def854013c7ac379",
+    "lineage": "Anthropic Claude",
+    "model": "anthropic--claude-4.7-opus",
+    "service": "SAP AI Core Orchestration"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Divergent proposal generation followed by mandatory project-data grounding.",
+  "proposals": [
+    {
+      "concrete_prediction": "For IFN-gamma columns, TE(HLA-II -> IFN-APC) will exceed TE(IFN-APC -> HLA-II) with permutation p<0.05; for TNF-alpha the asymmetry reverses or vanishes.",
+      "falsifier": "TE asymmetry indistinguishable from shuffle null in all three cytokines, or direction not stable under leave-one-signature-out.",
+      "held_data_test": "Use perturbation_module_matrix.tsv rows for the four APC modules across the 24 signatures; compute symbolic transfer entropy across stimulus-ordered signatures within each cytokine block, null by shuffling signature labels within cytokine 20,000 times.",
+      "hypothesis": "Direction of information flow between HLA-II and IFN-APC modules is asymmetric and stimulus-dependent, so pairwise transfer entropy across perturbation signatures will separate driver from follower even when correlation is symmetric, producing a testable causal ordering absent from the current undirected association scan.",
+      "id": "H1_transfer_entropy_directionality",
+      "likely_failure_mode": "24 signatures give too few samples per cytokine for stable TE; binning artifacts dominate.",
+      "minimum_next_data": "A time-resolved (>=6 timepoints) APC perturbation series per cytokine to convert pseudo-ordering into real temporal TE.",
+      "therapeutic_direction": "If HLA-II drives IFN-APC under IFN-gamma, prioritize upstream HLA-II modulation over IFN-APC in that tone; otherwise deprioritize.",
+      "why_unconventional": "Prior scans used correlation or additive perturbation; transfer entropy on stimulus-indexed module trajectories imposes temporal-like directionality without fitting a bigger model to response cohorts."
+    },
+    {
+      "concrete_prediction": "The Markov equivalence class size for the 4-module APC graph across 5 modalities will exceed 8 DAGs, and the intersection of directed edges across modalities will be empty or a single edge.",
+      "falsifier": "Equivalence class collapses to <=2 DAGs with a consistent oriented edge across >=4 modalities.",
+      "held_data_test": "Run PC and GES on workstream_b_module_dependencies.tsv treating each modality as an independent conditioning context; enumerate CPDAGs and compute equivalence class cardinality; report intersection of oriented edges.",
+      "hypothesis": "The APC module system is non-identifiable from currently held modalities: the equivalence class of DAGs consistent with workstream_b dependencies is large enough that no single-node intervention target can be uniquely oriented, formalizing why single-locus routes keep failing.",
+      "id": "H2_causal_identifiability_negative",
+      "likely_failure_mode": "Module dependency table encodes correlations already directionally labeled, biasing PC toward spurious orientation.",
+      "minimum_next_data": "At least one true interventional dataset (CRISPR or drug knockdown) on one APC module to break equivalence.",
+      "therapeutic_direction": "Formal justification to halt single-node APC target promotion until an interventional modality is added.",
+      "why_unconventional": "Rather than proposing a new target, it proves a negative-space constraint: the data geometry itself forbids target promotion, quantifying the discovery ceiling."
+    },
+    {
+      "concrete_prediction": "Joint plot of treatment_pharmacodynamic vs treatment_response module values will show a non-single-valued mapping with loop area exceeding permutation null for >=1 of 4 modules.",
+      "falsifier": "Loop area within null for all four modules.",
+      "held_data_test": "Cross-join treatment_pharmacodynamic_module_matrix.tsv and treatment_response_module_matrix.tsv on shared module IDs; compute loop area via convex hull minus monotone fit residual; null by permuting response labels 20,000 times.",
+      "hypothesis": "APC module trajectories exhibit hysteresis between pharmacodynamic and response modalities: the same module level maps to different response states depending on prior treatment trajectory, which would explain why frozen scalars work but dynamic remodels do not.",
+      "id": "H3_hysteresis_treatment_response",
+      "likely_failure_mode": "Matrices are not sample-linked, making joint trajectory undefined.",
+      "minimum_next_data": "Paired pre/on/post-treatment samples with module measurements at all three timepoints in the same subjects.",
+      "therapeutic_direction": "If hysteretic, timing of intervention (early vs late in trajectory) matters more than magnitude.",
+      "why_unconventional": "Treats response as path-dependent rather than level-dependent, an angle not attempted in V22-V41."
+    },
+    {
+      "concrete_prediction": "Estimated Hessian eigenvalue spectrum around V22 scalar coordinates will have condition number <5, while MIF-CD74 and RFX5 coordinates will show condition number >20.",
+      "falsifier": "Condition numbers indistinguishable across anchors, or V22 shows higher curvature than failed candidates.",
+      "held_data_test": "Fit local quadratic surrogates to treatment_response_module_matrix.tsv values as function of module coordinates from perturbation_module_matrix.tsv; compute Hessian eigenvalues at V22, MIF-CD74, RFX5 anchor points; bootstrap 1000x.",
+      "hypothesis": "The V22 scalar's tool-robustness reflects that it sits at a low-curvature ridge of the APC module response landscape, whereas failed targets sit on high-curvature saddles; curvature of the response surface is itself the promotability criterion.",
+      "id": "H4_robustness_geometry_curvature",
+      "likely_failure_mode": "Local quadratic fit unstable with 24 signatures.",
+      "minimum_next_data": "Denser dose-response perturbation grid (>=100 signatures) to stabilize Hessian estimation.",
+      "therapeutic_direction": "Prioritize interventions targeting low-curvature ridges rather than steep-effect points.",
+      "why_unconventional": "Reframes target promotion as a geometric property of the response manifold rather than an effect size or p-value."
+    },
+    {
+      "concrete_prediction": "Spearman rho between cross_disease_summary and treatment_response module ranks >=0.7 while Pearson r <=0.4 across the four modules.",
+      "falsifier": "Both correlations similar, or Spearman also low.",
+      "held_data_test": "Compute Spearman and Pearson between cross_disease_summary_module_matrix.tsv and treatment_response_module_matrix.tsv per module; permutation null 20,000 by shuffling module labels.",
+      "hypothesis": "The APC module architecture transfers across diseases as a rank-preserving but scale-varying map; counterfactual predictions from cross-disease modules will match treatment_response modules in rank but not magnitude, indicating the scalar is a topological invariant not a quantitative one.",
+      "id": "H5_counterfactual_transfer_cross_disease",
+      "likely_failure_mode": "Only 4 modules, insufficient for stable rank statistics.",
+      "minimum_next_data": "Expand to >=20 modules or component-level resolution across diseases.",
+      "therapeutic_direction": "Cross-disease repositioning should use rank-based rather than magnitude-based extrapolation.",
+      "why_unconventional": "Tests transfer as rank homeomorphism rather than effect-size portability."
+    },
+    {
+      "concrete_prediction": "IB curve on perturbation_module_matrix.tsv compressed to 1 bit will select a projection with cosine similarity >0.85 to V22 scalar direction.",
+      "falsifier": "IB projection orthogonal to V22 or unstable across bootstraps.",
+      "held_data_test": "Run deterministic information bottleneck on perturbation_module_matrix.tsv with treatment_response_module_matrix.tsv as relevance variable; compare 1-bit projection to V22 direction; null by shuffling response labels.",
+      "hypothesis": "The V22 scalar is approximately the information-bottleneck solution compressing 24 perturbation signatures to preserve response-relevant information; competing scalars fail because they retain non-response mutual information.",
+      "id": "H6_information_bottleneck_scalar",
+      "likely_failure_mode": "V22 direction not explicitly stored as a vector in held artifacts; must be reconstructed.",
+      "minimum_next_data": "Explicit V22 loading vector committed to artifacts to enable direct cosine comparison.",
+      "therapeutic_direction": "Confirms V22 as compression-optimal, discouraging search for alternative scalars in current data.",
+      "why_unconventional": "Casts prior empirical scalar selection as an implicit IB optimum, providing a principled uniqueness argument without refitting response models."
+    },
+    {
+      "concrete_prediction": "Intersection of below-threshold edges across 5 modalities will include >=3 MIF-CD74 outgoing edges to response modules, with permutation FDR <0.05.",
+      "falsifier": "MIF-CD74 outgoing edges not enriched in intersection, or intersection empty.",
+      "held_data_test": "Threshold each modality in workstream_b_module_dependencies.tsv at bottom quintile; compute intersection; permutation null by shuffling edge weights within each modality 20,000 times.",
+      "hypothesis": "The set of edges consistently absent across all five modalities in workstream_b defines a negative-space constraint stronger than any positive edge, and these forbidden edges concentrate on MIF-CD74-to-response paths, formalizing target non-promotion.",
+      "id": "H7_negative_space_forbidden_edges",
+      "likely_failure_mode": "Modalities have different weight scales making threshold comparison unfair.",
+      "minimum_next_data": "Modality-comparable effect-size normalization or a shared null distribution per modality.",
+      "therapeutic_direction": "Provides a principled do-not-pursue list rather than a target list.",
+      "why_unconventional": "Focuses on structural zeros rather than signal; negative-space evidence is rarely enumerated."
+    },
+    {
+      "concrete_prediction": "At least one of four APC modules in cell_state_module_matrix.tsv will show Hartigan dip test p<0.05 for bimodality, and V22 scalar assignment will align with mode membership at accuracy >0.75.",
+      "falsifier": "All modules unimodal (dip p>0.2) or mode membership uncorrelated with response.",
+      "held_data_test": "Run Hartigan dip test and Gaussian mixture BIC (k=1 vs k=2) on each module column of cell_state_module_matrix.tsv; cross-tabulate mode assignment against response labels from treatment_response_module_matrix.tsv.",
+      "hypothesis": "Cell-state module values across samples are bimodal, indicating a bistable APC state whose transition threshold, not mean level, controls response; this reconciles bounded scalar success with failed continuous-effect targets.",
+      "id": "H8_state_transition_bistability",
+      "likely_failure_mode": "Cell-state matrix is aggregated, hiding within-sample bimodality.",
+      "minimum_next_data": "Single-cell resolution APC module scoring to detect within-sample state mixtures.",
+      "therapeutic_direction": "If bistable, therapy should aim to shift state basin rather than titrate level.",
+      "why_unconventional": "Tests discrete state architecture rather than continuous gradient, an unexplored frame in prior versions."
+    }
+  ],
+  "record_id": "V53_MODEL_PROPOSALS_CLAUDE",
+  "record_type": "model_generated_proposals",
+  "relationship_note": "Proposals are retained for data-grounded triage only and cannot alter any finding, locked rule, pre-registration, or lead status.",
+  "relationship_to_project_findings": "untested",
+  "source": {
+    "citation": "SAP AI Core model inference invoked by scripts/sap_ai_core_client.py.",
+    "label": "anthropic--claude-4.7-opus via SAP AI Core Orchestration",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "Model-generated reasoning is not evidence and is not independently reproducible as a biological observation."
+}

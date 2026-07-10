@@ -1,0 +1,135 @@
+{
+  "claim": "SAP RPT leave-one-proposal-out predictions provide a tabular feasibility lens only; grounded schema and analysis checks determine actual executability.",
+  "comparison": {
+    "accuracy": 1.0,
+    "false_negative_ids": [],
+    "false_positive_ids": [],
+    "grounded_triage_path": "analysis/v53_model_proposal_grounding/proposal_triage.tsv",
+    "prediction_table_path": "knowledge_external/model_outputs/v53_rpt_proposal_lens/leave_one_out_predictions.tsv"
+  },
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "method": {
+    "design": "leave-one-proposal-out classification",
+    "feature_count_excluding_id_and_target": 8,
+    "n_predictions": 16,
+    "target": "executable_now vs not_executable_now",
+    "training_rows_per_call": 15
+  },
+  "model": {
+    "deployment_id": "d61aae51af327bbc",
+    "name": "sap-rpt-1-large",
+    "service": "SAP AI Core RPT /predict",
+    "spend": "not exposed by the current client response path"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Structurally distinct tabular proposal-prioritization lens.",
+  "record_id": "V53_RPT_PROPOSAL_FEASIBILITY_LENS",
+  "record_type": "model_generated_proposal_ranking",
+  "relationship_note": "Predictions are compared with, but never override, committed held-data executability checks.",
+  "relationship_to_project_findings": "untested",
+  "response_metadata": [
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    },
+    {
+      "num_columns": 10,
+      "num_predictions": 1,
+      "num_query_rows": 1,
+      "num_rows": 16
+    }
+  ],
+  "source": {
+    "citation": "SAP RPT prediction endpoint invoked through scripts/sap_ai_core_client.py.",
+    "label": "SAP RPT-1 large via SAP AI Core",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "RPT predictions are model outputs and are not project evidence."
+}

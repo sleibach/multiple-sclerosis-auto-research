@@ -1,0 +1,23 @@
+{
+  "boundary": "Missing module coverage is not treated as edge absence. Only pairs assessed in every modality enter the strict test.",
+  "common_modules": [
+    "hla_ii_apc",
+    "ifn_apc",
+    "mif_cd74_receptor_state"
+  ],
+  "empirical_p_for_forbidden_edge_enrichment": 1.0,
+  "modalities": [
+    "cell_state_h5ad",
+    "cross_disease_summary",
+    "perturbation_mixscale",
+    "treatment_pharmacodynamic",
+    "treatment_response_tests"
+  ],
+  "n_forbidden_edges_involving_mif_cd74": 0,
+  "n_fully_assessable_pairs": 3,
+  "n_permutations": 20000,
+  "n_strict_forbidden_edges": 0,
+  "proposal_id": "H7_negative_space_forbidden_edges",
+  "seed": 53004,
+  "verdict": "NOT_SUPPORTED_NO_STRICT_FORBIDDEN_EDGE_IN_FULLY_COMPARABLE_SPACE"
+}

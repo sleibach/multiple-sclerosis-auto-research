@@ -1,0 +1,7 @@
+dag_id	directed_edges	v_structures	markov_equivalence_signature
+DAG_01	hla_ii_apc->ifn_apc;hla_ii_apc->mif_cd74_receptor_state;ifn_apc->mif_cd74_receptor_state		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=
+DAG_02	hla_ii_apc->ifn_apc;hla_ii_apc->mif_cd74_receptor_state;mif_cd74_receptor_state->ifn_apc		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=
+DAG_03	hla_ii_apc->ifn_apc;mif_cd74_receptor_state->hla_ii_apc;mif_cd74_receptor_state->ifn_apc		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=
+DAG_04	ifn_apc->hla_ii_apc;hla_ii_apc->mif_cd74_receptor_state;ifn_apc->mif_cd74_receptor_state		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=
+DAG_05	ifn_apc->hla_ii_apc;mif_cd74_receptor_state->hla_ii_apc;ifn_apc->mif_cd74_receptor_state		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=
+DAG_06	ifn_apc->hla_ii_apc;mif_cd74_receptor_state->hla_ii_apc;mif_cd74_receptor_state->ifn_apc		skeleton=hla_ii_apc--ifn_apc;hla_ii_apc--mif_cd74_receptor_state;ifn_apc--mif_cd74_receptor_state|v_structures=

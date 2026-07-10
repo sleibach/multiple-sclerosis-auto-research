@@ -1,0 +1,4 @@
+module_a	module_b	n_modalities_assessed	n_supported_modalities	strict_forbidden_edge	involves_mif_cd74	modality_support_pattern
+hla_ii_apc	ifn_apc	5	2	False	False	cell_state_h5ad:0;cross_disease_summary:0;perturbation_mixscale:1;treatment_pharmacodynamic:1;treatment_response_tests:0
+hla_ii_apc	mif_cd74_receptor_state	5	4	False	True	cell_state_h5ad:1;cross_disease_summary:0;perturbation_mixscale:1;treatment_pharmacodynamic:1;treatment_response_tests:1
+ifn_apc	mif_cd74_receptor_state	5	3	False	True	cell_state_h5ad:0;cross_disease_summary:0;perturbation_mixscale:1;treatment_pharmacodynamic:1;treatment_response_tests:1

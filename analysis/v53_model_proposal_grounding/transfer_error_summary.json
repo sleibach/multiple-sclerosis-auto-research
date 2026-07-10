@@ -1,0 +1,16 @@
+{
+  "boundary": "Rows are aggregate group/module effects, not patient observations. This test cannot establish patient-level causal rewiring or prediction.",
+  "multiple_testing": "BH across two outcome modules",
+  "n_bootstrap": 20000,
+  "n_matched_response_pairs": 9,
+  "n_support_gate_passes": 0,
+  "outcomes_tested": [
+    "hla_ii_apc",
+    "mif_cd74_receptor_state"
+  ],
+  "proposal_id": "CRL_2024_002",
+  "seed": 53005,
+  "source_model": "pooled OLS module_outcome ~ IFN_APC on 24 perturbation summaries",
+  "target_test": "exact within-dataset/therapy or compartment R-vs-NR aggregate pairs",
+  "verdict": "NOT_SUPPORTED_OR_SOURCE_MODEL_INADEQUATE_IN_HELD_SUMMARIES"
+}

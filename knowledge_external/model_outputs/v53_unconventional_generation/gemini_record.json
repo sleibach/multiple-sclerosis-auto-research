@@ -1,0 +1,122 @@
+{
+  "claim": "gemini-2.5-pro generated eight V53 computational hypotheses; every item is a proposal with zero finding status until grounded on project data.",
+  "date_accessed": "2026-07-10",
+  "epistemic_class": "external-unverifiable",
+  "generation": {
+    "max_output_tokens": 10000,
+    "normalization": "removed one opening and one closing Markdown code-fence line; JSON content unchanged",
+    "parsed_output_sha256": "e450788711189d6382a8fd816780c47fc4d862ec29f8101900a9b6e74a11c75b",
+    "prompt_path": "analysis/v53_multilineage_generation/generation_prompt.md",
+    "proposal_count": 8,
+    "spend": "not exposed by the current SAP AI Core client response path",
+    "temperature": "client family default"
+  },
+  "model": {
+    "deployment_id": "d6dc532885507ac7",
+    "lineage": "Google Gemini",
+    "model": "gemini-2.5-pro",
+    "service": "SAP AI Core foundation-model inference"
+  },
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_use": "Divergent proposal generation followed by mandatory project-data grounding.",
+  "proposals": [
+    {
+      "concrete_prediction": "The change in mutual information between the 'IFN_APC' and 'HLA_II' modules from baseline to on-treatment will be significantly greater in magnitude for responders than for non-responders.",
+      "falsifier": "No statistically significant difference is found in the change of mutual information between the responder and non-responder groups, or the change is larger in non-responders.",
+      "held_data_test": "Using `treatment_pharmacodynamic_module_matrix.tsv` and `treatment_response_module_matrix.tsv`: 1. For responders and non-responders separately, discretize the 'IFN_APC' and 'HLA_II' module scores at baseline and on-treatment timepoints. 2. Calculate the mutual information MI(IFN_APC, HLA_II) for each group at each timepoint. 3. Compute the delta MI = MI_ontreatment - MI_baseline for each group. 4. The null hypothesis is that the absolute delta MI for responders is not significantly different from that of non-responders.",
+      "hypothesis": "Effective therapeutic response in APCs is characterized by a significant change in the informational complexity of the modular regulatory network, not merely a change in the magnitude of gene expression within a single module.",
+      "id": "CRL_2024_001",
+      "likely_failure_mode": "The module scores are too coarse-grained to capture the true network complexity. The limited number of patients prevents a robust estimation of probability distributions required for mutual information calculation.",
+      "minimum_next_data": "Single-cell RNA-seq from a larger cohort at baseline and multiple on-treatment timepoints to enable robust gene-level network inference and calculation of information-theoretic metrics per patient.",
+      "therapeutic_direction": "If response requires a state of lower (or higher) network complexity, therapies could be designed to push the system towards that state (e.g., canalization), potentially using combination therapies that constrain network dynamics rather than just activating a single pathway.",
+      "why_unconventional": "This shifts the focus from the expression level of specific modules (like the V22 scalar) to a holistic, system-level property (information theory). It proposes that the organization and predictability of the system's state, rather than just its activity, is the key differentiator of response."
+    },
+    {
+      "concrete_prediction": "A causal model trained on `perturbation_module_matrix.tsv` to predict module states will exhibit systematically larger prediction errors for the 'HLA_II' module in non-responders when applied to the `treatment_pharmacodynamic_module_matrix.tsv` data.",
+      "falsifier": "The distribution of prediction errors from the transferred model is identical for responders and non-responders, or the errors are larger in the responder group.",
+      "held_data_test": "1. Using `perturbation_module_matrix.tsv`, build a model (e.g., a multi-output regression or a structural equation model) that predicts 'HLA_II', 'MIF_CD74', and 'Lysosome' module scores based on the 'IFN_APC' score and the stimulus type. 2. Apply this model to the `treatment_pharmacodynamic_module_matrix.tsv`, using on-treatment 'IFN_APC' scores to predict on-treatment 'HLA_II' scores for each patient. 3. Calculate the prediction error (observed - predicted 'HLA_II' score). 4. Use `treatment_response_module_matrix.tsv` to test if the mean prediction error is significantly different from zero in the non-responder group but not the responder group.",
+      "hypothesis": "The causal graph learned from in-vitro cytokine perturbations is non-transferable to the in-vivo treatment context, and the specific mode of this transfer failure is what distinguishes responders from non-responders.",
+      "id": "CRL_2024_002",
+      "likely_failure_mode": "The in-vitro stimuli (IFN-b/g, TNF-a) are such a poor proxy for the in-vivo therapeutic perturbation that the transferred model is highly inaccurate for all patients, washing out any response-specific signal in the error.",
+      "minimum_next_data": "In-vitro perturbation-seq data using the actual therapeutic agent on donor APCs, not just proxy cytokines, to build a more relevant source model for transfer.",
+      "therapeutic_direction": "Identifying the specific causal links that are 'broken' or 'rewired' in non-responders points to targets for combination therapy that could restore the 'responder-like' network topology and sensitize them to the primary drug.",
+      "why_unconventional": "Instead of assuming in-vitro models are a faithful proxy for in-vivo biology, this hypothesis weaponizes the inevitable model-reality gap. The error of a counterfactual prediction becomes the signal, revealing hidden context-specific rewiring in non-responders."
+    },
+    {
+      "concrete_prediction": "The multivariate variance of the four APC module scores post-treatment will be significantly higher in the responder group compared to the non-responder group, indicating that responders are exploring a new region of state space while non-responders remain tightly clustered in their initial state.",
+      "falsifier": "The variance of on-treatment module scores is similar between groups or is significantly lower in responders, suggesting they converge to a tighter state.",
+      "held_data_test": "1. Using `treatment_pharmacodynamic_module_matrix.tsv` and `treatment_response_module_matrix.tsv`, stratify patients into responders and non-responders. 2. For the on-treatment timepoint, create two 4-dimensional datasets (one for responders, one for non-responders) where each point represents a patient's module scores. 3. Calculate the trace of the covariance matrix for each group. 4. The null hypothesis is that Tr(Cov(Responders)) <= Tr(Cov(Non-responders)).",
+      "hypothesis": "The APC system exhibits hysteresis, with distinct stable states for 'responsive' and 'non-responsive' potential. Treatment success depends on inducing a state transition, and non-responders are 'stuck' in a stable basin of attraction with a high energy barrier to transition.",
+      "id": "CRL_2024_003",
+      "likely_failure_mode": "The system is not truly multi-stable, and the observed differences in variance are artifacts of a small sample size or simply reflect different magnitudes of a unimodal response.",
+      "minimum_next_data": "High-frequency time-series transcriptomic data (e.g., every 6-12 hours for the first 72 hours) post-treatment to directly observe state transition dynamics and test for path-dependence.",
+      "therapeutic_direction": "If non-response is being 'stuck', therapies could be designed to lower the transition barrier. This might involve a high-dose 'induction' phase to force a state switch, followed by a lower 'maintenance' dose, or a combination therapy that adds 'noise' to the system.",
+      "why_unconventional": "This frames response as a discrete, path-dependent state-flip rather than a continuous, linear progression. It suggests that the system has memory and that transient stimuli can have lasting effects, a departure from simple equilibrium models."
+    },
+    {
+      "concrete_prediction": "The held data is insufficient to directly measure patient-specific network fragility. A test on new data would predict that direct perturbation of a key node (e.g., STAT1) in non-responder-derived APCs will result in a smaller downstream cascade (e.g., change in HLA-DR expression) compared to responder-derived APCs.",
+      "falsifier": "Direct measurement of perturbation propagation in patient-derived cells shows no correlation between network fragility and clinical response, or shows that non-responder networks are more fragile.",
+      "held_data_test": "The held artifacts cannot test this hypothesis. The `perturbation_module_matrix.tsv` reflects average responses across donors and cannot be stratified by patient response status. The `treatment_pharmacodynamic_module_matrix.tsv` lacks the perturbation dimension needed to probe network robustness.",
+      "hypothesis": "The regulatory network in non-responder APCs is overly robust and insensitive to the therapeutic perturbation, whereas the network in responders is appropriately 'fragile', allowing the perturbation to propagate and reconfigure the cell into a responsive state.",
+      "id": "CRL_2024_004",
+      "likely_failure_mode": "The concept of 'network fragility' is too abstract to be a primary biological driver, or it cannot be reliably estimated from noisy biological data. The response determinant is likely a single component's state, not a distributed network property.",
+      "minimum_next_data": "CRISPRi-based perturbation-seq screen targeting key transcription factors and signaling nodes in APCs derived from pre-treatment responders and non-responders. This would directly quantify the propagation of perturbations and measure network fragility.",
+      "therapeutic_direction": "If non-response is due to excessive network robustness, a 'sensitizer' drug could be developed. This drug's purpose would not be to treat the disease directly, but to induce network fragility, making the cells susceptible to the primary therapeutic agent.",
+      "why_unconventional": "This inverts the conventional view by proposing that 'fragility', not 'robustness', is a desirable property for a therapeutic response. It applies a concept from control theory to explain differential sensitivity to a drug."
+    },
+    {
+      "concrete_prediction": "In the 4-dimensional space of APC module scores, a linear hyperplane can be found that separates the cluster of all non-responder data points (pre- and post-treatment) from the cluster of on-treatment responder data points with high accuracy.",
+      "falsifier": "The state-space regions occupied by non-responders and on-treatment responders are highly overlapping, and no simple geometric boundary (i.e., a linear SVM) can separate them effectively.",
+      "held_data_test": "1. Using `treatment_pharmacodynamic_module_matrix.tsv`, create a dataset of 4-dimensional points (the module scores) for each patient and timepoint. 2. Label each point using `treatment_response_module_matrix.tsv`. 3. Define two classes: Class A = all points from non-responders. Class B = on-treatment points from responders. 4. Train a linear Support Vector Machine (SVM) to classify Class A vs. Class B. 5. The prediction is that the SVM will achieve a cross-validated classification accuracy significantly above chance (e.g., >90%).",
+      "hypothesis": "A 'forbidden zone' exists in the APC module state space where effective antigen presentation is inhibited. Non-responders are constrained within this zone, while responders can either exist outside it or are pushed out of it by therapy.",
+      "id": "CRL_2024_005",
+      "likely_failure_mode": "The apparent separation is an artifact of projecting a high-dimensional reality onto only four modules. The small number of patients leads to overfitting and a spurious separation.",
+      "minimum_next_data": "A larger patient cohort to validate the existence and boundaries of the proposed forbidden zone. Proteomic or metabolomic data to see if the separation holds in a higher-dimensional state space.",
+      "therapeutic_direction": "Characterizing the 'forbidden zone' could lead to a biomarker for non-response. Therapies could be designed to specifically push cells away from this zone, or patients whose cells are deeply entrenched in it could be routed to alternative treatments.",
+      "why_unconventional": "This is a 'negative space' hypothesis, focusing on what the system *cannot* do or where it *cannot* be. It defines non-response as a geometric constraint rather than a failure of activation."
+    },
+    {
+      "concrete_prediction": "A directed acyclic graph (DAG) of module dependencies inferred from on-treatment responders will be topologically more similar to the DAG inferred from the IFN-gamma arm of the perturbation data than to the DAGs from the IFN-beta or TNF-alpha arms.",
+      "falsifier": "The responder-inferred graph shows no unique similarity to the IFN-gamma graph, or it is most similar to the IFN-beta or TNF-alpha graph.",
+      "held_data_test": "1. From `perturbation_module_matrix.tsv`, infer three separate module DAGs, one for each stimulus (IFN-b, IFN-g, TNF-a), using an algorithm like PC or GES. 2. From `treatment_pharmacodynamic_module_matrix.tsv`, create 'delta' scores (on-treatment minus baseline) for each module. Infer two separate DAGs from these deltas: one for responders and one for non-responders. 3. Calculate the Structural Hamming Distance (SHD) between the responder DAG and each of the three stimulus DAGs. 4. The prediction is that SHD(Responder, IFN-g) will be the minimum of the three distances.",
+      "hypothesis": "The causal topology of the APC module network differs depending on the stimulating cytokine (IFN-b vs IFN-g vs TNF-a). Therapeutic response depends on the in-vivo drug effect inducing a network topology that specifically mimics the IFN-gamma-induced state.",
+      "id": "CRL_2024_006",
+      "likely_failure_mode": "The inferred graphs are unstable due to the small number of variables (4 modules) and high noise. The true in-vivo state is a complex superposition of signals that cannot be matched to any single in-vitro stimulus.",
+      "minimum_next_data": "If signal is too weak, a richer perturbation dataset with more nodes (e.g., 100 key genes) would allow for more robust graph inference and comparison.",
+      "therapeutic_direction": "If response requires an IFN-gamma-like network state, but a non-responder's profile resembles a TNF-alpha state, a combination therapy adding a TNF-alpha inhibitor could shift the network dynamics towards the productive, IFN-gamma-like topology.",
+      "why_unconventional": "This leverages the *disagreements* between different in-vitro perturbation datasets as the key source of signal, rather than trying to find their common features. It treats each stimulus as inducing a distinct causal operating mode."
+    },
+    {
+      "concrete_prediction": "AlphaFold will predict a high-confidence interaction between an IFN-inducible protein (e.g., IFI35) and an HLA class II loading machinery component (e.g., HLA-DMA). The `committed genetics/eQTL summaries` will contain an eQTL for one of these genes that is associated with the V22 response signature.",
+      "falsifier": "No high-confidence PPIs are predicted between proteins from the two modules, or the top predicted interactors have no corresponding genetic associations in the held eQTL summaries.",
+      "held_data_test": "1. Systematically query `confidence-scored AlphaFold records` for predicted PPIs between all proteins in the 'IFN_APC' gene list and all proteins in the 'HLA_II' gene list. Filter for pairs with high-confidence interface prediction (interface pLDDT > 85). 2. For the top candidate pair(s), query the `committed genetics/eQTL summaries and disagreement matrix` to check if any listed eQTLs for the corresponding genes show a significant association with an immune response phenotype. 3. The test passes if a structurally plausible pair is independently implicated by the provided genetic association data.",
+      "hypothesis": "A previously unappreciated physical protein-protein interaction (PPI) between a protein in the 'IFN_APC' module and one in the 'HLA_II' module acts as a rate-limiting gate for antigen presentation. Genetic variation influencing the expression or function of this gate's components determines therapeutic response.",
+      "id": "CRL_2024_007",
+      "likely_failure_mode": "AlphaFold predicts structurally plausible but biologically non-existent interactions. The critical interaction is transient or dependent on a post-translational modification not captured by the model. The held eQTL data is underpowered for the specific gene.",
+      "minimum_next_data": "Co-immunoprecipitation followed by mass spectrometry (Co-IP/MS) using IFN-gamma-stimulated human APCs to provide direct experimental evidence of the predicted physical interaction in a relevant biological context.",
+      "therapeutic_direction": "If a specific PPI is identified as a response gate, it becomes a novel drug target. A small molecule or peptide could be designed to stabilize (if agonistic) or disrupt (if antagonistic) this interaction to potentiate therapeutic response.",
+      "why_unconventional": "This grounds abstract network models in biophysical reality, using structural predictions to generate hypotheses that are orthogonal to pure expression-level analysis. It moves beyond known pathways to seek novel physical chokepoints."
+    },
+    {
+      "concrete_prediction": "The held data is insufficient. A test on new data would predict that in responders, the time-to-peak for the 'IFN_APC' module score will be significantly shorter than the time-to-peak for the 'HLA_II' module score. This temporal separation will be absent in non-responders.",
+      "falsifier": "High-resolution time-series data reveals no consistent temporal ordering of module activation in responders, or shows that the same temporal order exists in both responders and non-responders.",
+      "held_data_test": "The held artifacts are insufficient to test this hypothesis. The `treatment_pharmacodynamic_module_matrix.tsv` contains too few timepoints (e.g., baseline, one on-treatment point) to resolve the temporal sequence of module activation. Inferring dynamic order from two static snapshots is not possible.",
+      "hypothesis": "The temporal sequence of module activation is the determining factor for response. Responders exhibit a specific, ordered cascade (e.g., 'IFN_APC' activation, followed by 'Lysosome', then 'HLA_II'), while non-responders show a disordered, concurrent, or incorrectly ordered activation.",
+      "id": "CRL_2024_008",
+      "likely_failure_mode": "The critical dynamics occur on a timescale faster than can be resolved by transcriptomics (minutes vs. hours). The system's modules are activated in parallel through interconnected feedback loops, making a simple sequential model incorrect.",
+      "minimum_next_data": "Transcriptomic data from a new cohort of patients, sampled at high temporal resolution (e.g., 0, 2, 4, 8, 16, 24, 48 hours) following the first dose of therapy, to enable the reconstruction of dynamic module trajectories for responders and non-responders.",
+      "therapeutic_direction": "If a specific activation sequence is necessary, this suggests timed or sequential therapies. For example, a drug to induce the 'IFN_APC' module could be given for 12 hours, followed by a second drug to promote the 'Lysosome' and 'HLA_II' modules, thereby manually executing the correct biological program.",
+      "why_unconventional": "This introduces a temporal logic to the response model, moving beyond static states or simple changes in magnitude. It frames the response as a dynamic program where the order of operations is critical for the final outcome."
+    }
+  ],
+  "record_id": "V53_MODEL_PROPOSALS_GEMINI",
+  "record_type": "model_generated_proposals",
+  "relationship_note": "Proposals are retained for data-grounded triage only and cannot alter any finding, locked rule, pre-registration, or lead status.",
+  "relationship_to_project_findings": "untested",
+  "source": {
+    "citation": "SAP AI Core model inference invoked by scripts/sap_ai_core_client.py.",
+    "label": "gemini-2.5-pro via SAP AI Core foundation-model inference",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "Model-generated reasoning is not evidence and is not independently reproducible as a biological observation."
+}

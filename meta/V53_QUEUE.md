@@ -27,10 +27,14 @@ exhausted public-data discovery search as a source of findings.
 | MIF/CD74 direction-matched therapeutic verdict | done | Structure changes physical-tractability context, not absent causal/directional support; target remains not promoted. |
 | Coupled-axis combinatorial intervention probe | done | 24 signatures, 12 tests, 20,000 permutations; 0 pair-prioritization passes after BH plus max-T FWER. |
 | Coupled-axis network controllability probe | done | 24 signatures and 20,000 label permutations; RFX5 ranked first but no corrected or cross-stimulus control candidate. |
-| Multi-lineage unconventional generation | in-progress | Claude and Gemini propose divergent concrete hypotheses; model output remains proposal-only. |
-| RPT structured-axis generation | todo | Feed structured axis tables to RPT and ground any surfaced relationship. |
-| External convergence/contradiction check for MIF/CD74 | todo | Classed external context only; no external claim as evidence. |
+| Multi-lineage unconventional generation | done | Claude 8 + Gemini 8 proposals; grounded counts 1 supported methodological negative, 2 not-supported, 2 inconclusive, 11 untestable. |
+| RPT structured-axis generation | done | 16 leave-one-out feasibility predictions matched schema triage; no independent biology or anomaly added. |
+| External convergence/contradiction check for MIF/CD74 | in-progress | Classed external context only; no external claim as evidence. |
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
+| Causal-identifiability threshold sensitivity | todo | Test whether the zero-orientation result survives reasonable supported-edge definitions. |
+| V26 matrix semantic contract | todo | Machine-readable row-unit/timepoint/label contract to prevent invalid patient/temporal analyses. |
+| RFX5 single-context boundary packet | todo | Record exactly what independent perturbation context would be required; no promotion. |
+| Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -90,4 +94,11 @@ exhausted public-data discovery search as a source of findings.
   probe. RFX5 ranked first but no signature survived correction and replicated
   across stimuli; broad IFNGR/JAK control remained collateral-heavy. Cumulative
   active time accrued through this checkpoint is 1h50m35s; the resumed session
+  interval remains open.
+- 2026-07-10T23:00:01Z: Completed the first Claude/Gemini proposal round, full
+  16-item schema triage, three executable groundings, and 16-call RPT
+  leave-one-out feasibility lens. Only a methodological negative was supported:
+  the current three-edge APC skeleton has six equivalent acyclic orientations
+  and zero consensus direction. No biological lead was promoted. Cumulative
+  active time accrued through this checkpoint is 2h04m44s; the resumed session
   interval remains open.
