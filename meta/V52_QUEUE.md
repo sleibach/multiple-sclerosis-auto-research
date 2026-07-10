@@ -122,7 +122,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Received-package intake path dry run | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`; synthetic package under `analysis/received_package_intake/` routed to `monitoring_validation`, `matched`, 7/7 fields present. |
 | Receipt blocker template | done | `docs/validation/RECEIPT_BLOCKER_TEMPLATE_V52.md`; standard blocker note for terms/raw-data/manifest failures before analysis; linked and hash-covered. |
 | Package ID sanitizer/check note | done | `scripts/v52_validate_package_id.py`, `docs/validation/PACKAGE_ID_VALIDATION_NOTE_V52.md`, and synthetic checks validate `YYYYMMDD_lowercase_alnum_underscore_segments`; note is hash-covered. |
-| Received-package intake directory README | todo | Add a README explaining that `analysis/received_package_intake/` may contain safe metadata only, not raw restricted data. |
+| Received-package intake directory README | done | `analysis/received_package_intake/README.md` now states safe metadata/classifier outputs only, raw or restricted files prohibited, and the required intake flow. |
+| Received-package intake directory smoke audit | todo | Verify tracked intake-directory files contain only safe metadata/classifier outputs and no obvious raw-expression or restricted-label columns. |
+| Package intake operator quickstart card | todo | Add a compact operator card linking package ID validation, manifest template, route classifier, preflight decision table, and receipt blocker flow. |
+| Package ID validator regression fixture | todo | Record an explicit command-driven regression note for valid/invalid package IDs so operators can rerun the check after edits. |
+| Received-package intake README hash coverage | todo | Add the intake-directory README and quickstart card to the V52 operator artifact hash snapshot if they are stable operator controls. |
+| Package-intake handoff bundle refresh | todo | Link the intake README and quickstart card from the handoff bundle if they materially improve operator navigation. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -576,3 +581,7 @@ and V51 structural context without reopening broad public-data discovery.
   hashes. Result: package IDs are syntax-checked before intake path creation,
   synthetic pass/fail cases behave as expected, and the 34-row snapshot verifies
   cleanly.
+- 2026-07-10T14:14:04Z: Added `analysis/received_package_intake/README.md`.
+  Result: the intake directory now has a local boundary note stating that only
+  safe metadata/classifier artifacts belong there and raw or restricted package
+  files remain quarantined outside git.
