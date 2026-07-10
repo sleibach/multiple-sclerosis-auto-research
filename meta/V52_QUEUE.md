@@ -42,7 +42,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Chr1 genotype-linked data specification | done | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`; exact future data package needed to resolve GPR25 vs KIF21B and direction/modality. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
-| Structure-aware no-go table | todo | Convert GPR25/KIF21B/PTGER4 structure findings into a compact no-go / reopen-trigger table. |
+| Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | todo | Add a V52 operational note that token expires 2026-07-24 and targeted reruns should finish or renew before then. |
 
 ## Per-Iteration Notes
@@ -107,3 +107,11 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`. Result: chr1
   target work now has an exact genotype-linked immune/CSF expression/protein
   and perturbation data ask; no target is reopened without that package.
+- 2026-07-10T10:17:20Z: chr1 data specification committed and pushed as
+  `addb5b2b`; local and `origin/main` match. Continuing with structure-aware
+  no-go table.
+- 2026-07-10T10:18:37Z: Wrote
+  `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`. Result: GPR25,
+  KIF21B, PTGER4, and ZMIZ1 remain no-go for target promotion until
+  direction-matched biology and modality evidence arrive; AlphaFold context does
+  not override grounded genetics.
