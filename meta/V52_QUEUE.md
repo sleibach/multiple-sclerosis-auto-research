@@ -78,7 +78,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 RAG/index refresh | done | `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`; refreshed `knowledge/.index/` over 783 documents and smoke-query returned V52 therapeutic artifacts. |
 | Validation package field dictionary | done | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`; machine-readable required and optional fields by package type. |
 | Therapeutic path reviewer quickstart | done | `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`; reader roles, challenge map, and claim-boundary reminders. |
-| Monitoring pass/fail public wording table | todo | Define safe public wording for clean pass, immune-tone-bounded pass, fail, inconclusive, and unscoreable validation outcomes. |
+| Monitoring pass/fail public wording table | done | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`; safe public wording, caveat, forbidden wording, and next action by monitoring result class. |
 | chr1 no-go communication appendix | todo | Create collaborator-safe wording for why chr1 is real biology but not target-ready without genotype-linked direction evidence. |
 | V52 artifact hash snapshot | todo | Record hashes for key V52 operator artifacts for package-handoff integrity. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -324,3 +324,7 @@ and V51 structural context without reopening broad public-data discovery.
   reviewers now have a reading order, role-specific artifact map, and challenge
   checklist that keeps monitoring validation, target handoff, structure context,
   and future data asks separate.
+- 2026-07-10T12:00:31Z: Wrote
+  `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`. Result: each
+  future monitoring result class now has pre-specified public wording, internal
+  wording, required caveat, forbidden wording, and next action.

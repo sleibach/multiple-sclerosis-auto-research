@@ -50,6 +50,8 @@ therapeutic target.
   `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
 - Wrote monitoring clinical-utility boundary checklist:
   `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
+- Wrote monitoring public wording table:
+  `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`.
 - Wrote incoming-package communication templates:
   `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
 - Wrote package checksum intake checklist:
@@ -158,6 +160,7 @@ Concrete field specification:
 - `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`
 - `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`
 - `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`
+- `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`
 - `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`
 - `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`

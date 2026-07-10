@@ -190,6 +190,8 @@ Current frontier:
     `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
   - Monitoring clinical-utility boundary checklist:
     `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md`.
+  - Monitoring public wording table:
+    `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`.
   - Incoming package communication templates:
     `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`.
   - Package checksum intake checklist:
