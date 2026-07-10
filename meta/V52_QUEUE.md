@@ -42,7 +42,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Chr1 genotype-linked data specification | done | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`; exact future data package needed to resolve GPR25 vs KIF21B and direction/modality. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | done | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`; reopen requires one disease-relevant signal, one causal direction, one relevant cell state, and one plausible modality. |
-| GPR25 direction-matched modality spec | todo | Define exact agonism/restoration evidence needed before GPR25 can move from conditional biology to target workup. |
+| GPR25 direction-matched modality spec | done | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`; requires causal-gene resolution, cell-state presence, protective higher/restored direction, functional readout, and agonism/restoration modality. |
 | KIF21B restoration modality spec | todo | Define what up-function/restoration modality evidence would be plausible enough to revisit KIF21B. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -130,3 +130,11 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`. Result:
   PTGER4 has a strict reopen gate; structure or generic GPCR tractability alone
   still does not count.
+- 2026-07-10T10:26:21Z: PTGER4 reopen specification committed and pushed as
+  `a31b476d`; local and `origin/main` match. Continuing with GPR25 direction-
+  matched modality spec.
+- 2026-07-10T10:27:46Z: Wrote
+  `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`.
+  Result: GPR25 needs a full protective-haplotype to restoration/agonism chain
+  before target workup; GPCR structure or class membership alone remains
+  insufficient.

@@ -168,6 +168,8 @@ Current frontier:
     `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`.
   - Structure-aware no-go / reopen table:
     `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`.
+  - GPR25 direction-matched modality spec:
+    `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`.
   - PTGER4 signal-specific reopen spec:
     `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`.
   - Therapeutic validation handoff:
