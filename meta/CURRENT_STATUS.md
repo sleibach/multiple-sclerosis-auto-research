@@ -268,6 +268,8 @@ Current frontier:
     `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`.
   - Monitoring operator one-page card:
     `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md`.
+  - Monitoring minimum viable package checklist:
+    `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`.
   - Structural-prediction class and gate:
     `docs/knowledge/EPISTEMIC_CLASSES.md`;
     `scripts/v51_structural_prediction_gate.py`.

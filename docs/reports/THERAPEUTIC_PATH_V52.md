@@ -68,6 +68,7 @@ data and a direction-matched modality exist.
 | Monitoring validation command manifest | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` |
 | Monitoring validation result-report template | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md` |
 | Monitoring operator one-page card | `docs/validation/MONITORING_OPERATOR_ONE_PAGE_CARD_V52.md` |
+| Monitoring minimum viable package checklist | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md` |
 | Prospective monitoring utility study sketch | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` |
 | Monitoring clinical-utility boundary checklist | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md` |
 | Monitoring public wording table | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv` |

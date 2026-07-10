@@ -91,7 +91,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Validation route classifier worked examples | done | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`; plausible incoming packages mapped to route classes without running analysis. |
 | Incoming package preflight checklist consolidation | done | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md`; one-page preflight ordering terms, quarantine/checksum, route classification, field dictionary, acceptance criteria, hash check, and result templates. |
 | Chr1 target-resolution decision compact | done | `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`; compact go/no-go states for chr1 packages after classifier routing. |
-| Monitoring package minimum viable package checklist | todo | Create a concise required-vs-nice-to-have checklist for paired PBMC response packages. |
+| Monitoring package minimum viable package checklist | done | `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`; concise required-vs-preferred checklist for paired PBMC response packages. |
 | Therapeutic package handoff bundle index | todo | Bundle the operator-facing validation, chr1, and hash artifacts into a sendable handoff index. |
 | V52 route classifier TSV validation command | todo | Add a compact TSV schema check command for the classifier table. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -397,3 +397,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/CHR1_TARGET_RESOLUTION_DECISION_COMPACT_V52.tsv`.
   Result: packages routed to chr1 now have explicit not-scoreable, ambiguous,
   direction-supported, wrong-direction-control, and replicated-candidate states.
+- 2026-07-10T12:57:28Z: Wrote
+  `docs/validation/MONITORING_MINIMUM_VIABLE_PACKAGE_CHECKLIST_V52.md`. Result:
+  paired PBMC response packages now have a concise required-vs-preferred field
+  checklist before frozen monitoring analysis.
