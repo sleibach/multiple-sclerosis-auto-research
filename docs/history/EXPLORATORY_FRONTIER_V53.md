@@ -87,7 +87,30 @@ blocker.
 
 ## Workstream C: Combinatorial Intervention Logic
 
-Status: queued.
+Status: **not-supported for pair prioritization**.
+
+Executable audit:
+
+- `scripts/v53_combinatorial_intervention_probe.py`
+- `analysis/v53_combinatorial_intervention_probe/REPORT.md`
+- `analysis/v53_combinatorial_intervention_probe/combination_tests.tsv`
+- `analysis/v53_combinatorial_intervention_probe/summary.json`
+
+The test used 24 held perturbation-module signatures across IFN-beta,
+IFN-gamma, and TNF-alpha contexts. It compared every within-context two-node
+pair with the best single node under full-additive and fixed-total assumptions,
+using HLA-II plus receptor-state suppression as the target and IFN/APC plus
+lysosomal suppression as collateral guardrails.
+
+Across 12 pre-specified tests and 20,000 seeded within-row module-label
+permutations, no pair passed BH plus max-T family-wise correction. The strongest
+nominal fixed-total TNF-alpha improvement was only `0.0266` (raw `p=0.0138`,
+`q=0.166`, max-T FWER `0.9999`). In the IFN-gamma context, `RFX5` remained the
+best selective single signature and no pair improved it.
+
+This is not a synergy experiment. It establishes only that the current
+single-node perturbation data do not justify prioritizing an additive
+combination experiment or a multi-target therapeutic upgrade.
 
 ## Workstream D: Cross-Domain Methods
 
@@ -113,3 +136,5 @@ value is state-readout context.
 
 1. MIF/CD74 as a direction-resolved therapeutic target from currently held
    project data.
+2. Additive two-node APC-axis combinations as superior to the best single-node
+   signature under the current held perturbation matrix.

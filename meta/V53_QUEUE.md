@@ -25,8 +25,8 @@ exhausted public-data discovery search as a source of findings.
 | MIF/CD74 structure-first context | done | MIF/CD74 AlphaFold records plus RCSB coverage/contact audit; monomer confidence is weak at the experimental CD74-HLA interface, so no inferred complex claim. |
 | APC/HLA-II structure-first target map | done | Target-gated map covers 13 proteins; structural availability changed 0 causal/directional/selectivity/modality gates. |
 | MIF/CD74 direction-matched therapeutic verdict | done | Structure changes physical-tractability context, not absent causal/directional support; target remains not promoted. |
-| Coupled-axis combinatorial intervention probe | todo | Test whether multi-node project-data patterns exceed single-node patterns under null-aware evaluation. |
-| Coupled-axis network controllability probe | todo | Apply a cross-domain control-point analysis and ground any node ranking against held perturbation/data structure. |
+| Coupled-axis combinatorial intervention probe | done | 24 signatures, 12 tests, 20,000 permutations; 0 pair-prioritization passes after BH plus max-T FWER. |
+| Coupled-axis network controllability probe | in-progress | Apply a cross-domain control-point analysis and ground any node ranking against held perturbation/data structure. |
 | Multi-lineage unconventional generation | todo | Claude and Gemini propose divergent concrete hypotheses; model output remains proposal-only. |
 | RPT structured-axis generation | todo | Feed structured axis tables to RPT and ground any surfaced relationship. |
 | External convergence/contradiction check for MIF/CD74 | todo | Classed external context only; no external claim as evidence. |
@@ -81,3 +81,8 @@ exhausted public-data discovery search as a source of findings.
   changes after applying the existing causal, directional, selectivity, and
   modality prefilters. Cumulative active time accrued through this checkpoint
   is 1h42m57s; the resumed session interval remains open.
+- 2026-07-10T22:41:04Z: Completed the additive two-node intervention probe.
+  Across 24 held signatures, 12 tests, and 20,000 seeded permutations, no pair
+  passed BH plus max-T control. The current data do not justify a combination
+  experiment or multi-target upgrade. Cumulative active time accrued through
+  this checkpoint is 1h45m47s; the resumed session interval remains open.

@@ -1,0 +1,17 @@
+{
+  "input": "analysis/v26_deep_structure/perturbation_module_matrix.tsv",
+  "interpretation": "No biological synergy is claimed. The additive model only tests whether held single-node signatures justify prioritizing a real combination experiment.",
+  "multiple_testing": "BH across all tests plus max-T family-wise permutation p",
+  "n_permutations": 20000,
+  "n_prioritization_gate_passes": 0,
+  "n_signatures": 24,
+  "n_tests": 12,
+  "purpose": "V53 additive two-node intervention triage on held perturbation signatures",
+  "seed": 53002,
+  "stimuli": [
+    "IFNB",
+    "IFNG",
+    "TNFA"
+  ],
+  "verdict": "NO_ADDITIVE_PAIR_OUTPERFORMS_THE_BEST_SINGLE_NODE_UNDER_NULL_GATE"
+}
