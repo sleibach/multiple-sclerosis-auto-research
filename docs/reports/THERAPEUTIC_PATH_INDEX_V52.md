@@ -28,6 +28,7 @@ resolution.
 | `knowledge/tools/RAG_STATUS.md` | maintainer / resumed agent | local sparse index status and V52 refresh smoke query |
 | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` | maintainer / operator | SHA256 snapshot for key operator artifacts; excludes mutable navigation docs |
 | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md` | maintainer / operator | command note for checking the operator artifact hash snapshot before handoff |
+| `docs/reports/V52_OPERATOR_ARTIFACT_HASH_REFRESH_COMMANDS.md` | maintainer / operator | command note for refreshing hashes after intentional operator artifact edits |
 | `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv` | downstream tooling / operator | compact route status, next gate, blocker, action, and verdict table |
 | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` | downstream tooling / spreadsheet review | machine-readable route and lead status table |
 | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` | downstream tooling / go-no-go review | machine-readable reopen gates and non-counting evidence for closed or conditional leads |

@@ -23,6 +23,8 @@ V52 update:
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`.
 - V52 operator artifact hash verification command note:
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_VERIFY_COMMANDS.md`.
+- V52 operator artifact hash refresh command note:
+  `docs/reports/V52_OPERATOR_ARTIFACT_HASH_REFRESH_COMMANDS.md`.
 - V52 therapeutic route status dashboard:
   `docs/reports/THERAPEUTIC_ROUTE_STATUS_DASHBOARD_V52.tsv`.
 - Public-facing therapeutic summary card:
