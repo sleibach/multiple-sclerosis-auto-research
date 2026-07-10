@@ -43,7 +43,7 @@ and V51 structural context without reopening broad public-data discovery.
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | done | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md`; reopen requires one disease-relevant signal, one causal direction, one relevant cell state, and one plausible modality. |
 | GPR25 direction-matched modality spec | done | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`; requires causal-gene resolution, cell-state presence, protective higher/restored direction, functional readout, and agonism/restoration modality. |
-| KIF21B restoration modality spec | todo | Define what up-function/restoration modality evidence would be plausible enough to revisit KIF21B. |
+| KIF21B restoration modality spec | done | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`; standard inhibition/degradation/knockdown remain wrong-direction unless future data prove otherwise. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
 
@@ -138,3 +138,10 @@ and V51 structural context without reopening broad public-data discovery.
   Result: GPR25 needs a full protective-haplotype to restoration/agonism chain
   before target workup; GPCR structure or class membership alone remains
   insufficient.
+- 2026-07-10T10:29:04Z: GPR25 modality specification committed and pushed as
+  `e46233e4`; local and `origin/main` match. Continuing with KIF21B
+  restoration modality spec.
+- 2026-07-10T10:30:27Z: Wrote
+  `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`. Result:
+  KIF21B requires causal resolution plus restoration/up-function modality and
+  protective perturbation evidence before target workup.

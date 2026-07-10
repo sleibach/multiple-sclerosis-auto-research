@@ -44,6 +44,7 @@ data and a direction-matched modality exist.
 | chr1 genotype-linked future data spec | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md` |
 | Structure-aware no-go / reopen table | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md` |
 | GPR25 direction-matched modality spec | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md` |
+| KIF21B restoration modality spec | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md` |
 | PTGER4 signal-specific reopen spec | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md` |
 | Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
 | ZMIZ1 restored-OpenGWAS direction handoff | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md` |
