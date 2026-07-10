@@ -72,6 +72,7 @@ resolution.
 | `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md` | chr1 KIF21B/GPR25 | collaborator-safe wording explaining why chr1 is real biology but not target-ready |
 | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md` | chr1 KIF21B/GPR25 | fixed future result-report shell for genotype-linked package interpretation |
 | `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md` | chr1 KIF21B/GPR25 | one-page chr1 package staged-review quick card |
+| `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md` | chr1 KIF21B/GPR25 | wrong-direction perturbation controls and interpretation rules |
 | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md` | GPR25 | required protective-haplotype to agonism/restoration chain |
 | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md` | KIF21B | required restoration/up-function chain |
 | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md` | PTGER4 | signal-specific reopen gate for a direction-conflicted locus |

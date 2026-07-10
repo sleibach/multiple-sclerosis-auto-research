@@ -82,7 +82,7 @@ and V51 structural context without reopening broad public-data discovery.
 | chr1 no-go communication appendix | done | `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`; collaborator-safe wording for real chr1 biology without target promotion. |
 | V52 artifact hash snapshot | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; SHA256 snapshot of key operator artifacts, excluding mutable navigation docs. |
 | Monitoring result-class examples | done | `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`; concrete scenario-to-class examples for future monitoring packages. |
-| chr1 wrong-direction control checklist | todo | Define how future chr1 perturbation packages must include wrong-direction controls without treating them as therapeutic routes. |
+| chr1 wrong-direction control checklist | done | `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`; labels and interpretation rules for wrong-direction perturbation controls. |
 | Post-validation route update playbook | todo | Create the route-status update playbook for PASS/FAIL/INCONCLUSIVE monitoring and chr1 package outcomes. |
 | Therapeutic no-target public abstract | todo | Draft a concise external abstract that states monitoring-first and no-current-target without weakening the result. |
 | OpenGWAS expiry-day runbook | todo | Write the operational runbook for token expiry, renewal, and no-false-null routing after 2026-07-24. |
@@ -348,3 +348,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`. Result: future
   monitoring package outcomes now have concrete examples mapping common
   scenarios to the conservative V42/V52 result classes.
+- 2026-07-10T12:14:04Z: Wrote
+  `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`.
+  Result: future chr1 perturbation packages now have pre-specified labels and
+  interpretation rules so inhibitors, knockdowns, antagonists, and other
+  wrong-direction tests remain controls unless genetics proves them protective.

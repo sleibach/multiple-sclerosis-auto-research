@@ -81,6 +81,8 @@ V52 update:
   `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`.
 - chr1 operator one-page card:
   `docs/workups/genetics/CHR1_OPERATOR_ONE_PAGE_CARD_V52.md`.
+- chr1 wrong-direction control checklist:
+  `docs/workups/genetics/CHR1_WRONG_DIRECTION_CONTROL_CHECKLIST_V52.md`.
 - Structure-aware no-go / reopen table:
   `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`.
 - GPR25 direction-matched modality spec:
