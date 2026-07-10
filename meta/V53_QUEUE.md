@@ -41,7 +41,7 @@ exhausted public-data discovery search as a source of findings.
 | De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
 | Cross-modality de-overlap feasibility | in-progress | Perturbation and cell-state layers are executable and complete; treatment-response raw inputs are held and queued; cross-disease summary depends on rebuilt component layers. |
 | Cell-state module de-overlap | done | Five held h5ad files, 12 contexts; exact rebuild. HLA/receptor rho 0.832 to 0.175, q=0.582, attenuation CI -1.380 to -0.051. Global coupled-axis formulation now requires re-assessment. |
-| Treatment-response sample-layer de-overlap | todo | Recompute IBD and RA response module scores from held gene-level matrices using disjoint modules; re-run dependency tests. |
+| Treatment-response sample-layer de-overlap | done | Exact 46-RA/30-IBD rebuild; HLA/receptor rho 0.878 to -0.059, disjoint q=0.807/0.671, attenuation CI -1.361 to -0.411. Three original layers now fail; coupled two-arm formulation demoted. |
 | Pharmacodynamic multi-cohort de-overlap | todo | Inventory and recompute every treatment-pharmacodynamic context with retained gene-level inputs; mark irrecoverable aggregate-only rows explicitly. |
 | Cross-disease summary de-overlap | todo | Rebuild only after executable underlying cell-state layers are resolved; do not infer from overlapping aggregate summaries. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
@@ -169,4 +169,12 @@ exhausted public-data discovery search as a source of findings.
   now fail disjoint-readout robustness, so the global coupled-axis formulation
   is under re-assessment while the recurrent APC state remains separate.
   Cumulative active time accrued through this checkpoint is 2h46m58s; the
+  resumed session interval remains open.
+- 2026-07-10T23:46:29Z: Completed RA/IBD treatment-response de-overlap from
+  held gene-level inputs. The exact 20-row rebuild changes HLA-II/receptor-state
+  rho from 0.878 to -0.059 (`q=0.807` global, `0.671` stratified), with paired
+  attenuation CI -1.361 to -0.411. Three of four original supporting modalities
+  now fail strict de-overlap, so the independent coupled two-arm formulation is
+  demoted while broad APC-state recurrence and the locked V22 rule remain.
+  Cumulative active time accrued through this checkpoint is 2h51m12s; the
   resumed session interval remains open.

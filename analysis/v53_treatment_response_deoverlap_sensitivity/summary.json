@@ -1,0 +1,21 @@
+{
+  "boundary": "This recomputes the V26 RA/IBD response-test layer only; it does not alter V22 or any locked validation rule.",
+  "hla_mif_original_spearman": 0.8781954887218045,
+  "hla_mif_original_stratified_q": 0.0002999850007499625,
+  "hla_mif_survives_deoverlap_gate": false,
+  "hla_mif_unique_global_q": 0.8068096595170241,
+  "hla_mif_unique_spearman": -0.05864661654135337,
+  "hla_mif_unique_stratified_q": 0.6706664666766663,
+  "ibd_patients": 30,
+  "max_absolute_v26_matrix_rebuild_error": 2.220446049250313e-16,
+  "n_test_contexts": 20,
+  "purpose": "V53 RA/IBD treatment-response dependency sensitivity using globally disjoint module genes",
+  "ra_patients": 46,
+  "unique_gene_counts": {
+    "hla_ii_apc": 2,
+    "ifn_apc": 4,
+    "lysosomal_apc": 6,
+    "mif_cd74_receptor_state": 2
+  },
+  "verdict": "TREATMENT_RESPONSE_HLA_MIF_EDGE_FAILS_DISJOINT_READOUT_GATE"
+}

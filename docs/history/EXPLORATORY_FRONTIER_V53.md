@@ -268,6 +268,22 @@ coupled cannot remain robust without comparable disjoint-readout support in the
 treatment-response layers. Those rebuilds are now the highest-priority open
 V53 work. No module definition or locked rule has been edited.
 
+The RA/IBD treatment-response layer was then reprocessed from held gene-level
+counts and pseudobulk inputs: 46 RA and 30 IBD patients, with the original
+20-row V26 matrix reproduced to maximum error `2.22e-16`. HLA-II/APC versus
+receptor-state coupling collapses from `rho=0.878` to `-0.059`; disjoint global
+and dataset/endpoint-stratified q-values are `0.807` and `0.671`, and the paired
+attenuation CI is `-1.361` to `-0.411`.
+
+Three of the four modalities that supported the original edge now fail a
+disjoint-readout test. The V26 claim must therefore be regraded now: the data
+support a recurrent broad APC/immune-state architecture, but not an
+independently coupled HLA-II versus MIF/CD74 receptor-state two-arm architecture
+as originally operationalized. The remaining pharmacodynamic rebuild can refine
+the scope but cannot restore cross-modality robustness by itself. This regrade
+does not edit or retune the locked V22 monitoring rule; it changes the mechanistic
+interpretation around that rule.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -315,6 +331,11 @@ None yet.
    the disjoint score collapses from `rho=0.832` to `0.175`, with attenuation
    established by paired bootstrap. The recurrent APC state remains distinct
    from an independently coupled two-arm architecture.
+4. Treatment-response HLA-II/receptor-state coupling is also
+   definition-overlap-sensitive (`rho=0.878` to `-0.059`, attenuation CI wholly
+   below zero). With three of four original modalities failing de-overlap, the
+   independent two-arm coupled-axis formulation is demoted; broad APC-state
+   recurrence remains.
 
 ### Promising-but-needs-data
 
@@ -331,3 +352,5 @@ value is state-readout context.
    perturbation and dependency matrices.
 4. RFX5 as a corrected, cross-context control node or therapeutic target; its
    current value is limited to a nominal single-context mechanism comparator.
+5. The original independently coupled HLA-II/MIF-CD74 two-arm architecture;
+   strict disjoint-readout recomputation fails in three supporting modalities.
