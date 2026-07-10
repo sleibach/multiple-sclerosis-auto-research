@@ -58,7 +58,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring validation command manifest | done | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`; exact interpreter precheck, preflight gates, frozen harness command, outputs, and non-commands. |
 | Therapeutic claim hierarchy | done | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`; separates locked rules, grounded findings, provisional monitoring, mechanism context, target handoffs, structure context, and future asks. |
 | Target package acceptance criteria TSV | done | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`; machine-readable accept/partial/reject criteria by package type. |
-| Prospective monitoring utility study sketch | todo | Define what a post-validation clinical-utility study would need without changing the frozen rule. |
+| Prospective monitoring utility study sketch | done | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`; defines the post-validation prospective utility study needed before any score-guided clinical action. |
+| Monitoring-to-clinical-utility boundary checklist | todo | Convert utility-study boundaries into a compact checklist for external reviewers and medical-team decisions. |
+| Chr1 collaborator assay request appendix | todo | Translate chr1 direction-matched data requirements into a collaborator-facing assay appendix. |
+| V52 machine-readable artifact manifest | todo | Emit a TSV or JSONL manifest of V52 artifacts, type, status, and primary use for downstream navigation. |
+| Therapeutic route risk register | todo | Catalog residual operational, evidentiary, and interpretation risks for each V52 route without changing verdicts. |
+| OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -218,5 +223,10 @@ and V51 structural context without reopening broad public-data discovery.
   future data ask.
 - 2026-07-10T11:08:13Z: Wrote
   `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`. Result:
-  incoming packages now have route-specific accept, partial-context, and reject
-  criteria before any analysis.
+  incoming monitoring, chr1, postpartum, T/B, and structure-support packages now
+  have machine-readable accept/partial/reject criteria.
+- 2026-07-10T11:11:25Z: Wrote
+  `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`. Result:
+  a positive external validation is explicitly separated from clinical utility;
+  score-guided action would need a later prospective decision-impact/action
+  study, not post-hoc interpretation of Gafson or Karolinska.

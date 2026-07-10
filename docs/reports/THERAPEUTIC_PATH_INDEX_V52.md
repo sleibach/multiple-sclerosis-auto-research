@@ -39,6 +39,7 @@ resolution.
 | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` | validation operator / data triage | machine-readable accept/partial/reject criteria by package type |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |
 | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` | validation operator | exact command order for preflight, self-test, frozen harness, and interpretation routing |
+| `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` | medical team / study designer | defines the post-validation prospective utility study needed before clinical action |
 | `docs/validation/PREREGISTRATION_V42.md` | validation operator | frozen Gafson analysis plan |
 | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` | validation operator / reviewer | pre-committed interpretation of pass/fail/inconclusive outcomes |
 | `docs/validation/POWER_MAP_V43.md` | study designer | cohort-size and effect-size expectations |

@@ -25,6 +25,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`.
 - Therapeutic claim hierarchy:
   `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`.
+- Prospective monitoring utility study sketch:
+  `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
 - Structural evidence-boundary QA:
   `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`.
 - Therapeutic contradiction surveillance triggers:
