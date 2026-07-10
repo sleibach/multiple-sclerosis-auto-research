@@ -143,26 +143,32 @@ evidence unless a later committed grounding analysis tests it.
 V48 and V49 populated and hardened the convergence/contradiction layer. V49
 also purged disposable oversized cache paths from history, added push-safe
 ignore rules, and restored repository hygiene after the history rewrite.
-V51 is the current live operational phase. It integrates AlphaFold DB structural
-prediction retrieval as its own strictly segregated external structural context
-class, with confidence-aware records under `knowledge_external/structures/`.
-V51 does not change the locked V22 rule, the V42 pre-registration, the V41
-public-data discovery boundary, or the V19 chr1 grounded genetics verdict.
+V52 is the current live operational phase. It synthesizes the therapeutic path
+from the mature project evidence, renewed OpenGWAS access, and V51 structural
+context without reopening broad public-data discovery. V52 does not change the
+locked V22 rule, the V42 pre-registration, the V41 public-data discovery
+boundary, or the V19 chr1 grounded genetics verdict.
 
 Current frontier:
 
-- V51 structural-prediction integration state:
+- V52 therapeutic-path state:
   - Queue / resume backbone:
-    `meta/V51_QUEUE.md`.
+    `meta/V52_QUEUE.md`.
+  - Therapeutic-path synthesis:
+    `docs/reports/THERAPEUTIC_PATH_V52.md`.
+  - Restored OpenGWAS bounded catch-up:
+    `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
   - Structural-prediction class and gate:
     `docs/knowledge/EPISTEMIC_CLASSES.md`;
     `scripts/v51_structural_prediction_gate.py`.
   - AlphaFold DB client:
     `scripts/v51_alphafold_db_client.py`.
-  - First real structural record:
-    `knowledge_external/structures/alphafold/GPR25_O00155/record.json`.
-  - Prediction-informed context note:
+  - chr1 structural records:
+    `knowledge_external/structures/alphafold/GPR25_O00155/record.json`;
+    `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`.
+  - Prediction-informed context notes:
     `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
+    `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
   - External-context boundary:
     `docs/knowledge/EPISTEMIC_CLASSES.md`;
     `knowledge_external/INDEX.md`;
@@ -181,12 +187,13 @@ Current frontier:
     V49 purged oversized disposable cache paths from history; plain
     `git push origin main` is functioning again as of V50 task 58.
   - OpenGWAS:
-    JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until renewed.
-    Route through V50's non-OpenGWAS public APIs or wait for renewal.
+    JWT renewed and verified on `2026-07-10`; POST-only `gwasinfo` and
+    `tophits` returned HTTP 200; decoded expiry `2026-07-24 08:00 UTC`.
   - Current decision:
     - Keep the grounded/external boundary explicit.
-    - Keep pushing every committed iteration while V51 is active.
-    - Do not run OpenGWAS-dependent work until token renewal.
+    - Keep pushing every committed iteration while V52 is active.
+    - Use restored OpenGWAS only for targeted bounded reruns, not broad
+      discovery.
     - Treat all external-context records as navigation/context unless a later
       project-grounding analysis tests them.
 

@@ -1,0 +1,222 @@
+# Therapeutic Path V52
+
+Date: 2026-07-10
+
+Status: synthesis and targeted re-examination only. V52 does not reopen broad
+public-data discovery, change locked rules, or promote any predicted structure
+to project-grounded evidence.
+
+## Executive Verdict
+
+The most defensible near-term path to MS impact remains **monitoring /
+stratification**, not a direct therapeutic target. The bounded APC/HLA-II
+early-treatment scalar is the only route that could plausibly become clinically
+actionable with the next external dataset, provided the frozen V42/V44
+validation harness passes on Gafson/Karolinska-style paired DMF/NEDA data.
+
+No genetics lead currently reaches intervention-grade status. Structure helps
+make the chr1 KIF21B/GPR25 verdict sharper, but it does not reverse it:
+
+- GPR25 is structurally plausible as a GPCR-like receptor, but causal-gene
+  uncertainty, sparse cell-state support, immature chemical matter, and the
+  required agonism/restoration direction keep it from being a tractable MS
+  target now.
+- KIF21B is not structurally undruggable by first principles; the motor domain
+  and binding-site region are confidence-supported. But the genetics-facing
+  direction is restoration/up-function, while conventional kinesin inhibition,
+  degradation, or knockdown would likely be wrong-direction.
+
+The honest therapeutic-path answer is therefore: validate the monitoring lead
+first; keep chr1 as a controlled-data and modality-development handoff; do not
+spend wet-lab budget on a target claim until genotype-linked expression/protein
+data and a direction-matched modality exist.
+
+## Inputs Used
+
+| evidence layer | artifact |
+|---|---|
+| Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
+| Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
+| Validation power / study design | `docs/validation/POWER_MAP_V43.md` |
+| chr1 KIF21B/GPR25 genetics/druggability | `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md` |
+| Restored OpenGWAS bounded rerun | `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md` |
+| GPR25 structural prediction context | `knowledge_external/structures/alphafold/GPR25_O00155/record.json`; `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
+| KIF21B structural prediction context | `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`; `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md` |
+| OpenGWAS restored access | `scripts/check_opengwas_access.py`, run 2026-07-10; POST-only HTTP 200 on `gwasinfo` and `tophits`; decoded expiry `2026-07-24 08:00 UTC` |
+
+Structural predictions are used only as confidence-qualified context for
+tractability. They do not alter grounded genetics verdicts.
+
+## Ranked Routes Toward Impact
+
+| rank | route | defensibility | evidence status | what it could become | what it needs next |
+|---:|---|---|---|---|---|
+| 1 | Bounded APC/HLA-II early treatment-response monitoring scalar | highest | provisional but tool-robust and confounder-audited | early DMF-like treatment-response monitoring / stratification rule | Frozen V42/V44 validation on Gafson/Karolinska paired PBMC data with NEDA labels, batch diagnostics, and V32 confounder panels |
+| 2 | APC/HLA/IFN/MIF-CD74 coupled architecture | high as mechanism, low as target | supported mechanistic context | explanatory backbone for why the scalar works and where it should transfer | External validation that preserves the scalar first; do not fit a successor rule on validation data |
+| 3 | chr1 KIF21B/GPR25 shared MS-UC locus | real biology, not target-ready | supported hard-target / controlled-data handoff | causal-biology lead if genotype-linked expression/protein resolves the gene and cell type | Genotype-stratified immune/CSF single-cell or protein data; perturbation readout for the winning gene |
+| 4 | Postpartum HLA-II/CD64 APC-arm imbalance | clinically anchored but data-gated | provisional biology lead | natural-history relapse-window biomarker/mechanism | Postpartum MS blood/CSF with relapse timing, DMT restart, steroid, infection, lactation, and cell-count metadata |
+| 5 | ZMIZ1 opposite-direction MS/Crohn locus | strong caution, not target | supported decoupling | transfer-validity warning and publication-grade genetics result | Optional full-QTL publication workup; not a therapeutic path without new MS-specific direction evidence |
+| 6 | PTGER4, NAMPT, EBV/IFN imprint, complement/lipid, REL/PUS10/USP34 | low | closed/downgraded/parked | none under current standards | Reopen only with the specific missing evidence named in V37/V39/V49; do not treat prior-art or structure as rescue |
+
+## Route 1: Monitoring / Stratification
+
+The bounded APC/HLA-II scalar remains the single most defensible route toward
+impact because it has a frozen rule, small-n validation signal, tool-robustness
+across V28 lenses, and a V32 confounder audit showing it is not simply
+glucocorticoid or simple cell-composition artifact. It is still not clinically
+validated. V32 and V41 narrow the interpretation to an immune-tone-bounded
+early-remodeling monitor rather than a pure APC/HLA-II-specific biomarker.
+
+Therapeutic relevance is indirect but real: a validated early-response monitor
+could guide whether a patient is moving into a favorable pharmacodynamic state
+under DMF-like immune-remodeling treatment. This is not a new drug and not a
+cure-class result. It is the project’s most credible near-term clinical output.
+
+Validation reality from V43: a Gafson-sized cohort may be informative but may
+not settle the rule unless the true effect is large and labels are clean.
+Therefore the validation must report effect size with confidence intervals even
+if it is inconclusive, and the medical team should keep seeking at least
+`30` samples per response group for a conclusive powered study at effect size
+around `1.0` under clean labels.
+
+## Route 2: Coupled APC Architecture
+
+The coupled APC/HLA/IFN/MIF-CD74/lysosomal architecture is mechanistically
+useful but not therapeutic on its own. V26/V41 show recurrence and held-out
+treatment-response support for the known APC-axis structure. V27/V28 show that
+more complex coupled features do not fairly beat the locked scalar.
+
+Therapeutic implication: the axis helps define transfer boundaries and
+confounder panels; it should not be turned into a target list. The safe use is
+as validation interpretation and assay-design context.
+
+## Route 3: chr1 KIF21B/GPR25
+
+### GPR25
+
+Grounded genetics status:
+
+- V17/V19: GPR25 remains strongest in the eQTLGen shared-block signal and V17
+  bounded disease-vs-eQTL SuSiE-coloc (`MS/eQTL PP.H4 = 0.969296`;
+  `UC/eQTL PP.H4 = 0.981623`).
+- V18/V19: public immune-QTL sources acquired later did not support GPR25
+  (`OneK1K`, `DICE`, and QTD000021 had no GPR25 target hit).
+- V17/V19: local MS CNS and available scRNA/h5ad scans found GPR25 absent or
+  trace.
+
+Structural context:
+
+- AlphaFold DB `AF-O00155-F1`, version `6`, was retrieved and parsed.
+- Mean pLDDT `82.447`; median pLDDT `92.06`; residues with pLDDT >= 70:
+  `79.5014%`.
+- Low-confidence segments: residues `1-28` and `338-360`.
+- Mean PAE `12.9196`; median PAE `8.0`.
+- V19 domain summary: all seven transmembrane helices have mean pLDDT
+  `>= 90.899`.
+
+Verdict: structure confirms the original first-principles point that GPR25 has
+a plausible GPCR fold and tractable receptor-like core. It does **not** solve
+the reasons the lead was demoted: causal-gene uncertainty, weak cell-state
+support, minimal chemical matter, and a required direction of higher signaling
+or restoration. GPR25 moves **nowhere closer to intervention-grade** in V52; it
+remains a conditional causal-biology candidate.
+
+Evidence that would reopen GPR25:
+
+1. Genotype-linked immune/CSF expression or surface-protein data showing the
+   protective haplotype raises GPR25 in an MS-relevant cell subset.
+2. Functional perturbation showing GPR25 agonism/restoration moves a relevant
+   lymphocyte trafficking/residency or immune-remodeling phenotype in the
+   protective direction.
+3. Tool chemistry or ligand biology sufficient for agonism/restoration, not
+   just antagonist-like pocket occupancy.
+
+### KIF21B
+
+Grounded genetics status:
+
+- V19 dense QTD000021 KIF21B colocalization supports KIF21B as a serious chr1
+  candidate (`MS/eQTL PP.H4 = 0.874879034973956`;
+  `UC/eQTL PP.H4 = 0.868660082128031`).
+- V17 bounded eQTL SuSiE-coloc also supports KIF21B (`MS/eQTL PP.H4 =
+  0.956099`; `UC/eQTL PP.H4 = 0.963951`).
+- Exact shared credible-set SNP direction in QTD000021: MS and UC risk alleles
+  lower KIF21B expression in `11 / 11` exact shared SNPs.
+
+Structural context:
+
+- AlphaFold DB `AF-O75037-F1`, version `6`, was retrieved and parsed.
+- Full-length mean pLDDT `69.6468`; median pLDDT `78.81`; residues with pLDDT
+  >= 70: `62.4313%`.
+- Mean PAE `25.3243`; median PAE `28.0`, consistent with uncertain relative
+  placement among flexible regions.
+- V19 domain summary remains the decision-relevant part: kinesin motor domain
+  residues `8-370` have mean pLDDT `83.95`, median `90.06`, and `87.1%`
+  residues with pLDDT >= 70; binding-site annotation residues `87-94` have mean
+  pLDDT `90.71`.
+
+Verdict: KIF21B is not dismissed by structure. The motor/binding-site regions
+are sufficiently modeled to support first-principles ligandability context. But
+the genetics-facing therapeutic direction remains restoration/up-function.
+That means conventional kinesin inhibition, degradation, ASO, or siRNA would
+likely move the wrong way for this locus. Structure therefore **confirms a
+nuanced closure**: ligandable in principle, directionally hard in practice.
+
+Evidence that would reopen KIF21B:
+
+1. Publication-grade genotype-linked data resolving KIF21B as the causal gene
+   in an MS-relevant immune/CSF cell subset.
+2. Perturbation showing increased KIF21B expression/function moves the relevant
+   immune-cell phenotype in a protective direction.
+3. A plausible restoration/up-function modality, not a generic inhibitor or
+   loss-of-function approach.
+
+## Other Direction-Closed Leads
+
+| lead | current status | why closed or parked | what would reopen |
+|---|---|---|---|
+| PTGER4 | closed naive transfer target | multi-signal locus with direction conflict; druggability does not rescue mixed causal interpretation | signal-specific cell-type QTL resolving a protective MS direction plus MS-safe modality |
+| ZMIZ1 | transfer-validity warning | same locus has opposite MS/Crohn direction; no direct tractable MS modality | direct MS eQTL/protein direction and perturbation showing MS-protective modulation |
+| NAMPT/eNAMPT | marker/covariate only | metabolic/inflammatory context and confounding, not target-grade evidence | causal perturbation and direction-matched MS benefit, not broad stress correlation |
+| EBV/IFN APC imprint | downgraded | specificity controls failed; context too broad | EBV-stratified B-cell/APC data showing MS-specific, module-specific imprint |
+| Complement/lipid progressive axis | downgraded | weak lipid/repair context; no APC-resolved causal direction | progressive/chronic-active lesion data with reproducible direction and perturbation |
+| REL/PUS10/USP34 | closed | disease SuSiE-coloc screen did not support | new robust coloc/direction evidence under frozen criteria |
+
+## Restored OpenGWAS Access: What It Changes
+
+The renewed token removes an operational blocker but does not itself change any
+lead. On 2026-07-10, `scripts/check_opengwas_access.py` loaded `.env`, decoded
+expiry `2026-07-24 08:00 UTC`, and returned HTTP 200 on POST-only `gwasinfo`
+and `tophits` for `ieu-b-18`. The bounded confirmed-locus rerun is recorded in
+`docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
+
+For V52, restored OpenGWAS should be used only for targeted catch-up:
+
+- refresh or verify specific LD/sumstat routes that were previously blocked by
+  expiry;
+- rerun frozen chr1/ZMIZ1/PTGER4 direction or coloc checks only where scripts
+  already specify a bounded locus and allele-harmonized method;
+- avoid broad new locus discovery, because V41 closed unconstrained public-data
+  discovery under the current corpus gate.
+
+No V52 target verdict should change merely because authentication is restored.
+It changes only if a targeted frozen rerun produces a different grounded result.
+The V52 confirmed-locus rerun did not change any therapeutic verdict: chr1 and
+chr10 reproduced, chr17 remained weak, and chr5/PTGER4 retained its multi-signal
+caution.
+
+## Decision-Relevant Bottom Line
+
+1. **Most defensible clinical path:** validate the bounded APC/HLA-II scalar as
+   an early treatment-response monitor.
+2. **Most defensible target path:** none yet. chr1 is the closest biology-to-
+   target bridge, but both candidates remain direction/modality-gated.
+3. **What structure changed:** it upgraded confidence that GPR25 and KIF21B are
+   structurally interpretable in the relevant regions; it did not make either
+   direction-matched or causally resolved.
+4. **What restored genetics changes:** it removes a blocker for targeted
+   rechecks; it does not reopen discovery and does not automatically rescue a
+   closed lead.
+5. **Medical-team ask:** prioritize Gafson/Karolinska validation data and, if
+   target discovery remains a priority, genotype-linked immune/CSF expression
+   plus protein data for the chr1 haplotype.

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""V50 status freshness linter.
+"""Status freshness linter.
 
-This linter checks that public landing/status files point to the live V50 queue
-and do not retain stale "current phase" or OpenGWAS-validity wording.
+This linter checks that public landing/status files point to the live queue
+and do not retain stale live-status wording.
 
 It is a navigation/status control only. It does not evaluate biological claims.
 """
@@ -39,6 +39,13 @@ def latest_queue_phase(meta_dir: Path) -> str:
     return f"V{max(phases)}"
 
 
+def phase_number(phase: str) -> int:
+    match = re.fullmatch(r"V(\d+)", phase)
+    if not match:
+        raise ValueError(f"Expected phase like V52, got {phase!r}")
+    return int(match.group(1))
+
+
 def read_rel(rel: str) -> str:
     return (ROOT / rel).read_text(encoding="utf-8")
 
@@ -57,6 +64,7 @@ def add_not_contains(
 
 def run_checks(expected_phase: str) -> list[Check]:
     checks: list[Check] = []
+    expected_phase_number = phase_number(expected_phase)
     readme = read_rel("README.md")
     current = read_rel("meta/CURRENT_STATUS.md")
     next_actions = read_rel("meta/NEXT_ACTIONS.md")
@@ -97,13 +105,22 @@ def run_checks(expected_phase: str) -> list[Check]:
         f"meta/{expected_phase}_QUEUE.md",
         "current_status_live_queue_pointer",
     )
-    add_contains(
-        checks,
-        "meta/CURRENT_STATUS.md",
-        current,
-        "JWT expired at `2026-06-19T12:28:39Z`",
-        "current_status_opengwas_expired",
-    )
+    if expected_phase_number >= 52:
+        add_contains(
+            checks,
+            "meta/CURRENT_STATUS.md",
+            current,
+            "JWT renewed and verified on `2026-07-10`",
+            "current_status_opengwas_renewed",
+        )
+    else:
+        add_contains(
+            checks,
+            "meta/CURRENT_STATUS.md",
+            current,
+            "JWT expired at `2026-06-19T12:28:39Z`",
+            "current_status_opengwas_expired",
+        )
     for forbidden in (
         "JWT valid until",
         "near-expiry",
@@ -132,13 +149,22 @@ def run_checks(expected_phase: str) -> list[Check]:
         f"meta/{expected_phase}_QUEUE.md",
         "next_actions_live_queue_pointer",
     )
-    add_contains(
-        checks,
-        "meta/NEXT_ACTIONS.md",
-        next_actions,
-        "OpenGWAS JWT expired at `2026-06-19T12:28:39Z`",
-        "next_actions_opengwas_expired",
-    )
+    if expected_phase_number >= 52:
+        add_contains(
+            checks,
+            "meta/NEXT_ACTIONS.md",
+            next_actions,
+            "OpenGWAS JWT was renewed and verified on `2026-07-10`",
+            "next_actions_opengwas_renewed",
+        )
+    else:
+        add_contains(
+            checks,
+            "meta/NEXT_ACTIONS.md",
+            next_actions,
+            "OpenGWAS JWT expired at `2026-06-19T12:28:39Z`",
+            "next_actions_opengwas_expired",
+        )
     for forbidden in ("JWT valid until", "near-expiry", "expires `2026-06-19"):
         add_not_contains(
             checks,

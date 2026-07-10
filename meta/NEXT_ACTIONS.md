@@ -6,9 +6,13 @@ Start every resumed session here. Work the first unresolved item unless a higher
 
 ## Queue
 
-V51 update:
+V52 update:
 
-- Queue / resume backbone: `meta/V51_QUEUE.md`.
+- Queue / resume backbone: `meta/V52_QUEUE.md`.
+- Therapeutic-path synthesis:
+  `docs/reports/THERAPEUTIC_PATH_V52.md`.
+- Restored OpenGWAS bounded catch-up:
+  `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
 - Structural-prediction class and gate:
   `docs/knowledge/EPISTEMIC_CLASSES.md`;
   `scripts/v51_structural_prediction_gate.py`;
@@ -17,20 +21,22 @@ V51 update:
   `scripts/v51_alphafold_db_client.py`.
 - First real structural-prediction record:
   `knowledge_external/structures/alphafold/GPR25_O00155/record.json`.
+- Second structural-prediction record:
+  `knowledge_external/structures/alphafold/KIF21B_O75037/record.json`.
 - Prediction-informed chr1/GPR25 context:
   `knowledge_external/synthesis/V51_GPR25_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
+- Prediction-informed chr1/KIF21B context:
+  `knowledge_external/synthesis/V52_KIF21B_ALPHAFOLD_DRUGGABILITY_CONTEXT.md`.
 - External-context index:
   `knowledge_external/INDEX.md`.
 - Current push status: plain `git push origin main` is functioning on the
   rewritten-history remote.
 
-Current V51 requirements:
+Current V52 requirements:
 
-- V51 is task-completion-gated, not time-gated: it is complete only when
-  AlphaFold DB retrieval works end to end on a real decision-relevant target,
-  confidence is parsed, the structural/provenance gates pass, and the result is
-  committed and pushed.
-- Run the V51 guard set before each push:
+- V52 is a six-hour active-time block. Continue from `meta/V52_QUEUE.md`,
+  maintain >5 executable tasks, and do not reopen broad discovery.
+- Run the V52 guard set before each push:
 
   ```bash
   python3 scripts/v47_provenance_gate.py audit --fail-on-error
@@ -61,19 +67,19 @@ Current V51 requirements:
   `tmp/` before each push; the guard block above should print no offending
   tracked files or paths.
 - Push every committed iteration to `origin/main`.
-- OpenGWAS JWT expired at `2026-06-19T12:28:39Z`; do not call OpenGWAS until
-  renewed and verified.
+- OpenGWAS JWT was renewed and verified on `2026-07-10`; use POST-only routes
+  and only for targeted bounded reruns.
 - Structural predictions are segregated external context, not grounded
   project findings; they cannot alter locked rules, pre-registrations, or the
   V19 chr1 genetics verdict.
 
-First V51 actions:
+First V52 actions:
 
-1. Complete AlphaFold DB Path A retrieval for a decision-relevant chr1 target.
+1. Continue the first unresolved V52 queue item.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
-3. Keep structural records under `knowledge_external/structures/`; do not copy
-   predicted-structure claims into grounded status prose.
+3. Keep structural records under `knowledge_external/structures/`; do not treat
+   predicted-structure claims as grounded evidence.
 
 V44 update:
 

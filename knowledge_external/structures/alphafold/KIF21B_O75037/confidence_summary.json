@@ -1,0 +1,108 @@
+{
+  "gene_symbol": "KIF21B",
+  "model_entity_id": "AF-O75037-F1",
+  "model_version": "6",
+  "pae": {
+    "fraction_le_10": 0.096645,
+    "fraction_le_20": 0.142213,
+    "fraction_le_5": 0.064901,
+    "max": 31.0,
+    "max_predicted_aligned_error": 31.75,
+    "mean": 25.3243,
+    "median": 28.0,
+    "min": 0.0,
+    "n_cols": 1637,
+    "n_rows": 1637,
+    "n_values": 2679769
+  },
+  "pae_payload_stored_locally": true,
+  "payload_sha256": {
+    "confidence_json": "2434f705cf2771c0fb8c7a69f857e1fe34a1a27ef65093727adbe92121d0d007",
+    "pae_json": "486e64c0733ef61f55af9f917c4ec5700b7a92df72d2d40898d595ae9d6fd695",
+    "pdb": "48fe24b34aeed779473048849cf8568e62cc71d603a2cf535064fc15395f10bd"
+  },
+  "plddt": {
+    "fraction_confident_ge_70": 0.624313,
+    "fraction_low_lt_50": 0.260843,
+    "fraction_very_high_ge_90": 0.25168,
+    "low_confidence_segments_lt_50": [
+      {
+        "end": 5,
+        "length": 5,
+        "start": 1
+      },
+      {
+        "end": 166,
+        "length": 1,
+        "start": 166
+      },
+      {
+        "end": 259,
+        "length": 19,
+        "start": 241
+      },
+      {
+        "end": 414,
+        "length": 1,
+        "start": 414
+      },
+      {
+        "end": 470,
+        "length": 3,
+        "start": 468
+      },
+      {
+        "end": 538,
+        "length": 30,
+        "start": 509
+      },
+      {
+        "end": 626,
+        "length": 72,
+        "start": 555
+      },
+      {
+        "end": 907,
+        "length": 82,
+        "start": 826
+      },
+      {
+        "end": 1097,
+        "length": 1,
+        "start": 1097
+      },
+      {
+        "end": 1280,
+        "length": 182,
+        "start": 1099
+      },
+      {
+        "end": 1293,
+        "length": 5,
+        "start": 1289
+      },
+      {
+        "end": 1400,
+        "length": 1,
+        "start": 1400
+      },
+      {
+        "end": 1407,
+        "length": 6,
+        "start": 1402
+      },
+      {
+        "end": 1637,
+        "length": 19,
+        "start": 1619
+      }
+    ],
+    "max": 97.38,
+    "mean": 69.6468,
+    "median": 78.81,
+    "min": 23.5,
+    "n_residues": 1637
+  },
+  "purpose": "V51 AlphaFold DB confidence summary; predicted structure, not experimental evidence",
+  "uniprot_id": "O75037"
+}
