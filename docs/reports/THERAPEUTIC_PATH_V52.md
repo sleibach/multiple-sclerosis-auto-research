@@ -44,6 +44,7 @@ data and a direction-matched modality exist.
 | Therapeutic artifact consistency audit | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md` |
 | Therapeutic claim hierarchy | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md` |
 | Therapeutic route risk register | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` |
+| Therapeutic route assumption ledger | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md` |
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |

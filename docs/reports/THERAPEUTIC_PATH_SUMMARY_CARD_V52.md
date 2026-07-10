@@ -50,6 +50,8 @@ therapeutic target.
   `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
 - Wrote therapeutic route risk register:
   `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`.
+- Wrote therapeutic route assumption ledger:
+  `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`.
 - Rechecked therapeutic external-context convergence:
   `knowledge_external/synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md`;
   no genuine therapeutic contradiction surfaced.
@@ -112,6 +114,7 @@ Concrete field specification:
 - `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`
 - `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`
 - `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`
+- `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`
 - `docs/reports/STRUCTURAL_EVIDENCE_BOUNDARY_QA_V52.md`
 - `docs/reports/THERAPEUTIC_CONTRADICTION_SURVEILLANCE_V52.md`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`

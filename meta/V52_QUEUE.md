@@ -63,8 +63,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Chr1 collaborator assay request appendix | done | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`; translates chr1 direction-matched requirements into concrete genotype, cell-state, protein, perturbation, and metadata asks. |
 | V52 machine-readable artifact manifest | done | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv`; enumerates V52 artifact path, category, status, evidence role, primary use, and notes for downstream tooling. |
 | Therapeutic route risk register | done | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`; catalogs residual route-level and cross-cutting risks, mitigations, and escalation triggers without changing verdicts. |
-| Therapeutic route assumption ledger | todo | Make explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions. |
+| Therapeutic route assumption ledger | done | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`; makes explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions and how future data could revise them. |
 | Incoming-package communication templates | todo | Draft concise accept/partial/reject response templates for monitoring and chr1 packages using existing criteria. |
+| Monitoring validation result report template | todo | Draft a frozen result-report shell for future Gafson/Karolinska output with pass/fail/inconclusive fields only. |
+| chr1 package result report template | todo | Draft a frozen result-report shell for future chr1 genotype-linked package interpretation. |
+| V52 package checksum intake checklist | todo | Convert package receipt hygiene into a concise checksum/access-terms checklist for incoming monitoring and target packages. |
+| Therapeutic route decision log template | todo | Create a template for future route-status changes requiring evidence, gate result, and non-counting context fields. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
 | V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -248,3 +252,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`. Result: each V52 route
   now has explicit residual risks, mitigation artifacts, and escalation
   triggers, preserving the monitoring-first/no-current-target verdict.
+- 2026-07-10T11:23:51Z: Wrote
+  `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`. Result:
+  assumptions behind the monitoring-first and no-current-target conclusions are
+  explicit, including what future data would revise or falsify them.

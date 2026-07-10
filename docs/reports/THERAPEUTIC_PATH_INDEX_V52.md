@@ -30,6 +30,7 @@ resolution.
 | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md` | project maintainer / reviewer | verifies V52 artifacts preserve one route ranking and no-target conclusion |
 | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md` | author / reviewer | separates grounded findings, provisional claims, context, handoffs, and future asks |
 | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` | project maintainer / medical team | residual risk, mitigation artifact, and escalation trigger by route |
+| `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md` | project maintainer / reviewer | assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions |
 | `docs/reports/THERAPEUTIC_PATH_INDEX_V52.md` | all readers | navigation across V52 artifacts |
 | `docs/reports/THERAPEUTIC_ARTIFACT_MANIFEST_V52.tsv` | tooling / reviewers | full machine-readable manifest of V52 artifact purposes |
 

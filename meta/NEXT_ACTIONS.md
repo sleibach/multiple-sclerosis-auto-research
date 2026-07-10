@@ -29,6 +29,8 @@ V52 update:
   `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md`.
 - Therapeutic route risk register:
   `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`.
+- Therapeutic route assumption ledger:
+  `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`.
 - Prospective monitoring utility study sketch:
   `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md`.
 - Monitoring clinical-utility boundary checklist:
