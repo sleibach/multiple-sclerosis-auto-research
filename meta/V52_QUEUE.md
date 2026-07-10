@@ -119,6 +119,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Received package file-naming policy | done | `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md`; raw files under ignored `data/raw/received_packages/`, safe manifests/classifier outputs under `analysis/received_package_intake/`; added to hash snapshot. |
 | Manifest no-raw-data git policy note | done | `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md`; distinguishes commit-eligible metadata/classifier outputs from raw/restricted package content; added to hash snapshot. |
 | Route classifier preflight checklist link | done | Added raw-data git policy, file-naming policy, classifier operator note, and status decision table to preflight checks/source artifacts; refreshed snapshot hash. |
+| Received-package intake path dry run | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`; synthetic package under `analysis/received_package_intake/` routed to `monitoring_validation`, `matched`, 7/7 fields present. |
+| Receipt blocker template | todo | Add a small template for access-term or raw-data blockers discovered before analysis. |
+| Package ID sanitizer/check note | todo | Specify how to validate package IDs against lowercase alphanumeric underscore rules before creating intake paths. |
+| Received-package intake directory README | todo | Add a README explaining that `analysis/received_package_intake/` may contain safe metadata only, not raw restricted data. |
+| Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -553,3 +558,9 @@ and V51 structural context without reopening broad public-data discovery.
   note, and classifier status decision table. Result: the preflight checklist now
   directs operators to the executable manifest-routing controls, and the 32-row
   hash snapshot verifies cleanly after refreshing the preflight hash.
+- 2026-07-10T14:00:46Z: Added the synthetic metadata-only intake package
+  `analysis/received_package_intake/20260710_synthetic_monitoring_manifest/`,
+  ran `scripts/v52_package_route_classifier.py`, and wrote
+  `docs/validation/RECEIVED_PACKAGE_INTAKE_DRYRUN_V52.md`. Result: the
+  prescribed received-package path produces a `monitoring_validation` `matched`
+  classification with 7 of 7 required fields present.
