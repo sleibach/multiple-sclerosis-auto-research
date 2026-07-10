@@ -139,7 +139,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package intake raw-term scanner for operator docs | done | `scripts/v52_package_intake_raw_term_scanner.py`; 42 raw/credential wording checks, 0 hard failures, 0 warnings; scan note hash-covered. |
 | Received-package dry-run replay audit | done | `scripts/v52_received_package_dry_run_replay_audit.py`; replayed the synthetic dry-run manifest and matched the committed route output exactly. |
 | Handoff bundle ordered-flow audit | done | `scripts/v52_handoff_ordered_flow_audit.py`; Universal Intake bundle order passed 16 ordered-flow checks with 0 failures. |
-| Package-intake generated-output inventory | todo | Record which package-intake analysis outputs are synthetic/regression artifacts versus stable operator controls, so future commits do not hash mutable outputs accidentally. |
+| Package-intake generated-output inventory | done | `docs/validation/PACKAGE_INTAKE_GENERATED_OUTPUT_INVENTORY_V52.md`; 16 generated package-intake outputs inventoried as synthetic/regression outputs, distinct from stable hash-covered controls. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -675,3 +675,9 @@ and V51 structural context without reopening broad public-data discovery.
   `analysis/v52_handoff_ordered_flow_audit/handoff_ordered_flow_audit.tsv`.
   Result: Universal Intake bundle order passed 16 ordered-flow checks with 0
   failures, and the 47-row operator hash snapshot verifies.
+- 2026-07-10T15:02:15Z: Added
+  `docs/validation/PACKAGE_INTAKE_GENERATED_OUTPUT_INVENTORY_V52.md` and
+  `analysis/v52_package_intake_generated_output_inventory/generated_output_inventory.tsv`.
+  Result: 16 generated package-intake outputs are inventoried as synthetic or
+  regression outputs, separate from stable operator controls, and the 48-row
+  operator hash snapshot verifies.
