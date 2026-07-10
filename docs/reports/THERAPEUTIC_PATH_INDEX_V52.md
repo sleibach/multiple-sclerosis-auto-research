@@ -58,6 +58,7 @@ resolution.
 | `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md` | chr1 KIF21B/GPR25 | exact future data package needed to resolve causal gene, cell state, and direction |
 | `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md` | chr1 KIF21B/GPR25 | staged experiment flow from genotype-linked data to perturbation and modality decision |
 | `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md` | chr1 KIF21B/GPR25 | collaborator-facing assay and metadata request for the genotype-linked package |
+| `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md` | chr1 KIF21B/GPR25 | fixed future result-report shell for genotype-linked package interpretation |
 | `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md` | GPR25 | required protective-haplotype to agonism/restoration chain |
 | `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md` | KIF21B | required restoration/up-function chain |
 | `docs/workups/genetics/PTGER4_SIGNAL_SPECIFIC_REOPEN_SPEC_V52.md` | PTGER4 | signal-specific reopen gate for a direction-conflicted locus |

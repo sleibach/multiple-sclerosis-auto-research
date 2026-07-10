@@ -52,6 +52,8 @@ therapeutic target.
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`.
 - Wrote chr1 collaborator assay request appendix:
   `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`.
+- Wrote chr1 package result-report template:
+  `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`.
 - Wrote therapeutic route risk register:
   `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md`.
 - Wrote therapeutic route assumption ledger:
@@ -135,6 +137,7 @@ Concrete field specification:
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`
 - `docs/workups/genetics/CHR1_DIRECTION_MATCHED_EXPERIMENT_BLUEPRINT_V52.md`
 - `docs/workups/genetics/CHR1_COLLABORATOR_ASSAY_REQUEST_APPENDIX_V52.md`
+- `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`
 - `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`
 - `docs/workups/genetics/GPR25_DIRECTION_MATCHED_MODALITY_SPEC_V52.md`
 - `docs/workups/genetics/KIF21B_RESTORATION_MODALITY_SPEC_V52.md`

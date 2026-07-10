@@ -66,7 +66,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic route assumption ledger | done | `docs/reports/THERAPEUTIC_ROUTE_ASSUMPTION_LEDGER_V52.md`; makes explicit the assumptions behind monitoring-first, chr1 handoff, and no-current-target conclusions and how future data could revise them. |
 | Incoming-package communication templates | done | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md`; gives accept, partial-context, reject/unscoreable, access-term-blocked, and missing-field response templates. |
 | Monitoring validation result report template | done | `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future Gafson/Karolinska preflight, primary metrics, confounder/batch results, final class, and next action. |
-| chr1 package result report template | todo | Draft a frozen result-report shell for future chr1 genotype-linked package interpretation. |
+| chr1 package result report template | done | `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`; fixed shell for future chr1 intake, causal-gene, direction, cell-state, perturbation, modality, and final decision classes. |
 | V52 package checksum intake checklist | todo | Convert package receipt hygiene into a concise checksum/access-terms checklist for incoming monitoring and target packages. |
 | Therapeutic route decision log template | todo | Create a template for future route-status changes requiring evidence, gate result, and non-counting context fields. |
 | OpenGWAS pre-expiry bounded-polish command list | todo | Document the exact bounded commands worth running before 2026-07-24 if time permits. |
@@ -264,3 +264,8 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/MONITORING_VALIDATION_RESULT_REPORT_TEMPLATE_V52.md`. Result:
   future Gafson/Karolinska output now has a fixed result-report shell with
   preflight, metrics, confounder/batch, class, and non-command sections.
+- 2026-07-10T11:30:41Z: Wrote
+  `docs/workups/genetics/CHR1_PACKAGE_RESULT_REPORT_TEMPLATE_V52.md`. Result:
+  future chr1 packages now have a fixed staged report shell from intake through
+  final target-workup-ready, biology-only, wrong-direction, incomplete, or
+  closed class.
