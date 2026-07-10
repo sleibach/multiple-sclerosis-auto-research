@@ -38,6 +38,17 @@ missing fields are:
 
 `early_treatment_expression;response_label;module_gene_coverage;batch_QC_metadata`
 
+## Manifest Template Smoke Test
+
+The data-owner manifest template shape was also tested with one filled
+synthetic monitoring package row:
+
+- input:
+  `analysis/v52_package_route_classifier/manifest_template_smoke_input.tsv`
+- output:
+  `analysis/v52_package_route_classifier/manifest_template_smoke_output.tsv`
+- result: `monitoring_validation`, `matched`, 7 of 7 required fields present.
+
 ## Boundary
 
 This script only checks presence of the classifier's `minimum_fields`. It does
@@ -50,3 +61,5 @@ or route-specific operator cards.
 - `scripts/v52_package_route_classifier.py`
 - `analysis/v52_package_route_classifier/synthetic_package_manifests.tsv`
 - `analysis/v52_package_route_classifier/synthetic_route_classification.tsv`
+- `analysis/v52_package_route_classifier/manifest_template_smoke_input.tsv`
+- `analysis/v52_package_route_classifier/manifest_template_smoke_output.tsv`

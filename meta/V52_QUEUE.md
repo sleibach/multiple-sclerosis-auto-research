@@ -108,7 +108,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Operator bundle stable-vs-mutable policy note | done | `docs/reports/V52_OPERATOR_ARTIFACT_STABILITY_POLICY.md`; defines stable operator controls, mutable dashboards, context reports, synthetic fixture outputs, and self-reference exclusions; added to hash snapshot. |
 | V52 package-doc consistency audit | done | `docs/validation/PACKAGE_DOC_CONSISTENCY_AUDIT_V52.md`; all 9 classifier routes represented in examples/preflight, 0 missing primary or handoff artifacts, 0 unresolved field-dictionary source refs. |
 | Incoming package manifest template | done | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv`; placeholder manifest includes `provided_fields` compatible with the V52 route-classifier intake script. |
-| Manifest template classifier smoke fixture | todo | Run the manifest template through the package route classifier with a filled synthetic example and record expected route behavior. |
+| Manifest template classifier smoke fixture | done | Filled synthetic manifest-template row classified as `monitoring_validation`, `matched`, 7/7 fields present. |
 | Link manifest template into data-owner README and handoff bundle | done | Added template references to `docs/validation/DATA_OWNER_PACKAGE_README_V52.md` and `docs/validation/THERAPEUTIC_PACKAGE_HANDOFF_BUNDLE_INDEX_V52.md`. |
 | Add manifest template to hash snapshot | done | Added template row to `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; refreshed and verified 28 rows. |
 | Package route CLI usage note | todo | Add a concise operator note for running `scripts/v52_package_route_classifier.py` on a received manifest. |
@@ -497,3 +497,9 @@ and V51 structural context without reopening broad public-data discovery.
   snapshot, refreshed hashes, and updated the hash coverage audit. Result: the
   data-owner manifest shape is now discoverable, classifier-compatible, and
   hash-covered; the snapshot verifies with 28 rows.
+- 2026-07-10T13:34:13Z: Added
+  `analysis/v52_package_route_classifier/manifest_template_smoke_input.tsv` and
+  `analysis/v52_package_route_classifier/manifest_template_smoke_output.tsv`,
+  then updated `docs/validation/PACKAGE_ROUTE_CLASSIFIER_INTAKE_FIXTURE_V52.md`.
+  Result: a filled manifest-template row routes to `monitoring_validation` with
+  `matched` status and 7 of 7 required fields present.
