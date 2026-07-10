@@ -1,0 +1,2 @@
+fixture	expected	observed_returncode	status	stdout
+analysis/v52_package_route_classifier/duplicate_package_id_manifest.tsv	nonzero duplicate package_id failure	1	PASS_EXPECTED_FAIL	{'manifest_duplicate_package_id': 'analysis/v52_package_route_classifier/duplicate_package_id_manifest.tsv', 'duplicates': ['duplicate_package']}

@@ -24,6 +24,10 @@ The optional but useful column is:
 Additional columns are allowed and ignored by the script, so data-owner metadata
 can remain in the manifest.
 
+Duplicate `package_id` values are not allowed. The classifier exits nonzero with
+`manifest_duplicate_package_id` if the same package ID appears more than once in
+one manifest.
+
 ## Command
 
 Run from the repository root:

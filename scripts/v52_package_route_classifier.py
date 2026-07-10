@@ -34,7 +34,12 @@ def read_manifest_tsv(path: Path) -> list[dict[str, str]]:
         missing = sorted(REQUIRED_MANIFEST_COLUMNS - fieldnames)
         if missing:
             raise SystemExit({"manifest_missing_required_columns": str(path), "missing": missing})
-        return list(reader)
+        rows = list(reader)
+    package_ids = [row.get("package_id", "") for row in rows]
+    duplicates = sorted({package_id for package_id in package_ids if package_ids.count(package_id) > 1})
+    if duplicates:
+        raise SystemExit({"manifest_duplicate_package_id": str(path), "duplicates": duplicates})
+    return rows
 
 
 def classify_manifest(manifest: dict[str, str], routes: list[dict[str, str]]) -> dict[str, str]:

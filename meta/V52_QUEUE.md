@@ -140,6 +140,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Received-package dry-run replay audit | done | `scripts/v52_received_package_dry_run_replay_audit.py`; replayed the synthetic dry-run manifest and matched the committed route output exactly. |
 | Handoff bundle ordered-flow audit | done | `scripts/v52_handoff_ordered_flow_audit.py`; Universal Intake bundle order passed 16 ordered-flow checks with 0 failures. |
 | Package-intake generated-output inventory | done | `docs/validation/PACKAGE_INTAKE_GENERATED_OUTPUT_INVENTORY_V52.md`; 16 generated package-intake outputs inventoried as synthetic/regression outputs, distinct from stable hash-covered controls. |
+| Route classifier duplicate package-ID guard | done | `scripts/v52_package_route_classifier.py` now rejects duplicate `package_id` rows; expected-fail fixture reports `manifest_duplicate_package_id`; guard note hash-covered. |
+| Package ID validator path-traversal regression | todo | Add invalid package-ID regression cases for slashes, dots, double underscores, and trailing underscores. |
+| Route classifier empty-fields regression | todo | Add a manifest fixture with empty `provided_fields` and verify it returns `unscoreable_no_route` or fails safely. |
+| Intake audit non-placeholder email negative fixture | todo | Synthetic-check that the intake safety audit detects a non-placeholder email in a tracked-safe manifest shape without committing sensitive data. |
+| Package-intake route-output schema audit | todo | Verify every committed route-classifier output has the expected 9-column schema and no extra columns. |
 | Post-intake-hardening RAG refresh | todo | Rebuild sparse RAG index after received-package intake dry-run artifacts are complete. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
@@ -681,3 +686,9 @@ and V51 structural context without reopening broad public-data discovery.
   Result: 16 generated package-intake outputs are inventoried as synthetic or
   regression outputs, separate from stable operator controls, and the 48-row
   operator hash snapshot verifies.
+- 2026-07-10T15:07:06Z: Added a duplicate `package_id` guard to
+  `scripts/v52_package_route_classifier.py`, recorded
+  `analysis/v52_package_route_classifier/duplicate_package_id_negative_check.tsv`,
+  and added `docs/validation/PACKAGE_ROUTE_CLASSIFIER_DUPLICATE_ID_GUARD_V52.md`.
+  Result: duplicate manifest rows fail with `manifest_duplicate_package_id`, and
+  the 49-row operator hash snapshot verifies.
