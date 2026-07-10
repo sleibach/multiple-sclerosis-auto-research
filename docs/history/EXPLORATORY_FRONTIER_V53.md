@@ -190,6 +190,18 @@ explicit schema classifications. Because `HELD_SCHEMA_MATCH` directly encodes
 the decisive constraint, this is a tooling/consistency check, not independent
 scientific corroboration and not a new hypothesis.
 
+The proposal triage exposed a reusable data-semantics risk: aggregate context,
+contrast, and dependency rows can look like observations while lacking patient,
+time, or intervention identity. V53 therefore froze a machine-readable semantic
+contract for all six V26 matrices and audited their current hashes, schemas,
+row keys, and allowed capabilities. All 72 real checks pass, and the synthetic
+test rejects a patient-level temporal request while accepting a valid
+context-level perturbation request. Applied to the proposal set, 12 of 16
+matrix-dependent requests are correctly blocked and four pass. This is a
+methodological guard only: a blocked request is untestable with these summaries,
+not evidence that its biological premise is false. See
+`analysis/v53_matrix_semantic_contract/REPORT.md`.
+
 Multi-lineage value verdict: **yes for one methodological boundary, no for a
 new biological or therapeutic lead**. Model confidence played no role. The
 current client does not expose monetary spend or token-usage telemetry, so spend

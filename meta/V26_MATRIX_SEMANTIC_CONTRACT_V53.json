@@ -1,0 +1,295 @@
+{
+  "date_frozen": "2026-07-10",
+  "global_rules": [
+    "A row is never treated as a patient, sample, cell, or timepoint unless its matrix capability says so.",
+    "Missing cross-matrix keys are not inferred from similar labels.",
+    "Aggregate response labels do not license patient-level prediction.",
+    "Correlation sign does not orient a causal edge."
+  ],
+  "matrices": {
+    "cell_state_module_matrix": {
+      "allowed_uses": [
+        "disease/compartment-level module comparison",
+        "context-level dependency analysis"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": true,
+        "gene_perturbation_summary": false,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": false,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": false,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "10bbfa6b789a343fd75c4f0174ab048d1d197d9018461e478257b07366699e51",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 12,
+      "label_column": "",
+      "minimum_data_to_unlock": "sample- or cell-level module scores with donor and condition identifiers",
+      "observed_columns": [
+        "",
+        "complement_phagocytosis",
+        "hif_nampt_metabolic",
+        "hla_ii_apc",
+        "ifn_apc",
+        "lipid_loader_repair",
+        "lysosomal_apc",
+        "mif_cd74_receptor_state",
+        "mixscale_validated_ifng_readout"
+      ],
+      "path": "analysis/v26_deep_structure/cell_state_module_matrix.tsv",
+      "prohibited_inferences": [
+        "sample-distribution bimodality",
+        "cellular bistability",
+        "patient subgroup covariance",
+        "treatment trajectory"
+      ],
+      "row_key_columns": [
+        ""
+      ],
+      "row_label_semantics": "SOURCE_CONTEXT|DISEASE|COMPARTMENT",
+      "row_unit": "one disease/tissue-compartment aggregate cell-state effect"
+    },
+    "cross_disease_summary_module_matrix": {
+      "allowed_uses": [
+        "module-level summary ranking with statistic identity preserved",
+        "descriptive cross-disease breadth accounting"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": false,
+        "gene_perturbation_summary": false,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": false,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": false,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "ca232c74700905db5d49adae6ecaf35afc736dc58cb252ab1cd7e0215d588c92",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 6,
+      "label_column": "",
+      "minimum_data_to_unlock": "disease-by-module effect matrix with harmonized disease rows and uncertainty",
+      "observed_columns": [
+        "",
+        "mif_cd74_receptor_state",
+        "ifn_apc",
+        "hla_ii_apc",
+        "mixscale_validated_ifng_readout",
+        "lysosomal_apc",
+        "lipid_loader_repair",
+        "hif_nampt_metabolic",
+        "complement_phagocytosis"
+      ],
+      "path": "analysis/v26_deep_structure/cross_disease_summary_module_matrix.tsv",
+      "prohibited_inferences": [
+        "disease-level counterfactual prediction",
+        "row-wise joining to treatment contexts",
+        "causal or patient-level analysis"
+      ],
+      "row_key_columns": [
+        ""
+      ],
+      "row_label_semantics": "SUMMARY_STATISTIC_NAME",
+      "row_unit": "one aggregate statistic across diseases"
+    },
+    "perturbation_module_matrix": {
+      "allowed_uses": [
+        "context-level module correlation",
+        "single-signature or explicitly model-based additive triage",
+        "gene-perturbation effect comparison within stated stimulus"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": true,
+        "gene_perturbation_summary": true,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": false,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": false,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "37b57bb92ef28dc6332da2b417eff1a91a98ea8be48d796974ef1bb0a447c52f",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 24,
+      "label_column": "",
+      "minimum_data_to_unlock": "ordered repeated perturbation measurements or factorial perturbations in matched cells/donors",
+      "observed_columns": [
+        "",
+        "gilt_lysosomal_apc",
+        "hla_ii_apc",
+        "ifn_apc",
+        "mif_cd74_receptor_state"
+      ],
+      "path": "analysis/v26_deep_structure/perturbation_module_matrix.tsv",
+      "prohibited_inferences": [
+        "temporal ordering or transfer entropy",
+        "patient response prediction",
+        "biological synergy from additive signature arithmetic",
+        "direct module-level causal orientation"
+      ],
+      "row_key_columns": [
+        ""
+      ],
+      "row_label_semantics": "STIMULUS:PERTURBED_GENE",
+      "row_unit": "one stimulus:gene perturbation aggregate module-effect signature"
+    },
+    "treatment_pharmacodynamic_module_matrix": {
+      "allowed_uses": [
+        "aggregate response-group effect comparison within exact dataset/therapy pairs",
+        "cross-context module association with context-level nulls",
+        "bounded source-target transfer diagnostics labeled as aggregate"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": true,
+        "gene_perturbation_summary": false,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": false,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": true,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "fde001ac1677969a2aea4469c71019af7100091c7e27af3d6f90f69ea9fb6805",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 24,
+      "label_column": "",
+      "minimum_data_to_unlock": "sample-level paired baseline/on-treatment rows with subject, time, and response identifiers",
+      "observed_columns": [
+        "",
+        "complement_phagocytosis",
+        "hif_nampt_metabolic",
+        "hla_ii_apc",
+        "ifn_apc",
+        "lipid_loader_repair",
+        "lysosomal_apc",
+        "mif_cd74_receptor_state",
+        "mixscale_validated_ifng_readout"
+      ],
+      "path": "analysis/v26_deep_structure/treatment_pharmacodynamic_module_matrix.tsv",
+      "prohibited_inferences": [
+        "patient-level classification or confidence intervals",
+        "within-subject trajectory or hysteresis",
+        "mutual-information change within response groups",
+        "causal DAG estimation"
+      ],
+      "row_key_columns": [
+        ""
+      ],
+      "row_label_semantics": "DATASET|THERAPY|GROUP_OR_COMPARTMENT_METADATA",
+      "row_unit": "one dataset/therapy/response-group-or-compartment aggregate effect"
+    },
+    "treatment_response_module_matrix": {
+      "allowed_uses": [
+        "aggregate contrast comparison",
+        "context-level module association",
+        "meta-analysis that preserves contrast identity"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": true,
+        "gene_perturbation_summary": false,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": false,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": true,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "81dc5a03c99d00de744c94187e2053851b0d136c8106cabc935ed536d025393e",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 20,
+      "label_column": "row",
+      "minimum_data_to_unlock": "underlying sample-level scores with subject, timepoint, response, and cohort keys",
+      "observed_columns": [
+        "row",
+        "hla_ii_apc",
+        "ifn_apc",
+        "lipid_loader_repair",
+        "lysosomal_apc",
+        "mif_cd74_receptor_state"
+      ],
+      "path": "analysis/v26_deep_structure/treatment_response_module_matrix.tsv",
+      "prohibited_inferences": [
+        "patient-level machine learning",
+        "joint baseline/on-treatment mutual information",
+        "within-person state transition",
+        "cross-matrix row joins without an explicit verified key"
+      ],
+      "row_key_columns": [
+        "row"
+      ],
+      "row_label_semantics": "DATASET|COMPARTMENT|TIME_OR_DELTA|CONTRAST_OR_STATISTIC",
+      "row_unit": "one dataset/compartment/time-or-contrast aggregate response statistic"
+    },
+    "workstream_b_module_dependencies": {
+      "allowed_uses": [
+        "undirected dependency topology",
+        "replication and negative-space assessment with missingness preserved",
+        "causal identifiability bounds"
+      ],
+      "capabilities": {
+        "causal_intervention_on_modules": false,
+        "context_level_module_effects": false,
+        "gene_perturbation_summary": false,
+        "matched_rows_across_matrices": false,
+        "ordered_timepoints": false,
+        "pairwise_dependency_summary": true,
+        "patient_level": false,
+        "protein_complex_structure": false,
+        "response_group_aggregate": false,
+        "sample_level": false,
+        "within_subject_longitudinal": false
+      },
+      "content_sha256": "e6fb204caa7b20dbb61e8d99ae1164ceeaf10f5c944d454c4b11700f7fe9d750",
+      "contract_status": "frozen_semantics_for_v53_downstream_use",
+      "expected_rows": 100,
+      "label_column": "modality",
+      "minimum_data_to_unlock": "sample-level joint module matrix or true intervention/temporal data with pre-specified causal assumptions",
+      "observed_columns": [
+        "modality",
+        "module_a",
+        "module_b",
+        "spearman_r",
+        "p",
+        "perm_p",
+        "n_rows",
+        "q_bh_within_modality",
+        "sign",
+        "replicated_significant_modalities",
+        "replicated_sign",
+        "claim_grade"
+      ],
+      "path": "analysis/v26_deep_structure/workstream_b_module_dependencies.tsv",
+      "prohibited_inferences": [
+        "edge direction from correlation sign",
+        "PC/GES on association-summary rows as if they were samples",
+        "module intervention effect"
+      ],
+      "row_key_columns": [
+        "modality",
+        "module_a",
+        "module_b"
+      ],
+      "row_label_semantics": "MODALITY + MODULE_A + MODULE_B",
+      "row_unit": "one modality/module-pair association test summary"
+    }
+  },
+  "purpose": "Machine-readable semantic boundary for V26 summary matrices",
+  "version": "V53-1"
+}

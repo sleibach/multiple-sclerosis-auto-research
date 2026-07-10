@@ -32,9 +32,11 @@ exhausted public-data discovery search as a source of findings.
 | External convergence/contradiction check for MIF/CD74 | done | 6 source-specific rows: 3 context convergences, 2 insufficient-overlap/tensions, 1 orthogonal, 0 same-definition contradictions; no verdict change. |
 | Exploratory frontier cumulative report | in-progress | Created early with Workstream B grounded null; update each completed probe. |
 | Causal-identifiability threshold sensitivity | done | 10 skeleton variants, 3-6 edges, all with 0 consensus-oriented edges. |
-| V26 matrix semantic contract | in-progress | Machine-readable row-unit/timepoint/label contract to prevent invalid patient/temporal analyses. |
+| V26 matrix semantic contract | done | Six frozen matrix contracts; 72/72 real checks pass, synthetic valid/invalid requests behave correctly, and 12/16 model capability requests are blocked as semantically unsupported. |
 | RFX5 single-context boundary packet | todo | Record exactly what independent perturbation context would be required; no promotion. |
 | Multi-lineage identifiability critique | todo | Ask both lineages for concrete flaws in the exact audit and ground only valid objections. |
+| Causal-orientation acquisition design | todo | Pre-specify the smallest factorial/temporal intervention dataset that can orient the APC skeleton; include a simulation-based precision check. |
+| Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -114,3 +116,10 @@ exhausted public-data discovery search as a source of findings.
   so the methodological negative is not a support-threshold or single-modality
   artifact. Cumulative active time accrued through this checkpoint is 2h10m38s;
   the resumed session interval remains open.
+- 2026-07-10T23:12:08Z: Froze and verified semantic contracts for six V26
+  matrices. All 72 real-data checks pass; the synthetic guard accepts a valid
+  context-level request and rejects an invalid patient/temporal request. The
+  guard blocks 12 of 16 matrix-dependent model capability requests and permits
+  four, matching the substantive schema boundary without treating
+  untestability as a biological null. Cumulative active time accrued through
+  this checkpoint is 2h16m51s; the resumed session interval remains open.

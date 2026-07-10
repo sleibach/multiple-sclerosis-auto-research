@@ -1,0 +1,82 @@
+[
+  {
+    "request_id": "H1_transfer_entropy_directionality",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["ordered_timepoints"]
+  },
+  {
+    "request_id": "H2_causal_identifiability_negative",
+    "matrix": "workstream_b_module_dependencies",
+    "requires": ["pairwise_dependency_summary"]
+  },
+  {
+    "request_id": "H3_hysteresis_treatment_response",
+    "matrix": "treatment_pharmacodynamic_module_matrix",
+    "requires": ["patient_level", "within_subject_longitudinal", "ordered_timepoints"]
+  },
+  {
+    "request_id": "H4_robustness_geometry_curvature",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["causal_intervention_on_modules"]
+  },
+  {
+    "request_id": "H5_counterfactual_transfer_cross_disease",
+    "matrix": "cross_disease_summary_module_matrix",
+    "requires": ["matched_rows_across_matrices"]
+  },
+  {
+    "request_id": "H6_information_bottleneck_scalar",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["matched_rows_across_matrices"]
+  },
+  {
+    "request_id": "H7_negative_space_forbidden_edges",
+    "matrix": "workstream_b_module_dependencies",
+    "requires": ["pairwise_dependency_summary"]
+  },
+  {
+    "request_id": "H8_state_transition_bistability",
+    "matrix": "cell_state_module_matrix",
+    "requires": ["sample_level"]
+  },
+  {
+    "request_id": "CRL_2024_001_mutual_information_change",
+    "matrix": "treatment_response_module_matrix",
+    "requires": ["patient_level", "within_subject_longitudinal"]
+  },
+  {
+    "request_id": "CRL_2024_002_source_model",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["context_level_module_effects"]
+  },
+  {
+    "request_id": "CRL_2024_002_target_test",
+    "matrix": "treatment_pharmacodynamic_module_matrix",
+    "requires": ["response_group_aggregate"]
+  },
+  {
+    "request_id": "CRL_2024_003_energy_basin",
+    "matrix": "treatment_response_module_matrix",
+    "requires": ["patient_level"]
+  },
+  {
+    "request_id": "CRL_2024_004_response_stratified_perturbation",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["response_group_aggregate"]
+  },
+  {
+    "request_id": "CRL_2024_005_patient_state_classifier",
+    "matrix": "treatment_response_module_matrix",
+    "requires": ["patient_level"]
+  },
+  {
+    "request_id": "CRL_2024_006_causal_dag_comparison",
+    "matrix": "perturbation_module_matrix",
+    "requires": ["sample_level", "causal_intervention_on_modules"]
+  },
+  {
+    "request_id": "CRL_2024_008_temporal_activation_order",
+    "matrix": "treatment_response_module_matrix",
+    "requires": ["ordered_timepoints"]
+  }
+]
