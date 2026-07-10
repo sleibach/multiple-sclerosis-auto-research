@@ -35,6 +35,7 @@ data and a direction-matched modality exist.
 
 | evidence layer | artifact |
 |---|---|
+| Public-facing V52 handoff | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md` |
 | Scored project state | `docs/reports/FINDINGS_REPORT_V37.md` |
 | Public-data exhaustion boundary | `docs/history/JOINT_INFERENCE_V41.md` |
 | Validation power / study design | `docs/validation/POWER_MAP_V43.md` |

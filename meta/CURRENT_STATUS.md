@@ -156,6 +156,8 @@ Current frontier:
     `meta/V52_QUEUE.md`.
   - Therapeutic-path synthesis:
     `docs/reports/THERAPEUTIC_PATH_V52.md`.
+  - Public-facing therapeutic summary card:
+    `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`.
   - Restored OpenGWAS bounded catch-up:
     `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`.
   - ZMIZ1 restored-OpenGWAS direction handoff:

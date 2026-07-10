@@ -38,10 +38,12 @@ and V51 structural context without reopening broad public-data discovery.
 | Guard and push iteration | done | V47 provenance, V51 structural, external index, SAP health, status freshness, size/tmp guards passed; commit `f396b814` pushed to `origin/main` at 2026-07-10T09:56:54Z. |
 | Structure-informed PTGER4 triage | done | AlphaFold DB `AF-P35408-F1` v6 retrieved; receptor-core structural context is compatible with tractability, but closure is confirmed because the blocker is mixed signal and direction, not lack of structure. |
 | Restored-OpenGWAS ZMIZ1 bounded direction handoff | done | `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`; restored token can polish bounded direction manifests but does not create a ZMIZ1 target route. |
-| Public-facing therapeutic summary card | todo | Compact medical-team handoff after report stabilizes. |
+| Public-facing therapeutic summary card | done | `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`; compact medical-team handoff: validate monitoring first, no target intervention-grade, exact next data asks. |
 | Chr1 genotype-linked data specification | todo | Turn V52 reopen criteria into exact sample/data fields for a future chr1 causal-gene dataset. |
 | V52 therapeutic validation handoff | todo | Convert monitoring-first conclusion into validation-ready medical-team action items. |
 | PTGER4 signal-specific reopen spec | todo | If pursued later, define exact QTL/fine-mapping/perturbation evidence needed before PTGER4 can move out of closed-transfer status. |
+| Structure-aware no-go table | todo | Convert GPR25/KIF21B/PTGER4 structure findings into a compact no-go / reopen-trigger table. |
+| OpenGWAS renewal watch note | todo | Add a V52 operational note that token expires 2026-07-24 and targeted reruns should finish or renew before then. |
 
 ## Per-Iteration Notes
 
@@ -91,3 +93,10 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/workups/genetics/ZMIZ1_RESTORED_OPENGWAS_HANDOFF_V52.md`. Result:
   restored OpenGWAS can support bounded chr10 direction-manifest polish, but
   ZMIZ1 remains a transfer-validity warning and not a therapeutic target.
+- 2026-07-10T10:12:06Z: ZMIZ1 handoff committed and pushed as `6111f67f`;
+  local and `origin/main` match. Continuing with public-facing therapeutic
+  summary card.
+- 2026-07-10T10:13:18Z: Wrote
+  `docs/reports/THERAPEUTIC_PATH_SUMMARY_CARD_V52.md`, linked from the main
+  therapeutic report and live navigation. It states the public-facing V52
+  bottom line: validate monitoring first; no intervention-grade target yet.
