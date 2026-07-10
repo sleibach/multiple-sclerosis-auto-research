@@ -55,6 +55,11 @@ and V51 structural context without reopening broad public-data discovery.
 | Therapeutic reopen checklist TSV | done | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv`; machine-readable reopen gates and non-counting evidence for closed/conditional leads. |
 | External-skeptic therapeutic rebuttal checklist | done | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md`; pre-answers monitoring-first, no-target, structure, OpenGWAS, confounder, and power objections. |
 | V52 artifact consistency audit | done | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`; no inconsistency found across V52 therapeutic report, summary, matrices, request packet, and validation handoffs. |
+| Monitoring validation command manifest | done | `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`; exact interpreter precheck, preflight gates, frozen harness command, outputs, and non-commands. |
+| Therapeutic claim hierarchy | todo | Separate validated facts, provisional monitoring claims, target handoffs, structure context, and future asks in one hierarchy. |
+| Target package acceptance criteria TSV | todo | Make a compact data-package acceptance table for chr1 and secondary target/biology routes. |
+| Prospective monitoring utility study sketch | todo | Define what a post-validation clinical-utility study would need without changing the frozen rule. |
+| V52 RAG/index refresh | todo | Rebuild or refresh the local index if the repo provides a command; otherwise document unavailable. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -203,3 +208,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md`. Result:
   monitoring-first, no-current-target, chr1-handoff, structure-boundary, and
   bounded-OpenGWAS messages are consistent across checked artifacts.
+- 2026-07-10T11:01:57Z: Refilled the V52 backlog and wrote
+  `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`. Result:
+  future validation operators have exact command order and an interpreter
+  precheck; `.venv/bin/python` imports numpy/pandas successfully.

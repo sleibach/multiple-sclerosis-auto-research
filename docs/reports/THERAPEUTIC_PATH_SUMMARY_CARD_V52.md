@@ -104,6 +104,7 @@ Concrete field specification:
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
 - `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`
 - `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`
+- `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_CATCHUP_V52.md`
 - `docs/workups/genetics/RESTORED_OPENGWAS_BOUNDED_RERUN_MANIFEST_V52.md`
 - `docs/workups/genetics/CHR1_GENOTYPE_LINKED_DATA_SPEC_V52.md`

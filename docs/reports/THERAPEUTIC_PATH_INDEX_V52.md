@@ -36,6 +36,7 @@ resolution.
 | `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md` | validation operator / medical team | what each Gafson/Karolinska result would mean clinically |
 | `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md` | medical team / data owner | sendable request packet separating monitoring validation from chr1 target development |
 | `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md` | validation operator | mechanical if/then interpretation tree for package receipt and V42/V44 outcomes |
+| `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md` | validation operator | exact command order for preflight, self-test, frozen harness, and interpretation routing |
 | `docs/validation/PREREGISTRATION_V42.md` | validation operator | frozen Gafson analysis plan |
 | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` | validation operator / reviewer | pre-committed interpretation of pass/fail/inconclusive outcomes |
 | `docs/validation/POWER_MAP_V43.md` | study designer | cohort-size and effect-size expectations |

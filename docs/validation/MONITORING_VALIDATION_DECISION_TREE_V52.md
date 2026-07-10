@@ -91,6 +91,7 @@ Run and report the pre-specified V32/V44 panels:
 - `docs/locked_rules/LOCKED_RULE_V22.md`
 - `docs/validation/PREREGISTRATION_V42.md`
 - `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`
+- `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`
 - `docs/validation/THERAPEUTIC_VALIDATION_HANDOFF_V52.md`
 - `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`
 - `docs/validation/POWER_MAP_V43.md`

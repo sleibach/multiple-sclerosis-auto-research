@@ -53,6 +53,8 @@ V52 update:
   `docs/validation/MEDICAL_TEAM_THERAPEUTIC_DATA_REQUEST_V52.md`.
 - Monitoring validation decision tree:
   `docs/validation/MONITORING_VALIDATION_DECISION_TREE_V52.md`.
+- Monitoring validation command manifest:
+  `docs/validation/MONITORING_VALIDATION_COMMAND_MANIFEST_V52.md`.
 - Structural-prediction class and gate:
   `docs/knowledge/EPISTEMIC_CLASSES.md`;
   `scripts/v51_structural_prediction_gate.py`;
