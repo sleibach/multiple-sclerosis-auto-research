@@ -14,6 +14,7 @@ Use for every incoming package before route-specific work.
 | artifact | purpose |
 |---|---|
 | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` | access terms, quarantine, checksum, and no-large-file intake |
+| `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md` | safe paths and names for manifests, classifier outputs, and raw-package quarantine |
 | `docs/validation/INCOMING_PACKAGE_MANIFEST_TEMPLATE_V52.tsv` | data-owner manifest template with classifier-compatible `provided_fields` |
 | `docs/validation/INCOMING_PACKAGE_PREFLIGHT_CHECKLIST_V52.md` | ordered pre-analysis path from terms to route decision |
 | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` | route incoming package to validation, chr1, secondary, context, or reject |

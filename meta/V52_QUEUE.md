@@ -116,7 +116,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Route classifier manifest schema hardening | done | `scripts/v52_package_route_classifier.py` now fails clearly if manifest headers lack `package_id` or `provided_fields`. |
 | Route classifier negative schema fixture | done | Added bad manifest missing `provided_fields`; expected-fail check recorded in `analysis/v52_package_route_classifier/schema_negative_checks.tsv`. |
 | Classifier status-to-preflight decision table | done | `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`; linked from operator note and handoff bundle; added to hash snapshot, verified with 30 rows. |
-| Received package file-naming policy | todo | Specify output paths and names for received-package classifier outputs without committing restricted data. |
+| Received package file-naming policy | done | `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md`; raw files under ignored `data/raw/received_packages/`, safe manifests/classifier outputs under `analysis/received_package_intake/`; added to hash snapshot. |
 | Manifest no-raw-data git policy note | todo | Add a short note distinguishing metadata manifests safe for git from raw restricted package files that must stay quarantined. |
 | Route classifier preflight checklist link | todo | Add the CLI operator note to the preflight source artifacts if not already represented there. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
@@ -534,3 +534,10 @@ and V51 structural context without reopening broad public-data discovery.
   to the operator hash snapshot, and refreshed hashes. Result: classifier output
   statuses now have machine-readable allowed/forbidden operator actions, and the
   30-row snapshot verifies cleanly.
+- 2026-07-10T13:50:16Z: Wrote
+  `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md`, linked it from
+  the handoff bundle, added it to the operator hash snapshot, and refreshed
+  hashes. Result: received raw packages are routed to ignored
+  `data/raw/received_packages/<package_id>/`, while safe manifests and
+  classifier outputs use `analysis/received_package_intake/<package_id>/`; the
+  31-row snapshot verifies cleanly.

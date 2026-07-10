@@ -16,8 +16,8 @@ stable operator SHA256 snapshot.
 
 ## Result
 
-The handoff bundle lists 29 unique artifacts. The current hash snapshot lists
-30 artifacts. Twenty-three handoff artifacts are hash-covered by the snapshot. Six
+The handoff bundle lists 30 unique artifacts. The current hash snapshot lists
+31 artifacts. Twenty-four handoff artifacts are hash-covered by the snapshot. Six
 handoff artifacts are not hash-covered.
 
 This is not automatically an error. Some handoff artifacts are mutable
