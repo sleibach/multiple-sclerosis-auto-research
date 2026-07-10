@@ -130,7 +130,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Package-intake handoff bundle refresh | done | Handoff bundle now links the package intake quickstart and intake-directory README from Universal Intake; updated bundle hash included in the 37-row snapshot. |
 | Intake safety audit handoff link | done | Handoff bundle and quickstart now link `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_V52.md`; safety-audit note added to the stable hash snapshot. |
 | Intake safety audit regression fixture | done | `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`; rerun confirmed 3 tracked intake files, 14 checks, 0 failures. |
-| Package intake artifact cross-reference audit | todo | Check package-intake docs for unresolved references after adding the quickstart, README, and safety audit. |
+| Package intake artifact cross-reference audit | done | `scripts/v52_package_intake_cross_reference_audit.py`; 9 package-intake documents, 67 path references, 0 missing-reference failures. |
 | Package intake CLI help snapshot | todo | Record the help output shape for package-ID validation, route classification, and intake safety-audit scripts so operator CLI drift is visible. |
 | Package intake combined smoke suite | todo | Add a command note that runs package ID validation, route classification fixture, and intake safety audit in one safe synthetic-only sequence. |
 | Manifest template README consistency recheck | todo | Recheck that the data-owner README, manifest template, quickstart, and handoff bundle describe the same package routes and fields. |
@@ -620,3 +620,9 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/validation/RECEIVED_PACKAGE_INTAKE_SAFETY_AUDIT_REGRESSION_FIXTURE_V52.md`
   and reran `scripts/v52_received_intake_safety_audit.py --fail-on-error`.
   Result: 3 tracked intake files, 14 checks, and 0 failures.
+- 2026-07-10T14:32:24Z: Added
+  `scripts/v52_package_intake_cross_reference_audit.py`,
+  `docs/validation/PACKAGE_INTAKE_CROSS_REFERENCE_AUDIT_V52.md`, and recorded
+  `analysis/v52_package_intake_cross_reference_audit/package_intake_cross_reference_audit.tsv`.
+  Result: 9 package-intake documents, 67 repository-path references, and 0
+  missing-reference failures.
