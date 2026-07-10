@@ -81,6 +81,13 @@ and V51 structural context without reopening broad public-data discovery.
 | Monitoring pass/fail public wording table | done | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv`; safe public wording, caveat, forbidden wording, and next action by monitoring result class. |
 | chr1 no-go communication appendix | done | `docs/workups/genetics/CHR1_NO_GO_COMMUNICATION_APPENDIX_V52.md`; collaborator-safe wording for real chr1 biology without target promotion. |
 | V52 artifact hash snapshot | done | `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`; SHA256 snapshot of key operator artifacts, excluding mutable navigation docs. |
+| Monitoring result-class examples | done | `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`; concrete scenario-to-class examples for future monitoring packages. |
+| chr1 wrong-direction control checklist | todo | Define how future chr1 perturbation packages must include wrong-direction controls without treating them as therapeutic routes. |
+| Post-validation route update playbook | todo | Create the route-status update playbook for PASS/FAIL/INCONCLUSIVE monitoring and chr1 package outcomes. |
+| Therapeutic no-target public abstract | todo | Draft a concise external abstract that states monitoring-first and no-current-target without weakening the result. |
+| OpenGWAS expiry-day runbook | todo | Write the operational runbook for token expiry, renewal, and no-false-null routing after 2026-07-24. |
+| V52 artifact hash verification command note | todo | Add a compact command note for checking `V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv` against current files. |
+| Validation package route classifier table | todo | Create a machine-readable route classifier mapping incoming package metadata to monitoring, chr1, secondary biology, context-only, or reject. |
 | Final V52 active-time/run summary update | todo | Close session interval only when stopping at a valid boundary; report active and wall-clock time separately. |
 | Structure-aware no-go table | done | `docs/workups/genetics/STRUCTURE_AWARE_NO_GO_TABLE_V52.md`; structure sharpens feasibility but cannot override causal-gene, direction, cell-state, or modality blockers. |
 | OpenGWAS renewal watch note | done | `meta/OPENGWAS_RENEWAL_WATCH_V52.md`; token verified active on 2026-07-10 and expires 2026-07-24 08:00 UTC; auth failures are operational blockers, not null results. |
@@ -337,3 +344,7 @@ and V51 structural context without reopening broad public-data discovery.
   `docs/reports/V52_OPERATOR_ARTIFACT_HASH_SNAPSHOT.tsv`. Result: key
   monitoring, chr1, and OpenGWAS operator artifacts now have SHA256 hashes for
   future package-handoff drift checks; mutable navigation docs are excluded.
+- 2026-07-10T12:11:42Z: Refilled the V52 backlog and wrote
+  `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md`. Result: future
+  monitoring package outcomes now have concrete examples mapping common
+  scenarios to the conservative V42/V52 result classes.

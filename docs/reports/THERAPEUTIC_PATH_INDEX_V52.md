@@ -55,6 +55,7 @@ resolution.
 | `docs/validation/PROSPECTIVE_MONITORING_UTILITY_STUDY_SKETCH_V52.md` | medical team / study designer | defines the post-validation prospective utility study needed before clinical action |
 | `docs/validation/MONITORING_CLINICAL_UTILITY_BOUNDARY_CHECKLIST_V52.md` | medical team / external reviewer | separates scoreability, validation, pharmacodynamic monitoring, clinical utility, and treatment-action claims |
 | `docs/validation/MONITORING_PUBLIC_WORDING_TABLE_V52.tsv` | validation operator / communications reviewer | safe public wording, forbidden wording, caveat, and next action by monitoring result class |
+| `docs/validation/MONITORING_RESULT_CLASS_EXAMPLES_V52.md` | validation operator | concrete scenario-to-class examples for future monitoring outcomes |
 | `docs/validation/INCOMING_PACKAGE_COMMUNICATION_TEMPLATES_V52.md` | project operator / collaborator contact | concise accept/partial/reject response templates for monitoring and chr1 packages |
 | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` | project operator | access-terms, quarantine, checksum, package-type, and no-raw-git receipt checklist |
 | `docs/validation/PREREGISTRATION_V42.md` | validation operator | frozen Gafson analysis plan |
