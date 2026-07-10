@@ -17,8 +17,8 @@ post hoc.
 | step | check | pass condition | fail action | artifact |
 |---|---|---|---|---|
 | 1 | access terms | package terms allow local analysis under the project constraints | stop; request permitted package or terms clarification | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` |
-| 2 | quarantine and checksum | raw or received files are quarantined, checksummed, and not committed if large or restricted | stop; record receipt blocker | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md` |
-| 3 | route classification | package maps to exactly one primary route or a context/reject class | stop; classify as unscoreable if no route fits | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv` |
+| 2 | quarantine and checksum | raw or received files are quarantined, checksummed, and not committed if large or restricted | stop; record receipt blocker | `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`; `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md` |
+| 3 | route classification | package maps to exactly one primary route or a context/reject class | stop; classify as unscoreable if no route fits | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`; `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`; `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv` |
 | 4 | route example sanity check | package resembles a known route example or the difference is documented | document difference before proceeding | `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv` |
 | 5 | field dictionary | required route fields are present or the missing fields are allowed partial-context fields | reject, context-only, or request missing fields | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv` |
 | 6 | acceptance criteria | package meets accept or pre-defined partial criteria for its route | reject or context-only | `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv` |
@@ -55,7 +55,11 @@ Stop package handling and do not analyze if:
 ## Source Artifacts
 
 - `docs/validation/PACKAGE_CHECKSUM_INTAKE_CHECKLIST_V52.md`
+- `docs/validation/MANIFEST_METADATA_VS_RAW_DATA_GIT_POLICY_V52.md`
+- `docs/validation/RECEIVED_PACKAGE_FILE_NAMING_POLICY_V52.md`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_V52.tsv`
+- `docs/validation/PACKAGE_ROUTE_CLASSIFIER_OPERATOR_NOTE_V52.md`
+- `docs/validation/PACKAGE_ROUTE_CLASSIFIER_STATUS_DECISION_TABLE_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_ROUTE_CLASSIFIER_EXAMPLES_V52.tsv`
 - `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`
 - `docs/validation/TARGET_PACKAGE_ACCEPTANCE_CRITERIA_V52.tsv`
