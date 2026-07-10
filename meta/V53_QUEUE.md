@@ -38,7 +38,8 @@ exhausted public-data discovery search as a source of findings.
 | Causal-orientation acquisition design | done | Exact result: two perfect interventions for K3, three for K4. A 594,000-replicate three-seed power map gives n=128/arm at coefficient 0.8 and n=192 at 0.5; current selective module instruments are absent. |
 | Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
 | Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
-| De-overlapped APC module sensitivity | todo | Quantify how much perturbation-axis coupling remains after removing shared HLA/CD74 readout genes; sensitivity only, not a rule change. |
+| De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
+| Cross-modality de-overlap feasibility | todo | Inventory which non-perturbation modalities retain gene-level inputs capable of the same disjoint-readout sensitivity; run every executable layer. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -149,3 +150,11 @@ exhausted public-data discovery search as a source of findings.
   perturbation is a valid selective module instrument, so instrument validation
   is the real blocker. Cumulative active time accrued through this checkpoint
   is 2h35m00s; the resumed session interval remains open.
+- 2026-07-10T23:36:37Z: Completed the perturbation-layer module de-overlap
+  sensitivity. The exact gene-level rebuild matches V26, but HLA-II versus
+  receptor-state coupling changes from rho 0.798 to 0.647 and fails a
+  cytokine-stratified permutation null after shared genes are removed
+  (`q=0.7665`, versus global `q=0.0099`). Only GILT/IFN survives the full
+  disjoint/context gate. This weakens one modality but does not re-estimate the
+  four-modality architecture. Cumulative active time accrued through this
+  checkpoint is 2h41m20s; the resumed session interval remains open.

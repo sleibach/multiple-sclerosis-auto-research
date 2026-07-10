@@ -235,6 +235,24 @@ no component-specific validated intervention. The next causal acquisition
 problem is instrument validation, not a more complex orientation algorithm on
 the existing summaries.
 
+A separate definition-overlap sensitivity rebuilt the Mixscale perturbation
+matrix from held gene-level effects, matching V26 to maximum absolute error
+`4.44e-16`, then removed every gene shared by two modules. The HLA-II/APC versus
+receptor-state correlation fell from `rho=0.798` to `0.647`. It remains
+significant under a global shuffle (`q=0.0099`) but fails the required
+within-stimulus permutation null (`q=0.7665`; original overlapping score
+`q=0.0709`). Its paired-bootstrap attenuation interval is `-0.413` to `0.002`,
+so attenuation itself narrowly misses establishment.
+
+Interpretation: in the perturbation modality, the disjoint HLA/receptor global
+correlation is largely cytokine-context structured and does not establish
+within-stimulus coupling. Of the six disjoint module pairs, only GILT/lysosomal
+versus IFN/APC survives the context-preserving gate. This weakens the
+perturbation-layer formulation of the coupled receptor-state axis but does not,
+by itself, re-estimate or demote the V26 architecture supported across four
+modalities. No frozen module or locked rule was changed. See
+`analysis/v53_deoverlapped_module_sensitivity/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -275,6 +293,10 @@ None yet.
 1. Current APC module summaries do not identify causal edge direction. The
    exact equivalence-class result is worth carrying into future experiment
    design, but it is not a therapeutic lead.
+2. Perturbation-layer HLA-II/receptor-state coupling is not robust to both
+   globally disjoint readouts and a cytokine-stratified null; the broader
+   multi-modality architecture remains unchanged pending comparable
+   de-overlap tests in other modalities.
 
 ### Promising-but-needs-data
 

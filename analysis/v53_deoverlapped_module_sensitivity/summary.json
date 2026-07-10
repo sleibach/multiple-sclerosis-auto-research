@@ -1,0 +1,24 @@
+{
+  "boundary": "Only the held Mixscale perturbation modality is recomputed. The multi-modality V26 coupled-axis status is not re-estimated or changed by this sensitivity.",
+  "global_coupled_axis_status_changed": false,
+  "hla_mif_attenuation_established_by_paired_bootstrap": false,
+  "hla_mif_original_spearman": 0.7977296181630547,
+  "hla_mif_original_within_stimulus_q_bh": 0.07087145642717864,
+  "hla_mif_survives_deoverlap_gate": false,
+  "hla_mif_unique_q_bh": 0.009899505024748761,
+  "hla_mif_unique_spearman": 0.6470588235294118,
+  "hla_mif_unique_within_stimulus_q_bh": 0.7664616769161542,
+  "input": "phases/v3/results/mixscale/mixscale_readout_gene_effects.tsv",
+  "max_absolute_original_rebuild_error": 4.440892098500626e-16,
+  "n_paired_bootstrap": 5000,
+  "n_permutations_per_pair": 20000,
+  "purpose": "V53 perturbation-module dependency sensitivity after removing every shared readout gene",
+  "seed": 53201,
+  "unique_gene_counts": {
+    "gilt_lysosomal_apc": 7,
+    "hla_ii_apc": 2,
+    "ifn_apc": 9,
+    "mif_cd74_receptor_state": 2
+  },
+  "verdict": "PERTURBATION_HLA_MIF_GLOBAL_ASSOCIATION_FAILS_STIMULUS_CONTROL_GLOBAL_STATUS_UNCHANGED"
+}
