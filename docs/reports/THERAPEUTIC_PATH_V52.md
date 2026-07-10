@@ -44,6 +44,7 @@ data and a direction-matched modality exist.
 | Machine-readable therapeutic evidence matrix | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` |
 | Machine-readable therapeutic reopen checklist | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` |
 | Therapeutic skeptic rebuttal checklist | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md` |
+| Therapeutic reviewer quickstart | `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md` |
 | Therapeutic artifact consistency audit | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md` |
 | Therapeutic claim hierarchy | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md` |
 | Therapeutic route risk register | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` |

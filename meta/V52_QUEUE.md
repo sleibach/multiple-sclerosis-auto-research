@@ -77,7 +77,7 @@ and V51 structural context without reopening broad public-data discovery.
 | Bounded OpenGWAS script existence audit | done | Folded into `docs/workups/genetics/OPENGWAS_PRE_EXPIRY_BOUNDED_POLISH_COMMANDS_V52.md`; V14/V19 are preferred bounded commands; V13/V21 scripts are not pre-approved for V52 polish. |
 | V52 RAG/index refresh | done | `.venv_v3_py312/bin/python scripts/build_knowledge_index.py`; refreshed `knowledge/.index/` over 783 documents and smoke-query returned V52 therapeutic artifacts. |
 | Validation package field dictionary | done | `docs/validation/VALIDATION_PACKAGE_FIELD_DICTIONARY_V52.tsv`; machine-readable required and optional fields by package type. |
-| Therapeutic path reviewer quickstart | todo | Create a short reviewer-oriented quickstart for reading the V52 therapeutic artifacts in the right order. |
+| Therapeutic path reviewer quickstart | done | `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`; reader roles, challenge map, and claim-boundary reminders. |
 | Monitoring pass/fail public wording table | todo | Define safe public wording for clean pass, immune-tone-bounded pass, fail, inconclusive, and unscoreable validation outcomes. |
 | chr1 no-go communication appendix | todo | Create collaborator-safe wording for why chr1 is real biology but not target-ready without genotype-linked direction evidence. |
 | V52 artifact hash snapshot | todo | Record hashes for key V52 operator artifacts for package-handoff integrity. |
@@ -319,3 +319,8 @@ and V51 structural context without reopening broad public-data discovery.
   monitoring, chr1, postpartum, T/B, pharmacodynamic-only, and structure-context
   packages now have a field-level required/optional dictionary aligned to the
   existing acceptance criteria and request packet.
+- 2026-07-10T11:57:15Z: Wrote
+  `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md`. Result: external
+  reviewers now have a reading order, role-specific artifact map, and challenge
+  checklist that keeps monitoring validation, target handoff, structure context,
+  and future data asks separate.

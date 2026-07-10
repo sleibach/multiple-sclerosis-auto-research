@@ -30,6 +30,7 @@ resolution.
 | `docs/reports/THERAPEUTIC_TARGET_EVIDENCE_MATRIX_V52.tsv` | downstream tooling / spreadsheet review | machine-readable route and lead status table |
 | `docs/reports/THERAPEUTIC_REOPEN_CHECKLIST_V52.tsv` | downstream tooling / go-no-go review | machine-readable reopen gates and non-counting evidence for closed or conditional leads |
 | `docs/reports/THERAPEUTIC_SKEPTIC_REBUTTAL_CHECKLIST_V52.md` | external reviewer / skeptical reader | pre-answers objections to monitoring-first and no-target conclusions |
+| `docs/reports/THERAPEUTIC_REVIEWER_QUICKSTART_V52.md` | external reviewer / new reader | artifact reading order, claim-boundary reminders, and challenge map |
 | `docs/reports/THERAPEUTIC_ARTIFACT_CONSISTENCY_AUDIT_V52.md` | project maintainer / reviewer | verifies V52 artifacts preserve one route ranking and no-target conclusion |
 | `docs/reports/THERAPEUTIC_CLAIM_HIERARCHY_V52.md` | author / reviewer | separates grounded findings, provisional claims, context, handoffs, and future asks |
 | `docs/reports/THERAPEUTIC_ROUTE_RISK_REGISTER_V52.md` | project maintainer / medical team | residual risk, mitigation artifact, and escalation trigger by route |
