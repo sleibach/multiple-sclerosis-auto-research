@@ -1,0 +1,41 @@
+{
+  "claim": "The publication that generated GSE111972 reported CXCR4 among regionally differential and MS-associated genes in human microglia, including high expression in MS normal-appearing grey matter; it did not report the project's exact patient-equal CD44-plus-CXCR4 score or its broad-state adjustment.",
+  "date_accessed": "2026-07-11",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Treat the publication as same-dataset prior art, not independent replication. Test the frozen CD44/CXCR4 score only in an eligible independent donor-level cohort under docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "analysis/v53_ms_microglia_component_specificity/REPORT.md; docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md",
+    "finding_id": "Broad-state-bounded MS microglial CD44/CXCR4 association"
+  },
+  "project_use": "Same-dataset prior-art boundary for the provisional V53 MS microglia association.",
+  "record_id": "claim.van_der_poel_2019.gse111972_microglia_cxcr4_context.2026-07-11",
+  "record_type": "external_claim",
+  "relationship_note": "This is not independent corroboration because the project reanalyzed GSE111972. It lowers biological novelty for the CXCR4 component while leaving the exact two-gene adjusted analysis as a distinct project computation.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "van der Poel et al. Transcriptional profiling of human microglia reveals grey-white matter heterogeneity and multiple sclerosis-associated changes. Nature Communications. 2019.",
+    "doi": "10.1038/s41467-019-08976-7",
+    "geo_accession": "GSE111972",
+    "label": "van der Poel 2019 GSE111972 source publication",
+    "pmcid": "PMC6416318",
+    "pmid": "30867424",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30867424/"
+  },
+  "source_terms": {
+    "checked_date": "2026-07-11",
+    "license_or_terms_label": "PubMed/Europe PMC bibliographic metadata and short paraphrase",
+    "redistribution_allowed": "metadata_and_short_paraphrase",
+    "reuse_notes": "This record stores bibliographic metadata and a short paraphrase only; the publication remains external context and shares its data lineage with the project reanalysis.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "microglia",
+    "cxcr4",
+    "gse111972",
+    "same_dataset_prior_art",
+    "normal_appearing_tissue"
+  ],
+  "why_unverifiable": "The publication's assertions are external; although the project reran GSE111972 for a different analysis, it did not reproduce every analysis in the source paper."
+}

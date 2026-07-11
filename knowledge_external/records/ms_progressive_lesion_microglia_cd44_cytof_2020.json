@@ -1,0 +1,41 @@
+{
+  "claim": "A human progressive-MS active-lesion CyTOF study reported higher CD44 together with HLA-DR, CD45, CD68 and other inflammatory or phagocytic markers in lesion-enriched activated microglial clusters relative to homeostatic microglia.",
+  "date_accessed": "2026-07-11",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as independent lesion-state context. An independent transcriptomic cohort with MS and control donors, normal-appearing tissue, CD44/CXCR4 coverage, and age/region metadata is still required for the frozen V53 replication test.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "analysis/v53_ms_microglia_component_specificity/REPORT.md",
+    "finding_id": "Broad-state-bounded MS microglial CD44/CXCR4 association"
+  },
+  "project_use": "Independent human-tissue context for whether CD44 tracks a broad activated microglial state in MS lesions.",
+  "record_id": "claim.bottcher_2020.progressive_ms_lesion_microglia_cd44.2026-07-11",
+  "record_type": "external_claim",
+  "relationship_note": "The source converges with the project's broad-state-bounded interpretation for CD44, but it studies active lesions and protein-marker clusters rather than the exact normal-appearing-tissue two-gene transcript score. It is context corroboration, not replication.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Bottcher et al. Single-cell mass cytometry reveals complex myeloid cell composition in active lesions of progressive multiple sclerosis. Acta Neuropathologica Communications. 2020.",
+    "doi": "10.1186/s40478-020-01010-8",
+    "label": "Bottcher 2020 progressive-MS active-lesion CyTOF study",
+    "pmcid": "PMC7437178",
+    "pmid": "32811567",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7437178/"
+  },
+  "source_terms": {
+    "checked_date": "2026-07-11",
+    "license_or_terms_label": "PubMed Central open article; metadata and short paraphrase reused",
+    "redistribution_allowed": "metadata_and_short_paraphrase",
+    "reuse_notes": "This record stores bibliographic metadata and a short paraphrase only; no source data or article text is redistributed.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "progressive_ms",
+    "microglia",
+    "cd44",
+    "active_lesion",
+    "cytof",
+    "broad_cell_state"
+  ],
+  "why_unverifiable": "The project has not rerun the external study's CyTOF analysis or obtained its sample-level measurements."
+}

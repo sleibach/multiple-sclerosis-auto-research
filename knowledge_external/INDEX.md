@@ -6,11 +6,11 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `74`
+- external records indexed: `78`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `35`
-- records with source_terms metadata: `40`
+- records with source_terms metadata: `44`
 - records missing optional source_terms metadata: `34`
 - V48 governance controls tracked: `95`
 - reachability maintenance warnings: `2`
@@ -26,10 +26,10 @@ Grounded project findings remain in the normal project report/history/validation
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 74 |
+| `epistemic_class` | `external-unverifiable` | 78 |
 | `relationship_to_project_findings` | `orthogonal` | 44 |
-| `relationship_to_project_findings` | `supports` | 30 |
-| `record_type` | `external_claim` | 40 |
+| `relationship_to_project_findings` | `supports` | 34 |
+| `record_type` | `external_claim` | 44 |
 | `record_type` | `external_resource_catalog` | 31 |
 | `record_type` | `structural_prediction` | 3 |
 
@@ -69,6 +69,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 convergence/contradiction analysis](synthesis/CONVERGENCE_CONTRADICTION_V48.md) | Populated comparison of selected grounded findings and segregated external records. | external agreement is context; project artifacts remain evidence |
 | [V50 convergence/contradiction reassessment](synthesis/CONVERGENCE_CONTRADICTION_V50.md) | Reassessment of high-priority insufficient-overlap rows after adding sharper DMF, ZMIZ1, chr1, and GPR25 source-specific records. | external agreement is context; project artifacts remain evidence |
 | [V52 therapeutic convergence/contradiction check](synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md) | Therapeutic-path review of source-specific V50/V51/V52 context; zero genuine therapeutic contradictions surfaced. | external context does not change therapeutic-path evidence |
+| [V53 CD44/CXCR4 MS microglia prior-art boundary](synthesis/V53_CD44_CXCR4_MS_MICROGLIA_PRIOR_ART.md) | Source-specific novelty and independence audit for the provisional broad-state-bounded GSE111972 association. | external context only; no replication or target upgrade |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
 | [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |

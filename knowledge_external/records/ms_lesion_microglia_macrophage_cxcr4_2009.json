@@ -1,0 +1,41 @@
+{
+  "claim": "A human chronic-MS imaging and histopathology study reported CXCR4 and phospho-CXCR4 on reactive microglia/macrophages in active or chronic-active lesions, including MHC-II/CXCR4 double-positive cells.",
+  "date_accessed": "2026-07-11",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as independent lesion-context corroboration. The study does not isolate the project's normal-appearing-tissue donor-level CD44/CXCR4 score and therefore cannot satisfy the frozen replication specification.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "analysis/v53_ms_microglia_component_specificity/REPORT.md",
+    "finding_id": "Broad-state-bounded MS microglial CD44/CXCR4 association"
+  },
+  "project_use": "Independent human-tissue context for CXCR4 in inflammatory MS lesion myeloid cells.",
+  "record_id": "claim.moll_2009.ms_lesion_microglia_macrophage_cxcr4.2026-07-11",
+  "record_type": "external_claim",
+  "relationship_note": "The source supports CXCR4 as part of an inflammatory lesion-associated myeloid state. Its microglia/macrophage resolution, lesion context, and assay differ from the project analysis, so it is not same-definition replication or target-direction evidence.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Moll et al. Imaging correlates of leukocyte accumulation and CXCR4/CXCL12 in multiple sclerosis. Archives of Neurology. 2009.",
+    "doi": "10.1001/archneurol.2008.512",
+    "label": "Moll 2009 CXCR4/CXCL12 histopathology in chronic MS",
+    "pmcid": "PMC2792736",
+    "pmid": "19139298",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19139298/"
+  },
+  "source_terms": {
+    "checked_date": "2026-07-11",
+    "license_or_terms_label": "PubMed/PMC bibliographic metadata and short paraphrase",
+    "redistribution_allowed": "metadata_and_short_paraphrase",
+    "reuse_notes": "This record stores bibliographic metadata and a short paraphrase only; no source images or article text are redistributed.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "microglia",
+    "macrophage",
+    "cxcr4",
+    "cxcl12",
+    "chronic_active_lesion",
+    "mhc_ii"
+  ],
+  "why_unverifiable": "The project has not rerun the source study's histopathology or obtained its patient-level measurements."
+}

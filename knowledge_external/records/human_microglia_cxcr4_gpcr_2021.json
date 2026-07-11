@@ -1,0 +1,41 @@
+{
+  "claim": "A human microglia GPCR study reported functional CXCR4 expression, higher expression in white- than grey-matter microglia, and modest enrichment in MS lesional microglia; parts of its transcriptomic analysis reuse public datasets including the GSE111972 lineage.",
+  "date_accessed": "2026-07-11",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Treat the functional assay as biological context and the reused transcriptomic data as non-independent. Replicate the frozen two-gene score only in a separate eligible donor-level cohort.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "analysis/v53_ms_microglia_age_region_robustness/REPORT.md; analysis/v53_ms_microglia_component_specificity/REPORT.md",
+    "finding_id": "Broad-state-bounded MS microglial CD44/CXCR4 association"
+  },
+  "project_use": "Functional and regional CXCR4 context, with explicit data-lineage caution.",
+  "record_id": "claim.hsiao_2021.human_microglia_functional_cxcr4_context.2026-07-11",
+  "record_type": "external_claim",
+  "relationship_note": "The source lowers novelty for CXCR4 biology and supports region-aware interpretation. It does not independently reproduce the exact project score, and its reused public-data components must not be counted as independent corroboration.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Hsiao et al. GPCRomics of Homeostatic and Disease-Associated Human Microglia. Frontiers in Immunology. 2021.",
+    "doi": "10.3389/fimmu.2021.674189",
+    "label": "Hsiao 2021 human microglia GPCRomics",
+    "pmcid": "PMC8160299",
+    "pmid": "34054860",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34054860/"
+  },
+  "source_terms": {
+    "checked_date": "2026-07-11",
+    "license_or_terms_label": "PubMed Central open article; metadata and short paraphrase reused",
+    "redistribution_allowed": "metadata_and_short_paraphrase",
+    "reuse_notes": "This record stores bibliographic metadata and a short paraphrase only; source datasets and functional assays remain external context.",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "microglia",
+    "cxcr4",
+    "gpcr",
+    "functional_assay",
+    "regional_heterogeneity",
+    "data_lineage_caution"
+  ],
+  "why_unverifiable": "The project has not reproduced the external functional assays, and some source transcriptomic analyses reuse public data rather than providing a fully independent replication."
+}

@@ -56,7 +56,7 @@ exhausted public-data discovery search as a source of findings.
 | V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
-| CD44/CXCR4 MS microglia prior-art check | todo | Targeted external-context search to determine whether the broad-state-bounded association is novel or known; external records remain non-evidence. |
+| CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
 | CD44/CXCR4 independent cohort scout | todo | Search held/public catalogs for an independent donor-level MS microglia cohort meeting the frozen V53 replication spec; verify usability before counting. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
@@ -295,3 +295,11 @@ exhausted public-data discovery search as a source of findings.
   broad-state-bounded association, not an independent receptor mechanism.
   Cumulative active time accrued through this checkpoint is 3h57m04s; the
   resumed session interval remains open.
+- 2026-07-11T01:01:32Z: Completed the segregated CD44/CXCR4 prior-art audit.
+  Four source-specific records distinguish same-dataset context from independent
+  lesion studies. The individual receptor biology is already represented in MS
+  tissue literature; only the exact adjusted public-cohort reanalysis is
+  analytically distinct, with moderate novelty at most. No evidence grade,
+  replication status, or therapeutic status changed. Cumulative active time
+  accrued through this checkpoint is 4h06m15s; the resumed session interval
+  remains open.

@@ -416,6 +416,14 @@ label is therefore **broad-state-bounded CD44/CXCR4 association**, not an
 independent receptor mechanism. See
 `analysis/v53_ms_microglia_component_specificity/REPORT.md`.
 
+A segregated source-specific prior-art audit further narrows novelty without
+changing the evidence grade. It classifies the individual CD44/CXCR4
+lesion-state biology as low novelty and the exact patient-equal, age/region-
+aware, broad-state-adjusted reanalysis as moderate novelty at most. None of the
+reviewed sources independently reproduces the frozen two-gene analysis, and no
+source supplies an MS-beneficial intervention direction. See
+`knowledge_external/synthesis/V53_CD44_CXCR4_MS_MICROGLIA_PRIOR_ART.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -506,6 +514,8 @@ None yet.
    32 MS and 32 control donors under an assumption-labeled `d=0.8`, 80%-power
    design, with the same CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The
    stronger decoupling claim is not supported.
+   Biological novelty is low and exact analytical novelty is moderate at most;
+   the independent-cohort requirement is unchanged.
 
 MIF/CD74 remains below this tier as a target; its retained value is
 state-readout context.
