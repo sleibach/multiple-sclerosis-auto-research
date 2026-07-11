@@ -62,7 +62,7 @@ exhausted public-data discovery search as a source of findings.
 | Cross-cohort CD44/CXCR4 meta-analysis | done | Three standardized adjusted effects positive; random effect 1.151 (CI 0.520-1.782), I2 66.7%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
 | GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
-| V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
+| V53 RAG refresh | done | Sparse TF-IDF index rebuilt over 834 documents; V53 CD44/CXCR4/source-lineage/GSE301908 smoke query returns current delta, cumulative report, replication spec/scout, and queue as top results. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
 ## Environment And Boundary
@@ -350,3 +350,9 @@ exhausted public-data discovery search as a source of findings.
   locked-rule-boundary, ledger, and report-consistency checks. Cumulative active
   time accrued through this checkpoint is 5h19m36s; the resumed session interval
   remains open.
+- 2026-07-11T02:16:14Z: Rebuilt the local sparse TF-IDF knowledge index over
+  834 documents. A V53 CD44/CXCR4/Macnair/source-lineage/GSE301908 smoke query
+  returned the current findings delta, cumulative report, frozen replication
+  specification, cohort scout, and V53 queue as its top five results. Cumulative
+  active time accrued through this checkpoint is 5h20m57s; the resumed session
+  interval remains open.

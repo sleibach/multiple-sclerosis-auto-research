@@ -28,8 +28,9 @@ V53 update:
 - Machine-readable ledger: 33 artifact-backed outcomes at
   `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
   passes 16/16 checks.
-- Current priority: RAG refresh and final integration checks, then close only
-  at six active hours.
+- Sparse RAG refresh completed over 834 documents with V53 smoke-query pass.
+- Current priority: final integration and consistency checks, then close only at
+  six active hours.
 
 V52 completed state:
 - Therapeutic-path synthesis:

@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-07-10 15:39 CEST
+Last updated: 2026-07-11 04:16 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,7 +25,15 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V52 manifest-package refresh: `804`.
+- Current document count after V53 exploratory-frontier refresh: `834`.
+- V53 smoke query
+  `V53 CD44 CXCR4 Macnair source lineage GSE301908 quality qualified` returned
+  current V53 artifacts as its leading results, including:
+  1. `docs/reports/FINDINGS_DELTA_V53.md`;
+  2. `docs/history/EXPLORATORY_FRONTIER_V53.md`;
+  3. `docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md`;
+  4. `docs/validation/MS_MICROGLIA_REPLICATION_COHORT_SCOUT_V53.md`;
+  5. `meta/V53_QUEUE.md`.
 - V52 therapeutic smoke test query
   `V52 therapeutic path monitoring chr1 OpenGWAS` returned V52-relevant
   artifacts in the prior V52 refresh, including:
