@@ -424,8 +424,8 @@ reviewed sources independently reproduces the frozen two-gene analysis, and no
 source supplies an MS-beneficial intervention direction. See
 `knowledge_external/synthesis/V53_CD44_CXCR4_MS_MICROGLIA_PRIOR_ART.md`.
 
-The frozen independent-cohort test is now complete on two public Macnair
-matrices, extracted from `2,012,213,369` real sparse-matrix entries without
+The frozen independent-cohort test is now complete on two analyzed partitions
+of the public Macnair package, extracted from `2,012,213,369` real sparse-matrix entries without
 storing the multi-gigabyte inputs. In the validation composite, deterministic
 cross-study donor de-duplication leaves 18 MS and 13 control donors with 11,222
 microglia. The frozen primary gives beta `1.414`, standardized effect `2.212`,
@@ -444,6 +444,16 @@ It does not establish a receptor-specific causal mechanism: GSE111972 failed
 its component-specificity gate, MIF/DDT is sparsely detected in the Macnair
 matrices, and therapeutic direction remains absent. See
 `analysis/v53_ms_microglia_independent_cohort_scout/REPORT.md`.
+
+The source-lineage audit found zero exact normalized donor-token collisions and
+confirmed that three duplicated validation control donors were removed before
+modeling. It also establishes a counting limit: the Macnair partitions share
+one Zenodo/manuscript package, and cohort-specific anonymized IDs cannot prove
+person-level non-overlap. Current wording therefore counts a separate GSE111972
+source family plus one Macnair package with two analyzed partitions and three
+named validation source studies, not two unqualified publication-independent
+Macnair replications. See
+`analysis/v53_microglia_source_lineage_audit/REPORT.md`.
 
 Fixed-score context localization further shows that the signal is not simply
 an overt-lesion readout. In the discovery cohort, normal-appearing white matter
@@ -502,8 +512,8 @@ rather than estimated.
 ### Grounded-and-promising
 
 1. **Replicated MS microglial CD44/CXCR4 state association, not a target.** The
-   original GSE111972 association now has same-direction independent support in
-   two Macnair matrices. One passes both the frozen and conservative depth-QC
+   original GSE111972 association now has same-direction support in both
+   analyzed partitions of the separate Macnair package. One passes both the frozen and conservative depth-QC
    gates; the larger passes the frozen gate and all fixed minimum-cell
    thresholds but is borderline after explicit cell-count adjustment. This is
    a replicated state marker with a quality qualification, low biological

@@ -35,16 +35,23 @@ APC-state adjustment in both cohorts.
 
 ## Interpretation
 
-Together with the original GSE111972 result, these analyses reject the
+Together with the original, separately deposited GSE111972 result, these analyses reject the
 single-cohort-artifact explanation for the **state association**. They do not
 establish a CD44/CXCR4-specific causal mechanism. GSE111972 failed its strict
 component-specificity gate, the Macnair MIF/DDT control genes are sparsely
 detected, and prior art already places both receptor components in MS myeloid
 activation biology. The defensible update is therefore:
 
-> A CD44/CXCR4-high microglial state recurs in independent MS brain cohorts,
+> A CD44/CXCR4-high microglial state recurs across separate MS brain source
+> families and both analyzed partitions of the Macnair package,
 > but its independence from broader APC activation and its therapeutic
 > direction remain unresolved.
+
+The Macnair discovery and validation matrices share one Zenodo/manuscript
+package. Their anonymized donor-token sets do not collide, but person-level
+independence cannot be proven across cohort-specific identifier namespaces.
+See `analysis/v53_microglia_source_lineage_audit/REPORT.md` for the counting
+boundary.
 
 The next useful analysis is cross-cohort disease-stage and lesion-context
 heterogeneity under fixed scores, followed by a third donor-balanced cohort or

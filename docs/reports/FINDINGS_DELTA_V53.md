@@ -42,8 +42,8 @@ independent HLA-II two-arm mechanism, causal direction, treatment benefit, or a
 therapeutic target.
 
 Subsequent frozen-score testing adds a distinct MS-specific update: the
-CD44/CXCR4 **state association** is same-direction in two independent public
-Macnair matrices. The validation composite passes explicit microglia-depth and
+CD44/CXCR4 **state association** is same-direction in two analyzed partitions
+of the public Macnair package. The validation composite passes explicit microglia-depth and
 joint-component adjustment; the larger discovery cohort passes the frozen
 primary and all minimum-cell thresholds but is borderline after direct
 cell-count adjustment (`p=0.05398`). This supports a replicated state marker
@@ -54,8 +54,9 @@ with a quality qualification, not a receptor-specific mechanism or target.
 Use:
 
 > Held data support broad cross-disease IFN/APC and CD44/CXCR4 receptor-state
-> recurrence. Independent MS brain cohorts also reproduce the CD44/CXCR4 state
-> association, with microglial-yield sensitivity in the larger cohort. The
+> recurrence. Separate MS brain source families reproduce the CD44/CXCR4 state
+> association, with two same-direction partitions in the Macnair package and
+> microglial-yield sensitivity in the larger partition. The
 > previously reported independently coupled HLA-II/receptor two-arm architecture
 > is not robust to source-level disjoint-readout and portability tests.
 

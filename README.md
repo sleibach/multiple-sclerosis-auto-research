@@ -186,9 +186,12 @@ continuity. For the newest resumable state, read `meta/V53_QUEUE.md` after
   matrix is a derived atlas rather than an independent modality. Broad
   cross-disease IFN/APC and CD44/CXCR4 direction recurrence survives (7/8
   physical datasets each, BH `q=0.0703`), but HLA-II recurrence does not (5/8,
-  `q=0.363`). Two independent Macnair matrices additionally reproduce the MS
-  microglial CD44/CXCR4 state direction, with microglial-yield sensitivity in
-  the larger cohort; this remains a state marker, not a mechanism or target.
+  `q=0.363`). Two analyzed partitions in the Macnair public package
+  additionally reproduce the MS microglial CD44/CXCR4 state direction, with
+  microglial-yield sensitivity in the larger cohort. GSE111972 and the Macnair
+  package are separate source families; cohort-specific anonymization prevents
+  proof that the two Macnair partitions are person-level independent. This
+  remains a state marker, not a mechanism or target.
   The V22 rule is unchanged. See
   `docs/reports/FINDINGS_DELTA_V53.md` and
   `docs/history/EXPLORATORY_FRONTIER_V53.md`.
@@ -317,7 +320,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V50 | Per-iteration push plus sharper external-context content. | Restored healthy per-iteration pushes to GitHub, added source-specific public records and route inventories, built GWAS Catalog fetcher validation and allele-harmonization prep, and added public-reader/citation/glossary guidance while OpenGWAS remains expired. |
 | V51 | AlphaFold integration under a segregated structural-prediction class. | Added a working AlphaFold DB client, mandatory confidence/provenance gate, and real GPR25/KIF21B/PTGER4 structure records as prediction context only. |
 | V52 | Therapeutic-path synthesis with restored genetics and structure context. | Renewed OpenGWAS access and confirmed that no direction-closed genetics lead became tractable; monitoring/stratification remained the honest near-term impact. |
-| V53 | Unconventional exploration plus source-level APC architecture audit. | MIF/CD74 target, additive combination, and control-node probes were negative. Disjoint-readout analysis demoted the independent HLA-II/receptor two-arm architecture. A frozen-score scout then reproduced the MS microglial CD44/CXCR4 state association in two independent Macnair matrices, with a microglial-yield quality qualification and no therapeutic promotion; current evidence delta is `docs/reports/FINDINGS_DELTA_V53.md`. |
+| V53 | Unconventional exploration plus source-level APC architecture audit. | MIF/CD74 target, additive combination, and control-node probes were negative. Disjoint-readout analysis demoted the independent HLA-II/receptor two-arm architecture. A frozen-score scout then reproduced the MS microglial CD44/CXCR4 state association in two analyzed partitions of one Macnair public package, with a microglial-yield quality qualification and no therapeutic promotion; current evidence delta is `docs/reports/FINDINGS_DELTA_V53.md`. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

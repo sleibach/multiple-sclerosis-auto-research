@@ -16,12 +16,13 @@ V53 update:
 - Completed correction: the independent HLA-II/MIF-CD74 two-arm architecture
   is demoted after source-level disjoint-readout testing; only broad
   non-MS-specific IFN/APC and CD44/CXCR4 recurrence remains supported.
-- New grounded update: two independent Macnair matrices reproduce the
-  CD44/CXCR4 MS microglial state direction. The validation composite is clean;
-  the larger discovery cohort is quality-sensitive to direct microglia-count
-  adjustment. This is a replicated state marker, not a target.
-- Current priority: run source-lineage overlap and cross-cohort effect checks,
-  then the machine-readable ledger,
+- New grounded update: two analyzed partitions in one Macnair public package
+  reproduce the CD44/CXCR4 MS microglial state direction. The validation
+  composite is clean; the larger discovery cohort is quality-sensitive to
+  direct microglia-count adjustment. GSE111972 is a separate source family,
+  while cohort-specific anonymization prevents claiming the Macnair partitions
+  are person-level independent. This is a replicated state marker, not a target.
+- Current priority: run the cross-cohort effect check, then the machine-readable ledger,
   regression suite, RAG refresh, and close only at six active hours.
 
 V52 completed state:

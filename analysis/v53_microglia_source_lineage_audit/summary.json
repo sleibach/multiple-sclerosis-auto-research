@@ -1,0 +1,12 @@
+{
+  "boundary": "Cohort-specific anonymized identifiers cannot prove that no person appears in two source publications. Exact token non-overlap is a data-integrity check, not proof of biological independence.",
+  "counting_rule": "Treat GSE111972 and Zenodo 8338963 as separate package/source families. Treat the Macnair discovery and validation matrices as two deposited data partitions within one package, not two publication-independent replications. The validation partition contains three named source studies after deterministic within-partition donor de-duplication. Do not count GSE301908 as replication because it has only three controls and has not passed the frozen replication gate.",
+  "macnair_discovery_validation_share_deposition_package": true,
+  "n_cohorts": 4,
+  "n_deposition_packages": 3,
+  "n_exact_cross_cohort_donor_token_overlaps": 0,
+  "n_macnair_validation_cross_study_duplicate_donors_resolved": 3,
+  "person_level_independence_fully_verifiable": false,
+  "purpose": "Source-lineage and donor-label audit; no biological hypothesis test",
+  "verdict": "NO_EXACT_TOKEN_OVERLAP_BUT_PERSON_LEVEL_INDEPENDENCE_NOT_FULLY_VERIFIABLE"
+}

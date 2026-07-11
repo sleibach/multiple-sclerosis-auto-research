@@ -168,8 +168,8 @@ pass the same gate (5/8, `q=0.363`). The immutable V22 scalar and its validation
 plan are unchanged. Current evidence wording and the historical-report delta
 are in `docs/reports/FINDINGS_DELTA_V53.md`.
 
-V53 then applied the frozen CD44/CXCR4 score to two independent public Macnair
-matrices. The validation composite (18 MS, 13 controls after donor
+V53 then applied the frozen CD44/CXCR4 score to two analyzed partitions in the
+public Macnair package. The validation composite (18 MS, 13 controls after donor
 de-duplication) passes the frozen and explicit microglia-depth gates; the larger
 discovery cohort (54 MS, 26 controls) passes the frozen primary and all fixed
 minimum-cell thresholds, but direct cell-count adjustment is borderline
@@ -184,6 +184,14 @@ both cohorts, but paired lesion amplification is not detected. SPMS contrasts
 against controls pass in both cohorts, yet the direct SPMS-versus-PPMS contrast
 does not pass correction; stage specificity is therefore unresolved.
 
+A source-lineage audit found zero exact donor-token collisions, but both
+Macnair partitions share Zenodo package `8338963` and use cohort-specific
+anonymized identifiers. They are therefore not counted as two unqualified
+publication-independent replications. The defensible count is the separate
+GSE111972 source family plus one Macnair package containing two analyzed
+partitions and three named validation source studies. This narrows replication
+wording without changing any within-cohort estimate.
+
 Current frontier:
 
 - V53 live state:
@@ -195,8 +203,9 @@ Current frontier:
   - No new therapeutic lead is promoted.
   - Coupled HLA-II/receptor two-arm architecture is demoted; broad
     IFN/APC and CD44/CXCR4 recurrence remains non-specific context.
-  - Independent Macnair cohorts now support the MS microglial CD44/CXCR4 state
-    association; component specificity and intervention direction remain open.
+  - The Macnair package's two analyzed partitions support the MS microglial
+    CD44/CXCR4 state association alongside the separate GSE111972 source family;
+    component specificity and intervention direction remain open.
   - V22/V42 validation artifacts remain immutable and operational.
 
 - V52 therapeutic-path state:

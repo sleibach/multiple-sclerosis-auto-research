@@ -61,7 +61,7 @@ exhausted public-data discovery search as a source of findings.
 | Macnair disease-stage and lesion-context heterogeneity | done | Discovery NAWM vs control WM beta 0.783, q=0.01197; grey matter null; CAL positive in both cohorts. SPMS vs controls positive twice, but direct SPMS-PPMS q=0.115 and validation PPMS n=2: no stage-specific claim. No paired lesion amplification. |
 | Cross-cohort CD44/CXCR4 meta-analysis | todo | Pool only cohort-level adjusted effects with heterogeneity and leave-one-cohort-out reporting; do not treat shared-publication matrices as unqualified independence. |
 | GSE301908 third-cohort low-control sensitivity | todo | Assess only as a 14-MS/3-control sensitivity under the existing score; cannot count as clean replication due three controls. |
-| Macnair source-lineage overlap audit | todo | Verify discovery/validation/GSE301908 donor and source independence before any cross-cohort count is finalized. |
+| Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -324,3 +324,12 @@ exhausted public-data discovery search as a source of findings.
   does not (`q=0.115`), so stage specificity is not claimed. No paired lesion
   amplification is supported. Cumulative active time accrued through this
   checkpoint is 4h58m42s; the resumed session interval remains open.
+- 2026-07-11T02:03:39Z: Completed the microglia source-lineage audit. Four
+  cohort manifests show zero exact normalized donor-token collisions, and the
+  three duplicated validation controls are explicitly resolved before outcome
+  modeling. The audit also narrows the count: Macnair discovery and validation
+  share one Zenodo/manuscript package and cohort-specific anonymization cannot
+  prove person-level independence. Current wording counts GSE111972 plus one
+  Macnair package with two analyzed partitions and three named validation
+  source studies. Cumulative active time accrued through this checkpoint is
+  5h08m22s; the resumed session interval remains open.
