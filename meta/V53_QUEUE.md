@@ -62,9 +62,9 @@ exhausted public-data discovery search as a source of findings.
 | Cross-cohort CD44/CXCR4 meta-analysis | done | Three source-adjusted standardized effects positive; random effect 1.130 (CI 0.419-1.841), I2 65.3%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
 | GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
-| Macnair source-family influence audit | done | Discovery is strongly bank-confounded (Cramer's V 0.773) and source-adjusted wild p=0.245; validation remains source-study robust. Discovery downgraded; replication rests on GSE111972 plus validation composite. |
+| Macnair source-family influence audit | done | Discovery is strongly bank-confounded (V 0.773; wild p=0.245; stratified-label p=0.147); validation remains source-study robust (stratified-label p=0.00000667). Discovery downgraded. |
 | Prospective source-balanced microglia replication preflight | done | Future target fixed at >=32/32, >=2 sources, >=5 MS/5 controls per source, <=60% group share per source. Balanced synthetic passes; source-confounded synthetic fails. Not retroactive evidence. |
-| V53 RAG refresh | done | Sparse TF-IDF index rebuilt over 834 documents; V53 CD44/CXCR4/source-lineage/GSE301908 smoke query returns current delta, cumulative report, replication spec/scout, and queue as top results. |
+| V53 RAG refresh | done | Sparse TF-IDF index rebuilt over 835 documents; source-confounding smoke query returns the prospective source-balance addendum first, then current delta/report. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
 ## Environment And Boundary
@@ -383,3 +383,16 @@ exhausted public-data discovery search as a source of findings.
   evidence. The outcome ledger now has 35 entries and the regression suite
   passes 23/23 checks. Cumulative active time accrued through this checkpoint is
   5h40m05s; the resumed session interval remains open.
+- 2026-07-11T02:36:47Z: Rebuilt the sparse TF-IDF index over 835 documents. A
+  source-confounding/brain-bank/source-balance query returns the prospective
+  addendum first, followed by the current findings delta and cumulative report.
+  Cumulative active time accrued through this checkpoint is 5h41m30s; the
+  resumed session interval remains open.
+- 2026-07-11T02:40:44Z: Added a source-stratified label null preserving each
+  brain bank/study's exact MS/control count, with three independent 100,000-draw
+  seeds. Discovery remains unsupported (pooled `p=0.147`, seed range
+  `0.146-0.148`); validation remains robust (pooled `p=0.00000667`, seed range
+  `0.000010-0.000020`). This independently confirms the source-family downgrade.
+  The 23-check regression suite remains green. Cumulative active time accrued
+  through this checkpoint is 5h45m27s; the resumed session interval remains
+  open.

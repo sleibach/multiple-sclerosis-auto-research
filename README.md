@@ -193,7 +193,7 @@ continuity. For the newest resumable state, read `meta/V53_QUEUE.md` after
   proof that the two Macnair partitions are person-level independent. This
   remains a state marker, not a mechanism or target. The validation composite
   survives source-study adjustment, while discovery attenuates after brain-bank
-  adjustment (wild `p=0.245`). Standardized effects are positive but
+  adjustment (wild `p=0.245`; source-stratified label `p=0.147`). Standardized effects are positive but
   heterogeneous (`I2=65.3%`), and a three-control GSE301908 sensitivity is null.
   The V22 rule is unchanged. See
   `docs/reports/FINDINGS_DELTA_V53.md` and

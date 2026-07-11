@@ -25,6 +25,8 @@ DISCOVERY_METADATA_URL = (
 )
 SEED = 53509
 N_WILD = 100_000
+N_STRATIFIED_PER_SEED = 100_000
+STRATIFIED_SEEDS = [53591, 53592, 53593]
 
 
 def discovery_sources() -> pd.DataFrame:
@@ -111,11 +113,79 @@ def test(frame: pd.DataFrame, source_fixed: bool, seed_offset: int) -> dict[str,
     }
 
 
+def stratified_label_test(frame: pd.DataFrame) -> dict[str, object]:
+    y = frame.receptor_cd44_cxcr4.to_numpy(dtype=float)
+    y = (y - y.mean()) / y.std(ddof=0)
+    covariates = design(frame, source_fixed=True, include_disease=False)
+    covariate_pinv = np.linalg.solve(
+        np.einsum("ni,nj->ij", covariates, covariates), covariates.T
+    )
+    projection = np.einsum("ij,jk->ik", covariates, covariate_pinv)
+    residualizer = np.eye(len(frame)) - projection
+    y_residual = np.einsum("ij,j->i", residualizer, y)
+    observed_disease = frame.disease_binary.to_numpy(dtype=float)
+    observed_residual = np.einsum("ij,j->i", residualizer, observed_disease)
+    observed_beta = float(
+        np.dot(observed_residual, y_residual) / np.dot(observed_residual, observed_residual)
+    )
+    source_indices = [
+        np.flatnonzero(frame.source_family.eq(source).to_numpy())
+        for source in sorted(frame.source_family.unique())
+    ]
+    source_cases = [int(frame.iloc[indices].disease_binary.sum()) for indices in source_indices]
+    seed_rows = []
+    total_exceed = 0
+    for seed in STRATIFIED_SEEDS:
+        rng = np.random.default_rng(seed)
+        exceed = 0
+        completed = 0
+        while completed < N_STRATIFIED_PER_SEED:
+            batch = min(5_000, N_STRATIFIED_PER_SEED - completed)
+            assignments = np.zeros((batch, len(frame)), dtype=float)
+            for indices, n_cases in zip(source_indices, source_cases, strict=True):
+                if n_cases == 0:
+                    continue
+                if n_cases == len(indices):
+                    assignments[:, indices] = 1.0
+                    continue
+                random_values = rng.random((batch, len(indices)))
+                selected = np.argpartition(random_values, n_cases - 1, axis=1)[:, :n_cases]
+                rows = np.arange(batch)[:, None]
+                assignments[rows, indices[selected]] = 1.0
+            disease_residual = np.einsum("bi,ji->bj", assignments, residualizer)
+            numerator = np.einsum("bi,i->b", disease_residual, y_residual)
+            denominator = np.einsum("bi,bi->b", disease_residual, disease_residual)
+            betas = numerator / denominator
+            if not np.all(np.isfinite(betas)):
+                raise FloatingPointError("non-finite source-stratified label coefficients")
+            exceed += int(np.sum(np.abs(betas) >= abs(observed_beta)))
+            completed += batch
+        total_exceed += exceed
+        seed_rows.append(
+            {
+                "seed": seed,
+                "n_permutations": N_STRATIFIED_PER_SEED,
+                "exceedances": exceed,
+                "two_sided_p": (exceed + 1) / (N_STRATIFIED_PER_SEED + 1),
+            }
+        )
+    return {
+        "observed_source_adjusted_standardized_beta": observed_beta,
+        "n_permutations_total": N_STRATIFIED_PER_SEED * len(STRATIFIED_SEEDS),
+        "pooled_two_sided_p": (total_exceed + 1)
+        / (N_STRATIFIED_PER_SEED * len(STRATIFIED_SEEDS) + 1),
+        "seed_p_min": min(row["two_sided_p"] for row in seed_rows),
+        "seed_p_max": max(row["two_sided_p"] for row in seed_rows),
+        "seed_results": seed_rows,
+    }
+
+
 def analyze(name: str, frame: pd.DataFrame) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
     table = pd.crosstab(frame.source_family, frame.disease_binary)
     chi2, association_p, _, _ = chi2_contingency(table)
     cramers_v = float(np.sqrt(chi2 / (len(frame) * min(table.shape[0] - 1, table.shape[1] - 1))))
     full = test(frame, source_fixed=True, seed_offset=0 if name == "discovery" else 100)
+    stratified = stratified_label_test(frame)
     source_rows = []
     for source, group in frame.groupby("source_family"):
         source_rows.append(
@@ -175,6 +245,7 @@ def analyze(name: str, frame: pd.DataFrame) -> tuple[list[dict[str, object]], li
         "disease_source_cramers_v": cramers_v,
         "disease_source_chi_square_p": float(association_p),
         "source_fixed_primary": full,
+        "source_stratified_label_null": stratified,
         "n_leave_one_source_out_estimable": len(estimable_leave_out),
         "n_leave_one_source_out_non_estimable": len(leave_out) - len(estimable_leave_out),
         "minimum_leave_one_source_out_beta": min(row["adjusted_standardized_beta"] for row in estimable_leave_out),
@@ -207,11 +278,14 @@ def main() -> int:
         summary["source_fixed_primary"]["adjusted_standardized_beta"] > 0
         and summary["source_fixed_primary"]["wild_two_sided_p"] <= 0.05
         and summary["minimum_leave_one_source_out_beta"] > 0
+        and summary["source_stratified_label_null"]["pooled_two_sided_p"] <= 0.05
         for summary in summaries.values()
     )
     summary = {
         "purpose": "Source-bank/study influence sensitivity for the frozen Macnair score",
         "n_wild_replicates_per_test": N_WILD,
+        "n_source_stratified_label_permutations_per_seed": N_STRATIFIED_PER_SEED,
+        "source_stratified_label_seeds": STRATIFIED_SEEDS,
         "seed": SEED,
         "cohorts": summaries,
         "source_influence_gate_pass": supported,
@@ -249,6 +323,10 @@ def main() -> int:
                 f"wild p `{primary['wild_two_sided_p']:.4g}`). The minimum leave-one-source-out",
                 f"beta is `{item['minimum_leave_one_source_out_beta']:.3f}` and maximum wild p is",
                 f"`{item['maximum_leave_one_source_out_wild_p']:.4g}`.",
+                f"The three-seed source-stratified label null gives pooled p",
+                f"`{item['source_stratified_label_null']['pooled_two_sided_p']:.4g}`",
+                f"(seed range `{item['source_stratified_label_null']['seed_p_min']:.4g}` to",
+                f"`{item['source_stratified_label_null']['seed_p_max']:.4g}`).",
                 f"`{item['n_leave_one_source_out_non_estimable']}` leave-one-source design(s)",
                 "were non-estimable under the fixed leverage/conditioning guard.",
                 "",

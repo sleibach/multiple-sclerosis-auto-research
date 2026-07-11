@@ -195,8 +195,9 @@ wording without changing any within-cohort estimate.
 The subsequent source-family audit materially qualifies the larger discovery
 partition: disease and brain-bank source are strongly associated (Cramer's V
 `0.773`, `p=4.18e-11`), and source fixed effects attenuate the discovery beta to
-`0.427` (wild `p=0.245`, CI crossing zero). The validation composite remains
-source-study robust (beta `1.635`, wild `p<0.00001`) and every estimable
+`0.427` (wild `p=0.245`, source-stratified label `p=0.147`, CI crossing zero).
+The validation composite remains source-study robust (beta `1.635`, wild
+`p<0.00001`, source-stratified label `p=0.00000667`) and every estimable
 leave-one-study effect stays positive. Replication therefore rests on GSE111972
 plus the validation composite; discovery is supportive only before brain-bank
 adjustment.

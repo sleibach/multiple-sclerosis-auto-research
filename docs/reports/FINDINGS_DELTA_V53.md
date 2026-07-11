@@ -52,8 +52,9 @@ with a quality qualification, not a receptor-specific mechanism or target.
 That quality qualification now explicitly includes source family. Disease and
 brain-bank are strongly associated in Macnair discovery (Cramer's V `0.773`),
 and source fixed effects attenuate its standardized beta to `0.427` (wild
-`p=0.245`). The validation composite remains robust after source-study fixed
-effects (beta `1.635`, wild `p<0.00001`). Thus discovery is source-sensitive;
+`p=0.245`; source-stratified label `p=0.147`). The validation composite remains
+robust after source-study fixed effects (beta `1.635`, wild `p<0.00001`;
+source-stratified label `p=0.00000667`). Thus discovery is source-sensitive;
 replication rests on GSE111972 plus the validation composite.
 
 The same correction removes the earlier localization result. Source-adjusted

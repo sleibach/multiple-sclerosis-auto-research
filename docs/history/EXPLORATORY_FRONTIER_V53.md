@@ -479,9 +479,11 @@ partition. Its 80 donors come from Amsterdam, Edinburgh, and UK MS brain banks,
 with strong disease/source association (Cramer's V `0.773`, chi-square
 `p=4.18e-11`); the UK source contributes 27 MS and zero controls. Adding source
 fixed effects attenuates the standardized discovery beta to `0.427` (HC3 CI
-`-0.305` to `1.159`, wild `p=0.245`), and estimable leave-one-bank tests do not
-restore correction. In contrast, validation has negligible disease/study
-association (V `0.062`), retains beta `1.635` (wild `p<0.00001`), and all three
+`-0.305` to `1.159`, wild `p=0.245`); a three-seed, 300,000-draw label null
+preserving each bank's exact case count gives `p=0.147`. Estimable leave-one-bank
+tests do not restore correction. In contrast, validation has negligible
+disease/study association (V `0.062`), retains beta `1.635` (wild `p<0.00001`,
+source-stratified label `p=0.00000667`), and all three
 leave-one-study effects remain positive. The association remains replicated by
 GSE111972 plus the validation composite, but discovery is supportive only before
 brain-bank adjustment. See `analysis/v53_macnair_source_influence/REPORT.md`.

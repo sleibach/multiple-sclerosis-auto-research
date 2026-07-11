@@ -25,7 +25,11 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V53 exploratory-frontier refresh: `834`.
+- Current document count after V53 source-balance refresh: `835`.
+- V53 source-confounding smoke query
+  `V53 source confounding brain bank validation composite source balance addendum`
+  returns `docs/validation/MS_MICROGLIA_SOURCE_BALANCE_ADDENDUM_V53.md` first,
+  followed by the current findings delta and cumulative exploratory report.
 - V53 smoke query
   `V53 CD44 CXCR4 Macnair source lineage GSE301908 quality qualified` returned
   current V53 artifacts as its leading results, including:

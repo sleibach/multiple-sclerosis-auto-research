@@ -138,7 +138,13 @@ def main() -> int:
                 == "MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE"
                 and source_influence["cohorts"]["discovery"]["source_fixed_primary"][
                     "wild_two_sided_p"
-                ] > 0.05,
+                ] > 0.05
+                and source_influence["cohorts"]["discovery"][
+                    "source_stratified_label_null"
+                ]["pooled_two_sided_p"] > 0.05
+                and source_influence["cohorts"]["validation"][
+                    "source_stratified_label_null"
+                ]["pooled_two_sided_p"] <= 0.05,
                 str(source_influence.get("verdict")),
             ),
             assert_check(

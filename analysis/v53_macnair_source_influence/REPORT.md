@@ -12,6 +12,10 @@ effects, adjusted standardized beta is `0.427`
 wild p `0.2452`). The minimum leave-one-source-out
 beta is `0.185` and maximum wild p is
 `0.4076`.
+The three-seed source-stratified label null gives pooled p
+`0.1473`
+(seed range `0.1462` to
+`0.1479`).
 `1` leave-one-source design(s)
 were non-estimable under the fixed leverage/conditioning guard.
 
@@ -25,6 +29,10 @@ effects, adjusted standardized beta is `1.635`
 wild p `1e-05`). The minimum leave-one-source-out
 beta is `1.551` and maximum wild p is
 `0.03225`.
+The three-seed source-stratified label null gives pooled p
+`6.667e-06`
+(seed range `1e-05` to
+`2e-05`).
 `0` leave-one-source design(s)
 were non-estimable under the fixed leverage/conditioning guard.
 

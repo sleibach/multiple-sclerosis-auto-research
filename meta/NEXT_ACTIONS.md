@@ -24,7 +24,8 @@ V53 update:
   are person-level independent. This is a replicated state marker, not a target.
 - Source-family audit downgrades Macnair discovery: brain-bank Cramer's V
   `0.773`; source-adjusted wild `p=0.245`. Validation remains source-study
-  robust. Cross-cohort synthesis is positive but heterogeneous (`I2=65.3%`) and
+  robust; source-stratified label nulls independently give `p=0.147` versus
+  `0.00000667`. Cross-cohort synthesis is positive but heterogeneous (`I2=65.3%`) and
   bounded by only two source packages; GSE301908 is a non-supporting 14/3
   sensitivity, not replication.
 - Source-adjusted context rerun demotes prior NAWM/CAL/SPMS localization: no

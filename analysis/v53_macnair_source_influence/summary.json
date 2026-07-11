@@ -19,6 +19,33 @@
         "hc3_p": 0.25305744207960523,
         "hc3_se": 0.37360712106757266,
         "wild_two_sided_p": 0.24519754802451976
+      },
+      "source_stratified_label_null": {
+        "n_permutations_total": 300000,
+        "observed_source_adjusted_standardized_beta": 0.42701597685592907,
+        "pooled_two_sided_p": 0.14727950906830312,
+        "seed_p_max": 0.14790852091479084,
+        "seed_p_min": 0.14620853791462085,
+        "seed_results": [
+          {
+            "exceedances": 14620,
+            "n_permutations": 100000,
+            "seed": 53591,
+            "two_sided_p": 0.14620853791462085
+          },
+          {
+            "exceedances": 14790,
+            "n_permutations": 100000,
+            "seed": 53592,
+            "two_sided_p": 0.14790852091479084
+          },
+          {
+            "exceedances": 14773,
+            "n_permutations": 100000,
+            "seed": 53593,
+            "two_sided_p": 0.14773852261477385
+          }
+        ]
       }
     },
     "validation": {
@@ -39,12 +66,45 @@
         "hc3_p": 5.1708708722161265e-06,
         "hc3_se": 0.35871988605448324,
         "wild_two_sided_p": 9.99990000099999e-06
+      },
+      "source_stratified_label_null": {
+        "n_permutations_total": 300000,
+        "observed_source_adjusted_standardized_beta": 1.63494946848191,
+        "pooled_two_sided_p": 6.6666444445185185e-06,
+        "seed_p_max": 1.999980000199998e-05,
+        "seed_p_min": 9.99990000099999e-06,
+        "seed_results": [
+          {
+            "exceedances": 0,
+            "n_permutations": 100000,
+            "seed": 53591,
+            "two_sided_p": 9.99990000099999e-06
+          },
+          {
+            "exceedances": 1,
+            "n_permutations": 100000,
+            "seed": 53592,
+            "two_sided_p": 1.999980000199998e-05
+          },
+          {
+            "exceedances": 0,
+            "n_permutations": 100000,
+            "seed": 53593,
+            "two_sided_p": 9.99990000099999e-06
+          }
+        ]
       }
     }
   },
+  "n_source_stratified_label_permutations_per_seed": 100000,
   "n_wild_replicates_per_test": 100000,
   "purpose": "Source-bank/study influence sensitivity for the frozen Macnair score",
   "seed": 53509,
   "source_influence_gate_pass": false,
+  "source_stratified_label_seeds": [
+    53591,
+    53592,
+    53593
+  ],
   "verdict": "MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE"
 }
