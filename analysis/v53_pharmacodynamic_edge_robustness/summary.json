@@ -1,0 +1,30 @@
+{
+  "boundary": "Targeted robustness analysis of an existing V53 edge; no discovery search, locked-rule change, or therapeutic promotion.",
+  "centered_stratified_permutation_p": 0.8077438451230975,
+  "dataset_cluster_bootstrap_centered_rho_ci": [
+    -0.6173579581651331,
+    0.8940972005671899
+  ],
+  "gate_components": {
+    "all_lodo_centered_rho_positive": false,
+    "all_lodo_global_rho_ge_0_30": true,
+    "centered_stratified_permutation_p_le_0_10": false,
+    "cluster_bootstrap_ci_low_positive": false,
+    "full_stratified_permutation_p_le_0_10": true
+  },
+  "global_spearman": 0.5347826086956522,
+  "global_stratified_permutation_p": 0.013059738805223896,
+  "lodo_min_centered_spearman": -0.12967032967032965,
+  "lodo_min_global_spearman": 0.3274725274725274,
+  "n_cluster_bootstrap_replicates": 20000,
+  "n_contexts": 24,
+  "n_datasets": 6,
+  "n_permutations_per_test": 50000,
+  "portable_across_dataset_gate": false,
+  "purpose": "V53 stability audit of the sole disjoint pharmacodynamic HLA-II/receptor-state edge",
+  "ranked_stratified_permutation_p": 0.028119437611247775,
+  "seed": 53502,
+  "verdict": "PHARMACODYNAMIC_EDGE_NOT_PORTABLE_ACROSS_DATASET_SENSITIVITIES",
+  "within_dataset_centered_spearman": 0.08695652173913042,
+  "within_dataset_rank_spearman": 0.5111111111111111
+}

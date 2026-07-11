@@ -43,7 +43,11 @@ exhausted public-data discovery search as a source of findings.
 | Cell-state module de-overlap | done | Five held h5ad files, 12 contexts; exact rebuild. HLA/receptor rho 0.832 to 0.175, q=0.582, attenuation CI -1.380 to -0.051. Global coupled-axis formulation now requires re-assessment. |
 | Treatment-response sample-layer de-overlap | done | Exact 46-RA/30-IBD rebuild; HLA/receptor rho 0.878 to -0.059, disjoint q=0.807/0.671, attenuation CI -1.361 to -0.411. Three original layers now fail; coupled two-arm formulation demoted. |
 | Pharmacodynamic multi-cohort de-overlap | done | All 24 contexts and six datasets rebuilt exactly (max error 2.22e-16). Disjoint HLA/receptor edge persists: rho 0.535, global q=0.0150, dataset-stratified q=0.0231; attenuation CI crosses zero. Sole positive layer does not restore cross-modal robustness. |
+| Pharmacodynamic edge portability stress | done | 50k stratified permutations/view + 20k dataset-cluster bootstraps. Pooled/rank concordance persists, but centered rho=0.087 (p=0.808), cluster CI -0.617 to 0.894, and one LODO p=0.124; portable-common-effect gate fails. |
 | Cross-disease summary de-overlap | todo | Rebuild only after executable underlying cell-state layers are resolved; do not infer from overlapping aggregate summaries. |
+| Coupled-axis status propagation audit | todo | Find every downstream current-status/report reference to the original robust two-arm architecture and apply the V53 evidence regrade without editing historical artifacts. |
+| Broad APC recurrence independence audit | todo | Test whether the retained broad APC-state recurrence itself survives disjoint-gene and leave-one-modality checks; do not inherit it automatically from the demoted two-arm claim. |
+| Pharmacodynamic context-type decomposition | todo | Determine whether rank concordance is shared across response strata and compartments or concentrated in incomparable context types; no new discovery claims. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -188,3 +192,11 @@ exhausted public-data discovery search as a source of findings.
   demoted cross-modal two-arm architecture. Cumulative active time accrued
   through this checkpoint is 3h06m07s; the resumed session interval remains
   open.
+- 2026-07-11T00:08:11Z: Completed the pre-specified portability stress test of
+  the sole positive disjoint pharmacodynamic edge. Pooled stratified p=0.0131
+  and within-dataset rank rho=0.511 (p=0.0281), but dataset-centered rho=0.087
+  (p=0.808), the dataset-cluster bootstrap CI is -0.617 to 0.894, and omitting
+  GSE253006 gives p=0.124. The edge fails the portable-common-effect gate and is
+  retained only as suggestive rank concordance under strong heterogeneity.
+  Cumulative active time accrued through this checkpoint is 3h12m54s; the
+  resumed session interval remains open.

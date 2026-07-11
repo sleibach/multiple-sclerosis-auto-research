@@ -300,6 +300,21 @@ a recurrent broad APC state, plus pharmacodynamic HLA-II/receptor co-movement
 that requires independent replication and component-resolved mechanism. See
 `analysis/v53_pharmacodynamic_deoverlap_sensitivity/REPORT.md`.
 
+The sole positive layer was then stress-tested for portability rather than left
+at its pooled result. With 50,000 context-preserving permutations per view, the
+global edge remains non-null (`p=0.0131`) and pooled within-dataset ranks remain
+concordant (`rho=0.511`, `p=0.0281`). However, after removing dataset means the
+association is `rho=0.087` (`p=0.808`), and its 20,000-replicate dataset-cluster
+bootstrap interval is `-0.617` to `0.894`. All leave-one-dataset-out global
+rhos remain positive (`0.327` to `0.671`), but omitting GSE253006 yields
+`p=0.124`, and centered leave-one-out effects include negative values.
+
+The pre-specified portability gate therefore fails. The pharmacodynamic result
+is best described as suggestive within-dataset rank concordance embedded in
+strong dataset-scale heterogeneity, not a stable common-effect mechanism and
+not a therapeutic route. See
+`analysis/v53_pharmacodynamic_edge_robustness/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -353,8 +368,9 @@ None yet.
    recurrence remains.
 5. Pharmacodynamic HLA-II/receptor-state coupling is the sole disjoint-readout
    exception (`rho=0.535`, global `q=0.0150`, dataset-stratified `q=0.0231`
-   across all 24 contexts). It is a context-specific co-response, not enough to
-   restore the cross-modal two-arm claim.
+   across all 24 contexts), but it fails the harder portability gate: centered
+   `rho=0.087`, `p=0.808`, cluster-bootstrap CI `-0.617` to `0.894`. Retain it
+   only as suggestive rank concordance, not a common-effect mechanism.
 
 ### Promising-but-needs-data
 
