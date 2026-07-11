@@ -36,7 +36,7 @@ exhausted public-data discovery search as a source of findings.
 | RFX5 single-context boundary packet | done | One descriptive IFNG row fails corrected network gates (q=0.678/0.903); exact two-primary-context replication spec plus 450,000-cohort three-seed synthetic design map committed; no promotion. |
 | Multi-lineage identifiability critique | done | Seven objections adjudicated; six wording/assumption tightenings, 0 verdict changes. Exclusive-member perturbation sensitivity tested 12 ordered pairs and oriented 0 module edges. |
 | Causal-orientation acquisition design | done | Exact result: two perfect interventions for K3, three for K4. A 594,000-replicate three-seed power map gives n=128/arm at coefficient 0.8 and n=192 at 0.5; current selective module instruments are absent. |
-| Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
+| Proposal semantic preflight integration | done | Grounding runner now fail-closes before analysis. Four declared requests pass; synthetic valid context request passes and invalid patient/temporal request is rejected. No verdict changes. |
 | Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
 | De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
 | Cross-modality de-overlap feasibility | done | All four source-level layers rebuilt: perturbation, cell state, and response prediction fail strict disjoint-readout gates; pharmacodynamics persists across 24 contexts and six datasets. Cross-modal two-arm claim remains demoted. |
@@ -244,3 +244,10 @@ exhausted public-data discovery search as a source of findings.
   response-structured and cannot support a monitoring successor or therapeutic
   interpretation. Cumulative active time accrued through this checkpoint is
   3h35m15s; the resumed session interval remains open.
+- 2026-07-11T00:33:45Z: Integrated the frozen V26 matrix semantic contract into
+  the actual proposal-grounding runner. Four explicit requirements pass before
+  the three executable analyses launch; the synthetic regression still blocks
+  a patient-level temporal request while accepting a valid context-level
+  perturbation request. This is fail-closed execution safety with zero proposal
+  verdict changes. Cumulative active time accrued through this checkpoint is
+  3h38m28s; the resumed session interval remains open.

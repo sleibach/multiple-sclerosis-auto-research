@@ -12,6 +12,8 @@ from typing import Any
 
 import numpy as np
 
+import v53_matrix_semantic_contract as semantic_contract
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis/v53_model_proposal_grounding"
@@ -28,6 +30,7 @@ SEED_NEGATIVE_SPACE = 53004
 SEED_TRANSFER = 53005
 N_PERMUTATIONS = 20_000
 N_BOOTSTRAP = 20_000
+PREFLIGHT_REQUIREMENTS = ROOT / "meta/V53_PROPOSAL_GROUNDING_REQUIREMENTS.json"
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
@@ -458,6 +461,33 @@ def proposal_triage(
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
+    preflight_requests = json.loads(PREFLIGHT_REQUIREMENTS.read_text())
+    preflight_rows, preflight_failures = semantic_contract.check_requirements(
+        semantic_contract.load_contract(), preflight_requests
+    )
+    write_tsv(OUT / "semantic_preflight.tsv", preflight_rows)
+    (OUT / "semantic_preflight_summary.json").write_text(
+        json.dumps(
+            {
+                "purpose": "Fail-closed semantic preflight before V53 proposal grounding",
+                "requirements_file": str(PREFLIGHT_REQUIREMENTS.relative_to(ROOT)),
+                "n_requests": len(preflight_rows),
+                "n_pass": len(preflight_rows) - preflight_failures,
+                "n_fail": preflight_failures,
+                "overall_status": "PASS" if preflight_failures == 0 else "FAIL",
+                "interpretation": (
+                    "A failed request blocks analysis launch; it does not falsify the proposal."
+                ),
+            },
+            indent=2,
+            sort_keys=True,
+        )
+        + "\n"
+    )
+    if preflight_failures:
+        raise RuntimeError(
+            f"Semantic preflight blocked {preflight_failures} proposal-grounding requests"
+        )
     dag_rows, identifiability_summary = causal_identifiability()
     negative_rows, negative_summary = negative_space()
     transfer_pairs, transfer_rows, transfer_summary = transfer_error()
@@ -489,6 +519,12 @@ def main() -> int:
             "CRL_2024_002",
         ],
         "model_output_is_evidence": False,
+        "semantic_preflight": {
+            "requirements": len(preflight_rows),
+            "passed": len(preflight_rows) - preflight_failures,
+            "failed": preflight_failures,
+            "fail_closed_before_analysis": True,
+        },
         "methodological_value_added": (
             "The causal-identifiability proposal formalized a boundary not previously quantified; "
             "all biological target implications remain unpromoted."
@@ -502,6 +538,9 @@ def main() -> int:
         "all verdicts below come from held-data schema checks or committed analyses.",
         "",
         f"Outcome counts: `{json.dumps(counts, sort_keys=True)}`.",
+        "",
+        f"Semantic preflight: `{len(preflight_rows)}/{len(preflight_rows)}` declared matrix",
+        "capability requests passed before any grounding analysis ran.",
         "",
         f"Causal identifiability: **{identifiability_summary['verdict']}**.",
         f"Negative-space test: **{negative_summary['verdict']}**.",

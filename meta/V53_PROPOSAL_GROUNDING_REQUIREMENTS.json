@@ -1,0 +1,36 @@
+[
+  {
+    "request_id": "H2_identifiability_bound_from_dependency_summary",
+    "proposal_id": "H2_causal_identifiability_negative",
+    "matrix": "workstream_b_module_dependencies",
+    "requires": [
+      "pairwise_dependency_summary"
+    ]
+  },
+  {
+    "request_id": "H7_negative_space_from_dependency_summary",
+    "proposal_id": "H7_negative_space_forbidden_edges",
+    "matrix": "workstream_b_module_dependencies",
+    "requires": [
+      "pairwise_dependency_summary"
+    ]
+  },
+  {
+    "request_id": "CRL002_source_aggregate_perturbation_fit",
+    "proposal_id": "CRL_2024_002",
+    "matrix": "perturbation_module_matrix",
+    "requires": [
+      "context_level_module_effects",
+      "gene_perturbation_summary"
+    ]
+  },
+  {
+    "request_id": "CRL002_target_aggregate_response_group_test",
+    "proposal_id": "CRL_2024_002",
+    "matrix": "treatment_pharmacodynamic_module_matrix",
+    "requires": [
+      "context_level_module_effects",
+      "response_group_aggregate"
+    ]
+  }
+]

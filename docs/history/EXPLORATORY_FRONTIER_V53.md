@@ -395,6 +395,14 @@ methodological guard only: a blocked request is untestable with these summaries,
 not evidence that its biological premise is false. See
 `analysis/v53_matrix_semantic_contract/REPORT.md`.
 
+The guard is now fail-closed in the actual proposal-grounding runner. The three
+executed proposals declare four matrix/capability requests in
+`meta/V53_PROPOSAL_GROUNDING_REQUIREMENTS.json`; all four pass before analysis.
+The synthetic regression accepts a valid context-level perturbation request and
+rejects an invalid patient-level temporal request. Any future missing capability
+now raises before grounding computation starts. This changes execution safety,
+not any proposal verdict.
+
 Multi-lineage value verdict: **yes for one methodological boundary, no for a
 new biological or therapeutic lead**. Model confidence played no role. The
 current client does not expose monetary spend or token-usage telemetry, so spend

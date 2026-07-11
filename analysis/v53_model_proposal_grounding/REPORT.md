@@ -5,6 +5,9 @@ all verdicts below come from held-data schema checks or committed analyses.
 
 Outcome counts: `{"inconclusive": 2, "not_supported": 2, "supported": 1, "untestable": 11}`.
 
+Semantic preflight: `4/4` declared matrix
+capability requests passed before any grounding analysis ran.
+
 Causal identifiability: **SUPPORTED_METHODOLOGICAL_NEGATIVE_CURRENT_SUMMARIES_DO_NOT_IDENTIFY_DIRECTION**.
 Negative-space test: **NOT_SUPPORTED_NO_STRICT_FORBIDDEN_EDGE_IN_FULLY_COMPARABLE_SPACE**.
 Transfer-error test: **NOT_SUPPORTED_OR_SOURCE_MODEL_INADEQUATE_IN_HELD_SUMMARIES**.
