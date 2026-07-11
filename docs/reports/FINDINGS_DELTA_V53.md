@@ -56,6 +56,12 @@ and source fixed effects attenuate its standardized beta to `0.427` (wild
 effects (beta `1.635`, wild `p<0.00001`). Thus discovery is source-sensitive;
 replication rests on GSE111972 plus the validation composite.
 
+The same correction removes the earlier localization result. Source-adjusted
+discovery NAWM has family `q=0.224`, validation lacks an estimable NAWM test,
+and no context or adequately sized stage passes in both partitions. The current
+finding is a state association without established lesion, tissue-stage, or
+disease-stage localization.
+
 Package-aware synthesis does not justify a stronger label. The three
 standardized adjusted partition effects are positive, but heterogeneous
 (`I2=65.3%`), and the exact sign null has only two independent package signs

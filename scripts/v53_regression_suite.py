@@ -23,7 +23,7 @@ def run(name: str, command: list[str]) -> dict[str, object]:
         stderr=subprocess.STDOUT,
         check=False,
     )
-    tail = " | ".join(completed.stdout.strip().splitlines()[-3:])
+    tail = " | ".join(completed.stdout.strip().splitlines()[-3:]) or "-"
     return {
         "check": name,
         "status": "PASS" if completed.returncode == 0 else "FAIL",
@@ -77,6 +77,14 @@ def main() -> int:
             [sys.executable, "scripts/v53_macnair_source_influence.py"],
         ),
         run(
+            "macnair_context_discovery_rebuild",
+            [sys.executable, "scripts/v53_macnair_stage_lesion_heterogeneity.py", "--cohort", "discovery"],
+        ),
+        run(
+            "macnair_context_validation_rebuild",
+            [sys.executable, "scripts/v53_macnair_stage_lesion_heterogeneity.py", "--cohort", "validation"],
+        ),
+        run(
             "microglia_meta_rebuild",
             [sys.executable, "scripts/v53_microglia_cross_cohort_meta.py"],
         ),
@@ -89,6 +97,7 @@ def main() -> int:
 
     source = read_json("analysis/v53_microglia_source_lineage_audit/summary.json")
     source_influence = read_json("analysis/v53_macnair_source_influence/summary.json")
+    context = read_json("analysis/v53_macnair_stage_lesion_heterogeneity/summary.json")
     meta = read_json("analysis/v53_microglia_cross_cohort_meta/summary.json")
     low_control = read_json("analysis/v53_gse301908_low_control_sensitivity/summary.json")
     v22 = read_json("analysis/v53_v22_interpretation_boundary/summary.json")
@@ -132,6 +141,14 @@ def main() -> int:
                 low_control.get("verdict") == "LOW_CONTROL_SENSITIVITY_NOT_SUPPORTED"
                 and low_control.get("n_control") == 3,
                 str(low_control.get("verdict")),
+            ),
+            assert_check(
+                "source_adjusted_context_boundary",
+                context.get("verdict")
+                == "SOURCE_ADJUSTMENT_REMOVES_PRIOR_CROSS_PARTITION_CONTEXT_LOCALIZATION"
+                and context.get("replicated_contexts") == []
+                and context.get("replicated_adequately_sized_stages") == [],
+                str(context.get("verdict")),
             ),
             assert_check(
                 "v22_locked_boundary",

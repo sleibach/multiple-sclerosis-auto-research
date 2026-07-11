@@ -60,6 +60,10 @@ and a CI crossing zero. The validation composite remains robust after study
 fixed effects and leave-one-study checks. See
 `analysis/v53_macnair_source_influence/REPORT.md`.
 
+Applying the same source correction to stage/lesion tests removes the earlier
+NAWM/CAL/SPMS localization: no context or adequately sized stage passes in both
+partitions. See `analysis/v53_macnair_stage_lesion_heterogeneity/REPORT.md`.
+
 The next useful analysis is cross-cohort disease-stage and lesion-context
 heterogeneity under fixed scores, followed by a third donor-balanced cohort or
 prospective tissue assay with pre-specified minimum microglial yield.

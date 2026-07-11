@@ -27,9 +27,11 @@ V53 update:
   robust. Cross-cohort synthesis is positive but heterogeneous (`I2=65.3%`) and
   bounded by only two source packages; GSE301908 is a non-supporting 14/3
   sensitivity, not replication.
+- Source-adjusted context rerun demotes prior NAWM/CAL/SPMS localization: no
+  context or adequately sized stage passes in both Macnair partitions.
 - Machine-readable ledger: 34 artifact-backed outcomes at
   `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
-  passes 18/18 checks.
+  passes 21/21 checks.
 - Sparse RAG refresh completed over 834 documents with V53 smoke-query pass.
 - Current priority: final integration and consistency checks, then close only at
   six active hours.

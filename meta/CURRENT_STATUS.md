@@ -177,12 +177,12 @@ minimum-cell thresholds, but direct cell-count adjustment is borderline
 CD44/CXCR4 state association with a microglial-yield quality qualification**.
 It remains non-causal, low-novelty biology with no therapeutic direction, and
 does not restore the demoted independent HLA-II/receptor architecture.
-Context testing localizes it to white matter: discovery normal-appearing white
-matter is positive after microglial-yield adjustment and family correction,
-whereas grey matter is null. Chronic-active lesion contrasts are positive in
-both cohorts, but paired lesion amplification is not detected. SPMS contrasts
-against controls pass in both cohorts, yet the direct SPMS-versus-PPMS contrast
-does not pass correction; stage specificity is therefore unresolved.
+Source-adjusted context testing no longer localizes the state. Discovery
+normal-appearing white matter falls to family `q=0.224`; validation lacks an
+estimable NAWM comparison. No lesion context or adequately sized stage passes
+in both partitions, and paired lesion amplification remains unsupported. The
+prior white-matter-before-overt-lesion and cross-partition SPMS wording is
+demoted.
 
 A source-lineage audit found zero exact donor-token collisions, but both
 Macnair partitions share Zenodo package `8338963` and use cohort-specific

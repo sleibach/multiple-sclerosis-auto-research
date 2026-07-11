@@ -53,12 +53,12 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia receptor-state replication spec | done | Frozen independent-cohort ingestion, exact scores, patient-equal quadratic-age primary, secondary decoupling, interpretation grid, and assumption-labeled power. Target 32 MS + 32 controls at d=0.8/80% after 20% inflation. |
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
 | V53 machine-readable outcome ledger | done | 33 artifact-backed rows with source, class, outcome, SHA-256, and interpretation boundary; mixed-class navigation ledger stored under knowledge_external to preserve segregation. |
-| V53 regression suite | done | 18/18 semantic, provenance, structural, source-lineage/influence, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
+| V53 regression suite | done | 21/21 semantic, provenance, structural, source-lineage/influence/context, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
 | CD44/CXCR4 independent cohort scout | done | Two Macnair matrices streamed over 2.012B entries: validation 18/13 clean pass; discovery 54/26 frozen pass but cell-count-adjusted p=0.05398. Replicated state association with quality qualification; no target/mechanism promotion. |
-| Macnair disease-stage and lesion-context heterogeneity | done | Discovery NAWM vs control WM beta 0.783, q=0.01197; grey matter null; CAL positive in both cohorts. SPMS vs controls positive twice, but direct SPMS-PPMS q=0.115 and validation PPMS n=2: no stage-specific claim. No paired lesion amplification. |
+| Macnair disease-stage and lesion-context heterogeneity | done | Superseded source-adjusted result: discovery NAWM q=0.224; validation NAWM not estimable; no context or adequately sized stage passes both partitions. Prior white-matter/CAL/SPMS localization demoted. |
 | Cross-cohort CD44/CXCR4 meta-analysis | done | Three source-adjusted standardized effects positive; random effect 1.130 (CI 0.419-1.841), I2 65.3%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
 | GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
@@ -366,3 +366,11 @@ exhausted public-data discovery search as a source of findings.
   downgraded; replication rests on GSE111972 plus validation composite.
   Cumulative active time accrued through this checkpoint is 5h28m22s; the
   resumed session interval remains open.
+- 2026-07-11T02:29:44Z: Propagated source-bank adjustment into the Macnair
+  context/stage analysis. Discovery NAWM falls to family `q=0.224`, no discovery
+  context or adequately sized stage passes, and validation lacks an estimable
+  NAWM comparison. No context or stage passes both partitions, so prior
+  white-matter-before-lesion and cross-partition SPMS wording is demoted. The
+  expanded regression suite passes 21/21 checks. Cumulative active time accrued
+  through this checkpoint is 5h34m27s; the resumed session interval remains
+  open.

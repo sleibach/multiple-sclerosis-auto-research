@@ -486,17 +486,13 @@ leave-one-study effects remain positive. The association remains replicated by
 GSE111972 plus the validation composite, but discovery is supportive only before
 brain-bank adjustment. See `analysis/v53_macnair_source_influence/REPORT.md`.
 
-Fixed-score context localization further shows that the signal is not simply
-an overt-lesion readout. In the discovery cohort, normal-appearing white matter
-versus control white matter gives adjusted beta `0.783` and context-family
-`q=0.01197`, while normal-appearing and lesional grey-matter contrasts are
-null. Chronic-active lesion contrasts are positive in both Macnair matrices,
-but within-MS paired lesion-minus-NAWM amplification is not detected. SPMS
-versus control is positive in both cohorts; however, the direct adequately
-sized discovery SPMS-minus-PPMS contrast does not survive its family correction
-(`q=0.115`), and validation has only two PPMS donors. Therefore the state is
-white-matter-localized and can precede overt lesions, but disease-stage
-specificity is not established. See
+The initial fixed-score context pass appeared to localize the state to
+normal-appearing white matter and CAL/SPMS contrasts. That result does not
+survive the later source-family correction: discovery NAWM falls to family
+`q=0.224`, no discovery context or adequately sized stage passes, and validation
+lacks an estimable NAWM comparison. No context or stage passes in both
+partitions; paired lesion amplification also remains unsupported. The prior
+white-matter-before-overt-lesion and cross-partition SPMS wording is demoted. See
 `analysis/v53_macnair_stage_lesion_heterogeneity/REPORT.md`.
 
 The negative-space proposal failed: among the three module pairs assessable in
@@ -543,7 +539,7 @@ Machine-readable navigation is in
 source, epistemic class, current outcome, artifact path, SHA-256, and an explicit
 interpretation boundary. It lives in the segregated external tree because it
 indexes mixed epistemic classes; it is navigation, not evidence. The final V53
-regression suite passes 18/18 checks in
+regression suite passes 21/21 checks in
 `analysis/v53_regression_suite/REPORT.md`.
 
 ## Current Ranked Slate
@@ -556,9 +552,8 @@ regression suite passes 18/18 checks in
    The larger discovery partition passes the frozen and fixed minimum-cell
    tests but attenuates after both cell-count and brain-bank adjustment. This is
    a replicated state marker with a quality qualification, low biological
-   novelty, and no intervention direction. It is detectable in normal-appearing
-   white matter, but direct stage specificity and paired lesion amplification
-   are not established. Next: a donor-balanced third cohort with a pre-specified
+   novelty, and no intervention direction. Source-adjusted context, stage, and
+   paired-lesion localization are not established. Next: a donor-balanced third cohort with a pre-specified
    minimum microglial yield and selective functional perturbation.
 
 ### Grounded Methodological Boundary

@@ -1,0 +1,8 @@
+family	test	reason
+stage	PPMS	unstable binary-test leverage=1
+stage_contrast	SPMS_minus_PPMS	unstable binary-test leverage=1
+stage_contrast	SPMS_minus_RRMS	unstable binary-test leverage=1
+stage_contrast	PPMS_minus_RRMS	unstable binary-test leverage=1
+context	AL	unstable binary-test leverage=1
+context	NAGM	invalid binary-test design
+context	GML	invalid binary-test design
