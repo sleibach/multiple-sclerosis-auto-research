@@ -1,0 +1,22 @@
+{
+  "base_receptor_beta": 0.7961958927729278,
+  "base_receptor_wild_p": 0.0028699713002869973,
+  "boundary": "Single-cohort expression specificity only; not causal, therapeutic-direction, or target evidence.",
+  "component_specificity_gate_pass": false,
+  "gate_components": {
+    "all_joint_adjusted_lopo_betas_positive": true,
+    "both_genes_positive_q_le_0_10": true,
+    "joint_adjusted_receptor_beta_positive_p_le_0_10": false,
+    "joint_design_condition_number_le_30": true
+  },
+  "joint_adjusted_receptor_beta": 0.34205218695980866,
+  "joint_adjusted_receptor_wild_p": 0.1051489485105149,
+  "joint_adjustment_attenuation_fraction": 0.570391922308797,
+  "joint_design_condition_number": 5.546034016349983,
+  "minimum_lopo_joint_adjusted_beta": 0.1986813738214224,
+  "n_patients": 21,
+  "n_wild_bootstrap_replicates_per_test": 100000,
+  "purpose": "V53 gene-coherence and broad-state specificity sensitivity for GSE111972 CD44/CXCR4",
+  "seed": 53508,
+  "verdict": "CD44_CXCR4_ASSOCIATION_NOT_COMPONENT_SPECIFIC_AFTER_STRICT_GATE"
+}

@@ -55,6 +55,9 @@ exhausted public-data discovery search as a source of findings.
 | V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
 | V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
+| MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
+| CD44/CXCR4 MS microglia prior-art check | todo | Targeted external-context search to determine whether the broad-state-bounded association is novel or known; external records remain non-evidence. |
+| CD44/CXCR4 independent cohort scout | todo | Search held/public catalogs for an independent donor-level MS microglia cohort meeting the frozen V53 replication spec; verify usability before counting. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -285,3 +288,10 @@ exhausted public-data discovery search as a source of findings.
   inflation; this is method planning, not biological evidence. Cumulative
   active time accrued through this checkpoint is 3h53m13s; the resumed session
   interval remains open.
+- 2026-07-11T00:52:21Z: Completed gene-coherence and broad-state specificity
+  testing. CD44 and CXCR4 each contribute (focused BH q=0.0225 each), but joint
+  HLA-regulatory/MIF-ligand/IFN/lysosomal adjustment attenuates the receptor
+  beta 57% to 0.342 and misses the gate (p=0.105). The retained result is a
+  broad-state-bounded association, not an independent receptor mechanism.
+  Cumulative active time accrued through this checkpoint is 3h57m04s; the
+  resumed session interval remains open.

@@ -405,6 +405,17 @@ does not remove the independent-replication, cell-intrinsic, causal, or
 therapeutic-direction blockers. See
 `analysis/v53_ms_microglia_age_region_robustness/REPORT.md`.
 
+Component specificity does not survive the next gate. CD44 and CXCR4 each have
+positive patient-equal quadratic-age effects and focused two-gene BH
+`q=0.0225`. However, joint adjustment for CIITA/RFX5, MIF/DDT, unique IFN/APC,
+and unique lysosomal scores attenuates the receptor beta by `57.0%`, from
+`0.796` to `0.342`, with wild `p=0.105`. The design is numerically stable
+(condition number `5.55`) and every leave-one-patient-out adjusted beta remains
+positive, but the pre-specified component-specificity gate fails. The retained
+label is therefore **broad-state-bounded CD44/CXCR4 association**, not an
+independent receptor mechanism. See
+`analysis/v53_ms_microglia_component_specificity/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -488,7 +499,9 @@ None yet.
    unique two-gene score survives patient-cluster wild-null correction in
    GSE111972 (`q=0.0790`) and is positive in both regions. It also survives
    patient-equal quadratic age, common-support, region-interaction, and
-   leave-one-patient-out sensitivity. Its next test is frozen in
+   leave-one-patient-out sensitivity; both genes contribute (`q=0.0225` each).
+   It remains broad-state-bounded because joint APC-state adjustment attenuates
+   57% and misses the specificity gate (`p=0.105`). Its next test is frozen in
    `docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md`: target
    32 MS and 32 control donors under an assumption-labeled `d=0.8`, 80%-power
    design, with the same CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The
