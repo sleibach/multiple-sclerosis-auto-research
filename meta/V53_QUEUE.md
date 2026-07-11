@@ -48,9 +48,11 @@ exhausted public-data discovery search as a source of findings.
 | Coupled-axis status propagation audit | done | Added FINDINGS_DELTA_V53 and reference audit; updated README/CURRENT_STATUS/NEXT_ACTIONS only. V26/V37/V52 historical artifacts preserved and explicitly superseded for current coupled-axis wording. |
 | Broad APC recurrence independence audit | done | Eight physical datasets after disjoint rescoring: IFN/APC and CD44/CXCR4 receptor state each 7/8 positive (q=0.0703, LODO min 6/7); HLA-II 5/8 (q=0.363), lysosomal 6/8 (q=0.193). Broad non-specific state survives, HLA two-arm does not. |
 | Additional-atlas disjoint rescoring | done | GSE111972, GSE248205, and GSE315138 rerun at source level; applicable canonical-original checks all exact (zero error), then combined only at physical-dataset direction level with five rebuilt h5 sources. |
-| Pharmacodynamic context-type decomposition | todo | Determine whether rank concordance is shared across response strata and compartments or concentrated in incomparable context types; no new discovery claims. |
+| Pharmacodynamic context-type decomposition | done | Bulk response rho=0.109, q=0.463; marker contexts rho=0.555, q=0.124; GSE253006 alone q=0.124. Ten favorable-minus-unfavorable contrasts: rho=0.127, q=0.734; 5/10 same sign. Not response-structured. |
 | MS microglia CD44/CXCR4 decoupling test | done | 31 samples/21 patients, 100k wild-cluster nulls per test: receptor beta 0.714, q=0.0790; receptor-HLA q=0.199 and receptor-MIF/DDT q=0.648. State association retained; decoupling and target claims fail. |
 | MS microglia receptor-state replication spec | todo | Freeze the exact independent-cohort donor/region/component test needed to replicate CD44/CXCR4 without upgrading the single-cohort result. |
+| V22 mechanistic interpretation boundary audit | todo | Verify that V53's architecture demotion changes no locked score computation while identifying any current prose that incorrectly uses coupled-axis support as evidence for V22. |
+| V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -234,3 +236,11 @@ exhausted public-data discovery search as a source of findings.
   is provisional and replication-gated; decoupling and therapeutic claims are
   not supported. Cumulative active time accrued through this checkpoint is
   3h31m04s; the resumed session interval remains open.
+- 2026-07-11T00:30:32Z: Completed pharmacodynamic context-semantic
+  decomposition. Bulk response strata are null (rho 0.109, q=0.463); stronger
+  rank ordering is concentrated in marker contexts/GSE253006 but does not pass
+  five-partition correction. Ten favorable-minus-unfavorable contrasts give
+  rho 0.127 (q=0.734) and 5/10 same-sign changes (q=0.734). The edge is not
+  response-structured and cannot support a monitoring successor or therapeutic
+  interpretation. Cumulative active time accrued through this checkpoint is
+  3h35m15s; the resumed session interval remains open.

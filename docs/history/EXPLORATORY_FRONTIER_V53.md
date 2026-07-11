@@ -315,6 +315,19 @@ strong dataset-scale heterogeneity, not a stable common-effect mechanism and
 not a therapeutic route. See
 `analysis/v53_pharmacodynamic_edge_robustness/REPORT.md`.
 
+Context-semantic decomposition narrows it further. The pooled 24-context edge
+has five-partition BH `q=0.0651`, but bulk response strata have `rho=0.109`
+(`q=0.463`), while marker-compartment contexts have `rho=0.555` (`q=0.124`)
+and GSE253006 alone has `rho=0.624` (`q=0.124`). Excluding GSE253006 gives
+`rho=0.327` (`q=0.153`). Across ten favorable-minus-unfavorable response
+contrasts, HLA-II and receptor-state changes correlate at only `rho=0.127`
+(`q=0.734`), with same-sign changes in `5/10` (`q=0.734`).
+
+The pharmacodynamic relationship is therefore not response-structured. Its
+stronger ordering is concentrated in marker-compartment contexts and cannot be
+used as response evidence, a monitoring successor, or therapeutic support. See
+`analysis/v53_pharmacodynamic_context_decomposition/REPORT.md`.
+
 Finally, the V26 cross-disease summary was rebuilt and source-lineage audited.
 Its committed matrix reproduces to `2.22e-16`, but it is not an independent
 fifth modality: `108/170` source rows (`63.5%`) reuse the direct-h5ad cell-state
@@ -413,7 +426,9 @@ None yet.
    exception (`rho=0.535`, global `q=0.0150`, dataset-stratified `q=0.0231`
    across all 24 contexts), but it fails the harder portability gate: centered
    `rho=0.087`, `p=0.808`, cluster-bootstrap CI `-0.617` to `0.894`. Retain it
-   only as suggestive rank concordance, not a common-effect mechanism.
+   only as suggestive rank concordance, not a common-effect mechanism. A
+   context decomposition also finds no response structure: ten response
+   contrasts give `rho=0.127`, `q=0.734`.
 6. The V26 cross-disease summary is a descriptive derived atlas, not a fifth
    independent modality: 63.5% of its source rows duplicate the audited
    direct-h5ad layer, and its six matrix rows are aggregate support metrics.

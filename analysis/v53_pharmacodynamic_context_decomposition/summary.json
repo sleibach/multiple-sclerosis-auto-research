@@ -1,0 +1,22 @@
+{
+  "boundary": "Context decomposition of an existing edge; no causal, predictive, or therapeutic claim.",
+  "gate_components": {
+    "bulk_partition_rho_ge_0_30_and_q_le_0_10": false,
+    "compartment_partition_rho_ge_0_30_and_q_le_0_10": false,
+    "response_concordance_q_le_0_10": false,
+    "response_contrast_rho_ge_0_30_and_q_le_0_10": false
+  },
+  "n_contexts": 24,
+  "n_permutations_per_test": 50000,
+  "n_response_contrasts": 10,
+  "purpose": "V53 context-semantic decomposition of the disjoint pharmacodynamic HLA-II/receptor edge",
+  "response_concordance_exact_p": 0.623046875,
+  "response_concordance_q_bh_two_tests": 0.7340253194936102,
+  "response_contrast_permutation_p": 0.7340253194936102,
+  "response_contrast_q_bh_two_tests": 0.7340253194936102,
+  "response_contrast_spearman": 0.12727272727272726,
+  "response_structured_gate_pass": false,
+  "same_direction_response_contrasts": 5,
+  "seed": 53505,
+  "verdict": "PHARMACODYNAMIC_EDGE_NOT_RESPONSE_STRUCTURED_ACROSS_CONTEXT_TYPES"
+}
