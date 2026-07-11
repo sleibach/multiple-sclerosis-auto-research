@@ -1,0 +1,9 @@
+check	status	observed	expected
+locked_rule_hash_matches_v45_baseline	PASS	6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a	6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a
+locked_rule_size_matches_v45_baseline	PASS	7879	7879
+harness_IFN_APC_genes_match_locked_definition	PASS	STAT1;IRF1;CXCL10;GBP1;ISG15;CD74;HLA-DRA	STAT1;IRF1;CXCL10;GBP1;ISG15;CD74;HLA-DRA
+harness_HLAII_genes_match_locked_definition	PASS	HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1	HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1
+harness_RECEPTOR_genes_match_locked_definition	PASS	CD74;CD44;CXCR4	CD74;CD44;CXCR4
+harness_primary_score_excludes_receptor	PASS	delta_HLAII - delta_IFN_APC	delta_HLAII - delta_IFN_APC
+prereg_receptor_is_negative_control	PASS	present	present
+outcome_grid_has_non_specific_downgrade	PASS	present	present

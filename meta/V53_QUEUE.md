@@ -51,9 +51,10 @@ exhausted public-data discovery search as a source of findings.
 | Pharmacodynamic context-type decomposition | done | Bulk response rho=0.109, q=0.463; marker contexts rho=0.555, q=0.124; GSE253006 alone q=0.124. Ten favorable-minus-unfavorable contrasts: rho=0.127, q=0.734; 5/10 same sign. Not response-structured. |
 | MS microglia CD44/CXCR4 decoupling test | done | 31 samples/21 patients, 100k wild-cluster nulls per test: receptor beta 0.714, q=0.0790; receptor-HLA q=0.199 and receptor-MIF/DDT q=0.648. State association retained; decoupling and target claims fail. |
 | MS microglia receptor-state replication spec | todo | Freeze the exact independent-cohort donor/region/component test needed to replicate CD44/CXCR4 without upgrading the single-cohort result. |
-| V22 mechanistic interpretation boundary audit | todo | Verify that V53's architecture demotion changes no locked score computation while identifying any current prose that incorrectly uses coupled-axis support as evidence for V22. |
+| V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
 | V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
 | V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
+| MS microglia age/region robustness | todo | Stress the provisional CD44/CXCR4 association against nonlinear age, overlap restriction, and leave-one-patient-out influence before preserving it on the shortlist. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -260,3 +261,11 @@ exhausted public-data discovery search as a source of findings.
   one purified compartment/outcome, the same disjoint scores, and validated
   selective perturbations. Cumulative active time accrued through this
   checkpoint is 3h42m37s; the resumed session interval remains open.
+- 2026-07-11T00:41:20Z: Completed the V22/V53 interpretation-boundary audit.
+  All 8 checks pass: locked-rule hash matches the V45 baseline, harness module
+  lists and `delta_HLAII - delta_IFN_APC` formula are unchanged, and receptor
+  state remains negative-control-only. V53 changes no score, threshold,
+  preregistration, or result class; it only prevents a future pass from being
+  overread as MIF causality or independent two-arm support. Cumulative active
+  time accrued through this checkpoint is 3h46m03s; the resumed session
+  interval remains open.

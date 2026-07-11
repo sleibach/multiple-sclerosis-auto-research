@@ -297,6 +297,16 @@ the scope but cannot restore cross-modality robustness by itself. This regrade
 does not edit or retune the locked V22 monitoring rule; it changes the mechanistic
 interpretation around that rule.
 
+A direct V22 interface audit confirms that separation mechanically. The locked
+file SHA-256 remains
+`6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a`, matching
+the V45 baseline. All frozen harness module lists and the Class-C formula
+`delta_HLAII - delta_IFN_APC` match; CD74/CD44/CXCR4 remains a negative control
+only. V53 changes no score, threshold, preregistration, or result class. Even a
+future clean V22 pass could support monitoring performance but not MIF
+causality or the demoted independent two-arm architecture. See
+`analysis/v53_v22_interpretation_boundary/REPORT.md`.
+
 The final source-level pharmacodynamic rebuild then covered all 24 V26 contexts
 across six datasets. It explicitly normalizes two label-only changes in the live
 GSE106992 analyzer and reproduces every original matrix cell to maximum error
