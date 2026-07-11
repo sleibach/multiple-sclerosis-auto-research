@@ -1,0 +1,65 @@
+definition	physical_dataset	context	module	effect	p	n_genes_present	genes_present
+canonical_original	GSE111972	MS white-matter microglia	mif_cd74_receptor_state	0.6141257454613055	0.005473419155014	7	CD74,CD44,CXCR4,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1
+canonical_original	GSE111972	MS white-matter microglia	ifn_apc	0.4826673377359342	0.0360916207609486	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+canonical_original	GSE111972	MS white-matter microglia	lysosomal_apc	0.402494420190013	0.102009262135635	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+canonical_original	GSE111972	MS white-matter microglia	hla_ii_apc	0.4363118585254622	0.1324985865893399	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+canonical_original	GSE248205	Hashimoto thyroiditis_vs_control	hla_ii_apc	1.698558975446072	0.0053697946311235	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Hashimoto thyroiditis_vs_control	ifn_apc	1.229437021144745	0.0056816442006473	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Hashimoto thyroiditis_vs_control	lysosomal_apc	0.4907225133345561	0.027561405676147	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Hashimoto thyroiditis_vs_control	mif_cd74_receptor_state	1.7902925785741668	0.0003272728230005	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Graves disease_vs_control	hla_ii_apc	0.6931345213347653	0.2041459260592428	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Graves disease_vs_control	ifn_apc	0.5253332694232156	0.2094590329129275	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Graves disease_vs_control	lysosomal_apc	0.3661523426129482	0.1249005134132561	sample_specific	see source-run sample score table
+canonical_original	GSE248205	Graves disease_vs_control	mif_cd74_receptor_state	0.7164278365991426	0.1936957997339089	sample_specific	see source-run sample score table
+canonical_original	GSE315138	celiac b_plasma_like	hla_ii_apc	0.4676104408018866	0.1786359380435993	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac b_plasma_like	ifn_apc	0.2239035652169962	0.2320559740902329	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac b_plasma_like	lysosomal_apc	-0.0008762322190708	0.9872732886196984	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac b_plasma_like	mif_cd74_receptor_state	0.4588787263388331	0.188870474825488	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac epithelial_like	hla_ii_apc	0.5196932069471483	0.0279323634382444	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac epithelial_like	ifn_apc	0.3883416309082801	0.0956087964959915	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac epithelial_like	lysosomal_apc	0.0019675089146127	0.9908061981157454	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac epithelial_like	mif_cd74_receptor_state	0.4731839531570336	0.0164448410155086	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac myeloid_apc_like	hla_ii_apc	0.0952933379540874	0.7457991283764233	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac myeloid_apc_like	ifn_apc	0.0393544184569278	0.1850710337956456	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac myeloid_apc_like	lysosomal_apc	0.0466878677785165	0.6562184165041097	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac myeloid_apc_like	mif_cd74_receptor_state	0.1633470977365826	0.5555078380051329	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac stromal_endothelial_like	hla_ii_apc	0.1014945494060883	0.5712778348409691	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac stromal_endothelial_like	ifn_apc	0.0810541967988464	0.630840293884066	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac stromal_endothelial_like	lysosomal_apc	0.0128050694606177	0.933098340317852	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac stromal_endothelial_like	mif_cd74_receptor_state	0.0811486473462826	0.5814537087712643	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac t_cell_like	hla_ii_apc	0.1189710281839624	0.2509531202917918	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac t_cell_like	ifn_apc	-0.0838548651655207	0.7228158849132151	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac t_cell_like	lysosomal_apc	-0.1075823404118515	0.5527897668571792	compartment_specific	see source-run module coverage table
+canonical_original	GSE315138	celiac t_cell_like	mif_cd74_receptor_state	0.0807603715395715	0.6387638141726477	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE111972	MS white-matter microglia	mif_cd74_receptor_state	0.5053840746100279	0.0108411083787125	2	CD44,CXCR4
+globally_disjoint	GSE111972	MS white-matter microglia	lysosomal_apc	0.4151027841886308	0.1160220778573712	6	CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+globally_disjoint	GSE111972	MS white-matter microglia	ifn_apc	0.4608789682928579	0.1169282980284122	4	STAT1,IRF1,CXCL10,GBP1
+globally_disjoint	GSE111972	MS white-matter microglia	hla_ii_apc	-0.1169645296654235	0.7351753795059434	2	CIITA,RFX5
+globally_disjoint	GSE248205	Hashimoto thyroiditis_vs_control	hla_ii_apc	0.1614688084859491	0.0639755395702195	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Hashimoto thyroiditis_vs_control	ifn_apc	0.3348165394983216	0.0069951631742211	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Hashimoto thyroiditis_vs_control	lysosomal_apc	0.3790602613458644	0.0639252110407786	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Hashimoto thyroiditis_vs_control	mif_cd74_receptor_state	0.4825364194342808	0.0642996985773968	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Graves disease_vs_control	hla_ii_apc	0.0517690120483681	0.2227015580965872	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Graves disease_vs_control	ifn_apc	0.1445798292171754	0.2793725491648932	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Graves disease_vs_control	lysosomal_apc	0.3690712854111841	0.134306377792373	sample_specific	see source-run sample score table
+globally_disjoint	GSE248205	Graves disease_vs_control	mif_cd74_receptor_state	0.1332956154736884	0.1153307348028951	sample_specific	see source-run sample score table
+globally_disjoint	GSE315138	celiac b_plasma_like	hla_ii_apc	0.3067329277905314	0.2315878545220843	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac b_plasma_like	ifn_apc	0.0358687373207877	0.8277882609529169	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac b_plasma_like	lysosomal_apc	0.0214016349361435	0.7438658640743272	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac b_plasma_like	mif_cd74_receptor_state	0.2761719271698443	0.273517871424961	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac epithelial_like	hla_ii_apc	0.2721241681583726	0.147116800002564	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac epithelial_like	ifn_apc	0.2965891067429928	0.4302150298740175	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac epithelial_like	lysosomal_apc	0.0368938935215443	0.8214072957229251	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac epithelial_like	mif_cd74_receptor_state	0.109341779892971	0.5371129103605157	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac myeloid_apc_like	hla_ii_apc	0.1986645590710567	0.183186955947399	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac myeloid_apc_like	ifn_apc	0.0641593634479402	0.8052398233063892	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac myeloid_apc_like	lysosomal_apc	0.0960897097888134	0.4608695175526184	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac myeloid_apc_like	mif_cd74_receptor_state	0.4368527183097899	0.1652041197188454	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac stromal_endothelial_like	hla_ii_apc	0.0893972481262639	0.4942396657409705	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac stromal_endothelial_like	ifn_apc	0.0587295007989155	0.8574181544968276	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac stromal_endothelial_like	lysosomal_apc	0.0330837522920827	0.8391733381803557	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac stromal_endothelial_like	mif_cd74_receptor_state	0.0181865909169438	0.8187555601625922	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac t_cell_like	hla_ii_apc	-0.0174465095409537	0.814523793313159	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac t_cell_like	ifn_apc	-0.2579974128145204	0.5422167223414602	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac t_cell_like	lysosomal_apc	-0.0954359226762567	0.6021948937558218	compartment_specific	see source-run module coverage table
+globally_disjoint	GSE315138	celiac t_cell_like	mif_cd74_receptor_state	-0.1511838077963219	0.7070345161033519	compartment_specific	see source-run module coverage table

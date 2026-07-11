@@ -1,0 +1,149 @@
+{
+  "dataset": "GSE111972",
+  "pubmed_id": "30867424",
+  "input": "data/raw_v3/gse111972/GSE111972_norm_data.txt.gz",
+  "random_seed": 20260526,
+  "n_samples": 31,
+  "sample_counts": [
+    {
+      "disease": "MS",
+      "region": "grey_matter",
+      "n": 5
+    },
+    {
+      "disease": "MS",
+      "region": "white_matter",
+      "n": 10
+    },
+    {
+      "disease": "control",
+      "region": "grey_matter",
+      "n": 5
+    },
+    {
+      "disease": "control",
+      "region": "white_matter",
+      "n": 11
+    }
+  ],
+  "n_target_genes_tested": 20,
+  "n_modules_tested": 4,
+  "primary_contrast": "MS_WM_vs_CON_WM",
+  "focus_gene_primary_results": [
+    {
+      "feature": "CD44",
+      "delta_log2": 1.3446537852001974,
+      "hedges_g": 0.9541987285932503,
+      "p": 0.03316698314451043,
+      "fdr": 0.22728276907349143,
+      "ols_beta_disease_ms": 1.4375730391223258,
+      "ols_p_disease_ms": 0.02003528874946113
+    },
+    {
+      "feature": "CTSD",
+      "delta_log2": 0.4931363740249406,
+      "hedges_g": 0.9402214690667554,
+      "p": 0.04832001763881175,
+      "fdr": 0.22728276907349143,
+      "ols_beta_disease_ms": 0.3176077987952846,
+      "ols_p_disease_ms": 0.17500702572506066
+    },
+    {
+      "feature": "CXCL10",
+      "delta_log2": 1.0833175761966238,
+      "hedges_g": 0.7361200117292042,
+      "p": 0.09617284993826129,
+      "fdr": 0.2419280750076221,
+      "ols_beta_disease_ms": 0.5981807429310829,
+      "ols_p_disease_ms": 0.3131279518563127
+    },
+    {
+      "feature": "STAT1",
+      "delta_log2": 0.5378996098681981,
+      "hedges_g": 0.6835132062150272,
+      "p": 0.1363451431707629,
+      "fdr": 0.2814318237730487,
+      "ols_beta_disease_ms": 0.36559100257967514,
+      "ols_p_disease_ms": 0.2571928193649411
+    },
+    {
+      "feature": "CD74",
+      "delta_log2": 0.2553907019006836,
+      "hedges_g": 0.5415320486815584,
+      "p": 0.2187160729350419,
+      "fdr": 0.36452678822506984,
+      "ols_beta_disease_ms": 0.17723691796878221,
+      "ols_p_disease_ms": 0.4155103391539091
+    },
+    {
+      "feature": "CXCR4",
+      "delta_log2": 0.31208684565658373,
+      "hedges_g": 0.4215814445672457,
+      "p": 0.3176858396110893,
+      "fdr": 0.42358111948145244,
+      "ols_beta_disease_ms": 0.9729067248667964,
+      "ols_p_disease_ms": 0.04471452220120355
+    },
+    {
+      "feature": "IFI30",
+      "delta_log2": 0.21016237009791006,
+      "hedges_g": 0.37297383905006115,
+      "p": 0.37994695495218206,
+      "fdr": 0.47493369369022753,
+      "ols_beta_disease_ms": 0.2280738350360041,
+      "ols_p_disease_ms": 0.44025102457379717
+    },
+    {
+      "feature": "IRF1",
+      "delta_log2": -0.030398173966856845,
+      "hedges_g": -0.041879168293785296,
+      "p": 0.9222930745319915,
+      "fdr": 0.9708348152968332,
+      "ols_beta_disease_ms": 0.10218247138732617,
+      "ols_p_disease_ms": 0.7556017443510519
+    }
+  ],
+  "module_primary_results": [
+    {
+      "feature": "mif_cd74_receptor_state",
+      "n_genes_present": 7,
+      "delta_log2": 0.6141257454613055,
+      "hedges_g": 1.3413367086123047,
+      "p": 0.00547341915501406,
+      "fdr": 0.02189367662005624,
+      "ols_beta_disease_ms": 0.6516854422084536,
+      "ols_p_disease_ms": 0.008718526402669412
+    },
+    {
+      "feature": "ifn_apc",
+      "n_genes_present": 8,
+      "delta_log2": 0.4826673377359342,
+      "hedges_g": 0.9542114598930344,
+      "p": 0.03609162076094863,
+      "fdr": 0.07218324152189726,
+      "ols_beta_disease_ms": 0.43200892403871793,
+      "ols_p_disease_ms": 0.057989148910146025
+    },
+    {
+      "feature": "lysosomal_apc",
+      "n_genes_present": 7,
+      "delta_log2": 0.402494420190013,
+      "hedges_g": 0.7271679875911272,
+      "p": 0.10200926213563505,
+      "fdr": 0.13249858658933994,
+      "ols_beta_disease_ms": 0.253353720325577,
+      "ols_p_disease_ms": 0.42713891579523955
+    },
+    {
+      "feature": "hla_ii_apc",
+      "n_genes_present": 7,
+      "delta_log2": 0.4363118585254622,
+      "hedges_g": 0.6642692578384539,
+      "p": 0.13249858658933994,
+      "fdr": 0.13249858658933994,
+      "ols_beta_disease_ms": 0.40905290609058276,
+      "ols_p_disease_ms": 0.19546605255881067
+    }
+  ],
+  "interpretation_guardrail": "GSE111972 is sorted microglia from normal-appearing WM/GM, not lesion-rim spatial data; use as independent MS microglia support/contradiction only."
+}

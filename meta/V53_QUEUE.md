@@ -46,8 +46,8 @@ exhausted public-data discovery search as a source of findings.
 | Pharmacodynamic edge portability stress | done | 50k stratified permutations/view + 20k dataset-cluster bootstraps. Pooled/rank concordance persists, but centered rho=0.087 (p=0.808), cluster CI -0.617 to 0.894, and one LODO p=0.124; portable-common-effect gate fails. |
 | Cross-disease summary de-overlap | done | Exact lineage rebuild (2.22e-16): 108/170 rows reuse direct h5ad and six matrix rows are derived metrics. Retired as independent fifth modality; 62 additional-atlas rows split into a source-level recurrence task. |
 | Coupled-axis status propagation audit | todo | Find every downstream current-status/report reference to the original robust two-arm architecture and apply the V53 evidence regrade without editing historical artifacts. |
-| Broad APC recurrence independence audit | todo | Test whether the retained broad APC-state recurrence itself survives disjoint-gene and leave-one-modality checks; do not inherit it automatically from the demoted two-arm claim. |
-| Additional-atlas disjoint rescoring | todo | Recompute GSE111972, GSE248205, and GSE315138 with globally disjoint APC genes where held source data allow; keep source-level evidence separate from the retired derived matrix. |
+| Broad APC recurrence independence audit | done | Eight physical datasets after disjoint rescoring: IFN/APC and CD44/CXCR4 receptor state each 7/8 positive (q=0.0703, LODO min 6/7); HLA-II 5/8 (q=0.363), lysosomal 6/8 (q=0.193). Broad non-specific state survives, HLA two-arm does not. |
+| Additional-atlas disjoint rescoring | done | GSE111972, GSE248205, and GSE315138 rerun at source level; applicable canonical-original checks all exact (zero error), then combined only at physical-dataset direction level with five rebuilt h5 sources. |
 | Pharmacodynamic context-type decomposition | todo | Determine whether rank concordance is shared across response strata and compartments or concentrated in incomparable context types; no new discovery claims. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
@@ -208,3 +208,12 @@ exhausted public-data discovery search as a source of findings.
   a descriptive atlas. The 62 additional-atlas rows are queued separately for
   source-level disjoint rescoring. Cumulative active time accrued through this
   checkpoint is 3h16m50s; the resumed session interval remains open.
+- 2026-07-11T00:17:51Z: Completed source-level disjoint rescoring for the three
+  additional atlases and combined them with five direct-h5ad physical datasets.
+  Applicable canonical-original checks are exact. IFN/APC and the unique
+  CD44/CXCR4 receptor score each recur positively in 7/8 physical datasets
+  (BH q=0.0703; leave-one-out minimum 6/7), while HLA-II is 5/8 (q=0.363) and
+  lysosomal/APC 6/8 (q=0.193). Broad non-specific IFN/receptor-state recurrence
+  survives; HLA-II two-arm recurrence does not. Cumulative active time accrued
+  through this checkpoint is 3h22m34s; the resumed session interval remains
+  open.

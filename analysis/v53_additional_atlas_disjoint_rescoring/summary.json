@@ -1,0 +1,32 @@
+{
+  "boundary": "Cross-disease direction recurrence only; not MS-specific, causal, predictive, or therapeutic evidence.",
+  "globally_unique_gene_counts": {
+    "hla_ii_apc": 2,
+    "ifn_apc": 4,
+    "lysosomal_apc": 6,
+    "mif_cd74_receptor_state": 2
+  },
+  "modules_passing_disjoint_recurrence_gate": [
+    "ifn_apc",
+    "mif_cd74_receptor_state"
+  ],
+  "n_additional_source_contexts": 8,
+  "n_physical_datasets": 8,
+  "original_rebuild_max_errors": {
+    "GSE111972": 0.0,
+    "GSE248205": 0.0,
+    "GSE315138": 0.0
+  },
+  "physical_datasets": [
+    "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+    "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+    "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+    "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+    "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+    "GSE111972",
+    "GSE248205",
+    "GSE315138"
+  ],
+  "purpose": "V53 source-level globally disjoint APC recurrence sensitivity across independent atlases",
+  "verdict": "BROAD_APC_RECURRENCE_SURVIVES_DISJOINT_PHYSICAL_DATASET_GATE"
+}

@@ -326,6 +326,22 @@ source-level broad-recurrence audit; they do not make the aggregate matrix an
 independent corroboration. See
 `analysis/v53_cross_disease_summary_lineage_audit/REPORT.md`.
 
+That source-level audit was then completed with canonical-original and globally
+disjoint module rescoring. Exact checks against the unchanged committed source
+outputs have zero numerical error. To avoid compartment pseudo-replication and
+incomparable effect scales, effects were averaged within each of eight physical
+datasets and tested only by direction. IFN/APC and the unique CD44/CXCR4
+receptor-state score are each positive in `7/8` datasets (one-sided exact
+`p=0.0352`, BH `q=0.0703`, leave-one-out minimum `6/7`). HLA-II is positive in
+only `5/8` (`q=0.363`) and lysosomal/APC in `6/8` (`q=0.193`).
+
+Thus a broad cross-disease IFN/receptor-state recurrence survives the overlap
+audit, but HLA-II recurrence does not pass the same physical-dataset gate. This
+supports a non-specific immune-state backdrop, not the demoted independently
+coupled HLA-II/receptor architecture, MS specificity, causal direction, or a
+therapeutic target. See
+`analysis/v53_additional_atlas_disjoint_rescoring/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -385,6 +401,10 @@ None yet.
 6. The V26 cross-disease summary is a descriptive derived atlas, not a fifth
    independent modality: 63.5% of its source rows duplicate the audited
    direct-h5ad layer, and its six matrix rows are aggregate support metrics.
+7. Source-level disjoint rescoring supports broad cross-disease IFN/APC and
+   CD44/CXCR4 receptor-state direction recurrence (7/8 physical datasets each,
+   BH `q=0.0703`), but not HLA-II (5/8, `q=0.363`). This is a non-specific state
+   backdrop, not an MS mechanism or target.
 
 ### Promising-but-needs-data
 
