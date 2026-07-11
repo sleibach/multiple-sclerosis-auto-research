@@ -526,6 +526,14 @@ scout. Model confidence played no role. The current client does not expose
 monetary spend or token-usage telemetry, so spend is recorded as unavailable
 rather than estimated.
 
+Machine-readable navigation is in
+`knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`: 33 rows carry proposal
+source, epistemic class, current outcome, artifact path, SHA-256, and an explicit
+interpretation boundary. It lives in the segregated external tree because it
+indexes mixed epistemic classes; it is navigation, not evidence. The final V53
+regression suite passes 16/16 checks in
+`analysis/v53_regression_suite/REPORT.md`.
+
 ## Current Ranked Slate
 
 ### Grounded-and-promising

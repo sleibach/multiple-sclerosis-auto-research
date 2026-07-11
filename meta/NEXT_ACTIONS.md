@@ -25,8 +25,11 @@ V53 update:
 - Cross-cohort synthesis is positive but heterogeneous (`I2=66.7%`) and bounded
   by only two source packages; GSE301908 is a non-supporting 14/3 sensitivity,
   not replication.
-- Current priority: build the machine-readable ledger, regression suite, RAG
-  refresh, and close only at six active hours.
+- Machine-readable ledger: 33 artifact-backed outcomes at
+  `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
+  passes 16/16 checks.
+- Current priority: RAG refresh and final integration checks, then close only
+  at six active hours.
 
 V52 completed state:
 - Therapeutic-path synthesis:

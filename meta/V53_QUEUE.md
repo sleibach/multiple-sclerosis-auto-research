@@ -52,8 +52,8 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia CD44/CXCR4 decoupling test | done | 31 samples/21 patients, 100k wild-cluster nulls per test: receptor beta 0.714, q=0.0790; receptor-HLA q=0.199 and receptor-MIF/DDT q=0.648. State association retained; decoupling and target claims fail. |
 | MS microglia receptor-state replication spec | done | Frozen independent-cohort ingestion, exact scores, patient-equal quadratic-age primary, secondary decoupling, interpretation grid, and assumption-labeled power. Target 32 MS + 32 controls at d=0.8/80% after 20% inflation. |
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
-| V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
-| V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
+| V53 machine-readable outcome ledger | done | 33 artifact-backed rows with source, class, outcome, SHA-256, and interpretation boundary; mixed-class navigation ledger stored under knowledge_external to preserve segregation. |
+| V53 regression suite | done | 16/16 semantic, provenance, structural, source-lineage, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
@@ -342,3 +342,11 @@ exhausted public-data discovery search as a source of findings.
   `p=0.478`) and is not counted as replication. Cumulative active time accrued
   through this checkpoint is 5h13m46s; the resumed session interval remains
   open.
+- 2026-07-11T02:14:53Z: Built a 33-row artifact-backed V53 outcome ledger and
+  ran the final compact regression suite. The first run correctly failed when
+  the mixed-class ledger was placed under the grounded report tree; moving it
+  to `knowledge_external/synthesis/` restored strict segregation. The final
+  suite passes 16/16 semantic, provenance, structural, source-lineage,
+  locked-rule-boundary, ledger, and report-consistency checks. Cumulative active
+  time accrued through this checkpoint is 5h19m36s; the resumed session interval
+  remains open.
