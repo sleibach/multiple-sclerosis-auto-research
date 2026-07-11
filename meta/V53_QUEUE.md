@@ -59,8 +59,8 @@ exhausted public-data discovery search as a source of findings.
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
 | CD44/CXCR4 independent cohort scout | done | Two Macnair matrices streamed over 2.012B entries: validation 18/13 clean pass; discovery 54/26 frozen pass but cell-count-adjusted p=0.05398. Replicated state association with quality qualification; no target/mechanism promotion. |
 | Macnair disease-stage and lesion-context heterogeneity | done | Discovery NAWM vs control WM beta 0.783, q=0.01197; grey matter null; CAL positive in both cohorts. SPMS vs controls positive twice, but direct SPMS-PPMS q=0.115 and validation PPMS n=2: no stage-specific claim. No paired lesion amplification. |
-| Cross-cohort CD44/CXCR4 meta-analysis | todo | Pool only cohort-level adjusted effects with heterogeneity and leave-one-cohort-out reporting; do not treat shared-publication matrices as unqualified independence. |
-| GSE301908 third-cohort low-control sensitivity | todo | Assess only as a 14-MS/3-control sensitivity under the existing score; cannot count as clean replication due three controls. |
+| Cross-cohort CD44/CXCR4 meta-analysis | done | Three standardized adjusted effects positive; random effect 1.151 (CI 0.520-1.782), I2 66.7%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
+| GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
@@ -333,3 +333,12 @@ exhausted public-data discovery search as a source of findings.
   Macnair package with two analyzed partitions and three named validation
   source studies. Cumulative active time accrued through this checkpoint is
   5h08m22s; the resumed session interval remains open.
+- 2026-07-11T02:09:03Z: Completed package-aware cross-cohort synthesis and the
+  pre-declared GSE301908 sensitivity. Standardized adjusted effects are positive
+  in all three analyzed partitions, but heterogeneous (`I2=66.7%`); an unknown
+  Macnair-partition correlation sweep retains a positive normal-theory interval,
+  while the exact two-package sign test is uninformative (`p=0.5`). GSE301908's
+  14/3 point estimate is positive but unsupported (HC3 `p=0.665`, exact-label
+  `p=0.478`) and is not counted as replication. Cumulative active time accrued
+  through this checkpoint is 5h13m46s; the resumed session interval remains
+  open.

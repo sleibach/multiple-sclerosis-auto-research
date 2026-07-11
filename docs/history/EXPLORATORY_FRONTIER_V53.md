@@ -455,6 +455,25 @@ named validation source studies, not two unqualified publication-independent
 Macnair replications. See
 `analysis/v53_microglia_source_lineage_audit/REPORT.md`.
 
+A commensurate donor-level synthesis standardized each cohort score and fit the
+same disease, age, quadratic-age, and sex adjustment, with study fixed effects
+for the validation composite. Adjusted effects are positive in GSE111972
+(`1.317`), Macnair validation (`1.635`), and Macnair discovery (`0.646`). The
+three-partition random-effects estimate is `1.151` (CI `0.520-1.782`), but
+heterogeneity is substantial (`I2=66.7%`). A package-aware sensitivity varies
+the unknown correlation between Macnair partitions from zero to one; its lowest
+pooled CI bound is `0.749`. The exact sign test has only two package-level signs
+and is necessarily uninformative (`p=0.5`), so individual frozen wild-null tests
+remain primary. See `analysis/v53_microglia_cross_cohort_meta/REPORT.md`.
+
+The pre-declared GSE301908 third-cohort sensitivity is an honest null. The held
+object has 14 MS and only 3 control donors, 25,036 deposited Micro nuclei, and a
+normalized `data` layer without raw counts. Its adjusted point estimate is
+positive (`0.438`), but the HC3 CI is `-1.546` to `2.422` (`p=0.665`) and exact
+enumeration of all 680 three-control assignments gives `p=0.478`. It neither
+corroborates nor contradicts the association and is not counted as replication.
+See `analysis/v53_gse301908_low_control_sensitivity/REPORT.md`.
+
 Fixed-score context localization further shows that the signal is not simply
 an overt-lesion readout. In the discovery cohort, normal-appearing white matter
 versus control white matter gives adjusted beta `0.783` and context-family

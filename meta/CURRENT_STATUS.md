@@ -192,6 +192,14 @@ GSE111972 source family plus one Macnair package containing two analyzed
 partitions and three named validation source studies. This narrows replication
 wording without changing any within-cohort estimate.
 
+Standardized covariate-adjusted effects are positive in all three analyzed
+partitions, but heterogeneous (`I2=66.7%`). A package-aware dependence sweep
+retains a positive normal-theory interval even if the two Macnair partitions are
+perfectly correlated; the exact two-package sign test is uninformative
+(`p=0.5`). A low-control GSE301908 sensitivity is not supported (14 MS/3
+controls; adjusted beta `0.438`, HC3 `p=0.665`, exact-label `p=0.478`) and is not
+counted as replication.
+
 Current frontier:
 
 - V53 live state:

@@ -1,0 +1,20 @@
+{
+  "assay_layer": "Seurat RNA normalized data; raw counts absent",
+  "boundary": "Only three controls, normalized-data-only assay, and no clean frozen-platform match. This cohort cannot be counted as independent replication regardless of the observed direction or p-value.",
+  "exact_label_assignments_tested": 680,
+  "exact_null_exceedances": 325,
+  "exact_two_sided_label_p": 0.47794117647058826,
+  "n_control": 3,
+  "n_donors": 17,
+  "n_microglia": 25036,
+  "n_ms": 14,
+  "primary_adjusted_beta": 0.43782513508289095,
+  "primary_hc3_ci_high": 2.421570410578783,
+  "primary_hc3_ci_low": -1.545920140413001,
+  "primary_hc3_p": 0.6653224985673505,
+  "primary_hc3_se": 1.012133534668709,
+  "purpose": "Pre-declared GSE301908 low-control sensitivity; not clean replication",
+  "raw_ms_minus_control": 0.6269604817139154,
+  "score_microglia_count_spearman_rho": 0.39950980392156865,
+  "verdict": "LOW_CONTROL_SENSITIVITY_NOT_SUPPORTED"
+}

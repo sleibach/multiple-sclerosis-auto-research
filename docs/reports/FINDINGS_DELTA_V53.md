@@ -49,6 +49,13 @@ primary and all minimum-cell thresholds but is borderline after direct
 cell-count adjustment (`p=0.05398`). This supports a replicated state marker
 with a quality qualification, not a receptor-specific mechanism or target.
 
+Package-aware synthesis does not justify a stronger label. The three
+standardized adjusted partition effects are positive, but heterogeneous
+(`I2=66.7%`), and the exact sign null has only two independent package signs
+(`p=0.5`). GSE301908, with only three controls and no raw-count layer, is a
+non-supporting sensitivity (HC3 `p=0.665`, exact-label `p=0.478`) rather than a
+clean replication or contradiction.
+
 ## Current Wording
 
 Use:

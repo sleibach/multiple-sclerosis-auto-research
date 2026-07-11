@@ -191,7 +191,9 @@ continuity. For the newest resumable state, read `meta/V53_QUEUE.md` after
   microglial-yield sensitivity in the larger cohort. GSE111972 and the Macnair
   package are separate source families; cohort-specific anonymization prevents
   proof that the two Macnair partitions are person-level independent. This
-  remains a state marker, not a mechanism or target.
+  remains a state marker, not a mechanism or target. Standardized effects are
+  positive but heterogeneous (`I2=66.7%`), and a three-control GSE301908
+  sensitivity is null.
   The V22 rule is unchanged. See
   `docs/reports/FINDINGS_DELTA_V53.md` and
   `docs/history/EXPLORATORY_FRONTIER_V53.md`.

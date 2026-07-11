@@ -1,0 +1,37 @@
+{
+  "all_partition_effects_positive": true,
+  "boundary": "All estimates are donor-level standardized and covariate-adjusted. The two Macnair partitions share one package and may be dependent; their correlation is swept from 0 to 1. Normal-theory pooled intervals remain positive, but the exact sign test has only two independent package signs and cannot establish meta-significance. Individual frozen wild-null tests remain the primary evidence.",
+  "minimum_leave_one_partition_out_random_effect": 0.9170993892594324,
+  "n_analyzed_partitions": 3,
+  "n_deposition_packages": 2,
+  "package_correlation_sensitivity_max_p": 2.514745533010626e-07,
+  "package_correlation_sensitivity_min_ci_low": 0.7489576711288646,
+  "purpose": "Cross-cohort synthesis of a pre-existing frozen score; not new discovery",
+  "three_partition_exact_sign_p": 0.25,
+  "three_partition_fixed_effect": {
+    "ci_high": 1.372723765129437,
+    "ci_low": 0.6838915469596063,
+    "effect": 1.0283076560445217,
+    "i2_percent": 66.72267027039747,
+    "normal_two_sided_p": 4.860365358663967e-09,
+    "q": 6.010097613754325,
+    "q_df": 2,
+    "q_p": 0.04953633655554906,
+    "se": 0.17572250463516087,
+    "tau2": 0.0
+  },
+  "three_partition_random_effect": {
+    "ci_high": 1.7822354311263007,
+    "ci_low": 0.5199278318243439,
+    "effect": 1.1510816314753223,
+    "i2_percent": 66.72267027039747,
+    "normal_two_sided_p": 0.00035076877715621736,
+    "q": 6.010097613754325,
+    "q_df": 2,
+    "q_p": 0.04953633655554906,
+    "se": 0.32201724471988696,
+    "tau2": 0.2064813957541663
+  },
+  "two_package_exact_sign_p": 0.5,
+  "verdict": "POSITIVE_CROSS_SOURCE_EFFECT_WITH_HETEROGENEITY_AND_LOW_SOURCE_FAMILY_COUNT"
+}

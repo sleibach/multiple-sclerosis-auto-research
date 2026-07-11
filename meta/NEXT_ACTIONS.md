@@ -22,8 +22,11 @@ V53 update:
   direct microglia-count adjustment. GSE111972 is a separate source family,
   while cohort-specific anonymization prevents claiming the Macnair partitions
   are person-level independent. This is a replicated state marker, not a target.
-- Current priority: run the cross-cohort effect check, then the machine-readable ledger,
-  regression suite, RAG refresh, and close only at six active hours.
+- Cross-cohort synthesis is positive but heterogeneous (`I2=66.7%`) and bounded
+  by only two source packages; GSE301908 is a non-supporting 14/3 sensitivity,
+  not replication.
+- Current priority: build the machine-readable ledger, regression suite, RAG
+  refresh, and close only at six active hours.
 
 V52 completed state:
 - Therapeutic-path synthesis:
