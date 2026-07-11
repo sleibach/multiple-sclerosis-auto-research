@@ -488,10 +488,11 @@ None yet.
    unique two-gene score survives patient-cluster wild-null correction in
    GSE111972 (`q=0.0790`) and is positive in both regions. It also survives
    patient-equal quadratic age, common-support, region-interaction, and
-   leave-one-patient-out sensitivity. It needs an
-   independent donor-level MS microglia cohort with the same pre-specified
-   CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The stronger decoupling claim
-   is not supported.
+   leave-one-patient-out sensitivity. Its next test is frozen in
+   `docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md`: target
+   32 MS and 32 control donors under an assumption-labeled `d=0.8`, 80%-power
+   design, with the same CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The
+   stronger decoupling claim is not supported.
 
 MIF/CD74 remains below this tier as a target; its retained value is
 state-readout context.

@@ -50,7 +50,7 @@ exhausted public-data discovery search as a source of findings.
 | Additional-atlas disjoint rescoring | done | GSE111972, GSE248205, and GSE315138 rerun at source level; applicable canonical-original checks all exact (zero error), then combined only at physical-dataset direction level with five rebuilt h5 sources. |
 | Pharmacodynamic context-type decomposition | done | Bulk response rho=0.109, q=0.463; marker contexts rho=0.555, q=0.124; GSE253006 alone q=0.124. Ten favorable-minus-unfavorable contrasts: rho=0.127, q=0.734; 5/10 same sign. Not response-structured. |
 | MS microglia CD44/CXCR4 decoupling test | done | 31 samples/21 patients, 100k wild-cluster nulls per test: receptor beta 0.714, q=0.0790; receptor-HLA q=0.199 and receptor-MIF/DDT q=0.648. State association retained; decoupling and target claims fail. |
-| MS microglia receptor-state replication spec | todo | Freeze the exact independent-cohort donor/region/component test needed to replicate CD44/CXCR4 without upgrading the single-cohort result. |
+| MS microglia receptor-state replication spec | done | Frozen independent-cohort ingestion, exact scores, patient-equal quadratic-age primary, secondary decoupling, interpretation grid, and assumption-labeled power. Target 32 MS + 32 controls at d=0.8/80% after 20% inflation. |
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
 | V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
 | V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
@@ -277,3 +277,11 @@ exhausted public-data discovery search as a source of findings.
   association is robust within this cohort but remains unreplicated, non-causal,
   and non-therapeutic. Cumulative active time accrued through this checkpoint
   is 3h50m03s; the resumed session interval remains open.
+- 2026-07-11T00:48:30Z: Froze the independent MS microglia CD44/CXCR4
+  replication specification. It fixes cohort eligibility, score genes,
+  patient-equal quadratic-age analysis, 100,000-null inference, secondary
+  decoupling tests, and clean/provisional/fail interpretation. Assumption-labeled
+  planning targets 32 MS and 32 controls for 80% power at d=0.8 after 20%
+  inflation; this is method planning, not biological evidence. Cumulative
+  active time accrued through this checkpoint is 3h53m13s; the resumed session
+  interval remains open.
