@@ -175,6 +175,20 @@ continuity. For the newest resumable state, read `meta/V53_QUEUE.md` after
   routes for continued public-source work while the OpenGWAS JWT is expired.
   These later phases do not change the locked V22 rule or the V42 validation
   pre-registration.
+  V51 then added confidence-scored AlphaFold DB retrieval under the segregated
+  structural-prediction class. V52 renewed OpenGWAS access and confirmed that
+  structure plus refreshed genetics did not rehabilitate the direction-closed
+  therapeutic leads; monitoring/stratification remains the defensible near-term
+  path. V53's source-level de-overlap audit now supersedes the current
+  interpretation of V37's coupled-architecture item: perturbation, cell-state,
+  and response layers fail disjoint-readout gates, while pharmacodynamic rank
+  concordance is not portable after dataset centering. The V26 cross-disease
+  matrix is a derived atlas rather than an independent modality. Broad
+  cross-disease IFN/APC and CD44/CXCR4 direction recurrence survives (7/8
+  physical datasets each, BH `q=0.0703`), but HLA-II recurrence does not (5/8,
+  `q=0.363`). The V22 rule is unchanged. See
+  `docs/reports/FINDINGS_DELTA_V53.md` and
+  `docs/history/EXPLORATORY_FRONTIER_V53.md`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -298,6 +312,9 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V48 | Convergence/contradiction analysis and active-time tracking correction. | Populated the first class-aware external relationship layer and corrected long-block accounting to use summed active session time rather than wall-clock span. |
 | V49 | Repository hygiene and convergence-content completion. | Purged disposable oversized cache paths from history, added push-safe ignore rules, closed the initial convergence/contradiction gaps, and documented required history-rewrite handling. |
 | V50 | Per-iteration push plus sharper external-context content. | Restored healthy per-iteration pushes to GitHub, added source-specific public records and route inventories, built GWAS Catalog fetcher validation and allele-harmonization prep, and added public-reader/citation/glossary guidance while OpenGWAS remains expired. |
+| V51 | AlphaFold integration under a segregated structural-prediction class. | Added a working AlphaFold DB client, mandatory confidence/provenance gate, and real GPR25/KIF21B/PTGER4 structure records as prediction context only. |
+| V52 | Therapeutic-path synthesis with restored genetics and structure context. | Renewed OpenGWAS access and confirmed that no direction-closed genetics lead became tractable; monitoring/stratification remained the honest near-term impact. |
+| V53 | Unconventional exploration plus source-level APC architecture audit. | MIF/CD74 target, additive combination, and control-node probes were negative. Disjoint-readout analysis demoted the independent HLA-II/receptor two-arm architecture while retaining broad non-MS-specific IFN/APC and CD44/CXCR4 recurrence; current evidence delta is `docs/reports/FINDINGS_DELTA_V53.md`. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-28 18:42 CEST
+Last updated: 2026-07-11 02:20 CEST
 
 ## Mission State
 
@@ -153,7 +153,33 @@ MIF/CD74, combinatorial, and cross-domain hypotheses with the mature toolkit,
 while preserving V41's discovery-exhaustion boundary and requiring real-data
 grounding before any proposal advances. Resume from `meta/V53_QUEUE.md`.
 
+V53 current evidence correction: MIF/CD74 did not become a therapeutic target,
+and additive combinations or a replicated network-control node were not
+supported. More importantly, source-level globally disjoint module rescoring
+demoted the prior independently coupled HLA-II/MIF-CD74 two-arm architecture.
+Perturbation, cell-state, and treatment-response layers fail their applicable
+disjoint/context gates. Pharmacodynamic rank concordance persists, but fails a
+portable-common-effect gate after dataset centering and cluster bootstrap. The
+V26 cross-disease summary is now explicitly treated as a derived descriptive
+atlas, not an independent modality. What remains supported is broad,
+non-MS-specific IFN/APC and CD44/CXCR4 receptor-state direction recurrence
+across 7/8 physical datasets each (BH `q=0.0703`); HLA-II recurrence does not
+pass the same gate (5/8, `q=0.363`). The immutable V22 scalar and its validation
+plan are unchanged. Current evidence wording and the historical-report delta
+are in `docs/reports/FINDINGS_DELTA_V53.md`.
+
 Current frontier:
+
+- V53 live state:
+  - Resume backbone: `meta/V53_QUEUE.md`.
+  - Cumulative grounded report:
+    `docs/history/EXPLORATORY_FRONTIER_V53.md`.
+  - Current evidence regrade:
+    `docs/reports/FINDINGS_DELTA_V53.md`.
+  - No new therapeutic lead is promoted.
+  - Coupled HLA-II/receptor two-arm architecture is demoted; broad
+    IFN/APC and CD44/CXCR4 recurrence remains non-specific context.
+  - V22/V42 validation artifacts remain immutable and operational.
 
 - V52 therapeutic-path state:
   - Queue / resume backbone:
