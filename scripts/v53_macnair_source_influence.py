@@ -180,10 +180,14 @@ def stratified_label_test(frame: pd.DataFrame) -> dict[str, object]:
     }
 
 
-def analyze(name: str, frame: pd.DataFrame) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
+def analyze(
+    name: str, frame: pd.DataFrame
+) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
     table = pd.crosstab(frame.source_family, frame.disease_binary)
     chi2, association_p, _, _ = chi2_contingency(table)
-    cramers_v = float(np.sqrt(chi2 / (len(frame) * min(table.shape[0] - 1, table.shape[1] - 1))))
+    cramers_v = float(
+        np.sqrt(chi2 / (len(frame) * min(table.shape[0] - 1, table.shape[1] - 1)))
+    )
     full = test(frame, source_fixed=True, seed_offset=0 if name == "discovery" else 100)
     stratified = stratified_label_test(frame)
     source_rows = []
@@ -248,8 +252,12 @@ def analyze(name: str, frame: pd.DataFrame) -> tuple[list[dict[str, object]], li
         "source_stratified_label_null": stratified,
         "n_leave_one_source_out_estimable": len(estimable_leave_out),
         "n_leave_one_source_out_non_estimable": len(leave_out) - len(estimable_leave_out),
-        "minimum_leave_one_source_out_beta": min(row["adjusted_standardized_beta"] for row in estimable_leave_out),
-        "maximum_leave_one_source_out_wild_p": max(row["wild_two_sided_p"] for row in estimable_leave_out),
+        "minimum_leave_one_source_out_beta": min(
+            row["adjusted_standardized_beta"] for row in estimable_leave_out
+        ),
+        "maximum_leave_one_source_out_wild_p": max(
+            row["wild_two_sided_p"] for row in estimable_leave_out
+        ),
         "all_source_specific_estimable_raw_directions_positive": all(
             row["raw_ms_minus_control"] > 0
             for row in source_rows
@@ -294,9 +302,14 @@ def main() -> int:
             if supported
             else "MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE"
         ),
-        "boundary": "Robustness of a state association only; no causal, stage, monitoring, direction, or target claim.",
+        "boundary": (
+            "Robustness of a state association only; no causal, stage, "
+            "monitoring, direction, or target claim."
+        ),
     }
-    pd.DataFrame(source_rows).to_csv(OUT / "source_specific_directions.tsv", sep="\t", index=False)
+    pd.DataFrame(source_rows).to_csv(
+        OUT / "source_specific_directions.tsv", sep="\t", index=False
+    )
     pd.DataFrame(leave_rows).to_csv(OUT / "leave_one_source_out.tsv", sep="\t", index=False)
     discovery[["canonical_donor", "source_family"]].to_csv(
         OUT / "discovery_donor_source_map.tsv", sep="\t", index=False

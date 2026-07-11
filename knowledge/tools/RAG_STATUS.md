@@ -25,7 +25,11 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V53 source-balance refresh: `835`.
+- Current document count after V53 final-summary refresh: `836`.
+- V53 final-summary smoke query
+  `V53 final run summary source confounding therapeutic bottom line` returns
+  `docs/history/V53_RUN_SUMMARY.md`, the source-balance addendum, cumulative
+  report, and findings delta among its leading results.
 - V53 source-confounding smoke query
   `V53 source confounding brain bank validation composite source balance addendum`
   returns `docs/validation/MS_MICROGLIA_SOURCE_BALANCE_ADDENDUM_V53.md` first,

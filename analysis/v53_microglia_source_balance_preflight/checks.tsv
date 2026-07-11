@@ -15,3 +15,15 @@ SYNTHETIC_source_confounded	True	at_least_32_per_group	PASS	MS=32; control=32
 SYNTHETIC_source_confounded	True	at_least_two_sources	PASS	sources=2
 SYNTHETIC_source_confounded	True	each_source_has_at_least_5_per_group	FAIL	site_a:control=0,MS=32; site_b:control=32,MS=0
 SYNTHETIC_source_confounded	True	no_source_exceeds_60_percent_of_either_group	FAIL	maximum_group_source_share=1.000
+SYNTHETIC_underpowered	True	at_least_32_per_group	FAIL	MS=31; control=32
+SYNTHETIC_underpowered	True	at_least_two_sources	PASS	sources=2
+SYNTHETIC_underpowered	True	each_source_has_at_least_5_per_group	PASS	site_a:control=16,MS=16; site_b:control=16,MS=15
+SYNTHETIC_underpowered	True	no_source_exceeds_60_percent_of_either_group	PASS	maximum_group_source_share=0.516
+SYNTHETIC_sparse_source_cell	True	at_least_32_per_group	PASS	MS=32; control=32
+SYNTHETIC_sparse_source_cell	True	at_least_two_sources	PASS	sources=3
+SYNTHETIC_sparse_source_cell	True	each_source_has_at_least_5_per_group	FAIL	site_a:control=15,MS=15; site_b:control=12,MS=13; site_c:control=5,MS=4
+SYNTHETIC_sparse_source_cell	True	no_source_exceeds_60_percent_of_either_group	PASS	maximum_group_source_share=0.469
+SYNTHETIC_source_concentrated	True	at_least_32_per_group	PASS	MS=32; control=32
+SYNTHETIC_source_concentrated	True	at_least_two_sources	PASS	sources=2
+SYNTHETIC_source_concentrated	True	each_source_has_at_least_5_per_group	PASS	site_a:control=20,MS=20; site_b:control=12,MS=12
+SYNTHETIC_source_concentrated	True	no_source_exceeds_60_percent_of_either_group	FAIL	maximum_group_source_share=0.625

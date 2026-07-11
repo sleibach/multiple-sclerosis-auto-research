@@ -58,7 +58,14 @@ def main() -> int:
         ),
         run(
             "status_freshness",
-            [sys.executable, "scripts/v50_status_freshness_linter.py", "lint", "--expected-phase", "V53", "--fail-on-error"],
+            [
+                sys.executable,
+                "scripts/v50_status_freshness_linter.py",
+                "lint",
+                "--expected-phase",
+                "V53",
+                "--fail-on-error",
+            ],
         ),
         run(
             "matrix_semantic_contract",

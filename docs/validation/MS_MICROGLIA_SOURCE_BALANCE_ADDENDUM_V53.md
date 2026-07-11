@@ -36,8 +36,9 @@ Run:
 .venv/bin/python scripts/v53_microglia_source_balance_preflight.py
 ```
 
-The committed preflight verifies a balanced synthetic cohort passes and a
-perfectly source-confounded synthetic cohort fails. Synthetic fixtures are
-method tests only and are never biological evidence. Current Macnair partitions
+The committed preflight verifies a balanced synthetic cohort passes, while
+source-confounded, underpowered, sparse-source-cell, and source-concentrated
+boundary fixtures fail. Synthetic fixtures are method tests only and are never
+biological evidence. Current Macnair partitions
 are included only to demonstrate the diagnosed design limitation; this addendum
 governs the next donor-balanced acquisition.

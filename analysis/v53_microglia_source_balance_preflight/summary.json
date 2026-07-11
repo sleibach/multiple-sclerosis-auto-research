@@ -42,9 +42,43 @@
       "n_sources": 2,
       "overall_status": "FAIL",
       "synthetic": true
+    },
+    {
+      "dataset": "SYNTHETIC_underpowered",
+      "n_control": 32,
+      "n_donors": 63,
+      "n_ms": 31,
+      "n_sources": 2,
+      "overall_status": "FAIL",
+      "synthetic": true
+    },
+    {
+      "dataset": "SYNTHETIC_sparse_source_cell",
+      "n_control": 32,
+      "n_donors": 64,
+      "n_ms": 32,
+      "n_sources": 3,
+      "overall_status": "FAIL",
+      "synthetic": true
+    },
+    {
+      "dataset": "SYNTHETIC_source_concentrated",
+      "n_control": 32,
+      "n_donors": 64,
+      "n_ms": 32,
+      "n_sources": 2,
+      "overall_status": "FAIL",
+      "synthetic": true
     }
   ],
   "overall_status": "PASS",
   "purpose": "Future-cohort source-balance design preflight; synthetic tests method behavior only",
-  "synthetic_behavior_verified": true
+  "synthetic_behavior_verified": true,
+  "synthetic_expected_status": {
+    "SYNTHETIC_balanced": "PASS",
+    "SYNTHETIC_source_concentrated": "FAIL",
+    "SYNTHETIC_source_confounded": "FAIL",
+    "SYNTHETIC_sparse_source_cell": "FAIL",
+    "SYNTHETIC_underpowered": "FAIL"
+  }
 }

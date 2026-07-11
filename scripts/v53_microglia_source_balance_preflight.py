@@ -15,7 +15,9 @@ BASE = ROOT / "analysis/v53_ms_microglia_independent_cohort_scout"
 SOURCE_MAP = ROOT / "analysis/v53_macnair_source_influence/discovery_donor_source_map.tsv"
 
 
-def evaluate(name: str, frame: pd.DataFrame, synthetic: bool) -> tuple[list[dict[str, object]], dict[str, object]]:
+def evaluate(
+    name: str, frame: pd.DataFrame, synthetic: bool
+) -> tuple[list[dict[str, object]], dict[str, object]]:
     required = {"donor_id", "disease_binary", "source_family"}
     missing = required - set(frame)
     if missing:
@@ -64,17 +66,8 @@ def evaluate(name: str, frame: pd.DataFrame, synthetic: bool) -> tuple[list[dict
     }
 
 
-def synthetic_fixture(confounded: bool) -> pd.DataFrame:
+def fixture_from_assignments(assignments: list[tuple[str, int, int]]) -> pd.DataFrame:
     rows = []
-    if confounded:
-        assignments = [("site_a", 1, 32), ("site_b", 0, 32)]
-    else:
-        assignments = [
-            ("site_a", 1, 16),
-            ("site_a", 0, 16),
-            ("site_b", 1, 16),
-            ("site_b", 0, 16),
-        ]
     for source, disease, count in assignments:
         for index in range(count):
             rows.append(
@@ -98,26 +91,51 @@ def main() -> int:
     validation = pd.read_csv(BASE / "macnair_validation/donor_scores.tsv", sep="\t")
     validation["source_family"] = validation.study
     validation = validation.rename(columns={"canonical_donor": "donor_id"})
-    good = synthetic_fixture(False)
-    bad = synthetic_fixture(True)
-    good.to_csv(synthetic_dir / "SYNTHETIC_balanced.tsv", sep="\t", index=False)
-    bad.to_csv(synthetic_dir / "SYNTHETIC_source_confounded.tsv", sep="\t", index=False)
+    fixtures = {
+        "SYNTHETIC_balanced": fixture_from_assignments(
+            [("site_a", 1, 16), ("site_a", 0, 16), ("site_b", 1, 16), ("site_b", 0, 16)]
+        ),
+        "SYNTHETIC_source_confounded": fixture_from_assignments(
+            [("site_a", 1, 32), ("site_b", 0, 32)]
+        ),
+        "SYNTHETIC_underpowered": fixture_from_assignments(
+            [("site_a", 1, 16), ("site_a", 0, 16), ("site_b", 1, 15), ("site_b", 0, 16)]
+        ),
+        "SYNTHETIC_sparse_source_cell": fixture_from_assignments(
+            [
+                ("site_a", 1, 15), ("site_a", 0, 15),
+                ("site_b", 1, 13), ("site_b", 0, 12),
+                ("site_c", 1, 4), ("site_c", 0, 5),
+            ]
+        ),
+        "SYNTHETIC_source_concentrated": fixture_from_assignments(
+            [("site_a", 1, 20), ("site_a", 0, 20), ("site_b", 1, 12), ("site_b", 0, 12)]
+        ),
+    }
+    for name, fixture in fixtures.items():
+        fixture.to_csv(synthetic_dir / f"{name}.tsv", sep="\t", index=False)
 
     all_rows = []
     summaries = []
     for name, frame, synthetic in [
         ("macnair_discovery_observed", discovery, False),
         ("macnair_validation_observed", validation, False),
-        ("SYNTHETIC_balanced", good, True),
-        ("SYNTHETIC_source_confounded", bad, True),
+        *((name, fixture, True) for name, fixture in fixtures.items()),
     ]:
         rows, summary = evaluate(name, frame, synthetic)
         all_rows.extend(rows)
         summaries.append(summary)
     by_name = {row["dataset"]: row for row in summaries}
-    expected = (
-        by_name["SYNTHETIC_balanced"]["overall_status"] == "PASS"
-        and by_name["SYNTHETIC_source_confounded"]["overall_status"] == "FAIL"
+    expected_status = {
+        "SYNTHETIC_balanced": "PASS",
+        "SYNTHETIC_source_confounded": "FAIL",
+        "SYNTHETIC_underpowered": "FAIL",
+        "SYNTHETIC_sparse_source_cell": "FAIL",
+        "SYNTHETIC_source_concentrated": "FAIL",
+    }
+    expected = all(
+        by_name[name]["overall_status"] == status
+        for name, status in expected_status.items()
     )
     if not expected:
         raise AssertionError("synthetic source-balance preflight behavior regressed")
@@ -132,14 +150,19 @@ def main() -> int:
         },
         "datasets": summaries,
         "synthetic_behavior_verified": expected,
+        "synthetic_expected_status": expected_status,
         "overall_status": "PASS",
-        "boundary": "Prospective acquisition target only; not a retroactive kill rule and not biological evidence.",
+        "boundary": (
+            "Prospective acquisition target only; not a retroactive kill rule "
+            "and not biological evidence."
+        ),
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     (OUT / "REPORT.md").write_text(
         "# V53 Microglia Source-Balance Preflight\n\n"
-        "Status: **PASS** for method behavior. The synthetic balanced design passes and the "
-        "synthetic source-confounded design fails. Neither existing Macnair partition meets "
+        "Status: **PASS** for method behavior. The balanced design passes; source-confounded, "
+        "underpowered, sparse-source-cell, and source-concentrated boundary fixtures fail. "
+        "Neither existing Macnair partition meets "
         "the prospective acquisition target: discovery fails within-source overlap and "
         "concentration; validation is below the 32/32 planning size and has small source cells. "
         "This is a future-design criterion, not a retroactive evidence kill.\n"
