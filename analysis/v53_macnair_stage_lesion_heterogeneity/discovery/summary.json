@@ -1,0 +1,209 @@
+{
+  "adequately_sized_stages_supported": [
+    "SPMS"
+  ],
+  "boundary": "Context localization only; no causal or therapeutic interpretation.",
+  "cohort": "discovery",
+  "families": {
+    "ms_context_vs_matched_control": [
+      {
+        "bh_q": 0.011969880301196988,
+        "context": "NAWM",
+        "disease_or_context_beta": 0.7827077571897745,
+        "hc3_ci_high": 1.317907552238612,
+        "hc3_ci_low": 0.24750796214093662,
+        "hc3_p": 0.004152126267612001,
+        "n_control": 13,
+        "n_ms": 17,
+        "reference": "control_WM",
+        "standardized_difference": 0.8959309264573087,
+        "wild_two_sided_p": 0.0017099829001709984
+      },
+      {
+        "bh_q": 0.3550889491105089,
+        "context": "AL",
+        "disease_or_context_beta": 0.3411977122719724,
+        "hc3_ci_high": 0.9557623677596728,
+        "hc3_ci_low": -0.27336694321572785,
+        "hc3_p": 0.27653126534345684,
+        "n_control": 13,
+        "n_ms": 14,
+        "reference": "control_WM",
+        "standardized_difference": 0.785629004591841,
+        "wild_two_sided_p": 0.2029079709202908
+      },
+      {
+        "bh_q": 0.022504774952250478,
+        "context": "CAL",
+        "disease_or_context_beta": 0.6960675276144188,
+        "hc3_ci_high": 1.244523177394027,
+        "hc3_ci_low": 0.14761187783481056,
+        "hc3_p": 0.012865509966964851,
+        "n_control": 13,
+        "n_ms": 13,
+        "reference": "control_WM",
+        "standardized_difference": 1.3603451819904369,
+        "wild_two_sided_p": 0.006429935700642994
+      },
+      {
+        "bh_q": 0.08304250290830424,
+        "context": "CIL",
+        "disease_or_context_beta": 0.47470590030219195,
+        "hc3_ci_high": 1.0404591340285467,
+        "hc3_ci_low": -0.09104733342416282,
+        "hc3_p": 0.10006374412651721,
+        "n_control": 13,
+        "n_ms": 8,
+        "reference": "control_WM",
+        "standardized_difference": 1.008384583088783,
+        "wild_two_sided_p": 0.035589644103558964
+      },
+      {
+        "bh_q": 0.711570884291157,
+        "context": "RL",
+        "disease_or_context_beta": 0.20481484174159048,
+        "hc3_ci_high": 1.0126692318184194,
+        "hc3_ci_low": -0.603039548335238,
+        "hc3_p": 0.6192535770668964,
+        "n_control": 13,
+        "n_ms": 8,
+        "reference": "control_WM",
+        "standardized_difference": 0.29485377083175796,
+        "wild_two_sided_p": 0.5082649173508265
+      },
+      {
+        "bh_q": 0.8775612243877561,
+        "context": "NAGM",
+        "disease_or_context_beta": -0.06173614068104043,
+        "hc3_ci_high": 0.4603920284909068,
+        "hc3_ci_low": -0.5838643098529879,
+        "hc3_p": 0.8167360483846058,
+        "n_control": 14,
+        "n_ms": 15,
+        "reference": "control_GM",
+        "standardized_difference": 0.03219454582426843,
+        "wild_two_sided_p": 0.7762722372776272
+      },
+      {
+        "bh_q": 0.8775612243877561,
+        "context": "GML",
+        "disease_or_context_beta": -0.03901132932708445,
+        "hc3_ci_high": 0.5717633901951201,
+        "hc3_ci_low": -0.6497860488492894,
+        "hc3_p": 0.900375838442774,
+        "n_control": 14,
+        "n_ms": 15,
+        "reference": "control_GM",
+        "standardized_difference": 0.32731444773108476,
+        "wild_two_sided_p": 0.8775612243877561
+      }
+    ],
+    "stage": [
+      {
+        "bh_q": 0.5112848871511284,
+        "disease_or_context_beta": 0.24094023132602316,
+        "hc3_ci_high": 0.8407372534009301,
+        "hc3_ci_low": -0.35885679074888327,
+        "hc3_p": 0.43109262848385266,
+        "n_control": 13,
+        "n_stage": 13,
+        "stage": "PPMS",
+        "standardized_difference": 0.4709110218542699,
+        "underpowered_n_lt_8": false,
+        "wild_two_sided_p": 0.34085659143408564
+      },
+      {
+        "bh_q": 0.011729882701172988,
+        "disease_or_context_beta": 0.6312775129542303,
+        "hc3_ci_high": 1.0825555945606566,
+        "hc3_ci_low": 0.17999943134780433,
+        "hc3_p": 0.00611171601079478,
+        "n_control": 13,
+        "n_stage": 19,
+        "stage": "SPMS",
+        "standardized_difference": 1.2557989631594348,
+        "underpowered_n_lt_8": false,
+        "wild_two_sided_p": 0.003909960900390996
+      },
+      {
+        "bh_q": 0.9351106488935109,
+        "disease_or_context_beta": 0.02508972632284731,
+        "hc3_ci_high": 0.9886451784043397,
+        "hc3_ci_low": -0.9384657257586446,
+        "hc3_p": 0.9592977074236354,
+        "n_control": 13,
+        "n_stage": 2,
+        "stage": "RRMS",
+        "standardized_difference": -0.21478917114175727,
+        "underpowered_n_lt_8": true,
+        "wild_two_sided_p": 0.935110648893511
+      }
+    ],
+    "stage_contrasts": [
+      {
+        "bh_q": 0.11518384816151839,
+        "contrast": "SPMS_minus_PPMS",
+        "disease_or_context_beta": 0.40493979633525634,
+        "hc3_ci_high": 1.0215834006913953,
+        "hc3_ci_low": -0.21170380802088296,
+        "hc3_p": 0.19806766800551834,
+        "n_positive_stage": 19,
+        "n_reference_stage": 13,
+        "standardized_difference": 0.49773420424354514,
+        "underpowered_min_group_lt_8": false,
+        "wild_two_sided_p": 0.07678923210767892
+      },
+      {
+        "bh_q": 0.002189978100218998,
+        "contrast": "SPMS_minus_RRMS",
+        "disease_or_context_beta": 1.3990920033914314,
+        "hc3_ci_high": 2.8428242312525307,
+        "hc3_ci_low": -0.04464022446966753,
+        "hc3_p": 0.0575169138345034,
+        "n_positive_stage": 19,
+        "n_reference_stage": 2,
+        "standardized_difference": 1.7133768220279504,
+        "underpowered_min_group_lt_8": true,
+        "wild_two_sided_p": 0.0007299927000729993
+      },
+      {
+        "bh_q": 0.7501324986750134,
+        "contrast": "PPMS_minus_RRMS",
+        "disease_or_context_beta": 0.09583548282000173,
+        "hc3_ci_high": 0.9867298620079501,
+        "hc3_ci_low": -0.795058896367947,
+        "hc3_p": 0.8330139430968764,
+        "n_positive_stage": 13,
+        "n_reference_stage": 2,
+        "standardized_difference": 0.5838076051875217,
+        "underpowered_min_group_lt_8": true,
+        "wild_two_sided_p": 0.7501324986750133
+      }
+    ],
+    "within_ms_lesion_vs_nawm": [
+      {
+        "bh_q": 0.2965170348296517,
+        "context": "AL",
+        "mean_lesion_minus_nawm": 0.11177493848862527,
+        "median_lesion_minus_nawm": 0.08884024121765322,
+        "n_paired_donors": 8,
+        "sign_flip_two_sided_p": 0.14825851741482585
+      },
+      {
+        "bh_q": 0.3753562464375356,
+        "context": "CIL",
+        "mean_lesion_minus_nawm": -0.14194047209169658,
+        "median_lesion_minus_nawm": -0.27734268362951353,
+        "n_paired_donors": 5,
+        "sign_flip_two_sided_p": 0.3753562464375356
+      }
+    ]
+  },
+  "lesion_amplification_supported": false,
+  "n_null_replicates_per_test": 100000,
+  "nawm_state_supported": true,
+  "purpose": "Fixed-score disease-stage and lesion-context heterogeneity for the replicated V53 microglial state",
+  "seed": 53531,
+  "spms_vs_ppms_difference_supported": false,
+  "verdict": "STATE_PRESENT_IN_NORMAL_APPEARING_MS_TISSUE"
+}

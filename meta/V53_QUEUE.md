@@ -58,7 +58,7 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
 | CD44/CXCR4 independent cohort scout | done | Two Macnair matrices streamed over 2.012B entries: validation 18/13 clean pass; discovery 54/26 frozen pass but cell-count-adjusted p=0.05398. Replicated state association with quality qualification; no target/mechanism promotion. |
-| Macnair disease-stage and lesion-context heterogeneity | todo | Use frozen donor/sample scores to test whether the replicated state is progressive-stage or lesion-type dependent, with corrected interaction/null tests. |
+| Macnair disease-stage and lesion-context heterogeneity | done | Discovery NAWM vs control WM beta 0.783, q=0.01197; grey matter null; CAL positive in both cohorts. SPMS vs controls positive twice, but direct SPMS-PPMS q=0.115 and validation PPMS n=2: no stage-specific claim. No paired lesion amplification. |
 | Cross-cohort CD44/CXCR4 meta-analysis | todo | Pool only cohort-level adjusted effects with heterogeneity and leave-one-cohort-out reporting; do not treat shared-publication matrices as unqualified independence. |
 | GSE301908 third-cohort low-control sensitivity | todo | Assess only as a 14-MS/3-control sensitivity under the existing score; cannot count as clean replication due three controls. |
 | Macnair source-lineage overlap audit | todo | Verify discovery/validation/GSE301908 donor and source independence before any cross-cohort count is finalized. |
@@ -316,3 +316,11 @@ exhausted public-data discovery search as a source of findings.
   quality qualification, not a causal mechanism or target. Cumulative active
   time accrued through this checkpoint is 4h53m11s; the resumed session
   interval remains open.
+- 2026-07-11T01:53:59Z: Completed fixed-score stage and lesion-context tests in
+  both Macnair matrices. Discovery normal-appearing white matter is positive
+  after depth adjustment and family correction (`q=0.01197`), grey matter is
+  null, and chronic-active lesions are positive in both cohorts. SPMS contrasts
+  against controls pass twice, but the direct adequately sized SPMS-PPMS test
+  does not (`q=0.115`), so stage specificity is not claimed. No paired lesion
+  amplification is supported. Cumulative active time accrued through this
+  checkpoint is 4h58m42s; the resumed session interval remains open.

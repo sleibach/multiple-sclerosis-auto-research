@@ -445,6 +445,19 @@ its component-specificity gate, MIF/DDT is sparsely detected in the Macnair
 matrices, and therapeutic direction remains absent. See
 `analysis/v53_ms_microglia_independent_cohort_scout/REPORT.md`.
 
+Fixed-score context localization further shows that the signal is not simply
+an overt-lesion readout. In the discovery cohort, normal-appearing white matter
+versus control white matter gives adjusted beta `0.783` and context-family
+`q=0.01197`, while normal-appearing and lesional grey-matter contrasts are
+null. Chronic-active lesion contrasts are positive in both Macnair matrices,
+but within-MS paired lesion-minus-NAWM amplification is not detected. SPMS
+versus control is positive in both cohorts; however, the direct adequately
+sized discovery SPMS-minus-PPMS contrast does not survive its family correction
+(`q=0.115`), and validation has only two PPMS donors. Therefore the state is
+white-matter-localized and can precede overt lesions, but disease-stage
+specificity is not established. See
+`analysis/v53_macnair_stage_lesion_heterogeneity/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -494,9 +507,10 @@ rather than estimated.
    gates; the larger passes the frozen gate and all fixed minimum-cell
    thresholds but is borderline after explicit cell-count adjustment. This is
    a replicated state marker with a quality qualification, low biological
-   novelty, and no intervention direction. Next: fixed-score disease-stage and
-   lesion-context heterogeneity, then a donor-balanced third cohort with a
-   pre-specified minimum microglial yield.
+   novelty, and no intervention direction. It is detectable in normal-appearing
+   white matter, but direct stage specificity and paired lesion amplification
+   are not established. Next: a donor-balanced third cohort with a pre-specified
+   minimum microglial yield and selective functional perturbation.
 
 ### Grounded Methodological Boundary
 

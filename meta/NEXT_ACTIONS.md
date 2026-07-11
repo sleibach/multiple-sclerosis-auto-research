@@ -20,8 +20,8 @@ V53 update:
   CD44/CXCR4 MS microglial state direction. The validation composite is clean;
   the larger discovery cohort is quality-sensitive to direct microglia-count
   adjustment. This is a replicated state marker, not a target.
-- Current priority: run fixed-score disease-stage/lesion-context heterogeneity
-  and source-lineage overlap checks, then the machine-readable ledger,
+- Current priority: run source-lineage overlap and cross-cohort effect checks,
+  then the machine-readable ledger,
   regression suite, RAG refresh, and close only at six active hours.
 
 V52 completed state:
@@ -221,9 +221,9 @@ First V53 actions:
 
 1. Continue the first unresolved V53 queue item from `meta/V53_QUEUE.md`.
    The MIF/CD74, structure-first, combination, source-level de-overlap, and
-   evidence-lineage workstreams are complete. Current priority is proposal
-   disease-stage/lesion-context heterogeneity on the replicated CD44/CXCR4
-   state association, followed by source-lineage and cross-cohort checks.
+   evidence-lineage, replication, and context-localization workstreams are
+   complete. Current priority is source-lineage and cross-cohort effect checks
+   for the replicated CD44/CXCR4 state association.
 2. Refresh `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` when their
    status diverges from the live queue.
 3. Keep structural records under `knowledge_external/structures/`; do not treat

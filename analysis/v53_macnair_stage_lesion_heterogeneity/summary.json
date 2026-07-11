@@ -1,0 +1,26 @@
+{
+  "boundary": "Fixed-score context localization only; no causal, progression, or therapeutic conclusion.",
+  "cohorts": {
+    "discovery": {
+      "cal_vs_control_bh_q": 0.022504774952250478,
+      "nawm_vs_control_beta": 0.7827077571897745,
+      "nawm_vs_control_bh_q": 0.011969880301196988,
+      "paired_lesion_amplification_supported": false,
+      "ppms_vs_control_bh_q": 0.5112848871511284,
+      "spms_vs_control_bh_q": 0.011729882701172988,
+      "spms_vs_ppms_direct_bh_q": 0.11518384816151839
+    },
+    "validation": {
+      "cal_vs_control_bh_q": 0.014419855801441986,
+      "nawm_test_executable": false,
+      "paired_lesion_amplification_supported": false,
+      "ppms_n": 2,
+      "spms_vs_control_bh_q": 0.012179878201217988,
+      "spms_vs_ppms_direct_underpowered": true
+    }
+  },
+  "n_null_replicates_per_test": 100000,
+  "purpose": "Cross-cohort stage and lesion-context localization for the replicated V53 CD44/CXCR4 state",
+  "seed": 53531,
+  "verdict": "WHITE_MATTER_STATE_PRESENT_OUTSIDE_OVERT_LESIONS_WITHOUT_ESTABLISHED_STAGE_SPECIFICITY_OR_LESION_AMPLIFICATION"
+}

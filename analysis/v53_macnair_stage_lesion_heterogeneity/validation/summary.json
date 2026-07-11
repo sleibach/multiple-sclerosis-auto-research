@@ -1,0 +1,88 @@
+{
+  "adequately_sized_stages_supported": [
+    "SPMS"
+  ],
+  "boundary": "Context localization only; no causal or therapeutic interpretation.",
+  "cohort": "validation",
+  "families": {
+    "ms_context_vs_matched_control": [
+      {
+        "bh_q": 0.014419855801441986,
+        "context": "CAL",
+        "disease_or_context_beta": 1.3593601215779376,
+        "hc3_ci_high": 2.210568419732677,
+        "hc3_ci_low": 0.5081518234231908,
+        "hc3_p": 0.0017479588198388413,
+        "n_control": 11,
+        "n_ms": 10,
+        "reference": "control_WM",
+        "standardized_difference": 2.429188692170867,
+        "wild_two_sided_p": 0.007209927900720993
+      },
+      {
+        "bh_q": 0.015489845101548985,
+        "context": "CIL",
+        "disease_or_context_beta": 1.066196722322877,
+        "hc3_ci_high": 2.2771707423558496,
+        "hc3_ci_low": -0.14477729771009473,
+        "hc3_p": 0.08441190588023412,
+        "n_control": 11,
+        "n_ms": 8,
+        "reference": "control_WM",
+        "standardized_difference": 2.0076796881355063,
+        "wild_two_sided_p": 0.015489845101548985
+      }
+    ],
+    "stage": [
+      {
+        "bh_q": 0.12477875221247788,
+        "disease_or_context_beta": 0.5211058949924173,
+        "hc3_ci_high": 2.8045944820905135,
+        "hc3_ci_low": -1.7623826921056778,
+        "hc3_p": 0.6546760636577779,
+        "n_control": 13,
+        "n_stage": 2,
+        "stage": "PPMS",
+        "standardized_difference": 0.8959772293312193,
+        "underpowered_n_lt_8": true,
+        "wild_two_sided_p": 0.12477875221247788
+      },
+      {
+        "bh_q": 0.012179878201217988,
+        "disease_or_context_beta": 1.2476572463358209,
+        "hc3_ci_high": 2.0557211343647266,
+        "hc3_ci_low": 0.4395933583069117,
+        "hc3_p": 0.002476481013296795,
+        "n_control": 13,
+        "n_stage": 16,
+        "stage": "SPMS",
+        "standardized_difference": 2.3752861464403954,
+        "underpowered_n_lt_8": false,
+        "wild_two_sided_p": 0.006089939100608994
+      }
+    ],
+    "stage_contrasts": [
+      {
+        "bh_q": 0.03857961420385796,
+        "contrast": "SPMS_minus_PPMS",
+        "disease_or_context_beta": 0.7761772405826128,
+        "hc3_ci_high": 2.167820360661225,
+        "hc3_ci_low": -0.6154658794959957,
+        "hc3_p": 0.2743264442608595,
+        "n_positive_stage": 16,
+        "n_reference_stage": 2,
+        "standardized_difference": 2.067594461006822,
+        "underpowered_min_group_lt_8": true,
+        "wild_two_sided_p": 0.03857961420385796
+      }
+    ],
+    "within_ms_lesion_vs_nawm": []
+  },
+  "lesion_amplification_supported": false,
+  "n_null_replicates_per_test": 100000,
+  "nawm_state_supported": false,
+  "purpose": "Fixed-score disease-stage and lesion-context heterogeneity for the replicated V53 microglial state",
+  "seed": 53531,
+  "spms_vs_ppms_difference_supported": false,
+  "verdict": "STATE_NOT_SEPARABLE_FROM_LESION_CONTEXT"
+}
