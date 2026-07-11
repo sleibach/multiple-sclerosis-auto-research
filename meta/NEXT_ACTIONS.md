@@ -22,12 +22,14 @@ V53 update:
   direct microglia-count adjustment. GSE111972 is a separate source family,
   while cohort-specific anonymization prevents claiming the Macnair partitions
   are person-level independent. This is a replicated state marker, not a target.
-- Cross-cohort synthesis is positive but heterogeneous (`I2=66.7%`) and bounded
-  by only two source packages; GSE301908 is a non-supporting 14/3 sensitivity,
-  not replication.
-- Machine-readable ledger: 33 artifact-backed outcomes at
+- Source-family audit downgrades Macnair discovery: brain-bank Cramer's V
+  `0.773`; source-adjusted wild `p=0.245`. Validation remains source-study
+  robust. Cross-cohort synthesis is positive but heterogeneous (`I2=65.3%`) and
+  bounded by only two source packages; GSE301908 is a non-supporting 14/3
+  sensitivity, not replication.
+- Machine-readable ledger: 34 artifact-backed outcomes at
   `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
-  passes 16/16 checks.
+  passes 18/18 checks.
 - Sparse RAG refresh completed over 834 documents with V53 smoke-query pass.
 - Current priority: final integration and consistency checks, then close only at
   six active hours.

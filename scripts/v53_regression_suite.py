@@ -73,6 +73,10 @@ def main() -> int:
             [sys.executable, "scripts/v53_microglia_source_lineage_audit.py"],
         ),
         run(
+            "macnair_source_influence_rebuild",
+            [sys.executable, "scripts/v53_macnair_source_influence.py"],
+        ),
+        run(
             "microglia_meta_rebuild",
             [sys.executable, "scripts/v53_microglia_cross_cohort_meta.py"],
         ),
@@ -84,6 +88,7 @@ def main() -> int:
     ]
 
     source = read_json("analysis/v53_microglia_source_lineage_audit/summary.json")
+    source_influence = read_json("analysis/v53_macnair_source_influence/summary.json")
     meta = read_json("analysis/v53_microglia_cross_cohort_meta/summary.json")
     low_control = read_json("analysis/v53_gse301908_low_control_sensitivity/summary.json")
     v22 = read_json("analysis/v53_v22_interpretation_boundary/summary.json")
@@ -112,6 +117,15 @@ def main() -> int:
                 == "POSITIVE_CROSS_SOURCE_EFFECT_WITH_HETEROGENEITY_AND_LOW_SOURCE_FAMILY_COUNT"
                 and meta.get("two_package_exact_sign_p") == 0.5,
                 str(meta.get("verdict")),
+            ),
+            assert_check(
+                "macnair_discovery_source_boundary",
+                source_influence.get("verdict")
+                == "MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE"
+                and source_influence["cohorts"]["discovery"]["source_fixed_primary"][
+                    "wild_two_sided_p"
+                ] > 0.05,
+                str(source_influence.get("verdict")),
             ),
             assert_check(
                 "gse301908_not_counted",

@@ -192,8 +192,17 @@ GSE111972 source family plus one Macnair package containing two analyzed
 partitions and three named validation source studies. This narrows replication
 wording without changing any within-cohort estimate.
 
-Standardized covariate-adjusted effects are positive in all three analyzed
-partitions, but heterogeneous (`I2=66.7%`). A package-aware dependence sweep
+The subsequent source-family audit materially qualifies the larger discovery
+partition: disease and brain-bank source are strongly associated (Cramer's V
+`0.773`, `p=4.18e-11`), and source fixed effects attenuate the discovery beta to
+`0.427` (wild `p=0.245`, CI crossing zero). The validation composite remains
+source-study robust (beta `1.635`, wild `p<0.00001`) and every estimable
+leave-one-study effect stays positive. Replication therefore rests on GSE111972
+plus the validation composite; discovery is supportive only before brain-bank
+adjustment.
+
+Standardized source-adjusted effects are positive in all three analyzed
+partitions, but heterogeneous (`I2=65.3%`). A package-aware dependence sweep
 retains a positive normal-theory interval even if the two Macnair partitions are
 perfectly correlated; the exact two-package sign test is uninformative
 (`p=0.5`). A low-control GSE301908 sensitivity is not supported (14 MS/3
@@ -212,8 +221,9 @@ Current frontier:
   - Coupled HLA-II/receptor two-arm architecture is demoted; broad
     IFN/APC and CD44/CXCR4 recurrence remains non-specific context.
   - The Macnair package's two analyzed partitions support the MS microglial
-    CD44/CXCR4 state association alongside the separate GSE111972 source family;
-    component specificity and intervention direction remain open.
+    CD44/CXCR4 direction alongside the separate GSE111972 source family, but
+    discovery is brain-bank-sensitive; component specificity and intervention
+    direction remain open.
   - V22/V42 validation artifacts remain immutable and operational.
 
 - V52 therapeutic-path state:

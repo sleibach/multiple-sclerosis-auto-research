@@ -77,6 +77,13 @@ def load_effects() -> pd.DataFrame:
         frame = pd.read_csv(MACNAIR / f"macnair_{cohort}/donor_scores.tsv", sep="\t")
         frame["age"] = frame["age_at_death"]
         frame["score"] = frame["receptor_cd44_cxcr4"]
+        if cohort == "discovery":
+            source_map = pd.read_csv(
+                ROOT / "analysis/v53_macnair_source_influence/discovery_donor_source_map.tsv",
+                sep="\t",
+            )
+            frame = frame.merge(source_map, on="canonical_donor", validate="one_to_one")
+            frame["study"] = frame["source_family"]
         rows.append(
             adjusted_effect(
                 f"Macnair_{cohort}",
@@ -214,8 +221,8 @@ def main() -> int:
         "## Commensurate Effects",
         "",
         "Each donor-level receptor score was standardized within cohort, then fit with the",
-        "same disease, age, quadratic-age, and sex model; the validation composite also",
-        "includes deposited study fixed effects. All three adjusted standardized effects are",
+        "same disease, age, quadratic-age, and sex model; both Macnair partitions also",
+        "include deposited study or source-bank fixed effects. All three adjusted standardized effects are",
         "positive:",
         "",
         "| partition | adjusted standardized beta | HC3 95% CI |",

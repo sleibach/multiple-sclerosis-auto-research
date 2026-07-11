@@ -5,13 +5,15 @@ status_freshness	PASS	0	"  ""purpose"": ""V50 status freshness lint; navigation/
 matrix_semantic_contract	PASS	0	"  ""overall_status"": ""PASS"", |   ""purpose"": ""V53 V26 matrix semantic-contract audit"" | }"
 matrix_semantic_synthetic	PASS	0	"  ""purpose"": ""V53 matrix semantic-contract synthetic check"", |   ""requests"": 2 | }"
 microglia_source_lineage_rebuild	PASS	0	
+macnair_source_influence_rebuild	PASS	0	
 microglia_meta_rebuild	PASS	0	
 outcome_ledger_rebuild	PASS	0	
-git_diff_check	PASS	0	
+git_diff_check	FAIL	2	"analysis/v53_regression_suite/checks.tsv:8: trailing whitespace. | +macnair_source_influence_rebuild	PASS	0"
 source_count_boundary	PASS	0	NO_EXACT_TOKEN_OVERLAP_BUT_PERSON_LEVEL_INDEPENDENCE_NOT_FULLY_VERIFIABLE
 meta_heterogeneity_boundary	PASS	0	POSITIVE_CROSS_SOURCE_EFFECT_WITH_HETEROGENEITY_AND_LOW_SOURCE_FAMILY_COUNT
+macnair_discovery_source_boundary	PASS	0	MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE
 gse301908_not_counted	PASS	0	LOW_CONTROL_SENSITIVITY_NOT_SUPPORTED
 v22_locked_boundary	PASS	0	6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a
-outcome_ledger_complete	PASS	0	entries=33
+outcome_ledger_complete	PASS	0	entries=34
 retired_independence_wording_absent	PASS	0	current navigation uses package-aware replication wording
 no_target_promotion_wording	PASS	0	current navigation retains non-target boundary

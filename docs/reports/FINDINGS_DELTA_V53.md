@@ -49,9 +49,16 @@ primary and all minimum-cell thresholds but is borderline after direct
 cell-count adjustment (`p=0.05398`). This supports a replicated state marker
 with a quality qualification, not a receptor-specific mechanism or target.
 
+That quality qualification now explicitly includes source family. Disease and
+brain-bank are strongly associated in Macnair discovery (Cramer's V `0.773`),
+and source fixed effects attenuate its standardized beta to `0.427` (wild
+`p=0.245`). The validation composite remains robust after source-study fixed
+effects (beta `1.635`, wild `p<0.00001`). Thus discovery is source-sensitive;
+replication rests on GSE111972 plus the validation composite.
+
 Package-aware synthesis does not justify a stronger label. The three
 standardized adjusted partition effects are positive, but heterogeneous
-(`I2=66.7%`), and the exact sign null has only two independent package signs
+(`I2=65.3%`), and the exact sign null has only two independent package signs
 (`p=0.5`). GSE301908, with only three controls and no raw-count layer, is a
 non-supporting sensitivity (HC3 `p=0.665`, exact-label `p=0.478`) rather than a
 clean replication or contradiction.
@@ -62,8 +69,9 @@ Use:
 
 > Held data support broad cross-disease IFN/APC and CD44/CXCR4 receptor-state
 > recurrence. Separate MS brain source families reproduce the CD44/CXCR4 state
-> association, with two same-direction partitions in the Macnair package and
-> microglial-yield sensitivity in the larger partition. The
+> association through GSE111972 and the source-study-robust Macnair validation
+> composite; the larger Macnair discovery partition is microglial-yield- and
+> brain-bank-sensitive. The
 > previously reported independently coupled HLA-II/receptor two-arm architecture
 > is not robust to source-level disjoint-readout and portability tests.
 

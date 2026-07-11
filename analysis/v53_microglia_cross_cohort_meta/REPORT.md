@@ -5,28 +5,28 @@ Verdict: **POSITIVE_CROSS_SOURCE_EFFECT_WITH_HETEROGENEITY_AND_LOW_SOURCE_FAMILY
 ## Commensurate Effects
 
 Each donor-level receptor score was standardized within cohort, then fit with the
-same disease, age, quadratic-age, and sex model; the validation composite also
-includes deposited study fixed effects. All three adjusted standardized effects are
+same disease, age, quadratic-age, and sex model; both Macnair partitions also
+include deposited study or source-bank fixed effects. All three adjusted standardized effects are
 positive:
 
 | partition | adjusted standardized beta | HC3 95% CI |
 |---|---:|---:|
 | GSE111972 | `1.317` | `0.575` to `2.058` |
 | Macnair_validation | `1.635` | `0.932` to `2.338` |
-| Macnair_discovery | `0.646` | `0.180` to `1.113` |
+| Macnair_discovery | `0.427` | `-0.305` to `1.159` |
 
 ## Heterogeneity And Dependence
 
-The conventional three-partition random-effects estimate is `1.151`
-(95% CI `0.520` to `1.782`), with
-I2 `66.7%` and tau2 `0.206`. This is a
+The conventional three-partition random-effects estimate is `1.130`
+(95% CI `0.419` to `1.841`), with
+I2 `65.3%` and tau2 `0.258`. This is a
 sensitivity only because the two Macnair partitions share one deposition package.
 
 The package-aware analysis gives the Macnair partitions equal weight, varies their
 unknown correlation from 0 to 1, and pools that package estimate with GSE111972.
 Across the full correlation sweep, the lowest normal-theory CI bound is
-`0.749` and the largest p is
-`2.515e-07`. However, the exact
+`0.654` and the largest p is
+`8.826e-06`. However, the exact
 two-package sign test is `p=0.500`: two source
 families are too few for an independent meta-significance claim.
 

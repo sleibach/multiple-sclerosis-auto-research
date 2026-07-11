@@ -53,15 +53,16 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia receptor-state replication spec | done | Frozen independent-cohort ingestion, exact scores, patient-equal quadratic-age primary, secondary decoupling, interpretation grid, and assumption-labeled power. Target 32 MS + 32 controls at d=0.8/80% after 20% inflation. |
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
 | V53 machine-readable outcome ledger | done | 33 artifact-backed rows with source, class, outcome, SHA-256, and interpretation boundary; mixed-class navigation ledger stored under knowledge_external to preserve segregation. |
-| V53 regression suite | done | 16/16 semantic, provenance, structural, source-lineage, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
+| V53 regression suite | done | 18/18 semantic, provenance, structural, source-lineage/influence, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
 | CD44/CXCR4 independent cohort scout | done | Two Macnair matrices streamed over 2.012B entries: validation 18/13 clean pass; discovery 54/26 frozen pass but cell-count-adjusted p=0.05398. Replicated state association with quality qualification; no target/mechanism promotion. |
 | Macnair disease-stage and lesion-context heterogeneity | done | Discovery NAWM vs control WM beta 0.783, q=0.01197; grey matter null; CAL positive in both cohorts. SPMS vs controls positive twice, but direct SPMS-PPMS q=0.115 and validation PPMS n=2: no stage-specific claim. No paired lesion amplification. |
-| Cross-cohort CD44/CXCR4 meta-analysis | done | Three standardized adjusted effects positive; random effect 1.151 (CI 0.520-1.782), I2 66.7%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
+| Cross-cohort CD44/CXCR4 meta-analysis | done | Three source-adjusted standardized effects positive; random effect 1.130 (CI 0.419-1.841), I2 65.3%. Package-correlation sweep stays positive, but exact two-package sign p=0.5; no stronger meta-significance claim. |
 | GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
+| Macnair source-family influence audit | done | Discovery is strongly bank-confounded (Cramer's V 0.773) and source-adjusted wild p=0.245; validation remains source-study robust. Discovery downgraded; replication rests on GSE111972 plus validation composite. |
 | V53 RAG refresh | done | Sparse TF-IDF index rebuilt over 834 documents; V53 CD44/CXCR4/source-lineage/GSE301908 smoke query returns current delta, cumulative report, replication spec/scout, and queue as top results. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -356,3 +357,12 @@ exhausted public-data discovery search as a source of findings.
   specification, cohort scout, and V53 queue as its top five results. Cumulative
   active time accrued through this checkpoint is 5h20m57s; the resumed session
   interval remains open.
+- 2026-07-11T02:23:39Z: Generated and completed a deposited-source influence
+  audit. Macnair discovery is strongly brain-bank-confounded (Cramer's V
+  `0.773`, `p=4.18e-11`); source fixed effects attenuate its standardized beta
+  to `0.427` (wild `p=0.245`). Validation remains source-study robust (beta
+  `1.635`, wild `p<0.00001`). The package-aware synthesis now uses source-fixed
+  estimates (random effect `1.130`, CI `0.419-1.841`, `I2=65.3%`). Discovery is
+  downgraded; replication rests on GSE111972 plus validation composite.
+  Cumulative active time accrued through this checkpoint is 5h28m22s; the
+  resumed session interval remains open.

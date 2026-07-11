@@ -456,13 +456,13 @@ Macnair replications. See
 `analysis/v53_microglia_source_lineage_audit/REPORT.md`.
 
 A commensurate donor-level synthesis standardized each cohort score and fit the
-same disease, age, quadratic-age, and sex adjustment, with study fixed effects
-for the validation composite. Adjusted effects are positive in GSE111972
-(`1.317`), Macnair validation (`1.635`), and Macnair discovery (`0.646`). The
-three-partition random-effects estimate is `1.151` (CI `0.520-1.782`), but
-heterogeneity is substantial (`I2=66.7%`). A package-aware sensitivity varies
+same disease, age, quadratic-age, and sex adjustment, with study/source fixed
+effects for both Macnair partitions. Adjusted effects are positive in GSE111972
+(`1.317`), Macnair validation (`1.635`), and Macnair discovery (`0.427`). The
+three-partition random-effects estimate is `1.130` (CI `0.419-1.841`), but
+heterogeneity is substantial (`I2=65.3%`). A package-aware sensitivity varies
 the unknown correlation between Macnair partitions from zero to one; its lowest
-pooled CI bound is `0.749`. The exact sign test has only two package-level signs
+pooled CI bound is `0.654`. The exact sign test has only two package-level signs
 and is necessarily uninformative (`p=0.5`), so individual frozen wild-null tests
 remain primary. See `analysis/v53_microglia_cross_cohort_meta/REPORT.md`.
 
@@ -473,6 +473,18 @@ positive (`0.438`), but the HC3 CI is `-1.546` to `2.422` (`p=0.665`) and exact
 enumeration of all 680 three-control assignments gives `p=0.478`. It neither
 corroborates nor contradicts the association and is not counted as replication.
 See `analysis/v53_gse301908_low_control_sensitivity/REPORT.md`.
+
+A final source-family influence test materially downgrades the Macnair discovery
+partition. Its 80 donors come from Amsterdam, Edinburgh, and UK MS brain banks,
+with strong disease/source association (Cramer's V `0.773`, chi-square
+`p=4.18e-11`); the UK source contributes 27 MS and zero controls. Adding source
+fixed effects attenuates the standardized discovery beta to `0.427` (HC3 CI
+`-0.305` to `1.159`, wild `p=0.245`), and estimable leave-one-bank tests do not
+restore correction. In contrast, validation has negligible disease/study
+association (V `0.062`), retains beta `1.635` (wild `p<0.00001`), and all three
+leave-one-study effects remain positive. The association remains replicated by
+GSE111972 plus the validation composite, but discovery is supportive only before
+brain-bank adjustment. See `analysis/v53_macnair_source_influence/REPORT.md`.
 
 Fixed-score context localization further shows that the signal is not simply
 an overt-lesion readout. In the discovery cohort, normal-appearing white matter
@@ -527,11 +539,11 @@ monetary spend or token-usage telemetry, so spend is recorded as unavailable
 rather than estimated.
 
 Machine-readable navigation is in
-`knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`: 33 rows carry proposal
+`knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`: 34 rows carry proposal
 source, epistemic class, current outcome, artifact path, SHA-256, and an explicit
 interpretation boundary. It lives in the segregated external tree because it
 indexes mixed epistemic classes; it is navigation, not evidence. The final V53
-regression suite passes 16/16 checks in
+regression suite passes 18/18 checks in
 `analysis/v53_regression_suite/REPORT.md`.
 
 ## Current Ranked Slate
@@ -539,10 +551,10 @@ regression suite passes 16/16 checks in
 ### Grounded-and-promising
 
 1. **Replicated MS microglial CD44/CXCR4 state association, not a target.** The
-   original GSE111972 association now has same-direction support in both
-   analyzed partitions of the separate Macnair package. One passes both the frozen and conservative depth-QC
-   gates; the larger passes the frozen gate and all fixed minimum-cell
-   thresholds but is borderline after explicit cell-count adjustment. This is
+   original GSE111972 association has same-direction support in the Macnair
+   validation composite, which passes frozen, depth-QC, and source-study gates.
+   The larger discovery partition passes the frozen and fixed minimum-cell
+   tests but attenuates after both cell-count and brain-bank adjustment. This is
    a replicated state marker with a quality qualification, low biological
    novelty, and no intervention direction. It is detectable in normal-appearing
    white matter, but direct stage specificity and paired lesion amplification

@@ -53,6 +53,13 @@ independence cannot be proven across cohort-specific identifier namespaces.
 See `analysis/v53_microglia_source_lineage_audit/REPORT.md` for the counting
 boundary.
 
+A later deposited-source sensitivity adds a material qualification. Macnair
+discovery has strong disease/brain-bank association (Cramer's V `0.773`); after
+source-bank fixed effects its standardized beta is `0.427` with wild `p=0.245`
+and a CI crossing zero. The validation composite remains robust after study
+fixed effects and leave-one-study checks. See
+`analysis/v53_macnair_source_influence/REPORT.md`.
+
 The next useful analysis is cross-cohort disease-stage and lesion-context
 heterogeneity under fixed scores, followed by a third donor-balanced cohort or
 prospective tissue assay with pre-specified minimum microglial yield.

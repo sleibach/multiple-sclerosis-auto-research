@@ -1,0 +1,50 @@
+{
+  "boundary": "Robustness of a state association only; no causal, stage, monitoring, direction, or target claim.",
+  "cohorts": {
+    "discovery": {
+      "all_source_specific_estimable_raw_directions_positive": true,
+      "cohort": "discovery",
+      "disease_source_chi_square_p": 4.1830280881343856e-11,
+      "disease_source_cramers_v": 0.7729392054952781,
+      "maximum_leave_one_source_out_wild_p": 0.4075759242407576,
+      "minimum_leave_one_source_out_beta": 0.18484384700704537,
+      "n_donors": 80,
+      "n_leave_one_source_out_estimable": 2,
+      "n_leave_one_source_out_non_estimable": 1,
+      "n_source_families": 3,
+      "source_fixed_primary": {
+        "adjusted_standardized_beta": 0.4270159768559288,
+        "hc3_ci_high": 1.1592724785160669,
+        "hc3_ci_low": -0.3052405248042093,
+        "hc3_p": 0.25305744207960523,
+        "hc3_se": 0.37360712106757266,
+        "wild_two_sided_p": 0.24519754802451976
+      }
+    },
+    "validation": {
+      "all_source_specific_estimable_raw_directions_positive": true,
+      "cohort": "validation",
+      "disease_source_chi_square_p": 0.9423001858731285,
+      "disease_source_cramers_v": 0.06192158751961761,
+      "maximum_leave_one_source_out_wild_p": 0.032249677503224966,
+      "minimum_leave_one_source_out_beta": 1.5510347408828506,
+      "n_donors": 31,
+      "n_leave_one_source_out_estimable": 3,
+      "n_leave_one_source_out_non_estimable": 0,
+      "n_source_families": 3,
+      "source_fixed_primary": {
+        "adjusted_standardized_beta": 1.6349494684819104,
+        "hc3_ci_high": 2.3380275256870093,
+        "hc3_ci_low": 0.9318714112768113,
+        "hc3_p": 5.1708708722161265e-06,
+        "hc3_se": 0.35871988605448324,
+        "wild_two_sided_p": 9.99990000099999e-06
+      }
+    }
+  },
+  "n_wild_replicates_per_test": 100000,
+  "purpose": "Source-bank/study influence sensitivity for the frozen Macnair score",
+  "seed": 53509,
+  "source_influence_gate_pass": false,
+  "verdict": "MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY_SENSITIVE"
+}
