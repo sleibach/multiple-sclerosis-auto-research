@@ -394,6 +394,17 @@ replication. It does not establish a distinct causal mechanism, beneficial
 intervention direction, selectivity, or a target. See
 `analysis/v53_ms_microglia_receptor_decoupling/REPORT.md`.
 
+The retained association survives a pre-specified age, repeated-region, and
+influence gate. The patient-level age imbalance is substantial (MS-minus-control
+SMD `-0.717`), but patient-equal quadratic-age beta is `0.796` (100,000-draw
+wild `p=0.00258`) and common-age-support beta is `0.823` (`p=0.00348`). Every
+leave-one-patient-out quadratic beta stays positive (minimum `0.693`), raw
+effects are positive in both regions, and the disease-by-region interaction is
+not detected (`p=0.814`). This strengthens within-cohort robustness only; it
+does not remove the independent-replication, cell-intrinsic, causal, or
+therapeutic-direction blockers. See
+`analysis/v53_ms_microglia_age_region_robustness/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -475,7 +486,9 @@ None yet.
 
 1. **MS microglial CD44/CXCR4 state association**, not a target: the globally
    unique two-gene score survives patient-cluster wild-null correction in
-   GSE111972 (`q=0.0790`) and is positive in both regions. It needs an
+   GSE111972 (`q=0.0790`) and is positive in both regions. It also survives
+   patient-equal quadratic age, common-support, region-interaction, and
+   leave-one-patient-out sensitivity. It needs an
    independent donor-level MS microglia cohort with the same pre-specified
    CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The stronger decoupling claim
    is not supported.

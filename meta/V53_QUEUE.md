@@ -54,7 +54,7 @@ exhausted public-data discovery search as a source of findings.
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
 | V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
 | V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
-| MS microglia age/region robustness | todo | Stress the provisional CD44/CXCR4 association against nonlinear age, overlap restriction, and leave-one-patient-out influence before preserving it on the shortlist. |
+| MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -269,3 +269,11 @@ exhausted public-data discovery search as a source of findings.
   overread as MIF causality or independent two-arm support. Cumulative active
   time accrued through this checkpoint is 3h46m03s; the resumed session
   interval remains open.
+- 2026-07-11T00:45:20Z: Completed age, repeated-region, and influence
+  sensitivity for the provisional GSE111972 CD44/CXCR4 association. Despite
+  age SMD -0.717, patient-equal quadratic beta is 0.796 (wild p=0.00258),
+  common-age-support beta 0.823 (p=0.00348), every leave-one-patient-out beta is
+  positive (minimum 0.693), and disease-by-region interaction p=0.814. The
+  association is robust within this cohort but remains unreplicated, non-causal,
+  and non-therapeutic. Cumulative active time accrued through this checkpoint
+  is 3h50m03s; the resumed session interval remains open.

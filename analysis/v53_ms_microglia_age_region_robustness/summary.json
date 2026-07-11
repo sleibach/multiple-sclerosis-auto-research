@@ -1,0 +1,24 @@
+{
+  "age_standardized_mean_difference_ms_minus_control": -0.7174125706408124,
+  "boundary": "Single-cohort robustness only; no causal, replication, drug-direction, or target claim.",
+  "common_age_support": [
+    51.0,
+    95.0
+  ],
+  "gate_components": {
+    "all_leave_one_patient_out_betas_positive": true,
+    "common_age_support_beta_positive_p_le_0_10": true,
+    "no_detected_disease_by_region_interaction_p_gt_0_10": true,
+    "patient_equal_quadratic_beta_positive_p_le_0_10": true,
+    "raw_effect_positive_in_both_regions": true
+  },
+  "minimum_leave_one_patient_out_quadratic_beta": 0.6930642268773914,
+  "n_patients": 21,
+  "n_patients_in_common_age_support": 19,
+  "n_samples": 31,
+  "n_wild_cluster_bootstrap_replicates_per_variant": 100000,
+  "purpose": "V53 age, repeated-region, and influence sensitivity for GSE111972 CD44/CXCR4",
+  "robustness_gate_pass": true,
+  "seed": 53506,
+  "verdict": "MS_MICROGLIA_CD44_CXCR4_ASSOCIATION_SURVIVES_AGE_REGION_INFLUENCE_GATE"
+}
