@@ -342,6 +342,22 @@ coupled HLA-II/receptor architecture, MS specificity, causal direction, or a
 therapeutic target. See
 `analysis/v53_additional_atlas_disjoint_rescoring/REPORT.md`.
 
+The independent MS microglia component was then tested more strictly because
+its globally unique CD44/CXCR4 score remained elevated after HLA genes were
+removed. In 31 GSE111972 sorted-microglia samples from 21 patients, a model
+adjusted for region, age, and sex with patient-clustered inference and 100,000
+wild-cluster null replicates per outcome gives CD44/CXCR4 disease beta `0.714`
+(BH `q=0.0790` across seven pre-specified tests). The state difference is
+positive in both white and gray matter.
+
+The stronger decoupling hypothesis fails: CD44/CXCR4 minus CIITA/RFX5 has
+`q=0.199`, and CD44/CXCR4 minus MIF/DDT has `q=0.648`; the HLA difference is
+not directionally stable across regions. Retain CD44/CXCR4 only as a
+provisional single-cohort MS microglial state association requiring independent
+replication. It does not establish a distinct causal mechanism, beneficial
+intervention direction, selectivity, or a target. See
+`analysis/v53_ms_microglia_receptor_decoupling/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -408,8 +424,15 @@ None yet.
 
 ### Promising-but-needs-data
 
-None promoted yet. MIF/CD74 remains below this tier as a target; its retained
-value is state-readout context.
+1. **MS microglial CD44/CXCR4 state association**, not a target: the globally
+   unique two-gene score survives patient-cluster wild-null correction in
+   GSE111972 (`q=0.0790`) and is positive in both regions. It needs an
+   independent donor-level MS microglia cohort with the same pre-specified
+   CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The stronger decoupling claim
+   is not supported.
+
+MIF/CD74 remains below this tier as a target; its retained value is
+state-readout context.
 
 ### Not-supported
 

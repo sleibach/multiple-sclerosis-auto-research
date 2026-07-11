@@ -1,0 +1,23 @@
+{
+  "boundary": "Single-cohort sorted-bulk state contrast; not causal, treatment-direction, target, or replication evidence.",
+  "dataset": "GSE111972 sorted bulk microglia",
+  "decoupling_gate_pass": false,
+  "gate_components": {
+    "receptor_minus_hla_positive_and_q_le_0_10": false,
+    "receptor_minus_ligand_positive_and_q_le_0_10": false,
+    "receptor_positive_and_q_le_0_10": true,
+    "receptor_same_direction_both_regions": true
+  },
+  "n_patients": 21,
+  "n_samples": 31,
+  "n_wild_cluster_bootstrap_replicates_per_test": 100000,
+  "purpose": "V53 patient-clustered test of MS microglial CD44/CXCR4 decoupling from HLA regulation and MIF ligand",
+  "receptor_adjusted_beta": 0.714089428750303,
+  "receptor_minus_hla_adjusted_beta": 0.8492138764125534,
+  "receptor_minus_hla_wild_cluster_q": 0.1994280057199428,
+  "receptor_minus_ligand_adjusted_beta": 0.16794680495910527,
+  "receptor_minus_ligand_wild_cluster_q": 0.6475935240647593,
+  "receptor_wild_cluster_q": 0.07902920970790292,
+  "seed": 53504,
+  "verdict": "MS_MICROGLIA_CD44_CXCR4_DECOUPLING_NOT_ESTABLISHED"
+}
