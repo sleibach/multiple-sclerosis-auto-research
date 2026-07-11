@@ -1,0 +1,17 @@
+dataset	synthetic	check	status	detail
+macnair_discovery_observed	False	at_least_32_per_group	FAIL	MS=54; control=26
+macnair_discovery_observed	False	at_least_two_sources	PASS	sources=3
+macnair_discovery_observed	False	each_source_has_at_least_5_per_group	FAIL	Amsterdam BB:control=8,MS=26; Edinburgh BB:control=18,MS=1; UK MS TB:control=0,MS=27
+macnair_discovery_observed	False	no_source_exceeds_60_percent_of_either_group	FAIL	maximum_group_source_share=0.692
+macnair_validation_observed	False	at_least_32_per_group	FAIL	MS=18; control=13
+macnair_validation_observed	False	at_least_two_sources	PASS	sources=3
+macnair_validation_observed	False	each_source_has_at_least_5_per_group	FAIL	a2021:control=3,MS=5; j2019:control=2,MS=3; s2019:control=8,MS=10
+macnair_validation_observed	False	no_source_exceeds_60_percent_of_either_group	FAIL	maximum_group_source_share=0.615
+SYNTHETIC_balanced	True	at_least_32_per_group	PASS	MS=32; control=32
+SYNTHETIC_balanced	True	at_least_two_sources	PASS	sources=2
+SYNTHETIC_balanced	True	each_source_has_at_least_5_per_group	PASS	site_a:control=16,MS=16; site_b:control=16,MS=16
+SYNTHETIC_balanced	True	no_source_exceeds_60_percent_of_either_group	PASS	maximum_group_source_share=0.500
+SYNTHETIC_source_confounded	True	at_least_32_per_group	PASS	MS=32; control=32
+SYNTHETIC_source_confounded	True	at_least_two_sources	PASS	sources=2
+SYNTHETIC_source_confounded	True	each_source_has_at_least_5_per_group	FAIL	site_a:control=0,MS=32; site_b:control=32,MS=0
+SYNTHETIC_source_confounded	True	no_source_exceeds_60_percent_of_either_group	FAIL	maximum_group_source_share=1.000

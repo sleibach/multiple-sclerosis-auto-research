@@ -1,0 +1,50 @@
+{
+  "boundary": "Prospective acquisition target only; not a retroactive kill rule and not biological evidence.",
+  "criteria": {
+    "maximum_source_share_within_either_group": 0.6,
+    "minimum_donors_per_group": 32,
+    "minimum_each_group_per_source": 5,
+    "minimum_source_families": 2
+  },
+  "datasets": [
+    {
+      "dataset": "macnair_discovery_observed",
+      "n_control": 26,
+      "n_donors": 80,
+      "n_ms": 54,
+      "n_sources": 3,
+      "overall_status": "FAIL",
+      "synthetic": false
+    },
+    {
+      "dataset": "macnair_validation_observed",
+      "n_control": 13,
+      "n_donors": 31,
+      "n_ms": 18,
+      "n_sources": 3,
+      "overall_status": "FAIL",
+      "synthetic": false
+    },
+    {
+      "dataset": "SYNTHETIC_balanced",
+      "n_control": 32,
+      "n_donors": 64,
+      "n_ms": 32,
+      "n_sources": 2,
+      "overall_status": "PASS",
+      "synthetic": true
+    },
+    {
+      "dataset": "SYNTHETIC_source_confounded",
+      "n_control": 32,
+      "n_donors": 64,
+      "n_ms": 32,
+      "n_sources": 2,
+      "overall_status": "FAIL",
+      "synthetic": true
+    }
+  ],
+  "overall_status": "PASS",
+  "purpose": "Future-cohort source-balance design preflight; synthetic tests method behavior only",
+  "synthetic_behavior_verified": true
+}

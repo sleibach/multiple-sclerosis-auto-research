@@ -10,6 +10,7 @@ macnair_context_discovery_rebuild	PASS	0	"  ""spms_vs_ppms_difference_supported"
 macnair_context_validation_rebuild	PASS	0	"  ""spms_vs_ppms_difference_supported"": false, |   ""verdict"": ""NORMAL_APPEARING_TISSUE_TEST_NOT_ESTIMABLE_AFTER_SOURCE_ADJUSTMENT"" | }"
 microglia_meta_rebuild	PASS	0	-
 outcome_ledger_rebuild	PASS	0	-
+microglia_source_balance_preflight	PASS	0	-
 git_diff_check	PASS	0	-
 source_count_boundary	PASS	0	NO_EXACT_TOKEN_OVERLAP_BUT_PERSON_LEVEL_INDEPENDENCE_NOT_FULLY_VERIFIABLE
 meta_heterogeneity_boundary	PASS	0	POSITIVE_CROSS_SOURCE_EFFECT_WITH_HETEROGENEITY_AND_LOW_SOURCE_FAMILY_COUNT
@@ -17,6 +18,7 @@ macnair_discovery_source_boundary	PASS	0	MACNAIR_STATE_ASSOCIATION_SOURCE_FAMILY
 gse301908_not_counted	PASS	0	LOW_CONTROL_SENSITIVITY_NOT_SUPPORTED
 source_adjusted_context_boundary	PASS	0	SOURCE_ADJUSTMENT_REMOVES_PRIOR_CROSS_PARTITION_CONTEXT_LOCALIZATION
 v22_locked_boundary	PASS	0	6373857789e3a538481cebe313ef041792740e4779c7bc705d86494c830e152a
-outcome_ledger_complete	PASS	0	entries=34
+source_balance_synthetic_behavior	PASS	0	balanced synthetic passes; source-confounded synthetic fails
+outcome_ledger_complete	PASS	0	entries=35
 retired_independence_wording_absent	PASS	0	current navigation uses package-aware replication wording
 no_target_promotion_wording	PASS	0	current navigation retains non-target boundary

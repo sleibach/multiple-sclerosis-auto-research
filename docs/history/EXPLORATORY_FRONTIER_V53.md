@@ -535,12 +535,20 @@ monetary spend or token-usage telemetry, so spend is recorded as unavailable
 rather than estimated.
 
 Machine-readable navigation is in
-`knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`: 34 rows carry proposal
+`knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`: 35 rows carry proposal
 source, epistemic class, current outcome, artifact path, SHA-256, and an explicit
 interpretation boundary. It lives in the segregated external tree because it
 indexes mixed epistemic classes; it is navigation, not evidence. The final V53
-regression suite passes 21/21 checks in
+regression suite passes 23/23 checks in
 `analysis/v53_regression_suite/REPORT.md`.
+
+The source-confounding result is converted into a prospective acquisition gate,
+not used as a post-hoc rescue. The next microglia cohort target is at least
+32 MS/32 controls, at least two sources, at least five donors from each disease
+group per source, and no source supplying more than 60% of either group. A
+committed preflight accepts a balanced synthetic fixture and rejects a perfectly
+source-confounded one; synthetic output is method behavior only. See
+`docs/validation/MS_MICROGLIA_SOURCE_BALANCE_ADDENDUM_V53.md`.
 
 ## Current Ranked Slate
 

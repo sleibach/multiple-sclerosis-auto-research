@@ -49,6 +49,7 @@ ENTRIES = [
     ("D", "Macnair source-family influence", "agent", "grounded-real-data", "not-supported", "analysis/v53_macnair_source_influence/summary.json", "Discovery attenuates after brain-bank adjustment; validation remains robust."),
     ("D", "Package-aware cross-cohort synthesis", "agent", "grounded-real-data", "supported-quality-qualified", "analysis/v53_microglia_cross_cohort_meta/summary.json", "Positive effects are heterogeneous and limited to two package families."),
     ("D", "GSE301908 low-control sensitivity", "agent", "grounded-real-data", "not-supported", "analysis/v53_gse301908_low_control_sensitivity/summary.json", "Positive point estimate is unsupported with three controls and normalized-data-only input."),
+    ("F", "Prospective microglia source-balance preflight", "agent", "synthetic-method-only", "ready", "analysis/v53_microglia_source_balance_preflight/summary.json", "Future cohorts must balance disease within source; synthetic method behavior verified."),
     ("F", "V22 interpretation boundary", "agent", "grounded-method", "unchanged", "analysis/v53_v22_interpretation_boundary/summary.json", "V53 changes no locked score, threshold, confounder list, or harness behavior."),
 ]
 

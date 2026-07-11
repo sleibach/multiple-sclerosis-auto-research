@@ -92,6 +92,10 @@ def main() -> int:
             "outcome_ledger_rebuild",
             [sys.executable, "scripts/v53_build_outcome_ledger.py"],
         ),
+        run(
+            "microglia_source_balance_preflight",
+            [sys.executable, "scripts/v53_microglia_source_balance_preflight.py"],
+        ),
         run("git_diff_check", ["git", "diff", "--check"]),
     ]
 
@@ -102,6 +106,7 @@ def main() -> int:
     low_control = read_json("analysis/v53_gse301908_low_control_sensitivity/summary.json")
     v22 = read_json("analysis/v53_v22_interpretation_boundary/summary.json")
     ledger = read_json("analysis/v53_outcome_ledger/summary.json")
+    source_preflight = read_json("analysis/v53_microglia_source_balance_preflight/summary.json")
     current_text = "\n".join(
         (ROOT / path).read_text()
         for path in [
@@ -155,6 +160,12 @@ def main() -> int:
                 v22.get("locked_rule_unchanged_from_v45_baseline") is True
                 and v22.get("n_fail") == 0,
                 str(v22.get("locked_rule_sha256")),
+            ),
+            assert_check(
+                "source_balance_synthetic_behavior",
+                source_preflight.get("overall_status") == "PASS"
+                and source_preflight.get("synthetic_behavior_verified") is True,
+                "balanced synthetic passes; source-confounded synthetic fails",
             ),
             assert_check(
                 "outcome_ledger_complete",

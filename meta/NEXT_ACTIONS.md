@@ -29,9 +29,13 @@ V53 update:
   sensitivity, not replication.
 - Source-adjusted context rerun demotes prior NAWM/CAL/SPMS localization: no
   context or adequately sized stage passes in both Macnair partitions.
-- Machine-readable ledger: 34 artifact-backed outcomes at
+- The next microglia cohort request is now source-balanced by construction:
+  at least 32/32 donors, at least two sources, and at least five MS/five controls
+  per source. See
+  `docs/validation/MS_MICROGLIA_SOURCE_BALANCE_ADDENDUM_V53.md`.
+- Machine-readable ledger: 35 artifact-backed outcomes at
   `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
-  passes 21/21 checks.
+  passes 23/23 checks.
 - Sparse RAG refresh completed over 834 documents with V53 smoke-query pass.
 - Current priority: final integration and consistency checks, then close only at
   six active hours.

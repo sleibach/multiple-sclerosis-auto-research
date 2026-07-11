@@ -52,8 +52,8 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia CD44/CXCR4 decoupling test | done | 31 samples/21 patients, 100k wild-cluster nulls per test: receptor beta 0.714, q=0.0790; receptor-HLA q=0.199 and receptor-MIF/DDT q=0.648. State association retained; decoupling and target claims fail. |
 | MS microglia receptor-state replication spec | done | Frozen independent-cohort ingestion, exact scores, patient-equal quadratic-age primary, secondary decoupling, interpretation grid, and assumption-labeled power. Target 32 MS + 32 controls at d=0.8/80% after 20% inflation. |
 | V22 mechanistic interpretation boundary audit | done | 8/8 checks pass; locked hash matches V45, harness lists/formula unchanged, receptor negative-control-only. V53 narrows interpretation and changes no V22/V42 mechanics. |
-| V53 machine-readable outcome ledger | done | 33 artifact-backed rows with source, class, outcome, SHA-256, and interpretation boundary; mixed-class navigation ledger stored under knowledge_external to preserve segregation. |
-| V53 regression suite | done | 21/21 semantic, provenance, structural, source-lineage/influence/context, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
+| V53 machine-readable outcome ledger | done | 35 artifact-backed rows with source, class, outcome, SHA-256, and interpretation boundary; mixed-class navigation ledger stored under knowledge_external to preserve segregation. |
+| V53 regression suite | done | 23/23 semantic, provenance, structural, source-lineage/influence/context, source-balance, locked-boundary, ledger, and current-report checks pass. The suite caught and corrected an initial mixed-ledger placement violation. |
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
@@ -63,6 +63,7 @@ exhausted public-data discovery search as a source of findings.
 | GSE301908 third-cohort low-control sensitivity | done | 14 MS/3 controls, normalized-data-only: beta 0.438, HC3 p=0.665, exact 680-assignment p=0.478. Non-supporting sensitivity; not replication or contradiction. |
 | Macnair source-lineage overlap audit | done | Zero exact token collisions, but cohort-specific anonymization prevents person-level proof. Count GSE111972 and Zenodo 8338963 as separate packages; Macnair is one package with two analyzed partitions and three validation source studies. |
 | Macnair source-family influence audit | done | Discovery is strongly bank-confounded (Cramer's V 0.773) and source-adjusted wild p=0.245; validation remains source-study robust. Discovery downgraded; replication rests on GSE111972 plus validation composite. |
+| Prospective source-balanced microglia replication preflight | done | Future target fixed at >=32/32, >=2 sources, >=5 MS/5 controls per source, <=60% group share per source. Balanced synthetic passes; source-confounded synthetic fails. Not retroactive evidence. |
 | V53 RAG refresh | done | Sparse TF-IDF index rebuilt over 834 documents; V53 CD44/CXCR4/source-lineage/GSE301908 smoke query returns current delta, cumulative report, replication spec/scout, and queue as top results. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -374,3 +375,11 @@ exhausted public-data discovery search as a source of findings.
   expanded regression suite passes 21/21 checks. Cumulative active time accrued
   through this checkpoint is 5h34m27s; the resumed session interval remains
   open.
+- 2026-07-11T02:35:22Z: Converted the source-confounding result into a
+  prospective acquisition addendum and executable preflight. The future target
+  requires at least 32 MS/32 controls, two sources, five MS/five controls per
+  source, and no source above 60% of either group. Balanced synthetic data pass
+  and perfectly source-confounded synthetic data fail; neither is biological
+  evidence. The outcome ledger now has 35 entries and the regression suite
+  passes 23/23 checks. Cumulative active time accrued through this checkpoint is
+  5h40m05s; the resumed session interval remains open.
