@@ -235,6 +235,19 @@ no component-specific validated intervention. The next causal acquisition
 problem is instrument validation, not a more complex orientation algorithm on
 the existing summaries.
 
+A cross-environment invariance route was also audited against actual raw-table
+headers and row counts. Zero of five candidate routes is orientation-eligible.
+The direct-h5ad donor table has five physical environments but incompatible
+tissues, compartments, and disease outcomes, with environment directly driving
+all module states. RA/IBD has only two non-harmonized response environments.
+Mixscale and pharmacodynamic matrices are aggregate and lack validated selective
+module interventions. No invariance algorithm was run because it would convert
+study/tissue differences into unjustified causal direction. The minimum future
+design is at least three exogenous environments, 30 independent donors per
+environment, one purified compartment and outcome, the same disjoint scores,
+and validated selective perturbations. See
+`analysis/v53_invariance_feasibility_audit/REPORT.md`.
+
 A separate definition-overlap sensitivity rebuilt the Mixscale perturbation
 matrix from held gene-level effects, matching V26 to maximum absolute error
 `4.44e-16`, then removed every gene shared by two modules. The HLA-II/APC versus
@@ -419,28 +432,31 @@ None yet.
 1. Current APC module summaries do not identify causal edge direction. The
    exact equivalence-class result is worth carrying into future experiment
    design, but it is not a therapeutic lead.
-2. Perturbation-layer HLA-II/receptor-state coupling is not robust to both
+2. Cross-environment invariance cannot orient the held data: 0/5 candidate
+   routes combine harmonized sample-level variables/outcomes with at least
+   three valid exogenous environments or selective interventions.
+3. Perturbation-layer HLA-II/receptor-state coupling is not robust to both
    globally disjoint readouts and a cytokine-stratified null.
-3. Cell-state HLA-II/receptor-state coupling is definition-overlap-sensitive:
+4. Cell-state HLA-II/receptor-state coupling is definition-overlap-sensitive:
    the disjoint score collapses from `rho=0.832` to `0.175`, with attenuation
    established by paired bootstrap. The recurrent APC state remains distinct
    from an independently coupled two-arm architecture.
-4. Treatment-response HLA-II/receptor-state coupling is also
+5. Treatment-response HLA-II/receptor-state coupling is also
    definition-overlap-sensitive (`rho=0.878` to `-0.059`, attenuation CI wholly
    below zero). With three of four original modalities failing de-overlap, the
    independent two-arm coupled-axis formulation is demoted; broad APC-state
    recurrence remains.
-5. Pharmacodynamic HLA-II/receptor-state coupling is the sole disjoint-readout
+6. Pharmacodynamic HLA-II/receptor-state coupling is the sole disjoint-readout
    exception (`rho=0.535`, global `q=0.0150`, dataset-stratified `q=0.0231`
    across all 24 contexts), but it fails the harder portability gate: centered
    `rho=0.087`, `p=0.808`, cluster-bootstrap CI `-0.617` to `0.894`. Retain it
    only as suggestive rank concordance, not a common-effect mechanism. A
    context decomposition also finds no response structure: ten response
    contrasts give `rho=0.127`, `q=0.734`.
-6. The V26 cross-disease summary is a descriptive derived atlas, not a fifth
+7. The V26 cross-disease summary is a descriptive derived atlas, not a fifth
    independent modality: 63.5% of its source rows duplicate the audited
    direct-h5ad layer, and its six matrix rows are aggregate support metrics.
-7. Source-level disjoint rescoring supports broad cross-disease IFN/APC and
+8. Source-level disjoint rescoring supports broad cross-disease IFN/APC and
    CD44/CXCR4 receptor-state direction recurrence (7/8 physical datasets each,
    BH `q=0.0703`), but not HLA-II (5/8, `q=0.363`). This is a non-specific state
    backdrop, not an MS mechanism or target.

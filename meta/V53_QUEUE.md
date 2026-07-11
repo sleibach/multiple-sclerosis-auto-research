@@ -37,7 +37,7 @@ exhausted public-data discovery search as a source of findings.
 | Multi-lineage identifiability critique | done | Seven objections adjudicated; six wording/assumption tightenings, 0 verdict changes. Exclusive-member perturbation sensitivity tested 12 ordered pairs and oriented 0 module edges. |
 | Causal-orientation acquisition design | done | Exact result: two perfect interventions for K3, three for K4. A 594,000-replicate three-seed power map gives n=128/arm at coefficient 0.8 and n=192 at 0.5; current selective module instruments are absent. |
 | Proposal semantic preflight integration | done | Grounding runner now fail-closes before analysis. Four declared requests pass; synthetic valid context request passes and invalid patient/temporal request is rejected. No verdict changes. |
-| Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
+| Cross-environment invariance feasibility | done | 0/5 routes eligible. Direct h5ad mismatches tissues/outcomes; RA/IBD only two non-harmonized environments; perturbation/pharmacodynamic aggregate and nonselective. Exact future design recorded. |
 | De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
 | Cross-modality de-overlap feasibility | done | All four source-level layers rebuilt: perturbation, cell state, and response prediction fail strict disjoint-readout gates; pharmacodynamics persists across 24 contexts and six datasets. Cross-modal two-arm claim remains demoted. |
 | Cell-state module de-overlap | done | Five held h5ad files, 12 contexts; exact rebuild. HLA/receptor rho 0.832 to 0.175, q=0.582, attenuation CI -1.380 to -0.051. Global coupled-axis formulation now requires re-assessment. |
@@ -53,6 +53,7 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia receptor-state replication spec | todo | Freeze the exact independent-cohort donor/region/component test needed to replicate CD44/CXCR4 without upgrading the single-cohort result. |
 | V22 mechanistic interpretation boundary audit | todo | Verify that V53's architecture demotion changes no locked score computation while identifying any current prose that incorrectly uses coupled-axis support as evidence for V22. |
 | V53 machine-readable outcome ledger | todo | Consolidate all exploratory probes, gates, evidence classes, and current statuses for downstream indexing without adding new claims. |
+| V53 regression suite | todo | Add/run a compact rerun suite for semantic, provenance, structural, source-rebuild, and report-consistency checks before finalization. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -251,3 +252,11 @@ exhausted public-data discovery search as a source of findings.
   perturbation request. This is fail-closed execution safety with zero proposal
   verdict changes. Cumulative active time accrued through this checkpoint is
   3h38m28s; the resumed session interval remains open.
+- 2026-07-11T00:37:54Z: Completed held-artifact cross-environment invariance
+  feasibility. Zero of five routes combines harmonized sample-level variables
+  and outcomes with at least three valid exogenous environments or selective
+  interventions. No invalid orientation algorithm was run. The minimum future
+  design is frozen in the audit: >=3 exogenous environments, >=30 donors each,
+  one purified compartment/outcome, the same disjoint scores, and validated
+  selective perturbations. Cumulative active time accrued through this
+  checkpoint is 3h42m37s; the resumed session interval remains open.
