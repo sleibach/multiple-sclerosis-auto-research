@@ -13,9 +13,9 @@ exhausted public-data discovery search as a source of findings.
   2026-07-11T02:55:17Z
 - Active session intervals:
   - 2026-07-10T20:54:25Z - 2026-07-10T22:15:14Z (1h20m49s active)
-  - 2026-07-10T22:16:06Z - 2026-07-11T02:55:27Z (4h39m21s active)
-- Cumulative completed active runtime: 6h00m10s
-- Wall-clock span: 2026-07-10T20:54:25Z - 2026-07-11T02:55:27Z (6h01m02s)
+  - 2026-07-10T22:16:06Z - 2026-07-11T02:57:27Z (4h41m21s active)
+- Cumulative completed active runtime: 6h02m10s
+- Wall-clock span: 2026-07-10T20:54:25Z - 2026-07-11T02:57:27Z (6h03m02s)
 
 ## Backlog
 
@@ -65,7 +65,7 @@ exhausted public-data discovery search as a source of findings.
 | Macnair source-family influence audit | done | Discovery is strongly bank-confounded (V 0.773; wild p=0.245; stratified-label p=0.147); validation remains source-study robust (stratified-label p=0.00000667). Discovery downgraded. |
 | Prospective source-balanced microglia replication preflight | done | Future target fixed at >=32/32, >=2 sources, >=5 MS/5 controls per source, <=60% group share per source. Balanced synthetic passes; confounded, underpowered, sparse-cell, and concentrated boundary fixtures fail. Not evidence. |
 | V53 RAG refresh | done | Final sparse TF-IDF index rebuilt over 836 documents; final-summary smoke query returns the run summary, source-balance addendum, cumulative report, and findings delta. |
-| Final V53 run summary and clean close | done | Six-hour active target met at 6h00m10s; final gates, retrieval refresh, clean commit, and push completed. |
+| Final V53 run summary and clean close | done | Six-hour active target met at 6h02m10s; final gates, retrieval refresh, clean commit, and push completed. |
 
 ## Environment And Boundary
 
@@ -396,8 +396,9 @@ exhausted public-data discovery search as a source of findings.
   The 23-check regression suite remains green. Cumulative active time accrued
   through this checkpoint is 5h45m27s; the resumed session interval remains
   open.
-- 2026-07-11T02:55:27Z: Closed the second active interval at 4h39m21s. Together
-  with the first 1h20m49s interval, cumulative active runtime is 6h00m10s; wall
-  span is 6h01m02s including the excluded 52-second interruption. V53 completed
-  41 committed iterations and 45 queue tasks (12 seeded, 33 generated). Stop
+- 2026-07-11T02:57:27Z: Closed the second active interval at 4h41m21s after the
+  final remote-alignment verification. Together with the first 1h20m49s
+  interval, cumulative active runtime is 6h02m10s; wall span is 6h03m02s
+  including the excluded 52-second interruption. V53 completed 42 committed
+  iterations and 45 queue tasks (12 seeded, 33 generated). Stop
   condition: six-hour target reached at a clean resumable point.
