@@ -45,7 +45,7 @@ Grounded findings:
 | Does receptor state survive broad IFN/APC adjustment across systems? | No Tier-0 residual test survives FDR `<=0.10`; minimum residual FDR `0.442`. | not-supported |
 | Does immune CD74 survive APC/size adjustment in MS lesion pseudobulk? | No immune contrast survives correction; minimum residual FDR `0.742`. | not-supported |
 | Does receptor/CD74/full state predict treatment response after IFN/APC adjustment? | No adjusted receptor-specific test survives FDR `<=0.10`; minimum adjusted FDR `0.900`. | not-supported |
-| Is cross-modality coupling real? | Yes. V26 has 9 supported modality-level dependency rows involving the receptor-state module; V38 also shows the module is global-tone associated in `5/5` modalities. | supported coupling, tone-loaded |
+| Is cross-modality coupling real? | V26 originally supported it, but V53's source-level de-overlap audit retained HLA-II/receptor coupling only in the pharmacodynamic layer; perturbation, cell-state, and response-prediction layers fail their disjoint-readout gates. | context-specific pharmacodynamic coupling; cross-modal two-arm architecture not supported |
 | Is the treatment direction stable? | No. With `|Hedges g| >= 0.2`, three therapy cohorts yield one positive, one negative, and one near-null direction; exact and empirical majority-sign p are both `1.0` (`20,000` seeded null draws). | not-supported |
 
 Interpretation:
@@ -284,6 +284,22 @@ the scope but cannot restore cross-modality robustness by itself. This regrade
 does not edit or retune the locked V22 monitoring rule; it changes the mechanistic
 interpretation around that rule.
 
+The final source-level pharmacodynamic rebuild then covered all 24 V26 contexts
+across six datasets. It explicitly normalizes two label-only changes in the live
+GSE106992 analyzer and reproduces every original matrix cell to maximum error
+`2.22e-16`. Unlike the other three layers, the disjoint HLA-II/receptor-state
+edge persists: `rho=0.535`, global `q=0.0150`, and dataset-stratified
+`q=0.0231`. The matched-context change from the original `rho=0.758` is not
+established by paired bootstrap (delta CI `-0.512` to `0.038`).
+
+This positive exception narrows rather than reverses the regrade. It supports a
+context-specific pharmacodynamic co-response across heterogeneous therapies,
+but one of four source-level modalities cannot establish a robust cross-modal,
+independently coupled two-arm architecture. The defensible formulation is now:
+a recurrent broad APC state, plus pharmacodynamic HLA-II/receptor co-movement
+that requires independent replication and component-resolved mechanism. See
+`analysis/v53_pharmacodynamic_deoverlap_sensitivity/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -325,8 +341,7 @@ None yet.
    exact equivalence-class result is worth carrying into future experiment
    design, but it is not a therapeutic lead.
 2. Perturbation-layer HLA-II/receptor-state coupling is not robust to both
-   globally disjoint readouts and a cytokine-stratified null; the broader
-   multi-modality architecture is under re-assessment.
+   globally disjoint readouts and a cytokine-stratified null.
 3. Cell-state HLA-II/receptor-state coupling is definition-overlap-sensitive:
    the disjoint score collapses from `rho=0.832` to `0.175`, with attenuation
    established by paired bootstrap. The recurrent APC state remains distinct
@@ -336,6 +351,10 @@ None yet.
    below zero). With three of four original modalities failing de-overlap, the
    independent two-arm coupled-axis formulation is demoted; broad APC-state
    recurrence remains.
+5. Pharmacodynamic HLA-II/receptor-state coupling is the sole disjoint-readout
+   exception (`rho=0.535`, global `q=0.0150`, dataset-stratified `q=0.0231`
+   across all 24 contexts). It is a context-specific co-response, not enough to
+   restore the cross-modal two-arm claim.
 
 ### Promising-but-needs-data
 

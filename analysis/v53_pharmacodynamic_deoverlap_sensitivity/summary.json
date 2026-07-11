@@ -1,0 +1,32 @@
+{
+  "boundary": "This sensitivity changes no frozen module, locked rule, or validation threshold.",
+  "downloaded_objects_cached_in_memory": 5,
+  "hla_mif_association_criteria_pass_on_available_contexts": true,
+  "hla_mif_attenuation_established_by_paired_bootstrap": false,
+  "hla_mif_complete_disjoint_contexts": 24,
+  "hla_mif_complete_disjoint_datasets": 6,
+  "hla_mif_gate_failure_reasons": [],
+  "hla_mif_missing_disjoint_contexts": [],
+  "hla_mif_original_dataset_stratified_q": 0.00014999250037498125,
+  "hla_mif_original_spearman": 0.7582608695652173,
+  "hla_mif_paired_bootstrap_delta_ci": [
+    -0.5121713279663034,
+    0.038444735692442
+  ],
+  "hla_mif_survives_deoverlap_gate": true,
+  "hla_mif_unique_dataset_stratified_q": 0.02309884505774711,
+  "hla_mif_unique_global_q": 0.014999250037498127,
+  "hla_mif_unique_spearman": 0.5347826086956522,
+  "hla_mif_v26_full_24_context_spearman": 0.7582608695652173,
+  "max_absolute_v26_matrix_rebuild_error": 2.220446049250313e-16,
+  "n_contexts": 24,
+  "n_datasets": 6,
+  "purpose": "V53 complete 24-context pharmacodynamic dependency sensitivity using globally disjoint module genes",
+  "unique_gene_counts": {
+    "hla_ii_apc": 2,
+    "ifn_apc": 4,
+    "lysosomal_apc": 6,
+    "mif_cd74_receptor_state": 2
+  },
+  "verdict": "PHARMACODYNAMIC_HLA_MIF_EDGE_PERSISTS_WITH_DISJOINT_READOUTS"
+}

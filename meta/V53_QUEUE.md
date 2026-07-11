@@ -39,10 +39,10 @@ exhausted public-data discovery search as a source of findings.
 | Proposal semantic preflight integration | todo | Make future proposal grounding call the frozen matrix contract before analyses are launched. |
 | Cross-environment invariance feasibility | todo | Test whether any held environments have the matched sample-level semantics required for an invariance-based orientation route. |
 | De-overlapped APC module sensitivity | done | Exact gene-level rebuild; HLA/receptor rho 0.798 to 0.647, global q=0.0099 but within-stimulus q=0.7665 after global de-overlap. Perturbation layer weakens; V26 multi-modality status unchanged. |
-| Cross-modality de-overlap feasibility | in-progress | Perturbation and cell-state layers are executable and complete; treatment-response raw inputs are held and queued; cross-disease summary depends on rebuilt component layers. |
+| Cross-modality de-overlap feasibility | done | All four source-level layers rebuilt: perturbation, cell state, and response prediction fail strict disjoint-readout gates; pharmacodynamics persists across 24 contexts and six datasets. Cross-modal two-arm claim remains demoted. |
 | Cell-state module de-overlap | done | Five held h5ad files, 12 contexts; exact rebuild. HLA/receptor rho 0.832 to 0.175, q=0.582, attenuation CI -1.380 to -0.051. Global coupled-axis formulation now requires re-assessment. |
 | Treatment-response sample-layer de-overlap | done | Exact 46-RA/30-IBD rebuild; HLA/receptor rho 0.878 to -0.059, disjoint q=0.807/0.671, attenuation CI -1.361 to -0.411. Three original layers now fail; coupled two-arm formulation demoted. |
-| Pharmacodynamic multi-cohort de-overlap | todo | Inventory and recompute every treatment-pharmacodynamic context with retained gene-level inputs; mark irrecoverable aggregate-only rows explicitly. |
+| Pharmacodynamic multi-cohort de-overlap | done | All 24 contexts and six datasets rebuilt exactly (max error 2.22e-16). Disjoint HLA/receptor edge persists: rho 0.535, global q=0.0150, dataset-stratified q=0.0231; attenuation CI crosses zero. Sole positive layer does not restore cross-modal robustness. |
 | Cross-disease summary de-overlap | todo | Rebuild only after executable underlying cell-state layers are resolved; do not infer from overlapping aggregate summaries. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
@@ -178,3 +178,13 @@ exhausted public-data discovery search as a source of findings.
   demoted while broad APC-state recurrence and the locked V22 rule remain.
   Cumulative active time accrued through this checkpoint is 2h51m12s; the
   resumed session interval remains open.
+- 2026-07-11T00:01:24Z: Completed the full pharmacodynamic de-overlap audit.
+  A strict finite-cell assertion caught and corrected live-analyzer label drift
+  for GSE106992 before interpretation; all 24 V26 contexts then reproduced to
+  maximum error 2.22e-16. The disjoint HLA-II/receptor-state edge persists in
+  this layer (rho 0.535, global q=0.0150, dataset-stratified q=0.0231), and its
+  attenuation CI crosses zero. This is the sole supporting source-level layer;
+  it narrows the result to pharmacodynamic co-response and does not restore the
+  demoted cross-modal two-arm architecture. Cumulative active time accrued
+  through this checkpoint is 3h06m07s; the resumed session interval remains
+  open.
