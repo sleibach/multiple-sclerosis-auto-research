@@ -41,14 +41,23 @@ non-MS-specific IFN/receptor-state backdrop. It is not evidence for an
 independent HLA-II two-arm mechanism, causal direction, treatment benefit, or a
 therapeutic target.
 
+Subsequent frozen-score testing adds a distinct MS-specific update: the
+CD44/CXCR4 **state association** is same-direction in two independent public
+Macnair matrices. The validation composite passes explicit microglia-depth and
+joint-component adjustment; the larger discovery cohort passes the frozen
+primary and all minimum-cell thresholds but is borderline after direct
+cell-count adjustment (`p=0.05398`). This supports a replicated state marker
+with a quality qualification, not a receptor-specific mechanism or target.
+
 ## Current Wording
 
 Use:
 
 > Held data support broad cross-disease IFN/APC and CD44/CXCR4 receptor-state
-> recurrence. The previously reported independently coupled HLA-II/receptor
-> two-arm architecture is not robust to source-level disjoint-readout and
-> portability tests.
+> recurrence. Independent MS brain cohorts also reproduce the CD44/CXCR4 state
+> association, with microglial-yield sensitivity in the larger cohort. The
+> previously reported independently coupled HLA-II/receptor two-arm architecture
+> is not robust to source-level disjoint-readout and portability tests.
 
 Do not use:
 
@@ -64,6 +73,9 @@ Do not use:
 3. V26/V37/V52 remain historical records. Current summaries must link this
    delta whenever they cite their coupled-architecture conclusion.
 4. No therapeutic lead is promoted by this regrade.
+5. The CD44/CXCR4 state marker advances to replicated-with-quality-
+   qualification; its component mechanism and intervention direction remain
+   unresolved.
 
 ## Rerunnable Evidence
 
@@ -74,4 +86,4 @@ Do not use:
 - `analysis/v53_pharmacodynamic_edge_robustness/`
 - `analysis/v53_cross_disease_summary_lineage_audit/`
 - `analysis/v53_additional_atlas_disjoint_rescoring/`
-
+- `analysis/v53_ms_microglia_independent_cohort_scout/`

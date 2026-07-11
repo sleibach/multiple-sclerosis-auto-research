@@ -57,7 +57,11 @@ exhausted public-data discovery search as a source of findings.
 | MS microglia age/region robustness | done | Age SMD -0.717; patient-equal quadratic beta 0.796 (p=0.00258), common-support beta 0.823 (p=0.00348), min LOO beta 0.693, region interaction p=0.814. Within-cohort association robust; replication still required. |
 | MS microglia component specificity | done | CD44 and CXCR4 each q=0.0225, but joint HLA/MIF/IFN/lysosomal adjustment attenuates beta 57% to 0.342 (p=0.105). Broad-state-bounded association; independent receptor mechanism fails. |
 | CD44/CXCR4 MS microglia prior-art check | done | Four source-specific records: CD44/CXCR4 lesion-state biology is low novelty; the exact adjusted two-gene reanalysis is moderate novelty at most and has no independent replication or therapeutic direction. |
-| CD44/CXCR4 independent cohort scout | todo | Search held/public catalogs for an independent donor-level MS microglia cohort meeting the frozen V53 replication spec; verify usability before counting. |
+| CD44/CXCR4 independent cohort scout | done | Two Macnair matrices streamed over 2.012B entries: validation 18/13 clean pass; discovery 54/26 frozen pass but cell-count-adjusted p=0.05398. Replicated state association with quality qualification; no target/mechanism promotion. |
+| Macnair disease-stage and lesion-context heterogeneity | todo | Use frozen donor/sample scores to test whether the replicated state is progressive-stage or lesion-type dependent, with corrected interaction/null tests. |
+| Cross-cohort CD44/CXCR4 meta-analysis | todo | Pool only cohort-level adjusted effects with heterogeneity and leave-one-cohort-out reporting; do not treat shared-publication matrices as unqualified independence. |
+| GSE301908 third-cohort low-control sensitivity | todo | Assess only as a 14-MS/3-control sensitivity under the existing score; cannot count as clean replication due three controls. |
+| Macnair source-lineage overlap audit | todo | Verify discovery/validation/GSE301908 donor and source independence before any cross-cohort count is finalized. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
 
@@ -303,3 +307,12 @@ exhausted public-data discovery search as a source of findings.
   replication status, or therapeutic status changed. Cumulative active time
   accrued through this checkpoint is 4h06m15s; the resumed session interval
   remains open.
+- 2026-07-11T01:48:28Z: Completed the independent-cohort scout and both frozen
+  Macnair matrix runs. The validation composite passes frozen, microglia-depth,
+  and joint-component gates; the larger discovery cohort passes the frozen
+  primary and every fixed minimum-cell threshold but misses the conservative
+  direct cell-count adjustment by a narrow margin (`p=0.05398`). The result is
+  regraded to a replicated CD44/CXCR4 microglial state association with a
+  quality qualification, not a causal mechanism or target. Cumulative active
+  time accrued through this checkpoint is 4h53m11s; the resumed session
+  interval remains open.

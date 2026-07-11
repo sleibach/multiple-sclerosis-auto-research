@@ -1,0 +1,39 @@
+{
+  "cohort": "validation",
+  "matrix_committed": false,
+  "n_control_donors": 16,
+  "n_donors_by_diagnosis": {
+    "CTR": 16,
+    "PPMS": 2,
+    "RRMS": 0,
+    "SPMS": 16
+  },
+  "n_eligible_microglia": 11383,
+  "n_eligible_samples": 50,
+  "n_matrix_columns": 301997,
+  "n_ms_donors": 18,
+  "n_target_genes": 16,
+  "purpose": "Public-cohort eligibility and frozen-gene extraction preparation; no biological result",
+  "source_files": {
+    "matrix": {
+      "checksum": "md5:4041f870aecf43bd4a4e7b9524c75b6e",
+      "name": "ms_lesions_snRNAseq_validation_cleaned_counts_matrix_2023-09-12.mtx.gz",
+      "size": 1695366955,
+      "url": "https://zenodo.org/api/records/8338963/files/ms_lesions_snRNAseq_validation_cleaned_counts_matrix_2023-09-12.mtx.gz/content"
+    },
+    "metadata": {
+      "checksum": "md5:b084ab0b8c32c0084a17ac9489abce90",
+      "name": "ms_lesions_snRNAseq_validation_col_data_2023-09-12.txt.gz",
+      "size": 12142382,
+      "url": "https://zenodo.org/api/records/8338963/files/ms_lesions_snRNAseq_validation_col_data_2023-09-12.txt.gz/content"
+    },
+    "row_data": {
+      "checksum": "md5:918da97c97fa2b0e055fb19acd2d033b",
+      "name": "ms_lesions_snRNAseq_validation_row_data_2023-09-12.txt.gz",
+      "size": 404195,
+      "url": "https://zenodo.org/api/records/8338963/files/ms_lesions_snRNAseq_validation_row_data_2023-09-12.txt.gz/content"
+    }
+  },
+  "target_coverage_complete": true,
+  "zenodo_record": 8338963
+}

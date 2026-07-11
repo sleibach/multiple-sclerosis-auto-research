@@ -168,6 +168,16 @@ pass the same gate (5/8, `q=0.363`). The immutable V22 scalar and its validation
 plan are unchanged. Current evidence wording and the historical-report delta
 are in `docs/reports/FINDINGS_DELTA_V53.md`.
 
+V53 then applied the frozen CD44/CXCR4 score to two independent public Macnair
+matrices. The validation composite (18 MS, 13 controls after donor
+de-duplication) passes the frozen and explicit microglia-depth gates; the larger
+discovery cohort (54 MS, 26 controls) passes the frozen primary and all fixed
+minimum-cell thresholds, but direct cell-count adjustment is borderline
+(`p=0.05398`). Current status is therefore **replicated MS microglial
+CD44/CXCR4 state association with a microglial-yield quality qualification**.
+It remains non-causal, low-novelty biology with no therapeutic direction, and
+does not restore the demoted independent HLA-II/receptor architecture.
+
 Current frontier:
 
 - V53 live state:
@@ -179,6 +189,8 @@ Current frontier:
   - No new therapeutic lead is promoted.
   - Coupled HLA-II/receptor two-arm architecture is demoted; broad
     IFN/APC and CD44/CXCR4 recurrence remains non-specific context.
+  - Independent Macnair cohorts now support the MS microglial CD44/CXCR4 state
+    association; component specificity and intervention direction remain open.
   - V22/V42 validation artifacts remain immutable and operational.
 
 - V52 therapeutic-path state:

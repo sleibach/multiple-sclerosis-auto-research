@@ -424,6 +424,27 @@ reviewed sources independently reproduces the frozen two-gene analysis, and no
 source supplies an MS-beneficial intervention direction. See
 `knowledge_external/synthesis/V53_CD44_CXCR4_MS_MICROGLIA_PRIOR_ART.md`.
 
+The frozen independent-cohort test is now complete on two public Macnair
+matrices, extracted from `2,012,213,369` real sparse-matrix entries without
+storing the multi-gigabyte inputs. In the validation composite, deterministic
+cross-study donor de-duplication leaves 18 MS and 13 control donors with 11,222
+microglia. The frozen primary gives beta `1.414`, standardized effect `2.212`,
+wild `p<0.00001`, and HC3 CI `0.806-2.022`; explicit microglia-count adjustment
+remains positive (beta `1.075`, wild `p=0.00480`). In the larger discovery
+cohort (54 MS, 26 controls; 51,677 microglia), the frozen primary also passes
+(beta `0.510`, standardized effect `0.669`, wild `p=0.00461`, CI
+`0.142-0.879`). Every fixed 10-100-cell threshold remains positive and
+corrected, but explicit log-microglia-count adjustment is borderline (beta
+`0.341`, wild `p=0.05398`, CI crossing zero). Joint HLA/MIF/IFN/lysosomal
+adjustment remains positive in both matrices (`p=0.00335` and `0.00751`).
+
+This rejects a single-cohort-artifact explanation for the **CD44/CXCR4 state
+association**, while retaining a quality qualification for the larger cohort.
+It does not establish a receptor-specific causal mechanism: GSE111972 failed
+its component-specificity gate, MIF/DDT is sparsely detected in the Macnair
+matrices, and therapeutic direction remains absent. See
+`analysis/v53_ms_microglia_independent_cohort_scout/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -457,15 +478,25 @@ now raises before grounding computation starts. This changes execution safety,
 not any proposal verdict.
 
 Multi-lineage value verdict: **yes for one methodological boundary, no for a
-new biological or therapeutic lead**. Model confidence played no role. The
-current client does not expose monetary spend or token-usage telemetry, so spend
-is recorded as unavailable rather than estimated.
+new biological or therapeutic lead**. The replicated state association instead
+arose from the agent-native source-level audit and independent public-cohort
+scout. Model confidence played no role. The current client does not expose
+monetary spend or token-usage telemetry, so spend is recorded as unavailable
+rather than estimated.
 
 ## Current Ranked Slate
 
 ### Grounded-and-promising
 
-None yet.
+1. **Replicated MS microglial CD44/CXCR4 state association, not a target.** The
+   original GSE111972 association now has same-direction independent support in
+   two Macnair matrices. One passes both the frozen and conservative depth-QC
+   gates; the larger passes the frozen gate and all fixed minimum-cell
+   thresholds but is borderline after explicit cell-count adjustment. This is
+   a replicated state marker with a quality qualification, low biological
+   novelty, and no intervention direction. Next: fixed-score disease-stage and
+   lesion-context heterogeneity, then a donor-balanced third cohort with a
+   pre-specified minimum microglial yield.
 
 ### Grounded Methodological Boundary
 
@@ -503,19 +534,11 @@ None yet.
 
 ### Promising-but-needs-data
 
-1. **MS microglial CD44/CXCR4 state association**, not a target: the globally
-   unique two-gene score survives patient-cluster wild-null correction in
-   GSE111972 (`q=0.0790`) and is positive in both regions. It also survives
-   patient-equal quadratic age, common-support, region-interaction, and
-   leave-one-patient-out sensitivity; both genes contribute (`q=0.0225` each).
-   It remains broad-state-bounded because joint APC-state adjustment attenuates
-   57% and misses the specificity gate (`p=0.105`). Its next test is frozen in
-   `docs/validation/MS_MICROGLIA_CD44_CXCR4_REPLICATION_SPEC_V53.md`: target
-   32 MS and 32 control donors under an assumption-labeled `d=0.8`, 80%-power
-   design, with the same CD44/CXCR4, CIITA/RFX5, and MIF/DDT contrasts. The
-   stronger decoupling claim is not supported.
-   Biological novelty is low and exact analytical novelty is moderate at most;
-   the independent-cohort requirement is unchanged.
+1. **CD44/CXCR4 component specificity and direction.** The state association is
+   no longer single-cohort, but GSE111972 component adjustment fails, Macnair
+   MIF/DDT controls are sparse, and no selective perturbation identifies causal
+   direction. A mechanism or target claim still needs donor-balanced tissue,
+   reliable component detection, and selective functional intervention.
 
 MIF/CD74 remains below this tier as a target; its retained value is
 state-readout context.

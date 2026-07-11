@@ -1,0 +1,217 @@
+{
+  "age_diagnostic": {
+    "common_support": [
+      34.0,
+      58.0
+    ],
+    "common_support_result": {
+      "disease_beta": 1.2588233455360105,
+      "hc3_ci_high": 2.055428916896932,
+      "hc3_ci_low": 0.46221777417508747,
+      "hc3_p": 0.0019535666104080695,
+      "hc3_se": 0.4064388823694953,
+      "wild_two_sided_p": 0.0005399946000539995
+    },
+    "n_common_support": 25,
+    "standardized_mean_difference_ms_minus_control": -0.7228292430110669
+  },
+  "batch_diagnostic": {
+    "chi_square_p": 0.9423001858731285,
+    "cramers_v": 0.06192158751961761
+  },
+  "boundary": "Independent public-cohort test; no causal, intervention-direction, or therapeutic-target conclusion.",
+  "by_study_direction": [
+    {
+      "n_control": 3,
+      "n_ms": 5,
+      "raw_ms_minus_control": 0.8209833850634902,
+      "study": "a2021"
+    },
+    {
+      "n_control": 2,
+      "n_ms": 3,
+      "raw_ms_minus_control": 0.7043522292243743,
+      "study": "j2019"
+    },
+    {
+      "n_control": 8,
+      "n_ms": 10,
+      "raw_ms_minus_control": 1.6391744315709333,
+      "study": "s2019"
+    }
+  ],
+  "clean_replication_components": {
+    "common_age_support_effect_positive": true,
+    "direction_positive_in_each_study": true,
+    "disease_beta_positive": true,
+    "hc3_interval_excludes_zero": true,
+    "microglia_depth_adjusted_effect_positive_p_le_0_05": true,
+    "microglia_threshold_directions_all_positive": true,
+    "no_detected_study_batch_association": true,
+    "standardized_effect_at_least_0_50": true,
+    "wild_p_at_most_0_05": true
+  },
+  "clean_replication_pass": true,
+  "cohort": "validation",
+  "decoupling_pass": true,
+  "frozen_primary_components": {
+    "common_age_support_effect_positive": true,
+    "direction_positive_in_each_study": true,
+    "disease_beta_positive": true,
+    "hc3_interval_excludes_zero": true,
+    "no_detected_study_batch_association": true,
+    "standardized_effect_at_least_0_50": true,
+    "wild_p_at_most_0_05": true
+  },
+  "frozen_primary_pass": true,
+  "joint_component_adjusted_sensitivity": {
+    "disease_beta": 0.9187125566470631,
+    "hc3_ci_high": 1.7975600781493672,
+    "hc3_ci_low": 0.03986503514476081,
+    "hc3_p": 0.040474917404385025,
+    "hc3_se": 0.44839983205535433,
+    "wild_two_sided_p": 0.0033499665003349968
+  },
+  "low_detection_genes": [
+    {
+      "detected_sample_fraction": 0.0,
+      "gene": "CTSD"
+    },
+    {
+      "detected_sample_fraction": 0.12,
+      "gene": "CXCL10"
+    },
+    {
+      "detected_sample_fraction": 0.18,
+      "gene": "DDT"
+    },
+    {
+      "detected_sample_fraction": 0.4,
+      "gene": "LAMP3"
+    },
+    {
+      "detected_sample_fraction": 0.04,
+      "gene": "MIF"
+    }
+  ],
+  "microglia_depth_diagnostic": {
+    "cell_count_adjusted": {
+      "disease_beta": 1.074789139720522,
+      "hc3_ci_high": 1.9074139557596788,
+      "hc3_ci_low": 0.24216432368136487,
+      "hc3_p": 0.011405970762521029,
+      "hc3_se": 0.42481638571259234,
+      "wild_two_sided_p": 0.004799952000479995
+    },
+    "minimum_cell_threshold_sensitivity": [
+      {
+        "disease_beta": 1.4141090061111452,
+        "hc3_ci_high": 2.022218939695836,
+        "hc3_ci_low": 0.8059990725264564,
+        "hc3_p": 5.1708708722161265e-06,
+        "hc3_se": 0.31026587140446626,
+        "minimum_microglia": 1,
+        "n_control": 13,
+        "n_donors": 31,
+        "n_ms": 18,
+        "wild_two_sided_p": 9.99990000099999e-06
+      },
+      {
+        "disease_beta": 1.134433757924198,
+        "hc3_ci_high": 1.9619923733310909,
+        "hc3_ci_low": 0.3068751425173054,
+        "hc3_p": 0.0072149314577544185,
+        "hc3_se": 0.4222315419745309,
+        "minimum_microglia": 10,
+        "n_control": 10,
+        "n_donors": 28,
+        "n_ms": 18,
+        "wild_two_sided_p": 0.00044999550004499957
+      },
+      {
+        "disease_beta": 1.1736289790334997,
+        "hc3_ci_high": 2.0435079854715026,
+        "hc3_ci_low": 0.30374997259549474,
+        "hc3_p": 0.008184631241062543,
+        "hc3_se": 0.44382397498091725,
+        "minimum_microglia": 25,
+        "n_control": 9,
+        "n_donors": 27,
+        "n_ms": 18,
+        "wild_two_sided_p": 0.0006299937000629993
+      },
+      {
+        "disease_beta": 1.0387342408614813,
+        "hc3_ci_high": 1.7435008932127032,
+        "hc3_ci_low": 0.3339675885102589,
+        "hc3_p": 0.0038679906736970365,
+        "hc3_se": 0.35958143002133286,
+        "minimum_microglia": 50,
+        "n_control": 7,
+        "n_donors": 24,
+        "n_ms": 17,
+        "wild_two_sided_p": 0.0015999840001599984
+      },
+      {
+        "disease_beta": 1.09752814007089,
+        "hc3_ci_high": 1.8572157514959604,
+        "hc3_ci_low": 0.3378405286458206,
+        "hc3_p": 0.004631876335216696,
+        "hc3_se": 0.3876028424080182,
+        "minimum_microglia": 100,
+        "n_control": 6,
+        "n_donors": 22,
+        "n_ms": 16,
+        "wild_two_sided_p": 0.005589944100558995
+      }
+    ],
+    "score_log_microglia_correlation": 0.6660287214184861
+  },
+  "n_control_donors": 13,
+  "n_cross_study_duplicate_donors_resolved": 3,
+  "n_donors": 31,
+  "n_microglia_retained": 11222,
+  "n_ms_donors": 18,
+  "n_samples_retained": 47,
+  "n_wild_replicates_per_test": 100000,
+  "primary": {
+    "disease_beta": 1.4141090061111452,
+    "hc3_ci_high": 2.022218939695836,
+    "hc3_ci_low": 0.8059990725264564,
+    "hc3_p": 5.1708708722161265e-06,
+    "hc3_se": 0.31026587140446626,
+    "raw_ms_minus_control": 1.3118695140059424,
+    "standardized_ms_minus_control": 2.2120033132604457,
+    "wild_two_sided_p": 9.99990000099999e-06
+  },
+  "purpose": "Frozen V53 independent-cohort CD44/CXCR4 replication test",
+  "quality_tightening_components": {
+    "microglia_depth_adjusted_effect_positive_p_le_0_05": true,
+    "microglia_threshold_directions_all_positive": true
+  },
+  "secondary": [
+    {
+      "disease_beta": 1.0039060028607951,
+      "hc3_ci_high": 2.077899562371979,
+      "hc3_ci_low": -0.0700875566503858,
+      "hc3_p": 0.06694262497487387,
+      "hc3_se": 0.5479659667130145,
+      "outcome": "receptor_minus_hla",
+      "wild_bh_q": 0.017779822201777984,
+      "wild_two_sided_p": 0.017779822201777984
+    },
+    {
+      "disease_beta": 0.8497561399831595,
+      "hc3_ci_high": 1.5715314974282224,
+      "hc3_ci_low": 0.12798078253809397,
+      "hc3_p": 0.02102736397429859,
+      "hc3_se": 0.368259500245074,
+      "outcome": "receptor_minus_mif",
+      "wild_bh_q": 0.017779822201777984,
+      "wild_two_sided_p": 0.012809871901280988
+    }
+  ],
+  "seed": 53507,
+  "source_selection_rule": "For cross-study duplicate donor codes, retain the study with most eligible microglia; ties lexicographic; rule applied before outcome modeling.",
+  "verdict": "REPLICATED_AND_DECOUPLED"
+}

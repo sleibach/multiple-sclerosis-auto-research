@@ -1,0 +1,43 @@
+{
+  "boundary": "Replicated disease-state association only; no causal, intervention-direction, monitoring, or therapeutic-target conclusion.",
+  "cohorts": {
+    "macnair_discovery": {
+      "clean_quality_tightened_pass": false,
+      "component_adjusted_beta": 0.4197028468504346,
+      "component_adjusted_wild_p": 0.007509924900750992,
+      "frozen_primary_pass": true,
+      "microglia_count_adjusted_beta": 0.3410695376286673,
+      "microglia_count_adjusted_wild_p": 0.05397946020539795,
+      "n_control": 26,
+      "n_microglia": 51677,
+      "n_ms": 54,
+      "primary_beta": 0.5103705932280893,
+      "primary_standardized_effect": 0.6686824154556404,
+      "primary_wild_p": 0.004609953900460996,
+      "verdict": "FROZEN_PRIMARY_PASS_QUALITY_SENSITIVE"
+    },
+    "macnair_validation": {
+      "clean_quality_tightened_pass": true,
+      "component_adjusted_beta": 0.9187125566470631,
+      "component_adjusted_wild_p": 0.0033499665003349968,
+      "frozen_primary_pass": true,
+      "microglia_count_adjusted_beta": 1.074789139720522,
+      "microglia_count_adjusted_wild_p": 0.004799952000479995,
+      "n_control": 13,
+      "n_microglia": 11222,
+      "n_ms": 18,
+      "primary_beta": 1.4141090061111452,
+      "primary_standardized_effect": 2.2120033132604457,
+      "primary_wild_p": 9.99990000099999e-06,
+      "verdict": "REPLICATED_AND_DECOUPLED"
+    }
+  },
+  "frozen_genes": 16,
+  "matrix_entries_streamed": 2012213369,
+  "model_spend": "none",
+  "purpose": "V53 independent public-cohort scout and frozen CD44/CXCR4 replication",
+  "raw_matrices_committed": false,
+  "seed": 53507,
+  "verdict": "REPLICATED_MS_MICROGLIAL_CD44_CXCR4_STATE_ASSOCIATION_WITH_MICROGLIA_DEPTH_QUALITY_QUALIFICATION",
+  "wild_replicates_per_test": 100000
+}
