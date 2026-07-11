@@ -1,0 +1,16 @@
+{
+  "boundary": "This audit changes no source result or locked rule; it corrects evidence-lineage accounting.",
+  "fraction_rows_reused_from_cell_state_layer": 0.6352941176470588,
+  "full_disjoint_rebuild_available": false,
+  "full_disjoint_rebuild_blocker": "The direct-h5ad component has a V53 disjoint rebuild, but GSE111972, GSE248205, and GSE315138 require separate source-level rescoring. The aggregate summary cannot be de-overlapped algebraically.",
+  "independent_modality_status": "NO_DERIVED_SUMMARY_RETIRED_AS_INDEPENDENT_EVIDENCE",
+  "max_absolute_committed_summary_rebuild_error": 2.220446049250313e-16,
+  "max_absolute_v26_matrix_rebuild_error": 2.220446049250313e-16,
+  "n_additional_atlas_rows": 62,
+  "n_direct_h5ad_rows_reused_from_cell_state_layer": 108,
+  "n_diseases": 10,
+  "n_source_dataset_labels": 15,
+  "n_source_rows": 170,
+  "purpose": "V53 source-lineage audit of the V26 cross-disease summary matrix",
+  "verdict": "CROSS_DISEASE_SUMMARY_IS_DESCRIPTIVE_DERIVED_ATLAS_NOT_FIFTH_INDEPENDENT_MODALITY"
+}

@@ -315,6 +315,17 @@ strong dataset-scale heterogeneity, not a stable common-effect mechanism and
 not a therapeutic route. See
 `analysis/v53_pharmacodynamic_edge_robustness/REPORT.md`.
 
+Finally, the V26 cross-disease summary was rebuilt and source-lineage audited.
+Its committed matrix reproduces to `2.22e-16`, but it is not an independent
+fifth modality: `108/170` source rows (`63.5%`) reuse the direct-h5ad cell-state
+analyses, while the matrix rows are six support-count/positive-effect summaries
+derived from those rows. Correlating module columns across those six unlike
+summary metrics does not add independent observations. The remaining 62 rows
+come from GSE111972, GSE248205, and GSE315138 and are retained for a separate
+source-level broad-recurrence audit; they do not make the aggregate matrix an
+independent corroboration. See
+`analysis/v53_cross_disease_summary_lineage_audit/REPORT.md`.
+
 The negative-space proposal failed: among the three module pairs assessable in
 all five modalities, there were zero strict forbidden edges (permutation
 enrichment `p=1.0`). The bounded transfer-error proposal also failed: across
@@ -371,6 +382,9 @@ None yet.
    across all 24 contexts), but it fails the harder portability gate: centered
    `rho=0.087`, `p=0.808`, cluster-bootstrap CI `-0.617` to `0.894`. Retain it
    only as suggestive rank concordance, not a common-effect mechanism.
+6. The V26 cross-disease summary is a descriptive derived atlas, not a fifth
+   independent modality: 63.5% of its source rows duplicate the audited
+   direct-h5ad layer, and its six matrix rows are aggregate support metrics.
 
 ### Promising-but-needs-data
 

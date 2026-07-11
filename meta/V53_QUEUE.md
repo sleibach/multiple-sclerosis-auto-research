@@ -44,9 +44,10 @@ exhausted public-data discovery search as a source of findings.
 | Treatment-response sample-layer de-overlap | done | Exact 46-RA/30-IBD rebuild; HLA/receptor rho 0.878 to -0.059, disjoint q=0.807/0.671, attenuation CI -1.361 to -0.411. Three original layers now fail; coupled two-arm formulation demoted. |
 | Pharmacodynamic multi-cohort de-overlap | done | All 24 contexts and six datasets rebuilt exactly (max error 2.22e-16). Disjoint HLA/receptor edge persists: rho 0.535, global q=0.0150, dataset-stratified q=0.0231; attenuation CI crosses zero. Sole positive layer does not restore cross-modal robustness. |
 | Pharmacodynamic edge portability stress | done | 50k stratified permutations/view + 20k dataset-cluster bootstraps. Pooled/rank concordance persists, but centered rho=0.087 (p=0.808), cluster CI -0.617 to 0.894, and one LODO p=0.124; portable-common-effect gate fails. |
-| Cross-disease summary de-overlap | todo | Rebuild only after executable underlying cell-state layers are resolved; do not infer from overlapping aggregate summaries. |
+| Cross-disease summary de-overlap | done | Exact lineage rebuild (2.22e-16): 108/170 rows reuse direct h5ad and six matrix rows are derived metrics. Retired as independent fifth modality; 62 additional-atlas rows split into a source-level recurrence task. |
 | Coupled-axis status propagation audit | todo | Find every downstream current-status/report reference to the original robust two-arm architecture and apply the V53 evidence regrade without editing historical artifacts. |
 | Broad APC recurrence independence audit | todo | Test whether the retained broad APC-state recurrence itself survives disjoint-gene and leave-one-modality checks; do not inherit it automatically from the demoted two-arm claim. |
+| Additional-atlas disjoint rescoring | todo | Recompute GSE111972, GSE248205, and GSE315138 with globally disjoint APC genes where held source data allow; keep source-level evidence separate from the retired derived matrix. |
 | Pharmacodynamic context-type decomposition | todo | Determine whether rank concordance is shared across response strata and compartments or concentrated in incomparable context types; no new discovery claims. |
 | V53 RAG refresh | todo | Rebuild index after stable exploratory artifacts are committed. |
 | Final V53 run summary and clean close | todo | Close active interval only after valid stop condition and push final state. |
@@ -200,3 +201,10 @@ exhausted public-data discovery search as a source of findings.
   retained only as suggestive rank concordance under strong heterogeneity.
   Cumulative active time accrued through this checkpoint is 3h12m54s; the
   resumed session interval remains open.
+- 2026-07-11T00:12:07Z: Completed the V26 cross-disease-summary lineage audit.
+  The matrix rebuilds to 2.22e-16, but 108/170 source rows reuse the direct-h5ad
+  layer and its six rows are derived support/effect metrics rather than new
+  observations. It is retired as an independent fifth modality and retained as
+  a descriptive atlas. The 62 additional-atlas rows are queued separately for
+  source-level disjoint rescoring. Cumulative active time accrued through this
+  checkpoint is 3h16m50s; the resumed session interval remains open.
