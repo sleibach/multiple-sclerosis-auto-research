@@ -40,7 +40,7 @@ project's evidence standard.
 | GSE279972 lysosomal morphology specificity audit | done | Fully adjusted beta 0.517, CI 0.199 to 0.834, wild p=0.00861, max-variant p=0.0453; all 21 LODO coefficients positive. Bounded foamy-morphology association only, not progression or target evidence. |
 | Relapsing-to-progressive transition proxy audit | done | Seven datasets audited: 5 verified subject maps, 2 repeated transcriptomes, but 0 time-varying stage and 0 repeated disability/conversion. Transition is not identifiable; this is not a biological null. |
 | Progression-specific module panel | done | No orthogonally supported module. OXPHOS is lower in foamy morphology (max-module p=0.0357) but direction-discordant across chronic-active pairs; resolution and MOCCI are inconclusive. |
-| OXPHOS-versus-lysosomal foamy-state coupling sensitivity | in-progress | Frozen two-endpoint mutual-adjustment model with 300k donor-wild nulls, max-endpoint correction, attenuation, and LODO stability. |
+| OXPHOS-versus-lysosomal foamy-state coupling sensitivity | done | Both survive mutual adjustment: OXPHOS beta -0.562, max-endpoint p=0.0114; lysosomal beta 0.463, max-endpoint p=0.0518; all LODO directions stable. Morphology-only. |
 | CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
 | Progression intervention-direction map | todo | For any supported state, require a favorable, direction-resolved perturbation and collateral guardrails before tractability discussion. |
 | AlphaFold progression-axis context | todo | Use predicted structure only for confidence-qualified modality context after a grounded progression association exists. |
@@ -117,3 +117,8 @@ project's evidence standard.
   adjustment sensitivity. Two disjoint scores, two corrected endpoints,
   300,000 donor-wild nulls, and LODO stability will test separability without
   upgrading either morphology association. Active time accrued: 0h38m34s.
+- 2026-07-21T21:39:15Z: Mutual adjustment retained 90.2% of the OXPHOS
+  coefficient and 89.7% of the lysosomal coefficient; both pass the corrected
+  donor-wild and LODO gates. This is a two-feature foamy transcript state in one
+  cohort, not progression or intervention evidence. Active time accrued:
+  0h40m45s.

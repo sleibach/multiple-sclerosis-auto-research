@@ -54,6 +54,7 @@ cannot measure progression rate or transition.
 | Post-result lysosomal morphology specificity | survives tested transcript-state adjustment | Bounded foamy-morphology association only; no orthogonal chronic-active, progression, causal, or therapeutic support. |
 | RRMS-to-progressive transition identifiability | not identifiable in seven held datasets | Coverage boundary: no dataset has time-varying stage plus repeated disability/conversion; not a biological null. |
 | Second progression-lesion module family | no orthogonally supported module | OXPHOS is lower in foamy morphology but direction-discordant at chronic-active edges; resolution/MOCCI are inconclusive. |
+| OXPHOS-lysosomal foamy-state coupling | both survive mutual adjustment | Two separable transcript associations in one morphology cohort; neither has orthogonal progression support. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -221,3 +222,28 @@ Iron handling and cellular senescence remain untested because no frozen
 project-local module exists. Resolution/efferocytosis is a transcript proxy,
 not measured myelin clearance or remyelination. No disability, causal, target,
 or therapeutic-direction claim is supported.
+
+## OXPHOS-Lysosomal Foamy-State Coupling
+
+Status: **both associations survive mutual adjustment in GSE279972**.
+
+Executable audit:
+
+- frozen post-result plan: `docs/plans/OXPHOS_LYSOSOMAL_COUPLING_V54.md`
+- script: `scripts/v54_oxphos_lysosomal_coupling.py`
+- report: `analysis/v54_oxphos_lysosomal_coupling/REPORT.md`
+- tests:
+  `analysis/v54_oxphos_lysosomal_coupling/mutual_adjustment_tests.tsv`
+
+After adding the disjoint lysosomal score, the foamy OXPHOS coefficient retained
+`90.2%` of its magnitude (beta `-0.562`, clustered 95% CI `-1.003` to
+`-0.120`, donor-wild `p=0.0107`, max-endpoint `p=0.0114`). After adding OXPHOS,
+the lysosomal coefficient retained `89.7%` (beta `0.463`, CI `0.111` to `0.816`,
+wild `p=0.0108`, max-endpoint `p=0.0518`). All 21 leave-one-donor fits retained
+both directions, and all three 100,000-replicate seeds agreed.
+
+This establishes only model-level separability of two transcript associations
+within one foamy-morphology cohort under the measured covariates. It does not
+establish independent biological pathways, metabolic or lysosomal flux,
+progression, causality, or an intervention direction. Both remain unreplicated
+in the paired chronic-active-edge context.
