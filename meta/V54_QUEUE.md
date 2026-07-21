@@ -71,7 +71,7 @@ project's evidence standard.
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
 | V54 consolidated regression suite | done | One command runs 16 executable checks and 31 artifact/claim invariants; all pass. It now pins the competing-risk strict-cell/invalidation distinction. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
-| Visit-schedule interval-censoring audit | todo | Quantify bias/power when latent disability onset is observed only at scheduled confirmation visits, including schedule missingness. |
+| Visit-schedule interval-censoring audit | in-progress | Frozen two-year simulation separates quarterly/semiannual/annual spacing, confirmation loss, independent versus informative 20% visit missingness, detection-time versus midpoint routes, and tie-aware Cox calibration. |
 | Repeated molecular-state reliability design | todo | Test whether repeated baseline molecular measurement improves progression power enough to justify acquisition burden, under frozen averaging/reliability rules. |
 | Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
 | Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
@@ -344,3 +344,9 @@ project's evidence standard.
   after the suite's internal whitespace check; the regenerated suite now
   passes 16/16 commands and 31/31 invariants, with provenance, structure, and
   repository guards passing. Active time accrued: 2h41m19s.
+- 2026-07-21T23:41:26Z: Froze the visit-schedule/interval-observation audit
+  before simulation. The design uses a two-year irreversible latent endpoint,
+  quarterly/semiannual/annual visits, mandatory later confirmation, complete,
+  independent, score-dependent, and joint score/risk attendance, plus fixed
+  detection-time and midpoint routes. A Breslow tie-aware implementation must
+  pass an independent PHReg reference. Active time accrued: 2h42m56s.
