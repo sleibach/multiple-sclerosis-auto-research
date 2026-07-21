@@ -64,9 +64,11 @@ project's evidence standard.
 | V37 progression evidence-grade delta | done | Artifact-checked 18-item delta: 12 V37 items carried, 6 post-V37 additions; 2 method-strengthened, 3 progression-narrowed, 1 negative reinforced, and no target/progression promotion. |
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
-| Event-time assumption robustness | todo | Stress the frozen Cox route under non-proportional effects and informative dropout; quantify when the calibrated route becomes invalid. |
+| Event-time assumption robustness | in-progress | Frozen piecewise-hazard audit separates proportional, early, late, and crossing effects across five censoring mechanisms; whole-follow-up Cox remains the route under audit and window tests are diagnostic only. |
 | Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
+| Event-time receipt diagnostics contract | todo | Convert any assumption-audit failure into blinded metadata/QC requirements without changing the frozen P1 analysis. |
+| P2 composition measurement acceptance contract | todo | Define which measured cell-fraction methods are sufficient for the conditionally calibrated P2 route; expression-derived proxy alone must fail closed under possible imbalance. |
 | V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -263,3 +265,9 @@ project's evidence standard.
   `0.2227`) and is excluded from power interpretation; unadjusted imbalance was
   worse (maximum `0.5827`). Four independent `statsmodels` OLS fixtures pass
   to `2.22e-15`. Active time accrued: 1h58m58s.
+- 2026-07-21T22:59:53Z: Froze the event-time assumption audit before
+  simulation. It distinguishes proportional, early-only, late-only, and
+  crossing effects and five censoring mechanisms, including a deliberately
+  non-independent joint score/event-risk mechanism. Window-specific tests are
+  diagnostic only and cannot replace the frozen whole-follow-up Cox route.
+  Active time accrued: 2h01m23s.
