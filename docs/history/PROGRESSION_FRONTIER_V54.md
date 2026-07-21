@@ -64,6 +64,8 @@ cannot measure progression rate or transition.
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
 | Progression-package eligibility validator | synthetic-verified | Six synthetic inventories behave as expected: complete P1/P2/P3 pass and malformed role packages fail closed. Method behavior only. |
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
+| Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
+| Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -528,3 +530,20 @@ These are conditional method-design results, not empirical MS effect sizes or a
 universal recruitment target. The interface must be rerun from blinded receipt
 metadata using the actual event rate, missingness, repeat structure, endpoint,
 and multiplicity plan before any molecular score is viewed.
+
+The apparent `0.060` maximum was separately calibrated in
+`analysis/v54_progression_power_calibration_audit/`. It represents 90/1,500
+false passes with Wilson 95% CI `0.049` to `0.073`; none of 48 aggregate null
+cells had a lower Wilson bound above nominal `0.05`. Under a 48-cell
+Binomial(1500, 0.05) reference, a maximum at least this large has probability
+`0.895`. The grid is not detectably anti-conservative; the maximum is expected
+finite-simulation variation.
+
+A frozen 576,000-cohort label-noise extension is in
+`analysis/v54_progression_power_label_noise/`. Scenarios meeting the 80%
+criterion fell from 7/24 at zero noise to 4/24 at 5% and 3/24 at 10% symmetric
+outcome-label error. No OR `1.25` or `1.5` scenario reached 80% by `n=240` at
+any level. At 15% events, even OR `2.0` failed once 5% label error was added.
+These rates are design assumptions, not empirical PIRA-label estimates; they
+make endpoint adjudication and blinded package-specific parameterization a
+hard acquisition requirement.

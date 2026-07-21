@@ -48,12 +48,12 @@ project's evidence standard.
 | Macnair source-by-stage interaction review check | done | Five modules, 44 donors, 300k reduced-model wild nulls. No interaction passes. CD44/CXCR4 source effects are nearly equal but imprecise; lysosomal heterogeneity is inconclusive. |
 | Global post-result morphology multiplicity audit | done | Holm across all 12 sequential follow-up tests. Only a partial resident-adjusted variant passes; fully adjusted lysosomal and both mutual-adjustment endpoints fail. Claim-level morphology wording downgraded to exploratory. |
 | Foamy donor/lesion estimand and influence audit | done | Only 6/21 donors and 3/43 donor-lesion blocks vary in morphology. Donor-FE OXPHOS is direction-retained but null/unstable; lysosomal reverses near zero. Pooled inference is substantially between-donor or unresolved. |
-| Progression power calibration and assumption audit | todo | Ground both model objections: per-seed null-FPR uncertainty and pessimistic label-noise/dropout regimes, with no empirical-MS interpretation. |
+| Progression power calibration and assumption audit | done | Null calibration acceptable: maximum 0.060 has Wilson 0.049-0.073, no lower bound >0.05, 48-cell reference max-tail p=0.895. Label-noise sensitivity completed without empirical-MS interpretation. |
 | Multi-lineage objection disposition table | todo | Close all 12 objections as held/failed/already-addressed/blocked with committed evidence; model assertions remain proposal-only external records. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
 | Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
 | Progression-event power design skeleton | done | 288k synthetic cohorts/3 seeds/192 cells; null FPR median 0.043, max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 not by n=240. Assumption-labeled, not empirical. |
-| Progression power label-noise sensitivity | todo | Quantify outcome misclassification at 5%/10% and dropout interactions on the default grid, keeping all outputs synthetic and assumption-labeled. |
+| Progression power label-noise sensitivity | done | 576k additional synthetic cohorts. Scenarios reaching 80% fall 7/24 -> 4/24 -> 3/24 at 0/5/10% symmetric label error; endpoint adjudication is a hard design requirement. |
 | Progression power covariate/event-time extension | todo | Add a blinded-design route for source/treatment adjustment and time-to-event censoring; no received score access. |
 | Progression P1/P2 blinded preregistration template | todo | Pre-specify endpoint/timepoint, event censoring, covariates, interaction, missingness, and analysis budget without received scores. |
 | Progression validator malformed-input expansion | todo | Add duplicate, unknown, nonexistent-path, unverified, and zero-nonmissing actual-mode regression cases. |
@@ -203,3 +203,10 @@ project's evidence standard.
   donors, OXPHOS retained direction but was null and LODO-unstable; lysosomal
   reversed near zero. The pooled morphology coefficients are substantially
   between-donor or unresolved. Active time accrued: 1h23m22s.
+- 2026-07-21T22:25:22Z: Closed both simulation objections. The default null
+  grid is acceptably calibrated: the 0.060 maximum is 90/1,500 (Wilson
+  `0.049-0.073`), no cell's lower bound exceeds 0.05, and the 48-cell
+  binomial-reference max-tail is `0.895`. A further 576,000 synthetic cohorts
+  show material sensitivity to outcome error: 80%-passing scenarios decline
+  from 7/24 to 4/24 at 5% and 3/24 at 10%. No rate is presented as an empirical
+  MS or PIRA estimate. Active time accrued: 1h26m52s.

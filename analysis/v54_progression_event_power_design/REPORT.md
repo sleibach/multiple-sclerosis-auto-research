@@ -1,5 +1,10 @@
 # V54 Progression-Event Power Design
 
+> Later method audits: `analysis/v54_progression_power_calibration_audit/`
+> finds the 0.060 null maximum compatible with finite-grid variation, while
+> `analysis/v54_progression_power_label_noise/` shows material power loss at
+> 5% and 10% symmetric label error. Both are synthetic method behavior.
+
 All outputs are synthetic method behavior, not biological evidence.
 
 The default grid simulated 288,000 cohorts across 192 cells and 3 seeds. Median null false-positive rate was `0.043` and the maximum grid-cell null rate was `0.060`.

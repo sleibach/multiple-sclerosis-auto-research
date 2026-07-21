@@ -65,3 +65,19 @@ competing risks are not represented in the default model. Therefore:
 
 The outputs are under `analysis/v54_progression_event_power_design/` and are
 permanently labeled synthetic.
+
+## Later Frozen Audits
+
+The default null grid was formally calibrated in
+`analysis/v54_progression_power_calibration_audit/`. Its maximum false-pass
+rate, `0.060`, is 90/1,500 with Wilson 95% CI `0.049-0.073`; no aggregate
+cell's lower interval bound exceeds nominal 0.05. The 48-cell binomial-reference
+tail for a maximum at least this large is `0.895`, so no alpha correction was
+triggered.
+
+The frozen label-noise extension is in
+`analysis/v54_progression_power_label_noise/` and adds 576,000 seeded synthetic
+cohorts at 5% and 10% symmetric outcome-label error. Passing scenarios decline
+from 7/24 to 4/24 and 3/24. These error rates are not empirical estimates;
+their role is to require endpoint-adjudication metadata before blinded design
+parameterization.

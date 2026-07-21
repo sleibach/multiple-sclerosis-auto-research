@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    40,
+    60,
+    80,
+    120,
+    160,
+    240
+  ],
+  "event_rates": [
+    0.15,
+    0.3
+  ],
+  "odds_ratios": [
+    1.0,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "missing_rates": [
+    0.0,
+    0.2
+  ],
+  "molecular_repeats": [
+    1,
+    2
+  ],
+  "measurement_reliability": 0.7,
+  "label_noise": 0.1,
+  "alpha": 0.05,
+  "replicates_per_seed": 500,
+  "seeds": [
+    54701,
+    54702,
+    54703
+  ],
+  "primary_test": "two-sided single-predictor logistic Wald test; positive sign required under OR>1",
+  "minimum_valid_counts": "usable n>=20 and at least 5 events and 5 non-events",
+  "boundary": "Method-design assumptions only; not an empirical MS effect or biological claim."
+}

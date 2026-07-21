@@ -1,0 +1,17 @@
+{
+  "purpose": "Synthetic null calibration audit; no biological claim",
+  "synthetic": true,
+  "n_aggregate_null_cells": 48,
+  "n_seed_null_cells": 144,
+  "nominal_alpha": 0.05,
+  "median_aggregate_false_pass_rate": 0.042999999999999955,
+  "maximum_aggregate_false_pass_rate": 0.06,
+  "maximum_wilson_interval": [
+    0.0490685293610026,
+    0.073179369672757
+  ],
+  "family_max_reference_p": 0.8949243250504153,
+  "n_cells_lower_ci_above_alpha": 0,
+  "verdict": "CALIBRATION_ACCEPTABLE",
+  "boundary": "Finite-simulation method behavior only; no empirical progression effect."
+}
