@@ -1,0 +1,22 @@
+{
+  "purpose": "Synthetic Cox assumption audit under non-proportional effects and informative censoring; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 225000,
+  "n_analysis_evaluations": 675000,
+  "n_aggregate_cells": 450,
+  "calibrated_censoring_mechanisms": [
+    "administrative_only",
+    "event_risk_dependent",
+    "independent",
+    "score_dependent"
+  ],
+  "invalid_censoring_mechanisms": [
+    "joint_score_event_risk"
+  ],
+  "whole_followup_cells_at_n320_event030": 20,
+  "crossing_whole_median_detection_calibrated": 0.14800000000000002,
+  "crossing_early_median_positive_call_calibrated": 0.883,
+  "crossing_late_median_negative_call_calibrated": 0.724,
+  "verdict": "COX_ROUTE_REQUIRES_CENSORING_AUDIT_AND_TIME_VARIATION_DIAGNOSTICS",
+  "boundary": "All values arise from seeded synthetic assumptions. They are method behavior, not empirical MS hazards, progression effects, or dropout rates."
+}

@@ -69,6 +69,7 @@ cannot measure progression rate or transition.
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
+| Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -641,6 +642,63 @@ independently demonstrated no-imbalance condition. A noisy expression-derived
 proxy cannot rescue the interaction. Any received package must rerun this grid
 from blinded pairing, outcome, compartment, composition reliability, and
 imbalance metadata before scores are accessed.
+
+## Event-Time Assumption Robustness
+
+Status: **the Cox route is calibrated only under compatible censoring and a
+single coefficient cannot exclude time-varying effects**.
+
+Artifacts:
+
+- frozen plan:
+  `docs/plans/PROGRESSION_EVENT_TIME_ASSUMPTION_ROBUSTNESS_V54.md`
+- simulator:
+  `scripts/v54_progression_event_time_assumption_robustness.py`
+- report:
+  `analysis/v54_progression_event_time_assumption_robustness/REPORT.md`
+- full grid:
+  `analysis/v54_progression_event_time_assumption_robustness/assumption_grid.tsv`
+- independent reference checks:
+  `analysis/v54_progression_event_time_assumption_robustness/reference_check/summary.json`
+
+The audit generated 225,000 unique synthetic piecewise-hazard cohorts and
+675,000 whole-follow-up, early-window, and late-landmark evaluations. It varied
+five fixed molecular-effect patterns, five censoring mechanisms, two event
+probabilities, three sample sizes, and three seeds. Scalar piecewise inversion,
+event/dropout calibration equations, and `statsmodels.PHReg` supplied four
+independent numerical checks; all pass, with maximum discrepancy `2.94e-15`.
+
+Administrative-only, independent, score-dependent, and event-risk-only
+censoring passed the frozen whole-follow-up null rule. Their family median null
+rates were `0.039-0.053`, maxima `0.053-0.057`, and family maximum-reference
+tails `0.497-0.875`. Covariate-dependent censoring is therefore not
+automatically invalid in this generator.
+
+Joint dependence on molecular state and latent event risk is different. It
+violates conditional independent censoring and creates reproducible false
+protective associations: the six null cells have median false-call probability
+`0.544`; the maximum is `0.795` (1193/1500, Wilson 95% CI
+`0.774-0.815`), and every significant call in that maximum cell is negative.
+Across sample-size/event cells the false-call rate rises from `0.101` to
+`0.795` as information accumulates. More data therefore reinforces the bias
+rather than repairing it.
+
+Non-proportionality creates a separate interpretation failure. At `n=320` and
+pre-censoring event probability `0.30`, the crossing HR pattern (`2.0` early,
+`0.5` late) is detected by the whole-follow-up coefficient only
+`0.127-0.157` across calibrated censoring regimes. The fixed diagnostics recover
+the expected early-positive direction in `0.412-0.894` and late-negative
+direction in `0.631-0.807`. The whole coefficient is averaging opposing
+associations; its null cannot establish absence of a time-varying effect.
+Window diagnostics themselves can be unfit at low event counts, so they are not
+a post-hoc rescue route.
+
+The operational boundary is two-part: a future P1 event-time package needs a
+blinded censoring audit capable of ruling out joint molecular-state/event-risk
+loss, and proportionality/time-variation diagnostics must be reported alongside
+the frozen whole-follow-up result. Any confirmatory time-varying coefficient or
+window contrast requires its own pre-score specification; comparing window
+p-values is prohibited.
 
 ## Multi-Lineage Adversarial Review
 

@@ -1,0 +1,5 @@
+check	maximum_absolute_difference	tolerance	pass
+piecewise_inverse_against_scalar_reference	0.0	1e-12	True
+baseline_event_probability_calibration	2.942091015256665e-15	1e-12	True
+dropout_probability_calibration	1.942890293094024e-15	1e-12	True
+cox_score_against_statsmodels_phreg	1.7763568394002505e-15	1e-10	True

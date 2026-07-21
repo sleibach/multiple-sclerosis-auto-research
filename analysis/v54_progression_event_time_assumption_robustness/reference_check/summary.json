@@ -1,0 +1,14 @@
+{
+  "purpose": "Independent numerical checks for the V54 event-time assumption audit",
+  "synthetic": true,
+  "references": [
+    "scalar piecewise inversion",
+    "direct probability equations",
+    "statsmodels.PHReg"
+  ],
+  "n_checks": 4,
+  "n_pass": 4,
+  "maximum_absolute_difference": 2.942091015256665e-15,
+  "overall_status": "PASS",
+  "boundary": "Synthetic numerical method checks only; no biological evidence."
+}

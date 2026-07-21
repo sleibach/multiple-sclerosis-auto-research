@@ -1,0 +1,53 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    120,
+    240,
+    320
+  ],
+  "event_probabilities_before_censoring": [
+    0.15,
+    0.3
+  ],
+  "effect_patterns": {
+    "null": [
+      1.0,
+      1.0
+    ],
+    "proportional": [
+      1.7,
+      1.7
+    ],
+    "early_only": [
+      2.2,
+      1.0
+    ],
+    "late_only": [
+      1.0,
+      2.2
+    ],
+    "crossing": [
+      2.0,
+      0.5
+    ]
+  },
+  "censoring_mechanisms": [
+    "administrative_only",
+    "independent",
+    "score_dependent",
+    "event_risk_dependent",
+    "joint_score_event_risk"
+  ],
+  "replicates_per_seed": 500,
+  "seeds": [
+    54901,
+    54902,
+    54903
+  ],
+  "piecewise_cut": 0.5,
+  "dropout_target": 0.25,
+  "measurement_reliability": 0.7,
+  "missing_rate": 0.1,
+  "alpha": 0.05,
+  "boundary": "Seeded synthetic method behavior only; not empirical MS evidence or an empirical dropout estimate."
+}

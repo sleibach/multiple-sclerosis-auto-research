@@ -64,7 +64,7 @@ project's evidence standard.
 | V37 progression evidence-grade delta | done | Artifact-checked 18-item delta: 12 V37 items carried, 6 post-V37 additions; 2 method-strengthened, 3 progression-narrowed, 1 negative reinforced, and no target/progression promotion. |
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
-| Event-time assumption robustness | in-progress | Frozen piecewise-hazard audit separates proportional, early, late, and crossing effects across five censoring mechanisms; whole-follow-up Cox remains the route under audit and window tests are diagnostic only. |
+| Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
 | Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
 | Event-time receipt diagnostics contract | todo | Convert any assumption-audit failure into blinded metadata/QC requirements without changing the frozen P1 analysis. |
@@ -271,3 +271,11 @@ project's evidence standard.
   non-independent joint score/event-risk mechanism. Window-specific tests are
   diagnostic only and cannot replace the frozen whole-follow-up Cox route.
   Active time accrued: 2h01m23s.
+- 2026-07-21T23:09:01Z: Completed 225,000 synthetic event-time cohorts and
+  675,000 whole/early/late evaluations. Administrative, independent,
+  score-dependent, and event-risk-only censoring pass the whole-follow-up null
+  rule. Joint score/event-risk censoring is strongly anti-conservative (null
+  median `0.544`, maximum `0.795`, all significant calls spurious-negative).
+  Crossing effects are largely canceled in one coefficient despite opposite
+  window signs. Four scalar/probability/PHReg reference checks pass to
+  `2.94e-15`. Active time accrued: 2h10m31s.
