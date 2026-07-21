@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "protocol_id": "SYNTHETIC_V54_CDP_PIRA_FIXTURE_PROTOCOL",
+  "endpoint_type": "pira",
+  "baseline_day": 0,
+  "components": {
+    "edss": {
+      "scale": "absolute",
+      "threshold": 1.0
+    },
+    "t25fw": {
+      "scale": "relative",
+      "threshold": 0.2
+    }
+  },
+  "component_rule": "all_components",
+  "confirmation_min_days": 180,
+  "confirmation_max_days": 240,
+  "pira_relapse_window_before_days": 90,
+  "pira_relapse_window_after_days": 30,
+  "pira_steroid_window_before_days": 30,
+  "pira_steroid_window_after_days": 30,
+  "terminal_censoring_fields": [
+    "treatment_switch",
+    "death",
+    "dropout"
+  ],
+  "boundary": "Synthetic endpoint-processing protocol only; not a clinical recommendation or biological claim."
+}

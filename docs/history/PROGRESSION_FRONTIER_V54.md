@@ -71,6 +71,7 @@ cannot measure progression rate or transition.
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
+| CDP/PIRA endpoint adjudicator | synthetic-verified | Eleven edge cases preserve confirmed, transient, context-excluded, missing-confirmation, censored, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -710,6 +711,18 @@ with the sensitivity panel required; unknown or outcome-related loss, missing
 censoring dates, missing time-variation diagnostics, prior score access, and
 window-p-value substitution all fail closed. This gate tightens receipt
 handling without modifying the frozen P1/P2 contract.
+
+Endpoint values themselves are handled by
+`scripts/v54_progression_endpoint_adjudication.py`, under the frozen synthetic
+test plan `docs/plans/PROGRESSION_ENDPOINT_ADJUDICATION_FIXTURES_V54.md`.
+Eleven synthetic fixtures pass their predeclared outcomes. The processor does
+not convert transient or component-discordant worsening into an event, does not
+convert missing or mistimed confirmation into a negative, and reports
+treatment-switch censoring before confirmation as inconclusive. A confirmed
+relapse-associated disability event remains eligible as CDP under the synthetic
+CDP declaration but is not relabeled PIRA. The embedded thresholds are fixture
+parameters only; a real cohort must supply its documented protocol before score
+access.
 
 ## Multi-Lineage Adversarial Review
 

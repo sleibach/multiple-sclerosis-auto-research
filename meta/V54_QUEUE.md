@@ -65,7 +65,7 @@ project's evidence standard.
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
 | Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
-| Progression endpoint adjudication fixtures | in-progress | Frozen synthetic protocol distinguishes confirmed, transient/discordant, context-excluded, missing-confirmation, censored, and invalid outcomes without changing any real-cohort endpoint. |
+| Progression endpoint adjudication fixtures | done | Eleven synthetic CDP/PIRA fixtures pass: confirmed, transient, missing/mistimed confirmation, relapse/steroid exclusion, component discordance, switch censoring, and invalid baseline. CDP and PIRA remain distinct. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | todo | Define which measured cell-fraction methods are sufficient for the conditionally calibrated P2 route; expression-derived proxy alone must fail closed under possible imbalance. |
@@ -290,3 +290,9 @@ project's evidence standard.
   including transient or discordant worsening, relapse/steroid exclusion,
   missing or mistimed confirmation, censoring before confirmation, and invalid
   baseline. Active time accrued: 2h15m22s.
+- 2026-07-21T23:16:19Z: Implemented the parameterized endpoint processor and
+  completed 11/11 synthetic regressions. A fixture-marker boolean identity bug
+  was exposed and fixed before commit. Confirmed CDP is retained where the same
+  worsening is PIRA-excluded by relapse; missing/mistimed confirmation and
+  pre-confirmation censoring remain inconclusive rather than negative. Active
+  time accrued: 2h17m49s.
