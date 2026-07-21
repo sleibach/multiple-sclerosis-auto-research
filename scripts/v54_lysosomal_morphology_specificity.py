@@ -275,6 +275,13 @@ def main() -> None:
     report = [
         "# V54 Lysosomal Morphology Specificity",
         "",
+        "> Later evidential-grade update: the fully adjusted endpoint does not pass",
+        "> Holm correction across the complete 12-test V54 post-result morphology",
+        "> sequence (`p=0.0861`). See",
+        "> `analysis/v54_post_result_morphology_multiplicity/REPORT.md`. The local",
+        "> coefficients below remain reproducible, but the claim is exploratory rather",
+        "> than globally gate-passing.",
+        "",
         f"Verdict: **{summary['verdict']}**.",
         "",
         "This post-result sensitivity re-tested the isolated GSE279972 lysosomal",

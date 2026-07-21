@@ -1,0 +1,16 @@
+{
+  "purpose": "Selection-risk audit across the complete V54 post-result morphology sequence",
+  "n_tests": 12,
+  "correction": "Holm across all 12 committed aggregate donor-wild p-values",
+  "n_global_holm_pass": 1,
+  "global_holm_pass_endpoints": [
+    {
+      "family": "lysosomal_specificity",
+      "endpoint": "resident_adjusted"
+    }
+  ],
+  "fully_adjusted_lysosomal_specificity_retained": false,
+  "mutually_adjusted_two_endpoint_state_retained": false,
+  "overall_verdict": "post_result_claims_downgraded_to_exploratory",
+  "boundary": "The audit can only lower wording. It does not erase coefficients and cannot establish progression, causality, disability, or intervention direction."
+}

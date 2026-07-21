@@ -50,11 +50,12 @@ cannot measure progression rate or transition.
 |---|---|---|
 | Progression-data semantic inventory | complete | Coverage and identifiability audit only; no biological claim. |
 | Source-balanced PPMS versus SPMS module comparison | no portable association; CD44/CXCR4 and IFN/APC inconclusive | Cross-sectional disease-stage association only; no transition or progression-rate inference. |
+| Source-by-stage interaction audit | no supported interaction | Five-module, 300,000-null sensitivity. Same-sign source effects remain descriptive; source/tissue equivalence is not established. |
 | Chronic-active edge plus foamy-morphology module test | no orthogonally supported module | Non-identical pathology contexts; no disability or treatment inference. |
-| Post-result lysosomal morphology specificity | survives tested transcript-state adjustment | Bounded foamy-morphology association only; no orthogonal chronic-active, progression, causal, or therapeutic support. |
+| Post-result lysosomal morphology specificity | exploratory after global sequential-family correction | Fully adjusted endpoint passes its local family but not Holm across all 12 post-result morphology tests (`p=0.0861`). |
 | RRMS-to-progressive transition identifiability | not identifiable in seven held datasets | Coverage boundary: no dataset has time-varying stage plus repeated disability/conversion; not a biological null. |
 | Second progression-lesion module family | no orthogonally supported module | OXPHOS is lower in foamy morphology but direction-discordant at chronic-active edges; resolution/MOCCI are inconclusive. |
-| OXPHOS-lysosomal foamy-state coupling | both survive mutual adjustment | Two separable transcript associations in one morphology cohort; neither has orthogonal progression support. |
+| OXPHOS-lysosomal foamy-state coupling | exploratory after global sequential-family correction | Local mutual-adjustment gates pass, but neither endpoint passes Holm across the complete 12-test post-result family. |
 | CNS-versus-peripheral progression localization | not identifiable | No held CNS/peripheral pair has a matched phenotype and complete design; GSE228330 baseline subtype is activity-confounded and lacks critical fields. This is not a peripheral null. |
 | Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
 | Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
@@ -86,6 +87,17 @@ inconclusive: pooled standardized SPMS-minus-PPMS beta `0.343`, HC3 95% CI
 The IFN/APC score was also same-direction but inconclusive. HLA regulation,
 MIF ligand, and lysosomal scores changed direction between sources and were
 not supported.
+
+A frozen follow-up explicitly tested all five source-by-stage interactions
+(`docs/plans/PROGRESSION_STAGE_SOURCE_INTERACTION_V54.md`;
+`analysis/v54_progressive_stage_source_interaction/`). None passed HC3,
+three-seed 300,000 wild-bootstrap, BH, and max-T gates. CD44/CXCR4 had nearly
+identical descriptive source effects (Amsterdam `0.319`, UK `0.372`;
+interaction `0.053`, 95% CI `-1.155` to `1.262`, wild `p=0.928`, max-T
+`p=1.000`). Lysosomal source heterogeneity remained inconclusive rather than
+supported (interaction `0.917`, CI `-0.373` to `2.208`, wild `p=0.153`). A
+null interaction with broad intervals is not evidence that source/tissue
+effects are equivalent.
 
 This result does not establish equivalence or absence: intervals remain wide.
 It does prevent upgrading the V53 CD44/CXCR4 state into a portable progressive-
@@ -133,8 +145,8 @@ led with.
 
 ## Lysosomal Morphology Specificity Sensitivity
 
-Status: **survives the tested transcript-state adjustments, within a narrow
-foamy-morphology boundary**.
+Status: **local sensitivity passes; globally exploratory after correction for
+the complete post-result sequence**.
 
 Executable audit:
 
@@ -153,8 +165,11 @@ coefficient was `0.517` (donor-clustered 95% CI `0.199` to `0.834`, donor-wild
 100,000 donor-wild replicates agreed, and all 21 leave-one-donor coefficients
 were positive (minimum `0.420`).
 
-This supports a reproducible association between the fixed lysosomal score and
-foamy morphology after the tested expression-state adjustments. It does **not**
+The coefficient is stable within this local, post-result sensitivity, but the
+fully adjusted endpoint does not pass the later global 12-test sequential-
+family audit (Holm `p=0.0861`). It must therefore be described as an
+exploratory post-result association rather than robust or gate-passing across
+V54. It does **not**
 establish measured cell-fraction independence: resident identity and MIMS are
 transcript-state proxies and are biologically entangled with foamy activation.
 More importantly, the association did not reproduce directionally in the three
@@ -232,7 +247,8 @@ or therapeutic-direction claim is supported.
 
 ## OXPHOS-Lysosomal Foamy-State Coupling
 
-Status: **both associations survive mutual adjustment in GSE279972**.
+Status: **both pass the local mutual-adjustment gate but are globally
+exploratory after sequential-family correction**.
 
 Executable audit:
 
@@ -249,11 +265,39 @@ the lysosomal coefficient retained `89.7%` (beta `0.463`, CI `0.111` to `0.816`,
 wild `p=0.0108`, max-endpoint `p=0.0518`). All 21 leave-one-donor fits retained
 both directions, and all three 100,000-replicate seeds agreed.
 
-This establishes only model-level separability of two transcript associations
-within one foamy-morphology cohort under the measured covariates. It does not
+The local models show separability under measured covariates, but the later
+global 12-test audit gives Holm `p=0.0960` for both endpoints. The two-endpoint
+state therefore does not retain global post-result family support and is
+exploratory. It does not
 establish independent biological pathways, metabolic or lysosomal flux,
 progression, causality, or an intervention direction. Both remain unreplicated
 in the paired chronic-active-edge context.
+
+## Global Post-Result Morphology Multiplicity Audit
+
+Status: **claim-level morphology results downgraded to exploratory**.
+
+Artifacts:
+
+- frozen plan:
+  `docs/plans/POST_RESULT_MORPHOLOGY_MULTIPLICITY_AUDIT_V54.md`
+- script: `scripts/v54_post_result_morphology_multiplicity.py`
+- report: `analysis/v54_post_result_morphology_multiplicity/REPORT.md`
+- complete family:
+  `analysis/v54_post_result_morphology_multiplicity/global_post_result_family.tsv`
+
+The full sequence contains 12 inferential endpoints: four lysosomal
+specificity variants, two mutual-adjustment endpoints, four stratum-transport
+tests, and two lesion-class interactions. Holm correction was applied to the
+committed donor-wild p-values and remains valid under arbitrary dependence.
+
+Only the partial `resident_adjusted` lysosomal model passes globally (Holm
+`p=0.0145`). It is not the fully adjusted endpoint required by the specificity
+claim. The fully adjusted lysosomal endpoint has Holm `p=0.0861`; mutually
+adjusted OXPHOS and lysosomal each have Holm `p=0.0960`. Thus neither the
+specificity claim nor the two-endpoint state retains global family support.
+The numerical coefficients remain useful descriptive context, but the correct
+evidence label is **exploratory post-result morphology association**.
 
 ## CNS-Versus-Peripheral Progression Localization
 
@@ -306,9 +350,10 @@ gate: progression-specific association, pathogenic direction, causal-node
 specificity, selective perturbation, collateral guardrails, and modality fit.
 None passed the first gate. CD44/CXCR4 remains a replicated MS microglial
 disease-state association but is not progression-specific or component-
-specific. OXPHOS-low and lysosomal-high are separable foamy-morphology
-associations, but neither transfers across the chronic-active context, measures
-flux, or identifies whether the state is damaging, compensatory, or reparative.
+specific. OXPHOS-low and lysosomal-high are exploratory post-result
+foamy-morphology coefficients after the global sequential-family audit;
+neither transfers across the chronic-active context, measures flux, or
+identifies whether the state is damaging, compensatory, or reparative.
 
 The held perturbation layer does not rescue the candidates: 24 signatures
 yielded zero replicated selective control nodes, the additive-pair audit had
@@ -373,9 +418,9 @@ stable leave-one-donor sign.
 This avoids the error of treating one subgroup's nominal direction and another
 subgroup's p-value as formal heterogeneity. The null interactions do not prove
 equal effects: intervals are broad and the same data triggered the test. Taken
-together with failed stratum transport, the correct label is **pooled,
-lesion-context-bounded morphology association with unresolved transport**, not
-a portable lesion program.
+together with failed stratum transport and the later global multiplicity
+audit, the correct label is **exploratory pooled morphology association with
+unresolved lesion transport**, not a portable lesion program.
 
 ## Progression-Cohort Acquisition Contract
 

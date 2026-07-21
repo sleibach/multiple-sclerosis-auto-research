@@ -1,0 +1,13 @@
+family	endpoint	raw_donor_wild_p	local_family_p	local_gate_pass	source_table	holm_p_across_12	bonferroni_p_across_12	global_holm_pass	retains_local_and_global_gate
+lysosomal_specificity	base	0.0046266512444958	0.0596164679451068	True	analysis/v54_lysosomal_morphology_specificity/specificity_models.tsv	0.050893163689453805	0.0555198149339496	False	False
+lysosomal_specificity	resident_adjusted	0.0012066626444578	0.0012066626444578	True	analysis/v54_lysosomal_morphology_specificity/specificity_models.tsv	0.014479951733493599	0.014479951733493599	True	True
+lysosomal_specificity	mims_adjusted	0.0124566251445828	0.188936036879877	True	analysis/v54_lysosomal_morphology_specificity/specificity_models.tsv	0.09596968010106571	0.14947950173499358	False	False
+lysosomal_specificity	resident_and_mims_adjusted	0.0086099713000956	0.0452631824560584	True	analysis/v54_lysosomal_morphology_specificity/specificity_models.tsv	0.08609971300095601	0.1033196556011472	False	False
+mutual_adjustment	oxphos	0.0106632977890073	0.0113832953890153	True	analysis/v54_oxphos_lysosomal_coupling/mutual_adjustment_tests.tsv	0.09596968010106571	0.12795957346808762	False	False
+mutual_adjustment	lysosomal_unique	0.0107732974223419	0.0518264939116869	True	analysis/v54_oxphos_lysosomal_coupling/mutual_adjustment_tests.tsv	0.09596968010106571	0.1292795690681028	False	False
+lesion_stratum_transport	class_2:oxphos	0.2770824097253009	0.816850610497965	False	analysis/v54_foamy_state_lesion_stratum_transport/stratum_tests.tsv	1.0	1.0	False	False
+lesion_stratum_transport	class_2:lysosomal_unique	0.9420368598771336	0.9999900000333332	False	analysis/v54_foamy_state_lesion_stratum_transport/stratum_tests.tsv	1.0	1.0	False	False
+lesion_stratum_transport	class_3:oxphos	0.1484528384905383	0.165792780690731	False	analysis/v54_foamy_state_lesion_stratum_transport/stratum_tests.tsv	0.8907170309432298	1.0	False	False
+lesion_stratum_transport	class_3:lysosomal_unique	0.2970690097699674	0.73910420298599	False	analysis/v54_foamy_state_lesion_stratum_transport/stratum_tests.tsv	1.0	1.0	False	False
+lesion_class_interaction	oxphos	0.7897207009309969	0.9403868653771154	False	analysis/v54_foamy_lesion_heterogeneity/interaction_tests.tsv	1.0	1.0	False	False
+lesion_class_interaction	lysosomal_unique	0.9889233702554324	0.9999266669111104	False	analysis/v54_foamy_lesion_heterogeneity/interaction_tests.tsv	1.0	1.0	False	False

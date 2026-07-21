@@ -45,6 +45,11 @@ project's evidence standard.
 | Progression intervention-direction map | done | Sequential audit of 9 states: 0 pass the progression-specific gate, 0 target revisits. V53 context supplies 0 replicated selective control nodes, 0 additive-pair passes, and 0 consensus causal orientations. |
 | AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
 | Multi-lineage adversarial progression review | in-progress | Claude and Gemini produced 12 proposal-only objections. Two new audits are frozen: five-module source-by-stage interaction and global correction over the complete 12-test post-result morphology sequence. Grounding is underway. |
+| Macnair source-by-stage interaction review check | done | Five modules, 44 donors, 300k reduced-model wild nulls. No interaction passes. CD44/CXCR4 source effects are nearly equal but imprecise; lysosomal heterogeneity is inconclusive. |
+| Global post-result morphology multiplicity audit | done | Holm across all 12 sequential follow-up tests. Only a partial resident-adjusted variant passes; fully adjusted lysosomal and both mutual-adjustment endpoints fail. Claim-level morphology wording downgraded to exploratory. |
+| Foamy donor/lesion estimand and influence audit | todo | Replace the proposed invalid donor-by-lesion Fisher test with block-coverage and donor-deletion influence diagnostics; quantify how much pooled inference is between-donor. |
+| Progression power calibration and assumption audit | todo | Ground both model objections: per-seed null-FPR uncertainty and pessimistic label-noise/dropout regimes, with no empirical-MS interpretation. |
+| Multi-lineage objection disposition table | todo | Close all 12 objections as held/failed/already-addressed/blocked with committed evidence; model assertions remain proposal-only external records. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
 | Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
 | Progression-event power design skeleton | done | 288k synthetic cohorts/3 seeds/192 cells; null FPR median 0.043, max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 not by n=240. Assumption-labeled, not empirical. |
@@ -181,7 +186,14 @@ project's evidence standard.
   effect or universal N target. Active time accrued: 1h05m26s.
 - 2026-07-21T22:10:32Z: Claude and Gemini independently returned six
   progression-method objections each. Their outputs were segregated as
-  external-unverifiable proposal records. Multi-lineage agreement prioritizes
+  proposal-only external records. Multi-lineage agreement prioritizes
   the Macnair source-by-stage interaction; Claude also identified a substantive
   family-definition issue across the sequential morphology follow-ups. Both
   audits were frozen before execution. Active time accrued: 1h12m02s.
+- 2026-07-21T22:16:23Z: Grounded the two priority review checks. No Macnair
+  source-by-stage interaction passed the frozen five-module gate. The complete
+  12-test post-result morphology family produced a substantive downgrade: the
+  required fully adjusted lysosomal endpoint (Holm `p=0.0861`) and both
+  mutually adjusted endpoints (each `p=0.0960`) fail global family control.
+  Their coefficients remain descriptive, but V54 now labels them exploratory
+  post-result morphology associations. Active time accrued: 1h17m53s.

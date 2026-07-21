@@ -1,5 +1,11 @@
 # V54 OXPHOS-Lysosomal Foamy-State Coupling
 
+> Later evidential-grade update: neither endpoint passes Holm correction across
+> the complete 12-test V54 post-result morphology sequence (both `p=0.0960`).
+> See `analysis/v54_post_result_morphology_multiplicity/REPORT.md`. The local
+> coefficients below remain reproducible, but the two-endpoint claim is
+> exploratory rather than globally gate-passing.
+
 Verdict: **BOTH_MORPHOLOGY_ASSOCIATIONS_SEPARABLE_UNDER_TESTED_MODEL**.
 
 This post-result sensitivity mutually adjusted the two disjoint transcript
