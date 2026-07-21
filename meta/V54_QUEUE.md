@@ -47,7 +47,9 @@ project's evidence standard.
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
 | Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
-| Progression-event power design skeleton | todo | Build a pre-data simulation interface parameterized by received event rate, follow-up, missingness, and repeated measures; do not borrow V43 treatment-response power as progression power. |
+| Progression-event power design skeleton | done | 288k synthetic cohorts/3 seeds/192 cells; null FPR median 0.043, max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 not by n=240. Assumption-labeled, not empirical. |
+| Progression power label-noise sensitivity | todo | Quantify outcome misclassification at 5%/10% and dropout interactions on the default grid, keeping all outputs synthetic and assumption-labeled. |
+| Progression power covariate/event-time extension | todo | Add a blinded-design route for source/treatment adjustment and time-to-event censoring; no received score access. |
 | Progression P1/P2 blinded preregistration template | todo | Pre-specify endpoint/timepoint, event censoring, covariates, interaction, missingness, and analysis budget without received scores. |
 | Progression validator malformed-input expansion | todo | Add duplicate, unknown, nonexistent-path, unverified, and zero-nonmissing actual-mode regression cases. |
 | Progression outcome semantic checker | todo | Machine-check that relapse-only, morphology-only, stage-only, or pharmacodynamic labels cannot be accepted as disability/PIRA endpoints. |
@@ -172,3 +174,8 @@ project's evidence standard.
   pass; missing outcome, pairing/composition/batch, or progression-prequalified
   functional fields fail closed. A pass is intake readiness only. Active time
   accrued: 1h02m22s.
+- 2026-07-21T22:03:56Z: Completed a 288,000-cohort, three-seed synthetic
+  progression-event power grid. Null FPR was calibrated (median `0.043`, maximum
+  `0.060`). Only 7/24 non-null scenarios reached 80%; assumed OR 1.25/1.5 did
+  not by `n=240`. This is method-design evidence only, not an empirical MS
+  effect or universal N target. Active time accrued: 1h05m26s.

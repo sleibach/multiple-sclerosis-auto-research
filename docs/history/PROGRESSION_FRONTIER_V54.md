@@ -61,6 +61,7 @@ cannot measure progression rate or transition.
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
 | Progression-package eligibility validator | synthetic-verified | Six synthetic inventories behave as expected: complete P1/P2/P3 pass and malformed role packages fail closed. Method behavior only. |
+| Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -418,3 +419,32 @@ complete P1/P2/P3 fixtures pass and three fixtures missing outcome, pairing, or
 functional/prequalification fields fail closed. Real-package source paths must
 exist. A pass means only inventory-complete enough for blinded pre-registration
 and data-level validation; it is not a data-quality or biological result.
+
+## Progression-Event Power Design
+
+Status: **synthetic assumption grid complete; no biological claim**.
+
+Artifacts:
+
+- script: `scripts/v54_progression_event_power_design.py`
+- documentation: `docs/validation/PROGRESSION_EVENT_POWER_DESIGN_V54.md`
+- report: `analysis/v54_progression_event_power_design/REPORT.md`
+- full grid: `analysis/v54_progression_event_power_design/power_grid.tsv`
+
+The parameterized simulator generated 288,000 synthetic cohorts over 192 grid
+cells and three seeds, varying N, progression-event rate, assumed odds ratio,
+20% molecular missingness, and one versus two noisy molecular measurements at
+reliability 0.70. It fits one frozen logistic Wald test and treats cohorts with
+fewer than five events or non-events as inconclusive.
+
+Null calibration was acceptable for this synthetic design (median grid-cell
+false-positive rate `0.043`, maximum `0.060`). Only 7 of 24 non-null assumption
+scenarios reached the pre-declared 80% conclusive threshold with every seed at
+least 75%. No OR `1.25` or `1.5` scenario reached 80% by `n=240`. OR `2.0`
+required `n=120-240` in the scenarios that passed; 15% event rate plus 20%
+missingness and one repeat still did not reach 80% at `n=240`.
+
+These are conditional method-design results, not empirical MS effect sizes or a
+universal recruitment target. The interface must be rerun from blinded receipt
+metadata using the actual event rate, missingness, repeat structure, endpoint,
+and multiplicity plan before any molecular score is viewed.
