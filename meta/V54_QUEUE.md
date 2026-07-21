@@ -35,7 +35,8 @@ project's evidence standard.
 | Progression-data inventory and semantic contract | done | Seven datasets/packages audited; only cross-sectional PPMS-vs-SPMS and small-n lesion-state proxies are testable. No held transcriptomic dataset has longitudinal disability outcomes. |
 | CD44/CXCR4 progressive-stage re-analysis | done | 44 source/tissue-compatible donors; 300k nulls. CD44/CXCR4 beta 0.343, CI -0.253 to 0.938, max-T p=0.787; same direction but inconclusive. No module passed the portable stage gate. |
 | Frozen source/tissue-balanced stage-test plan | done | Amsterdam WM plus UK GM, donor-equal inference, five pre-existing modules, three-seed 300k null, BH plus max-T, and cross-source direction gate fixed before execution. |
-| Smoldering-lesion / chronic-active microglia probe | in-progress | Frozen paired-donor GSE180759 plus donor-wild GSE279972 morphology analysis over six pre-existing modules; contexts explicitly non-identical. |
+| Smoldering-lesion / chronic-active microglia probe | done | Three exact active/inactive donor pairs plus 54 samples/21 donors and 300k wild nulls. No orthogonally supported module; receptor and lipid inconclusive, others not supported. |
+| GSE279972 lysosomal morphology specificity audit | todo | Post-result sensitivity: test whether the isolated lysosomal foamy association survives independent microglial-abundance/state adjustment; no promotion regardless. |
 | Relapsing-to-progressive transition proxy audit | todo | Test whether held data contain true transition information; fail-close cross-sectional stage proxies that cannot identify transition. |
 | Progression-specific module panel | todo | Pre-specify microglial, complement/lipid, mitochondrial, senescence, iron/myelin-clearance, and remyelination panels; test only on semantically eligible held data. |
 | CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
@@ -73,3 +74,12 @@ project's evidence standard.
   and IFN/APC were same-direction across Amsterdam and UK but statistically
   inconclusive; HLA, MIF, and lysosomal effects were direction-discordant. No
   progression, target, or therapeutic claim was upgraded.
+- 2026-07-21T21:17:30Z: Completed the frozen two-dataset lesion-state test.
+  No module passed the orthogonal-context gate. CD44/CXCR4 was positive in all
+  three active/inactive pairs but null in the 21-donor morphology cohort;
+  lysosomal state passed the morphology family-wise gate but was not consistent
+  across active-edge donors. The isolated lysosomal result is queued for a
+  composition-specificity sensitivity and is not a progression or target lead.
+- 2026-07-21T21:18:29Z: Iteration 3 ready for verification and commit. Active
+  time accrued through this checkpoint: 0h19m59s; the resumed interval remains
+  open.

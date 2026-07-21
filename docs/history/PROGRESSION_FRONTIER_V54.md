@@ -50,6 +50,7 @@ cannot measure progression rate or transition.
 |---|---|---|
 | Progression-data semantic inventory | complete | Coverage and identifiability audit only; no biological claim. |
 | Source-balanced PPMS versus SPMS module comparison | no portable association; CD44/CXCR4 and IFN/APC inconclusive | Cross-sectional disease-stage association only; no transition or progression-rate inference. |
+| Chronic-active edge plus foamy-morphology module test | no orthogonally supported module | Non-identical pathology contexts; no disability or treatment inference. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -79,3 +80,42 @@ This result does not establish equivalence or absence: intervals remain wide.
 It does prevent upgrading the V53 CD44/CXCR4 state into a portable progressive-
 stage marker from this package. Independent source-balanced tissue with
 longitudinal disability remains necessary.
+
+## Chronic-Active Edge And Foamy-Morphology Test
+
+Status: **no orthogonally supported progression-lesion module**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_LESION_STATE_TEST_V54.md`
+- script: `scripts/v54_progression_lesion_state.py`
+- report: `analysis/v54_progression_lesion_state/REPORT.md`
+- cross-context outcomes:
+  `analysis/v54_progression_lesion_state/cross_context_outcomes.tsv`
+
+GSE180759 was rebuilt from deposited counts as donor x pathology immune
+pseudobulks with at least 20 nuclei. Only three donors had paired chronic-active
+and chronic-inactive edges, making `0.25` the smallest possible exact two-sided
+p-value. GSE279972 contributed 54 foamy/non-foamy MS samples from 21 donors;
+models adjusted deposited lesion class and B-cell/APC composition and used
+300,000 donor-wild nulls.
+
+No module passed the frozen cross-context rule:
+
+- CD44/CXCR4 was higher at the active edge in all three paired donors (mean
+  standardized difference `1.148`, exact `p=0.25`) but was null in the larger
+  morphology cohort (adjusted beta `0.025`, wild `p=0.912`).
+- Lysosomal state passed the GSE279972 family-wise morphology gate (beta
+  `0.493`, wild `p=0.00452`, BH `q=0.0271`, max-T `p=0.0500`, leave-one-donor
+  direction retained) but changed active-edge direction across the three
+  GSE180759 donors, so it is not an orthogonally supported progression signal.
+- Lipid repair was positive in all three active-edge pairs and positive in the
+  morphology cohort, but failed max-T control there (`p=0.223`) and remains
+  inconclusive.
+- HLA regulation, IFN/APC, and complement were direction-discordant or null.
+
+The isolated lysosomal morphology association is a pathology-context result,
+not a progression or target result. Because foamy morphology can encode
+microglial abundance/state by construction, a post-result composition-
+specificity sensitivity is required before even that bounded interpretation is
+led with.
