@@ -42,8 +42,8 @@ project's evidence standard.
 | Progression-specific module panel | done | No orthogonally supported module. OXPHOS is lower in foamy morphology (max-module p=0.0357) but direction-discordant across chronic-active pairs; resolution and MOCCI are inconclusive. |
 | OXPHOS-versus-lysosomal foamy-state coupling sensitivity | done | Both survive mutual adjustment: OXPHOS beta -0.562, max-endpoint p=0.0114; lysosomal beta 0.463, max-endpoint p=0.0518; all LODO directions stable. Morphology-only. |
 | CNS-intrinsic versus peripheral APC separation | done | No eligible compartment pair. GSE228330 baseline has RRMS n=10/SPMS n=5 and subtype/activity confounding (Fisher p=0.01698), plus no verified map, processed matrix, batch/composition, or disability. Localization is not identifiable, not a peripheral null. |
-| Progression intervention-direction map | todo | For any supported state, require a favorable, direction-resolved perturbation and collateral guardrails before tractability discussion. |
-| AlphaFold progression-axis context | todo | Use predicted structure only for confidence-qualified modality context after a grounded progression association exists. |
+| Progression intervention-direction map | done | Sequential audit of 9 states: 0 pass the progression-specific gate, 0 target revisits. V53 context supplies 0 replicated selective control nodes, 0 additive-pair passes, and 0 consensus causal orientations. |
+| AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | todo | Convert identified evidence gaps into exact donor, source-balance, stage, disability, tissue, and longitudinal requirements. |
 | Joint foamy-state lesion-stratum transport sensitivity | todo | Test whether the OXPHOS-low/lysosomal-high morphology state persists within adequately populated deposited lesion strata; freeze eligibility before testing. |
@@ -132,3 +132,9 @@ project's evidence standard.
   trajectory. No peripheral expression test was run; the result is an
   identifiability boundary, not a biological null. Active time accrued:
   0h44m58s.
+- 2026-07-21T21:47:09Z: Completed the frozen intervention-direction map over
+  nine pre-existing states. Zero passes the first progression-specific gate;
+  held V53 perturbations add zero replicated selective control nodes, zero
+  corrected additive-pair passes, and zero consensus causal orientations.
+  AlphaFold context is ineligible and was not used. Active time accrued:
+  0h48m39s.

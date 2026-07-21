@@ -56,6 +56,7 @@ cannot measure progression rate or transition.
 | Second progression-lesion module family | no orthogonally supported module | OXPHOS is lower in foamy morphology but direction-discordant at chronic-active edges; resolution/MOCCI are inconclusive. |
 | OXPHOS-lysosomal foamy-state coupling | both survive mutual adjustment | Two separable transcript associations in one morphology cohort; neither has orthogonal progression support. |
 | CNS-versus-peripheral progression localization | not identifiable | No held CNS/peripheral pair has a matched phenotype and complete design; GSE228330 baseline subtype is activity-confounded and lacks critical fields. This is not a peripheral null. |
+| Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -282,3 +283,34 @@ eligible peripheral comparison exists. A valid localization test needs the
 same stage or longitudinal disability contrast in CNS/CSF and blood, verified
 subjects, adequate group sizes, source/activity/treatment and composition
 controls, and a formal compartment interaction.
+
+## Progression Intervention-Direction Map
+
+Status: **no progression-direction-resolved intervention route**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_INTERVENTION_DIRECTION_MAP_V54.md`
+- script: `scripts/v54_progression_intervention_direction_map.py`
+- report: `analysis/v54_progression_intervention_direction_map/REPORT.md`
+- candidate map:
+  `analysis/v54_progression_intervention_direction_map/progression_intervention_direction_map.tsv`
+
+Nine pre-existing candidate states were tested through a sequential target
+gate: progression-specific association, pathogenic direction, causal-node
+specificity, selective perturbation, collateral guardrails, and modality fit.
+None passed the first gate. CD44/CXCR4 remains a replicated MS microglial
+disease-state association but is not progression-specific or component-
+specific. OXPHOS-low and lysosomal-high are separable foamy-morphology
+associations, but neither transfers across the chronic-active context, measures
+flux, or identifies whether the state is damaging, compensatory, or reparative.
+
+The held perturbation layer does not rescue the candidates: 24 signatures
+yielded zero replicated selective control nodes, the additive-pair audit had
+zero corrected prioritization passes, and ten frozen causal skeleton variants
+had zero consensus edge orientations. These are current-data boundaries, not
+proof that intervention cannot work.
+
+AlphaFold context was not invoked because no candidate reached the modality-fit
+gate. Predicted structure would not resolve progression association, pathogenic
+direction, or causal specificity. No V52/V53 target closure changes.
