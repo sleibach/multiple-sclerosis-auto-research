@@ -36,7 +36,7 @@ project's evidence standard.
 | CD44/CXCR4 progressive-stage re-analysis | done | 44 source/tissue-compatible donors; 300k nulls. CD44/CXCR4 beta 0.343, CI -0.253 to 0.938, max-T p=0.787; same direction but inconclusive. No module passed the portable stage gate. |
 | Frozen source/tissue-balanced stage-test plan | done | Amsterdam WM plus UK GM, donor-equal inference, five pre-existing modules, three-seed 300k null, BH plus max-T, and cross-source direction gate fixed before execution. |
 | Smoldering-lesion / chronic-active microglia probe | done | Three exact active/inactive donor pairs plus 54 samples/21 donors and 300k wild nulls. No orthogonally supported module; receptor and lipid inconclusive, others not supported. |
-| GSE279972 lysosomal morphology specificity audit | todo | Post-result sensitivity: test whether the isolated lysosomal foamy association survives independent microglial-abundance/state adjustment; no promotion regardless. |
+| GSE279972 lysosomal morphology specificity audit | in-progress | Four-model post-result sensitivity frozen: resident identity and de-overlapped MIMS state, 300k donor-wild nulls, max-variant and LODO gates. |
 | Relapsing-to-progressive transition proxy audit | todo | Test whether held data contain true transition information; fail-close cross-sectional stage proxies that cannot identify transition. |
 | Progression-specific module panel | todo | Pre-specify microglial, complement/lipid, mitochondrial, senescence, iron/myelin-clearance, and remyelination panels; test only on semantically eligible held data. |
 | CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
