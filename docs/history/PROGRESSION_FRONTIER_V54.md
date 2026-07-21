@@ -53,6 +53,7 @@ cannot measure progression rate or transition.
 | Chronic-active edge plus foamy-morphology module test | no orthogonally supported module | Non-identical pathology contexts; no disability or treatment inference. |
 | Post-result lysosomal morphology specificity | survives tested transcript-state adjustment | Bounded foamy-morphology association only; no orthogonal chronic-active, progression, causal, or therapeutic support. |
 | RRMS-to-progressive transition identifiability | not identifiable in seven held datasets | Coverage boundary: no dataset has time-varying stage plus repeated disability/conversion; not a biological null. |
+| Second progression-lesion module family | no orthogonally supported module | OXPHOS is lower in foamy morphology but direction-discordant at chronic-active edges; resolution/MOCCI are inconclusive. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -181,3 +182,42 @@ and microbiome datasets answer different bounded questions.
 
 No transition-association analysis is therefore permitted. This is a semantic
 and coverage boundary, not evidence that transition biology is absent.
+
+## Second Progression-Lesion Module Family
+
+Status: **no orthogonally supported module**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_LESION_MODULE_PANEL_V54.md`
+- script: `scripts/v54_progression_lesion_module_panel.py`
+- report: `analysis/v54_progression_lesion_module_panel/REPORT.md`
+- cross-context outcomes:
+  `analysis/v54_progression_lesion_module_panel/cross_context_outcomes.tsv`
+
+Five project-pre-existing modules were tested in the same three paired
+chronic-active/chronic-inactive donors and 54 foamy/nonfoamy samples from 21
+donors. The morphology models adjusted lesion class, B/APC composition,
+resident-microglia identity, and de-overlapped MIMS state, with 300,000
+donor-wild nulls and family-wise control.
+
+No module passed the frozen orthogonal-context gate:
+
+- OXPHOS was lower in foamy samples (adjusted beta `-0.622`, clustered 95% CI
+  `-1.002` to `-0.242`, donor-wild `p=0.00907`, BH `q=0.0453`, max-module
+  `p=0.0357`, leave-one-donor direction retained), but only two of three
+  chronic-active pairs had a positive active-minus-inactive difference. The
+  contexts are direction-discordant, so this is a bounded morphology result,
+  not progression support.
+- Resolution/efferocytosis was higher in all three active-edge pairs but null
+  in the morphology cohort (beta `0.076`, wild `p=0.693`) and remains
+  inconclusive.
+- The signed MOCCI switch was higher in all three active-edge pairs and weakly
+  positive in morphology (beta `0.303`, wild `p=0.241`), also inconclusive.
+- NRF2 antioxidant response and stress/cytotoxicity did not transfer across
+  contexts.
+
+Iron handling and cellular senescence remain untested because no frozen
+project-local module exists. Resolution/efferocytosis is a transcript proxy,
+not measured myelin clearance or remyelination. No disability, causal, target,
+or therapeutic-direction claim is supported.
