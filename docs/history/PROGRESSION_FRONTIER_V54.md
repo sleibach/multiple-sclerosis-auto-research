@@ -59,6 +59,7 @@ cannot measure progression rate or transition.
 | Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
 | Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
+| Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -373,3 +374,28 @@ equal effects: intervals are broad and the same data triggered the test. Taken
 together with failed stratum transport, the correct label is **pooled,
 lesion-context-bounded morphology association with unresolved transport**, not
 a portable lesion program.
+
+## Progression-Cohort Acquisition Contract
+
+Status: **complete operational specification; no biological claim**.
+
+Artifacts:
+
+- `docs/validation/PROGRESSION_COHORT_ACQUISITION_SPEC_V54.md`
+- `docs/validation/input_schemas/V54_progression_cohort_required_fields.tsv`
+
+The contract separates three roles that the held corpus cannot currently
+support: longitudinal disability/PIRA association, paired CNS/CSF-versus-blood
+localization, and functional intervention direction. Its 64 unique required
+fields include verified subject/visit links, raw disability components and
+protocol definitions, relapse/steroid/infection and treatment history, MRI and
+optional paramagnetic-rim lesion time, expression/QC/batch/composition, paired
+compartment links, and perturbation functional/collateral readouts.
+
+Relapse, cross-sectional stage, lesion morphology, and pharmacodynamics are
+explicitly prohibited as substitutes for disability accumulation. The contract
+does not assert a powered progression sample size from the current data; fewer
+than 10 independent events is descriptive-only, while every larger received
+cohort still requires a pre-score power simulation and frozen outcome/timepoint
+plan. Missing critical fields fail the relevant role closed rather than
+becoming a biological null.

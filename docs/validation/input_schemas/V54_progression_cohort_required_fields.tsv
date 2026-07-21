@@ -1,0 +1,65 @@
+field	level	required_for	type_or_format	why_needed	missing_action
+subject_id	subject	P1;P2	nonempty stable string	link all samples visits outcomes imaging and treatment	REJECT_ROLE
+sample_id	sample	P1;P2	unique nonempty string	link molecular matrix to metadata	REJECT_ROLE
+visit_id	visit	P1;P2	unique within subject	link repeated measures	REJECT_ROLE
+collection_date	sample	P1;P2	ISO-8601 date	order molecular time and align clinical events	REJECT_ROLE
+days_from_baseline	sample	P1;P2	integer >=0	freeze molecular timing	REJECT_ROLE
+compartment	sample	P1;P2	blood;PBMC;sorted_cell;CSF;other_declared	define compartment and interaction	P2_REJECT_IF_MISSING
+cell_type_or_bulk	sample	P1;P2	controlled label	define within-cell versus bulk interpretation	REJECT_ROLE
+ms_course	visit	P1;P2	RRMS;SPMS;PPMS;other_declared	avoid substituting cross-sectional stage for transition	REJECT_ROLE
+course_adjudication_method	subject	P1;P2	text/protocol reference	verify stage definition	REQUEST_ADDENDUM
+age_at_collection	sample	P1;P2	numeric years	control age-stage confounding	REQUEST_ADDENDUM
+sex	subject	P1;P2	declared categories	control demographic imbalance	REQUEST_ADDENDUM
+ancestry_or_genotype_pcs	subject	P1	declared ancestry or PC columns	control population structure if genetics used	GENETICS_ROLE_REJECT
+edss_value	visit	P1	numeric and valid protocol range	measure disability trajectory	REJECT_ROLE
+edss_assessment_date	visit	P1	ISO-8601 date	align confirmation and relapse windows	REJECT_ROLE
+edss_confirmed_change	visit	P1	yes;no;not_applicable	identify confirmed progression	REQUEST_ADDENDUM
+t25fw_value	visit	P1	numeric or explicitly not_collected	provide functional disability component	REPORT_MISSING
+nine_hole_peg_value	visit	P1	numeric or explicitly not_collected	provide functional disability component	REPORT_MISSING
+progression_event	subject_or_visit	P1	yes;no	primary event candidate	REJECT_ROLE
+progression_definition	subject_or_protocol	P1	exact protocol text/version	prevent post-hoc outcome construction	REJECT_ROLE
+progression_confirmation_interval_days	subject_or_protocol	P1	integer or protocol value	verify sustained event definition	REJECT_ROLE
+pira_label	subject_or_visit	P1	yes;no;not_adjudicated	separate relapse-independent accumulation	REQUEST_ADDENDUM
+pira_definition	subject_or_protocol	P1	exact protocol text/version	prevent relapse-window substitution	REJECT_PIRA_ANALYSIS
+relapse_onset_date	event	P1	ISO-8601 date	apply frozen relapse exclusion window	REJECT_PIRA_IF_MISSING
+relapse_recovery_date	event	P1	ISO-8601 date or ongoing	avoid transient disability misclassification	REQUEST_ADDENDUM
+steroid_start_date	event	P1	ISO-8601 date or none	control acute steroid effects	REJECT_PIRA_IF_MISSING
+steroid_dose_and_route	event	P1	text or none	quantify exposure context	REQUEST_ADDENDUM
+infection_date_and_status	event	P1	ISO-8601 plus status or none	control acute immune tone	REQUEST_ADDENDUM
+dmt_name	visit	P1;P2	standard drug name	control treatment context	REJECT_ROLE
+dmt_start_date	treatment	P1;P2	ISO-8601 date	align exposure with samples/outcomes	REJECT_ROLE
+dmt_stop_date	treatment	P1;P2	ISO-8601 date or ongoing	handle switches/censoring	REJECT_ROLE
+dmt_dose_or_infusion_date	treatment	P1;P2	ISO-8601 date or not_applicable	align pharmacodynamics	REQUEST_ADDENDUM
+treatment_switch_reason	treatment	P1	text or none	control informative switching	REQUEST_ADDENDUM
+mri_date	imaging	P1	ISO-8601 date	align imaging with molecular and disability time	REQUEST_ADDENDUM
+new_enlarging_t2_count	imaging	P1	integer or not_collected	separate focal activity from progression	REPORT_MISSING
+gadolinium_enhancing_count	imaging	P1	integer or not_collected	separate inflammatory activity	REPORT_MISSING
+prl_or_slowly_expanding_lesion_id	lesion	P1	string or not_collected	link chronic-active imaging biology	REPORT_MISSING
+prl_detection_protocol	imaging	P1	protocol/version or not_collected	audit imaging phenotype semantics	REPORT_MISSING
+prl_persistence_or_change	lesion	P1	repeated numeric/category or not_collected	measure lesion persistence rather than cross-section	REPORT_MISSING
+expression_file	sample	P1;P2	path/manifest identifier	locate molecular values	REJECT_ROLE
+expression_scale	sample_or_file	P1;P2	raw_counts;log_normalized;other_documented	avoid normalization degrees of freedom	REJECT_ROLE
+feature_annotation_file	file	P1;P2	path/manifest identifier	verify frozen module coverage	REJECT_ROLE
+feature_id_version	file	P1;P2	Ensembl/probe/symbol version	prevent ambiguous mapping	REJECT_ROLE
+processing_batch	sample	P1;P2	nonempty category	detect outcome-correlated batch	REJECT_ROLE
+collection_site	sample	P1;P2	nonempty category	control source/site confounding	REJECT_ROLE
+library_or_array_platform	sample	P1;P2	platform identifier	freeze processing route	REJECT_ROLE
+rin_or_quality_metric	sample	P1;P2	numeric plus metric name	audit molecular quality	REQUEST_ADDENDUM
+library_depth_or_array_qc	sample	P1;P2	numeric/status	audit sample quality	REQUEST_ADDENDUM
+cell_count_file	sample	P1;P2	path/manifest identifier or not_collected	separate composition from within-cell state	P2_REJECT_IF_BULK_AND_MISSING
+paired_compartment_sample_id	sample	P2	sample_id or none	verify compartment pairing	P2_REJECT_IF_MISSING
+perturbation_id	experiment	P3	unique nonempty string	link intervention conditions	P3_REJECT_IF_MISSING
+perturbation_target	experiment	P3	gene/protein/module	define component specificity	P3_REJECT_IF_MISSING
+perturbation_direction	experiment	P3	activation;restoration;inhibition;partial_modulation	define direction match	P3_REJECT_IF_MISSING
+perturbation_dose	experiment	P3	numeric plus unit	test dose response	P3_REJECT_IF_MISSING
+donor_id	experiment	P3	stable nonempty string	verify independent donor contexts	P3_REJECT_IF_MISSING
+primary_human_context	experiment	P3	cell type and disease/source	define transfer context	P3_REJECT_IF_MISSING
+target_engagement_readout	experiment	P3	numeric plus assay	verify mechanism engaged	P3_REJECT_IF_MISSING
+functional_progression_readout	experiment	P3	numeric plus assay	test favorable function	P3_REJECT_IF_MISSING
+viability_readout	experiment	P3	numeric plus assay	collateral guardrail	P3_REJECT_IF_MISSING
+host_defense_readout	experiment	P3	numeric plus assay	collateral guardrail	P3_REJECT_IF_MISSING
+myelin_clearance_or_remyelination_readout	experiment	P3	numeric plus assay or justified not_applicable	collateral/benefit guardrail	P3_REJECT_IF_RELEVANT_AND_MISSING
+wrong_direction_control	experiment	P3	yes;no	test directional specificity	P3_REJECT_IF_MISSING
+non_targeting_or_vehicle_control	experiment	P3	yes;no	test assay background	P3_REJECT_IF_MISSING
+data_use_terms	file	all	path/manifest identifier	honor access and use constraints	QUARANTINE_ONLY
+sha256	file	all	64-character lowercase hex	preserve immutable receipt	QUARANTINE_ONLY

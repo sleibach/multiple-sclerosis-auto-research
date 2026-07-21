@@ -45,7 +45,9 @@ project's evidence standard.
 | Progression intervention-direction map | done | Sequential audit of 9 states: 0 pass the progression-specific gate, 0 target revisits. V53 context supplies 0 replicated selective control nodes, 0 additive-pair passes, and 0 consensus causal orientations. |
 | AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
-| Progression-cohort acquisition specification | todo | Convert identified evidence gaps into exact donor, source-balance, stage, disability, tissue, and longitudinal requirements. |
+| Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
+| Progression package eligibility validator | todo | Implement the 64-field P1/P2/P3 contract with synthetic complete and failure fixtures; no received real data. |
+| Progression-event power design skeleton | todo | Build a pre-data simulation interface parameterized by received event rate, follow-up, missingness, and repeated measures; do not borrow V43 treatment-response power as progression power. |
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
 | GSE228330 progression metadata request addendum | todo | Request verified subject map, age, EDSS/PIRA trajectory, activity definition, batch, composition, treatment, and processed expression; keep context-only until complete. |
@@ -151,3 +153,9 @@ project's evidence standard.
   subgroup p-values but does not establish homogeneity because intervals are
   wide. The pooled morphology state remains context-bounded and unresolved.
   Active time accrued: 0h55m28s.
+- 2026-07-21T21:56:37Z: Completed the exact progression-cohort acquisition
+  contract. It separates longitudinal disability/PIRA, paired-compartment, and
+  functional-direction roles and defines 64 unique required fields with
+  fail-closed actions. It explicitly forbids relapse, stage, morphology, or
+  pharmacodynamics from substituting for disability progression. Active time
+  accrued: 0h58m07s.
