@@ -73,7 +73,7 @@ project's evidence standard.
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
-| Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
+| Multi-site progression transportability design | in-progress | Frozen three-site simulation varies balanced/imbalanced allocation, baseline hazards, score-site confounding, null/homogeneous/site-only/reversed effects, pooled versus site-stratified inference, heterogeneity, and leave-site-out transport. |
 | Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
 | Endpoint adjudicator malformed-input expansion | todo | Add duplicate day, malformed numeric, unknown protocol, and later-valid-onset regressions. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
@@ -384,3 +384,10 @@ project's evidence standard.
   bounded verdict. The consolidated suite passes 17/17 commands and 39/39
   invariants; provenance, structure, whitespace, size, and path guards pass.
   Active time accrued: 2h55m17s.
+- 2026-07-21T23:54:43Z: Froze the three-site progression transportability
+  audit. The design deliberately aligns site score means with baseline hazards
+  in one family, contrasts balanced and 60/30/10 allocation, and requires a
+  positive site-stratified result, same-direction site estimates, all leave-
+  site-out tests, adequate events, and no heterogeneity. Site-only and reversed
+  effects are negative controls for false transport. Active time accrued:
+  2h56m13s.
