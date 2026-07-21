@@ -14,6 +14,10 @@ analysis/v54_progression_event_time_assumption_robustness/summary.json	invalid_c
 analysis/v54_progression_competing_risk_robustness/summary.json	n_unique_simulated_cohorts	eq	129600	129600	True
 analysis/v54_progression_competing_risk_robustness/summary.json	strict_cell_flag_but_family_compatible_mechanisms	contains	"""independent"""	"[""independent""]"	True
 analysis/v54_progression_competing_risk_robustness/summary.json	invalid_competing_event_mechanisms	contains	"""joint_score_progression_risk"""	"[""joint_score_progression_risk""]"	True
+analysis/v54_progression_visit_schedule_robustness/summary.json	n_unique_simulated_cohorts	eq	172800	172800	True
+analysis/v54_progression_visit_schedule_robustness/summary.json	invalid_observed_route_mechanisms	contains	"""detected_visit_time|score_dependent_20pct"""	"[""detected_visit_time|joint_score_progression_risk_20pct"", ""detected_visit_time|score_dependent_20pct"", ""midpoint_imputed_time|joint_score_progression_risk_20pct"", ""midpoint_imputed_time|score_dependent_20pct""]"	True
+analysis/v54_progression_visit_schedule_robustness/summary.json	invalid_observed_route_mechanisms	contains	"""detected_visit_time|joint_score_progression_risk_20pct"""	"[""detected_visit_time|joint_score_progression_risk_20pct"", ""detected_visit_time|score_dependent_20pct"", ""midpoint_imputed_time|joint_score_progression_risk_20pct"", ""midpoint_imputed_time|score_dependent_20pct""]"	True
+analysis/v54_progression_visit_schedule_robustness/reference_check/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P1_eligible	eq	0	0	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P2_eligible	eq	0	0	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P3_eligible	eq	0	0	True

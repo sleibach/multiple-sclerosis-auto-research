@@ -70,6 +70,7 @@ cannot measure progression rate or transition.
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | Progression competing-risk/death robustness | one invalid dependence boundary; power remains event-limited | 129,600 synthetic cohorts. Joint score/progression-risk death creates false protective associations; independent death is family-compatible but fails one strict cell and is excluded from power. Only 4/10 calibrated non-null scenarios reach 80%. Method behavior only. |
+| Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
@@ -794,6 +795,58 @@ four scenarios reach the threshold at `n=320`, while score-dependent death at
 probability `0.25` reaches only `0.737`. These are design assumptions, not
 empirical effect-size estimates.
 
+## Visit Schedule And Interval Observation
+
+Status: **informative attendance invalidates the observed route; sparse but
+noninformative schedules remain calibrated and lose substantial power**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_VISIT_SCHEDULE_ROBUSTNESS_V54.md`
+- script: `scripts/v54_progression_visit_schedule_robustness.py`
+- tied-time reference:
+  `scripts/v54_visit_schedule_breslow_reference_check.py`
+- results: `analysis/v54_progression_visit_schedule_robustness/`
+
+The two-year seeded simulation generated 172,800 unique cohorts and 691,200
+route evaluations across quarterly, semiannual, and annual observation;
+complete, independently missing, score-dependent, and joint score/risk
+attendance; and fixed detection-time, midpoint, and audit-only oracle routes.
+The Breslow tie-aware implementation agrees with four independent
+`statsmodels.PHReg` score/Hessian fixtures to `3.55e-15`.
+
+Complete and 20% independently missing attendance calibrated for both observed
+routes. Detection-time null maxima were `0.0542` and `0.0600`, with fixed-family
+maximum-reference tails `0.997` and `0.712`. Midpoint null maxima were `0.0542`
+and `0.0617`, with tails `0.997` and `0.522`. Coarsened time alone therefore
+does not create a false molecular association in this generator.
+
+Informative ascertainment does. Score-dependent 20% visit missingness produced
+null maxima `0.1583` for both routes, with predominantly false protective calls
+(`0.1567` negative versus at most `0.0083` positive). Joint score/progression-
+risk missingness produced null maxima `0.1650` and similarly false protective
+calls (`0.1625` negative). Both fixed observed routes are invalid. Midpoint
+imputation changes timing but does not restore events that were selectively
+unconfirmed, so it cannot repair this bias.
+
+Even calibrated attendance loses substantial information through delayed or
+absent confirmation. At `n=320`, latent event probability `0.30`, and synthetic
+HR `1.7`, complete quarterly observation confirms a median 79/87 latent events
+and reaches power `0.829`; this is the only design reaching the 80% gate (twice
+only because detection and midpoint are fixed parallel routes). Complete annual
+observation confirms 51/86 and reaches `0.592`; annual observation with 20%
+independent missingness confirms 33/86 and reaches `0.399`. At latent event
+probability `0.15`, no calibrated schedule reaches 80% by `n=320`.
+
+The acquisition consequence is pre-score and operational: visit dates,
+expected windows, missed-visit indicators/reasons, first worsening, and later
+confirmation must be complete enough to audit whether attendance depends on
+the molecular score or progression risk. Sparse schedules yield an
+underpowered/inconclusive result; informative attendance makes the ordinary
+route invalid. Neither condition may be interpreted as absence of a molecular
+association. These are synthetic design results, not empirical MS effects or
+attendance estimates.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -804,15 +857,16 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 16 checks and asserts 31 committed artifact/claim
+The final suite executes 17 checks and asserts 35 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
-three independent numerical references; the candidate role matrix; provenance
+four independent numerical references; the candidate role matrix; provenance
 and structural gates; whitespace; tracked-file size; and tracked temporary
 paths. Its invariants explicitly retain zero portable stage modules, zero
 transition-identifiable datasets, zero target revisits, both morphology
 downgrades, the event-time and competing-risk invalid regimes, the independent-
-death strict-cell flag, and 0/10 P1/P2/P3 candidate eligibility.
+death strict-cell flag, both informative-attendance invalid regimes, and 0/10
+P1/P2/P3 candidate eligibility.
 
 The first suite run exposed a real execution defect: resolving the virtualenv
 interpreter symlink caused child processes to use bare Homebrew Python without

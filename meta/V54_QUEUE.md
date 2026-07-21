@@ -69,9 +69,9 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 16 executable checks and 31 artifact/claim invariants; all pass. It now pins the competing-risk strict-cell/invalidation distinction. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
+| V54 consolidated regression suite | done | One command runs 17 executable checks and 35 artifact/claim invariants; all pass. It pins competing-risk and visit-attendance invalidation boundaries plus numerical references. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
-| Visit-schedule interval-censoring audit | in-progress | Frozen two-year simulation separates quarterly/semiannual/annual spacing, confirmation loss, independent versus informative 20% visit missingness, detection-time versus midpoint routes, and tie-aware Cox calibration. |
+| Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | todo | Test whether repeated baseline molecular measurement improves progression power enough to justify acquisition burden, under frozen averaging/reliability rules. |
 | Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
 | Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
@@ -350,3 +350,16 @@ project's evidence standard.
   independent, score-dependent, and joint score/risk attendance, plus fixed
   detection-time and midpoint routes. A Breslow tie-aware implementation must
   pass an independent PHReg reference. Active time accrued: 2h42m56s.
+- 2026-07-21T23:46:55Z: Completed 172,800 seeded visit-schedule cohorts and
+  691,200 route evaluations. Complete and independently missed visits
+  calibrated; score-dependent and joint score/progression-risk attendance
+  invalidated both observed routes with predominantly false protective calls
+  (null maxima `0.158` and `0.165`). Only complete quarterly observation at
+  event probability `0.30` reached 80% by `n=320`; annual complete observation
+  retained 51/86 median latent events and power `0.592`, while 20% independent
+  missingness retained 33/86 and power `0.399`. The tied-time implementation
+  matches PHReg to `3.55e-15`. Active time accrued: 2h48m25s.
+- 2026-07-21T23:48:19Z: Integrated the visit-schedule boundary and pinned it
+  in the consolidated suite. All 17 command checks and 35 artifact invariants
+  pass, as do provenance, structural, whitespace, tracked-size, and temporary-
+  path guards. Active time accrued: 2h49m49s.

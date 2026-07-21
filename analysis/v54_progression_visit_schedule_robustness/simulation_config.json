@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "horizon_years": 2.0,
+  "confirmation_lag_years": 0.25,
+  "sample_sizes": [
+    120,
+    240,
+    320
+  ],
+  "latent_event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "molecular_progression_hrs_per_latent_sd": [
+    1.0,
+    1.7
+  ],
+  "visit_intervals_years": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "attendance_mechanisms": [
+    "complete",
+    "independent_20pct",
+    "score_dependent_20pct",
+    "joint_score_progression_risk_20pct"
+  ],
+  "analysis_routes": [
+    "full_latent_time_oracle",
+    "ascertained_latent_time_oracle",
+    "detected_visit_time",
+    "midpoint_imputed_time"
+  ],
+  "replicates_per_seed": 400,
+  "seeds": [
+    54941,
+    54942,
+    54943
+  ],
+  "measurement_reliability": 0.7,
+  "score_missing_rate": 0.1,
+  "alpha": 0.05,
+  "boundary": "Seeded synthetic method behavior only; not empirical MS progression, attendance, treatment, or biology."
+}

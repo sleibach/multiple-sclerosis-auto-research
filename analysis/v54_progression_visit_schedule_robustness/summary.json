@@ -1,0 +1,24 @@
+{
+  "purpose": "Synthetic progression visit-schedule and interval-observation audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 172800,
+  "n_route_evaluations": 691200,
+  "n_aggregate_route_cells": 576,
+  "calibrated_observed_route_mechanisms": [
+    "detected_visit_time|complete",
+    "detected_visit_time|independent_20pct",
+    "midpoint_imputed_time|complete",
+    "midpoint_imputed_time|independent_20pct"
+  ],
+  "strict_cell_flag_but_family_compatible": [],
+  "invalid_observed_route_mechanisms": [
+    "detected_visit_time|joint_score_progression_risk_20pct",
+    "detected_visit_time|score_dependent_20pct",
+    "midpoint_imputed_time|joint_score_progression_risk_20pct",
+    "midpoint_imputed_time|score_dependent_20pct"
+  ],
+  "nonnull_scenarios_reaching_80pct": 2,
+  "nonnull_scenarios": 24,
+  "verdict": "VISIT_SCHEDULE_AND_ATTENDANCE_MUST_BE_AUDITED_BEFORE_PROGRESSION_INFERENCE",
+  "boundary": "All values are seeded synthetic method behavior, not empirical MS progression, attendance, treatment, or biology."
+}
