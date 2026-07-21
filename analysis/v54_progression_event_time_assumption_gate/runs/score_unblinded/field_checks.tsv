@@ -1,0 +1,36 @@
+field	expected	pass
+administrative_horizon	non-placeholder text	True
+censoring_date_field	non-placeholder text	True
+censoring_reason_dictionary	non-placeholder text	True
+censoring_reason_field	non-placeholder text	True
+data_dictionary_source	non-placeholder text	True
+death_competing_event_rule	non-placeholder text	True
+diagnostic_cut_basis	non-placeholder text	True
+event_date_field	non-placeholder text	True
+followup_time_origin	non-placeholder text	True
+ipcw_model	non-placeholder text	True
+joint_score_event_risk_sensitivity	non-placeholder text	True
+last_observation_date_field	non-placeholder text	True
+package_id	non-placeholder text	True
+protocol_source	non-placeholder text	True
+source_treatment_stratification	non-placeholder text	True
+time_variation_diagnostic	non-placeholder text	True
+treatment_switch_rule	non-placeholder text	True
+window_contrast_rule	non-placeholder text	True
+worst_case_censoring_bounds	non-placeholder text	True
+frozen_before_score_access	True	True
+ipcw_prespecified	True	True
+joint_score_event_risk_sensitivity_prespecified	True	True
+outcome_related_reason_category_defined	True	True
+reason_dictionary_complete	True	True
+source_treatment_stratification_prespecified	True	True
+time_variation_diagnostic_prespecified	True	True
+unknown_reason_category_defined	True	True
+worst_case_bounds_prespecified	True	True
+individual_outcomes_accessed_before_freeze	False	True
+scores_accessed_before_freeze	False	False
+window_p_values_substitute_for_interaction	False	True
+nonadministrative_censoring_present	yes|no	True
+unknown_censoring_reasons_present	yes|no	True
+outcome_related_censoring_present	yes|no	True
+analysis_count_budget	positive integer	True

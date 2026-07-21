@@ -70,6 +70,7 @@ cannot measure progression rate or transition.
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
+| Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -699,6 +700,16 @@ loss, and proportionality/time-variation diagnostics must be reported alongside
 the frozen whole-follow-up result. Any confirmatory time-varying coefficient or
 window contrast requires its own pre-score specification; comparing window
 p-values is prohibited.
+
+The additive operator guard is documented in
+`docs/validation/PROGRESSION_EVENT_TIME_ASSUMPTION_GATE_V54.md` and enforced by
+`scripts/v54_progression_event_time_assumption_gate.py`. Eight clearly labeled
+synthetic declarations behave as specified: administrative-only data pass with
+mandatory diagnostics; fully documented nonadministrative loss passes only
+with the sensitivity panel required; unknown or outcome-related loss, missing
+censoring dates, missing time-variation diagnostics, prior score access, and
+window-p-value substitution all fail closed. This gate tightens receipt
+handling without modifying the frozen P1/P2 contract.
 
 ## Multi-Lineage Adversarial Review
 

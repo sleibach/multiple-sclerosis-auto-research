@@ -1,0 +1,9 @@
+fixture	synthetic	expected_decision	observed_decision	regression_pass	n_blockers
+administrative_only	True	PASS_STANDARD_PLUS_DIAGNOSTICS	PASS_STANDARD_PLUS_DIAGNOSTICS	True	0
+documented_nonadministrative	True	PASS_SENSITIVITY_REQUIRED	PASS_SENSITIVITY_REQUIRED	True	0
+unknown_reason	True	FAIL_CLOSED	FAIL_CLOSED	True	1
+outcome_related_loss	True	FAIL_CLOSED	FAIL_CLOSED	True	1
+score_unblinded	True	FAIL_CLOSED	FAIL_CLOSED	True	1
+missing_censor_date	True	FAIL_CLOSED	FAIL_CLOSED	True	1
+missing_time_diagnostic	True	FAIL_CLOSED	FAIL_CLOSED	True	1
+window_p_substitution	True	FAIL_CLOSED	FAIL_CLOSED	True	1

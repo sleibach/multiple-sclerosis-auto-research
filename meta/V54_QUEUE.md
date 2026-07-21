@@ -67,7 +67,7 @@ project's evidence standard.
 | Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
 | Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
-| Event-time receipt diagnostics contract | todo | Convert any assumption-audit failure into blinded metadata/QC requirements without changing the frozen P1 analysis. |
+| Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | todo | Define which measured cell-fraction methods are sufficient for the conditionally calibrated P2 route; expression-derived proxy alone must fail closed under possible imbalance. |
 | V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
@@ -279,3 +279,9 @@ project's evidence standard.
   Crossing effects are largely canceled in one coefficient despite opposite
   window signs. Four scalar/probability/PHReg reference checks pass to
   `2.94e-15`. Active time accrued: 2h10m31s.
+- 2026-07-21T23:12:48Z: Converted the event-time failures into an additive,
+  blinded receipt gate without editing the frozen P1/P2 pre-registration.
+  Administrative-only and documented nonadministrative fixtures route as
+  specified; unknown/outcome-related loss, missing dates or diagnostics,
+  unblinding, and window-p-value substitution fail closed. All eight synthetic
+  fixtures pass expected behavior. Active time accrued: 2h14m18s.
