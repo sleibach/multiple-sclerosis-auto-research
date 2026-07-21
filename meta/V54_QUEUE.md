@@ -38,7 +38,7 @@ project's evidence standard.
 | Frozen source/tissue-balanced stage-test plan | done | Amsterdam WM plus UK GM, donor-equal inference, five pre-existing modules, three-seed 300k null, BH plus max-T, and cross-source direction gate fixed before execution. |
 | Smoldering-lesion / chronic-active microglia probe | done | Three exact active/inactive donor pairs plus 54 samples/21 donors and 300k wild nulls. No orthogonally supported module; receptor and lipid inconclusive, others not supported. |
 | GSE279972 lysosomal morphology specificity audit | done | Fully adjusted beta 0.517, CI 0.199 to 0.834, wild p=0.00861, max-variant p=0.0453; all 21 LODO coefficients positive. Bounded foamy-morphology association only, not progression or target evidence. |
-| Relapsing-to-progressive transition proxy audit | in-progress | Frozen five-field identifiability gate spans seven held progression-adjacent/longitudinal MS datasets; execution must fail closed if subtype transition or repeated disability is absent. |
+| Relapsing-to-progressive transition proxy audit | done | Seven datasets audited: 5 verified subject maps, 2 repeated transcriptomes, but 0 time-varying stage and 0 repeated disability/conversion. Transition is not identifiable; this is not a biological null. |
 | Progression-specific module panel | todo | Pre-specify microglial, complement/lipid, mitochondrial, senescence, iron/myelin-clearance, and remyelination panels; test only on semantically eligible held data. |
 | CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
 | Progression intervention-direction map | todo | For any supported state, require a favorable, direction-resolved perturbation and collateral guardrails before tractability discussion. |
@@ -97,3 +97,8 @@ project's evidence standard.
   conversion, and treatment context to a verified subject ID. Relapse,
   pregnancy, pharmacodynamic, and same-death lesion repeats fail closed rather
   than serving as progression surrogates. Active time accrued: 0h26m17s.
+- 2026-07-21T21:28:02Z: Executed the transition-identifiability gate over
+  seven held datasets. Five have verified subject maps and two have repeated
+  transcriptomes, but none measures time-varying stage or repeated disability/
+  adjudicated conversion. GSE24427's two-year relapse follow-up is explicitly
+  not substituted for disability progression. Active time accrued: 0h29m32s.

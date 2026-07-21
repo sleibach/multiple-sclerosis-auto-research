@@ -52,6 +52,7 @@ cannot measure progression rate or transition.
 | Source-balanced PPMS versus SPMS module comparison | no portable association; CD44/CXCR4 and IFN/APC inconclusive | Cross-sectional disease-stage association only; no transition or progression-rate inference. |
 | Chronic-active edge plus foamy-morphology module test | no orthogonally supported module | Non-identical pathology contexts; no disability or treatment inference. |
 | Post-result lysosomal morphology specificity | survives tested transcript-state adjustment | Bounded foamy-morphology association only; no orthogonal chronic-active, progression, causal, or therapeutic support. |
+| RRMS-to-progressive transition identifiability | not identifiable in seven held datasets | Coverage boundary: no dataset has time-varying stage plus repeated disability/conversion; not a biological null. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -151,3 +152,32 @@ More importantly, the association did not reproduce directionally in the three
 paired chronic-active edges. It therefore remains an isolated morphology result,
 not a progression-rate marker, causal mechanism, intervention direction, or
 route to halting disability.
+
+## RRMS-To-Progressive Transition Identifiability
+
+Status: **not identifiable in the held corpus**.
+
+Executable audit:
+
+- frozen plan:
+  `docs/plans/PROGRESSION_TRANSITION_IDENTIFIABILITY_V54.md`
+- script: `scripts/v54_transition_identifiability_audit.py`
+- report: `analysis/v54_transition_identifiability/REPORT.md`
+- dataset matrix:
+  `analysis/v54_transition_identifiability/transition_identifiability.tsv`
+
+Seven held progression-adjacent or longitudinal MS datasets were audited
+against a five-field contract. Five have a verified subject/donor identifier
+and two contain repeated transcriptomes. None contains time-varying MS stage,
+and none contains repeated disability or an adjudicated conversion event.
+
+GSE24427 is the nearest longitudinal transcriptomic resource: 25 subjects have
+repeated blood measurements during IFN-beta therapy, baseline EDSS, and
+two-year relapse outcomes. EDSS is baseline-only, no subtype conversion is
+observed, and relapse is not a substitute for disability accumulation.
+GSE228330 has nominal baseline, week-2, and month-6 anti-CD20 samples but lacks
+a public subject map and disability/outcome labels. The postmortem, pregnancy,
+and microbiome datasets answer different bounded questions.
+
+No transition-association analysis is therefore permitted. This is a semantic
+and coverage boundary, not evidence that transition biology is absent.
