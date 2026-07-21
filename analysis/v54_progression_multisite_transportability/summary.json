@@ -1,0 +1,18 @@
+{
+  "purpose": "Synthetic multi-site progression transportability audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 115200,
+  "n_aggregate_cells": 96,
+  "n_pooled_invalid_null_families": 2,
+  "pooled_invalid_null_families": [
+    "balanced|hazard_aligned_score",
+    "imbalanced_60_30_10|hazard_aligned_score"
+  ],
+  "n_stratified_invalid_null_families": 0,
+  "n_transport_ready_designs": 2,
+  "n_transport_designs": 24,
+  "maximum_false_transport_one_site_only": 0.022500000000000003,
+  "maximum_false_transport_one_site_reversed": 0.03333333333333333,
+  "verdict": "TRANSPORT_READY_DESIGNS_IDENTIFIED",
+  "boundary": "All values are seeded synthetic method behavior, not empirical MS progression, site effects, treatment, or biology."
+}

@@ -72,6 +72,7 @@ cannot measure progression rate or transition.
 | Progression competing-risk/death robustness | one invalid dependence boundary; power remains event-limited | 129,600 synthetic cohorts. Joint score/progression-risk death creates false protective associations; independent death is family-compatible but fails one strict cell and is excluded from power. Only 4/10 calibrated non-null scenarios reach 80%. Method behavior only. |
 | Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
+| Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
@@ -893,6 +894,52 @@ sparse progression events, endpoint error, informative attendance, or a
 non-progression-qualified cohort. These values are synthetic method behavior,
 not evidence that the project's molecular state has any particular stability.
 
+## Multi-Site Progression Transportability
+
+Status: **site-stratified inference calibrates, but full transport requires
+high event yield and balanced site allocation**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_MULTISITE_TRANSPORTABILITY_V54.md`
+- script: `scripts/v54_progression_multisite_transportability.py`
+- numerical reference: `scripts/v54_multisite_cox_reference_check.py`
+- results: `analysis/v54_progression_multisite_transportability/`
+
+The seeded simulation generated 115,200 synthetic cohorts across three total
+sample sizes, two event rates, balanced versus 60/30/10 site allocation, two
+site-score structures, and null/homogeneous/site-only/reversed effects. Four
+pooled and site-stratified score/information fixtures agree with independent
+`statsmodels.PHReg` calculations to `2.56e-13`.
+
+Pooled inference fails exactly where designed to fail. When molecular-score
+means align with ordered site baseline hazards, pooled null rejection reaches
+`0.685` under balanced allocation and `0.482` under 60/30/10 allocation; both
+fixed families are invalid. All four site-stratified null families calibrate,
+with maxima `0.053-0.059`. A large pooled association can therefore be entirely
+site structure even when the within-site molecular effect is null.
+
+Only 2/24 design variants pass the complete transport gate. Both use `n=450`,
+latent event probability `0.30`, and balanced site allocation; the two variants
+are the balanced-score and hazard-aligned-score settings. Their homogeneous-
+effect transport-pass probabilities are `0.801` and `0.817`, with every-seed
+minima `0.787` and `0.785` and median minimum-site event count 26. The
+corresponding 60/30/10 designs, despite the same total sample size, reach only
+`0.758` and `0.748` (every-seed minima `0.748` and `0.733`) and fail.
+
+The transport gate remains selective in the fixed heterogeneous negative
+controls: maximum false-transport probability is `0.0225` for an effect at one
+site only and `0.0333` when one site reverses direction. At event probability
+`0.15`, no design passes even at `n=450`; global stratified significance can be
+high while leave-site-out/event-count transport remains low.
+
+The acquisition consequence is stronger than a total-`n` target. A future
+multi-site progression cohort needs predeclared sites, site-stratified primary
+inference, balanced recruitment or explicit minimum events per site, signed
+site estimates, leave-one-site-out tests, and heterogeneity reporting. Pooled
+significance alone is invalid for transport. These are synthetic design
+requirements, not empirical claims about site effects or an MS biomarker.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -903,7 +950,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 17 checks and asserts 39 committed artifact/claim
+The final suite executes 18 checks and asserts 44 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance
@@ -912,8 +959,8 @@ paths. Its invariants explicitly retain zero portable stage modules, zero
 transition-identifiable datasets, zero target revisits, both morphology
 downgrades, the event-time and competing-risk invalid regimes, the independent-
 death strict-cell flag, both informative-attendance invalid regimes, the
-bounded repeated-measurement utility result, and 0/10 P1/P2/P3 candidate
-eligibility.
+bounded repeated-measurement utility result, pooled-site invalidation and the
+two transport-ready synthetic designs, and 0/10 P1/P2/P3 candidate eligibility.
 
 The first suite run exposed a real execution defect: resolving the virtualenv
 interpreter symlink caused child processes to use bare Homebrew Python without
