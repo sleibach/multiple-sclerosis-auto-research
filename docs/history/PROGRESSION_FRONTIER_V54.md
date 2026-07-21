@@ -55,6 +55,7 @@ cannot measure progression rate or transition.
 | RRMS-to-progressive transition identifiability | not identifiable in seven held datasets | Coverage boundary: no dataset has time-varying stage plus repeated disability/conversion; not a biological null. |
 | Second progression-lesion module family | no orthogonally supported module | OXPHOS is lower in foamy morphology but direction-discordant at chronic-active edges; resolution/MOCCI are inconclusive. |
 | OXPHOS-lysosomal foamy-state coupling | both survive mutual adjustment | Two separable transcript associations in one morphology cohort; neither has orthogonal progression support. |
+| CNS-versus-peripheral progression localization | not identifiable | No held CNS/peripheral pair has a matched phenotype and complete design; GSE228330 baseline subtype is activity-confounded and lacks critical fields. This is not a peripheral null. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -247,3 +248,37 @@ within one foamy-morphology cohort under the measured covariates. It does not
 establish independent biological pathways, metabolic or lysosomal flux,
 progression, causality, or an intervention direction. Both remain unreplicated
 in the paired chronic-active-edge context.
+
+## CNS-Versus-Peripheral Progression Localization
+
+Status: **not identifiable in the held corpus; coverage/design boundary**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/CNS_PERIPHERAL_PROGRESSION_SEPARATION_V54.md`
+- script: `scripts/v54_cns_peripheral_identifiability.py`
+- report: `analysis/v54_cns_peripheral_identifiability/REPORT.md`
+- evidence matrix:
+  `analysis/v54_cns_peripheral_identifiability/compartment_evidence_matrix.tsv`
+
+Zero of four candidate compartment resources forms an eligible
+cross-compartment pair. The source-restricted Macnair analysis tests
+cross-sectional PPMS versus SPMS in postmortem microglia, but no compatible
+peripheral PPMS-versus-SPMS resource exists. The lesion resources encode
+pathology morphology rather than clinical stage and have no peripheral
+analogue or disability trajectory.
+
+GSE228330 has 15 nominal pretreatment PBMC samples: 10 RRMS and 5 SPMS. Its
+deposited activity suffix is strongly imbalanced by subtype (RRMS: 1 active and
+9 stable; SPMS: 4 active and 1 stable; two-sided Fisher OR `0.0278`,
+`p=0.01698`). The public subject map is unverified, and processed expression,
+batch, age, measured cell composition, and disability outcomes are not held.
+The comparison therefore fails the frozen eligibility gate before expression
+scoring. Processing its public arrays would not repair those design failures.
+
+No peripheral module test was run, so there is no peripheral null. Conversely,
+the brain associations cannot be called CNS-intrinsic merely because no
+eligible peripheral comparison exists. A valid localization test needs the
+same stage or longitudinal disability contrast in CNS/CSF and blood, verified
+subjects, adequate group sizes, source/activity/treatment and composition
+controls, and a formal compartment interaction.

@@ -41,11 +41,14 @@ project's evidence standard.
 | Relapsing-to-progressive transition proxy audit | done | Seven datasets audited: 5 verified subject maps, 2 repeated transcriptomes, but 0 time-varying stage and 0 repeated disability/conversion. Transition is not identifiable; this is not a biological null. |
 | Progression-specific module panel | done | No orthogonally supported module. OXPHOS is lower in foamy morphology (max-module p=0.0357) but direction-discordant across chronic-active pairs; resolution and MOCCI are inconclusive. |
 | OXPHOS-versus-lysosomal foamy-state coupling sensitivity | done | Both survive mutual adjustment: OXPHOS beta -0.562, max-endpoint p=0.0114; lysosomal beta 0.463, max-endpoint p=0.0518; all LODO directions stable. Morphology-only. |
-| CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
+| CNS-intrinsic versus peripheral APC separation | done | No eligible compartment pair. GSE228330 baseline has RRMS n=10/SPMS n=5 and subtype/activity confounding (Fisher p=0.01698), plus no verified map, processed matrix, batch/composition, or disability. Localization is not identifiable, not a peripheral null. |
 | Progression intervention-direction map | todo | For any supported state, require a favorable, direction-resolved perturbation and collateral guardrails before tractability discussion. |
 | AlphaFold progression-axis context | todo | Use predicted structure only for confidence-qualified modality context after a grounded progression association exists. |
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | todo | Convert identified evidence gaps into exact donor, source-balance, stage, disability, tissue, and longitudinal requirements. |
+| Joint foamy-state lesion-stratum transport sensitivity | todo | Test whether the OXPHOS-low/lysosomal-high morphology state persists within adequately populated deposited lesion strata; freeze eligibility before testing. |
+| GSE228330 progression metadata request addendum | todo | Request verified subject map, age, EDSS/PIRA trajectory, activity definition, batch, composition, treatment, and processed expression; keep context-only until complete. |
+| V37 progression evidence-grade delta | todo | State exactly which V54 results strengthen, bound, or leave unchanged the earlier findings report without discovery inflation. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -122,3 +125,10 @@ project's evidence standard.
   donor-wild and LODO gates. This is a two-feature foamy transcript state in one
   cohort, not progression or intervention evidence. Active time accrued:
   0h40m45s.
+- 2026-07-21T21:43:28Z: The frozen CNS-versus-peripheral eligibility audit
+  found zero valid compartment pairs. GSE228330 baseline has 10 RRMS and 5 SPMS
+  samples, with subtype/activity imbalance (Fisher `p=0.01698`) and no verified
+  subject map, processed matrix, batch/composition fields, or disability
+  trajectory. No peripheral expression test was run; the result is an
+  identifiability boundary, not a biological null. Active time accrued:
+  0h44m58s.
