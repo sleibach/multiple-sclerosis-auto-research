@@ -57,6 +57,7 @@ cannot measure progression rate or transition.
 | OXPHOS-lysosomal foamy-state coupling | both survive mutual adjustment | Two separable transcript associations in one morphology cohort; neither has orthogonal progression support. |
 | CNS-versus-peripheral progression localization | not identifiable | No held CNS/peripheral pair has a matched phenotype and complete design; GSE228330 baseline subtype is activity-confounded and lacks critical fields. This is not a peripheral null. |
 | Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
+| Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -314,3 +315,34 @@ proof that intervention cannot work.
 AlphaFold context was not invoked because no candidate reached the modality-fit
 gate. Predicted structure would not resolve progression association, pathogenic
 direction, or causal specificity. No V52/V53 target closure changes.
+
+## Foamy-State Lesion-Stratum Transport
+
+Status: **not supported; pooled morphology interpretation narrowed**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/FOAMY_STATE_LESION_STRATUM_TRANSPORT_V54.md`
+- script: `scripts/v54_foamy_state_lesion_stratum_transport.py`
+- report: `analysis/v54_foamy_state_lesion_stratum_transport/REPORT.md`
+- tests: `analysis/v54_foamy_state_lesion_stratum_transport/stratum_tests.tsv`
+
+Deposited lesion classes 2 and 3 passed the frozen pre-score eligibility gate;
+NAWM was ineligible because only four foamy donors were available. Four tests
+used mutually adjusted OXPHOS/lysosomal scores, donor-clustered intervals,
+300,000 donor-wild nulls preserving signs across strata, max-family correction,
+and leave-one-donor checks.
+
+Neither endpoint transported. OXPHOS remained lower in foamy samples in both
+eligible strata, but class 2 was beta `-0.258` (95% CI `-0.842` to `0.326`,
+max-family `p=0.817`) and class 3 was beta `-0.616` (CI `-1.527` to `0.294`,
+max-family `p=0.166`). Lysosomal state reversed direction in class 2 (beta
+`-0.017`) and was positive but inconclusive in class 3 (beta `0.297`,
+max-family `p=0.739`).
+
+The prior pooled, lesion-main-effect-adjusted coefficients therefore do not
+support a portable foamy state across adequately represented lesion strata.
+This does not prove absence of a morphology association; subgroup intervals are
+wide. It further weakens progression and intervention interpretations and
+motivates a formal, bounded lesion-by-morphology heterogeneity test rather than
+target work.

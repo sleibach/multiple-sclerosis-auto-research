@@ -46,7 +46,8 @@ project's evidence standard.
 | AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | todo | Convert identified evidence gaps into exact donor, source-balance, stage, disability, tissue, and longitudinal requirements. |
-| Joint foamy-state lesion-stratum transport sensitivity | todo | Test whether the OXPHOS-low/lysosomal-high morphology state persists within adequately populated deposited lesion strata; freeze eligibility before testing. |
+| Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
+| Foamy morphology-by-lesion heterogeneity test | todo | Formally test endpoint interaction across classes 2 and 3 under a frozen donor-wild model; do not infer heterogeneity from subgroup significance alone. |
 | GSE228330 progression metadata request addendum | todo | Request verified subject map, age, EDSS/PIRA trajectory, activity definition, batch, composition, treatment, and processed expression; keep context-only until complete. |
 | V37 progression evidence-grade delta | todo | State exactly which V54 results strengthen, bound, or leave unchanged the earlier findings report without discovery inflation. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
@@ -138,3 +139,9 @@ project's evidence standard.
   corrected additive-pair passes, and zero consensus causal orientations.
   AlphaFold context is ineligible and was not used. Active time accrued:
   0h48m39s.
+- 2026-07-21T21:50:28Z: The frozen lesion-stratum transport sensitivity found
+  no corrected transport of either foamy-state endpoint across eligible classes
+  2 and 3. OXPHOS retained its negative direction but was imprecise; lysosomal
+  direction reversed in class 2. NAWM was ineligible with four foamy donors.
+  This narrows the pooled morphology result without claiming a subgroup null.
+  Active time accrued: 0h51m58s.
