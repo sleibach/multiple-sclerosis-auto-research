@@ -1,0 +1,19 @@
+{
+  "purpose": "Combined V54 progression inventory and endpoint-semantic intake gate",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_BOUND_PACKAGE",
+  "role": "P1",
+  "endpoint_mode": "pira",
+  "inventory": "analysis/v54_progression_combined_intake_gate/synthetic/inputs/inventory_fails_semantics_pass/inventory.tsv",
+  "declaration": "analysis/v54_progression_combined_intake_gate/synthetic/inputs/inventory_fails_semantics_pass/declaration.tsv",
+  "inventory_decision": "FAIL_CLOSED",
+  "semantic_decision": "PASS_PROGRESSION_ENDPOINT_SEMANTICS",
+  "inventory_warning_count": 0,
+  "n_cross_gate_blockers": 1,
+  "blockers": [
+    "inventory_gate:not_passed"
+  ],
+  "decision": "FAIL_CLOSED",
+  "safe_next_action": "Keep package quarantined/context-only and resolve the named blocker.",
+  "boundary": "A pass binds inventory presence to disability-progression semantics. It is not data-quality, association, progression, or biological evidence."
+}

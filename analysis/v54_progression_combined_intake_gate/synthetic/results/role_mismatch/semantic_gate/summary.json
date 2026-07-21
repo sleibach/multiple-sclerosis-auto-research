@@ -1,0 +1,15 @@
+{
+  "purpose": "V54 disability-progression endpoint semantic gate; no biological claim",
+  "declaration": "analysis/v54_progression_combined_intake_gate/synthetic/inputs/role_mismatch/declaration.tsv",
+  "role": "P2",
+  "endpoint_type": "pira",
+  "synthetic": true,
+  "n_required_fields": 47,
+  "n_unknown_fields": 0,
+  "n_blockers": 1,
+  "blockers": [
+    "role:mismatch:expected_P1:declared_P2"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass validates declared endpoint semantics and preregistration completeness only. It is not evidence that received values, an association, or MS biology passes."
+}

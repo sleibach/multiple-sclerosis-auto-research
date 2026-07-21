@@ -69,6 +69,7 @@ cannot measure progression rate or transition.
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
+| Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test

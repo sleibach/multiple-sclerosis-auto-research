@@ -62,7 +62,7 @@ project's evidence standard.
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
 | GSE228330 progression metadata request addendum | done | Ready-unsent 29-field addendum requests subject map, a/s definition, age, disability/PIRA components, relapse/steroid/treatment, MRI, composition, batch/QC, and matrix. Context-only unless full role gate passes. |
 | V37 progression evidence-grade delta | done | Artifact-checked 18-item delta: 12 V37 items carried, 6 post-V37 additions; 2 method-strengthened, 3 progression-narrowed, 1 negative reinforced, and no target/progression promotion. |
-| Combined P1/P2 intake gate orchestrator | todo | Require inventory and endpoint-semantic passes in one fail-closed command; test cross-gate contradictions and no-score-access ordering. |
+| Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | todo | Simulate direct interaction power under paired/unpaired designs, composition noise, and compartment correlation; method behavior only. |
 | Event-time assumption robustness | todo | Stress the frozen Cox route under non-proportional effects and informative dropout; quantify when the calibrated route becomes invalid. |
 | Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
@@ -247,3 +247,8 @@ project's evidence standard.
   novelty scores and are classified only for V54 scope; six post-V37 items are
   added without invented scores. No item becomes progression evidence or a
   target. Active time accrued: 1h49m48s.
+- 2026-07-21T22:50:35Z: Combined inventory and endpoint semantics into one
+  fail-closed intake decision. Nine synthetic fixtures bind package ID, role,
+  endpoint, synthetic status, and score blindness; valid P1/P2 plus additive
+  metadata pass, while every component or cross-gate mismatch fails. Active
+  time accrued: 1h52m05s.

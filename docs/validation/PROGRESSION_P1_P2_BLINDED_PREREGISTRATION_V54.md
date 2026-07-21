@@ -27,8 +27,10 @@ Neither gate inspects or validates the biological result.
    opening expression values or individual outcome labels.
 3. From protocol documentation and data dictionaries only, complete a copy of
    `V54_progression_endpoint_declaration_template.tsv`.
-4. Run `scripts/v54_progression_outcome_semantic_checker.py`. Any failure keeps
-   the package context-only and triggers a source clarification request.
+4. Run `scripts/v54_progression_combined_intake_gate.py`, which requires the
+   inventory and semantic gates to pass for the same package ID, role, and
+   endpoint. Any failure keeps the package context-only and triggers a source
+   clarification request.
 5. Use only blinded aggregate counts needed for a cohort-specific power
    simulation: total eligible subjects, event count, follow-up distribution,
    missingness, and planned covariate count. Do not inspect score distributions
@@ -165,3 +167,6 @@ Passing this pre-registration and semantic gate establishes only that a future
 analysis is interpretable as a blinded test of longitudinal disability
 progression. It does not establish that a molecular state predicts progression,
 localizes to a compartment, identifies a causal mechanism, or can halt MS.
+
+The operator-facing combined command is documented in
+`docs/validation/PROGRESSION_COMBINED_INTAKE_GATE_V54.md`.

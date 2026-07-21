@@ -1,0 +1,20 @@
+{
+  "purpose": "V54 progression-package inventory eligibility gate; no biological claim",
+  "synthetic": true,
+  "source_path_check_enforced": true,
+  "inventory": "analysis/v54_progression_combined_intake_gate/synthetic/inputs/inventory_fails_semantics_pass/inventory.tsv",
+  "role": "P1",
+  "endpoint_mode": "pira",
+  "progression_association_prequalified": false,
+  "n_schema_fields": 64,
+  "n_relevant_fields": 50,
+  "n_mandatory_fields": 28,
+  "n_blockers": 1,
+  "blockers": [
+    "progression_event:not_available"
+  ],
+  "n_warnings": 0,
+  "warnings": [],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass means inventory-complete enough for blinded pre-registration and data-level validation only; it is not evidence that the data, model, or biology passes."
+}
