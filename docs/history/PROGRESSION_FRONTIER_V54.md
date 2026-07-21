@@ -58,6 +58,7 @@ cannot measure progression rate or transition.
 | CNS-versus-peripheral progression localization | not identifiable | No held CNS/peripheral pair has a matched phenotype and complete design; GSE228330 baseline subtype is activity-confounded and lacks critical fields. This is not a peripheral null. |
 | Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
 | Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
+| Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -346,3 +347,29 @@ This does not prove absence of a morphology association; subgroup intervals are
 wide. It further weakens progression and intervention interpretations and
 motivates a formal, bounded lesion-by-morphology heterogeneity test rather than
 target work.
+
+## Foamy Morphology-By-Lesion Heterogeneity
+
+Status: **heterogeneity not supported; homogeneity not established**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/FOAMY_LESION_HETEROGENEITY_V54.md`
+- script: `scripts/v54_foamy_lesion_heterogeneity.py`
+- report: `analysis/v54_foamy_lesion_heterogeneity/REPORT.md`
+- tests: `analysis/v54_foamy_lesion_heterogeneity/interaction_tests.tsv`
+
+A direct class-3-minus-class-2 foamy interaction was fitted for each mutually
+adjusted endpoint over 35 samples from 21 donors, with donor-clustered
+intervals, 300,000 no-interaction donor-wild nulls, two-endpoint max-family
+control, and leave-one-donor checks. OXPHOS interaction beta was `0.115` (95%
+CI `-0.857` to `1.088`, max-family `p=0.940`); lysosomal interaction beta was
+`0.004` (CI `-0.677` to `0.686`, max-family `p=1.000`). Neither retained a
+stable leave-one-donor sign.
+
+This avoids the error of treating one subgroup's nominal direction and another
+subgroup's p-value as formal heterogeneity. The null interactions do not prove
+equal effects: intervals are broad and the same data triggered the test. Taken
+together with failed stratum transport, the correct label is **pooled,
+lesion-context-bounded morphology association with unresolved transport**, not
+a portable lesion program.

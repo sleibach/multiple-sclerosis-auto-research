@@ -47,7 +47,7 @@ project's evidence standard.
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | todo | Convert identified evidence gaps into exact donor, source-balance, stage, disability, tissue, and longitudinal requirements. |
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
-| Foamy morphology-by-lesion heterogeneity test | todo | Formally test endpoint interaction across classes 2 and 3 under a frozen donor-wild model; do not infer heterogeneity from subgroup significance alone. |
+| Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
 | GSE228330 progression metadata request addendum | todo | Request verified subject map, age, EDSS/PIRA trajectory, activity definition, batch, composition, treatment, and processed expression; keep context-only until complete. |
 | V37 progression evidence-grade delta | todo | State exactly which V54 results strengthen, bound, or leave unchanged the earlier findings report without discovery inflation. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
@@ -145,3 +145,9 @@ project's evidence standard.
   direction reversed in class 2. NAWM was ineligible with four foamy donors.
   This narrows the pooled morphology result without claiming a subgroup null.
   Active time accrued: 0h51m58s.
+- 2026-07-21T21:53:58Z: A direct two-endpoint morphology-by-lesion interaction
+  test found no supported heterogeneity (OXPHOS max-family `p=0.940`;
+  lysosomal `p=1.000`; both LODO signs unstable). This avoids comparing
+  subgroup p-values but does not establish homogeneity because intervals are
+  wide. The pooled morphology state remains context-bounded and unresolved.
+  Active time accrued: 0h55m28s.
