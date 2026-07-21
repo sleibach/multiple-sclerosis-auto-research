@@ -51,6 +51,7 @@ cannot measure progression rate or transition.
 | Progression-data semantic inventory | complete | Coverage and identifiability audit only; no biological claim. |
 | Source-balanced PPMS versus SPMS module comparison | no portable association; CD44/CXCR4 and IFN/APC inconclusive | Cross-sectional disease-stage association only; no transition or progression-rate inference. |
 | Chronic-active edge plus foamy-morphology module test | no orthogonally supported module | Non-identical pathology contexts; no disability or treatment inference. |
+| Post-result lysosomal morphology specificity | survives tested transcript-state adjustment | Bounded foamy-morphology association only; no orthogonal chronic-active, progression, causal, or therapeutic support. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -119,3 +120,34 @@ not a progression or target result. Because foamy morphology can encode
 microglial abundance/state by construction, a post-result composition-
 specificity sensitivity is required before even that bounded interpretation is
 led with.
+
+## Lysosomal Morphology Specificity Sensitivity
+
+Status: **survives the tested transcript-state adjustments, within a narrow
+foamy-morphology boundary**.
+
+Executable audit:
+
+- frozen post-result plan:
+  `docs/plans/LYSOSOMAL_MORPHOLOGY_SPECIFICITY_V54.md`
+- script: `scripts/v54_lysosomal_morphology_specificity.py`
+- report: `analysis/v54_lysosomal_morphology_specificity/REPORT.md`
+- model table:
+  `analysis/v54_lysosomal_morphology_specificity/specificity_models.tsv`
+
+The base GSE279972 coefficient reproduced exactly. Four fixed models then
+added a four-gene resident-microglia identity score, an eight-gene
+de-overlapped MIMS score, or both. The fully adjusted foamy-minus-nonfoamy
+coefficient was `0.517` (donor-clustered 95% CI `0.199` to `0.834`, donor-wild
+`p=0.00861`, max-variant `p=0.0453`). Three independently seeded sets of
+100,000 donor-wild replicates agreed, and all 21 leave-one-donor coefficients
+were positive (minimum `0.420`).
+
+This supports a reproducible association between the fixed lysosomal score and
+foamy morphology after the tested expression-state adjustments. It does **not**
+establish measured cell-fraction independence: resident identity and MIMS are
+transcript-state proxies and are biologically entangled with foamy activation.
+More importantly, the association did not reproduce directionally in the three
+paired chronic-active edges. It therefore remains an isolated morphology result,
+not a progression-rate marker, causal mechanism, intervention direction, or
+route to halting disability.

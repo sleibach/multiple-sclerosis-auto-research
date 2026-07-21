@@ -1,0 +1,22 @@
+{
+  "base_beta_reproduced": 0.4932504005050995,
+  "boundary": "Resident identity and de-overlapped MIMS are transcript state proxies, not measured cell fractions. Persistence would remain a foamy-morphology association only.",
+  "fully_adjusted_beta": 0.5166587972502935,
+  "fully_adjusted_cluster_ci": [
+    0.19907254180326422,
+    0.8342450526973233
+  ],
+  "fully_adjusted_donor_wild_p": 0.008609971300095666,
+  "fully_adjusted_max_variant_fwer_p": 0.04526318245605848,
+  "models": [
+    "base",
+    "resident_adjusted",
+    "mims_adjusted",
+    "resident_and_mims_adjusted"
+  ],
+  "n_donors": 21,
+  "n_samples": 54,
+  "n_wild_replicates": 300000,
+  "purpose": "Post-result lysosomal morphology specificity sensitivity; not progression or therapeutic evidence",
+  "verdict": "SPECIFICITY_SURVIVES_TESTED_STATE_ADJUSTMENT"
+}
