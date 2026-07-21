@@ -66,6 +66,7 @@ cannot measure progression rate or transition.
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
+| Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -547,3 +548,39 @@ any level. At 15% events, even OR `2.0` failed once 5% label error was added.
 These rates are design assumptions, not empirical PIRA-label estimates; they
 make endpoint adjudication and blinded package-specific parameterization a
 hard acquisition requirement.
+
+## Multi-Lineage Adversarial Review
+
+Status: **complete; independent review changed one bounded evidential grade,
+not a progression or target verdict**.
+
+Artifacts:
+
+- prompt: `analysis/v54_multilineage_progression_review/review_prompt.md`
+- segregated model records:
+  `knowledge_external/model_outputs/v54_progression_review/`
+- grounded report: `analysis/v54_multilineage_progression_review/REPORT.md`
+- all dispositions:
+  `analysis/v54_multilineage_progression_review/objection_grounding.tsv`
+
+Claude and Gemini each supplied six proposal-only objections. All 12 were
+checked against committed artifacts. Two changed the evidential grade:
+
+1. The complete 12-test post-result morphology sequence does not retain the
+   fully adjusted lysosomal or two-endpoint coupling claims after Holm control.
+2. A valid donor-estimand replacement for the proposed repeated-sample Fisher
+   test found only six informative donors and no supported within-donor
+   endpoint.
+
+The shared source-by-stage concern was tested formally across all five modules
+and did not support a positive interaction. The null-power maximum was
+calibrated rather than assumed problematic, while separate label-error runs
+materially tightened acquisition requirements. The proposed peripheral test
+remains fail-closed because the model itself requires artifacts that are not
+available.
+
+The independent lenses therefore added methodological value: they caused the
+foamy OXPHOS/lysosomal pattern to be downgraded to exploratory and substantially
+between-donor or unresolved. They did not surface a progression-associated
+state, intervention direction, or tractable target. Agreement prioritized the
+checks; only the data and committed method audits determined these outcomes.
