@@ -72,7 +72,7 @@ project's evidence standard.
 | V54 consolidated regression suite | done | One command runs 17 executable checks and 35 artifact/claim invariants; all pass. It pins competing-risk and visit-attendance invalidation boundaries plus numerical references. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
-| Repeated molecular-state reliability design | todo | Test whether repeated baseline molecular measurement improves progression power enough to justify acquisition burden, under frozen averaging/reliability rules. |
+| Repeated molecular-state reliability design | in-progress | Frozen synthetic design varies one/two/three baseline measurements, starting reliability 0.40/0.70, independent versus 0.50-correlated error, 10% measurement missingness, event rate, HR, and n; fixed averaging only. |
 | Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
 | Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
 | Endpoint adjudicator malformed-input expansion | todo | Add duplicate day, malformed numeric, unknown protocol, and later-valid-onset regressions. |
@@ -363,3 +363,10 @@ project's evidence standard.
   in the consolidated suite. All 17 command checks and 35 artifact invariants
   pass, as do provenance, structural, whitespace, tracked-size, and temporary-
   path guards. Active time accrued: 2h49m49s.
+- 2026-07-21T23:49:12Z: Froze the repeated molecular-score reliability design
+  before simulation. One, two, and three baseline measurements are compared at
+  starting reliability `0.40/0.70`, independent or `0.50`-correlated error,
+  10% per-measurement missingness, two event rates, two non-null HRs, and three
+  sample sizes. Material utility requires at least 0.10 absolute power gain
+  over one measurement in aggregate and every seed. Active time accrued:
+  2h50m42s.
