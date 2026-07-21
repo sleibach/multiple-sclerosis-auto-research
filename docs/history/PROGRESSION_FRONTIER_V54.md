@@ -68,6 +68,7 @@ cannot measure progression rate or transition.
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
+| P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -593,6 +594,53 @@ dropout, and imbalance. These are synthetic design assumptions, not empirical
 MS hazards or universal recruitment targets. They make pre-score event-time
 modeling and source/treatment control mandatory when a received package has
 variable follow-up or covariate imbalance.
+
+## P2 Compartment-Interaction Power Design
+
+Status: **conditionally ready only with high-fidelity composition measurement;
+no biological claim**.
+
+Artifacts:
+
+- frozen plan: `docs/plans/PROGRESSION_P2_INTERACTION_POWER_V54.md`
+- simulator: `scripts/v54_progression_p2_interaction_power.py`
+- report: `analysis/v54_progression_p2_interaction_power/REPORT.md`
+- trusted thresholds:
+  `analysis/v54_progression_p2_interaction_power/trusted_threshold_summary.tsv`
+- independent numerical check:
+  `analysis/v54_progression_p2_interaction_power/reference_check/summary.json`
+
+The frozen simulator generated 288,000 unique synthetic cohorts over paired and
+unpaired designs and evaluated 576,000 direct interaction routes. It never uses
+difference-of-significance localization. Four independent `statsmodels.OLS`
+fixtures reproduce the batched interaction implementation, with maximum
+absolute discrepancy `2.22e-15`.
+
+The adjusted route is compatible with nominal null calibration when composition
+is measured perfectly (48-cell median `0.048`, maximum `0.0653`, family
+max-tail `0.834`) and when composition is noisy but there is no true
+outcome-associated composition imbalance (24-cell median `0.0493`, maximum
+`0.0613`, family max-tail `0.904`). It is not calibrated when noisy composition
+measurement leaves true imbalance unresolved: the adjusted null maximum rises
+to `0.2227` (167/750, Wilson 95% CI `0.1943-0.2538`). Omitting composition under
+imbalance is worse, with a maximum null pass rate of `0.5827`.
+
+Only calibration-eligible regimes are used for planning. Twenty-seven of 36
+trusted non-null scenarios reached the frozen 80% criterion. In paired designs,
+a `0.7` SD interaction reached 80% in all nine trusted scenarios, with the
+smallest qualifying group size `15`; a `0.4` SD interaction passed only 3/9 and
+could require at least `50` per outcome group. In unpaired designs, a `0.7` SD
+interaction required `80` per outcome-by-compartment group, while `0.4` SD did
+not reach 80% by that maximum. These are conditional synthetic assumptions,
+not empirical MS effects or universal sample-size requirements.
+
+The operational conclusion is stricter than merely adding a composition proxy:
+if outcome-associated compartment composition is possible, P2 localization
+requires direct, validated high-fidelity composition measurements or an
+independently demonstrated no-imbalance condition. A noisy expression-derived
+proxy cannot rescue the interaction. Any received package must rerun this grid
+from blinded pairing, outcome, compartment, composition reliability, and
+imbalance metadata before scores are accessed.
 
 ## Multi-Lineage Adversarial Review
 

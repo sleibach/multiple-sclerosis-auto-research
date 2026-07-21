@@ -1,0 +1,59 @@
+{
+  "purpose": "Synthetic P2 direct compartment-interaction power design; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 288000,
+  "n_route_evaluations": 576000,
+  "n_aggregate_route_cells": 768,
+  "calibration_families": [
+    {
+      "label": "adjusted_perfect_composition",
+      "n_cells": 48,
+      "median": 0.048,
+      "maximum": 0.06533333333333333,
+      "maximum_count": 49,
+      "maximum_total": 750,
+      "maximum_ci_low": 0.04976959333295865,
+      "maximum_ci_high": 0.08532706078316597,
+      "binomial_reference_probability_maximum_at_least_observed": 0.8335892834026059
+    },
+    {
+      "label": "adjusted_noisy_composition_without_imbalance",
+      "n_cells": 24,
+      "median": 0.04933333333333333,
+      "maximum": 0.06133333333333333,
+      "maximum_count": 46,
+      "maximum_total": 750,
+      "maximum_ci_low": 0.046295245145196444,
+      "maximum_ci_high": 0.08084217572659802,
+      "binomial_reference_probability_maximum_at_least_observed": 0.9036762957019477
+    },
+    {
+      "label": "adjusted_noisy_composition_with_imbalance",
+      "n_cells": 24,
+      "median": 0.07200000000000001,
+      "maximum": 0.22266666666666668,
+      "maximum_count": 167,
+      "maximum_total": 750,
+      "maximum_ci_low": 0.19434747845753841,
+      "maximum_ci_high": 0.25381234993557183,
+      "binomial_reference_probability_maximum_at_least_observed": 0.0
+    },
+    {
+      "label": "unadjusted_with_composition_imbalance",
+      "n_cells": 48,
+      "median": 0.13533333333333333,
+      "maximum": 0.5826666666666667,
+      "maximum_count": 437,
+      "maximum_total": 750,
+      "maximum_ci_low": 0.5470415083752785,
+      "maximum_ci_high": 0.6174493120075445,
+      "binomial_reference_probability_maximum_at_least_observed": 0.0
+    }
+  ],
+  "trustworthy_adjusted_nonnull_scenarios_reaching_80pct": 27,
+  "trustworthy_adjusted_nonnull_scenarios": 36,
+  "residual_confounded_scenarios_reaching_80pct_not_interpreted_as_power": 10,
+  "residual_confounded_scenarios": 12,
+  "verdict": "P2_ROUTE_CONDITIONALLY_READY_REQUIRES_HIGH_FIDELITY_COMPOSITION",
+  "boundary": "All values arise from seeded synthetic assumptions. They are method behavior, not empirical MS compartment effects or localization evidence."
+}

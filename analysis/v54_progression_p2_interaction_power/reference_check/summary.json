@@ -1,0 +1,10 @@
+{
+  "purpose": "Independent numerical check of V54 P2 batched OLS interaction",
+  "synthetic": true,
+  "reference": "statsmodels.api.OLS",
+  "n_fixtures": 4,
+  "n_pass": 4,
+  "maximum_absolute_difference": 2.220446049250313e-15,
+  "overall_status": "PASS",
+  "boundary": "Synthetic numerical method check only; no biological evidence."
+}

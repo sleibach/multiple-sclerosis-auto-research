@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "group_sizes_per_outcome_per_compartment": [
+    10,
+    15,
+    20,
+    30,
+    50,
+    80
+  ],
+  "interaction_effects_sd": [
+    0.0,
+    0.4,
+    0.7,
+    1.0
+  ],
+  "paired_residual_correlations": [
+    0.0,
+    0.5,
+    0.8
+  ],
+  "composition_imbalances": [
+    0.0,
+    0.5
+  ],
+  "composition_reliabilities": [
+    1.0,
+    0.7
+  ],
+  "score_composition_coefficient": 0.6,
+  "common_outcome_effect": 0.3,
+  "replicates_per_seed": 250,
+  "seeds": [
+    54911,
+    54912,
+    54913
+  ],
+  "alpha": 0.05,
+  "analysis_routes": [
+    "unadjusted",
+    "composition_adjusted"
+  ],
+  "boundary": "Synthetic P2 method behavior only; not a biological or localization claim."
+}

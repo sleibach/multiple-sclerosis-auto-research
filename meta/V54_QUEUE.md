@@ -63,7 +63,7 @@ project's evidence standard.
 | GSE228330 progression metadata request addendum | done | Ready-unsent 29-field addendum requests subject map, a/s definition, age, disability/PIRA components, relapse/steroid/treatment, MRI, composition, batch/QC, and matrix. Context-only unless full role gate passes. |
 | V37 progression evidence-grade delta | done | Artifact-checked 18-item delta: 12 V37 items carried, 6 post-V37 additions; 2 method-strengthened, 3 progression-narrowed, 1 negative reinforced, and no target/progression promotion. |
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
-| P2 compartment-interaction power design | in-progress | Frozen before execution: direct paired/unpaired interaction, composition imbalance/reliability, compartment correlation, three seeds; no difference-of-significance shortcut. |
+| P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
 | Event-time assumption robustness | todo | Stress the frozen Cox route under non-proportional effects and informative dropout; quantify when the calibrated route becomes invalid. |
 | Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
@@ -256,3 +256,10 @@ project's evidence standard.
   simulation. It requires a direct paired or unpaired interaction, varies
   compartment correlation and composition imbalance/reliability, and forbids
   difference-of-significance localization. Active time accrued: 1h54m00s.
+- 2026-07-21T22:57:28Z: Completed 288,000 unique synthetic P2 cohorts and
+  576,000 direct-interaction route evaluations. Calibrated regimes reached the
+  frozen 80% threshold in 27/36 non-null scenarios. Noisy composition
+  adjustment under true imbalance was anti-conservative (null maximum
+  `0.2227`) and is excluded from power interpretation; unadjusted imbalance was
+  worse (maximum `0.5827`). Four independent `statsmodels` OLS fixtures pass
+  to `2.22e-15`. Active time accrued: 1h58m58s.
