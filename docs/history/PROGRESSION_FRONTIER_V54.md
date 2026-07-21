@@ -69,6 +69,7 @@ cannot measure progression rate or transition.
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
+| Progression competing-risk/death robustness | one invalid dependence boundary; power remains event-limited | 129,600 synthetic cohorts. Joint score/progression-risk death creates false protective associations; independent death is family-compatible but fails one strict cell and is excluded from power. Only 4/10 calibrated non-null scenarios reach 80%. Method behavior only. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
@@ -751,6 +752,48 @@ CDP declaration but is not relabeled PIRA. The embedded thresholds are fixture
 parameters only; a real cohort must supply its documented protocol before score
 access.
 
+## Progression Competing-Risk And Death Robustness
+
+Status: **cause-specific inference requires a pre-score competing-event
+dependence audit**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_COMPETING_RISK_ROBUSTNESS_V54.md`
+- script: `scripts/v54_progression_competing_risk_robustness.py`
+- results: `analysis/v54_progression_competing_risk_robustness/`
+
+The seeded simulation generated 129,600 unique synthetic cohorts across two
+pre-competing-risk event rates, three sample sizes, two molecular effects, and
+five competing-death mechanisms. These results characterize method behavior;
+they contain no empirical MS mortality, progression, or treatment evidence.
+
+No-death, score-dependent death, and progression-risk-dependent death passed
+the frozen null-calibration rule. Independent death had median null rejection
+`0.0508` and maximum `0.0633` (76/1,200; Wilson 95% CI `0.0509-0.0786`). Its
+strict single-cell lower-bound rule therefore flags, but the predeclared
+12-cell family maximum-reference tail is `0.243` and significant directions
+are balanced. It is reported as family-compatible but inconclusive and is
+excluded from all power summaries, not relabeled as a directional bias.
+
+Joint dependence of death on molecular score and latent progression risk
+invalidates ordinary cause-specific censoring in this generator. Its median
+null rejection is `0.0671`, the maximum is `0.1192` (143/1,200; Wilson 95% CI
+`0.1020-0.1387`), and the family maximum-reference tail is effectively zero.
+The maximum cell is predominantly false protective (`0.1192` negative versus
+`0.0183` positive). A future P1 package must therefore disclose mortality and
+competing-event timing and causes before score access; plausible joint
+score/risk dependence triggers a pre-specified competing-risk sensitivity or
+a fail-closed result. Death is not folded into the disability endpoint post
+hoc.
+
+Power remains event-limited even in calibrated mechanisms. Only 4/10 non-null
+scenarios meet the 80% and seed-stability gates. No scenario with pre-death
+event probability `0.15` reaches 80% by `n=320`; at event probability `0.30`,
+four scenarios reach the threshold at `n=320`, while score-dependent death at
+probability `0.25` reaches only `0.737`. These are design assumptions, not
+empirical effect-size estimates.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -761,15 +804,15 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 16 checks and asserts 28 committed artifact/claim
+The final suite executes 16 checks and asserts 31 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 three independent numerical references; the candidate role matrix; provenance
 and structural gates; whitespace; tracked-file size; and tracked temporary
 paths. Its invariants explicitly retain zero portable stage modules, zero
 transition-identifiable datasets, zero target revisits, both morphology
-downgrades, the two new method-invalid regimes, and 0/10 P1/P2/P3 candidate
-eligibility.
+downgrades, the event-time and competing-risk invalid regimes, the independent-
+death strict-cell flag, and 0/10 P1/P2/P3 candidate eligibility.
 
 The first suite run exposed a real execution defect: resolving the virtualenv
 interpreter symlink caused child processes to use bare Homebrew Python without

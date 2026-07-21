@@ -151,6 +151,9 @@ def main() -> None:
         ("analysis/v54_progression_p2_interaction_power/summary.json", "verdict", "eq", "P2_ROUTE_CONDITIONALLY_READY_REQUIRES_HIGH_FIDELITY_COMPOSITION"),
         ("analysis/v54_progression_p2_interaction_power/summary.json", "calibration_families.2.maximum", "gt", 0.20),
         ("analysis/v54_progression_event_time_assumption_robustness/summary.json", "invalid_censoring_mechanisms", "contains", "joint_score_event_risk"),
+        ("analysis/v54_progression_competing_risk_robustness/summary.json", "n_unique_simulated_cohorts", "eq", 129600),
+        ("analysis/v54_progression_competing_risk_robustness/summary.json", "strict_cell_flag_but_family_compatible_mechanisms", "contains", "independent"),
+        ("analysis/v54_progression_competing_risk_robustness/summary.json", "invalid_competing_event_mechanisms", "contains", "joint_score_progression_risk"),
         ("analysis/v54_progression_candidate_role_matrix/summary.json", "P1_eligible", "eq", 0),
         ("analysis/v54_progression_candidate_role_matrix/summary.json", "P2_eligible", "eq", 0),
         ("analysis/v54_progression_candidate_role_matrix/summary.json", "P3_eligible", "eq", 0),
@@ -187,6 +190,9 @@ def main() -> None:
 
     check_frame = pd.DataFrame(checks)
     invariant_frame = pd.DataFrame(invariants)
+    # Keep generated TSVs compatible with `git diff --check`: an empty final
+    # diagnostic field serializes as a trailing tab even when the check passes.
+    check_frame = check_frame.replace("", "-")
     check_frame.to_csv(OUT / "command_checks.tsv", sep="\t", index=False)
     invariant_frame.to_csv(OUT / "artifact_invariants.tsv", sep="\t", index=False)
     passed = bool(check_frame["pass"].all() and invariant_frame["pass"].all())

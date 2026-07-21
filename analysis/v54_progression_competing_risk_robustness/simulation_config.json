@@ -1,0 +1,51 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    120,
+    240,
+    320
+  ],
+  "event_probabilities_before_competing_death": [
+    0.15,
+    0.3
+  ],
+  "molecular_progression_hrs_per_latent_sd": [
+    1.0,
+    1.7
+  ],
+  "competing_death_probabilities": [
+    0.1,
+    0.25
+  ],
+  "competing_event_mechanisms": [
+    "none",
+    "independent",
+    "score_dependent",
+    "progression_risk_dependent",
+    "joint_score_progression_risk"
+  ],
+  "progression_frailty_log_hr": 0.7,
+  "death_mechanism_coefficients": {
+    "score_dependent": {
+      "score": 1.2
+    },
+    "progression_risk_dependent": {
+      "frailty": 1.2
+    },
+    "joint_score_progression_risk": {
+      "score": 0.6,
+      "frailty": 0.6,
+      "interaction": 1.8
+    }
+  },
+  "replicates_per_seed": 400,
+  "seeds": [
+    54931,
+    54932,
+    54933
+  ],
+  "measurement_reliability": 0.7,
+  "missing_rate": 0.1,
+  "alpha": 0.05,
+  "boundary": "Seeded synthetic method behavior only; not empirical MS progression, death, or biology."
+}

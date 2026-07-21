@@ -1,0 +1,21 @@
+{
+  "purpose": "Synthetic cause-specific progression Cox audit under competing death; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 129600,
+  "n_aggregate_cells": 108,
+  "calibrated_competing_event_mechanisms": [
+    "none",
+    "progression_risk_dependent",
+    "score_dependent"
+  ],
+  "strict_cell_flag_but_family_compatible_mechanisms": [
+    "independent"
+  ],
+  "invalid_competing_event_mechanisms": [
+    "joint_score_progression_risk"
+  ],
+  "nonnull_scenarios_reaching_80pct": 4,
+  "nonnull_scenarios": 10,
+  "verdict": "CAUSE_SPECIFIC_ROUTE_REQUIRES_COMPETING_EVENT_DEPENDENCE_AUDIT",
+  "boundary": "All values are seeded synthetic method behavior, not empirical MS progression effects, mortality, or biology."
+}

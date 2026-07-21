@@ -69,8 +69,8 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 16 executable checks and 28 artifact/claim invariants; all pass. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
-| Competing-risk/death robustness | in-progress | Frozen simulation tests cause-specific Cox under independent, score-dependent, progression-risk-dependent, and joint score/risk death; no post-hoc composite substitution. |
+| V54 consolidated regression suite | done | One command runs 16 executable checks and 31 artifact/claim invariants; all pass. It now pins the competing-risk strict-cell/invalidation distinction. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
+| Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | todo | Quantify bias/power when latent disability onset is observed only at scheduled confirmation visits, including schedule missingness. |
 | Repeated molecular-state reliability design | todo | Test whether repeated baseline molecular measurement improves progression power enough to justify acquisition burden, under frozen averaging/reliability rules. |
 | Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
@@ -330,3 +330,17 @@ project's evidence standard.
   score/frailty death while retaining the cause-specific Cox route. A death
   composite is explicitly not substituted post hoc. Active time accrued:
   2h33m23s.
+- 2026-07-21T23:36:39Z: Completed 129,600 seeded synthetic competing-risk
+  cohorts. Score-only and progression-risk-only death calibrated; independent
+  death triggered the strict single-cell rule but was compatible with the
+  predeclared family-maximum reference and is therefore excluded from power as
+  inconclusive, not called biased. Joint score/progression-risk death was
+  invalid (null maximum `0.119`, predominantly false protective). Four of ten
+  calibrated non-null scenarios reached 80% power. Active time accrued:
+  2h38m09s.
+- 2026-07-21T23:39:49Z: Competing-risk artifacts were integrated into the
+  cumulative report and pinned by three new regression invariants. Final
+  verification exposed and fixed generated-TSV trailing tabs that occurred
+  after the suite's internal whitespace check; the regenerated suite now
+  passes 16/16 commands and 31/31 invariants, with provenance, structure, and
+  repository guards passing. Active time accrued: 2h41m19s.
