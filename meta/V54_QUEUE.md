@@ -65,7 +65,7 @@ project's evidence standard.
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
 | Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
-| Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
+| Progression endpoint adjudication fixtures | in-progress | Frozen synthetic protocol distinguishes confirmed, transient/discordant, context-excluded, missing-confirmation, censored, and invalid outcomes without changing any real-cohort endpoint. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | todo | Define which measured cell-fraction methods are sufficient for the conditionally calibrated P2 route; expression-derived proxy alone must fail closed under possible imbalance. |
@@ -285,3 +285,8 @@ project's evidence standard.
   specified; unknown/outcome-related loss, missing dates or diagnostics,
   unblinding, and window-p-value substitution fail closed. All eight synthetic
   fixtures pass expected behavior. Active time accrued: 2h14m18s.
+- 2026-07-21T23:13:52Z: Froze the synthetic CDP/PIRA adjudication regression
+  before implementation. Ten edge-case families have predetermined decisions,
+  including transient or discordant worsening, relapse/steroid exclusion,
+  missing or mistimed confirmation, censoring before confirmation, and invalid
+  baseline. Active time accrued: 2h15m22s.
