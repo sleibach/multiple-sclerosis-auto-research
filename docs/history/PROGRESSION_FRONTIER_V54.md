@@ -71,6 +71,7 @@ cannot measure progression rate or transition.
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | Progression competing-risk/death robustness | one invalid dependence boundary; power remains event-limited | 129,600 synthetic cohorts. Joint score/progression-risk death creates false protective associations; independent death is family-compatible but fails one strict cell and is excluded from power. Only 4/10 calibrated non-null scenarios reach 80%. Method behavior only. |
 | Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
+| Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
@@ -847,6 +848,51 @@ route invalid. Neither condition may be interpreted as absence of a molecular
 association. These are synthetic design results, not empirical MS effects or
 attendance estimates.
 
+## Repeated Molecular-Score Reliability Design
+
+Status: **repeat measurement is conditionally useful only when starting
+reliability is low and errors are sufficiently independent**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_REPEATED_SCORE_RELIABILITY_V54.md`
+- script: `scripts/v54_progression_repeated_score_reliability.py`
+- results: `analysis/v54_progression_repeated_score_reliability/`
+
+The seeded simulation generated 216,000 synthetic cohorts across two starting
+reliabilities, one/two/three baseline measurements, independent or
+0.50-correlated error, 10% per-measurement missingness, three sample sizes, two
+event rates, and null plus two non-null effects. Six of ten measurement plans
+pass the strict null rule. Four have an isolated strict-cell flag but remain
+compatible with their fixed family-maximum reference; they are conservatively
+excluded from power interpretation rather than called biased. No plan is
+directionally invalid.
+
+Only 16/96 repeat-gain cells meet the frozen requirement of at least 0.10
+absolute gain both in aggregate and in every seed. Every such cell starts from
+single-measurement reliability `0.40`. The eligible plan families are two
+independent-error measurements, three independent-error measurements, and
+selected three-measure settings with 0.50-correlated error. No plan starting at
+reliability `0.70` clears calibration plus the aggregate/every-seed utility
+rule.
+
+The highest-information fixed scenario illustrates the magnitude and the
+diminishing return. At `n=320`, latent event probability `0.30`, and synthetic
+HR `1.7`, one measurement has empirical reliability `0.398` and power `0.578`;
+two independent-error measurements reach reliability `0.531` and power
+`0.781`; three reach `0.634` and `0.847`. With 0.50-correlated error, three
+measurements reach only reliability `0.491` and power `0.748`. At the lower
+event rate, even the same low-reliability three-repeat plan reaches only
+`0.613` power for HR `1.7` at `n=320`.
+
+The prospective implication is conditional: obtain a blinded pilot/test-retest
+reliability estimate before imposing repeat collection. Repeats are justified
+by this design only if single-measure reliability is poor and technical/
+temporal errors are demonstrably not strongly shared. Repetition cannot repair
+sparse progression events, endpoint error, informative attendance, or a
+non-progression-qualified cohort. These values are synthetic method behavior,
+not evidence that the project's molecular state has any particular stability.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -857,7 +903,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 17 checks and asserts 35 committed artifact/claim
+The final suite executes 17 checks and asserts 39 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance
@@ -865,8 +911,9 @@ and structural gates; whitespace; tracked-file size; and tracked temporary
 paths. Its invariants explicitly retain zero portable stage modules, zero
 transition-identifiable datasets, zero target revisits, both morphology
 downgrades, the event-time and competing-risk invalid regimes, the independent-
-death strict-cell flag, both informative-attendance invalid regimes, and 0/10
-P1/P2/P3 candidate eligibility.
+death strict-cell flag, both informative-attendance invalid regimes, the
+bounded repeated-measurement utility result, and 0/10 P1/P2/P3 candidate
+eligibility.
 
 The first suite run exposed a real execution defect: resolving the virtualenv
 interpreter symlink caused child processes to use bare Homebrew Python without

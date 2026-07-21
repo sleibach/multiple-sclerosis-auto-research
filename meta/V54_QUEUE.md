@@ -69,10 +69,10 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 17 executable checks and 35 artifact/claim invariants; all pass. It pins competing-risk and visit-attendance invalidation boundaries plus numerical references. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
+| V54 consolidated regression suite | done | One command runs 17 executable checks and 39 artifact/claim invariants; all pass. It pins competing-risk, visit-attendance, and repeated-measurement boundaries plus numerical references. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
-| Repeated molecular-state reliability design | in-progress | Frozen synthetic design varies one/two/three baseline measurements, starting reliability 0.40/0.70, independent versus 0.50-correlated error, 10% measurement missingness, event rate, HR, and n; fixed averaging only. |
+| Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
 | Multi-site progression transportability design | todo | Stress site-specific baseline hazards/effects and leave-site-out requirements; no pooled result without transport diagnostics. |
 | Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
 | Endpoint adjudicator malformed-input expansion | todo | Add duplicate day, malformed numeric, unknown protocol, and later-valid-onset regressions. |
@@ -370,3 +370,17 @@ project's evidence standard.
   sample sizes. Material utility requires at least 0.10 absolute power gain
   over one measurement in aggregate and every seed. Active time accrued:
   2h50m42s.
+- 2026-07-21T23:52:24Z: Completed 216,000 seeded repeated-measurement cohorts.
+  Six of ten reliability/measurement/error plans pass strict null calibration;
+  four have isolated strict-cell but family-compatible flags and zero are
+  directionally invalid. Sixteen of 96 repeat-gain cells meet the frozen
+  aggregate and every-seed 0.10 rule, all from starting reliability `0.40`.
+  At `n=320`, event probability `0.30`, and synthetic HR `1.7`, power rises
+  `0.578 -> 0.781 -> 0.847` for one, two, and three independent-error measures;
+  0.50-correlated error limits the three-measure plan to `0.748`. Active time
+  accrued: 2h53m54s.
+- 2026-07-21T23:53:47Z: Integrated the conditional repeat-measurement result
+  and pinned cohort count, zero invalid plans, 16 material cells, and the
+  bounded verdict. The consolidated suite passes 17/17 commands and 39/39
+  invariants; provenance, structure, whitespace, size, and path guards pass.
+  Active time accrued: 2h55m17s.

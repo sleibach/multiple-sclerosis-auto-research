@@ -1,0 +1,53 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    120,
+    240,
+    320
+  ],
+  "latent_event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "molecular_progression_hrs_per_latent_sd": [
+    1.0,
+    1.5,
+    1.7
+  ],
+  "single_measurement_reliabilities": [
+    0.4,
+    0.7
+  ],
+  "measurement_plans": [
+    {
+      "planned_measurements": 1,
+      "measurement_error_correlation": 0.0
+    },
+    {
+      "planned_measurements": 2,
+      "measurement_error_correlation": 0.0
+    },
+    {
+      "planned_measurements": 2,
+      "measurement_error_correlation": 0.5
+    },
+    {
+      "planned_measurements": 3,
+      "measurement_error_correlation": 0.0
+    },
+    {
+      "planned_measurements": 3,
+      "measurement_error_correlation": 0.5
+    }
+  ],
+  "measurement_missing_rate": 0.1,
+  "replicates_per_seed": 400,
+  "seeds": [
+    54951,
+    54952,
+    54953
+  ],
+  "alpha": 0.05,
+  "material_absolute_power_gain": 0.1,
+  "boundary": "Seeded synthetic method behavior only; not empirical MS progression, molecular stability, or biology."
+}

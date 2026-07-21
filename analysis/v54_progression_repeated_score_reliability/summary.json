@@ -1,0 +1,30 @@
+{
+  "purpose": "Synthetic repeated molecular-score reliability and power audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 216000,
+  "n_aggregate_cells": 180,
+  "calibrated_measurement_plans": [
+    "reliability_0.4|k1|error_corr_0.0",
+    "reliability_0.4|k2|error_corr_0.0",
+    "reliability_0.4|k3|error_corr_0.0",
+    "reliability_0.4|k3|error_corr_0.5",
+    "reliability_0.7|k1|error_corr_0.0",
+    "reliability_0.7|k2|error_corr_0.5"
+  ],
+  "strict_cell_flag_but_family_compatible_plans": [
+    "reliability_0.4|k2|error_corr_0.5",
+    "reliability_0.7|k2|error_corr_0.0",
+    "reliability_0.7|k3|error_corr_0.0",
+    "reliability_0.7|k3|error_corr_0.5"
+  ],
+  "invalid_measurement_plans": [],
+  "n_repeat_gain_cells": 96,
+  "n_materially_useful_repeat_cells": 16,
+  "materially_useful_repeat_plans": [
+    "reliability_0.4|k2|error_corr_0.0",
+    "reliability_0.4|k3|error_corr_0.0",
+    "reliability_0.4|k3|error_corr_0.5"
+  ],
+  "verdict": "REPEATS_HELP_ONLY_WHEN_ERROR_IS_SUFFICIENTLY_INDEPENDENT_AND_BASE_RELIABILITY_IS_LOW",
+  "boundary": "All values are seeded synthetic method behavior, not empirical MS progression, score stability, treatment, or biology."
+}
