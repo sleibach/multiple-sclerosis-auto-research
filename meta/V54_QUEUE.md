@@ -44,7 +44,7 @@ project's evidence standard.
 | CNS-intrinsic versus peripheral APC separation | done | No eligible compartment pair. GSE228330 baseline has RRMS n=10/SPMS n=5 and subtype/activity confounding (Fisher p=0.01698), plus no verified map, processed matrix, batch/composition, or disability. Localization is not identifiable, not a peripheral null. |
 | Progression intervention-direction map | done | Sequential audit of 9 states: 0 pass the progression-specific gate, 0 target revisits. V53 context supplies 0 replicated selective control nodes, 0 additive-pair passes, and 0 consensus causal orientations. |
 | AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
-| Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
+| Multi-lineage adversarial progression review | in-progress | Claude and Gemini produced 12 proposal-only objections. Two new audits are frozen: five-module source-by-stage interaction and global correction over the complete 12-test post-result morphology sequence. Grounding is underway. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
 | Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
 | Progression-event power design skeleton | done | 288k synthetic cohorts/3 seeds/192 cells; null FPR median 0.043, max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 not by n=240. Assumption-labeled, not empirical. |
@@ -179,3 +179,9 @@ project's evidence standard.
   `0.060`). Only 7/24 non-null scenarios reached 80%; assumed OR 1.25/1.5 did
   not by `n=240`. This is method-design evidence only, not an empirical MS
   effect or universal N target. Active time accrued: 1h05m26s.
+- 2026-07-21T22:10:32Z: Claude and Gemini independently returned six
+  progression-method objections each. Their outputs were segregated as
+  external-unverifiable proposal records. Multi-lineage agreement prioritizes
+  the Macnair source-by-stage interaction; Claude also identified a substantive
+  family-definition issue across the sequential morphology follow-ups. Both
+  audits were frozen before execution. Active time accrued: 1h12m02s.

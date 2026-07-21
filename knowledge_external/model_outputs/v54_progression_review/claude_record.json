@@ -1,0 +1,89 @@
+{
+  "claim": "anthropic--claude-4.7-opus generated six adversarial objections to the committed V54 progression analyses; each objection has zero finding status until independently checked against project artifacts.",
+  "date_accessed": "2026-07-21",
+  "deployment_id": "def854013c7ac379",
+  "epistemic_class": "external-unverifiable",
+  "generation": {
+    "max_output_tokens": 8000,
+    "parsed_output_sha256": "fc92c56c4991ca7f98ec1e4e0bf02e36c8ac03e6853ffd5a9660f610f79591e8",
+    "prompt_path": "analysis/v54_multilineage_progression_review/review_prompt.md",
+    "spend": "not exposed by the current SAP AI Core client response path",
+    "temperature": "client family default"
+  },
+  "lineage": "Anthropic Claude",
+  "model": "anthropic--claude-4.7-opus",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "objections": [
+    {
+      "concrete_check": "Enumerate every pooled morphology model actually fit after the transport gate failed (all module x adjustment-set combinations) and recompute a max-T across the full post-hoc family using the existing 300,000 donor-wild null draws on GSE279972; report adjusted p for OXPHOS and lysosomal against that full family.",
+      "fatal_weakness": "The pooled morphology p-values are post-result sensitivities computed after the frozen orthogonal-context gate failed, and the max-endpoint adjustment (0.0114, 0.0518) only spans the two co-tested endpoints, not the full family of pooled sensitivities that were run after gate failure. This constitutes a researcher degree of freedom in family definition.",
+      "id": "OBJ1",
+      "minimum_next_data": "None new; requires the committed permutation index and a complete model-run manifest.",
+      "required_artifacts": "GSE279972 foamy/nonfoamy matrix, donor IDs, lesion class, B/APC and resident-microglia covariates, MIMS de-overlap vector, the 300,000 donor-wild permutation index, and the analysis log listing every pooled model executed post-gate.",
+      "target_claim": "Pooled morphology association for OXPHOS/lysosomal is lesion-context-bounded but real, based on donor-wild p 0.0107/0.0108 and stable LODO directions.",
+      "why_it_matters": "If the max-endpoint family is under-specified, the surviving OXPHOS/lysosomal signal could be a selection artifact of post-hoc pooling, and calling it a bounded association overstates evidence.",
+      "would_change_verdict_if_supported": "If full-family max-T keeps OXPHOS p<0.05, retain 'bounded association'; if it does not, downgrade wording to 'exploratory, not gate-passing.'"
+    },
+    {
+      "concrete_check": "Fit the committed Macnair model with a source x (SPMS-PPMS) interaction and report per-source standardized betas with HC3 CIs and the interaction permutation p under the same 300,000-null seed set; also report per-source LODO stability.",
+      "fatal_weakness": "Source-direction concordance is being treated as a supportive qualifier while the source x stage interaction is not reported. With HC3 CI -0.253 to 0.938 and perm p 0.279, the pooled estimate is compatible with a WM-only effect and a null GM effect, which would undermine 'same-direction' as evidence.",
+      "id": "OBJ2",
+      "minimum_next_data": "None new.",
+      "required_artifacts": "Macnair 44-donor microglia matrix, donor/source/stage labels, nuisance covariates already used, and the frozen permutation seeds.",
+      "target_claim": "CD44/CXCR4 is inconclusive but same-direction across Amsterdam WM and UK GM in the Macnair 44-donor comparison.",
+      "why_it_matters": "If concordance is driven by one tissue with the other near zero, the module description misleads readers about generalizability across CNS compartments.",
+      "would_change_verdict_if_supported": "If per-source betas are similar in magnitude and sign, retain 'same-direction, inconclusive'; if one source is near zero or opposite, replace wording with 'pooled direction driven by [source]; other source null.'"
+    },
+    {
+      "concrete_check": "Attach the exact sign-test p and a family-wise adjusted p across the five pre-existing modules for the paired edge design in GSE180759, and label the 3/3 statement as descriptive only in the results text.",
+      "fatal_weakness": "Three paired donors cannot support any inferential statement; 3/3 has an exact one-sided sign-test p of 0.125 and no adjustment for the five modules tested. Reporting the 3/3 count next to null morphology results implies asymmetric evidential weight where none exists.",
+      "id": "OBJ3",
+      "minimum_next_data": "None new.",
+      "required_artifacts": "GSE180759 paired edge counts per module (already computed) and the module family definition.",
+      "target_claim": "CD44/CXCR4 is 3/3 higher at chronic-active edges in GSE180759.",
+      "why_it_matters": "The 3/3 line is likely to be quoted as corroboration for CD44/CXCR4 despite being underpowered and unadjusted, keeping a candidate alive that the frozen gates already failed.",
+      "would_change_verdict_if_supported": "Confirms that 3/3 cannot upgrade CD44/CXCR4 beyond 'inconclusive'; forces removal of any implied corroboration."
+    },
+    {
+      "concrete_check": "Add a written non-identifiability closure to the acquisition contract naming GSE228330 (missing subject map, processed matrix, batch, age, composition, disability; subtype-suffix Fisher p 0.01698) as fail-closed for peripheral inference, and require any future peripheral test to be pre-declared.",
+      "fatal_weakness": "GSE228330 has a Fisher p 0.01698 confound between subtype and deposited activity suffix, but the claim 'no peripheral test was run' leaves open whether a bounded, confound-declared descriptive test on the 15 samples would still be informative or misleading. Silence here is a researcher degree of freedom: a future reader could run it opportunistically.",
+      "id": "OBJ4",
+      "minimum_next_data": "None new; contract amendment only.",
+      "required_artifacts": "The 64-field acquisition contract and P1/P2/P3 validator; GSE228330 metadata inventory.",
+      "target_claim": "CNS-versus-peripheral localization is not identifiable, and no peripheral null was computed.",
+      "why_it_matters": "Either the peripheral arm should be formally closed with a documented non-identifiability decision, or a bounded descriptive analysis with the confound annotated should be pre-registered, to prevent selective later reporting.",
+      "would_change_verdict_if_supported": "Locks peripheral localization as closed rather than merely 'not run,' removing a latent degree of freedom."
+    },
+    {
+      "concrete_check": "Report the full null FPR distribution across the 288,000 cohorts (quantiles 0.5/0.9/0.95/0.99 and max) per seed, state the nominal alpha, and either (a) apply a calibration correction so max <= nominal, or (b) declare the tolerated ceiling in the contract.",
+      "fatal_weakness": "The max null FPR of 0.060 exceeds the nominal 0.05 and is being reported without stating what the intended nominal level was or whether the ceiling is acceptable for the fail-closed validator. Additionally, 'under explicit assumptions' is not quantified in the summary, leaving the effect-size scale (standardized beta vs OR) ambiguous for downstream MS design choices.",
+      "id": "OBJ5",
+      "minimum_next_data": "None new.",
+      "required_artifacts": "The synthetic power grid output tables, seed-level FPR arrays, and the acquisition contract's stated alpha.",
+      "target_claim": "The synthetic power grid establishes that null FPR is 0.043 median / 0.060 max and that 7/24 non-null scenarios reach 80% power; OR 1.25/1.5 do not at n=240.",
+      "why_it_matters": "If the validator's nominal alpha is 0.05, a 0.060 tail is an anti-conservative regime that should either be bounded or corrected before it is used as evidence that the acquisition design is adequately calibrated.",
+      "would_change_verdict_if_supported": "If max FPR is brought to <= nominal or a ceiling is formally accepted, retain the design claim; otherwise weaken to 'calibration not yet achieved.'"
+    },
+    {
+      "concrete_check": "Freeze and publish, in the acquisition contract, the numeric pass thresholds for (i) replicated selective control node count, (ii) corrected additive-pair prioritization, (iii) consensus causal-edge orientation across the ten skeleton variants, and (iv) the progression-specific first gate itself; then re-report 0/9 against those frozen thresholds.",
+      "fatal_weakness": "The V53 held context reports 24 perturbation signatures, 0 replicated selective control nodes, 0 additive-pair passes, and 0 consensus causal edges over ten skeleton variants, but the summary does not state the pre-specified pass thresholds for each of these four criteria. Without those thresholds in writing, 'zero passes' cannot be distinguished from 'no threshold was set,' which is a hidden degree of freedom for future re-scoring.",
+      "id": "OBJ6",
+      "minimum_next_data": "None new; contract amendment plus re-report.",
+      "required_artifacts": "V53 held-context perturbation outputs, skeleton-variant edge tables, and the acquisition contract text.",
+      "target_claim": "0/9 pre-existing candidate states pass the progression-specific first gate and no target closure changed.",
+      "why_it_matters": "If thresholds were set post hoc, the 0/9 conclusion is not falsifiable and future analyses could quietly relax them.",
+      "would_change_verdict_if_supported": "Retains 0/9 as a falsifiable, pre-registered result rather than a summary statistic; no change to closure verdict, but removes a degree of freedom."
+    }
+  ],
+  "record_id": "V54_PROGRESSION_REVIEW_CLAUDE",
+  "record_type": "model_generated_method_critique",
+  "relationship_note": "Objections can trigger grounded checks or tighter wording but cannot alter a finding, locked rule, pre-registration, or lead status by assertion.",
+  "relationship_to_project_findings": "untested",
+  "service": "SAP AI Core Orchestration",
+  "source": {
+    "citation": "SAP AI Core model inference invoked through scripts/sap_ai_core_client.py.",
+    "label": "anthropic--claude-4.7-opus via SAP AI Core Orchestration",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "Model-generated critique is not empirical or mathematical evidence until independently checked against committed code and data."
+}

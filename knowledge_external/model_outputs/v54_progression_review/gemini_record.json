@@ -1,0 +1,89 @@
+{
+  "claim": "gemini-2.5-pro generated six adversarial objections to the committed V54 progression analyses; each objection has zero finding status until independently checked against project artifacts.",
+  "date_accessed": "2026-07-21",
+  "deployment_id": "d6dc532885507ac7",
+  "epistemic_class": "external-unverifiable",
+  "generation": {
+    "max_output_tokens": 8000,
+    "parsed_output_sha256": "c1148fcf0cdbb298dbd63f04ea566aaa668e56a9a364201f5c013e3f2967e8c1",
+    "prompt_path": "analysis/v54_multilineage_progression_review/review_prompt.md",
+    "spend": "not exposed by the current SAP AI Core client response path",
+    "temperature": "client family default"
+  },
+  "lineage": "Google Gemini",
+  "model": "gemini-2.5-pro",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "objections": [
+    {
+      "concrete_check": "Perform a pseudo-time trajectory analysis on the combined single-cell microglia data from the Macnair and GSE279972 studies. After constructing the trajectory, color the cells by their discrete source labels (e.g., PPMS, SPMS, foamy, active edge) and assess whether the labels align in a biologically plausible and monotonic progression sequence.",
+      "fatal_weakness": "The study design assumes, without empirical support from the held data, that the compared static biological states can be ordered into a valid temporal sequence representing disease progression. Differences could instead reflect stable, parallel disease subtypes rather than stages of a single process.",
+      "id": "STATIC_PROGRESSION_LEAP",
+      "minimum_next_data": "None. This check is executable on the committed held data.",
+      "required_artifacts": "Cell-level expression matrices and metadata from the Macnair and GSE279972 studies.",
+      "target_claim": "The collective evidence from cross-sectional comparisons (PPMS vs. SPMS, active vs. inactive lesions) provides insight into MS progression.",
+      "why_it_matters": "This inferential leap is the central weakness of the entire project. If the static states do not represent a time-ordered sequence, then the observed molecular differences are not markers of 'progression' or 'flux', undermining the core relevance of all findings.",
+      "would_change_verdict_if_supported": "If the labels are intermingled or do not form a coherent sequence along the trajectory, it would provide direct evidence against the assumption that these static states can serve as a proxy for temporal progression."
+    },
+    {
+      "concrete_check": "For the three direction-discordant modules (HLA, MIF, lysosomal), re-fit the differential expression model to include a formal interaction term: `module_score ~ disease_stage * tissue_source + other_covariates`. The primary endpoint of this check is the significance of the interaction term.",
+      "fatal_weakness": "The analysis treated tissue source (Amsterdam white matter vs. UK grey matter) as a nuisance variable to be adjusted for, rather than a primary biological context. The finding that 3 of 5 modules showed direction-discordant effects between sources is strong evidence of a source-by-disease-stage interaction, which is masked by a simple adjustment model.",
+      "id": "PM_INTERACTION_FAILURE",
+      "minimum_next_data": "None. This check is executable on the committed held data.",
+      "required_artifacts": "The Macnair study expression matrix, calculated module scores, and metadata for disease stage and tissue source.",
+      "target_claim": "The postmortem microglia comparison (PPMS vs. SPMS) yielded a null result for all modules after being 'nuisance and source controlled'.",
+      "why_it_matters": "Averaging across opposing effects in different brain regions can create a false null result. The key finding may not be 'no difference' but rather that disease stage manifests differently in grey versus white matter, a biologically significant conclusion that was missed.",
+      "would_change_verdict_if_supported": "If a significant interaction is found, the verdict would change from 'null result' to 'evidence of context-dependent effects of progressive MS stage,' which is a positive finding of biological heterogeneity."
+    },
+    {
+      "concrete_check": "Construct a contingency table of the 21 donor IDs versus the lesion class (class 2 vs. class 3) for all samples in GSE279972. Perform a Fisher's exact test to assess the independence of donor and lesion class.",
+      "fatal_weakness": "LODO stability is only a meaningful robustness check if donors are not systematically confounded with other key variables. If specific donors contribute samples primarily from one lesion class (e.g., class 2 or class 3), then LODO stability does not protect against confounding by lesion class, which is the exact variable that caused the transport gate to fail.",
+      "id": "MORPH_LODO_CONFUSION",
+      "minimum_next_data": "None. This check is executable on the committed held data.",
+      "required_artifacts": "The sample-to-donor and sample-to-lesion-class mapping for the GSE279972 dataset.",
+      "target_claim": "The pooled morphology associations (OXPHOS, lysosomal) are robust, as demonstrated by the stability of effect directions in all 21 leave-one-donor-out (LODO) models.",
+      "why_it_matters": "This presents a potentially misleading picture of the finding's robustness. It masks the possibility that the pooled association is an artifact of confounding between donor and lesion class, rather than a generalizable biological effect.",
+      "would_change_verdict_if_supported": "If donor and lesion class are significantly associated, the LODO stability claim would be re-classified as uninformative, and the pooled result would be considered highly likely to be an artifact of confounding."
+    },
+    {
+      "concrete_check": "For the `morphology * lesion_class` interaction model in GSE279972, calculate per-donor DFBETAS for the interaction term. Identify any donors whose removal causes a sign change or a change in the coefficient larger than its standard error.",
+      "fatal_weakness": "The evidence summary notes that the LODO signs for the interaction term were 'unstable'. An interaction estimate that flips sign upon removal of single donors is not a reliable null; it is the signature of a misspecified model or a finding driven by a few highly influential data points. Averaging these unstable effects to a non-significant p-value is misleading.",
+      "id": "INTERACTION_MODEL_INSTABILITY",
+      "minimum_next_data": "None. This check is executable on the committed held data.",
+      "required_artifacts": "The GSE279972 expression matrix, module scores, and metadata for donor, morphology, and lesion class.",
+      "target_claim": "The direct lesion-class-3-versus-class-2 interactions for morphology effects are null, contributing to the 'unresolved transport' conclusion.",
+      "why_it_matters": "This suggests the model for transportability is fundamentally flawed. The 'unresolved transport' is not merely a lack of precision but a failure to model profound heterogeneity, possibly at the donor level. This invalidates interpreting the pooled main effect, as its meaning is conditional on an interaction that is poorly characterized.",
+      "would_change_verdict_if_supported": "If one or two influential donors are identified as driving the instability, the verdict would change from 'null interaction' to 'evidence of idiosyncratic, donor-specific interactions,' invalidating the pooled model and its conclusions."
+    },
+    {
+      "concrete_check": "Re-run a subset of the power simulation using a 'pessimistic but empirical' parameter set. The variance, signal-to-noise ratio, and covariate effect sizes should be sampled from the distributions observed in the most challenging real-data contexts, such as the cross-lesion-class comparisons in GSE279972 where the transport gate failed.",
+      "fatal_weakness": "The simulation's conclusions are entirely conditional on its 'explicit assumptions,' which are not disclosed. This creates an unreviewable researcher degree of freedom, as the choice of simulation parameters (e.g., effect size distribution, covariate structure, variance) can be tuned to produce a desired outcome.",
+      "id": "SIMULATION_ASSUMPTION_BLINDNESS",
+      "minimum_next_data": "New empirical data is not required, but access to the original simulation artifacts is essential.",
+      "required_artifacts": "The complete simulation code and the file specifying the original 'explicit assumptions'. Summary statistics (variance, effect sizes) from the empirical analyses.",
+      "target_claim": "The synthetic power grid simulation validates the future acquisition design and provides a reliable estimate of statistical power (e.g., n=240 is insufficient for OR 1.25).",
+      "why_it_matters": "The power analysis may be based on an unrealistic best-case scenario, leading to misplaced confidence in the acquisition plan and future underpowered studies. Without transparency, the simulation is not a rigorous validation but an internal benchmark of unknown relevance.",
+      "would_change_verdict_if_supported": "If power under the empirically-grounded pessimistic assumptions is substantially lower than reported, it would indicate the acquisition plan is likely insufficient and the reported power estimates are misleadingly optimistic."
+    },
+    {
+      "concrete_check": "First, explicitly report the 2x2 contingency table of MS subtype vs. activity suffix for GSE228330. If not perfectly collinear, perform differential module analysis between SPMS and RRMS, including 'activity suffix' as a model covariate. Report all results with clear warnings about potential residual confounding.",
+      "fatal_weakness": "The decision to perform no analysis is an unnecessary evasion. While the dataset is small and confounded (subtype vs. 'activity suffix', p=0.017), a confounded analysis, reported with strong caveats, is more informative than an evidence vacuum. The confounding is not described as perfect, leaving room for analysis.",
+      "id": "PERIPHERAL_ANALYSIS_AVOIDANCE",
+      "minimum_next_data": "The public subject map for GSE228330 linking samples to subtype, activity suffix, and other available covariates. If this is truly unavailable, no check is possible.",
+      "required_artifacts": "The processed matrix and subject map for GSE228330, which is noted as 'absent'. This check is contingent on its availability.",
+      "target_claim": "No peripheral expression test was run on GSE228330 due to data limitations, so there is no peripheral null result.",
+      "why_it_matters": "This leaves a key biological domain (peripheral immunity) completely unevaluated with available data. A null result, even from a flawed analysis, provides a weak but useful prior. More importantly, a strong signal could potentially be detected despite the flaws, which would be a critical finding.",
+      "would_change_verdict_if_supported": "If any module showed a significant difference, the verdict would change from 'no peripheral evidence' to 'preliminary but confounded evidence for a peripheral signal,' justifying further investigation."
+    }
+  ],
+  "record_id": "V54_PROGRESSION_REVIEW_GEMINI",
+  "record_type": "model_generated_method_critique",
+  "relationship_note": "Objections can trigger grounded checks or tighter wording but cannot alter a finding, locked rule, pre-registration, or lead status by assertion.",
+  "relationship_to_project_findings": "untested",
+  "service": "SAP AI Core foundation-model inference",
+  "source": {
+    "citation": "SAP AI Core model inference invoked through scripts/sap_ai_core_client.py.",
+    "label": "gemini-2.5-pro via SAP AI Core foundation-model inference",
+    "url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "why_unverifiable": "Model-generated critique is not empirical or mathematical evidence until independently checked against committed code and data."
+}
