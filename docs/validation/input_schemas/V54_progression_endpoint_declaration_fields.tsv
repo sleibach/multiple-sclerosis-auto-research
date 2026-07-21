@@ -1,0 +1,48 @@
+field	required_for	value_type	allowed_values	purpose	failure_action
+declaration_id	all	text		identify the frozen declaration	FAIL_CLOSED
+package_id	all	text		link the declaration to one quarantined receipt	FAIL_CLOSED
+synthetic	all	boolean	yes;no	prevent synthetic fixtures from being mistaken for real data	FAIL_CLOSED
+role	all	enum	P1;P2	select longitudinal progression or paired-compartment localization	FAIL_CLOSED
+endpoint_type	all	enum	cdp;pira	distinguish confirmed disability progression from relapse-independent accumulation	FAIL_CLOSED
+outcome_name	all	text		name the exact source outcome	FAIL_CLOSED
+semantic_basis	all	enum	repeated_disability	forbid relapse stage morphology or pharmacodynamics as substitutes	FAIL_CLOSED
+raw_outcome_components_present	all	boolean	yes;no	recompute and audit the derived endpoint	FAIL_CLOSED
+protocol_definition_present	all	boolean	yes;no	prevent undocumented label semantics	FAIL_CLOSED
+baseline_disability_present	all	boolean	yes;no	define change from a measured baseline	FAIL_CLOSED
+independent_followup_assessments	all	integer		ensure at least two post-baseline assessments	FAIL_CLOSED
+confirmation_required	all	boolean	yes;no	reject transient unconfirmed worsening	FAIL_CLOSED
+confirmation_interval_days	all	integer		freeze the protocol confirmation interval	FAIL_CLOSED
+confirmation_measurement_definition	all	text		define which repeated component confirms worsening	FAIL_CLOSED
+outcome_window_start_days	all	integer		freeze outcome-window start relative to molecular baseline	FAIL_CLOSED
+outcome_window_end_days	all	integer		freeze outcome-window end relative to molecular baseline	FAIL_CLOSED
+relapse_exclusion_rule	PIRA	text		freeze the relapse-free attribution rule	FAIL_PIRA
+relapse_dates_present	PIRA	boolean	yes;no	make the relapse exclusion executable	FAIL_PIRA
+steroid_exclusion_rule	PIRA	text		freeze acute steroid handling	FAIL_PIRA
+steroid_dates_present	PIRA	boolean	yes;no	make steroid exclusion executable	FAIL_PIRA
+infection_handling_rule	all	text		freeze acute infection handling	FAIL_CLOSED
+treatment_switch_rule	all	text		freeze informative treatment-switch handling	FAIL_CLOSED
+censoring_rule	all	text		freeze administrative and event censoring	FAIL_CLOSED
+death_dropout_rule	all	text		freeze competing loss and missing follow-up handling	FAIL_CLOSED
+molecular_baseline_definition	all	text		freeze molecular time zero	FAIL_CLOSED
+molecular_primary_timepoint	all	text		freeze the molecular predictor timepoint or change	FAIL_CLOSED
+primary_molecular_state	all	text		name one pre-existing frozen state	FAIL_CLOSED
+primary_state_definition_artifact	all	text		trace the exact genes and scoring rule	FAIL_CLOSED
+primary_effect_estimand	all	text		freeze effect scale and model target	FAIL_CLOSED
+covariate_set	all	text		freeze adjustment without post-result expansion	FAIL_CLOSED
+missing_data_rule	all	text		freeze exclusions and imputation policy	FAIL_CLOSED
+analysis_count_budget	all	integer		bound the confirmatory test family	FAIL_CLOSED
+multiplicity_method	all	text		freeze family-wise error handling	FAIL_CLOSED
+pass_rule	all	text		pre-commit positive interpretation	FAIL_CLOSED
+fail_rule	all	text		pre-commit negative interpretation	FAIL_CLOSED
+inconclusive_rule	all	text		pre-commit underpowered or imprecise interpretation	FAIL_CLOSED
+scores_accessed_before_freeze	all	boolean	yes;no	preserve score blindness	FAIL_CLOSED
+individual_outcomes_accessed_before_freeze	all	boolean	yes;no	preserve subject-level outcome blindness	FAIL_CLOSED
+p1_semantic_gate_pass	P2	boolean	yes;no	prevent localization of an invalid progression endpoint	FAIL_P2
+compartment_design	P2	enum	paired_subjects;prespecified_harmonized	freeze pairing or a justified harmonized design	FAIL_P2
+same_endpoint_definition_both_compartments	P2	boolean	yes;no	avoid comparing different phenotypes	FAIL_P2
+same_outcome_window_both_compartments	P2	boolean	yes;no	avoid timing-induced localization artifacts	FAIL_P2
+compartment_interaction_prespecified	P2	boolean	yes;no	require a direct localization test	FAIL_P2
+composition_adjustment_prespecified	P2	boolean	yes;no	control cell-mixture differences	FAIL_P2
+source_batch_adjustment_prespecified	P2	boolean	yes;no	control source and technical structure	FAIL_P2
+minimum_subjects_per_outcome_group	P2	integer		enforce the V54 eligibility floor before power simulation	FAIL_P2
+compartment_analysis_count_budget	P2	integer		bound the localization family	FAIL_P2

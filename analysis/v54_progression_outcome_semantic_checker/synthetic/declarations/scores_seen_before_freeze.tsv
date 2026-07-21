@@ -1,0 +1,35 @@
+field	value	source_reference	frozen_before_score_access	notes
+declaration_id	SYNTHETIC_P1_cdp	SYNTHETIC_ONLY/declaration_id.txt	yes	SYNTHETIC fixture; no biological data
+package_id	SYNTHETIC_PACKAGE_DO_NOT_USE_AS_DATA	SYNTHETIC_ONLY/package_id.txt	yes	SYNTHETIC fixture; no biological data
+synthetic	yes	SYNTHETIC_ONLY/synthetic.txt	yes	SYNTHETIC fixture; no biological data
+role	P1	SYNTHETIC_ONLY/role.txt	yes	SYNTHETIC fixture; no biological data
+endpoint_type	cdp	SYNTHETIC_ONLY/endpoint_type.txt	yes	SYNTHETIC fixture; no biological data
+outcome_name	SYNTHETIC confirmed disability outcome	SYNTHETIC_ONLY/outcome_name.txt	yes	SYNTHETIC fixture; no biological data
+semantic_basis	repeated_disability	SYNTHETIC_ONLY/semantic_basis.txt	yes	SYNTHETIC fixture; no biological data
+raw_outcome_components_present	yes	SYNTHETIC_ONLY/raw_outcome_components_present.txt	yes	SYNTHETIC fixture; no biological data
+protocol_definition_present	yes	SYNTHETIC_ONLY/protocol_definition_present.txt	yes	SYNTHETIC fixture; no biological data
+baseline_disability_present	yes	SYNTHETIC_ONLY/baseline_disability_present.txt	yes	SYNTHETIC fixture; no biological data
+independent_followup_assessments	3	SYNTHETIC_ONLY/independent_followup_assessments.txt	yes	SYNTHETIC fixture; no biological data
+confirmation_required	yes	SYNTHETIC_ONLY/confirmation_required.txt	yes	SYNTHETIC fixture; no biological data
+confirmation_interval_days	180	SYNTHETIC_ONLY/confirmation_interval_days.txt	yes	SYNTHETIC fixture; no biological data
+confirmation_measurement_definition	SYNTHETIC repeated EDSS threshold	SYNTHETIC_ONLY/confirmation_measurement_definition.txt	yes	SYNTHETIC fixture; no biological data
+outcome_window_start_days	0	SYNTHETIC_ONLY/outcome_window_start_days.txt	yes	SYNTHETIC fixture; no biological data
+outcome_window_end_days	730	SYNTHETIC_ONLY/outcome_window_end_days.txt	yes	SYNTHETIC fixture; no biological data
+infection_handling_rule	SYNTHETIC exclude acute infection window	SYNTHETIC_ONLY/infection_handling_rule.txt	yes	SYNTHETIC fixture; no biological data
+treatment_switch_rule	SYNTHETIC censor at switch	SYNTHETIC_ONLY/treatment_switch_rule.txt	yes	SYNTHETIC fixture; no biological data
+censoring_rule	SYNTHETIC administrative censor at day 730	SYNTHETIC_ONLY/censoring_rule.txt	yes	SYNTHETIC fixture; no biological data
+death_dropout_rule	SYNTHETIC censor with explicit reason	SYNTHETIC_ONLY/death_dropout_rule.txt	yes	SYNTHETIC fixture; no biological data
+molecular_baseline_definition	SYNTHETIC pre-window sample	SYNTHETIC_ONLY/molecular_baseline_definition.txt	yes	SYNTHETIC fixture; no biological data
+molecular_primary_timepoint	SYNTHETIC baseline state	SYNTHETIC_ONLY/molecular_primary_timepoint.txt	yes	SYNTHETIC fixture; no biological data
+primary_molecular_state	SYNTHETIC frozen CD44/CXCR4 score	SYNTHETIC_ONLY/primary_molecular_state.txt	yes	SYNTHETIC fixture; no biological data
+primary_state_definition_artifact	SYNTHETIC_ONLY/frozen_state.tsv	SYNTHETIC_ONLY/primary_state_definition_artifact.txt	yes	SYNTHETIC fixture; no biological data
+primary_effect_estimand	SYNTHETIC log odds per one-SD score	SYNTHETIC_ONLY/primary_effect_estimand.txt	yes	SYNTHETIC fixture; no biological data
+covariate_set	SYNTHETIC age;sex;treatment;batch;composition	SYNTHETIC_ONLY/covariate_set.txt	yes	SYNTHETIC fixture; no biological data
+missing_data_rule	SYNTHETIC complete primary fields or fail closed	SYNTHETIC_ONLY/missing_data_rule.txt	yes	SYNTHETIC fixture; no biological data
+analysis_count_budget	1	SYNTHETIC_ONLY/analysis_count_budget.txt	yes	SYNTHETIC fixture; no biological data
+multiplicity_method	SYNTHETIC one confirmatory test	SYNTHETIC_ONLY/multiplicity_method.txt	yes	SYNTHETIC fixture; no biological data
+pass_rule	SYNTHETIC positive effect with corrected interval excluding null	SYNTHETIC_ONLY/pass_rule.txt	yes	SYNTHETIC fixture; no biological data
+fail_rule	SYNTHETIC wrong direction or precision excludes material effect	SYNTHETIC_ONLY/fail_rule.txt	yes	SYNTHETIC fixture; no biological data
+inconclusive_rule	SYNTHETIC interval includes null and material effect	SYNTHETIC_ONLY/inconclusive_rule.txt	yes	SYNTHETIC fixture; no biological data
+scores_accessed_before_freeze	yes	SYNTHETIC_ONLY/scores_accessed_before_freeze.txt	yes	SYNTHETIC fixture; no biological data
+individual_outcomes_accessed_before_freeze	no	SYNTHETIC_ONLY/individual_outcomes_accessed_before_freeze.txt	yes	SYNTHETIC fixture; no biological data

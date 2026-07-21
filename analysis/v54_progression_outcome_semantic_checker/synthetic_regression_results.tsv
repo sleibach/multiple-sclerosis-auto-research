@@ -1,0 +1,13 @@
+fixture	role	endpoint_type	expected	actual	n_blockers	regression_pass
+valid_cdp_p1	P1	cdp	PASS_PROGRESSION_ENDPOINT_SEMANTICS	PASS_PROGRESSION_ENDPOINT_SEMANTICS	0	True
+valid_pira_p1	P1	pira	PASS_PROGRESSION_ENDPOINT_SEMANTICS	PASS_PROGRESSION_ENDPOINT_SEMANTICS	0	True
+valid_pira_p2	P2	pira	PASS_PROGRESSION_ENDPOINT_SEMANTICS	PASS_PROGRESSION_ENDPOINT_SEMANTICS	0	True
+relapse_only	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	2	True
+stage_only	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	2	True
+morphology_only	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	2	True
+pharmacodynamic_only	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	2	True
+unconfirmed	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	1	True
+derived_label_only	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	2	True
+pira_without_event_dates	P1	pira	FAIL_CLOSED	FAIL_CLOSED	2	True
+p2_without_interaction	P2	pira	FAIL_CLOSED	FAIL_CLOSED	1	True
+scores_seen_before_freeze	P1	cdp	FAIL_CLOSED	FAIL_CLOSED	1	True

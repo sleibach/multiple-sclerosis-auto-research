@@ -1,0 +1,15 @@
+{
+  "purpose": "V54 disability-progression endpoint semantic gate; no biological claim",
+  "declaration": "analysis/v54_progression_outcome_semantic_checker/synthetic/declarations/unconfirmed.tsv",
+  "role": "P1",
+  "endpoint_type": "cdp",
+  "synthetic": true,
+  "n_required_fields": 34,
+  "n_unknown_fields": 0,
+  "n_blockers": 1,
+  "blockers": [
+    "confirmation_required:must_be_yes"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass validates declared endpoint semantics and preregistration completeness only. It is not evidence that received values, an association, or MS biology passes."
+}

@@ -1,0 +1,48 @@
+field	value	source_reference	frozen_before_score_access	notes
+declaration_id	TO_BE_DECLARED	TO_BE_DECLARED	yes	Complete while blinded; placeholders fail the semantic gate.
+package_id	TO_BE_DECLARED	TO_BE_DECLARED	yes	Must match one quarantined receipt manifest.
+synthetic	no	operator declaration	yes	Real packages remain quarantined until all gates pass.
+role	TO_BE_DECLARED	PROGRESSION_COHORT_ACQUISITION_SPEC_V54.md	yes	P1 or P2.
+endpoint_type	TO_BE_DECLARED	TO_BE_DECLARED	yes	cdp or pira.
+outcome_name	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact protocol outcome name.
+semantic_basis	repeated_disability	PROGRESSION_COHORT_ACQUISITION_SPEC_V54.md	yes	No proxy endpoint is permitted.
+raw_outcome_components_present	TO_BE_DECLARED	TO_BE_DECLARED	yes	yes or no.
+protocol_definition_present	TO_BE_DECLARED	TO_BE_DECLARED	yes	yes or no.
+baseline_disability_present	TO_BE_DECLARED	TO_BE_DECLARED	yes	yes or no.
+independent_followup_assessments	TO_BE_DECLARED	TO_BE_DECLARED	yes	Integer count after baseline.
+confirmation_required	yes	PROGRESSION_COHORT_ACQUISITION_SPEC_V54.md	yes	Transient worsening is ineligible.
+confirmation_interval_days	TO_BE_DECLARED	TO_BE_DECLARED	yes	Positive integer from source protocol.
+confirmation_measurement_definition	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact confirming component and threshold.
+outcome_window_start_days	TO_BE_DECLARED	TO_BE_DECLARED	yes	Integer relative to molecular baseline.
+outcome_window_end_days	TO_BE_DECLARED	TO_BE_DECLARED	yes	Must exceed start.
+relapse_exclusion_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for PIRA only.
+relapse_dates_present	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for PIRA only.
+steroid_exclusion_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for PIRA only.
+steroid_dates_present	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for PIRA only.
+infection_handling_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact exclusion or sensitivity.
+treatment_switch_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact censoring or retained-risk rule.
+censoring_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Administrative and event censoring.
+death_dropout_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Competing loss and missing follow-up.
+molecular_baseline_definition	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact sample-time rule.
+molecular_primary_timepoint	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact level or delta.
+primary_molecular_state	TO_BE_DECLARED	TO_BE_DECLARED	yes	One pre-existing state; no feature search.
+primary_state_definition_artifact	TO_BE_DECLARED	TO_BE_DECLARED	yes	Committed genes and score formula.
+primary_effect_estimand	TO_BE_DECLARED	TO_BE_DECLARED	yes	Effect scale and fitted model.
+covariate_set	TO_BE_DECLARED	TO_BE_DECLARED	yes	No post-result additions.
+missing_data_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	No outcome-dependent exclusions.
+analysis_count_budget	TO_BE_DECLARED	TO_BE_DECLARED	yes	Positive integer.
+multiplicity_method	TO_BE_DECLARED	TO_BE_DECLARED	yes	Exact correction across the frozen family.
+pass_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Effect and uncertainty requirement.
+fail_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Pre-committed kill or bounded-failure rule.
+inconclusive_rule	TO_BE_DECLARED	TO_BE_DECLARED	yes	Pre-committed precision boundary.
+scores_accessed_before_freeze	no	operator attestation	yes	Any yes value fails closed.
+individual_outcomes_accessed_before_freeze	no	operator attestation	yes	Aggregate event count may be used only for blinded power.
+p1_semantic_gate_pass	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+compartment_design	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+same_endpoint_definition_both_compartments	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+same_outcome_window_both_compartments	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+compartment_interaction_prespecified	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+composition_adjustment_prespecified	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+source_batch_adjustment_prespecified	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.
+minimum_subjects_per_outcome_group	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only; minimum eligibility floor is 10.
+compartment_analysis_count_budget	TO_BE_DECLARED	TO_BE_DECLARED	yes	Required for P2 only.

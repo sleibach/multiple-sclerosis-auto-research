@@ -1,0 +1,15 @@
+{
+  "purpose": "V54 disability-progression endpoint semantic gate; no biological claim",
+  "declaration": "analysis/v54_progression_outcome_semantic_checker/synthetic/declarations/p2_without_interaction.tsv",
+  "role": "P2",
+  "endpoint_type": "pira",
+  "synthetic": true,
+  "n_required_fields": 47,
+  "n_unknown_fields": 0,
+  "n_blockers": 1,
+  "blockers": [
+    "compartment_interaction_prespecified:must_be_yes_for_p2"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass validates declared endpoint semantics and preregistration completeness only. It is not evidence that received values, an association, or MS biology passes."
+}

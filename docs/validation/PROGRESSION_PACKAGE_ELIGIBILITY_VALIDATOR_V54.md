@@ -15,6 +15,13 @@ A pass means only that the package inventory is complete enough to write a
 blinded cohort-specific pre-registration and proceed to data-level validation.
 It is not evidence that data quality, an association, a model, or biology passes.
 
+Inventory completeness is necessary but not sufficient. Before any P1/P2
+expression score is accessed, the package must also pass
+`scripts/v54_progression_outcome_semantic_checker.py` under
+`PROGRESSION_P1_P2_BLINDED_PREREGISTRATION_V54.md`. This second gate rejects
+complete-looking packages whose outcome is actually relapse-only, stage-only,
+morphology-only, pharmacodynamic-only, unconfirmed, or undocumented.
+
 ## Inventory Format
 
 Provide one row per schema field with:
