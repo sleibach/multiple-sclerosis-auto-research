@@ -39,7 +39,7 @@ project's evidence standard.
 | Smoldering-lesion / chronic-active microglia probe | done | Three exact active/inactive donor pairs plus 54 samples/21 donors and 300k wild nulls. No orthogonally supported module; receptor and lipid inconclusive, others not supported. |
 | GSE279972 lysosomal morphology specificity audit | done | Fully adjusted beta 0.517, CI 0.199 to 0.834, wild p=0.00861, max-variant p=0.0453; all 21 LODO coefficients positive. Bounded foamy-morphology association only, not progression or target evidence. |
 | Relapsing-to-progressive transition proxy audit | done | Seven datasets audited: 5 verified subject maps, 2 repeated transcriptomes, but 0 time-varying stage and 0 repeated disability/conversion. Transition is not identifiable; this is not a biological null. |
-| Progression-specific module panel | todo | Pre-specify microglial, complement/lipid, mitochondrial, senescence, iron/myelin-clearance, and remyelination panels; test only on semantically eligible held data. |
+| Progression-specific module panel | in-progress | Frozen five pre-existing lesion modules (OXPHOS, resolution/efferocytosis proxy, NRF2, stress, MOCCI switch). Iron/senescence remain explicitly untested because no frozen local panel exists. |
 | CNS-intrinsic versus peripheral APC separation | todo | Determine whether progression signal localizes to CNS-resident states rather than peripheral immune tone, with source/composition controls. |
 | Progression intervention-direction map | todo | For any supported state, require a favorable, direction-resolved perturbation and collateral guardrails before tractability discussion. |
 | AlphaFold progression-axis context | todo | Use predicted structure only for confidence-qualified modality context after a grounded progression association exists. |
@@ -102,3 +102,8 @@ project's evidence standard.
   transcriptomes, but none measures time-varying stage or repeated disability/
   adjudicated conversion. GSE24427's two-year relapse follow-up is explicitly
   not substituted for disability progression. Active time accrued: 0h29m32s.
+- 2026-07-21T21:31:02Z: Froze a second, non-overlapping progression-lesion
+  family using only pre-existing project modules: OXPHOS, resolution/
+  efferocytosis proxy, NRF2 antioxidant response, stress/cytotoxicity, and the
+  signed MOCCI switch. Iron and senescence remain untested rather than receiving
+  post hoc signatures. Active time accrued: 0h32m32s.
