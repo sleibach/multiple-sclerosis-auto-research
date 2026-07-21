@@ -38,6 +38,13 @@ Neither gate inspects or validates the biological result.
 7. Record that scores and individual outcomes remained unread, rerun both
    gates, and only then execute the frozen analysis.
 
+When follow-up is unequal or right-censored, the cohort-specific plan must use
+the event-time route rather than silently collapsing to an equal-window binary
+label. Source and treatment handling must be frozen from blinded metadata. The
+V54 synthetic stress test shows that an unadjusted route can be anti-conservative
+when the score is imbalanced across source/treatment; this is a method guard,
+not a statement that a future cohort has that structure.
+
 Any reversal of this order invalidates confirmatory status. The resulting work
 may be reported only as explicitly post hoc and cannot satisfy P1 or P2.
 
@@ -58,7 +65,7 @@ The cohort-specific declaration must freeze all of the following:
 | treatment | switch, discontinuation, and adherence rule | post-result treatment handling |
 | censoring | event, administrative, death, dropout, and missing rules | undocumented informative loss |
 | molecular predictor | one pre-existing state, exact committed genes/formula, baseline and primary timepoint | feature search or replacement of missing genes |
-| estimand | effect scale and fitted model | changing endpoint or scale after seeing results |
+| estimand | effect scale and fitted model, including event-time route when follow-up varies | changing endpoint or scale after seeing results |
 | adjustment | fixed covariates, including source/batch and composition where available | outcome-driven covariate selection |
 | multiplicity | positive integer analysis budget and exact correction | opportunistic secondary expansion |
 | interpretation | exact pass, fail, and inconclusive rules | result-dependent narrative |

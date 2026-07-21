@@ -67,6 +67,7 @@ cannot measure progression rate or transition.
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
+| Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
@@ -565,6 +566,31 @@ any level. At 15% events, even OR `2.0` failed once 5% label error was added.
 These rates are design assumptions, not empirical PIRA-label estimates; they
 make endpoint adjudication and blinded package-specific parameterization a
 hard acquisition requirement.
+
+A separately frozen event-time extension is in
+`analysis/v54_progression_event_time_power_design/`, with its pre-run plan at
+`docs/plans/PROGRESSION_EVENT_TIME_POWER_EXTENSION_V54.md`. It generated
+90,000 unique synthetic cohorts and evaluated each with an unadjusted and a
+source-by-treatment-stratified Cox score test, for 180,000 route evaluations.
+An independent numerical check against `statsmodels.PHReg` score and Hessian
+values passed four fixtures with maximum absolute difference `2.67e-15`.
+
+Under deliberate score-source-treatment imbalance, the unadjusted null pass
+rate had median `0.0887` and maximum `0.1907`. The pre-specified stratified
+route had median `0.0460` and maximum `0.0653`; that maximum is 49/750 (Wilson
+95% CI `0.0498-0.0853`), and a 40-cell binomial reference gives probability
+`0.776` of a maximum at least that large. The stratified route is therefore
+compatible with nominal calibration in this generator, while the unadjusted
+route is not safe under the deliberate confounding regime.
+
+Only 10/16 adjusted non-null assumption scenarios reached the frozen 80%
+planning threshold. HR `1.5` at 15% pre-dropout event probability never reached
+80% by `n=320`; with deliberate covariate imbalance it also failed at the 30%
+event setting. HR `2.0` required `n=120-320`, depending on event probability,
+dropout, and imbalance. These are synthetic design assumptions, not empirical
+MS hazards or universal recruitment targets. They make pre-score event-time
+modeling and source/treatment control mandatory when a received package has
+variable follow-up or covariate imbalance.
 
 ## Multi-Lineage Adversarial Review
 

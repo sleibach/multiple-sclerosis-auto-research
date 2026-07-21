@@ -81,3 +81,12 @@ cohorts at 5% and 10% symmetric outcome-label error. Passing scenarios decline
 from 7/24 to 4/24 and 3/24. These error rates are not empirical estimates;
 their role is to require endpoint-adjudication metadata before blinded design
 parameterization.
+
+The frozen event-time/covariate extension is documented at
+`docs/plans/PROGRESSION_EVENT_TIME_POWER_EXTENSION_V54.md` and executed by
+`scripts/v54_progression_event_time_power_design.py`. It adds right censoring,
+source/treatment imbalance, and a source-by-treatment-stratified Cox score
+route. The implementation is independently checked against
+`statsmodels.duration.hazard_regression.PHReg` by
+`scripts/v54_event_time_score_reference_check.py`. Its output remains
+synthetic method behavior and must be rerun from blinded package metadata.

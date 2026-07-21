@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    80,
+    120,
+    160,
+    240,
+    320
+  ],
+  "event_probabilities_before_dropout": [
+    0.15,
+    0.3
+  ],
+  "molecular_hazard_ratios_per_latent_sd": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "dropout_probabilities": [
+    0.0,
+    0.25
+  ],
+  "assignment_strengths": [
+    0.0,
+    0.8
+  ],
+  "source_hazard_ratio": 1.6,
+  "treatment_hazard_ratio": 0.7,
+  "measurement_reliability": 0.7,
+  "missing_rate": 0.1,
+  "alpha": 0.05,
+  "replicates_per_seed": 250,
+  "seeds": [
+    54801,
+    54802,
+    54803
+  ],
+  "analysis_routes": [
+    "unadjusted",
+    "source_treatment_stratified"
+  ],
+  "minimum_valid_counts": "usable n>=20, observed events>=10, non-events/censored>=10",
+  "boundary": "Synthetic method-design behavior only; not an empirical MS effect or biological claim."
+}

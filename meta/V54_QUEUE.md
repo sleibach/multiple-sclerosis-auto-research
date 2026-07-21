@@ -54,7 +54,7 @@ project's evidence standard.
 | Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
 | Progression-event power design skeleton | done | 288k synthetic cohorts/3 seeds/192 cells; null FPR median 0.043, max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 not by n=240. Assumption-labeled, not empirical. |
 | Progression power label-noise sensitivity | done | 576k additional synthetic cohorts. Scenarios reaching 80% fall 7/24 -> 4/24 -> 3/24 at 0/5/10% symmetric label error; endpoint adjudication is a hard design requirement. |
-| Progression power covariate/event-time extension | todo | Add a blinded-design route for source/treatment adjustment and time-to-event censoring; no received score access. |
+| Progression power covariate/event-time extension | done | 90k synthetic cohorts/180k route evaluations. Stratified null median 0.046/max 0.0653 (40-cell max-tail 0.776); deliberate-confounding unadjusted null median 0.0887/max 0.1907. PHReg reference check passes. |
 | Progression P1/P2 blinded preregistration template | done | Frozen process contract covers endpoint/timepoint, censoring, covariates, P2 interaction, missingness, multiplicity, and pass/fail/inconclusive semantics before score access. |
 | Progression validator malformed-input expansion | done | Eight synthetic malformed/path fixtures added. They exposed and fixed a bug where nonexistent source paths were logged but did not fail `field_gate_pass`; all 14 total regressions now pass. |
 | Progression outcome semantic checker | done | Twelve synthetic declarations: valid CDP/PIRA/P2 pass; nine proxy, incomplete, unconfirmed, or unblinded declarations fail closed. Method behavior only. |
@@ -229,3 +229,10 @@ project's evidence standard.
   fixed, and duplicate, unknown-additive, unknown-substitution, missing-path,
   unverified, zero-nonmissing, and missing-column behavior now passes its
   permanent regression. Active time accrued: 1h38m19s.
+- 2026-07-21T22:44:03Z: Completed the frozen 90,000-cohort progression
+  event-time design with 180,000 route evaluations. The source/treatment-
+  stratified null is compatible with nominal calibration (median 0.046,
+  maximum 0.0653; 40-cell reference max-tail 0.776), while deliberate
+  confounding inflates the unadjusted null median to 0.0887 and maximum to
+  0.1907. Four PHReg numerical reference fixtures pass to 2.67e-15. This is
+  synthetic method behavior only. Active time accrued: 1h45m33s.

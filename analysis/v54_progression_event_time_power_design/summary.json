@@ -1,0 +1,22 @@
+{
+  "purpose": "Synthetic progression event-time and covariate power design; no biological claim",
+  "synthetic": true,
+  "n_seed_route_cells": 720,
+  "n_aggregate_route_cells": 240,
+  "n_unique_simulated_cohorts": 90000,
+  "n_route_evaluations": 180000,
+  "stratified_null_median": 0.046,
+  "stratified_null_maximum": 0.06533333333333333,
+  "stratified_null_maximum_count": 49,
+  "stratified_null_maximum_total": 750,
+  "stratified_null_maximum_ci_low": 0.04976959333295865,
+  "stratified_null_maximum_ci_high": 0.08532706078316597,
+  "n_stratified_null_cells": 40,
+  "binomial_reference_probability_maximum_at_least_observed": 0.7756198629415182,
+  "unadjusted_confounded_null_median": 0.08866666666666667,
+  "unadjusted_confounded_null_maximum": 0.19066666666666668,
+  "adjusted_nonnull_scenarios_reaching_80pct": 10,
+  "adjusted_nonnull_scenarios": 16,
+  "verdict": "EVENT_TIME_ROUTE_READY_FOR_BLINDED_COHORT_PARAMETERIZATION",
+  "boundary": "All values arise from explicit synthetic assumptions. They are method behavior, not empirical MS progression rates, effects, or evidence about a molecular state."
+}

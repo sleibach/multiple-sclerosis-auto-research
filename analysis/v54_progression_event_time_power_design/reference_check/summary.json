@@ -1,0 +1,10 @@
+{
+  "purpose": "Independent implementation check of V54 Cox score test",
+  "synthetic": true,
+  "reference": "statsmodels.duration.hazard_regression.PHReg score and Hessian at beta=0",
+  "n_fixtures": 4,
+  "n_pass": 4,
+  "maximum_absolute_difference": 2.6645352591003757e-15,
+  "overall_status": "PASS",
+  "boundary": "Synthetic numerical method check only; no biological evidence."
+}
