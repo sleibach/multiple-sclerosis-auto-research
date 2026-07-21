@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
+| V54 consolidated regression suite | done | One command runs 16 executable checks and 28 artifact/claim invariants; all pass. First run exposed and fixed a virtualenv-child interpreter bug before commit. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -310,3 +310,11 @@ project's evidence standard.
   expression, and all held brain cohorts remain cross-sectional/pathology
   context. No expression values or quarantined package was read. Active time
   accrued: 2h22m06s.
+- 2026-07-21T23:30:11Z: Completed the consolidated V54 regression command. Its
+  first run exposed a virtualenv symlink-resolution defect that dropped
+  NumPy/Pandas in child processes; preserving `sys.executable` fixed it. The
+  final run passes 16/16 executable checks and 28/28 artifact/claim invariants,
+  including zero supported stage modules, zero transition-identifiable
+  datasets, zero target revisits, retained morphology downgrades, 0/10 role
+  eligibility, numerical references, both provenance gates, and repository
+  guards. Active time accrued: 2h31m41s.

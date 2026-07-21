@@ -1,0 +1,29 @@
+artifact	key	operator	expected	observed	pass
+analysis/v54_progressive_stage_modules/summary.json	n_supported_modules	eq	0	0	True
+analysis/v54_progression_lesion_state/summary.json	n_orthogonally_consistent_needs_data	eq	0	0	True
+analysis/v54_transition_identifiability/summary.json	n_transition_identifiable	eq	0	0	True
+analysis/v54_progression_intervention_direction_map/summary.json	n_target_revisit	eq	0	0	True
+analysis/v54_progression_intervention_direction_map/summary.json	alphafold_context_used	eq	false	false	True
+analysis/v54_multilineage_progression_review/summary.json	objections_changing_progression_or_target_verdict	eq	0	0	True
+analysis/v54_post_result_morphology_multiplicity/summary.json	fully_adjusted_lysosomal_specificity_retained	eq	false	false	True
+analysis/v54_post_result_morphology_multiplicity/summary.json	mutually_adjusted_two_endpoint_state_retained	eq	false	false	True
+analysis/v54_foamy_donor_estimand_audit/summary.json	supported_within_donor_endpoints	eq	[]	[]	True
+analysis/v54_progression_p2_interaction_power/summary.json	verdict	eq	"""P2_ROUTE_CONDITIONALLY_READY_REQUIRES_HIGH_FIDELITY_COMPOSITION"""	"""P2_ROUTE_CONDITIONALLY_READY_REQUIRES_HIGH_FIDELITY_COMPOSITION"""	True
+analysis/v54_progression_p2_interaction_power/summary.json	calibration_families.2.maximum	gt	0.2	0.22266666666666668	True
+analysis/v54_progression_event_time_assumption_robustness/summary.json	invalid_censoring_mechanisms	contains	"""joint_score_event_risk"""	"[""joint_score_event_risk""]"	True
+analysis/v54_progression_candidate_role_matrix/summary.json	P1_eligible	eq	0	0	True
+analysis/v54_progression_candidate_role_matrix/summary.json	P2_eligible	eq	0	0	True
+analysis/v54_progression_candidate_role_matrix/summary.json	P3_eligible	eq	0	0	True
+analysis/v54_progression_evidence_delta/summary.json	traceability_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_package_eligibility_validator/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_outcome_semantic_checker/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_combined_intake_gate/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_endpoint_adjudication/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_event_time_assumption_gate/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_p2_composition_gate/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_event_time_power_design/reference_check/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_event_time_assumption_robustness/reference_check/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_p2_interaction_power/reference_check/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+docs/history/PROGRESSION_FRONTIER_V54.md	required_claim_boundary	contains	"""does **not** contain a transcriptomic cohort with a\nlongitudinal disability outcome"""	"""does **not** contain a transcriptomic cohort with a\nlongitudinal disability outcome"""	True
+docs/history/PROGRESSION_FRONTIER_V54.md	required_claim_boundary	contains	"""Status: **no progression-direction-resolved intervention route**."""	"""Status: **no progression-direction-resolved intervention route**."""	True
+docs/history/PROGRESSION_FRONTIER_V54.md	required_claim_boundary	contains	"""None of ten candidates\nqualifies for P1, P2, or P3"""	"""None of ten candidates\nqualifies for P1, P2, or P3"""	True
