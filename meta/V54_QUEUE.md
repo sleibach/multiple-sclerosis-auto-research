@@ -50,7 +50,7 @@ project's evidence standard.
 | Progression-event power design skeleton | todo | Build a pre-data simulation interface parameterized by received event rate, follow-up, missingness, and repeated measures; do not borrow V43 treatment-response power as progression power. |
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
-| GSE228330 progression metadata request addendum | todo | Request verified subject map, age, EDSS/PIRA trajectory, activity definition, batch, composition, treatment, and processed expression; keep context-only until complete. |
+| GSE228330 progression metadata request addendum | done | Ready-unsent 29-field addendum requests subject map, a/s definition, age, disability/PIRA components, relapse/steroid/treatment, MRI, composition, batch/QC, and matrix. Context-only unless full role gate passes. |
 | V37 progression evidence-grade delta | todo | State exactly which V54 results strengthen, bound, or leave unchanged the earlier findings report without discovery inflation. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -159,3 +159,8 @@ project's evidence standard.
   fail-closed actions. It explicitly forbids relapse, stage, morphology, or
   pharmacodynamics from substituting for disability progression. Active time
   accrued: 0h58m07s.
+- 2026-07-21T21:58:21Z: Completed a ready-unsent GSE228330 progression-metadata
+  addendum and 29-field return schema. It requests the exact fields blocking
+  pairing, subtype interpretation, progression, composition, and batch control;
+  the cohort remains pharmacodynamic context unless the returned package passes
+  the new role gate. Active time accrued: 0h59m51s.

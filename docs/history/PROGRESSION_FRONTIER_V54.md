@@ -399,3 +399,12 @@ than 10 independent events is descriptive-only, while every larger received
 cohort still requires a pre-score power simulation and frozen outcome/timepoint
 plan. Missing critical fields fail the relevant role closed rather than
 becoming a biological null.
+
+The nearest open peripheral candidate now has a precise unsent addendum:
+`docs/validation/outbound_requests/gse228330_progression_metadata_addendum_V54.md`.
+Its 29-field request asks for the verified subject map, activity-suffix
+definition, age, disability/PIRA components and protocol, relapse/steroid and
+treatment timing, imaging, cell counts, batch/QC, and processed expression. The
+document preserves GSE228330 as pharmacodynamic context unless the returned
+package independently passes the P1/P2 role gates; it cannot substitute for the
+DMF/Gafson validation route.
