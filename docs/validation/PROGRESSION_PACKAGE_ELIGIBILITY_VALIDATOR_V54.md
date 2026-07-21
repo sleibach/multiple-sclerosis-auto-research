@@ -67,8 +67,9 @@ inspection. It validates inventory metadata, not expression values.
 
 ## Synthetic Verification
 
-The default run creates six deterministic, clearly labeled synthetic inventory
-fixtures under `analysis/v54_progression_package_eligibility_validator/synthetic/`:
+The default run creates 14 deterministic, clearly labeled synthetic inventory
+fixtures under `analysis/v54_progression_package_eligibility_validator/synthetic/`.
+Six test role-level completeness:
 
 - complete P1 passes;
 - P1 missing subject/outcome fields fails;
@@ -77,4 +78,15 @@ fixtures under `analysis/v54_progression_package_eligibility_validator/synthetic
 - complete, prequalified P3 passes;
 - P3 without prequalification and functional/collateral fields fails.
 
+Eight additionally test parser and real-path behavior:
+
+- a complete synthetic inventory with an existing source path passes;
+- duplicate fields and a missing required column raise parser errors;
+- additive unknown metadata passes with a warning;
+- an unknown alias substituted for `subject_id` fails closed;
+- a nonexistent source path fails closed;
+- an unverified mandatory value fails closed;
+- a mandatory value with zero nonmissing observations fails closed.
+
+Unknown metadata may be retained but cannot substitute for a required field.
 These fixtures test method behavior only and contain no biological data.

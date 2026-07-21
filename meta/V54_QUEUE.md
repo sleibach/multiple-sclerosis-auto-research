@@ -56,7 +56,7 @@ project's evidence standard.
 | Progression power label-noise sensitivity | done | 576k additional synthetic cohorts. Scenarios reaching 80% fall 7/24 -> 4/24 -> 3/24 at 0/5/10% symmetric label error; endpoint adjudication is a hard design requirement. |
 | Progression power covariate/event-time extension | todo | Add a blinded-design route for source/treatment adjustment and time-to-event censoring; no received score access. |
 | Progression P1/P2 blinded preregistration template | done | Frozen process contract covers endpoint/timepoint, censoring, covariates, P2 interaction, missingness, multiplicity, and pass/fail/inconclusive semantics before score access. |
-| Progression validator malformed-input expansion | todo | Add duplicate, unknown, nonexistent-path, unverified, and zero-nonmissing actual-mode regression cases. |
+| Progression validator malformed-input expansion | done | Eight synthetic malformed/path fixtures added. They exposed and fixed a bug where nonexistent source paths were logged but did not fail `field_gate_pass`; all 14 total regressions now pass. |
 | Progression outcome semantic checker | done | Twelve synthetic declarations: valid CDP/PIRA/P2 pass; nine proxy, incomplete, unconfirmed, or unblinded declarations fail closed. Method behavior only. |
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
@@ -223,3 +223,9 @@ project's evidence standard.
   unconfirmed, interaction-free, or unblinded declarations fail closed. This
   is method behavior only and leaves no new progression claim. Active time
   accrued: 1h34m52s.
+- 2026-07-21T22:36:49Z: Expanded the progression intake regression to 14
+  synthetic fixtures. A new nonexistent-path case exposed a real validator
+  defect: the issue was logged but did not enter the pass boolean. The logic is
+  fixed, and duplicate, unknown-additive, unknown-substitution, missing-path,
+  unverified, zero-nonmissing, and missing-column behavior now passes its
+  permanent regression. Active time accrued: 1h38m19s.

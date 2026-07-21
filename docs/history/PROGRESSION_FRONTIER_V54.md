@@ -62,7 +62,7 @@ cannot measure progression rate or transition.
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
 | Foamy within-donor estimand audit | not supported | Only 6/21 donors and 3/43 donor-by-lesion blocks vary in morphology. OXPHOS is direction-retained but unstable/null within donors; lysosomal reverses near zero. |
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
-| Progression-package eligibility validator | synthetic-verified | Six synthetic inventories behave as expected: complete P1/P2/P3 pass and malformed role packages fail closed. Method behavior only. |
+| Progression-package eligibility validator | synthetic-verified and path bug fixed | Fourteen synthetic inventories cover roles, malformed schemas, aliases, verification, nonmissing counts, and real-path behavior. A discovered missing-path pass bug was fixed. Method behavior only. |
 | Blinded P1/P2 pre-registration and endpoint semantic gate | synthetic-verified | Three valid disability declarations pass and nine proxy, incomplete, unconfirmed, or unblinded declarations fail closed. Method behavior only. |
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
@@ -497,12 +497,16 @@ DMF/Gafson validation route.
 
 The field contract is machine-enforced by
 `scripts/v54_progression_package_eligibility_validator.py`, documented in
-`docs/validation/PROGRESSION_PACKAGE_ELIGIBILITY_VALIDATOR_V54.md`. Six seeded,
-clearly labeled synthetic inventory regressions all behave as specified: three
-complete P1/P2/P3 fixtures pass and three fixtures missing outcome, pairing, or
-functional/prequalification fields fail closed. Real-package source paths must
-exist. A pass means only inventory-complete enough for blinded pre-registration
-and data-level validation; it is not a data-quality or biological result.
+`docs/validation/PROGRESSION_PACKAGE_ELIGIBILITY_VALIDATOR_V54.md`. Fourteen
+seeded, clearly labeled synthetic inventory regressions all behave as
+specified: six cover complete or scientifically incomplete P1/P2/P3 roles and
+eight cover malformed schemas, unknown additions versus substitutions,
+verification, zero nonmissing values, and existing versus nonexistent source
+paths. The new path fixture exposed and fixed a real bug: a nonexistent path
+was recorded as an issue but did not previously enter `field_gate_pass`.
+Real-package source paths now fail closed when absent. A pass means only
+inventory-complete enough for blinded pre-registration and data-level
+validation; it is not a data-quality or biological result.
 
 Inventory presence does not establish endpoint meaning. A second, blinded
 contract is now committed at

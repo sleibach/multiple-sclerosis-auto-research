@@ -81,7 +81,10 @@ def validate(
     endpoint_mode: str,
     progression_association_prequalified: bool,
     synthetic: bool,
+    enforce_source_paths: bool | None = None,
 ) -> dict[str, Any]:
+    if enforce_source_paths is None:
+        enforce_source_paths = not synthetic
     schema = load_schema()
     inventory = pd.read_csv(inventory_path, sep="\t", dtype=str, keep_default_na=False)
     missing_columns = sorted(set(INVENTORY_COLUMNS) - set(inventory.columns))
@@ -127,14 +130,14 @@ def validate(
                 issue_parts.append("no_nonmissing_values")
             if available and not source_file:
                 issue_parts.append("source_file_missing")
-            if available and source_file and not synthetic:
+            if available and source_file and enforce_source_paths:
                 source_path = Path(source_file)
                 if not source_path.is_absolute():
                     source_path = ROOT / source_path
                 if not source_path.exists():
                     issue_parts.append("source_file_not_found")
             issue = ";".join(issue_parts) if issue_parts else "none"
-        passed = available and verified and n_nonmissing > 0 and bool(source_file)
+        passed = issue == "none"
         if is_mandatory and not passed:
             blockers.append(f"{field}:{issue}")
         elif not is_mandatory and not passed:
@@ -168,6 +171,7 @@ def validate(
     summary = {
         "purpose": "V54 progression-package inventory eligibility gate; no biological claim",
         "synthetic": synthetic,
+        "source_path_check_enforced": enforce_source_paths,
         "inventory": str(inventory_path.relative_to(ROOT) if inventory_path.is_relative_to(ROOT) else inventory_path),
         "role": role,
         "endpoint_mode": endpoint_mode,
@@ -205,6 +209,129 @@ def synthetic_inventory(schema: pd.DataFrame, path: Path, missing: set[str]) -> 
         )
     path.parent.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(rows).to_csv(path, sep="\t", index=False)
+
+
+def run_malformed_regression(outdir: Path) -> dict[str, Any]:
+    """Exercise parser and real-path behavior using synthetic-only fixtures."""
+    schema = load_schema()
+    root = outdir / "synthetic" / "malformed"
+    source = root / "sources" / "SYNTHETIC_ONLY.tsv"
+    source.parent.mkdir(parents=True, exist_ok=True)
+    source.write_text("synthetic\tvalue\nmethod_behavior_only\t1\n")
+    source_relative = str(source.relative_to(ROOT))
+
+    base_path = root / "inventories" / "valid_actual_mode.tsv"
+    synthetic_inventory(schema, base_path, set())
+    base = pd.read_csv(base_path, sep="\t", dtype=str, keep_default_na=False)
+    base["source_file"] = source_relative
+    base.to_csv(base_path, sep="\t", index=False)
+
+    fixtures: list[tuple[str, pd.DataFrame, str, str]] = []
+    fixtures.append(("valid_actual_mode", base.copy(), "PASS_ROLE_INTAKE_INVENTORY", "none"))
+
+    duplicate = pd.concat([base, base.loc[base["field"] == "subject_id"]], ignore_index=True)
+    fixtures.append(("duplicate_field", duplicate, "ERROR", "duplicate field rows"))
+
+    unknown_additive = pd.concat(
+        [
+            base,
+            pd.DataFrame(
+                [
+                    {
+                        "field": "unexpected_optional_metadata",
+                        "available": "yes",
+                        "verified": "yes",
+                        "n_nonmissing": "24",
+                        "source_file": source_relative,
+                        "notes": "SYNTHETIC unknown additive field",
+                    }
+                ]
+            ),
+        ],
+        ignore_index=True,
+    )
+    fixtures.append(
+        ("unknown_additive", unknown_additive, "PASS_ROLE_INTAKE_INVENTORY", "unknown_fields")
+    )
+
+    unknown_substitution = base.copy()
+    unknown_substitution.loc[
+        unknown_substitution["field"] == "subject_id", "field"
+    ] = "subject_identifier_alias"
+    fixtures.append(("unknown_substitution", unknown_substitution, "FAIL_CLOSED", "subject_id"))
+
+    nonexistent = base.copy()
+    nonexistent.loc[
+        nonexistent["field"] == "subject_id", "source_file"
+    ] = "analysis/v54_progression_package_eligibility_validator/synthetic/malformed/sources/DOES_NOT_EXIST.tsv"
+    fixtures.append(("nonexistent_source_path", nonexistent, "FAIL_CLOSED", "source_file_not_found"))
+
+    unverified = base.copy()
+    unverified.loc[unverified["field"] == "subject_id", "verified"] = "no"
+    fixtures.append(("unverified_mandatory", unverified, "FAIL_CLOSED", "not_verified"))
+
+    zero_nonmissing = base.copy()
+    zero_nonmissing.loc[zero_nonmissing["field"] == "subject_id", "n_nonmissing"] = "0"
+    fixtures.append(("zero_nonmissing_mandatory", zero_nonmissing, "FAIL_CLOSED", "no_nonmissing_values"))
+
+    missing_column = base.drop(columns=["source_file"])
+    fixtures.append(("missing_required_column", missing_column, "ERROR", "missing columns"))
+
+    results = []
+    for name, fixture_frame, expected, expected_signal in fixtures:
+        inventory = root / "inventories" / f"{name}.tsv"
+        fixture_frame.to_csv(inventory, sep="\t", index=False)
+        actual = ""
+        signal_found = False
+        error = ""
+        try:
+            summary = validate(
+                inventory,
+                root / "results" / name,
+                "P1",
+                "pira",
+                True,
+                synthetic=True,
+                enforce_source_paths=True,
+            )
+            actual = summary["decision"]
+            searchable = json.dumps(summary).lower()
+            signal_found = expected_signal == "none" or expected_signal.lower() in searchable
+        except RuntimeError as exc:
+            actual = "ERROR"
+            error = str(exc)
+            signal_found = expected_signal.lower() in error.lower()
+        results.append(
+            {
+                "fixture": name,
+                "synthetic": True,
+                "source_path_check_enforced": True,
+                "expected": expected,
+                "actual": actual,
+                "expected_signal": expected_signal,
+                "signal_found": signal_found,
+                "error": error,
+                "regression_pass": actual == expected and signal_found,
+            }
+        )
+
+    results_frame = pd.DataFrame(results)
+    results_frame.to_csv(outdir / "malformed_regression_results.tsv", sep="\t", index=False)
+    all_pass = bool(results_frame["regression_pass"].all())
+    summary = {
+        "purpose": "Synthetic malformed-input and source-path regression for V54 progression intake",
+        "synthetic": True,
+        "n_fixtures": len(results_frame),
+        "n_regression_pass": int(results_frame["regression_pass"].sum()),
+        "overall_status": "PASS" if all_pass else "FAIL",
+        "boundary": "Method-behavior test only; fixtures contain no biological data.",
+    }
+    (outdir / "malformed_regression_summary.json").write_text(
+        json.dumps(summary, indent=2) + "\n"
+    )
+    if not all_pass:
+        raise RuntimeError("Malformed progression-package validator regression failed")
+    return summary
 
 
 def run_synthetic_regression(outdir: Path) -> dict[str, Any]:
@@ -265,18 +392,21 @@ def run_synthetic_regression(outdir: Path) -> dict[str, Any]:
     results_frame = pd.DataFrame(results)
     results_frame.to_csv(outdir / "synthetic_regression_results.tsv", sep="\t", index=False)
     all_pass = bool(results_frame["regression_pass"].all())
+    malformed = run_malformed_regression(outdir)
     summary = {
         "purpose": "Synthetic regression of V54 progression-package inventory gate",
         "synthetic": True,
-        "n_fixtures": len(results_frame),
+        "n_role_fixtures": len(results_frame),
+        "n_malformed_fixtures": malformed["n_fixtures"],
+        "n_fixtures": len(results_frame) + malformed["n_fixtures"],
         "n_expected_pass": int((results_frame["expected"] == "PASS_ROLE_INTAKE_INVENTORY").sum()),
         "n_expected_fail": int((results_frame["expected"] == "FAIL_CLOSED").sum()),
-        "n_regression_pass": int(results_frame["regression_pass"].sum()),
-        "overall_status": "PASS" if all_pass else "FAIL",
+        "n_regression_pass": int(results_frame["regression_pass"].sum()) + malformed["n_regression_pass"],
+        "overall_status": "PASS" if all_pass and malformed["overall_status"] == "PASS" else "FAIL",
         "boundary": "Method-behavior test only; fixtures contain no biological data.",
     }
     (outdir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-    if not all_pass:
+    if summary["overall_status"] != "PASS":
         raise RuntimeError("Synthetic progression-package validator regression failed")
     return summary
 

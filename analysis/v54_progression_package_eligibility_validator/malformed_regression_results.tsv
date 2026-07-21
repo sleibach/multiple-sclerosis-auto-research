@@ -1,0 +1,9 @@
+fixture	synthetic	source_path_check_enforced	expected	actual	expected_signal	signal_found	error	regression_pass
+valid_actual_mode	True	True	PASS_ROLE_INTAKE_INVENTORY	PASS_ROLE_INTAKE_INVENTORY	none	True		True
+duplicate_field	True	True	ERROR	ERROR	duplicate field rows	True	Inventory contains duplicate field rows	True
+unknown_additive	True	True	PASS_ROLE_INTAKE_INVENTORY	PASS_ROLE_INTAKE_INVENTORY	unknown_fields	True		True
+unknown_substitution	True	True	FAIL_CLOSED	FAIL_CLOSED	subject_id	True		True
+nonexistent_source_path	True	True	FAIL_CLOSED	FAIL_CLOSED	source_file_not_found	True		True
+unverified_mandatory	True	True	FAIL_CLOSED	FAIL_CLOSED	not_verified	True		True
+zero_nonmissing_mandatory	True	True	FAIL_CLOSED	FAIL_CLOSED	no_nonmissing_values	True		True
+missing_required_column	True	True	ERROR	ERROR	missing columns	True	Inventory missing columns: ['source_file']	True

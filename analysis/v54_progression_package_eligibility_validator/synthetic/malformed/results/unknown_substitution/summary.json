@@ -1,22 +1,23 @@
 {
   "purpose": "V54 progression-package inventory eligibility gate; no biological claim",
   "synthetic": true,
-  "source_path_check_enforced": false,
-  "inventory": "analysis/v54_progression_package_eligibility_validator/synthetic/inventories/p2_missing_pairing.tsv",
-  "role": "P2",
+  "source_path_check_enforced": true,
+  "inventory": "analysis/v54_progression_package_eligibility_validator/synthetic/malformed/inventories/unknown_substitution.tsv",
+  "role": "P1",
   "endpoint_mode": "pira",
   "progression_association_prequalified": true,
   "n_schema_fields": 64,
-  "n_relevant_fields": 51,
-  "n_mandatory_fields": 31,
-  "n_blockers": 3,
+  "n_relevant_fields": 50,
+  "n_mandatory_fields": 28,
+  "n_blockers": 1,
   "blockers": [
-    "processing_batch:not_available",
-    "cell_count_file:not_available",
-    "paired_compartment_sample_id:not_available"
+    "subject_id:inventory_row_absent"
   ],
-  "n_warnings": 0,
-  "warnings": [],
+  "n_warnings": 2,
+  "warnings": [
+    "unknown_fields:subject_identifier_alias",
+    "schema_rows_absent_from_inventory:1"
+  ],
   "decision": "FAIL_CLOSED",
   "boundary": "A pass means inventory-complete enough for blinded pre-registration and data-level validation only; it is not evidence that the data, model, or biology passes."
 }
