@@ -61,7 +61,13 @@ project's evidence standard.
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
 | GSE228330 progression metadata request addendum | done | Ready-unsent 29-field addendum requests subject map, a/s definition, age, disability/PIRA components, relapse/steroid/treatment, MRI, composition, batch/QC, and matrix. Context-only unless full role gate passes. |
-| V37 progression evidence-grade delta | todo | State exactly which V54 results strengthen, bound, or leave unchanged the earlier findings report without discovery inflation. |
+| V37 progression evidence-grade delta | done | Artifact-checked 18-item delta: 12 V37 items carried, 6 post-V37 additions; 2 method-strengthened, 3 progression-narrowed, 1 negative reinforced, and no target/progression promotion. |
+| Combined P1/P2 intake gate orchestrator | todo | Require inventory and endpoint-semantic passes in one fail-closed command; test cross-gate contradictions and no-score-access ordering. |
+| P2 compartment-interaction power design | todo | Simulate direct interaction power under paired/unpaired designs, composition noise, and compartment correlation; method behavior only. |
+| Event-time assumption robustness | todo | Stress the frozen Cox route under non-proportional effects and informative dropout; quantify when the calibrated route becomes invalid. |
+| Progression endpoint adjudication fixtures | todo | Test exact CDP/PIRA edge cases: transient EDSS, relapse-window overlap, steroid overlap, missing confirmation, and component disagreement. |
+| Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
+| V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -236,3 +242,8 @@ project's evidence standard.
   confounding inflates the unadjusted null median to 0.0887 and maximum to
   0.1907. Four PHReg numerical reference fixtures pass to 2.67e-15. This is
   synthetic method behavior only. Active time accrued: 1h45m33s.
+- 2026-07-21T22:48:18Z: Completed an artifact-checked 18-item progression
+  delta against V37. Twelve historical items retain their original relevance/
+  novelty scores and are classified only for V54 scope; six post-V37 items are
+  added without invented scores. No item becomes progression evidence or a
+  target. Active time accrued: 1h49m48s.
