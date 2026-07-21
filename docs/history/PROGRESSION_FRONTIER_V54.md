@@ -60,6 +60,7 @@ cannot measure progression rate or transition.
 | Progression intervention-direction map | no direction-resolved route | Zero of nine candidates passes the progression-specific first gate; held perturbations supply zero replicated selective control nodes or corrected additive-pair passes. AlphaFold is ineligible at this stage. |
 | Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
+| Foamy within-donor estimand audit | not supported | Only 6/21 donors and 3/43 donor-by-lesion blocks vary in morphology. OXPHOS is direction-retained but unstable/null within donors; lysosomal reverses near zero. |
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
 | Progression-package eligibility validator | synthetic-verified | Six synthetic inventories behave as expected: complete P1/P2/P3 pass and malformed role packages fail closed. Method behavior only. |
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
@@ -298,6 +299,40 @@ adjusted OXPHOS and lysosomal each have Holm `p=0.0960`. Thus neither the
 specificity claim nor the two-endpoint state retains global family support.
 The numerical coefficients remain useful descriptive context, but the correct
 evidence label is **exploratory post-result morphology association**.
+
+## Foamy Morphology Within-Donor Estimand
+
+Status: **within-donor estimand not supported**.
+
+Artifacts:
+
+- frozen plan: `docs/plans/FOAMY_DONOR_ESTIMAND_AUDIT_V54.md`
+- script: `scripts/v54_foamy_donor_estimand_audit.py`
+- report: `analysis/v54_foamy_donor_estimand_audit/REPORT.md`
+- tests: `analysis/v54_foamy_donor_estimand_audit/within_donor_tests.tsv`
+
+The proposed donor-by-lesion Fisher test was rejected because repeated,
+multi-category samples violate that test's independence and table semantics.
+The relevant coverage is sparse: only 6/21 donors contain both morphology
+labels, and only 3/43 donor-by-lesion blocks contain both. An initially
+specified all-sample donor-fixed-effect model failed before endpoint estimation
+because non-varying singleton donor strata produced unit leverage; the frozen
+fail-closed amendment restricted inference to the 23 samples from the six
+informative donors.
+
+Neither mutually adjusted endpoint passed the within-donor gate. OXPHOS
+retained its pooled direction (beta `-0.184`) but had HC3 CI `-1.941` to
+`1.573`, donor-wild `p=0.563`, max-T `p=0.719`, and a LODO range crossing zero
+(`-1.614` to `0.422`). Lysosomal reversed near zero (beta `-0.057`, CI
+`-1.884` to `1.770`, wild `p=0.814`, max-T `p=0.938`). In the three
+same-donor, same-lesion blocks, pooled direction matched only 1/3 OXPHOS and
+2/3 lysosomal contrasts; these counts are descriptive with minimum exact
+two-sided `p=0.25`.
+
+The pooled coefficients are therefore substantially between-donor or
+unresolved under the held design. This further narrows them; it cannot restore
+global family support or establish progression, flux, causality, or an
+intervention direction.
 
 ## CNS-Versus-Peripheral Progression Localization
 

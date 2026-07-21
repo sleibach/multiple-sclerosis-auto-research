@@ -47,7 +47,7 @@ project's evidence standard.
 | Multi-lineage adversarial progression review | in-progress | Claude and Gemini produced 12 proposal-only objections. Two new audits are frozen: five-module source-by-stage interaction and global correction over the complete 12-test post-result morphology sequence. Grounding is underway. |
 | Macnair source-by-stage interaction review check | done | Five modules, 44 donors, 300k reduced-model wild nulls. No interaction passes. CD44/CXCR4 source effects are nearly equal but imprecise; lysosomal heterogeneity is inconclusive. |
 | Global post-result morphology multiplicity audit | done | Holm across all 12 sequential follow-up tests. Only a partial resident-adjusted variant passes; fully adjusted lysosomal and both mutual-adjustment endpoints fail. Claim-level morphology wording downgraded to exploratory. |
-| Foamy donor/lesion estimand and influence audit | todo | Replace the proposed invalid donor-by-lesion Fisher test with block-coverage and donor-deletion influence diagnostics; quantify how much pooled inference is between-donor. |
+| Foamy donor/lesion estimand and influence audit | done | Only 6/21 donors and 3/43 donor-lesion blocks vary in morphology. Donor-FE OXPHOS is direction-retained but null/unstable; lysosomal reverses near zero. Pooled inference is substantially between-donor or unresolved. |
 | Progression power calibration and assumption audit | todo | Ground both model objections: per-seed null-FPR uncertainty and pessimistic label-noise/dropout regimes, with no empirical-MS interpretation. |
 | Multi-lineage objection disposition table | todo | Close all 12 objections as held/failed/already-addressed/blocked with committed evidence; model assertions remain proposal-only external records. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
@@ -197,3 +197,9 @@ project's evidence standard.
   mutually adjusted endpoints (each `p=0.0960`) fail global family control.
   Their coefficients remain descriptive, but V54 now labels them exploratory
   post-result morphology associations. Active time accrued: 1h17m53s.
+- 2026-07-21T22:21:52Z: Replaced Gemini's invalid repeated-sample Fisher
+  proposal with a frozen donor-estimand audit. Only 6/21 donors and 3/43
+  donor-by-lesion blocks contain both morphology labels. In the six informative
+  donors, OXPHOS retained direction but was null and LODO-unstable; lysosomal
+  reversed near zero. The pooled morphology coefficients are substantially
+  between-donor or unresolved. Active time accrued: 1h23m22s.
