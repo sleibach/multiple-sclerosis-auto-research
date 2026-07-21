@@ -1,0 +1,16 @@
+field	role	required_for	mandatory_for_selected_route	available	verified	n_nonmissing	source_file	issue	field_gate_pass	missing_action
+perturbation_id	P3	P3	True	True	True	24	SYNTHETIC_ONLY/perturbation_id.tsv	none	True	P3_REJECT_IF_MISSING
+perturbation_target	P3	P3	True	True	True	24	SYNTHETIC_ONLY/perturbation_target.tsv	none	True	P3_REJECT_IF_MISSING
+perturbation_direction	P3	P3	True	True	True	24	SYNTHETIC_ONLY/perturbation_direction.tsv	none	True	P3_REJECT_IF_MISSING
+perturbation_dose	P3	P3	True	True	True	24	SYNTHETIC_ONLY/perturbation_dose.tsv	none	True	P3_REJECT_IF_MISSING
+donor_id	P3	P3	True	True	True	24	SYNTHETIC_ONLY/donor_id.tsv	none	True	P3_REJECT_IF_MISSING
+primary_human_context	P3	P3	True	True	True	24	SYNTHETIC_ONLY/primary_human_context.tsv	none	True	P3_REJECT_IF_MISSING
+target_engagement_readout	P3	P3	True	True	True	24	SYNTHETIC_ONLY/target_engagement_readout.tsv	none	True	P3_REJECT_IF_MISSING
+functional_progression_readout	P3	P3	True	False	False	0		not_available	False	P3_REJECT_IF_MISSING
+viability_readout	P3	P3	True	True	True	24	SYNTHETIC_ONLY/viability_readout.tsv	none	True	P3_REJECT_IF_MISSING
+host_defense_readout	P3	P3	True	False	False	0		not_available	False	P3_REJECT_IF_MISSING
+myelin_clearance_or_remyelination_readout	P3	P3	True	True	True	24	SYNTHETIC_ONLY/myelin_clearance_or_remyelination_readout.tsv	none	True	P3_REJECT_IF_RELEVANT_AND_MISSING
+wrong_direction_control	P3	P3	True	True	True	24	SYNTHETIC_ONLY/wrong_direction_control.tsv	none	True	P3_REJECT_IF_MISSING
+non_targeting_or_vehicle_control	P3	P3	True	True	True	24	SYNTHETIC_ONLY/non_targeting_or_vehicle_control.tsv	none	True	P3_REJECT_IF_MISSING
+data_use_terms	P3	all	True	True	True	24	SYNTHETIC_ONLY/data_use_terms.tsv	none	True	QUARANTINE_ONLY
+sha256	P3	all	True	True	True	24	SYNTHETIC_ONLY/sha256.tsv	none	True	QUARANTINE_ONLY

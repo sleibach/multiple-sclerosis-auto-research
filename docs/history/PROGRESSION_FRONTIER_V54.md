@@ -60,6 +60,7 @@ cannot measure progression rate or transition.
 | Foamy-state lesion-stratum transport | not supported | In eligible lesion classes 2 and 3, neither OXPHOS nor lysosomal state passes the four-test family gate; lysosomal direction reverses in class 2. The pooled morphology association is not lesion-stratum portable. |
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
+| Progression-package eligibility validator | synthetic-verified | Six synthetic inventories behave as expected: complete P1/P2/P3 pass and malformed role packages fail closed. Method behavior only. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
 
@@ -408,3 +409,12 @@ treatment timing, imaging, cell counts, batch/QC, and processed expression. The
 document preserves GSE228330 as pharmacodynamic context unless the returned
 package independently passes the P1/P2 role gates; it cannot substitute for the
 DMF/Gafson validation route.
+
+The field contract is machine-enforced by
+`scripts/v54_progression_package_eligibility_validator.py`, documented in
+`docs/validation/PROGRESSION_PACKAGE_ELIGIBILITY_VALIDATOR_V54.md`. Six seeded,
+clearly labeled synthetic inventory regressions all behave as specified: three
+complete P1/P2/P3 fixtures pass and three fixtures missing outcome, pairing, or
+functional/prequalification fields fail closed. Real-package source paths must
+exist. A pass means only inventory-complete enough for blinded pre-registration
+and data-level validation; it is not a data-quality or biological result.

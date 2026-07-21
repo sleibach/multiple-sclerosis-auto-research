@@ -46,8 +46,11 @@ project's evidence standard.
 | AlphaFold progression-axis context | done | Not eligible: no candidate reached progression association, pathogenic direction, causal specificity, and selective perturbation gates. Structure was deliberately not used as target decoration. |
 | Multi-lineage adversarial progression review | todo | Ask Claude and Gemini for fatal confounders and decisive tests; ground concrete proposals only. |
 | Progression-cohort acquisition specification | done | Three-role contract (longitudinal progression, paired compartment, functional direction) with 64 unique required fields and fail-closed intake actions. No powered sample size inferred from held data. |
-| Progression package eligibility validator | todo | Implement the 64-field P1/P2/P3 contract with synthetic complete and failure fixtures; no received real data. |
+| Progression package eligibility validator | done | Six synthetic role fixtures: 3 complete P1/P2/P3 pass, 3 malformed packages fail closed. Real source paths must exist; pass means inventory-ready only. |
 | Progression-event power design skeleton | todo | Build a pre-data simulation interface parameterized by received event rate, follow-up, missingness, and repeated measures; do not borrow V43 treatment-response power as progression power. |
+| Progression P1/P2 blinded preregistration template | todo | Pre-specify endpoint/timepoint, event censoring, covariates, interaction, missingness, and analysis budget without received scores. |
+| Progression validator malformed-input expansion | todo | Add duplicate, unknown, nonexistent-path, unverified, and zero-nonmissing actual-mode regression cases. |
+| Progression outcome semantic checker | todo | Machine-check that relapse-only, morphology-only, stage-only, or pharmacodynamic labels cannot be accepted as disability/PIRA endpoints. |
 | Joint foamy-state lesion-stratum transport sensitivity | done | Classes 2/3 eligible; NAWM ineligible (4 foamy donors). Neither endpoint passes within-stratum family gates; OXPHOS same-direction but imprecise, lysosomal reverses in class 2. Pooled state is not stratum-portable. |
 | Foamy morphology-by-lesion heterogeneity test | done | Direct class-3-minus-class-2 interactions: OXPHOS beta 0.115, max-family p=0.940; lysosomal beta 0.004, p=1.000; LODO signs unstable. No heterogeneity support, but wide CIs do not establish homogeneity. |
 | GSE228330 progression metadata request addendum | done | Ready-unsent 29-field addendum requests subject map, a/s definition, age, disability/PIRA components, relapse/steroid/treatment, MRI, composition, batch/QC, and matrix. Context-only unless full role gate passes. |
@@ -164,3 +167,8 @@ project's evidence standard.
   pairing, subtype interpretation, progression, composition, and batch control;
   the cohort remains pharmacodynamic context unless the returned package passes
   the new role gate. Active time accrued: 0h59m51s.
+- 2026-07-21T22:00:52Z: Implemented the progression-package inventory gate and
+  verified six clearly labeled synthetic fixtures. Complete P1/P2/P3 inventories
+  pass; missing outcome, pairing/composition/batch, or progression-prequalified
+  functional fields fail closed. A pass is intake readiness only. Active time
+  accrued: 1h02m22s.

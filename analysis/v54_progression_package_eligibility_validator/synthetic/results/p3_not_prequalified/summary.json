@@ -1,0 +1,21 @@
+{
+  "purpose": "V54 progression-package inventory eligibility gate; no biological claim",
+  "synthetic": true,
+  "inventory": "analysis/v54_progression_package_eligibility_validator/synthetic/inventories/p3_not_prequalified.tsv",
+  "role": "P3",
+  "endpoint_mode": "cdp",
+  "progression_association_prequalified": false,
+  "n_schema_fields": 64,
+  "n_relevant_fields": 15,
+  "n_mandatory_fields": 15,
+  "n_blockers": 3,
+  "blockers": [
+    "functional_progression_readout:not_available",
+    "host_defense_readout:not_available",
+    "progression_association_prequalified:no"
+  ],
+  "n_warnings": 0,
+  "warnings": [],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass means inventory-complete enough for blinded pre-registration and data-level validation only; it is not evidence that the data, model, or biology passes."
+}

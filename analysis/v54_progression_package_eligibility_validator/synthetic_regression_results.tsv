@@ -1,0 +1,7 @@
+fixture	role	expected	actual	regression_pass	n_blockers
+p1_complete	P1	PASS_ROLE_INTAKE_INVENTORY	PASS_ROLE_INTAKE_INVENTORY	True	0
+p1_missing_outcome	P1	FAIL_CLOSED	FAIL_CLOSED	True	4
+p2_complete	P2	PASS_ROLE_INTAKE_INVENTORY	PASS_ROLE_INTAKE_INVENTORY	True	0
+p2_missing_pairing	P2	FAIL_CLOSED	FAIL_CLOSED	True	3
+p3_complete	P3	PASS_ROLE_INTAKE_INVENTORY	PASS_ROLE_INTAKE_INVENTORY	True	0
+p3_not_prequalified	P3	FAIL_CLOSED	FAIL_CLOSED	True	3

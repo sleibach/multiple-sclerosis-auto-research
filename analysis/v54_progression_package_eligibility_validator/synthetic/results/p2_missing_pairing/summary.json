@@ -1,0 +1,21 @@
+{
+  "purpose": "V54 progression-package inventory eligibility gate; no biological claim",
+  "synthetic": true,
+  "inventory": "analysis/v54_progression_package_eligibility_validator/synthetic/inventories/p2_missing_pairing.tsv",
+  "role": "P2",
+  "endpoint_mode": "pira",
+  "progression_association_prequalified": true,
+  "n_schema_fields": 64,
+  "n_relevant_fields": 51,
+  "n_mandatory_fields": 31,
+  "n_blockers": 3,
+  "blockers": [
+    "processing_batch:not_available",
+    "cell_count_file:not_available",
+    "paired_compartment_sample_id:not_available"
+  ],
+  "n_warnings": 0,
+  "warnings": [],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass means inventory-complete enough for blinded pre-registration and data-level validation only; it is not evidence that the data, model, or biology passes."
+}
