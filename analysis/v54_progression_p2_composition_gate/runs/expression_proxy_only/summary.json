@@ -1,0 +1,15 @@
+{
+  "purpose": "V54 P2 composition measurement eligibility gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P2_PACKAGE_DO_NOT_USE_AS_DATA",
+  "measurement_method": "expression_module_score",
+  "route": "ineligible",
+  "n_checks": 22,
+  "n_blockers": 2,
+  "blockers": [
+    "expression_derived_proxy_only:ineligible",
+    "measurement_method:not_direct_or_eligible_proxy"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass establishes composition-method eligibility only; it is not localization, progression, or biological evidence."
+}

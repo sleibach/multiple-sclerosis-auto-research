@@ -1,0 +1,10 @@
+fixture	synthetic	expected_decision	observed_decision	regression_pass
+direct_flow	True	PASS_DIRECT_MEASUREMENT	PASS_DIRECT_MEASUREMENT	True
+direct_cite	True	PASS_DIRECT_MEASUREMENT	PASS_DIRECT_MEASUREMENT	True
+validated_proxy	True	PASS_VALIDATED_PROXY_REQUIRES_SENSITIVITY	PASS_VALIDATED_PROXY_REQUIRES_SENSITIVITY	True
+proxy_without_direct_subset	True	FAIL_CLOSED	FAIL_CLOSED	True
+proxy_failed_null_calibration	True	FAIL_CLOSED	FAIL_CLOSED	True
+expression_proxy_only	True	FAIL_CLOSED	FAIL_CLOSED	True
+missing_sample_linkage	True	FAIL_CLOSED	FAIL_CLOSED	True
+outcome_selected_method	True	FAIL_CLOSED	FAIL_CLOSED	True
+unresolved_missingness	True	FAIL_CLOSED	FAIL_CLOSED	True

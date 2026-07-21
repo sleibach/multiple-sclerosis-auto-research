@@ -68,7 +68,7 @@ project's evidence standard.
 | Progression endpoint adjudication fixtures | done | Eleven synthetic CDP/PIRA fixtures pass: confirmed, transient, missing/mistimed confirmation, relapse/steroid exclusion, component discordance, switch censoring, and invalid baseline. CDP and PIRA remain distinct. |
 | Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
-| P2 composition measurement acceptance contract | todo | Define which measured cell-fraction methods are sufficient for the conditionally calibrated P2 route; expression-derived proxy alone must fail closed under possible imbalance. |
+| P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
 | V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -296,3 +296,10 @@ project's evidence standard.
   worsening is PIRA-excluded by relapse; missing/mistimed confirmation and
   pre-confirmation censoring remain inconclusive rather than negative. Active
   time accrued: 2h17m49s.
+- 2026-07-21T23:18:09Z: Implemented the P2 composition-method acceptance gate.
+  Direct linked flow/CyTOF/CITE-seq/single-cell counts are eligible for
+  cohort-specific calibration; proxies require a blinded direct-reference
+  subset and an empirical null-calibration pass and remain sensitivity-only.
+  Expression-derived proxies, missing linkage, outcome selection, and
+  unresolved missingness fail. All 9 synthetic fixtures pass. Active time
+  accrued: 2h19m39s.

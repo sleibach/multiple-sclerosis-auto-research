@@ -1,0 +1,14 @@
+{
+  "purpose": "V54 P2 composition measurement eligibility gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P2_PACKAGE_DO_NOT_USE_AS_DATA",
+  "measurement_method": "deconvolution",
+  "route": "proxy",
+  "n_checks": 32,
+  "n_blockers": 1,
+  "blockers": [
+    "empirical_null_calibration_pass:required_for_proxy"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass establishes composition-method eligibility only; it is not localization, progression, or biological evidence."
+}

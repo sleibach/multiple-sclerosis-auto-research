@@ -1,0 +1,14 @@
+{
+  "purpose": "V54 P2 composition measurement eligibility gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P2_PACKAGE_DO_NOT_USE_AS_DATA",
+  "measurement_method": "flow_cytometry",
+  "route": "direct",
+  "n_checks": 22,
+  "n_blockers": 1,
+  "blockers": [
+    "exact_sample_linkage:must_be_true"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass establishes composition-method eligibility only; it is not localization, progression, or biological evidence."
+}

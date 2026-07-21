@@ -69,6 +69,7 @@ cannot measure progression rate or transition.
 | Progression label-noise sensitivity | material power loss | 576,000 additional synthetic cohorts. Scenarios reaching 80% fall from 7/24 to 4/24 at 5% and 3/24 at 10% symmetric label error. Assumption sensitivity only. |
 | Progression event-time/covariate power extension | synthetic method guard established | 90,000 cohorts and 180,000 route evaluations. Source/treatment stratification restores near-nominal null behavior under deliberate confounding; the unadjusted route is inflated. Not biological evidence. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
+| P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Eleven edge cases preserve confirmed, transient, context-excluded, missing-confirmation, censored, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
@@ -644,6 +645,17 @@ independently demonstrated no-imbalance condition. A noisy expression-derived
 proxy cannot rescue the interaction. Any received package must rerun this grid
 from blinded pairing, outcome, compartment, composition reliability, and
 imbalance metadata before scores are accessed.
+
+The measurement eligibility contract is now explicit in
+`docs/validation/PROGRESSION_P2_COMPOSITION_ACCEPTANCE_V54.md` and enforced by
+`scripts/v54_progression_p2_composition_gate.py`. Nine synthetic declarations
+pass expected behavior. Direct sample-linked measurements can enter the
+cohort-specific null/power calibration. A deconvolution proxy is only
+conditionally eligible when a blinded, sample-linked direct-reference subset
+provides compartment-specific reliability and the null simulation passes at
+that reliability and observed imbalance; it remains sensitivity-only.
+Expression-module proxies alone, unlinked references, outcome-selected
+methods, or unresolved differential missingness fail closed.
 
 ## Event-Time Assumption Robustness
 
