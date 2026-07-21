@@ -62,6 +62,7 @@ cannot measure progression rate or transition.
 | Foamy morphology-by-lesion interaction | heterogeneity not supported | Direct class-3-versus-class-2 interactions are near zero with wide intervals and unstable LODO signs. This does not establish homogeneity; the pooled result remains context-bounded and under-resolved. |
 | Foamy within-donor estimand audit | not supported | Only 6/21 donors and 3/43 donor-by-lesion blocks vary in morphology. OXPHOS is direction-retained but unstable/null within donors; lysosomal reverses near zero. |
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
+| Progression candidate role matrix | 0/10 candidates eligible for P1/P2/P3 | Metadata-only classification keeps monitoring, pharmacodynamic, pathology, and progression roles separate. Acquisition boundary, not biological null. |
 | Progression-package eligibility validator | synthetic-verified and path bug fixed | Fourteen synthetic inventories cover roles, malformed schemas, aliases, verification, nonmissing counts, and real-path behavior. A discovered missing-path pass bug was fixed. Method behavior only. |
 | Blinded P1/P2 pre-registration and endpoint semantic gate | synthetic-verified | Three valid disability declarations pass and nine proxy, incomplete, unconfirmed, or unblinded declarations fail closed. Method behavior only. |
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
@@ -515,6 +516,19 @@ was recorded as an issue but did not previously enter `field_gate_pass`.
 Real-package source paths now fail closed when absent. A pass means only
 inventory-complete enough for blinded pre-registration and data-level
 validation; it is not a data-quality or biological result.
+
+The contracts were also applied to every known candidate without opening
+expression values or quarantined packages. The generated matrix is
+`analysis/v54_progression_candidate_role_matrix/candidate_role_matrix.tsv`,
+with the operator summary at
+`docs/validation/PROGRESSION_COHORT_ROLE_MATRIX_V54.md`. None of ten candidates
+qualifies for P1, P2, or P3. In particular, Gafson and Karolinska remain
+monitoring-validation routes rather than disability-progression cohorts;
+GSE24427 has verified repeated expression but only baseline EDSS and relapse
+follow-up; GSE228330 remains unmapped and outcome-incomplete; and postmortem
+brain cohorts cannot supply living-person event time. The shortest path is a
+longitudinal molecular cohort with raw repeated disability and adjudication,
+not another cross-sectional public expression set.
 
 Inventory presence does not establish endpoint meaning. A second, blinded
 contract is now committed at

@@ -66,7 +66,7 @@ project's evidence standard.
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
 | Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
 | Progression endpoint adjudication fixtures | done | Eleven synthetic CDP/PIRA fixtures pass: confirmed, transient, missing/mistimed confirmation, relapse/steroid exclusion, component discordance, switch censoring, and invalid baseline. CDP and PIRA remain distinct. |
-| Progression cohort candidate role matrix | todo | Apply only metadata/semantic contracts to known candidates; no score access and no cohort counted eligible without verification. |
+| Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
 | V54 consolidated regression suite | todo | One command for progression scripts, semantic/intake gates, numerical references, provenance/structure, and claim consistency. |
@@ -303,3 +303,10 @@ project's evidence standard.
   Expression-derived proxies, missing linkage, outcome selection, and
   unresolved missingness fail. All 9 synthetic fixtures pass. Active time
   accrued: 2h19m39s.
+- 2026-07-21T23:20:36Z: Completed the metadata-only candidate role matrix over
+  ten known cohorts/routes, verifying five unique source artifacts. Zero
+  qualifies for P1, P2, or P3. Gafson/Karolinska remain monitoring-validation
+  routes, GSE24427 remains relapse/pharmacodynamic context despite repeated
+  expression, and all held brain cohorts remain cross-sectional/pathology
+  context. No expression values or quarantined package was read. Active time
+  accrued: 2h22m06s.
