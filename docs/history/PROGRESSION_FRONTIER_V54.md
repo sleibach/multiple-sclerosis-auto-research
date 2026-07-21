@@ -49,5 +49,33 @@ cannot measure progression rate or transition.
 | probe | result | evidence boundary |
 |---|---|---|
 | Progression-data semantic inventory | complete | Coverage and identifiability audit only; no biological claim. |
-| Source-balanced PPMS versus SPMS module comparison | in progress | Cross-sectional disease-stage association only. |
+| Source-balanced PPMS versus SPMS module comparison | no portable association; CD44/CXCR4 and IFN/APC inconclusive | Cross-sectional disease-stage association only; no transition or progression-rate inference. |
 
+## Source/Tissue-Balanced PPMS Versus SPMS Test
+
+Status: **no portable cross-sectional stage association**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_STAGE_TEST_V54.md`
+- script: `scripts/v54_progressive_stage_modules.py`
+- report: `analysis/v54_progressive_stage_modules/REPORT.md`
+- machine-readable tests: `analysis/v54_progressive_stage_modules/module_tests.tsv`
+
+The analysis used 44 donors: Amsterdam white matter (12 PPMS, 12 SPMS) and UK
+grey matter (8 PPMS, 12 SPMS). Deposited lesion context, age, sex, and
+microglial yield were nuisance-adjusted before donor averaging. Three fixed
+seeds supplied 300,000 within-source label permutations.
+
+No module passed the frozen HC3, permutation, BH, max-T, and cross-source
+direction gate. The primary CD44/CXCR4 score was positive in both sources but
+inconclusive: pooled standardized SPMS-minus-PPMS beta `0.343`, HC3 95% CI
+`-0.253` to `0.938`, permutation `p=0.279`, BH `q=0.607`, max-T `p=0.787`.
+The IFN/APC score was also same-direction but inconclusive. HLA regulation,
+MIF ligand, and lysosomal scores changed direction between sources and were
+not supported.
+
+This result does not establish equivalence or absence: intervals remain wide.
+It does prevent upgrading the V53 CD44/CXCR4 state into a portable progressive-
+stage marker from this package. Independent source-balanced tissue with
+longitudinal disability remains necessary.

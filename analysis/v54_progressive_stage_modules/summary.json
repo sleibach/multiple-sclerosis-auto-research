@@ -1,0 +1,27 @@
+{
+  "boundary": "Cross-sectional stage association only. A positive result would not identify transition, disability accumulation, causality, or treatment benefit.",
+  "donors_by_source_stage": {
+    "Amsterdam BB|PPMS": 12,
+    "Amsterdam BB|SPMS": 12,
+    "UK MS TB|PPMS": 8,
+    "UK MS TB|SPMS": 12
+  },
+  "modules_tested": [
+    "receptor_cd44_cxcr4",
+    "hla_regulatory",
+    "mif_ligand",
+    "ifn_apc_unique",
+    "lysosomal_unique"
+  ],
+  "n_donors": 44,
+  "n_null_replicates": 300000,
+  "n_supported_modules": 0,
+  "purpose": "Frozen cross-sectional PPMS-vs-SPMS module test; not progression-rate or treatment evidence",
+  "seeds": [
+    54001,
+    54002,
+    54003
+  ],
+  "supported_modules": [],
+  "verdict": "NO_PORTABLE_CROSS_SECTIONAL_STAGE_ASSOCIATION"
+}
