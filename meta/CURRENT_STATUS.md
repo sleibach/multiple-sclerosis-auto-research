@@ -38,9 +38,9 @@ frozen molecular state measured before adjudicated CDP/PIRA, raw repeated
 disability components, event/confirmation dates and reasons, treatment/switch,
 attendance/censoring/death, site/batch/QC, and composition provenance. No
 current candidate meets that contract. Use
-`docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` for the 46-artifact reader
+`docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` for the 47-artifact reader
 path and `docs/history/PROGRESSION_FRONTIER_V54.md` for the cumulative verdict.
-The consolidated method/repository suite passes 36/36 commands and 196/196
+The consolidated method/repository suite passes 37/37 commands and 204/204
 claim/artifact invariants. No V54 result establishes a progression biomarker,
 mechanism, target, treatment effect, or means of halting MS.
 

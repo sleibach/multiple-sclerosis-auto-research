@@ -1,0 +1,20 @@
+{
+  "purpose": "Verify V54 points to the exact pre-existing V53 CD44/CXCR4 state",
+  "n_source_artifacts": 3,
+  "n_missing": 0,
+  "n_hash_mismatch": 0,
+  "n_formula_checks": 6,
+  "n_formula_checks_pass": 6,
+  "formula_checks": {
+    "exact_genes_in_spec": true,
+    "zscore_then_mean_in_spec": true,
+    "no_substitution_in_spec": true,
+    "microglia_compartment_in_spec": true,
+    "exact_genes_in_implementation": true,
+    "unweighted_mean_in_implementation": true
+  },
+  "compartment_boundary_explicit": true,
+  "overall_status": "PASS",
+  "verdict": "EXACT_V53_STATE_REFERENCE_VERIFIED_MICROGLIA_ONLY",
+  "boundary": "Identity verification only; no progression association, causal mechanism, intervention direction, target, or treatment evidence."
+}

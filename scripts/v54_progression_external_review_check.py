@@ -24,6 +24,7 @@ REQUIRED_ARTIFACTS = [
     "docs/validation/PROGRESSION_P1_ANALYSIS_RELEASE_GATE_V54.md",
     "docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md",
     "docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md",
+    "docs/validation/PROGRESSION_P1_CANDIDATE_STATE_HANDOFF_V54.md",
     "docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md",
     "docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md",
     "analysis/v54_progression_candidate_role_matrix/summary.json",
@@ -40,6 +41,7 @@ REQUIRED_BOUNDARIES = [
     "Release means permission to execute, not evidence.",
     "A bounded pass remains a predictive-association transport result",
     "Unlike compute units are intentionally not summed",
+    "Only score identity transfers",
 ]
 
 

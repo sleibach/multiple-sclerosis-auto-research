@@ -120,6 +120,11 @@ Readiness now extends beyond a written design:
    and maps the interval, corrected family, sensitivities, and controls to pass,
    fail, inconclusive, or invalid language.
 
+The named P1 state is also identity-bound to the exact V53 `CD44`/`CXCR4`
+formula and source hashes. Only score identity transfers: the V53 disease-
+association model does not become a progression model, and a non-microglial
+package cannot inherit the microglial state result.
+
 Release means permission to execute, not evidence. A bounded pass remains a
 predictive-association transport result under the declared design, not a
 mechanism, target, treatment effect, efficacy result, or means of halting MS.
@@ -183,6 +188,8 @@ progression**.
   `docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md`
 - post-result interpretation:
   `docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md`
+- candidate-state identity:
+  `docs/validation/PROGRESSION_P1_CANDIDATE_STATE_HANDOFF_V54.md`
 - reviewer navigation: `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`
 - compute accounting: `docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md`
 - full machine suite: `scripts/v54_progression_regression_suite.py`

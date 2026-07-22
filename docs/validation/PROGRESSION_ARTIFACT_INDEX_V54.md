@@ -12,7 +12,7 @@ operational release authority are never biological evidence.
   grounded negative/bounded analysis (`M03`-`M06`).
 - Data owner: start at `D01`, use `D04`/`D05` for response, then run the
   blind intake declarations (`D07`-`D09`).
-- Analysis operator: execute `A01` through `A14` in lifecycle order; a
+- Analysis operator: execute `A01` through `A15` in lifecycle order; a
   release or reference-alignment decision is permission, not a result.
 - Method reviewer: use `R01`-`R16` for calibration, invalidity boundaries,
   precision, adversarial review, and the one-command regression suite.
@@ -61,6 +61,7 @@ operational release authority are never biological evidence.
 | A12 | diagnostics | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_NONLINEAR_DIAGNOSTIC_GATE_V54.md` | Predeclared non-rescuing nonlinear diagnostic family. | Diagnostics cannot replace the linear primary or create a post-hoc positive claim. |
 | A13 | composition | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_P2_COMPOSITION_ACCEPTANCE_V54.md` | P2 composition-method acceptance gate. | Expression-only or outcome-selected composition estimates fail closed. |
 | A14 | interpretation | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md` | Composes frozen P1 pass, fail, inconclusive, and invalid classes. | A bounded pass is predictive transport only; controls cannot upgrade the primary. |
+| A15 | candidate_identity | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_P1_CANDIDATE_STATE_HANDOFF_V54.md` | Binds V54 P1 to the exact hashed V53 CD44/CXCR4 score identity. | Only score identity transfers; microglia compatibility is mandatory and no progression claim transfers. |
 
 ## Method Reviewer
 
