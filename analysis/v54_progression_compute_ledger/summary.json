@@ -1,0 +1,22 @@
+{
+  "purpose": "Transparent V54 compute accounting with unlike units kept separate",
+  "n_count_rows": 57,
+  "n_source_summaries": 46,
+  "totals_by_category": {
+    "analysis_route_evaluations": 3875400,
+    "held_data_randomization_replicates": 2700000,
+    "model_fit_synthetic_cohorts": 3348600,
+    "planning_monte_carlo_replicates": 122805000,
+    "synthetic_gate_fixtures": 187
+  },
+  "analyses_by_category": {
+    "analysis_route_evaluations": 10,
+    "held_data_randomization_replicates": 9,
+    "model_fit_synthetic_cohorts": 19,
+    "planning_monte_carlo_replicates": 1,
+    "synthetic_gate_fixtures": 18
+  },
+  "grand_total_intentionally_undefined": true,
+  "overall_status": "PASS",
+  "boundary": "Compute accounting only. Counts in unlike categories are not additive and provide no biological evidence or measure of scientific importance."
+}

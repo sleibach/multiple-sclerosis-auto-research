@@ -87,6 +87,7 @@ ARTIFACTS = [
     row("R13", "method_reviewer", "misspecification", "method_only_synthetic", "method_behavior_only", "analysis/v54_progression_linear_misspecification/REPORT.md", "Fixed nonlinear alternatives versus linear Cox.", "The detected U-shaped synthetic pattern does not imply an MS response shape."),
     row("R14", "method_reviewer", "regression", "method_only_synthetic", "method_behavior_only", "analysis/v54_progression_regression_suite/REPORT.md", "One-command executable and claim-boundary regression suite.", "A suite pass establishes repository behavior only, not biology."),
     row("R15", "method_reviewer", "adversarial_review", "grounded_review", "bounded_evidence", "analysis/v54_multilineage_progression_review/REPORT.md", "Grounded disposition of Claude/Gemini objections.", "Models proposed objections; only committed data/method audits determined dispositions."),
+    row("R16", "method_reviewer", "compute_accounting", "method_only_synthetic", "method_behavior_only", "docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md", "Separates V54 computational workload into non-additive units.", "Compute volume is not biological evidence and unlike units have no grand total."),
 ]
 
 
@@ -170,7 +171,7 @@ def main() -> None:
         "  blind intake declarations (`D07`-`D09`).",
         "- Analysis operator: execute `A01` through `A14` in lifecycle order; a",
         "  release or reference-alignment decision is permission, not a result.",
-        "- Method reviewer: use `R01`-`R15` for calibration, invalidity boundaries,",
+        "- Method reviewer: use `R01`-`R16` for calibration, invalidity boundaries,",
         "  precision, adversarial review, and the one-command regression suite.",
         "",
     ]

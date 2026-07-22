@@ -99,13 +99,14 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 35/35 commands and 185/185 invariants pass | Fast gates, numerical references, negative claim boundaries, release/result-interpretation/external-review checks, artifact navigation, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 36/36 commands and 195/195 invariants pass | Fast gates, numerical references, negative claim boundaries, release/result-interpretation/external-review checks, artifact navigation/compute accounting, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
 | P1 frozen-analysis release composition | synthetic-verified | Upstream lock, confirmation provenance, seven-control family, package identity, and frozen manifest hash compose: 1 releases, 1 continues blinded accrual, 8 faults fail closed. Release is permission to run, not a result. |
 | P1 post-result interpretation composition | synthetic-verified | Seventeen packets cover bounded pass (2), specificity downgrade (1), fail (2), inconclusive (7), and invalid (5). Numeric boundaries come from the frozen cohort plan; clean controls cannot upgrade the primary. |
-| Role-based progression artifact index | complete and machine-verified | Forty-five unique committed artifacts route medical, acquisition, analysis-operator, and method-review readers with path checks and explicit claim authority; indexing never upgrades evidence. |
+| Role-based progression artifact index | complete and machine-verified | Forty-six unique committed artifacts route medical, acquisition, analysis-operator, and method-review readers with path checks and explicit claim authority; indexing never upgrades evidence. |
+| Progression compute ledger | complete; unlike units not summed | Exact accounting separates 3,348,600 model-fit synthetic cohorts, 122,805,000 lightweight planning draws, 3,875,400 reused-route evaluations, 2,700,000 held-data randomization draws, and 187 gate fixtures. Compute volume is not evidence. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
@@ -1510,19 +1511,35 @@ progression.
 
 ## Role-Based Artifact Navigation
 
-Status: **45/45 artifacts resolve; navigation changes no evidence grade**.
+Status: **46/46 artifacts resolve; navigation changes no evidence grade**.
 
 `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` separates four reader
 paths: seven medical-interpretation artifacts, nine acquisition artifacts,
-fourteen frozen-execution artifacts, and fifteen method-review artifacts. The
+fourteen frozen-execution artifacts, and sixteen method-review artifacts. The
 generator (`scripts/v54_progression_artifact_index.py`) rejects missing or
 duplicate paths, unknown evidence/authority classes, temporary paths, and weak
-claim boundaries. All 45 committed entries pass.
+claim boundaries. All 46 committed entries pass.
 
 The index distinguishes grounded analyses/reviews from synthetic method
 behavior and operational contracts. In particular, reference alignment,
 information lock, and analysis release retain execution authority only; none
 is presented as progression evidence, validation, or therapeutic support.
+
+## Compute Accounting
+
+Status: **complete; categories are explicitly non-additive**.
+
+`docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md` reads 46 committed summary
+artifacts and records 57 count rows. It separates 3,348,600 unique model-fit
+synthetic cohorts (including explicitly disjoint calibration cohorts),
+122,805,000 lightweight enrollment/loss/event planning draws, 3,875,400 method
+or estimand evaluations that reuse cohorts, 2,700,000 permutation/donor-wild
+draws over held data, and 187 discrete gate fixtures.
+
+No grand total is reported: adding those units would double-count route reuse
+and equate lightweight planning draws with fitted simulations. These counts
+characterize computational method work only; they are neither patient evidence
+nor a measure of biological support.
 
 ## Consolidated Regression Suite
 
@@ -1534,7 +1551,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 35 checks and asserts 185 committed artifact/claim
+The final suite executes 36 checks and asserts 195 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;
