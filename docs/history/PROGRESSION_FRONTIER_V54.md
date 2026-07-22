@@ -83,13 +83,14 @@ cannot measure progression rate or transition.
 | Nonlinear diagnostic receipt gate | synthetic-verified; non-rescuing | Ten declarations freeze the exact threshold, saturation, and linear-plus-quadratic family plus multiplicity handling; two valid process routes pass and eight unsafe routes fail closed. |
 | Linear-effect misspecification | one fixed nonlinear design warning | 18,000 disjoint calibration plus 108,000 evaluation cohorts. All five null families calibrate. At n=320, U-shaped crossing risk is materially missed by linear Cox (0.105) but detected by the corrected linear-quadratic diagnostic (0.891); no MS shape is inferred. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
+| Machine-readable reference manifest | hash-bound and synthetic-verified | Eight executable gates and eighteen source artifacts bind the reference targets, lifecycle, allowed decisions, and claim boundaries; current verification and tamper regression pass. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 25/25 commands and 92/92 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 26/26 commands and 97/97 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -1010,6 +1011,25 @@ rarer events, informative missingness, site imbalance, or correlated
 measurement error can make `n=450` insufficient. The checker confirms that the
 known candidate inventory still contains zero P1-, P2-, or P3-eligible cohorts.
 
+## Machine-Readable Reference Manifest
+
+Status: **hash-bound, drift-detecting, and synthetic-verified**.
+
+The committed manifest
+(`analysis/v54_progression_reference_manifest/manifest.json`) binds eight
+executable gates and eighteen source artifacts to one SHA-256 contract. It
+contains the reference counts, allowed decisions, package lifecycle, forbidden
+pre-lock fields, analysis route, attendance boundary, and the explicit ban on
+diagnostic rescue. Its reference values remain stress-test assumptions rather
+than universal minima.
+
+`scripts/v54_progression_reference_manifest.py --verify` compares the manifest
+with current source hashes and exact content. Current verification passes with
+zero blockers; a synthetic copy changing analyzable total from 450 to 449 fails
+as designed. The consolidated suite runs verify mode, so source drift cannot
+silently alter the operational contract. This adds reproducibility, not
+progression evidence.
+
 ## Site-Score Scale Harmonization
 
 Status: **blinded within-site scaling is conditionally necessary under severe
@@ -1266,7 +1286,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 25 checks and asserts 92 committed artifact/claim
+The final suite executes 26 checks and asserts 97 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;
