@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "seeds": [
+    55301,
+    55303,
+    55309
+  ],
+  "analyzable_sample_sizes": [
+    450,
+    600,
+    900,
+    1200,
+    1500
+  ],
+  "event_probabilities_before_ascertainment": [
+    0.15,
+    0.3
+  ],
+  "molecular_hrs_per_latent_sd": [
+    1.0,
+    1.2,
+    1.3,
+    1.5,
+    1.7
+  ],
+  "replicates_per_seed_cell": 600,
+  "stack": "clean",
+  "route": "guarded_within_site_stratified",
+  "gross_inflation_basis": "690/450 under independent 10% molecular/clinical/site losses",
+  "boundary": "Seeded synthetic method behavior only; no empirical progression effect, universal N, or biological claim."
+}

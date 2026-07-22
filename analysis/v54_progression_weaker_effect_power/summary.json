@@ -1,0 +1,21 @@
+{
+  "purpose": "V54 site-aware weaker-effect progression power extension; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 90000,
+  "n_guarded_route_evaluations": 90000,
+  "null_family_calibrated": true,
+  "n_nonnull_scenarios": 8,
+  "n_scenarios_reaching_rule": 6,
+  "minimum_n_by_scenario": {
+    "event_015_hr_12": "not_reached",
+    "event_015_hr_13": 1500,
+    "event_015_hr_15": 600,
+    "event_015_hr_17": 450,
+    "event_030_hr_12": "not_reached",
+    "event_030_hr_13": 900,
+    "event_030_hr_15": 450,
+    "event_030_hr_17": 450
+  },
+  "verdict": "WEAKER_EFFECT_REFERENCE_EXTENDED_CONDITIONALLY",
+  "boundary": "Synthetic clean-reference power only; true MS effect is unknown and no value is a universal cohort-size guarantee."
+}
