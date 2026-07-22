@@ -1,8 +1,48 @@
 # Current Status
 
-Last updated: 2026-07-11 02:20 CEST
+Last updated: 2026-07-22 04:28 CEST
 
 ## Mission State
+
+V54 refocused the mature toolkit on the explicit goal of halting disability
+progression, while retaining the V41 discovery-exhaustion boundary and the V53
+source-confounding correction. The honest result is a data boundary, not a
+target: no held dataset supplies a usable longitudinal molecular-to-confirmed-
+disability link; no source/tissue-balanced PPMS-versus-SPMS module passed; no
+orthogonally consistent lesion state passed; relapsing-to-progressive
+transition is not identifiable; and zero of ten known candidates is eligible
+for the P1 longitudinal, P2 compartment, or P3 functional-direction role.
+
+The bounded foamy-morphology signal was further downgraded after global Holm
+control and a within-donor audit: fully adjusted lysosomal specificity and the
+two-endpoint coupled claim do not survive the full family, only 6/21 donors
+vary in morphology, and no within-donor endpoint is supported. Claude/Gemini
+adversarial review caused this real downgrade but changed no progression or
+target verdict. Model output remained proposal-only.
+
+V54's durable positive output is validation architecture. A 64-field
+acquisition contract, 66-field ready-to-send request packet, frozen P1/P2
+contract, endpoint adjudicator, seven-control family, full intake-to-lock and
+analysis-release composition, blinded accrual/precision routers, and
+plan-file-hash-bound post-result interpretation gate are executable. The
+conditional synthetic references are not empirical MS effects: global sign
+transport first passes at the HR1.7/30%-event/balanced N=450 reference, whereas
+strict every-site precision under HR1.5/30%-event assumptions first passes at
+balanced N=1,800 and 60/30/10 N=3,000. Score-linked endpoint confirmation,
+informative attendance/censoring, joint score/risk competing events, pooled
+site confounding, and several switch processes are explicit fail-closed method
+boundaries.
+
+Current progression action: acquire and verify a P1 longitudinal cohort with
+frozen molecular state measured before adjudicated CDP/PIRA, raw repeated
+disability components, event/confirmation dates and reasons, treatment/switch,
+attendance/censoring/death, site/batch/QC, and composition provenance. No
+current candidate meets that contract. Use
+`docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` for the 45-artifact reader
+path and `docs/history/PROGRESSION_FRONTIER_V54.md` for the cumulative verdict.
+The consolidated method/repository suite passes 35/35 commands and 185/185
+claim/artifact invariants. No V54 result establishes a progression biomarker,
+mechanism, target, treatment effect, or means of halting MS.
 
 V12 completed the supported-cell axis-disagreement matrix that V11 made
 resumable. V13-V17 robustified the genetics axis from OpenGWAS coloc through
@@ -148,10 +188,10 @@ from the mature project evidence, renewed OpenGWAS access, and V51 structural
 context without reopening broad public-data discovery. V52 does not change the
 locked V22 rule, the V42 pre-registration, the V41 public-data discovery
 boundary, or the V19 chr1 grounded genetics verdict.
-V53 is the current live operational phase. It explores structure-first,
+V53 was the completed exploratory phase preceding V54. It explored structure-first,
 MIF/CD74, combinatorial, and cross-domain hypotheses with the mature toolkit,
 while preserving V41's discovery-exhaustion boundary and requiring real-data
-grounding before any proposal advances. Resume from `meta/V53_QUEUE.md`.
+grounding before any proposal advanced. Its archive is `meta/V53_QUEUE.md`.
 
 V53 current evidence correction: MIF/CD74 did not become a therapeutic target,
 and additive combinations or a replicated network-control node were not
@@ -212,7 +252,7 @@ counted as replication.
 
 Current frontier:
 
-- V53 live state:
+- V53 archived state:
   - Resume backbone: `meta/V53_QUEUE.md`.
   - Cumulative grounded report:
     `docs/history/EXPLORATORY_FRONTIER_V53.md`.

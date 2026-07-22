@@ -1,10 +1,44 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-07-11 02:20 CEST
+Last updated: 2026-07-22 04:28 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V54 progression priority:
+
+1. Acquire a P1 longitudinal package linking a pre-existing frozen molecular
+   state to auditable confirmed disability accumulation. Start with
+   `docs/validation/outbound_requests/progression_p1_core_ready_to_send_V54.md`
+   and its 66-field response template. No current candidate is P1-eligible.
+2. Keep all received data quarantined. Follow the medical/data/operator/method
+   paths in `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`; execute the
+   hash-bound manifest and actual intake-to-lock/release gates before score-
+   outcome access.
+3. Run a cohort-specific blinded simulation. The V54 N=450 sign reference and
+   N=1,800/N=3,000 precision references are conditional synthetic cells, not
+   universal minima or empirical effects.
+4. After one frozen analysis, use
+   `PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md`. Process-control failures
+   invalidate, endpoint-specificity controls only downgrade, and clean controls
+   never upgrade a primary result.
+5. Do not reopen target nomination until a progression association survives
+   source/batch/composition, influence, control, transport, and direction gates.
+   Current target count is zero; structure is ineligible without those gates.
+6. Keep Gafson/Karolinska V22 treatment-response monitoring validation separate
+   from progression. A monitoring/pharmacodynamic result is not a disability-
+   progression or therapeutic-target result.
+
+V54 state:
+
+- Resume/audit backbone: `meta/V54_QUEUE.md`.
+- Cumulative result: `docs/history/PROGRESSION_FRONTIER_V54.md`.
+- Skeptic-facing summary: `docs/reports/PROGRESSION_EXTERNAL_REVIEW_V54.md`.
+- Regression command: `.venv/bin/python scripts/v54_progression_regression_suite.py`
+  (35/35 commands, 185/185 invariants at the latest checkpoint).
+- OpenGWAS POST-only token check passed at V54 start; decoded expiry is
+  2026-07-24 08:00 UTC.
 
 V53 update:
 
@@ -38,8 +72,8 @@ V53 update:
   `knowledge_external/synthesis/V53_OUTCOME_LEDGER.tsv`; final regression suite
   passes 23/23 checks.
 - Sparse RAG refresh completed over 834 documents with V53 smoke-query pass.
-- Current priority: final integration and consistency checks, then close only at
-  six active hours.
+- V53 closed after its six-hour active target; its artifacts remain historical
+  inputs to the V54 progression boundary above.
 
 V52 completed state:
 - Therapeutic-path synthesis:

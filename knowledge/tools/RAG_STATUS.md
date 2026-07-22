@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-07-11 04:16 CEST
+Last updated: 2026-07-22 04:30 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,7 +25,20 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V53 final-summary refresh: `836`.
+- Current document count after V54 progression close refresh: `901`.
+- V54 boundary/acquisition smoke query
+  `V54 progression no target longitudinal disability acquisition result interpretation`
+  returns the evidence delta, cohort-role matrix, intervention/transition
+  plans, acquisition specification, external-review brief, and cumulative
+  progression report among its leading results.
+- V54 precision smoke query
+  `V54 every site precision sign transport blinded receipt router` returns
+  `docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md` first, followed
+  by the initial/extended precision contracts and cumulative report.
+- V54 result-gate smoke query
+  `V54 PASS_BOUNDED_ASSOCIATION specificity downgrade plan hash frozen result gate`
+  returns `docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md`
+  and the cumulative progression report among its leading results.
 - V53 final-summary smoke query
   `V53 final run summary source confounding therapeutic bottom line` returns
   `docs/history/V53_RUN_SUMMARY.md`, the source-balance addendum, cumulative

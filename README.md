@@ -11,10 +11,20 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current live operational phase is **V53**. The V4 directory structure
+The current live operational phase is **V54**. The V4 directory structure
 remains canonical, and V11 introduced the resume backbone for short-session
-continuity. For the newest resumable state, read `meta/V53_QUEUE.md` after
+continuity. For the newest resumable state, read `meta/V54_QUEUE.md` after
 `meta/CURRENT_STATUS.md`.
+
+- Progression-specific V54 bottom line: held public data establish no portable
+  progression-stage molecular state, relapsing-to-progressive transition, or
+  direction-resolved therapeutic target. This is not a claim that progression
+  biology is absent; the required longitudinal molecular-to-confirmed-
+  disability data are not held. V54 converted that boundary into a fail-closed
+  acquisition, preregistration, intake, analysis-release, negative-control,
+  precision, and post-result interpretation pipeline. Start with
+  `docs/history/PROGRESSION_FRONTIER_V54.md` and the 45-artifact reviewer map at
+  `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.

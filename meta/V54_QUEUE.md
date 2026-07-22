@@ -102,7 +102,7 @@ project's evidence standard.
 | V54 artifact navigation index | done | Forty-five distinct paths resolve with explicit evidence class and claim authority: 7 medical, 9 acquisition, 14 analysis-operator, and 15 method-review artifacts. Navigation cannot upgrade evidence. |
 | P1 post-result interpretation gate | done | Seventeen frozen-plan-bound fixtures route 2 bounded passes, 1 specificity downgrade, 2 fails, 7 inconclusive, and 5 invalid outcomes. Process controls invalidate, specificity controls only downgrade, and clean controls never upgrade. |
 | Cumulative V54 progression report | in-progress | `docs/history/PROGRESSION_FRONTIER_V54.md` is current through precision routing and role-based navigation; final close summary remains. |
-| V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
+| V54 regression, provenance, structure, size, RAG, and clean close | in-progress | Live pointers now target V54; sparse index rebuilt over 901 documents with boundary, precision, and result-gate smoke queries. Final timed close and clean verification remain. |
 
 ## Per-Iteration Notes
 
@@ -738,3 +738,8 @@ project's evidence standard.
   suite attempt correctly failed because a CSV generator emitted CRLF on a new
   tracked row; both new generators now emit canonical LF and the rerun passes
   35/35 commands. Active time accrued: 5h29m08s.
+- 2026-07-22T02:30:33Z: Pushed result interpretation as `53b04a75`, moved the
+  README/current-status/next-action pointers from V53 to V54, and rebuilt the
+  sparse TF-IDF index over 901 documents. Boundary, precision-router, and
+  result-gate smoke queries return current V54 artifacts. Active time accrued:
+  5h32m03s.
