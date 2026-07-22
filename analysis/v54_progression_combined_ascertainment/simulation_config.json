@@ -1,0 +1,93 @@
+{
+  "synthetic": true,
+  "seeds": [
+    54201,
+    54203,
+    54209
+  ],
+  "sample_sizes": [
+    180,
+    320,
+    450
+  ],
+  "event_probabilities_before_ascertainment": [
+    0.15,
+    0.3
+  ],
+  "molecular_progression_hrs": [
+    1.0,
+    1.5
+  ],
+  "replicates_per_cell_seed": 800,
+  "process_probability": 0.1,
+  "reliability": 0.7,
+  "score_missing": 0.1,
+  "alpha": 0.05,
+  "stacks": {
+    "clean": [
+      "none",
+      "none",
+      "none",
+      "balanced"
+    ],
+    "attendance_score_only": [
+      "score",
+      "none",
+      "none",
+      "balanced"
+    ],
+    "death_risk_only": [
+      "none",
+      "risk",
+      "none",
+      "balanced"
+    ],
+    "switch_score_only": [
+      "none",
+      "none",
+      "score",
+      "balanced"
+    ],
+    "separable_all": [
+      "score",
+      "risk",
+      "score",
+      "balanced"
+    ],
+    "attendance_weak_joint": [
+      "weak_joint",
+      "none",
+      "none",
+      "balanced"
+    ],
+    "death_weak_joint": [
+      "none",
+      "weak_joint",
+      "none",
+      "balanced"
+    ],
+    "switch_weak_joint": [
+      "none",
+      "none",
+      "weak_joint",
+      "balanced"
+    ],
+    "weak_joint_all": [
+      "weak_joint",
+      "weak_joint",
+      "weak_joint",
+      "balanced"
+    ],
+    "weak_joint_all_site_linked": [
+      "weak_joint",
+      "weak_joint",
+      "weak_joint",
+      "score_linked_60_30_10"
+    ]
+  },
+  "routes": [
+    "guarded_within_site_stratified",
+    "naive_global_pooled"
+  ],
+  "boundary": "Seeded synthetic method behavior only; no empirical MS progression, ascertainment, or biological claim."
+}

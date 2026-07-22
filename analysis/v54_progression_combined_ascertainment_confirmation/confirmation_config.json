@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "independent_of_primary_seeds": true,
+  "seeds": [
+    55201,
+    55207,
+    55213
+  ],
+  "replicates_per_cell_seed": 2000,
+  "sample_sizes": [
+    180,
+    320,
+    450
+  ],
+  "event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "molecular_progression_hr": 1.0,
+  "stacks": [
+    "attendance_weak_joint",
+    "death_weak_joint",
+    "switch_weak_joint",
+    "weak_joint_all"
+  ],
+  "route": "guarded_within_site_stratified",
+  "generator_source": "scripts/v54_progression_combined_ascertainment.py",
+  "boundary": "Independent synthetic method confirmation only; no patient data or biological claim."
+}

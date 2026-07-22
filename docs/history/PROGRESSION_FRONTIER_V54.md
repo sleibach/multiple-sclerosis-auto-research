@@ -86,9 +86,10 @@ cannot measure progression rate or transition.
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
+| Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 25/25 commands and 83/83 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 25/25 commands and 92/92 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -770,6 +771,36 @@ endpoint. A separate fixture proves that an earlier transient candidate does
 not prevent the frozen search from returning a later qualifying onset (day 300,
 confirmed day 480).
 
+## Combined Ascertainment Stack
+
+Status: **joint score/risk attendance loss is unsafe; unique compounding not
+independently confirmed**.
+
+The frozen primary audit
+(`docs/plans/PROGRESSION_COMBINED_ASCERTAINMENT_V54.md`;
+`scripts/v54_progression_combined_ascertainment.py`) generated 288,000 cohorts
+and 576,000 guarded/naive route evaluations. As intended, the naive pooled
+route was broadly invalid when assay offsets and site hazards were omitted.
+The guarded within-site, site-stratified route calibrated for clean,
+score-only/risk-only, and separable combined processes. It classified the
+three-process weak-joint stack as invalid (`0.0617` maximum null-call rate;
+family tail `0.0363`) while each single-process family calibrated in that bank.
+
+Because that call was marginal and not uniform across seeds, an independent
+144,000-cohort null bank was frozen and run without changing the generator or
+analysis. The combined family remained invalid (`0.0640`; 95% CI lower bound
+`0.0581`; family tail `5.82e-6`), but attendance weak-joint alone also became
+invalid (`0.0570`; family tail `0.0461`). Death weak-joint had a strict but
+family-compatible flag; switch weak-joint calibrated.
+
+Therefore the specific claim that individually safe mechanisms become unsafe
+only when stacked is **not confirmed** and is not retained. The defensible
+method boundary is narrower and stronger: even 10% attendance loss with weak
+joint dependence on molecular score and latent event risk can invalidate the
+guarded Cox route, and stacking does not repair it. This synthetic result
+supports the existing fail-closed rule for unknown/outcome-related attendance;
+it does not assert that any real MS cohort has this mechanism.
+
 ## Progression Competing-Risk And Death Robustness
 
 Status: **cause-specific inference requires a pre-score competing-event
@@ -1235,7 +1266,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 25 checks and asserts 83 committed artifact/claim
+The final suite executes 25 checks and asserts 92 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;

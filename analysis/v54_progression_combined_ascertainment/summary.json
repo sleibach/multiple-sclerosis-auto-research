@@ -1,0 +1,28 @@
+{
+  "purpose": "V54 combined progression ascertainment synthetic audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 288000,
+  "n_route_evaluations": 576000,
+  "n_null_families": 20,
+  "n_invalid_null_families": 10,
+  "invalid_null_families": [
+    "attendance_score_only|naive_global_pooled",
+    "attendance_weak_joint|naive_global_pooled",
+    "clean|naive_global_pooled",
+    "death_risk_only|naive_global_pooled",
+    "death_weak_joint|naive_global_pooled",
+    "separable_all|naive_global_pooled",
+    "switch_score_only|naive_global_pooled",
+    "switch_weak_joint|naive_global_pooled",
+    "weak_joint_all|guarded_within_site_stratified",
+    "weak_joint_all|naive_global_pooled"
+  ],
+  "n_compounded_invalidity_families": 1,
+  "compounded_invalidity_families": [
+    "weak_joint_all|guarded_within_site_stratified"
+  ],
+  "n_calibrated_nonnull_cells": 60,
+  "n_calibrated_nonnull_cells_at_least_80pct": 8,
+  "verdict": "COMBINED_ASCERTAINMENT_CAN_INVALIDATE_BOUNDED_COMPONENTS",
+  "boundary": "Synthetic method behavior only; no empirical progression effect, ascertainment process, therapeutic target, or route to halting MS."
+}
