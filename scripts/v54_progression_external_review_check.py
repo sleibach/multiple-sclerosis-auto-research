@@ -19,6 +19,13 @@ REQUIRED_ARTIFACTS = [
     "docs/validation/PROGRESSION_LEAVE_SITE_OUT_PRECISION_V54.md",
     "docs/validation/PROGRESSION_LEAVE_SITE_OUT_PRECISION_EXTENSION_V54.md",
     "docs/validation/PROGRESSION_NEGATIVE_CONTROL_GATE_V54.md",
+    "docs/validation/PROGRESSION_CONFIRMATION_PROVENANCE_GATE_V54.md",
+    "docs/validation/PROGRESSION_P1_INTAKE_TO_LOCK_V54.md",
+    "docs/validation/PROGRESSION_P1_ANALYSIS_RELEASE_GATE_V54.md",
+    "docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md",
+    "docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md",
+    "docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md",
+    "docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md",
     "analysis/v54_progression_candidate_role_matrix/summary.json",
     "analysis/v54_progression_intervention_direction_map/summary.json",
 ]
@@ -30,6 +37,9 @@ REQUIRED_BOUNDARIES = [
     "Passing process controls never upgrades the primary result.",
     "Predicted structure was not used",
     "it has not yet found something that halts progression",
+    "Release means permission to execute, not evidence.",
+    "A bounded pass remains a predictive-association transport result",
+    "Unlike compute units are intentionally not summed",
 ]
 
 

@@ -104,6 +104,34 @@ These values are scenario-specific lookups. A received package must rerun the
 blinded feasibility/power route using its actual design metadata before scores
 are opened.
 
+## The Mechanical Chain Is Closed Before Data Access
+
+Readiness now extends beyond a written design:
+
+1. confirmation provenance must expose candidate/confirmation dates, reasons,
+   process mapping, and assessor-score blindness before access;
+2. one package identity passes the actual intake validators through blinded
+   information lock;
+3. analysis release composes that lock with confirmation provenance, the exact
+   seven-control family, and the hash-bound reference manifest;
+4. blinded site/event metadata route separately to sign or every-site precision
+   reference simulation, never directly to validation; and
+5. after one frozen run, the result gate recomputes the actual plan-file hash
+   and maps the interval, corrected family, sensitivities, and controls to pass,
+   fail, inconclusive, or invalid language.
+
+Release means permission to execute, not evidence. A bounded pass remains a
+predictive-association transport result under the declared design, not a
+mechanism, target, treatment effect, efficacy result, or means of halting MS.
+Process-control failure invalidates; endpoint-specificity controls can only
+downgrade; clean controls never upgrade the primary.
+
+The role-based artifact index exposes this chain to medical, data, operator,
+and method reviewers. The compute ledger keeps model-fit cohorts, lightweight
+planning draws, reused-route evaluations, held-data randomization draws, and
+software fixtures separate. Unlike compute units are intentionally not summed,
+and compute volume is not evidence.
+
 ## Why This Is Not A Target Program Yet
 
 A target claim requires a progression association, pathogenic direction,
@@ -145,4 +173,16 @@ progression**.
 - per-site precision: `docs/validation/PROGRESSION_LEAVE_SITE_OUT_PRECISION_V54.md`
 - upper-range extension: `docs/validation/PROGRESSION_LEAVE_SITE_OUT_PRECISION_EXTENSION_V54.md`
 - negative controls: `docs/validation/PROGRESSION_NEGATIVE_CONTROL_GATE_V54.md`
+- confirmation provenance:
+  `docs/validation/PROGRESSION_CONFIRMATION_PROVENANCE_GATE_V54.md`
+- intake through information lock:
+  `docs/validation/PROGRESSION_P1_INTAKE_TO_LOCK_V54.md`
+- analysis release:
+  `docs/validation/PROGRESSION_P1_ANALYSIS_RELEASE_GATE_V54.md`
+- blinded precision routing:
+  `docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md`
+- post-result interpretation:
+  `docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md`
+- reviewer navigation: `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`
+- compute accounting: `docs/validation/PROGRESSION_COMPUTE_LEDGER_V54.md`
 - full machine suite: `scripts/v54_progression_regression_suite.py`

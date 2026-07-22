@@ -36,7 +36,7 @@ V54 state:
 - Cumulative result: `docs/history/PROGRESSION_FRONTIER_V54.md`.
 - Skeptic-facing summary: `docs/reports/PROGRESSION_EXTERNAL_REVIEW_V54.md`.
 - Regression command: `.venv/bin/python scripts/v54_progression_regression_suite.py`
-  (36/36 commands, 195/195 invariants at the latest checkpoint).
+  (36/36 commands, 196/196 invariants at the latest checkpoint).
 - OpenGWAS POST-only token check passed at V54 start; decoded expiry is
   2026-07-24 08:00 UTC.
 
