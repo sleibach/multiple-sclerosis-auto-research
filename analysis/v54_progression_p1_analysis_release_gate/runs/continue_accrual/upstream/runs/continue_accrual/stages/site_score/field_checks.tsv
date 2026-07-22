@@ -1,0 +1,37 @@
+field	expected	observed	pass
+data_dictionary_source	non-placeholder text	"""SYNTHETIC_ONLY/data_dictionary.tsv"""	True
+normalization_parameters_scope	non-placeholder text	"""all_score_available_within_predeclared_site"""	True
+normalization_plan_source	non-placeholder text	"""SYNTHETIC_ONLY/normalization_plan.txt"""	True
+package_id	non-placeholder text	"""SYNTHETIC_P1_CONTINUE_ACCRUAL_DO_NOT_USE_AS_DATA"""	True
+platform_mapping_source	non-placeholder text	"""SYNTHETIC_ONLY/platform_map.tsv"""	True
+protocol_source	non-placeholder text	"""SYNTHETIC_ONLY/protocol.txt"""	True
+scale_equivalence_evidence_source	non-placeholder text	"""SYNTHETIC_ONLY/blind_scale_diagnostics.tsv"""	True
+score_definition_source	non-placeholder text	"""SYNTHETIC_ONLY/frozen_score.txt"""	True
+site_mapping_source	non-placeholder text	"""SYNTHETIC_ONLY/site_map.tsv"""	True
+normalization_parameters_outcome_blind	true	true	True
+normalization_route_frozen_before_score_access	true	true	True
+scale_diagnostics_outcome_blind	true	true	True
+score_definition_frozen_before_score_access	true	true	True
+site_mapping_frozen_before_score_access	true	true	True
+individual_outcomes_accessed_before_rule_freeze	false	false	True
+outcome_driven_site_merging	false	false	True
+outcome_driven_subject_exclusion	false	false	True
+outcome_driven_transform_selection	false	false	True
+scores_accessed_before_rule_freeze	false	false	True
+site_labels_inferred_after_outcome_access	false	false	True
+n_sites	integer >= 1	3	True
+site_ids	unique non-placeholder list matching n_sites	"[""SITE_A"", ""SITE_B"", ""SITE_C""]"	True
+site_sample_counts	exact site map; integer counts >= 2	"{""SITE_A"": 150, ""SITE_B"": 150, ""SITE_C"": 150}"	True
+site_score_available_counts	exact site map; score-available counts >= 2	"{""SITE_A"": 135, ""SITE_B"": 135, ""SITE_C"": 135}"	True
+site_platforms	exact site map; non-placeholder platform	"{""SITE_A"": ""platform_x"", ""SITE_B"": ""platform_y"", ""SITE_C"": ""platform_z""}"	True
+site_score_variances	exact site map; finite positive blind score variance	"{""SITE_A"": 0.25, ""SITE_B"": 1.0, ""SITE_C"": 4.0}"	True
+score_count_consistency	2 <= score-available count <= sample count at every site	"{""sample"": {""SITE_A"": 150, ""SITE_B"": 150, ""SITE_C"": 150}, ""score_available"": {""SITE_A"": 135, ""SITE_B"": 135, ""SITE_C"": 135}}"	True
+assay_scale_status	allowed frozen status	"""different_across_sites"""	True
+normalization_route	global_fixed|within_site_fixed	"""within_site_fixed"""	True
+scale_status_matches_site_count	single_site iff n_sites=1; cross-site status otherwise	"{""assay_scale_status"": ""different_across_sites"", ""n_sites"": 3}"	True
+site_stratified_inference_prespecified	true for every multisite route	true	True
+minimum_site_event_gate_prespecified	true for every multisite route	true	True
+leave_site_out_transport_gate_prespecified	true for every multisite route	true	True
+site_heterogeneity_gate_prespecified	true for every multisite route	true	True
+all_score_available_subjects_used	true for within-site parameter estimation	true	True
+within_site_parameter_scope	all_score_available_within_predeclared_site	"""all_score_available_within_predeclared_site"""	True

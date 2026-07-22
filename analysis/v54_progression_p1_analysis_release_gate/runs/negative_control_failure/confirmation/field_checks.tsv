@@ -1,0 +1,33 @@
+field	expected	observed	pass
+candidate_worsening_date_field	non-placeholder text	"""candidate_worsening_day"""	True
+confirmation_date_field	non-placeholder text	"""confirmation_day"""	True
+confirmation_process_audit_plan	non-placeholder text	"""Holm-corrected frozen score-confirmation process association audit"""	True
+confirmation_process_source	non-placeholder text	"""SYNTHETIC_ONLY/confirmation_process.txt"""	True
+confirmation_status_field	non-placeholder text	"""confirmation_status"""	True
+endpoint_declaration_id	non-placeholder text	"""SYNTHETIC_ENDPOINT_DECLARATION"""	True
+package_id	non-placeholder text	"""SYNTHETIC_P1_NEGATIVE_CONTROL_FAILURE_DO_NOT_USE_AS_DATA"""	True
+protocol_source	non-placeholder text	"""SYNTHETIC_ONLY/protocol.txt"""	True
+reason_dictionary_source	non-placeholder text	"""SYNTHETIC_ONLY/reason_dictionary.tsv"""	True
+site_source_mapping_field	non-placeholder text	"""collection_site"""	True
+status_dictionary_source	non-placeholder text	"""SYNTHETIC_ONLY/status_dictionary.tsv"""	True
+unconfirmed_reason_field	non-placeholder text	"""unconfirmed_reason"""	True
+censored_before_confirmation_retained	true	true	True
+confirmation_process_association_audit_frozen	true	true	True
+confirmed_and_unconfirmed_records_retained	true	true	True
+frozen_before_score_outcome_access	true	true	True
+late_valid_candidates_retained	true	true	True
+missing_confirmation_distinct_from_no_event	true	true	True
+raw_candidate_records_present	true	true	True
+raw_confirmation_records_present	true	true	True
+site_specific_process_auditable	true	true	True
+transient_candidates_retained	true	true	True
+derived_progression_label_only	false	false	True
+individual_outcomes_accessed_before_freeze	false	false	True
+missing_confirmation_recoded_as_no_event	false	false	True
+post_result_event_reclassification_allowed	false	false	True
+scores_accessed_before_freeze	false	false	True
+unconfirmed_records_dropped	false	false	True
+synthetic	explicit boolean	true	True
+confirmation_assessor_molecular_blinding	blinded or molecular_score_not_computed	"""blinded"""	True
+confirmation_interval_days	positive integer	180	True
+confirmation_visit_tolerance_days	nonnegative integer	30	True

@@ -1,0 +1,17 @@
+{
+  "purpose": "Combined V54 progression inventory and endpoint-semantic intake gate",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P1_CONTINUE_ACCRUAL_DO_NOT_USE_AS_DATA",
+  "role": "P1",
+  "endpoint_mode": "pira",
+  "inventory": "analysis/v54_progression_p1_analysis_release_gate/runs/continue_accrual/upstream/runs/continue_accrual/inputs/inventory.tsv",
+  "declaration": "analysis/v54_progression_p1_analysis_release_gate/runs/continue_accrual/upstream/runs/continue_accrual/inputs/endpoint_declaration.tsv",
+  "inventory_decision": "PASS_ROLE_INTAKE_INVENTORY",
+  "semantic_decision": "PASS_PROGRESSION_ENDPOINT_SEMANTICS",
+  "inventory_warning_count": 0,
+  "n_cross_gate_blockers": 0,
+  "blockers": [],
+  "decision": "PASS_BLINDED_PROGRESSION_INTAKE",
+  "safe_next_action": "Complete and commit the remaining blinded cohort-specific preregistration; do not access scores or individual outcomes until that freeze is recorded.",
+  "boundary": "A pass binds inventory presence to disability-progression semantics. It is not data-quality, association, progression, or biological evidence."
+}

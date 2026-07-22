@@ -98,10 +98,11 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 31/31 commands and 158/158 invariants pass | Fast gates, numerical references, negative claim boundaries, external-review checks, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 32/32 commands and 164/164 invariants pass | Fast gates, numerical references, negative claim boundaries, release/external-review checks, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
+| P1 frozen-analysis release composition | synthetic-verified | Upstream lock, confirmation provenance, seven-control family, package identity, and frozen manifest hash compose: 1 releases, 1 continues blinded accrual, 8 faults fail closed. Release is permission to run, not a result. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
@@ -1440,6 +1441,26 @@ routes pass; eight derived-label-only, unknown-blinding, record-dropping,
 missing-dictionary, post-result, or prior-access variants fail closed. A pass
 makes the process auditable; it does not prove adjudication unbiased.
 
+## P1 Analysis-Release Composition
+
+Status: **synthetic-verified; release means execute, not validate**.
+
+The additive release gate
+(`docs/validation/PROGRESSION_P1_ANALYSIS_RELEASE_GATE_V54.md`;
+`scripts/v54_progression_p1_analysis_release_gate.py`) executes the existing
+seven-stage intake-to-lock composition, confirmation-provenance gate, and fixed
+negative-control declaration. It also binds every stage to one package ID and
+verifies the immutable reference-manifest contract SHA-256 without rewriting
+that manifest.
+
+Ten synthetic packages behave as expected: one reaches
+`RELEASE_READY_FOR_FROZEN_ANALYSIS`, one remains in blinded accrual, and eight
+upstream, confirmation, control, package-mismatch, manifest-status, or
+manifest-hash faults fail closed. Release authorizes only mechanical execution
+of the separately frozen analysis. It contains no patient data and is not a
+favorable result, validation, progression evidence, target evidence, or
+treatment effect.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1450,7 +1471,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 31 checks and asserts 158 committed artifact/claim
+The final suite executes 32 checks and asserts 164 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;

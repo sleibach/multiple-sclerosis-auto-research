@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+reference_release	True	RELEASE_READY_FOR_FROZEN_ANALYSIS	RELEASE_READY_FOR_FROZEN_ANALYSIS	0	True
+continue_accrual	True	CONTINUE_BLINDED_ACCRUAL	CONTINUE_BLINDED_ACCRUAL	0	True
+upstream_failure	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+confirmation_failure	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+negative_control_failure	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+confirmation_package_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+negative_package_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+manifest_status_failure	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+manifest_hash_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+upstream_cross_stage_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True

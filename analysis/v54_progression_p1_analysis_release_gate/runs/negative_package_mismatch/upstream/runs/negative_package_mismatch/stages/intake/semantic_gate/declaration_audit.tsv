@@ -1,0 +1,48 @@
+field	required	value	source_reference	frozen_before_score_access	field_gate_pass	issues
+declaration_id	True	SYNTHETIC_P1_pira	SYNTHETIC_ONLY/declaration_id.txt	yes	True	none
+package_id	True	SYNTHETIC_P1_NEGATIVE_PACKAGE_MISMATCH_DO_NOT_USE_AS_DATA	SYNTHETIC_ONLY/package_id.txt	yes	True	none
+synthetic	True	yes	SYNTHETIC_ONLY/synthetic.txt	yes	True	none
+role	True	P1	SYNTHETIC_ONLY/role.txt	yes	True	none
+endpoint_type	True	pira	SYNTHETIC_ONLY/endpoint_type.txt	yes	True	none
+outcome_name	True	SYNTHETIC confirmed disability outcome	SYNTHETIC_ONLY/outcome_name.txt	yes	True	none
+semantic_basis	True	repeated_disability	SYNTHETIC_ONLY/semantic_basis.txt	yes	True	none
+raw_outcome_components_present	True	yes	SYNTHETIC_ONLY/raw_outcome_components_present.txt	yes	True	none
+protocol_definition_present	True	yes	SYNTHETIC_ONLY/protocol_definition_present.txt	yes	True	none
+baseline_disability_present	True	yes	SYNTHETIC_ONLY/baseline_disability_present.txt	yes	True	none
+independent_followup_assessments	True	3	SYNTHETIC_ONLY/independent_followup_assessments.txt	yes	True	none
+confirmation_required	True	yes	SYNTHETIC_ONLY/confirmation_required.txt	yes	True	none
+confirmation_interval_days	True	180	SYNTHETIC_ONLY/confirmation_interval_days.txt	yes	True	none
+confirmation_measurement_definition	True	SYNTHETIC repeated EDSS threshold	SYNTHETIC_ONLY/confirmation_measurement_definition.txt	yes	True	none
+outcome_window_start_days	True	0	SYNTHETIC_ONLY/outcome_window_start_days.txt	yes	True	none
+outcome_window_end_days	True	730	SYNTHETIC_ONLY/outcome_window_end_days.txt	yes	True	none
+relapse_exclusion_rule	True	SYNTHETIC no relapse in protocol window	SYNTHETIC_ONLY/relapse_exclusion_rule.txt	yes	True	none
+relapse_dates_present	True	yes	SYNTHETIC_ONLY/relapse_dates_present.txt	yes	True	none
+steroid_exclusion_rule	True	SYNTHETIC exclude acute steroid window	SYNTHETIC_ONLY/steroid_exclusion_rule.txt	yes	True	none
+steroid_dates_present	True	yes	SYNTHETIC_ONLY/steroid_dates_present.txt	yes	True	none
+infection_handling_rule	True	SYNTHETIC exclude acute infection window	SYNTHETIC_ONLY/infection_handling_rule.txt	yes	True	none
+treatment_switch_rule	True	SYNTHETIC censor at switch	SYNTHETIC_ONLY/treatment_switch_rule.txt	yes	True	none
+censoring_rule	True	SYNTHETIC administrative censor at day 730	SYNTHETIC_ONLY/censoring_rule.txt	yes	True	none
+death_dropout_rule	True	SYNTHETIC censor with explicit reason	SYNTHETIC_ONLY/death_dropout_rule.txt	yes	True	none
+molecular_baseline_definition	True	SYNTHETIC pre-window sample	SYNTHETIC_ONLY/molecular_baseline_definition.txt	yes	True	none
+molecular_primary_timepoint	True	SYNTHETIC baseline state	SYNTHETIC_ONLY/molecular_primary_timepoint.txt	yes	True	none
+primary_molecular_state	True	SYNTHETIC frozen CD44/CXCR4 score	SYNTHETIC_ONLY/primary_molecular_state.txt	yes	True	none
+primary_state_definition_artifact	True	SYNTHETIC_ONLY/frozen_state.tsv	SYNTHETIC_ONLY/primary_state_definition_artifact.txt	yes	True	none
+primary_effect_estimand	True	SYNTHETIC log odds per one-SD score	SYNTHETIC_ONLY/primary_effect_estimand.txt	yes	True	none
+covariate_set	True	SYNTHETIC age;sex;treatment;batch;composition	SYNTHETIC_ONLY/covariate_set.txt	yes	True	none
+missing_data_rule	True	SYNTHETIC complete primary fields or fail closed	SYNTHETIC_ONLY/missing_data_rule.txt	yes	True	none
+analysis_count_budget	True	1	SYNTHETIC_ONLY/analysis_count_budget.txt	yes	True	none
+multiplicity_method	True	SYNTHETIC one confirmatory test	SYNTHETIC_ONLY/multiplicity_method.txt	yes	True	none
+pass_rule	True	SYNTHETIC positive effect with corrected interval excluding null	SYNTHETIC_ONLY/pass_rule.txt	yes	True	none
+fail_rule	True	SYNTHETIC wrong direction or precision excludes material effect	SYNTHETIC_ONLY/fail_rule.txt	yes	True	none
+inconclusive_rule	True	SYNTHETIC interval includes null and material effect	SYNTHETIC_ONLY/inconclusive_rule.txt	yes	True	none
+scores_accessed_before_freeze	True	no	SYNTHETIC_ONLY/scores_accessed_before_freeze.txt	yes	True	none
+individual_outcomes_accessed_before_freeze	True	no	SYNTHETIC_ONLY/individual_outcomes_accessed_before_freeze.txt	yes	True	none
+p1_semantic_gate_pass	False				True	not_required
+compartment_design	False				True	not_required
+same_endpoint_definition_both_compartments	False				True	not_required
+same_outcome_window_both_compartments	False				True	not_required
+compartment_interaction_prespecified	False				True	not_required
+composition_adjustment_prespecified	False				True	not_required
+source_batch_adjustment_prespecified	False				True	not_required
+minimum_subjects_per_outcome_group	False				True	not_required
+compartment_analysis_count_budget	False				True	not_required

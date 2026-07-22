@@ -1,0 +1,14 @@
+{
+  "purpose": "V54 synthetic P1 analysis-release composition; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P1_MANIFEST_HASH_MISMATCH_DO_NOT_USE_AS_DATA",
+  "reference_contract_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "n_stages": 4,
+  "n_blockers": 1,
+  "blockers": [
+    "reference_manifest:contract_sha256_mismatch"
+  ],
+  "upstream_decision": "LOCK_READY_FOR_FROZEN_ANALYSIS",
+  "decision": "FAIL_CLOSED",
+  "boundary": "Synthetic release routing only; release authorizes mechanical frozen analysis, not a favorable result, validation, progression evidence, or treatment effect."
+}
