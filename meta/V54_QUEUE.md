@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 34 executable checks and 176 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock/release composition, ascertainment, negative-control, confirmation-error/provenance, per-site precision and receipt routing, artifact navigation, external-review boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 35 executable checks and 185 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock/release/result-interpretation composition, ascertainment, negative-control, confirmation-error/provenance, per-site precision and receipt routing, artifact navigation, external-review boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -99,7 +99,8 @@ project's evidence standard.
 | Endpoint-confirmation provenance receipt gate | done | Two auditable synthetic routes pass; eight derived-label/missing-date-or-dictionary/unknown-blinding/dropped-record/post-hoc/access routes fail closed. |
 | P1 analysis-release composition gate | done | Actual upstream lock + confirmation + controls + package identity + frozen manifest hash compose: 1 release, 1 continue, 8 fail closed. Release is not a result. |
 | Per-site precision receipt routing | done | Eleven aggregate-only fixtures route 2 precision references, 1 sign reference, 3 reparameterizations, and 5 fail-closed cases. Declared site allocation must match actual blinded counts; every valid route still requires cohort-specific simulation and is not validation. |
-| V54 artifact navigation index | done | Forty-four distinct paths resolve with explicit evidence class and claim authority: 7 medical, 9 acquisition, 13 analysis-operator, and 15 method-review artifacts. Navigation cannot upgrade evidence. |
+| V54 artifact navigation index | done | Forty-five distinct paths resolve with explicit evidence class and claim authority: 7 medical, 9 acquisition, 14 analysis-operator, and 15 method-review artifacts. Navigation cannot upgrade evidence. |
+| P1 post-result interpretation gate | done | Seventeen frozen-plan-bound fixtures route 2 bounded passes, 1 specificity downgrade, 2 fails, 7 inconclusive, and 5 invalid outcomes. Process controls invalidate, specificity controls only downgrade, and clean controls never upgrade. |
 | Cumulative V54 progression report | in-progress | `docs/history/PROGRESSION_FRONTIER_V54.md` is current through precision routing and role-based navigation; final close summary remains. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -728,3 +729,12 @@ project's evidence standard.
   duplicate, or invalid entries. The consolidated suite now passes 34/34
   commands and 176/176 invariants; indexing preserves each artifact's existing
   evidence and execution boundary. Active time accrued: 5h22m35s.
+- 2026-07-22T02:21:54Z: Pushed the artifact index as `c609ac20`. A handoff
+  audit found one internally executable gap after analysis release: compose the
+  already frozen P1 result classes mechanically, including non-rescuing controls
+  and specificity downgrade. Active time accrued: 5h23m24s.
+- 2026-07-22T02:27:38Z: Completed the plan-file-hash-bound P1 result
+  interpretation gate. All 17 fixtures and 185 invariants pass. The first full
+  suite attempt correctly failed because a CSV generator emitted CRLF on a new
+  tracked row; both new generators now emit canonical LF and the rerun passes
+  35/35 commands. Active time accrued: 5h29m08s.

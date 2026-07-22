@@ -1,0 +1,31 @@
+field	expected	observed	pass
+package_id	non-placeholder text	"""SYNTHETIC_INVALID_PLAN_HASH_DO_NOT_USE_AS_DATA"""	True
+synthetic	explicit boolean	true	True
+release_decision	RELEASE_READY_FOR_FROZEN_ANALYSIS	"""RELEASE_READY_FOR_FROZEN_ANALYSIS"""	True
+release_package_id	same package ID	"""SYNTHETIC_INVALID_PLAN_HASH_DO_NOT_USE_AS_DATA"""	True
+frozen_plan_path	existing file	"""analysis/v54_progression_result_interpretation_gate/synthetic/frozen_plan.json"""	True
+frozen_plan_sha256	SHA-256 of frozen plan file	"""ff10eb35494f67ff249827605caec70521eb811f3972d3bc5a0b9eb7e669ec35"""	True
+result_plan_sha256	same lowercase SHA-256	"""0000000000000000000000000000000000000000000000000000000000000000"""	False
+frozen_before_score_access	true	true	True
+scores_accessed_before_freeze	false	false	True
+primary_analysis_executed_once	true	true	True
+alternate_primary_selected	false	false	True
+favorable_direction	lower or higher	"""lower"""	True
+estimate	finite number	0.75	True
+ci_lower	finite number	0.68	True
+ci_upper	finite number	0.88	True
+null_boundary	finite number	1.0	True
+minimum_material_effect	finite number	0.8	True
+predeclared_event_floor	integer >= 10	50	True
+independent_progression_events	nonnegative integer	75	True
+information_floor_met	explicit boolean	true	True
+data_quality_resolved	explicit boolean	true	True
+corrected_family_pass	explicit boolean	true	True
+source_sensitivity_retains_direction	explicit boolean	true	True
+batch_sensitivity_retains_direction	explicit boolean	true	True
+composition_sensitivity_retains_direction	explicit boolean	true	True
+influence_sensitivity_retains_direction	explicit boolean	true	True
+calibration_controls_valid	explicit boolean	true	True
+attendance_censoring_control_clean	explicit boolean	true	True
+site_batch_quality_control_clean	explicit boolean	true	True
+endpoint_specificity_controls_clean	explicit boolean	true	True

@@ -71,6 +71,7 @@ ARTIFACTS = [
     row("A11", "analysis_operator", "estimand", "operational_contract", "execution_authority_only", "docs/validation/PROGRESSION_TREATMENT_SWITCH_GATE_V54.md", "Freezes treatment-policy and switch sensitivity estimands.", "Estimands cannot be selected after results and neither universally repairs informative switching."),
     row("A12", "analysis_operator", "diagnostics", "operational_contract", "execution_authority_only", "docs/validation/PROGRESSION_NONLINEAR_DIAGNOSTIC_GATE_V54.md", "Predeclared non-rescuing nonlinear diagnostic family.", "Diagnostics cannot replace the linear primary or create a post-hoc positive claim."),
     row("A13", "analysis_operator", "composition", "operational_contract", "execution_authority_only", "docs/validation/PROGRESSION_P2_COMPOSITION_ACCEPTANCE_V54.md", "P2 composition-method acceptance gate.", "Expression-only or outcome-selected composition estimates fail closed."),
+    row("A14", "analysis_operator", "interpretation", "operational_contract", "execution_authority_only", "docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md", "Composes frozen P1 pass, fail, inconclusive, and invalid classes.", "A bounded pass is predictive transport only; controls cannot upgrade the primary."),
     row("R01", "method_reviewer", "power", "method_only_synthetic", "method_behavior_only", "analysis/v54_progression_event_time_power_design/REPORT.md", "Stratified Cox reference power and calibration grid.", "Seeded synthetic method behavior only; no empirical MS effect or universal N."),
     row("R02", "method_reviewer", "power", "method_only_synthetic", "method_behavior_only", "docs/validation/PROGRESSION_WEAKER_EFFECT_POWER_V54.md", "Weaker-effect and low-event power sensitivity.", "Effect sizes are planning assumptions, not estimates from MS data."),
     row("R03", "method_reviewer", "ascertainment", "method_only_synthetic", "method_behavior_only", "docs/validation/PROGRESSION_CONFIRMATION_ERROR_V54.md", "Missed/false endpoint confirmation sensitivity.", "Synthetic score-linked error defines an invalidity boundary, not its real prevalence."),
@@ -92,7 +93,7 @@ ARTIFACTS = [
 def write_tsv(path: Path, rows: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]), delimiter="\t")
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]), delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -167,7 +168,7 @@ def main() -> None:
         "  grounded negative/bounded analysis (`M03`-`M06`).",
         "- Data owner: start at `D01`, use `D04`/`D05` for response, then run the",
         "  blind intake declarations (`D07`-`D09`).",
-        "- Analysis operator: execute `A01` through `A13` in lifecycle order; a",
+        "- Analysis operator: execute `A01` through `A14` in lifecycle order; a",
         "  release or reference-alignment decision is permission, not a result.",
         "- Method reviewer: use `R01`-`R15` for calibration, invalidity boundaries,",
         "  precision, adversarial review, and the one-command regression suite.",

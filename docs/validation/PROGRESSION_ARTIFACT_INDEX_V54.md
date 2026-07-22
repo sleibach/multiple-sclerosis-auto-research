@@ -12,7 +12,7 @@ operational release authority are never biological evidence.
   grounded negative/bounded analysis (`M03`-`M06`).
 - Data owner: start at `D01`, use `D04`/`D05` for response, then run the
   blind intake declarations (`D07`-`D09`).
-- Analysis operator: execute `A01` through `A13` in lifecycle order; a
+- Analysis operator: execute `A01` through `A14` in lifecycle order; a
   release or reference-alignment decision is permission, not a result.
 - Method reviewer: use `R01`-`R15` for calibration, invalidity boundaries,
   precision, adversarial review, and the one-command regression suite.
@@ -60,6 +60,7 @@ operational release authority are never biological evidence.
 | A11 | estimand | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_TREATMENT_SWITCH_GATE_V54.md` | Freezes treatment-policy and switch sensitivity estimands. | Estimands cannot be selected after results and neither universally repairs informative switching. |
 | A12 | diagnostics | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_NONLINEAR_DIAGNOSTIC_GATE_V54.md` | Predeclared non-rescuing nonlinear diagnostic family. | Diagnostics cannot replace the linear primary or create a post-hoc positive claim. |
 | A13 | composition | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_P2_COMPOSITION_ACCEPTANCE_V54.md` | P2 composition-method acceptance gate. | Expression-only or outcome-selected composition estimates fail closed. |
+| A14 | interpretation | operational_contract | execution_authority_only | `docs/validation/PROGRESSION_P1_RESULT_INTERPRETATION_GATE_V54.md` | Composes frozen P1 pass, fail, inconclusive, and invalid classes. | A bounded pass is predictive transport only; controls cannot upgrade the primary. |
 
 ## Method Reviewer
 
