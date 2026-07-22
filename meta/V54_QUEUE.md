@@ -13,9 +13,9 @@ project's evidence standard.
 - Projected target UTC if this interval stays continuous: 2026-07-22T02:58:30Z
 - Active session intervals:
   - 2026-07-21T20:58:30Z - 2026-07-21T21:02:06Z (0h03m36s active)
-  - 2026-07-21T21:02:06Z - 2026-07-22T02:58:39Z (5h56m33s active)
-- Cumulative completed active runtime: 6h00m09s
-- Wall-clock span: 6h00m09s (the two intervals are contiguous)
+  - 2026-07-21T21:02:06Z - 2026-07-22T03:02:06Z (6h00m00s active)
+- Cumulative completed active runtime: 6h03m36s
+- Wall-clock span: 6h03m36s (the two intervals are contiguous)
 
 ## Environment And Boundaries
 
@@ -769,3 +769,7 @@ project's evidence standard.
   treatment effect, or means of halting MS; the exact next action is a
   microglia-compatible longitudinal P1 acquisition using the hash-bound
   CD44/CXCR4 identity handoff.
+- 2026-07-22T03:02:06Z: Reconciled active time to the first successful
+  close-commit push verification rather than excluding the final guard/push
+  work. Final measured active and wall spans are both 6h03m36s. A final
+  metadata-only commit records this correction as committed iteration 82.

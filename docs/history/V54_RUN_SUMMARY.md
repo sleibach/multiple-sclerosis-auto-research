@@ -5,12 +5,13 @@ Status: **six-hour active target met; scientific verdict complete**.
 ## Timing And Execution
 
 - Block start UTC: `2026-07-21T20:58:30Z`.
-- Block end UTC: `2026-07-22T02:58:39Z`.
-- Cumulative active runtime: `6h00m09s`, summed from the two session
+- Block end UTC: `2026-07-22T03:02:06Z`, the first verified-push clock read.
+- Cumulative active runtime: `6h03m36s`, summed from the two session
   intervals in `meta/V54_QUEUE.md`.
-- Wall-clock span: `6h00m09s`; the logged intervals are contiguous, so no idle
+- Wall-clock span: `6h03m36s`; the logged intervals are contiguous, so no idle
   resume gap is included.
-- Committed iterations: `81` including final close.
+- Committed iterations: `82`, including the metadata-only clock-reconciliation
+  commit made after the active interval closed.
 - Completed queue items: `72`; self-generated follow-on items: `59` appended
   after the 13-item opening backlog.
 - Stop condition: six-hour active target reached at a clean resumable point.
