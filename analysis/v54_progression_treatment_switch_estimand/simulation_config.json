@@ -1,0 +1,40 @@
+{
+  "purpose": "V54 seeded synthetic treatment-switch estimand audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54101,
+    54103,
+    54107
+  ],
+  "n_values": [
+    180,
+    320
+  ],
+  "post_switch_hrs": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "molecular_hrs": [
+    1.0,
+    1.7
+  ],
+  "switch_mechanisms": [
+    "none",
+    "independent",
+    "score_dependent",
+    "progression_risk_dependent",
+    "joint_score_progression_risk"
+  ],
+  "estimands": [
+    "treatment_policy",
+    "censor_at_switch"
+  ],
+  "replicates": 400,
+  "event_probability": 0.3,
+  "switch_probability": 0.25,
+  "reliability": 0.7,
+  "score_missing": 0.1,
+  "alpha": 0.05,
+  "null_invalidity_rule": "strict aggregate-cell Wilson lower bound >0.05 and fixed-family maximum tail <0.05; strict family-compatible flags excluded"
+}

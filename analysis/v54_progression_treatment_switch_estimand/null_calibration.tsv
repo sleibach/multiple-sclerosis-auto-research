@@ -1,0 +1,11 @@
+switch_mechanism	estimand	n_null_cells	median_null_probability	maximum_null_probability	maximum_count	maximum_total	maximum_family_tail_probability	strict_cell_flag	strict_cell_flag_but_family_compatible	invalid_for_direct_prognostic_interpretation	dominant_false_direction
+independent	censor_at_switch	6	0.05	0.0625	75	1200	0.1697804948010776	True	True	False	negative
+independent	treatment_policy	6	0.05416666666666667	0.06333333333333334	76	1200	0.1300300660450029	True	True	False	negative
+joint_score_progression_risk	censor_at_switch	6	0.10333333333333333	0.1275	153	1200	0.0	True	False	True	negative
+joint_score_progression_risk	treatment_policy	6	0.06	0.09666666666666666	116	1200	1.4356049682362482e-10	True	False	True	negative
+none	censor_at_switch	6	0.04833333333333333	0.0575	69	1200	0.5694819663285983	False	False	False	negative
+none	treatment_policy	6	0.04833333333333333	0.0575	69	1200	0.5694819663285983	False	False	False	negative
+progression_risk_dependent	censor_at_switch	6	0.04583333333333334	0.049166666666666664	59	1200	0.9937850807825787	False	False	False	negative
+progression_risk_dependent	treatment_policy	6	0.04583333333333334	0.0525	63	1200	0.9335920750908291	False	False	False	negative
+score_dependent	censor_at_switch	6	0.051666666666666666	0.056666666666666664	68	1200	0.6488430814938582	False	False	False	negative
+score_dependent	treatment_policy	6	0.058333333333333334	0.07833333333333334	94	1200	0.00010633579504459867	True	False	True	negative

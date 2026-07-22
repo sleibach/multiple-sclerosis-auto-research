@@ -1,0 +1,37 @@
+{
+  "purpose": "V54 seeded synthetic treatment-switch estimand audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54101,
+    54103,
+    54107
+  ],
+  "replicates_per_cell_seed": 400,
+  "n_unique_simulated_cohorts": 72000,
+  "n_estimand_route_evaluations": 144000,
+  "n_null_families": 10,
+  "n_invalid_null_families": 3,
+  "invalid_null_families": [
+    "joint_score_progression_risk|censor_at_switch",
+    "joint_score_progression_risk|treatment_policy",
+    "score_dependent|treatment_policy"
+  ],
+  "n_strict_cell_flag_but_family_compatible": 2,
+  "strict_cell_flag_but_family_compatible": [
+    "independent|censor_at_switch",
+    "independent|treatment_policy"
+  ],
+  "worst_null_cell": {
+    "n": 320,
+    "post_switch_hr": 1.0,
+    "switch_mechanism": "joint_score_progression_risk",
+    "estimand": "censor_at_switch",
+    "significant_probability": 0.1275,
+    "positive_call_probability": 0.0025,
+    "negative_call_probability": 0.125
+  },
+  "n_nonnull_cells_with_estimand_difference_ge_0_10": 8,
+  "maximum_nonnull_estimand_difference": 0.45749999999999996,
+  "verdict": "ESTIMAND_MUST_BE_FROZEN_SWITCHING_CAN_CHANGE_OR_INVALIDATE_INTERPRETATION",
+  "boundary": "Synthetic method behavior only; no empirical MS treatment, switching, molecular, progression, or causal effect."
+}

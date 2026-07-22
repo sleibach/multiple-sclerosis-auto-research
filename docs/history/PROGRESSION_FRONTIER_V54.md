@@ -78,13 +78,14 @@ cannot measure progression rate or transition.
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
 | Blinded progression feasibility calculator | synthetic-verified | Nine packages bind actual upstream gate summaries to blinded aggregate design metadata: two reference-aligned, four valid-but-below-reference, and three fail closed. Alignment only routes cohort-specific power; it is not validation or progression evidence. |
 | Blinded information-accrual monitor | synthetic-verified; no efficacy authority | Ten aggregate-only snapshots route to continue (3), metadata hold (1), information lock (1), or fail closed (5). Effect direction, p-values, individual outcomes, and efficacy/futility stopping are forbidden. |
+| Treatment-switch estimand sensitivity | switching can change or invalidate interpretation | 72,000 cohorts/144,000 route evaluations. Joint score/risk switching invalidates treatment-policy and censor-at-switch; score-dependent switching invalidates treatment-policy direct-prognostic interpretation. Two independent families are strict-cell but family-compatible and excluded. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 22/22 commands and 65/65 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 22/22 commands and 69/69 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -1088,6 +1089,39 @@ were accessed before freeze, or a gate summary belongs to a different package.
 Reference alignment is not validation readiness, transport, association, or
 progression evidence.
 
+## Treatment-Switch Estimand Sensitivity
+
+Status: **estimand must be frozen; switching can change or invalidate direct-
+prognostic interpretation**.
+
+The frozen audit (`docs/plans/PROGRESSION_TREATMENT_SWITCH_ESTIMAND_V54.md`;
+`scripts/v54_progression_treatment_switch_estimand.py`) generated 72,000
+synthetic cohorts and 144,000 estimand-route evaluations. Both treatment-policy
+and censor-at-switch routes are always reported across five switch mechanisms
+and protective, neutral, and harmful post-switch effects.
+
+Three of ten null families are method-invalid under the fixed family rule:
+joint score/progression-risk switching under both estimands, and score-dependent
+switching under treatment policy. The worst null cell is censor-at-switch under
+joint switching at `n=320`, with rejection `0.1275`, almost entirely in the
+false-negative direction (`0.125`). Two independent-switch families have
+strict-cell maxima (`0.0625` and `0.0633`) but compatible fixed-family tails
+(`0.170` and `0.130`); they are retained as flags and excluded rather than
+called invalid or clean.
+
+In non-null synthetic cells, eight treatment-policy/censor-at-switch pairs
+differ by at least 0.10 in detection probability and the maximum difference is
+`0.458`. This is not power evidence for an MS effect. It demonstrates why the
+clinical estimand must be chosen before score access: treatment policy includes
+effects induced by score-adaptive treatment, while censoring at switch can
+select the risk set when switching jointly depends on score and latent risk.
+Neither is a universal repair, and neither may be chosen post hoc.
+
+The first implementation overcalled two independent families by applying a
+single-cell Wilson flag without its already-specified family-maximum
+adjudication. That inconsistency was corrected before commit; the flags and the
+correction remain documented rather than hidden.
+
 ## Blinded Information-Accrual Monitor
 
 Status: **synthetic-verified; no efficacy or futility stopping authority**.
@@ -1117,7 +1151,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 22 checks and asserts 65 committed artifact/claim
+The final suite executes 22 checks and asserts 69 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, site-score calibration, and
 composition regressions;
