@@ -76,6 +76,13 @@ project's evidence standard.
 | Multi-site progression transportability design | done | 115,200 seeded cohorts. Pooled inference is invalid in both hazard-aligned-score families (null maxima 0.685/0.482); all site-stratified families calibrate. Only n=450, event probability 0.30, balanced allocation passes full transport (2/24 score-structure variants); 60/30/10 allocation misses. |
 | Prospective progression cohort design synthesis | done | Rerunnable 16-requirement/14-source synthesis separates the n=450/balanced/30%-event/quarterly stress-tested reference from a universal minimum and binds endpoint, attendance, competing-risk, reliability, site, P2, and therapeutic boundaries. Zero known P1 cohorts remains explicit. |
 | Endpoint adjudicator malformed-input expansion | done | Five added fixtures bring the suite to 16/16. Duplicate day, malformed component/day, and unknown endpoint return INVALID_INPUT; later valid onset after a transient candidate is found at day 300 and confirmed at day 480. |
+| Multi-site score-scale harmonization | in-progress | Frozen assay-scale audit compares global versus blinded within-site standardization under uniform/moderate/severe site scales, balanced/imbalanced recruitment, homogeneous/reversed effects, and the full transport gate. |
+| Enrollment inflation and analyzable-event design | todo | Translate attrition, score missingness, endpoint confirmation loss, and site balance into required enrollment versus analyzed participants/events without claiming a universal n. |
+| Blinded progression feasibility calculator | todo | Build a metadata-only CLI that classifies an incoming design against the V54 reference and fail-closed gates without reading scores or subject-level outcomes. |
+| Blinded information-accrual monitor | todo | Specify and synthetic-verify event/visit/site accrual monitoring that cannot inspect effect direction or trigger efficacy peeking. |
+| Treatment-switch estimand sensitivity | todo | Audit censor-at-switch versus treatment-policy behavior under score/risk-dependent switching; no post-hoc estimand selection. |
+| Linear-effect misspecification audit | todo | Quantify when threshold, saturation, or crossing molecular risks are missed by one linear Cox coefficient; diagnostics fixed and non-rescuing. |
+| Progression score/site calibration receipt gate | todo | Convert the harmonization result into a metadata-only fail-closed gate for platform, scale, frozen normalization, and site mapping. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -424,3 +431,8 @@ project's evidence standard.
 - 2026-07-22T00:05:28Z: Endpoint hardening is pinned in the suite; 19/19
   command checks and 49/49 invariants pass with all provenance, structural,
   whitespace, size, and path guards. Active time accrued: 3h06m58s.
+- 2026-07-22T00:06:17Z: Refilled the backlog with six internally executable
+  progression-design tasks and froze the site-score harmonization audit. It
+  compares global with outcome-blind within-site scaling across three assay-
+  scale patterns and retains the full transport and reversed-effect controls.
+  Active time accrued: 3h07m47s.
