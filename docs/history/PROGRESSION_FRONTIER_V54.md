@@ -74,6 +74,7 @@ cannot measure progression rate or transition.
 | Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
+| Leave-site-out/per-site precision | no tested design reaches strict precision readiness | 96,000 cohorts. The best HR1.5 balanced n1,500/30%-event design has sign transport 0.950 but every-site-CI precision 0.740 (minimum seed 0.735); weak-site median is 85 events. Sign stability is not site-level precision. Method behavior only. |
 | Multi-site score-scale harmonization | conditionally required under severe scale mismatch | 129,600 cohorts and 259,200 routes. Blinded within-site scaling materially improves transport in 6/36 comparisons, all under 0.5/1/2 site scales; it does not rescue imbalanced recruitment. Method behavior only. |
 | Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
@@ -93,7 +94,7 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 27/27 commands and 120/120 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, acquisition synthesis, confirmation-error and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 27/27 commands and 127/127 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, acquisition synthesis, confirmation-error, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -1015,6 +1016,31 @@ site estimates, leave-one-site-out tests, and heterogeneity reporting. Pooled
 significance alone is invalid for transport. These are synthetic design
 requirements, not empirical claims about site effects or an MS biomarker.
 
+## Leave-Site-Out And Per-Site Precision
+
+Status: **no tested design reaches every-site precision readiness**.
+
+The separately frozen precision audit
+(`docs/plans/PROGRESSION_LEAVE_SITE_OUT_PRECISION_V54.md`) generated 96,000
+cohorts and added a stronger condition to the transport gate: every individual
+site's one-step 95% interval, not only its estimate, must be positive. Both null
+families calibrate and one-site-only/reversed false precision peaks at only
+`0.00083`.
+
+No homogeneous design reaches 0.80 aggregate and 0.75 in every seed. The best
+cell, homogeneous HR 1.5 at `n=1,500`, 30% events, and balanced allocation,
+has sign-based transport probability `0.950` but strict per-site precision
+`0.740` (minimum seed `0.735`). Its median weakest-site event count is `85`
+and widest site CI half-width `0.214`. The 60/30/10 counterpart falls to
+`0.593`; HR 1.3 reaches at most `0.222`.
+
+This does not retract the prior sign-transport result. It prevents a stronger
+claim: site-omission stability is not evidence that every contributing site
+estimates the positive association precisely. The observed event and CI values
+are descriptive under the synthetic generator, not universal cutoffs. Full
+interpretation is in
+`docs/validation/PROGRESSION_LEAVE_SITE_OUT_PRECISION_V54.md`.
+
 ## Prospective Cohort Design Synthesis
 
 Status: **reference design specified; no known cohort is currently eligible**.
@@ -1362,7 +1388,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 27 checks and asserts 120 committed artifact/claim
+The final suite executes 27 checks and asserts 127 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;

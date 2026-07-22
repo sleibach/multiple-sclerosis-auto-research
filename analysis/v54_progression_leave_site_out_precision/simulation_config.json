@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "seeds": [
+    55431,
+    55433,
+    55439
+  ],
+  "sample_sizes": [
+    450,
+    600,
+    900,
+    1500
+  ],
+  "event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "allocations": [
+    "balanced",
+    "imbalanced_60_30_10"
+  ],
+  "effect_patterns": {
+    "null": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "homogeneous_hr13": [
+      1.3,
+      1.3,
+      1.3
+    ],
+    "homogeneous_hr15": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "one_site_only_hr15": [
+      1.5,
+      1.0,
+      1.0
+    ],
+    "one_site_reversed_hr15": [
+      1.5,
+      1.5,
+      0.6666666666666666
+    ]
+  },
+  "replicates_per_seed_cell": 400,
+  "precision_gate": "global positive; every site CI lower > 0; every leave-site-out CI lower > 0; min site events >= 10; heterogeneity p >= 0.05",
+  "boundary": "Seeded synthetic precision-method behavior only; no empirical MS effect, event rate, or universal sample-size claim."
+}
