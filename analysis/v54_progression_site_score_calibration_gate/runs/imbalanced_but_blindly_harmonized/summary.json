@@ -1,0 +1,18 @@
+{
+  "purpose": "V54 blind progression site/score calibration receipt gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_IMBALANCED_BUT_BLINDLY_HARMONIZED_DO_NOT_USE_AS_DATA",
+  "n_sites": 3,
+  "assay_scale_status": "different_across_sites",
+  "normalization_route": "within_site_fixed",
+  "n_checks": 36,
+  "n_blockers": 0,
+  "blockers": [],
+  "n_warnings": 1,
+  "warnings": [
+    "site_allocation:outside_exact_balanced_reference;normalization_does_not_establish_transport"
+  ],
+  "decision": "PASS_MULTISITE_WITHIN_SITE_SCALE_REQUIRED",
+  "transport_reference_status": "OUTSIDE_TESTED_BALANCED_REFERENCE",
+  "boundary": "A pass establishes blinded metadata and a frozen score-scaling route only. It does not establish score validity, site transport, progression association, MS biology, or therapeutic relevance."
+}

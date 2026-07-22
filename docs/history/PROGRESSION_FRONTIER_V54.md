@@ -74,13 +74,14 @@ cannot measure progression rate or transition.
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
 | Multi-site score-scale harmonization | conditionally required under severe scale mismatch | 129,600 cohorts and 259,200 routes. Blinded within-site scaling materially improves transport in 6/36 comparisons, all under 0.5/1/2 site scales; it does not rescue imbalanced recruitment. Method behavior only. |
+| Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 16/16 commands and 28/28 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 20/20 commands and 55/55 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -1006,6 +1007,31 @@ an underrepresented site, too few events, or an unknown site map. These are
 synthetic assay-method results, not evidence that any real cohort has scale
 mismatch.
 
+## Site/Score Calibration Receipt Gate
+
+Status: **synthetic-verified, fail closed before score or outcome inspection**.
+
+Executable contract:
+
+- specification: `docs/validation/PROGRESSION_SITE_SCORE_CALIBRATION_GATE_V54.md`
+- gate: `scripts/v54_progression_site_score_calibration_gate.py`
+- regression: `analysis/v54_progression_site_score_calibration_gate/`
+
+Ten synthetic declarations pass their expected outcomes. Complete single-site,
+equivalent-scale multisite, differing-scale within-site, and imbalanced-but-
+explicit declarations are processable. Six unsafe declarations fail closed:
+global scaling under a documented difference, unknown scale, score access
+before rule freeze, incomplete platform mapping, a zero-variance site, and an
+outcome-selected transform.
+
+Every multisite route requires site-stratified inference plus minimum-site-
+event, leave-site-out, and heterogeneity gates. A differing-scale route must
+estimate its transform from all score-available participants within each
+predeclared site without outcomes. An imbalanced synthetic receipt may pass
+metadata processing, but it is labeled `OUTSIDE_TESTED_BALANCED_REFERENCE`;
+normalization does not make it transport-ready. The gate is receipt-method
+behavior only and creates no progression or biological evidence.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1016,9 +1042,10 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 19 checks and asserts 53 committed artifact/claim
+The final suite executes 20 checks and asserts 55 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
-combined-intake, endpoint-adjudication, event-time, and composition regressions;
+combined-intake, endpoint-adjudication, event-time, site-score calibration, and
+composition regressions;
 four independent numerical references; the candidate role matrix; provenance
 and structural gates; whitespace; tracked-file size; and tracked temporary
 paths. Its invariants explicitly retain zero portable stage modules, zero

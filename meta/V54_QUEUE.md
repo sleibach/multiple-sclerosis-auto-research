@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 19 executable checks and 53 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization, and the artifact-traced design reference. |
+| V54 consolidated regression suite | done | One command runs 20 executable checks and 55 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, and the artifact-traced design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -82,7 +82,7 @@ project's evidence standard.
 | Blinded information-accrual monitor | todo | Specify and synthetic-verify event/visit/site accrual monitoring that cannot inspect effect direction or trigger efficacy peeking. |
 | Treatment-switch estimand sensitivity | todo | Audit censor-at-switch versus treatment-policy behavior under score/risk-dependent switching; no post-hoc estimand selection. |
 | Linear-effect misspecification audit | todo | Quantify when threshold, saturation, or crossing molecular risks are missed by one linear Cox coefficient; diagnostics fixed and non-rescuing. |
-| Progression score/site calibration receipt gate | todo | Convert the harmonization result into a metadata-only fail-closed gate for platform, scale, frozen normalization, and site mapping. |
+| Progression score/site calibration receipt gate | done | Ten synthetic declarations pass expected decisions; six unsafe routes fail closed. Differing scales require blind within-site scaling; imbalance is processable but remains outside the tested transport reference. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -448,3 +448,14 @@ project's evidence standard.
   consolidated suite passes 19/19 commands and 53/53 invariants; provenance,
   structure, whitespace, tracked-size, and temporary-path guards pass. Active
   time accrued: 3h13m41s.
+- 2026-07-22T00:15:18Z: Froze the site-score calibration receipt-gate
+  contract before implementation. Unknown site or assay-scale mappings fail
+  closed; documented scale differences require a pre-frozen, outcome-blind
+  within-site transform; every multisite route remains site-stratified; and
+  site imbalance remains outside the tested balanced transport reference.
+  Active time accrued: 3h16m48s.
+- 2026-07-22T00:18:55Z: Completed the site-score calibration receipt gate.
+  All 10 synthetic declarations match their frozen decisions; six unsafe
+  routes fail closed, while the valid imbalanced route carries an explicit
+  outside-reference warning. The consolidated suite passes 20/20 commands and
+  55/55 invariants. Active time accrued: 3h20m25s.

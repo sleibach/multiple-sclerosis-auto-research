@@ -1,0 +1,55 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_MISSING_PLATFORM_MAPPING_DO_NOT_USE_AS_DATA",
+  "protocol_source": "SYNTHETIC_ONLY/protocol.txt",
+  "data_dictionary_source": "SYNTHETIC_ONLY/data_dictionary.tsv",
+  "site_mapping_source": "SYNTHETIC_ONLY/site_map.tsv",
+  "platform_mapping_source": "SYNTHETIC_ONLY/platform_map.tsv",
+  "score_definition_source": "SYNTHETIC_ONLY/frozen_score.txt",
+  "normalization_plan_source": "SYNTHETIC_ONLY/normalization_plan.txt",
+  "scale_equivalence_evidence_source": "SYNTHETIC_ONLY/blind_scale_diagnostics.tsv",
+  "score_definition_frozen_before_score_access": true,
+  "site_mapping_frozen_before_score_access": true,
+  "normalization_route_frozen_before_score_access": true,
+  "normalization_parameters_outcome_blind": true,
+  "scale_diagnostics_outcome_blind": true,
+  "scores_accessed_before_rule_freeze": false,
+  "individual_outcomes_accessed_before_rule_freeze": false,
+  "site_labels_inferred_after_outcome_access": false,
+  "outcome_driven_site_merging": false,
+  "outcome_driven_transform_selection": false,
+  "outcome_driven_subject_exclusion": false,
+  "n_sites": 3,
+  "site_ids": [
+    "SITE_A",
+    "SITE_B",
+    "SITE_C"
+  ],
+  "site_sample_counts": {
+    "SITE_A": 150,
+    "SITE_B": 150,
+    "SITE_C": 150
+  },
+  "site_score_available_counts": {
+    "SITE_A": 135,
+    "SITE_B": 135,
+    "SITE_C": 135
+  },
+  "site_platforms": {
+    "SITE_A": "platform_x",
+    "SITE_B": "platform_y"
+  },
+  "site_score_variances": {
+    "SITE_A": 0.25,
+    "SITE_B": 1.0,
+    "SITE_C": 4.0
+  },
+  "assay_scale_status": "different_across_sites",
+  "normalization_route": "within_site_fixed",
+  "normalization_parameters_scope": "all_score_available_within_predeclared_site",
+  "all_score_available_subjects_used": true,
+  "site_stratified_inference_prespecified": true,
+  "minimum_site_event_gate_prespecified": true,
+  "leave_site_out_transport_gate_prespecified": true,
+  "site_heterogeneity_gate_prespecified": true
+}

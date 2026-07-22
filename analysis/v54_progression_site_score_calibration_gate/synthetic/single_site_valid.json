@@ -1,0 +1,46 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_SINGLE_SITE_VALID_DO_NOT_USE_AS_DATA",
+  "protocol_source": "SYNTHETIC_ONLY/protocol.txt",
+  "data_dictionary_source": "SYNTHETIC_ONLY/data_dictionary.tsv",
+  "site_mapping_source": "SYNTHETIC_ONLY/site_map.tsv",
+  "platform_mapping_source": "SYNTHETIC_ONLY/platform_map.tsv",
+  "score_definition_source": "SYNTHETIC_ONLY/frozen_score.txt",
+  "normalization_plan_source": "SYNTHETIC_ONLY/normalization_plan.txt",
+  "scale_equivalence_evidence_source": "SYNTHETIC_ONLY/blind_scale_diagnostics.tsv",
+  "score_definition_frozen_before_score_access": true,
+  "site_mapping_frozen_before_score_access": true,
+  "normalization_route_frozen_before_score_access": true,
+  "normalization_parameters_outcome_blind": true,
+  "scale_diagnostics_outcome_blind": true,
+  "scores_accessed_before_rule_freeze": false,
+  "individual_outcomes_accessed_before_rule_freeze": false,
+  "site_labels_inferred_after_outcome_access": false,
+  "outcome_driven_site_merging": false,
+  "outcome_driven_transform_selection": false,
+  "outcome_driven_subject_exclusion": false,
+  "n_sites": 1,
+  "site_ids": [
+    "SITE_A"
+  ],
+  "site_sample_counts": {
+    "SITE_A": 150
+  },
+  "site_score_available_counts": {
+    "SITE_A": 135
+  },
+  "site_platforms": {
+    "SITE_A": "platform_x"
+  },
+  "site_score_variances": {
+    "SITE_A": 1.0
+  },
+  "assay_scale_status": "single_site",
+  "normalization_route": "global_fixed",
+  "normalization_parameters_scope": "all_score_available_single_predeclared_site",
+  "all_score_available_subjects_used": true,
+  "site_stratified_inference_prespecified": false,
+  "minimum_site_event_gate_prespecified": false,
+  "leave_site_out_transport_gate_prespecified": false,
+  "site_heterogeneity_gate_prespecified": false
+}
