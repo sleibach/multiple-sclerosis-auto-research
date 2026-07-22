@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_P_VALUE_PEEKING_DO_NOT_USE_AS_DATA",
+  "plan_source": "SYNTHETIC_ONLY/frozen_information_plan.json",
+  "frozen_before_score_outcome_access": true,
+  "scores_accessed_before_freeze": false,
+  "individual_outcomes_accessed_before_freeze": false,
+  "efficacy_stopping_allowed": false,
+  "futility_stopping_allowed": false,
+  "site_analyzable_targets": {
+    "SITE_A": 150,
+    "SITE_B": 150,
+    "SITE_C": 150
+  },
+  "total_analyzable_target": 450,
+  "total_confirmed_event_target": 135,
+  "minimum_confirmed_events_per_site": 10
+}

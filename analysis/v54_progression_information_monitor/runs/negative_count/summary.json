@@ -1,0 +1,19 @@
+{
+  "purpose": "V54 blinded aggregate progression information monitor; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_NEGATIVE_COUNT_DO_NOT_USE_AS_DATA",
+  "n_validity_checks": 27,
+  "n_blockers": 1,
+  "blockers": [
+    "site_confirmed_event_counts:invalid"
+  ],
+  "unknown_metadata_hold": false,
+  "total_analyzable": 480,
+  "total_confirmed_events": 91,
+  "site_analyzable_targets_met": true,
+  "site_event_floors_met": false,
+  "information_reached": false,
+  "efficacy_stopping_authority": false,
+  "decision": "FAIL_CLOSED_PEEKING_OR_METADATA",
+  "boundary": "This monitor sees aggregate information counts only and has no efficacy, harm, futility, association, progression, or biological interpretation authority."
+}

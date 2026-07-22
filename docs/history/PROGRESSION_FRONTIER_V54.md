@@ -77,13 +77,14 @@ cannot measure progression rate or transition.
 | Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
 | Blinded progression feasibility calculator | synthetic-verified | Nine packages bind actual upstream gate summaries to blinded aggregate design metadata: two reference-aligned, four valid-but-below-reference, and three fail closed. Alignment only routes cohort-specific power; it is not validation or progression evidence. |
+| Blinded information-accrual monitor | synthetic-verified; no efficacy authority | Ten aggregate-only snapshots route to continue (3), metadata hold (1), information lock (1), or fail closed (5). Effect direction, p-values, individual outcomes, and efficacy/futility stopping are forbidden. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 21/21 commands and 62/62 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 22/22 commands and 65/65 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -1087,6 +1088,25 @@ were accessed before freeze, or a gate summary belongs to a different package.
 Reference alignment is not validation readiness, transport, association, or
 progression evidence.
 
+## Blinded Information-Accrual Monitor
+
+Status: **synthetic-verified; no efficacy or futility stopping authority**.
+
+The frozen contract is
+`docs/validation/PROGRESSION_BLINDED_INFORMATION_MONITOR_V54.md`, with executable
+monitor `scripts/v54_progression_information_monitor.py` and ten synthetic
+routes in `analysis/v54_progression_information_monitor/`. Three valid partial
+snapshots continue blinded accrual, one unknown-censoring snapshot holds, and
+one complete snapshot locks and hands off to the pre-registered analysis. Five
+unsafe snapshots fail closed for peeking fields, malformed counts, package
+mismatch, or an enabled efficacy stop.
+
+The monitor sees only aggregate enrollment, analyzable, confirmed-event, visit,
+pending-confirmation, and unknown-reason counts. It cannot read molecular
+values, individual outcomes, effect estimates, direction, or significance.
+Reaching the reference count is an information-management event, not evidence
+of association or progression biology.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1097,7 +1117,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 21 checks and asserts 62 committed artifact/claim
+The final suite executes 22 checks and asserts 65 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, site-score calibration, and
 composition regressions;
