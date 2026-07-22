@@ -1,0 +1,13 @@
+{
+  "purpose": "V54 blind nonlinear-diagnostic receipt gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_UNCORRECTED_ALPHA_DO_NOT_USE_AS_DATA",
+  "multiplicity_method": "asymptotic_bonferroni",
+  "n_checks": 30,
+  "n_blockers": 1,
+  "blockers": [
+    "diagnostic_alpha:invalid"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass freezes non-rescuing model diagnostics only; it is not evidence of nonlinear MS risk, progression, mechanism, or treatment effect."
+}

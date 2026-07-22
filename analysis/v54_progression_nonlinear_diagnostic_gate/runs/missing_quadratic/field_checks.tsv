@@ -1,0 +1,31 @@
+field	expected	observed	pass
+analysis_plan_source	non-placeholder text	"""SYNTHETIC_ONLY/analysis_plan.txt"""	True
+cutpoint_basis	non-placeholder text	"""observed standardized score z > 0.674"""	True
+diagnostic_interpretation_rule	non-placeholder text	"""non-rescuing checks; future model requires separate preregistration"""	True
+multiplicity_method	non-placeholder text	"""asymptotic_bonferroni"""	True
+omnibus_formula	non-placeholder text	"""observed_z + observed_z_squared; two degrees of freedom"""	True
+package_id	non-placeholder text	"""SYNTHETIC_MISSING_QUADRATIC_DO_NOT_USE_AS_DATA"""	True
+primary_interpretation_rule	non-placeholder text	"""report one linear coefficient at alpha 0.05"""	True
+primary_model	non-placeholder text	"""one standardized linear Cox score coefficient"""	True
+protocol_source	non-placeholder text	"""SYNTHETIC_ONLY/protocol.txt"""	True
+saturation_transform	non-placeholder text	"""tanh(1.5 * observed_z)"""	True
+all_diagnostics_reported	true	true	True
+diagnostics_nonrescuing	true	true	True
+frozen_before_score_outcome_access	true	true	True
+future_model_requires_separate_preregistration	true	true	True
+primary_linear_coefficient_remains_primary	true	true	True
+primary_reported_regardless	true	true	True
+diagnostic_can_reinterpret_failed_primary	false	false	True
+diagnostic_can_replace_primary	false	false	True
+individual_outcomes_accessed_before_freeze	false	false	True
+post_result_diagnostic_substitution	false	false	True
+post_result_transform_selection	false	false	True
+scores_accessed_before_freeze	false	false	True
+diagnostic_family	exact frozen three-test family	"[""high_threshold_z_0.674"", ""tanh_1.5_observed_z""]"	False
+threshold_z	0.674	0.674	True
+saturation_scale	1.5	1.5	True
+primary_alpha	0.05	0.05	True
+diagnostic_alpha	0.05/3	0.016666666666666666	True
+diagnostic_family_alpha	0.05	0.05	True
+analysis_count_budget	4	4	True
+multiplicity_method_allowed	one frozen allowed route	"""asymptotic_bonferroni"""	True

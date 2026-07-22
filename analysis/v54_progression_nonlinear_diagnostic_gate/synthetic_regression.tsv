@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+fixed_asymptotic	True	PASS_FIXED_NONLINEAR_DIAGNOSTIC_FAMILY	PASS_FIXED_NONLINEAR_DIAGNOSTIC_FAMILY	0	True
+fixed_empirical	True	PASS_FIXED_NONLINEAR_DIAGNOSTIC_FAMILY	PASS_FIXED_NONLINEAR_DIAGNOSTIC_FAMILY	0	True
+missing_quadratic	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+threshold_changed	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+uncorrected_alpha	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+score_accessed	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+posthoc_rescue	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+primary_replacement	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+nondisjoint_calibration	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_calibration_source	True	FAIL_CLOSED	FAIL_CLOSED	1	True

@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 23 executable checks and 76 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 24 executable checks and 78 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -84,7 +84,7 @@ project's evidence standard.
 | Linear-effect misspecification audit | done | 18,000 disjoint calibration + 108,000 evaluation cohorts; 0/5 invalid null families. Only U-shaped crossing at n320 meets the material-miss rule (linear 0.105 vs omnibus 0.891); design warning only. |
 | Progression score/site calibration receipt gate | done | Ten synthetic declarations pass expected decisions; six unsafe routes fail closed. Differing scales require blind within-site scaling; imbalance is processable but remains outside the tested transport reference. |
 | Treatment-switch estimand receipt gate | done | Ten synthetic declarations pass expected routes: 2 process-ready and 8 fail closed; one frozen primary plus opposite sensitivity and complete switch metadata are mandatory. |
-| Nonlinear diagnostic preregistration gate | todo | Require any threshold/saturation/quadratic diagnostic family and cut points to be frozen before score/outcome access; diagnostics remain non-rescuing. |
+| Nonlinear diagnostic preregistration gate | done | Ten synthetic declarations verify the exact threshold/saturation/quadratic family, blind freeze, corrected alpha or disjoint calibration, and non-rescuing status; 2 pass and 8 fail closed. |
 | Combined ascertainment adversarial stack | todo | Test whether individually bounded attendance, competing-event, switch, and site mechanisms compound into invalidity; preserve family calibration and no biological claim. |
 | Progression reference-design machine manifest | todo | Emit one versioned machine-readable design contract linking all gate commands, targets, and interpretation boundaries without changing them. |
 | Progression acquisition value-of-information synthesis | todo | Rank the remaining external data fields/cohort features by which progression questions they unlock, using existing grounded blockers only. |
@@ -548,3 +548,15 @@ project's evidence standard.
 - 2026-07-22T00:52:50Z: Integrated the treatment-switch receipt gate; the
   consolidated suite passes 23/23 commands and 76/76 invariants. Active time
   accrued: 3h54m20s.
+- 2026-07-22T00:54:02Z: Pushed the treatment-switch gate as `f5b0d028` and
+  froze the nonlinear diagnostic receipt contract before implementation. The
+  primary stays one linear coefficient; the exact threshold, saturation, and
+  quadratic family is non-rescuing and multiplicity-controlled. Active time
+  accrued: 3h55m32s.
+- 2026-07-22T00:55:18Z: Completed the nonlinear diagnostic receipt gate. Both
+  fixed correction routes pass, while eight changed, unblinded, rescuing, or
+  invalid-calibration declarations fail closed as expected. Active time
+  accrued: 3h56m48s.
+- 2026-07-22T00:57:19Z: Integrated the nonlinear diagnostic receipt gate; the
+  consolidated suite passes 24/24 commands and 78/78 invariants. Active time
+  accrued: 3h58m49s.

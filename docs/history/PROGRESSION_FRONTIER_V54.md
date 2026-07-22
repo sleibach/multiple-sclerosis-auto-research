@@ -80,6 +80,7 @@ cannot measure progression rate or transition.
 | Blinded information-accrual monitor | synthetic-verified; no efficacy authority | Ten aggregate-only snapshots route to continue (3), metadata hold (1), information lock (1), or fail closed (5). Effect direction, p-values, individual outcomes, and efficacy/futility stopping are forbidden. |
 | Treatment-switch estimand sensitivity | switching can change or invalidate interpretation | 72,000 cohorts/144,000 route evaluations. Joint score/risk switching invalidates treatment-policy and censor-at-switch; score-dependent switching invalidates treatment-policy direct-prognostic interpretation. Two independent families are strict-cell but family-compatible and excluded. |
 | Treatment-switch receipt gate | synthetic-verified | Ten declarations enforce complete switch dates/reasons/context, one frozen primary plus the opposite sensitivity, IPCW/joint-dependence checks, and no post-result estimand choice; two process routes pass and eight fail closed. |
+| Nonlinear diagnostic receipt gate | synthetic-verified; non-rescuing | Ten declarations freeze the exact threshold, saturation, and linear-plus-quadratic family plus multiplicity handling; two valid process routes pass and eight unsafe routes fail closed. |
 | Linear-effect misspecification | one fixed nonlinear design warning | 18,000 disjoint calibration plus 108,000 evaluation cohorts. All five null families calibrate. At n=320, U-shaped crossing risk is materially missed by linear Cox (0.105) but detected by the corrected linear-quadratic diagnostic (0.891); no MS shape is inferred. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
@@ -87,7 +88,7 @@ cannot measure progression rate or transition.
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 23/23 commands and 76/76 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 24/24 commands and 78/78 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -1109,6 +1110,24 @@ and pre-specifies joint-dependence checks. Passing is process readiness only;
 it does not establish independent switching, treatment effect, molecular
 prognosis, or progression biology.
 
+## Nonlinear Diagnostic Receipt Gate
+
+Status: **synthetic-verified; fixed and non-rescuing**.
+
+The additive contract
+(`docs/validation/PROGRESSION_NONLINEAR_DIAGNOSTIC_GATE_V54.md`;
+`scripts/v54_progression_nonlinear_diagnostic_gate.py`) tests ten synthetic
+declarations. Corrected asymptotic and disjoint empirical-null routes pass.
+Missing quadratic coverage, a changed threshold, uncorrected alpha, prior score
+access, post-result rescue/replacement, overlapping calibration, and a missing
+calibration source fail closed.
+
+The primary remains one standardized linear coefficient and must be reported
+regardless. The threshold at `z > 0.674`, `tanh(1.5z)`, and two-degree
+linear-plus-quadratic omnibus are frozen blind. A diagnostic can only queue a
+separately pre-registered future model; passing does not imply a nonlinear MS
+risk shape or progression association.
+
 ## Linear-Effect Misspecification
 
 Status: **one fixed synthetic design warning; diagnostics remain non-rescuing**.
@@ -1197,7 +1216,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 23 checks and asserts 76 committed artifact/claim
+The final suite executes 24 checks and asserts 78 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, site-score calibration, and
 composition regressions;
