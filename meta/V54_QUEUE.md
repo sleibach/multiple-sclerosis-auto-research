@@ -69,12 +69,12 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 18 executable checks and 44 artifact/claim invariants; all pass. It pins competing-risk, visit-attendance, repeated-measurement, and multi-site transport boundaries plus numerical references. |
+| V54 consolidated regression suite | done | One command runs 19 executable checks and 48 artifact/claim invariants; all pass. It pins method boundaries and the artifact-traced prospective design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
 | Multi-site progression transportability design | done | 115,200 seeded cohorts. Pooled inference is invalid in both hazard-aligned-score families (null maxima 0.685/0.482); all site-stratified families calibrate. Only n=450, event probability 0.30, balanced allocation passes full transport (2/24 score-structure variants); 60/30/10 allocation misses. |
-| Prospective progression cohort design synthesis | todo | Integrate binary, event-time, competing-risk, interval, P2, composition, and endpoint findings into one exact medical-team acquisition/design brief. |
+| Prospective progression cohort design synthesis | done | Rerunnable 16-requirement/14-source synthesis separates the n=450/balanced/30%-event/quarterly stress-tested reference from a universal minimum and binds endpoint, attendance, competing-risk, reliability, site, P2, and therapeutic boundaries. Zero known P1 cohorts remains explicit. |
 | Endpoint adjudicator malformed-input expansion | todo | Add duplicate day, malformed numeric, unknown protocol, and later-valid-onset regressions. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -404,3 +404,14 @@ project's evidence standard.
   and transport boundary. All 18 command checks and 44 artifact invariants
   pass, as do provenance, structural, whitespace, tracked-size, and temporary-
   path guards. Active time accrued: 3h00m41s.
+- 2026-07-22T00:01:34Z: Completed the prospective progression design synthesis.
+  Sixteen machine-readable requirements trace 14 committed artifacts. The
+  reference design is `n=450`, three balanced sites, a 30% event setting,
+  quarterly observation, and median minimum 26 site events in the only passing
+  transport cells; every number is explicitly assumption-labeled, not a
+  guaranteed minimum. Zero known P1-eligible cohorts remains the operational
+  blocker. Active time accrued: 3h03m04s.
+- 2026-07-22T00:02:57Z: The design synthesis now runs inside the consolidated
+  regression suite. All 19 command checks and 48 artifact invariants pass,
+  together with provenance, structure, whitespace, size, and path guards.
+  Active time accrued: 3h04m27s.

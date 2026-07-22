@@ -1,0 +1,24 @@
+{
+  "purpose": "Artifact-traced synthesis of the V54 prospective progression cohort reference design",
+  "synthetic_or_method_only": true,
+  "n_requirements": 16,
+  "n_source_artifacts": 14,
+  "reference_total_n": 450,
+  "reference_sites": 3,
+  "reference_allocation": "balanced",
+  "reference_event_probability": 0.3,
+  "reference_median_minimum_site_events": 26,
+  "reference_visit_interval_years": 0.25,
+  "current_known_p1_eligible_cohorts": 0,
+  "source_summary_verdicts": {
+    "event_time": "EVENT_TIME_ROUTE_READY_FOR_BLINDED_COHORT_PARAMETERIZATION",
+    "assumptions": "COX_ROUTE_REQUIRES_CENSORING_AUDIT_AND_TIME_VARIATION_DIAGNOSTICS",
+    "competing_risk": "CAUSE_SPECIFIC_ROUTE_REQUIRES_COMPETING_EVENT_DEPENDENCE_AUDIT",
+    "visit_schedule": "VISIT_SCHEDULE_AND_ATTENDANCE_MUST_BE_AUDITED_BEFORE_PROGRESSION_INFERENCE",
+    "repeated_score": "REPEATS_HELP_ONLY_WHEN_ERROR_IS_SUFFICIENTLY_INDEPENDENT_AND_BASE_RELIABILITY_IS_LOW",
+    "multisite": "TRANSPORT_READY_DESIGNS_IDENTIFIED",
+    "p2": "P2_ROUTE_CONDITIONALLY_READY_REQUIRES_HIGH_FIDELITY_COMPOSITION"
+  },
+  "verdict": "REFERENCE_DESIGN_SPECIFIED_BUT_NO_CURRENT_COHORT_ELIGIBLE",
+  "boundary": "This synthesis combines method audits and acquisition gates. It is not biological evidence, a guaranteed sample size, or a claim that any state halts MS progression."
+}

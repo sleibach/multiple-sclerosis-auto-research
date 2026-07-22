@@ -73,6 +73,7 @@ cannot measure progression rate or transition.
 | Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
+| Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
@@ -940,6 +941,30 @@ site estimates, leave-one-site-out tests, and heterogeneity reporting. Pooled
 significance alone is invalid for transport. These are synthetic design
 requirements, not empirical claims about site effects or an MS biomarker.
 
+## Prospective Cohort Design Synthesis
+
+Status: **reference design specified; no known cohort is currently eligible**.
+
+The medical-team brief is
+`docs/validation/PROGRESSION_PROSPECTIVE_DESIGN_V54.md`. Its rerunnable source
+checker, `scripts/v54_progression_design_synthesis.py`, emits 16 requirements
+traced to 14 artifacts under `analysis/v54_progression_design_synthesis/`.
+
+The reference combines the only transport-ready synthetic setting (`n=450`,
+three balanced sites, event probability `0.30`, median minimum 26 events/site)
+with quarterly observation, raw confirmed CDP/PIRA components, pre-score
+attendance/censoring/competing-event audits, reliability-conditioned molecular
+repeat collection, site-stratified and leave-site-out inference, and direct P2
+composition measurement. It also freezes the interpretive sequence: P1
+prediction, optional P2 localization, and only then a separate P3 functional-
+direction program.
+
+This is deliberately not called a universal minimum. The synthetic reference
+assumes HR `1.7`, reliability `0.70`, and a high event setting; weaker effects,
+rarer events, informative missingness, site imbalance, or correlated
+measurement error can make `n=450` insufficient. The checker confirms that the
+known candidate inventory still contains zero P1-, P2-, or P3-eligible cohorts.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -950,7 +975,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 18 checks and asserts 44 committed artifact/claim
+The final suite executes 19 checks and asserts 48 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance
@@ -960,7 +985,8 @@ transition-identifiable datasets, zero target revisits, both morphology
 downgrades, the event-time and competing-risk invalid regimes, the independent-
 death strict-cell flag, both informative-attendance invalid regimes, the
 bounded repeated-measurement utility result, pooled-site invalidation and the
-two transport-ready synthetic designs, and 0/10 P1/P2/P3 candidate eligibility.
+two transport-ready synthetic designs, the prospective reference-design
+boundary, and 0/10 P1/P2/P3 candidate eligibility.
 
 The first suite run exposed a real execution defect: resolving the virtualenv
 interpreter symlink caused child processes to use bare Homebrew Python without
