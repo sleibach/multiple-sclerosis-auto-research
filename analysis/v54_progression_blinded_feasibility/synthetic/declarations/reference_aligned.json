@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_REFERENCE_ALIGNED_DO_NOT_USE_AS_DATA",
+  "blind_freeze_source": "SYNTHETIC_ONLY/blind_freeze.txt",
+  "role": "P1",
+  "frozen_before_score_access": true,
+  "scores_accessed": false,
+  "individual_outcomes_accessed": false,
+  "cohort_specific_power_rerun_prespecified": true,
+  "site_source_treatment_stratification_prespecified": true,
+  "upstream_gate_summaries": {
+    "combined_intake": "analysis/v54_progression_blinded_feasibility/synthetic/upstream/reference_aligned/combined_intake.json",
+    "event_time": "analysis/v54_progression_blinded_feasibility/synthetic/upstream/reference_aligned/event_time.json",
+    "site_score": "analysis/v54_progression_blinded_feasibility/synthetic/upstream/reference_aligned/site_score.json"
+  },
+  "planned_enrollment": 690,
+  "analyzable_target": 450,
+  "confirmed_event_target": 135,
+  "event_probability_assumption": 0.3,
+  "visit_interval_months": 3,
+  "followup_months": 24,
+  "score_reliability_assumption": 0.7,
+  "molecular_repeat_count": 1,
+  "repeat_errors_independent_or_audited": false,
+  "site_analyzable_targets": {
+    "SITE_A": 150,
+    "SITE_B": 150,
+    "SITE_C": 150
+  }
+}

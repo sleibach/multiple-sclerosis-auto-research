@@ -76,13 +76,14 @@ cannot measure progression rate or transition.
 | Multi-site score-scale harmonization | conditionally required under severe scale mismatch | 129,600 cohorts and 259,200 routes. Blinded within-site scaling materially improves transport in 6/36 comparisons, all under 0.5/1/2 site scales; it does not rescue imbalanced recruitment. Method behavior only. |
 | Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
+| Blinded progression feasibility calculator | synthetic-verified | Nine packages bind actual upstream gate summaries to blinded aggregate design metadata: two reference-aligned, four valid-but-below-reference, and three fail closed. Alignment only routes cohort-specific power; it is not validation or progression evidence. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 20/20 commands and 60/60 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 21/21 commands and 62/62 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
@@ -1066,6 +1067,26 @@ metadata processing, but it is labeled `OUTSIDE_TESTED_BALANCED_REFERENCE`;
 normalization does not make it transport-ready. The gate is receipt-method
 behavior only and creates no progression or biological evidence.
 
+## Blinded Progression Feasibility Calculator
+
+Status: **synthetic-verified routing only**.
+
+The calculator (`scripts/v54_progression_blinded_feasibility.py`) binds an
+incoming package to its actual combined-intake, event-time, and site-score gate
+summaries, verifies matching package IDs and blindness, then compares only
+aggregate design metadata with the synthetic V54 reference. Its specification
+is `docs/validation/PROGRESSION_BLINDED_FEASIBILITY_CALCULATOR_V54.md`; nine
+synthetic routes are in `analysis/v54_progression_blinded_feasibility/`.
+
+Two routes are reference-aligned, including one that retains a mandatory
+event-time sensitivity panel. Four valid routes are below reference because of
+sample/event yield, site imbalance, or unaudited low measurement reliability;
+they are routed to blinded cohort-specific power reparameterization rather than
+called failed. Three routes fail closed because an upstream gate fails, scores
+were accessed before freeze, or a gate summary belongs to a different package.
+Reference alignment is not validation readiness, transport, association, or
+progression evidence.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1076,7 +1097,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 20 checks and asserts 60 committed artifact/claim
+The final suite executes 21 checks and asserts 62 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, site-score calibration, and
 composition regressions;

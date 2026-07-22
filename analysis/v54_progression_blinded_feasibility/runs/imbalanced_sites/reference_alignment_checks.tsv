@@ -1,0 +1,9 @@
+check	class	expected	observed	pass
+analyzable_reference	synthetic_reference_alignment	>= 450	450	True
+confirmed_event_reference	synthetic_reference_alignment	>= 135	135	True
+event_probability_reference	synthetic_reference_alignment	>= 0.30	0.3	True
+visit_cadence_reference	synthetic_reference_alignment	<= 3 months	3	True
+followup_reference	synthetic_reference_alignment	>= 24 months	24	True
+balanced_site_reference	synthetic_reference_alignment	three equal targets >=150	"{""SITE_A"": 270, ""SITE_B"": 135, ""SITE_C"": 45}"	False
+site_gate_transport_reference	synthetic_reference_alignment	MATCHES_TESTED_BALANCED_REFERENCE	"""OUTSIDE_TESTED_BALANCED_REFERENCE"""	False
+measurement_reliability_reference	synthetic_reference_alignment	reliability >=0.70, or >=0.40 with >=3 audited independent-error repeats	"{""reliability"": 0.7, ""repeat_errors_independent_or_audited"": false, ""repeats"": 1}"	True
