@@ -70,6 +70,15 @@ analysis/v54_progression_weaker_effect_power/summary.json	minimum_n_by_scenario.
 analysis/v54_progression_weaker_effect_power/summary.json	minimum_n_by_scenario.event_030_hr_13	eq	900	900	True
 analysis/v54_progression_weaker_effect_power/summary.json	minimum_n_by_scenario.event_015_hr_13	eq	1500	1500	True
 analysis/v54_progression_weaker_effect_power/summary.json	minimum_n_by_scenario.event_015_hr_15	eq	600	600	True
+analysis/v54_progression_confirmation_error/summary.json	n_unique_simulated_cohorts	eq	230400	230400	True
+analysis/v54_progression_confirmation_error/summary.json	n_invalid_null_families	eq	4	4	True
+analysis/v54_progression_confirmation_error/summary.json	invalid_null_families	contains	"""score_miss_10pct"""	"[""joint_miss_10pct"", ""mixed_joint_miss_score_false"", ""score_false_2pct"", ""score_miss_10pct""]"	True
+analysis/v54_progression_confirmation_error/summary.json	invalid_null_families	contains	"""score_false_2pct"""	"[""joint_miss_10pct"", ""mixed_joint_miss_score_false"", ""score_false_2pct"", ""score_miss_10pct""]"	True
+analysis/v54_progression_confirmation_error/summary.json	invalid_null_families	contains	"""joint_miss_10pct"""	"[""joint_miss_10pct"", ""mixed_joint_miss_score_false"", ""score_false_2pct"", ""score_miss_10pct""]"	True
+analysis/v54_progression_confirmation_error/summary.json	n_calibrated_families	eq	4	4	True
+analysis/v54_progression_confirmation_error/summary.json	complete_minimum_n_for_hr_1_5.event_015	eq	900	900	True
+analysis/v54_progression_confirmation_error/summary.json	complete_minimum_n_for_hr_1_5.event_030	eq	450	450	True
+analysis/v54_progression_confirmation_error/summary.json	verdict	eq	"""CONFIRMATION_DEPENDENCE_MUST_BE_AUDITED_BEFORE_PROGRESSION_INFERENCE"""	"""CONFIRMATION_DEPENDENCE_MUST_BE_AUDITED_BEFORE_PROGRESSION_INFERENCE"""	True
 analysis/v54_progression_blinded_feasibility/summary.json	n_fixtures	eq	9	9	True
 analysis/v54_progression_blinded_feasibility/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_information_monitor/summary.json	n_fixtures	eq	10	10	True

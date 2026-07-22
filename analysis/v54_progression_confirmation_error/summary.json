@@ -1,0 +1,26 @@
+{
+  "purpose": "V54 synthetic endpoint-confirmation error audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 230400,
+  "n_null_families": 8,
+  "n_invalid_null_families": 4,
+  "invalid_null_families": [
+    "joint_miss_10pct",
+    "mixed_joint_miss_score_false",
+    "score_false_2pct",
+    "score_miss_10pct"
+  ],
+  "n_calibrated_families": 4,
+  "calibrated_families": [
+    "complete",
+    "independent_false_2pct",
+    "independent_miss_10pct",
+    "risk_miss_10pct"
+  ],
+  "complete_minimum_n_for_hr_1_5": {
+    "event_015": 900,
+    "event_030": 450
+  },
+  "verdict": "CONFIRMATION_DEPENDENCE_MUST_BE_AUDITED_BEFORE_PROGRESSION_INFERENCE",
+  "boundary": "Synthetic endpoint-method behavior only; no empirical confirmation error rate, progression association, or biological claim."
+}

@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 27 executable checks and 111 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, combined-ascertainment boundaries, the hash-bound manifest, acquisition priorities, weaker-effect power, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 27 executable checks and 120 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, combined-ascertainment and confirmation-error boundaries, the hash-bound manifest, acquisition priorities, weaker-effect power, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -90,7 +90,7 @@ project's evidence standard.
 | Progression acquisition value-of-information synthesis | done | Nine artifact-bound bundles: 5 immediate and 4 conditional. P1 longitudinal core + ascertainment provenance rank first; P2/P3 remain dependency-blocked. |
 | Full synthetic P1 intake-to-lock dry run | done | Actual seven-stage validators compose over one package ID: 1 synthetic route locks, 1 continues blinded accrual, and 8 stage/cross-stage faults fail closed. |
 | Weaker-effect progression cohort-size extension | done | 90k cohorts; null calibrated. HR1.2 not reached by 1,500; HR1.3 needs 900 at 30% events or 1,500 at 15%; HR1.5 needs 450/600. Conditional only. |
-| Endpoint-confirmation error sensitivity | todo | Quantify how transient/missed confirmation error shifts guarded event-time validity and required enrollment; no empirical error-rate claim. |
+| Endpoint-confirmation error sensitivity | done | 230,400 cohorts; four families calibrate and four score-linked/joint families are invalid. Score-linked confirmation is a fail-closed inference boundary, not power loss. |
 | Leave-site-out precision design | todo | Determine the per-site event/CI conditions, beyond sign alone, needed for stable transport under the existing synthetic reference. |
 | Acquisition request packet | todo | Translate the top VOI bundles into a one-page field-level receipt request plus machine template without assuming fields exist. |
 | Progression negative-control specification | todo | Freeze mandatory molecular, endpoint, and site negative controls for a future P1 package before score access. |
@@ -627,3 +627,14 @@ project's evidence standard.
   keys incompatible with dotted invariant paths. Replaced labels with stable
   integer-coded keys, reran all 90,000 cohorts unchanged, and confirmed 27/27
   commands plus 111/111 invariants pass. Active time accrued: 4h29m28s.
+- 2026-07-22T01:29:01Z: Pushed weaker-effect planning as `ad9141d2` and froze
+  endpoint-confirmation error sensitivity before simulation. Null validity is
+  adjudicated before any power comparison. Active time accrued: 4h30m31s.
+- 2026-07-22T01:35:33Z: Completed 230,400 endpoint-confirmation cohorts. A
+  pandas `stack` method/column collision surfaced only after generation, was
+  fixed without changing the frozen design, and the full run was repeated.
+  Four score-linked or joint null families are invalid; four independent or
+  risk-only families calibrate. Active time accrued: 4h37m03s.
+- 2026-07-22T01:40:17Z: Integrated the confirmation-error boundary and its
+  machine summary; 27/27 commands and 120/120 artifact invariants pass. Active
+  time accrued: 4h41m47s.

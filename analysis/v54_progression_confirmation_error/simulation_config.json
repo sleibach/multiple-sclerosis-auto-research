@@ -1,0 +1,75 @@
+{
+  "synthetic": true,
+  "seeds": [
+    55401,
+    55403,
+    55409
+  ],
+  "sample_sizes": [
+    450,
+    900,
+    1500
+  ],
+  "event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "molecular_hrs": [
+    1.0,
+    1.5
+  ],
+  "replicates_per_seed_cell": 800,
+  "confirmation_lag": 0.25,
+  "mechanisms": {
+    "complete": [
+      "none",
+      0.0,
+      "none",
+      0.0
+    ],
+    "independent_miss_10pct": [
+      "independent",
+      0.1,
+      "none",
+      0.0
+    ],
+    "score_miss_10pct": [
+      "score",
+      0.1,
+      "none",
+      0.0
+    ],
+    "risk_miss_10pct": [
+      "risk",
+      0.1,
+      "none",
+      0.0
+    ],
+    "joint_miss_10pct": [
+      "joint",
+      0.1,
+      "none",
+      0.0
+    ],
+    "independent_false_2pct": [
+      "none",
+      0.0,
+      "independent",
+      0.02
+    ],
+    "score_false_2pct": [
+      "none",
+      0.0,
+      "score",
+      0.02
+    ],
+    "mixed_joint_miss_score_false": [
+      "joint",
+      0.1,
+      "score",
+      0.02
+    ]
+  },
+  "route": "guarded_within_site_stratified",
+  "boundary": "Seeded synthetic endpoint-method behavior only; no empirical error rate, MS effect, or biological claim."
+}

@@ -78,6 +78,7 @@ cannot measure progression rate or transition.
 | Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
 | Weaker-effect progression power | clean-reference sensitivity complete | 90,000 cohorts. HR 1.2 does not reach the rule by n=1,500; HR 1.3 needs n=900 at 30% events or 1,500 at 15%; HR 1.5 needs 450/600. No empirical effect or universal N. |
+| Endpoint-confirmation error sensitivity | score-linked confirmation invalidates inference | 230,400 cohorts. Complete, independent-error, and risk-only missed-confirmation families calibrate; score-dependent missed/false and joint missed-confirmation families do not. Invalid families are excluded from power rather than misread as sensitivity loss. Method behavior only. |
 | Blinded progression feasibility calculator | synthetic-verified | Nine packages bind actual upstream gate summaries to blinded aggregate design metadata: two reference-aligned, four valid-but-below-reference, and three fail closed. Alignment only routes cohort-specific power; it is not validation or progression evidence. |
 | Blinded information-accrual monitor | synthetic-verified; no efficacy authority | Ten aggregate-only snapshots route to continue (3), metadata hold (1), information lock (1), or fail closed (5). Effect direction, p-values, individual outcomes, and efficacy/futility stopping are forbidden. |
 | Treatment-switch estimand sensitivity | switching can change or invalidate interpretation | 72,000 cohorts/144,000 route evaluations. Joint score/risk switching invalidates treatment-policy and censor-at-switch; score-dependent switching invalidates treatment-policy direct-prognostic interpretation. Two independent families are strict-cell but family-compatible and excluded. |
@@ -92,7 +93,7 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 27/27 commands and 111/111 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, acquisition synthesis, power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 27/27 commands and 120/120 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, acquisition synthesis, confirmation-error and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -1326,6 +1327,31 @@ cross-stage package mismatch. Reaching lock authorizes only handoff to the
 separately frozen analysis; it is not a favorable result or progression
 evidence.
 
+## Endpoint-Confirmation Error Sensitivity
+
+Status: **score-linked confirmation error is a fail-closed inference
+boundary**.
+
+The frozen audit
+(`docs/plans/PROGRESSION_CONFIRMATION_ERROR_V54.md`;
+`scripts/v54_progression_confirmation_error.py`) generated 230,400 synthetic
+cohorts across eight endpoint-confirmation mechanisms. Four null families
+calibrate: complete confirmation, independent missed confirmation,
+risk-only missed confirmation, and independent false confirmation. Under those
+bounded assumptions, HR 1.5 reaches the design rule at `n=900` with 15% events
+or `n=450` with 30% events.
+
+Score-linked adjudication is method-invalid, not merely underpowered.
+Score-dependent missed confirmation yields a maximum null call rate of `0.329`
+in the protective direction, joint score/risk missed confirmation reaches
+`0.407` protective, and score-dependent false confirmation reaches `0.335`
+harmful. The mixed family is also invalid (`0.104`, predominantly protective).
+Consequently, confirmation provenance and assessor/process blindness are
+mandatory before score access; an unknown dependence route fails closed. These
+synthetic mechanisms estimate no real MS confirmation-error rate and create no
+progression claim. Full interpretation is in
+`docs/validation/PROGRESSION_CONFIRMATION_ERROR_V54.md`.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1336,7 +1362,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 27 checks and asserts 111 committed artifact/claim
+The final suite executes 27 checks and asserts 120 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;

@@ -1,0 +1,17 @@
+mechanism	event_probability	null_family_valid	minimum_n_reaching_rule	positive_probability_at_minimum_or_largest
+complete	0.15	True	900	0.8720833333333333
+complete	0.3	True	450	0.8545833333333334
+independent_miss_10pct	0.15	True	900	0.8279166666666666
+independent_miss_10pct	0.3	True	450	0.8166666666666667
+score_miss_10pct	0.15	False	not_reached_or_invalid	0.8204166666666667
+score_miss_10pct	0.3	False	not_reached_or_invalid	0.9558333333333333
+risk_miss_10pct	0.15	True	900	0.8295833333333333
+risk_miss_10pct	0.3	True	450	0.8229166666666666
+joint_miss_10pct	0.15	False	not_reached_or_invalid	0.75375
+joint_miss_10pct	0.3	False	not_reached_or_invalid	0.9433333333333334
+independent_false_2pct	0.15	True	900	0.835
+independent_false_2pct	0.3	True	450	0.82875
+score_false_2pct	0.15	False	not_reached_or_invalid	1.0
+score_false_2pct	0.3	False	not_reached_or_invalid	1.0
+mixed_joint_miss_score_false	0.15	False	not_reached_or_invalid	0.9758333333333333
+mixed_joint_miss_score_false	0.3	False	not_reached_or_invalid	0.9866666666666667
