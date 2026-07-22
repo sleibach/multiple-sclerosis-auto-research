@@ -1,0 +1,53 @@
+{
+  "purpose": "V54 seeded synthetic progression enrollment-inflation audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54071,
+    54079,
+    54083
+  ],
+  "replicates": 5000,
+  "loss_rates": [
+    0.0,
+    0.1,
+    0.2
+  ],
+  "event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "per_site_candidates": [
+    150,
+    800,
+    5
+  ],
+  "passive_total_candidates": [
+    450,
+    6000,
+    15
+  ],
+  "site_shares": {
+    "balanced_in_expectation": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "moderate_45_35_20": [
+      0.45,
+      0.35,
+      0.2
+    ],
+    "severe_60_30_10": [
+      0.6,
+      0.3,
+      0.1
+    ]
+  },
+  "targets": {
+    "analyzable_total": 450,
+    "analyzable_per_site": 150,
+    "confirmed_events_total": 135,
+    "confirmed_events_per_site": 10
+  },
+  "assurance_rule": "95% Wilson lower bound >= 0.90 in every seed"
+}

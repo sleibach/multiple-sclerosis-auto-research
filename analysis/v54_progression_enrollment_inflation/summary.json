@@ -1,0 +1,103 @@
+{
+  "purpose": "V54 seeded synthetic progression enrollment-inflation audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54071,
+    54079,
+    54083
+  ],
+  "replicates_per_candidate_seed": 5000,
+  "n_equal_quota_scenarios": 54,
+  "n_equal_quota_scenarios_reaching_reference": 54,
+  "n_candidate_seed_cells": 24561,
+  "n_synthetic_cohort_replicates": 122805000,
+  "assurance_wilson_lower_bound": 0.9,
+  "targets": {
+    "analyzable_total": 450,
+    "analyzable_per_site": 150,
+    "confirmed_events_total": 135,
+    "confirmed_events_per_site": 10
+  },
+  "reference_scenario": {
+    "followup_loss": 0.1,
+    "score_missing": 0.1,
+    "confirmation_loss": 0.1,
+    "event_probability": 0.3,
+    "gross_per_site": 230,
+    "gross_total": 690,
+    "inflation_over_450": 1.5333333333333334,
+    "expected_analyzable_total": 558.9000000000001,
+    "expected_confirmed_events_total": 150.90300000000005,
+    "minimum_seed_probability": 0.928,
+    "minimum_seed_ci_low": 0.920501853452584,
+    "reference_counts_reached": true,
+    "verdict": "REFERENCE_COUNTS_REACHED_WITHIN_GRID"
+  },
+  "severe_loss_scenario": {
+    "followup_loss": 0.2,
+    "score_missing": 0.2,
+    "confirmation_loss": 0.2,
+    "event_probability": 0.3,
+    "gross_per_site": 330,
+    "gross_total": 990,
+    "inflation_over_450": 2.2,
+    "expected_analyzable_total": 633.6000000000001,
+    "expected_confirmed_events_total": 152.06400000000002,
+    "minimum_seed_probability": 0.9354,
+    "minimum_seed_ci_low": 0.9282465394943835,
+    "reference_counts_reached": true,
+    "verdict": "REFERENCE_COUNTS_REACHED_WITHIN_GRID"
+  },
+  "low_event_scenario": {
+    "followup_loss": 0.1,
+    "score_missing": 0.1,
+    "confirmation_loss": 0.1,
+    "event_probability": 0.15,
+    "gross_per_site": 460,
+    "gross_total": 1380,
+    "inflation_over_450": 3.066666666666667,
+    "expected_analyzable_total": 1117.8000000000002,
+    "expected_confirmed_events_total": 150.90300000000005,
+    "minimum_seed_probability": 0.9122,
+    "minimum_seed_ci_low": 0.9040358607404276,
+    "reference_counts_reached": true,
+    "verdict": "REFERENCE_COUNTS_REACHED_WITHIN_GRID"
+  },
+  "passive_recruitment": [
+    {
+      "allocation": "balanced_in_expectation",
+      "site_shares": "0.33/0.33/0.33",
+      "gross_total": 690,
+      "inflation_over_450": 1.5333333333333334,
+      "minimum_seed_probability": 0.9308,
+      "minimum_seed_ci_low": 0.9234295221569059,
+      "reference_counts_reached": true,
+      "transport_reference_status": "BALANCED_IN_EXPECTATION_NOT_FIXED_QUOTA",
+      "verdict": "ARITHMETIC_FLOORS_REACHED_BUT_TRANSPORT_NOT_ESTABLISHED"
+    },
+    {
+      "allocation": "moderate_45_35_20",
+      "site_shares": "0.45/0.35/0.20",
+      "gross_total": 1035,
+      "inflation_over_450": 2.3,
+      "minimum_seed_probability": 0.9326,
+      "minimum_seed_ci_low": 0.9253133309704897,
+      "reference_counts_reached": true,
+      "transport_reference_status": "OUTSIDE_TESTED_BALANCED_REFERENCE",
+      "verdict": "ARITHMETIC_FLOORS_REACHED_BUT_TRANSPORT_NOT_ESTABLISHED"
+    },
+    {
+      "allocation": "severe_60_30_10",
+      "site_shares": "0.60/0.30/0.10",
+      "gross_total": 2055,
+      "inflation_over_450": 4.566666666666666,
+      "minimum_seed_probability": 0.9126,
+      "minimum_seed_ci_low": 0.9044516951132003,
+      "reference_counts_reached": true,
+      "transport_reference_status": "OUTSIDE_TESTED_BALANCED_REFERENCE",
+      "verdict": "ARITHMETIC_FLOORS_REACHED_BUT_TRANSPORT_NOT_ESTABLISHED"
+    }
+  ],
+  "verdict": "CONDITIONAL_ENROLLMENT_LOOKUP_COMPLETE_NO_UNIVERSAL_N",
+  "boundary": "Synthetic independent-loss planning behavior only; no empirical MS rate, effect, or universal cohort size."
+}
