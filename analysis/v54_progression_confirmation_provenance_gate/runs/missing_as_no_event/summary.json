@@ -1,0 +1,12 @@
+{
+  "purpose": "V54 blind endpoint-confirmation provenance receipt gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_MISSING_AS_NO_EVENT_DO_NOT_USE_AS_DATA",
+  "n_checks": 32,
+  "n_blockers": 1,
+  "blockers": [
+    "missing_confirmation_recoded_as_no_event:invalid"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass establishes auditable confirmation provenance only; it is not evidence of unbiased adjudication, progression association, or treatment effect."
+}

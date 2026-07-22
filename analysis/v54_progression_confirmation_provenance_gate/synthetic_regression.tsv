@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+blinded_assessor	True	PASS_CONFIRMATION_PROVENANCE_GATE	PASS_CONFIRMATION_PROVENANCE_GATE	0	True
+score_not_computed	True	PASS_CONFIRMATION_PROVENANCE_GATE	PASS_CONFIRMATION_PROVENANCE_GATE	0	True
+derived_label_only	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_candidate_date	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+unknown_blinding	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+unconfirmed_dropped	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_as_no_event	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+post_result_reclassification	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_reason_dictionary	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+score_accessed	True	FAIL_CLOSED	FAIL_CLOSED	1	True
