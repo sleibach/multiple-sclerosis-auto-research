@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 22 executable checks and 74 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, routing, switch estimands, nonlinear-model checks, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 23 executable checks and 76 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -83,6 +83,12 @@ project's evidence standard.
 | Treatment-switch estimand sensitivity | done | 72,000 cohorts/144,000 routes. Joint score/risk switching invalidates both estimands; score-dependent switching invalidates treatment policy. Two independent families are strict-cell/family-compatible and excluded. |
 | Linear-effect misspecification audit | done | 18,000 disjoint calibration + 108,000 evaluation cohorts; 0/5 invalid null families. Only U-shaped crossing at n320 meets the material-miss rule (linear 0.105 vs omnibus 0.891); design warning only. |
 | Progression score/site calibration receipt gate | done | Ten synthetic declarations pass expected decisions; six unsafe routes fail closed. Differing scales require blind within-site scaling; imbalance is processable but remains outside the tested transport reference. |
+| Treatment-switch estimand receipt gate | done | Ten synthetic declarations pass expected routes: 2 process-ready and 8 fail closed; one frozen primary plus opposite sensitivity and complete switch metadata are mandatory. |
+| Nonlinear diagnostic preregistration gate | todo | Require any threshold/saturation/quadratic diagnostic family and cut points to be frozen before score/outcome access; diagnostics remain non-rescuing. |
+| Combined ascertainment adversarial stack | todo | Test whether individually bounded attendance, competing-event, switch, and site mechanisms compound into invalidity; preserve family calibration and no biological claim. |
+| Progression reference-design machine manifest | todo | Emit one versioned machine-readable design contract linking all gate commands, targets, and interpretation boundaries without changing them. |
+| Progression acquisition value-of-information synthesis | todo | Rank the remaining external data fields/cohort features by which progression questions they unlock, using existing grounded blockers only. |
+| Full synthetic P1 intake-to-lock dry run | todo | Compose inventory, semantics, event-time, site-score, feasibility, switch, nonlinear, and information gates on one synthetic package with fail-closed variants. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -530,3 +536,15 @@ project's evidence standard.
 - 2026-07-22T00:49:08Z: Integrated and pinned the nonlinear boundary; the
   consolidated suite passes 22/22 commands and 74/74 invariants. Active time
   accrued: 3h50m38s.
+- 2026-07-22T00:50:03Z: Refilled the internally executable backlog after the
+  seeded analyses completed. Froze the treatment-switch receipt gate first: a
+  cohort must declare one primary and the opposite frozen sensitivity, retain
+  complete switch dates/reasons/treatment context, and prohibit post-result
+  estimand choice. Active time accrued: 3h51m33s.
+- 2026-07-22T00:51:13Z: Completed the treatment-switch receipt gate. All ten
+  synthetic declarations match expectation: complete switch/no-switch plans
+  pass, while eight incomplete, unblinded, or post-result-selectable plans fail
+  closed. Active time accrued: 3h52m43s.
+- 2026-07-22T00:52:50Z: Integrated the treatment-switch receipt gate; the
+  consolidated suite passes 23/23 commands and 76/76 invariants. Active time
+  accrued: 3h54m20s.

@@ -1,0 +1,14 @@
+{
+  "purpose": "V54 blind progression treatment-switch estimand gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_COUNT_MISMATCH_DO_NOT_USE_AS_DATA",
+  "primary_estimand": "treatment_policy",
+  "sensitivity_estimand": "censor_at_switch",
+  "n_checks": 31,
+  "n_blockers": 1,
+  "blockers": [
+    "switch_presence_count_consistency:invalid"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass freezes dual estimands and switch metadata only; it is not evidence of independent switching, treatment effect, prognosis, progression, or MS biology."
+}

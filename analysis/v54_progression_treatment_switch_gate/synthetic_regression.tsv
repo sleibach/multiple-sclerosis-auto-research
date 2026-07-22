@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+switches_complete	True	PASS_SWITCH_SENSITIVITY_REQUIRED	PASS_SWITCH_SENSITIVITY_REQUIRED	0	True
+no_switches	True	PASS_NO_OBSERVED_SWITCH_DUAL_PLAN	PASS_NO_OBSERVED_SWITCH_DUAL_PLAN	0	True
+unknown_reason	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+count_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+same_estimand_twice	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+one_estimand_only	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+post_result_selection	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_ipcw	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+score_accessed	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+post_switch_outcomes_missing	True	FAIL_CLOSED	FAIL_CLOSED	1	True

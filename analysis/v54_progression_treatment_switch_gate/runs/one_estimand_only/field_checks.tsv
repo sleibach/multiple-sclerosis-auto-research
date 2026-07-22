@@ -1,0 +1,32 @@
+field	expected	observed	pass
+censor_at_switch_ipcw_model	non-placeholder text	"""SYNTHETIC baseline and observed history model"""	True
+competing_event_rule	non-placeholder text	"""SYNTHETIC frozen cause-specific sensitivity"""	True
+joint_score_progression_risk_sensitivity	non-placeholder text	"""SYNTHETIC fixed selection bound"""	True
+package_id	non-placeholder text	"""SYNTHETIC_ONE_ESTIMAND_ONLY_DO_NOT_USE_AS_DATA"""	True
+protocol_source	non-placeholder text	"""SYNTHETIC_ONLY/protocol.txt"""	True
+source_treatment_indication_adjustment	non-placeholder text	"""SYNTHETIC frozen strata/covariates"""	True
+switch_date_field	non-placeholder text	"""synthetic_switch_date"""	True
+switch_reason_dictionary_source	non-placeholder text	"""SYNTHETIC_ONLY/switch_dictionary.tsv"""	True
+switch_reason_field	non-placeholder text	"""synthetic_switch_reason"""	True
+treatment_history_source	non-placeholder text	"""SYNTHETIC_ONLY/treatment.tsv"""	True
+treatment_indication_context_source	non-placeholder text	"""SYNTHETIC_ONLY/indication.tsv"""	True
+both_estimands_reported	true	false	False
+censor_at_switch_ipcw_prespecified	true	true	True
+frozen_before_score_outcome_access	true	true	True
+joint_dependence_sensitivity_prespecified	true	true	True
+post_switch_outcomes_retained	true	true	True
+source_treatment_indication_adjustment_prespecified	true	true	True
+switch_reason_dictionary_complete	true	true	True
+unknown_switch_reason_category_defined	true	true	True
+endpoint_redefined_after_switch	false	false	True
+individual_outcomes_accessed_before_freeze	false	false	True
+outcome_driven_switch_exclusion	false	false	True
+post_result_estimand_selection	false	false	True
+scores_accessed_before_freeze	false	false	True
+switching_present	yes|no	"""yes"""	True
+unknown_switch_reasons_present	yes|no	"""no"""	True
+blinded_aggregate_switch_count	nonnegative integer	24	True
+switch_presence_count_consistency	no iff count=0; yes iff count>0	"{""count"": 24, ""switching_present"": ""yes""}"	True
+primary_estimand	treatment_policy|censor_at_switch	"""treatment_policy"""	True
+sensitivity_estimand	opposite valid estimand	"""censor_at_switch"""	True
+dual_estimand_complement	primary and sensitivity are different and exhaustive	"{""primary"": ""treatment_policy"", ""sensitivity"": ""censor_at_switch""}"	True

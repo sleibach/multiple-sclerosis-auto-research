@@ -1,0 +1,10 @@
+{
+  "purpose": "Synthetic regression of V54 treatment-switch estimand receipt gate",
+  "synthetic": true,
+  "n_fixtures": 10,
+  "n_pass": 10,
+  "n_expected_process_pass": 2,
+  "n_expected_fail_closed": 8,
+  "overall_status": "PASS",
+  "boundary": "Synthetic gate behavior only; no patient data, treatment effect, progression evidence, or biological claim."
+}
