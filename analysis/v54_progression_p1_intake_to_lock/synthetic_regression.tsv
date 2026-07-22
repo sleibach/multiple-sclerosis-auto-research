@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+reference_lock	True	LOCK_READY_FOR_FROZEN_ANALYSIS	LOCK_READY_FOR_FROZEN_ANALYSIS	0	True
+continue_accrual	True	CONTINUE_BLINDED_ACCRUAL	CONTINUE_BLINDED_ACCRUAL	0	True
+intake_failure	True	FAIL_CLOSED	FAIL_CLOSED	2	True
+unknown_censoring	True	FAIL_CLOSED	FAIL_CLOSED	2	True
+unknown_site_scale	True	FAIL_CLOSED	FAIL_CLOSED	2	True
+unknown_switch_reason	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+diagnostic_rescue	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+feasibility_summary_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	2	True
+forbidden_efficacy_field	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+cross_stage_package_mismatch	True	FAIL_CLOSED	FAIL_CLOSED	1	True

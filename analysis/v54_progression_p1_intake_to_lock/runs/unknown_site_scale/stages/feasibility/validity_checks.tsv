@@ -1,0 +1,30 @@
+check	class	expected	observed	pass
+package_id	hard_validity	non-placeholder text	"""SYNTHETIC_P1_UNKNOWN_SITE_SCALE_DO_NOT_USE_AS_DATA"""	True
+blind_freeze_source	hard_validity	non-placeholder text	"""SYNTHETIC_ONLY/blind_freeze.txt"""	True
+role	hard_validity	P1	"""P1"""	True
+frozen_before_score_access	hard_validity	true	true	True
+scores_accessed	hard_validity	false	false	True
+individual_outcomes_accessed	hard_validity	false	false	True
+cohort_specific_power_rerun_prespecified	hard_validity	true	true	True
+site_source_treatment_stratification_prespecified	hard_validity	true	true	True
+upstream_gate_summaries	hard_validity	exact combined_intake/event_time/site_score path map	"{""combined_intake"": ""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/intake/summary.json"", ""event_time"": ""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/event_time/summary.json"", ""site_score"": ""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/site_score/summary.json""}"	True
+combined_intake_summary_exists	hard_validity	existing JSON file	"""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/intake/summary.json"""	True
+combined_intake_decision	hard_validity	allowed pass decision	"""PASS_BLINDED_PROGRESSION_INTAKE"""	True
+combined_intake_package_binding	hard_validity	same package_id	"""SYNTHETIC_P1_UNKNOWN_SITE_SCALE_DO_NOT_USE_AS_DATA"""	True
+event_time_summary_exists	hard_validity	existing JSON file	"""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/event_time/summary.json"""	True
+event_time_decision	hard_validity	allowed pass decision	"""PASS_STANDARD_PLUS_DIAGNOSTICS"""	True
+event_time_package_binding	hard_validity	same package_id	"""SYNTHETIC_P1_UNKNOWN_SITE_SCALE_DO_NOT_USE_AS_DATA"""	True
+site_score_summary_exists	hard_validity	existing JSON file	"""analysis/v54_progression_p1_intake_to_lock/runs/unknown_site_scale/stages/site_score/summary.json"""	True
+site_score_decision	hard_validity	allowed pass decision	"""FAIL_CLOSED"""	False
+site_score_package_binding	hard_validity	same package_id	"""SYNTHETIC_P1_UNKNOWN_SITE_SCALE_DO_NOT_USE_AS_DATA"""	True
+planned_enrollment	hard_validity	integer >= 1	690	True
+analyzable_target	hard_validity	integer >= 1	450	True
+confirmed_event_target	hard_validity	integer >= 1	135	True
+molecular_repeat_count	hard_validity	integer >= 1	1	True
+enrollment_count_consistency	hard_validity	planned_enrollment >= analyzable_target	"{""analyzable_target"": 450, ""planned_enrollment"": 690}"	True
+event_probability_assumption	hard_validity	finite numeric in (0.0,1.0]	0.3	True
+visit_interval_months	hard_validity	finite numeric in (0.0,inf]	3	True
+followup_months	hard_validity	finite numeric in (0.0,inf]	24	True
+score_reliability_assumption	hard_validity	finite numeric in [0.0,1.0]	0.7	True
+site_analyzable_targets	hard_validity	nonempty site->positive integer map	"{""SITE_A"": 150, ""SITE_B"": 150, ""SITE_C"": 150}"	True
+site_target_sum	hard_validity	sum(site targets) == analyzable_target	450	True

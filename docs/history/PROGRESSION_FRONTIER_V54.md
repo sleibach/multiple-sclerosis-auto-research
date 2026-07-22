@@ -88,9 +88,10 @@ cannot measure progression rate or transition.
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 24/24 commands and 78/78 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 25/25 commands and 83/83 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
+| Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
 | Two-lineage adversarial review | 12/12 objections grounded; two change morphology grade | Review added value by exposing global multiplicity and within-donor estimand weaknesses. No progression or target verdict changed. |
 
 ## Source/Tissue-Balanced PPMS Versus SPMS Test
@@ -1206,6 +1207,24 @@ values, individual outcomes, effect estimates, direction, or significance.
 Reaching the reference count is an information-management event, not evidence
 of association or progression biology.
 
+## Full P1 Intake-to-Lock Composition
+
+Status: **synthetic-verified; one package identity from receipt to lock**.
+
+The composition contract
+(`docs/validation/PROGRESSION_P1_INTAKE_TO_LOCK_V54.md`;
+`scripts/v54_progression_p1_intake_to_lock.py`) executes the actual inventory,
+semantic, event-time, site-score, switch, nonlinear, feasibility, and aggregate
+information validators. Ten synthetic packages match expectation: one reaches
+mechanical lock, one remains in blinded accrual, and eight fail closed.
+
+The failures cover absent progression inventory, unknown censoring, unknown
+site scale, unknown switch reason, diagnostic rescue authority, an altered
+upstream summary identity, a forbidden p-value in the aggregate monitor, and a
+cross-stage package mismatch. Reaching lock authorizes only handoff to the
+separately frozen analysis; it is not a favorable result or progression
+evidence.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1216,10 +1235,10 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 24 checks and asserts 78 committed artifact/claim
+The final suite executes 25 checks and asserts 83 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
-combined-intake, endpoint-adjudication, event-time, site-score calibration, and
-composition regressions;
+combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
+site-score calibration, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance
 and structural gates; whitespace; tracked-file size; and tracked temporary
 paths. Its invariants explicitly retain zero portable stage modules, zero

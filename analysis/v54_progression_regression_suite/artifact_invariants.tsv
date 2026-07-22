@@ -67,6 +67,11 @@ analysis/v54_progression_evidence_delta/summary.json	traceability_status	eq	"""P
 analysis/v54_progression_package_eligibility_validator/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_outcome_semantic_checker/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_combined_intake_gate/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
+analysis/v54_progression_p1_intake_to_lock/summary.json	n_fixtures	eq	10	10	True
+analysis/v54_progression_p1_intake_to_lock/summary.json	n_pass	eq	10	10	True
+analysis/v54_progression_p1_intake_to_lock/summary.json	n_lock_ready	eq	1	1	True
+analysis/v54_progression_p1_intake_to_lock/summary.json	n_fail_closed	eq	8	8	True
+analysis/v54_progression_p1_intake_to_lock/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_endpoint_adjudication/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_endpoint_adjudication/summary.json	n_fixtures	eq	16	16	True
 analysis/v54_progression_event_time_assumption_gate/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True

@@ -1,0 +1,28 @@
+check	expected	observed	pass
+plan_schema	no unknown fields	[]	True
+snapshot_schema	no unknown fields	[]	True
+forbidden_efficacy_fields	none	[]	True
+package_binding	nonempty identical package_id	"{""plan"": ""SYNTHETIC_P1_DIAGNOSTIC_RESCUE_DO_NOT_USE_AS_DATA"", ""snapshot"": ""SYNTHETIC_P1_DIAGNOSTIC_RESCUE_DO_NOT_USE_AS_DATA""}"	True
+plan_source	nonempty text	"""SYNTHETIC_ONLY/frozen_information_plan.json"""	True
+snapshot_timestamp	nonempty text	"""2026-01-01T00:00:00Z"""	True
+plan_frozen_blind	true	true	True
+scores_accessed_before_freeze	false	false	True
+individual_outcomes_accessed_before_freeze	false	false	True
+efficacy_stopping_allowed	false	false	True
+futility_stopping_allowed	false	false	True
+site_analyzable_targets	nonempty site->positive integer map	"{""SITE_A"": 150, ""SITE_B"": 150, ""SITE_C"": 150}"	True
+total_analyzable_target	positive integer	450	True
+total_confirmed_event_target	positive integer	135	True
+minimum_confirmed_events_per_site	positive integer	10	True
+site_target_sum	sum site targets == total analyzable target	450	True
+site_enrolled_counts	exact site map with nonnegative integer counts	"{""SITE_A"": 230, ""SITE_B"": 230, ""SITE_C"": 230}"	True
+site_analyzable_counts	exact site map with nonnegative integer counts	"{""SITE_A"": 160, ""SITE_B"": 160, ""SITE_C"": 160}"	True
+site_confirmed_event_counts	exact site map with nonnegative integer counts	"{""SITE_A"": 46, ""SITE_B"": 46, ""SITE_C"": 46}"	True
+count_nesting	events <= analyzable <= enrolled at every site	"{""site_analyzable_counts"": {""SITE_A"": 160, ""SITE_B"": 160, ""SITE_C"": 160}, ""site_confirmed_event_counts"": {""SITE_A"": 46, ""SITE_B"": 46, ""SITE_C"": 46}, ""site_enrolled_counts"": {""SITE_A"": 230, ""SITE_B"": 230, ""SITE_C"": 230}}"	True
+expected_visit_count	nonnegative integer	5520	True
+completed_visit_count	nonnegative integer	5520	True
+pending_confirmation_count	nonnegative integer	0	True
+unknown_visit_reason_count	nonnegative integer	0	True
+unknown_censoring_reason_count	nonnegative integer	0	True
+visit_count_consistency	completed <= expected	"{""completed"": 5520, ""expected"": 5520}"	True
+followup_complete_type	boolean	true	True
