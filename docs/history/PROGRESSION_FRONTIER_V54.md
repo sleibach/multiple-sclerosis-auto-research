@@ -64,6 +64,7 @@ cannot measure progression rate or transition.
 | Progression-cohort acquisition contract | complete | Three roles and 64 required fields convert the transition, localization, and intervention-direction blockers into a fail-closed intake specification. No biological claim. |
 | Progression candidate role matrix | 0/10 candidates eligible for P1/P2/P3 | Metadata-only classification keeps monitoring, pharmacodynamic, pathology, and progression roles separate. Acquisition boundary, not biological null. |
 | Progression-package eligibility validator | synthetic-verified and path bug fixed | Fourteen synthetic inventories cover roles, malformed schemas, aliases, verification, nonmissing counts, and real-path behavior. A discovered missing-path pass bug was fixed. Method behavior only. |
+| Acquisition value-of-information synthesis | operational priority complete | Nine artifact-bound bundles separate five immediate from four conditional asks. The verified longitudinal molecular-to-disability link and ascertainment provenance rank first; P2/P3 remain dependency-blocked. |
 | Blinded P1/P2 pre-registration and endpoint semantic gate | synthetic-verified | Three valid disability declarations pass and nine proxy, incomplete, unconfirmed, or unblinded declarations fail closed. Method behavior only. |
 | Progression-event power design | synthetic assumption grid complete | 288,000 synthetic cohorts, three seeds; null FPR median 0.043/max 0.060. Only 7/24 non-null scenarios reached 80%; OR 1.25/1.5 did not by n=240. Not an empirical effect. |
 | Progression-power null calibration | acceptable | The 0.060 maximum is 90/1,500 (Wilson 0.049-0.073); no cell's lower bound exceeds 0.05 and the 48-cell reference maximum tail is 0.895. Method behavior only. |
@@ -90,7 +91,7 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 26/26 commands and 97/97 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 27/27 commands and 103/103 invariants pass | Fast gates, numerical references, negative claim boundaries, manifest drift detection, acquisition synthesis, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -559,6 +560,31 @@ pharmacodynamic-only, unconfirmed, undocumented-derived-label, date-incomplete
 PIRA, interaction-free P2, and score-unblinded declarations fail closed. A pass
 only establishes that the declared analysis is semantically eligible and
 frozen before score access; it is not progression evidence.
+
+## Progression Acquisition Value Of Information
+
+Status: **operational ranking complete; zero eligible candidates unchanged**.
+
+The artifact-bound synthesis
+(`docs/validation/PROGRESSION_ACQUISITION_VOI_V54.md`;
+`scripts/v54_progression_acquisition_voi.py`) validates nine acquisition
+bundles against the field schema, gate registry, candidate matrix, and cited
+artifacts. It ranks by dependency order, non-substitutability, and decisions
+unlocked, not by a fabricated biological-success probability.
+
+The immediate order is: (1) verified subject/sample/visit linkage connecting
+repeated molecular data to raw confirmed disability; (2) expected/actual visit,
+attendance, censoring, and death provenance; (3) site/batch/platform/scale
+identity; (4) balanced analyzable and confirmed-event yield; and (5) complete
+PIRA, relapse, steroid, infection, and treatment-switch context. Five living
+molecular candidates could be clarified by the core request, but none is
+assumed to possess unreported fields and none becomes eligible.
+
+Reliability repeats and longitudinal chronic-active imaging are conditional on
+core receipt. Paired CSF/blood composition waits for a P1 association;
+direction-resolved functional perturbation waits for P1 and P2/justified
+context. This ordering prevents expensive target work from preceding evidence
+that a state predicts progression.
 
 ## Progression-Event Power Design
 
@@ -1286,7 +1312,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 26 checks and asserts 97 committed artifact/claim
+The final suite executes 27 checks and asserts 103 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;

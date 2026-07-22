@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 26 executable checks and 97 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, combined-ascertainment boundaries, the hash-bound manifest, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 27 executable checks and 103 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, combined-ascertainment boundaries, the hash-bound manifest, acquisition priorities, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -87,7 +87,7 @@ project's evidence standard.
 | Nonlinear diagnostic preregistration gate | done | Ten synthetic declarations verify the exact threshold/saturation/quadratic family, blind freeze, corrected alpha or disjoint calibration, and non-rescuing status; 2 pass and 8 fail closed. |
 | Combined ascertainment adversarial stack | done | Primary 288k cohorts/576k routes suggested marginal compounding; independent 144k confirmation showed attendance weak-joint itself invalid. Unique compounding is not confirmed; joint score/risk attendance remains unsafe. |
 | Progression reference-design machine manifest | done | Eight gates and 18 source artifacts are SHA-256-bound into one lifecycle/reference contract; verify mode and a threshold-tamper regression pass. |
-| Progression acquisition value-of-information synthesis | todo | Rank the remaining external data fields/cohort features by which progression questions they unlock, using existing grounded blockers only. |
+| Progression acquisition value-of-information synthesis | done | Nine artifact-bound bundles: 5 immediate and 4 conditional. P1 longitudinal core + ascertainment provenance rank first; P2/P3 remain dependency-blocked. |
 | Full synthetic P1 intake-to-lock dry run | done | Actual seven-stage validators compose over one package ID: 1 synthetic route locks, 1 continues blinded accrual, and 8 stage/cross-stage faults fail closed. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -598,3 +598,14 @@ project's evidence standard.
 - 2026-07-22T01:16:04Z: Registered manifest verification in the consolidated
   suite; 26/26 commands and 97/97 invariants pass. Active time accrued:
   4h17m34s.
+- 2026-07-22T01:17:13Z: Pushed the reference manifest as `25355680` and froze
+  an acquisition value-of-information synthesis. Ranking is dependency- and
+  gate-based, not a fabricated probability of biological success. Active time
+  accrued: 4h18m43s.
+- 2026-07-22T01:18:41Z: Completed the acquisition value-of-information
+  synthesis. Nine bundles validate against committed fields/gates/artifacts;
+  the P1 longitudinal link and ascertainment provenance rank first, while P2
+  and P3 remain conditional. Active time accrued: 4h20m11s.
+- 2026-07-22T01:19:56Z: Registered acquisition synthesis in the consolidated
+  suite; 27/27 commands and 103/103 invariants pass. Active time accrued:
+  4h21m26s.
