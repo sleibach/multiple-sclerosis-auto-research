@@ -73,6 +73,7 @@ cannot measure progression rate or transition.
 | Progression visit-schedule robustness | informative attendance invalid; sparse confirmation loses power | 172,800 cohorts and 691,200 route evaluations. Complete/independent attendance calibrates; score-dependent attendance creates false protective calls. Only complete quarterly observation at the high event setting reaches 80% by n=320. Method behavior only. |
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
+| Multi-site score-scale harmonization | conditionally required under severe scale mismatch | 129,600 cohorts and 259,200 routes. Blinded within-site scaling materially improves transport in 6/36 comparisons, all under 0.5/1/2 site scales; it does not rescue imbalanced recruitment. Method behavior only. |
 | Prospective progression cohort design synthesis | complete; no current eligible cohort | Sixteen requirements trace 14 artifacts into one reference design. The n=450/balanced/30%-event/quarterly specification is assumption-labeled, not a universal minimum; candidate role inventory remains 0 P1/P2/P3. |
 | P2 compartment-interaction power design | conditionally ready with measured composition | 288,000 cohorts and 576,000 route evaluations. Direct interaction is calibrated only with high-fidelity composition or absent composition imbalance; noisy adjustment under true imbalance remains anti-conservative. Method behavior only. |
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
@@ -969,6 +970,42 @@ rarer events, informative missingness, site imbalance, or correlated
 measurement error can make `n=450` insufficient. The checker confirms that the
 known candidate inventory still contains zero P1-, P2-, or P3-eligible cohorts.
 
+## Site-Score Scale Harmonization
+
+Status: **blinded within-site scaling is conditionally necessary under severe
+assay-scale mismatch, but cannot rescue site imbalance or sparse events**.
+
+Executable audit:
+
+- frozen plan: `docs/plans/PROGRESSION_SITE_SCORE_HARMONIZATION_V54.md`
+- script: `scripts/v54_progression_site_score_harmonization.py`
+- results: `analysis/v54_progression_site_score_harmonization/`
+
+The seeded audit generated 129,600 unique cohorts and 259,200 route evaluations
+across uniform, moderate, and severe (`0.5/1.0/2.0`) site scale patterns. Both
+routes stratify by site; one uses one global score standardization and the other
+uses an outcome-blind within-site standardization. No null family is invalid.
+Two within-site families have isolated strict-cell flags while remaining
+compatible with their fixed family maxima; those families are conservatively
+excluded from gain claims.
+
+Six of 36 comparisons meet the frozen 0.10 aggregate and every-seed transport-
+gain rule, all under severe scale mismatch. In the balanced `n=450`, event
+probability `0.30` design, global scaling passes transport in only `0.466` of
+cohorts (every-seed minimum `0.398`), while within-site scaling reaches `0.809`
+(minimum `0.800`). Under uniform scales the same comparison is `0.807` versus
+`0.804`, showing no manufactured benefit. The severe 60/30/10 design improves
+`0.391 -> 0.755` but still fails the 0.80/every-seed transport requirement.
+
+The reversed-effect negative control remains selective after within-site
+scaling (maximum false transport `0.0325`). The acquisition implication is to
+capture exact site/platform/calibration identifiers and freeze score scaling
+from blinded metadata. Within-site scaling is justified when measurement scale
+differs, not selected because it improves an outcome. It cannot compensate for
+an underrepresented site, too few events, or an unknown site map. These are
+synthetic assay-method results, not evidence that any real cohort has scale
+mismatch.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -979,7 +1016,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 19 checks and asserts 49 committed artifact/claim
+The final suite executes 19 checks and asserts 53 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance

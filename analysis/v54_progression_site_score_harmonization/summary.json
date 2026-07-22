@@ -1,0 +1,16 @@
+{
+  "purpose": "Synthetic site-score harmonization and progression transport audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 129600,
+  "n_route_evaluations": 259200,
+  "n_aggregate_route_cells": 216,
+  "n_invalid_null_families": 0,
+  "n_harmonization_comparisons": 36,
+  "n_material_harmonization_gains": 6,
+  "material_gain_scale_patterns": [
+    "severe"
+  ],
+  "maximum_false_transport_within_site_scale": 0.0325,
+  "verdict": "WITHIN_SITE_SCALING_IS_REQUIRED_WHEN_ASSAY_SCALES_DIFFER",
+  "boundary": "All values are seeded synthetic method behavior, not empirical MS progression, assay, site, treatment, or biology."
+}

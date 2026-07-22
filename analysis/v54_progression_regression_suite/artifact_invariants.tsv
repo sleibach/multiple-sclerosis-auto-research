@@ -31,6 +31,10 @@ analysis/v54_progression_design_synthesis/summary.json	n_requirements	eq	16	16	T
 analysis/v54_progression_design_synthesis/summary.json	reference_total_n	eq	450	450	True
 analysis/v54_progression_design_synthesis/summary.json	current_known_p1_eligible_cohorts	eq	0	0	True
 analysis/v54_progression_design_synthesis/summary.json	verdict	eq	"""REFERENCE_DESIGN_SPECIFIED_BUT_NO_CURRENT_COHORT_ELIGIBLE"""	"""REFERENCE_DESIGN_SPECIFIED_BUT_NO_CURRENT_COHORT_ELIGIBLE"""	True
+analysis/v54_progression_site_score_harmonization/summary.json	n_unique_simulated_cohorts	eq	129600	129600	True
+analysis/v54_progression_site_score_harmonization/summary.json	n_invalid_null_families	eq	0	0	True
+analysis/v54_progression_site_score_harmonization/summary.json	n_material_harmonization_gains	eq	6	6	True
+analysis/v54_progression_site_score_harmonization/summary.json	verdict	eq	"""WITHIN_SITE_SCALING_IS_REQUIRED_WHEN_ASSAY_SCALES_DIFFER"""	"""WITHIN_SITE_SCALING_IS_REQUIRED_WHEN_ASSAY_SCALES_DIFFER"""	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P1_eligible	eq	0	0	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P2_eligible	eq	0	0	True
 analysis/v54_progression_candidate_role_matrix/summary.json	P3_eligible	eq	0	0	True

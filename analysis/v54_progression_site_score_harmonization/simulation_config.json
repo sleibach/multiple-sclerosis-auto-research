@@ -1,0 +1,82 @@
+{
+  "synthetic": true,
+  "sample_sizes": [
+    180,
+    300,
+    450
+  ],
+  "latent_event_probabilities": [
+    0.15,
+    0.3
+  ],
+  "allocations": {
+    "balanced": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "imbalanced_60_30_10": [
+      0.6,
+      0.3,
+      0.1
+    ]
+  },
+  "site_baseline_hazard_multipliers": [
+    0.6,
+    1.0,
+    1.8
+  ],
+  "site_score_offsets": [
+    -0.8,
+    0.0,
+    0.8
+  ],
+  "site_scale_patterns": {
+    "uniform": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "moderate": [
+      0.7,
+      1.0,
+      1.4
+    ],
+    "severe": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "effect_patterns_site_hrs": {
+    "null": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "homogeneous": [
+      1.7,
+      1.7,
+      1.7
+    ],
+    "one_site_reversed": [
+      1.7,
+      1.7,
+      0.6
+    ]
+  },
+  "score_transforms": [
+    "global_scale",
+    "within_site_scale"
+  ],
+  "measurement_reliability_before_site_scaling": 0.7,
+  "score_missing_rate": 0.1,
+  "replicates_per_seed": 400,
+  "seeds": [
+    54971,
+    54972,
+    54973
+  ],
+  "alpha": 0.05,
+  "boundary": "Seeded synthetic method behavior only; not empirical MS progression, assay, site, treatment, or biology."
+}

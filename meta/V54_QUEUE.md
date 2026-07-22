@@ -69,14 +69,14 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 19 executable checks and 49 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixture count, and the artifact-traced prospective design reference. |
+| V54 consolidated regression suite | done | One command runs 19 executable checks and 53 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization, and the artifact-traced design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
 | Multi-site progression transportability design | done | 115,200 seeded cohorts. Pooled inference is invalid in both hazard-aligned-score families (null maxima 0.685/0.482); all site-stratified families calibrate. Only n=450, event probability 0.30, balanced allocation passes full transport (2/24 score-structure variants); 60/30/10 allocation misses. |
 | Prospective progression cohort design synthesis | done | Rerunnable 16-requirement/14-source synthesis separates the n=450/balanced/30%-event/quarterly stress-tested reference from a universal minimum and binds endpoint, attendance, competing-risk, reliability, site, P2, and therapeutic boundaries. Zero known P1 cohorts remains explicit. |
 | Endpoint adjudicator malformed-input expansion | done | Five added fixtures bring the suite to 16/16. Duplicate day, malformed component/day, and unknown endpoint return INVALID_INPUT; later valid onset after a transient candidate is found at day 300 and confirmed at day 480. |
-| Multi-site score-scale harmonization | in-progress | Frozen assay-scale audit compares global versus blinded within-site standardization under uniform/moderate/severe site scales, balanced/imbalanced recruitment, homogeneous/reversed effects, and the full transport gate. |
+| Multi-site score-scale harmonization | done | 129,600 cohorts/259,200 routes; zero invalid null families. Six of 36 comparisons show material gain, all under severe 0.5/1/2 site scaling. Balanced n=450/event 0.30 improves transport 0.466 -> 0.809; imbalanced correction remains below readiness. Reversed-effect false transport max 0.0325. |
 | Enrollment inflation and analyzable-event design | todo | Translate attrition, score missingness, endpoint confirmation loss, and site balance into required enrollment versus analyzed participants/events without claiming a universal n. |
 | Blinded progression feasibility calculator | todo | Build a metadata-only CLI that classifies an incoming design against the V54 reference and fail-closed gates without reading scores or subject-level outcomes. |
 | Blinded information-accrual monitor | todo | Specify and synthetic-verify event/visit/site accrual monitoring that cannot inspect effect direction or trigger efficacy peeking. |
@@ -436,3 +436,15 @@ project's evidence standard.
   compares global with outcome-blind within-site scaling across three assay-
   scale patterns and retains the full transport and reversed-effect controls.
   Active time accrued: 3h07m47s.
+- 2026-07-22T00:10:49Z: Completed 129,600 site-scale cohorts and 259,200
+  transport-route evaluations. No null family is invalid; two within-site
+  families have strict-cell but family-compatible flags and remain excluded.
+  Six of 36 comparisons meet the material-gain rule, all under severe
+  `0.5/1.0/2.0` scale mismatch. In the balanced `n=450`, event-0.30 design,
+  blinded within-site scaling raises transport `0.466 -> 0.809`; the imbalanced
+  counterpart reaches `0.755` and remains not ready. Reversed-effect false
+  transport is at most `0.0325`. Active time accrued: 3h12m19s.
+- 2026-07-22T00:12:11Z: Integrated and pinned the harmonization boundary. The
+  consolidated suite passes 19/19 commands and 53/53 invariants; provenance,
+  structure, whitespace, tracked-size, and temporary-path guards pass. Active
+  time accrued: 3h13m41s.
