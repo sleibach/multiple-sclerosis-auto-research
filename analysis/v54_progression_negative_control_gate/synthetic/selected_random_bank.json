@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_SELECTED_RANDOM_BANK_DO_NOT_USE_AS_DATA",
+  "protocol_source": "SYNTHETIC_ONLY/protocol.txt",
+  "analysis_plan_source": "SYNTHETIC_ONLY/analysis_plan.txt",
+  "primary_model": "one frozen site-stratified molecular Cox coefficient",
+  "primary_endpoint": "one frozen confirmed CDP or PIRA endpoint",
+  "control_family": [
+    "attendance_censoring_process",
+    "matched_random_module_bank",
+    "pre_index_progression_event",
+    "relapse_associated_worsening",
+    "site_batch_quality_process",
+    "subject_blocked_score_permutation",
+    "unconfirmed_transient_worsening"
+  ],
+  "endpoint_specificity_controls": [
+    "pre_index_progression_event",
+    "relapse_associated_worsening",
+    "unconfirmed_transient_worsening"
+  ],
+  "permutation_strata": [
+    "collection_site",
+    "source_cohort",
+    "treatment_stratum"
+  ],
+  "preserve_subject_blocks": true,
+  "seeds": [
+    55451,
+    55453,
+    55459
+  ],
+  "permutations_per_seed": 10000,
+  "random_modules_per_seed": 20,
+  "random_module_matching": [
+    "detected_gene_count",
+    "expression_variance",
+    "mean_expression",
+    "module_size"
+  ],
+  "exclude_primary_module_genes": true,
+  "random_module_exclusion_rule": "exclude every primary module gene before blind matching",
+  "multiplicity_method": "holm_diagnostic_plus_maxT_random_bank",
+  "diagnostic_method": "holm",
+  "random_bank_method": "maxT",
+  "diagnostic_family_alpha": 0.05,
+  "analysis_count_budget": 7,
+  "mandatory_actions": {
+    "subject_blocked_score_permutation": "PRIMARY_INFERENCE_INVALID",
+    "matched_random_module_bank": "PRIMARY_INFERENCE_INVALID",
+    "unconfirmed_transient_worsening": "PROGRESSION_SPECIFICITY_DOWNGRADE",
+    "relapse_associated_worsening": "PROGRESSION_SPECIFICITY_DOWNGRADE",
+    "pre_index_progression_event": "PROGRESSION_SPECIFICITY_DOWNGRADE",
+    "attendance_censoring_process": "EVENT_TIME_INFERENCE_FAIL_CLOSED",
+    "site_batch_quality_process": "TRANSPORT_OR_TECHNICAL_INTERPRETATION_FAIL_CLOSED"
+  },
+  "all_controls_pass_interpretation": "retain primary grade only; no upgrade or causal claim",
+  "frozen_before_score_outcome_access": true,
+  "primary_reported_regardless": true,
+  "all_controls_reported": true,
+  "control_failures_apply_mandatory_actions": true,
+  "future_control_change_requires_separate_preregistration": true,
+  "scores_accessed_before_freeze": false,
+  "individual_outcomes_accessed_before_freeze": false,
+  "post_result_control_selection": false,
+  "control_can_replace_primary": false,
+  "control_can_rescue_primary": false,
+  "clean_controls_can_upgrade_primary": false,
+  "failed_control_can_be_omitted": false
+}

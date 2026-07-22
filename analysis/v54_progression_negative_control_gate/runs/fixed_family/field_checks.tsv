@@ -1,0 +1,37 @@
+field	expected	observed	pass
+all_controls_pass_interpretation	non-placeholder text	"""retain primary grade only; no upgrade or causal claim"""	True
+analysis_plan_source	non-placeholder text	"""SYNTHETIC_ONLY/analysis_plan.txt"""	True
+multiplicity_method	non-placeholder text	"""holm_diagnostic_plus_maxT_random_bank"""	True
+package_id	non-placeholder text	"""SYNTHETIC_FIXED_FAMILY_DO_NOT_USE_AS_DATA"""	True
+primary_endpoint	non-placeholder text	"""one frozen confirmed CDP or PIRA endpoint"""	True
+primary_model	non-placeholder text	"""one frozen site-stratified molecular Cox coefficient"""	True
+protocol_source	non-placeholder text	"""SYNTHETIC_ONLY/protocol.txt"""	True
+random_module_exclusion_rule	non-placeholder text	"""exclude every primary module gene before blind matching"""	True
+all_controls_reported	true	true	True
+control_failures_apply_mandatory_actions	true	true	True
+exclude_primary_module_genes	true	true	True
+frozen_before_score_outcome_access	true	true	True
+future_control_change_requires_separate_preregistration	true	true	True
+preserve_subject_blocks	true	true	True
+primary_reported_regardless	true	true	True
+clean_controls_can_upgrade_primary	false	false	True
+control_can_replace_primary	false	false	True
+control_can_rescue_primary	false	false	True
+failed_control_can_be_omitted	false	false	True
+individual_outcomes_accessed_before_freeze	false	false	True
+post_result_control_selection	false	false	True
+scores_accessed_before_freeze	false	false	True
+synthetic	explicit boolean	true	True
+control_family	exact seven-control family	"[""attendance_censoring_process"", ""matched_random_module_bank"", ""pre_index_progression_event"", ""relapse_associated_worsening"", ""site_batch_quality_process"", ""subject_blocked_score_permutation"", ""unconfirmed_transient_worsening""]"	True
+endpoint_specificity_controls	exact three endpoint controls	"[""pre_index_progression_event"", ""relapse_associated_worsening"", ""unconfirmed_transient_worsening""]"	True
+permutation_strata	exact source/site/treatment strata	"[""collection_site"", ""source_cohort"", ""treatment_stratum""]"	True
+random_module_matching	exact four-factor matching	"[""detected_gene_count"", ""expression_variance"", ""mean_expression"", ""module_size""]"	True
+seeds	exact fixed seeds	[55451, 55453, 55459]	True
+permutations_per_seed	>=10000	10000	True
+random_modules_per_seed	100	100	True
+diagnostic_family_alpha	0.05	0.05	True
+multiplicity_method_exact	holm_diagnostic_plus_maxT_random_bank	"""holm_diagnostic_plus_maxT_random_bank"""	True
+random_bank_method	maxT	"""maxT"""	True
+diagnostic_method	holm	"""holm"""	True
+analysis_count_budget	7	7	True
+mandatory_actions	exact control-action map	"{""attendance_censoring_process"": ""EVENT_TIME_INFERENCE_FAIL_CLOSED"", ""matched_random_module_bank"": ""PRIMARY_INFERENCE_INVALID"", ""pre_index_progression_event"": ""PROGRESSION_SPECIFICITY_DOWNGRADE"", ""relapse_associated_worsening"": ""PROGRESSION_SPECIFICITY_DOWNGRADE"", ""site_batch_quality_process"": ""TRANSPORT_OR_TECHNICAL_INTERPRETATION_FAIL_CLOSED"", ""subject_blocked_score_permutation"": ""PRIMARY_INFERENCE_INVALID"", ""unconfirmed_transient_worsening"": ""PROGRESSION_SPECIFICITY_DOWNGRADE""}"	True

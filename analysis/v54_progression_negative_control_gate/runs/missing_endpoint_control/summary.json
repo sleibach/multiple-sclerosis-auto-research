@@ -1,0 +1,13 @@
+{
+  "purpose": "V54 blind P1 negative-control declaration gate; no biological claim",
+  "synthetic": true,
+  "package_id": "SYNTHETIC_MISSING_ENDPOINT_CONTROL_DO_NOT_USE_AS_DATA",
+  "n_controls": 7,
+  "n_checks": 36,
+  "n_blockers": 1,
+  "blockers": [
+    "endpoint_specificity_controls:invalid"
+  ],
+  "decision": "FAIL_CLOSED",
+  "boundary": "A pass freezes diagnostic controls only; clean controls cannot validate, rescue, or upgrade a progression claim."
+}

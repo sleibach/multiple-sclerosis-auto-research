@@ -1,0 +1,11 @@
+fixture	synthetic	expected_decision	observed_decision	n_blockers	regression_pass
+fixed_family	True	PASS_FIXED_NEGATIVE_CONTROL_FAMILY	PASS_FIXED_NEGATIVE_CONTROL_FAMILY	0	True
+missing_site_process	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+missing_endpoint_control	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+too_few_permutations	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+changed_permutation_strata	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+post_access_freeze	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+rescue_authority	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+omit_failed_control	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+changed_failure_action	True	FAIL_CLOSED	FAIL_CLOSED	1	True
+selected_random_bank	True	FAIL_CLOSED	FAIL_CLOSED	1	True

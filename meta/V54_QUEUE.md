@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 28 executable checks and 141 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, ascertainment, confirmation-error, and per-site precision boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 29 executable checks and 147 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, full intake-to-lock composition, ascertainment, negative-control, confirmation-error, and per-site precision boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, routing, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -94,7 +94,7 @@ project's evidence standard.
 | Leave-site-out precision design | done | 96,000 cohorts; no design reaches strict every-site-CI readiness. Best HR1.5 n1,500/30%/balanced is 0.740 (minimum seed 0.735) despite sign transport 0.950. |
 | Upper-range per-site precision extension | done | 72,000 cohorts. HR1.5/30% balanced first passes at n1,800 (weak-site median 102 events); imbalance passes at n3,000. HR1.3 and 15%-event routes do not pass through n3,000. |
 | Acquisition request packet | done | Ready-to-send generic request plus 66-field provider template: 50 canonical P1/all-role, 12 immediate VOI additions, 4 confirmation-process fields; 51 gate-critical rows first. |
-| Progression negative-control specification | todo | Freeze mandatory molecular, endpoint, and site negative controls for a future P1 package before score access. |
+| Progression negative-control specification | done | Seven exact controls; one valid synthetic declaration passes and nine missing/post-hoc/rescuing/action-altered routes fail closed. Clean controls cannot upgrade the primary. |
 | Progression external-review brief | todo | Produce a skeptic-facing summary of what would falsify the progression route and why current evidence does not imply a target. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -672,3 +672,12 @@ project's evidence standard.
   fields appear first. Active time accrued: 4h56m20s.
 - 2026-07-22T01:56:26Z: Registered the request-packet builder; 28/28 commands
   and 141/141 invariants pass. Active time accrued: 4h57m56s.
+- 2026-07-22T01:58:06Z: Pushed the acquisition packet as `33004bc7` and froze
+  a seven-control, non-rescuing P1 diagnostic family. Each control has an exact
+  fail-closed or specificity-downgrade action; clean controls cannot validate
+  the primary result. Active time accrued: 4h59m36s.
+- 2026-07-22T01:59:37Z: Completed the seven-control declaration gate. One exact
+  synthetic family passes and nine malformed, post-access, rescuing, or
+  action-altered declarations fail closed. Active time accrued: 5h01m07s.
+- 2026-07-22T02:00:48Z: Registered the negative-control gate; 29/29 commands
+  and 147/147 invariants pass. Active time accrued: 5h02m18s.
