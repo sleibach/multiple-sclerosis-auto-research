@@ -1,0 +1,48 @@
+{
+  "purpose": "V54 synthetic leave-site-out and per-site precision audit; no biological claim",
+  "synthetic": true,
+  "n_unique_simulated_cohorts": 72000,
+  "n_null_families_invalid": 0,
+  "n_precision_ready_designs": 4,
+  "n_homogeneous_designs": 24,
+  "ready_designs": [
+    {
+      "effect_pattern": "homogeneous_hr15",
+      "n_requested": 1800,
+      "event_probability": 0.3,
+      "allocation": "balanced"
+    },
+    {
+      "effect_pattern": "homogeneous_hr15",
+      "n_requested": 2100,
+      "event_probability": 0.3,
+      "allocation": "balanced"
+    },
+    {
+      "effect_pattern": "homogeneous_hr15",
+      "n_requested": 3000,
+      "event_probability": 0.3,
+      "allocation": "balanced"
+    },
+    {
+      "effect_pattern": "homogeneous_hr15",
+      "n_requested": 3000,
+      "event_probability": 0.3,
+      "allocation": "imbalanced_60_30_10"
+    }
+  ],
+  "best_tested_design": {
+    "effect_pattern": "homogeneous_hr15",
+    "n_requested": 3000,
+    "event_probability": 0.3,
+    "allocation": "balanced",
+    "strict_precision_probability": 0.93,
+    "minimum_seed_probability": 0.9225,
+    "median_minimum_site_events": 170.0,
+    "median_widest_site_ci_half_width": 0.15117703981015485
+  },
+  "maximum_false_precision_one_site_only": 0.0008333333333333334,
+  "maximum_false_precision_one_site_reversed": 0.0,
+  "verdict": "PER_SITE_PRECISION_REQUIRES_MORE_THAN_SIGN_CONSISTENCY",
+  "boundary": "Synthetic precision-method behavior only; no empirical MS effect, event rate, or universal sample-size claim."
+}
