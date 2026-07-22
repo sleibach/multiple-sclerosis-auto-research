@@ -182,6 +182,7 @@ def main() -> None:
         ("analysis/v54_progression_outcome_semantic_checker/summary.json", "overall_status", "eq", "PASS"),
         ("analysis/v54_progression_combined_intake_gate/summary.json", "overall_status", "eq", "PASS"),
         ("analysis/v54_progression_endpoint_adjudication/summary.json", "overall_status", "eq", "PASS"),
+        ("analysis/v54_progression_endpoint_adjudication/summary.json", "n_fixtures", "eq", 16),
         ("analysis/v54_progression_event_time_assumption_gate/summary.json", "overall_status", "eq", "PASS"),
         ("analysis/v54_progression_p2_composition_gate/summary.json", "overall_status", "eq", "PASS"),
         ("analysis/v54_progression_event_time_power_design/reference_check/summary.json", "overall_status", "eq", "PASS"),

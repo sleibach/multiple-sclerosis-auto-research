@@ -70,3 +70,8 @@ At minimum, fixtures cover:
 Every fixture records its expected status before execution. All artifacts must
 carry a synthetic marker and state that adjudication behavior is not MS
 evidence.
+
+Implementation coverage now includes explicit duplicate assessment day,
+malformed component, malformed day, unknown endpoint, and later-valid-onset
+fixtures in addition to the original cases. These implement the frozen input
+and candidate-search requirements; they do not change the protocol.

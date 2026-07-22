@@ -89,8 +89,23 @@ def adjudicate_subject(frame: pd.DataFrame, protocol: dict[str, Any]) -> dict[st
         return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "protocol_not_marked_synthetic"}
     if not bool(frame.synthetic.map(yes).all()):
         return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "fixture_not_marked_synthetic"}
+    if not subject.strip():
+        return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "missing_subject_id"}
+    if frame.day.isna().any() or not np.isfinite(frame.day).all():
+        return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "malformed_assessment_day"}
+    if not np.equal(frame.day, np.floor(frame.day)).all():
+        return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "non_integer_assessment_day"}
+    frame = frame.copy()
+    frame["day"] = frame.day.astype(int)
     if frame.day.duplicated().any():
         return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "duplicate_assessment_day"}
+    for component in protocol.get("components", {}):
+        if component not in frame or frame[component].isna().any():
+            return {
+                "subject_id": subject,
+                "status": "INVALID_INPUT",
+                "reason": f"malformed_or_missing_{component}",
+            }
     baseline_rows = frame.loc[frame.day.eq(int(protocol["baseline_day"]))]
     if len(baseline_rows) != 1:
         return {"subject_id": subject, "status": "INVALID_INPUT", "reason": "baseline_missing_or_duplicate"}
@@ -187,7 +202,7 @@ def adjudicate_file(data_path: Path, protocol_path: Path, output_dir: Path) -> d
     missing = sorted(set(REQUIRED_COLUMNS) - set(frame.columns))
     if missing:
         raise RuntimeError(f"Input missing required columns: {missing}")
-    frame["day"] = pd.to_numeric(frame.day, errors="raise").astype(int)
+    frame["day"] = pd.to_numeric(frame.day, errors="coerce")
     for component in ("edss", "t25fw"):
         frame[component] = pd.to_numeric(frame[component], errors="coerce")
     protocol = json.loads(protocol_path.read_text())
@@ -270,6 +285,28 @@ def synthetic_regression(output_dir: Path) -> dict[str, Any]:
 
     no_baseline = [row(30, "3.0", "12.0"), row(210, "3.0", "12.0")]
     cases.append(("missing_baseline", "pira", no_baseline, "INVALID_INPUT"))
+
+    duplicate_day = base_rows() + [row(210, "3.0", "12.0")]
+    cases.append(("duplicate_assessment_day", "pira", duplicate_day, "INVALID_INPUT"))
+
+    malformed_component = base_rows()
+    malformed_component[-1] = row(210, "not_numeric", "12.0")
+    cases.append(("malformed_component", "pira", malformed_component, "INVALID_INPUT"))
+
+    malformed_day = base_rows()
+    malformed_day[-1]["day"] = "not_a_day"
+    cases.append(("malformed_day", "pira", malformed_day, "INVALID_INPUT"))
+
+    cases.append(("unknown_endpoint", "unknown", base_rows(), "INVALID_INPUT"))
+
+    later_valid = [
+        row(0, "2.0", "10.0"),
+        row(30, "3.0", "12.0"),
+        row(210, "2.0", "10.0"),
+        row(300, "3.0", "12.0"),
+        row(480, "3.0", "12.0"),
+    ]
+    cases.append(("later_valid_onset_after_transient", "pira", later_valid, "CONFIRMED_EVENT"))
 
     fixture_dir = output_dir / "synthetic"
     protocol_dir = output_dir / "protocols"

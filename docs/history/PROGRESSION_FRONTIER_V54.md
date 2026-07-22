@@ -78,7 +78,7 @@ cannot measure progression rate or transition.
 | P2 composition-method acceptance gate | synthetic-verified | Nine declarations distinguish direct measurement, direct-reference-validated sensitivity proxies, and fail-closed expression-only/unlinked/outcome-selected methods. Method behavior only. |
 | Event-time assumption robustness | two failure boundaries established | 225,000 cohorts and 675,000 window evaluations. Joint score/event-risk dropout makes Cox anti-conservative; crossing effects can cancel in the whole-follow-up coefficient. Synthetic method behavior only. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
-| CDP/PIRA endpoint adjudicator | synthetic-verified | Eleven edge cases preserve confirmed, transient, context-excluded, missing-confirmation, censored, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
+| CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
 | Consolidated progression regression suite | 16/16 commands and 28/28 invariants pass | Fast gates, numerical references, negative claim boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
@@ -747,14 +747,18 @@ handling without modifying the frozen P1/P2 contract.
 Endpoint values themselves are handled by
 `scripts/v54_progression_endpoint_adjudication.py`, under the frozen synthetic
 test plan `docs/plans/PROGRESSION_ENDPOINT_ADJUDICATION_FIXTURES_V54.md`.
-Eleven synthetic fixtures pass their predeclared outcomes. The processor does
+Sixteen synthetic fixtures pass their predeclared outcomes. The processor does
 not convert transient or component-discordant worsening into an event, does not
 convert missing or mistimed confirmation into a negative, and reports
 treatment-switch censoring before confirmation as inconclusive. A confirmed
 relapse-associated disability event remains eligible as CDP under the synthetic
 CDP declaration but is not relabeled PIRA. The embedded thresholds are fixture
 parameters only; a real cohort must supply its documented protocol before score
-access.
+access. The added malformed-input regressions return explicit `INVALID_INPUT`
+for duplicate assessment days, malformed component/day values, and an unknown
+endpoint. A separate fixture proves that an earlier transient candidate does
+not prevent the frozen search from returning a later qualifying onset (day 300,
+confirmed day 480).
 
 ## Progression Competing-Risk And Death Robustness
 
@@ -975,7 +979,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 19 checks and asserts 48 committed artifact/claim
+The final suite executes 19 checks and asserts 49 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, endpoint-adjudication, event-time, and composition regressions;
 four independent numerical references; the candidate role matrix; provenance

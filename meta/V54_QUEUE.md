@@ -65,17 +65,17 @@ project's evidence standard.
 | Combined P1/P2 intake gate orchestrator | done | Nine synthetic cross-gate fixtures pass: valid P1/P2 and additive metadata accepted; component failures, role/endpoint/package mismatch, and prior score access fail closed. |
 | P2 compartment-interaction power design | done | 288k synthetic cohorts/576k route evaluations. Direct interaction is calibrated with perfect composition, or noisy composition when no imbalance exists; noisy adjustment under true imbalance remains invalid. Trusted adjusted scenarios reach 80% in 27/36 cells; independent OLS reference check passes. |
 | Event-time assumption robustness | done | 225k synthetic cohorts/675k window evaluations. Four censoring families calibrate; joint score/event-risk censoring is invalid (null median 0.544, max 0.795, all spurious-negative). Crossing effects are detected only 0.127-0.157 overall at n=320/event=0.30 despite opposite window recovery. Four numerical references pass. |
-| Progression endpoint adjudication fixtures | done | Eleven synthetic CDP/PIRA fixtures pass: confirmed, transient, missing/mistimed confirmation, relapse/steroid exclusion, component discordance, switch censoring, and invalid baseline. CDP and PIRA remain distinct. |
+| Progression endpoint adjudication fixtures | done | Sixteen synthetic CDP/PIRA fixtures pass: confirmed, transient, later-valid onset, missing/mistimed confirmation, relapse/steroid exclusion, component discordance, switch censoring, invalid baseline, duplicate day, malformed values, and unknown endpoint. CDP/PIRA remain distinct. |
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 19 executable checks and 48 artifact/claim invariants; all pass. It pins method boundaries and the artifact-traced prospective design reference. |
+| V54 consolidated regression suite | done | One command runs 19 executable checks and 49 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixture count, and the artifact-traced prospective design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
 | Multi-site progression transportability design | done | 115,200 seeded cohorts. Pooled inference is invalid in both hazard-aligned-score families (null maxima 0.685/0.482); all site-stratified families calibrate. Only n=450, event probability 0.30, balanced allocation passes full transport (2/24 score-structure variants); 60/30/10 allocation misses. |
 | Prospective progression cohort design synthesis | done | Rerunnable 16-requirement/14-source synthesis separates the n=450/balanced/30%-event/quarterly stress-tested reference from a universal minimum and binds endpoint, attendance, competing-risk, reliability, site, P2, and therapeutic boundaries. Zero known P1 cohorts remains explicit. |
-| Endpoint adjudicator malformed-input expansion | todo | Add duplicate day, malformed numeric, unknown protocol, and later-valid-onset regressions. |
+| Endpoint adjudicator malformed-input expansion | done | Five added fixtures bring the suite to 16/16. Duplicate day, malformed component/day, and unknown endpoint return INVALID_INPUT; later valid onset after a transient candidate is found at day 300 and confirmed at day 480. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
 
@@ -415,3 +415,12 @@ project's evidence standard.
   regression suite. All 19 command checks and 48 artifact invariants pass,
   together with provenance, structure, whitespace, size, and path guards.
   Active time accrued: 3h04m27s.
+- 2026-07-22T00:04:31Z: Expanded the endpoint adjudicator to 16/16 synthetic
+  regressions. Duplicate dates, malformed component/day values, and unknown
+  endpoints return explicit `INVALID_INPUT` rather than crashing or becoming
+  false negatives. The frozen candidate search correctly skips an onset at day
+  30 that fails confirmation and returns the later valid onset/confirmation at
+  days 300/480. Active time accrued: 3h06m01s.
+- 2026-07-22T00:05:28Z: Endpoint hardening is pinned in the suite; 19/19
+  command checks and 49/49 invariants pass with all provenance, structural,
+  whitespace, size, and path guards. Active time accrued: 3h06m58s.
