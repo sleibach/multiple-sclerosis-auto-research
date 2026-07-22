@@ -65,6 +65,13 @@ analysis/v54_progression_acquisition_voi/summary.json	top_priority	eq	"""p1_long
 analysis/v54_progression_acquisition_voi/summary.json	current_p1_eligible	eq	0	0	True
 analysis/v54_progression_acquisition_voi/summary.json	current_p2_eligible	eq	0	0	True
 analysis/v54_progression_acquisition_voi/summary.json	verdict	eq	"""ACQUIRE_P1_LONGITUDINAL_CORE_AND_ASCERTAINMENT_PROVENANCE_FIRST"""	"""ACQUIRE_P1_LONGITUDINAL_CORE_AND_ASCERTAINMENT_PROVENANCE_FIRST"""	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_template_fields	eq	66	66	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_canonical_p1_or_all_fields	eq	50	50	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_immediate_voi_extra_fields	eq	12	12	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_confirmation_provenance_fields	eq	4	4	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_immediate_bundles_covered	eq	5	5	True
+analysis/v54_progression_acquisition_request_packet/summary.json	n_immediate_gate_fields	eq	51	51	True
+analysis/v54_progression_acquisition_request_packet/summary.json	overall_status	eq	"""PASS"""	"""PASS"""	True
 analysis/v54_progression_site_score_harmonization/summary.json	n_unique_simulated_cohorts	eq	129600	129600	True
 analysis/v54_progression_site_score_harmonization/summary.json	n_invalid_null_families	eq	0	0	True
 analysis/v54_progression_site_score_harmonization/summary.json	n_material_harmonization_gains	eq	6	6	True
