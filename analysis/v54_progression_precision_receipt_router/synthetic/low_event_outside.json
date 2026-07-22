@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "package_id": "SYNTHETIC_LOW_EVENT_OUTSIDE_DO_NOT_USE_AS_DATA",
+  "aggregate_only": true,
+  "frozen_before_score_access": true,
+  "scores_accessed": false,
+  "cohort_specific_simulation_required": true,
+  "interpretation_not_validation": true,
+  "precision_claim_requires_every_site_ci": true,
+  "planning_hr_assumption": 1.5,
+  "site_allocation": "balanced",
+  "site_analyzable_counts": {
+    "SITE_A": 600,
+    "SITE_B": 600,
+    "SITE_C": 600
+  },
+  "site_confirmed_event_counts": {
+    "SITE_A": 50,
+    "SITE_B": 100,
+    "SITE_C": 120
+  },
+  "analyzable_total": 1800,
+  "confirmed_event_total": 270
+}

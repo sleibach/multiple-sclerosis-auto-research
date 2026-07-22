@@ -1,0 +1,20 @@
+field	expected	observed	pass
+package_id	non-placeholder text	"""SYNTHETIC_MISSING_SITE_DO_NOT_USE_AS_DATA"""	True
+synthetic	explicit boolean	true	True
+aggregate_only	true	true	True
+frozen_before_score_access	true	true	True
+scores_accessed	false	false	True
+cohort_specific_simulation_required	true	true	True
+interpretation_not_validation	true	true	True
+precision_claim_requires_every_site_ci	true	true	True
+planning_hr_assumption	one frozen tested assumption	1.5	True
+site_allocation	one predeclared allocation class	"""balanced"""	True
+site_analyzable_counts	three nonnegative integer counts	"{""SITE_A"": 900, ""SITE_B"": 900}"	False
+site_confirmed_event_counts	three nonnegative integer counts	"{""SITE_A"": 102, ""SITE_B"": 180, ""SITE_C"": 258}"	True
+effect_direction	absent	"""ABSENT"""	True
+effect_estimate	absent	"""ABSENT"""	True
+efficacy_recommendation	absent	"""ABSENT"""	True
+futility_recommendation	absent	"""ABSENT"""	True
+individual_outcomes	absent	"""ABSENT"""	True
+molecular_values	absent	"""ABSENT"""	True
+p_value	absent	"""ABSENT"""	True

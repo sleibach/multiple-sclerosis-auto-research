@@ -1,0 +1,26 @@
+field	expected	observed	pass
+package_id	non-placeholder text	"""SYNTHETIC_PRECISION_IMBALANCED_DO_NOT_USE_AS_DATA"""	True
+synthetic	explicit boolean	true	True
+aggregate_only	true	true	True
+frozen_before_score_access	true	true	True
+scores_accessed	false	false	True
+cohort_specific_simulation_required	true	true	True
+interpretation_not_validation	true	true	True
+precision_claim_requires_every_site_ci	true	true	True
+planning_hr_assumption	one frozen tested assumption	1.5	True
+site_allocation	one predeclared allocation class	"""imbalanced_60_30_10"""	True
+site_analyzable_counts	three nonnegative integer counts	"{""SITE_A"": 1800, ""SITE_B"": 900, ""SITE_C"": 300}"	True
+site_confirmed_event_counts	three nonnegative integer counts	"{""SITE_A"": 500, ""SITE_B"": 263, ""SITE_C"": 137}"	True
+effect_direction	absent	"""ABSENT"""	True
+effect_estimate	absent	"""ABSENT"""	True
+efficacy_recommendation	absent	"""ABSENT"""	True
+futility_recommendation	absent	"""ABSENT"""	True
+individual_outcomes	absent	"""ABSENT"""	True
+molecular_values	absent	"""ABSENT"""	True
+p_value	absent	"""ABSENT"""	True
+site_keys_match	identical three sites	"{""analyzable"": [""SITE_A"", ""SITE_B"", ""SITE_C""], ""events"": [""SITE_A"", ""SITE_B"", ""SITE_C""]}"	True
+site_analyzable_positive	positive analyzable count at every site	"{""SITE_A"": 1800, ""SITE_B"": 900, ""SITE_C"": 300}"	True
+site_allocation_matches_counts	declared allocation agrees with observed blinded site counts	"{""allocation"": ""imbalanced_60_30_10"", ""counts"": {""SITE_A"": 1800, ""SITE_B"": 900, ""SITE_C"": 300}}"	True
+event_counts_within_analyzable	events <= analyzable at each site	"{""SITE_A"": 500, ""SITE_B"": 263, ""SITE_C"": 137}"	True
+analyzable_total	sum of site counts	3000	True
+confirmed_event_total	sum of site events	900	True

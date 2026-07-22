@@ -1,0 +1,12 @@
+{
+  "purpose": "Synthetic regression of V54 per-site precision receipt router",
+  "synthetic": true,
+  "n_fixtures": 11,
+  "n_pass": 11,
+  "n_precision_reference": 2,
+  "n_sign_reference": 1,
+  "n_reparameterize": 3,
+  "n_fail_closed": 5,
+  "overall_status": "PASS",
+  "boundary": "Synthetic routing behavior only; no patient data, validation result, progression association, precision claim, or biological evidence."
+}

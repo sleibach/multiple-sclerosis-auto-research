@@ -78,6 +78,7 @@ cannot measure progression rate or transition.
 | Repeated molecular-score reliability | useful only from a low-reliability starting point | 216,000 synthetic cohorts. Sixteen of 96 repeat-gain cells meet the frozen 0.10 aggregate/every-seed gain rule, all at starting reliability 0.40; correlated error sharply limits gain. Method behavior only. |
 | Multi-site progression transportability | only high-event balanced-site design passes | 115,200 synthetic cohorts. Site stratification repairs deliberate pooled site confounding. Only n=450, event probability 0.30, balanced allocation passes global, site-direction, leave-site-out, event-count, heterogeneity, and negative-control gates. Method behavior only. |
 | Leave-site-out/per-site precision | conditional upper-range boundary located | Initial 96,000 cohorts: no n<=1,500 design passes. Separate 72,000-cohort extension: assumed HR1.5/30%-event balanced sites first pass at n1,800 (weak-site median 102 events); imbalance delays to n3,000. HR1.3 and 15%-event routes do not pass through n3,000. Method behavior only. |
+| Per-site precision receipt router | synthetic-verified; no validation authority | Eleven aggregate-only declarations route 2 precision references, 1 sign reference, 3 reparameterizations, and 5 malformed/prior-access/mislabeled cases exactly. Every valid route still requires cohort-specific simulation. |
 | Multi-site score-scale harmonization | conditionally required under severe scale mismatch | 129,600 cohorts and 259,200 routes. Blinded within-site scaling materially improves transport in 6/36 comparisons, all under 0.5/1/2 site scales; it does not rescue imbalanced recruitment. Method behavior only. |
 | Site/score calibration receipt gate | synthetic-verified | Ten blind declarations pass their expected decisions. Known scale differences require frozen outcome-blind within-site scaling; unknown mappings and post-access choices fail closed; imbalance remains outside the tested transport reference. Method behavior only. |
 | Enrollment inflation and analyzable-event design | conditional planning lookup complete | 122,805,000 synthetic cohort replicates. Under 10% loss in each channel and event probability 0.30, the equal-quota count target needs gross 690; 20% losses need 990; event probability 0.15 with 10% losses needs 1,380. Not empirical rates or a universal N. |
@@ -98,7 +99,7 @@ cannot measure progression rate or transition.
 | Combined ascertainment stack | joint attendance-risk selection unsafe; unique compounding not confirmed | Primary: 288,000 cohorts/576,000 routes and one marginal guarded compounding call. Independent 144,000-cohort confirmation showed attendance weak-joint is itself invalid, so the more interesting unique-compounding claim is withdrawn. |
 | Event-time blind receipt gate | synthetic-verified | Eight declarations verify that complete censoring metadata and pre-score sensitivities are mandatory; unknown/outcome-related loss and post-hoc window substitution fail closed. Method behavior only. |
 | CDP/PIRA endpoint adjudicator | synthetic-verified | Sixteen edge cases preserve confirmed, transient, later-valid, context-excluded, missing-confirmation, censored, malformed, duplicate, and invalid states. CDP and PIRA decisions remain separate. Method behavior only. |
-| Consolidated progression regression suite | 32/32 commands and 164/164 invariants pass | Fast gates, numerical references, negative claim boundaries, release/external-review checks, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
+| Consolidated progression regression suite | 33/33 commands and 171/171 invariants pass | Fast gates, numerical references, negative claim boundaries, release/external-review checks, acquisition/request synthesis, negative-control, confirmation-error/provenance, precision, and power boundaries, provenance/structure, and repository guards execute from one command. No biological claim. |
 | V37 progression evidence delta | complete and artifact-checked | Twelve V37 items carried and six post-V37 items classified. No item becomes progression evidence or a target; scope and negative/method changes are explicit. |
 | Combined P1/P2 intake gate | synthetic-verified | Nine cross-gate fixtures bind inventory, endpoint semantics, package ID, role, endpoint, and blindness into one fail-closed decision. Method behavior only. |
 | Full P1 intake-to-lock composition | synthetic-verified | The actual seven-stage blind pipeline binds one package from inventory through information lock: one reference route locks, one continues accrual, and eight faults fail closed. Method behavior only. |
@@ -1461,6 +1462,28 @@ of the separately frozen analysis. It contains no patient data and is not a
 favorable result, validation, progression evidence, target evidence, or
 treatment effect.
 
+## Per-Site Precision Receipt Router
+
+Status: **synthetic-verified; reference routing is not validation**.
+
+The aggregate-only router
+(`docs/validation/PROGRESSION_PRECISION_RECEIPT_ROUTER_V54.md`;
+`scripts/v54_progression_precision_receipt_router.py`) distinguishes the
+tested global-sign reference from the stricter every-site confidence-interval
+reference. Eleven synthetic declarations match expectation: two precision
+references, one sign reference, three valid designs requiring
+reparameterization, and five fail-closed cases. The latter include a declared
+60/30/10 allocation whose actual blinded site counts are balanced, preventing
+metadata labels from bypassing the observed-allocation check.
+
+The reference cells are conditional synthetic planning descriptors, not
+universal sample-size cutoffs. Every nonfailure route still requires a frozen,
+cohort-specific simulation and the separately specified site-stratified,
+signed, leave-site-out, negative-control, and confidence-interval analyses.
+The router cannot read effect estimates, p-values, individual outcomes, or
+molecular values and cannot create a precision, validation, progression, or
+treatment claim.
+
 ## Consolidated Regression Suite
 
 Status: **pass**.
@@ -1471,7 +1494,7 @@ Run:
 .venv/bin/python scripts/v54_progression_regression_suite.py
 ```
 
-The final suite executes 32 checks and asserts 164 committed artifact/claim
+The final suite executes 33 checks and asserts 171 committed artifact/claim
 invariants. All pass. It covers Python compilation; inventory, semantic,
 combined-intake, full intake-to-lock, endpoint-adjudication, event-time,
 site-score calibration, and composition regressions;
