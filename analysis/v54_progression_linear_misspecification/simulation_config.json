@@ -1,0 +1,41 @@
+{
+  "purpose": "V54 seeded synthetic progression linear-effect misspecification audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54121,
+    54133,
+    54139
+  ],
+  "calibration_seeds": [
+    64121,
+    64133,
+    64139
+  ],
+  "n_values": [
+    180,
+    320
+  ],
+  "patterns": [
+    "null",
+    "linear",
+    "high_threshold",
+    "monotone_saturation",
+    "u_shaped_crossing",
+    "inverted_u"
+  ],
+  "methods": [
+    "primary_linear",
+    "threshold_diagnostic",
+    "saturation_diagnostic",
+    "linear_quadratic_diagnostic",
+    "diagnostic_any"
+  ],
+  "replicates": 3000,
+  "null_calibration_replicates": 3000,
+  "event_probability": 0.3,
+  "reliability": 0.7,
+  "score_missing": 0.1,
+  "primary_alpha": 0.05,
+  "diagnostic_alpha": 0.016666666666666666,
+  "material_miss_rule": "linear<0.50; expected diagnostic>=0.80; aggregate and every-seed gain>=0.20"
+}

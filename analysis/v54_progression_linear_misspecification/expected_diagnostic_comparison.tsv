@@ -1,0 +1,9 @@
+effect_pattern	n_requested	expected_diagnostic	primary_linear_probability	expected_diagnostic_probability	aggregate_gain	minimum_seed_gain	materially_missed_by_linear
+high_threshold	180	threshold_diagnostic	0.31777777777777777	0.194	-0.12377777777777776	-0.13400000000000004	False
+high_threshold	320	threshold_diagnostic	0.48777777777777775	0.3526666666666667	-0.13511111111111107	-0.137	False
+monotone_saturation	180	saturation_diagnostic	0.6871111111111111	0.5432222222222223	-0.14388888888888884	-0.15200000000000002	False
+monotone_saturation	320	saturation_diagnostic	0.9085555555555556	0.8278888888888889	-0.08066666666666666	-0.08533333333333337	False
+u_shaped_crossing	180	linear_quadratic_diagnostic	0.105	0.6372222222222222	0.5322222222222223	0.5246666666666667	False
+u_shaped_crossing	320	linear_quadratic_diagnostic	0.105	0.8908888888888888	0.7858888888888889	0.7789999999999999	True
+inverted_u	180	linear_quadratic_diagnostic	0.025555555555555557	0.03166666666666667	0.006111111111111112	0.004	False
+inverted_u	320	linear_quadratic_diagnostic	0.02722222222222222	0.19144444444444444	0.16422222222222221	0.16066666666666668	False

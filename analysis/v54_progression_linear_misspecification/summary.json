@@ -1,0 +1,35 @@
+{
+  "purpose": "V54 seeded synthetic progression linear-effect misspecification audit; no biological claim",
+  "synthetic": true,
+  "seeds": [
+    54121,
+    54133,
+    54139
+  ],
+  "calibration_seeds": [
+    64121,
+    64133,
+    64139
+  ],
+  "replicates_per_cell_seed": 3000,
+  "null_calibration_replicates_per_n_seed": 3000,
+  "n_independent_null_calibration_cohorts": 18000,
+  "n_unique_simulated_cohorts": 108000,
+  "n_method_route_evaluations": 540000,
+  "n_null_families": 5,
+  "n_invalid_null_families": 0,
+  "invalid_null_families": [],
+  "n_strict_cell_flag_but_family_compatible": 0,
+  "strict_cell_flag_but_family_compatible": [],
+  "n_expected_diagnostic_comparisons": 8,
+  "n_materially_missed_by_linear": 1,
+  "materially_missed_cells": [
+    {
+      "effect_pattern": "u_shaped_crossing",
+      "n_requested": 320,
+      "expected_diagnostic": "linear_quadratic_diagnostic"
+    }
+  ],
+  "verdict": "FIXED_NONLINEAR_DIAGNOSTICS_ARE_NONRESCUING_MODEL_CHECKS",
+  "boundary": "Synthetic method behavior only; no empirical MS risk shape, progression association, or biological claim."
+}

@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 22 executable checks and 69 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, feasibility/information routing, switch estimands, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 22 executable checks and 74 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, harmonization/calibration, planning, routing, switch estimands, nonlinear-model checks, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -81,7 +81,7 @@ project's evidence standard.
 | Blinded progression feasibility calculator | done | Nine synthetic routes pass expected decisions: two reference-aligned, four valid-but-below-reference, and three fail closed; actual upstream JSON and package binding are required. |
 | Blinded information-accrual monitor | done | Ten synthetic routes: 3 continue, 1 metadata hold, 1 information lock, 5 fail closed. Effect direction/p-values/individual outcomes and efficacy/futility stopping are forbidden. |
 | Treatment-switch estimand sensitivity | done | 72,000 cohorts/144,000 routes. Joint score/risk switching invalidates both estimands; score-dependent switching invalidates treatment policy. Two independent families are strict-cell/family-compatible and excluded. |
-| Linear-effect misspecification audit | todo | Quantify when threshold, saturation, or crossing molecular risks are missed by one linear Cox coefficient; diagnostics fixed and non-rescuing. |
+| Linear-effect misspecification audit | done | 18,000 disjoint calibration + 108,000 evaluation cohorts; 0/5 invalid null families. Only U-shaped crossing at n320 meets the material-miss rule (linear 0.105 vs omnibus 0.891); design warning only. |
 | Progression score/site calibration receipt gate | done | Ten synthetic declarations pass expected decisions; six unsafe routes fail closed. Differing scales require blind within-site scaling; imbalance is processable but remains outside the tested transport reference. |
 | Cumulative V54 progression report | todo | Maintain `docs/history/PROGRESSION_FRONTIER_V54.md` with supported/null/inconclusive outcomes and no target inflation. |
 | V54 regression, provenance, structure, size, RAG, and clean close | todo | Run all gates, rebuild retrieval index, commit and push each clean iteration. |
@@ -513,3 +513,20 @@ project's evidence standard.
 - 2026-07-22T00:39:09Z: Integrated the switch-estimand boundary; the
   consolidated suite passes 22/22 commands and 69/69 invariants. Active time
   accrued: 3h40m39s.
+- 2026-07-22T00:40:26Z: Froze the linear-effect misspecification audit before
+  simulation. Null, linear, high-threshold, monotone-saturation, U-shaped, and
+  inverted-U risks are tested with one primary linear coefficient plus fixed
+  threshold, saturated-score, and linear-quadratic diagnostics. Diagnostic
+  multiplicity is controlled and cannot replace the primary after inspection.
+  Active time accrued: 3h41m56s.
+- 2026-07-22T00:47:34Z: Completed the nonlinear audit after two explicit null-
+  control repairs. The asymptotic run failed 4/5 null families; a disjoint
+  18,000-cohort calibration bank was added, then evaluation expanded from 800
+  to 3,000/seed when its first primary null remained unstable. In the final
+  108,000 evaluation cohorts, 0/5 null families are invalid. Only U-shaped
+  crossing risk at n=320 meets the frozen material-miss rule (linear 0.105,
+  corrected omnibus 0.891, minimum-seed gain 0.779). This is a synthetic design
+  warning, not an MS risk-shape finding. Active time accrued: 3h49m04s.
+- 2026-07-22T00:49:08Z: Integrated and pinned the nonlinear boundary; the
+  consolidated suite passes 22/22 commands and 74/74 invariants. Active time
+  accrued: 3h50m38s.
