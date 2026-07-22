@@ -23,7 +23,8 @@ continuity. For the newest resumable state, read `meta/V54_QUEUE.md` after
   disability data are not held. V54 converted that boundary into a fail-closed
   acquisition, preregistration, intake, analysis-release, negative-control,
   precision, and post-result interpretation pipeline. Start with
-  `docs/history/PROGRESSION_FRONTIER_V54.md` and the 47-artifact reviewer map at
+  `docs/history/V54_RUN_SUMMARY.md`, then use the cumulative
+  `docs/history/PROGRESSION_FRONTIER_V54.md` and the 48-artifact reviewer map at
   `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,

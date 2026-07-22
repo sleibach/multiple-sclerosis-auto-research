@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-07-22 04:28 CEST
+Last updated: 2026-07-22 04:58 CEST
 
 ## Mission State
 
@@ -37,10 +37,13 @@ Current progression action: acquire and verify a P1 longitudinal cohort with
 frozen molecular state measured before adjudicated CDP/PIRA, raw repeated
 disability components, event/confirmation dates and reasons, treatment/switch,
 attendance/censoring/death, site/batch/QC, and composition provenance. No
-current candidate meets that contract. Use
-`docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` for the 47-artifact reader
-path and `docs/history/PROGRESSION_FRONTIER_V54.md` for the cumulative verdict.
-The consolidated method/repository suite passes 37/37 commands and 204/204
+currently known package meets that contract. The only named state is the exact,
+hash-verified V53 CD44/CXCR4 microglia score; only score identity transfers,
+and PBMC, bulk, or substitute-gene proxies fail closed. Use
+`docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md` for the 48-artifact reader
+path, `docs/history/V54_RUN_SUMMARY.md` for the execution summary, and
+`docs/history/PROGRESSION_FRONTIER_V54.md` for the cumulative verdict.
+The consolidated method/repository suite passes 37/37 commands and 205/205
 claim/artifact invariants. No V54 result establishes a progression biomarker,
 mechanism, target, treatment effect, or means of halting MS.
 

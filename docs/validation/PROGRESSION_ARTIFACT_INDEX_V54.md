@@ -8,8 +8,8 @@ operational release authority are never biological evidence.
 
 ## Quick Start
 
-- Medical interpretation: start at `M01`, then inspect the relevant
-  grounded negative/bounded analysis (`M03`-`M06`).
+- Medical interpretation: start at `M08`/`M01`, then inspect the
+  relevant grounded negative/bounded analysis (`M03`-`M06`).
 - Data owner: start at `D01`, use `D04`/`D05` for response, then run the
   blind intake declarations (`D07`-`D09`).
 - Analysis operator: execute `A01` through `A15` in lifecycle order; a
@@ -28,6 +28,7 @@ operational release authority are never biological evidence.
 | M05 | therapeutic_triage | grounded_analysis | negative_evidence | `analysis/v54_progression_intervention_direction_map/REPORT.md` | Progression-specific intervention-direction screen. | Zero candidates pass the progression-specific first gate; AlphaFold context is ineligible. |
 | M06 | lesion_biology | grounded_analysis | negative_evidence | `analysis/v54_foamy_donor_estimand_audit/REPORT.md` | Within-donor audit of foamy-state module effects. | Sparse within-donor variation does not support either endpoint. |
 | M07 | external_review | grounded_review | bounded_evidence | `docs/reports/PROGRESSION_EXTERNAL_REVIEW_V54.md` | Skeptic-facing account with falsifiers and acquisition path. | Artifact-checked synthesis; conditional design references are not empirical effects. |
+| M08 | run_summary | grounded_review | bounded_evidence | `docs/history/V54_RUN_SUMMARY.md` | Measured V54 execution and grounded outcome summary. | The run summary preserves the no-progression-state/no-target verdict and separates method behavior from evidence. |
 
 ## Data Acquisition
 

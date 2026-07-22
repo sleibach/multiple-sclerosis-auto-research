@@ -1,6 +1,6 @@
 # V54 Queue: Toward Halting MS Progression
 
-Status: in-progress
+Status: complete
 
 V54 applies the mature toolkit to progression-specific, source-audited questions
 without reopening the V41 public-data discovery boundary or weakening the
@@ -13,9 +13,9 @@ project's evidence standard.
 - Projected target UTC if this interval stays continuous: 2026-07-22T02:58:30Z
 - Active session intervals:
   - 2026-07-21T20:58:30Z - 2026-07-21T21:02:06Z (0h03m36s active)
-  - 2026-07-21T21:02:06Z - OPEN
-- Cumulative completed active runtime: 0h03m36s
-- Wall-clock span: open
+  - 2026-07-21T21:02:06Z - 2026-07-22T02:58:39Z (5h56m33s active)
+- Cumulative completed active runtime: 6h00m09s
+- Wall-clock span: 6h00m09s (the two intervals are contiguous)
 
 ## Environment And Boundaries
 
@@ -34,7 +34,7 @@ project's evidence standard.
 | item | status | note |
 |---|---|---|
 | Progression-data inventory and semantic contract | done | Seven datasets/packages audited; only cross-sectional PPMS-vs-SPMS and small-n lesion-state proxies are testable. No held transcriptomic dataset has longitudinal disability outcomes. |
-| CD44/CXCR4 progressive-stage re-analysis | done | 44 source/tissue-compatible donors; 300k nulls. CD44/CXCR4 beta 0.343, CI -0.253 to 0.938, max-T p=0.787; same direction but inconclusive. No module passed the portable stage gate. |
+| CD44/CXCR4 progressive-stage re-analysis | done | 44 source/tissue-restricted donors; 300k nulls. CD44/CXCR4 beta 0.343, CI -0.253 to 0.938, max-T p=0.787; same direction but inconclusive. No module passed the portable stage gate. |
 | Frozen source/tissue-balanced stage-test plan | done | Amsterdam WM plus UK GM, donor-equal inference, five pre-existing modules, three-seed 300k null, BH plus max-T, and cross-source direction gate fixed before execution. |
 | Smoldering-lesion / chronic-active microglia probe | done | Three exact active/inactive donor pairs plus 54 samples/21 donors and 300k wild nulls. No orthogonally supported module; receptor and lipid inconclusive, others not supported. |
 | GSE279972 lysosomal morphology specificity audit | done | Fully adjusted beta 0.517, CI 0.199 to 0.834, wild p=0.00861, max-variant p=0.0453; all 21 LODO coefficients positive. Bounded foamy-morphology association only, not progression or target evidence. |
@@ -69,7 +69,7 @@ project's evidence standard.
 | Progression cohort candidate role matrix | done | Ten known candidates checked from committed metadata: 0 P1, 0 P2, 0 P3. Gafson/Karolinska remain monitoring routes; GSE24427 is longitudinal but lacks repeated disability; no compartment pair or progression-qualified perturbation exists. |
 | Event-time receipt diagnostics contract | done | Additive blind metadata gate requires complete censoring dates/reasons, source-treatment strata, IPCW/worst-case/joint-dependence sensitivities, and time-variation diagnostics. Eight synthetic fixtures pass expected fail-closed behavior. |
 | P2 composition measurement acceptance contract | done | Direct linked measurements pass eligibility; proxies require a blinded direct-reference subset, reported reliability, rerun null calibration, and sensitivity-only interpretation. Expression-derived proxy alone fails. Nine synthetic fixtures pass. |
-| V54 consolidated regression suite | done | One command runs 37 executable checks and 204 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, candidate-state identity, full intake-to-lock/release/result-interpretation composition, ascertainment, negative-control, confirmation-error/provenance, per-site precision and receipt routing, artifact navigation/compute accounting, external-review boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
+| V54 consolidated regression suite | done | One command runs 37 executable checks and 205 artifact/claim invariants; all pass. It pins method boundaries, endpoint fixtures, candidate-state identity, full intake-to-lock/release/result-interpretation composition, ascertainment, negative-control, confirmation-error/provenance, per-site precision and receipt routing, artifact navigation/compute accounting, external-review boundaries, the hash-bound manifest, acquisition priorities/request packet, weaker-effect power, harmonization/calibration, planning, switch estimands/gate, nonlinear-model checks/gate, and the design reference. |
 | Competing-risk/death robustness | done | 129,600 seeded synthetic cohorts. Ordinary score- or progression-risk-dependent death calibrated, independent death had a strict-cell flag but was family-compatible and excluded from power, while joint score/progression-risk death was invalid (null max 0.119, predominantly false protective). Only 4/10 calibrated non-null scenarios reached 80%. |
 | Visit-schedule interval-censoring audit | done | 172,800 seeded cohorts/691,200 route evaluations. Complete and independent-missing schedules calibrate; score-dependent and joint score/risk attendance are invalid (null maxima 0.158/0.165, false protective). Only complete quarterly visits at event probability 0.30 reach 80% by n=320 (2 route variants of 24 scenarios). |
 | Repeated molecular-state reliability design | done | 216,000 seeded cohorts. Zero plan is method-invalid, but four have strict-cell/family-compatible flags and are excluded. Only low starting reliability (0.40) yields material repeat gains: 16/96 cells across k2 independent, k3 independent, and selected k3 correlated-error settings. High-reliability repeats do not clear all gates. |
@@ -99,12 +99,12 @@ project's evidence standard.
 | Endpoint-confirmation provenance receipt gate | done | Two auditable synthetic routes pass; eight derived-label/missing-date-or-dictionary/unknown-blinding/dropped-record/post-hoc/access routes fail closed. |
 | P1 analysis-release composition gate | done | Actual upstream lock + confirmation + controls + package identity + frozen manifest hash compose: 1 release, 1 continue, 8 fail closed. Release is not a result. |
 | Per-site precision receipt routing | done | Eleven aggregate-only fixtures route 2 precision references, 1 sign reference, 3 reparameterizations, and 5 fail-closed cases. Declared site allocation must match actual blinded counts; every valid route still requires cohort-specific simulation and is not validation. |
-| V54 artifact navigation index | done | Forty-seven distinct paths resolve with explicit evidence class and claim authority: 7 medical, 9 acquisition, 15 analysis-operator, and 16 method-review artifacts. Navigation cannot upgrade evidence. |
+| V54 artifact navigation index | done | Forty-eight distinct paths resolve with explicit evidence class and claim authority: 8 medical, 9 acquisition, 15 analysis-operator, and 16 method-review artifacts. Navigation cannot upgrade evidence. |
 | P1 post-result interpretation gate | done | Seventeen frozen-plan-bound fixtures route 2 bounded passes, 1 specificity downgrade, 2 fails, 7 inconclusive, and 5 invalid outcomes. Process controls invalidate, specificity controls only downgrade, and clean controls never upgrade. |
 | V54 compute-accounting ledger | done | Fifty-seven rows from 46 summaries separate model-fit cohorts, lightweight planning draws, reused-route evaluations, held-data randomization draws, and software fixtures; unlike units are intentionally not summed. |
 | P1 candidate-state identity handoff | done | Exact V53 CD44/CXCR4 score verified against 3 source hashes and 6 formula/compartment checks. Only identity transfers; microglia compatibility is mandatory and no progression model/claim transfers. |
-| Cumulative V54 progression report | in-progress | `docs/history/PROGRESSION_FRONTIER_V54.md` is current through precision routing and role-based navigation; final close summary remains. |
-| V54 regression, provenance, structure, size, RAG, and clean close | in-progress | Live pointers now target V54; sparse index rebuilt over 901 documents with boundary, precision, and result-gate smoke queries. Final timed close and clean verification remain. |
+| Cumulative V54 progression report | done | `docs/history/PROGRESSION_FRONTIER_V54.md` and `docs/history/V54_RUN_SUMMARY.md` preserve the no-progression-state/no-target verdict, morphology downgrade, method envelope, and exact next acquisition action. |
+| V54 regression, provenance, structure, size, RAG, and clean close | done | Live pointers target V54; 37/37 commands, 205/205 invariants, provenance 841/841, structure 142/142, tracked size/tmp guards, and the 904-document retrieval refresh pass. |
 
 ## Per-Iteration Notes
 
@@ -760,3 +760,12 @@ project's evidence standard.
   non-microglial packages fail closed. The external brief now checks 18
   artifacts/16 references/11 boundaries, and the suite passes 37/37 commands
   and 204/204 invariants. Active time accrued: 5h42m12s.
+- 2026-07-22T02:58:39Z: V54 closed at the measured six-hour target. All 72
+  queue items are complete; 59 were appended after the 13-item opening
+  backlog. The final suite passes 37/37 commands and 205/205 invariants;
+  provenance passes 841/841, structure passes 142/142, and tracked size/tmp
+  guards pass. The sparse retrieval index covers 904 documents. The honest
+  verdict remains no established progression state, transition, target,
+  treatment effect, or means of halting MS; the exact next action is a
+  microglia-compatible longitudinal P1 acquisition using the hash-bound
+  CD44/CXCR4 identity handoff.

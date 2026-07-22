@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-07-22 04:30 CEST
+Last updated: 2026-07-22 04:58 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,7 +25,11 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V54 progression close refresh: `901`.
+- Current document count after V54 progression close refresh: `904`.
+- V54 final-summary smoke query
+  `V54 run summary six-hour active target scientific verdict next action`
+  returns `docs/history/V54_RUN_SUMMARY.md` first, the current retrieval-status
+  record second, and prior timing/run summaries among the remaining results.
 - V54 boundary/acquisition smoke query
   `V54 progression no target longitudinal disability acquisition result interpretation`
   returns the evidence delta, cohort-role matrix, intervention/transition

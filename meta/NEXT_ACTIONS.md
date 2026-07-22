@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-07-22 04:28 CEST
+Last updated: 2026-07-22 04:58 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -11,7 +11,11 @@ V54 progression priority:
 1. Acquire a P1 longitudinal package linking a pre-existing frozen molecular
    state to auditable confirmed disability accumulation. Start with
    `docs/validation/outbound_requests/progression_p1_core_ready_to_send_V54.md`
-   and its 66-field response template. No current candidate is P1-eligible.
+   and its 66-field response template, accompanied by
+   `docs/validation/PROGRESSION_P1_CANDIDATE_STATE_HANDOFF_V54.md`. The currently
+   named score requires microglia-compatible CD44/CXCR4 inputs; PBMC, bulk, or
+   substitute-gene data cannot be used as a proxy. No currently known package is
+   P1-eligible.
 2. Keep all received data quarantined. Follow the medical/data/operator/method
    paths in `docs/validation/PROGRESSION_ARTIFACT_INDEX_V54.md`; execute the
    hash-bound manifest and actual intake-to-lock/release gates before score-
@@ -33,12 +37,14 @@ V54 progression priority:
 V54 state:
 
 - Resume/audit backbone: `meta/V54_QUEUE.md`.
+- Run summary: `docs/history/V54_RUN_SUMMARY.md`.
 - Cumulative result: `docs/history/PROGRESSION_FRONTIER_V54.md`.
 - Skeptic-facing summary: `docs/reports/PROGRESSION_EXTERNAL_REVIEW_V54.md`.
 - Regression command: `.venv/bin/python scripts/v54_progression_regression_suite.py`
-  (37/37 commands, 204/204 invariants at the latest checkpoint).
+  (37/37 commands, 205/205 invariants at the latest checkpoint).
 - OpenGWAS POST-only token check passed at V54 start; decoded expiry is
-  2026-07-24 08:00 UTC.
+  2026-07-24 08:00 UTC. Renew before OpenGWAS-dependent work after that time;
+  route around any 401 rather than accepting a false null.
 
 V53 update:
 
