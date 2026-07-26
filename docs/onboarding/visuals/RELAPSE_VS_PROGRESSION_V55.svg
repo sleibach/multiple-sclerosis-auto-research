@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Relapse activity and disability progression require different evidence</title>
+  <desc id="desc">A schematic, not patient data, contrasts discrete relapse events with repeated confirmed-disability measurements over time. The held corpus has snapshots and partial evidence roles but no usable longitudinal molecular-to-confirmed-disability dataset, so it cannot identify transition or establish a progression biomarker or target.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 29px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .section { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .head { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 700 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .4px; }
+      .tiny { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .chart { fill: #ffffff; stroke: #d5dce5; stroke-width: 1.7; }
+      .relapse { stroke: #8b2e2e; stroke-width: 4; fill: none; }
+      .progress { stroke: #005a9c; stroke-width: 4; fill: none; }
+      .point { fill: #ffffff; stroke: #005a9c; stroke-width: 3; }
+      .event { fill: #8b2e2e; }
+      .snapshot { fill: #fff4d6; stroke: #8a5a00; stroke-width: 2; }
+      .required { fill: #e8f2fa; stroke: #005a9c; stroke-width: 2.5; }
+      .negative { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2; }
+      .context { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2; }
+      .arrow { stroke: #7b8794; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .divider { stroke: #d5dce5; stroke-width: 1.2; }
+      .grid { stroke: #e5e9ef; stroke-width: 1; stroke-dasharray: 4 5; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7b8794"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="760"/>
+  <text class="title ink" x="55" y="50">Relapse activity is not the same question as progression</text>
+  <text class="subtitle muted" x="55" y="78">They can be related, but each requires its own outcome and data design. People do not share one universal trajectory. [B02]</text>
+
+  <!-- Conceptual timeline -->
+  <g transform="translate(55,110)">
+    <rect class="chart" x="0" y="0" width="720" height="322" rx="14"/>
+    <text class="small muted" x="18" y="25">SCHEMATIC ONLY · NOT PATIENT DATA</text>
+
+    <text class="section ink" x="22" y="69">Relapse activity</text>
+    <text class="body muted" x="22" y="91">Question: when did an inflammatory episode occur?</text>
+    <line class="grid" x1="190" y1="112" x2="690" y2="112"/>
+    <path class="relapse" d="M190 112 L275 112 L289 69 L303 112 L395 112 L409 55 L423 112 L530 112 L544 77 L558 112 L690 112"/>
+    <circle class="event" cx="289" cy="69" r="6"/>
+    <circle class="event" cx="409" cy="55" r="6"/>
+    <circle class="event" cx="544" cy="77" r="6"/>
+    <text class="tiny muted" x="262" y="51">episode</text>
+    <text class="tiny muted" x="382" y="37">episode</text>
+    <text class="tiny muted" x="517" y="59">episode</text>
+
+    <line class="divider" x1="18" y1="145" x2="702" y2="145"/>
+
+    <text class="section ink" x="22" y="184">Disability progression</text>
+    <text class="body muted" x="22" y="206">Question: did disability accumulate and remain confirmed over time?</text>
+    <line class="grid" x1="190" y1="286" x2="690" y2="286"/>
+    <line class="grid" x1="190" y1="242" x2="690" y2="242"/>
+    <path class="progress" d="M190 284 C245 282 270 279 320 270 S395 252 445 254 S520 231 575 226 S640 207 690 205"/>
+    <circle class="point" cx="190" cy="284" r="6"/>
+    <circle class="point" cx="270" cy="279" r="6"/>
+    <circle class="point" cx="360" cy="260" r="6"/>
+    <circle class="point" cx="445" cy="254" r="6"/>
+    <circle class="point" cx="530" cy="230" r="6"/>
+    <circle class="point" cx="610" cy="218" r="6"/>
+    <circle class="point" cx="690" cy="205" r="6"/>
+    <text class="tiny muted" x="190" y="307">repeated measured visits → time</text>
+  </g>
+
+  <!-- Distinction cards -->
+  <g transform="translate(800,110)">
+    <rect class="context" x="0" y="0" width="345" height="136" rx="14"/>
+    <text class="small ink" x="18" y="27">WHY THE DISTINCTION MATTERS  [B02]</text>
+    <text class="head ink" x="18" y="54">An episode outcome cannot silently stand in</text>
+    <text class="head ink" x="18" y="73">for confirmed disability accumulation.</text>
+    <text class="body ink" x="18" y="100">A treatment-associated immune change can be</text>
+    <text class="body ink" x="18" y="120">interesting without answering progression.</text>
+
+    <rect class="negative" x="0" y="152" width="345" height="170" rx="14"/>
+    <text class="small ink" x="18" y="179">WHAT V54 DID NOT ESTABLISH  [P02]</text>
+    <text class="body ink" x="18" y="207">× a progression biomarker</text>
+    <text class="body ink" x="18" y="232">× a relapsing-to-progressive transition</text>
+    <text class="body ink" x="18" y="257">× a progression mechanism or target</text>
+    <text class="body ink" x="18" y="282">× a treatment effect on disability accumulation</text>
+    <text class="tiny muted" x="18" y="307">This is a bounded evidence result, not absent biology.</text>
+  </g>
+
+  <!-- Photo vs movie -->
+  <line class="divider" x1="55" y1="458" x2="1145" y2="458"/>
+  <text class="section ink" x="55" y="490">Why the held corpus cannot answer the progression question</text>
+
+  <g transform="translate(55,513)">
+    <rect class="snapshot" x="0" y="0" width="255" height="147" rx="14"/>
+    <text class="small ink" x="18" y="27">WHAT IS MOSTLY HELD  [P01, P03]</text>
+    <text class="head ink" x="18" y="55">Snapshots and partial roles</text>
+    <text class="body ink" x="18" y="80">cross-sectional stage, lesion tissue,</text>
+    <text class="body ink" x="18" y="101">treatment remodeling, or incomplete</text>
+    <text class="body ink" x="18" y="122">follow-up without confirmed disability</text>
+    <text class="tiny muted" x="18" y="140">A photograph cannot identify a transition.</text>
+
+    <path class="arrow" d="M267 73 L317 73"/>
+
+    <rect class="required" x="329" y="0" width="444" height="147" rx="14"/>
+    <text class="small ink" x="347" y="27">THE REQUIRED “MOVIE”  [A02]</text>
+    <text class="head ink" x="347" y="55">Same people, repeated over time, with:</text>
+    <text class="body ink" x="347" y="80">1. the exact molecular state in a compatible compartment</text>
+    <text class="body ink" x="347" y="101">2. repeated confirmed-disability outcomes and event timing</text>
+    <text class="body ink" x="347" y="122">3. site, source, treatment, attendance, and quality provenance</text>
+    <text class="tiny muted" x="347" y="140">The test and interpretation must be fixed before outcomes are inspected.</text>
+
+    <path class="arrow" d="M785 73 L835 73"/>
+
+    <rect class="negative" x="847" y="0" width="243" height="147" rx="14"/>
+    <text class="small ink" x="865" y="27">NO SUBSTITUTE PROXY  [P05, P06]</text>
+    <text class="body ink" x="865" y="55">Not relapse count alone.</text>
+    <text class="body ink" x="865" y="78">Not postmortem morphology alone.</text>
+    <text class="body ink" x="865" y="101">Not PBMC or whole-blood substitution.</text>
+    <text class="body ink" x="865" y="124">Not a new score after outcomes appear.</text>
+  </g>
+
+  <line class="divider" x1="55" y1="690" x2="1145" y2="690"/>
+  <text class="body ink" x="55" y="719">Honest frontier: the progression question is data-blocked, not solved and not disproved.</text>
+  <text class="tiny muted" x="55" y="743">Sources: PROGRESSION_FRONTIER_V54, V54_RUN_SUMMARY, PROGRESSION_COHORT_ACQUISITION_SPEC_V54, PROGRESSION_P1_CANDIDATE_STATE_HANDOFF_V54.</text>
+</svg>
