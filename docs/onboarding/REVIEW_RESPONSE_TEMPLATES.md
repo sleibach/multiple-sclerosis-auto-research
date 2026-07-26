@@ -6,7 +6,8 @@ field; do not send a template with unresolved placeholders.
 
 An operational status is not an evidence grade. “Runnable” does not mean
 likely true, and “received” does not mean supported. Project evidence changes
-only after a valid rerunnable test. `[E01-E03]`
+only after a valid rerunnable test. Use the [status decoder](STATUS_DECODER.md)
+when the distinction is unclear. `[E01-E03]`
 
 ## Rules For Every Response
 

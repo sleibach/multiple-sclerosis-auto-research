@@ -200,6 +200,7 @@ directions; valid data and design determine the verdict.
 
 - [Submit or repair an idea](HOW_TO_CONTRIBUTE_IDEAS.md)
 - [Use a review-response template](REVIEW_RESPONSE_TEMPLATES.md)
+- [Decode workflow and evidence status](STATUS_DECODER.md)
 - [See the detailed triage rubric](IDEA_TRIAGE_RUBRIC.md)
 - [Choose an open puzzle](OPEN_PROBLEMS_FOR_COLLABORATORS.md)
 - [Learn the evidence outcomes](HOW_TO_READ_NULLS_AND_BOUNDARIES.md)

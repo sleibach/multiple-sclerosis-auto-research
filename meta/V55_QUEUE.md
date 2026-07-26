@@ -90,8 +90,14 @@ negative results, and source traceability.
 | Worked submission-to-verdict example | done | Fictional domain-shift idea moves through intake, hard-gate repair, frozen test card, five explicitly hypothetical outcome branches, and a public closure template; no run or result is claimed. |
 | Contributor-lifecycle visualization | done | Eighth SVG uses separate workflow and evidence rails, a hard valid-run barrier, explicit no-evidence actions, five overread corrections, and a complete text equivalent. |
 | Review-response templates | done | Thirteen concise templates cover receipt, repair, data request, closure, parking, safety, runnable/external tests, and six result classes while grading the proposal or run rather than the contributor. |
-| Evidence-status versus workflow-status matrix | in-progress | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
-| Zero-jargon entry-route review | todo | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
+| Evidence-status versus workflow-status matrix | done | Three-layer decoder separates workflow, test validity, and evidence; it defines allowed transitions and blocks runnable/parked/data-blocked/invalid category errors. |
+| Zero-jargon entry-route review | in-progress | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
+| Known non-solutions index | todo | Consolidate the tested dead ends and exact reopening evidence so newcomers can search before repeating a closed route. |
+| Cross-disciplinary question starters | todo | Give engineers, designers, statisticians, systems thinkers, and other scientists bounded prompts tied to specific open problems. |
+| First idea in ten minutes | todo | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
+| Public issue example set | todo | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
+| Challenge-the-project guide | todo | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
+| Human comprehension pilot refinement | todo | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -449,3 +455,11 @@ negative results, and source traceability.
   plain-language 28/28 pages, source coverage 33/33 across 29 reader pages,
   route depth 17/17, provenance 841/841, and structural 142/142 pass. Active
   time accrued: 3h05m02s.
+- 2026-07-26T20:24:28Z: Completed the status decoder. It separates operational
+  routing, fair-test validity, and scientific evidence; gives allowed and
+  forbidden transitions; and applies the distinction to the provisional
+  monitor, data-blocked progression work, and direction-closed genetics
+  routes without changing their status. Onboarding 1575/1575, plain-language
+  29/29 pages, source coverage 33/33 across 30 reader pages, route depth 17/17,
+  provenance 841/841, and structural 142/142 pass. Active time accrued:
+  3h09m14s. Refilled the backlog with five contributor-facing content tasks.
