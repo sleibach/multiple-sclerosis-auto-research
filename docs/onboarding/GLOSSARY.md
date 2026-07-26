@@ -4,6 +4,9 @@ This glossary is orientation for reading the repository, not a collection of
 new project findings. Definitions are intentionally short. Where a term has a
 special project meaning, that boundary is stated explicitly.
 
+If you arrived through a gene name or search snippet and need its current
+project status, use [Find By Term](FIND_BY_TERM.md).
+
 ## MS And Immune Biology
 
 **Multiple sclerosis (MS)**  

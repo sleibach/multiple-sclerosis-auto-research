@@ -103,8 +103,8 @@ negative results, and source traceability.
 | Documentation and visual contribution on-ramp | done | Meaning-first contract, bounded wording repairs, status-aware visual semantics, alt/text equivalents, non-color cues, lightweight delivery, human comprehension questions, and exact checks are now explicit. |
 | Patient/public safety boundary | done | Prominent research-not-care boundary prohibits symptom interpretation, treatment decisions, personal health records, and urgent requests; it supplies privacy-safe research reformulations and a fail-closed maintainer response. |
 | GitHub idea-form alignment | done | Ten-element live form now mirrors the bounded test card: status/overread, observation-before-solution, rival/drop rule, independent unit, fair challenge, fail-closed checks, prior route, outcome-specific decisions, and safety/evidence acknowledgements. |
-| Newcomer keyword and misconception index | in-progress | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
-| Final cross-page drift and safety review | todo | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
+| Newcomer keyword and misconception index | done | Thirty search-term rows and 12 tempting conclusions route gene, monitoring, progression, structure, model, and status queries to bounded wording, forbidden inference, and source-backed explanations. |
+| Final cross-page drift and safety review | in-progress | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
 | V55 public release note | todo | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -571,3 +571,12 @@ negative results, and source traceability.
   IDs, and all inputs required. Onboarding 1931/1931, plain-language 38/38
   pages with no undefined acronyms, source coverage 33/33 across 39 reader
   pages, and route depth 17/17 pass. Active time accrued: 3h49m24s.
+- 2026-07-26T21:08:49Z: Completed the find-by-term index. Thirty search-term
+  rows cover monitoring/validation, progression/compartments, genetics/
+  systems/structure, and evidence/computation; 12 tempting-conclusion routes
+  correct likely snippet-level overreads. Each row pairs current status with a
+  forbidden inference and source-backed next page. The first audit rejected 19
+  imprecise heading anchors; all were repaired rather than bypassed. Onboarding
+  2053/2053, plain-language 39/39 pages with no undefined acronyms, source
+  coverage 33/33 across 40 reader pages, and route depth 17/17 pass. Active
+  time accrued: 3h53m35s.

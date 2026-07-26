@@ -90,6 +90,7 @@ Start with the source artifacts rather than onboarding prose:
 | Respond to a contribution with an exact, non-personal status | [Review Response Templates](REVIEW_RESPONSE_TEMPLATES.md) |
 | Separate workflow, test validity, and evidence status | [Status Decoder](STATUS_DECODER.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
+| Find the exact project status behind a gene, method, or tempting conclusion | [Find By Term](FIND_BY_TERM.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Search tested shortcuts before proposing | [Known Non-Solutions](KNOWN_NON_SOLUTIONS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |

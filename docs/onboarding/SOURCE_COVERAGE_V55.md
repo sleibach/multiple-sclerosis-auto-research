@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 39 |
+| Reader-facing pages mapped | 40 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -77,6 +77,7 @@ Different pages intentionally carry different evidence loads:
 | Contribute a method | 16 | 19 | Fixed estimand, fair baseline, independent unit, null, leakage, uncertainty, multiplicity, and drop-rule requirements for analytical proposals. |
 | Contribute documentation or a visual | 16 | 17 | Meaning contract, bounded rewrites, status-aware visual semantics, accessibility, delivery, and comprehension checks. |
 | Patient and public safety | 10 | 10 | No-medical-advice, no-personal-data boundary, privacy-safe alternatives, and maintainer response. |
+| Find by term | 30 | 30 | Search-term and misconception route to bounded status, forbidden inference, and source-backed explanation. |
 | Collaborator routes | 7 | 9 | Role-specific entry points, deliberately concise. |
 
 The landing page is not a substitute for the layered explanation. The claim
@@ -84,19 +85,19 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 36 of
-the 39 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 37 of
+the 40 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 35 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 36 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 33 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 34 pages and controls eight
 context, decoupling, closure, and governance claims.
 
-`docs/findings/FINDING_V22.md` serves 30 pages;
-`docs/history/PROGRESSION_FRONTIER_V54.md` serves 28;
-`docs/validation/PREREGISTRATION_V42.md` serves 28.
+`docs/findings/FINDING_V22.md` serves 31 pages;
+`docs/history/PROGRESSION_FRONTIER_V54.md` serves 29;
+`docs/validation/PREREGISTRATION_V42.md` serves 29.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not
