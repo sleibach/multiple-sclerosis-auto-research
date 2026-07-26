@@ -15,6 +15,14 @@ All analysis uses public human-tissue data only and random seed `20260526`
 V55 adds an explainability and collaboration layer for readers without a
 medical background. It changes no scientific finding.
 
+**Honest current state:** one provisional early-treatment monitoring lead
+awaits independent validation. The project has no intervention-grade target
+and no established progression mechanism.
+
+**Safety boundary:** this repository is research, not medical advice or a
+clinical tool. Do not submit personal health information, credentials, or
+private data.
+
 - [Choose a route from the onboarding landing page](docs/onboarding/README.md)
 - [Two-minute and fifteen-minute explanation](docs/onboarding/MS_RESEARCH_EXPLAINED.md)
 - [Visual map of live, closed, negative, and data-blocked routes](docs/onboarding/VISUAL_INDEX.md)
@@ -28,10 +36,8 @@ medical background. It changes no scientific finding.
 - [Find the exact status behind a gene, method, or search term](docs/onboarding/FIND_BY_TERM.md)
 - [V55 public onboarding release notes](docs/onboarding/RELEASE_NOTES_V55.md)
 
-The short honest state: one provisional early-treatment monitoring lead awaits
-independent validation; the project has no intervention-grade target and no
-established progression mechanism. Start with the onboarding layer for context,
-then follow its claim IDs into the source artifacts.
+Start with the onboarding layer for context, then follow its claim IDs into the
+source artifacts.
 
 ## Current Status
 

@@ -7,6 +7,12 @@ puzzles.
 
 V55 is communication and onboarding only. It introduces no scientific claim.
 
+**Current boundary:** one monitoring lead has internal support but awaits an
+independent test. No biological treatment target or progression mechanism has
+met the project's evidence standard. This repository is research, not medical
+advice or a clinical tool; submit no personal health information or private
+data. `[M01, M05, P02]`
+
 ## Choose Your Route
 
 ### I Have Two Minutes
@@ -126,6 +132,7 @@ Start with the source artifacts rather than onboarding prose:
 | Inspect core route depth and reciprocity | [Newcomer Route-Depth Review](ROUTE_DEPTH_REVIEW_V55.md) |
 | Inspect internal/external links and descriptive labels | [Link And Label Review](LINK_AND_LABEL_REVIEW_V55.md) |
 | Inspect heading hierarchy and table semantics | [Semantic Structure Review](SEMANTIC_STRUCTURE_REVIEW_V55.md) |
+| Inspect what a newcomer sees before deeper scrolling | [Public First-Screen Review](FIRST_SCREEN_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |

@@ -111,10 +111,10 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,066 checks over 64 documents, 970 headings, and 97 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,074 checks over 65 documents, 975 headings, and 97 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
-| Public first-screen audit | in-progress | Check the root and onboarding landing page before the first major scroll for mission, honest status, safe boundary, and a concrete route. |
-| Maintainer triage quick card | todo | Condense the existing contributor lifecycle into a one-page intake/repair/close decision aid without creating a new status system. |
+| Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
+| Maintainer triage quick card | in-progress | Condense the existing contributor lifecycle into a one-page intake/repair/close decision aid without creating a new status system. |
 | Clean-clone newcomer smoke test | todo | Exercise the public start, contribution, visual, and audit routes from a fresh shallow clone without changing evidence or claiming human comprehension. |
 | Human-pilot result-capture sheet | todo | Add a privacy-minimal worksheet for recording route, task, misunderstanding, repair, and idea quality without collecting medical or identity data. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -671,3 +671,12 @@ negative results, and source traceability.
   convenience pilot is not scientific validation. Onboarding 2276/2276,
   semantic structure 2066/2066, and route depth 17/17 pass. Active time
   accrued: 4h24m45s.
+- 2026-07-26T21:41:53Z: Completed the public first-screen audit. The root
+  README's unchanged scientific bottom line and safety boundary were below a
+  long route list; both now appear before it. The onboarding entrance now also
+  states the one provisional-monitor/no-target/no-progression boundary and the
+  research-only/no-private-data rule before route selection. The dated review
+  uses content-order rather than a false fixed-pixel claim and explicitly
+  preserves the human-test gap. Onboarding 2291/2291, plain-language 43/43,
+  source coverage 33/33, semantic structure 2074/2074, and route depth 17/17
+  pass. Active time accrued: 4h26m39s.
