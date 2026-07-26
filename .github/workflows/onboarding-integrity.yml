@@ -12,6 +12,7 @@ on:
       - "scripts/v47_provenance_gate.py"
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_visual_render_regression.py"
   push:
     branches: [main]
@@ -25,6 +26,7 @@ on:
       - "scripts/v47_provenance_gate.py"
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_visual_render_regression.py"
   workflow_dispatch:
 
@@ -55,6 +57,9 @@ jobs:
       - name: Prove onboarding detectors reject synthetic faults
         run: python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
 
+      - name: Audit plain-language load and terminology
+        run: python3 scripts/v55_plain_language_audit.py --fail-on-error
+
       - name: Enforce external-knowledge provenance boundary
         run: python3 scripts/v47_provenance_gate.py audit
 
@@ -81,6 +86,9 @@ jobs:
             analysis/v55_onboarding_audit/onboarding_audit_summary.json
             analysis/v55_onboarding_audit_synthetic/synthetic_fixture_results.tsv
             analysis/v55_onboarding_audit_synthetic/synthetic_fixture_summary.json
+            analysis/v55_plain_language_audit/acronym_inventory.tsv
+            analysis/v55_plain_language_audit/document_metrics.tsv
+            analysis/v55_plain_language_audit/long_sentences.tsv
+            analysis/v55_plain_language_audit/plain_language_summary.json
             analysis/v55_visual_render_regression/visual_render_checks.tsv
             analysis/v55_visual_render_regression/visual_render_summary.json
-

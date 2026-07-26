@@ -71,15 +71,20 @@ outcome-chosen score cannot replace that design. `[B02, P01-P06, A02]`
 
 ![Eight cards invite work on small-cohort validation, cohort access, longitudinal progression data, restoration-direction therapies, coupled-system control points, early confound detection, prospective new-data tests, and safe monitoring workflows. Each card names useful expertise and a known non-solution.](visuals/OPEN_PROBLEM_BOARD_V55.svg)
 
-**Text equivalent:** The eight puzzles are: obtain an honest answer from a
-small validation cohort; break dependence on one inaccessible cohort; build the
-missing progression movie; design modalities for restoration rather than
-default inhibition; identify real control points in a coupled system; detect
-source, batch, and immune-tone confounding before interpretation; test genuinely
-new information prospectively; and design a monitoring workflow that preserves
-uncertainty and does not become a treatment recommendation. Every useful idea
-must name a prediction, data, null or holdout, correction, failure condition,
-and known dead end avoided.
+**Text equivalent:** The board contains eight puzzles:
+
+1. Obtain an honest answer from a small validation cohort.
+2. Break dependence on one inaccessible cohort.
+3. Build the missing progression movie.
+4. Design modalities for restoration rather than default inhibition.
+5. Identify real control points in a coupled system.
+6. Detect source, batch, and immune-tone confounding before interpretation.
+7. Test genuinely new information prospectively.
+8. Design a monitoring workflow that preserves uncertainty and does not become
+   a treatment recommendation.
+
+Every useful idea must name a prediction, data, null or holdout, correction,
+failure condition, and known dead end avoided.
 
 [Open the SVG directly](visuals/OPEN_PROBLEM_BOARD_V55.svg) ·
 [Read all eight problem statements](OPEN_PROBLEMS_FOR_COLLABORATORS.md)

@@ -53,6 +53,18 @@ Signals and response machinery associated with broad immune activation states.
 They matter here because broad IFN/STAT1/immune tone can overlap with the
 APC/HLA-II score. `[M04]`
 
+**MIF / CD74**
+
+Gene and protein labels that appear in the recurring coupled APC architecture.
+The project uses “MIF/CD74” as supported context; it did not establish either
+component as a target. `[D01]`
+
+**Oxidative phosphorylation (OXPHOS)**
+
+A cellular energy-producing process and module label used in the progression
+work. The foamy-morphology OXPHOS pattern was downgraded after stronger
+multiplicity and donor checks. `[P04]`
+
 **Microglia**  
 Immune-related cells resident in the CNS. The exact CD44/CXCR4 candidate is
 microglia-compatible and must not be silently transferred to PBMC or whole
@@ -151,7 +163,8 @@ Data deliberately not used to construct or select a result, reserved for a
 later test. A different encoding of the same labels is not automatically an
 independent holdout.
 
-**Cross-validation**  
+**Cross-validation (CV)**
+
 A procedure that repeatedly trains or selects on part of the data and evaluates
 on another part. It helps estimate out-of-sample behavior but does not replace
 an independent cohort.
@@ -208,6 +221,35 @@ A genetic variant associated with a quantitative molecular feature; an eQTL is
 associated with gene expression. Direction, tissue, cell type, and signal
 identity matter when relating an eQTL to disease.
 
+**Gene Expression Omnibus (GEO)**
+
+A public archive commonly used to locate candidate molecular datasets. A GEO
+listing does not make a cohort validation-ready; pairing, labels, gene coverage,
+provenance, and use conditions still require verification. `[A04]`
+
+**G protein-coupled receptor (GPCR)**
+
+A protein-family label relevant to the early appeal of GPR25. In this project,
+belonging to that family did not resolve the causal gene or the required
+therapeutic direction. `[G03, G05]`
+
+**Ulcerative colitis (UC) / MS-UC comparison**
+
+UC was the strongest genome-wide genetic comparator to MS among the diseases
+tested here. This is useful context, not evidence that UC causes MS or transfers
+a treatment target. `[G01]`
+
+**PTGER4**
+
+A gene symbol for a route closed as a simple shared MS-UC target because signals
+and disease directions conflicted. `[G04]`
+
+**ZMIZ1**
+
+A gene symbol used in the supported cross-disease decoupling result. The same
+expression-increasing direction was associated with higher MS risk and lower
+Crohn risk; this is a transfer warning, not a target nomination. `[G02]`
+
 **Colocalization**  
 A statistical assessment of whether two association patterns are compatible
 with a shared causal signal. It does not prove a causal gene or therapeutic
@@ -234,6 +276,22 @@ modality in the required direction. Protein class or a predicted pocket is
 insufficient without causal, directional, cell-state, and delivery fit.
 
 ## Project Discipline
+
+**Artificial intelligence (AI)**
+
+Here, AI models are drafting, question-generating, and adversarial lenses. Their
+confidence or agreement is not scientific evidence. `[E03]`
+
+**RPT**
+
+The project label for a tabular-model lens reached through SAP AI Core. Like the
+language-model lenses, its output is proposal-only until checked against
+artifacts or data. `[E03]`
+
+**Scalable Vector Graphics (SVG)**
+
+The lightweight vector format used for onboarding diagrams. SVG is a
+communication format, not an evidence class or scientific result.
 
 **Locked rule**  
 A feature set, calculation, and decision rule committed before the next test.

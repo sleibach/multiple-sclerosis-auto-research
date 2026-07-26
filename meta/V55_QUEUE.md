@@ -59,8 +59,8 @@ negative results, and source traceability.
 | Visual browser-render regression | done | Reusable Chrome regression renders all five SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 31/31 checks pass. |
 | Onboarding audit synthetic fixtures | done | Ten temporary cases prove clean Markdown/SVG acceptance and rejection of broken links, unknown claims, three marker leaks, missing SVG semantics, and low text/graphic contrast. |
 | Continuous onboarding check | done | Secret-free GitHub workflow runs the audit, synthetic detector checks, provenance/structure gates, Chrome render regression, and uploads only lightweight reports. |
-| Plain-language density review | in-progress | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
-| Source-coverage map | todo | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
+| Plain-language density review | done | Ten-page audit measures 12,881 prose words/1,163 sentences; no >65-word sentences, threshold failures, or unexplained acronyms remain; limits and retained caveats documented. |
+| Source-coverage map | in-progress | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -182,3 +182,10 @@ negative results, and source traceability.
   31/31. The workflow triggers only on relevant paths, needs read-only contents
   permission, makes no data/model calls, and uploads lightweight reports for 14
   days. Active time accrued: 1h02m56s.
+- 2026-07-26T18:22:23Z: Completed the plain-language load review. After fixing
+  list parsing, splitting a genuine 70-word visual equivalent, and defining 12
+  previously unexplained labels, the ten-page audit passes: 12,881 prose words,
+  1,163 sentences, mean 11.1 words, 11 over 30 words, none over 65, no threshold
+  failure, and no unexplained acronym token. The report states that metrics do
+  not prove comprehension and preserves necessary caveats. Onboarding 739/739
+  and both evidence gates pass. Active time accrued: 1h07m09s.
