@@ -107,8 +107,8 @@ negative results, and source traceability.
 | Final cross-page drift and safety review | done | Full public-layer review corrected one stale “clinical lead” contract phrase, currentized the root mission and audit summaries, narrowed “prove” wording, and repaired eight onboarding-graph dead ends; no evidence status changed. |
 | V55 public release note | done | Public note separates the unchanged scientific state from the layered narrative, eight visuals, negative/boundary navigation, contributor routes, integrity checks, and still-unrun human pilot. |
 | Public collaborator invitation | done | Shareable invitation states the unchanged frontier, eight skill families, six puzzles, five-part useful-idea contract, honest review outcomes, and no-advice/no-personal-data boundary. |
-| Starter contribution board | in-progress | Offer concrete documentation, data-metadata, method, falsification, accessibility, and systems-thinking starter tasks with done criteria and non-solutions. |
-| Contribution examples by type | todo | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
+| Starter contribution board | done | Twelve first tasks span comprehension, test cards, visual/accessibility, writing, synthetic leakage/package checks, confounds, validation design, cohort metadata, perturbation design, reproducibility, and countertests. |
+| Contribution examples by type | in-progress | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
 | Direct issue-launch and remote-render check | todo | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
 | External-link and link-label QA | todo | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
 | Heading and table semantic QA | todo | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
@@ -614,3 +614,11 @@ negative results, and source traceability.
   progression solution and accepts no personal health data or advice requests.
   Onboarding 2183/2183, plain-language 41/41 pages, source coverage 33/33 across
   42 reader pages, and route depth 17/17 pass. Active time accrued: 4h05m54s.
+- 2026-07-26T21:24:19Z: Completed the starter contribution board. Twelve
+  bounded tasks each state time/skills, action, submission artifact, objective
+  done criterion, status class, and a known shortcut to avoid. Routes span
+  human comprehension, accessibility, documentation, synthetic method guards,
+  confounding, validation design, cohort metadata, causal perturbation design,
+  reproducibility, and adversarial review. Onboarding 2215/2215,
+  plain-language 42/42 pages, source coverage 33/33 across 43 reader pages, and
+  route depth 17/17 pass. Active time accrued: 4h09m05s.

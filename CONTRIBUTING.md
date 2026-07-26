@@ -16,6 +16,7 @@ boundary before submitting any health-adjacent question or data lead.
 |---|---|
 | Understand the current state | [`docs/onboarding/README.md`](docs/onboarding/README.md) |
 | Find a problem matching my skills | [`docs/onboarding/COLLABORATOR_ROUTES.md`](docs/onboarding/COLLABORATOR_ROUTES.md) |
+| Pick a bounded starter task | [`docs/onboarding/STARTER_CONTRIBUTIONS.md`](docs/onboarding/STARTER_CONTRIBUTIONS.md) |
 | Propose a research direction | [`docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md`](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md) or the **Research direction** issue form |
 | See how ideas are triaged | [`docs/onboarding/IDEA_TRIAGE_RUBRIC.md`](docs/onboarding/IDEA_TRIAGE_RUBRIC.md) |
 | Avoid repeating a closed route | [`docs/onboarding/LEAD_STATUS_CARDS.md`](docs/onboarding/LEAD_STATUS_CARDS.md) and [`docs/onboarding/MYTHS_AND_ACTUAL_FINDINGS.md`](docs/onboarding/MYTHS_AND_ACTUAL_FINDINGS.md) |

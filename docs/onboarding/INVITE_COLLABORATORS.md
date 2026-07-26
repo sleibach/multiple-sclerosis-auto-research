@@ -121,4 +121,5 @@ response, or provide urgent help. See [Patient And Public Safety](PATIENT_AND_PU
 
 Start at the [onboarding landing page](README.md), choose a
 [discipline route](COLLABORATOR_ROUTES.md), or read
-[how to contribute an idea](HOW_TO_CONTRIBUTE_IDEAS.md).
+[how to contribute an idea](HOW_TO_CONTRIBUTE_IDEAS.md). For a bounded first
+task, use the [starter contribution board](STARTER_CONTRIBUTIONS.md).

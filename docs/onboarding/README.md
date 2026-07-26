@@ -75,6 +75,7 @@ Start with the source artifacts rather than onboarding prose:
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
 | Share a concise invitation with a smart generalist | [Invite Collaborators](INVITE_COLLABORATORS.md) |
+| Pick a bounded first task with an explicit done criterion | [Starter Contributions](STARTER_CONTRIBUTIONS.md) |
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
 | Start from questions my discipline can sharpen | [Question Starters By Discipline](QUESTION_STARTERS_BY_DISCIPLINE.md) |
 | Draft a reviewable test card in ten minutes | [Your First Idea In Ten Minutes](FIRST_IDEA_IN_TEN_MINUTES.md) |
