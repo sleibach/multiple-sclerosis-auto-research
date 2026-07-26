@@ -249,6 +249,9 @@ matching [open problem](OPEN_PROBLEMS_FOR_COLLABORATORS.md), and use the
 [ten-minute idea exercise](FIRST_IDEA_IN_TEN_MINUTES.md) or the full
 [contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md).
 
+For an algorithm, diagnostic, estimator, predictor, or infrastructure guard,
+use the dedicated [method contribution guide](CONTRIBUTE_A_METHOD.md).
+
 ## Important Limit
 
 Expertise can improve the question, design, implementation, or interpretation.

@@ -71,6 +71,7 @@ Start with the source artifacts rather than onboarding prose:
 | Get a short answer to a scope or evidence question | [FAQ](FAQ.md) |
 | Turn a broad thought into a fair test | [Worked Idea Transformations](IDEA_TRANSFORMATIONS.md) |
 | Submit a dataset or cohort lead with verified eligibility | [Contribute A Data Source](CONTRIBUTE_A_DATA_SOURCE.md) |
+| Submit an algorithm or analytical method with a fair evaluation | [Contribute A Method](CONTRIBUTE_A_METHOD.md) |
 | Facilitate a cross-disciplinary idea session | [Collaborator Workshop Guide](COLLABORATOR_WORKSHOP_GUIDE.md) |
 | Test whether the onboarding actually works | [Comprehension Test Kit](COMPREHENSION_TEST_KIT.md) |
 | Facilitate a human documentation test consistently | [Comprehension Facilitator Handoff](COMPREHENSION_FACILITATOR_HANDOFF.md) |
