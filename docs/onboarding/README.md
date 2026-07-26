@@ -101,6 +101,7 @@ Start with the source artifacts rather than onboarding prose:
 | Facilitate a human documentation test consistently | [Comprehension Facilitator Handoff](COMPREHENSION_FACILITATOR_HANDOFF.md) |
 | Recruit documentation-test volunteers safely | [Human Pilot Recruitment Handoff](HUMAN_PILOT_RECRUITMENT_HANDOFF.md) |
 | Review an incoming idea transparently | [Idea Triage Rubric](IDEA_TRIAGE_RUBRIC.md) |
+| Triage an incoming idea with the compact maintainer card | [Maintainer Triage Quick Card](MAINTAINER_TRIAGE_QUICK_CARD.md) |
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
 | Know what happens after submission | [Contributor Response Lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) |
 | Follow a fictional submission through repair and five possible verdicts | [Worked Submission Lifecycle](WORKED_SUBMISSION_LIFECYCLE.md) |
