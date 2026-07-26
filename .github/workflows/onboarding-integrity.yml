@@ -13,6 +13,7 @@ on:
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
       - "scripts/v55_plain_language_audit.py"
+      - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   push:
     branches: [main]
@@ -27,6 +28,7 @@ on:
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
       - "scripts/v55_plain_language_audit.py"
+      - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   workflow_dispatch:
 
@@ -60,6 +62,9 @@ jobs:
       - name: Audit plain-language load and terminology
         run: python3 scripts/v55_plain_language_audit.py --fail-on-error
 
+      - name: Map reader pages to bounded claims and sources
+        run: python3 scripts/v55_source_coverage.py --fail-on-error
+
       - name: Enforce external-knowledge provenance boundary
         run: python3 scripts/v47_provenance_gate.py audit
 
@@ -90,5 +95,9 @@ jobs:
             analysis/v55_plain_language_audit/document_metrics.tsv
             analysis/v55_plain_language_audit/long_sentences.tsv
             analysis/v55_plain_language_audit/plain_language_summary.json
+            analysis/v55_source_coverage/artifact_coverage.tsv
+            analysis/v55_source_coverage/claim_coverage.tsv
+            analysis/v55_source_coverage/document_coverage.tsv
+            analysis/v55_source_coverage/source_coverage_summary.json
             analysis/v55_visual_render_regression/visual_render_checks.tsv
             analysis/v55_visual_render_regression/visual_render_summary.json

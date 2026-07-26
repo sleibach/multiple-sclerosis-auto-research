@@ -60,7 +60,18 @@ negative results, and source traceability.
 | Onboarding audit synthetic fixtures | done | Ten temporary cases prove clean Markdown/SVG acceptance and rejection of broken links, unknown claims, three marker leaks, missing SVG semantics, and low text/graphic contrast. |
 | Continuous onboarding check | done | Secret-free GitHub workflow runs the audit, synthetic detector checks, provenance/structure gates, Chrome render regression, and uploads only lightweight reports. |
 | Plain-language density review | done | Ten-page audit measures 12,881 prose words/1,163 sentences; no >65-word sentences, threshold failures, or unexplained acronyms remain; limits and retained caveats documented. |
-| Source-coverage map | in-progress | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
+| Source-coverage map | done | Eleven-page graph covers all 32 claim rows and all 31 existing controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
+| Markdown section-anchor validation | in-progress | Extend local-link checks to verify heading fragments, including duplicate-heading slugs, and prove rejection with a synthetic bad-anchor fixture. |
+| Newcomer comprehension test kit | todo | Package a real human reading protocol, answer key, scoring rubric, and misuse questions without collecting medical information. |
+| Contributor idea triage rubric | todo | Give maintainers a transparent rubric for novelty, grounding feasibility, error controls, decision value, and duplicate/closure risk. |
+| Root contribution integration | todo | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
+| Failure-mode atlas | todo | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
+| Data-needed map | todo | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
+| Research-evolution timeline | todo | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
+| Narrow-screen and print review | todo | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
+| One-page collaborator brief | todo | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
+| Repository tour | todo | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
+| Maintainer release checklist | todo | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -189,3 +200,10 @@ negative results, and source traceability.
   failure, and no unexplained acronym token. The report states that metrics do
   not prove comprehension and preserves necessary caveats. Onboarding 739/739
   and both evidence gates pass. Active time accrued: 1h07m09s.
+- 2026-07-26T18:24:52Z: Completed the source-coverage map. All 32 bounded
+  claims appear in at least one of 11 reader pages; all 31 controlling artifacts
+  exist. The report separates page depth from source authority and identifies
+  maintenance-central artifacts without treating citation frequency as stronger
+  evidence. Onboarding 748/748, plain-language, source coverage, provenance,
+  and structural checks pass. Refilled the backlog with 11 substantive
+  explainability/collaboration tasks. Active time accrued: 1h09m38s.

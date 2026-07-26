@@ -1,0 +1,121 @@
+# Source Coverage And Maintenance Map
+
+This page explains where newcomer material gets its authority. It is a
+traceability map, not an additional evidence layer. Repeating a source across
+many pages does not strengthen the underlying result or change its grade.
+`[E01]`
+
+## Coverage Result
+
+Run:
+
+```bash
+python3 scripts/v55_source_coverage.py --fail-on-error
+```
+
+Current result: `PASS`.
+
+| measure | result |
+|---|---:|
+| Reader-facing pages mapped | 11 |
+| Bounded claim rows | 32 |
+| Claim rows referenced by at least one reader page | 32 |
+| Unique controlling artifacts | 31 |
+| Controlling artifacts present | 31 |
+| Missing reader pages | 0 |
+| Missing controlling artifacts | 0 |
+
+The machine-readable graph is under `analysis/v55_source_coverage/`:
+
+- `claim_coverage.tsv` maps each claim ID to reader pages;
+- `artifact_coverage.tsv` maps every controlling artifact to claims and pages;
+- `document_coverage.tsv` shows the claim, source, and status breadth of each
+  reader page; and
+- `source_coverage_summary.json` records completeness and source groups.
+
+## Why Page Coverage Differs
+
+Different pages intentionally carry different evidence loads:
+
+| page | bounded claims | controlling artifacts | purpose |
+|---|---:|---:|---|
+| Landing page | 3 | 4 | Fast orientation and the candid bottom line. |
+| Layered explanation | 30 | 28 | Broad account of the project arc and frontier. |
+| FAQ | 29 | 28 | Direct answers to likely scope and evidence questions. |
+| Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
+| Lead status cards | 26 | 25 | Route-by-route current status. |
+| Visual text equivalents | 27 | 25 | Accessible linear equivalents for five diagrams. |
+| Glossary | 25 | 26 | Definitions that retain project-specific scope. |
+| Worked transformations | 21 | 23 | Design examples tied to known errors and closures. |
+| Myths versus findings | 27 | 26 | Common overreads corrected against source claims. |
+| Contribution guide | 10 | 11 | Submission discipline rather than a scientific summary. |
+| Collaborator routes | 7 | 9 | Role-specific entry points, deliberately concise. |
+
+The landing page is not a substitute for the layered explanation. The claim
+count makes that visible rather than letting a short summary appear complete.
+
+## Most Reused Controlling Artifacts
+
+The two records used by all 11 reader pages are:
+
+1. `docs/history/V54_RUN_SUMMARY.md`, which controls eight progression,
+   monitoring/target-boundary, and model-use claims; and
+2. `docs/reports/THERAPEUTIC_PATH_V52.md`, which controls six live-lead,
+   closed-direction, and next-impact claims.
+
+Several artifacts feed ten pages:
+
+- `docs/findings/FINDING_V22.md`;
+- `docs/reports/FINDINGS_REPORT_V37.md`;
+- `docs/validation/PREREGISTRATION_V42.md`;
+- `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`; and
+- `docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md`.
+
+This is **maintenance centrality**, not scientific importance. A heavily reused
+artifact requires a wider communication review when it changes; it does not
+gain evidentiary weight from being cited repeatedly.
+
+## Source-Type Balance
+
+The 31 controlling artifacts comprise:
+
+| source group | artifacts |
+|---|---:|
+| Validation documents | 9 |
+| History/run records | 6 |
+| Workups | 5 |
+| Analysis outputs | 4 |
+| Findings | 2 |
+| Reports | 2 |
+| Knowledge governance | 1 |
+| Locked rules | 1 |
+| Outside-context governance | 1 |
+
+The outside-context item governs separation; it does not supply biological
+evidence. `[E02]`
+
+## Maintenance Procedure
+
+When a controlling artifact changes:
+
+1. Review the affected row in `ONBOARDING_CLAIM_SOURCES_V55.tsv` first.
+2. Change its plain-language statement, status, allowed scope, or forbidden
+   overread only if the authoritative evidence actually changed.
+3. Use `artifact_coverage.tsv` to find every affected reader page.
+4. Update all affected wording while preserving page depth and purpose.
+5. Run the onboarding, plain-language, provenance, structure, and browser
+   checks before merging.
+
+When a page changes without an evidence change, its claim IDs should remain
+the same. If new scientific content cannot map to a bounded claim row, it does
+not belong in onboarding until the source contract is updated from an
+authoritative project artifact.
+
+## Limits
+
+- The graph checks presence and relationships, not whether prose faithfully
+  paraphrases every nuance. Human source review still matters.
+- A claim ID on a page does not make every nearby sentence correct.
+- Source count is not evidence grade, novelty, effect size, or replication.
+- The graph cannot substitute for independent validation of provisional work.
+
