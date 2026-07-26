@@ -15,6 +15,7 @@ on:
       - "scripts/v55_onboarding_audit.py"
       - "scripts/v55_onboarding_manifest.py"
       - "scripts/v55_plain_language_audit.py"
+      - "scripts/v55_public_package_footprint.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
       - "scripts/v55_route_depth_audit.py"
@@ -36,6 +37,7 @@ on:
       - "scripts/v55_onboarding_audit.py"
       - "scripts/v55_onboarding_manifest.py"
       - "scripts/v55_plain_language_audit.py"
+      - "scripts/v55_public_package_footprint.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
       - "scripts/v55_route_depth_audit.py"
@@ -83,6 +85,9 @@ jobs:
       - name: Audit heading hierarchy and table semantics
         run: python3 scripts/v55_semantic_structure_audit.py --fail-on-error
 
+      - name: Enforce lightweight self-contained public package
+        run: python3 scripts/v55_public_package_footprint.py --fail-on-error
+
       - name: Enforce external-knowledge provenance boundary
         run: python3 scripts/v47_provenance_gate.py audit --fail-on-error
 
@@ -124,6 +129,8 @@ jobs:
             analysis/v55_plain_language_audit/document_metrics.tsv
             analysis/v55_plain_language_audit/long_sentences.tsv
             analysis/v55_plain_language_audit/plain_language_summary.json
+            analysis/v55_public_package_footprint/package_files.tsv
+            analysis/v55_public_package_footprint/package_footprint_summary.json
             analysis/v55_print_brief_audit/print_brief_checks.tsv
             analysis/v55_print_brief_audit/print_brief_summary.json
             analysis/v55_responsive_visual_audit/responsive_visual_checks.tsv
