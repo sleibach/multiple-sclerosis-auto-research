@@ -146,3 +146,6 @@ authoritative project artifact.
 - A claim ID on a page does not make every nearby sentence correct.
 - Source count is not evidence grade, novelty, effect size, or replication.
 - The graph cannot substitute for independent validation of provisional work.
+
+Continue with the [claim-source contract](CLAIM_SOURCE_MATRIX_V55.md) or the
+[final drift and safety review](FINAL_DRIFT_AND_SAFETY_REVIEW_V55.md).

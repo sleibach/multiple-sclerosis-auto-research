@@ -229,3 +229,7 @@ A useful idea includes its non-positive outcomes before analysis:
 That structure prevents every result from being narrated as encouragement. It
 also makes honest nulls useful: each one tells the next contributor whether to
 stop, repair, narrow, acquire data, or test a genuinely different route.
+
+Continue with the [status decoder](STATUS_DECODER.md) or draft a
+[ten-minute test card](FIRST_IDEA_IN_TEN_MINUTES.md) that precommits the
+non-positive outcomes.

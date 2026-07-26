@@ -110,6 +110,7 @@ Start with the source artifacts rather than onboarding prose:
 | Maintain or release the onboarding layer | [Maintainer Release Checklist](MAINTAINER_RELEASE_CHECKLIST_V55.md) |
 | Check that teaching metaphors retain explicit limits | [Analogy Safety Review](ANALOGY_SAFETY_REVIEW_V55.md) |
 | Inspect the final high-risk wording scan | [Newcomer Ambiguity Review](NEWCOMER_AMBIGUITY_REVIEW_V55.md) |
+| Inspect the final cross-page status, safety, count, and navigation review | [Final Drift And Safety Review](FINAL_DRIFT_AND_SAFETY_REVIEW_V55.md) |
 | Inspect core route depth and reciprocity | [Newcomer Route-Depth Review](ROUTE_DEPTH_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |

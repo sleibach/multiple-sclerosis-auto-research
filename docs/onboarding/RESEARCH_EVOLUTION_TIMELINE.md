@@ -218,3 +218,6 @@ The program did not march from target to cure. It repeatedly changed its mind:
 
 That pattern is the point. The repository's useful output is not only what
 survived, but a traceable record of why attractive alternatives did not.
+
+Continue with the [lead status cards](LEAD_STATUS_CARDS.md) or choose an
+[open collaborator problem](OPEN_PROBLEMS_FOR_COLLABORATORS.md).

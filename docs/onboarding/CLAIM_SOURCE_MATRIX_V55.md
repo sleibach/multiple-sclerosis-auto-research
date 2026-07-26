@@ -41,3 +41,6 @@ The controlling rows are in
 `docs/onboarding/ONBOARDING_CLAIM_SOURCES_V55.tsv`. Future onboarding checks
 should fail if a referenced claim ID is absent, a source path does not exist,
 or a status label is not in the vocabulary above.
+
+Continue with the [source-coverage map](SOURCE_COVERAGE_V55.md) or return to
+the [onboarding landing page](README.md).

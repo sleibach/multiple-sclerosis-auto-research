@@ -65,8 +65,8 @@ Current result: `PASS`.
 | measure | result |
 |---|---:|
 | Reader-facing documents | 39 |
-| Prose words measured | 40,928 |
-| Sentences measured | 4,348 |
+| Prose words measured | 40,972 |
+| Sentences measured | 4,351 |
 | Mean words per sentence across the suite | 9.4 |
 | Sentences over 30 words | 16 (0.4%) |
 | Sentences over 65 words | 0 |
@@ -123,3 +123,6 @@ language.
 
 The independent Claude/Gemini newcomer audit and the visual accessibility audit
 provide separate checks, but neither replaces testing with actual collaborators.
+
+Continue with the [comprehension test kit](COMPREHENSION_TEST_KIT.md) or the
+[documentation and visual contribution route](CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md).

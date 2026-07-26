@@ -62,3 +62,6 @@ change. After correction, the reader pages retain the project's key
 distinctions even when individual result sentences are quoted: research versus
 clinical use, internal holdout versus independent validation, absent design
 versus absent biology, and predicted context versus experiment.
+
+Continue with the [documentation and visual contribution route](CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md)
+or the [final drift and safety review](FINAL_DRIFT_AND_SAFETY_REVIEW_V55.md).

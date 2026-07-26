@@ -42,7 +42,7 @@ effect, or halt strategy. `[B01-B02, P01-P02]`
 1. **Small-cohort inference:** make a frozen pass/fail/inconclusive test
    maximally informative without moving its threshold.
 2. **Access and substitution:** locate a legally usable paired response cohort,
-   or prove precisely why a near-match cannot answer the same question.
+   or document precisely why a near-match cannot answer the same question.
 3. **The progression movie:** design or locate repeated molecular state before
    repeated confirmed-disability outcomes in the same people.
 4. **Restoration-direction intervention:** propose a modality that can increase
@@ -84,4 +84,3 @@ and outside consensus do not replace that test. `[E01-E03]`
 - [Data that would change the answer](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md)
 - [How to contribute a testable idea](HOW_TO_CONTRIBUTE_IDEAS.md)
 - [Authoritative findings report](../reports/FINDINGS_REPORT_V37.md)
-

@@ -253,3 +253,6 @@ cohort differently does not remove the corpus boundary. `[D04-D05]`
 
 If those questions cannot be answered from metadata, the next action is a
 metadata or access request, not analysis.
+
+Continue with [Contribute A Data Source](CONTRIBUTE_A_DATA_SOURCE.md) or turn a
+different direction into a [ten-minute test card](FIRST_IDEA_IN_TEN_MINUTES.md).

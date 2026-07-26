@@ -167,3 +167,5 @@ Residual accessibility/comprehension limits:
 If “scientific status changed” is `yes` but there is no new authoritative
 scientific artifact outside onboarding, the release is not ready.
 
+Continue with the [final drift and safety review](FINAL_DRIFT_AND_SAFETY_REVIEW_V55.md)
+or return to the [onboarding landing page](README.md).

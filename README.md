@@ -1,8 +1,9 @@
 # MS Auto-Research
 
-An autonomous, reproducible computational search for a novel, falsifiable
-therapeutic target in multiple sclerosis (MS) and the broader cross-autoimmune
-mechanism landscape. The project runs in successive
+An autonomous, reproducible computational multiple-sclerosis (MS) research
+program that began as a search for a novel, falsifiable therapeutic target and
+now preserves its supported, provisional, negative, closed, and data-blocked
+results across the broader cross-autoimmune mechanism landscape. The project runs in successive
 phases (V1 through VN); each phase is preserved rather than overwritten so the
 full reasoning trace stays auditable.
 

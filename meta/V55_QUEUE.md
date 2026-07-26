@@ -49,18 +49,18 @@ negative results, and source traceability.
 | Plain-language glossary | done | Defines 50+ medical, design, statistical, genetics, druggability, and project-discipline terms, ending with five interpretation-critical distinctions. |
 | Myths-versus-findings page | done | Twenty-one tempting upgrades are paired with bounded corrections, change conditions, claim IDs, and a nine-row short-form interpretation table. |
 | Per-lead status cards | done | Nine source-linked cards cover the live monitor, coupled context, genetics context/closures, microglia candidate, progression boundary, joint-search null, and simulator negative. |
-| Accessibility and visual semantic audit | done | Scoped WCAG-oriented audit covers five SVGs, text equivalents, semantic names, static behavior, contrast, non-color status cues, and honest screen-reader residuals. |
-| Onboarding traceability checker | done | Committed audit passes 551/551 checks across 32 referenced claim rows, nine documents, five SVGs, local links, class markers, semantics, sizes, and palette contrast. |
+| Accessibility and visual semantic audit | done | Scoped WCAG-oriented audit covers all eight SVGs, text equivalents, semantic names, static behavior, contrast, non-color status cues, and honest screen-reader residuals. |
+| Onboarding traceability checker | done | Expanding committed audit covers every expected onboarding artifact, all 33 bounded claim rows, eight SVGs, local links/anchors, class markers, semantics, sizes, and palette contrast. |
 | Public navigation integration | done | Root README, CURRENT_STATUS, onboarding landing page, narrative, visual index, problem board, and contribution route now cross-link without broken local targets. |
 | Independent newcomer comprehension audit | done | Claude recovered 11/12 rubric items fully and Gemini 10/12; both found a real ZMIZ1 grouping ambiguity, corrected without changing evidence. Raw model responses remain transient. |
 | Role-based collaborator routes | done | Nine role routes map existing skills to bounded puzzles, a concrete first contribution, and known misuse patterns; an any-discipline route supplies five falsifiability questions. |
 | Newcomer FAQ | done | Thirty-one short answers cover project scope, evidence, tried routes, progression, validation/data, nulls/closures, safety, and participation while retaining claim IDs and caveats. |
 | Worked idea transformations | done | Ten examples turn plausible but unusable suggestions into bounded questions with prediction, comparator/null, required data, drop rule, and honest proposal status. |
-| Visual browser-render regression | done | Reusable Chrome regression renders all five SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 31/31 checks pass. |
+| Visual browser-render regression | done | Reusable Chrome regression renders all eight SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 49/49 checks pass. |
 | Onboarding audit synthetic fixtures | done | Ten temporary cases prove clean Markdown/SVG acceptance and rejection of broken links, unknown claims, three marker leaks, missing SVG semantics, and low text/graphic contrast. |
 | Continuous onboarding check | done | Secret-free GitHub workflow runs the audit, synthetic detector checks, provenance/structure gates, Chrome render regression, and uploads only lightweight reports. |
 | Plain-language density review | done | Ten-page audit measures 12,881 prose words/1,163 sentences; no >65-word sentences, threshold failures, or unexplained acronyms remain; limits and retained caveats documented. |
-| Source-coverage map | done | Eleven-page graph covers all 32 claim rows and all 31 existing controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
+| Source-coverage map | done | Current reader graph covers all 33 claim rows and 33 controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
 | Markdown section-anchor validation | done | All 29 current fragments resolve under GitHub-style slugs; same-page/cross-file, explicit IDs, Unicode/punctuation, and duplicate headings supported; bad-anchor fixture rejected. |
 | Newcomer comprehension test kit | done | Two reading routes, 12 source-bounded questions, dangerous-overread rules, scoring/interpretation, privacy limits, remediation table, and TSV scorecard are ready; no human test falsely claimed. |
 | Contributor idea triage rubric | done | Seven hard gates precede eight separate 0–3 axes and seven action classes; no aggregate score can hide data, direction, falsifiability, or safety failure; TSV review template added. |
@@ -104,8 +104,15 @@ negative results, and source traceability.
 | Patient/public safety boundary | done | Prominent research-not-care boundary prohibits symptom interpretation, treatment decisions, personal health records, and urgent requests; it supplies privacy-safe research reformulations and a fail-closed maintainer response. |
 | GitHub idea-form alignment | done | Ten-element live form now mirrors the bounded test card: status/overread, observation-before-solution, rival/drop rule, independent unit, fair challenge, fail-closed checks, prior route, outcome-specific decisions, and safety/evidence acknowledgements. |
 | Newcomer keyword and misconception index | done | Thirty search-term rows and 12 tempting conclusions route gene, monitoring, progression, structure, model, and status queries to bounded wording, forbidden inference, and source-backed explanations. |
-| Final cross-page drift and safety review | in-progress | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
-| V55 public release note | todo | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
+| Final cross-page drift and safety review | done | Full public-layer review corrected one stale “clinical lead” contract phrase, currentized the root mission and audit summaries, narrowed “prove” wording, and repaired eight onboarding-graph dead ends; no evidence status changed. |
+| V55 public release note | in-progress | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
+| Public collaborator invitation | todo | Write a short, shareable invitation that states the honest frontier, who can help, safety/status limits, and a direct test-card route. |
+| Starter contribution board | todo | Offer concrete documentation, data-metadata, method, falsification, accessibility, and systems-thinking starter tasks with done criteria and non-solutions. |
+| Contribution examples by type | todo | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
+| Direct issue-launch and remote-render check | todo | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
+| External-link and link-label QA | todo | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
+| Heading and table semantic QA | todo | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
+| Human pilot recruitment handoff | todo | Create a privacy-safe invitation and session logistics note for running the already-defined comprehension/idea-production pilot; do not claim a run. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -580,3 +587,14 @@ negative results, and source traceability.
   2053/2053, plain-language 39/39 pages with no undefined acronyms, source
   coverage 33/33 across 40 reader pages, and route depth 17/17 pass. Active
   time accrued: 3h53m35s.
+- 2026-07-26T21:14:03Z: Completed the final cross-page drift and safety
+  review. The scan found and corrected one stale “clinical lead” phrase in the
+  controlling M01 row, currentized the root mission wording and live audit
+  summaries, and replaced “prove a near-match cannot substitute” with a
+  bounded documentation task. A full graph check then exposed eight public
+  pages with no outbound onboarding route; each now returns to a relevant
+  reader or maintainer path. All 56 public Markdown pages have outbound links,
+  and every page except the root has an inbound route. Onboarding 2094/2094,
+  plain-language 39/39 pages, source coverage 33/33 across 40 reader pages, and
+  core routes 17/17 pass. No scientific status changed. Active time accrued:
+  3h58m49s.
