@@ -24,10 +24,10 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Documents checked | 66 |
-| Headings checked | 983 |
-| Tables checked | 99 |
-| Structural checks | 2,102 |
+| Documents checked | 67 |
+| Headings checked | 989 |
+| Tables checked | 100 |
+| Structural checks | 2,126 |
 | Failures | 0 |
 
 The full check table and machine summary are under
@@ -51,7 +51,7 @@ automatic defect.
 
 ## Table Checks
 
-All 99 Markdown tables have:
+All 100 Markdown tables have:
 
 - a non-empty header row;
 - a valid header separator with the same number of columns; and

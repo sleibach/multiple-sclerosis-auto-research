@@ -111,12 +111,12 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,102 checks over 66 documents, 983 headings, and 99 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,126 checks over 67 documents, 989 headings, and 100 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
-| Clean-clone newcomer smoke test | in-progress | Exercise the public start, contribution, visual, and audit routes from a fresh shallow clone without changing evidence or claiming human comprehension. |
-| Human-pilot result-capture sheet | todo | Add a privacy-minimal worksheet for recording route, task, misunderstanding, repair, and idea quality without collecting medical or identity data. |
+| Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
+| Human-pilot result-capture sheet | in-progress | Add a privacy-minimal worksheet for recording route, task, misunderstanding, repair, and idea quality without collecting medical or identity data. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -688,3 +688,13 @@ negative results, and source traceability.
   boundary, decision-changing evidence, and prevented overread. Onboarding
   2310/2310, semantic structure 2102/2102, and route depth 17/17 pass. Active
   time accrued: 4h28m24s.
+- 2026-07-26T21:50:19Z: Completed the clean-clone newcomer smoke test from
+  public `origin/main` commit `96634e30` with no local `.env` or workspace
+  state. Traceability 2310/2310, plain-language 43/43, source coverage 33/33,
+  route depth 17/17, semantic structure 2102/2102, the 90-artifact manifest,
+  provenance 841/841, structure 142/142, the 10-element issue form, and eight
+  SVGs passed. The collaborator HTML and research-map SVG served as `text/html`
+  and `image/svg+xml`; the clone remained clean. This is delivery verification,
+  not comprehension or scientific validation. Current-tree onboarding is now
+  2321/2321 and semantic structure 2126/2126 after adding the report. Active
+  time accrued: 4h35m05s.
