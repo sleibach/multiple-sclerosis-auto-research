@@ -46,8 +46,8 @@ negative results, and source traceability.
 | Open-problem-board visualization | done | Two-row SVG indexes all eight collaborator puzzles, the outside discipline each needs, and one prominent anti-pattern per card. |
 | Collaborator open-problem board | done | Eight source-linked puzzles each state the boundary, why hard, prior work, useful outside inputs, minimum idea fields, and known non-solutions. |
 | Contribution on-ramp | done | Guide provides a fast reading route, evidence-status map, copy-ready testable-idea schema, evaluation pipeline, language guardrails, and checklist; GitHub issue form operationalizes it. |
-| Plain-language glossary | in-progress | Define medical, statistical, genetics, and project-governance terms used in onboarding. |
-| Myths-versus-findings page | todo | Prevent common overreads and repeated closed-path proposals. |
+| Plain-language glossary | done | Defines 50+ medical, design, statistical, genetics, druggability, and project-discipline terms, ending with five interpretation-critical distinctions. |
+| Myths-versus-findings page | in-progress | Prevent common overreads and repeated closed-path proposals. |
 | Per-lead status cards | todo | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
 | Accessibility and visual semantic audit | todo | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
 | Onboarding traceability checker | todo | Machine-check source links, evidence/status labels, forbidden overclaims, visual metadata, and file-size limits. |
@@ -105,3 +105,8 @@ negative results, and source traceability.
   prediction, reachable data, null/holdout, confounder plan, decision
   consequence, provenance, and an explicit failure condition. Active time
   accrued: 0h30m02s.
+- 2026-07-26T17:46:53Z: Completed the 1,682-word plain-language glossary. It
+  labels medical material as orientation, preserves project-specific scope,
+  and foregrounds relapse/progression, monitor/target, association/cause,
+  missing-data/absent-biology, and rerunnable/validated distinctions. Active
+  time accrued: 0h31m39s.
