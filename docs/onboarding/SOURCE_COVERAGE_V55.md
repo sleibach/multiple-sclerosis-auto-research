@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 17 |
+| Reader-facing pages mapped | 18 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -48,6 +48,7 @@ Different pages intentionally carry different evidence loads:
 | Research-evolution timeline | 31 | 31 | Promotions, bounds, demotions, nulls, and the present frontier in sequence. |
 | Repository tour | 15 | 16 | Storage, authority, lifecycle, and safe navigation by evidence role. |
 | Nulls and boundaries explainer | 19 | 21 | Decision differences among negative, closed, mixed, attenuated, inconclusive, invalid, and data-blocked outcomes. |
+| Brain-bank confounding case study | 2 | 2 | How source-diagnosis entanglement narrowed one interpretation and changed the next study design. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
 | Visual text equivalents | 31 | 30 | Accessible linear equivalents for six diagrams. |
@@ -62,7 +63,7 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The two records used by all 17 reader pages are:
+The two most reused records each serve 17 of the 18 reader pages:
 
 1. `docs/history/V54_RUN_SUMMARY.md`, which controls eight progression,
    monitoring/target-boundary, and model-use claims; and

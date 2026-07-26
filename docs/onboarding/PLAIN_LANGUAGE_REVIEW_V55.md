@@ -6,7 +6,7 @@ project's evidence policy. `[E01]`
 
 ## Scope
 
-The committed audit covers sixteen reader-facing pages:
+The committed audit covers seventeen reader-facing pages:
 
 - the onboarding landing page;
 - the one-page collaborator brief's linear equivalent;
@@ -19,6 +19,7 @@ The committed audit covers sixteen reader-facing pages:
 - the research-evolution timeline;
 - the repository tour;
 - the null, closure, and missing-answer explainer;
+- the brain-bank confounding case study;
 - collaborator routes;
 - worked idea transformations;
 - myths versus findings;
@@ -41,10 +42,10 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 16 |
-| Prose words measured | 19,893 |
-| Sentences measured | 1,927 |
-| Mean words per sentence across the suite | 10.3 |
+| Reader-facing documents | 17 |
+| Prose words measured | 20,901 |
+| Sentences measured | 2,041 |
+| Mean words per sentence across the suite | 10.2 |
 | Sentences over 30 words | 12 (0.6%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
@@ -64,6 +65,10 @@ scannable.
 The first scan also appeared to find a 185-word paragraph. That was a detector
 error: consecutive Markdown bullets had been joined into one block. The parser
 now treats headings and list items as standalone reading units.
+
+Public `GSE` study accession identifiers are treated as identifiers rather
+than undefined acronyms. Their repository role is still explained where they
+appear; this correction only prevents a false acronym warning.
 
 Short definitions were added for technical labels that appeared in newcomer
 pages without an explicit glossary expansion: AI, RPT, GEO, SVG, CV, UC/MS-UC,

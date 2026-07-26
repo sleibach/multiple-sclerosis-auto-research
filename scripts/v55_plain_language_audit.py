@@ -28,6 +28,7 @@ AUDIENCE_DOCS = (
     "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
     "HOW_TO_CONTRIBUTE_IDEAS.md",
     "HOW_TO_READ_NULLS_AND_BOUNDARIES.md",
+    "CASE_STUDY_BRAIN_BANK_CONFOUND.md",
     "FAQ.md",
     "FAILURE_MODE_ATLAS.md",
     "DATA_THAT_WOULD_CHANGE_THE_ANSWER.md",
@@ -46,7 +47,7 @@ WORD_RE = re.compile(r"[A-Za-z]+(?:[-'][A-Za-z]+)*")
 SENTENCE_RE = re.compile(r"(?<=[.!?])(?:[\"')\]]*)\s+")
 ACRONYM_RE = re.compile(r"\b[A-Z][A-Z0-9/-]{1,}\b")
 VERSION_OR_CLAIM_RE = re.compile(
-    r"^(?:V\d+|[A-Z]\d{2}(?:-[A-Z]?\d{2})?|P\d+|\d+)$"
+    r"^(?:V\d+|GSE\d+|[A-Z]\d{2}(?:-[A-Z]?\d{2})?|P\d+|\d+)$"
 )
 NON_ACRONYM_CAPS = {
     "BLOCKED",

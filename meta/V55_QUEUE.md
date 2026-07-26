@@ -73,10 +73,13 @@ negative results, and source traceability.
 | Repository tour | done | Path-by-role tour distinguishes findings, reports, workups, outputs, frozen plans, data, outside context, operational state, and legacy trees; includes safe audit and contribution routes. |
 | Maintainer release checklist | done | Human/machine release path distinguishes wording from evidence changes; generated 47-file authored-artifact manifest records role, size, and hash without claiming scientific validation. |
 | Null and inconclusive result explainer | done | Seven non-positive outcomes now map to distinct permissible claims, forbidden overreads, decisions, project examples, and a four-question interpretation flow. |
-| Brain-bank confound case study | in-progress | Walk a newcomer through the V53 source/diagnosis entanglement and correction without turning it into a general anti-brain-bank claim. |
-| Genetics reversal case study | todo | Show how GPR25/PTGER4 moved from attractive stories to bounded closures and what exact evidence would reopen them. |
+| Brain-bank confound case study | done | The case separates the attractive raw story, source-diagnosis entanglement, adjusted attenuation, bounded residue, and prospective source-balanced repair without generalizing that brain-bank data are invalid. |
+| Genetics reversal case study | in-progress | Show how GPR25/PTGER4 moved from attractive stories to bounded closures and what exact evidence would reopen them. |
 | Monitoring-versus-target case study | todo | Trace why a useful observer does not identify the intervention and what causal layers are missing. |
 | Evidence-journey decision visual | todo | Add a lightweight visual from idea to grounded/bounded/closed outcome, including invalid and unscoreable exits. |
+| Progression snapshot-versus-movie case study | todo | Explain why cross-sectional stage, morphology, and one-time disability cannot answer a longitudinal transition question. |
+| Confound-detection quick-reference card | todo | Turn the V32/V53 confound lessons into a compact source-covered checklist for incoming ideas and datasets. |
+| Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -304,3 +307,10 @@ negative results, and source traceability.
   forbidden wording. Onboarding 1192/1192, plain-language 16/16 pages, and
   source coverage 33/33 across 17 reader pages pass. Active time accrued:
   2h01m32s.
+- 2026-07-26T19:22:14Z: Completed the brain-bank confounding case study. It
+  traces the V53 diagnosis/source entanglement (Cramer's V 0.773), source-aware
+  attenuation (wild p=0.245), bounded residue, forbidden overreads, and frozen
+  prospective source-balance requirements. It explicitly rejects both “all
+  brain-bank data are invalid” and “adjustment always repairs imbalance.”
+  Onboarding 1204/1204, plain-language 17/17 pages, and source coverage 33/33
+  across 18 reader pages pass. Active time accrued: 2h07m00s.
