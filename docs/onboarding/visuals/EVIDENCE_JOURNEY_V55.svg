@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+  <title id="title">How a research idea reaches an honest decision</title>
+  <desc id="desc">A five-step main path moves from a bounded question through eligibility, identifiability, precommitment, and a rerunnable test. Ineligible inputs exit as invalid or unscoreable. Missing designs exit as data blocked. A completed test can yield supported but bounded, mixed or inconclusive, or negative or closed results. Each outcome has a different next action. Positive status is not the only useful endpoint.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 29px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .head { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .25px; }
+      .body { font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 600 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .25px; }
+      .footer { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .question { fill: #ffffff; stroke: #52606d; stroke-width: 2; }
+      .check { fill: #f2f5f8; stroke: #52606d; stroke-width: 2; }
+      .supported { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2.4; }
+      .live { fill: #e8f2fa; stroke: #005a9c; stroke-width: 2.4; }
+      .boundary { fill: #fff4d6; stroke: #8a5a00; stroke-width: 2.4; }
+      .closed { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2.4; }
+      .negative { fill: #f0ecf8; stroke: #5b4b8a; stroke-width: 2.4; }
+      .arrow { stroke: #52606d; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+      .branch { stroke: #7b8794; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .divider { stroke: #d5dce5; stroke-width: 1; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#52606d"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="940"/>
+  <text class="title ink" x="48" y="48">How an idea reaches an honest decision</text>
+  <text class="subtitle muted" x="48" y="76">A useful research result can support, narrow, close, or expose a missing design. The path is fixed before the answer is known.</text>
+
+  <text class="head muted" x="48" y="122">1. FRAME</text>
+  <text class="head muted" x="286" y="122">2. ELIGIBILITY</text>
+  <text class="head muted" x="524" y="122">3. IDENTIFICATION</text>
+  <text class="head muted" x="762" y="122">4. PRECOMMIT</text>
+  <text class="head muted" x="1000" y="122">5. RUN</text>
+
+  <rect class="question" x="40" y="142" width="190" height="132" rx="12"/>
+  <text class="head ink" x="56" y="170">BOUNDED QUESTION</text>
+  <text class="body ink" x="56" y="197">What exact claim?</text>
+  <text class="body ink" x="56" y="218">What prediction?</text>
+  <text class="body ink" x="56" y="239">What would make us</text>
+  <text class="body ink" x="56" y="258">drop or narrow it?</text>
+
+  <path class="arrow" d="M232 208 L272 208"/>
+  <rect class="check" x="280" y="142" width="190" height="132" rx="12"/>
+  <text class="head ink" x="296" y="170">INPUTS VALID?</text>
+  <text class="body ink" x="296" y="197">Permission, pairing,</text>
+  <text class="body ink" x="296" y="218">timing, labels, mapping,</text>
+  <text class="body ink" x="296" y="239">coverage, and process</text>
+  <text class="body ink" x="296" y="258">checks pass?</text>
+
+  <path class="arrow" d="M472 208 L512 208"/>
+  <rect class="check" x="520" y="142" width="190" height="132" rx="12"/>
+  <text class="head ink" x="536" y="170">CLAIM IDENTIFIED?</text>
+  <text class="body ink" x="536" y="197">Can this design separate</text>
+  <text class="body ink" x="536" y="218">the intended effect from</text>
+  <text class="body ink" x="536" y="239">source, timing, outcome,</text>
+  <text class="body ink" x="536" y="258">and proxy alternatives?</text>
+
+  <path class="arrow" d="M712 208 L752 208"/>
+  <rect class="check" x="760" y="142" width="190" height="132" rx="12"/>
+  <text class="head ink" x="776" y="170">DECISIONS FROZEN?</text>
+  <text class="body ink" x="776" y="197">Feature, split, outcome,</text>
+  <text class="body ink" x="776" y="218">null, correction, pass,</text>
+  <text class="body ink" x="776" y="239">fail, inconclusive, and</text>
+  <text class="body ink" x="776" y="258">drop rule fixed first?</text>
+
+  <path class="arrow" d="M952 208 L992 208"/>
+  <rect class="live" x="1000" y="142" width="160" height="132" rx="12"/>
+  <text class="head ink" x="1016" y="170">RERUNNABLE TEST</text>
+  <text class="body ink" x="1016" y="197">Run the fixed analysis.</text>
+  <text class="body ink" x="1016" y="218">Preserve nulls, intervals,</text>
+  <text class="body ink" x="1016" y="239">corrections, provenance,</text>
+  <text class="body ink" x="1016" y="258">and all eligible results.</text>
+
+  <path class="branch" d="M375 276 L375 326"/>
+  <rect class="closed" x="255" y="334" width="240" height="100" rx="11"/>
+  <text class="small ink" x="271" y="359">EXIT A: INVALID / UNSCOREABLE</text>
+  <text class="body ink" x="271" y="384">Repair the package if possible.</text>
+  <text class="body ink" x="271" y="405">No biological verdict. [A01]</text>
+
+  <path class="branch" d="M615 276 L615 326"/>
+  <rect class="boundary" x="505" y="334" width="220" height="100" rx="11"/>
+  <text class="small ink" x="521" y="359">EXIT B: DATA BLOCKED</text>
+  <text class="body ink" x="521" y="384">Specify the missing design.</text>
+  <text class="body ink" x="521" y="405">Not absent biology. [P01]</text>
+
+  <path class="branch" d="M1080 276 L1080 475 L220 475 L220 517"/>
+  <path class="branch" d="M1080 276 L1080 475 L595 475 L595 517"/>
+  <path class="branch" d="M1080 276 L1080 475 L970 475 L970 517"/>
+
+  <text class="head muted" x="48" y="493">VALID TEST OUTCOMES</text>
+
+  <rect class="supported" x="55" y="525" width="330" height="142" rx="12"/>
+  <text class="head ink" x="73" y="553">SUPPORTED, STILL BOUNDED</text>
+  <text class="body ink" x="73" y="580">State only what this design identifies.</text>
+  <text class="body ink" x="73" y="603">Keep provisional status when outside</text>
+  <text class="body ink" x="73" y="626">validation or utility is still missing.</text>
+  <text class="small ink" x="73" y="650">NEXT: REPLICATE OR TEST UTILITY  [E01]</text>
+
+  <rect class="boundary" x="435" y="525" width="320" height="142" rx="12"/>
+  <text class="head ink" x="453" y="553">MIXED / ATTENUATED / INCONCLUSIVE</text>
+  <text class="body ink" x="453" y="580">Report contexts, adjustment, effect,</text>
+  <text class="body ink" x="453" y="603">and interval. Do not select a pass or</text>
+  <text class="body ink" x="453" y="626">retune after seeing the answer.</text>
+  <text class="small ink" x="453" y="650">NEXT: NARROW, REPAIR, OR SIZE DATA</text>
+
+  <rect class="negative" x="805" y="525" width="340" height="142" rx="12"/>
+  <text class="head ink" x="823" y="553">NEGATIVE / DEMOTED / CLOSED</text>
+  <text class="body ink" x="823" y="580">Stop the tested route at its stated scope.</text>
+  <text class="body ink" x="823" y="603">Preserve any bounded biology and name</text>
+  <text class="body ink" x="823" y="626">the genuinely new evidence for reopening.</text>
+  <text class="small ink" x="823" y="650">NEXT: STOP OR REQUIRE REOPEN EVIDENCE</text>
+
+  <line class="divider" x1="48" y1="714" x2="1152" y2="714"/>
+  <text class="head ink" x="48" y="748">EVERY OUTCOME MUST KEEP ITS EVIDENCE CLASS</text>
+  <rect class="live" x="48" y="770" width="260" height="80" rx="11"/>
+  <text class="small ink" x="65" y="795">PROVENANCE</text>
+  <text class="body ink" x="65" y="819">Rerunnable here, outside context,</text>
+  <text class="body ink" x="65" y="840">prediction, or method-only simulation?</text>
+
+  <rect class="check" x="330" y="770" width="260" height="80" rx="11"/>
+  <text class="small ink" x="347" y="795">SCOPE</text>
+  <text class="body ink" x="347" y="819">Association, monitoring, mechanism,</text>
+  <text class="body ink" x="347" y="840">target, utility, or progression?</text>
+
+  <rect class="boundary" x="612" y="770" width="260" height="80" rx="11"/>
+  <text class="small ink" x="629" y="795">UNCERTAINTY</text>
+  <text class="body ink" x="629" y="819">Effect, interval, null, correction,</text>
+  <text class="body ink" x="629" y="840">confounders, and failed contexts?</text>
+
+  <rect class="closed" x="894" y="770" width="258" height="80" rx="11"/>
+  <text class="small ink" x="911" y="795">DECISION</text>
+  <text class="body ink" x="911" y="819">Continue, replicate, narrow, repair,</text>
+  <text class="body ink" x="911" y="840">acquire, stop, or reopen only if...</text>
+
+  <text class="footer muted" x="48" y="894">V55 communication guide only. A clean process does not make a positive result, and a negative result can still be the correct useful decision.</text>
+  <text class="footer muted" x="48" y="917">Full text: docs/onboarding/HOW_TO_READ_NULLS_AND_BOUNDARIES.md and docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md</text>
+</svg>

@@ -53,7 +53,7 @@ Different pages intentionally carry different evidence loads:
 | Monitor-versus-target case study | 9 | 11 | Why an associated early-treatment readout and a causal intervention require different evidence ladders. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
-| Visual text equivalents | 31 | 30 | Accessible linear equivalents for six diagrams. |
+| Visual text equivalents | 31 | 30 | Accessible linear equivalents for seven diagrams. |
 | Glossary | 25 | 26 | Definitions that retain project-specific scope. |
 | Worked transformations | 21 | 23 | Design examples tied to known errors and closures. |
 | Myths versus findings | 27 | 26 | Common overreads corrected against source claims. |

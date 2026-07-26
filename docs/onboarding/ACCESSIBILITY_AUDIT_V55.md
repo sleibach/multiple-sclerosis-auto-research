@@ -2,7 +2,7 @@
 
 Status: **scoped WCAG 2.1 AA-oriented review; no scientific claim**.
 
-Scope: the six static SVGs and their Markdown text equivalents under
+Scope: the seven static SVGs and their Markdown text equivalents under
 `docs/onboarding/`. The review follows the available accessibility-review skill
 and checks WCAG 2.1 criteria relevant to static non-text content. It is not a
 formal certification.
@@ -17,6 +17,7 @@ formal certification.
 | `RELAPSE_VS_PROGRESSION_V55.svg` | pass | pass | pass | pass | pass |
 | `OPEN_PROBLEM_BOARD_V55.svg` | pass | pass | pass | pass | pass |
 | `RESEARCH_EVOLUTION_V55.svg` | pass | pass | pass | pass | pass |
+| `EVIDENCE_JOURNEY_V55.svg` | pass | pass | pass | pass | pass |
 
 ## WCAG-Oriented Findings
 
@@ -83,7 +84,7 @@ There are no custom interactive components requiring state or value exposure.
 
 ## Visual Inspection
 
-All six SVGs were parsed with `xmllint`, rendered in headless Chrome at their
+All seven SVGs were parsed with `xmllint`, rendered in headless Chrome at their
 native view-box size, and visually inspected. Text overflow found during the
 first previews was corrected before this audit. The diagrams remain readable as
 vector assets and use no external fonts, scripts, or network resources.
@@ -118,11 +119,11 @@ make no scientific claim.
 4. The diagrams are information dense. At narrow widths, readers may need to
    use the linear text equivalent rather than reading a scaled multi-column
    layout. The constrained-width audit makes that fallback mandatory for all
-   six visuals and records the measured label sizes.
+   seven visuals and records the measured label sizes.
 
 ## Verdict
 
-The six visuals meet the scoped automated and design checks relevant to static
+The seven visuals meet the scoped automated and design checks relevant to static
 content and provide robust text alternatives. The remaining gap is human
 assistive-technology testing, not a known scientific or status-label defect.
 

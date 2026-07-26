@@ -6,7 +6,7 @@ text equivalent below. The SVGs contain no controls or keyboard interactions.
 
 ## Small Screen And Print Rule
 
-At phone, tablet-column, and portrait-print widths, all six diagrams fit their
+At phone, tablet-column, and portrait-print widths, all seven diagrams fit their
 containers but their embedded labels become too small for direct reading. Use
 the visible **Text equivalent** in each section as the complete content; open
 the SVG directly only for zooming or a larger view. The measured review is in
@@ -117,6 +117,28 @@ M01-M05, D01-D05, A01-A04, C01-C02, P01-P06]`
 
 [Open the SVG directly](visuals/RESEARCH_EVOLUTION_V55.svg) ·
 [Read the source-linked timeline](RESEARCH_EVOLUTION_TIMELINE.md)
+
+## 7. How An Idea Reaches A Decision
+
+![Five-step evidence path from a bounded question through eligibility, identification, precommitment, and a rerunnable test. Invalid inputs and missing designs exit early. Valid tests can yield supported but bounded, mixed or inconclusive, or negative or closed outcomes, each with a different next action.](visuals/EVIDENCE_JOURNEY_V55.svg)
+
+**Text equivalent:** Start with an exact claim, prediction, and drop rule. Check
+that permissions, pairing, timing, labels, mappings, and coverage make the
+inputs eligible. Then ask whether the design can separate the intended claim
+from source, timing, outcome, and proxy alternatives. If inputs fail, the
+result is invalid or unscoreable, not a biological null. If the design cannot
+identify the claim, the result is data blocked, not absent biology. For a valid
+question, freeze the feature, split, outcome, null, correction, and decision
+rules before running the rerunnable test. A supported result keeps the scope and
+any provisional status. A mixed, attenuated, or inconclusive result is narrowed
+or used to repair/size the next test. A negative or closed result stops the
+tested route unless genuinely new reopening evidence arrives. Every outcome
+retains provenance, scope, uncertainty, and a concrete decision. `[E01, A01,
+P01]`
+
+[Open the SVG directly](visuals/EVIDENCE_JOURNEY_V55.svg) ·
+[Read how to interpret non-positive outcomes](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) ·
+[Read how to submit a testable idea](HOW_TO_CONTRIBUTE_IDEAS.md)
 
 ## Status Encoding
 

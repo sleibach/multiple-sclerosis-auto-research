@@ -2,7 +2,7 @@
 
 Status: **communication-delivery review; no scientific claim**.
 
-The six V55 diagrams are dense overview maps. Shrinking a diagram until it fits
+The seven V55 diagrams are dense overview maps. Shrinking a diagram until it fits
 a phone or portrait page does not make its embedded labels readable. This
 review measures both geometry and effective label size, then makes the full text
 equivalent mandatory where the image alone is insufficient.
@@ -36,11 +36,11 @@ Current status: `PASS`, with a required fallback in every constrained scenario.
 
 | measure | result |
 |---|---:|
-| Visuals | 6 |
-| Visual × scenario combinations | 18 |
+| Visuals | 7 |
+| Visual × scenario combinations | 21 |
 | Browser wrapper overflow failures | 0 |
 | Combinations with directly readable minimum labels at 10 px | 0 |
-| Combinations requiring the full text equivalent | 18 |
+| Combinations requiring the full text equivalent | 21 |
 | Raster or PDF outputs committed | 0 |
 
 Every SVG scales inside its content wrapper without horizontal image overflow.
@@ -49,9 +49,9 @@ after scaling they become:
 
 | scenario | effective minimum label range |
 |---|---:|
-| Mobile | 2.87-3.01 px |
-| Tablet | 6.16-6.45 px |
-| Portrait-print model | 5.88-6.16 px |
+| Mobile | 2.87-3.14 px |
+| Tablet | 6.16-6.75 px |
+| Portrait-print model | 5.88-6.44 px |
 
 Those values are below the audit's 10-pixel direct-label threshold. A reader
 must not be told that the shrunken diagram is independently legible merely
