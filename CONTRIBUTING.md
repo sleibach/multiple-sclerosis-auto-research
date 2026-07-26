@@ -6,7 +6,9 @@ medical background. You do need to preserve the boundary between an idea, a
 rerunnable result, a provisional finding, and outside-source context.
 
 This project is research, not medical advice. Do not submit patient-specific
-recommendations or personal health information.
+recommendations or personal health information. Read the
+[`Patient And Public Safety`](docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md)
+boundary before submitting any health-adjacent question or data lead.
 
 ## Fast Routes
 

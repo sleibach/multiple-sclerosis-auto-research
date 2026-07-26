@@ -21,6 +21,7 @@ medical background. It changes no scientific finding.
 - [How to submit a falsifiable research-direction idea](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md)
 - [Repository tour by evidence role](docs/onboarding/REPOSITORY_TOUR.md)
 - [Contribution workflow and repository safeguards](CONTRIBUTING.md)
+- [Patient/public safety and privacy boundary](docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md)
 - [Plain-language glossary](docs/onboarding/GLOSSARY.md)
 
 The short honest state: one provisional early-treatment monitoring lead awaits

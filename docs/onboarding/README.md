@@ -36,6 +36,12 @@ V55 is communication and onboarding only. It introduces no scientific claim.
    comparison or untouched test set, how chance findings will be controlled,
    and a result that would make us drop it.
 
+### I Have A Personal Health Question
+
+This repository cannot interpret symptoms, recommend treatment, or accept
+personal health records. Read the [patient and public safety boundary](PATIENT_AND_PUBLIC_SAFETY.md)
+for safe research-only alternatives.
+
 ### I Am Reviewing Scientific Evidence
 
 Start with the source artifacts rather than onboarding prose:
@@ -73,6 +79,7 @@ Start with the source artifacts rather than onboarding prose:
 | Submit a dataset or cohort lead with verified eligibility | [Contribute A Data Source](CONTRIBUTE_A_DATA_SOURCE.md) |
 | Submit an algorithm or analytical method with a fair evaluation | [Contribute A Method](CONTRIBUTE_A_METHOD.md) |
 | Improve documentation or a visual without changing scientific status | [Contribute Documentation Or A Visual](CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md) |
+| Understand the no-medical-advice and no-personal-data boundary | [Patient And Public Safety](PATIENT_AND_PUBLIC_SAFETY.md) |
 | Facilitate a cross-disciplinary idea session | [Collaborator Workshop Guide](COLLABORATOR_WORKSHOP_GUIDE.md) |
 | Test whether the onboarding actually works | [Comprehension Test Kit](COMPREHENSION_TEST_KIT.md) |
 | Facilitate a human documentation test consistently | [Comprehension Facilitator Handoff](COMPREHENSION_FACILITATOR_HANDOFF.md) |

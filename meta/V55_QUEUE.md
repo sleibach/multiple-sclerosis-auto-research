@@ -101,8 +101,8 @@ negative results, and source traceability.
 | Data-source contribution on-ramp | done | Six role-specific paths require permanent sources, access terms, independent units, field-by-field eligibility, safe aggregates, and non-evidentiary workflow status. |
 | Method contribution on-ramp | done | New analytical methods must name a fixed target, fair baseline, independent unit, structure-preserving null, holdout, leakage/confound audit, uncertainty, multiplicity plan, and drop rule; novelty and model agreement remain non-evidence. |
 | Documentation and visual contribution on-ramp | done | Meaning-first contract, bounded wording repairs, status-aware visual semantics, alt/text equivalents, non-color cues, lightweight delivery, human comprehension questions, and exact checks are now explicit. |
-| Patient/public safety boundary | in-progress | Create a prominent no-medical-advice/no-personal-data route with safe general research alternatives. |
-| GitHub idea-form alignment | todo | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
+| Patient/public safety boundary | done | Prominent research-not-care boundary prohibits symptom interpretation, treatment decisions, personal health records, and urgent requests; it supplies privacy-safe research reformulations and a fail-closed maintainer response. |
+| GitHub idea-form alignment | in-progress | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
 | Newcomer keyword and misconception index | todo | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
 | Final cross-page drift and safety review | todo | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
 | V55 public release note | todo | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
@@ -553,3 +553,11 @@ negative results, and source traceability.
   1904/1904, plain-language 37/37 pages with no undefined acronyms, source
   coverage 33/33 across 38 reader pages, and route depth 17/17 pass. Active
   time accrued: 3h41m00s.
+- 2026-07-26T20:59:10Z: Completed the patient and public safety boundary. It
+  explicitly bars diagnosis, symptom or scan interpretation, medicine changes,
+  individual prediction, urgent support, and submission of identifiable or
+  row-level health data. General research questions, public-access metadata,
+  methods, and documentation remain welcome through privacy-safe routes. The
+  maintainer procedure removes rather than analyzes unsafe data. Onboarding
+  1929/1929, plain-language 38/38 pages, source coverage 33/33 across 39 reader
+  pages, and route depth 17/17 pass. Active time accrued: 3h43m56s.
