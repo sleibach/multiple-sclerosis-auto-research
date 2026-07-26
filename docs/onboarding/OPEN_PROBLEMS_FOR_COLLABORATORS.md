@@ -8,6 +8,9 @@ It introduces no biological finding. Every scientific premise carries a claim
 ID from the [V55 source contract](CLAIM_SOURCE_MATRIX_V55.md). Proposed
 directions on this page have **zero finding status** until they are tested.
 
+Before choosing a route, scan the [known non-solutions](KNOWN_NON_SOLUTIONS.md)
+so the proposal changes a failed assumption rather than repeating it.
+
 ## Pick A Puzzle
 
 | # | open problem | current boundary | outside perspective most useful |

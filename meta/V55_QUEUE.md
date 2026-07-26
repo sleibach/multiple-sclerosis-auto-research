@@ -92,8 +92,8 @@ negative results, and source traceability.
 | Review-response templates | done | Thirteen concise templates cover receipt, repair, data request, closure, parking, safety, runnable/external tests, and six result classes while grading the proposal or run rather than the contributor. |
 | Evidence-status versus workflow-status matrix | done | Three-layer decoder separates workflow, test validity, and evidence; it defines allowed transitions and blocks runnable/parked/data-blocked/invalid category errors. |
 | Zero-jargon entry-route review | done | Fourteen pre-glossary barriers were defined or replaced at first use; unavoidable identifiers remain role-labeled, and the result is explicitly subject to human testing. |
-| Known non-solutions index | in-progress | Consolidate the tested dead ends and exact reopening evidence so newcomers can search before repeating a closed route. |
-| Cross-disciplinary question starters | todo | Give engineers, designers, statisticians, systems thinkers, and other scientists bounded prompts tied to specific open problems. |
+| Known non-solutions index | done | Thirty-five tested shortcuts across monitoring, genetics, systems, progression, and evidence handling now pair the failure reason with exact reopening evidence. |
+| Cross-disciplinary question starters | in-progress | Give engineers, designers, statisticians, systems thinkers, and other scientists bounded prompts tied to specific open problems. |
 | First idea in ten minutes | todo | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
 | Public issue example set | todo | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
 | Challenge-the-project guide | todo | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
@@ -472,3 +472,10 @@ negative results, and source traceability.
   Onboarding 1606/1606, plain-language 29/29 pages with zero undefined acronym
   tokens, source coverage 33/33, and route depth 17/17 pass. Active time
   accrued: 3h12m59s.
+- 2026-07-26T20:31:14Z: Completed the known non-solutions index. Thirty-five
+  repeated shortcuts across monitoring/validation, genetics/structure,
+  systems/search, progression/compartment, and evidence handling now state why
+  the shortcut fails and the exact evidence that would make a resubmission new.
+  Closures remain route-bounded rather than claims of biological absence.
+  Onboarding 1651/1651, plain-language 30/30 pages, source coverage 33/33 across
+  31 reader pages, and route depth 17/17 pass. Active time accrued: 3h16m00s.

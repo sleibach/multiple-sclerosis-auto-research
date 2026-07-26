@@ -76,6 +76,7 @@ Start with the source artifacts rather than onboarding prose:
 | Separate workflow, test validity, and evidence status | [Status Decoder](STATUS_DECODER.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
+| Search tested shortcuts before proposing | [Known Non-Solutions](KNOWN_NON_SOLUTIONS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |
 | Interpret AUC, intervals, p/q values, permutations, multiplicity, and cross-validation | [How To Read Numbers Without Overreading](HOW_TO_READ_NUMBERS_WITHOUT_OVERREADING.md) |
 | See how source imbalance changed a biological interpretation | [Brain-Bank Confounding Case Study](CASE_STUDY_BRAIN_BANK_CONFOUND.md) |
