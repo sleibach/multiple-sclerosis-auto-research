@@ -43,9 +43,9 @@ negative results, and source traceability.
 | Monitoring-lead visualization | done | Five-step fixed analysis, bounded evidence, blocked monitor-to-target inference, and preregistered pass/fail/inconclusive outcomes render in one SVG. |
 | Epistemic-class visualization | done | Two-lane SVG shows that rerunnable evidence may be positive, provisional, negative, or data-bound, while outside context can queue tests but cannot transfer authority. |
 | Relapse-versus-progression visualization | done | Explicitly schematic SVG separates episode timing from repeated confirmed disability and contrasts held snapshots with the required longitudinal molecular “movie.” |
-| Open-problem-board visualization | in-progress | Visual index of contribution puzzles and known dead ends. |
+| Open-problem-board visualization | done | Two-row SVG indexes all eight collaborator puzzles, the outside discipline each needs, and one prominent anti-pattern per card. |
 | Collaborator open-problem board | done | Eight source-linked puzzles each state the boundary, why hard, prior work, useful outside inputs, minimum idea fields, and known non-solutions. |
-| Contribution on-ramp | todo | Define how to submit a falsifiable, groundable direction and navigate evidence classes. |
+| Contribution on-ramp | in-progress | Define how to submit a falsifiable, groundable direction and navigate evidence classes. |
 | Plain-language glossary | todo | Define medical, statistical, genetics, and project-governance terms used in onboarding. |
 | Myths-versus-findings page | todo | Prevent common overreads and repeated closed-path proposals. |
 | Per-lead status cards | todo | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
@@ -96,3 +96,7 @@ negative results, and source traceability.
   rows to the source contract for V43 small-cohort simulations and V44/V45
   cohort access, explicitly separating method behavior from MS biology. Active
   time accrued: 0h25m58s.
+- 2026-07-26T17:43:05Z: Completed and browser-rendered the open-problem board
+  visual. All eight cards state an open direction, the useful outside lens, a
+  claim reference, and a known non-solution; the footer defines the minimum
+  anatomy of a useful idea. Active time accrued: 0h27m51s.

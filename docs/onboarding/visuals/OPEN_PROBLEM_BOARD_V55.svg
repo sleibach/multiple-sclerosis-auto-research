@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Eight open research-direction puzzles for collaborators</title>
+  <desc id="desc">Eight cards invite contributions on small-cohort validation, cohort access, progression data, function restoration, coupled systems, confound detection, prospective new-data tests, and safe monitoring workflows. Each card names useful outside expertise and a known non-solution.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 29px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .cardTitle { font: 700 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .head { font: 700 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 700 10.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .35px; }
+      .tiny { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .card { fill: #ffffff; stroke: #52606d; stroke-width: 1.7; }
+      .method { fill: #e8f2fa; stroke: #005a9c; stroke-width: 2.5; }
+      .data { fill: #fff4d6; stroke: #8a5a00; stroke-width: 2.5; }
+      .direction { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2.5; }
+      .systems { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2.5; }
+      .avoid { fill: #f8ecea; stroke: #c8a3a0; stroke-width: 1; }
+      .number { fill: #172033; }
+      .divider { stroke: #d5dce5; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="820"/>
+  <text class="title ink" x="55" y="50">Where a fresh mind can help: eight bounded puzzles</text>
+  <text class="subtitle muted" x="55" y="78">Choose a direction, not a conclusion. Every idea still needs a prediction, data, a null, and a reason to drop it.</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(55,112)">
+    <rect class="method" x="0" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="28" cy="29" r="17"/>
+    <text class="head" x="24" y="34" fill="#ffffff">1</text>
+    <text class="small ink" x="53" y="26">OPEN · VALIDATION  [A01, A03]</text>
+    <text class="cardTitle ink" x="18" y="69">Small cohort, honest answer</text>
+    <text class="body ink" x="18" y="94">How can a fixed score be tested</text>
+    <text class="body ink" x="18" y="112">decisively when n may be tiny?</text>
+    <text class="head ink" x="18" y="145">Useful lens</text>
+    <text class="body ink" x="18" y="166">Small-sample statistics, decision</text>
+    <text class="body ink" x="18" y="184">theory, uncertainty, sequential design.</text>
+    <rect class="avoid" x="14" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="27" y="229">AVOID</text>
+    <text class="body ink" x="27" y="249">Post-hoc features, thresholds,</text>
+    <text class="body ink" x="27" y="264">subgroups, or “inconclusive = pass.”</text>
+
+    <rect class="data" x="275" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="303" cy="29" r="17"/>
+    <text class="head" x="299" y="34" fill="#ffffff">2</text>
+    <text class="small ink" x="328" y="26">OPEN · ACCESS  [A04]</text>
+    <text class="cardTitle ink" x="293" y="69">Break single-cohort dependence</text>
+    <text class="body ink" x="293" y="94">Can data be obtained or tested</text>
+    <text class="body ink" x="293" y="112">federally without weakening eligibility?</text>
+    <text class="head ink" x="293" y="145">Useful lens</text>
+    <text class="body ink" x="293" y="166">Data discovery, metadata engineering,</text>
+    <text class="body ink" x="293" y="184">privacy, federated analysis.</text>
+    <rect class="avoid" x="289" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="302" y="229">AVOID</text>
+    <text class="body ink" x="302" y="249">Counting an unlabeled longitudinal</text>
+    <text class="body ink" x="302" y="264">dataset as validation-ready.</text>
+
+    <rect class="data" x="550" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="578" cy="29" r="17"/>
+    <text class="head" x="574" y="34" fill="#ffffff">3</text>
+    <text class="small ink" x="603" y="26">OPEN · PROGRESSION  [A02]</text>
+    <text class="cardTitle ink" x="568" y="69">Build the missing “movie”</text>
+    <text class="body ink" x="568" y="94">What minimal design connects repeated</text>
+    <text class="body ink" x="568" y="112">molecular state to confirmed disability?</text>
+    <text class="head ink" x="568" y="145">Useful lens</text>
+    <text class="body ink" x="568" y="166">Longitudinal measurement, event-time</text>
+    <text class="body ink" x="568" y="184">analysis, missingness, causal design.</text>
+    <rect class="avoid" x="564" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="577" y="229">AVOID</text>
+    <text class="body ink" x="577" y="249">Relapse, static stage, or blood proxy</text>
+    <text class="body ink" x="577" y="264">standing in for progression.</text>
+
+    <rect class="direction" x="825" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="853" cy="29" r="17"/>
+    <text class="head" x="849" y="34" fill="#ffffff">4</text>
+    <text class="small ink" x="878" y="26">OPEN · DIRECTION  [G02-G04]</text>
+    <text class="cardTitle ink" x="843" y="69">Restore, do not just inhibit</text>
+    <text class="body ink" x="843" y="94">What modality can increase or restore</text>
+    <text class="body ink" x="843" y="112">the right function in the right cell?</text>
+    <text class="head ink" x="843" y="145">Useful lens</text>
+    <text class="body ink" x="843" y="166">Control theory, protein engineering,</text>
+    <text class="body ink" x="843" y="184">targeted delivery, inverse design.</text>
+    <rect class="avoid" x="839" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="852" y="229">AVOID</text>
+    <text class="body ink" x="852" y="249">“It has a pocket, therefore it is</text>
+    <text class="body ink" x="852" y="264">an actionable target.”</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(55,417)">
+    <rect class="systems" x="0" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="28" cy="29" r="17"/>
+    <text class="head" x="24" y="34" fill="#ffffff">5</text>
+    <text class="small ink" x="53" y="26">OPEN · SYSTEMS  [D01, D02]</text>
+    <text class="cardTitle ink" x="18" y="69">Find real control points</text>
+    <text class="body ink" x="18" y="94">Can perturbations distinguish drivers,</text>
+    <text class="body ink" x="18" y="112">readouts, feedback, and redundancy?</text>
+    <text class="head ink" x="18" y="145">Useful lens</text>
+    <text class="body ink" x="18" y="166">System identification, network control,</text>
+    <text class="body ink" x="18" y="184">sparse models, perturbation design.</text>
+    <rect class="avoid" x="14" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="27" y="229">AVOID</text>
+    <text class="body ink" x="27" y="249">Turning co-movement into a causal</text>
+    <text class="body ink" x="27" y="264">network or drug combination.</text>
+
+    <rect class="method" x="275" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="303" cy="29" r="17"/>
+    <text class="head" x="299" y="34" fill="#ffffff">6</text>
+    <text class="small ink" x="328" y="26">OPEN · CONFOUNDING  [M04, C02]</text>
+    <text class="cardTitle ink" x="293" y="69">Fail early on confounding</text>
+    <text class="body ink" x="293" y="94">Can source, batch, or broad state be</text>
+    <text class="body ink" x="293" y="112">detected before a result is narrated?</text>
+    <text class="head ink" x="293" y="145">Useful lens</text>
+    <text class="body ink" x="293" y="166">Adversarial validation, overlap checks,</text>
+    <text class="body ink" x="293" y="184">causal diagrams, domain shift.</text>
+    <rect class="avoid" x="289" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="302" y="229">AVOID</text>
+    <text class="body ink" x="302" y="249">Assuming normalization removes</text>
+    <text class="body ink" x="302" y="264">design confounding.</text>
+
+    <rect class="method" x="550" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="578" cy="29" r="17"/>
+    <text class="head" x="574" y="34" fill="#ffffff">7</text>
+    <text class="small ink" x="603" y="26">OPEN · NEW INFO  [D04, D05]</text>
+    <text class="cardTitle ink" x="568" y="69">Test new data prospectively</text>
+    <text class="body ink" x="568" y="94">What new data can test a prediction</text>
+    <text class="body ink" x="568" y="112">without refitting the held corpus?</text>
+    <text class="head ink" x="568" y="145">Useful lens</text>
+    <text class="body ink" x="568" y="166">Prospective splits, cross-site holdout,</text>
+    <text class="body ink" x="568" y="184">information value, dataset shift.</text>
+    <rect class="avoid" x="564" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="577" y="229">AVOID</text>
+    <text class="body ink" x="577" y="249">Another unconstrained search on the</text>
+    <text class="body ink" x="577" y="264">same labels and modalities.</text>
+
+    <rect class="systems" x="825" y="0" width="255" height="285" rx="14"/>
+    <circle class="number" cx="853" cy="29" r="17"/>
+    <text class="head" x="849" y="34" fill="#ffffff">8</text>
+    <text class="small ink" x="878" y="26">OPEN · WORKFLOW  [M05, A01]</text>
+    <text class="cardTitle ink" x="843" y="69">Use a monitor safely</text>
+    <text class="body ink" x="843" y="94">How should uncertainty, abstention, and</text>
+    <text class="body ink" x="843" y="112">invalid input appear in a real workflow?</text>
+    <text class="head ink" x="843" y="145">Useful lens</text>
+    <text class="body ink" x="843" y="166">Human factors, calibration, audit trails,</text>
+    <text class="body ink" x="843" y="184">failure-safe decision support.</text>
+    <rect class="avoid" x="839" y="208" width="227" height="58" rx="9"/>
+    <text class="small ink" x="852" y="229">AVOID</text>
+    <text class="body ink" x="852" y="249">Converting immune remodeling into</text>
+    <text class="body ink" x="852" y="264">a treatment recommendation.</text>
+  </g>
+
+  <line class="divider" x1="55" y1="733" x2="1135" y2="733"/>
+  <text class="head ink" x="55" y="762">A useful idea names: prediction · data · null or holdout · correction · failure condition · known dead end avoided</text>
+  <text class="tiny muted" x="55" y="788">Full problem statements and controlling artifacts: docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md</text>
+</svg>
