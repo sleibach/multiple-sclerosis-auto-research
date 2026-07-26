@@ -246,6 +246,7 @@ The project decision this result would change is:
 
 Then check the [known non-solutions](KNOWN_NON_SOLUTIONS.md), choose the
 matching [open problem](OPEN_PROBLEMS_FOR_COLLABORATORS.md), and use the
+[ten-minute idea exercise](FIRST_IDEA_IN_TEN_MINUTES.md) or the full
 [contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md).
 
 ## Important Limit

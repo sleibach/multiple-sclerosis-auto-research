@@ -94,8 +94,8 @@ negative results, and source traceability.
 | Zero-jargon entry-route review | done | Fourteen pre-glossary barriers were defined or replaced at first use; unavoidable identifiers remain role-labeled, and the result is explicitly subject to human testing. |
 | Known non-solutions index | done | Thirty-five tested shortcuts across monitoring, genetics, systems, progression, and evidence handling now pair the failure reason with exact reopening evidence. |
 | Cross-disciplinary question starters | done | Fifty-five prompts across ten disciplines ask what distinction the method can test and require an estimand/prediction, unit, rival explanation, and stop rule. |
-| First idea in ten minutes | in-progress | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
-| Public issue example set | todo | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
+| First idea in ten minutes | done | Ten timed steps produce a bounded question, directional prediction, data contract, rival challenge, fail-closed checks, drop rule, duplicate check, and decision. |
+| Public issue example set | in-progress | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
 | Challenge-the-project guide | todo | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
 | Human comprehension pilot refinement | todo | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -487,3 +487,11 @@ negative results, and source traceability.
   rule; discipline expertise does not transfer evidentiary authority.
   Onboarding 1691/1691, plain-language 31/31 pages, source coverage 33/33 across
   32 reader pages, and route depth 17/17 pass. Active time accrued: 3h19m02s.
+- 2026-07-26T20:37:19Z: Completed the first-idea-in-ten-minutes exercise. Ten
+  timed stages take one outsider observation through a bounded distinction,
+  directional prediction, minimum data, fair rival challenge, fail-closed
+  checks, drop rule, duplicate check, and proportional decision. The first
+  plain-language pass rejected an unnecessary `A-H` shorthand; it was removed
+  before PASS. Onboarding 1731/1731, plain-language 32/32 pages with zero
+  undefined acronyms, source coverage 33/33 across 33 reader pages, and route
+  depth 17/17 pass. Active time accrued: 3h22m05s.
