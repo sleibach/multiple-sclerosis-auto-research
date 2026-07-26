@@ -80,6 +80,7 @@ Start with the source artifacts rather than onboarding prose:
 | Start from questions my discipline can sharpen | [Question Starters By Discipline](QUESTION_STARTERS_BY_DISCIPLINE.md) |
 | Draft a reviewable test card in ten minutes | [Your First Idea In Ten Minutes](FIRST_IDEA_IN_TEN_MINUTES.md) |
 | Compare ready, repairable, closed, and unsafe issue forms | [Public Issue Examples](PUBLIC_ISSUE_EXAMPLES.md) |
+| Compare ready and repair-needed data, method, visual, and challenge submissions | [Contribution Examples By Type](CONTRIBUTION_EXAMPLES_BY_TYPE.md) |
 | Challenge a claim, closure, boundary, or decision with a countertest | [Challenge The Project](CHALLENGE_THE_PROJECT.md) |
 | Get a short answer to a scope or evidence question | [FAQ](FAQ.md) |
 | Turn a broad thought into a fair test | [Worked Idea Transformations](IDEA_TRANSFORMATIONS.md) |

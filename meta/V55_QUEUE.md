@@ -108,8 +108,8 @@ negative results, and source traceability.
 | V55 public release note | done | Public note separates the unchanged scientific state from the layered narrative, eight visuals, negative/boundary navigation, contributor routes, integrity checks, and still-unrun human pilot. |
 | Public collaborator invitation | done | Shareable invitation states the unchanged frontier, eight skill families, six puzzles, five-part useful-idea contract, honest review outcomes, and no-advice/no-personal-data boundary. |
 | Starter contribution board | done | Twelve first tasks span comprehension, test cards, visual/accessibility, writing, synthetic leakage/package checks, confounds, validation design, cohort metadata, perturbation design, reproducibility, and countertests. |
-| Contribution examples by type | in-progress | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
-| Direct issue-launch and remote-render check | todo | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
+| Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
+| Direct issue-launch and remote-render check | in-progress | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
 | External-link and link-label QA | todo | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
 | Heading and table semantic QA | todo | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
 | Human pilot recruitment handoff | todo | Create a privacy-safe invitation and session logistics note for running the already-defined comprehension/idea-production pilot; do not claim a run. |
@@ -622,3 +622,11 @@ negative results, and source traceability.
   reproducibility, and adversarial review. Onboarding 2215/2215,
   plain-language 42/42 pages, source coverage 33/33 across 43 reader pages, and
   route depth 17/17 pass. Active time accrued: 4h09m05s.
+- 2026-07-26T21:28:47Z: Completed contribution examples by type. Four
+  fictional ready-versus-repair pairs show how data-source, method,
+  documentation/visual, and adversarial-challenge submissions cross the
+  project's design gate without implying that acceptance is evidence. The
+  examples link to the detailed role guides and explicitly separate a
+  runnable test from a completed run. Onboarding 2241/2241, plain-language
+  43/43 pages, source coverage 33/33 across 44 reader pages, and route depth
+  17/17 pass. Active time accrued: 4h13m33s.

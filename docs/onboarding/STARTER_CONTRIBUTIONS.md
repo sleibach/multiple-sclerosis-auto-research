@@ -248,3 +248,6 @@ issue. State explicitly that scientific evidence status is unchanged.
 Review grades the contribution, not the contributor. A useful partial result
 can be returned with one named repair rather than forced into “accepted” or
 “rejected.”
+
+See [Contribution Examples By Type](CONTRIBUTION_EXAMPLES_BY_TYPE.md) for
+ready-versus-repair patterns covering data, methods, visuals, and challenges.
