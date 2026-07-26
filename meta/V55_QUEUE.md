@@ -65,8 +65,8 @@ negative results, and source traceability.
 | Newcomer comprehension test kit | done | Two reading routes, 12 source-bounded questions, dangerous-overread rules, scoring/interpretation, privacy limits, remediation table, and TSV scorecard are ready; no human test falsely claimed. |
 | Contributor idea triage rubric | done | Seven hard gates precede eight separate 0–3 axes and seven action classes; no aggregate score can hide data, direction, falsifiability, or safety failure; TSV review template added. |
 | Root contribution integration | done | Root guide and PR template route ideas/code/data/docs/outside context, preserve evidence/privacy/locked-rule/size guards, and list exact checks; root navigation now section-audited. |
-| Failure-mode atlas | in-progress | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
-| Data-needed map | todo | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
+| Failure-mode atlas | done | Eight source-linked failure modes distinguish closure scope, surviving biology, reopening evidence, and useful outsider input; V39 context-dependence meta-result added to claim contract as F01. |
+| Data-needed map | in-progress | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
 | Research-evolution timeline | todo | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
 | Narrow-screen and print review | todo | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
 | One-page collaborator brief | todo | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
@@ -235,3 +235,11 @@ negative results, and source traceability.
   contribution guide, and current-status links now share section-aware auditing.
   Onboarding 869/869 and both evidence gates pass. Active time accrued:
   1h19m26s.
+- 2026-07-26T18:38:16Z: Completed the failure-mode atlas. Eight categories
+  separate direction, causal-entity, context transfer, specificity/confounding,
+  complexity, external validation, data-design, and evidence-category errors,
+  each with surviving scope, reopening evidence, and outsider contribution.
+  Registered existing V39 context/axis enrichment as bounded claim F01 rather
+  than leaving it outside the contract. Onboarding 909/909, plain language,
+  source coverage 33/33 claims and artifacts, and both evidence gates pass.
+  Active time accrued: 1h23m02s.

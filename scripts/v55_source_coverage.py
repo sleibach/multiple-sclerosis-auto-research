@@ -26,6 +26,7 @@ READER_DOCS = (
     "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
     "HOW_TO_CONTRIBUTE_IDEAS.md",
     "FAQ.md",
+    "FAILURE_MODE_ATLAS.md",
     "COLLABORATOR_ROUTES.md",
     "IDEA_TRANSFORMATIONS.md",
     "GLOSSARY.md",
@@ -227,4 +228,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
