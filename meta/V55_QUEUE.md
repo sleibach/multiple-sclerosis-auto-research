@@ -124,7 +124,11 @@ negative results, and source traceability.
 | Public package footprint review | done | Reproducible guard verifies a sub-1-MiB text/vector package, eight lightweight SVGs, no file over 512 KiB, no heavy/binary media, and no HTML/SVG asset payloads. |
 | Issue-form field-to-guide mapping review | done | All nine required input groups now map to a plain-language purpose, focused repair guide, minimum answer, and one bounded mini-example; the live form links the guide. |
 | Contributor-route cross-link consistency | done | Data, method, documentation/visual, and challenge guides now all reach a type-specific example, safety limit, submission action, and review-outcome explanation. |
-| Latest public CI verification | todo | Confirm the pushed onboarding workflow runs the current audit set successfully and record any GitHub-only delivery gap. |
+| Latest public CI verification | done | Public run 30222786191 passed the exact `bcc5049e` commit in 57 seconds, including package, gate, browser, responsive, print, manifest, and report-upload steps. |
+| CI action-runtime modernization | in-progress | Official latest releases are checkout/setup-python/upload-artifact v7 and declare Node 24; workflow updated, public rerun pending. |
+| Live issue-form help-link verification | todo | Confirm the pushed form contains the field-guide route and the public URLs resolve without changing its ten-element/nine-ID contract. |
+| Public artifact title and role collision review | todo | Detect duplicate H1 titles or ambiguous same-purpose pages that could confuse search and navigation. |
+| Final route-choice compression review | todo | Ensure the landing page offers a bounded number of primary choices and pushes maintenance reports below contributor routes. |
 | Final public release-note synchronization | todo | Update release-facing counts and bounded-status summary after the last public artifacts are fixed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -776,3 +780,11 @@ negative results, and source traceability.
   delivery QA, not proof of accessibility or comprehension. Onboarding
   2,463/2,463, connectivity 71/71, and semantic structure 2,250/2,250 pass.
   Active time accrued: 4h59m22s.
+- 2026-07-26T22:17:08Z: Verified the public GitHub workflow for exact commit
+  `bcc5049e`. Run 30222786191 completed successfully in 57 seconds: claim/link,
+  synthetic-detector, readability, source, route, semantic, package,
+  provenance, structure, browser render, responsive, print, manifest, and
+  artifact-upload steps all passed. GitHub emitted a non-failing deprecation
+  annotation because three action revisions target Node 20 and are forced onto
+  Node 24; this is queued as a real maintenance follow-up rather than hidden.
+  Active time accrued: 5h01m54s.
