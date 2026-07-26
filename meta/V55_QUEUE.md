@@ -72,8 +72,8 @@ negative results, and source traceability.
 | One-page collaborator brief | done | Responsive HTML prints to one A4 page and has a source-covered linear Markdown equivalent; the status strip foregrounds one provisional monitor, no target, no progression result, and exact data needs. |
 | Repository tour | done | Path-by-role tour distinguishes findings, reports, workups, outputs, frozen plans, data, outside context, operational state, and legacy trees; includes safe audit and contribution routes. |
 | Maintainer release checklist | done | Human/machine release path distinguishes wording from evidence changes; generated 47-file authored-artifact manifest records role, size, and hash without claiming scientific validation. |
-| Null and inconclusive result explainer | in-progress | Explain why negative-established, inconclusive, unscoreable, and data-blocked are different and decision-useful. |
-| Brain-bank confound case study | todo | Walk a newcomer through the V53 source/diagnosis entanglement and correction without turning it into a general anti-brain-bank claim. |
+| Null and inconclusive result explainer | done | Seven non-positive outcomes now map to distinct permissible claims, forbidden overreads, decisions, project examples, and a four-question interpretation flow. |
+| Brain-bank confound case study | in-progress | Walk a newcomer through the V53 source/diagnosis entanglement and correction without turning it into a general anti-brain-bank claim. |
 | Genetics reversal case study | todo | Show how GPR25/PTGER4 moved from attractive stories to bounded closures and what exact evidence would reopen them. |
 | Monitoring-versus-target case study | todo | Trace why a useful observer does not identify the intervention and what causal layers are missing. |
 | Evidence-journey decision visual | todo | Add a lightweight visual from idea to grounded/bounded/closed outcome, including invalid and unscoreable exits. |
@@ -297,3 +297,10 @@ negative results, and source traceability.
   47-file authored-artifact manifest records role, byte size, and SHA-256 while
   stating that identity is not scientific validity. Onboarding 1166/1166 and
   manifest write/check pass. Active time accrued: 1h56m04s.
+- 2026-07-26T19:16:46Z: Completed the nulls-and-boundaries explainer. It keeps
+  negative-established, closed/demoted, mixed, attenuated, inconclusive,
+  unscoreable/invalid, data-blocked, and corpus-bound outcomes from collapsing
+  into “worked/did not work,” and maps each to the correct next decision and
+  forbidden wording. Onboarding 1192/1192, plain-language 16/16 pages, and
+  source coverage 33/33 across 17 reader pages pass. Active time accrued:
+  2h01m32s.
