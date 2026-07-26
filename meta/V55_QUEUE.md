@@ -54,8 +54,8 @@ negative results, and source traceability.
 | Public navigation integration | done | Root README, CURRENT_STATUS, onboarding landing page, narrative, visual index, problem board, and contribution route now cross-link without broken local targets. |
 | Independent newcomer comprehension audit | done | Claude recovered 11/12 rubric items fully and Gemini 10/12; both found a real ZMIZ1 grouping ambiguity, corrected without changing evidence. Raw model responses remain transient. |
 | Role-based collaborator routes | done | Nine role routes map existing skills to bounded puzzles, a concrete first contribution, and known misuse patterns; an any-discipline route supplies five falsifiability questions. |
-| Newcomer FAQ | in-progress | Answer recurring scope, evidence, medical-advice, data-access, null-result, and contribution questions without adding biology. |
-| Worked idea transformations | todo | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
+| Newcomer FAQ | done | Thirty-one short answers cover project scope, evidence, tried routes, progression, validation/data, nulls/closures, safety, and participation while retaining claim IDs and caveats. |
+| Worked idea transformations | in-progress | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
 | Visual browser-render regression | todo | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
 | Onboarding audit synthetic fixtures | todo | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
 | Continuous onboarding check | todo | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
@@ -151,3 +151,9 @@ negative results, and source traceability.
   onboarding audit passes 646/646 checks across 11 expected documents; the
   provenance gate passes 841/841 and the structural gate 142/142. Active time
   accrued: 0h48m27s.
+- 2026-07-26T18:05:24Z: Completed the newcomer FAQ with 31 direct answers
+  spanning scope, evidence, prior routes, progression, validation/data, nulls,
+  safety, and participation. It retains claim IDs and directly corrects the
+  monitor/selector, missing-data/absent-biology, ZMIZ1/closed-target, and
+  prediction/experiment overreads. The expanded audit passes 696/696; both
+  evidence-boundary gates pass. Active time accrued: 0h50m10s.
