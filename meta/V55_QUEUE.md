@@ -95,8 +95,8 @@ negative results, and source traceability.
 | Known non-solutions index | done | Thirty-five tested shortcuts across monitoring, genetics, systems, progression, and evidence handling now pair the failure reason with exact reopening evidence. |
 | Cross-disciplinary question starters | done | Fifty-five prompts across ten disciplines ask what distinction the method can test and require an estimand/prediction, unit, rival explanation, and stop rule. |
 | First idea in ten minutes | done | Ten timed steps produce a bounded question, directional prediction, data contract, rival challenge, fail-closed checks, drop rule, duplicate check, and decision. |
-| Public issue example set | in-progress | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
-| Challenge-the-project guide | todo | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
+| Public issue example set | done | Four fictional issues show ready-for-triage, design repair, duplicate/closed, and unsafe forms plus bounded reviewer responses and safe reformulation. |
+| Challenge-the-project guide | in-progress | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
 | Human comprehension pilot refinement | todo | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -495,3 +495,11 @@ negative results, and source traceability.
   before PASS. Onboarding 1731/1731, plain-language 32/32 pages with zero
   undefined acronyms, source coverage 33/33 across 33 reader pages, and route
   depth 17/17 pass. Active time accrued: 3h22m05s.
+- 2026-07-26T20:40:03Z: Completed the public issue example set. Four fictional
+  submissions demonstrate ready-for-triage source diagnostics, repair of a
+  network-control target shortcut, bounded closure of a GPR25 pocket argument,
+  and safe refusal/reformulation of a patient-specific treatment request. No
+  example claims a run or result, and workflow status remains separate from
+  evidence. Onboarding 1754/1754, plain-language 33/33 pages, source coverage
+  33/33 across 34 reader pages, and route depth 17/17 pass. Active time accrued:
+  3h24m49s.

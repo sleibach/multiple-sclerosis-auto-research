@@ -8,6 +8,9 @@ This guide is for research directions, methods, data leads, analytical
 reframes, and falsification tests. It is not a route for medical advice or
 patient-specific treatment recommendations.
 
+See [four fictional public issue examples](PUBLIC_ISSUE_EXAMPLES.md) for a
+ready submission, a repair path, a duplicate closure, and a safe refusal.
+
 ## The Fast On-Ramp
 
 1. Read the [two-minute explanation](MS_RESEARCH_EXPLAINED.md#the-two-minute-version).

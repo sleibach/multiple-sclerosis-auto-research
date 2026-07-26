@@ -66,6 +66,7 @@ Start with the source artifacts rather than onboarding prose:
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
 | Start from questions my discipline can sharpen | [Question Starters By Discipline](QUESTION_STARTERS_BY_DISCIPLINE.md) |
 | Draft a reviewable test card in ten minutes | [Your First Idea In Ten Minutes](FIRST_IDEA_IN_TEN_MINUTES.md) |
+| Compare ready, repairable, closed, and unsafe issue forms | [Public Issue Examples](PUBLIC_ISSUE_EXAMPLES.md) |
 | Get a short answer to a scope or evidence question | [FAQ](FAQ.md) |
 | Turn a broad thought into a fair test | [Worked Idea Transformations](IDEA_TRANSFORMATIONS.md) |
 | Facilitate a cross-disciplinary idea session | [Collaborator Workshop Guide](COLLABORATOR_WORKSHOP_GUIDE.md) |
