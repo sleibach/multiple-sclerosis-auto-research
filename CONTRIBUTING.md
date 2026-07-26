@@ -53,6 +53,10 @@ plausibility, or a predicted structure does not change that.
 
 ### Documentation or visualization
 
+Start with the dedicated
+[`Contribute Documentation Or A Visual`](docs/onboarding/CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md)
+route.
+
 - Trace every scientific statement to an existing bounded claim or source
   artifact.
 - Keep provisional, supported, negative/closed, data-blocked, and outside-
@@ -65,6 +69,10 @@ plausibility, or a predicted structure does not change that.
 Run the onboarding checks listed below.
 
 ### Method, software, or infrastructure
+
+Use the
+[`Contribute A Method`](docs/onboarding/CONTRIBUTE_A_METHOD.md) evaluation
+contract for a new analytical method.
 
 State what method behavior is being tested. Add focused tests and failure
 fixtures. Synthetic data may test software, power, or false-positive behavior,
@@ -193,4 +201,3 @@ A review should produce one explicit disposition:
 
 A merged proposal is still a proposal. Only a completed, appropriately
 controlled analysis can change the project's evidence record.
-

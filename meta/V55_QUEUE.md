@@ -100,8 +100,8 @@ negative results, and source traceability.
 | Human comprehension pilot refinement | done | Added a distinct idea-production Route C, Q13-Q15, scorecard rows, failure-to-page repairs, and a one-page facilitator handoff; no human run is claimed. |
 | Data-source contribution on-ramp | done | Six role-specific paths require permanent sources, access terms, independent units, field-by-field eligibility, safe aggregates, and non-evidentiary workflow status. |
 | Method contribution on-ramp | done | New analytical methods must name a fixed target, fair baseline, independent unit, structure-preserving null, holdout, leakage/confound audit, uncertainty, multiplicity plan, and drop rule; novelty and model agreement remain non-evidence. |
-| Documentation and visual contribution on-ramp | in-progress | Show how to improve explanation or visuals while retaining claim IDs, status, alt text, size limits, and evidence boundaries. |
-| Patient/public safety boundary | todo | Create a prominent no-medical-advice/no-personal-data route with safe general research alternatives. |
+| Documentation and visual contribution on-ramp | done | Meaning-first contract, bounded wording repairs, status-aware visual semantics, alt/text equivalents, non-color cues, lightweight delivery, human comprehension questions, and exact checks are now explicit. |
+| Patient/public safety boundary | in-progress | Create a prominent no-medical-advice/no-personal-data route with safe general research alternatives. |
 | GitHub idea-form alignment | todo | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
 | Newcomer keyword and misconception index | todo | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
 | Final cross-page drift and safety review | todo | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
@@ -544,3 +544,12 @@ negative results, and source traceability.
   and method novelty or model agreement cannot promote a result. Onboarding
   1871/1871, plain-language 36/36 pages, source coverage 33/33 across 37 reader
   pages, and route depth 17/17 pass. Active time accrued: 3h37m12s.
+- 2026-07-26T20:56:14Z: Completed the documentation and visual contribution
+  on-ramp. Contributors must freeze a meaning contract before editing, retain
+  claim ID, source, status, decisive caveat, and dangerous-overread control,
+  and give substantive visuals semantic names, a full text equivalent, and a
+  status cue beyond color. Four before/after repairs cover the live monitor,
+  coupled context, progression candidate, and data-boundary errors. Onboarding
+  1904/1904, plain-language 37/37 pages with no undefined acronyms, source
+  coverage 33/33 across 38 reader pages, and route depth 17/17 pass. Active
+  time accrued: 3h41m00s.

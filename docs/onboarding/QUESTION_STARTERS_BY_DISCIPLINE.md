@@ -147,6 +147,9 @@ Make it useful by defining the user, decision, permitted claim, error costs,
 abstention behavior, and next evidence gate. A polished interface cannot create
 clinical utility or therapeutic evidence. `[M01, M05, A01, E01]`
 
+Turn a proposed explanation or interface into a reviewable contribution with
+the [documentation and visual route](CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md).
+
 ## Measurement Science And Experimental Design
 
 Useful starters:
