@@ -47,8 +47,8 @@ negative results, and source traceability.
 | Collaborator open-problem board | done | Eight source-linked puzzles each state the boundary, why hard, prior work, useful outside inputs, minimum idea fields, and known non-solutions. |
 | Contribution on-ramp | done | Guide provides a fast reading route, evidence-status map, copy-ready testable-idea schema, evaluation pipeline, language guardrails, and checklist; GitHub issue form operationalizes it. |
 | Plain-language glossary | done | Defines 50+ medical, design, statistical, genetics, druggability, and project-discipline terms, ending with five interpretation-critical distinctions. |
-| Myths-versus-findings page | in-progress | Prevent common overreads and repeated closed-path proposals. |
-| Per-lead status cards | todo | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
+| Myths-versus-findings page | done | Twenty-one tempting upgrades are paired with bounded corrections, change conditions, claim IDs, and a nine-row short-form interpretation table. |
+| Per-lead status cards | in-progress | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
 | Accessibility and visual semantic audit | todo | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
 | Onboarding traceability checker | todo | Machine-check source links, evidence/status labels, forbidden overclaims, visual metadata, and file-size limits. |
 | Public navigation integration | todo | Add onboarding entry points without displacing scientific source artifacts. |
@@ -110,3 +110,7 @@ negative results, and source traceability.
   and foregrounds relapse/progression, monitor/target, association/cause,
   missing-data/absent-biology, and rerunnable/validated distinctions. Active
   time accrued: 0h31m39s.
+- 2026-07-26T17:48:42Z: Completed the 1,580-word myths-versus-findings page.
+  Twenty-one realistic overreads are corrected with the bounded result and the
+  evidence that would change it; negatives, closures, simulations, AI lenses,
+  and outside context receive equal treatment. Active time accrued: 0h33m28s.
