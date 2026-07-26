@@ -12,6 +12,7 @@ import csv
 import json
 import re
 import sys
+import tempfile
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -22,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ONBOARDING = Path("docs/onboarding")
 SOURCE_MATRIX = ONBOARDING / "ONBOARDING_CLAIM_SOURCES_V55.tsv"
 DEFAULT_OUTDIR = Path("analysis/v55_onboarding_audit")
+DEFAULT_SYNTHETIC_OUTDIR = Path("analysis/v55_onboarding_audit_synthetic")
 
 EXPECTED_DOCS = {
     "COLLABORATOR_ROUTES.md",
@@ -95,6 +97,26 @@ CLAIM_TOKEN_RE = re.compile(r"\b([A-Z])(\d{2})(?:-([A-Z]?)(\d{2}))?\b")
 CLAIM_ID_RE = re.compile(r"^[A-Z]\d{2}$")
 HEX_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
 
+DEFAULT_TEXT_PAIRS = [
+    ("#172033", "#f7f9fc"),
+    ("#52606d", "#f7f9fc"),
+    ("#172033", "#ffffff"),
+    ("#172033", "#e9f5ef"),
+    ("#172033", "#e8f2fa"),
+    ("#172033", "#f8ecea"),
+    ("#172033", "#f0ecf8"),
+    ("#172033", "#fff4d6"),
+    ("#ffffff", "#172033"),
+    ("#ffffff", "#8b2e2e"),
+]
+DEFAULT_GRAPHIC_PAIRS = [
+    ("#005a9c", "#e8f2fa"),
+    ("#1b6b4b", "#e9f5ef"),
+    ("#8b2e2e", "#f8ecea"),
+    ("#5b4b8a", "#f0ecf8"),
+    ("#8a5a00", "#fff4d6"),
+]
+
 
 @dataclass(frozen=True)
 class Check:
@@ -108,6 +130,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--outdir", type=Path, default=DEFAULT_OUTDIR)
+    parser.add_argument(
+        "--synthetic-check",
+        action="store_true",
+        help="Run temporary pass/fail fixtures instead of auditing the repository",
+    )
     parser.add_argument("--fail-on-error", action="store_true")
     return parser.parse_args()
 
@@ -193,10 +220,17 @@ def local_link_path(document: Path, target: str) -> Path | None:
     return (document.parent / path_part).resolve()
 
 
-def audit_markdown(root: Path, claim_rows: dict[str, dict[str, str]], prefixes: set[str], checks: list[Check]) -> set[str]:
+def audit_markdown(
+    root: Path,
+    claim_rows: dict[str, dict[str, str]],
+    prefixes: set[str],
+    checks: list[Check],
+    expected_docs: set[str] | None = None,
+) -> set[str]:
     onboarding = root / ONBOARDING
     referenced: set[str] = set()
-    for name in sorted(EXPECTED_DOCS):
+    documents = EXPECTED_DOCS if expected_docs is None else expected_docs
+    for name in sorted(documents):
         document = onboarding / name
         add(checks, str(ONBOARDING / name), "expected_document_exists", document.is_file(), str(document))
         if not document.is_file():
@@ -219,9 +253,14 @@ def audit_markdown(root: Path, claim_rows: dict[str, dict[str, str]], prefixes: 
     return referenced
 
 
-def audit_svg(root: Path, checks: list[Check]) -> None:
+def audit_svg(
+    root: Path,
+    checks: list[Check],
+    expected_visuals: set[str] | None = None,
+) -> None:
     visuals = root / ONBOARDING / "visuals"
-    for name in sorted(EXPECTED_VISUALS):
+    visual_names = EXPECTED_VISUALS if expected_visuals is None else expected_visuals
+    for name in sorted(visual_names):
         path = visuals / name
         relative = rel(root, path)
         add(checks, relative, "expected_visual_exists", path.is_file(), str(path))
@@ -280,26 +319,13 @@ def contrast_ratio(first: str, second: str) -> float:
     return (high + 0.05) / (low + 0.05)
 
 
-def audit_contrast(checks: list[Check]) -> None:
-    text_pairs = [
-        ("#172033", "#f7f9fc"),
-        ("#52606d", "#f7f9fc"),
-        ("#172033", "#ffffff"),
-        ("#172033", "#e9f5ef"),
-        ("#172033", "#e8f2fa"),
-        ("#172033", "#f8ecea"),
-        ("#172033", "#f0ecf8"),
-        ("#172033", "#fff4d6"),
-        ("#ffffff", "#172033"),
-        ("#ffffff", "#8b2e2e"),
-    ]
-    graphic_pairs = [
-        ("#005a9c", "#e8f2fa"),
-        ("#1b6b4b", "#e9f5ef"),
-        ("#8b2e2e", "#f8ecea"),
-        ("#5b4b8a", "#f0ecf8"),
-        ("#8a5a00", "#fff4d6"),
-    ]
+def audit_contrast(
+    checks: list[Check],
+    text_pairs: list[tuple[str, str]] | None = None,
+    graphic_pairs: list[tuple[str, str]] | None = None,
+) -> None:
+    text_pairs = DEFAULT_TEXT_PAIRS if text_pairs is None else text_pairs
+    graphic_pairs = DEFAULT_GRAPHIC_PAIRS if graphic_pairs is None else graphic_pairs
     for foreground, background in text_pairs:
         ratio = contrast_ratio(foreground, background)
         add(checks, "visual_palette", "text_contrast_aa", ratio >= 4.5, f"{foreground}/{background}={ratio:.2f}:1")
@@ -332,9 +358,265 @@ def write_outputs(root: Path, outdir: Path, checks: list[Check], referenced: set
     return summary
 
 
+def fixture_result(
+    results: list[dict[str, str]],
+    case: str,
+    passed: bool,
+    expected_behavior: str,
+    detail: str,
+) -> None:
+    results.append(
+        {
+            "case": case,
+            "status": "PASS" if passed else "FAIL",
+            "expected_behavior": expected_behavior,
+            "detail": detail,
+        }
+    )
+
+
+def failed_checks(checks: list[Check]) -> list[Check]:
+    return [check for check in checks if check.status == "FAIL"]
+
+
+def run_synthetic_checks(root: Path, outdir: Path) -> dict[str, object]:
+    """Prove the communication audit accepts clean and rejects bad fixtures."""
+
+    results: list[dict[str, str]] = []
+    claim_rows = {"M01": {"claim_id": "M01"}}
+    prefixes = {"M"}
+
+    with tempfile.TemporaryDirectory(prefix="v55-onboarding-audit-") as name:
+        fixture_root = Path(name)
+        onboarding = fixture_root / ONBOARDING
+        visuals = onboarding / "visuals"
+        visuals.mkdir(parents=True)
+        document = onboarding / "FAQ.md"
+        target = onboarding / "target.md"
+        target.write_text("# Existing target\n", encoding="utf-8")
+
+        document.write_text(
+            "# Clean fixture\n\nBounded statement `[M01]`.\n\n"
+            "[Existing target](target.md)\n",
+            encoding="utf-8",
+        )
+        checks: list[Check] = []
+        audit_markdown(
+            fixture_root,
+            claim_rows,
+            prefixes,
+            checks,
+            expected_docs={"FAQ.md"},
+        )
+        failures = failed_checks(checks)
+        fixture_result(
+            results,
+            "clean_markdown_accepted",
+            not failures,
+            "well-formed document passes",
+            f"unexpected_failures={len(failures)}",
+        )
+
+        document.write_text(
+            "# Broken link fixture\n\nBounded `[M01]`.\n\n"
+            "[Missing target](does-not-exist.md)\n",
+            encoding="utf-8",
+        )
+        checks = []
+        audit_markdown(
+            fixture_root,
+            claim_rows,
+            prefixes,
+            checks,
+            expected_docs={"FAQ.md"},
+        )
+        detected = any(
+            check.check == "local_link_resolves" and check.status == "FAIL"
+            for check in checks
+        )
+        fixture_result(
+            results,
+            "broken_link_rejected",
+            detected,
+            "missing local target produces a failure",
+            f"detector_fired={detected}",
+        )
+
+        document.write_text(
+            "# Unknown claim fixture\n\nUnsupported identifier `[M99]`.\n",
+            encoding="utf-8",
+        )
+        checks = []
+        audit_markdown(
+            fixture_root,
+            claim_rows,
+            prefixes,
+            checks,
+            expected_docs={"FAQ.md"},
+        )
+        detected = any(
+            check.check == "claim_reference_M99" and check.status == "FAIL"
+            for check in checks
+        )
+        fixture_result(
+            results,
+            "unknown_claim_id_rejected",
+            detected,
+            "claim absent from source contract produces a failure",
+            f"detector_fired={detected}",
+        )
+
+        for marker_label, marker in FORBIDDEN_CLASS_MARKERS:
+            document.write_text(
+                f"# Marker fixture\n\nBounded `[M01]`.\n\nLeaked marker: {marker}\n",
+                encoding="utf-8",
+            )
+            checks = []
+            audit_markdown(
+                fixture_root,
+                claim_rows,
+                prefixes,
+                checks,
+                expected_docs={"FAQ.md"},
+            )
+            detected = any(
+                check.check == marker_label and check.status == "FAIL"
+                for check in checks
+            )
+            fixture_result(
+                results,
+                f"{marker_label}_leakage_rejected",
+                detected,
+                "formal class marker in onboarding produces a failure",
+                f"detector_fired={detected}",
+            )
+
+        valid_svg = visuals / "fixture.svg"
+        valid_svg.write_text(
+            '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" '
+            'viewBox="0 0 200 100" role="img" aria-labelledby="title desc">'
+            '<title id="title">Accessible fixture visual</title>'
+            '<desc id="desc">A synthetic visual used only to prove semantic '
+            'checks accept a complete accessible SVG fixture.</desc>'
+            '<rect width="200" height="100" fill="#ffffff"/></svg>\n',
+            encoding="utf-8",
+        )
+        checks = []
+        audit_svg(fixture_root, checks, expected_visuals={"fixture.svg"})
+        failures = failed_checks(checks)
+        fixture_result(
+            results,
+            "clean_svg_accepted",
+            not failures,
+            "well-formed semantic SVG passes",
+            f"unexpected_failures={len(failures)}",
+        )
+
+        valid_svg.write_text(
+            '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" '
+            'viewBox="0 0 200 100"><rect width="200" height="100"/></svg>\n',
+            encoding="utf-8",
+        )
+        checks = []
+        audit_svg(fixture_root, checks, expected_visuals={"fixture.svg"})
+        missing_semantics = {
+            check.check
+            for check in failed_checks(checks)
+            if check.check
+            in {
+                "role_img",
+                "aria_label_targets_exist",
+                "title_present",
+                "description_present",
+            }
+        }
+        fixture_result(
+            results,
+            "missing_svg_semantics_rejected",
+            len(missing_semantics) == 4,
+            "missing role, labels, title, and description all fail",
+            f"detectors={sorted(missing_semantics)}",
+        )
+
+        checks = []
+        audit_contrast(
+            checks,
+            text_pairs=[("#777777", "#ffffff")],
+            graphic_pairs=[],
+        )
+        detected = any(
+            check.check == "text_contrast_aa" and check.status == "FAIL"
+            for check in checks
+        )
+        fixture_result(
+            results,
+            "low_text_contrast_rejected",
+            detected,
+            "text below 4.5:1 produces a failure",
+            checks[0].detail if checks else "no check produced",
+        )
+
+        checks = []
+        audit_contrast(
+            checks,
+            text_pairs=[],
+            graphic_pairs=[("#bbbbbb", "#ffffff")],
+        )
+        detected = any(
+            check.check == "graphic_contrast_aa" and check.status == "FAIL"
+            for check in checks
+        )
+        fixture_result(
+            results,
+            "low_graphic_contrast_rejected",
+            detected,
+            "non-text contrast below 3:1 produces a failure",
+            checks[0].detail if checks else "no check produced",
+        )
+
+    output = outdir if outdir.is_absolute() else root / outdir
+    output.mkdir(parents=True, exist_ok=True)
+    results_path = output / "synthetic_fixture_results.tsv"
+    with results_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(
+            handle,
+            delimiter="\t",
+            fieldnames=("case", "status", "expected_behavior", "detail"),
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(results)
+
+    n_fail = sum(result["status"] != "PASS" for result in results)
+    summary: dict[str, object] = {
+        "purpose": "V55 onboarding audit synthetic detector verification; no scientific claim",
+        "overall_status": "PASS" if n_fail == 0 else "FAIL",
+        "n_fixture_cases": len(results),
+        "n_fail": n_fail,
+        "temporary_fixture_files_committed": 0,
+        "results": rel(root, results_path),
+    }
+    (output / "synthetic_fixture_summary.json").write_text(
+        json.dumps(summary, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    return summary
+
+
 def main() -> int:
     args = parse_args()
     root = args.root.resolve()
+    if args.synthetic_check:
+        outdir = (
+            DEFAULT_SYNTHETIC_OUTDIR
+            if args.outdir == DEFAULT_OUTDIR
+            else args.outdir
+        )
+        summary = run_synthetic_checks(root, outdir)
+        print(json.dumps(summary, indent=2, sort_keys=True))
+        if args.fail_on_error and summary["overall_status"] != "PASS":
+            return 1
+        return 0
     checks: list[Check] = []
     claim_rows, prefixes = read_claim_rows(root, checks)
     referenced = audit_markdown(root, claim_rows, prefixes, checks)

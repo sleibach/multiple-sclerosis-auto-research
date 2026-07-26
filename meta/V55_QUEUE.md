@@ -57,8 +57,8 @@ negative results, and source traceability.
 | Newcomer FAQ | done | Thirty-one short answers cover project scope, evidence, tried routes, progression, validation/data, nulls/closures, safety, and participation while retaining claim IDs and caveats. |
 | Worked idea transformations | done | Ten examples turn plausible but unusable suggestions into bounded questions with prediction, comparator/null, required data, drop rule, and honest proposal status. |
 | Visual browser-render regression | done | Reusable Chrome regression renders all five SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 31/31 checks pass. |
-| Onboarding audit synthetic fixtures | in-progress | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
-| Continuous onboarding check | todo | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
+| Onboarding audit synthetic fixtures | done | Ten temporary cases prove clean Markdown/SVG acceptance and rejection of broken links, unknown claims, three marker leaks, missing SVG semantics, and low text/graphic contrast. |
+| Continuous onboarding check | in-progress | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
 | Plain-language density review | todo | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
 | Source-coverage map | todo | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -170,3 +170,9 @@ negative results, and source traceability.
   screenshot; lifecycle handling was corrected to detect stable output and
   terminate the isolated process group. Onboarding 726/726, provenance 841/841,
   and structural 142/142 pass. Active time accrued: 0h58m00s.
+- 2026-07-26T18:15:34Z: Completed synthetic verification of the onboarding
+  audit. Ten/ten fixture expectations pass: clean Markdown and accessible SVG
+  are accepted; a broken link, unknown claim ID, each of three formal marker
+  leaks, all four missing SVG semantics, low text contrast, and low graphic
+  contrast are rejected. Temporary fixtures are deleted and no synthetic
+  scientific content is produced. Active time accrued: 1h00m20s.

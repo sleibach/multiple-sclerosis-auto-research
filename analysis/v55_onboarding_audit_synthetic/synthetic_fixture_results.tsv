@@ -1,0 +1,11 @@
+case	status	expected_behavior	detail
+clean_markdown_accepted	PASS	well-formed document passes	unexpected_failures=0
+broken_link_rejected	PASS	missing local target produces a failure	detector_fired=True
+unknown_claim_id_rejected	PASS	claim absent from source contract produces a failure	detector_fired=True
+formal_class_marker_1_leakage_rejected	PASS	formal class marker in onboarding produces a failure	detector_fired=True
+formal_class_marker_2_leakage_rejected	PASS	formal class marker in onboarding produces a failure	detector_fired=True
+formal_class_marker_3_leakage_rejected	PASS	formal class marker in onboarding produces a failure	detector_fired=True
+clean_svg_accepted	PASS	well-formed semantic SVG passes	unexpected_failures=0
+missing_svg_semantics_rejected	PASS	missing role, labels, title, and description all fail	detectors=['aria_label_targets_exist', 'description_present', 'role_img', 'title_present']
+low_text_contrast_rejected	PASS	text below 4.5:1 produces a failure	#777777/#ffffff=4.48:1
+low_graphic_contrast_rejected	PASS	non-text contrast below 3:1 produces a failure	#bbbbbb/#ffffff=1.92:1
