@@ -66,8 +66,8 @@ negative results, and source traceability.
 | Contributor idea triage rubric | done | Seven hard gates precede eight separate 0–3 axes and seven action classes; no aggregate score can hide data, direction, falsifiability, or safety failure; TSV review template added. |
 | Root contribution integration | done | Root guide and PR template route ideas/code/data/docs/outside context, preserve evidence/privacy/locked-rule/size guards, and list exact checks; root navigation now section-audited. |
 | Failure-mode atlas | done | Eight source-linked failure modes distinguish closure scope, surviving biology, reopening evidence, and useful outsider input; V39 context-dependence meta-result added to claim contract as F01. |
-| Data-needed map | in-progress | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
-| Research-evolution timeline | todo | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
+| Data-needed map | done | Six decision-changing package types now state minimum fields, invalid substitutes, and status consequences; newcomer acronyms are defined and the page is source-covered. |
+| Research-evolution timeline | in-progress | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
 | Narrow-screen and print review | todo | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
 | One-page collaborator brief | todo | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
 | Repository tour | todo | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
@@ -243,3 +243,12 @@ negative results, and source traceability.
   than leaving it outside the contract. Onboarding 909/909, plain language,
   source coverage 33/33 claims and artifacts, and both evidence gates pass.
   Active time accrued: 1h23m02s.
+- 2026-07-26T18:44:07Z: Completed the data-needed map. It separates six
+  decision-changing package types from useful but non-substitutable near-
+  matches, fixes outcome/timing/compartment/direction requirements before
+  receipt, and adds intake questions that fail closed on missing metadata.
+  Newcomer definitions for CSF, DMF, EDSS, NEDA-4, PIRA, QC, and disease-course
+  labels removed all unexplained acronyms. Onboarding 938/938, plain-language
+  12/12 pages, source coverage 33/33 claims and artifacts across 13 reader
+  pages, provenance 841/841, and structure 142/142 pass. Active time accrued:
+  1h28m53s.

@@ -6,7 +6,7 @@ project's evidence policy. `[E01]`
 
 ## Scope
 
-The committed audit covers eleven reader-facing pages:
+The committed audit covers twelve reader-facing pages:
 
 - the onboarding landing page;
 - the two-minute and fifteen-minute narrative;
@@ -14,6 +14,7 @@ The committed audit covers eleven reader-facing pages:
 - the contribution guide;
 - the FAQ;
 - the failure-mode atlas;
+- the data-needed map;
 - collaborator routes;
 - worked idea transformations;
 - myths versus findings;
@@ -36,10 +37,10 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 11 |
-| Prose words measured | 14,334 |
-| Sentences measured | 1,318 |
-| Mean words per sentence across the suite | 10.9 |
+| Reader-facing documents | 12 |
+| Prose words measured | 15,485 |
+| Sentences measured | 1,463 |
+| Mean words per sentence across the suite | 10.6 |
 | Sentences over 30 words | 11 (0.8%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
@@ -62,8 +63,9 @@ now treats headings and list items as standalone reading units.
 
 Short definitions were added for technical labels that appeared in newcomer
 pages without an explicit glossary expansion: AI, RPT, GEO, SVG, CV, UC/MS-UC,
-GPCR, MIF/CD74, OXPHOS, PTGER4, and ZMIZ1. Each project-specific entry retains
-the route's actual bounded status rather than supplying an inflated shorthand.
+GPCR, MIF/CD74, OXPHOS, PTGER4, ZMIZ1, CSF, DMF, EDSS, NEDA-4, PIRA, QC, and the
+RRMS/SPMS/PPMS disease-course labels. Each project-specific entry retains the
+route's actual bounded status rather than supplying an inflated shorthand.
 
 ## What Was Not Simplified Away
 

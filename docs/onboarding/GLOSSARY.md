@@ -15,6 +15,13 @@ not a causal model established by this project. `[B01]`
 The brain and spinal cord. The project distinguishes CNS-resident or
 CNS-associated measurements from measurements in peripheral blood.
 
+**Cerebrospinal fluid (CSF)**
+
+Fluid around the brain and spinal cord. Paired blood and CSF measurements can
+help distinguish a central nervous system association from a broad peripheral
+immune association; an unpaired comparison cannot answer the same question.
+`[P01, P03]`
+
 **Myelin**  
 Insulating material around nerve fibers. Damage to myelin is part of the
 background description of MS, but this project did not directly model myelin
@@ -28,6 +35,19 @@ interchangeable with disability progression. `[B02]`
 Disability accumulating and remaining confirmed over time. Studying it requires
 repeated outcome measurements; a static disease-stage label is not the same
 thing. `[B02, P01, P03]`
+
+**RRMS / SPMS / PPMS**
+
+Common disease-course labels: relapsing-remitting MS, secondary progressive MS,
+and primary progressive MS. A label describes a clinical course category; by
+itself it is not a timed measurement of disability progression. `[B02, P01]`
+
+**PIRA (progression independent of relapse activity)**
+
+A way of defining confirmed disability accumulation that is not attributed to
+nearby relapse activity under a specified timing rule. The exact rule and
+adjudication must come from the study protocol; this project does not treat the
+acronym alone as a usable outcome. `[A02]`
 
 **Confirmed disability**  
 A disability change that remains present under a defined confirmation rule at
@@ -100,6 +120,31 @@ treating them as unrelated samples loses the within-person change design.
 The pre-defined outcome category against which a score is tested. A useful
 validation package needs a sample-to-person map and a person-level response
 label. `[A01, A04]`
+
+**NEDA-4 (No Evidence of Disease Activity-4)**
+
+A composite treatment-outcome label used by the intended external validation
+cohort. Its exact components, assessment window, and source definition must be
+supplied with the cohort; the project will not reconstruct or tune them after
+seeing molecular data. `[A01, A04]`
+
+**Dimethyl fumarate (DMF)**
+
+The MS treatment used in the intended external monitoring validation. A cohort
+on another therapy may be scientifically useful, but it cannot silently replace
+the preregistered DMF primary validation. `[A01, A04]`
+
+**Expanded Disability Status Scale (EDSS)**
+
+A clinical scale used in MS disability assessment. For progression analysis,
+one EDSS value is insufficient: the value, date, and pre-specified confirmation
+rule must be available across repeated assessments. `[A02]`
+
+**Quality control (QC)**
+
+Checks and flags used to determine whether samples, labels, timing, and measured
+features are usable. Missing QC information is an ingestion limitation, not
+evidence that a biological effect is absent.
 
 **Molecular state**  
 A compact description of measured biological features at a point in time. It
