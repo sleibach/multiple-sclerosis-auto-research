@@ -70,8 +70,14 @@ negative results, and source traceability.
 | Research-evolution timeline | done | Nine source-linked eras and a six-row SVG show candidate, harder test, and bounded verdict; chronology visibly includes demotions, nulls, and data boundaries. |
 | Narrow-screen and print review | done | Browser-backed 18-scenario audit finds zero wrapper overflows but all constrained uses require text equivalents; the delivery rule and CI check now enforce that distinction. |
 | One-page collaborator brief | done | Responsive HTML prints to one A4 page and has a source-covered linear Markdown equivalent; the status strip foregrounds one provisional monitor, no target, no progression result, and exact data needs. |
-| Repository tour | in-progress | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
-| Maintainer release checklist | todo | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
+| Repository tour | done | Path-by-role tour distinguishes findings, reports, workups, outputs, frozen plans, data, outside context, operational state, and legacy trees; includes safe audit and contribution routes. |
+| Maintainer release checklist | in-progress | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
+| Null and inconclusive result explainer | todo | Explain why negative-established, inconclusive, unscoreable, and data-blocked are different and decision-useful. |
+| Brain-bank confound case study | todo | Walk a newcomer through the V53 source/diagnosis entanglement and correction without turning it into a general anti-brain-bank claim. |
+| Genetics reversal case study | todo | Show how GPR25/PTGER4 moved from attractive stories to bounded closures and what exact evidence would reopen them. |
+| Monitoring-versus-target case study | todo | Trace why a useful observer does not identify the intervention and what causal layers are missing. |
+| Evidence-journey decision visual | todo | Add a lightweight visual from idea to grounded/bounded/closed outcome, including invalid and unscoreable exits. |
+| Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -276,3 +282,11 @@ negative results, and source traceability.
   clipping or overlap; 26/26 print checks, onboarding 1111/1111, plain-language
   14/14 pages, and source coverage 33/33 across 15 reader pages pass. No PDF or
   raster was retained. Active time accrued: 1h48m31s.
+- 2026-07-26T19:08:24Z: Completed the repository tour. It separates folder
+  location from evidentiary authority, supplies a source-to-script-to-output
+  audit path, distinguishes locked objects from validation contracts and
+  synthetic method checks, and gives safe routes for data, literature,
+  reproduction, software, and idea contributions. Onboarding 1152/1152,
+  plain-language 15/15 pages, source coverage 33/33 across 16 reader pages,
+  provenance 841/841, and structure 142/142 pass. Refilled the backlog with six
+  substantive clarity tasks. Active time accrued: 1h53m10s.

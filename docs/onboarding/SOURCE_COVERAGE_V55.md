@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 15 |
+| Reader-facing pages mapped | 16 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -46,6 +46,7 @@ Different pages intentionally carry different evidence loads:
 | Failure-mode atlas | 25 | 26 | Why routes failed and what evidence could change each blocker. |
 | Data-needed map | 20 | 21 | Minimum decisive packages and non-substitutable near-matches. |
 | Research-evolution timeline | 31 | 31 | Promotions, bounds, demotions, nulls, and the present frontier in sequence. |
+| Repository tour | 15 | 16 | Storage, authority, lifecycle, and safe navigation by evidence role. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
 | Visual text equivalents | 31 | 30 | Accessible linear equivalents for six diagrams. |
@@ -60,20 +61,18 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The two records used by all 15 reader pages are:
+The two records used by all 16 reader pages are:
 
 1. `docs/history/V54_RUN_SUMMARY.md`, which controls eight progression,
    monitoring/target-boundary, and model-use claims; and
 2. `docs/reports/THERAPEUTIC_PATH_V52.md`, which controls six live-lead,
    closed-direction, and next-impact claims.
 
-Several artifacts feed fourteen pages:
+Three artifacts feed fifteen pages:
 
 - `docs/findings/FINDING_V22.md`;
 - `docs/reports/FINDINGS_REPORT_V37.md`;
-- `docs/validation/PREREGISTRATION_V42.md`;
-- `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`; and
-- `docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md`.
+- `docs/validation/PREREGISTRATION_V42.md`.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not

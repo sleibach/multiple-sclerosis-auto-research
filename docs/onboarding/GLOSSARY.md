@@ -344,6 +344,11 @@ The document format used for the responsive, print-designed collaborator
 brief. HTML controls presentation here; it does not add an evidence layer or a
 scientific result.
 
+**Megabyte (MB)**
+
+A unit of file size. The repository's 50 MB tracked-file guard is a hosting and
+maintenance rule, not a scientific threshold.
+
 **Locked rule**  
 A feature set, calculation, and decision rule committed before the next test.
 It cannot be tuned after the outcome is visible.

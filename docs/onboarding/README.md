@@ -58,6 +58,7 @@ Start with the source artifacts rather than onboarding prose:
 |---|---|
 | Understand MS, the project, and the honest frontier | [MS Research, Explained](MS_RESEARCH_EXPLAINED.md) |
 | Print or share a one-page orientation | [Collaborator Brief](COLLABORATOR_BRIEF_V55.html) ([linear text](COLLABORATOR_BRIEF_V55.md)) |
+| Learn where evidence, code, data, validation, and outside context live | [Repository Tour](REPOSITORY_TOUR.md) |
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |

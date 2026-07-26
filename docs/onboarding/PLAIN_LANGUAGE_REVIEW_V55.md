@@ -6,7 +6,7 @@ project's evidence policy. `[E01]`
 
 ## Scope
 
-The committed audit covers fourteen reader-facing pages:
+The committed audit covers fifteen reader-facing pages:
 
 - the onboarding landing page;
 - the one-page collaborator brief's linear equivalent;
@@ -17,6 +17,7 @@ The committed audit covers fourteen reader-facing pages:
 - the failure-mode atlas;
 - the data-needed map;
 - the research-evolution timeline;
+- the repository tour;
 - collaborator routes;
 - worked idea transformations;
 - myths versus findings;
@@ -39,10 +40,10 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 14 |
-| Prose words measured | 17,499 |
-| Sentences measured | 1,670 |
-| Mean words per sentence across the suite | 10.5 |
+| Reader-facing documents | 15 |
+| Prose words measured | 18,633 |
+| Sentences measured | 1,801 |
+| Mean words per sentence across the suite | 10.3 |
 | Sentences over 30 words | 12 (0.7%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
@@ -66,7 +67,7 @@ now treats headings and list items as standalone reading units.
 Short definitions were added for technical labels that appeared in newcomer
 pages without an explicit glossary expansion: AI, RPT, GEO, SVG, CV, UC/MS-UC,
 GPCR, MIF/CD74, OXPHOS, PTGER4, ZMIZ1, CSF, DMF, EDSS, NEDA-4, PIRA, QC, HTML,
-and the RRMS/SPMS/PPMS disease-course labels. Each project-specific entry
+MB, and the RRMS/SPMS/PPMS disease-course labels. Each project-specific entry
 retains the route's actual bounded status rather than supplying an inflated
 shorthand.
 
