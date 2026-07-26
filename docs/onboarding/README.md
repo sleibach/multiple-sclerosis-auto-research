@@ -71,6 +71,7 @@ Start with the source artifacts rather than onboarding prose:
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
 | Know what happens after submission | [Contributor Response Lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) |
 | Follow a fictional submission through repair and five possible verdicts | [Worked Submission Lifecycle](WORKED_SUBMISSION_LIFECYCLE.md) |
+| Respond to a contribution with an exact, non-personal status | [Review Response Templates](REVIEW_RESPONSE_TEMPLATES.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |

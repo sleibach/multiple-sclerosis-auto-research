@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 28 |
+| Reader-facing pages mapped | 29 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -66,6 +66,7 @@ Different pages intentionally carry different evidence loads:
 | Myths versus findings | 27 | 26 | Common overreads corrected against source claims. |
 | Contribution guide | 10 | 11 | Submission discipline rather than a scientific summary. |
 | Contributor response lifecycle | 13 | 15 | Intake, hard gates, repair, action classes, grounding outcomes, and public closure without proposal promotion. |
+| Review-response templates | 10 | 11 | Exact non-personal language for workflow actions and eligible grounded-result classes. |
 | Collaborator routes | 7 | 9 | Role-specific entry points, deliberately concise. |
 
 The landing page is not a substitute for the layered explanation. The claim
@@ -73,18 +74,19 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 25 of
-the 27 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 26 of
+the 29 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 24 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 25 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 22 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 23 pages and controls eight
 context, decoupling, closure, and governance claims.
 
 `docs/findings/FINDING_V22.md` serves 20 pages;
-`docs/validation/PREREGISTRATION_V42.md` serves 19.
+`docs/history/PROGRESSION_FRONTIER_V54.md` and
+`docs/validation/PREREGISTRATION_V42.md` each serve 20.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not

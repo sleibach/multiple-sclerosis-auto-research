@@ -89,8 +89,8 @@ negative results, and source traceability.
 | Newcomer route-depth smoke audit | done | Seventeen configured routes pass: public entry pages reach core content within one link and secondary destinations within two; contribution endpoints now link forward and back. |
 | Worked submission-to-verdict example | done | Fictional domain-shift idea moves through intake, hard-gate repair, frozen test card, five explicitly hypothetical outcome branches, and a public closure template; no run or result is claimed. |
 | Contributor-lifecycle visualization | done | Eighth SVG uses separate workflow and evidence rails, a hard valid-run barrier, explicit no-evidence actions, five overread corrections, and a complete text equivalent. |
-| Review-response templates | in-progress | Provide concise repair, data-request, duplicate/closed, park, runnable, and grounded-result response templates that never evaluate the contributor. |
-| Evidence-status versus workflow-status matrix | todo | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
+| Review-response templates | done | Thirteen concise templates cover receipt, repair, data request, closure, parking, safety, runnable/external tests, and six result classes while grading the proposal or run rather than the contributor. |
+| Evidence-status versus workflow-status matrix | in-progress | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
 | Zero-jargon entry-route review | todo | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -441,3 +441,11 @@ negative results, and source traceability.
   24 scenarios; every constrained scenario requires the full text equivalent.
   Onboarding 1518/1518, provenance 841/841, and structural 142/142 pass. Active
   time accrued: 3h01m44s.
+- 2026-07-26T20:20:16Z: Completed the review-response templates. Thirteen
+  exact patterns distinguish workflow actions from eligible run outcomes,
+  grade the proposal or result rather than the contributor, require a reason
+  and next step, and prevent runnable, parked, duplicate, invalid, or
+  data-blocked states from acquiring scientific meaning. Onboarding 1540/1540,
+  plain-language 28/28 pages, source coverage 33/33 across 29 reader pages,
+  route depth 17/17, provenance 841/841, and structural 142/142 pass. Active
+  time accrued: 3h05m02s.
