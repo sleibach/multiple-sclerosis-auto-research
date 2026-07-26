@@ -43,8 +43,8 @@ negative results, and source traceability.
 | Monitoring-lead visualization | done | Five-step fixed analysis, bounded evidence, blocked monitor-to-target inference, and preregistered pass/fail/inconclusive outcomes render in one SVG. |
 | Epistemic-class visualization | done | Two-lane SVG shows that rerunnable evidence may be positive, provisional, negative, or data-bound, while outside context can queue tests but cannot transfer authority. |
 | Relapse-versus-progression visualization | done | Explicitly schematic SVG separates episode timing from repeated confirmed disability and contrasts held snapshots with the required longitudinal molecular “movie.” |
-| Open-problem-board visualization | todo | Visual index of contribution puzzles and known dead ends. |
-| Collaborator open-problem board | in-progress | Frame grounded frontier gaps as tractable puzzles with useful inputs and anti-patterns. |
+| Open-problem-board visualization | in-progress | Visual index of contribution puzzles and known dead ends. |
+| Collaborator open-problem board | done | Eight source-linked puzzles each state the boundary, why hard, prior work, useful outside inputs, minimum idea fields, and known non-solutions. |
 | Contribution on-ramp | todo | Define how to submit a falsifiable, groundable direction and navigate evidence classes. |
 | Plain-language glossary | todo | Define medical, statistical, genetics, and project-governance terms used in onboarding. |
 | Myths-versus-findings page | todo | Prevent common overreads and repeated closed-path proposals. |
@@ -91,3 +91,8 @@ negative results, and source traceability.
   separates outcomes, states the V54 negatives, and shows why held snapshots
   cannot substitute for repeated molecular and confirmed-disability measures.
   Active time accrued: 0h23m23s.
+- 2026-07-26T17:41:12Z: Completed the 2,526-word collaborator board with eight
+  open puzzles and 21 resolving artifact links. Added two bounded method/access
+  rows to the source contract for V43 small-cohort simulations and V44/V45
+  cohort access, explicitly separating method behavior from MS biology. Active
+  time accrued: 0h25m58s.
