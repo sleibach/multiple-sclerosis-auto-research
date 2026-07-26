@@ -15,6 +15,9 @@ data. `[M01, M05, P02]`
 
 ## Choose Your Route
 
+Pick one route below. The longer page directory is a reference index, not a
+required reading list.
+
 ### I Have Two Minutes
 
 1. Read [the two-minute version](MS_RESEARCH_EXPLAINED.md#the-two-minute-version).
@@ -74,6 +77,8 @@ Start with the source artifacts rather than onboarding prose:
 
 ## Find The Right Page
 
+### Reader And Contributor Pages
+
 | need | page |
 |---|---|
 | Understand MS, the project, and the honest frontier | [MS Research, Explained](MS_RESEARCH_EXPLAINED.md) |
@@ -124,6 +129,14 @@ Start with the source artifacts rather than onboarding prose:
 | See what data could change each answer | [Data That Would Change The Answer](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md) |
 | See how candidates were promoted, bounded, demoted, or closed | [Research Evolution Timeline](RESEARCH_EVOLUTION_TIMELINE.md) |
 | Check one route's status | [Lead Status Cards](LEAD_STATUS_CARDS.md) |
+
+### Maintenance And Audit Records
+
+These pages document how the public layer was checked. They are not additional
+scientific findings and are not required before contributing.
+
+| maintenance need | record |
+|---|---|
 | Inspect accessibility | [Accessibility Audit](ACCESSIBILITY_AUDIT_V55.md) |
 | Check phone/tablet/print delivery | [Narrow-Screen And Print Review](RESPONSIVE_PRINT_REVIEW_V55.md) |
 | Maintain or release the onboarding layer | [Maintainer Release Checklist](MAINTAINER_RELEASE_CHECKLIST_V55.md) |
@@ -141,6 +154,7 @@ Start with the source artifacts rather than onboarding prose:
 | Verify every specialized contribution guide reaches examples, safety, submission, and review outcomes | [Contributor Route Consistency Review](CONTRIBUTOR_ROUTE_CONSISTENCY_REVIEW_V55.md) |
 | Inspect the lightweight, self-contained public package budget | [Public Package Footprint Review](PUBLIC_PACKAGE_FOOTPRINT_V55.md) |
 | Check that public page titles and roles do not collide | [Title And Role Review](TITLE_AND_ROLE_REVIEW_V55.md) |
+| Inspect whether the entrance keeps primary choices bounded before maintenance detail | [Landing-Page Choice Review](LANDING_PAGE_CHOICE_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
@@ -174,8 +188,11 @@ python3 scripts/v55_onboarding_audit.py --fail-on-error
 python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
 python3 scripts/v55_plain_language_audit.py --fail-on-error
 python3 scripts/v55_source_coverage.py --fail-on-error
-python3 scripts/v47_provenance_gate.py audit
-python3 scripts/v51_structural_prediction_gate.py audit
+python3 scripts/v55_route_depth_audit.py --fail-on-error
+python3 scripts/v55_semantic_structure_audit.py --fail-on-error
+python3 scripts/v55_public_package_footprint.py --fail-on-error
+python3 scripts/v47_provenance_gate.py audit --fail-on-error
+python3 scripts/v51_structural_prediction_gate.py audit --fail-on-error
 python3 scripts/v55_visual_render_regression.py --fail-on-error
 python3 scripts/v55_responsive_visual_audit.py --fail-on-error
 python3 scripts/v55_print_brief_audit.py --fail-on-error

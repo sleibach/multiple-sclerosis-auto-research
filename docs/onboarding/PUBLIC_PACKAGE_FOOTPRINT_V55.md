@@ -14,9 +14,9 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Files under `docs/onboarding/` | 83 |
-| Total package size | 727,670 bytes (about 711 KiB) |
-| Markdown pages | 71 |
+| Files under `docs/onboarding/` | 84 |
+| Total package size | 730,513 bytes (about 713 KiB) |
+| Markdown pages | 72 |
 | SVG visuals | 8 |
 | TSV source/score files | 3 |
 | Self-contained HTML pages | 1 |

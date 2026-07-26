@@ -16,7 +16,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Markdown documents checked | 71 |
+| Markdown documents checked | 72 |
 | Missing or multiple level-one titles | 0 |
 | Exact duplicate titles | 0 |
 | High-similarity title pairs reviewed | 3 |

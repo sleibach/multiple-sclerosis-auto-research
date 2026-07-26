@@ -111,14 +111,14 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,270 checks over 73 documents, 1,020 headings, and 110 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,290 checks over 74 documents, 1,026 headings, and 112 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
 | Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
 | Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
 | Release-checklist synchronization | done | CI and maintainer order now include CONTRIBUTING triggers, route/semantic audits, explicit gate failure, link review, clean clone, and honest human-pilot status. |
-| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 72 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
+| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 73 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
 | Contribution copy/paste review | done | All primary copied blocks and 13 review templates retain safety/evidence boundaries; no TODO/TBD/FIXME or angle prompt outside fences; ambiguous identifier request repaired. |
 | Anti-duplication route check | done | All eight puzzles now have an explicit crosswalk to a scoped stop list, current status, and artifact-appropriate contribution action; closure scope remains explicit. |
 | Public package footprint review | done | Reproducible guard verifies a sub-1-MiB text/vector package, eight lightweight SVGs, no file over 512 KiB, no heavy/binary media, and no HTML/SVG asset payloads. |
@@ -127,8 +127,8 @@ negative results, and source traceability.
 | Latest public CI verification | done | Public run 30222786191 passed the exact `bcc5049e` commit in 57 seconds, including package, gate, browser, responsive, print, manifest, and report-upload steps. |
 | CI action-runtime modernization | done | Official checkout/setup-python/upload-artifact v7 actions declare Node 24; public run 30222871782 passed in 44 seconds without the prior Node 20 annotation. |
 | Live issue-form help-link verification | done | Remote/local SHA-256 match; pushed form contains the field-guide link, retains ten elements/nine IDs, and guide/launch URLs resolve with the expected sign-in gate. |
-| Public artifact title and role collision review | done | Seventy-one Markdown titles have no duplicates; three high-similarity pairs were manually confirmed as distinct instruction/operations or reader/audit roles. |
-| Final route-choice compression review | todo | Ensure the landing page offers a bounded number of primary choices and pushes maintenance reports below contributor routes. |
+| Public artifact title and role collision review | done | Seventy-two Markdown titles have no duplicates; three high-similarity pairs were manually confirmed as distinct instruction/operations or reader/audit roles. |
+| Final route-choice compression review | done | Six intent-based primary routes remain above the visual/index; the directory now separates reader/contributor pages from explicitly non-finding maintenance records. |
 | Final public release-note synchronization | todo | Update release-facing counts and bounded-status summary after the last public artifacts are fixed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -810,3 +810,11 @@ negative results, and source traceability.
   definition, or maintenance work. No unresolved role collision remains.
   Onboarding 2,475/2,475, source coverage 33/33, connectivity 72/72, and
   semantic structure 2,270/2,270 pass. Active time accrued: 5h05m46s.
+- 2026-07-26T22:23:01Z: Completed the landing-page choice review. The entrance
+  keeps six intent-based first routes and explicitly tells readers to choose
+  one; the comprehensive directory is now secondary and split into reader/
+  contributor pages followed by maintenance records labeled as non-findings.
+  The visible local command list now includes route, semantic, package, and
+  fail-closed evidence gates. Onboarding 2,487/2,487, source coverage 33/33,
+  connectivity 73/73, semantic structure 2,290/2,290, and package footprint
+  730,513 bytes all pass. Active time accrued: 5h07m47s.

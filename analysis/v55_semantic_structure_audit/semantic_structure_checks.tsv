@@ -1380,6 +1380,21 @@ docs/onboarding/KNOWN_NON_SOLUTIONS.md	74	table_column_count	PASS	expected=3 act
 docs/onboarding/KNOWN_NON_SOLUTIONS.md	75	table_column_count	PASS	expected=3 actual=3
 docs/onboarding/KNOWN_NON_SOLUTIONS.md	76	table_column_count	PASS	expected=3 actual=3
 docs/onboarding/KNOWN_NON_SOLUTIONS.md	77	table_column_count	PASS	expected=3 actual=3
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	1	one_h1	PASS	h1_count=1
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	1	first_heading_h1	PASS	first_level=1
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	7	heading_level_step	PASS	previous=h1 current=h2 text=Result
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	30	heading_level_step	PASS	previous=h2 current=h2 text=Why Six Is Acceptable Here
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	38	heading_level_step	PASS	previous=h2 current=h2 text=Limits
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	1	unique_heading_paths	PASS	no duplicate full heading paths
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	11	table_header_nonempty	PASS	columns=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	12	table_header_separator	PASS	header=2 separator=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	13	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	14	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	15	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	16	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	17	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	18	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/LANDING_PAGE_CHOICE_REVIEW_V55.md	19	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/LEAD_STATUS_CARDS.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/LEAD_STATUS_CARDS.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/LEAD_STATUS_CARDS.md	6	heading_level_step	PASS	previous=h1 current=h2 text=Card 1 · Bounded APC/HLA-II Early Monitoring
@@ -1711,24 +1726,21 @@ docs/onboarding/QUESTION_STARTERS_BY_DISCIPLINE.md	1	unique_heading_paths	PASS	n
 docs/onboarding/README.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/README.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/README.md	16	heading_level_step	PASS	previous=h1 current=h2 text=Choose Your Route
-docs/onboarding/README.md	18	heading_level_step	PASS	previous=h2 current=h3 text=I Have Two Minutes
-docs/onboarding/README.md	26	heading_level_step	PASS	previous=h3 current=h3 text=I Have Fifteen Minutes
-docs/onboarding/README.md	34	heading_level_step	PASS	previous=h3 current=h3 text=I Want To Contribute An Idea
-docs/onboarding/README.md	47	heading_level_step	PASS	previous=h3 current=h3 text=I Want To Invite Someone Else
-docs/onboarding/README.md	52	heading_level_step	PASS	previous=h3 current=h3 text=I Have A Personal Health Question
-docs/onboarding/README.md	58	heading_level_step	PASS	previous=h3 current=h3 text=I Am Reviewing Scientific Evidence
-docs/onboarding/README.md	69	heading_level_step	PASS	previous=h3 current=h2 text=Visual Overview
-docs/onboarding/README.md	75	heading_level_step	PASS	previous=h2 current=h2 text=Find The Right Page
-docs/onboarding/README.md	149	heading_level_step	PASS	previous=h2 current=h2 text=Evidence Promise
-docs/onboarding/README.md	165	heading_level_step	PASS	previous=h2 current=h2 text=Automated Integrity Checks
+docs/onboarding/README.md	21	heading_level_step	PASS	previous=h2 current=h3 text=I Have Two Minutes
+docs/onboarding/README.md	29	heading_level_step	PASS	previous=h3 current=h3 text=I Have Fifteen Minutes
+docs/onboarding/README.md	37	heading_level_step	PASS	previous=h3 current=h3 text=I Want To Contribute An Idea
+docs/onboarding/README.md	50	heading_level_step	PASS	previous=h3 current=h3 text=I Want To Invite Someone Else
+docs/onboarding/README.md	55	heading_level_step	PASS	previous=h3 current=h3 text=I Have A Personal Health Question
+docs/onboarding/README.md	61	heading_level_step	PASS	previous=h3 current=h3 text=I Am Reviewing Scientific Evidence
+docs/onboarding/README.md	72	heading_level_step	PASS	previous=h3 current=h2 text=Visual Overview
+docs/onboarding/README.md	78	heading_level_step	PASS	previous=h2 current=h2 text=Find The Right Page
+docs/onboarding/README.md	80	heading_level_step	PASS	previous=h2 current=h3 text=Reader And Contributor Pages
+docs/onboarding/README.md	133	heading_level_step	PASS	previous=h3 current=h3 text=Maintenance And Audit Records
+docs/onboarding/README.md	163	heading_level_step	PASS	previous=h3 current=h2 text=Evidence Promise
+docs/onboarding/README.md	179	heading_level_step	PASS	previous=h2 current=h2 text=Automated Integrity Checks
 docs/onboarding/README.md	1	unique_heading_paths	PASS	no duplicate full heading paths
-docs/onboarding/README.md	77	table_header_nonempty	PASS	columns=2
-docs/onboarding/README.md	78	table_header_separator	PASS	header=2 separator=2
-docs/onboarding/README.md	79	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	80	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	81	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	82	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	83	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	82	table_header_nonempty	PASS	columns=2
+docs/onboarding/README.md	83	table_header_separator	PASS	header=2 separator=2
 docs/onboarding/README.md	84	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	85	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	86	table_column_count	PASS	expected=2 actual=2
@@ -1777,14 +1789,8 @@ docs/onboarding/README.md	128	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	129	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	130	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	131	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	132	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	133	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	134	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	135	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	136	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	137	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	138	table_column_count	PASS	expected=2 actual=2
-docs/onboarding/README.md	139	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	138	table_header_nonempty	PASS	columns=2
+docs/onboarding/README.md	139	table_header_separator	PASS	header=2 separator=2
 docs/onboarding/README.md	140	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	141	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	142	table_column_count	PASS	expected=2 actual=2
@@ -1793,6 +1799,20 @@ docs/onboarding/README.md	144	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	145	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	146	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	147	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	148	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	149	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	150	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	151	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	152	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	153	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	154	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	155	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	156	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	157	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	158	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	159	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	160	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	161	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/RELEASE_NOTES_V55.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/RELEASE_NOTES_V55.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/RELEASE_NOTES_V55.md	8	heading_level_step	PASS	previous=h1 current=h2 text=The Scientific State Did Not Change
