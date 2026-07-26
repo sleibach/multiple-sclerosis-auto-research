@@ -25,6 +25,7 @@ medical background. It changes no scientific finding.
 - [Patient/public safety and privacy boundary](docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md)
 - [Plain-language glossary](docs/onboarding/GLOSSARY.md)
 - [Find the exact status behind a gene, method, or search term](docs/onboarding/FIND_BY_TERM.md)
+- [V55 public onboarding release notes](docs/onboarding/RELEASE_NOTES_V55.md)
 
 The short honest state: one provisional early-treatment monitoring lead awaits
 independent validation; the project has no intervention-grade target and no

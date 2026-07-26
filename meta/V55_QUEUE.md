@@ -105,8 +105,8 @@ negative results, and source traceability.
 | GitHub idea-form alignment | done | Ten-element live form now mirrors the bounded test card: status/overread, observation-before-solution, rival/drop rule, independent unit, fair challenge, fail-closed checks, prior route, outcome-specific decisions, and safety/evidence acknowledgements. |
 | Newcomer keyword and misconception index | done | Thirty search-term rows and 12 tempting conclusions route gene, monitoring, progression, structure, model, and status queries to bounded wording, forbidden inference, and source-backed explanations. |
 | Final cross-page drift and safety review | done | Full public-layer review corrected one stale “clinical lead” contract phrase, currentized the root mission and audit summaries, narrowed “prove” wording, and repaired eight onboarding-graph dead ends; no evidence status changed. |
-| V55 public release note | in-progress | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
-| Public collaborator invitation | todo | Write a short, shareable invitation that states the honest frontier, who can help, safety/status limits, and a direct test-card route. |
+| V55 public release note | done | Public note separates the unchanged scientific state from the layered narrative, eight visuals, negative/boundary navigation, contributor routes, integrity checks, and still-unrun human pilot. |
+| Public collaborator invitation | in-progress | Write a short, shareable invitation that states the honest frontier, who can help, safety/status limits, and a direct test-card route. |
 | Starter contribution board | todo | Offer concrete documentation, data-metadata, method, falsification, accessibility, and systems-thinking starter tasks with done criteria and non-solutions. |
 | Contribution examples by type | todo | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
 | Direct issue-launch and remote-render check | todo | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
@@ -598,3 +598,11 @@ negative results, and source traceability.
   plain-language 39/39 pages, source coverage 33/33 across 40 reader pages, and
   core routes 17/17 pass. No scientific status changed. Active time accrued:
   3h58m49s.
+- 2026-07-26T21:18:25Z: Completed the V55 public release notes. The note leads
+  with the unchanged scientific state, then indexes the layered orientation,
+  eight lightweight visuals, negative/boundary navigation, contribution
+  routes, integrity checks, and empirical human-test gap. It names no new
+  result and makes clear that machine checks do not prove comprehension or
+  science. Onboarding 2141/2141, plain-language 40/40 pages, source coverage
+  33/33 across 41 reader pages, and route depth 17/17 pass. Active time
+  accrued: 4h03m11s.
