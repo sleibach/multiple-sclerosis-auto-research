@@ -13,9 +13,9 @@ V55 is communication and onboarding only. It introduces no scientific claim.
 
 1. Read [the two-minute version](MS_RESEARCH_EXPLAINED.md#the-two-minute-version).
 2. Scan [the research terrain](visuals/RESEARCH_MAP_V55.svg).
-3. Remember the bottom line: one provisional monitoring lead awaits independent
-   validation; no intervention-grade target or progression mechanism has been
-   established. `[M01, M05, P02]`
+3. Remember the bottom line: one monitoring lead has internal support but
+   awaits an independent test; no biological treatment target or progression
+   mechanism has met the project's evidence standard. `[M01, M05, P02]`
 
 ### I Have Fifteen Minutes
 
@@ -32,8 +32,9 @@ V55 is communication and onboarding only. It introduces no scientific claim.
 2. Read its known non-solutions.
 3. Use [the contribution guide and idea template](HOW_TO_CONTRIBUTE_IDEAS.md).
 4. Open a research-direction issue using the repository issue form. A useful
-   idea names a prediction, data, null or holdout, correction, and a condition
-   that would make us drop it.
+   idea states what it predicts and the data it needs. It also names a fair
+   comparison or untouched test set, how chance findings will be controlled,
+   and a result that would make us drop it.
 
 ### I Am Reviewing Scientific Evidence
 
@@ -93,6 +94,7 @@ Start with the source artifacts rather than onboarding prose:
 | Check that teaching metaphors retain explicit limits | [Analogy Safety Review](ANALOGY_SAFETY_REVIEW_V55.md) |
 | Inspect the final high-risk wording scan | [Newcomer Ambiguity Review](NEWCOMER_AMBIGUITY_REVIEW_V55.md) |
 | Inspect core route depth and reciprocity | [Newcomer Route-Depth Review](ROUTE_DEPTH_REVIEW_V55.md) |
+| Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
 | Inspect machine traceability | [Onboarding Audit Summary](../../analysis/v55_onboarding_audit/onboarding_audit_summary.json) |

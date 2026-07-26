@@ -32,8 +32,9 @@ The formal evidence-handling policy is in
 
 ### What Problem Are We Working On?
 
-Multiple sclerosis, or MS, involves immune-mediated injury in the central
-nervous system, including damage to myelin and nerve fibers. This sentence is
+Multiple sclerosis, or MS, involves injury linked to immune processes in the
+brain and spinal cord, together called the central nervous system. This can
+include damage to myelin, the insulating material around nerve fibers. This is
 medical orientation, not a result discovered by this project. `[B01 |
 Background orientation]`
 
@@ -60,41 +61,49 @@ not to assume and what exact evidence would be needed to reopen it.
 
 ### What Has It Found?
 
-There is **one live research lead**, and it is provisional: an early-treatment
-score based on changes in antigen-presentation genes, called the scope-limited
-(“bounded”) APC/HLA-II score. It may help monitor whether a person's immune state is
-changing soon after treatment. It is not a drug target, treatment selector,
-clinical test, or cure. It still needs an independent, mechanically
-pre-registered validation. `[M01, M05, A01 | Live, provisional]`
+There is **one live research lead**, and it is provisional: it has internal
+support but still needs a decisive outside test. The score summarizes early
+treatment-related changes in a fixed group of genes involved in how immune
+cells display molecular fragments. The project calls this the APC/HLA-II score,
+shorthand for antigen-presenting-cell fragment-display biology. “Bounded” means the
+claim is intentionally limited to the tested setting. The score may help
+monitor whether a person's immune state is changing soon after treatment. It
+is not a drug target, treatment selector, clinical test, or cure. It still
+needs an independent validation whose rule and interpretations are fixed
+before the outside outcomes are inspected. `[M01, M05, A01 | Live,
+provisional]`
 
-The score produced mixed results across therapies and datasets. Within its
+The score produced mixed results across treatments and datasets. Within its
 small 19-person evidence set it survived several statistical stress tests,
-and added model complexity did not improve it. Broader immune state also
-attenuated the signal, so its interpretation is deliberately bounded. `[M02,
-M03, M04, D02 | Live, provisional]`
+and more flexible models did not improve it. Accounting for broader immune
+state also made the association weaker, so its interpretation is deliberately
+bounded. `[M02, M03, M04, D02 | Live, provisional]`
 
 The project also established useful context and closures:
 
-- MS and ulcerative colitis had the strongest genome-wide genetic relationship
-  among the autoimmune comparators tested here, but this is known context, not
-  a transferable target. `[G01 | Robust context]`
-- ZMIZ1 is a supported direction-decoupling warning: the same expression
-  direction pointed oppositely in MS and Crohn. It is not a promoted target or
-  a closed biological result. `[G02 | Supported decoupling]`
+- MS and ulcerative colitis, an inflammatory bowel disease, shared the
+  strongest inherited risk pattern across the genome among the immune-related
+  diseases compared here. This is known context, not a transferable target.
+  `[G01 | Robust context]`
+- At the gene ZMIZ1, the same increase in gene activity pointed toward opposite
+  risk directions in MS and Crohn disease. This is a warning against
+  transferring a treatment direction between diseases, not a promoted target
+  or a closed biological result. `[G02 | Supported decoupling]`
 - KIF21B/GPR25 and PTGER4 target routes closed or were demoted because the
-  causal gene or required therapeutic direction remained unresolved or hard to
-  achieve. A structurally drug-like protein is not enough when protection
-  appears to require restoring or increasing function. `[G03, G04, G05 |
-  Closed or demoted]`
-- A coupled antigen-presentation and immune-tone architecture recurs across
-  data already stored in this repository (“held data”), but it did not become a
-  target or a better prediction rule. `[D01, D02 | Supported context plus
-  negative]`
-- A joint search across the assembled corpus recovered known immune structure
-  but found no unexpected signal that passed the held-out-modality gate. This bounds
-  further unconstrained mining of this corpus; it does not claim that all
-  computation or all future public data are exhausted. `[D04, D05 | Corpus
-  boundary]`
+  gene responsible for the regional signal, or the required direction of
+  intervention, remained unresolved or hard to achieve. A protein with a
+  drug-like shape is not enough when protection appears to require restoring
+  or increasing function rather than blocking it. `[G03, G04, G05 | Closed or
+  demoted]`
+- Several antigen-presentation and broad immune-activation signals repeatedly
+  moved together across data already stored in this repository (“held data”).
+  That recurring pattern did not become a target or a better prediction rule.
+  `[D01, D02 | Supported context plus negative]`
+- A joint search across the assembled collection recovered known immune
+  structure but found no unexpected signal that passed a test on a different
+  data type held aside from the search. This bounds further unconstrained
+  mining of this collection; it does not claim that all computation or all
+  future public data are exhausted. `[D04, D05 | Corpus boundary]`
 
 ### What Is Still Missing?
 
@@ -110,10 +119,12 @@ not imply that MS follows a smooth storyline, that frequent measurement alone
 establishes cause, or that a biological trajectory can be reconstructed by
 interpolating between sparse observations.
 
-An exact two-gene microglial state, CD44/CXCR4, is fixed as a future candidate
-for the right longitudinal dataset. Its identity is supported; progression
-prediction is not. It must not be applied to blood-based datasets as a proxy or
-treated as a target. `[P06, C01 | Live, data-gated]`
+An exact two-gene state, CD44/CXCR4, is fixed as a future candidate for the
+right repeated-over-time dataset. It is intended only for a compatible
+microglial compartment; microglia are immune-related cells resident in the
+central nervous system. The score's identity is fixed, but progression
+prediction is untested. A blood-based measurement must not be substituted as
+an indirect stand-in or treated as a target. `[P06, C01 | Live, data-gated]`
 
 ### Where Could A Fresh Mind Help?
 
@@ -128,12 +139,13 @@ such as:
    than inhibition?
 4. Can a coupled biological system be tested without converting correlation
    into a multi-target story?
-5. How can source and batch confounding be detected before an exciting pattern
-   is interpreted?
+5. How can we detect when diagnosis accidentally lines up with sample source
+   or processing batch before calling a pattern disease-specific?
 
 These are developed in the
 [Open Problems for Collaborators](OPEN_PROBLEMS_FOR_COLLABORATORS.md). The
-claim IDs above point directly to the controlling evidence.
+letter-number claim IDs above are traceability references to the controlling
+evidence; readers do not need to memorize them.
 
 ---
 

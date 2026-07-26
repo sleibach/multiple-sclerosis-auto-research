@@ -91,8 +91,8 @@ negative results, and source traceability.
 | Contributor-lifecycle visualization | done | Eighth SVG uses separate workflow and evidence rails, a hard valid-run barrier, explicit no-evidence actions, five overread corrections, and a complete text equivalent. |
 | Review-response templates | done | Thirteen concise templates cover receipt, repair, data request, closure, parking, safety, runnable/external tests, and six result classes while grading the proposal or run rather than the contributor. |
 | Evidence-status versus workflow-status matrix | done | Three-layer decoder separates workflow, test validity, and evidence; it defines allowed transitions and blocks runnable/parked/data-blocked/invalid category errors. |
-| Zero-jargon entry-route review | in-progress | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
-| Known non-solutions index | todo | Consolidate the tested dead ends and exact reopening evidence so newcomers can search before repeating a closed route. |
+| Zero-jargon entry-route review | done | Fourteen pre-glossary barriers were defined or replaced at first use; unavoidable identifiers remain role-labeled, and the result is explicitly subject to human testing. |
+| Known non-solutions index | in-progress | Consolidate the tested dead ends and exact reopening evidence so newcomers can search before repeating a closed route. |
 | Cross-disciplinary question starters | todo | Give engineers, designers, statisticians, systems thinkers, and other scientists bounded prompts tied to specific open problems. |
 | First idea in ten minutes | todo | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
 | Public issue example set | todo | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
@@ -463,3 +463,12 @@ negative results, and source traceability.
   29/29 pages, source coverage 33/33 across 30 reader pages, route depth 17/17,
   provenance 841/841, and structural 142/142 pass. Active time accrued:
   3h09m14s. Refilled the backlog with five contributor-facing content tasks.
+- 2026-07-26T20:28:13Z: Completed the zero-jargon entry-route review. Fourteen
+  pre-glossary barriers were repaired in the root and two-minute route,
+  including APC/HLA-II, provisional, bounded, pre-registration, attenuation,
+  cross-disease genetics, held-out data types, microglia, indirect stand-ins,
+  and source/batch alignment. The first automated pass correctly rejected a
+  split HLA acronym and one new long sentence; both were repaired before PASS.
+  Onboarding 1606/1606, plain-language 29/29 pages with zero undefined acronym
+  tokens, source coverage 33/33, and route depth 17/17 pass. Active time
+  accrued: 3h12m59s.
