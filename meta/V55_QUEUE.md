@@ -56,8 +56,8 @@ negative results, and source traceability.
 | Role-based collaborator routes | done | Nine role routes map existing skills to bounded puzzles, a concrete first contribution, and known misuse patterns; an any-discipline route supplies five falsifiability questions. |
 | Newcomer FAQ | done | Thirty-one short answers cover project scope, evidence, tried routes, progression, validation/data, nulls/closures, safety, and participation while retaining claim IDs and caveats. |
 | Worked idea transformations | done | Ten examples turn plausible but unusable suggestions into bounded questions with prediction, comparator/null, required data, drop rule, and honest proposal status. |
-| Visual browser-render regression | in-progress | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
-| Onboarding audit synthetic fixtures | todo | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
+| Visual browser-render regression | done | Reusable Chrome regression renders all five SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 31/31 checks pass. |
+| Onboarding audit synthetic fixtures | in-progress | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
 | Continuous onboarding check | todo | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
 | Plain-language density review | todo | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
 | Source-coverage map | todo | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
@@ -163,3 +163,10 @@ negative results, and source traceability.
   precommitted drop rule. The examples are explicitly design illustrations,
   not new hypotheses. Audit 726/726 and both boundary gates pass. Active time
   accrued: 0h52m02s.
+- 2026-07-26T18:13:14Z: Completed the reusable browser-render regression.
+  Chrome 150 rendered all five SVGs at their exact declared dimensions; 31/31
+  source, canvas, render, size, dimension, and fingerprint checks pass, and no
+  raster media remain. The first run exposed Chrome lingering after writing a
+  screenshot; lifecycle handling was corrected to detect stable output and
+  terminate the isolated process group. Onboarding 726/726, provenance 841/841,
+  and structural 142/142 pass. Active time accrued: 0h58m00s.

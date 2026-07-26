@@ -87,6 +87,14 @@ native view-box size, and visually inspected. Text overflow found during the
 first previews was corrected before this audit. The diagrams remain readable as
 vector assets and use no external fonts, scripts, or network resources.
 
+The render check is reproducible with
+`python3 scripts/v55_visual_render_regression.py --fail-on-error`. It validates
+the declared SVG canvas, renders into an isolated temporary directory, checks
+non-trivial output and exact pixel dimensions, records a fingerprint, and
+deletes all raster media. Lightweight results live under
+`analysis/v55_visual_render_regression/`; they test presentation behavior and
+make no scientific claim.
+
 ## Plain-Language And Jargon Review
 
 - Abbreviations are expanded or defined in `GLOSSARY.md`.
