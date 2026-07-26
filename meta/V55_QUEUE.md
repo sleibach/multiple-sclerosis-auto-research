@@ -88,8 +88,8 @@ negative results, and source traceability.
 | Final newcomer ambiguity scan | done | All 27 reader pages were searched across five high-risk wording clusters; five ambiguity classes were corrected without a status change. |
 | Newcomer route-depth smoke audit | done | Seventeen configured routes pass: public entry pages reach core content within one link and secondary destinations within two; contribution endpoints now link forward and back. |
 | Worked submission-to-verdict example | done | Fictional domain-shift idea moves through intake, hard-gate repair, frozen test card, five explicitly hypothetical outcome branches, and a public closure template; no run or result is claimed. |
-| Contributor-lifecycle visualization | in-progress | Add a lightweight SVG and text equivalent distinguishing workflow state from evidence grade. |
-| Review-response templates | todo | Provide concise repair, data-request, duplicate/closed, park, runnable, and grounded-result response templates that never evaluate the contributor. |
+| Contributor-lifecycle visualization | done | Eighth SVG uses separate workflow and evidence rails, a hard valid-run barrier, explicit no-evidence actions, five overread corrections, and a complete text equivalent. |
+| Review-response templates | in-progress | Provide concise repair, data-request, duplicate/closed, park, runnable, and grounded-result response templates that never evaluate the contributor. |
 | Evidence-status versus workflow-status matrix | todo | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
 | Zero-jargon entry-route review | todo | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -432,3 +432,12 @@ negative results, and source traceability.
   1504/1504, plain-language 27/27 pages, source coverage 33/33 across 28 reader
   pages, route depth 17/17, provenance 841/841, and structural 142/142 pass.
   Active time accrued: 2h52m18s.
+- 2026-07-26T20:16:58Z: Completed and visually inspected the contributor
+  lifecycle visual. Separate workflow and evidence rails show that receipt,
+  repair, data request, parking, closure, and runnable status do not create
+  evidence; only an eligible frozen completed test crosses the barrier. Invalid
+  and data-blocked inputs remain outside biological interpretation. Chrome
+  render 49/49 and constrained-width delivery 74/74 pass across eight SVGs and
+  24 scenarios; every constrained scenario requires the full text equivalent.
+  Onboarding 1518/1518, provenance 841/841, and structural 142/142 pass. Active
+  time accrued: 3h01m44s.

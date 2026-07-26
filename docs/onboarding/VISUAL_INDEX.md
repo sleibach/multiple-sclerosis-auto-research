@@ -6,7 +6,7 @@ text equivalent below. The SVGs contain no controls or keyboard interactions.
 
 ## Small Screen And Print Rule
 
-At phone, tablet-column, and portrait-print widths, all seven diagrams fit their
+At phone, tablet-column, and portrait-print widths, all eight diagrams fit their
 containers but their embedded labels become too small for direct reading. Use
 the visible **Text equivalent** in each section as the complete content; open
 the SVG directly only for zooming or a larger view. The measured review is in
@@ -157,6 +157,26 @@ P01]`
 [Open the SVG directly](visuals/EVIDENCE_JOURNEY_V55.svg) ·
 [Read how to interpret non-positive outcomes](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) ·
 [Read how to submit a testable idea](HOW_TO_CONTRIBUTE_IDEAS.md)
+
+## 8. What Happens To A Contributor Idea
+
+![Two-rail diagram separating workflow states from evidence outcomes. Received ideas move through hard gates, a test card, and an action class. Repair, data request, parking, duplicate/closed, and unsafe stop do not create evidence. Only a valid frozen completed test reaches supported-bounded, attenuated, null, or inconclusive outcomes; invalid and data-blocked inputs allow no biological interpretation.](visuals/CONTRIBUTOR_LIFECYCLE_V55.svg)
+
+**Text equivalent:** A submitted idea first receives a workflow status. It is
+recorded, screened for safety, permission, duplication, direction, and
+testability, and rewritten as a bounded test card. Its next action may be
+repair, data request, park, duplicate/closed, unsafe stop, external test, or run
+now. None is an evidence grade. Only eligible inputs and a test frozen before
+its result can enter the evidence-outcome rail. A valid run may be supported but
+bounded, attenuated/narrowed, null/not supported, or inconclusive. Invalid or
+data-blocked inputs permit no biological interpretation. Received is not
+supported; runnable is not likely true; parked is not negative; supported is
+not automatically clinical; and data blocked is not absent biology. `[E01,
+A01, M05, P01]`
+
+[Open the SVG directly](visuals/CONTRIBUTOR_LIFECYCLE_V55.svg) ·
+[Read the response lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) ·
+[Follow the worked fictional example](WORKED_SUBMISSION_LIFECYCLE.md)
 
 ## Status Encoding
 

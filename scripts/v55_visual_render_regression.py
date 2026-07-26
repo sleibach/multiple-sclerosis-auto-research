@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VISUAL_DIR = ROOT / "docs" / "onboarding" / "visuals"
 DEFAULT_OUTDIR = ROOT / "analysis" / "v55_visual_render_regression"
 EXPECTED_VISUALS = (
+    "CONTRIBUTOR_LIFECYCLE_V55.svg",
     "EVIDENCE_LANES_V55.svg",
     "MONITORING_LEAD_V55.svg",
     "OPEN_PROBLEM_BOARD_V55.svg",

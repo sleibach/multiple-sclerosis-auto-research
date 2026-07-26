@@ -27,6 +27,7 @@ VISUAL_DIR = ROOT / "docs" / "onboarding" / "visuals"
 VISUAL_INDEX = ROOT / "docs" / "onboarding" / "VISUAL_INDEX.md"
 DEFAULT_OUTDIR = ROOT / "analysis" / "v55_responsive_visual_audit"
 EXPECTED_VISUALS = (
+    "CONTRIBUTOR_LIFECYCLE_V55.svg",
     "EVIDENCE_LANES_V55.svg",
     "MONITORING_LEAD_V55.svg",
     "OPEN_PROBLEM_BOARD_V55.svg",
