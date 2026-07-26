@@ -130,7 +130,9 @@ negative results, and source traceability.
 | Public artifact title and role collision review | done | Seventy-two Markdown titles have no duplicates; three high-similarity pairs were manually confirmed as distinct instruction/operations or reader/audit roles. |
 | Final route-choice compression review | done | Six intent-based primary routes remain above the visual/index; the directory now separates reader/contributor pages from explicitly non-finding maintenance records. |
 | Final public release-note synchronization | done | Release note now covers final intake, anti-duplication, human-pilot, CI, semantic, graph, and package work while preserving the unchanged scientific state. |
-| RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
+| RAG rebuild | done | Sparse TF-IDF index rebuilt to 977 unique documents, including 72 onboarding pages and zero `knowledge_external/` paths; three V55 retrieval smoke queries pass. |
+| Full gates and clean close | todo | Run the complete local CI-equivalent suite, size/tmp guards, manifest freshness, final public CI, and clean-tree check. |
+| V55 run summary | todo | Close the exact six-hour interval and report artifacts, eight visuals, skill/model use, gates, OpenGWAS status, pushes, limits, and next action. |
 
 ## Per-Iteration Notes
 
@@ -825,3 +827,11 @@ negative results, and source traceability.
   unchanged. Current checks remain 33/33 claim rows, eight SVGs, 17/17 core
   routes, 73/73 connectivity records, 2,291/2,291 semantic checks, and a
   sub-1-MiB public package. Active time accrued: 5h09m25s.
+- 2026-07-26T22:27:26Z: Rebuilt and smoke-tested the sparse retrieval index.
+  It contains 977 unique document paths, including all 72 onboarding Markdown
+  pages and zero paths under the segregated `knowledge_external/` tree. The
+  contribution query ranks the issue-form field guide first; the V55 boundary
+  query ranks the first-screen review, landing page, and release note first;
+  and all six results for the orientation query are onboarding pages. This is
+  retrieval continuity, not semantic comprehension or scientific validation.
+  Active time accrued: 5h12m12s.

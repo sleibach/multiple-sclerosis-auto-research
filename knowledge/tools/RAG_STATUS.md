@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-07-22 05:02 CEST
+Last updated: 2026-07-27 00:26 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,7 +25,23 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after V54 progression close refresh: `904`.
+- Current document count after the V55 onboarding refresh: `977` unique paths,
+  including `72` onboarding Markdown pages and `0` paths under
+  `knowledge_external/`.
+- V55 contribution smoke query
+  `submit research direction rival drop rule data access fair challenge`
+  returns `docs/onboarding/ISSUE_FORM_FIELD_GUIDE_V55.md` first, followed by
+  the challenge guide and other contributor-facing pages.
+- V55 boundary smoke query
+  `V55 current boundary one monitoring lead internal support awaits independent test no target no progression mechanism`
+  returns the first-screen review, onboarding landing page, and public release
+  note as its top three results.
+- V55 orientation smoke query
+  `smart non medical collaborator two minute explanation open problems`
+  returns six onboarding pages in its top six, including the release note,
+  first-screen review, landing page, and collaborator invitation.
+- Index inspection confirms all `977` paths are unique and that no segregated
+  outside-knowledge record entered this grounded continuity index.
 - V54 final-summary smoke query
   `V54 run summary six-hour active target scientific verdict next action`
   returns `docs/history/V54_RUN_SUMMARY.md` first, the current retrieval-status
