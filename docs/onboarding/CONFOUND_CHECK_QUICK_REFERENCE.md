@@ -166,6 +166,9 @@ then use adjustment as a sensitivity rather than a substitute for overlap.
 
 ## A Copy-Ready Confound Plan
 
+Complete this as a design plan before inspecting the outcome. Do not include
+personal records, credentials, or private row-level data in a public issue.
+
 ```text
 Independent unit:
 Outcome and timing:
@@ -179,6 +182,8 @@ Adjusted model(s), frozen before outcomes:
 Within-source / leave-source-out checks:
 Decision rules: survives / attenuates / explained / source-sensitive / invalid
 Condition that stops interpretation:
+Safety check: no personal/private data or credentials in the public plan
+Evidence limit: a plan is not a result; an invalid/data-blocked run has no biological grade
 ```
 
 ## Trace The Evidence

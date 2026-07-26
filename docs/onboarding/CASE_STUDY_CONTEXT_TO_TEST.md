@@ -198,6 +198,10 @@ Similar words do not guarantee the same estimand.
 
 ## Copy-Ready Context-To-Test Card
 
+Copy only public or lawfully usable source metadata. Include no personal data,
+credentials, restricted content, or claim that outside authority transfers into
+project evidence.
+
 ```text
 Outside source and access date:
 Faithful contextual claim:
@@ -212,6 +216,8 @@ Null, correction, and holdout:
 Drop or narrow rule:
 Possible result statuses:
 What even a positive result would not establish:
+Safety check: no private/identifying data, credentials, or restricted content
+Evidence check: outside context remains context until a separate eligible run
 ```
 
 Store the outside source in the separate context tree. Submit the proposed test

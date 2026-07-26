@@ -29,6 +29,8 @@ diagnosis because one outcome has no within-source overlap” is.
 
 ```markdown
 Status: Received for triage
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Receipt creates no scientific evidence.
 
 Boundary addressed:
 <one current project question or open-problem number>
@@ -51,6 +53,8 @@ Receipt does not make the proposal project evidence or promise execution.
 
 ```markdown
 Status: Design repair
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: A workflow repair creates no scientific evidence.
 
 What is useful:
 <the exact insight, method transfer, dataset lead, or falsification angle>
@@ -75,6 +79,8 @@ yet distinguish the stated claim from <main alternative>.
 
 ```markdown
 Status: Data request
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: A data request creates no scientific evidence.
 
 The testable prediction:
 <one sentence>
@@ -84,7 +90,7 @@ The current package lacks or has not verified <pairing / labels / outcome /
 time / source / genes / permissions / sample map>.
 
 Minimum acceptable package:
-- <required unit and identifiers>
+- <independent unit, safe aggregate counts, and non-identifying mapping requirements>
 - <required measurements and times>
 - <required outcome and definition>
 - <required confound/source fields>
@@ -102,6 +108,8 @@ evidence that the biology is absent. [A04 / P01 as applicable]
 
 ```markdown
 Status: Duplicate or closed in current form
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: This response retains the cited prior grade; it creates no new evidence.
 
 Nearest prior route:
 <link to finding, workup, failure mode, or closure>
@@ -129,6 +137,8 @@ direction. `[G02-G05]`
 
 ```markdown
 Status: Parked
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Parking is priority only and creates no scientific evidence.
 
 Why the idea is not being run now:
 <no current decision changes / lower value than another executable test /
@@ -148,6 +158,8 @@ Parked is a workflow priority, not a negative scientific result.
 
 ```markdown
 Status: Out of scope or unsafe in current form
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Refusal or reformulation creates no scientific evidence.
 
 Boundary triggered:
 <medical advice / patient-specific recommendation / identifying data /
@@ -172,6 +184,8 @@ details to make a proposal more concrete.
 
 ```markdown
 Status: Runnable after freeze
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Runnable is not supported; no grade changes before an eligible run.
 
 Bounded claim:
 <one sentence>
@@ -200,6 +214,8 @@ likely to be supported.
 
 ```markdown
 Status: External test required
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Pending outside execution does not change the current grade.
 
 Frozen object:
 <rule, assay, feature, outcome, or preregistration link>
@@ -227,6 +243,8 @@ Use only after a real, valid, committed run.
 
 ```markdown
 Result: Supported but bounded
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Use only after a separately committed eligible run under the existing process.
 
 Test that ran:
 <committed plan/code and eligible input>
@@ -252,6 +270,8 @@ progression overread>.
 
 ```markdown
 Result: Attenuated or narrowed
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Use only after a separately committed eligible run under the existing process.
 
 Original interpretation tested:
 <one sentence>
@@ -276,6 +296,8 @@ Do not choose the least attenuated sensitivity as the new primary result.
 
 ```markdown
 Result: Not supported under the pre-specified test
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Use only after a separately committed eligible run under the existing process.
 
 Fair-test evidence:
 <eligibility, detectable scale, effect/interval, null, holdout, correction>
@@ -298,6 +320,8 @@ irrelevant.
 
 ```markdown
 Result: Inconclusive
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: Use only after a separately committed eligible run under the existing process.
 
 Estimate and interval:
 <continuous estimate, uncertainty, event/class counts>
@@ -319,6 +343,8 @@ Inconclusive is not weak support and not evidence of absence.
 
 ```markdown
 Result: Invalid/unscoreable OR data blocked
+Safety: No personal health information, credentials, or private data is reproduced.
+Evidence boundary: This attempt supplies no biological evidence grade.
 
 Failed requirement:
 <identity / pairing / permission / coverage / source overlap / outcome /

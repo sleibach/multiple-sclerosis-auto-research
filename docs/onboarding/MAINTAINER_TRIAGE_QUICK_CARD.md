@@ -95,6 +95,9 @@ Workflow: <one action class>
 Validity: <not run / eligible / invalid / data-blocked>
 Evidence: <no new grade / existing grade unchanged / bounded result class>
 
+Safety: no personal health information, credentials, private data, or medical
+advice is reproduced in this response.
+
 Strongest reason:
 <one concrete sentence>
 
@@ -112,6 +115,10 @@ What would change this decision:
 
 Overread prevented:
 <one sentence stating what this status/result does not mean>
+
+Evidence boundary:
+This workflow response changes no scientific grade unless it reports a
+separately committed eligible run under the existing evidence process.
 ```
 
 Grade the contribution, not the contributor. Do not leave unresolved template

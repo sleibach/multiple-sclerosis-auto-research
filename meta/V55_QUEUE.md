@@ -111,7 +111,7 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,132 checks over 67 documents, 991 headings, and 100 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,159 checks over 68 documents, 997 headings, and 102 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
@@ -119,8 +119,8 @@ negative results, and source traceability.
 | Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
 | Release-checklist synchronization | done | CI and maintainer order now include CONTRIBUTING triggers, route/semantic audits, explicit gate failure, link review, clean clone, and honest human-pilot status. |
 | Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 66 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
-| Contribution copy/paste review | in-progress | Check templates, examples, and issue prompts for unresolved placeholders, unsafe fields, and ambiguity when copied outside their parent page. |
-| Anti-duplication route check | todo | Verify each open-problem route reaches known non-solutions, status, and a contribution action without treating closure as universal absence. |
+| Contribution copy/paste review | done | All primary copied blocks and 13 review templates retain safety/evidence boundaries; no TODO/TBD/FIXME or angle prompt outside fences; ambiguous identifier request repaired. |
+| Anti-duplication route check | in-progress | Verify each open-problem route reaches known non-solutions, status, and a contribution action without treating closure as universal absence. |
 | Public package footprint review | todo | Measure onboarding files and visuals, verify lightweight delivery, and identify any accidentally heavy or generated asset before release. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -728,3 +728,13 @@ negative results, and source traceability.
   and every document can return to the onboarding landing page. CI now uploads
   the connectivity ledger, and future orphan/dead-end pages fail the check.
   The 17 core route limits also remain passing. Active time accrued: 4h44m31s.
+- 2026-07-26T22:05:13Z: Completed the contribution copy/paste safety review.
+  No unresolved work markers or angle-bracket prompts remain outside fenced
+  examples; the only three explicit `TO_FILL` values are the intentionally
+  blank Route C human-pilot score cells. Primary copied submission blocks and
+  all 13 maintainer response templates now retain their own safety and evidence
+  limits when separated from the surrounding page. An ambiguous request for
+  identifiers was narrowed to aggregate, non-identifying mapping fields. All
+  2,338 onboarding checks, 43-page plain-language checks, 33/33 source rows,
+  67/67 connectivity rows, 17 core routes, and 2,159 semantic checks pass.
+  Active time accrued: 4h49m59s.

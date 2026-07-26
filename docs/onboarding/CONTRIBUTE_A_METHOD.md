@@ -170,6 +170,10 @@ Valid drop rules include:
 
 ## Copy-Ready Method Proposal
 
+Replace every angle-bracket prompt. The copied proposal must contain no
+personal health information, credentials, private data, or claim that a method
+plan is scientific evidence.
+
 ```markdown
 ### Method role and project decision
 <role; exact decision changed>
@@ -203,6 +207,11 @@ Valid drop rules include:
 
 ### Reproduction
 <code path, environment, seed policy, expected lightweight outputs>
+
+### Safety and evidence boundary
+No personal/private data or credentials are included. This is a method
+proposal or method-behavior test; no MS finding changes without a separate
+eligible real-data run and bounded interpretation.
 ```
 
 ## Review Outcomes

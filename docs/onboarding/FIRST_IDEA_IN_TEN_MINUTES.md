@@ -196,7 +196,9 @@ If it is inconclusive, the project should report: _______________
 
 ## Your Ten-Minute Test Card
 
-Copy the completed lines into this compact form:
+Copy the completed lines into this compact form and replace every angle-bracket
+prompt. Include no personal health information, private data, credentials, or
+medical-advice request.
 
 ```markdown
 ### Boundary
@@ -225,6 +227,10 @@ Copy the completed lines into this compact form:
 
 ### Decision
 <what support, failure, and inconclusive results each change>
+
+### Safety and evidence boundary
+No personal/private data or credentials are included. This card is a proposal;
+submission or discussion does not make it a finding.
 ```
 
 ## Self-Check Before Submission

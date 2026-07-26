@@ -46,7 +46,9 @@ repository change when a stronger, eligible test warrants change.
 
 ## The Adversarial Challenge Card
 
-Copy this form:
+Copy this form and replace every angle-bracket prompt. Include no personal
+health information, private data, credentials, or claim that criticism itself
+changes evidence.
 
 ```markdown
 ### Exact claim challenged
@@ -76,6 +78,10 @@ The test is non-identifiable if: <overlap/data/design failure>
 
 ### Prior work not being repeated
 <known non-solution, previous sensitivity analysis, or closure already checked>
+
+### Safety and evidence boundary
+No personal/private data or credentials are included. This challenge is a
+proposal; only an eligible rerunnable countertest can change evidence.
 ```
 
 The card must permit the challenge to fail. “Try more methods until one

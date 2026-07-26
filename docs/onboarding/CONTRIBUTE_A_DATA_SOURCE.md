@@ -178,6 +178,10 @@ result will support the claim. `[E01, A01]`
 
 ## Copy-Ready Data-Lead Submission
 
+Replace every angle-bracket prompt. Submit metadata and lawful access details,
+not participant rows, health records, credentials, controlled links, or private
+files.
+
 ```markdown
 ### Decision role
 <monitoring validation / replication / progression / state replication /
@@ -206,6 +210,11 @@ eligibility check / no further action>
 
 ### What this source cannot establish
 <nearest tempting overread>
+
+### Safety and evidence boundary
+No personal/row-level data, credentials, or restricted material are attached.
+This is a source candidate, not a usable cohort, validation, or finding until
+blind eligibility and a separate frozen analysis pass.
 ```
 
 ## What Happens Next

@@ -19,15 +19,15 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Public Markdown documents in the route graph | 66 |
+| Public Markdown documents in the route graph | 67 |
 | Configured high-value routes | 17 |
 | Routes within their hop limit | 17 |
 | Failed or unreachable routes | 0 |
 | Maximum permitted depth | 2 links |
-| Documents reachable from root | 66/66 |
-| Non-root documents with an inbound link | 65/65 |
-| Documents with an outbound next step | 66/66 |
-| Documents able to return to the onboarding landing page | 66/66 |
+| Documents reachable from root | 67/67 |
+| Non-root documents with an inbound link | 66/66 |
+| Documents with an outbound next step | 67/67 |
+| Documents able to return to the onboarding landing page | 67/67 |
 
 The full shortest paths are in `analysis/v55_route_depth_audit/route_depth.tsv`.
 Per-document inbound/outbound and return-path results are in

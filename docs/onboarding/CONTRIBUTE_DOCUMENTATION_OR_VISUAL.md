@@ -151,6 +151,10 @@ readability metrics as proof of understanding.
 
 ## Copy-Ready Pull Request Note
 
+Replace every angle-bracket prompt. Do not include private source material,
+credentials, personal health information, or an evidence-status change that is
+not already present in a controlling artifact.
+
 ```markdown
 ### Reader and task
 <who this helps and what they should understand or do>
@@ -170,6 +174,10 @@ narrow-screen/print checks>
 
 ### Evidence impact
 None. No scientific status, locked rule, or preregistration changed.
+
+### Safety boundary
+No personal health information, credentials, private data, or medical advice
+is included.
 
 ### Verification
 <commands run and results>

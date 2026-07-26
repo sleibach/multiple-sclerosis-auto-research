@@ -135,6 +135,7 @@ Start with the source artifacts rather than onboarding prose:
 | Inspect heading hierarchy and table semantics | [Semantic Structure Review](SEMANTIC_STRUCTURE_REVIEW_V55.md) |
 | Inspect what a newcomer sees before deeper scrolling | [Public First-Screen Review](FIRST_SCREEN_REVIEW_V55.md) |
 | Inspect the public package from a clean shallow clone | [Clean-Clone Smoke Test](CLEAN_CLONE_SMOKE_TEST_V55.md) |
+| Inspect whether contributor templates remain safe when copied | [Copy/Paste Safety Review](COPY_PASTE_SAFETY_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
