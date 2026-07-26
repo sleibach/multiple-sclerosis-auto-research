@@ -54,6 +54,9 @@ For wording/layout only, begin at step 4 and keep claim rows unchanged.
 Read, do not only lint:
 
 - [ ] The two-minute route still yields the candid bottom line.
+- [ ] The root and onboarding first screen state one provisional monitor, no
+      target/progression result, and the research-only/no-private-data boundary
+      before long navigation or history.
 - [ ] The one-page brief still leads with one provisional monitor, no target,
       no progression result, and the exact data moves.
 - [ ] Closed and negative routes remain as prominent as positive context.
@@ -66,6 +69,8 @@ Read, do not only lint:
       authority.
 - [ ] An idea contributor can find prediction, data, null/holdout, confound,
       correction, and drop-rule fields.
+- [ ] The direct research-direction form still opens the pushed 10-element
+      contract, and no authenticated visual render is claimed unless checked.
 - [ ] No patient-specific guidance or medical advice was introduced.
 
 ## 5. Required Machine Checks
@@ -77,11 +82,13 @@ python3 scripts/v55_onboarding_audit.py --fail-on-error
 python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
 python3 scripts/v55_plain_language_audit.py --fail-on-error
 python3 scripts/v55_source_coverage.py --fail-on-error
+python3 scripts/v55_route_depth_audit.py --fail-on-error
+python3 scripts/v55_semantic_structure_audit.py --fail-on-error
 python3 scripts/v55_visual_render_regression.py --fail-on-error
 python3 scripts/v55_responsive_visual_audit.py --fail-on-error
 python3 scripts/v55_print_brief_audit.py --fail-on-error
-python3 scripts/v47_provenance_gate.py audit
-python3 scripts/v51_structural_prediction_gate.py audit
+python3 scripts/v47_provenance_gate.py audit --fail-on-error
+python3 scripts/v51_structural_prediction_gate.py audit --fail-on-error
 python3 scripts/v55_onboarding_manifest.py --write --fail-on-error
 python3 scripts/v55_onboarding_manifest.py --check --fail-on-error
 ```
@@ -97,6 +104,10 @@ git ls-files -z | xargs -0 du -k | awk '$1 > 51200 {print}'
 
 Expected last two outputs: no tracked temporary paths and no tracked file above
 50 MB.
+
+Check the dated [link-and-label review](LINK_AND_LABEL_REVIEW_V55.md) when an
+external destination or contribution link changes. HTTP availability is a
+point-in-time delivery check, not an evidence check.
 
 ## 6. Visual And Print Verification
 
@@ -138,7 +149,36 @@ fingerprints do not make the authored-artifact manifest unstable.
 A matching hash means “this is the reviewed file,” not “the scientific content
 is true.”
 
-## 8. Commit And Push
+## 8. Clean-Clone Release Smoke Test
+
+Before a public onboarding release, repeat the
+[clean-clone smoke test](CLEAN_CLONE_SMOKE_TEST_V55.md) from pushed
+`origin/main`, not the author's workspace:
+
+1. make a shallow clone in an untracked temporary directory;
+2. run every required machine check and manifest `--check` without a local
+   `.env`;
+3. verify the issue-form schema and eight lightweight SVGs;
+4. serve the standalone HTML brief and one SVG to confirm delivery/MIME type;
+5. confirm the clone remains clean; and
+6. remove the temporary clone.
+
+Record the tested commit. A clean clone proves delivery independence, not
+human comprehension or scientific validity.
+
+## 9. Human-Pilot Status
+
+- [ ] State whether a real comprehension/idea-production pilot ran.
+- [ ] If not run, say so; model and machine audits do not substitute.
+- [ ] If recruiting, use the
+      [recruitment handoff](HUMAN_PILOT_RECRUITMENT_HANDOFF.md).
+- [ ] If run, use private copies of the scorecard and
+      [session capture sheet](templates/HUMAN_PILOT_SESSION_CAPTURE_V55.md),
+      collect no health/identity data, and report route-comparable aggregate
+      documentation outcomes only.
+- [ ] Include: “This was a documentation test, not scientific validation.”
+
+## 10. Commit And Push
 
 - [ ] Review `git diff --cached` for accidental scientific status changes.
 - [ ] Confirm no `.env` content, token, credential, raw returned package, or
@@ -148,7 +188,7 @@ is true.”
 - [ ] Do not force a rejected push; surface repository desynchronization.
 - [ ] Confirm `git status -sb` shows local `main` aligned with `origin/main`.
 
-## 9. Release Note Template
+## 11. Release Note Template
 
 ```text
 Communication change:
@@ -156,9 +196,11 @@ Pages/visuals changed:
 Scientific status changed: no / yes (controlling artifact and claim rows)
 Negatives and boundaries rechecked:
 Human visual/print review:
-Onboarding/plain/source/render/responsive/print checks:
+Onboarding/plain/source/route/semantic/render/responsive/print checks:
 Provenance/structure gates:
 Manifest refreshed:
+Clean-clone check and tested commit:
+Human-pilot status:
 Large-file/tmp guard:
 Commit and push:
 Residual accessibility/comprehension limits:

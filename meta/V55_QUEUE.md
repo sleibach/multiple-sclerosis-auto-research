@@ -111,14 +111,14 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,126 checks over 67 documents, 989 headings, and 100 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,128 checks over 67 documents, 991 headings, and 100 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
 | Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
 | Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
-| Release-checklist synchronization | in-progress | Add the new link-label, semantic-structure, manifest, clean-clone, and human-pilot handoffs to the existing maintainer release order. |
-| Public-index completeness audit | todo | Verify every top-level onboarding page has an inbound route and every public page has an outbound next step after the new additions. |
+| Release-checklist synchronization | done | CI and maintainer order now include CONTRIBUTING triggers, route/semantic audits, explicit gate failure, link review, clean clone, and honest human-pilot status. |
+| Public-index completeness audit | in-progress | Verify every top-level onboarding page has an inbound route and every public page has an outbound next step after the new additions. |
 | Contribution copy/paste review | todo | Check templates, examples, and issue prompts for unresolved placeholders, unsafe fields, and ambiguity when copied outside their parent page. |
 | Anti-duplication route check | todo | Verify each open-problem route reaches known non-solutions, status, and a contribution action without treating closure as universal absence. |
 | Public package footprint review | todo | Measure onboarding files and visuals, verify lightweight delivery, and identify any accidentally heavy or generated asset before release. |
@@ -714,3 +714,10 @@ negative results, and source traceability.
   plain-language, source, route, and semantic checks pass. Four additional
   executable release/content checks were added before final close. Active time
   accrued: 4h38m52s.
+- 2026-07-26T21:56:34Z: Synchronized the maintainer release checklist and CI.
+  Changes to `CONTRIBUTING.md` and the semantic-audit script now trigger the
+  workflow; the semantic audit runs and uploads its reports; provenance and
+  structural gates explicitly fail the job on errors. The human checklist now
+  includes first-screen, live-form, dated-link, clean-clone, and honest pilot-
+  status checks. Workflow YAML parses, onboarding 2327/2327, semantic structure
+  2128/2128, and route depth 17/17 pass. Active time accrued: 4h41m20s.

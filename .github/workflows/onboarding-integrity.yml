@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/onboarding-integrity.yml"
       - "README.md"
+      - "CONTRIBUTING.md"
       - "docs/onboarding/**"
       - "docs/knowledge/EPISTEMIC_CLASSES.md"
       - "knowledge_external/**"
@@ -17,6 +18,7 @@ on:
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
       - "scripts/v55_route_depth_audit.py"
+      - "scripts/v55_semantic_structure_audit.py"
       - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   push:
@@ -24,6 +26,7 @@ on:
     paths:
       - ".github/workflows/onboarding-integrity.yml"
       - "README.md"
+      - "CONTRIBUTING.md"
       - "docs/onboarding/**"
       - "docs/knowledge/EPISTEMIC_CLASSES.md"
       - "knowledge_external/**"
@@ -36,6 +39,7 @@ on:
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
       - "scripts/v55_route_depth_audit.py"
+      - "scripts/v55_semantic_structure_audit.py"
       - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   workflow_dispatch:
@@ -76,11 +80,14 @@ jobs:
       - name: Audit newcomer route depth and reciprocal next steps
         run: python3 scripts/v55_route_depth_audit.py --fail-on-error
 
+      - name: Audit heading hierarchy and table semantics
+        run: python3 scripts/v55_semantic_structure_audit.py --fail-on-error
+
       - name: Enforce external-knowledge provenance boundary
-        run: python3 scripts/v47_provenance_gate.py audit
+        run: python3 scripts/v47_provenance_gate.py audit --fail-on-error
 
       - name: Enforce structural-prediction boundary
-        run: python3 scripts/v51_structural_prediction_gate.py audit
+        run: python3 scripts/v51_structural_prediction_gate.py audit --fail-on-error
 
       - name: Verify browser availability
         run: google-chrome --version
@@ -124,6 +131,8 @@ jobs:
             analysis/v55_responsive_visual_audit/responsive_visual_summary.json
             analysis/v55_route_depth_audit/route_depth.tsv
             analysis/v55_route_depth_audit/route_depth_summary.json
+            analysis/v55_semantic_structure_audit/semantic_structure_checks.tsv
+            analysis/v55_semantic_structure_audit/semantic_structure_summary.json
             analysis/v55_source_coverage/artifact_coverage.tsv
             analysis/v55_source_coverage/claim_coverage.tsv
             analysis/v55_source_coverage/document_coverage.tsv
