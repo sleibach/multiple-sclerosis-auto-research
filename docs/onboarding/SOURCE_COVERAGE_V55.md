@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 31 |
+| Reader-facing pages mapped | 32 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -69,6 +69,7 @@ Different pages intentionally carry different evidence loads:
 | Review-response templates | 10 | 11 | Exact non-personal language for workflow actions and eligible grounded-result classes. |
 | Status decoder | 22 | 22 | Separate workflow, test-validity, and evidence labels with allowed and forbidden transitions. |
 | Known non-solutions | 31 | 30 | Searchable tested shortcuts paired with failure reasons and exact reopening evidence. |
+| Question starters by discipline | 29 | 29 | Fifty-five prompts translate ten kinds of expertise into bounded, falsifiable contribution directions. |
 | Collaborator routes | 7 | 9 | Role-specific entry points, deliberately concise. |
 
 The landing page is not a substitute for the layered explanation. The claim
@@ -76,18 +77,18 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 28 of
-the 31 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 29 of
+the 32 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 27 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 28 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 25 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 26 pages and controls eight
 context, decoupling, closure, and governance claims.
 
 `docs/findings/FINDING_V22.md` and
-`docs/history/PROGRESSION_FRONTIER_V54.md` each serve 22 pages;
+`docs/history/PROGRESSION_FRONTIER_V54.md` each serve 23 pages;
 `docs/validation/PREREGISTRATION_V42.md` serves 20.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused

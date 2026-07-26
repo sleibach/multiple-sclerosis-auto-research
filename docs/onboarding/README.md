@@ -64,6 +64,7 @@ Start with the source artifacts rather than onboarding prose:
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
+| Start from questions my discipline can sharpen | [Question Starters By Discipline](QUESTION_STARTERS_BY_DISCIPLINE.md) |
 | Get a short answer to a scope or evidence question | [FAQ](FAQ.md) |
 | Turn a broad thought into a fair test | [Worked Idea Transformations](IDEA_TRANSFORMATIONS.md) |
 | Facilitate a cross-disciplinary idea session | [Collaborator Workshop Guide](COLLABORATOR_WORKSHOP_GUIDE.md) |

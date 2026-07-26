@@ -93,8 +93,8 @@ negative results, and source traceability.
 | Evidence-status versus workflow-status matrix | done | Three-layer decoder separates workflow, test validity, and evidence; it defines allowed transitions and blocks runnable/parked/data-blocked/invalid category errors. |
 | Zero-jargon entry-route review | done | Fourteen pre-glossary barriers were defined or replaced at first use; unavoidable identifiers remain role-labeled, and the result is explicitly subject to human testing. |
 | Known non-solutions index | done | Thirty-five tested shortcuts across monitoring, genetics, systems, progression, and evidence handling now pair the failure reason with exact reopening evidence. |
-| Cross-disciplinary question starters | in-progress | Give engineers, designers, statisticians, systems thinkers, and other scientists bounded prompts tied to specific open problems. |
-| First idea in ten minutes | todo | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
+| Cross-disciplinary question starters | done | Fifty-five prompts across ten disciplines ask what distinction the method can test and require an estimand/prediction, unit, rival explanation, and stop rule. |
+| First idea in ten minutes | in-progress | Create a guided mini-exercise that turns one outsider observation into a prediction, comparator, data need, and drop rule. |
 | Public issue example set | todo | Show one strong submission, one repairable submission, and one safely rejected submission without inventing scientific outcomes. |
 | Challenge-the-project guide | todo | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
 | Human comprehension pilot refinement | todo | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
@@ -479,3 +479,11 @@ negative results, and source traceability.
   Closures remain route-bounded rather than claims of biological absence.
   Onboarding 1651/1651, plain-language 30/30 pages, source coverage 33/33 across
   31 reader pages, and route depth 17/17 pass. Active time accrued: 3h16m00s.
+- 2026-07-26T20:34:16Z: Completed the question-starters bank. Fifty-five
+  proposal prompts across statistics, software/data, privacy, control theory,
+  machine learning, human factors, measurement, operations research, modality
+  design, and other fields now ask what distinction the contributor's method
+  can test. Every route requires real data, a rival explanation, and a stop
+  rule; discipline expertise does not transfer evidentiary authority.
+  Onboarding 1691/1691, plain-language 31/31 pages, source coverage 33/33 across
+  32 reader pages, and route depth 17/17 pass. Active time accrued: 3h19m02s.

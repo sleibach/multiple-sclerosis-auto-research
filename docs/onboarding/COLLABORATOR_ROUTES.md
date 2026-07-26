@@ -7,6 +7,9 @@ before testing; every route ends at the same evidence gate.
 Start with the [two-minute explanation](MS_RESEARCH_EXPLAINED.md#the-two-minute-version),
 then choose the route closest to how you think.
 
+For a larger prompt bank, continue to
+[question starters by discipline](QUESTION_STARTERS_BY_DISCIPLINE.md).
+
 ## Software And Infrastructure Engineers
 
 **Best-fit problems:**
