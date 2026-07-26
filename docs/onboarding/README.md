@@ -59,6 +59,7 @@ Start with the source artifacts rather than onboarding prose:
 | Understand MS, the project, and the honest frontier | [MS Research, Explained](MS_RESEARCH_EXPLAINED.md) |
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
+| Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |

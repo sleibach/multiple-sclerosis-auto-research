@@ -53,8 +53,8 @@ negative results, and source traceability.
 | Onboarding traceability checker | done | Committed audit passes 551/551 checks across 32 referenced claim rows, nine documents, five SVGs, local links, class markers, semantics, sizes, and palette contrast. |
 | Public navigation integration | done | Root README, CURRENT_STATUS, onboarding landing page, narrative, visual index, problem board, and contribution route now cross-link without broken local targets. |
 | Independent newcomer comprehension audit | done | Claude recovered 11/12 rubric items fully and Gemini 10/12; both found a real ZMIZ1 grouping ambiguity, corrected without changing evidence. Raw model responses remain transient. |
-| Role-based collaborator routes | in-progress | Give engineers, designers, data stewards, statisticians, and systems thinkers a short route to the relevant bounded puzzle. |
-| Newcomer FAQ | todo | Answer recurring scope, evidence, medical-advice, data-access, null-result, and contribution questions without adding biology. |
+| Role-based collaborator routes | done | Nine role routes map existing skills to bounded puzzles, a concrete first contribution, and known misuse patterns; an any-discipline route supplies five falsifiability questions. |
+| Newcomer FAQ | in-progress | Answer recurring scope, evidence, medical-advice, data-access, null-result, and contribution questions without adding biology. |
 | Worked idea transformations | todo | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
 | Visual browser-render regression | todo | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
 | Onboarding audit synthetic fixtures | todo | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
@@ -145,3 +145,9 @@ negative results, and source traceability.
   supported decoupling from closed target routes. Ten further source-preserving
   clarity edits were applied; an unsafe simplification of the 0.127 bound was
   rejected. Two model calls; spend not exposed. Active time accrued: 0h45m35s.
+- 2026-07-26T18:03:41Z: Completed the role-based collaborator routes. Nine
+  routes connect concrete disciplines to existing puzzles, specify one useful
+  first contribution, and state familiar-but-invalid shortcuts. The expanded
+  onboarding audit passes 646/646 checks across 11 expected documents; the
+  provenance gate passes 841/841 and the structural gate 142/142. Active time
+  accrued: 0h48m27s.
