@@ -97,7 +97,15 @@ negative results, and source traceability.
 | First idea in ten minutes | done | Ten timed steps produce a bounded question, directional prediction, data contract, rival challenge, fail-closed checks, drop rule, duplicate check, and decision. |
 | Public issue example set | done | Four fictional issues show ready-for-triage, design repair, duplicate/closed, and unsafe forms plus bounded reviewer responses and safe reformulation. |
 | Challenge-the-project guide | done | Ten challenge types and four high-value targets now require an exact claim/source, rival prediction, fair countertest, failure conditions, and status consequence. |
-| Human comprehension pilot refinement | in-progress | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
+| Human comprehension pilot refinement | done | Added a distinct idea-production Route C, Q13-Q15, scorecard rows, failure-to-page repairs, and a one-page facilitator handoff; no human run is claimed. |
+| Data-source contribution on-ramp | in-progress | Teach contributors to verify pairing, outcomes, timing, genes, source, permissions, and independent units before proposing a cohort. |
+| Method contribution on-ramp | todo | Translate a new algorithm into a fair baseline, null, holdout, leakage audit, multiplicity plan, and drop rule without novelty-as-evidence. |
+| Documentation and visual contribution on-ramp | todo | Show how to improve explanation or visuals while retaining claim IDs, status, alt text, size limits, and evidence boundaries. |
+| Patient/public safety boundary | todo | Create a prominent no-medical-advice/no-personal-data route with safe general research alternatives. |
+| GitHub idea-form alignment | todo | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
+| Newcomer keyword and misconception index | todo | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
+| Final cross-page drift and safety review | todo | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
+| V55 public release note | todo | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -511,3 +519,12 @@ negative results, and source traceability.
   flexible re-search are explicitly non-tests. Onboarding 1787/1787,
   plain-language 34/34 pages, source coverage 33/33 across 35 reader pages, and
   route depth 17/17 pass. Active time accrued: 3h26m50s.
+- 2026-07-26T20:46:27Z: Completed the human comprehension pilot refinement.
+  Route C now tests whether the expanded contribution tools produce a
+  falsifiable test card, Q13-Q15 and the TSV scorecard assess observation-
+  before-method, clean failure, and prior-work awareness, and a one-page
+  facilitator handoff fixes exposure, safety, scoring, and repair routing. The
+  status remains explicit: no human newcomer test has run. Onboarding
+  1806/1806, route depth 17/17, plain-language, source coverage, provenance, and
+  structural checks pass. Active time accrued: 3h31m13s. Refilled the backlog
+  with eight contributor-content and final-integrity tasks.

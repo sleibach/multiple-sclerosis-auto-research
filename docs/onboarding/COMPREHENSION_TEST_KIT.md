@@ -81,6 +81,22 @@ search the wider repository during the first answer pass.
 Record which route and pages were actually used. Do not combine results from
 the two routes as if exposure were identical.
 
+### Route C: Ten-Minute Idea Production
+
+Give the participant:
+
+1. [question starters by discipline](QUESTION_STARTERS_BY_DISCIPLINE.md);
+2. the [ten-minute idea exercise](FIRST_IDEA_IN_TEN_MINUTES.md); and
+3. the [known non-solutions index](KNOWN_NON_SOLUTIONS.md).
+
+Ask the participant to produce one fictional test card about a project
+boundary. Allow 12-15 minutes, including navigation. Score Q13-Q15 below. This
+tests whether the contribution tools produce a reviewable proposal; it does
+not test whether the proposed method or biology is correct.
+
+Do not combine Route C scores with Route A or B. Understanding the frontier and
+producing a test card are different documentation outcomes.
+
 ## Facilitator Script
 
 Read this without adding scientific hints:
@@ -221,6 +237,34 @@ identify the nearest closed route, and find the research-direction template.
 
 This is a navigation check. There is no single correct scientific direction.
 
+### Q13 · Did the participant separate observation from solution?
+
+Expected concept: the test card first names a missing distinction or failure
+mode, then proposes a method that could test it. It does not begin by assuming
+the preferred method works.
+
+Critical overread: method novelty, disciplinary authority, or model agreement
+is treated as support for the biological claim. `[E01-E03]`
+
+### Q14 · Can the proposed test fail cleanly?
+
+Expected concept: the card contains a directional prediction, rival
+explanation, fair comparator/null/holdout, fail-closed checks, and a result that
+would drop or narrow the idea.
+
+Critical overread: changing the feature, outcome, threshold, exclusion, or
+primary interpretation after seeing an unfavorable result.
+
+### Q15 · Does it build beyond prior work?
+
+Expected concept: the participant names the nearest known non-solution or
+closure, states the assumption or evidence that changed, and proposes a project
+decision proportional to the test.
+
+Critical overread: repeating monitor-to-target, structure-to-target,
+static-stage-to-progression, same-corpus search, or outside-authority shortcuts.
+`[M05, G03-G05, D04-D05, P01-P05]`
+
 ## Scoring Rubric
 
 Score the first answer, before correction:
@@ -244,6 +288,9 @@ of 12, Q01/Q02/Q05 are each at least partial, and no answer receives `-1`.
 at least 19 of 24, Q01/Q02/Q05/Q10/Q11 are each at least partial, and no answer
 receives `-1`.
 
+**Route C succeeds provisionally as idea-production onboarding** when Q13-Q15
+total at least 5 of 6, each is at least partial, and no item receives `-1`.
+
 These thresholds are usability decisions fixed for this kit. They do not grade
 the participant and do not validate a project finding. Report item-level
 patterns; a single total can hide a serious misconception.
@@ -260,6 +307,10 @@ Use the [TSV scorecard template](templates/NEWCOMER_COMPREHENSION_SCORECARD_V55.
 | Outside context becomes evidence | Strengthen the evidence-lanes explanation and source labels. |
 | Reader cannot name a contribution route | Shorten navigation and link directly from the page where they stopped. |
 | Vocabulary blocks an otherwise correct answer | Add or improve a glossary definition without deleting the evidence boundary. |
+| Workflow status becomes evidence status | Repair the status decoder or response example at the point of confusion. |
+| Test card starts with a favored solution | Strengthen the observation-before-method step and retest the ten-minute exercise. |
+| Test card has no rival or drop rule | Repair the fair-challenge and drop-rule prompts; do not complete them for the participant. |
+| Submission repeats a known shortcut | Improve the search link and closure wording rather than treating duplication as participant failure. |
 
 Do not change a scientific claim to improve a comprehension score. Change
 wording, ordering, navigation, or examples; then rerun source and integrity
@@ -273,10 +324,10 @@ agreed to attribution:
 ```markdown
 ### Newcomer comprehension check
 - Date and onboarding commit:
-- Route: A / B
+- Route: A / B / C
 - Participants: count and broad non-sensitive background
 - Median completion time:
-- Item grades: Q01 ... Q12
+- Item grades: Q01 ... Q15 (only those assigned to the selected route)
 - Dangerous overreads observed:
 - Navigation failures:
 - Wording changes made:
@@ -290,3 +341,6 @@ agreed to attribution:
 V55 has not run this protocol with human newcomers. The earlier two-model audit
 found and corrected a real ZMIZ1 wording ambiguity, but model performance does
 not predict human comprehension. Human testing remains the external next step.
+
+Use the [facilitator handoff](COMPREHENSION_FACILITATOR_HANDOFF.md) for a
+one-page preparation, safety, scoring, and repair checklist.
