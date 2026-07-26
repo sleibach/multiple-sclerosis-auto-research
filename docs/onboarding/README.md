@@ -36,6 +36,11 @@ V55 is communication and onboarding only. It introduces no scientific claim.
    comparison or untouched test set, how chance findings will be controlled,
    and a result that would make us drop it.
 
+### I Want To Invite Someone Else
+
+Share the concise [collaborator invitation](INVITE_COLLABORATORS.md). It states
+the honest frontier, useful skill types, six puzzles, and the safety boundary.
+
 ### I Have A Personal Health Question
 
 This repository cannot interpret symptoms, recommend treatment, or accept
@@ -69,6 +74,7 @@ Start with the source artifacts rather than onboarding prose:
 | Turn literature, database, or model context into a fair future test | [Outside Context To Test](CASE_STUDY_CONTEXT_TO_TEST.md) |
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
+| Share a concise invitation with a smart generalist | [Invite Collaborators](INVITE_COLLABORATORS.md) |
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
 | Start from questions my discipline can sharpen | [Question Starters By Discipline](QUESTION_STARTERS_BY_DISCIPLINE.md) |
 | Draft a reviewable test card in ten minutes | [Your First Idea In Ten Minutes](FIRST_IDEA_IN_TEN_MINUTES.md) |

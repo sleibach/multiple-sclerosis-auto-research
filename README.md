@@ -19,6 +19,7 @@ medical background. It changes no scientific finding.
 - [Two-minute and fifteen-minute explanation](docs/onboarding/MS_RESEARCH_EXPLAINED.md)
 - [Visual map of live, closed, negative, and data-blocked routes](docs/onboarding/VISUAL_INDEX.md)
 - [Eight open problems for cross-disciplinary collaborators](docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md)
+- [Shareable invitation for collaborators outside medicine](docs/onboarding/INVITE_COLLABORATORS.md)
 - [How to submit a falsifiable research-direction idea](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md)
 - [Repository tour by evidence role](docs/onboarding/REPOSITORY_TOUR.md)
 - [Contribution workflow and repository safeguards](CONTRIBUTING.md)

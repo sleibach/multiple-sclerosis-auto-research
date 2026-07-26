@@ -106,8 +106,8 @@ negative results, and source traceability.
 | Newcomer keyword and misconception index | done | Thirty search-term rows and 12 tempting conclusions route gene, monitoring, progression, structure, model, and status queries to bounded wording, forbidden inference, and source-backed explanations. |
 | Final cross-page drift and safety review | done | Full public-layer review corrected one stale “clinical lead” contract phrase, currentized the root mission and audit summaries, narrowed “prove” wording, and repaired eight onboarding-graph dead ends; no evidence status changed. |
 | V55 public release note | done | Public note separates the unchanged scientific state from the layered narrative, eight visuals, negative/boundary navigation, contributor routes, integrity checks, and still-unrun human pilot. |
-| Public collaborator invitation | in-progress | Write a short, shareable invitation that states the honest frontier, who can help, safety/status limits, and a direct test-card route. |
-| Starter contribution board | todo | Offer concrete documentation, data-metadata, method, falsification, accessibility, and systems-thinking starter tasks with done criteria and non-solutions. |
+| Public collaborator invitation | done | Shareable invitation states the unchanged frontier, eight skill families, six puzzles, five-part useful-idea contract, honest review outcomes, and no-advice/no-personal-data boundary. |
+| Starter contribution board | in-progress | Offer concrete documentation, data-metadata, method, falsification, accessibility, and systems-thinking starter tasks with done criteria and non-solutions. |
 | Contribution examples by type | todo | Add compact ready/repair examples for data, method, documentation/visual, and adversarial challenge submissions beyond the main issue examples. |
 | Direct issue-launch and remote-render check | todo | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
 | External-link and link-label QA | todo | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
@@ -606,3 +606,11 @@ negative results, and source traceability.
   science. Onboarding 2141/2141, plain-language 40/40 pages, source coverage
   33/33 across 41 reader pages, and route depth 17/17 pass. Active time
   accrued: 4h03m11s.
+- 2026-07-26T21:21:08Z: Completed the public collaborator invitation. It gives
+  a 60-second honest state, names eight non-medical skill families, frames six
+  frontier puzzles, reduces a useful idea to observation/prediction/data/fair
+  challenge/drop rule, and includes a shareable short invitation. It explicitly
+  states no validated clinical biomarker, intervention-grade target, or
+  progression solution and accepts no personal health data or advice requests.
+  Onboarding 2183/2183, plain-language 41/41 pages, source coverage 33/33 across
+  42 reader pages, and route depth 17/17 pass. Active time accrued: 4h05m54s.
