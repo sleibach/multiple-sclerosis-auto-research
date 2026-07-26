@@ -45,8 +45,8 @@ negative results, and source traceability.
 | Relapse-versus-progression visualization | done | Explicitly schematic SVG separates episode timing from repeated confirmed disability and contrasts held snapshots with the required longitudinal molecular “movie.” |
 | Open-problem-board visualization | done | Two-row SVG indexes all eight collaborator puzzles, the outside discipline each needs, and one prominent anti-pattern per card. |
 | Collaborator open-problem board | done | Eight source-linked puzzles each state the boundary, why hard, prior work, useful outside inputs, minimum idea fields, and known non-solutions. |
-| Contribution on-ramp | in-progress | Define how to submit a falsifiable, groundable direction and navigate evidence classes. |
-| Plain-language glossary | todo | Define medical, statistical, genetics, and project-governance terms used in onboarding. |
+| Contribution on-ramp | done | Guide provides a fast reading route, evidence-status map, copy-ready testable-idea schema, evaluation pipeline, language guardrails, and checklist; GitHub issue form operationalizes it. |
+| Plain-language glossary | in-progress | Define medical, statistical, genetics, and project-governance terms used in onboarding. |
 | Myths-versus-findings page | todo | Prevent common overreads and repeated closed-path proposals. |
 | Per-lead status cards | todo | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
 | Accessibility and visual semantic audit | todo | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
@@ -100,3 +100,8 @@ negative results, and source traceability.
   visual. All eight cards state an open direction, the useful outside lens, a
   claim reference, and a known non-solution; the footer defines the minimum
   anatomy of a useful idea. Active time accrued: 0h27m51s.
+- 2026-07-26T17:45:16Z: Completed the 1,470-word contribution on-ramp and a
+  parsed ten-section GitHub research-direction issue form. Both require a
+  prediction, reachable data, null/holdout, confounder plan, decision
+  consequence, provenance, and an explicit failure condition. Active time
+  accrued: 0h30m02s.
