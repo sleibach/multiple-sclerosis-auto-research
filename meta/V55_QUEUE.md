@@ -40,8 +40,8 @@ negative results, and source traceability.
 | Two-minute plain-language narrative | done | Layer one establishes MS orientation, relapse/progression, the one live lead, closed routes, and contribution puzzles with status labels and claim IDs. |
 | Fifteen-minute layered narrative | done | Layer two explains genetics closures, the bounded monitoring signal, complexity nulls, corpus boundary, progression data wall, and candid bottom line. |
 | Research-map visualization | done | Four-lane, browser-rendered SVG shows the live monitoring lead beside genetics closures, systems nulls, progression gaps, and two open data edges. |
-| Monitoring-lead visualization | in-progress | Explain the bounded APC/HLA-II signal, monitoring-not-target distinction, and external-validation requirement. |
-| Epistemic-class visualization | todo | Plain-language visual separating project-grounded, provisional, and segregated outside-source context. |
+| Monitoring-lead visualization | done | Five-step fixed analysis, bounded evidence, blocked monitor-to-target inference, and preregistered pass/fail/inconclusive outcomes render in one SVG. |
+| Epistemic-class visualization | in-progress | Plain-language visual separating project-grounded, provisional, and segregated outside-source context. |
 | Relapse-versus-progression visualization | todo | Explain event activity versus disability accumulation without implying a universal clinical trajectory. |
 | Open-problem-board visualization | todo | Visual index of contribution puzzles and known dead ends. |
 | Collaborator open-problem board | todo | Frame grounded frontier gaps as tractable puzzles with useful inputs and anti-patterns. |
@@ -78,3 +78,7 @@ negative results, and source traceability.
   includes the negative and closed routes in the main terrain; and ends at the
   two evidence-bearing open edges rather than implying a target funnel. Active
   time accrued: 0h17m46s.
+- 2026-07-26T17:35:00Z: Completed and browser-rendered the monitoring-lead
+  visual. It shows the paired locked calculation, n=19 evidence and confounder
+  bounds, the forbidden inference from observer to target, and all three
+  preregistered validation outcomes. Active time accrued: 0h19m46s.
