@@ -49,9 +49,9 @@ negative results, and source traceability.
 | Plain-language glossary | done | Defines 50+ medical, design, statistical, genetics, druggability, and project-discipline terms, ending with five interpretation-critical distinctions. |
 | Myths-versus-findings page | done | Twenty-one tempting upgrades are paired with bounded corrections, change conditions, claim IDs, and a nine-row short-form interpretation table. |
 | Per-lead status cards | done | Nine source-linked cards cover the live monitor, coupled context, genetics context/closures, microglia candidate, progression boundary, joint-search null, and simulator negative. |
-| Accessibility and visual semantic audit | in-progress | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
-| Onboarding traceability checker | todo | Machine-check source links, evidence/status labels, forbidden overclaims, visual metadata, and file-size limits. |
-| Public navigation integration | todo | Add onboarding entry points without displacing scientific source artifacts. |
+| Accessibility and visual semantic audit | done | Scoped WCAG-oriented audit covers five SVGs, text equivalents, semantic names, static behavior, contrast, non-color status cues, and honest screen-reader residuals. |
+| Onboarding traceability checker | done | Committed audit passes 551/551 checks across 32 referenced claim rows, nine documents, five SVGs, local links, class markers, semantics, sizes, and palette contrast. |
+| Public navigation integration | in-progress | Add onboarding entry points without displacing scientific source artifacts. |
 | Independent newcomer comprehension audit | todo | Test whether key distinctions can be recovered from onboarding alone; models may propose confusion points, never facts. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -118,3 +118,9 @@ negative results, and source traceability.
   17 artifact links and explicit status-change conditions. The one-line
   inventory states one clinical validation route, no intervention-grade target,
   and no established progression mechanism. Active time accrued: 0h34m58s.
+- 2026-07-26T17:53:25Z: Completed the visual index, full text equivalents, and
+  scoped WCAG-oriented accessibility audit. The new committed onboarding audit
+  passes 551/551 checks: all 32 source-contract claims referenced, nine expected
+  documents and five SVGs present, links resolved, semantic SVG metadata and
+  file limits valid, and text/non-text contrast above AA thresholds. No human
+  screen-reader session was claimed. Active time accrued: 0h38m11s.

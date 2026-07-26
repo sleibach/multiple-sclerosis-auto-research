@@ -1,0 +1,318 @@
+#!/usr/bin/env python3
+"""Audit V55 onboarding traceability and static-visual accessibility.
+
+This script checks communication controls only. It does not validate a
+scientific claim or upgrade an evidence grade.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+import sys
+import xml.etree.ElementTree as ET
+from dataclasses import asdict, dataclass
+from pathlib import Path
+from urllib.parse import unquote
+
+
+ROOT = Path(__file__).resolve().parents[1]
+ONBOARDING = Path("docs/onboarding")
+SOURCE_MATRIX = ONBOARDING / "ONBOARDING_CLAIM_SOURCES_V55.tsv"
+DEFAULT_OUTDIR = Path("analysis/v55_onboarding_audit")
+
+EXPECTED_DOCS = {
+    "MS_RESEARCH_EXPLAINED.md",
+    "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
+    "HOW_TO_CONTRIBUTE_IDEAS.md",
+    "GLOSSARY.md",
+    "MYTHS_AND_ACTUAL_FINDINGS.md",
+    "LEAD_STATUS_CARDS.md",
+    "VISUAL_INDEX.md",
+    "ACCESSIBILITY_AUDIT_V55.md",
+    "CLAIM_SOURCE_MATRIX_V55.md",
+}
+
+EXPECTED_VISUALS = {
+    "RESEARCH_MAP_V55.svg",
+    "MONITORING_LEAD_V55.svg",
+    "EVIDENCE_LANES_V55.svg",
+    "RELAPSE_VS_PROGRESSION_V55.svg",
+    "OPEN_PROBLEM_BOARD_V55.svg",
+}
+
+ALLOWED_STATUSES = {
+    "BACKGROUND_ORIENTATION",
+    "SUPPORTED_BOUNDARY",
+    "LIVE_PROVISIONAL",
+    "SUPPORTED_METHOD",
+    "SUPPORTED_BOUNDED",
+    "ROBUST_CONTEXT",
+    "SUPPORTED_DECOUPLING",
+    "CLOSED_DIRECTION",
+    "CLOSED_EVIDENCE",
+    "SUPPORTED_CONTEXT",
+    "NEGATIVE_ESTABLISHED",
+    "CORPUS_BOUNDARY",
+    "DATA_BLOCKED",
+    "LIVE_DATA_GATED",
+    "GOVERNANCE",
+    "NEXT_ACTION",
+}
+
+FORBIDDEN_CLASS_MARKERS = (
+    ("formal_class_marker_1", "external" + "-verifiable"),
+    ("formal_class_marker_2", "external" + "-unverifiable"),
+    ("formal_class_marker_3", "NOT_PROJECT" + "_GROUNDED"),
+)
+
+LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+BRACKET_RE = re.compile(r"\[([^\]]+)\]")
+CLAIM_TOKEN_RE = re.compile(r"\b([A-Z])(\d{2})(?:-([A-Z]?)(\d{2}))?\b")
+CLAIM_ID_RE = re.compile(r"^[A-Z]\d{2}$")
+HEX_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
+
+
+@dataclass(frozen=True)
+class Check:
+    path: str
+    check: str
+    status: str
+    detail: str
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--outdir", type=Path, default=DEFAULT_OUTDIR)
+    parser.add_argument("--fail-on-error", action="store_true")
+    return parser.parse_args()
+
+
+def rel(root: Path, path: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
+def add(checks: list[Check], path: str, name: str, passed: bool, detail: str) -> None:
+    checks.append(Check(path, name, "PASS" if passed else "FAIL", detail))
+
+
+def read_claim_rows(root: Path, checks: list[Check]) -> tuple[dict[str, dict[str, str]], set[str]]:
+    matrix = root / SOURCE_MATRIX
+    add(checks, str(SOURCE_MATRIX), "source_matrix_exists", matrix.is_file(), str(matrix))
+    if not matrix.is_file():
+        return {}, set()
+
+    required = {
+        "claim_id",
+        "plain_language_statement",
+        "onboarding_status",
+        "evidence_role",
+        "controlling_artifacts",
+        "allowed_scope",
+        "forbidden_overread",
+    }
+    rows: dict[str, dict[str, str]] = {}
+    prefixes: set[str] = set()
+    with matrix.open(newline="") as handle:
+        reader = csv.DictReader(handle, delimiter="\t")
+        fields = set(reader.fieldnames or [])
+        add(checks, str(SOURCE_MATRIX), "source_matrix_schema", fields == required, f"fields={sorted(fields)}")
+        for line_number, row in enumerate(reader, start=2):
+            claim_id = (row.get("claim_id") or "").strip()
+            valid_id = bool(CLAIM_ID_RE.fullmatch(claim_id))
+            add(checks, str(SOURCE_MATRIX), f"claim_id_line_{line_number}", valid_id, claim_id or "empty")
+            duplicate = claim_id in rows
+            add(checks, str(SOURCE_MATRIX), f"claim_unique_line_{line_number}", not duplicate, claim_id)
+            complete = all((row.get(field) or "").strip() for field in required)
+            add(checks, str(SOURCE_MATRIX), f"claim_complete_line_{line_number}", complete, claim_id)
+            status = (row.get("onboarding_status") or "").strip()
+            add(checks, str(SOURCE_MATRIX), f"claim_status_line_{line_number}", status in ALLOWED_STATUSES, status)
+            if valid_id and not duplicate:
+                rows[claim_id] = row
+                prefixes.add(claim_id[0])
+            for artifact in (row.get("controlling_artifacts") or "").split(";"):
+                artifact = artifact.strip()
+                exists = bool(artifact) and (root / artifact).exists()
+                add(checks, str(SOURCE_MATRIX), f"source_exists_line_{line_number}", exists, artifact or "empty")
+    return rows, prefixes
+
+
+def expand_claim_refs(text: str, prefixes: set[str]) -> set[str]:
+    refs: set[str] = set()
+    for bracket in BRACKET_RE.findall(text):
+        for match in CLAIM_TOKEN_RE.finditer(bracket):
+            start_prefix, start_number, end_prefix, end_number = match.groups()
+            if start_prefix not in prefixes:
+                continue
+            start_id = f"{start_prefix}{start_number}"
+            refs.add(start_id)
+            if end_number:
+                final_prefix = end_prefix or start_prefix
+                if final_prefix != start_prefix:
+                    refs.add(f"{final_prefix}{end_number}")
+                    continue
+                start_value = int(start_number)
+                end_value = int(end_number)
+                if start_value <= end_value and end_value - start_value <= 30:
+                    refs.update(f"{start_prefix}{value:02d}" for value in range(start_value, end_value + 1))
+    return refs
+
+
+def local_link_path(document: Path, target: str) -> Path | None:
+    target = unquote(target.strip())
+    if not target or target.startswith(("http://", "https://", "mailto:", "#")):
+        return None
+    path_part = target.split("#", 1)[0]
+    return (document.parent / path_part).resolve()
+
+
+def audit_markdown(root: Path, claim_rows: dict[str, dict[str, str]], prefixes: set[str], checks: list[Check]) -> set[str]:
+    onboarding = root / ONBOARDING
+    referenced: set[str] = set()
+    for name in sorted(EXPECTED_DOCS):
+        document = onboarding / name
+        add(checks, str(ONBOARDING / name), "expected_document_exists", document.is_file(), str(document))
+        if not document.is_file():
+            continue
+        text = document.read_text(errors="replace")
+        for marker_label, marker in FORBIDDEN_CLASS_MARKERS:
+            add(checks, rel(root, document), marker_label, marker not in text, "formal marker absent")
+        add(checks, rel(root, document), "no_unresolved_todo", not re.search(r"\b(?:TODO|TBD)\b", text), "TODO/TBD scan")
+        refs = expand_claim_refs(text, prefixes)
+        referenced.update(refs)
+        if name not in {"ACCESSIBILITY_AUDIT_V55.md", "CLAIM_SOURCE_MATRIX_V55.md"}:
+            add(checks, rel(root, document), "has_claim_reference", bool(refs), f"n={len(refs)}")
+        for claim_id in sorted(refs):
+            add(checks, rel(root, document), f"claim_reference_{claim_id}", claim_id in claim_rows, claim_id)
+        for target in LINK_RE.findall(text):
+            local = local_link_path(document, target)
+            if local is None:
+                continue
+            add(checks, rel(root, document), "local_link_resolves", local.exists(), target)
+    return referenced
+
+
+def audit_svg(root: Path, checks: list[Check]) -> None:
+    visuals = root / ONBOARDING / "visuals"
+    for name in sorted(EXPECTED_VISUALS):
+        path = visuals / name
+        relative = rel(root, path)
+        add(checks, relative, "expected_visual_exists", path.is_file(), str(path))
+        if not path.is_file():
+            continue
+        size = path.stat().st_size
+        add(checks, relative, "visual_under_250kb", size < 250_000, f"bytes={size}")
+        try:
+            tree = ET.parse(path)
+            svg = tree.getroot()
+            parsed = True
+        except ET.ParseError as exc:
+            add(checks, relative, "xml_parses", False, str(exc))
+            continue
+        add(checks, relative, "xml_parses", parsed, "ElementTree")
+        add(checks, relative, "role_img", svg.attrib.get("role") == "img", svg.attrib.get("role", ""))
+        labelled = svg.attrib.get("aria-labelledby", "").split()
+        ids = {element.attrib.get("id") for element in svg.iter() if element.attrib.get("id")}
+        add(checks, relative, "aria_label_targets_exist", len(labelled) >= 2 and all(item in ids for item in labelled), " ".join(labelled))
+        title = next((element for element in svg.iter() if element.tag.endswith("title")), None)
+        desc = next((element for element in svg.iter() if element.tag.endswith("desc")), None)
+        title_text = "" if title is None else "".join(title.itertext()).strip()
+        desc_text = "" if desc is None else "".join(desc.itertext()).strip()
+        add(checks, relative, "title_present", len(title_text) >= 10, title_text)
+        add(checks, relative, "description_present", len(desc_text) >= 40, f"chars={len(desc_text)}")
+        add(checks, relative, "viewbox_present", bool(svg.attrib.get("viewBox")), svg.attrib.get("viewBox", ""))
+        scripts = [element for element in svg.iter() if element.tag.endswith("script")]
+        add(checks, relative, "no_script", not scripts, f"n={len(scripts)}")
+        hrefs = [value for element in svg.iter() for key, value in element.attrib.items() if key.endswith("href")]
+        remote = [value for value in hrefs if value.startswith(("http://", "https://"))]
+        add(checks, relative, "no_remote_assets", not remote, f"n={len(remote)}")
+
+
+def srgb_luminance(color: str) -> float:
+    if not HEX_RE.fullmatch(color):
+        raise ValueError(color)
+    values = [int(color[index : index + 2], 16) / 255 for index in (1, 3, 5)]
+    linear = [value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4 for value in values]
+    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+
+def contrast_ratio(first: str, second: str) -> float:
+    high, low = sorted((srgb_luminance(first), srgb_luminance(second)), reverse=True)
+    return (high + 0.05) / (low + 0.05)
+
+
+def audit_contrast(checks: list[Check]) -> None:
+    text_pairs = [
+        ("#172033", "#f7f9fc"),
+        ("#52606d", "#f7f9fc"),
+        ("#172033", "#ffffff"),
+        ("#172033", "#e9f5ef"),
+        ("#172033", "#e8f2fa"),
+        ("#172033", "#f8ecea"),
+        ("#172033", "#f0ecf8"),
+        ("#172033", "#fff4d6"),
+        ("#ffffff", "#172033"),
+        ("#ffffff", "#8b2e2e"),
+    ]
+    graphic_pairs = [
+        ("#005a9c", "#e8f2fa"),
+        ("#1b6b4b", "#e9f5ef"),
+        ("#8b2e2e", "#f8ecea"),
+        ("#5b4b8a", "#f0ecf8"),
+        ("#8a5a00", "#fff4d6"),
+    ]
+    for foreground, background in text_pairs:
+        ratio = contrast_ratio(foreground, background)
+        add(checks, "visual_palette", "text_contrast_aa", ratio >= 4.5, f"{foreground}/{background}={ratio:.2f}:1")
+    for foreground, background in graphic_pairs:
+        ratio = contrast_ratio(foreground, background)
+        add(checks, "visual_palette", "graphic_contrast_aa", ratio >= 3.0, f"{foreground}/{background}={ratio:.2f}:1")
+
+
+def write_outputs(root: Path, outdir: Path, checks: list[Check], referenced: set[str], claim_rows: dict[str, dict[str, str]]) -> dict[str, object]:
+    output = outdir if outdir.is_absolute() else root / outdir
+    output.mkdir(parents=True, exist_ok=True)
+    issues = output / "onboarding_audit_checks.tsv"
+    with issues.open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, delimiter="\t", fieldnames=["path", "check", "status", "detail"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(asdict(check) for check in checks)
+    n_fail = sum(check.status != "PASS" for check in checks)
+    summary: dict[str, object] = {
+        "purpose": "V55 onboarding traceability/accessibility audit; no scientific claim",
+        "overall_status": "PASS" if n_fail == 0 else "FAIL",
+        "n_checks": len(checks),
+        "n_fail": n_fail,
+        "n_claim_rows": len(claim_rows),
+        "n_claim_rows_referenced": len(referenced & set(claim_rows)),
+        "n_expected_documents": len(EXPECTED_DOCS),
+        "n_expected_visuals": len(EXPECTED_VISUALS),
+        "issues": rel(root, issues),
+    }
+    (output / "onboarding_audit_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
+    return summary
+
+
+def main() -> int:
+    args = parse_args()
+    root = args.root.resolve()
+    checks: list[Check] = []
+    claim_rows, prefixes = read_claim_rows(root, checks)
+    referenced = audit_markdown(root, claim_rows, prefixes, checks)
+    audit_svg(root, checks)
+    audit_contrast(checks)
+    summary = write_outputs(root, args.outdir, checks, referenced, claim_rows)
+    print(json.dumps(summary, indent=2, sort_keys=True))
+    if args.fail_on_error and summary["overall_status"] != "PASS":
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
