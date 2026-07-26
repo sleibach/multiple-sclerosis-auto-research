@@ -6,7 +6,7 @@ project's evidence policy. `[E01]`
 
 ## Scope
 
-The committed audit covers twenty-two reader-facing pages:
+The committed audit covers twenty-three reader-facing pages:
 
 - the onboarding landing page;
 - the one-page collaborator brief's linear equivalent;
@@ -25,6 +25,7 @@ The committed audit covers twenty-two reader-facing pages:
 - the progression snapshot-versus-movie case study;
 - the confound-check quick reference;
 - the four-case learning path;
+- the collaborator workshop guide;
 - collaborator routes;
 - worked idea transformations;
 - myths versus findings;
@@ -47,10 +48,10 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 22 |
-| Prose words measured | 26,323 |
-| Sentences measured | 2,666 |
-| Mean words per sentence across the suite | 9.9 |
+| Reader-facing documents | 23 |
+| Prose words measured | 27,337 |
+| Sentences measured | 2,818 |
+| Mean words per sentence across the suite | 9.7 |
 | Sentences over 30 words | 13 (0.6%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
