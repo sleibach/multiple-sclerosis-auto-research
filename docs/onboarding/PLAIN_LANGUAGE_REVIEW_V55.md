@@ -49,11 +49,11 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 24 |
-| Prose words measured | 28,658 |
-| Sentences measured | 2,959 |
+| Reader-facing documents | 25 |
+| Prose words measured | 29,617 |
+| Sentences measured | 3,056 |
 | Mean words per sentence across the suite | 9.7 |
-| Sentences over 30 words | 13 (0.4%) |
+| Sentences over 30 words | 14 (0.5%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
 | Paragraphs over 180 measured words | 0 |
@@ -86,7 +86,7 @@ shorthand.
 
 ## What Was Not Simplified Away
 
-Thirteen sentences remain over 30 words. Most enumerate required data fields,
+Fourteen sentences remain over 30 words. Most enumerate required data fields,
 confounder checks, or conditions that make an idea falsifiable. Splitting those
 constraints further can help presentation, but deleting them would weaken the
 meaning. They remain in the machine inventory for future editorial review.

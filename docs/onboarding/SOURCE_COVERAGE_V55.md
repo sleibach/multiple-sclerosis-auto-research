@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 25 |
+| Reader-facing pages mapped | 26 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -63,6 +63,7 @@ Different pages intentionally carry different evidence loads:
 | Worked transformations | 21 | 23 | Design examples tied to known errors and closures. |
 | Myths versus findings | 27 | 26 | Common overreads corrected against source claims. |
 | Contribution guide | 10 | 11 | Submission discipline rather than a scientific summary. |
+| Contributor response lifecycle | 13 | 15 | Intake, hard gates, repair, action classes, grounding outcomes, and public closure without proposal promotion. |
 | Collaborator routes | 7 | 9 | Role-specific entry points, deliberately concise. |
 
 The landing page is not a substitute for the layered explanation. The claim
@@ -70,18 +71,18 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 23 of
-the 25 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 24 of
+the 26 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 22 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 23 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 21 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 22 pages and controls eight
 context, decoupling, closure, and governance claims.
 
 `docs/findings/FINDING_V22.md` serves 19 pages;
-`docs/validation/PREREGISTRATION_V42.md` serves 17.
+`docs/validation/PREREGISTRATION_V42.md` serves 18.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not

@@ -83,8 +83,8 @@ negative results, and source traceability.
 | Collaborator workshop guide | done | Seventy-five- and 45-minute formats preserve independent generation, evidence rules, boundary filtering, a fair-test card, adversarial swap, and issue routing. |
 | Outside-context-to-test case study | done | Six-stage path preserves source/class, classifies overlap, removes authority words, defines a prediction, checks data/verb fit, and records any future grounded result separately. |
 | Analogy safety review | done | Nine teaching comparisons now have an explicit purpose and limit; terrain, lanes, journey, snapshot/movie, ladders, and walls were clarified, and an authority-transfer metaphor was replaced with literal language. |
-| Contributor response lifecycle | in-progress | Explain what happens after an idea is submitted, including repair, data request, park, close, grounding, and status-update routes. |
-| Numbers-without-overreading guide | todo | Explain effects, intervals, AUC, p/q values, permutation, multiplicity, and sample size without turning thresholds into truth. |
+| Contributor response lifecycle | done | Seven-stage path separates receipt, gates, test-card repair, action class, freeze, grounding outcome, and public closure; it promises process clarity, not execution or support. |
+| Numbers-without-overreading guide | in-progress | Explain effects, intervals, AUC, p/q values, permutation, multiplicity, and sample size without turning thresholds into truth. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -386,3 +386,11 @@ negative results, and source traceability.
   plain-language 24/24 pages, source coverage 33/33 across 25 reader pages,
   provenance 841/841, and structural 142/142 pass. Active time accrued:
   2h34m26s.
+- 2026-07-26T19:52:27Z: Completed the contributor response lifecycle. It
+  distinguishes accepted-for-review, runnable, and supported; exposes seven
+  hard gates and seven action classes; specifies six grounded result classes;
+  and gives contributors explicit repair and review-challenge routes without
+  promising execution, response time, or a positive result. Onboarding
+  1442/1442, plain-language 25/25 pages, source coverage 33/33 across 26 reader
+  pages, provenance 841/841, and structural 142/142 pass. Active time accrued:
+  2h37m13s.

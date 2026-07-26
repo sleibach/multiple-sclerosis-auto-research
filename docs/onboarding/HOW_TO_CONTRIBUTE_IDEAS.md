@@ -173,6 +173,10 @@ not as an inconvenience.
 This sequence means an idea may be excellent even if its first result is null.
 It contributed by closing uncertainty under a fair test.
 
+For the full path from intake through repair, data request, parking, grounding,
+and a public bounded decision, read
+[What Happens After You Submit An Idea](WHAT_HAPPENS_TO_YOUR_IDEA.md).
+
 ## Language That Preserves Trust
 
 Prefer:

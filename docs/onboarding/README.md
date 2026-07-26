@@ -69,6 +69,7 @@ Start with the source artifacts rather than onboarding prose:
 | Test whether the onboarding actually works | [Comprehension Test Kit](COMPREHENSION_TEST_KIT.md) |
 | Review an incoming idea transparently | [Idea Triage Rubric](IDEA_TRIAGE_RUBRIC.md) |
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
+| Know what happens after submission | [Contributor Response Lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |
