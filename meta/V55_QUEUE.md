@@ -37,9 +37,9 @@ negative results, and source traceability.
 |---|---|---|
 | Environment, remote, and evidence-boundary health check | done | OpenGWAS expired/HTTP 401 and is routed around; Claude/Gemini/RPT pass; provenance 841/841 and structure 142/142 pass; remote aligned. |
 | Onboarding claim-source matrix | done | Thirty bounded claim rows resolve to 28 existing project artifacts; every row records allowed scope and a forbidden overread. |
-| Two-minute plain-language narrative | in-progress | Explain MS, relapse versus progression, project discipline, and honest frontier without medical prerequisites. |
-| Fifteen-minute layered narrative | todo | Explain major research arcs, live monitoring lead, closed genetics routes, public-data boundary, and progression result. |
-| Research-map visualization | todo | Web-lightweight SVG showing live, provisional, closed-direction, closed-data, and negative routes. |
+| Two-minute plain-language narrative | done | Layer one establishes MS orientation, relapse/progression, the one live lead, closed routes, and contribution puzzles with status labels and claim IDs. |
+| Fifteen-minute layered narrative | done | Layer two explains genetics closures, the bounded monitoring signal, complexity nulls, corpus boundary, progression data wall, and candid bottom line. |
+| Research-map visualization | in-progress | Web-lightweight SVG showing live, provisional, closed-direction, closed-data, and negative routes. |
 | Monitoring-lead visualization | todo | Explain the bounded APC/HLA-II signal, monitoring-not-target distinction, and external-validation requirement. |
 | Epistemic-class visualization | todo | Plain-language visual separating project-grounded, provisional, and segregated outside-source context. |
 | Relapse-versus-progression visualization | todo | Explain event activity versus disability accumulation without implying a universal clinical trajectory. |
@@ -69,3 +69,7 @@ negative results, and source traceability.
   report path was corrected during existence checking. The first provenance
   rerun also caught formal class-marker leakage in this queue; the queue now
   uses plain-language status terms. Active time accrued: 0h07m38s.
+- 2026-07-26T17:27:28Z: Completed the 2,434-word layered narrative. Numerical
+  statements were spot-checked against V28, V32, V41, V53, and V54; relative
+  artifact links resolve, and every major conclusion carries claim IDs and a
+  visible plain-language status. Active time accrued: 0h12m14s.
