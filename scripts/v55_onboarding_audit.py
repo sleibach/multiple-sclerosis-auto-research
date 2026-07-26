@@ -55,12 +55,21 @@ EXPECTED_VISUALS = {
 
 NAVIGATION_TARGETS = {
     Path("README.md"): {
+        "CONTRIBUTING.md",
         "docs/onboarding/MS_RESEARCH_EXPLAINED.md",
         "docs/onboarding/VISUAL_INDEX.md",
         "docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md",
         "docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md",
         "docs/onboarding/GLOSSARY.md",
         "meta/V55_QUEUE.md",
+    },
+    Path("CONTRIBUTING.md"): {
+        "docs/knowledge/EPISTEMIC_CLASSES.md",
+        "docs/onboarding/COLLABORATOR_ROUTES.md",
+        "docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md",
+        "docs/onboarding/IDEA_TRIAGE_RUBRIC.md",
+        "docs/onboarding/README.md",
+        "meta/CURRENT_STATUS.md",
     },
     Path("meta/CURRENT_STATUS.md"): {
         "docs/onboarding/README.md",
@@ -261,6 +270,29 @@ def markdown_anchors(path: Path) -> set[str]:
     return anchors
 
 
+def audit_local_links(
+    root: Path,
+    document: Path,
+    text: str,
+    checks: list[Check],
+) -> None:
+    for target in LINK_RE.findall(text):
+        local_target = local_link_target(document, target)
+        if local_target is None:
+            continue
+        local, fragment = local_target
+        add(checks, rel(root, document), "local_link_resolves", local.exists(), target)
+        if fragment and local.is_file() and local.suffix.lower() in {".md", ".markdown"}:
+            anchors = markdown_anchors(local)
+            add(
+                checks,
+                rel(root, document),
+                "local_anchor_resolves",
+                fragment in anchors,
+                f"{target}; known_anchors={len(anchors)}",
+            )
+
+
 def audit_markdown(
     root: Path,
     claim_rows: dict[str, dict[str, str]],
@@ -286,21 +318,7 @@ def audit_markdown(
             add(checks, rel(root, document), "has_claim_reference", bool(refs), f"n={len(refs)}")
         for claim_id in sorted(refs):
             add(checks, rel(root, document), f"claim_reference_{claim_id}", claim_id in claim_rows, claim_id)
-        for target in LINK_RE.findall(text):
-            local_target = local_link_target(document, target)
-            if local_target is None:
-                continue
-            local, fragment = local_target
-            add(checks, rel(root, document), "local_link_resolves", local.exists(), target)
-            if fragment and local.is_file() and local.suffix.lower() in {".md", ".markdown"}:
-                anchors = markdown_anchors(local)
-                add(
-                    checks,
-                    rel(root, document),
-                    "local_anchor_resolves",
-                    fragment in anchors,
-                    f"{target}; known_anchors={len(anchors)}",
-                )
+        audit_local_links(root, document, text, checks)
     return referenced
 
 
@@ -352,6 +370,7 @@ def audit_navigation(root: Path, checks: list[Check]) -> None:
         if not path.is_file():
             continue
         text = path.read_text(errors="replace")
+        audit_local_links(root, path, text, checks)
         for target in sorted(targets):
             add(checks, str(relative), "navigation_target_present", target in text, target)
             add(checks, str(relative), "navigation_target_exists", (root / target).exists(), target)

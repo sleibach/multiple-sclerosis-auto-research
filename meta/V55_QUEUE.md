@@ -64,8 +64,8 @@ negative results, and source traceability.
 | Markdown section-anchor validation | done | All 29 current fragments resolve under GitHub-style slugs; same-page/cross-file, explicit IDs, Unicode/punctuation, and duplicate headings supported; bad-anchor fixture rejected. |
 | Newcomer comprehension test kit | done | Two reading routes, 12 source-bounded questions, dangerous-overread rules, scoring/interpretation, privacy limits, remediation table, and TSV scorecard are ready; no human test falsely claimed. |
 | Contributor idea triage rubric | done | Seven hard gates precede eight separate 0–3 axes and seven action classes; no aggregate score can hide data, direction, falsifiability, or safety failure; TSV review template added. |
-| Root contribution integration | in-progress | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
-| Failure-mode atlas | todo | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
+| Root contribution integration | done | Root guide and PR template route ideas/code/data/docs/outside context, preserve evidence/privacy/locked-rule/size guards, and list exact checks; root navigation now section-audited. |
+| Failure-mode atlas | in-progress | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
 | Data-needed map | todo | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
 | Research-evolution timeline | todo | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
 | Narrow-screen and print review | todo | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
@@ -227,3 +227,11 @@ negative results, and source traceability.
   a 22-field TSV record make repair/closure decisions explicit without turning
   readiness into evidence. Onboarding 839/839 and both evidence gates pass.
   Active time accrued: 1h16m57s.
+- 2026-07-26T18:34:40Z: Completed root contribution integration. A new
+  `CONTRIBUTING.md` routes five contribution types, states data/security and
+  evidence rules, and lists exact local checks; the PR template captures
+  epistemic impact, design controls, result including null/inconclusive,
+  permissions, residual risk, and no-status-upgrade confirmation. Root README,
+  contribution guide, and current-status links now share section-aware auditing.
+  Onboarding 869/869 and both evidence gates pass. Active time accrued:
+  1h19m26s.
