@@ -93,6 +93,7 @@ Start with the source artifacts rather than onboarding prose:
 | Facilitate a cross-disciplinary idea session | [Collaborator Workshop Guide](COLLABORATOR_WORKSHOP_GUIDE.md) |
 | Test whether the onboarding actually works | [Comprehension Test Kit](COMPREHENSION_TEST_KIT.md) |
 | Facilitate a human documentation test consistently | [Comprehension Facilitator Handoff](COMPREHENSION_FACILITATOR_HANDOFF.md) |
+| Recruit documentation-test volunteers safely | [Human Pilot Recruitment Handoff](HUMAN_PILOT_RECRUITMENT_HANDOFF.md) |
 | Review an incoming idea transparently | [Idea Triage Rubric](IDEA_TRIAGE_RUBRIC.md) |
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
 | Know what happens after submission | [Contributor Response Lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) |
