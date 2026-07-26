@@ -63,8 +63,8 @@ negative results, and source traceability.
 | Source-coverage map | done | Eleven-page graph covers all 32 claim rows and all 31 existing controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
 | Markdown section-anchor validation | done | All 29 current fragments resolve under GitHub-style slugs; same-page/cross-file, explicit IDs, Unicode/punctuation, and duplicate headings supported; bad-anchor fixture rejected. |
 | Newcomer comprehension test kit | done | Two reading routes, 12 source-bounded questions, dangerous-overread rules, scoring/interpretation, privacy limits, remediation table, and TSV scorecard are ready; no human test falsely claimed. |
-| Contributor idea triage rubric | in-progress | Give maintainers a transparent rubric for novelty, grounding feasibility, error controls, decision value, and duplicate/closure risk. |
-| Root contribution integration | todo | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
+| Contributor idea triage rubric | done | Seven hard gates precede eight separate 0–3 axes and seven action classes; no aggregate score can hide data, direction, falsifiability, or safety failure; TSV review template added. |
+| Root contribution integration | in-progress | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
 | Failure-mode atlas | todo | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
 | Data-needed map | todo | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
 | Research-evolution timeline | todo | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
@@ -220,3 +220,10 @@ negative results, and source traceability.
   template, and seven-column TSV scorecard are committed. The document states
   no human test has yet occurred. Onboarding 815/815 and both evidence gates
   pass. Active time accrued: 1h14m31s.
+- 2026-07-26T18:32:11Z: Completed the contributor idea triage rubric. Seven
+  non-compensatory gates precede separate boundary-fit, repo-novelty,
+  falsifiability, data-fitness, error-control, direction-fit, decision-value,
+  and implementation axes. Seven action classes, four calibrated examples, and
+  a 22-field TSV record make repair/closure decisions explicit without turning
+  readiness into evidence. Onboarding 839/839 and both evidence gates pass.
+  Active time accrued: 1h16m57s.

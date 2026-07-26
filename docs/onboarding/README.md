@@ -63,6 +63,7 @@ Start with the source artifacts rather than onboarding prose:
 | Get a short answer to a scope or evidence question | [FAQ](FAQ.md) |
 | Turn a broad thought into a fair test | [Worked Idea Transformations](IDEA_TRANSFORMATIONS.md) |
 | Test whether the onboarding actually works | [Comprehension Test Kit](COMPREHENSION_TEST_KIT.md) |
+| Review an incoming idea transparently | [Idea Triage Rubric](IDEA_TRIAGE_RUBRIC.md) |
 | Submit a falsifiable idea | [How To Contribute Ideas](HOW_TO_CONTRIBUTE_IDEAS.md) |
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
