@@ -10,6 +10,8 @@ patient-specific treatment recommendations.
 
 See [four fictional public issue examples](PUBLIC_ISSUE_EXAMPLES.md) for a
 ready submission, a repair path, a duplicate closure, and a safe refusal.
+Use [Challenge The Project](CHALLENGE_THE_PROJECT.md) when the contribution is
+an adversarial countertest of an existing claim or closure.
 
 ## The Fast On-Ramp
 

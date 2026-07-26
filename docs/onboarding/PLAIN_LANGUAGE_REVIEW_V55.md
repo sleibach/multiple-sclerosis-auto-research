@@ -35,6 +35,7 @@ The committed audit covers thirty reader-facing pages:
 - the question starters by discipline;
 - the ten-minute first-idea exercise;
 - the public issue examples;
+- the adversarial challenge guide;
 - the numbers-without-overreading guide;
 - collaborator routes;
 - worked idea transformations;
@@ -58,9 +59,9 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 33 |
-| Prose words measured | 36,726 |
-| Sentences measured | 3,872 |
+| Reader-facing documents | 34 |
+| Prose words measured | 37,809 |
+| Sentences measured | 3,993 |
 | Mean words per sentence across the suite | 9.6 |
 | Sentences over 30 words | 16 (0.5%) |
 | Sentences over 65 words | 0 |

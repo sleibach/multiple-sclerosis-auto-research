@@ -96,8 +96,8 @@ negative results, and source traceability.
 | Cross-disciplinary question starters | done | Fifty-five prompts across ten disciplines ask what distinction the method can test and require an estimand/prediction, unit, rival explanation, and stop rule. |
 | First idea in ten minutes | done | Ten timed steps produce a bounded question, directional prediction, data contract, rival challenge, fail-closed checks, drop rule, duplicate check, and decision. |
 | Public issue example set | done | Four fictional issues show ready-for-triage, design repair, duplicate/closed, and unsafe forms plus bounded reviewer responses and safe reformulation. |
-| Challenge-the-project guide | in-progress | Invite adversarial critique of assumptions and boundaries while requiring a source-linked, groundable countertest. |
-| Human comprehension pilot refinement | todo | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
+| Challenge-the-project guide | done | Ten challenge types and four high-value targets now require an exact claim/source, rival prediction, fair countertest, failure conditions, and status consequence. |
+| Human comprehension pilot refinement | in-progress | Recheck the existing kit against the expanded suite and add a minimal facilitator handoff only where needed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -503,3 +503,11 @@ negative results, and source traceability.
   evidence. Onboarding 1754/1754, plain-language 33/33 pages, source coverage
   33/33 across 34 reader pages, and route depth 17/17 pass. Active time accrued:
   3h24m49s.
+- 2026-07-26T20:42:04Z: Completed the challenge-the-project guide. Ten
+  adversarial challenge types and four high-value targets now require an exact
+  claim and source, a strongest rival, competing predictions, an independent
+  unit, a fair countertest, challenge-failure conditions, and precise status
+  consequences. Appeals to authority, method novelty, model agreement, and
+  flexible re-search are explicitly non-tests. Onboarding 1787/1787,
+  plain-language 34/34 pages, source coverage 33/33 across 35 reader pages, and
+  route depth 17/17 pass. Active time accrued: 3h26m50s.
