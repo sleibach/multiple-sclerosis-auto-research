@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence lanes used by the MS research repository</title>
+  <desc id="desc">Project-held data and rerunnable analysis can produce bounded project evidence, including provisional, supported, negative, and data-boundary results. Literature, databases, and model suggestions remain separated outside-source context. They can propose a future test but cannot flow directly into a project conclusion.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 29px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .section { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .head { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 700 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .4px; }
+      .tiny { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .laneProject { fill: #edf6fb; stroke: #005a9c; stroke-width: 2.5; }
+      .laneOutside { fill: #f3f1f8; stroke: #5b4b8a; stroke-width: 2.5; stroke-dasharray: 8 5; }
+      .input { fill: #ffffff; stroke: #52606d; stroke-width: 1.7; }
+      .supported { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2; }
+      .provisional { fill: #e8f2fa; stroke: #005a9c; stroke-width: 2; }
+      .negative { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2; }
+      .boundary { fill: #fff4d6; stroke: #8a5a00; stroke-width: 2; }
+      .context { fill: #f0ecf8; stroke: #5b4b8a; stroke-width: 2; }
+      .conclusion { fill: #ffffff; stroke: #1b6b4b; stroke-width: 3; }
+      .queue { fill: #ffffff; stroke: #5b4b8a; stroke-width: 2; stroke-dasharray: 7 4; }
+      .stop { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2.5; }
+      .arrow { stroke: #7b8794; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+      .testArrow { stroke: #5b4b8a; stroke-width: 2.2; fill: none; stroke-dasharray: 7 5; marker-end: url(#purplehead); }
+      .forbidden { stroke: #8b2e2e; stroke-width: 3; fill: none; stroke-dasharray: 6 5; }
+      .divider { stroke: #d5dce5; stroke-width: 1.2; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7b8794"/>
+    </marker>
+    <marker id="purplehead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#5b4b8a"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="760"/>
+  <text class="title ink" x="55" y="50">Evidence has lanes: useful information must not borrow authority</text>
+  <text class="subtitle muted" x="55" y="78">The question is not only “is this plausible?” but “what produced it, can we rerun it, and what use is allowed?” [E01-E03]</text>
+
+  <!-- Project lane -->
+  <g transform="translate(45,108)">
+    <rect class="laneProject" x="0" y="0" width="1110" height="330" rx="16"/>
+    <text class="section ink" x="22" y="32">Lane A · Project-rerunnable evidence</text>
+    <text class="body muted" x="365" y="32">Real held data + committed method + bounded interpretation</text>
+
+    <rect class="input" x="22" y="58" width="200" height="100" rx="12"/>
+    <text class="small ink" x="38" y="82">INPUT</text>
+    <text class="head ink" x="38" y="108">Held or reachable data</text>
+    <text class="body ink" x="38" y="130">with provenance and a</text>
+    <text class="body ink" x="38" y="149">rerunnable analysis</text>
+
+    <path class="arrow" d="M229 108 L274 108"/>
+
+    <rect class="input" x="282" y="58" width="207" height="100" rx="12"/>
+    <text class="small ink" x="298" y="82">GATE</text>
+    <text class="head ink" x="298" y="108">Scope + null checks</text>
+    <text class="body ink" x="298" y="130">small-n care, correction,</text>
+    <text class="body ink" x="298" y="149">confounders, held-out tests</text>
+
+    <path class="arrow" d="M496 108 L536 108"/>
+
+    <rect class="supported" x="544" y="58" width="126" height="100" rx="12"/>
+    <text class="small ink" x="560" y="82">✓ SUPPORTED</text>
+    <text class="body ink" x="560" y="108">Bounded statement</text>
+    <text class="body ink" x="560" y="129">survived its stated</text>
+    <text class="body ink" x="560" y="150">checks.</text>
+
+    <rect class="provisional" x="681" y="58" width="126" height="100" rx="12"/>
+    <text class="small ink" x="697" y="82">● PROVISIONAL</text>
+    <text class="body ink" x="697" y="108">Internal support;</text>
+    <text class="body ink" x="697" y="129">decisive outside</text>
+    <text class="body ink" x="697" y="150">test still missing.</text>
+
+    <rect class="negative" x="818" y="58" width="126" height="100" rx="12"/>
+    <text class="small ink" x="834" y="82">× NEGATIVE</text>
+    <text class="body ink" x="834" y="108">A tested route failed,</text>
+    <text class="body ink" x="834" y="129">closed, or was</text>
+    <text class="body ink" x="834" y="150">downgraded.</text>
+
+    <rect class="boundary" x="955" y="58" width="133" height="100" rx="12"/>
+    <text class="small ink" x="971" y="82">▧ DATA BOUND</text>
+    <text class="body ink" x="971" y="108">Required design is</text>
+    <text class="body ink" x="971" y="129">missing; biology is</text>
+    <text class="body ink" x="971" y="150">not ruled absent.</text>
+
+    <path class="arrow" d="M607 166 L607 214 L742 214"/>
+    <path class="arrow" d="M744 166 L744 214"/>
+    <path class="arrow" d="M881 166 L881 214 L746 214"/>
+    <path class="arrow" d="M1022 166 L1022 214 L746 214"/>
+
+    <rect class="conclusion" x="544" y="221" width="478" height="82" rx="12"/>
+    <text class="small ink" x="562" y="245">ALLOWED OUTPUT: A BOUNDED PROJECT CONCLUSION</text>
+    <text class="head ink" x="562" y="270">Status remains attached: positive, provisional, negative, or data-bound.</text>
+    <text class="body muted" x="562" y="291">“Rerunnable here” never silently becomes “clinically validated” or “causal.”</text>
+
+    <text class="tiny muted" x="22" y="291">Grounded describes provenance,</text>
+    <text class="tiny muted" x="22" y="307">not whether a result is positive.</text>
+  </g>
+
+  <!-- External context lane -->
+  <g transform="translate(45,460)">
+    <rect class="laneOutside" x="0" y="0" width="1110" height="226" rx="16"/>
+    <text class="section ink" x="22" y="32">Lane B · Segregated outside-source context</text>
+    <text class="body muted" x="440" y="32">Useful for orientation and questions; not project evidence</text>
+
+    <rect class="context" x="22" y="58" width="205" height="104" rx="12"/>
+    <text class="small ink" x="38" y="82">LITERATURE / DATABASES</text>
+    <text class="body ink" x="38" y="108">Claims with source, access</text>
+    <text class="body ink" x="38" y="129">date, class, and explicit</text>
+    <text class="body ink" x="38" y="150">non-grounded status</text>
+
+    <rect class="context" x="247" y="58" width="205" height="104" rx="12"/>
+    <text class="small ink" x="263" y="82">MODELS / RPT</text>
+    <text class="body ink" x="263" y="108">Ideas, critique, or wording</text>
+    <text class="body ink" x="263" y="129">only. Confidence and model</text>
+    <text class="body ink" x="263" y="150">agreement are not evidence.</text>
+
+    <path class="testArrow" d="M459 110 L507 110"/>
+    <path class="testArrow" d="M124 166 L124 178 L636 178 L636 166"/>
+
+    <rect class="queue" x="515" y="58" width="242" height="104" rx="12"/>
+    <text class="small ink" x="531" y="82">ALLOWED: FUTURE TEST QUEUE</text>
+    <text class="body ink" x="531" y="108">Turn a claim into a prediction,</text>
+    <text class="body ink" x="531" y="129">name the data and null, then</text>
+    <text class="body ink" x="531" y="150">test it in Lane A.</text>
+
+    <path class="forbidden" d="M765 110 L810 110"/>
+    <line x1="781" y1="93" x2="797" y2="127" stroke="#8b2e2e" stroke-width="4"/>
+    <line x1="797" y1="93" x2="781" y2="127" stroke="#8b2e2e" stroke-width="4"/>
+
+    <rect class="stop" x="818" y="58" width="270" height="104" rx="12"/>
+    <text class="small ink" x="834" y="82">FORBIDDEN: AUTHORITY TRANSFER</text>
+    <text class="body ink" x="834" y="108">No citation, expert consensus, or</text>
+    <text class="body ink" x="834" y="129">fluent model output directly supports</text>
+    <text class="body ink" x="834" y="150">a project conclusion.</text>
+
+    <text class="tiny muted" x="22" y="194">A source can inspire a new test. If that test later passes, the new rerunnable result is recorded separately; the source itself does not change class.</text>
+  </g>
+
+  <line class="divider" x1="55" y1="710" x2="1145" y2="710"/>
+  <text class="body ink" x="55" y="737">Reader check: ask “Which lane produced this sentence?” before asking whether it sounds convincing.</text>
+  <text class="tiny muted" x="730" y="737">Policy: docs/knowledge/EPISTEMIC_CLASSES.md · Gate: scripts/v47_provenance_gate.py</text>
+</svg>
