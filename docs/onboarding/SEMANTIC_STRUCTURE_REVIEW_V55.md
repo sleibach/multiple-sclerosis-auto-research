@@ -25,9 +25,9 @@ Current result: `PASS`.
 | measure | result |
 |---|---:|
 | Documents checked | 74 |
-| Headings checked | 1,026 |
+| Headings checked | 1,027 |
 | Tables checked | 112 |
-| Structural checks | 2,290 |
+| Structural checks | 2,291 |
 | Failures | 0 |
 
 The full check table and machine summary are under

@@ -67,8 +67,23 @@ or new results.
 - ready, repairable, closed, and unsafe issue examples;
 - dedicated data-source, method, and documentation/visual contribution guides;
 - an adversarial “challenge the project” route;
+- a field-by-field issue-form guide, type-specific examples, and copy-safe
+  submission/review templates;
+- an anti-duplication crosswalk from every open problem to scoped dead ends,
+  current status, and the correct contribution action;
 - a public-safety and privacy boundary; and
 - an aligned GitHub research-direction issue form.
+
+### Human-test and maintainer readiness
+
+- a frozen newcomer comprehension kit with two reading routes and one idea-
+  production route;
+- facilitator, privacy-minimal recruitment, and private result-capture
+  handoffs that do not falsely claim a pilot has run;
+- a maintainer triage card, response templates, release checklist, and clean-
+  clone verification; and
+- public GitHub CI that runs claim, route, semantic, package, provenance,
+  structure, browser, responsive, print, and manifest checks.
 
 ## Start Here
 
@@ -93,16 +108,27 @@ The release includes machine checks for:
 - local links and heading anchors;
 - plain-language thresholds and undefined acronyms;
 - claim/source coverage and high-value route depth;
+- root reachability, inbound/outbound navigation, and return-to-start paths;
+- heading hierarchy and Markdown table structure;
 - semantic SVG names, contrast, non-color status cues, and file size;
+- a self-contained text/vector package budget with no large or embedded media;
 - browser rendering, constrained-width delivery, and one-page print output;
 - provenance segregation and structural-prediction segregation; and
 - authored-artifact identity, tracked `tmp/` paths, and large files.
 
-At this release point, all 33 bounded claim rows are represented across the
-reader layer, all eight SVGs are present, all 17 configured high-value routes
-pass, and the evidence-boundary gates pass. These are communication and
-repository-integrity checks. They do not validate the science or prove that a
-person understood the pages.
+At this release point:
+
+- all 33 bounded claim rows are represented across the reader layer;
+- all eight SVGs are present with linear text equivalents;
+- all 17 configured high-value routes and all 73 public-page connectivity
+  records pass;
+- 74 checked documents, 1,027 headings, and 112 tables pass 2,291 semantic
+  checks; and
+- the public package contains 84 lightweight files and remains under 1 MiB.
+
+The public GitHub workflow has passed the full suite on `main`. These are
+communication and repository-integrity checks. They do not validate the
+science or prove that a person understood the pages.
 
 ## Human-Test Status
 

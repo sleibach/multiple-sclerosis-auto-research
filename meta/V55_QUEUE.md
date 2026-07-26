@@ -111,7 +111,7 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,290 checks over 74 documents, 1,026 headings, and 112 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,291 checks over 74 documents, 1,027 headings, and 112 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
@@ -129,7 +129,7 @@ negative results, and source traceability.
 | Live issue-form help-link verification | done | Remote/local SHA-256 match; pushed form contains the field-guide link, retains ten elements/nine IDs, and guide/launch URLs resolve with the expected sign-in gate. |
 | Public artifact title and role collision review | done | Seventy-two Markdown titles have no duplicates; three high-similarity pairs were manually confirmed as distinct instruction/operations or reader/audit roles. |
 | Final route-choice compression review | done | Six intent-based primary routes remain above the visual/index; the directory now separates reader/contributor pages from explicitly non-finding maintenance records. |
-| Final public release-note synchronization | todo | Update release-facing counts and bounded-status summary after the last public artifacts are fixed. |
+| Final public release-note synchronization | done | Release note now covers final intake, anti-duplication, human-pilot, CI, semantic, graph, and package work while preserving the unchanged scientific state. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -818,3 +818,10 @@ negative results, and source traceability.
   fail-closed evidence gates. Onboarding 2,487/2,487, source coverage 33/33,
   connectivity 73/73, semantic structure 2,290/2,290, and package footprint
   730,513 bytes all pass. Active time accrued: 5h07m47s.
+- 2026-07-26T22:24:39Z: Synchronized the public V55 release note. It now
+  describes the finished intake guides, anti-duplication crosswalk, human-pilot
+  handoffs, clean-clone and maintainer readiness, live CI, public-graph,
+  semantic, and package safeguards while leaving the scientific-state section
+  unchanged. Current checks remain 33/33 claim rows, eight SVGs, 17/17 core
+  routes, 73/73 connectivity records, 2,291/2,291 semantic checks, and a
+  sub-1-MiB public package. Active time accrued: 5h09m25s.
