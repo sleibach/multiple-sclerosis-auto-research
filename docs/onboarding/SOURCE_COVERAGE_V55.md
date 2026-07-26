@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 27 |
+| Reader-facing pages mapped | 28 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -50,6 +50,7 @@ Different pages intentionally carry different evidence loads:
 | Nulls and boundaries explainer | 19 | 21 | Decision differences among negative, closed, mixed, attenuated, inconclusive, invalid, and data-blocked outcomes. |
 | Numbers-without-overreading guide | 9 | 9 | Effect, uncertainty, AUC, null tests, multiplicity, validation level, and project examples without threshold-to-truth upgrades. |
 | Brain-bank confounding case study | 2 | 2 | How source-diagnosis entanglement narrowed one interpretation and changed the next study design. |
+| Worked submission lifecycle | 2 | 2 | Fictional intake, repair, freeze, and five interpretation branches built around the real source-confound lesson. |
 | Genetics-reversal case study | 3 | 4 | Why regional association, causal gene, protective direction, and workable modality are separate target gates. |
 | Monitor-versus-target case study | 9 | 11 | Why an associated early-treatment readout and a causal intervention require different evidence ladders. |
 | Progression snapshot-versus-movie case study | 9 | 10 | Why snapshots and partial longitudinal designs cannot identify molecular-to-confirmed-disability progression. |

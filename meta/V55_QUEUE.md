@@ -87,8 +87,8 @@ negative results, and source traceability.
 | Numbers-without-overreading guide | done | Reading guide separates effect, uncertainty, n, AUC, p/q values, permutation, multiplicity, cross-validation, holdout, association, and decision thresholds; three project examples retain their exact scope. |
 | Final newcomer ambiguity scan | done | All 27 reader pages were searched across five high-risk wording clusters; five ambiguity classes were corrected without a status change. |
 | Newcomer route-depth smoke audit | done | Seventeen configured routes pass: public entry pages reach core content within one link and secondary destinations within two; contribution endpoints now link forward and back. |
-| Worked submission-to-verdict example | in-progress | Follow one synthetic, clearly non-evidentiary idea through intake, repair, freeze, a hypothetical outcome table, and bounded response without pretending it was run. |
-| Contributor-lifecycle visualization | todo | Add a lightweight SVG and text equivalent distinguishing workflow state from evidence grade. |
+| Worked submission-to-verdict example | done | Fictional domain-shift idea moves through intake, hard-gate repair, frozen test card, five explicitly hypothetical outcome branches, and a public closure template; no run or result is claimed. |
+| Contributor-lifecycle visualization | in-progress | Add a lightweight SVG and text equivalent distinguishing workflow state from evidence grade. |
 | Review-response templates | todo | Provide concise repair, data-request, duplicate/closed, park, runnable, and grounded-result response templates that never evaluate the contributor. |
 | Evidence-status versus workflow-status matrix | todo | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
 | Zero-jargon entry-route review | todo | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
@@ -424,3 +424,11 @@ negative results, and source traceability.
   Onboarding 1491/1491, route depth 17/17, plain-language 26/26 pages, source
   coverage 33/33 across 27 reader pages, provenance 841/841, and structural
   142/142 pass. Active time accrued: 2h49m33s.
+- 2026-07-26T20:07:32Z: Completed the worked submission lifecycle. A fictional
+  domain-shift suggestion is repaired from “prove it is real” into a bounded
+  source-identifiability test card, then follows five explicitly hypothetical
+  branches: survives, attenuates, non-identifiable, eligible null, and invalid.
+  The page invents no thresholds, numbers, run, or biological result. Onboarding
+  1504/1504, plain-language 27/27 pages, source coverage 33/33 across 28 reader
+  pages, route depth 17/17, provenance 841/841, and structural 142/142 pass.
+  Active time accrued: 2h52m18s.
