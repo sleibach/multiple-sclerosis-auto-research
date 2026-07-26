@@ -4,6 +4,14 @@ All visuals are static, web-lightweight SVG files. They include an embedded
 `title` and `desc`, use text and symbols in addition to color, and have a full
 text equivalent below. The SVGs contain no controls or keyboard interactions.
 
+## Small Screen And Print Rule
+
+At phone, tablet-column, and portrait-print widths, all six diagrams fit their
+containers but their embedded labels become too small for direct reading. Use
+the visible **Text equivalent** in each section as the complete content; open
+the SVG directly only for zooming or a larger view. The measured review is in
+[Narrow-Screen And Print Review V55](RESPONSIVE_PRINT_REVIEW_V55.md).
+
 ## 1. The Research Terrain
 
 ![Four-lane map of genetics, treatment monitoring, systems modeling, and progression. The one monitoring lead is live but provisional; genetics routes are context or closed; systems analysis contains supported context and negative results; progression is blocked by missing longitudinal data.](visuals/RESEARCH_MAP_V55.svg)
@@ -134,6 +142,8 @@ Color improves scanning but never supplies the category by itself.
 - Status-border contrast against fills ranges from `5.41:1` to `7.19:1`.
 - The long-form text equivalents on this page preserve meaning if SVG reading
   order is poor in a specific assistive technology.
+- At constrained screen and portrait-print widths, the text equivalents are
+  required because scaled embedded labels fall below the delivery threshold.
 - The diagrams are static. There are no focusable controls, hover-only content,
   animation, or time limits.
 

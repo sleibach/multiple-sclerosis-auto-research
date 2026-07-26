@@ -68,8 +68,8 @@ negative results, and source traceability.
 | Failure-mode atlas | done | Eight source-linked failure modes distinguish closure scope, surviving biology, reopening evidence, and useful outsider input; V39 context-dependence meta-result added to claim contract as F01. |
 | Data-needed map | done | Six decision-changing package types now state minimum fields, invalid substitutes, and status consequences; newcomer acronyms are defined and the page is source-covered. |
 | Research-evolution timeline | done | Nine source-linked eras and a six-row SVG show candidate, harder test, and bounded verdict; chronology visibly includes demotions, nulls, and data boundaries. |
-| Narrow-screen and print review | in-progress | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
-| One-page collaborator brief | todo | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
+| Narrow-screen and print review | done | Browser-backed 18-scenario audit finds zero wrapper overflows but all constrained uses require text equivalents; the delivery rule and CI check now enforce that distinction. |
+| One-page collaborator brief | in-progress | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
 | Repository tour | todo | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
 | Maintainer release checklist | todo | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -260,3 +260,10 @@ negative results, and source traceability.
   1015/1015, synthetic detector 11/11, plain-language 13/13 pages, source
   coverage 33/33 claims and artifacts across 14 reader pages, provenance
   841/841, and structure 142/142 pass. Active time accrued: 1h34m10s.
+- 2026-07-26T18:54:26Z: Completed the narrow-screen and portrait-print review.
+  All six SVGs fit responsive wrappers in all 18 browser scenarios, but scaled
+  minimum labels are only 2.87-6.45 px, so none is certified for direct reading
+  at a constrained width. The visible text equivalent is now an explicit
+  required fallback, and a reusable Chrome audit runs in CI; 56/56 responsive
+  checks and 1025/1025 onboarding checks pass with no raster/PDF media retained.
+  Active time accrued: 1h39m12s.

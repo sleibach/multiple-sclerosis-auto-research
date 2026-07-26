@@ -72,6 +72,7 @@ Start with the source artifacts rather than onboarding prose:
 | See how candidates were promoted, bounded, demoted, or closed | [Research Evolution Timeline](RESEARCH_EVOLUTION_TIMELINE.md) |
 | Check one route's status | [Lead Status Cards](LEAD_STATUS_CARDS.md) |
 | Inspect accessibility | [Accessibility Audit](ACCESSIBILITY_AUDIT_V55.md) |
+| Check phone/tablet/print delivery | [Narrow-Screen And Print Review](RESPONSIVE_PRINT_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
 | Inspect machine traceability | [Onboarding Audit Summary](../../analysis/v55_onboarding_audit/onboarding_audit_summary.json) |
@@ -107,6 +108,7 @@ python3 scripts/v55_source_coverage.py --fail-on-error
 python3 scripts/v47_provenance_gate.py audit
 python3 scripts/v51_structural_prediction_gate.py audit
 python3 scripts/v55_visual_render_regression.py --fail-on-error
+python3 scripts/v55_responsive_visual_audit.py --fail-on-error
 ```
 
 These commands test communication traceability, evidence-class separation,

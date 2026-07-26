@@ -116,11 +116,15 @@ make no scientific claim.
    descriptions. The visible alt text and nearby text equivalent are therefore
    the authoritative accessible fallback.
 4. The diagrams are information dense. At narrow widths, readers may need to
-   open the SVG directly or use the linear text equivalent rather than zooming
-   a four-column layout.
+   use the linear text equivalent rather than reading a scaled multi-column
+   layout. The constrained-width audit makes that fallback mandatory for all
+   six visuals and records the measured label sizes.
 
 ## Verdict
 
 The six visuals meet the scoped automated and design checks relevant to static
 content and provide robust text alternatives. The remaining gap is human
 assistive-technology testing, not a known scientific or status-label defect.
+
+See [Narrow-Screen And Print Review V55](RESPONSIVE_PRINT_REVIEW_V55.md) for
+browser-backed fit measurements and the print fallback rule.
