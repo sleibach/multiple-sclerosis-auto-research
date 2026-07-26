@@ -71,6 +71,7 @@ Start with the source artifacts rather than onboarding prose:
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |
 | See how source imbalance changed a biological interpretation | [Brain-Bank Confounding Case Study](CASE_STUDY_BRAIN_BANK_CONFOUND.md) |
+| Apply a source, batch, immune-tone, composition, and timing screen | [Confound Check Quick Reference](CONFOUND_CHECK_QUICK_REFERENCE.md) |
 | See why real genetic regions failed as intervention routes | [Genetics Reversal Case Study](CASE_STUDY_GENETICS_REVERSALS.md) |
 | Understand why a predictive readout is not an intervention | [Monitor vs Target Case Study](CASE_STUDY_MONITOR_VS_TARGET.md) |
 | Understand why progression needs a longitudinal molecular-disability movie | [Progression Snapshot vs Movie Case Study](CASE_STUDY_PROGRESSION_SNAPSHOT_VS_MOVIE.md) |

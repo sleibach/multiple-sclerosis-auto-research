@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 21 |
+| Reader-facing pages mapped | 22 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -52,6 +52,7 @@ Different pages intentionally carry different evidence loads:
 | Genetics-reversal case study | 3 | 4 | Why regional association, causal gene, protective direction, and workable modality are separate target gates. |
 | Monitor-versus-target case study | 9 | 11 | Why an associated early-treatment readout and a causal intervention require different evidence ladders. |
 | Progression snapshot-versus-movie case study | 9 | 10 | Why snapshots and partial longitudinal designs cannot identify molecular-to-confirmed-disability progression. |
+| Confound-check quick reference | 3 | 3 | Detection, adjustment, interpretation, and fail-closed checks for source and immune-state alternatives. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
 | Visual text equivalents | 31 | 30 | Accessible linear equivalents for seven diagrams. |
@@ -67,7 +68,7 @@ count makes that visible rather than letting a short summary appear complete.
 ## Most Reused Controlling Artifacts
 
 The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 20 of
-the 21 reader pages and controls six live-lead, closed-direction, and
+the 22 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
 `docs/history/V54_RUN_SUMMARY.md` serves 19 pages and controls eight

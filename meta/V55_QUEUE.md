@@ -78,9 +78,10 @@ negative results, and source traceability.
 | Monitoring-versus-target case study | done | Separate monitoring and target evidence ladders now show why response association cannot supply a causal node, protective direction, perturbation, selectivity, or safety. |
 | Evidence-journey decision visual | done | Seventh SVG shows eligibility and identifiability exits plus supported/bounded, mixed/inconclusive, and negative/closed branches with distinct next decisions. |
 | Progression snapshot-versus-movie case study | done | The case distinguishes cross-sectional stage, morphology, relapse, pharmacodynamic time, one-time disability, and wrong-compartment scores from the required longitudinal molecular-to-confirmed-disability design. |
-| Confound-detection quick-reference card | in-progress | Turn the V32/V53 confound lessons into a compact source-covered checklist for incoming ideas and datasets. |
-| Case-study learning path | todo | Connect the confound, genetics, monitor, and progression cases into a short curriculum with source-bounded reflection questions. |
+| Confound-detection quick-reference card | done | Compact screen now covers source, batch, baseline, steroid proxy, immune tone, composition, donor repetition, timing, and observation process with five distinct verdicts. |
+| Case-study learning path | in-progress | Connect the confound, genetics, monitor, and progression cases into a short curriculum with source-bounded reflection questions. |
 | Collaborator workshop guide | todo | Provide a practical, privacy-safe session plan for turning outsider observations into issue-template-ready research directions. |
+| Outside-context-to-test case study | todo | Show how literature, database, and model suggestions become falsifiable future tests without acquiring project-evidence authority. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -345,3 +346,10 @@ negative results, and source traceability.
   boundary, not an absent-biology claim. Onboarding 1279/1279, plain-language
   20/20 pages, and source coverage 33/33 across 21 reader pages pass. Active
   time accrued: 2h19m14s.
+- 2026-07-26T19:36:45Z: Completed the confound-check quick reference. The card
+  separates source, batch, baseline, exposure proxy, broad immune tone, cell
+  composition, repeated donor, timing, and observation-process alternatives;
+  requires raw/adjusted/null/held-out reporting; and distinguishes survives,
+  attenuates, explained, source-sensitive, and invalid outcomes. Onboarding
+  1293/1293, plain-language 21/21 pages, and source coverage 33/33 across 22
+  reader pages pass. Active time accrued: 2h21m31s.
