@@ -111,23 +111,23 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,250 checks over 72 documents, 1,015 headings, and 108 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,270 checks over 73 documents, 1,020 headings, and 110 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
 | Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
 | Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
 | Release-checklist synchronization | done | CI and maintainer order now include CONTRIBUTING triggers, route/semantic audits, explicit gate failure, link review, clean clone, and honest human-pilot status. |
-| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 71 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
+| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 72 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
 | Contribution copy/paste review | done | All primary copied blocks and 13 review templates retain safety/evidence boundaries; no TODO/TBD/FIXME or angle prompt outside fences; ambiguous identifier request repaired. |
 | Anti-duplication route check | done | All eight puzzles now have an explicit crosswalk to a scoped stop list, current status, and artifact-appropriate contribution action; closure scope remains explicit. |
 | Public package footprint review | done | Reproducible guard verifies a sub-1-MiB text/vector package, eight lightweight SVGs, no file over 512 KiB, no heavy/binary media, and no HTML/SVG asset payloads. |
 | Issue-form field-to-guide mapping review | done | All nine required input groups now map to a plain-language purpose, focused repair guide, minimum answer, and one bounded mini-example; the live form links the guide. |
 | Contributor-route cross-link consistency | done | Data, method, documentation/visual, and challenge guides now all reach a type-specific example, safety limit, submission action, and review-outcome explanation. |
 | Latest public CI verification | done | Public run 30222786191 passed the exact `bcc5049e` commit in 57 seconds, including package, gate, browser, responsive, print, manifest, and report-upload steps. |
-| CI action-runtime modernization | in-progress | Official latest releases are checkout/setup-python/upload-artifact v7 and declare Node 24; workflow updated, public rerun pending. |
-| Live issue-form help-link verification | todo | Confirm the pushed form contains the field-guide route and the public URLs resolve without changing its ten-element/nine-ID contract. |
-| Public artifact title and role collision review | todo | Detect duplicate H1 titles or ambiguous same-purpose pages that could confuse search and navigation. |
+| CI action-runtime modernization | done | Official checkout/setup-python/upload-artifact v7 actions declare Node 24; public run 30222871782 passed in 44 seconds without the prior Node 20 annotation. |
+| Live issue-form help-link verification | done | Remote/local SHA-256 match; pushed form contains the field-guide link, retains ten elements/nine IDs, and guide/launch URLs resolve with the expected sign-in gate. |
+| Public artifact title and role collision review | done | Seventy-one Markdown titles have no duplicates; three high-similarity pairs were manually confirmed as distinct instruction/operations or reader/audit roles. |
 | Final route-choice compression review | todo | Ensure the landing page offers a bounded number of primary choices and pushes maintenance reports below contributor routes. |
 | Final public release-note synchronization | todo | Update release-facing counts and bounded-status summary after the last public artifacts are fixed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -788,3 +788,25 @@ negative results, and source traceability.
   annotation because three action revisions target Node 20 and are forced onto
   Node 24; this is queued as a real maintenance follow-up rather than hidden.
   Active time accrued: 5h01m54s.
+- 2026-07-26T22:19:19Z: Completed CI runtime modernization. Official GitHub
+  release metadata identified checkout 7.0.1, setup-python 7.0.0, and
+  upload-artifact 7.0.1; their v7 action definitions use Node 24. The workflow
+  now pins those maintained majors without changing inputs. Public run
+  30222871782 passed exact commit `395e6ed5` in 44 seconds, including all
+  rendering and package checks, and emitted no prior Node 20 deprecation
+  annotation. Active time accrued: 5h04m05s.
+- 2026-07-26T22:20:19Z: Reverified the live issue-form help path. Remote and
+  local templates share SHA-256
+  `37d1d7789f3ae3203a805175ac04c8b5992073bb266e49b4f9826d547ff67c09`;
+  the remote parser finds ten body elements, all nine expected IDs, and the
+  field-guide link. The field guide returns HTTP 200 and the issue launch
+  reaches the expected GitHub sign-in route. The dated link inventory is now
+  current at 696 relative files and 82 anchors; all pass. Active time accrued:
+  5h05m05s.
+- 2026-07-26T22:21:00Z: Completed the public title and role-collision review.
+  Seventy-one Markdown pages had zero exact duplicate level-one titles. Three
+  title pairs crossed the 0.72 similarity review threshold; manual inspection
+  confirmed each separates an instructional artifact from facilitation,
+  definition, or maintenance work. No unresolved role collision remains.
+  Onboarding 2,475/2,475, source coverage 33/33, connectivity 72/72, and
+  semantic structure 2,270/2,270 pass. Active time accrued: 5h05m46s.

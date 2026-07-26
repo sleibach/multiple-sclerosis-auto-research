@@ -18,8 +18,8 @@ and were excluded from the external-link count.
 
 The standard onboarding audit currently passes:
 
-- 589 relative-file destinations; and
-- 61 same-page or cross-page anchors.
+- 696 relative-file destinations; and
+- 82 same-page or cross-page anchors.
 
 Run:
 
@@ -32,19 +32,22 @@ committed tree. It does not prove that a reader will understand the label.
 
 ## External Destinations
 
-Six unique navigational HTTP destinations were checked on 2026-07-26:
+Seven unique navigational HTTP destinations were checked on 2026-07-26:
 
 | destination class | unique URLs | observed result |
 |---|---:|---|
-| Pushed onboarding pages linked by the issue form | 4 | HTTP 200 |
+| Pushed onboarding pages linked by the issue form | 5 | HTTP 200 |
 | Research-direction issue launch | 1 | HTTP 200 after the expected unauthenticated redirect to GitHub sign-in |
 | Public Zenodo reference-data file | 1 | HTTP 200 using a header-only request |
 
-The remote issue-template file also matched the local file byte-for-byte by
-SHA-256. Its parsed contract has 10 body elements, 9 unique input IDs, and all
-non-markdown inputs required. The authenticated GitHub command-line client
-fetched the live template and reached the required-title prompt; it was then
-cancelled without creating an issue.
+The remote issue-template file also matched the local file byte-for-byte at
+SHA-256 `37d1d7789f3ae3203a805175ac04c8b5992073bb266e49b4f9826d547ff67c09`.
+Its parsed contract has 10 body elements, 9 unique input IDs, and all
+non-markdown inputs required. The pushed introduction contains the
+[field-by-field form guide](ISSUE_FORM_FIELD_GUIDE_V55.md), whose public route
+returned HTTP 200. The authenticated GitHub command-line client fetched the
+live template and reached the required-title prompt; it was then cancelled
+without creating an issue.
 
 No authenticated browser was available. Therefore, this review does **not**
 claim a visual post-login rendering check. It establishes remote delivery,

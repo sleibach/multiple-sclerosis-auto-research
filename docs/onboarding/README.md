@@ -140,6 +140,7 @@ Start with the source artifacts rather than onboarding prose:
 | Verify every open puzzle reaches a scoped stop list, current status, and contribution action | [Anti-Duplication Route Review](ANTI_DUPLICATION_ROUTE_REVIEW_V55.md) |
 | Verify every specialized contribution guide reaches examples, safety, submission, and review outcomes | [Contributor Route Consistency Review](CONTRIBUTOR_ROUTE_CONSISTENCY_REVIEW_V55.md) |
 | Inspect the lightweight, self-contained public package budget | [Public Package Footprint Review](PUBLIC_PACKAGE_FOOTPRINT_V55.md) |
+| Check that public page titles and roles do not collide | [Title And Role Review](TITLE_AND_ROLE_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
