@@ -150,6 +150,23 @@ docs/onboarding/ANALOGY_SAFETY_REVIEW_V55.md	31	table_column_count	PASS	expected
 docs/onboarding/ANALOGY_SAFETY_REVIEW_V55.md	32	table_column_count	PASS	expected=5 actual=5
 docs/onboarding/ANALOGY_SAFETY_REVIEW_V55.md	33	table_column_count	PASS	expected=5 actual=5
 docs/onboarding/ANALOGY_SAFETY_REVIEW_V55.md	34	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	1	one_h1	PASS	h1_count=1
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	1	first_heading_h1	PASS	first_level=1
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	8	heading_level_step	PASS	previous=h1 current=h2 text=Route Contract
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	18	heading_level_step	PASS	previous=h2 current=h2 text=Result
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	39	heading_level_step	PASS	previous=h2 current=h2 text=What This Prevents
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	49	heading_level_step	PASS	previous=h2 current=h2 text=Limits
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	1	unique_heading_paths	PASS	no duplicate full heading paths
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	22	table_header_nonempty	PASS	columns=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	23	table_header_separator	PASS	header=5 separator=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	24	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	25	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	26	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	27	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	28	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	29	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	30	table_column_count	PASS	expected=5 actual=5
+docs/onboarding/ANTI_DUPLICATION_ROUTE_REVIEW_V55.md	31	table_column_count	PASS	expected=5 actual=5
 docs/onboarding/CASE_STUDY_BRAIN_BANK_CONFOUND.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/CASE_STUDY_BRAIN_BANK_CONFOUND.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/CASE_STUDY_BRAIN_BANK_CONFOUND.md	11	heading_level_step	PASS	previous=h1 current=h2 text=The Short Version
@@ -1520,17 +1537,18 @@ docs/onboarding/NEWCOMER_AMBIGUITY_REVIEW_V55.md	43	table_column_count	PASS	expe
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	14	heading_level_step	PASS	previous=h1 current=h2 text=Pick A Puzzle
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	27	heading_level_step	PASS	previous=h2 current=h2 text=Problem 1: Validate A Small-Cohort Signal Without Fooling Ourselves
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	70	heading_level_step	PASS	previous=h2 current=h2 text=Problem 2: Remove Dependence On One Hard-To-Access Cohort
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	112	heading_level_step	PASS	previous=h2 current=h2 text=Problem 3: Build The “Movie” Needed To Study Progression
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	157	heading_level_step	PASS	previous=h2 current=h2 text=Problem 4: Act When The Needed Direction Is “Restore Function”
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	199	heading_level_step	PASS	previous=h2 current=h2 text=Problem 5: Test A Coupled System Without Inventing A Multi-Target Story
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	236	heading_level_step	PASS	previous=h2 current=h2 text=Problem 6: Detect Confounding Before An Exciting Result Is Interpreted
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	274	heading_level_step	PASS	previous=h2 current=h2 text=Problem 7: Learn From New Data Without Reopening The Same Search
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	308	heading_level_step	PASS	previous=h2 current=h2 text=Problem 8: Make A Monitoring Result Useful Without Calling It A Target
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	343	heading_level_step	PASS	previous=h2 current=h2 text=What A Useful Direction Looks Like
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	359	heading_level_step	PASS	previous=h2 current=h2 text=Not In Scope
-docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	372	heading_level_step	PASS	previous=h2 current=h2 text=Continue
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	27	heading_level_step	PASS	previous=h2 current=h2 text=Check Before You Build
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	48	heading_level_step	PASS	previous=h2 current=h2 text=Problem 1: Validate A Small-Cohort Signal Without Fooling Ourselves
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	91	heading_level_step	PASS	previous=h2 current=h2 text=Problem 2: Remove Dependence On One Hard-To-Access Cohort
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	133	heading_level_step	PASS	previous=h2 current=h2 text=Problem 3: Build The “Movie” Needed To Study Progression
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	178	heading_level_step	PASS	previous=h2 current=h2 text=Problem 4: Act When The Needed Direction Is “Restore Function”
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	220	heading_level_step	PASS	previous=h2 current=h2 text=Problem 5: Test A Coupled System Without Inventing A Multi-Target Story
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	257	heading_level_step	PASS	previous=h2 current=h2 text=Problem 6: Detect Confounding Before An Exciting Result Is Interpreted
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	295	heading_level_step	PASS	previous=h2 current=h2 text=Problem 7: Learn From New Data Without Reopening The Same Search
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	329	heading_level_step	PASS	previous=h2 current=h2 text=Problem 8: Make A Monitoring Result Useful Without Calling It A Target
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	364	heading_level_step	PASS	previous=h2 current=h2 text=What A Useful Direction Looks Like
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	380	heading_level_step	PASS	previous=h2 current=h2 text=Not In Scope
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	393	heading_level_step	PASS	previous=h2 current=h2 text=Continue
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	unique_heading_paths	PASS	no duplicate full heading paths
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	16	table_header_nonempty	PASS	columns=4
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	17	table_header_separator	PASS	header=4 separator=4
@@ -1542,6 +1560,16 @@ docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	22	table_column_count	PASS	ex
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	23	table_column_count	PASS	expected=4 actual=4
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	24	table_column_count	PASS	expected=4 actual=4
 docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	25	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	33	table_header_nonempty	PASS	columns=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	34	table_header_separator	PASS	header=4 separator=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	35	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	36	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	37	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	38	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	39	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	40	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	41	table_column_count	PASS	expected=4 actual=4
+docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	42	table_column_count	PASS	expected=4 actual=4
 docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md	8	heading_level_step	PASS	previous=h1 current=h2 text=Do Not Use This Repository To Make A Care Decision
@@ -1632,8 +1660,8 @@ docs/onboarding/README.md	52	heading_level_step	PASS	previous=h3 current=h3 text
 docs/onboarding/README.md	58	heading_level_step	PASS	previous=h3 current=h3 text=I Am Reviewing Scientific Evidence
 docs/onboarding/README.md	69	heading_level_step	PASS	previous=h3 current=h2 text=Visual Overview
 docs/onboarding/README.md	75	heading_level_step	PASS	previous=h2 current=h2 text=Find The Right Page
-docs/onboarding/README.md	144	heading_level_step	PASS	previous=h2 current=h2 text=Evidence Promise
-docs/onboarding/README.md	160	heading_level_step	PASS	previous=h2 current=h2 text=Automated Integrity Checks
+docs/onboarding/README.md	145	heading_level_step	PASS	previous=h2 current=h2 text=Evidence Promise
+docs/onboarding/README.md	161	heading_level_step	PASS	previous=h2 current=h2 text=Automated Integrity Checks
 docs/onboarding/README.md	1	unique_heading_paths	PASS	no duplicate full heading paths
 docs/onboarding/README.md	77	table_header_nonempty	PASS	columns=2
 docs/onboarding/README.md	78	table_header_separator	PASS	header=2 separator=2
@@ -1701,6 +1729,7 @@ docs/onboarding/README.md	139	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	140	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	141	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/README.md	142	table_column_count	PASS	expected=2 actual=2
+docs/onboarding/README.md	143	table_column_count	PASS	expected=2 actual=2
 docs/onboarding/RELEASE_NOTES_V55.md	1	one_h1	PASS	h1_count=1
 docs/onboarding/RELEASE_NOTES_V55.md	1	first_heading_h1	PASS	first_level=1
 docs/onboarding/RELEASE_NOTES_V55.md	8	heading_level_step	PASS	previous=h1 current=h2 text=The Scientific State Did Not Change

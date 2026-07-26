@@ -24,6 +24,27 @@ so the proposal changes a failed assumption rather than repeating it.
 | 7 | Learn from new data without reopening an exhausted same-corpus search | Joint held-corpus search reached a boundary `[D04, D05]` | prospective test design, dataset shift, cross-modal holdout, information value |
 | 8 | Turn a monitor into a useful workflow without calling it a target | Monitoring is not intervention evidence `[M05, A01]` | human factors, clinical decision support design, calibration, failure-safe interfaces |
 
+## Check Before You Build
+
+Use this crosswalk before drafting. The stop list closes only the named
+shortcut, not the entire scientific area. A useful proposal changes the failed
+assumption or supplies the stated reopening evidence. `[E01]`
+
+| problem | check the scoped non-solutions | verify current status | take this contribution action |
+|---:|---|---|---|
+| 1 | [Monitoring and validation shortcuts](KNOWN_NON_SOLUTIONS.md#monitoring-and-validation-shortcuts) | [Bounded monitor status card](LEAD_STATUS_CARDS.md#card-1-bounded-apchla-ii-early-monitoring) | [Submit a pre-specified method](CONTRIBUTE_A_METHOD.md) |
+| 2 | [Monitoring and validation shortcuts](KNOWN_NON_SOLUTIONS.md#monitoring-and-validation-shortcuts) | [Data-needed map](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md) | [Verify a data source](CONTRIBUTE_A_DATA_SOURCE.md) |
+| 3 | [Progression and compartment shortcuts](KNOWN_NON_SOLUTIONS.md#progression-and-compartment-shortcuts) | [Progression frontier status card](LEAD_STATUS_CARDS.md#card-7-progression-frontier) | [Verify a longitudinal data source](CONTRIBUTE_A_DATA_SOURCE.md) |
+| 4 | [Genetics, structure, and target shortcuts](KNOWN_NON_SOLUTIONS.md#genetics-structure-and-target-shortcuts) | [Closed genetics routes status card](LEAD_STATUS_CARDS.md#card-5-chr1-kif21bgpr25-and-ptger4-routes) | [Submit a falsifiable challenge](CHALLENGE_THE_PROJECT.md) |
+| 5 | [Systems, models, and search shortcuts](KNOWN_NON_SOLUTIONS.md#systems-models-and-search-shortcuts) | [Coupled-axis status card](LEAD_STATUS_CARDS.md#card-2-coupled-apc-immune-architecture) | [Submit a pre-specified method](CONTRIBUTE_A_METHOD.md) |
+| 6 | [Fast duplicate check](KNOWN_NON_SOLUTIONS.md#fast-duplicate-check) | [Monitor and microglia status cards](LEAD_STATUS_CARDS.md) | [Submit a confound-aware method](CONTRIBUTE_A_METHOD.md) |
+| 7 | [Systems, models, and search shortcuts](KNOWN_NON_SOLUTIONS.md#systems-models-and-search-shortcuts) | [Same-corpus boundary status card](LEAD_STATUS_CARDS.md#card-8-same-corpus-discovery-boundary) | [Submit a genuinely new-data method](CONTRIBUTE_A_METHOD.md) |
+| 8 | [Monitoring and validation shortcuts](KNOWN_NON_SOLUTIONS.md#monitoring-and-validation-shortcuts) | [Bounded monitor status card](LEAD_STATUS_CARDS.md#card-1-bounded-apchla-ii-early-monitoring) | [Submit a failure-safe workflow or visual](CONTRIBUTE_DOCUMENTATION_OR_VISUAL.md) |
+
+The [anti-duplication route review](ANTI_DUPLICATION_ROUTE_REVIEW_V55.md)
+records the route-level check. It is a navigation audit, not evidence that an
+open problem is scientifically solvable.
+
 ## Problem 1: Validate A Small-Cohort Signal Without Fooling Ourselves
 
 **Plain question:** How can a fixed monitoring score receive a decisive and
