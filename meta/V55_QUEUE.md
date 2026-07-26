@@ -77,8 +77,8 @@ negative results, and source traceability.
 | Genetics reversal case study | done | The case separates regional association, causal-gene assignment, protective direction, and direction-matched modality across the GPR25/KIF21B and PTGER4 reversals. |
 | Monitoring-versus-target case study | done | Separate monitoring and target evidence ladders now show why response association cannot supply a causal node, protective direction, perturbation, selectivity, or safety. |
 | Evidence-journey decision visual | done | Seventh SVG shows eligibility and identifiability exits plus supported/bounded, mixed/inconclusive, and negative/closed branches with distinct next decisions. |
-| Progression snapshot-versus-movie case study | in-progress | Explain why cross-sectional stage, morphology, and one-time disability cannot answer a longitudinal transition question. |
-| Confound-detection quick-reference card | todo | Turn the V32/V53 confound lessons into a compact source-covered checklist for incoming ideas and datasets. |
+| Progression snapshot-versus-movie case study | done | The case distinguishes cross-sectional stage, morphology, relapse, pharmacodynamic time, one-time disability, and wrong-compartment scores from the required longitudinal molecular-to-confirmed-disability design. |
+| Confound-detection quick-reference card | in-progress | Turn the V32/V53 confound lessons into a compact source-covered checklist for incoming ideas and datasets. |
 | Case-study learning path | todo | Connect the confound, genetics, monitor, and progression cases into a short curriculum with source-bounded reflection questions. |
 | Collaborator workshop guide | todo | Provide a practical, privacy-safe session plan for turning outsider observations into issue-template-ready research directions. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
@@ -338,3 +338,10 @@ negative results, and source traceability.
   useful decisions. Chrome render 43/43 and constrained-width delivery 65/65
   pass across seven SVGs and 21 scenarios; all small layouts require the text
   equivalent and retain no raster/PDF media. Active time accrued: 2h16m16s.
+- 2026-07-26T19:34:28Z: Completed the progression snapshot-versus-movie case
+  study. It explains the time-order and confirmation requirements, six invalid
+  proxy substitutions, P1/P2/P3 evidence roles, and the minimum useful package.
+  Seven audited held datasets and ten candidate packages remain a coverage
+  boundary, not an absent-biology claim. Onboarding 1279/1279, plain-language
+  20/20 pages, and source coverage 33/33 across 21 reader pages pass. Active
+  time accrued: 2h19m14s.
