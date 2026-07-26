@@ -132,7 +132,7 @@ negative results, and source traceability.
 | Final public release-note synchronization | done | Release note now covers final intake, anti-duplication, human-pilot, CI, semantic, graph, and package work while preserving the unchanged scientific state. |
 | RAG rebuild | done | Sparse TF-IDF index rebuilt to 977 unique documents, including 72 onboarding pages and zero `knowledge_external/` paths; three V55 retrieval smoke queries pass. |
 | Full gates and clean close | todo | Run the complete local CI-equivalent suite, size/tmp guards, manifest freshness, final public CI, and clean-tree check. |
-| Checkout-path-stable generated reports | in-progress | Final clean clone passed but exposed three absolute-path-only diffs; generators now emit repository-relative roots/paths, rerun and clean-clone proof pending. |
+| Checkout-path-stable generated reports | done | A second fresh public clone at `5fca1cf8` passed the complete suite and remained clean (`DIRTY_COUNT=0`) after all generators reran. |
 | V55 run summary | todo | Close the exact six-hour interval and report artifacts, eight visuals, skill/model use, gates, OpenGWAS status, pushes, limits, and next action. |
 
 ## Per-Iteration Notes
@@ -860,3 +860,12 @@ negative results, and source traceability.
   pass/fail result rather than an operationally irrelevant exact byte count;
   two consecutive local runs are byte-identical and pass 26/26 checks. A new
   pushed-clone proof is still required. Active time accrued: 5h33m41s.
+- 2026-07-26T22:54:53Z: Closed the checkout-stability item with a second fresh
+  shallow clone from the public remote at exact commit `5fca1cf8`. Onboarding
+  2,487/2,487, 11 onboarding fault fixtures, plain-language 43 documents,
+  source coverage 33/33, route depth 17/17 plus 73/73 public connectivity,
+  semantic structure 2,291/2,291, package 84 files, provenance 841/841 plus
+  four synthetic cases, structure 142/142 plus five synthetic cases, browser
+  render 49/49, responsive delivery 74/74, print 26/26, and the 100-artifact
+  manifest all pass. After every generator reran, `DIRTY_COUNT=0`. Active time
+  accrued: 5h39m39s.

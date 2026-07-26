@@ -7,7 +7,7 @@ comprehension, scientific validity, or clinical use. `[E01]`
 ## Test Boundary
 
 - Source: public `origin/main`
-- Commit tested: `96634e309bd4b87ff7a0506340910e167dce8dcb`
+- Commit tested: `5fca1cf800e7340b95a3acd7af7aaba433ba5307`
 - Clone mode: shallow (`--depth 1`)
 - Local project `.env`: not copied
 - Test location: an untracked temporary directory outside the repository
@@ -20,38 +20,53 @@ artifact.
 
 | check | clean-clone result |
 |---|---|
-| Onboarding traceability/accessibility | PASS, 2,310/2,310 checks |
+| Onboarding traceability/accessibility | PASS, 2,487/2,487 checks |
+| Synthetic onboarding fault detector | PASS, all 11 fixtures behaved as expected |
 | Plain-language load | PASS, 43 documents, 0 undefined acronyms |
-| Claim-source coverage | PASS, 33/33 bounded claims and 33/33 controlling artifacts |
-| Core route depth | PASS, 17/17 routes |
-| Heading and table semantics | PASS, 2,102/2,102 checks |
-| Authored-artifact manifest | PASS, 90/90 artifact identities |
-| Provenance segregation gate | PASS, 841/841 checks |
-| Structural-prediction gate | PASS, 142/142 checks |
-| Research-direction issue form | PASS, 10 elements, 9 unique inputs, all inputs required |
-| Lightweight visuals | PASS, 8 SVG files present |
-| Standalone collaborator brief | HTTP 200, `text/html` |
-| Research-map visual | HTTP 200, `image/svg+xml` |
-| Working tree after checks | Clean |
+| Claim-source coverage | PASS, 33/33 bounded claims, 33/33 controlling artifacts, 44 reader documents |
+| Core route and public graph | PASS, 17/17 routes and 73/73 connected public documents |
+| Heading and table semantics | PASS, 2,291/2,291 checks |
+| Lightweight public package | PASS, 84 files and 731,734 bytes; no file over 512 KiB |
+| Authored-artifact manifest | PASS, 100/100 artifact identities |
+| Provenance segregation gate | PASS, 841/841 checks; four synthetic cases behaved as expected |
+| Structural-prediction gate | PASS, 142/142 checks; five synthetic cases behaved as expected |
+| Browser rendering | PASS, 49/49 checks across eight SVGs; no raster retained |
+| Constrained-width delivery | PASS, 74/74 checks; all 24 small-label scenarios have required text equivalents |
+| One-page print brief | PASS, 26/26 checks and one page; no PDF retained |
+| Working tree after every check reran | Clean (`DIRTY_COUNT=0`) |
 
-The local server was stopped after the two delivery checks. No smoke-test file
-was added from the temporary clone.
+Two earlier fresh-clone runs were also useful failures. They exposed absolute
+checkout paths in generated reports and a nondeterministic exact temporary-PDF
+byte count. Both generators were repaired before this final run. A same-machine
+pass without the clean-tree criterion would not have found those defects. No
+smoke-test file or temporary render was added from the clone.
 
 ## Commands Exercised
 
 ```bash
 python3 scripts/v55_onboarding_audit.py --fail-on-error
+python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
 python3 scripts/v55_plain_language_audit.py --fail-on-error
 python3 scripts/v55_source_coverage.py --fail-on-error
 python3 scripts/v55_route_depth_audit.py --fail-on-error
 python3 scripts/v55_semantic_structure_audit.py --fail-on-error
-python3 scripts/v55_onboarding_manifest.py --check --fail-on-error
+python3 scripts/v55_public_package_footprint.py --fail-on-error
+python3 scripts/v47_provenance_gate.py synthetic-check \
+  --outdir analysis/v47_provenance_gate --fail-on-error
 python3 scripts/v47_provenance_gate.py audit --fail-on-error
+python3 scripts/v51_structural_prediction_gate.py synthetic-check \
+  --outdir analysis/v51_structural_prediction_gate --fail-on-error
 python3 scripts/v51_structural_prediction_gate.py audit --fail-on-error
+python3 scripts/v55_visual_render_regression.py --fail-on-error
+python3 scripts/v55_responsive_visual_audit.py --fail-on-error
+python3 scripts/v55_print_brief_audit.py --fail-on-error
+python3 scripts/v55_onboarding_manifest.py --check --fail-on-error
+git status --porcelain
 ```
 
-The issue-form schema and SVG count used read-only local checks. A temporary
-local HTTP server delivered the HTML brief and research-map SVG, then exited.
+The test used the public remote, no local `.env`, and the system browser. All
+generated output was compared with the committed tree through the final status
+check.
 
 ## What This Establishes
 
