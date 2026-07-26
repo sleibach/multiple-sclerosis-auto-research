@@ -105,6 +105,10 @@ MS validation; describing an unsent request as acquired data. `[A04]`
 
 ## Problem 3: Build The “Movie” Needed To Study Progression
 
+“Movie” is shorthand for linked, repeated molecular and disability
+measurements in the same people. It does not assume progression is smooth or
+that repeated measurement alone identifies a cause.
+
 **Plain question:** What is the smallest feasible longitudinal design that can
 connect a molecular state to confirmed disability accumulation rather than to
 relapse, static stage, or tissue source?

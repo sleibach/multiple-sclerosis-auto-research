@@ -14,6 +14,10 @@ the SVG directly only for zooming or a larger view. The measured review is in
 
 ## 1. The Research Terrain
 
+“Terrain” is a navigation aid, not a biological landscape. Card position and
+distance do not encode causal proximity, effect size, or priority; the written
+status and source references carry the meaning.
+
 ![Four-lane map of genetics, treatment monitoring, systems modeling, and progression. The one monitoring lead is live but provisional; genetics routes are context or closed; systems analysis contains supported context and negative results; progression is blocked by missing longitudinal data.](visuals/RESEARCH_MAP_V55.svg)
 
 **Text equivalent:** Genetics produced robust MS-UC context and ZMIZ1
@@ -47,6 +51,11 @@ inconclusive. `[M01-M05, A01]`
 
 ## 3. Evidence Lanes
 
+The lanes are provenance categories, not biological pathways or a ranking of
+importance. Material can move from an outside-source question to a new project
+test only by creating and running that test; authority does not cross with the
+idea.
+
 ![Two evidence lanes. Project-held data and rerunnable analysis can produce supported, provisional, negative, or data-bound conclusions. Literature, databases, and model suggestions can enter a future-test queue but cannot transfer authority directly into a project conclusion.](visuals/EVIDENCE_LANES_V55.svg)
 
 **Text equivalent:** Project-grounded describes provenance, not whether a
@@ -60,6 +69,10 @@ conclusion. `[E01-E03]`
 [Read the formal evidence policy](../knowledge/EPISTEMIC_CLASSES.md)
 
 ## 4. Relapse Versus Progression
+
+The snapshot/movie language distinguishes cross-sectional from linked,
+time-ordered measurement. It does not assume smooth disease change or make
+repeated observation sufficient for causal inference.
 
 ![Schematic timeline separating discrete relapse events from repeated confirmed-disability measurements. A lower flow contrasts held snapshots and partial evidence roles with the required longitudinal molecular and disability movie, and lists prohibited proxy substitutions.](visuals/RELAPSE_VS_PROGRESSION_V55.svg)
 
@@ -119,6 +132,10 @@ M01-M05, D01-D05, A01-A04, C01-C02, P01-P06]`
 [Read the source-linked timeline](RESEARCH_EVOLUTION_TIMELINE.md)
 
 ## 7. How An Idea Reaches A Decision
+
+The journey is an evidence workflow, not a disease mechanism or a guarantee of
+progress. Real projects may loop back to repair data or narrow a claim; a clean
+workflow can still end in a null, closure, or data boundary.
 
 ![Five-step evidence path from a bounded question through eligibility, identification, precommitment, and a rerunnable test. Invalid inputs and missing designs exit early. Valid tests can yield supported but bounded, mixed or inconclusive, or negative or closed outcomes, each with a different next action.](visuals/EVIDENCE_JOURNEY_V55.svg)
 

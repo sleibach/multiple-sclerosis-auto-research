@@ -87,7 +87,9 @@ If this outside statement applies to the project's population, compartment,
 timing, and outcome, then the following pre-specified pattern should appear...
 ```
 
-This makes the actual bridge visible.
+This makes the conversion from outside context to a project-testable proposal
+explicit. It does not transfer the source's authority or evidence class into
+the future test.
 
 ## Stage 4: Build A Discriminating Prediction
 

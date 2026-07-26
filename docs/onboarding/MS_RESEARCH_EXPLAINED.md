@@ -105,6 +105,11 @@ identify a relapsing-to-progressive transition. No progression biomarker,
 mechanism, target, treatment effect, or way to halt MS was established. `[P01,
 P02, P03 | Data blocked and negative]`
 
+The photograph/movie comparison describes measurement over time only. It does
+not imply that MS follows a smooth storyline, that frequent measurement alone
+establishes cause, or that a biological trajectory can be reconstructed by
+interpolating between sparse observations.
+
 An exact two-gene microglial state, CD44/CXCR4, is fixed as a future candidate
 for the right longitudinal dataset. Its identity is supported; progression
 prediction is not. It must not be applied to blood-based datasets as a proxy or
@@ -274,6 +279,9 @@ silently replaced by a blood proxy, another gene pair, or a threshold chosen
 after seeing disability outcomes. `[P06, A02]`
 
 ### 7. Where The Walls Actually Are
+
+Here, a **wall** means a current evidence boundary with a named requirement for
+moving it. It does not mean a permanent biological impossibility.
 
 | wall | why it matters | what would move it |
 |---|---|---|

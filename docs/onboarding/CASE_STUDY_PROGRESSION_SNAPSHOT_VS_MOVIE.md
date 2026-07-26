@@ -30,6 +30,11 @@ exist.
 
 ## Snapshot And Movie
 
+This is an analogy about study design, not a model of how disease unfolds. A
+“snapshot” means measurements without the linked follow-up needed for the
+claim. A “movie” means repeated, time-ordered observations in the same people;
+it does not imply smooth change, complete observation, or causality by itself.
+
 A snapshot can answer:
 
 - What differs between groups at one observed time?

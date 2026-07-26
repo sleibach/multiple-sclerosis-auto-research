@@ -85,6 +85,7 @@ Start with the source artifacts rather than onboarding prose:
 | Inspect accessibility | [Accessibility Audit](ACCESSIBILITY_AUDIT_V55.md) |
 | Check phone/tablet/print delivery | [Narrow-Screen And Print Review](RESPONSIVE_PRINT_REVIEW_V55.md) |
 | Maintain or release the onboarding layer | [Maintainer Release Checklist](MAINTAINER_RELEASE_CHECKLIST_V55.md) |
+| Check that teaching metaphors retain explicit limits | [Analogy Safety Review](ANALOGY_SAFETY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |
 | Inspect machine traceability | [Onboarding Audit Summary](../../analysis/v55_onboarding_audit/onboarding_audit_summary.json) |

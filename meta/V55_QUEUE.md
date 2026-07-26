@@ -82,8 +82,8 @@ negative results, and source traceability.
 | Case-study learning path | done | Ten- and 45-minute routes connect four recurring inference errors, reflection questions, a reusable correction, and a copy-ready idea rewrite. |
 | Collaborator workshop guide | done | Seventy-five- and 45-minute formats preserve independent generation, evidence rules, boundary filtering, a fair-test card, adversarial swap, and issue routing. |
 | Outside-context-to-test case study | done | Six-stage path preserves source/class, classifies overlap, removes authority words, defines a prediction, checks data/verb fit, and records any future grounded result separately. |
-| Analogy safety review | in-progress | Review every newcomer analogy and metaphor for explicit limits so simplification cannot silently become a scientific model. |
-| Contributor response lifecycle | todo | Explain what happens after an idea is submitted, including repair, data request, park, close, grounding, and status-update routes. |
+| Analogy safety review | done | Nine teaching comparisons now have an explicit purpose and limit; terrain, lanes, journey, snapshot/movie, ladders, and walls were clarified, and an authority-transfer metaphor was replaced with literal language. |
+| Contributor response lifecycle | in-progress | Explain what happens after an idea is submitted, including repair, data request, park, close, grounding, and status-update routes. |
 | Numbers-without-overreading guide | todo | Explain effects, intervals, AUC, p/q values, permutation, multiplicity, and sample size without turning thresholds into truth. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
@@ -377,3 +377,12 @@ negative results, and source traceability.
   change project evidence. Onboarding 1386/1386, plain-language 24/24 pages,
   source coverage 33/33 across 25 reader pages, and provenance 841/841 pass.
   Active time accrued: 2h30m18s.
+- 2026-07-26T19:49:40Z: Completed the analogy safety review. Nine teaching
+  comparisons now state a narrow purpose and a non-equivalence limit. Added
+  clarifications prevent terrain position, evidence lanes, workflow journeys,
+  ladders, walls, and snapshot/movie language from implying biology, causality,
+  priority, or automatic evidence transfer. One authority-transfer “bridge”
+  phrase was replaced with literal provenance language. Onboarding 1413/1413,
+  plain-language 24/24 pages, source coverage 33/33 across 25 reader pages,
+  provenance 841/841, and structural 142/142 pass. Active time accrued:
+  2h34m26s.

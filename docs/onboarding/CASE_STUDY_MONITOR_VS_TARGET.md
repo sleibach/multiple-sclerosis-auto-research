@@ -93,6 +93,10 @@ The honest status is therefore:
 
 ## The Two Evidence Ladders
 
+“Ladder” means a sequence of distinct evidence requirements. It is not a
+numeric score, and completing an earlier monitoring step does not automatically
+advance an intervention claim.
+
 ### Monitoring Ladder
 
 ```text
