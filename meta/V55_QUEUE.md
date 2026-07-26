@@ -75,8 +75,8 @@ negative results, and source traceability.
 | Null and inconclusive result explainer | done | Seven non-positive outcomes now map to distinct permissible claims, forbidden overreads, decisions, project examples, and a four-question interpretation flow. |
 | Brain-bank confound case study | done | The case separates the attractive raw story, source-diagnosis entanglement, adjusted attenuation, bounded residue, and prospective source-balanced repair without generalizing that brain-bank data are invalid. |
 | Genetics reversal case study | done | The case separates regional association, causal-gene assignment, protective direction, and direction-matched modality across the GPR25/KIF21B and PTGER4 reversals. |
-| Monitoring-versus-target case study | in-progress | Trace why a useful observer does not identify the intervention and what causal layers are missing. |
-| Evidence-journey decision visual | todo | Add a lightweight visual from idea to grounded/bounded/closed outcome, including invalid and unscoreable exits. |
+| Monitoring-versus-target case study | done | Separate monitoring and target evidence ladders now show why response association cannot supply a causal node, protective direction, perturbation, selectivity, or safety. |
+| Evidence-journey decision visual | in-progress | Add a lightweight visual from idea to grounded/bounded/closed outcome, including invalid and unscoreable exits. |
 | Progression snapshot-versus-movie case study | todo | Explain why cross-sectional stage, morphology, and one-time disability cannot answer a longitudinal transition question. |
 | Confound-detection quick-reference card | todo | Turn the V32/V53 confound lessons into a compact source-covered checklist for incoming ideas and datasets. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
@@ -321,3 +321,11 @@ negative results, and source traceability.
   causal gene, protective direction, or modality fit. Onboarding 1220/1220,
   plain-language 18/18 pages, and source coverage 33/33 across 19 reader pages
   pass. Active time accrued: 2h09m59s.
+- 2026-07-26T19:27:12Z: Completed the monitor-versus-target case study. It
+  explains the frozen paired early-treatment calculation, mixed bounded
+  evidence, immune-tone attenuation, and independent-validation outcomes while
+  keeping the monitoring and target evidence ladders separate. A passing
+  external monitor cannot imply baseline selection, progression prediction,
+  causal module genes, or a therapeutic target. Onboarding 1243/1243,
+  plain-language 19/19 pages, and source coverage 33/33 across 20 reader pages
+  pass. Active time accrued: 2h11m58s.

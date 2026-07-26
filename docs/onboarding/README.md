@@ -72,6 +72,7 @@ Start with the source artifacts rather than onboarding prose:
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |
 | See how source imbalance changed a biological interpretation | [Brain-Bank Confounding Case Study](CASE_STUDY_BRAIN_BANK_CONFOUND.md) |
 | See why real genetic regions failed as intervention routes | [Genetics Reversal Case Study](CASE_STUDY_GENETICS_REVERSALS.md) |
+| Understand why a predictive readout is not an intervention | [Monitor vs Target Case Study](CASE_STUDY_MONITOR_VS_TARGET.md) |
 | Understand why attractive routes failed | [Failure-Mode Atlas](FAILURE_MODE_ATLAS.md) |
 | See what data could change each answer | [Data That Would Change The Answer](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md) |
 | See how candidates were promoted, bounded, demoted, or closed | [Research Evolution Timeline](RESEARCH_EVOLUTION_TIMELINE.md) |

@@ -6,7 +6,7 @@ project's evidence policy. `[E01]`
 
 ## Scope
 
-The committed audit covers eighteen reader-facing pages:
+The committed audit covers nineteen reader-facing pages:
 
 - the onboarding landing page;
 - the one-page collaborator brief's linear equivalent;
@@ -21,6 +21,7 @@ The committed audit covers eighteen reader-facing pages:
 - the null, closure, and missing-answer explainer;
 - the brain-bank confounding case study;
 - the genetics-reversal case study;
+- the monitor-versus-target case study;
 - collaborator routes;
 - worked idea transformations;
 - myths versus findings;
@@ -43,11 +44,11 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing documents | 18 |
-| Prose words measured | 22,148 |
-| Sentences measured | 2,176 |
+| Reader-facing documents | 19 |
+| Prose words measured | 23,334 |
+| Sentences measured | 2,304 |
 | Mean words per sentence across the suite | 10.2 |
-| Sentences over 30 words | 12 (0.6%) |
+| Sentences over 30 words | 13 (0.6%) |
 | Sentences over 65 words | 0 |
 | Documents averaging over 26 words per sentence | 0 |
 | Paragraphs over 180 measured words | 0 |
@@ -80,7 +81,7 @@ shorthand.
 
 ## What Was Not Simplified Away
 
-Twelve sentences remain over 30 words. Most enumerate required data fields,
+Thirteen sentences remain over 30 words. Most enumerate required data fields,
 confounder checks, or conditions that make an idea falsifiable. Splitting those
 constraints further can help presentation, but deleting them would weaken the
 meaning. They remain in the machine inventory for future editorial review.
