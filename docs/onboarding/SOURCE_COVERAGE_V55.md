@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 22 |
+| Reader-facing pages mapped | 23 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -53,6 +53,7 @@ Different pages intentionally carry different evidence loads:
 | Monitor-versus-target case study | 9 | 11 | Why an associated early-treatment readout and a causal intervention require different evidence ladders. |
 | Progression snapshot-versus-movie case study | 9 | 10 | Why snapshots and partial longitudinal designs cannot identify molecular-to-confirmed-disability progression. |
 | Confound-check quick reference | 3 | 3 | Detection, adjustment, interpretation, and fail-closed checks for source and immune-state alternatives. |
+| Four-case learning path | 17 | 18 | Sequenced lessons on confounding, genetics-to-target, monitor-to-intervention, and snapshot-to-progression errors. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
 | Visual text equivalents | 31 | 30 | Accessible linear equivalents for seven diagrams. |
@@ -67,20 +68,18 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 20 of
-the 22 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 21 of
+the 23 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 19 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 20 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 18 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 19 pages and controls eight
 context, decoupling, closure, and governance claims.
 
-Two artifacts feed seventeen pages:
-
-- `docs/findings/FINDING_V22.md`; and
-- `docs/validation/PREREGISTRATION_V42.md`.
+`docs/findings/FINDING_V22.md` serves 18 pages;
+`docs/validation/PREREGISTRATION_V42.md` serves 17.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not
