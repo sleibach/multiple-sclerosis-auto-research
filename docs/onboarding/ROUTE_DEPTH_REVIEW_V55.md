@@ -24,9 +24,14 @@ Current result: `PASS`.
 | Routes within their hop limit | 17 |
 | Failed or unreachable routes | 0 |
 | Maximum permitted depth | 2 links |
+| Documents reachable from root | 66/66 |
+| Non-root documents with an inbound link | 65/65 |
+| Documents with an outbound next step | 66/66 |
+| Documents able to return to the onboarding landing page | 66/66 |
 
-The full shortest paths are in
-`analysis/v55_route_depth_audit/route_depth.tsv`.
+The full shortest paths are in `analysis/v55_route_depth_audit/route_depth.tsv`.
+Per-document inbound/outbound and return-path results are in
+`analysis/v55_route_depth_audit/document_connectivity.tsv`.
 
 ## What Is One Link From The Root
 
@@ -64,6 +69,8 @@ the problem board.
   problem board.
 - Added landing, problem-board, and explanation links after the lead inventory.
 - Added the route-depth check to the secret-free onboarding workflow.
+- Added whole-graph connectivity checks so a newly added page cannot silently
+  become an orphan or dead end outside the 17 core routes.
 
 ## What This Does Not Prove
 

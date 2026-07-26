@@ -78,6 +78,14 @@ def build_graph(documents: set[Path]) -> dict[Path, set[Path]]:
     return graph
 
 
+def reverse_graph(graph: dict[Path, set[Path]]) -> dict[Path, set[Path]]:
+    reverse = {path: set() for path in graph}
+    for source, targets in graph.items():
+        for target in targets:
+            reverse[target].add(source)
+    return reverse
+
+
 def shortest_path(graph: dict[Path, set[Path]], start: Path, target: Path) -> list[Path] | None:
     queue: deque[list[Path]] = deque([[start]])
     seen = {start}
@@ -103,6 +111,7 @@ def main() -> int:
     outdir.mkdir(parents=True, exist_ok=True)
     documents = public_documents()
     graph = build_graph(documents)
+    reverse = reverse_graph(graph)
 
     rows: list[dict[str, object]] = []
     failures: list[str] = []
@@ -134,14 +143,65 @@ def main() -> int:
         writer.writeheader()
         writer.writerows(rows)
 
+    root = (ROOT / "README.md").resolve()
+    landing = (ROOT / "docs" / "onboarding" / "README.md").resolve()
+    connectivity_rows: list[dict[str, object]] = []
+    for document in sorted(documents):
+        from_root = shortest_path(graph, root, document)
+        to_landing = shortest_path(graph, document, landing)
+        issues: list[str] = []
+        if document != root and not reverse[document]:
+            issues.append("no_inbound_link")
+        if not graph[document]:
+            issues.append("no_outbound_next_step")
+        if from_root is None:
+            issues.append("unreachable_from_root")
+        if to_landing is None:
+            issues.append("cannot_return_to_landing")
+        if issues:
+            failures.extend(f"connectivity:{relative(document)}:{issue}" for issue in issues)
+        connectivity_rows.append(
+            {
+                "path": relative(document),
+                "inbound_documents": len(reverse[document]),
+                "outbound_documents": len(graph[document]),
+                "root_hops": "unreachable" if from_root is None else len(from_root) - 1,
+                "landing_return_hops": "unreachable" if to_landing is None else len(to_landing) - 1,
+                "status": "PASS" if not issues else "FAIL",
+                "issues": ";".join(issues) if issues else "none",
+            }
+        )
+
+    connectivity_path = outdir / "document_connectivity.tsv"
+    with connectivity_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=(
+                "path",
+                "inbound_documents",
+                "outbound_documents",
+                "root_hops",
+                "landing_return_hops",
+                "status",
+                "issues",
+            ),
+            delimiter="\t",
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(connectivity_rows)
+
     summary = {
         "purpose": "V55 newcomer route-depth maintenance check; no scientific claim",
         "n_public_markdown_documents": len(documents),
         "n_routes": len(rows),
+        "n_connectivity_documents": len(connectivity_rows),
+        "n_connectivity_fail": sum(row["status"] == "FAIL" for row in connectivity_rows),
         "n_fail": len(failures),
         "failures": failures,
         "overall_status": "PASS" if not failures else "FAIL",
         "routes": str(route_path.relative_to(ROOT)),
+        "connectivity": str(connectivity_path.relative_to(ROOT)),
         "interpretation": "Configured path length and reciprocity only; not evidence of human comprehension.",
     }
     summary_path = outdir / "route_depth_summary.json"
