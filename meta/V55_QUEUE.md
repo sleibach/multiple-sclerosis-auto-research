@@ -62,8 +62,8 @@ negative results, and source traceability.
 | Plain-language density review | done | Ten-page audit measures 12,881 prose words/1,163 sentences; no >65-word sentences, threshold failures, or unexplained acronyms remain; limits and retained caveats documented. |
 | Source-coverage map | done | Eleven-page graph covers all 32 claim rows and all 31 existing controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
 | Markdown section-anchor validation | done | All 29 current fragments resolve under GitHub-style slugs; same-page/cross-file, explicit IDs, Unicode/punctuation, and duplicate headings supported; bad-anchor fixture rejected. |
-| Newcomer comprehension test kit | in-progress | Package a real human reading protocol, answer key, scoring rubric, and misuse questions without collecting medical information. |
-| Contributor idea triage rubric | todo | Give maintainers a transparent rubric for novelty, grounding feasibility, error controls, decision value, and duplicate/closure risk. |
+| Newcomer comprehension test kit | done | Two reading routes, 12 source-bounded questions, dangerous-overread rules, scoring/interpretation, privacy limits, remediation table, and TSV scorecard are ready; no human test falsely claimed. |
+| Contributor idea triage rubric | in-progress | Give maintainers a transparent rubric for novelty, grounding feasibility, error controls, decision value, and duplicate/closure risk. |
 | Root contribution integration | todo | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
 | Failure-mode atlas | todo | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
 | Data-needed map | todo | Explain exactly which incoming data would change each major answer and which near-match cannot substitute. |
@@ -213,3 +213,10 @@ negative results, and source traceability.
   eleventh synthetic case proves a nonexistent section fails. Onboarding
   777/777, synthetic 11/11, provenance 841/841, and structural 142/142 pass.
   Active time accrued: 1h11m56s.
+- 2026-07-26T18:29:45Z: Completed the human newcomer comprehension kit. Route A
+  tests the two-minute path with six questions; Route B tests contributor
+  readiness with 12. The source-bounded answer key, `-1` dangerous-overread
+  grade, route thresholds, privacy/ethics limits, remediation table, reporting
+  template, and seven-column TSV scorecard are committed. The document states
+  no human test has yet occurred. Onboarding 815/815 and both evidence gates
+  pass. Active time accrued: 1h14m31s.
