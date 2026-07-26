@@ -6,7 +6,9 @@ a persuasive story.
 
 This guide is for research directions, methods, data leads, analytical
 reframes, and falsification tests. It is not a route for medical advice or
-patient-specific treatment recommendations.
+patient-specific treatment recommendations. Do not submit personal health
+information; use the [patient and public safety boundary](PATIENT_AND_PUBLIC_SAFETY.md)
+for safe research-only reformulations.
 
 See [four fictional public issue examples](PUBLIC_ISSUE_EXAMPLES.md) for a
 ready submission, a repair path, a duplicate closure, and a safe refusal.
@@ -53,9 +55,12 @@ parentheses, but do not delete the fields.
 ## Problem
 - Open-problem number: <1-8>
 - Existing claim IDs: <for example M04, C02>
+- Current status: <provisional / supported context / closed / negative / data blocked>
 - Current boundary this addresses: <one sentence>
+- Forbidden overread: <what this must not be taken to establish>
 
-## Proposal
+## Observation before proposal
+- Missing distinction or failure: <state this before naming a method>
 - Method, mechanism, dataset, or reframe: <one paragraph>
 - Why it is not a known closed path: <name the distinction>
 - Assumptions: <what must be true for this to work>
@@ -67,7 +72,7 @@ parentheses, but do not delete the fields.
 
 ## Data and access
 - Required data fields: <samples, time, outcomes, covariates, modality>
-- Unit of analysis: <person, sample, gene, site, etc.>
+- Independent unit: <person, donor, site, cohort, data type, or other>
 - Data location or access path: <verified URL/accession/holder, if known>
 - Is the required data actually reachable? <yes/no/unknown and why>
 - Any use restrictions or privacy constraints: <state explicitly>
@@ -84,11 +89,14 @@ parentheses, but do not delete the fields.
 - If supported: <the next bounded step, not a larger claim>
 - If not supported: <what closes or changes>
 - If inconclusive: <what estimate or data requirement remains useful>
+- If invalid or data-blocked: <what interpretation is refused and why>
 
 ## Provenance
 - Sources used for context: <citation/URL/date accessed>
 - Code or artifact to reproduce the test: <path or proposed location>
-- No medical or intervention claim is made: <yes>
+- Nearest prior route and its failure: <link and one sentence>
+- What evidence or assumption changes: <one sentence>
+- No medical advice or personal health information is included: <yes>
 ```
 
 ## What Makes An Idea High Value?

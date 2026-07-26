@@ -102,8 +102,8 @@ negative results, and source traceability.
 | Method contribution on-ramp | done | New analytical methods must name a fixed target, fair baseline, independent unit, structure-preserving null, holdout, leakage/confound audit, uncertainty, multiplicity plan, and drop rule; novelty and model agreement remain non-evidence. |
 | Documentation and visual contribution on-ramp | done | Meaning-first contract, bounded wording repairs, status-aware visual semantics, alt/text equivalents, non-color cues, lightweight delivery, human comprehension questions, and exact checks are now explicit. |
 | Patient/public safety boundary | done | Prominent research-not-care boundary prohibits symptom interpretation, treatment decisions, personal health records, and urgent requests; it supplies privacy-safe research reformulations and a fail-closed maintainer response. |
-| GitHub idea-form alignment | in-progress | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
-| Newcomer keyword and misconception index | todo | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
+| GitHub idea-form alignment | done | Ten-element live form now mirrors the bounded test card: status/overread, observation-before-solution, rival/drop rule, independent unit, fair challenge, fail-closed checks, prior route, outcome-specific decisions, and safety/evidence acknowledgements. |
+| Newcomer keyword and misconception index | in-progress | Create a compact find-by-term route to status, dead ends, data needs, and exact source-backed explanations. |
 | Final cross-page drift and safety review | todo | Re-audit all reader pages for status drift, medical-advice ambiguity, stale counts, and broken contribution loops after expansion. |
 | V55 public release note | todo | Summarize the onboarding suite, no-science-change boundary, checks, human-test gap, and contributor entry points. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -561,3 +561,13 @@ negative results, and source traceability.
   maintainer procedure removes rather than analyzes unsafe data. Onboarding
   1929/1929, plain-language 38/38 pages, source coverage 33/33 across 39 reader
   pages, and route depth 17/17 pass. Active time accrued: 3h43m56s.
+- 2026-07-26T21:04:38Z: Aligned the live research-direction issue form with
+  the ten-minute test card, status decoder, known non-solutions, challenge
+  route, and safety boundary. The form keeps ten elements while requiring a
+  current status and forbidden overread, observation before method, rival and
+  drop rule, independent unit, fair challenge, fail-closed outcomes, nearest
+  prior route, and explicit acknowledgement that submission does not change
+  evidence status. Ruby YAML parsing confirms ten elements, nine unique input
+  IDs, and all inputs required. Onboarding 1931/1931, plain-language 38/38
+  pages with no undefined acronyms, source coverage 33/33 across 39 reader
+  pages, and route depth 17/17 pass. Active time accrued: 3h49m24s.

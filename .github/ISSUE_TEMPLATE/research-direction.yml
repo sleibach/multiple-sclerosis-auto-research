@@ -1,5 +1,5 @@
 name: Research direction
-description: Propose a falsifiable method, dataset, analytical reframe, or research direction.
+description: Propose a falsifiable direction, challenge, data source, method, or analytical reframe.
 title: "[Direction] "
 body:
   - type: markdown
@@ -7,13 +7,15 @@ body:
       value: |
         Ideas are welcome. They become project directions only when they can be grounded.
 
-        Start with `docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md` and keep monitoring, mechanism, target, clinical benefit, and progression as separate claims. Do not include patient-specific medical advice or private data.
+        Start with [Your First Idea In Ten Minutes](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/FIRST_IDEA_IN_TEN_MINUTES.md). Check [Known Non-Solutions](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/KNOWN_NON_SOLUTIONS.md), use the [Status Decoder](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/STATUS_DECODER.md), and keep monitoring, mechanism, target, clinical benefit, and progression as separate claims.
+
+        This form is for general research, not personal care. Do not include symptoms, medical records, treatment requests, patient-specific advice, credentials, or private data. Read [Patient And Public Safety](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md).
 
   - type: dropdown
     id: problem
     attributes:
       label: Open problem
-      description: Choose the nearest problem. Explain a genuinely new problem under "Proposal" if none fits.
+      description: Choose the nearest boundary. A challenge, data lead, or method should still name which boundary it changes.
       options:
         - "1 - Small cohort, honest validation"
         - "2 - Break single-cohort dependence"
@@ -30,57 +32,63 @@ body:
   - type: textarea
     id: boundary
     attributes:
-      label: Current boundary
-      description: Name the claim IDs or project artifacts this direction builds on, and the exact limitation it addresses.
-      placeholder: "Claim IDs: M04, C02. Boundary: ..."
+      label: Current boundary and status
+      description: Name claim IDs or controlling artifacts, present status, exact limitation, and the overread your proposal must avoid.
+      placeholder: "Claim IDs: M04, C02. Status: provisional and confound-bounded. Boundary: ... Forbidden overread: ..."
     validations:
       required: true
 
   - type: textarea
     id: proposal
     attributes:
-      label: Proposal and assumptions
-      description: Describe the method, mechanism, dataset, or reframe. Explain why it is not a known closed path and list assumptions.
+      label: Observation before solution
+      description: State the missing distinction or failure first. Then describe the direction, challenge, data source, method, or reframe and its assumptions.
+      placeholder: "Observation: source may encode the outcome. Proposed test: ... Assumptions: ..."
     validations:
       required: true
 
   - type: textarea
     id: prediction
     attributes:
-      label: Falsifiable prediction
-      description: State the observable result, a competing explanation's different prediction, and the result that would make us drop the idea.
+      label: Bounded question, rival, and drop rule
+      description: State one directional prediction, the strongest rival's different prediction, and the result that makes you drop or narrow the idea.
+      placeholder: "If right: ... Rival predicts: ... Drop or narrow if: ..."
     validations:
       required: true
 
   - type: textarea
     id: data
     attributes:
-      label: Data and access
-      description: Name required fields, unit of analysis, verified location or holder, access status, and use/privacy constraints.
+      label: Minimum data, independent unit, and access
+      description: Name required fields/times/outcome, independent person/donor/site/cohort, verified holder, access status, and privacy/use constraints.
+      placeholder: "Independent unit: ... Required fields/times/outcome: ... Holder/access/terms: ..."
     validations:
       required: true
 
   - type: textarea
     id: design
     attributes:
-      label: Test design
-      description: Define the estimand, null or negative control, holdout, multiple-testing budget, small-sample method, and source/batch/confounder checks.
+      label: Fair challenge and fail-closed checks
+      description: Define the estimand, fair baseline, structure-preserving null/control, untouched unit, search budget, uncertainty, and two checks that can stop interpretation.
+      placeholder: "Estimand/baseline: ... Null/holdout/correction: ... Stop as invalid if: ... Stop as data-blocked if: ..."
     validations:
       required: true
 
   - type: textarea
     id: consequence
     attributes:
-      label: Decision consequence
-      description: What changes if supported, not supported, or inconclusive? Keep each consequence bounded.
+      label: Decision consequence by outcome
+      description: What changes if supported, not supported, inconclusive, invalid, or data-blocked? Use workflow/evidence labels from the status decoder.
+      placeholder: "Supported: ... Not supported: ... Inconclusive: ... Invalid/data-blocked: ..."
     validations:
       required: true
 
   - type: textarea
     id: provenance
     attributes:
-      label: Sources and reproducibility
-      description: List context sources with URLs/citations and dates accessed. Link code or describe where a runnable test would live.
+      label: Prior route, sources, and reproducibility
+      description: Name the nearest tested/closed route and what evidence or assumption changes. List dated sources and where a frozen runnable test would live.
+      placeholder: "Nearest route and failure: ... What changes: ... Dated sources: ... Reproduction path: ..."
     validations:
       required: true
 
@@ -88,12 +96,15 @@ body:
     id: safeguards
     attributes:
       label: Safeguards
+      description: Submission starts review; it does not make the idea supported, validated, or a project finding.
       options:
-        - label: I read the nearest closed or negative route and explained how this differs.
+        - label: I checked [Known Non-Solutions](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/KNOWN_NON_SOLUTIONS.md) and explained exactly what changes.
           required: true
         - label: I separated outside-source context from project evidence.
           required: true
-        - label: I included a failure condition rather than making every outcome supportive.
+        - label: I included a rival prediction, fail-closed checks, and a result that drops or narrows the idea.
           required: true
-        - label: This issue contains no patient-specific medical advice or private data.
+        - label: I understand that opening or merging this issue does not change scientific evidence status.
+          required: true
+        - label: This issue follows [Patient And Public Safety](https://github.com/sleibach/multiple-sclerosis-auto-research/blob/main/docs/onboarding/PATIENT_AND_PUBLIC_SAFETY.md) and contains no personal health information, medical advice, credentials, or private data.
           required: true

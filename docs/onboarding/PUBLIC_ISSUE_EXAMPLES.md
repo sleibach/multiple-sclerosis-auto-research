@@ -256,6 +256,9 @@ benefit from synthetic users or data.
 This reformulation can improve safety design. It cannot answer whether the
 monitor works or whether any person should change treatment.
 
+The full no-advice and no-personal-data rule is in
+[Patient And Public Safety](PATIENT_AND_PUBLIC_SAFETY.md).
+
 ## What The Four Examples Teach
 
 | example | workflow result | scientific consequence |
@@ -268,3 +271,6 @@ monitor works or whether any person should change treatment.
 The workflow labels are not evidence grades. Use the
 [status decoder](STATUS_DECODER.md), [response templates](REVIEW_RESPONSE_TEMPLATES.md),
 and [ten-minute idea exercise](FIRST_IDEA_IN_TEN_MINUTES.md) for your own draft.
+The live issue form asks for the same current boundary, observation before
+solution, rival prediction, independent unit, fair challenge, fail-closed
+checks, drop rule, prior route, and outcome-specific decision.
