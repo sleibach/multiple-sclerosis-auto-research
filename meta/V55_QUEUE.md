@@ -28,7 +28,7 @@ negative results, and source traceability.
 - Remote/push status: local `main` and `origin/main` aligned at `3517ad97`.
 - Opening gates: provenance 841/841 and structure 142/142 pass.
 - Grounded findings, locked rules, and preregistrations are immutable.
-- External knowledge remains external-unverifiable and cannot support a project
+- Outside-source context remains segregated and cannot support a project
   conclusion.
 
 ## Backlog
@@ -36,12 +36,12 @@ negative results, and source traceability.
 | item | status | note |
 |---|---|---|
 | Environment, remote, and evidence-boundary health check | done | OpenGWAS expired/HTTP 401 and is routed around; Claude/Gemini/RPT pass; provenance 841/841 and structure 142/142 pass; remote aligned. |
-| Onboarding claim-source matrix | in-progress | Map every planned newcomer-facing statement to authoritative committed artifacts before prose or visuals assert it. |
-| Two-minute plain-language narrative | todo | Explain MS, relapse versus progression, project discipline, and honest frontier without medical prerequisites. |
+| Onboarding claim-source matrix | done | Thirty bounded claim rows resolve to 28 existing project artifacts; every row records allowed scope and a forbidden overread. |
+| Two-minute plain-language narrative | in-progress | Explain MS, relapse versus progression, project discipline, and honest frontier without medical prerequisites. |
 | Fifteen-minute layered narrative | todo | Explain major research arcs, live monitoring lead, closed genetics routes, public-data boundary, and progression result. |
 | Research-map visualization | todo | Web-lightweight SVG showing live, provisional, closed-direction, closed-data, and negative routes. |
 | Monitoring-lead visualization | todo | Explain the bounded APC/HLA-II signal, monitoring-not-target distinction, and external-validation requirement. |
-| Epistemic-class visualization | todo | Plain-language visual separating project-grounded, provisional, external-verifiable, and external-unverifiable knowledge. |
+| Epistemic-class visualization | todo | Plain-language visual separating project-grounded, provisional, and segregated outside-source context. |
 | Relapse-versus-progression visualization | todo | Explain event activity versus disability accumulation without implying a universal clinical trajectory. |
 | Open-problem-board visualization | todo | Visual index of contribution puzzles and known dead ends. |
 | Collaborator open-problem board | todo | Frame grounded frontier gaps as tractable puzzles with useful inputs and anti-patterns. |
@@ -64,3 +64,8 @@ negative results, and source traceability.
   OpenGWAS token has now expired and returned HTTP 401, so all OpenGWAS work is
   disabled pending human renewal. Claude, Gemini, and RPT smoke-pass;
   provenance and structural gates pass. Active time accrued: 0h02m22s.
+- 2026-07-26T17:22:52Z: Completed the onboarding claim-source contract with
+  30 claim rows and 28 unique controlling artifacts. One stale transition
+  report path was corrected during existence checking. The first provenance
+  rerun also caught formal class-marker leakage in this queue; the queue now
+  uses plain-language status terms. Active time accrued: 0h07m38s.
