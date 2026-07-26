@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 24 |
+| Reader-facing pages mapped | 25 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -55,6 +55,7 @@ Different pages intentionally carry different evidence loads:
 | Confound-check quick reference | 3 | 3 | Detection, adjustment, interpretation, and fail-closed checks for source and immune-state alternatives. |
 | Four-case learning path | 17 | 18 | Sequenced lessons on confounding, genetics-to-target, monitor-to-intervention, and snapshot-to-progression errors. |
 | Collaborator workshop guide | 6 | 7 | A privacy-safe path from outsider observation through independent generation, boundary filtering, adversarial review, and issue submission. |
+| Outside-context-to-test case study | 4 | 6 | How literature, database, and model context becomes a falsifiable future test without authority transfer. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
 | Visual text equivalents | 31 | 30 | Accessible linear equivalents for seven diagrams. |
@@ -69,14 +70,14 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 22 of
-the 24 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 23 of
+the 25 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 21 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 22 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
-`docs/reports/FINDINGS_REPORT_V37.md` serves 20 pages and controls eight
+`docs/reports/FINDINGS_REPORT_V37.md` serves 21 pages and controls eight
 context, decoupling, closure, and governance claims.
 
 `docs/findings/FINDING_V22.md` serves 19 pages;

@@ -81,9 +81,10 @@ negative results, and source traceability.
 | Confound-detection quick-reference card | done | Compact screen now covers source, batch, baseline, steroid proxy, immune tone, composition, donor repetition, timing, and observation process with five distinct verdicts. |
 | Case-study learning path | done | Ten- and 45-minute routes connect four recurring inference errors, reflection questions, a reusable correction, and a copy-ready idea rewrite. |
 | Collaborator workshop guide | done | Seventy-five- and 45-minute formats preserve independent generation, evidence rules, boundary filtering, a fair-test card, adversarial swap, and issue routing. |
-| Outside-context-to-test case study | in-progress | Show how literature, database, and model suggestions become falsifiable future tests without acquiring project-evidence authority. |
-| Analogy safety review | todo | Review every newcomer analogy and metaphor for explicit limits so simplification cannot silently become a scientific model. |
+| Outside-context-to-test case study | done | Six-stage path preserves source/class, classifies overlap, removes authority words, defines a prediction, checks data/verb fit, and records any future grounded result separately. |
+| Analogy safety review | in-progress | Review every newcomer analogy and metaphor for explicit limits so simplification cannot silently become a scientific model. |
 | Contributor response lifecycle | todo | Explain what happens after an idea is submitted, including repair, data request, park, close, grounding, and status-update routes. |
+| Numbers-without-overreading guide | todo | Explain effects, intervals, AUC, p/q values, permutation, multiplicity, and sample size without turning thresholds into truth. |
 | Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -369,3 +370,10 @@ negative results, and source traceability.
   medical-advice, access, model-output, and closed-route safeguards remain
   explicit. Onboarding 1368/1368, plain-language 23/23 pages, and source
   coverage 33/33 across 24 reader pages pass. Active time accrued: 2h26m35s.
+- 2026-07-26T19:45:32Z: Completed the outside-context-to-test case study. It
+  preserves source provenance, separates convergence/contradiction/orthogonal/
+  insufficient overlap, strips authority language, requires a discriminating
+  prediction and data-verb match, and allows only a new rerunnable analysis to
+  change project evidence. Onboarding 1386/1386, plain-language 24/24 pages,
+  source coverage 33/33 across 25 reader pages, and provenance 841/841 pass.
+  Active time accrued: 2h30m18s.
