@@ -12,6 +12,7 @@ on:
       - "scripts/v47_provenance_gate.py"
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_onboarding_manifest.py"
       - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
@@ -29,6 +30,7 @@ on:
       - "scripts/v47_provenance_gate.py"
       - "scripts/v51_structural_prediction_gate.py"
       - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_onboarding_manifest.py"
       - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
@@ -87,6 +89,9 @@ jobs:
       - name: Verify the collaborator brief prints to one page
         run: python3 scripts/v55_print_brief_audit.py --fail-on-error
 
+      - name: Verify authored onboarding artifact manifest is current
+        run: python3 scripts/v55_onboarding_manifest.py --check --fail-on-error
+
       - name: Upload lightweight audit reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -101,6 +106,8 @@ jobs:
             analysis/v55_onboarding_audit/onboarding_audit_summary.json
             analysis/v55_onboarding_audit_synthetic/synthetic_fixture_results.tsv
             analysis/v55_onboarding_audit_synthetic/synthetic_fixture_summary.json
+            analysis/v55_onboarding_manifest/artifact_manifest.tsv
+            analysis/v55_onboarding_manifest/artifact_manifest_summary.json
             analysis/v55_plain_language_audit/acronym_inventory.tsv
             analysis/v55_plain_language_audit/document_metrics.tsv
             analysis/v55_plain_language_audit/long_sentences.tsv

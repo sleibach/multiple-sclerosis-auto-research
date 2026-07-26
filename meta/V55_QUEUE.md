@@ -71,8 +71,8 @@ negative results, and source traceability.
 | Narrow-screen and print review | done | Browser-backed 18-scenario audit finds zero wrapper overflows but all constrained uses require text equivalents; the delivery rule and CI check now enforce that distinction. |
 | One-page collaborator brief | done | Responsive HTML prints to one A4 page and has a source-covered linear Markdown equivalent; the status strip foregrounds one provisional monitor, no target, no progression result, and exact data needs. |
 | Repository tour | done | Path-by-role tour distinguishes findings, reports, workups, outputs, frozen plans, data, outside context, operational state, and legacy trees; includes safe audit and contribution routes. |
-| Maintainer release checklist | in-progress | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
-| Null and inconclusive result explainer | todo | Explain why negative-established, inconclusive, unscoreable, and data-blocked are different and decision-useful. |
+| Maintainer release checklist | done | Human/machine release path distinguishes wording from evidence changes; generated 47-file authored-artifact manifest records role, size, and hash without claiming scientific validation. |
+| Null and inconclusive result explainer | in-progress | Explain why negative-established, inconclusive, unscoreable, and data-blocked are different and decision-useful. |
 | Brain-bank confound case study | todo | Walk a newcomer through the V53 source/diagnosis entanglement and correction without turning it into a general anti-brain-bank claim. |
 | Genetics reversal case study | todo | Show how GPR25/PTGER4 moved from attractive stories to bounded closures and what exact evidence would reopen them. |
 | Monitoring-versus-target case study | todo | Trace why a useful observer does not identify the intervention and what causal layers are missing. |
@@ -290,3 +290,10 @@ negative results, and source traceability.
   plain-language 15/15 pages, source coverage 33/33 across 16 reader pages,
   provenance 841/841, and structure 142/142 pass. Refilled the backlog with six
   substantive clarity tasks. Active time accrued: 1h53m10s.
+- 2026-07-26T19:11:18Z: Completed the maintainer release path. The checklist
+  distinguishes wording/layout, source-artifact, outside-context, locked-rule,
+  and genuine scientific-state changes; requires both human meaning review and
+  the full check suite; and supplies a release-note template. A generated
+  47-file authored-artifact manifest records role, byte size, and SHA-256 while
+  stating that identity is not scientific validity. Onboarding 1166/1166 and
+  manifest write/check pass. Active time accrued: 1h56m04s.
