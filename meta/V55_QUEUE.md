@@ -48,8 +48,8 @@ negative results, and source traceability.
 | Contribution on-ramp | done | Guide provides a fast reading route, evidence-status map, copy-ready testable-idea schema, evaluation pipeline, language guardrails, and checklist; GitHub issue form operationalizes it. |
 | Plain-language glossary | done | Defines 50+ medical, design, statistical, genetics, druggability, and project-discipline terms, ending with five interpretation-critical distinctions. |
 | Myths-versus-findings page | done | Twenty-one tempting upgrades are paired with bounded corrections, change conditions, claim IDs, and a nine-row short-form interpretation table. |
-| Per-lead status cards | in-progress | Compact source-linked summaries for the monitoring lead, progression frontier, genetics closures, and exploratory states. |
-| Accessibility and visual semantic audit | todo | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
+| Per-lead status cards | done | Nine source-linked cards cover the live monitor, coupled context, genetics context/closures, microglia candidate, progression boundary, joint-search null, and simulator negative. |
+| Accessibility and visual semantic audit | in-progress | Check contrast, keyboard/text fallback, alt text, SVG titles/descriptions, jargon load, and color-independent status encoding. |
 | Onboarding traceability checker | todo | Machine-check source links, evidence/status labels, forbidden overclaims, visual metadata, and file-size limits. |
 | Public navigation integration | todo | Add onboarding entry points without displacing scientific source artifacts. |
 | Independent newcomer comprehension audit | todo | Test whether key distinctions can be recovered from onboarding alone; models may propose confusion points, never facts. |
@@ -114,3 +114,7 @@ negative results, and source traceability.
   Twenty-one realistic overreads are corrected with the bounded result and the
   evidence that would change it; negatives, closures, simulations, AI lenses,
   and outside context receive equal treatment. Active time accrued: 0h33m28s.
+- 2026-07-26T17:50:12Z: Completed nine compact lead/frontier status cards with
+  17 artifact links and explicit status-change conditions. The one-line
+  inventory states one clinical validation route, no intervention-grade target,
+  and no established progression mechanism. Active time accrued: 0h34m58s.
