@@ -17,7 +17,7 @@ drug target, or a progression mechanism. `[E01, P01, P02]`
 ### What is the strongest live result?
 
 A fixed score based on early changes in APC/HLA-II-related blood expression is
-the one live clinical lead. It may be useful for **monitoring** whether biology
+the one live research lead. It may be useful for **monitoring** whether biology
 changes after treatment. It has encouraging but small internal evidence and
 still needs a correctly structured independent cohort. It is not yet a
 validated biomarker or clinical tool. `[M01-M04, A01]`
@@ -257,4 +257,3 @@ decision consequence, provenance, and explicit failure condition.
 - Pick an [open problem](OPEN_PROBLEMS_FOR_COLLABORATORS.md).
 - Check the [lead status cards](LEAD_STATUS_CARDS.md) before proposing a target.
 - Use the [glossary](GLOSSARY.md) whenever a term is unclear.
-

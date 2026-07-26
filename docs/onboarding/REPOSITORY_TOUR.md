@@ -72,7 +72,9 @@ scientific evidence state.
 
 ## How To Audit One Scientific Claim
 
-Suppose you encounter: “The APC/HLA-II score is the one live clinical lead.”
+Suppose you encounter the imprecise shorthand: “The APC/HLA-II score is the one
+live clinical lead.” The audit below shows why the safer wording is “one live
+research lead with a possible future monitoring role.”
 
 1. Find its claim ID, `[M01]`, in the
    [machine-readable source contract](ONBOARDING_CLAIM_SOURCES_V55.tsv).
@@ -234,4 +236,3 @@ outputs, or evidence. Communication improvements must not change claim status.
 When uncertain, start from the current status and claim-source contract, then
 walk downward to the controlling artifact and rerunnable output. That route is
 slower than browsing by filename and much less likely to create a false story.
-

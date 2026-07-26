@@ -60,7 +60,7 @@ not to assume and what exact evidence would be needed to reopen it.
 
 ### What Has It Found?
 
-There is **one live clinical lead**, and it is provisional: an early-treatment
+There is **one live research lead**, and it is provisional: an early-treatment
 score based on changes in antigen-presentation genes, called the scope-limited
 (“bounded”) APC/HLA-II score. It may help monitor whether a person's immune state is
 changing soon after treatment. It is not a drug target, treatment selector,
@@ -91,7 +91,7 @@ The project also established useful context and closures:
   target or a better prediction rule. `[D01, D02 | Supported context plus
   negative]`
 - A joint search across the assembled corpus recovered known immune structure
-  but found no unexpected signal that passed held-out validation. This bounds
+  but found no unexpected signal that passed the held-out-modality gate. This bounds
   further unconstrained mining of this corpus; it does not claim that all
   computation or all future public data are exhausted. `[D04, D05 | Corpus
   boundary]`
@@ -215,7 +215,7 @@ Its evidence is encouraging but small and bounded:
 - In the pooled 19-person evidence set, the fixed score reached AUC 0.811 with
   permutation `p=0.008`. `[M03]`
 - Alternative implementations gave similar conclusions, while more flexible
-  models were unstable and did not improve validated performance. `[M03,
+  models were unstable and did not improve internal small-cohort performance. `[M03,
   D02]`
 - The rule did not work uniformly across all tested therapies or diseases.
   `[M02]`

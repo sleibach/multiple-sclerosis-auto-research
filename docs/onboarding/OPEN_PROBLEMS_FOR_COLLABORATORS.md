@@ -27,7 +27,7 @@ directions on this page have **zero finding status** until they are tested.
 honest external test when the available cohort may be small?
 
 **What is known.** The fixed APC/HLA-II early-change score is the project's one
-live clinical lead. Its internal evidence set has 19 people, and broader immune
+live research lead. Its internal evidence set has 19 people, and broader immune
 tone attenuates it. A frozen preregistration specifies pass, fail, and
 inconclusive outcomes. `[M01, M03, M04, A01]`
 

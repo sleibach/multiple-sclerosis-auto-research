@@ -24,8 +24,9 @@ own. `[C01-C02]`
 What remains is narrower:
 
 - a quality-qualified `CD44`/`CXCR4`-high microglial state association;
-- support from GSE111972 and a source-study-robust Macnair validation
-  composite;
+- support from GSE111972 and the source-study-robust Macnair composite named
+  “validation” within that package; the label is not external progression
+  validation;
 - no established progression specificity, lesion localization, causal
   mechanism, intervention direction, or target; and
 - a requirement for source-balanced donor replication before a stronger claim.
@@ -91,8 +92,8 @@ therefore did not survive the source-aware analysis. `[C02]`
 
 ### 4. Check Other Partitions Rather Than Generalize One Failure
 
-GSE111972 and the Macnair validation composite still supported the bounded
-state association. A separate 14-MS/3-control sensitivity dataset did not
+GSE111972 and the Macnair composite named “validation” still supported the
+bounded state association. A separate 14-MS/3-control sensitivity dataset did not
 support it. The evidence is therefore mixed and quality-qualified, not a clean
 universal replication and not a total erasure. `[C01]`
 

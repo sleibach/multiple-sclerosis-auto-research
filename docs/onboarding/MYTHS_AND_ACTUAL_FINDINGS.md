@@ -61,7 +61,7 @@ score.
 ### “A more sophisticated model should outperform the simple score.”
 
 **What it actually found:** Tested flexible, coupled-axis, receptor-only, and
-generic dynamic alternatives did not improve validated performance and were
+generic dynamic alternatives did not improve internal small-cohort performance and were
 often less stable in the small data. `[M03, D02]`
 
 **What it does not mean:** Simplicity is universally superior. It means model
@@ -140,7 +140,7 @@ clearly separated from patient prediction.
 ### “Public-data computation is exhausted forever.”
 
 **What it actually found:** In the assembled held corpus, none of 22 unexpected
-joint candidates passed recurrence plus held-out validation, with a corpus-
+joint candidates passed recurrence plus the held-out-modality gate, with a corpus-
 specific upper bound of 0.127 under that gate. `[D04]`
 
 **What it means:** More unconstrained mining of the same assembled evidence is

@@ -177,7 +177,7 @@ null that includes model selection, complexity has not added evidence.
   locked scalar. `[D02]`
 - A broad patient-level simulator could not be validated. `[D03]`
 - Joint inference recovered known structure but no unexpected candidate passed
-  recurrence plus held-out validation. `[D04]`
+  recurrence plus the held-out-modality gate. `[D04]`
 
 ### What would change the answer
 
@@ -306,4 +306,3 @@ Do not ask only “Is the lead alive?” Ask:
 Use the [worked transformations](IDEA_TRANSFORMATIONS.md) to rewrite a proposal
 and the [triage rubric](IDEA_TRIAGE_RUBRIC.md) to decide whether it is runnable,
 data-gated, repairable, or still closed.
-

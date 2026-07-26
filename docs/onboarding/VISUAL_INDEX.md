@@ -24,8 +24,9 @@ status and source references carry the meaning.
 decoupling, while KIF21B/GPR25 and PTGER4 routes closed on direction or
 evidence. Treatment monitoring contains the one live provisional APC/HLA-II
 score, bounded by small n, mixed generalization, and immune tone. Systems work
-supports coupled APC context but found no complexity gain, validated simulator,
-or unexpected joint signal. Progression has no established marker or target and
+supports coupled APC context but found no complexity gain; the broad simulator
+failed its validation gate; and no unexpected joint signal passed the
+held-out-modality gate. Progression has no established marker or target and
 requires a longitudinal molecular-to-confirmed-disability cohort. The two open
 edges are a frozen independent monitoring validation and correctly designed
 progression data. `[G01-G05, M01-M04, D01-D05, P01, P02, P06, A01, A02]`
@@ -120,7 +121,7 @@ APC/HLA-II score survived statistical and confounder testing as one provisional,
 immune-tone-bounded monitor, not a target. Coupled APC architecture remained
 supported context, while added complexity and a broad simulator failed their
 predictive bars. Joint inference returned known structure but zero of 22
-unexpected held-out-validated candidates, bounding further mining of the held
+unexpected candidates passed the held-out-modality gate, bounding further mining of the held
 corpus. Preregistration and synthetic checks improved validation readiness
 without adding biological evidence. Progression work downgraded a morphology
 pattern, retained CD44/CXCR4 by identity only, and exposed the missing

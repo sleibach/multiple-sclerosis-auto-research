@@ -416,7 +416,7 @@ what is biologically true in MS. `[A03]`
 
 **Corpus boundary / exhaustion**  
 A quantified decision that unconstrained mining of the assembled held corpus
-did not produce an unexpected held-out-validated signal under the stated gate.
+did not produce an unexpected signal passing the held-out-modality gate.
 It is not a ban on new data, targeted reanalysis, or future methods. `[D04,
 D05]`
 

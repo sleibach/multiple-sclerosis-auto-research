@@ -156,7 +156,7 @@ and [Cohort Acquisition Spec](../validation/PROGRESSION_COHORT_ACQUISITION_SPEC_
 **Claim IDs:** `[D04, D05]`
 
 **What it says:** Joint inference recovered known APC/immune-tone structure, but
-none of 22 unexpected candidates passed recurrence plus held-out validation.
+none of 22 unexpected candidates passed recurrence plus the held-out-modality gate.
 The corpus-specific upper bound under that gate was 0.127.
 
 **What it does not say:** All public data, methods, or future computation are
@@ -194,6 +194,6 @@ directional scores as simulation.
 |---|---|---|---|
 | Bounded APC/HLA-II monitoring | Coupled APC architecture; MS-UC backdrop; ZMIZ1 decoupling | chr1/GPR25; PTGER4; broad simulator; coupled-feature successor | CD44/CXCR4 progression test; progression frontier; independent monitoring cohorts |
 
-There is one live clinical validation route, no intervention-grade target, and
+There is one live route to independent monitoring validation, no intervention-grade target, and
 no established progression mechanism. That is the honest frontier these cards
 are designed to preserve.

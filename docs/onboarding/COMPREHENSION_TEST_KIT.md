@@ -104,7 +104,7 @@ immediately and show the relevant source-linked boundary.
 
 ## Questions
 
-### Q01 · What is the one live clinical lead?
+### Q01 · What is the one live research lead?
 
 Ask: **What is the strongest live result, and what kind of thing is it?**
 
@@ -190,7 +190,7 @@ invalid.
 ### Q09 · What does “discovery exhausted” mean here?
 
 Expected concept: the same assembled corpus and tested joint gate yielded no
-unexpected held-out-validated signal, making genuinely new data preferable to
+unexpected signal that passed the held-out-modality gate, making genuinely new data preferable to
 more unconstrained mining. It is not a universal limit on biology or future
 methods. `[D04-D05]`
 

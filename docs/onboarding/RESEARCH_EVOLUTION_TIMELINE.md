@@ -55,7 +55,7 @@ later treatment response?
 **What survived.** The rule was locked before the next test. Across its bounded
 19-person internal evidence set, the simple score survived multiple statistical
 stress tests and outperformed the more flexible alternatives tested there. It
-remains the project's one live clinical lead. `[M01, M03]`
+remains the project's one live research lead. `[M01, M03]`
 
 **What narrowed.** Results were mixed across therapies and disease contexts.
 The score was not explained by the tested steroid-response or simple
@@ -218,4 +218,3 @@ The program did not march from target to cure. It repeatedly changed its mind:
 
 That pattern is the point. The repository's useful output is not only what
 survived, but a traceable record of why attractive alternatives did not.
-

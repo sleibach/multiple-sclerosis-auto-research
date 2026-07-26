@@ -1,6 +1,6 @@
 # Case Study: A Useful Monitor Is Not A Drug Target
 
-The project's one live clinical lead measures an early treatment-related
+The project's one live research lead measures an early treatment-related
 change. It may eventually help tell whether a person's immune biology is moving
 into a favorable state. It does not identify which molecule should be blocked,
 activated, restored, or replaced.
