@@ -233,4 +233,9 @@ Use the [status decoder](STATUS_DECODER.md) and
 [review-response templates](REVIEW_RESPONSE_TEMPLATES.md). Continue with
 [question starters](QUESTION_STARTERS_BY_DISCIPLINE.md), the
 [challenge guide](CHALLENGE_THE_PROJECT.md), or the general
-[contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md).
+[contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md). Compare the
+[method example](CONTRIBUTION_EXAMPLES_BY_TYPE.md), check the
+[safety boundary](PATIENT_AND_PUBLIC_SAFETY.md), and submit through the
+[research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+Submission changes workflow status only; method behavior and scientific
+evidence remain separate.

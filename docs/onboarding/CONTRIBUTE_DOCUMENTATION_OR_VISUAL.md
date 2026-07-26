@@ -209,4 +209,11 @@ prove that a human understood the intended boundary.
 
 Continue with the [accessibility audit](ACCESSIBILITY_AUDIT_V55.md),
 [visual guide](VISUAL_INDEX.md), [plain-language review](PLAIN_LANGUAGE_REVIEW_V55.md),
-or root [contribution guide](../../CONTRIBUTING.md).
+or root [contribution guide](../../CONTRIBUTING.md). Compare the
+[documentation/visual example](CONTRIBUTION_EXAMPLES_BY_TYPE.md), preserve the
+[safety boundary](PATIENT_AND_PUBLIC_SAFETY.md), and read the
+[review-response templates](REVIEW_RESPONSE_TEMPLATES.md). Propose the change
+through the
+[research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml)
+or submit a pull request under the root contribution guide. Neither route
+changes evidence unless a separate eligible scientific run does so.

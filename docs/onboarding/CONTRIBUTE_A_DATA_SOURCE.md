@@ -230,4 +230,9 @@ changes a finding.
 
 Continue with the [data-needed map](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md),
 [open problem 2](OPEN_PROBLEMS_FOR_COLLABORATORS.md#problem-2-remove-dependence-on-one-hard-to-access-cohort),
-or the general [contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md).
+or the general [contribution guide](HOW_TO_CONTRIBUTE_IDEAS.md). Compare the
+[data-source example](CONTRIBUTION_EXAMPLES_BY_TYPE.md), check the
+[safety boundary](PATIENT_AND_PUBLIC_SAFETY.md), and then use the
+[research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+The [contributor lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) explains every review
+outcome; opening an issue does not make the source eligible or change evidence.

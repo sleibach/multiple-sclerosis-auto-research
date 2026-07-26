@@ -111,19 +111,19 @@ negative results, and source traceability.
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
 | External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
-| Heading and table semantic QA | done | Automated review currently passes 2,217 checks over 70 documents, 1,007 headings, and 106 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
+| Heading and table semantic QA | done | Automated review currently passes 2,230 checks over 71 documents, 1,011 headings, and 107 tables; repeated leaf labels are context-qualified and no full heading path is duplicated. |
 | Human pilot recruitment handoff | done | Privacy-minimal recruitment, screening, invitation, route assignment, scheduling, packet, reporting limits, and readiness checks now operationalize the frozen pilot without claiming it ran. |
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
 | Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
 | Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
 | Release-checklist synchronization | done | CI and maintainer order now include CONTRIBUTING triggers, route/semantic audits, explicit gate failure, link review, clean clone, and honest human-pilot status. |
-| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 69 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
+| Public-index completeness audit | done | Route audit now fail-closes orphan/dead-end pages and proves all 70 public documents are root-reachable, inbound-linked except root, outbound-linked, and able to return to landing. |
 | Contribution copy/paste review | done | All primary copied blocks and 13 review templates retain safety/evidence boundaries; no TODO/TBD/FIXME or angle prompt outside fences; ambiguous identifier request repaired. |
 | Anti-duplication route check | done | All eight puzzles now have an explicit crosswalk to a scoped stop list, current status, and artifact-appropriate contribution action; closure scope remains explicit. |
 | Public package footprint review | todo | Measure onboarding files and visuals, verify lightweight delivery, and identify any accidentally heavy or generated asset before release. |
 | Issue-form field-to-guide mapping review | done | All nine required input groups now map to a plain-language purpose, focused repair guide, minimum answer, and one bounded mini-example; the live form links the guide. |
-| Contributor-route cross-link consistency | todo | Verify data, method, documentation, and challenge guides all reach examples, safety limits, the live form, and review outcomes. |
+| Contributor-route cross-link consistency | done | Data, method, documentation/visual, and challenge guides now all reach a type-specific example, safety limit, submission action, and review-outcome explanation. |
 | Latest public CI verification | todo | Confirm the pushed onboarding workflow runs the current audit set successfully and record any GitHub-only delivery gap. |
 | Final public release-note synchronization | todo | Update release-facing counts and bounded-status summary after the last public artifacts are fixed. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -759,3 +759,11 @@ negative results, and source traceability.
   the form remains valid. Onboarding 2,425/2,425, source coverage 33/33,
   connectivity 69/69, 17 core routes, and semantic structure 2,217/2,217 pass.
   Active time accrued: 4h55m17s.
+- 2026-07-26T22:12:05Z: Completed specialized contributor-route consistency.
+  The data, method, documentation/visual, and adversarial-challenge guides now
+  each reach a type-specific worked example, the patient/public safety limit,
+  a live submission or pull-request action, and an explanation of review
+  outcomes. Shared exits do not erase each route's distinct eligibility or
+  test-design requirements. Onboarding 2,452/2,452, source coverage 33/33,
+  connectivity 70/70, 17 core routes, and semantic structure 2,230/2,230 pass.
+  Active time accrued: 4h56m51s.

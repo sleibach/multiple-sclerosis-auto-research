@@ -138,6 +138,7 @@ Start with the source artifacts rather than onboarding prose:
 | Inspect the public package from a clean shallow clone | [Clean-Clone Smoke Test](CLEAN_CLONE_SMOKE_TEST_V55.md) |
 | Inspect whether contributor templates remain safe when copied | [Copy/Paste Safety Review](COPY_PASTE_SAFETY_REVIEW_V55.md) |
 | Verify every open puzzle reaches a scoped stop list, current status, and contribution action | [Anti-Duplication Route Review](ANTI_DUPLICATION_ROUTE_REVIEW_V55.md) |
+| Verify every specialized contribution guide reaches examples, safety, submission, and review outcomes | [Contributor Route Consistency Review](CONTRIBUTOR_ROUTE_CONSISTENCY_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |

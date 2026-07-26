@@ -226,8 +226,14 @@ Before submitting:
 - find the claim in the [source matrix](CLAIM_SOURCE_MATRIX_V55.md);
 - complete the challenge card;
 - check the [status decoder](STATUS_DECODER.md); and
-- use the repository research-direction issue form.
+- check the [challenge example](CONTRIBUTION_EXAMPLES_BY_TYPE.md) and
+  [safety boundary](PATIENT_AND_PUBLIC_SAFETY.md); and
+- use the
+  [research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
 
 The best challenge may strengthen a bounded conclusion, narrow it, expose an
 artifact, reopen a route with genuinely new evidence, or save the project from
 an unnecessary analysis. All are valuable outcomes when the test is fair.
+The [review-response templates](REVIEW_RESPONSE_TEMPLATES.md) and
+[contributor lifecycle](WHAT_HAPPENS_TO_YOUR_IDEA.md) show how a challenge is
+routed without treating submission or model agreement as evidence.
