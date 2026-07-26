@@ -122,4 +122,7 @@ response, or provide urgent help. See [Patient And Public Safety](PATIENT_AND_PU
 Start at the [onboarding landing page](README.md), choose a
 [discipline route](COLLABORATOR_ROUTES.md), or read
 [how to contribute an idea](HOW_TO_CONTRIBUTE_IDEAS.md). For a bounded first
-task, use the [starter contribution board](STARTER_CONTRIBUTIONS.md).
+task, use the [starter contribution board](STARTER_CONTRIBUTIONS.md). When the
+test card is ready, [open the research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+The form is for general research only; include no personal health information,
+credentials, private data, or requests for medical advice.

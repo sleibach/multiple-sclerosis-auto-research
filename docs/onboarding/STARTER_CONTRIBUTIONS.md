@@ -240,10 +240,12 @@ re-search as the countertest. `[E01-E03]`
 
 ## Submit Or Ask For Repair
 
-Start with the root [contribution guide](../../CONTRIBUTING.md) and the live
-research-direction issue form. If the task produces only documentation or
-code, a focused pull request can be more appropriate than a research-direction
-issue. State explicitly that scientific evidence status is unchanged.
+Start with the root [contribution guide](../../CONTRIBUTING.md) and
+[open the live research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+Do not include personal health information, credentials, private data, or a
+request for medical advice. If the task produces only documentation or code, a
+focused pull request can be more appropriate than a research-direction issue.
+State explicitly that scientific evidence status is unchanged.
 
 Review grades the contribution, not the contributor. A useful partial result
 can be returned with one named repair rather than forced into “accepted” or

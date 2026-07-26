@@ -109,8 +109,8 @@ negative results, and source traceability.
 | Public collaborator invitation | done | Shareable invitation states the unchanged frontier, eight skill families, six puzzles, five-part useful-idea contract, honest review outcomes, and no-advice/no-personal-data boundary. |
 | Starter contribution board | done | Twelve first tasks span comprehension, test cards, visual/accessibility, writing, synthetic leakage/package checks, confounds, validation design, cohort metadata, perturbation design, reproducibility, and countertests. |
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
-| Direct issue-launch and remote-render check | in-progress | Add a safe direct issue-form URL, verify the pushed template renders on GitHub, and preserve the ten-element test contract. |
-| External-link and link-label QA | todo | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
+| Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
+| External-link and link-label QA | in-progress | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
 | Heading and table semantic QA | todo | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
 | Human pilot recruitment handoff | todo | Create a privacy-safe invitation and session logistics note for running the already-defined comprehension/idea-production pilot; do not claim a run. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
@@ -630,3 +630,14 @@ negative results, and source traceability.
   runnable test from a completed run. Onboarding 2241/2241, plain-language
   43/43 pages, source coverage 33/33 across 44 reader pages, and route depth
   17/17 pass. Active time accrued: 4h13m33s.
+- 2026-07-26T21:32:08Z: Completed the direct issue-launch and remote-delivery
+  check. Five high-value contributor routes now use a descriptive direct URL
+  and keep the no-personal-data/no-advice warning adjacent. The pushed YAML
+  exactly matches the local SHA-256, contains 10 body elements and 9 unique
+  input IDs, and makes every non-markdown input required. The public route
+  resolves to GitHub sign-in as expected; the authenticated CLI fetched the
+  live template and reached its required-title prompt, then was cancelled
+  without creating an issue. No authenticated browser was available, so a
+  visual post-login render is not claimed. Onboarding 2241/2241,
+  plain-language 43/43 pages, source coverage 33/33 across 44 reader pages,
+  and route depth 17/17 pass. Active time accrued: 4h16m54s.

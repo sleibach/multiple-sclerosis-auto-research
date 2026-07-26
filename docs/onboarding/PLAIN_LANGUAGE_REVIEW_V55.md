@@ -69,8 +69,8 @@ Current result: `PASS`.
 | measure | result |
 |---|---:|
 | Reader-facing documents | 43 |
-| Prose words measured | 44,076 |
-| Sentences measured | 4,686 |
+| Prose words measured | 44,165 |
+| Sentences measured | 4,692 |
 | Mean words per sentence across the suite | 9.4 |
 | Sentences over 30 words | 16 (0.4%) |
 | Sentences over 65 words | 0 |

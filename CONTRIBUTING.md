@@ -17,7 +17,7 @@ boundary before submitting any health-adjacent question or data lead.
 | Understand the current state | [`docs/onboarding/README.md`](docs/onboarding/README.md) |
 | Find a problem matching my skills | [`docs/onboarding/COLLABORATOR_ROUTES.md`](docs/onboarding/COLLABORATOR_ROUTES.md) |
 | Pick a bounded starter task | [`docs/onboarding/STARTER_CONTRIBUTIONS.md`](docs/onboarding/STARTER_CONTRIBUTIONS.md) |
-| Propose a research direction | [`docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md`](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md) or the **Research direction** issue form |
+| Propose a research direction | [`docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md`](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md) or [open the Research direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml) |
 | See how ideas are triaged | [`docs/onboarding/IDEA_TRIAGE_RUBRIC.md`](docs/onboarding/IDEA_TRIAGE_RUBRIC.md) |
 | Avoid repeating a closed route | [`docs/onboarding/LEAD_STATUS_CARDS.md`](docs/onboarding/LEAD_STATUS_CARDS.md) and [`docs/onboarding/MYTHS_AND_ACTUAL_FINDINGS.md`](docs/onboarding/MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Inspect formal evidence classes | [`docs/knowledge/EPISTEMIC_CLASSES.md`](docs/knowledge/EPISTEMIC_CLASSES.md) |
@@ -41,7 +41,9 @@ and interpretation must follow the project's existing gates.
 
 ### Research-direction idea
 
-Use the issue form or the copy-ready idea template. At minimum include:
+Use the [research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml)
+or the copy-ready idea template. Do not include personal health information,
+credentials, private data, or requests for medical advice. At minimum include:
 
 - current boundary and relevant claim IDs;
 - observable prediction and competing explanation;

@@ -31,10 +31,12 @@ V55 is communication and onboarding only. It introduces no scientific claim.
    [open problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md#pick-a-puzzle).
 2. Read its known non-solutions.
 3. Use [the contribution guide and idea template](HOW_TO_CONTRIBUTE_IDEAS.md).
-4. Open a research-direction issue using the repository issue form. A useful
-   idea states what it predicts and the data it needs. It also names a fair
-   comparison or untouched test set, how chance findings will be controlled,
-   and a result that would make us drop it.
+4. [Open the research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+   A useful idea states what it predicts and the data it needs. It also names
+   a fair comparison or untouched test set, how chance findings will be
+   controlled, and a result that would make us drop it. Do not include personal
+   health information, credentials, private data, or requests for medical
+   advice.
 
 ### I Want To Invite Someone Else
 

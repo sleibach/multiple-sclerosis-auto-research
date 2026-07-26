@@ -230,3 +230,8 @@ You are not expected to have every implementation detail. You are expected to
 make the uncertainty and missing pieces visible. That is enough for the project
 to decide whether the next step is a runnable test, a data request, or an honest
 closure.
+
+When the checklist is complete,
+[open the research-direction issue form](https://github.com/sleibach/multiple-sclerosis-auto-research/issues/new?template=research-direction.yml).
+The form is for general research only. Do not include personal health
+information, credentials, private data, or a request for medical advice.
