@@ -72,6 +72,9 @@ pass. `[D02, A01]`
 **Plain question:** Can we obtain or construct a legitimate independent test
 without pretending that an unlabeled or mismatched dataset is suitable?
 
+Use the [data-source contribution checklist](CONTRIBUTE_A_DATA_SOURCE.md) to
+verify a candidate before counting it as usable.
+
 **What is known.** An audited multi-repository search found no fresh public,
 ready-to-run primary validation cohort. Gafson, a candidate external cohort,
 remains an access request. Karolinska, a second candidate, has useful

@@ -98,8 +98,8 @@ negative results, and source traceability.
 | Public issue example set | done | Four fictional issues show ready-for-triage, design repair, duplicate/closed, and unsafe forms plus bounded reviewer responses and safe reformulation. |
 | Challenge-the-project guide | done | Ten challenge types and four high-value targets now require an exact claim/source, rival prediction, fair countertest, failure conditions, and status consequence. |
 | Human comprehension pilot refinement | done | Added a distinct idea-production Route C, Q13-Q15, scorecard rows, failure-to-page repairs, and a one-page facilitator handoff; no human run is claimed. |
-| Data-source contribution on-ramp | in-progress | Teach contributors to verify pairing, outcomes, timing, genes, source, permissions, and independent units before proposing a cohort. |
-| Method contribution on-ramp | todo | Translate a new algorithm into a fair baseline, null, holdout, leakage audit, multiplicity plan, and drop rule without novelty-as-evidence. |
+| Data-source contribution on-ramp | done | Six role-specific paths require permanent sources, access terms, independent units, field-by-field eligibility, safe aggregates, and non-evidentiary workflow status. |
+| Method contribution on-ramp | in-progress | Translate a new algorithm into a fair baseline, null, holdout, leakage audit, multiplicity plan, and drop rule without novelty-as-evidence. |
 | Documentation and visual contribution on-ramp | todo | Show how to improve explanation or visuals while retaining claim IDs, status, alt text, size limits, and evidence boundaries. |
 | Patient/public safety boundary | todo | Create a prominent no-medical-advice/no-personal-data route with safe general research alternatives. |
 | GitHub idea-form alignment | todo | Align the live issue form with the ten-minute card, status decoder, known non-solutions, safety boundary, and challenge route. |
@@ -528,3 +528,11 @@ negative results, and source traceability.
   1806/1806, route depth 17/17, plain-language, source coverage, provenance, and
   structural checks pass. Active time accrued: 3h31m13s. Refilled the backlog
   with eight contributor-content and final-integrity tasks.
+- 2026-07-26T20:49:47Z: Completed the data-source contribution on-ramp. Six
+  decision roles now require permanent source/access records, verified
+  independent units, field-by-field monitoring/progression/source-balance
+  eligibility, privacy-safe aggregate structure, and one of seven honest
+  workflow statuses. The guide rejects common false-ready states without
+  turning missing fields into absent biology. Onboarding 1842/1842,
+  plain-language 35/35 pages, source coverage 33/33 across 36 reader pages, and
+  route depth 17/17 pass. Active time accrued: 3h34m33s.
