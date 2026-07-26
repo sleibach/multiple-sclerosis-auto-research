@@ -14,6 +14,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 V55 adds an explainability and collaboration layer for readers without a
 medical background. It changes no scientific finding.
 
+- [Choose a route from the onboarding landing page](docs/onboarding/README.md)
 - [Two-minute and fifteen-minute explanation](docs/onboarding/MS_RESEARCH_EXPLAINED.md)
 - [Visual map of live, closed, negative, and data-blocked routes](docs/onboarding/VISUAL_INDEX.md)
 - [Eight open problems for cross-disciplinary collaborators](docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md)

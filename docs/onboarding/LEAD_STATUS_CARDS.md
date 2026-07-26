@@ -197,3 +197,9 @@ directional scores as simulation.
 There is one live route to independent monitoring validation, no intervention-grade target, and
 no established progression mechanism. That is the honest frontier these cards
 are designed to preserve.
+
+## Continue
+
+- [Return to the onboarding routes](README.md)
+- [Choose an open collaborator problem](OPEN_PROBLEMS_FOR_COLLABORATORS.md)
+- [Read the full layered explanation](MS_RESEARCH_EXPLAINED.md)

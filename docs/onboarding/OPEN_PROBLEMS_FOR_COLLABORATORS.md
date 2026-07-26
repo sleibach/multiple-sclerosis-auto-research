@@ -362,3 +362,9 @@ method; it cannot evaluate an idea that has no observable prediction.
 The purpose of this board is not to make contribution easy by lowering the
 bar. It is to make the real bar visible enough that a person from another field
 can clear it.
+
+## Continue
+
+- [Turn a chosen problem into a testable submission](HOW_TO_CONTRIBUTE_IDEAS.md)
+- [See what happens after submission](WHAT_HAPPENS_TO_YOUR_IDEA.md)
+- [Return to the onboarding routes](README.md)

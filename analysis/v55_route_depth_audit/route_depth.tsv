@@ -1,0 +1,18 @@
+route_id	start	target	max_hops	actual_hops	path	status
+root_to_landing	README.md	docs/onboarding/README.md	1	1	README.md -> docs/onboarding/README.md	PASS
+root_to_two_minute	README.md	docs/onboarding/MS_RESEARCH_EXPLAINED.md	1	1	README.md -> docs/onboarding/MS_RESEARCH_EXPLAINED.md	PASS
+root_to_visuals	README.md	docs/onboarding/VISUAL_INDEX.md	1	1	README.md -> docs/onboarding/VISUAL_INDEX.md	PASS
+root_to_open_problems	README.md	docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	1	README.md -> docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	PASS
+root_to_submission	README.md	docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md	1	1	README.md -> docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md	PASS
+root_to_tour	README.md	docs/onboarding/REPOSITORY_TOUR.md	1	1	README.md -> docs/onboarding/REPOSITORY_TOUR.md	PASS
+root_to_glossary	README.md	docs/onboarding/GLOSSARY.md	1	1	README.md -> docs/onboarding/GLOSSARY.md	PASS
+root_to_status_cards	README.md	docs/onboarding/LEAD_STATUS_CARDS.md	2	2	README.md -> CONTRIBUTING.md -> docs/onboarding/LEAD_STATUS_CARDS.md	PASS
+root_to_response_lifecycle	README.md	docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md	2	2	README.md -> docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md -> docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md	PASS
+landing_to_status_cards	docs/onboarding/README.md	docs/onboarding/LEAD_STATUS_CARDS.md	1	1	docs/onboarding/README.md -> docs/onboarding/LEAD_STATUS_CARDS.md	PASS
+landing_to_null_guide	docs/onboarding/README.md	docs/onboarding/HOW_TO_READ_NULLS_AND_BOUNDARIES.md	1	1	docs/onboarding/README.md -> docs/onboarding/HOW_TO_READ_NULLS_AND_BOUNDARIES.md	PASS
+landing_to_number_guide	docs/onboarding/README.md	docs/onboarding/HOW_TO_READ_NUMBERS_WITHOUT_OVERREADING.md	1	1	docs/onboarding/README.md -> docs/onboarding/HOW_TO_READ_NUMBERS_WITHOUT_OVERREADING.md	PASS
+narrative_to_open_problems	docs/onboarding/MS_RESEARCH_EXPLAINED.md	docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	1	docs/onboarding/MS_RESEARCH_EXPLAINED.md -> docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	PASS
+problems_to_submission	docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md	1	1	docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md -> docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md	PASS
+submission_to_lifecycle	docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md	docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md	1	1	docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md -> docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md	PASS
+lifecycle_to_problems	docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md	docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	1	1	docs/onboarding/WHAT_HAPPENS_TO_YOUR_IDEA.md -> docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md	PASS
+status_cards_to_landing	docs/onboarding/LEAD_STATUS_CARDS.md	docs/onboarding/README.md	1	1	docs/onboarding/LEAD_STATUS_CARDS.md -> docs/onboarding/README.md	PASS

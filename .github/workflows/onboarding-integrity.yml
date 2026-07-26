@@ -16,6 +16,7 @@ on:
       - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
+      - "scripts/v55_route_depth_audit.py"
       - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   push:
@@ -34,6 +35,7 @@ on:
       - "scripts/v55_plain_language_audit.py"
       - "scripts/v55_print_brief_audit.py"
       - "scripts/v55_responsive_visual_audit.py"
+      - "scripts/v55_route_depth_audit.py"
       - "scripts/v55_source_coverage.py"
       - "scripts/v55_visual_render_regression.py"
   workflow_dispatch:
@@ -70,6 +72,9 @@ jobs:
 
       - name: Map reader pages to bounded claims and sources
         run: python3 scripts/v55_source_coverage.py --fail-on-error
+
+      - name: Audit newcomer route depth and reciprocal next steps
+        run: python3 scripts/v55_route_depth_audit.py --fail-on-error
 
       - name: Enforce external-knowledge provenance boundary
         run: python3 scripts/v47_provenance_gate.py audit
@@ -117,6 +122,8 @@ jobs:
             analysis/v55_responsive_visual_audit/responsive_visual_checks.tsv
             analysis/v55_responsive_visual_audit/responsive_visual_measurements.tsv
             analysis/v55_responsive_visual_audit/responsive_visual_summary.json
+            analysis/v55_route_depth_audit/route_depth.tsv
+            analysis/v55_route_depth_audit/route_depth_summary.json
             analysis/v55_source_coverage/artifact_coverage.tsv
             analysis/v55_source_coverage/claim_coverage.tsv
             analysis/v55_source_coverage/document_coverage.tsv
