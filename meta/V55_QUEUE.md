@@ -116,7 +116,12 @@ negative results, and source traceability.
 | Public first-screen audit | done | Root and onboarding entrances now expose purpose, unchanged scientific boundary, research-only/no-private-data safety, and a concrete route before long lists or detailed history. |
 | Maintainer triage quick card | done | Compact card preserves the existing three status layers, seven hard gates, seven action classes, eligibility checks, six result classes, and minimum public response. |
 | Clean-clone newcomer smoke test | done | Fresh public shallow clone at pushed commit passed all V55/gate/manifest/form/visual checks, served HTML/SVG with correct MIME types, and remained clean. |
-| Human-pilot result-capture sheet | in-progress | Add a privacy-minimal worksheet for recording route, task, misunderstanding, repair, and idea quality without collecting medical or identity data. |
+| Human-pilot result-capture sheet | done | Private-copy template records frozen setup, exposure, first-pass score, page repair, Route C card quality, safety correction, retention, and required non-validation close-out without identity/health fields. |
+| Release-checklist synchronization | in-progress | Add the new link-label, semantic-structure, manifest, clean-clone, and human-pilot handoffs to the existing maintainer release order. |
+| Public-index completeness audit | todo | Verify every top-level onboarding page has an inbound route and every public page has an outbound next step after the new additions. |
+| Contribution copy/paste review | todo | Check templates, examples, and issue prompts for unresolved placeholders, unsafe fields, and ambiguity when copied outside their parent page. |
+| Anti-duplication route check | todo | Verify each open-problem route reaches known non-solutions, status, and a contribution action without treating closure as universal absence. |
+| Public package footprint review | todo | Measure onboarding files and visuals, verify lightweight delivery, and identify any accidentally heavy or generated asset before release. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -698,3 +703,14 @@ negative results, and source traceability.
   not comprehension or scientific validation. Current-tree onboarding is now
   2321/2321 and semantic structure 2126/2126 after adding the report. Active
   time accrued: 4h35m05s.
+- 2026-07-26T21:54:06Z: Completed the human-pilot session-capture template.
+  The private-copy worksheet records only a non-identifying code, frozen route
+  and commit, exposure path, first-pass score, documentation misunderstanding,
+  smallest page repair, Route C test-card completeness, safety correction, and
+  retention/close-out checks. It explicitly forbids public commitment of an
+  individual sheet and personal, health, treatment, credential, or employer-
+  sensitive data. Existing scorecard placeholders remain explicit so TSV rows
+  do not rely on trailing empty fields. Onboarding 2323/2323 and all existing
+  plain-language, source, route, and semantic checks pass. Four additional
+  executable release/content checks were added before final close. Active time
+  accrued: 4h38m52s.

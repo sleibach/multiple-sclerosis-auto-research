@@ -105,3 +105,8 @@ Use the
 [TSV scorecard](templates/NEWCOMER_COMPREHENSION_SCORECARD_V55.tsv). Report
 aggregate documentation findings unless the participant explicitly agreed to
 attribution.
+
+Record route exposure, navigation failures, page repairs, and close-out checks
+in a private copy of the
+[session capture template](templates/HUMAN_PILOT_SESSION_CAPTURE_V55.md). Never
+commit a completed individual sheet to the public repository.

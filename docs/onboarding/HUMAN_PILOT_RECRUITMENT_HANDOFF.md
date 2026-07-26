@@ -118,6 +118,10 @@ The facilitator receives:
 5. the safety-correction script; and
 6. a blank result-capture sheet.
 
+Use a private copy of the
+[human pilot session capture template](templates/HUMAN_PILOT_SESSION_CAPTURE_V55.md).
+Do not commit a completed individual sheet to the public repository.
+
 The participant receives the invitation, privacy boundary, chosen route, and
 stop/withdraw instruction. They do not receive expected answers before their
 first response pass.
