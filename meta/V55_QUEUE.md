@@ -55,8 +55,8 @@ negative results, and source traceability.
 | Independent newcomer comprehension audit | done | Claude recovered 11/12 rubric items fully and Gemini 10/12; both found a real ZMIZ1 grouping ambiguity, corrected without changing evidence. Raw model responses remain transient. |
 | Role-based collaborator routes | done | Nine role routes map existing skills to bounded puzzles, a concrete first contribution, and known misuse patterns; an any-discipline route supplies five falsifiability questions. |
 | Newcomer FAQ | done | Thirty-one short answers cover project scope, evidence, tried routes, progression, validation/data, nulls/closures, safety, and participation while retaining claim IDs and caveats. |
-| Worked idea transformations | in-progress | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
-| Visual browser-render regression | todo | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
+| Worked idea transformations | done | Ten examples turn plausible but unusable suggestions into bounded questions with prediction, comparator/null, required data, drop rule, and honest proposal status. |
+| Visual browser-render regression | in-progress | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
 | Onboarding audit synthetic fixtures | todo | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
 | Continuous onboarding check | todo | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
 | Plain-language density review | todo | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
@@ -157,3 +157,9 @@ negative results, and source traceability.
   monitor/selector, missing-data/absent-biology, ZMIZ1/closed-target, and
   prediction/experiment overreads. The expanded audit passes 696/696; both
   evidence-boundary gates pass. Active time accrued: 0h50m10s.
+- 2026-07-26T18:07:16Z: Completed ten worked idea transformations. Each starts
+  with a realistic attractive shortcut, exposes the evidence error, and adds a
+  discriminating prediction, comparator/null, reachable-data requirement, and
+  precommitted drop rule. The examples are explicitly design illustrations,
+  not new hypotheses. Audit 726/726 and both boundary gates pass. Active time
+  accrued: 0h52m02s.

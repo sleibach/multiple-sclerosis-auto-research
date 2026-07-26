@@ -26,6 +26,7 @@ DEFAULT_OUTDIR = Path("analysis/v55_onboarding_audit")
 EXPECTED_DOCS = {
     "COLLABORATOR_ROUTES.md",
     "FAQ.md",
+    "IDEA_TRANSFORMATIONS.md",
     "README.md",
     "MS_RESEARCH_EXPLAINED.md",
     "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
