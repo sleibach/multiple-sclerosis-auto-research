@@ -269,7 +269,6 @@ def main() -> int:
             rendered = result.output_ready and png_path.is_file()
             detail = (
                 f"returncode={result.returncode}; "
-                f"elapsed={result.elapsed_seconds:.2f}s; "
                 f"terminated_after_output={result.terminated_after_output}; "
                 f"stderr_present={bool(result.stderr)}"
             )
@@ -314,6 +313,7 @@ def main() -> int:
             handle,
             fieldnames=("visual", "check", "status", "detail"),
             delimiter="\t",
+            lineterminator="\n",
         )
         writer.writeheader()
         writer.writerows(checks)

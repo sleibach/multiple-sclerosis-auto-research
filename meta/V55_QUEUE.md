@@ -58,8 +58,8 @@ negative results, and source traceability.
 | Worked idea transformations | done | Ten examples turn plausible but unusable suggestions into bounded questions with prediction, comparator/null, required data, drop rule, and honest proposal status. |
 | Visual browser-render regression | done | Reusable Chrome regression renders all five SVGs in isolated temporary profiles, validates canvas/output/dimensions/fingerprints, and retains no raster media; 31/31 checks pass. |
 | Onboarding audit synthetic fixtures | done | Ten temporary cases prove clean Markdown/SVG acceptance and rejection of broken links, unknown claims, three marker leaks, missing SVG semantics, and low text/graphic contrast. |
-| Continuous onboarding check | in-progress | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
-| Plain-language density review | todo | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
+| Continuous onboarding check | done | Secret-free GitHub workflow runs the audit, synthetic detector checks, provenance/structure gates, Chrome render regression, and uploads only lightweight reports. |
+| Plain-language density review | in-progress | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
 | Source-coverage map | todo | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -176,3 +176,9 @@ negative results, and source traceability.
   leaks, all four missing SVG semantics, low text contrast, and low graphic
   contrast are rejected. Temporary fixtures are deleted and no synthetic
   scientific content is produced. Active time accrued: 1h00m20s.
+- 2026-07-26T18:18:10Z: Completed the secret-free onboarding-integrity GitHub
+  workflow and ran its full command set locally: onboarding 726/726, synthetic
+  detector 10/10, provenance 841/841, structural 142/142, and browser render
+  31/31. The workflow triggers only on relevant paths, needs read-only contents
+  permission, makes no data/model calls, and uploads lightweight reports for 14
+  days. Active time accrued: 1h02m56s.

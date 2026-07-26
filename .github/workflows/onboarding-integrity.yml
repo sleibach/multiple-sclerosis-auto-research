@@ -1,0 +1,86 @@
+name: Onboarding integrity
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/onboarding-integrity.yml"
+      - "README.md"
+      - "docs/onboarding/**"
+      - "docs/knowledge/EPISTEMIC_CLASSES.md"
+      - "knowledge_external/**"
+      - "meta/CURRENT_STATUS.md"
+      - "scripts/v47_provenance_gate.py"
+      - "scripts/v51_structural_prediction_gate.py"
+      - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_visual_render_regression.py"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/onboarding-integrity.yml"
+      - "README.md"
+      - "docs/onboarding/**"
+      - "docs/knowledge/EPISTEMIC_CLASSES.md"
+      - "knowledge_external/**"
+      - "meta/CURRENT_STATUS.md"
+      - "scripts/v47_provenance_gate.py"
+      - "scripts/v51_structural_prediction_gate.py"
+      - "scripts/v55_onboarding_audit.py"
+      - "scripts/v55_visual_render_regression.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: onboarding-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    name: Traceability, provenance, and rendering
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit onboarding claims, links, semantics, and contrast
+        run: python3 scripts/v55_onboarding_audit.py --fail-on-error
+
+      - name: Prove onboarding detectors reject synthetic faults
+        run: python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
+
+      - name: Enforce external-knowledge provenance boundary
+        run: python3 scripts/v47_provenance_gate.py audit
+
+      - name: Enforce structural-prediction boundary
+        run: python3 scripts/v51_structural_prediction_gate.py audit
+
+      - name: Verify browser availability
+        run: google-chrome --version
+
+      - name: Render and validate all onboarding visuals
+        run: python3 scripts/v55_visual_render_regression.py --fail-on-error
+
+      - name: Upload lightweight audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: onboarding-integrity-reports
+          if-no-files-found: error
+          retention-days: 14
+          path: |
+            analysis/v47_provenance_gate/provenance_gate_issues.tsv
+            analysis/v51_structural_prediction_gate/structural_prediction_gate_issues.tsv
+            analysis/v55_onboarding_audit/onboarding_audit_checks.tsv
+            analysis/v55_onboarding_audit/onboarding_audit_summary.json
+            analysis/v55_onboarding_audit_synthetic/synthetic_fixture_results.tsv
+            analysis/v55_onboarding_audit_synthetic/synthetic_fixture_summary.json
+            analysis/v55_visual_render_regression/visual_render_checks.tsv
+            analysis/v55_visual_render_regression/visual_render_summary.json
+

@@ -84,3 +84,22 @@ Start with the source artifacts rather than onboarding prose:
 The automated V55 onboarding audit checks this boundary. Its current committed
 result is `PASS` across all expected pages, visuals, claim references, local
 links, semantic SVG metadata, size limits, and palette contrast.
+
+## Automated Integrity Checks
+
+The public onboarding layer has a secret-free continuous check at
+`.github/workflows/onboarding-integrity.yml`. It runs on relevant pushes and
+pull requests and can also be launched manually. The same checks can be run
+locally:
+
+```bash
+python3 scripts/v55_onboarding_audit.py --fail-on-error
+python3 scripts/v55_onboarding_audit.py --synthetic-check --fail-on-error
+python3 scripts/v47_provenance_gate.py audit
+python3 scripts/v51_structural_prediction_gate.py audit
+python3 scripts/v55_visual_render_regression.py --fail-on-error
+```
+
+These commands test communication traceability, evidence-class separation,
+static visual accessibility, and rendering. They do not validate a scientific
+claim.
