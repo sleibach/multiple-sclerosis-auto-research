@@ -52,8 +52,8 @@ negative results, and source traceability.
 | Accessibility and visual semantic audit | done | Scoped WCAG-oriented audit covers five SVGs, text equivalents, semantic names, static behavior, contrast, non-color status cues, and honest screen-reader residuals. |
 | Onboarding traceability checker | done | Committed audit passes 551/551 checks across 32 referenced claim rows, nine documents, five SVGs, local links, class markers, semantics, sizes, and palette contrast. |
 | Public navigation integration | done | Root README, CURRENT_STATUS, onboarding landing page, narrative, visual index, problem board, and contribution route now cross-link without broken local targets. |
-| Independent newcomer comprehension audit | in-progress | Test whether key distinctions can be recovered from onboarding alone; models may propose confusion points, never facts. |
-| Role-based collaborator routes | todo | Give engineers, designers, data stewards, statisticians, and systems thinkers a short route to the relevant bounded puzzle. |
+| Independent newcomer comprehension audit | done | Claude recovered 11/12 rubric items fully and Gemini 10/12; both found a real ZMIZ1 grouping ambiguity, corrected without changing evidence. Raw model responses remain transient. |
+| Role-based collaborator routes | in-progress | Give engineers, designers, data stewards, statisticians, and systems thinkers a short route to the relevant bounded puzzle. |
 | Newcomer FAQ | todo | Answer recurring scope, evidence, medical-advice, data-access, null-result, and contribution questions without adding biology. |
 | Worked idea transformations | todo | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
 | Visual browser-render regression | todo | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
@@ -138,3 +138,10 @@ negative results, and source traceability.
   form, and source artifacts cross-link. Expanded audit: 612/612 pass. Refilled
   the backlog with eight clarity and maintainability tasks. Active time accrued:
   0h40m41s.
+- 2026-07-26T18:00:49Z: Completed independent Claude/Gemini newcomer reading
+  tests against a 12-item rubric. Both recovered the live lead, target null,
+  progression boundary, corpus scope, and contribution route. Both also
+  overclassified ZMIZ1 as closed; wording was corrected to distinguish its
+  supported decoupling from closed target routes. Ten further source-preserving
+  clarity edits were applied; an unsafe simplification of the 0.127 bound was
+  rejected. Two model calls; spend not exposed. Active time accrued: 0h45m35s.

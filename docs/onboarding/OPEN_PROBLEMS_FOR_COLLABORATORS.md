@@ -44,8 +44,9 @@ interpretations were fixed before external data access. `[M03, M04, A01, A03]`
 **Useful contributions.** Bring a method that can be specified before labels
 are seen and that reports effect size and uncertainty without silently changing
 the rule. Examples include small-sample confidence methods, calibration-aware
-decision analysis, valid meta-analysis across compatible cohorts, or a design
-that separates “estimate the effect” from “declare the rule passed.”
+decision analysis, valid meta-analysis across cohorts with matching
+measurements and outcome definitions, or a design that separates “estimate the
+effect” from “declare the rule passed.”
 
 **A valuable idea must specify:** the estimand, required sample fields, how
 pairing is preserved, the null, what happens under missingness, the number of
@@ -69,10 +70,11 @@ pass. `[D02, A01]`
 without pretending that an unlabeled or mismatched dataset is suitable?
 
 **What is known.** An audited multi-repository search found no fresh public,
-ready-to-run primary validation cohort. Gafson remains an access request.
-Karolinska has useful longitudinal data but lacks the public patient-level
-response mapping required by the frozen test. This is a verified access
-boundary, not a claim that no cohort exists anywhere. `[A04]`
+ready-to-run primary validation cohort. Gafson, a candidate external cohort,
+remains an access request. Karolinska, a second candidate, has useful
+longitudinal data but lacks the public patient-level response mapping required
+by the frozen test. This is a verified access boundary, not a claim that no
+cohort exists anywhere. `[A04]`
 
 **Why it is hard.** A dataset counts only if it has paired baseline and early
 samples, compatible genes, response labels, subject mapping, and enough
@@ -109,9 +111,9 @@ relapse, static stage, or tissue source?
 
 **What is known.** The held corpus has no usable longitudinal
 molecular-to-confirmed-disability dataset. Seven datasets could not identify a
-relapsing-to-progressive transition, and none of ten known packages filled the
-complete progression, compartment, or functional-direction roles. `[P01, P03,
-P05]`
+relapsing-to-progressive transition, and none of ten known packages filled all
+three pre-defined roles: longitudinal progression, compatible biological
+compartment, or functional direction. `[P01, P03, P05]`
 
 **Why it is hard.** Progression requires repeated measurements in the same
 people, event timing, confirmed disability, treatment history, attendance and
@@ -148,11 +150,13 @@ choosing proxy genes or thresholds after disability outcomes are visible.
 what intervention modality could deliver that direction in the right cell and
 state?
 
-**What is known.** At several genetics routes, the obstacle was not the absence
-of an association. It was causal-gene uncertainty, opposite directions across
-diseases, or a protective implication on the difficult up-function side.
-Predicted structure can inform geometry but cannot decide causal direction or
-make a route actionable. `[G02, G03, G04]`
+**What is known.** ZMIZ1 provides a supported warning that shared autoimmune
+genetics can point in opposite directions; it is not a promoted target or a
+closed biological result. The KIF21B/GPR25 and PTGER4 target routes did close:
+their obstacles include causal-gene uncertainty, conflicting directions, or a
+protective implication on the difficult up-function side. Predicted structure
+can inform geometry but cannot decide causal direction or make a route
+actionable. `[G02, G03, G04]`
 
 **Why it is hard.** Most casual target discussions assume inhibition. A pocket
 or known ligand is irrelevant if the required action is restoration, if the
@@ -309,9 +313,9 @@ warnings, and inconclusive results must remain visible to a user under pressure.
 grid, and synthetic method checks were frozen before external data. `[A01]`
 
 **Useful contributions.** Bring human-factors design, calibrated risk
-communication, abstaining classifiers, audit trails, or workflow simulation.
-Design for pass, fail, inconclusive, and invalid-input states rather than only a
-successful demo.
+communication, prediction models that can decline to decide when input is
+uncertain, audit trails, or workflow simulation. Design for pass, fail,
+inconclusive, and invalid-input states rather than only a successful demo.
 
 **A valuable idea must specify:** intended user and decision, permitted claim,
 minimum data quality, uncertainty display, abstention behavior, harm from false

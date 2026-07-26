@@ -61,8 +61,8 @@ not to assume and what exact evidence would be needed to reopen it.
 ### What Has It Found?
 
 There is **one live clinical lead**, and it is provisional: an early-treatment
-score based on changes in antigen-presentation genes, called the bounded
-APC/HLA-II score. It may help monitor whether a person's immune state is
+score based on changes in antigen-presentation genes, called the scope-limited
+(“bounded”) APC/HLA-II score. It may help monitor whether a person's immune state is
 changing soon after treatment. It is not a drug target, treatment selector,
 clinical test, or cure. It still needs an independent, mechanically
 pre-registered validation. `[M01, M05, A01 | Live, provisional]`
@@ -78,13 +78,18 @@ The project also established useful context and closures:
 - MS and ulcerative colitis had the strongest genome-wide genetic relationship
   among the autoimmune comparators tested here, but this is known context, not
   a transferable target. `[G01 | Robust context]`
-- Several attractive genetics leads closed because the causal gene or needed
-  therapeutic direction was unresolved or unfavorable. A protein being
-  structurally drug-like is not enough if genetics says protection requires
-  restoring or increasing its function. `[G02, G03, G04, G05 | Closed]`
+- ZMIZ1 is a supported direction-decoupling warning: the same expression
+  direction pointed oppositely in MS and Crohn. It is not a promoted target or
+  a closed biological result. `[G02 | Supported decoupling]`
+- KIF21B/GPR25 and PTGER4 target routes closed or were demoted because the
+  causal gene or required therapeutic direction remained unresolved or hard to
+  achieve. A structurally drug-like protein is not enough when protection
+  appears to require restoring or increasing function. `[G03, G04, G05 |
+  Closed or demoted]`
 - A coupled antigen-presentation and immune-tone architecture recurs across
-  held data, but it did not become a target or a better prediction rule. `[D01,
-  D02 | Supported context plus negative]`
+  data already stored in this repository (“held data”), but it did not become a
+  target or a better prediction rule. `[D01, D02 | Supported context plus
+  negative]`
 - A joint search across the assembled corpus recovered known immune structure
   but found no unexpected signal that passed held-out validation. This bounds
   further unconstrained mining of this corpus; it does not claim that all
@@ -102,8 +107,8 @@ P02, P03 | Data blocked and negative]`
 
 An exact two-gene microglial state, CD44/CXCR4, is fixed as a future candidate
 for the right longitudinal dataset. Its identity is supported; progression
-prediction is not. It must not be substituted into blood data or treated as a
-target. `[P06, C01 | Live, data-gated]`
+prediction is not. It must not be applied to blood-based datasets as a proxy or
+treated as a target. `[P06, C01 | Live, data-gated]`
 
 ### Where Could A Fresh Mind Help?
 
@@ -210,14 +215,15 @@ Its evidence is encouraging but small and bounded:
 - The rule did not work uniformly across all tested therapies or diseases.
   `[M02]`
 - Tested steroid-response and simple marker-composition panels did not explain
-  it, but broad metabolic, inflammatory, and STAT1/immune-tone adjustment
-  attenuated it to AUC 0.656 with `p=0.163`. Direct steroid metadata were not
-  available. `[M04]`
+  it. After adjustment for broad metabolic, inflammatory, and STAT1/immune
+  state, the same score weakened to AUC 0.656 with `p=0.163`. Direct steroid
+  metadata were not available. `[M04]`
 
 The honest label is therefore **live, provisional, and immune-tone bounded**.
 The next test is already frozen: apply the locked rule to a properly paired
 external cohort without tuning it after outcomes are visible. A pass, fail, or
-inconclusive result has a pre-committed interpretation. `[A01]`
+inconclusive result will be interpreted by rules already fixed before the data
+are seen. `[A01]`
 
 ### 5. Research Arc Three: More Complexity Did Not Create A Better Answer
 
@@ -243,15 +249,16 @@ effect-size limit. `[D04, D05]`
 The progression program audited seven datasets and ten known packages. None
 contained the complete chain needed to test progression properly: repeated
 molecular state, a changing clinical stage or treatment context, and repeated
-confirmed-disability outcomes. None qualified for the project's complete
-progression, compartment, or functional-direction roles. `[P01, P03, P05]`
+confirmed-disability outcomes. None qualified for all three pre-defined dataset
+roles: longitudinal progression, compatible biological compartment, or
+functional direction. `[P01, P03, P05]`
 
 Several apparent signals weakened under harder checks:
 
 - A CD44/CXCR4-high microglial state reproduced in bounded MS comparisons,
   but one discovery partition was strongly imbalanced by brain bank. The
-  disease/source association had Cramer's V 0.773, and source-adjusted evidence
-  attenuated. `[C01, C02]`
+  disease label and brain-bank source were strongly entangled (Cramer's V
+  0.773), and source-adjusted evidence attenuated. `[C01, C02]`
 - A morphology-linked OXPHOS/lysosomal pattern was downgraded after global
   multiple-testing and within-donor checks. `[P04]`
 - No tested module became a portable progression-stage marker, and no
