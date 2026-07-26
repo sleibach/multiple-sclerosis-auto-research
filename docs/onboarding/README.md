@@ -57,6 +57,7 @@ Start with the source artifacts rather than onboarding prose:
 | need | page |
 |---|---|
 | Understand MS, the project, and the honest frontier | [MS Research, Explained](MS_RESEARCH_EXPLAINED.md) |
+| Print or share a one-page orientation | [Collaborator Brief](COLLABORATOR_BRIEF_V55.html) ([linear text](COLLABORATOR_BRIEF_V55.md)) |
 | See every major route at a glance | [Visual Guide](VISUAL_INDEX.md) |
 | Choose a cross-disciplinary puzzle | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md) |
 | Find where my discipline fits | [Collaborator Routes](COLLABORATOR_ROUTES.md) |
@@ -109,6 +110,7 @@ python3 scripts/v47_provenance_gate.py audit
 python3 scripts/v51_structural_prediction_gate.py audit
 python3 scripts/v55_visual_render_regression.py --fail-on-error
 python3 scripts/v55_responsive_visual_audit.py --fail-on-error
+python3 scripts/v55_print_brief_audit.py --fail-on-error
 ```
 
 These commands test communication traceability, evidence-class separation,

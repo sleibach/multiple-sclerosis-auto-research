@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MS Research Frontier - Collaborator Brief V55</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #52606d;
+      --line: #cbd5e1;
+      --blue-bg: #e8f2fa;
+      --blue: #005a9c;
+      --green-bg: #e9f5ef;
+      --green: #1b6b4b;
+      --red-bg: #f8ecea;
+      --red: #8b2e2e;
+      --purple-bg: #f0ecf8;
+      --purple: #5b4b8a;
+      --amber-bg: #fff4d6;
+      --amber: #8a5a00;
+    }
+    * { box-sizing: border-box; }
+    html { background: #e8edf3; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font: 9.1pt/1.28 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 10mm auto;
+      padding: 9mm;
+      background: #fff;
+      box-shadow: 0 4px 20px rgba(23,32,51,.14);
+    }
+    header { border-bottom: 2px solid var(--ink); padding-bottom: 3mm; }
+    h1 { margin: 0; font-size: 21pt; line-height: 1.04; letter-spacing: -.35px; }
+    .deck { margin: 1.5mm 0 0; color: var(--muted); font-size: 9.4pt; }
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2mm;
+      margin: 3mm 0;
+    }
+    .status {
+      min-height: 19mm;
+      padding: 2.4mm;
+      border: 1.2px solid;
+      border-radius: 2.2mm;
+    }
+    .status strong { display: block; font-size: 8.1pt; text-transform: uppercase; letter-spacing: .25px; margin-bottom: 1mm; }
+    .status span { display: block; font-size: 8pt; line-height: 1.18; }
+    .live { background: var(--blue-bg); border-color: var(--blue); }
+    .closed { background: var(--red-bg); border-color: var(--red); }
+    .negative { background: var(--purple-bg); border-color: var(--purple); }
+    .bound { background: var(--amber-bg); border-color: var(--amber); }
+    .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+    section {
+      border: 1px solid var(--line);
+      border-radius: 2.2mm;
+      padding: 2.6mm 3mm;
+      margin-bottom: 2.5mm;
+      break-inside: avoid;
+    }
+    h2 { margin: 0 0 1.4mm; font-size: 11pt; line-height: 1.1; }
+    p { margin: 0 0 1.5mm; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { margin: 0; padding-left: 4.6mm; }
+    li { margin: 0 0 .85mm; }
+    li:last-child { margin-bottom: 0; }
+    .callout { border-color: var(--green); background: var(--green-bg); }
+    .warning { border-color: var(--red); background: var(--red-bg); }
+    .idea-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1mm 3mm; padding-left: 4.6mm; }
+    .links { font-size: 8.1pt; }
+    a { color: #004f8b; text-decoration-thickness: .6px; text-underline-offset: 1px; }
+    code { font: 7.6pt ui-monospace, SFMono-Regular, Menlo, monospace; }
+    footer {
+      margin-top: 1mm;
+      padding-top: 2mm;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 7.7pt;
+      display: flex;
+      justify-content: space-between;
+      gap: 4mm;
+    }
+    .screen-note { display: block; }
+    @page { size: A4 portrait; margin: 0; }
+    @media print {
+      html, body { background: #fff; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .page { margin: 0; width: 210mm; min-height: 297mm; box-shadow: none; }
+      .screen-note { display: none; }
+    }
+    @media screen and (max-width: 840px) {
+      .page { width: 100%; min-height: 0; margin: 0; padding: 18px; box-shadow: none; }
+      .status-grid, .columns { grid-template-columns: 1fr; }
+      .status { min-height: 0; }
+      .idea-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <h1>MS research frontier</h1>
+    <p class="deck"><strong>A one-page collaborator brief.</strong> For people outside medicine who may bring a useful method, systems reframe, data route, or failure-detection idea. Communication only; no new scientific claim.</p>
+  </header>
+
+  <div class="status-grid" aria-label="Current project status">
+    <div class="status live"><strong>● One live route</strong><span>Provisional APC/HLA-II treatment monitor; outside validation pending. [M01, A01]</span></div>
+    <div class="status closed"><strong>× No target</strong><span>No intervention-grade target; direction-closed genetics routes remain closed. [G03-G05]</span></div>
+    <div class="status negative"><strong>− No progression result</strong><span>No marker, mechanism, target, treatment effect, or halt strategy established. [P01-P02]</span></div>
+    <div class="status bound"><strong>▧ Data next</strong><span>Independent monitor cohort plus a longitudinal molecular-to-disability “movie.” [A01-A02]</span></div>
+  </div>
+
+  <div class="columns">
+    <div>
+      <section>
+        <h2>The problem</h2>
+        <p>MS involves immune-mediated injury in the central nervous system. A <strong>relapse</strong> is an inflammatory episode; <strong>progression</strong> asks whether disability accumulates and remains confirmed. They are related, not interchangeable. Halting progression is the north star. [B01-B02]</p>
+      </section>
+
+      <section class="callout">
+        <h2>What survived</h2>
+        <ul>
+          <li><strong>Monitoring:</strong> one fixed early APC/HLA-II change score remains live, small-n, mixed across contexts, and immune-tone bounded. It is not a selector, target, clinical test, or cure. [M01-M05]</li>
+          <li><strong>Context:</strong> coupled APC architecture recurs; MS-UC genetics and ZMIZ1 supply transfer/direction warnings, not targets. [D01, G01-G02]</li>
+          <li><strong>Readiness:</strong> the outside test is preregistered to report pass, fail, or inconclusive without refitting. [A01, A03]</li>
+        </ul>
+      </section>
+
+      <section class="warning">
+        <h2>What closed or hit a boundary</h2>
+        <ul>
+          <li>KIF21B/GPR25 and PTGER4: causal-signal or therapeutic-direction route closed. [G03-G05]</li>
+          <li>More features and a broad simulator: no earned predictive improvement. [D02-D03]</li>
+          <li>Joint search: known structure returned; 0/22 unexpected candidates passed. [D04-D05]</li>
+          <li>Progression: held data lack repeated molecular state linked to later confirmed disability. CD44/CXCR4 is identity-only. [P01-P06]</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Failure lessons</h2>
+        <p>Shared biology does not fix therapeutic direction. A predicted pocket cannot fill a missing causal link. Flexible models do not create independent evidence. Source, donor, batch, composition, and immune tone can imitate specificity. Missing design is not absent biology. [C02, F01]</p>
+      </section>
+    </div>
+
+    <div>
+      <section>
+        <h2>Six puzzles where outsiders can help</h2>
+        <ol>
+          <li><strong>Small-cohort inference:</strong> make a frozen test informative without moving its threshold.</li>
+          <li><strong>Access:</strong> find a lawful paired-response cohort, or prove why a near-match cannot substitute.</li>
+          <li><strong>Progression movie:</strong> repeated molecular state before repeated confirmed disability in the same people.</li>
+          <li><strong>Restoration:</strong> devise a modality for increasing or restoring function in the relevant cell/state.</li>
+          <li><strong>Coupled control:</strong> distinguish controller from readout with competing causal graphs and directional perturbations.</li>
+          <li><strong>Confounds:</strong> detect source/label entanglement before interpretation. [A01-A04, C02, D01-D02, G03, P01-P05]</li>
+        </ol>
+      </section>
+
+      <section class="callout">
+        <h2>A useful idea has seven parts</h2>
+        <ol class="idea-grid">
+          <li>Bounded question</li>
+          <li>Directional prediction</li>
+          <li>Reachable data + eligibility</li>
+          <li>Comparator/null/holdout</li>
+          <li>Confound + multiplicity plan</li>
+          <li>Drop or narrowing rule</li>
+          <li>Decision it would change</li>
+        </ol>
+        <p style="margin-top:1.5mm">Ideas are welcome before they are evidence. Model or literature confidence cannot replace a fair test. [E01-E03]</p>
+      </section>
+
+      <section class="warning">
+        <h2>Do not re-propose these shortcuts</h2>
+        <ul>
+          <li>“The monitor is the target.”</li>
+          <li>“A static stage label measures progression.”</li>
+          <li>“A pocket makes the genetics actionable.”</li>
+          <li>“Shared autoimmune association means one intervention.”</li>
+          <li>“A new learner on the same labels is validation.”</li>
+          <li>“No compatible data means no biology.”</li>
+        </ul>
+      </section>
+
+      <section class="links">
+        <h2>Start here</h2>
+        <p><a href="MS_RESEARCH_EXPLAINED.md">Narrative</a> · <a href="OPEN_PROBLEMS_FOR_COLLABORATORS.md">Open problems</a> · <a href="DATA_THAT_WOULD_CHANGE_THE_ANSWER.md">Data map</a> · <a href="HOW_TO_CONTRIBUTE_IDEAS.md">Idea template</a> · <a href="../reports/FINDINGS_REPORT_V37.md">Findings report</a></p>
+        <p class="screen-note"><a href="COLLABORATOR_BRIEF_V55.md">Accessible linear text version</a></p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <span>Evidence status: V55. Grounded, provisional, negative, and data-blocked statements remain distinct.</span>
+    <span><code>docs/onboarding/</code></span>
+  </footer>
+</main>
+</body>
+</html>

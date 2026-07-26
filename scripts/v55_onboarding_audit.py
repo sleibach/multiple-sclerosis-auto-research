@@ -26,6 +26,8 @@ DEFAULT_OUTDIR = Path("analysis/v55_onboarding_audit")
 DEFAULT_SYNTHETIC_OUTDIR = Path("analysis/v55_onboarding_audit_synthetic")
 
 EXPECTED_DOCS = {
+    "COLLABORATOR_BRIEF_V55.html",
+    "COLLABORATOR_BRIEF_V55.md",
     "COLLABORATOR_ROUTES.md",
     "COMPREHENSION_TEST_KIT.md",
     "DATA_THAT_WOULD_CHANGE_THE_ANSWER.md",

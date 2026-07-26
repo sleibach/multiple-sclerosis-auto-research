@@ -69,8 +69,8 @@ negative results, and source traceability.
 | Data-needed map | done | Six decision-changing package types now state minimum fields, invalid substitutes, and status consequences; newcomer acronyms are defined and the page is source-covered. |
 | Research-evolution timeline | done | Nine source-linked eras and a six-row SVG show candidate, harder test, and bounded verdict; chronology visibly includes demotions, nulls, and data boundaries. |
 | Narrow-screen and print review | done | Browser-backed 18-scenario audit finds zero wrapper overflows but all constrained uses require text equivalents; the delivery rule and CI check now enforce that distinction. |
-| One-page collaborator brief | in-progress | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
-| Repository tour | todo | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
+| One-page collaborator brief | done | Responsive HTML prints to one A4 page and has a source-covered linear Markdown equivalent; the status strip foregrounds one provisional monitor, no target, no progression result, and exact data needs. |
+| Repository tour | in-progress | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
 | Maintainer release checklist | todo | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -267,3 +267,12 @@ negative results, and source traceability.
   required fallback, and a reusable Chrome audit runs in CI; 56/56 responsive
   checks and 1025/1025 onboarding checks pass with no raster/PDF media retained.
   Active time accrued: 1h39m12s.
+- 2026-07-26T19:03:45Z: Completed the one-page collaborator brief as
+  responsive, self-contained HTML plus an accessible source-covered Markdown
+  equivalent. The print status strip leads with one provisional monitor, no
+  intervention-grade target, no progression result, and the two data moves;
+  closed routes and six non-solutions remain visible. Chrome produced exactly
+  one A4 page, which was temporarily rendered and visually inspected with no
+  clipping or overlap; 26/26 print checks, onboarding 1111/1111, plain-language
+  14/14 pages, and source coverage 33/33 across 15 reader pages pass. No PDF or
+  raster was retained. Active time accrued: 1h48m31s.

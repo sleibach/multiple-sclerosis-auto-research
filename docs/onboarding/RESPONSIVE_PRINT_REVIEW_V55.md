@@ -102,3 +102,21 @@ The central finding of this review is therefore not “the diagrams are mobile
 readable.” It is: **the diagrams fit, but their text equivalents carry the
 meaning at constrained widths.**
 
+## Purpose-Built One-Page Alternative
+
+The [collaborator brief](COLLABORATOR_BRIEF_V55.html) is a separate responsive
+and A4-print-designed artifact; its
+[linear Markdown equivalent](COLLABORATOR_BRIEF_V55.md) carries the same bounded
+content. Chrome 150 printed the HTML to exactly one A4 page. The page was
+rendered to a temporary image and visually inspected for clipping, overlap,
+hierarchy, and legibility; no PDF or raster output was retained or committed.
+
+Re-run the mechanical portion with:
+
+```bash
+python3 scripts/v55_print_brief_audit.py --fail-on-error
+```
+
+The committed audit checks required evidence-boundary phrases, local links,
+print CSS, one-page PDF output, and cleanup. It validates layout behavior, not a
+scientific claim.

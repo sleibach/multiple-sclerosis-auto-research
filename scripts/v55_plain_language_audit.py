@@ -23,6 +23,7 @@ ONBOARDING = ROOT / "docs" / "onboarding"
 DEFAULT_OUTDIR = ROOT / "analysis" / "v55_plain_language_audit"
 AUDIENCE_DOCS = (
     "README.md",
+    "COLLABORATOR_BRIEF_V55.md",
     "MS_RESEARCH_EXPLAINED.md",
     "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
     "HOW_TO_CONTRIBUTE_IDEAS.md",

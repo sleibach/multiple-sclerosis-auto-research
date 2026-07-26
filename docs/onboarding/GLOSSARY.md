@@ -338,6 +338,12 @@ artifacts or data. `[E03]`
 The lightweight vector format used for onboarding diagrams. SVG is a
 communication format, not an evidence class or scientific result.
 
+**HyperText Markup Language (HTML)**
+
+The document format used for the responsive, print-designed collaborator
+brief. HTML controls presentation here; it does not add an evidence layer or a
+scientific result.
+
 **Locked rule**  
 A feature set, calculation, and decision rule committed before the next test.
 It cannot be tuned after the outcome is visible.
