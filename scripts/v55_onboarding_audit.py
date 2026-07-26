@@ -214,12 +214,49 @@ def expand_claim_refs(text: str, prefixes: set[str]) -> set[str]:
     return refs
 
 
-def local_link_path(document: Path, target: str) -> Path | None:
+def local_link_target(document: Path, target: str) -> tuple[Path, str] | None:
     target = unquote(target.strip())
-    if not target or target.startswith(("http://", "https://", "mailto:", "#")):
+    if not target or target.startswith(("http://", "https://", "mailto:")):
         return None
-    path_part = target.split("#", 1)[0]
-    return (document.parent / path_part).resolve()
+    path_part, separator, fragment = target.partition("#")
+    path = document if not path_part else (document.parent / path_part).resolve()
+    return path, fragment if separator else ""
+
+
+def github_heading_slug(text: str) -> str:
+    text = LINK_RE.sub(r"\1", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"[`*_~]", "", text).strip().lower()
+    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    return re.sub(r"\s+", "-", text)
+
+
+def markdown_anchors(path: Path) -> set[str]:
+    anchors: set[str] = set()
+    counts: dict[str, int] = {}
+    in_fence = False
+    for line in path.read_text(errors="replace").splitlines():
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        heading = re.match(r"^#{1,6}\s+(.+?)(?:\s+#+)?$", stripped)
+        if heading:
+            base = github_heading_slug(heading.group(1))
+            if base:
+                duplicate_number = counts.get(base, 0)
+                slug = base if duplicate_number == 0 else f"{base}-{duplicate_number}"
+                counts[base] = duplicate_number + 1
+                anchors.add(slug)
+        for explicit in re.findall(
+            r"<(?:a|span|div|section)\b[^>]*\b(?:id|name)=[\"']([^\"']+)[\"']",
+            line,
+            flags=re.IGNORECASE,
+        ):
+            anchors.add(unquote(explicit))
+    return anchors
 
 
 def audit_markdown(
@@ -248,10 +285,20 @@ def audit_markdown(
         for claim_id in sorted(refs):
             add(checks, rel(root, document), f"claim_reference_{claim_id}", claim_id in claim_rows, claim_id)
         for target in LINK_RE.findall(text):
-            local = local_link_path(document, target)
-            if local is None:
+            local_target = local_link_target(document, target)
+            if local_target is None:
                 continue
+            local, fragment = local_target
             add(checks, rel(root, document), "local_link_resolves", local.exists(), target)
+            if fragment and local.is_file() and local.suffix.lower() in {".md", ".markdown"}:
+                anchors = markdown_anchors(local)
+                add(
+                    checks,
+                    rel(root, document),
+                    "local_anchor_resolves",
+                    fragment in anchors,
+                    f"{target}; known_anchors={len(anchors)}",
+                )
     return referenced
 
 
@@ -395,11 +442,16 @@ def run_synthetic_checks(root: Path, outdir: Path) -> dict[str, object]:
         visuals.mkdir(parents=True)
         document = onboarding / "FAQ.md"
         target = onboarding / "target.md"
-        target.write_text("# Existing target\n", encoding="utf-8")
+        target.write_text(
+            "# Existing target\n\n## Repeated heading\n\n"
+            "## Repeated heading\n",
+            encoding="utf-8",
+        )
 
         document.write_text(
             "# Clean fixture\n\nBounded statement `[M01]`.\n\n"
-            "[Existing target](target.md)\n",
+            "[Existing target](target.md#existing-target) and "
+            "[second duplicate](target.md#repeated-heading-1).\n",
             encoding="utf-8",
         )
         checks: list[Check] = []
@@ -441,6 +493,31 @@ def run_synthetic_checks(root: Path, outdir: Path) -> dict[str, object]:
             "broken_link_rejected",
             detected,
             "missing local target produces a failure",
+            f"detector_fired={detected}",
+        )
+
+        document.write_text(
+            "# Broken anchor fixture\n\nBounded `[M01]`.\n\n"
+            "[Missing section](target.md#does-not-exist)\n",
+            encoding="utf-8",
+        )
+        checks = []
+        audit_markdown(
+            fixture_root,
+            claim_rows,
+            prefixes,
+            checks,
+            expected_docs={"FAQ.md"},
+        )
+        detected = any(
+            check.check == "local_anchor_resolves" and check.status == "FAIL"
+            for check in checks
+        )
+        fixture_result(
+            results,
+            "broken_section_anchor_rejected",
+            detected,
+            "missing Markdown heading fragment produces a failure",
             f"detector_fired={detected}",
         )
 

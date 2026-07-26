@@ -1,6 +1,7 @@
 case	status	expected_behavior	detail
 clean_markdown_accepted	PASS	well-formed document passes	unexpected_failures=0
 broken_link_rejected	PASS	missing local target produces a failure	detector_fired=True
+broken_section_anchor_rejected	PASS	missing Markdown heading fragment produces a failure	detector_fired=True
 unknown_claim_id_rejected	PASS	claim absent from source contract produces a failure	detector_fired=True
 formal_class_marker_1_leakage_rejected	PASS	formal class marker in onboarding produces a failure	detector_fired=True
 formal_class_marker_2_leakage_rejected	PASS	formal class marker in onboarding produces a failure	detector_fired=True

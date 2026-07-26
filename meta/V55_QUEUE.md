@@ -61,8 +61,8 @@ negative results, and source traceability.
 | Continuous onboarding check | done | Secret-free GitHub workflow runs the audit, synthetic detector checks, provenance/structure gates, Chrome render regression, and uploads only lightweight reports. |
 | Plain-language density review | done | Ten-page audit measures 12,881 prose words/1,163 sentences; no >65-word sentences, threshold failures, or unexplained acronyms remain; limits and retained caveats documented. |
 | Source-coverage map | done | Eleven-page graph covers all 32 claim rows and all 31 existing controlling artifacts; readable report distinguishes maintenance centrality from evidence strength. |
-| Markdown section-anchor validation | in-progress | Extend local-link checks to verify heading fragments, including duplicate-heading slugs, and prove rejection with a synthetic bad-anchor fixture. |
-| Newcomer comprehension test kit | todo | Package a real human reading protocol, answer key, scoring rubric, and misuse questions without collecting medical information. |
+| Markdown section-anchor validation | done | All 29 current fragments resolve under GitHub-style slugs; same-page/cross-file, explicit IDs, Unicode/punctuation, and duplicate headings supported; bad-anchor fixture rejected. |
+| Newcomer comprehension test kit | in-progress | Package a real human reading protocol, answer key, scoring rubric, and misuse questions without collecting medical information. |
 | Contributor idea triage rubric | todo | Give maintainers a transparent rubric for novelty, grounding feasibility, error controls, decision value, and duplicate/closure risk. |
 | Root contribution integration | todo | Add a concise root CONTRIBUTING guide and pull-request checklist that route ideas into the existing rigor-gated on-ramp. |
 | Failure-mode atlas | todo | Recast direction, causal-gene, confounding, specificity, overfit, validation, and data-design failures for newcomers, with closed-route examples. |
@@ -207,3 +207,9 @@ negative results, and source traceability.
   evidence. Onboarding 748/748, plain-language, source coverage, provenance,
   and structural checks pass. Refilled the backlog with 11 substantive
   explainability/collaboration tasks. Active time accrued: 1h09m38s.
+- 2026-07-26T18:27:10Z: Completed Markdown section-anchor validation. All 29
+  current fragment links resolve using GitHub-style slugs, including duplicate
+  headings; the temporary positive fixture checks `#repeated-heading-1`, and an
+  eleventh synthetic case proves a nonexistent section fails. Onboarding
+  777/777, synthetic 11/11, provenance 841/841, and structural 142/142 pass.
+  Active time accrued: 1h11m56s.
