@@ -110,8 +110,8 @@ negative results, and source traceability.
 | Starter contribution board | done | Twelve first tasks span comprehension, test cards, visual/accessibility, writing, synthetic leakage/package checks, confounds, validation design, cohort metadata, perturbation design, reproducibility, and countertests. |
 | Contribution examples by type | done | Four fictional ready-versus-repair pairs cover data, method, documentation/visual, and adversarial challenge submissions without claiming a run or result. |
 | Direct issue-launch and remote-render check | done | Direct links now open the live form; remote/local SHA-256 match, the launch route resolves, the authenticated CLI fetched the live template to its required-title prompt, and the 10-element/9-ID/all-required contract passes. Authenticated visual rendering remains login-gated and was not claimed. |
-| External-link and link-label QA | in-progress | Check public external URLs, remove vague link labels, and document any intentionally uncheckable destination without expanding scientific content. |
-| Heading and table semantic QA | todo | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
+| External-link and link-label QA | done | Dated review confirms 589 local links, 61 anchors, six unique external destinations resolving, no high-risk generic link labels, and the login-gated limit on visual issue-form verification. |
+| Heading and table semantic QA | in-progress | Check heading order, duplicate headings, table headers, and linear meaning across the public layer; repair accessibility defects only. |
 | Human pilot recruitment handoff | todo | Create a privacy-safe invitation and session logistics note for running the already-defined comprehension/idea-production pilot; do not claim a run. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
@@ -641,3 +641,12 @@ negative results, and source traceability.
   visual post-login render is not claimed. Onboarding 2241/2241,
   plain-language 43/43 pages, source coverage 33/33 across 44 reader pages,
   and route depth 17/17 pass. Active time accrued: 4h16m54s.
+- 2026-07-26T21:34:39Z: Completed the external-link and link-label review.
+  The public layer has 589 passing relative-file links, 61 passing anchors,
+  and six unique navigational HTTP destinations. Four pushed onboarding pages,
+  the login-gated issue launch, and the header-only Zenodo destination all
+  resolve. No link uses a high-risk generic label such as “click here,” “here,”
+  or “read more.” The report distinguishes current availability from
+  permission, comprehension, and scientific validity. Onboarding 2252/2252,
+  plain-language 43/43 pages, source coverage 33/33 across 44 reader pages,
+  and route depth 17/17 pass. Active time accrued: 4h19m25s.

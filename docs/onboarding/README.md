@@ -123,6 +123,7 @@ Start with the source artifacts rather than onboarding prose:
 | Inspect the final cross-page status, safety, count, and navigation review | [Final Drift And Safety Review](FINAL_DRIFT_AND_SAFETY_REVIEW_V55.md) |
 | See what V55 added and what scientific state did not change | [V55 Public Release Notes](RELEASE_NOTES_V55.md) |
 | Inspect core route depth and reciprocity | [Newcomer Route-Depth Review](ROUTE_DEPTH_REVIEW_V55.md) |
+| Inspect internal/external links and descriptive labels | [Link And Label Review](LINK_AND_LABEL_REVIEW_V55.md) |
 | Inspect the pre-glossary jargon review | [Zero-Jargon Entry Review](ZERO_JARGON_ENTRY_REVIEW_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |
 | See which sources control which pages | [Source Coverage](SOURCE_COVERAGE_V55.md) |

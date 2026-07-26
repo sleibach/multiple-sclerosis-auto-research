@@ -19,7 +19,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Public Markdown documents in the route graph | 60 |
+| Public Markdown documents in the route graph | 61 |
 | Configured high-value routes | 17 |
 | Routes within their hop limit | 17 |
 | Failed or unreachable routes | 0 |
