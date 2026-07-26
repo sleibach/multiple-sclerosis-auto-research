@@ -9,11 +9,28 @@ full reasoning trace stays auditable.
 All analysis uses public human-tissue data only and random seed `20260526`
 (V5 analyses use `20260528`).
 
+## New Here? Start With The Public Onboarding
+
+V55 adds an explainability and collaboration layer for readers without a
+medical background. It changes no scientific finding.
+
+- [Two-minute and fifteen-minute explanation](docs/onboarding/MS_RESEARCH_EXPLAINED.md)
+- [Visual map of live, closed, negative, and data-blocked routes](docs/onboarding/VISUAL_INDEX.md)
+- [Eight open problems for cross-disciplinary collaborators](docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md)
+- [How to submit a falsifiable research-direction idea](docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md)
+- [Plain-language glossary](docs/onboarding/GLOSSARY.md)
+
+The short honest state: one provisional early-treatment monitoring lead awaits
+independent validation; the project has no intervention-grade target and no
+established progression mechanism. Start with the onboarding layer for context,
+then follow its claim IDs into the source artifacts.
+
 ## Current Status
 
-The current live operational phase is **V54**. The V4 directory structure
+The current scientific evidence state remains **V54**; **V55 is communication
+and onboarding only**. The V4 directory structure
 remains canonical, and V11 introduced the resume backbone for short-session
-continuity. For the newest resumable state, read `meta/V54_QUEUE.md` after
+continuity. For the newest resumable state, read `meta/V55_QUEUE.md` after
 `meta/CURRENT_STATUS.md`.
 
 - Progression-specific V54 bottom line: held public data establish no portable

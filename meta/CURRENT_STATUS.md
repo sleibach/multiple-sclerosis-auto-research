@@ -1,6 +1,20 @@
 # Current Status
 
-Last updated: 2026-07-22 05:02 CEST
+Last updated: 2026-07-26
+
+## V55 Communication Layer
+
+V55 is an explainability and collaboration-onboarding phase. It introduces no
+scientific claim and changes no V54 evidence verdict. Public readers should
+start at `docs/onboarding/README.md`, which provides two- and fifteen-minute
+routes, five accessible visuals, eight collaborator problems, a contribution
+template, glossary, misuse-prevention page, and source-linked status cards.
+
+Every onboarding scientific statement is controlled by
+`docs/onboarding/ONBOARDING_CLAIM_SOURCES_V55.tsv`. The committed onboarding
+audit at `analysis/v55_onboarding_audit/onboarding_audit_summary.json` checks
+claim references, source paths, local links, evidence-class marker separation,
+SVG semantics and size, and contrast. Resume V55 from `meta/V55_QUEUE.md`.
 
 ## Mission State
 

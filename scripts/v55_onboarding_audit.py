@@ -24,6 +24,7 @@ SOURCE_MATRIX = ONBOARDING / "ONBOARDING_CLAIM_SOURCES_V55.tsv"
 DEFAULT_OUTDIR = Path("analysis/v55_onboarding_audit")
 
 EXPECTED_DOCS = {
+    "README.md",
     "MS_RESEARCH_EXPLAINED.md",
     "OPEN_PROBLEMS_FOR_COLLABORATORS.md",
     "HOW_TO_CONTRIBUTE_IDEAS.md",
@@ -41,6 +42,23 @@ EXPECTED_VISUALS = {
     "EVIDENCE_LANES_V55.svg",
     "RELAPSE_VS_PROGRESSION_V55.svg",
     "OPEN_PROBLEM_BOARD_V55.svg",
+}
+
+NAVIGATION_TARGETS = {
+    Path("README.md"): {
+        "docs/onboarding/MS_RESEARCH_EXPLAINED.md",
+        "docs/onboarding/VISUAL_INDEX.md",
+        "docs/onboarding/OPEN_PROBLEMS_FOR_COLLABORATORS.md",
+        "docs/onboarding/HOW_TO_CONTRIBUTE_IDEAS.md",
+        "docs/onboarding/GLOSSARY.md",
+        "meta/V55_QUEUE.md",
+    },
+    Path("meta/CURRENT_STATUS.md"): {
+        "docs/onboarding/README.md",
+        "docs/onboarding/ONBOARDING_CLAIM_SOURCES_V55.tsv",
+        "analysis/v55_onboarding_audit/onboarding_audit_summary.json",
+        "meta/V55_QUEUE.md",
+    },
 }
 
 ALLOWED_STATUSES = {
@@ -234,6 +252,18 @@ def audit_svg(root: Path, checks: list[Check]) -> None:
         add(checks, relative, "no_remote_assets", not remote, f"n={len(remote)}")
 
 
+def audit_navigation(root: Path, checks: list[Check]) -> None:
+    for relative, targets in NAVIGATION_TARGETS.items():
+        path = root / relative
+        add(checks, str(relative), "navigation_document_exists", path.is_file(), str(path))
+        if not path.is_file():
+            continue
+        text = path.read_text(errors="replace")
+        for target in sorted(targets):
+            add(checks, str(relative), "navigation_target_present", target in text, target)
+            add(checks, str(relative), "navigation_target_exists", (root / target).exists(), target)
+
+
 def srgb_luminance(color: str) -> float:
     if not HEX_RE.fullmatch(color):
         raise ValueError(color)
@@ -306,6 +336,7 @@ def main() -> int:
     claim_rows, prefixes = read_claim_rows(root, checks)
     referenced = audit_markdown(root, claim_rows, prefixes, checks)
     audit_svg(root, checks)
+    audit_navigation(root, checks)
     audit_contrast(checks)
     summary = write_outputs(root, args.outdir, checks, referenced, claim_rows)
     print(json.dumps(summary, indent=2, sort_keys=True))

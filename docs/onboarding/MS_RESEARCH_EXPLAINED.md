@@ -22,6 +22,10 @@ repository. It introduces no new scientific claim. Bracketed IDs such as
 The formal evidence-handling policy is in
 [EPISTEMIC_CLASSES.md](../knowledge/EPISTEMIC_CLASSES.md). `[E01, E02]`
 
+![Research terrain showing the live monitoring route beside supported context, closed genetics routes, negative systems results, and progression data gaps.](visuals/RESEARCH_MAP_V55.svg)
+
+[Open all five visuals with full text equivalents](VISUAL_INDEX.md).
+
 ---
 
 ## The Two-Minute Version
@@ -117,8 +121,9 @@ such as:
 5. How can source and batch confounding be detected before an exciting pattern
    is interpreted?
 
-These are developed next in a companion open-problem board. Until that board
-is committed, the claim IDs above point directly to the controlling evidence.
+These are developed in the
+[Open Problems for Collaborators](OPEN_PROBLEMS_FOR_COLLABORATORS.md). The
+claim IDs above point directly to the controlling evidence.
 
 ---
 
@@ -307,6 +312,8 @@ correctly designed evidence. `[D05, P01, A01, A02]`
 | What was the brain-bank confounding lesson? | [Microglia Source-Balance Addendum V53](../validation/MS_MICROGLIA_SOURCE_BALANCE_ADDENDUM_V53.md) |
 | How are evidence types separated? | [Epistemic Classes](../knowledge/EPISTEMIC_CLASSES.md), [External Context Index](../../knowledge_external/INDEX.md) |
 | What controls every sentence on this page? | [V55 Claim-Source Matrix](CLAIM_SOURCE_MATRIX_V55.md), [machine-readable rows](ONBOARDING_CLAIM_SOURCES_V55.tsv) |
+| How can I propose a useful direction? | [Open Problems](OPEN_PROBLEMS_FOR_COLLABORATORS.md), [Contribution Guide](HOW_TO_CONTRIBUTE_IDEAS.md) |
+| What do unfamiliar terms mean? | [Plain-Language Glossary](GLOSSARY.md) |
 
 ## A Useful Reading Habit
 

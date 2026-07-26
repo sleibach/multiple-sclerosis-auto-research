@@ -51,8 +51,16 @@ negative results, and source traceability.
 | Per-lead status cards | done | Nine source-linked cards cover the live monitor, coupled context, genetics context/closures, microglia candidate, progression boundary, joint-search null, and simulator negative. |
 | Accessibility and visual semantic audit | done | Scoped WCAG-oriented audit covers five SVGs, text equivalents, semantic names, static behavior, contrast, non-color status cues, and honest screen-reader residuals. |
 | Onboarding traceability checker | done | Committed audit passes 551/551 checks across 32 referenced claim rows, nine documents, five SVGs, local links, class markers, semantics, sizes, and palette contrast. |
-| Public navigation integration | in-progress | Add onboarding entry points without displacing scientific source artifacts. |
-| Independent newcomer comprehension audit | todo | Test whether key distinctions can be recovered from onboarding alone; models may propose confusion points, never facts. |
+| Public navigation integration | done | Root README, CURRENT_STATUS, onboarding landing page, narrative, visual index, problem board, and contribution route now cross-link without broken local targets. |
+| Independent newcomer comprehension audit | in-progress | Test whether key distinctions can be recovered from onboarding alone; models may propose confusion points, never facts. |
+| Role-based collaborator routes | todo | Give engineers, designers, data stewards, statisticians, and systems thinkers a short route to the relevant bounded puzzle. |
+| Newcomer FAQ | todo | Answer recurring scope, evidence, medical-advice, data-access, null-result, and contribution questions without adding biology. |
+| Worked idea transformations | todo | Show how to turn vague or overclaiming suggestions into falsifiable, rigor-gated research directions. |
+| Visual browser-render regression | todo | Render all SVGs headlessly, verify dimensions and output, and retain lightweight machine results without committing PNGs. |
+| Onboarding audit synthetic fixtures | todo | Prove the audit fails on broken links, unknown claim IDs, missing SVG semantics, marker leakage, and low contrast. |
+| Continuous onboarding check | todo | Add a focused GitHub workflow for the V55 audit if it can run without secrets or scientific compute. |
+| Plain-language density review | todo | Measure sentence/word load and reduce avoidable jargon while retaining caveats and claim status. |
+| Source-coverage map | todo | Summarize which authoritative artifacts feed which newcomer pages so maintenance stays legible. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -124,3 +132,9 @@ negative results, and source traceability.
   documents and five SVGs present, links resolved, semantic SVG metadata and
   file limits valid, and text/non-text contrast above AA thresholds. No human
   screen-reader session was claimed. Active time accrued: 0h38m11s.
+- 2026-07-26T17:55:55Z: Completed public navigation. The root README and live
+  status now point to the V55 landing page while preserving V54 as the
+  scientific evidence state; onboarding pages, visuals, problem board, issue
+  form, and source artifacts cross-link. Expanded audit: 612/612 pass. Refilled
+  the backlog with eight clarity and maintainability tasks. Active time accrued:
+  0h40m41s.
