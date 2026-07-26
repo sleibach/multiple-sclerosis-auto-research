@@ -273,12 +273,12 @@ def audit_root(root: Path, outdir: Path) -> tuple[dict[str, object], list[GateIs
     summary = {
         "synthetic": False,
         "purpose": "V47 provenance segregation gate; no biological claim",
-        "root": str(root),
+        "root": rel(ROOT, root),
         "n_checks": len(issues),
         "n_fail": n_fail,
         "n_external_json_records": len(external_json_files(root)),
         "overall_status": "PASS" if n_fail == 0 else "FAIL",
-        "issues": rel(root, outdir / "provenance_gate_issues.tsv") if root == ROOT else str(outdir / "provenance_gate_issues.tsv"),
+        "issues": rel(ROOT, outdir / "provenance_gate_issues.tsv"),
     }
     (outdir / "provenance_gate_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     print(json.dumps(summary, indent=2, sort_keys=True))
@@ -341,7 +341,7 @@ def run_synthetic(outdir: Path) -> tuple[dict[str, object], list[dict[str, objec
                 "observed_status": observed,
                 "expectation_met": str(observed == expected_status).lower(),
                 "n_fail": summary["n_fail"],
-                "audit_dir": str(outdir / f"case_{case_id}_audit"),
+                "audit_dir": rel(ROOT, outdir / f"case_{case_id}_audit"),
             }
         )
 
@@ -379,7 +379,7 @@ def run_synthetic(outdir: Path) -> tuple[dict[str, object], list[dict[str, objec
         "n_expected_fail_cases": sum(1 for case in cases if case["expected_status"] == "FAIL"),
         "n_expectation_failures": n_fail,
         "overall_status": "PASS" if n_fail == 0 else "FAIL",
-        "cases": str(outdir / "synthetic_provenance_gate_cases.tsv"),
+        "cases": rel(ROOT, outdir / "synthetic_provenance_gate_cases.tsv"),
     }
     (outdir / "synthetic_provenance_gate_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     print(json.dumps(summary, indent=2, sort_keys=True))

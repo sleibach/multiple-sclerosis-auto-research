@@ -132,6 +132,7 @@ negative results, and source traceability.
 | Final public release-note synchronization | done | Release note now covers final intake, anti-duplication, human-pilot, CI, semantic, graph, and package work while preserving the unchanged scientific state. |
 | RAG rebuild | done | Sparse TF-IDF index rebuilt to 977 unique documents, including 72 onboarding pages and zero `knowledge_external/` paths; three V55 retrieval smoke queries pass. |
 | Full gates and clean close | todo | Run the complete local CI-equivalent suite, size/tmp guards, manifest freshness, final public CI, and clean-tree check. |
+| Checkout-path-stable generated reports | in-progress | Final clean clone passed but exposed three absolute-path-only diffs; generators now emit repository-relative roots/paths, rerun and clean-clone proof pending. |
 | V55 run summary | todo | Close the exact six-hour interval and report artifacts, eight visuals, skill/model use, gates, OpenGWAS status, pushes, limits, and next action. |
 
 ## Per-Iteration Notes
@@ -835,3 +836,19 @@ negative results, and source traceability.
   and all six results for the orientation query are onboarding pages. This is
   retrieval continuity, not semantic comprehension or scientific validation.
   Active time accrued: 5h12m12s.
+- 2026-07-26T22:37:40Z: The final public shallow-clone run passed every
+  requested audit but correctly failed the stronger clean-tree criterion: three
+  generated reports embedded the checkout's absolute path. The onboarding,
+  provenance, and structural generators now emit repository-relative paths;
+  main and all nine synthetic evidence-gate cases pass, and the affected output
+  trees contain no local checkout path. A second pushed-clone proof remains
+  required before this item closes. Active time accrued: 5h22m26s.
+- 2026-07-26T22:41:47Z: Extended checkout portability to the browser-render,
+  constrained-width, and print-report generators. All generated V55 text and
+  every currently modified report are now free of checkout-specific paths.
+  Successful browser checks no longer persist nondeterministic stderr presence;
+  two consecutive render, responsive, and print runs produced byte-identical
+  reports. All three audits pass (49/49, 74/74, and 26/26), as do onboarding
+  2,487/2,487, provenance 841/841 plus four synthetic cases, structure 142/142
+  plus five synthetic cases, and the 100-artifact manifest. A clean pushed-clone
+  proof is next. Active time accrued: 5h26m33s.

@@ -1,6 +1,6 @@
 check	status	detail
-html_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/docs/onboarding/COLLABORATOR_BRIEF_V55.html
-linear_equivalent_exists	PASS	/Users/soeren.leibach/Projects/ms-auto-research/docs/onboarding/COLLABORATOR_BRIEF_V55.md
+html_exists	PASS	docs/onboarding/COLLABORATOR_BRIEF_V55.html
+linear_equivalent_exists	PASS	docs/onboarding/COLLABORATOR_BRIEF_V55.md
 html_under_100kb	PASS	bytes=9572
 language_declared	PASS	lang=en
 viewport_declared	PASS	responsive viewport
@@ -21,7 +21,7 @@ local_link_resolves	PASS	HOW_TO_CONTRIBUTE_IDEAS.md
 local_link_resolves	PASS	../reports/FINDINGS_REPORT_V37.md
 local_link_resolves	PASS	COLLABORATOR_BRIEF_V55.md
 browser_available	PASS	Google Chrome 150.0.7871.182
-temporary_pdf_created	PASS	returncode=0; terminated_after_output=True; stderr_present=True
+temporary_pdf_created	PASS	returncode=0; terminated_after_output=True
 temporary_pdf_nontrivial	PASS	bytes=264086
 prints_to_one_page	PASS	pages=1
 no_print_output_committed	PASS	none

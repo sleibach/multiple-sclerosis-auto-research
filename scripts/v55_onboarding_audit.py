@@ -224,7 +224,7 @@ def add(checks: list[Check], path: str, name: str, passed: bool, detail: str) ->
 
 def read_claim_rows(root: Path, checks: list[Check]) -> tuple[dict[str, dict[str, str]], set[str]]:
     matrix = root / SOURCE_MATRIX
-    add(checks, str(SOURCE_MATRIX), "source_matrix_exists", matrix.is_file(), str(matrix))
+    add(checks, str(SOURCE_MATRIX), "source_matrix_exists", matrix.is_file(), rel(root, matrix))
     if not matrix.is_file():
         return {}, set()
 
@@ -364,7 +364,7 @@ def audit_markdown(
     documents = EXPECTED_DOCS if expected_docs is None else expected_docs
     for name in sorted(documents):
         document = onboarding / name
-        add(checks, str(ONBOARDING / name), "expected_document_exists", document.is_file(), str(document))
+        add(checks, str(ONBOARDING / name), "expected_document_exists", document.is_file(), rel(root, document))
         if not document.is_file():
             continue
         text = document.read_text(errors="replace")
@@ -391,7 +391,7 @@ def audit_svg(
     for name in sorted(visual_names):
         path = visuals / name
         relative = rel(root, path)
-        add(checks, relative, "expected_visual_exists", path.is_file(), str(path))
+        add(checks, relative, "expected_visual_exists", path.is_file(), rel(root, path))
         if not path.is_file():
             continue
         size = path.stat().st_size
@@ -425,7 +425,7 @@ def audit_svg(
 def audit_navigation(root: Path, checks: list[Check]) -> None:
     for relative, targets in NAVIGATION_TARGETS.items():
         path = root / relative
-        add(checks, str(relative), "navigation_document_exists", path.is_file(), str(path))
+        add(checks, str(relative), "navigation_document_exists", path.is_file(), rel(root, path))
         if not path.is_file():
             continue
         text = path.read_text(errors="replace")

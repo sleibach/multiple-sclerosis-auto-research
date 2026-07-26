@@ -239,9 +239,21 @@ def main() -> int:
         for index, filename in enumerate(EXPECTED_VISUALS):
             svg_path = VISUAL_DIR / filename
             if not svg_path.is_file():
-                add_check(checks, filename, "source_exists", False, str(svg_path))
+                add_check(
+                    checks,
+                    filename,
+                    "source_exists",
+                    False,
+                    str(svg_path.relative_to(ROOT)),
+                )
                 continue
-            add_check(checks, filename, "source_exists", True, str(svg_path))
+            add_check(
+                checks,
+                filename,
+                "source_exists",
+                True,
+                str(svg_path.relative_to(ROOT)),
+            )
 
             try:
                 canvas = parse_canvas(svg_path)
@@ -272,9 +284,10 @@ def main() -> int:
             rendered = result.output_ready and png_path.is_file()
             detail = (
                 f"returncode={result.returncode}; "
-                f"terminated_after_output={result.terminated_after_output}; "
-                f"stderr_present={bool(result.stderr)}"
+                f"terminated_after_output={result.terminated_after_output}"
             )
+            if not rendered and result.stderr:
+                detail += f"; stderr_tail={result.stderr[-500:]}"
             add_check(checks, filename, "browser_render", rendered, detail)
             if not rendered:
                 continue

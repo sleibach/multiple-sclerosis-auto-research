@@ -226,7 +226,14 @@ def main() -> int:
         tempdir = Path(temp_name)
         for visual in EXPECTED_VISUALS:
             path = VISUAL_DIR / visual
-            add(checks, visual, "all", "source_exists", path.is_file(), str(path))
+            add(
+                checks,
+                visual,
+                "all",
+                "source_exists",
+                path.is_file(),
+                str(path.relative_to(ROOT)),
+            )
             if not path.is_file():
                 continue
             section = index_section(index, visual)
@@ -302,15 +309,20 @@ def main() -> int:
                     and image_width <= frame_width + 0.5
                     and scroll_width <= actual_viewport + 0.5
                 )
+                detail = (
+                    f"ready={ready}; frame={frame_width:.1f}; image={image_width:.1f}; "
+                    f"scroll={scroll_width:.1f}; requested_viewport={viewport}; "
+                    f"actual_viewport={actual_viewport:.1f}"
+                )
+                if not fits and stderr:
+                    detail += f"; stderr_tail={stderr}"
                 add(
                     checks,
                     visual,
                     scenario,
                     "browser_fit",
                     fits,
-                    f"ready={ready}; frame={frame_width:.1f}; image={image_width:.1f}; "
-                    f"scroll={scroll_width:.1f}; requested_viewport={viewport}; "
-                    f"actual_viewport={actual_viewport:.1f}; stderr_present={bool(stderr)}",
+                    detail,
                 )
 
     media = [

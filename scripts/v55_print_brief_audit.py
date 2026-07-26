@@ -161,8 +161,13 @@ def main() -> int:
     outdir.mkdir(parents=True, exist_ok=True)
     checks: list[Check] = []
 
-    add(checks, "html_exists", BRIEF.is_file(), str(BRIEF))
-    add(checks, "linear_equivalent_exists", LINEAR.is_file(), str(LINEAR))
+    add(checks, "html_exists", BRIEF.is_file(), str(BRIEF.relative_to(ROOT)))
+    add(
+        checks,
+        "linear_equivalent_exists",
+        LINEAR.is_file(),
+        str(LINEAR.relative_to(ROOT)),
+    )
     if not BRIEF.is_file():
         html_text = ""
     else:
@@ -212,12 +217,17 @@ def main() -> int:
             produced, returncode, terminated_after_output, stderr = print_pdf(
                 browser, pdf, profile
             )
+            detail = (
+                f"returncode={returncode}; "
+                f"terminated_after_output={terminated_after_output}"
+            )
+            if not produced and stderr:
+                detail += f"; stderr_tail={stderr}"
             add(
                 checks,
                 "temporary_pdf_created",
                 produced,
-                f"returncode={returncode}; terminated_after_output="
-                f"{terminated_after_output}; stderr_present={bool(stderr)}",
+                detail,
             )
             if produced:
                 content = pdf.read_bytes()
