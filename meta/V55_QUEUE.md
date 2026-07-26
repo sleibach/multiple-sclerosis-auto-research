@@ -852,3 +852,11 @@ negative results, and source traceability.
   2,487/2,487, provenance 841/841 plus four synthetic cases, structure 142/142
   plus five synthetic cases, and the 100-artifact manifest. A clean pushed-clone
   proof is next. Active time accrued: 5h26m33s.
+- 2026-07-26T22:48:55Z: The first post-fix public clone passed the entire
+  audit suite at pushed commit `2eb083f5`, but the clean-tree criterion found
+  two remaining print-report diffs. Chrome's temporary PDF differed by 36
+  bytes across checkout contexts while remaining nontrivial and one page. The
+  generator now records the stable precommitted 10,000-byte threshold and its
+  pass/fail result rather than an operationally irrelevant exact byte count;
+  two consecutive local runs are byte-identical and pass 26/26 checks. A new
+  pushed-clone proof is still required. Active time accrued: 5h33m41s.

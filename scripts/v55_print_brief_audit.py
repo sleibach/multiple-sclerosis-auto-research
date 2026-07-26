@@ -36,6 +36,7 @@ BROWSER_CANDIDATES = (
     "/Applications/Chromium.app/Contents/MacOS/Chromium",
 )
 PAGE_RE = re.compile(rb"/Type\s*/Page\b")
+MIN_PDF_BYTES = 10_000
 REQUIRED_PHRASES = (
     "One live route",
     "No target",
@@ -233,7 +234,16 @@ def main() -> int:
                 content = pdf.read_bytes()
                 pdf_bytes = len(content)
                 page_count = len(PAGE_RE.findall(content))
-                add(checks, "temporary_pdf_nontrivial", pdf_bytes >= 10_000, f"bytes={pdf_bytes}")
+                add(
+                    checks,
+                    "temporary_pdf_nontrivial",
+                    pdf_bytes >= MIN_PDF_BYTES,
+                    (
+                        f"at least {MIN_PDF_BYTES} bytes"
+                        if pdf_bytes >= MIN_PDF_BYTES
+                        else f"bytes={pdf_bytes}; required={MIN_PDF_BYTES}"
+                    ),
+                )
                 add(checks, "prints_to_one_page", page_count == 1, f"pages={page_count}")
 
     retained = [
@@ -266,7 +276,8 @@ def main() -> int:
         "n_checks": len(checks),
         "n_fail": len(failures),
         "printed_page_count": page_count,
-        "temporary_pdf_bytes": pdf_bytes,
+        "temporary_pdf_size_threshold_bytes": MIN_PDF_BYTES,
+        "temporary_pdf_size_threshold_passed": pdf_bytes >= MIN_PDF_BYTES,
         "pdf_or_raster_outputs_committed": len(retained),
         "overall_status": "PASS" if not failures else "FAIL",
         "interpretation": (
