@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 26 |
+| Reader-facing pages mapped | 27 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -48,6 +48,7 @@ Different pages intentionally carry different evidence loads:
 | Research-evolution timeline | 31 | 31 | Promotions, bounds, demotions, nulls, and the present frontier in sequence. |
 | Repository tour | 15 | 16 | Storage, authority, lifecycle, and safe navigation by evidence role. |
 | Nulls and boundaries explainer | 19 | 21 | Decision differences among negative, closed, mixed, attenuated, inconclusive, invalid, and data-blocked outcomes. |
+| Numbers-without-overreading guide | 9 | 9 | Effect, uncertainty, AUC, null tests, multiplicity, validation level, and project examples without threshold-to-truth upgrades. |
 | Brain-bank confounding case study | 2 | 2 | How source-diagnosis entanglement narrowed one interpretation and changed the next study design. |
 | Genetics-reversal case study | 3 | 4 | Why regional association, causal gene, protective direction, and workable modality are separate target gates. |
 | Monitor-versus-target case study | 9 | 11 | Why an associated early-treatment readout and a causal intervention require different evidence ladders. |
@@ -71,18 +72,18 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 24 of
-the 26 reader pages and controls six live-lead, closed-direction, and
+The most reused record, `docs/reports/THERAPEUTIC_PATH_V52.md`, serves 25 of
+the 27 reader pages and controls six live-lead, closed-direction, and
 next-impact claims.
 
-`docs/history/V54_RUN_SUMMARY.md` serves 23 pages and controls eight
+`docs/history/V54_RUN_SUMMARY.md` serves 24 pages and controls eight
 progression, monitoring/target-boundary, and model-use claims.
 
 `docs/reports/FINDINGS_REPORT_V37.md` serves 22 pages and controls eight
 context, decoupling, closure, and governance claims.
 
-`docs/findings/FINDING_V22.md` serves 19 pages;
-`docs/validation/PREREGISTRATION_V42.md` serves 18.
+`docs/findings/FINDING_V22.md` serves 20 pages;
+`docs/validation/PREREGISTRATION_V42.md` serves 19.
 
 This is **maintenance centrality**, not scientific importance. A heavily reused
 artifact requires a wider communication review when it changes; it does not

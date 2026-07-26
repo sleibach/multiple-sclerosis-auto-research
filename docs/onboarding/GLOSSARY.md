@@ -203,6 +203,28 @@ A test that repeatedly rearranges labels or assignments under a specified null
 while preserving relevant data structure. It asks how unusual the observed
 result is under that null.
 
+**p-value**
+
+The probability, under a specified null and analysis procedure, of a statistic
+at least as extreme as the observed one. It is not the probability that the
+null is true or that a result will replicate.
+
+**Family-wise error rate (FWER)**
+
+The probability of making at least one false rejection in a defined family of
+tests under the correction's assumptions.
+
+**False discovery rate (FDR)**
+
+The expected fraction of false discoveries among the discoveries under the
+chosen procedure and its assumptions.
+
+**q-value**
+
+Commonly, the smallest FDR level at which a test would be called significant
+under the chosen procedure. It is not the probability that one finding is
+false.
+
 **Holdout**  
 Data deliberately not used to construct or select a result, reserved for a
 later test. A different encoding of the same labels is not automatically an

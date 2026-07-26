@@ -73,6 +73,7 @@ Start with the source artifacts rather than onboarding prose:
 | Decode terms | [Glossary](GLOSSARY.md) |
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Distinguish null, closed, mixed, inconclusive, invalid, and data-blocked outcomes | [How To Read Nulls And Boundaries](HOW_TO_READ_NULLS_AND_BOUNDARIES.md) |
+| Interpret AUC, intervals, p/q values, permutations, multiplicity, and cross-validation | [How To Read Numbers Without Overreading](HOW_TO_READ_NUMBERS_WITHOUT_OVERREADING.md) |
 | See how source imbalance changed a biological interpretation | [Brain-Bank Confounding Case Study](CASE_STUDY_BRAIN_BANK_CONFOUND.md) |
 | Learn the four recurring inference corrections in sequence | [Four-Case Learning Path](CASE_STUDY_LEARNING_PATH.md) |
 | Apply a source, batch, immune-tone, composition, and timing screen | [Confound Check Quick Reference](CONFOUND_CHECK_QUICK_REFERENCE.md) |

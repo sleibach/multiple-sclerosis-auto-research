@@ -84,9 +84,14 @@ negative results, and source traceability.
 | Outside-context-to-test case study | done | Six-stage path preserves source/class, classifies overlap, removes authority words, defines a prediction, checks data/verb fit, and records any future grounded result separately. |
 | Analogy safety review | done | Nine teaching comparisons now have an explicit purpose and limit; terrain, lanes, journey, snapshot/movie, ladders, and walls were clarified, and an authority-transfer metaphor was replaced with literal language. |
 | Contributor response lifecycle | done | Seven-stage path separates receipt, gates, test-card repair, action class, freeze, grounding outcome, and public closure; it promises process clarity, not execution or support. |
-| Numbers-without-overreading guide | in-progress | Explain effects, intervals, AUC, p/q values, permutation, multiplicity, and sample size without turning thresholds into truth. |
-| Final newcomer ambiguity scan | todo | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
+| Numbers-without-overreading guide | done | Reading guide separates effect, uncertainty, n, AUC, p/q values, permutation, multiplicity, cross-validation, holdout, association, and decision thresholds; three project examples retain their exact scope. |
+| Final newcomer ambiguity scan | in-progress | Search all reader pages for language that could collapse monitoring/target, missing-data/absent-biology, prediction/experiment, or support/validation. |
 | Newcomer route-depth smoke audit | todo | Verify core reading and contribution routes are short, reciprocal, and free of broken section anchors. |
+| Worked submission-to-verdict example | todo | Follow one synthetic, clearly non-evidentiary idea through intake, repair, freeze, a hypothetical outcome table, and bounded response without pretending it was run. |
+| Contributor-lifecycle visualization | todo | Add a lightweight SVG and text equivalent distinguishing workflow state from evidence grade. |
+| Review-response templates | todo | Provide concise repair, data-request, duplicate/closed, park, runnable, and grounded-result response templates that never evaluate the contributor. |
+| Evidence-status versus workflow-status matrix | todo | Make clear that received/runnable/parked are operations while provisional/supported/negative are evidence states. |
+| Zero-jargon entry-route review | todo | Verify the two-minute path can be followed before reading the glossary and move or define any early specialist terms. |
 | RAG rebuild, full gates, clean close, and run summary | todo | Rebuild retrieval, run provenance/structure/size/tmp checks, summarize measured runtime, commit, and push. |
 
 ## Per-Iteration Notes
@@ -394,3 +399,12 @@ negative results, and source traceability.
   1442/1442, plain-language 25/25 pages, source coverage 33/33 across 26 reader
   pages, provenance 841/841, and structural 142/142 pass. Active time accrued:
   2h37m13s.
+- 2026-07-26T19:55:23Z: Completed the numbers-without-overreading guide. It
+  separates effect size, intervals, independent units, AUC, p/q values,
+  permutation, multiplicity, cross-validation, holdout level, association, and
+  decision thresholds. The n=19 monitoring result, V41 bound, and brain-bank
+  association are used only within their existing claim scope. Added FWER, FDR,
+  p-value, and q-value definitions to the glossary. Onboarding 1462/1462,
+  plain-language 26/26 pages, source coverage 33/33 across 27 reader pages,
+  provenance 841/841, and structural 142/142 pass. Active time accrued:
+  2h40m09s. Refilled the backlog with four content and clarity tasks.
