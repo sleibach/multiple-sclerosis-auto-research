@@ -24,7 +24,7 @@ The formal evidence-handling policy is in
 
 ![Research terrain showing the live monitoring route beside supported context, closed genetics routes, negative systems results, and progression data gaps.](visuals/RESEARCH_MAP_V55.svg)
 
-[Open all five visuals with full text equivalents](VISUAL_INDEX.md).
+[Open all six visuals with full text equivalents](VISUAL_INDEX.md).
 
 ---
 

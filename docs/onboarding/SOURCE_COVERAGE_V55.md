@@ -17,7 +17,7 @@ Current result: `PASS`.
 
 | measure | result |
 |---|---:|
-| Reader-facing pages mapped | 13 |
+| Reader-facing pages mapped | 14 |
 | Bounded claim rows | 33 |
 | Claim rows referenced by at least one reader page | 33 |
 | Unique controlling artifacts | 33 |
@@ -44,9 +44,10 @@ Different pages intentionally carry different evidence loads:
 | FAQ | 29 | 28 | Direct answers to likely scope and evidence questions. |
 | Failure-mode atlas | 25 | 26 | Why routes failed and what evidence could change each blocker. |
 | Data-needed map | 20 | 21 | Minimum decisive packages and non-substitutable near-matches. |
+| Research-evolution timeline | 31 | 31 | Promotions, bounds, demotions, nulls, and the present frontier in sequence. |
 | Open-problem board | 26 | 25 | Boundaries, prior work, and useful next inputs. |
 | Lead status cards | 26 | 25 | Route-by-route current status. |
-| Visual text equivalents | 27 | 25 | Accessible linear equivalents for five diagrams. |
+| Visual text equivalents | 31 | 30 | Accessible linear equivalents for six diagrams. |
 | Glossary | 25 | 26 | Definitions that retain project-specific scope. |
 | Worked transformations | 21 | 23 | Design examples tied to known errors and closures. |
 | Myths versus findings | 27 | 26 | Common overreads corrected against source claims. |
@@ -58,14 +59,14 @@ count makes that visible rather than letting a short summary appear complete.
 
 ## Most Reused Controlling Artifacts
 
-The two records used by all 13 reader pages are:
+The two records used by all 14 reader pages are:
 
 1. `docs/history/V54_RUN_SUMMARY.md`, which controls eight progression,
    monitoring/target-boundary, and model-use claims; and
 2. `docs/reports/THERAPEUTIC_PATH_V52.md`, which controls six live-lead,
    closed-direction, and next-impact claims.
 
-Several artifacts feed twelve pages:
+Several artifacts feed thirteen pages:
 
 - `docs/findings/FINDING_V22.md`;
 - `docs/reports/FINDINGS_REPORT_V37.md`;

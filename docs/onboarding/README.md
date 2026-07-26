@@ -69,6 +69,7 @@ Start with the source artifacts rather than onboarding prose:
 | Prevent common overreads | [Myths vs Actual Findings](MYTHS_AND_ACTUAL_FINDINGS.md) |
 | Understand why attractive routes failed | [Failure-Mode Atlas](FAILURE_MODE_ATLAS.md) |
 | See what data could change each answer | [Data That Would Change The Answer](DATA_THAT_WOULD_CHANGE_THE_ANSWER.md) |
+| See how candidates were promoted, bounded, demoted, or closed | [Research Evolution Timeline](RESEARCH_EVOLUTION_TIMELINE.md) |
 | Check one route's status | [Lead Status Cards](LEAD_STATUS_CARDS.md) |
 | Inspect accessibility | [Accessibility Audit](ACCESSIBILITY_AUDIT_V55.md) |
 | Inspect plain-language load | [Plain-Language Review](PLAIN_LANGUAGE_REVIEW_V55.md) |

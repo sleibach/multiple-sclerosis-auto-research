@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-labelledby="title desc">
+  <title id="title">How the multiple sclerosis research program changed its mind</title>
+  <desc id="desc">Six chronological rows connect an initial question to a harder test and the current verdict. Genetics candidates were narrowed or closed by direction review. One monitoring signal remains provisional after robustness and confounder tests. Systems complexity did not improve prediction. Joint inference established a held-corpus boundary. Validation engineering improved method readiness without adding biological evidence. Progression candidates were bounded by source, donor, multiplicity, and missing-longitudinal-data checks.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 29px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .head { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .3px; }
+      .period { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .cardTitle { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .35px; }
+      .footer { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .question { fill: #ffffff; stroke: #7b8794; stroke-width: 1.8; }
+      .test { fill: #f2f5f8; stroke: #52606d; stroke-width: 1.8; }
+      .live { fill: #e8f2fa; stroke: #005a9c; stroke-width: 2.6; }
+      .supported { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2.2; }
+      .closed { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2.2; }
+      .negative { fill: #f0ecf8; stroke: #5b4b8a; stroke-width: 2.2; }
+      .boundary { fill: #fff4d6; stroke: #8a5a00; stroke-width: 2.2; }
+      .arrow { stroke: #7b8794; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+      .divider { stroke: #d5dce5; stroke-width: 1; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7b8794"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="1080"/>
+  <text class="title ink" x="48" y="48">How the research changed its mind</text>
+  <text class="subtitle muted" x="48" y="76">Each row moves from an attractive question through a harder test to the bounded verdict. Downward means later, not better.</text>
+
+  <g transform="translate(48,96)">
+    <rect class="live" x="0" y="0" width="114" height="29" rx="7"/>
+    <text class="small ink" x="12" y="19">● LIVE / TEST</text>
+    <rect class="supported" x="126" y="0" width="131" height="29" rx="7"/>
+    <text class="small ink" x="138" y="19">✓ SUPPORTED</text>
+    <rect class="closed" x="269" y="0" width="105" height="29" rx="7"/>
+    <text class="small ink" x="281" y="19">× CLOSED</text>
+    <rect class="negative" x="386" y="0" width="121" height="29" rx="7"/>
+    <text class="small ink" x="398" y="19">− NEGATIVE</text>
+    <rect class="boundary" x="519" y="0" width="134" height="29" rx="7"/>
+    <text class="small ink" x="531" y="19">▧ DATA BOUND</text>
+  </g>
+
+  <text class="head muted" x="52" y="159">PERIOD</text>
+  <text class="head muted" x="158" y="159">QUESTION / CANDIDATE</text>
+  <text class="head muted" x="503" y="159">HARDER TEST</text>
+  <text class="head muted" x="826" y="159">CURRENT VERDICT</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(48,178)">
+    <text class="period ink" x="0" y="25">V12-V21</text>
+    <text class="small muted" x="0" y="44">GENETICS</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can shared autoimmune genetics</text>
+    <text class="cardTitle ink" x="121" y="47">transfer a treatment target?</text>
+    <text class="body ink" x="121" y="75">MS-UC relationship and attractive loci</text>
+    <text class="body ink" x="121" y="94">made this worth a direct test.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Separate signals, align alleles,</text>
+    <text class="cardTitle ink" x="465" y="47">and ask the protective direction</text>
+    <text class="body ink" x="465" y="75">Denser immune-QTL review tested the</text>
+    <text class="body ink" x="465" y="94">gene and modality story, not just overlap.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="closed" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">✓ CONTEXT + × ROUTES CLOSED  [G01-G05]</text>
+    <text class="body ink" x="791" y="49">MS-UC context and ZMIZ1 warning survived.</text>
+    <text class="body ink" x="791" y="69">PTGER4 closed; GPR25 demoted; chr1 remains</text>
+    <text class="body ink" x="791" y="89">biologically relevant but direction-hard.</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(48,310)">
+    <text class="period ink" x="0" y="25">V22-V32</text>
+    <text class="small muted" x="0" y="44">MONITOR</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can early APC/HLA-II change</text>
+    <text class="cardTitle ink" x="121" y="47">monitor later response?</text>
+    <text class="body ink" x="121" y="75">A simple paired change score became</text>
+    <text class="body ink" x="121" y="94">the candidate.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Lock the rule; compare complexity;</text>
+    <text class="cardTitle ink" x="465" y="47">audit steroid, composition, tone</text>
+    <text class="body ink" x="465" y="75">A tougher interpretation was allowed</text>
+    <text class="body ink" x="465" y="94">to narrow or kill the signal.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="live" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">● LIVE, PROVISIONAL  [M01-M05]</text>
+    <text class="body ink" x="791" y="49">One bounded monitoring lead survived.</text>
+    <text class="body ink" x="791" y="69">It is immune-tone bounded, mixed across</text>
+    <text class="body ink" x="791" y="89">contexts, and not a selector or target.</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(48,442)">
+    <text class="period ink" x="0" y="25">V25-V28</text>
+    <text class="small muted" x="0" y="44">SYSTEMS</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can a simulator or coupled model</text>
+    <text class="cardTitle ink" x="121" y="47">beat the simple score?</text>
+    <text class="body ink" x="121" y="75">Recurring APC structure suggested</text>
+    <text class="body ink" x="121" y="94">a richer representation.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Demand held predictive gain and</text>
+    <text class="cardTitle ink" x="465" y="47">support for unseen-pathway use</text>
+    <text class="body ink" x="465" y="75">Architecture and prediction were graded</text>
+    <text class="body ink" x="465" y="94">separately.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="negative" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">✓ CONTEXT + − PREDICTIVE NULLS  [D01-D03]</text>
+    <text class="body ink" x="791" y="49">Coupled APC context survived.</text>
+    <text class="body ink" x="791" y="69">Complexity did not improve prediction;</text>
+    <text class="body ink" x="791" y="89">the broad simulator remained unvalidated.</text>
+  </g>
+
+  <!-- Row 4 -->
+  <g transform="translate(48,574)">
+    <text class="period ink" x="0" y="25">V41</text>
+    <text class="small muted" x="0" y="44">JOINT</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can weak signals combine across</text>
+    <text class="cardTitle ink" x="121" y="47">all held modalities?</text>
+    <text class="body ink" x="121" y="75">Joint inference was the final untried</text>
+    <text class="body ink" x="121" y="94">computational aggregation move.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Require recurrence under a null</text>
+    <text class="cardTitle ink" x="465" y="47">and held-modality prediction</text>
+    <text class="body ink" x="465" y="75">Unexpected candidates could not pass</text>
+    <text class="body ink" x="465" y="94">on fit alone.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="boundary" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">▧ HELD-CORPUS BOUNDARY  [D04-D05]</text>
+    <text class="body ink" x="791" y="49">Known structure returned; 0/22 unexpected</text>
+    <text class="body ink" x="791" y="69">candidates passed. New data became the</text>
+    <text class="body ink" x="791" y="89">rational next discovery input.</text>
+  </g>
+
+  <!-- Row 5 -->
+  <g transform="translate(48,706)">
+    <text class="period ink" x="0" y="25">V42-V46</text>
+    <text class="small muted" x="0" y="44">READINESS</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can outside validation become</text>
+    <text class="cardTitle ink" x="121" y="47">mechanical before data arrive?</text>
+    <text class="body ink" x="121" y="75">Small cohorts and batch risk made</text>
+    <text class="body ink" x="121" y="94">post-hoc freedom especially dangerous.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Freeze ingestion and interpretation;</text>
+    <text class="cardTitle ink" x="465" y="47">test software on seeded simulations</text>
+    <text class="body ink" x="465" y="75">Method behavior stayed segregated from</text>
+    <text class="body ink" x="465" y="94">biological evidence.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="supported" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">✓ METHOD READY; BIOLOGY UNCHANGED  [A01-A04]</text>
+    <text class="body ink" x="791" y="49">The harness can report pass, fail, or</text>
+    <text class="body ink" x="791" y="69">inconclusive. No ready independent cohort</text>
+    <text class="body ink" x="791" y="89">was acquired and no evidence grade rose.</text>
+  </g>
+
+  <!-- Row 6 -->
+  <g transform="translate(48,838)">
+    <text class="period ink" x="0" y="25">V53-V54</text>
+    <text class="small muted" x="0" y="44">PROGRESSION</text>
+    <rect class="question" x="105" y="0" width="294" height="116" rx="11"/>
+    <text class="cardTitle ink" x="121" y="28">Can lesion or microglia states</text>
+    <text class="cardTitle ink" x="121" y="47">explain disability progression?</text>
+    <text class="body ink" x="121" y="75">Morphology and CD44/CXCR4 patterns</text>
+    <text class="body ink" x="121" y="94">looked worth a harder progression test.</text>
+    <path class="arrow" d="M406 58 L442 58"/>
+    <rect class="test" x="449" y="0" width="276" height="116" rx="11"/>
+    <text class="cardTitle ink" x="465" y="28">Audit source, donor, multiplicity,</text>
+    <text class="cardTitle ink" x="465" y="47">and molecular-to-disability timing</text>
+    <text class="body ink" x="465" y="75">Do not substitute stage, lesion, blood,</text>
+    <text class="body ink" x="465" y="94">or relapse for progression evidence.</text>
+    <path class="arrow" d="M732 58 L768 58"/>
+    <rect class="boundary" x="775" y="0" width="377" height="116" rx="11"/>
+    <text class="small ink" x="791" y="23">− DOWNGRADE + ▧ DATA GAP  [C01-C02, P01-P06]</text>
+    <text class="body ink" x="791" y="49">Morphology weakened; CD44/CXCR4 is</text>
+    <text class="body ink" x="791" y="69">identity-only. No progression result;</text>
+    <text class="body ink" x="791" y="89">the required longitudinal design is absent.</text>
+  </g>
+
+  <line class="divider" x1="48" y1="982" x2="1152" y2="982"/>
+  <rect class="live" x="172" y="1000" width="385" height="54" rx="11"/>
+  <text class="small ink" x="189" y="1021">OPEN TEST A  [A01]</text>
+  <text class="body ink" x="189" y="1041">Frozen independent monitoring validation</text>
+  <rect class="boundary" x="580" y="1000" width="448" height="54" rx="11"/>
+  <text class="small ink" x="597" y="1021">OPEN DATA NEED B  [A02]</text>
+  <text class="body ink" x="597" y="1041">Longitudinal microglia-compatible progression package</text>
+  <text class="footer muted" x="48" y="1072">Status date: V55 · Communication timeline only · Full text and sources: docs/onboarding/RESEARCH_EVOLUTION_TIMELINE.md</text>
+</svg>

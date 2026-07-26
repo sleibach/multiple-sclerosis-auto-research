@@ -67,8 +67,8 @@ negative results, and source traceability.
 | Root contribution integration | done | Root guide and PR template route ideas/code/data/docs/outside context, preserve evidence/privacy/locked-rule/size guards, and list exact checks; root navigation now section-audited. |
 | Failure-mode atlas | done | Eight source-linked failure modes distinguish closure scope, surviving biology, reopening evidence, and useful outsider input; V39 context-dependence meta-result added to claim contract as F01. |
 | Data-needed map | done | Six decision-changing package types now state minimum fields, invalid substitutes, and status consequences; newcomer acronyms are defined and the page is source-covered. |
-| Research-evolution timeline | in-progress | Create a source-linked text timeline and lightweight visual showing promotions, demotions, nulls, and the present frontier without implying linear success. |
-| Narrow-screen and print review | todo | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
+| Research-evolution timeline | done | Nine source-linked eras and a six-row SVG show candidate, harder test, and bounded verdict; chronology visibly includes demotions, nulls, and data boundaries. |
+| Narrow-screen and print review | in-progress | Test the onboarding route and visuals at mobile/tablet widths and print styles; add honest fallbacks where dense diagrams do not work. |
 | One-page collaborator brief | todo | Produce a printable, source-linked one-page orientation that preserves the no-target/no-progression-result boundary. |
 | Repository tour | todo | Explain where grounded findings, validation plans, external context, analysis outputs, scripts, and onboarding live without blurring classes. |
 | Maintainer release checklist | todo | Add a concise evidence-change versus wording-change maintenance path and a lightweight V55 artifact manifest. |
@@ -252,3 +252,11 @@ negative results, and source traceability.
   12/12 pages, source coverage 33/33 claims and artifacts across 13 reader
   pages, provenance 841/841, and structure 142/142 pass. Active time accrued:
   1h28m53s.
+- 2026-07-26T18:49:24Z: Completed the research-evolution timeline and sixth
+  lightweight SVG. Each row separates candidate, disconfirming test, and current
+  verdict, so GPR25/PTGER4 demotions, complexity/simulator nulls, the joint-
+  search boundary, method-only readiness, and progression downgrades are as
+  visible as the one provisional monitor. Chrome render 37/37, onboarding
+  1015/1015, synthetic detector 11/11, plain-language 13/13 pages, source
+  coverage 33/33 claims and artifacts across 14 reader pages, provenance
+  841/841, and structure 142/142 pass. Active time accrued: 1h34m10s.

@@ -89,6 +89,27 @@ failure condition, and known dead end avoided.
 [Open the SVG directly](visuals/OPEN_PROBLEM_BOARD_V55.svg) ·
 [Read all eight problem statements](OPEN_PROBLEMS_FOR_COLLABORATORS.md)
 
+## 6. How The Research Changed Its Mind
+
+![Six-row timeline connecting each candidate or question to a harder test and its current verdict. Genetics routes narrow or close, one monitoring signal remains provisional, systems complexity produces nulls, joint inference establishes a corpus boundary, validation engineering adds readiness rather than biology, and progression work ends at a bounded candidate plus missing longitudinal data.](visuals/RESEARCH_EVOLUTION_V55.svg)
+
+**Text equivalent:** Cross-disease genetics produced MS-UC context and a ZMIZ1
+direction warning while PTGER4 closed and GPR25 was demoted. The locked
+APC/HLA-II score survived statistical and confounder testing as one provisional,
+immune-tone-bounded monitor, not a target. Coupled APC architecture remained
+supported context, while added complexity and a broad simulator failed their
+predictive bars. Joint inference returned known structure but zero of 22
+unexpected held-out-validated candidates, bounding further mining of the held
+corpus. Preregistration and synthetic checks improved validation readiness
+without adding biological evidence. Progression work downgraded a morphology
+pattern, retained CD44/CXCR4 by identity only, and exposed the missing
+longitudinal molecular-to-confirmed-disability design. The open moves are frozen
+monitoring validation and correctly designed progression data. `[G01-G05,
+M01-M05, D01-D05, A01-A04, C01-C02, P01-P06]`
+
+[Open the SVG directly](visuals/RESEARCH_EVOLUTION_V55.svg) ·
+[Read the source-linked timeline](RESEARCH_EVOLUTION_TIMELINE.md)
+
 ## Status Encoding
 
 No status depends on color alone:
