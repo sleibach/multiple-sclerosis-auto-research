@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Map of the multiple sclerosis research program</title>
+  <desc id="desc">Four lanes summarize genetics, treatment monitoring, systems analysis, and progression. One monitoring lead is live but provisional. Genetics routes are context or closed, systems work found context and negative results, and progression is blocked by missing longitudinal data. The open edges are independent monitoring validation and a correctly designed progression cohort.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .ink { fill: #172033; }
+      .muted { fill: #52606d; }
+      .title { font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .laneTitle { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .cardTitle { font: 700 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .body { font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .4px; }
+      .footer { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .lane { fill: #ffffff; stroke: #d5dce5; stroke-width: 1.5; }
+      .supported { fill: #e9f5ef; stroke: #1b6b4b; stroke-width: 2; }
+      .live { fill: #e8f2fa; stroke: #005a9c; stroke-width: 3; }
+      .closed { fill: #f8ecea; stroke: #8b2e2e; stroke-width: 2; }
+      .negative { fill: #f0ecf8; stroke: #5b4b8a; stroke-width: 2; }
+      .dataGap { fill: url(#diagonal); stroke: #8a5a00; stroke-width: 2; }
+      .openEdge { fill: #fff8e6; stroke: #8a5a00; stroke-width: 2.5; stroke-dasharray: 8 5; }
+      .connector { stroke: #7b8794; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .divider { stroke: #d5dce5; stroke-width: 1; }
+    </style>
+    <pattern id="diagonal" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#fff4d6"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#ead39a" stroke-width="3"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7b8794"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="900"/>
+  <text class="title ink" x="55" y="53">The research terrain: what is live, closed, and missing</text>
+  <text class="subtitle muted" x="55" y="82">A status map of project-grounded work, not a map of all MS biology. Claim IDs link to the V55 source contract.</text>
+
+  <!-- Legend: status is conveyed by words, symbols, borders, and color. -->
+  <g transform="translate(55,105)">
+    <rect class="live" x="0" y="0" width="120" height="31" rx="7"/>
+    <text class="small ink" x="13" y="20">● LIVE / TEST</text>
+    <rect class="supported" x="132" y="0" width="142" height="31" rx="7"/>
+    <text class="small ink" x="145" y="20">✓ SUPPORTED</text>
+    <rect class="closed" x="286" y="0" width="113" height="31" rx="7"/>
+    <text class="small ink" x="299" y="20">× CLOSED</text>
+    <rect class="negative" x="411" y="0" width="128" height="31" rx="7"/>
+    <text class="small ink" x="424" y="20">− NEGATIVE</text>
+    <rect class="dataGap" x="551" y="0" width="133" height="31" rx="7"/>
+    <text class="small ink" x="564" y="20">▧ DATA GAP</text>
+    <text class="body muted" x="710" y="20">No label here means clinical validation or causality.</text>
+  </g>
+
+  <!-- Lane 1: Genetics -->
+  <g transform="translate(45,158)">
+    <rect class="lane" x="0" y="0" width="270" height="570" rx="14"/>
+    <text class="laneTitle ink" x="20" y="32">1  Genetics</text>
+    <text class="body muted" x="20" y="53">Found relationships; direction blocked action.</text>
+
+    <rect class="supported" x="18" y="72" width="234" height="88" rx="10"/>
+    <text class="small ink" x="31" y="93">✓ ROBUST CONTEXT  [G01]</text>
+    <text class="cardTitle ink" x="31" y="116">MS ↔ ulcerative colitis</text>
+    <text class="body ink" x="31" y="137">Strongest tested genetic comparator.</text>
+    <text class="body ink" x="31" y="153">Context, not a transferred target.</text>
+
+    <rect class="supported" x="18" y="174" width="234" height="89" rx="10"/>
+    <text class="small ink" x="31" y="195">✓ DECOUPLING  [G02]</text>
+    <text class="cardTitle ink" x="31" y="218">ZMIZ1 points opposite ways</text>
+    <text class="body ink" x="31" y="239">One locus, opposite disease directions.</text>
+    <text class="body ink" x="31" y="255">Shared does not mean same intervention.</text>
+
+    <rect class="closed" x="18" y="277" width="234" height="99" rx="10"/>
+    <text class="small ink" x="31" y="298">× CLOSED ON DIRECTION  [G03]</text>
+    <text class="cardTitle ink" x="31" y="321">KIF21B / GPR25 region</text>
+    <text class="body ink" x="31" y="342">Region appears real; causal gene unclear.</text>
+    <text class="body ink" x="31" y="358">Protection implies hard up-function logic.</text>
+
+    <rect class="closed" x="18" y="390" width="111" height="111" rx="10"/>
+    <text class="small ink" x="30" y="411">× CLOSED</text>
+    <text class="cardTitle ink" x="30" y="434">PTGER4</text>
+    <text class="body ink" x="30" y="455">Multiple signals</text>
+    <text class="body ink" x="30" y="471">and conflicting</text>
+    <text class="body ink" x="30" y="487">directions. [G04]</text>
+
+    <rect class="closed" x="141" y="390" width="111" height="111" rx="10"/>
+    <text class="small ink" x="153" y="411">× DEMOTED</text>
+    <text class="cardTitle ink" x="153" y="434">GPR25</text>
+    <text class="body ink" x="153" y="455">Early favorite did</text>
+    <text class="body ink" x="153" y="471">not survive denser</text>
+    <text class="body ink" x="153" y="487">review. [G05]</text>
+
+    <text class="small muted" x="20" y="535">WALL</text>
+    <text class="body ink" x="20" y="555">Binding alone does not decide action.</text>
+    <text class="body ink" x="20" y="571">A direction-matched modality is missing.</text>
+  </g>
+
+  <!-- Lane 2: Monitoring -->
+  <g transform="translate(325,158)">
+    <rect class="lane" x="0" y="0" width="270" height="570" rx="14"/>
+    <text class="laneTitle ink" x="20" y="32">2  Treatment monitoring</text>
+    <text class="body muted" x="20" y="53">The one live clinical route.</text>
+
+    <rect class="live" x="18" y="72" width="234" height="144" rx="10"/>
+    <text class="small ink" x="31" y="94">● LIVE, PROVISIONAL  [M01]</text>
+    <text class="cardTitle ink" x="31" y="119">Bounded APC / HLA-II score</text>
+    <text class="body ink" x="31" y="142">Early on-treatment immune change may</text>
+    <text class="body ink" x="31" y="159">monitor response. It is not a target,</text>
+    <text class="body ink" x="31" y="176">treatment selector, or clinical tool.</text>
+    <text class="small ink" x="31" y="199">NEXT: FROZEN OUTSIDE VALIDATION</text>
+
+    <rect class="supported" x="18" y="230" width="234" height="92" rx="10"/>
+    <text class="small ink" x="31" y="251">✓ BOUNDED SUPPORT  [M03]</text>
+    <text class="body ink" x="31" y="274">n=19; AUC 0.811; several stress tests.</text>
+    <text class="body ink" x="31" y="294">Small internal set is not replication.</text>
+
+    <rect class="dataGap" x="18" y="336" width="234" height="92" rx="10"/>
+    <text class="small ink" x="31" y="357">▧ INTERPRETATION BOUND  [M04]</text>
+    <text class="body ink" x="31" y="380">Broad immune tone attenuates the score;</text>
+    <text class="body ink" x="31" y="400">direct steroid metadata are missing.</text>
+
+    <rect class="negative" x="18" y="442" width="234" height="77" rx="10"/>
+    <text class="small ink" x="31" y="463">− MIXED GENERALIZATION  [M02]</text>
+    <text class="body ink" x="31" y="486">The rule did not pass every tested therapy</text>
+    <text class="body ink" x="31" y="503">or disease context.</text>
+
+    <text class="small muted" x="20" y="542">WALL</text>
+    <text class="body ink" x="20" y="555">Independent paired response</text>
+    <text class="body ink" x="20" y="571">data are missing.</text>
+  </g>
+
+  <!-- Lane 3: Systems -->
+  <g transform="translate(605,158)">
+    <rect class="lane" x="0" y="0" width="270" height="570" rx="14"/>
+    <text class="laneTitle ink" x="20" y="32">3  Systems and modeling</text>
+    <text class="body muted" x="20" y="53">Context recurred; complexity did not win.</text>
+
+    <rect class="supported" x="18" y="72" width="234" height="112" rx="10"/>
+    <text class="small ink" x="31" y="93">✓ SUPPORTED CONTEXT  [D01]</text>
+    <text class="cardTitle ink" x="31" y="116">Coupled APC architecture</text>
+    <text class="body ink" x="31" y="138">HLA-II, IFN/APC, MIF/CD74, IFN</text>
+    <text class="body ink" x="31" y="155">readout, and lysosomal processing recur.</text>
+    <text class="body ink" x="31" y="172">Context, not a causal control map.</text>
+
+    <rect class="negative" x="18" y="198" width="234" height="86" rx="10"/>
+    <text class="small ink" x="31" y="219">− NO COMPLEXITY GAIN  [D02]</text>
+    <text class="body ink" x="31" y="242">Added features did not beat the fixed</text>
+    <text class="body ink" x="31" y="261">scalar in held validation.</text>
+
+    <rect class="negative" x="18" y="298" width="234" height="86" rx="10"/>
+    <text class="small ink" x="31" y="319">− SIMULATOR UNVALIDATED  [D03]</text>
+    <text class="body ink" x="31" y="342">No support for patient prediction or</text>
+    <text class="body ink" x="31" y="361">unseen-pathway simulation.</text>
+
+    <rect class="dataGap" x="18" y="398" width="234" height="119" rx="10"/>
+    <text class="small ink" x="31" y="419">▧ CORPUS BOUNDARY  [D04, D05]</text>
+    <text class="body ink" x="31" y="442">Known structure returned; 0 of 22</text>
+    <text class="body ink" x="31" y="459">unexpected candidates passed.</text>
+    <text class="body ink" x="31" y="476">This limits the held corpus, not all</text>
+    <text class="body ink" x="31" y="493">future data or computational methods.</text>
+
+    <text class="small muted" x="20" y="542">WALL</text>
+    <text class="body ink" x="20" y="555">More flexible mining risks fitting</text>
+    <text class="body ink" x="20" y="571">the same held data.</text>
+  </g>
+
+  <!-- Lane 4: Progression -->
+  <g transform="translate(885,158)">
+    <rect class="lane" x="0" y="0" width="270" height="570" rx="14"/>
+    <text class="laneTitle ink" x="20" y="32">4  Disability progression</text>
+    <text class="body muted" x="20" y="53">The north-star question; no result yet.</text>
+
+    <rect class="dataGap" x="18" y="72" width="234" height="115" rx="10"/>
+    <text class="small ink" x="31" y="93">▧ REQUIRED DESIGN MISSING  [P01]</text>
+    <text class="cardTitle ink" x="31" y="116">No molecular-to-disability movie</text>
+    <text class="body ink" x="31" y="139">Held data lack repeated molecular and</text>
+    <text class="body ink" x="31" y="156">confirmed-disability measurements.</text>
+    <text class="body ink" x="31" y="173">Missing data are not absent biology.</text>
+
+    <rect class="negative" x="18" y="201" width="234" height="105" rx="10"/>
+    <text class="small ink" x="31" y="222">− NO PROGRESSION RESULT  [P02]</text>
+    <text class="body ink" x="31" y="245">No portable stage marker, mechanism,</text>
+    <text class="body ink" x="31" y="262">target, treatment effect, or halt</text>
+    <text class="body ink" x="31" y="279">strategy was established.</text>
+
+    <rect class="live" x="18" y="320" width="234" height="100" rx="10"/>
+    <text class="small ink" x="31" y="341">● DATA-GATED CANDIDATE  [P06]</text>
+    <text class="cardTitle ink" x="31" y="364">Exact CD44 / CXCR4 microglia score</text>
+    <text class="body ink" x="31" y="387">Identity fixed; progression prediction</text>
+    <text class="body ink" x="31" y="404">untested. No blood or gene proxies.</text>
+
+    <rect class="supported" x="18" y="434" width="234" height="84" rx="10"/>
+    <text class="small ink" x="31" y="455">✓ CONFOUNDING LESSON  [C02]</text>
+    <text class="body ink" x="31" y="478">Source imbalance can mimic disease</text>
+    <text class="body ink" x="31" y="495">when source and label are entangled.</text>
+
+    <text class="small muted" x="20" y="542">WALL</text>
+    <text class="body ink" x="20" y="555">Correct longitudinal data;</text>
+    <text class="body ink" x="20" y="571">no substitute proxy.</text>
+  </g>
+
+  <!-- Open edges -->
+  <path class="connector" d="M460 729 L460 761"/>
+  <path class="connector" d="M1020 729 L1020 761"/>
+  <g transform="translate(175,765)">
+    <rect class="openEdge" x="0" y="0" width="410" height="82" rx="13"/>
+    <text class="small ink" x="18" y="24">OPEN EDGE A  [A01]</text>
+    <text class="cardTitle ink" x="18" y="47">Run the frozen rule on an independent cohort</text>
+    <text class="body ink" x="18" y="67">Interpretations were fixed before data access.</text>
+  </g>
+  <g transform="translate(615,765)">
+    <rect class="openEdge" x="0" y="0" width="410" height="82" rx="13"/>
+    <text class="small ink" x="18" y="24">OPEN EDGE B  [A02]</text>
+    <text class="cardTitle ink" x="18" y="47">Acquire longitudinal progression data</text>
+    <text class="body ink" x="18" y="67">Repeated disability and microglia, with time and provenance.</text>
+  </g>
+
+  <line class="divider" x1="55" y1="869" x2="1145" y2="869"/>
+  <text class="footer muted" x="55" y="889">Status date: V55 · Accessible source: docs/onboarding/MS_RESEARCH_EXPLAINED.md · Scientific details remain in linked project artifacts.</text>
+</svg>

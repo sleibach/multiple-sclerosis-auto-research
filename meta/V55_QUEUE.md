@@ -39,8 +39,8 @@ negative results, and source traceability.
 | Onboarding claim-source matrix | done | Thirty bounded claim rows resolve to 28 existing project artifacts; every row records allowed scope and a forbidden overread. |
 | Two-minute plain-language narrative | done | Layer one establishes MS orientation, relapse/progression, the one live lead, closed routes, and contribution puzzles with status labels and claim IDs. |
 | Fifteen-minute layered narrative | done | Layer two explains genetics closures, the bounded monitoring signal, complexity nulls, corpus boundary, progression data wall, and candid bottom line. |
-| Research-map visualization | in-progress | Web-lightweight SVG showing live, provisional, closed-direction, closed-data, and negative routes. |
-| Monitoring-lead visualization | todo | Explain the bounded APC/HLA-II signal, monitoring-not-target distinction, and external-validation requirement. |
+| Research-map visualization | done | Four-lane, browser-rendered SVG shows the live monitoring lead beside genetics closures, systems nulls, progression gaps, and two open data edges. |
+| Monitoring-lead visualization | in-progress | Explain the bounded APC/HLA-II signal, monitoring-not-target distinction, and external-validation requirement. |
 | Epistemic-class visualization | todo | Plain-language visual separating project-grounded, provisional, and segregated outside-source context. |
 | Relapse-versus-progression visualization | todo | Explain event activity versus disability accumulation without implying a universal clinical trajectory. |
 | Open-problem-board visualization | todo | Visual index of contribution puzzles and known dead ends. |
@@ -73,3 +73,8 @@ negative results, and source traceability.
   statements were spot-checked against V28, V32, V41, V53, and V54; relative
   artifact links resolve, and every major conclusion carries claim IDs and a
   visible plain-language status. Active time accrued: 0h12m14s.
+- 2026-07-26T17:33:00Z: Completed and browser-rendered the 24 KB research map.
+  It encodes five statuses with labels, symbols, border treatments, and color;
+  includes the negative and closed routes in the main terrain; and ends at the
+  two evidence-bearing open edges rather than implying a target funnel. Active
+  time accrued: 0h17m46s.
