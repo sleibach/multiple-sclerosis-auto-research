@@ -113,6 +113,10 @@ follows:
   `clariomdhumantranscriptcluster.db`. Drop unmapped clusters. When multiple
   mapped clusters share a symbol, collapse them to the per-sample median; do
   not select a cluster by its group association.
+- Preserve the frozen MOCCI gene identities across the annotation-version
+  rename by mapping current `COXFA4L3` back to legacy `C15ORF48` and current
+  `COXFA4` back to legacy `NDUFA4`. The annotation database gives each alias a
+  single transcript cluster; no association-based feature choice is involved.
 - Compute and report raw-intensity, RLE/PCA, mapping, and module-coverage
   diagnostics. These diagnostics cannot remove a participant from the frozen
   primary analysis unless a CEL is unreadable, mismatched to its deposited

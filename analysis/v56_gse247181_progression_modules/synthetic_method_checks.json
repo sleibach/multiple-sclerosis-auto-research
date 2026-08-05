@@ -1,0 +1,34 @@
+{
+  "null_check_pass": true,
+  "null_family_pass_rate": 0.0475,
+  "null_family_passes": 285,
+  "null_replicates": 6000,
+  "one_sided_binomial_p_for_excess_over_0_05": 0.8203822674525632,
+  "per_seed": [
+    {
+      "null_family_pass_rate": 0.055,
+      "null_family_passes": 110,
+      "null_replicates": 2000,
+      "planted_module_max_t_fwer_p": 0.0021645021645021645,
+      "seed": 56247181
+    },
+    {
+      "null_family_pass_rate": 0.043,
+      "null_family_passes": 86,
+      "null_replicates": 2000,
+      "planted_module_max_t_fwer_p": 0.0021645021645021645,
+      "seed": 56247182
+    },
+    {
+      "null_family_pass_rate": 0.0445,
+      "null_family_passes": 89,
+      "null_replicates": 2000,
+      "planted_module_max_t_fwer_p": 0.0021645021645021645,
+      "seed": 56247183
+    }
+  ],
+  "planted_check_pass": true,
+  "single_fixed_null_fixture_any_module_passed": false,
+  "synthetic_only_not_biological_evidence": true,
+  "vectorized_engine_matches_independent_naive_enumeration": true
+}
