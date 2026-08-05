@@ -41,11 +41,23 @@ source artifacts.
 
 ## Current Status
 
-The current scientific evidence state remains **V54**; **V55 is communication
-and onboarding only**. The V4 directory structure
-remains canonical, and V11 introduced the resume backbone for short-session
-continuity. For the newest resumable state, read `meta/V55_QUEUE.md` after
-`meta/CURRENT_STATUS.md`.
+The current scientific evidence state is **V56**. V55 remains the public
+communication and onboarding layer; V56 is a targeted progression-treatment
+audit and does not reopen the V41-exhausted unconstrained discovery search.
+The V4 directory structure remains canonical, and V11 introduced the resume
+backbone for short-session continuity. For the newest resumable state, read
+`meta/V56_QUEUE.md` after `meta/CURRENT_STATUS.md`.
+
+- V56 bottom line: no cure, better treatment, progression target, or validated
+  biomarker was produced. A calibrated test of nine frozen modules in rapid
+  versus slow untreated SPMS blood was null. Broad-rim-lesion associations were
+  acquisition-sensitive, and the raw reconstruction failed its precommitted
+  calibration, so no lesion route advanced. The most defensible next move is
+  controlled participant-level progression-trial analysis, with completed
+  randomized clinical data kept distinct from the ongoing active-only
+  ToleDYNAMIC molecular opportunity. Start with
+  `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` and the class-aware map
+  at `docs/reports/PROGRESSION_THERAPY_INDEX_V56.md`.
 
 - Progression-specific V54 bottom line: held public data establish no portable
   progression-stage molecular state, relapsing-to-progressive transition, or
