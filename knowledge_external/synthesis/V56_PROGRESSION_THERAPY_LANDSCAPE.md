@@ -61,6 +61,13 @@ package should not be assumed. Prior parent assignment may support a
 selection-conditional initiation-versus-continuation sensitivity, never a
 current placebo-controlled effect.
 
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://vivli.org/ourmember/sanofi/] Sanofi's Vivli policy routes unlisted-study and document questions through an enquiry and ordinarily requires completed studies with public or accepted primary results for participant-data sharing.
+
+Consequently, the practical sequence is a Vivli document/availability enquiry
+and sponsor-collaboration question now, followed by a full molecular data
+request only after Sanofi confirms eligibility. This is separate from the
+completed HERCULES clinical-IPD request.
+
 ## Relationship To Project Results
 
 ### Corroborated Methodological Constraints

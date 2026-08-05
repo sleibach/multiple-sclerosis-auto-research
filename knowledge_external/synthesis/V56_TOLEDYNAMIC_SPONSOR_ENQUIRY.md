@@ -69,3 +69,15 @@ Kind regards,
   available or completed;
 - preserve the reply verbatim in the approved project-access record; and
 - update the metadata-only intake branch before viewing any returned values.
+
+## Submission Route
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://vivli.org/ourmember/sanofi/] Sanofi directs enquiries about unlisted studies and study documents to the Vivli Enquiry Form; ordinary participant-data feasibility criteria include completion and public or accepted primary results.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] NCT06372145 is ongoing, estimates completion in 2029, and has no posted results.
+
+Therefore submit this text first as a Vivli availability/document enquiry,
+naming `NCT04411641`, `NCT04458051`, `NCT06372145`, `EFC16645`, `EFC16035`,
+`LTS17043`, and `ToleDYNAMIC`. Ask explicitly whether pre-completion scientific
+collaboration is possible. Keep the completed HERCULES clinical-IPD proposal as
+a separate request; do not imply that its approved package would include the
+ongoing extension molecular substudy.

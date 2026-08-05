@@ -73,6 +73,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | ToleDYNAMIC sponsor clarification enquiry | done | Ready-to-send human PI message asks completion, placebo coverage, outcome-blind selection, assay completion, documents, and access route before any values are requested. |
 | ToleDYNAMIC current-extension audit | done | Official NCT06372145 confirms an active/nonrandomized/open-label extension, biomarker change to month 12, no posted results, and 2029 estimated completion. Adds a bounded former-placebo-initiator vs former-active-continuer sensitivity, never a current placebo effect. |
 | ToleDYNAMIC extension estimand classifier | done | Metadata-only guard distinguishes eligible initiation-vs-continuation sensitivity, small-group estimation, paired-only, no-month-3, no-linkage, and terms-blocked returns; 7/7 synthetic branches pass. |
+| ToleDYNAMIC official access route | done | Sanofi Vivli policy makes an unlisted-study/document enquiry the immediate route; ordinary IPD criteria require completion/public results, so ongoing NCT06372145 is not assumed shareable. |
 | ToleDYNAMIC blinded functional mapping | done | Gate fixes one endpoint per phagocytosis/CD64/ROS/cytokine family and two metabolic endpoints before values. Unavailable/ambiguous families remain descriptive; duplicate or post-value mapping blocks globally. Four synthetic fixtures pass. |
 | ToleDYNAMIC fixed-family power envelope | done | Separate both-arm and active-only paired simulations each use 1.08M null-audit + 1.35M alternative families. Both-arm total n=40 is weak; active-only n=40 can detect large temporal shifts but cannot attribute them to treatment. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
@@ -219,13 +220,13 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   authorizes that contrast only under sponsor-documented Branch A, and makes
   paired month-3 change the executable Branch B default. The verifier checks
   both hashes, the binding, family identity, and all forbidden causal claims.
-- 2026-08-05T23:31Z: The default Branch B analysis is now frozen end to end.
+- 2026-08-05T23:25Z: The default Branch B analysis is now frozen end to end.
   Joint participant sign flips preserve all 18 slots; bootstrap, leave-one-out,
   technical-confound sensitivity, fixed PERSEUS comparison, functional anchors,
   and clinical estimation each have explicit non-causal language. A sponsor
   enquiry now asks the six design/access questions needed to determine whether
   the package exists and whether the public active-only reading is correct.
-- 2026-08-05T23:45Z: Targeted primary-source search found ToleDYNAMIC in the
+- 2026-08-05T23:29Z: Targeted primary-source search found ToleDYNAMIC in the
   official NCT06372145 open-label extension. The active, nonrandomized study has
   no posted results and estimates completion in 2029. This confirms the
   active-only boundary and changes the immediate action to ongoing-study
@@ -235,8 +236,14 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   selection weighting/bounds, and site/batch falsification; it is not a current
   randomized treatment effect. Claude and Gemini independently converged on
   that methodological boundary; their agreement prioritized safeguards only.
-- 2026-08-05T23:51Z: The extension estimand is now machine-routed before assay
+- 2026-08-05T23:34Z: The extension estimand is now machine-routed before assay
   values. Seven synthetic fixtures correctly separate full metadata eligibility,
   under-eight-per-group estimation, paired-only fallback, missing visit,
   aggregate/no-linkage, and terms-blocked states. Prior randomized-arm labels
   alone never authorize causal language.
+- 2026-08-05T23:35Z: Sanofi's current Vivli member policy resolved the access
+  sequence. Unlisted study and document questions use the Vivli Enquiry Form;
+  ordinary participant-data criteria include study completion and public or
+  accepted primary results. The ongoing extension therefore gets a design-
+  document/availability/collaboration enquiry now, while completed HERCULES
+  clinical IPD remains a separate full request.
