@@ -54,7 +54,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | item | status | note |
 |---|---|---|
 | Opening health, evidence-boundary, and strategic audit | done | Clean/aligned start; OpenGWAS expired and routed around; five-gate route rule frozen before analysis. |
-| Progression-treatment opportunity map | done | No route clears all five gates. V22 remains monitoring, not progression treatment; V56 PBMC is null; lesion routes remain data-gated; genetics routes remain direction-closed. |
+| Progression-treatment opportunity map | done | No route clears all five gates. V22 remains monitoring, not progression treatment; V56 PBMC supports none of nine frozen modules in that cohort; lesion routes remain data-gated; genetics routes remain direction-closed. |
 | Current primary-source therapeutic landscape scan | done | Audited HERCULES, EU authorization, FDA CRL, PERSEUS topline, FENtrepid presentation, and MS-STAT2 phase 3 using primary or trial-level sources. |
 | New progression-data availability scout | in-progress | Found GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics; both frozen before testing. Continue source audit. |
 | External-source provenance records | done | Added nine classed trial/regulatory/access records. Provenance gate passes 939/939 checks. |
@@ -129,12 +129,13 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   signal passed in all three seeds). This closes the PBMC route panel for this
   cohort and is not a claim that these mechanisms are absent from CNS tissue.
 - 2026-08-05T22:48Z: Current trial and regulatory primary sources established a
-  concrete controlled-data opportunity rather than a project target. HERCULES
-  participant-level data are requestable through Vivli and include clinical,
-  MRI, NfL, CHI3L1, lymphocyte-subset, immunoglobulin, PK, and safety fields in
-  public trial documents, subject to actual package coverage and approval. A
-  frozen request now requires exact primary reproduction before any effect-
-  modifier analysis.
+  concrete controlled-data opportunity rather than a project target. The
+  HERCULES registry says qualified researchers may request participant-level
+  data through Vivli; a catalog listing was not independently verified. Public
+  trial documents enumerate clinical, MRI, NfL, CHI3L1, lymphocyte-subset,
+  immunoglobulin, PK, and safety fields, but actual shared-package coverage and
+  approval remain unknown. A frozen request now requires exact primary
+  reproduction before any effect-modifier analysis.
 - 2026-08-05T22:48Z: Independent Claude and Gemini method reviews exposed an
   undefined Cox-interaction estimand, split multiplicity families, weak
   biomarker-missingness controls, and possible safety overinterpretation. The

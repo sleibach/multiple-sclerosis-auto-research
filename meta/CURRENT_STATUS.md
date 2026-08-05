@@ -16,8 +16,8 @@ PBMC test; the smallest family-wise p-values were `0.6101` and `0.6725`.
 GSE281805 broad-rim lesion modules passed an initial comparison but none passed
 the common-slide sensitivity, and the raw matched-NAWM reconstruction failed
 its precommitted calibration, so no biological matched test was run. These are,
-respectively, a cohort-specific PBMC null and an unresolved source/reconstruction
-block, not evidence that CNS mechanisms are absent.
+respectively, a cohort-specific not-supported PBMC result and an unresolved
+source/reconstruction block, not evidence that CNS mechanisms are absent.
 
 The concrete treatment-facing path is controlled data, not another public-data
 target scan. Completed HERCULES participant-level clinical data are the first

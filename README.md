@@ -50,7 +50,7 @@ backbone for short-session continuity. For the newest resumable state, read
 
 - V56 bottom line: no cure, better treatment, progression target, or validated
   biomarker was produced. A calibrated test of nine frozen modules in rapid
-  versus slow untreated SPMS blood was null. Broad-rim-lesion associations were
+  versus slow untreated SPMS blood supported none of them. Broad-rim-lesion associations were
   acquisition-sensitive, and the raw reconstruction failed its precommitted
   calibration, so no lesion route advanced. The most defensible next move is
   controlled participant-level progression-trial analysis, with completed

@@ -68,3 +68,35 @@ The resulting secondary estimand and forbidden wording are now machine-bound in
 `docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`. The simpler
 within-participant temporal trajectory remains primary. Model agreement did not
 create the estimand and is not evidence that any biomarker changes.
+
+## Closeout Wording Audit
+
+At closeout, Claude and Gemini independently reviewed six proposed boundary
+statements for epistemic overstatement. One successful response was obtained
+from each lineage; one earlier Gemini response ended at its output-token limit
+and was discarded. No raw response was committed and no model statement was
+used as evidence.
+
+One concrete edit was accepted after checking it against the committed result:
+the rapid-versus-slow SPMS analysis is described as a cohort-specific
+`not-supported` result rather than using a standalone `null` shorthand that a
+reader could misread as proof of biological absence. The report already states
+that the blood result does not exclude CNS-localized mechanisms.
+
+The following suggestions were rejected or already satisfied:
+
+- Calling the broad-rim result an artifact was rejected. The common-slide
+  sensitivity and reconstruction failure make it inconclusive; they cannot
+  distinguish no biology from acquisition or reconstruction effects.
+- Replacing the registry status word `active` was rejected. It is the official
+  `ACTIVE_NOT_RECRUITING` study status; design weakness is reported separately
+  as nonrandomized, single-group, open-label, and without posted results.
+- The warning not to imply a searchable or approved HERCULES package was
+  already required. A fresh public search did not independently verify a
+  catalog listing, so the queue now says only that the registry permits a
+  request and that package coverage and approval remain unknown.
+- The warning not to call active-only change a drug effect was already enforced
+  by the design lock, interpretation grid, and forbidden-language checks.
+
+The closeout therefore changed precision of language, not any evidence grade,
+lead status, or treatment conclusion.

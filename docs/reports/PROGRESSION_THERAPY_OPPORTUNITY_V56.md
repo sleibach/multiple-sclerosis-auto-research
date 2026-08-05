@@ -9,7 +9,8 @@ validated biomarker.
 ## Executive Verdict
 
 V56 did **not** identify a project-grounded route to halt MS progression. The
-new rapid-versus-slow SPMS blood test was a well-calibrated null, and the new
+new rapid-versus-slow SPMS blood test was a well-calibrated, cohort-specific
+not-supported result, and the new
 broad-rim-lesion module associations could not survive the acquisition-balanced
 sensitivity or a calibration-gated raw reconstruction. No module, gene, or
 structure therefore advances toward intervention.
