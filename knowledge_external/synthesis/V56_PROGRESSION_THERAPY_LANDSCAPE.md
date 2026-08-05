@@ -41,6 +41,17 @@ scan. The registry does not establish that transcriptomics, proteomics, or CSF
 biomarkers are shareable; that must be asked explicitly and verified against the
 approved data dictionary.
 
+### ToleDYNAMIC intervention-omics route
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The public HERCULES protocol separately describes ToleDYNAMIC, an approximately 80-participant HERCULES/PERSEUS substudy with baseline, month-3, and month-12 samples, detailed immune phenotyping, CD14-monocyte functional assays, and B-cell/monocyte RNA sequencing in a subset.
+
+ToleDYNAMIC is the highest-priority molecular access question because it links
+an intervention, two progressive-MS phenotypes, repeated immune measurements,
+functional myeloid assays, and parent clinical/MRI outcomes. The protocol does
+not prove completion, availability, randomization-arm balance, or assay quality.
+It must be requested explicitly; standard clinical IPD access cannot be assumed
+to include it.
+
 ## Relationship To Project Results
 
 ### Corroborated Methodological Constraints
@@ -71,11 +82,12 @@ reconstruction-bounded.
 
 | rank | opportunity | why it matters | critical boundary |
 |---:|---|---|---|
-| 1 | Controlled HERCULES participant-level reanalysis | Direct randomized progression-treatment and safety outcomes; can test stability of clinical effect modifiers | Controlled access; post hoc subgroup multiplicity; molecular data may be absent |
-| 2 | Prospective CNS-penetrant-BTK treatment biomarker cohort | Could test whether early blood/CSF change improves prediction beyond activity, MRI, and prior treatment | Requires pre-registration, adequate sample size, and independent validation |
-| 3 | Author-complete broad-rim lesion reconstruction | Could determine whether lesion modules are source-balanced and lesion-specific | Postmortem association; no treatment or longitudinal disability |
-| 4 | Fenebrutinib participant-level analysis after full reporting | Independent compound and PPMS setting may test class versus compound specificity | Active comparator, data-access timing, no asserted molecular package |
-| 5 | Simvastatin route | Decision-useful phase 3 null | No-go for repurposed simvastatin as SPMS progression therapy; not a blanket lipid-biology exclusion |
+| 1 | ToleDYNAMIC controlled intervention-omics request | Direct baseline/month-3/month-12 B-cell/monocyte transcript and function opportunity across HERCULES/PERSEUS | Completion/access/arm balance and RNA-subset size unverified; likely small |
+| 2 | Controlled HERCULES participant-level reanalysis | Direct randomized progression-treatment and safety outcomes; can test stability of clinical effect modifiers | Controlled access; subgroup multiplicity; standard IPD may omit molecular data |
+| 3 | Prospective CNS-penetrant-BTK treatment biomarker cohort | Could test whether early blood/CSF change improves prediction beyond activity, MRI, and prior treatment | Requires pre-registration, adequate sample size, and independent validation |
+| 4 | Author-complete broad-rim lesion reconstruction | Could determine whether lesion modules are source-balanced and lesion-specific | Postmortem association; no treatment or longitudinal disability |
+| 5 | Fenebrutinib participant-level analysis after full reporting | Independent compound and PPMS setting may test class versus compound specificity | Active comparator, data-access timing, no asserted molecular package |
+| 6 | Simvastatin route | Decision-useful phase 3 null | No-go for repurposed simvastatin as SPMS progression therapy; not a blanket lipid-biology exclusion |
 
 ## Honest Bottom Line
 

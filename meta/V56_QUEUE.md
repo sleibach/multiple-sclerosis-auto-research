@@ -64,7 +64,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | Direction and modality fail-fast audit | done | No molecular route clears progression evidence, intervention direction, compartment/modality, concrete test, and validity gates together. |
 | HERCULES controlled-access request | done | Frozen same-trial reproduction/effect-modifier request drafted around public SAP; RNA/CSF not assumed; controlled data never enter this public repo. |
 | Independent progression-trial replication route | done | PERSEUS provides same-compound placebo-controlled PPMS falsification; FENtrepid provides independent-compound active-comparator triangulation. Frozen common 24-month EDSS/RMST design written. |
-| Cross-trial controlled-access submission packet | in-progress | Convert the HERCULES/PERSEUS/FENtrepid plan into exact sponsor-ready aims, requested fields, disclosure boundary, and execution manifest. |
+| ToleDYNAMIC intervention-omics access plan | done | Public HERCULES protocol reveals an 80-participant HERCULES/PERSEUS substudy with baseline/M3/M12 B-cell and CD14-monocyte RNA-seq subset, flow, myelin phagocytosis, ROS, cytokines, and Seahorse assays. Access/arm balance unverified; frozen branch plan written. |
+| Cross-trial controlled-access submission packet | in-progress | HERCULES/PERSEUS/FENtrepid aims, requested fields, and disclosure boundary drafted; finalize trial metadata matrix and submission-ready executive abstract. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
 | Full verification, RAG rebuild, push, and run summary | todo | Gates, guards, clean tree, remote push, exact active-time close. |
@@ -138,3 +139,13 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   cross-trial plan now uses 24-month EDSS-only progression/RMST, keeps the
   active-comparator estimand separate, and fixes replication alpha at 0.0125
   per modifier. Availability and package content remain unverified until access.
+- 2026-08-05T22:57Z: Public protocol audit found ToleDYNAMIC, the strongest
+  progression-treatment data opportunity identified in V56: approximately 40
+  HERCULES and 40 PERSEUS participants, baseline/month-3/month-12 sampling,
+  B-cell and CD14-monocyte RNA-seq in a subset, detailed flow including CD64,
+  and monocyte cytokine, myelin-phagocytosis, ROS, and Seahorse assays linked to
+  parent clinical/MRI data. No results were found and access is not assumed.
+  The plan branches before values: only both-arm, outcome-blind selection can
+  support a randomized treatment-by-time test; active-arm-only data remain
+  descriptive. The nine frozen V54 modules form one 18-slot max-T family across
+  B cells/monocytes, with PERSEUS fixed as independent replication.

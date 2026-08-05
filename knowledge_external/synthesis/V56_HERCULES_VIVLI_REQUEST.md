@@ -83,8 +83,11 @@ biomarker effect modifiers in HERCULES**
   dates, adverse events, serious adverse events, Hy's-Law adjudication fields,
   and liver-monitoring intervention dates.
 
-No RNA-expression or CSF field is assumed to exist. If absent from the data
-dictionary, no APC/HLA-II or other project module will be tested.
+No RNA-expression or CSF field is assumed to exist in the standard clinical IPD
+package. The public protocol separately describes the ToleDYNAMIC substudy;
+omics and functional data require an explicit request under
+`V56_TOLEDYNAMIC_ACCESS_AND_TEST_PLAN.md`. If that package is not approved, no
+APC/HLA-II or other project module will be tested in HERCULES.
 
 ## Frozen Analysis Order
 

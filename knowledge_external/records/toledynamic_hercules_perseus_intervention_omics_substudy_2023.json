@@ -1,0 +1,44 @@
+{
+  "claim": "The public HERCULES protocol describes ToleDYNAMIC, an 80-participant immunological substudy spanning HERCULES and PERSEUS (about 40 participants from each) with samples at baseline, month 3, and month 12; planned measurements include B-cell and CD14-monocyte RNA sequencing in a subset, detailed lymphocyte/monocyte phenotyping, CD64 and other monocyte-state markers, cytokines, myelin phagocytosis, reactive oxygen species, and Seahorse metabolic assays linked to parent-trial clinical and MRI data.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-verifiable",
+  "future_grounding_route": "Ask Sanofi/Vivli whether ToleDYNAMIC data, separate SAP, data dictionary, parent-trial linkage, arm assignment, raw RNA counts, flow cytometry, and functional-assay outputs are available. Freeze a treatment-by-time analysis before values are viewed; if placebo participants were not sampled or selection was outcome-dependent, restrict interpretation to descriptive paired change.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md",
+    "finding_id": "The next rational computation requires longitudinal progression-treatment molecular data"
+  },
+  "project_use": "Highest-priority controlled-data acquisition target because it could directly test pre-existing APC/HLA-II, CD64, lysosomal, MIF, metabolic, and resolution modules under a progression-treatment intervention. Existence in a protocol does not establish completion, access, arm balance, assay quality, or a treatment effect.",
+  "record_id": "resource.sanofi.toledynamic.hercules_perseus_intervention_omics.2023-12-20",
+  "record_type": "external_resource",
+  "relationship_note": "The planned substudy overlaps unusually well with project-grounded module questions, but no ToleDYNAMIC result is integrated and no project route is upgraded until controlled data are obtained and rerun under a frozen plan.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Sanofi. HERCULES Amended Clinical Trial Protocol 12, Appendix 11: Immunophenotyping (ToleDYNAMIC Substudy), 20 December 2023, pages 119-121.",
+    "label": "HERCULES public protocol, ToleDYNAMIC appendix",
+    "url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "ClinicalTrials.gov-hosted sponsor protocol; metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "The protocol is linked, not redistributed. Any substudy data or restricted documents remain subject to sponsor/Vivli terms and outside this public repository.",
+    "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "toledynamic",
+    "hercules",
+    "perseus",
+    "tolebrutinib",
+    "intervention_omics",
+    "rna_sequencing",
+    "b_cells",
+    "cd14_monocytes",
+    "cd64",
+    "myelin_phagocytosis",
+    "seahorse",
+    "month_3",
+    "controlled_access"
+  ]
+}
