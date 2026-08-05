@@ -35,8 +35,9 @@ The ToleDYNAMIC path is pre-value hardened: the unchanged 18-slot module family
 is bound to a canonical design-branch lock; transcript, function, power, sample,
 and extension-estimand gates have synthetic verification. Standard HERCULES IPD
 remains more causally informative than the ongoing molecular substudy. See
-`docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` and resume from
-`meta/V56_QUEUE.md`.
+`docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md`, use the class-aware
+artifact map at `docs/reports/PROGRESSION_THERAPY_INDEX_V56.md`, and resume
+from `meta/V56_QUEUE.md`.
 
 OpenGWAS is expired (`HTTP 401`, decoded expiry 2026-07-24 08:00 UTC). No V56
 null depends on OpenGWAS; renew before any future genetics API work.

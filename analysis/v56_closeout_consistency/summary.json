@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "active_only_is_public_default": true,
+    "both_null_fwer_calibrated": true,
+    "brl_common_slide_has_no_gate_pass": true,
+    "brl_primary_has_four_gate_passes": true,
+    "design_lock_hash_matches_verifier": true,
+    "ledger_uses_only_grounded_or_synthetic_method": true,
+    "module_lock_hash_matches_verifier": true,
+    "paired_null_fwer_calibrated": true,
+    "pbmc_all_not_supported": true,
+    "pbmc_exact_assignment_count": true,
+    "pbmc_has_nine_frozen_modules": true,
+    "power_is_synthetic_method_only": true,
+    "queue_records_current_design_hash": true,
+    "rag_globs_exclude_external_tree": true,
+    "rag_has_v56_closeout": true,
+    "raw_biological_output_absent": true,
+    "raw_reconstruction_failed_calibration": true,
+    "readme_points_to_v56": true,
+    "report_states_no_progression_route": true
+  },
+  "failures": [],
+  "n_checks": 19,
+  "n_fail": 0,
+  "overall_status": "PASS",
+  "purpose": "cross-artifact V56 closeout consistency; no new biological evidence"
+}

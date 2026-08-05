@@ -39,6 +39,9 @@ V56 state:
 
 - Resume/audit backbone: `meta/V56_QUEUE.md`.
 - Grounded synthesis: `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md`.
+- Class-aware artifact map:
+  `docs/reports/PROGRESSION_THERAPY_INDEX_V56.md`.
+- Final run summary: `docs/history/V56_RUN_SUMMARY.md`.
 - Current separately classed landscape:
   `knowledge_external/synthesis/V56_PROGRESSION_THERAPY_LANDSCAPE.md`.
 - Ongoing molecular plan:
