@@ -1,0 +1,46 @@
+{
+  "null_check_pass": true,
+  "null_family_pass_rate": 0.05143333333333333,
+  "null_family_passes": 1543,
+  "null_min_max_t_p": 0.0001554001554001554,
+  "null_replicates": 30000,
+  "one_sided_binomial_p_for_excess_over_0_05": 0.1303308745095767,
+  "per_seed": [
+    {
+      "null_family_pass_rate": 0.0533,
+      "null_family_passes": 533,
+      "null_replicates": 10000,
+      "planted_max_t_fwer_p": 0.0001554001554001554,
+      "seed": 56281805
+    },
+    {
+      "null_family_pass_rate": 0.0534,
+      "null_family_passes": 534,
+      "null_replicates": 10000,
+      "planted_max_t_fwer_p": 0.0001554001554001554,
+      "seed": 56281806
+    },
+    {
+      "null_family_pass_rate": 0.0476,
+      "null_family_passes": 476,
+      "null_replicates": 10000,
+      "planted_max_t_fwer_p": 0.0001554001554001554,
+      "seed": 56281807
+    }
+  ],
+  "planted_check_pass": true,
+  "planted_max_t_fwer_p_by_seed": [
+    0.0001554001554001554,
+    0.0001554001554001554,
+    0.0001554001554001554
+  ],
+  "planted_module": "receptor_cd44_cxcr4",
+  "planted_shift_sd": 4.0,
+  "seeds": [
+    56281805,
+    56281806,
+    56281807
+  ],
+  "synthetic_only_not_biological_evidence": true,
+  "vectorized_engine_matches_naive_enumeration": true
+}

@@ -1,0 +1,10 @@
+module	n_requested	n_present	n_variable	coverage_fraction	required_variable_genes	mandatory_genes_ok	valid_for_test	absent_or_constant_genes	variable_genes
+receptor_cd44_cxcr4	2	2	2	1.0	1	True	True		CD44;CXCR4
+hla_regulatory	2	2	2	1.0	1	True	True		CIITA;RFX5
+ifn_apc_unique	4	1	1	0.25	2	True	False	CXCL10;GBP1;IRF1	STAT1
+mif_ligand	1	1	1	1.0	1	True	True		MIF
+lysosomal_unique	6	5	5	0.8333333333333334	3	True	True	LAMP3	CTSS;CTSB;CTSD;LAMP1;LAMP2
+oxphos	13	12	12	0.9230769230769231	7	True	True	NDUFA9	NDUFA1;NDUFA2;NDUFB8;SDHA;SDHB;UQCRC1;UQCRC2;COX4I1;COX5A;ATP5F1A;ATP5F1B;ATP5MC1
+lipid_repair	8	8	8	1.0	4	True	True		APOE;LPL;TREM2;ABCA1;ABCG1;SPP1;LGALS3;GPNMB
+resolution_efferocytosis_proxy	28	19	19	0.6785714285714286	14	True	True	CD36;F13A1;FPR2;IL10;LYVE1;MARCO;NR1H3;PPARD;PPARG	MERTK;AXL;TYRO3;GAS6;PROS1;TREM2;APOE;LPL;ABCA1;ABCG1;NR1H2;MRC1;CD163;TGFB1;VSIG4;C1QA;C1QB;C1QC;ANXA1
+mocci_inflammatory_switch	2	2	2	1.0	1	True	True		C15ORF48;NDUFA4

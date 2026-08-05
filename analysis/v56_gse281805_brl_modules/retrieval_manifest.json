@@ -1,0 +1,30 @@
+{
+  "accessed_utc_date": "2026-08-05",
+  "analysis_plan": "docs/plans/V56_GSE281805_BRL_MODULE_TEST.md",
+  "external_inputs_are_public_data_not_project_claims": true,
+  "files": {
+    "data/raw/gse281805/41591_2025_3625_MOESM10_ESM.xlsx": "0a2fcf3688eb56b33f3c38408de3ea73d0edc5d50cf6a5cc31380b95b42e1dc7",
+    "data/raw/gse281805/41591_2025_3625_MOESM5_ESM.xlsx": "68a9a5114949fe7495f85fe05b1f43bb3bedc20b7168c679a43f83c6ab4436f7",
+    "data/raw/gse281805/GSE264094_RAW.tar": "b25a5fd48ce73d204087e9a21d928e55265867f30384136674e4447e60234835",
+    "data/raw/gse281805/GSE281805_RAW.tar": "d306a57b8c29af964b5403a0a6a656bcd9202fade6a6e4254ea8ae37c78e8100",
+    "data/raw/gse281805/PMC12176629_supplementary.zip": "4c19a6f3cea208d8ee3a4db0b4ebe22245c7d4d4f3c2dad9229d233a91858bfa"
+  },
+  "processed_source_samples_missing_raw_dcc": [
+    "DSP-1001660021304-C-H02",
+    "DSP-1001660021306-A-G06",
+    "DSP-1001660021306-A-G08"
+  ],
+  "processed_source_samples_with_raw_dcc": 117,
+  "raw_geo_dcc_count": 296,
+  "source_workbook_sheets": {
+    "annotation": "SuppFig_6c_correlation",
+    "expression": "Source_Data_Fig4_a"
+  },
+  "sources": {
+    "analysis_code": "https://github.com/walter-ca/MS-lesions_code",
+    "article": "https://doi.org/10.1038/s41591-025-03625-7",
+    "geo_part_1": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264094",
+    "geo_part_2": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281805",
+    "supplements": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176629/supplementaryFiles"
+  }
+}

@@ -53,12 +53,14 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 
 | item | status | note |
 |---|---|---|
-| Opening health, evidence-boundary, and strategic audit | in-progress | Confirm repository, API, data, and frontier state; fix one decision constraint before analysis. |
+| Opening health, evidence-boundary, and strategic audit | done | Clean/aligned start; OpenGWAS expired and routed around; five-gate route rule frozen before analysis. |
 | Progression-treatment opportunity map | todo | Catalogue plausible route families against the five fixed gates using committed V52-V54 evidence. |
 | Current primary-source therapeutic landscape scan | todo | Check current trial/regulatory/publication evidence for progression-modifying mechanisms; external context only. |
-| New progression-data availability scout | todo | Search repositories and data-availability statements for longitudinal molecular-to-disability or intervention-response packages absent from V54. |
+| New progression-data availability scout | in-progress | Found GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics; both frozen before testing. Continue source audit. |
 | External-source provenance records | todo | Class every integrated source and keep it outside grounded trees; run provenance gate. |
-| Targeted held-data bridge test | todo | For the highest-priority externally motivated route, run only a pre-specified test supported by held data; null/multiplicity aware. |
+| GSE281805 processed BRL module bridge test | done | Four modules pass frozen BRL-vs-mixed gate, but none passes post-result common-slide max-T sensitivity; overall route interpretation inconclusive. 30,000-family null calibration 0.0514, excess p=0.1303. |
+| GSE281805 raw matched-NAWM reconstruction | in-progress | Reconstruct author-compatible TMM/RUV processing from public DCC/PKC, calibrate against deposited lesion matrix, then run the frozen matched-NAWM difference-of-differences only if calibration passes. |
+| GSE247181 rapid/slow SPMS PBMC module test | todo | Frozen plan exists; acquire/process Clariom D CEL data or locate an authoritative processed matrix without changing the plan. |
 | Direction and modality fail-fast audit | todo | Verify that any route's required activation/inhibition, compartment, exposure, and collateral-function profile are coherent. |
 | Multi-lineage adversarial review | todo | Ask Claude and Gemini for the strongest fatal weakness and decisive test; ground concrete suggestions only. |
 | Progression-therapy synthesis | todo | Write the honest ranked verdict: advance / data-gated / no-go, with exact next action and no therapeutic inflation. |
@@ -72,3 +74,15 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 - 2026-08-05: Environment check found SAP AI Core configured and OpenGWAS
   expired (HTTP 401; decoded expiry 2026-07-24 08:00 UTC). Genetics API work is
   routed around pending human renewal.
+- 2026-08-05T21:33Z: Targeted scouting found two public progression-relevant
+  packages absent from the V54 inventory. GSE281805/GSE264094 provides 17-donor
+  CD68-enriched lesion/NAWM GeoMx data tied to a rapid-progression lesion
+  phenotype; GSE247181 provides 10 rapid and 10 slow untreated SPMS PBMC
+  profiles. Plans were frozen before expression testing.
+- 2026-08-05T21:33Z: The processed GSE281805 donor-level test gave frozen
+  max-T passes for CD44/CXCR4, MIF, lysosomal, and resolution/efferocytosis
+  modules. An acquisition audit then found early slides with BRL but no mixed
+  rim. On the four common slides, no module retained max-T significance
+  (lysosomal p=0.0524; resolution p=0.0619; CD44/CXCR4 p=0.1524). This is an
+  inconclusive progression-adjacent association, not a target or treatment
+  result. Raw matched-NAWM reconstruction is the next decisive internal task.
