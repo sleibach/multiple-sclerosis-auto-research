@@ -66,6 +66,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | Independent progression-trial replication route | done | PERSEUS provides same-compound placebo-controlled PPMS falsification; FENtrepid provides independent-compound active-comparator triangulation. Frozen common 24-month EDSS/RMST design written. |
 | ToleDYNAMIC intervention-omics access plan | done | Public HERCULES protocol reveals an 80-participant HERCULES/PERSEUS substudy with baseline/M3/M12 B-cell and CD14-monocyte RNA-seq subset, flow, myelin phagocytosis, ROS, cytokines, and Seahorse assays. Access/arm balance unverified; frozen branch plan written. |
 | ToleDYNAMIC pre-value intake classifier | done | Metadata-only classifier maps returns to randomized-inference eligible, descriptive-only, aggregate/no-grounding, or terms-blocked. Six synthetic branches pass; no assay or outcome values are read, and the strongest class still requires assay/batch QC. |
+| ToleDYNAMIC sample-manifest preflight | done | Value-blind preflight checks participant-arm consistency, paired baseline/month-3 coverage, and arm nesting in site/batch per trial-assay-cell group. Balanced, confounded, missing-pair, and duplicate synthetic fixtures pass; zero eligible groups fails closed. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
@@ -164,3 +165,9 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   packages as descriptive-only; aggregate-only as no-grounding; and disallowed
   terms as stop. The classifier explicitly reads no assay or outcome values and
   never calls metadata eligibility a treatment or mechanism result.
+- 2026-08-05T23:15Z: A second value-blind gate now audits the actual sample
+  manifest by parent trial, assay, and cell type. It blocks duplicate IDs and
+  participant-arm inconsistency, counts paired baseline/month-3 participants
+  by arm, and rejects randomized contrasts when arm is perfectly nested in site
+  or batch. Four deterministic synthetic manifests pass, including a fail-
+  closed batch-confounded case with zero eligible assay groups.
