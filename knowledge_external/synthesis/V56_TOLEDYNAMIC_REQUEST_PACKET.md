@@ -7,7 +7,8 @@ required. No participant-level data have been obtained or viewed.
 Boundary: `external-verifiable`; `NOT_PROJECT_GROUNDED`. Principal source:
 https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf. Parent
 trial sources: https://clinicaltrials.gov/study/NCT04411641 and
-https://clinicaltrials.gov/study/NCT04458051. Date accessed: 2026-08-05.
+https://clinicaltrials.gov/study/NCT04458051. Extension source:
+https://clinicaltrials.gov/study/NCT06372145. Date accessed: 2026-08-05.
 
 ## Plain-Language Summary
 
@@ -38,6 +39,14 @@ Randomized inference is permitted only if sponsor design metadata explicitly
 document placebo sampling and outcome-blind selection. Controlled data will
 remain in the approved secure workspace; only disclosure-approved aggregate
 results will leave it.
+
+[`external-verifiable`; `NOT_PROJECT_GROUNDED`; source:
+https://clinicaltrials.gov/study/NCT06372145]
+The current registry names ToleDYNAMIC within an active, nonrandomized,
+open-label extension, lists biomarker change through 12 months, reports no
+results, and estimates completion in 2029. The first request is therefore for
+design continuity, protocol/SAP access, completed-assay counts, and an
+availability timeline rather than an assumption that a mature package exists.
 
 ## Scientific Abstract
 
@@ -74,6 +83,10 @@ selection are documented contrary to the active-treatment-only protocol reading.
    refitting; call this cross-trial concordance, not randomized replication.
 5. Estimate, without promotion thresholds, whether replicated pharmacodynamic
    effects relate to the fixed 24-month EDSS progression endpoint.
+6. If complete rollover metadata permit, estimate a secondary
+   selection-conditional trajectory contrast between former-placebo initiators
+   and former-tolebrutinib continuers; never label it a current randomized
+   treatment effect.
 
 ### Primary Estimand
 
@@ -105,6 +118,8 @@ rescue a month-3 failure.
 - visit, nominal/actual collection time, processing delay, shipment,
   freeze-thaw, plate, batch, operator, assay failure, and missingness reason;
 - treatment start, dose/exposure, interruption/discontinuation and reason;
+- parent-trial eligibility, extension invitation/enrollment, non-enrollment
+  reason, and substudy/RNA selection flow by prior randomized arm;
 - EDSS, T25FW, 9HPT, relapse, MRI, prior-DMT, baseline gadolinium lesion,
   NfL, CHI3L1, safety, and liver-monitoring linkage where releasable.
 
@@ -150,6 +165,10 @@ rescue a month-3 failure.
   PERSEUS retains all 18 original slots with per-slot alpha `0.05/18`. Results
   are temporal trajectories and cross-trial concordance, not treatment effects
   or randomized replication.
+- The secondary former-placebo-initiator versus former-active-continuer contrast
+  requires complete rollover flow, exposure, selection, positivity, laboratory-
+  blinding, weighting, selection-bound, and site/batch checks. It remains an
+  onset-versus-continuation association.
 - Only under sponsor-documented both-arm, outcome-blind sampling does the test
   change to randomization-stratified treatment-by-time max-T inference.
 - Functional endpoints form a separate fixed family after blinded SAP/schema
@@ -182,14 +201,15 @@ used outside the sponsor-documented both-arm exception.
 ## Human Submission Checklist
 
 1. Nominate a qualified principal investigator and institutional signatory.
-2. Ask Sanofi/Vivli whether ToleDYNAMIC is available with both parent trials and
+2. Ask Sanofi/Vivli how Appendix 11 relates to the NCT06372145 extension and
+   whether ToleDYNAMIC is available with both parent trials and
    whether omics/FCS/function data require direct sponsor collaboration. State
    that the public protocol appears active-treatment-only and request explicit
    confirmation or documentary correction; do not infer placebo coverage from
    the randomized parent trials.
-3. Submit HERCULES and PERSEUS as one linked scientific request and attach this
-   packet plus the full access/test plan.
-4. Obtain written answers to the seven access questions in the full plan before
+3. Submit HERCULES, PERSEUS, and NCT06372145 as one linked enquiry/request and
+   attach this packet plus the full access/test plan.
+4. Obtain written answers to the eight access questions in the full plan before
    accepting a package as scientifically usable.
 5. Preserve the design branch and analysis commit hash in the controlled
    workspace before any outcome-associated values are opened.

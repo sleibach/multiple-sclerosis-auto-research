@@ -23,9 +23,20 @@ mediation, CNS target-engagement, or individual treatment-response claim.
 
 The machine contract is
 `docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`, canonical SHA-256
-`325dc6302321c55b7a5f1c8687306d4afd1b1808c1aa2372163e83112f23bf0c`.
+`1d7734fcc094b9a0fd975f92c53d2cc80a9358d4c2ecce0a139bf45f41e945c9`.
 It binds the unchanged 18-slot module lock SHA-256
 `6c34df056bd764850dd30173116c6c4162213b56fb3bd72bcc165a94b855c77d`.
+
+## Current Extension Context
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] The official extension registry is active, nonrandomized, open-label, and estimates completion in April 2029; no results are posted.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] It names ToleDYNAMIC, lists biomarker change from extension baseline through 12 months, and states that participants from the progressive-MS parent trials start open-label tolebrutinib.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] Qualified researchers may request participant-level data and documents through Vivli, but that policy does not establish current availability of an ongoing substudy package.
+
+The relation between HERCULES Appendix 11 sampling and the extension registry's
+ToleDYNAMIC sampling is not public. They may be continuous, transferred, or
+distinct protocol periods. This must be resolved before selecting a baseline or
+analysis population.
 
 ## Value-Blind Release Gates
 
@@ -96,6 +107,35 @@ bootstrap interval excluding zero, leave-one-out sign stability, and nominal p
 `< 0.05/18`. It is not randomized replication.
 
 Month 12 tests durability with the same family and cannot rescue month 3.
+
+### Secondary initiation-versus-continuation contrast
+
+If complete parent-arm and exposure metadata show both former-placebo
+participants initiating open-label tolebrutinib and former-tolebrutinib
+participants continuing it, estimate the difference in paired month-3 change
+between those groups. This is secondary to the within-participant trajectory.
+It compares early exposure with continued exposure among selected rollover and
+substudy survivors; it is not a current randomized drug-versus-placebo effect.
+
+The contrast is released only when all are available: a parent-arm rollover
+CONSORT from randomization through extension eligibility, extension enrollment,
+substudy consent, and paired assay completion; actual exposure/interruption and
+washout; reasons and dates for every selection step; parent-exit and extension-
+baseline clinical covariates with common support; and laboratory blinding to
+parent arm. Report standardized covariate balance and stop if positivity fails.
+
+Use the same fixed 18-slot max-T family. In addition to the unadjusted contrast,
+report a prespecified parent-exit/baseline adjusted estimate, inverse-probability
+weights for observed extension/substudy participation when the parent
+denominator is available, quantitative selection-bias bounds, leave-one-site-
+out and leave-one-batch-out estimates, and placebo-era slope subtraction if
+compatible pre-extension molecular samples exist. A nonzero trajectory among
+continuers directly falsifies a simple steady-state-reference interpretation.
+
+Allowed wording is `selection-conditional initiation-versus-continuation
+trajectory`. Parent randomization does not erase post-trial survivor selection,
+differential prior exposure, open-label behavior, or extension/substudy
+selection. Do not use `treatment effect`, `placebo-controlled`, or `causal`.
 
 ## Frozen Functional Analysis
 

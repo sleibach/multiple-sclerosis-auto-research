@@ -27,15 +27,29 @@
         "individual_treatment_response_classifier"
       ],
       "inferential_method": "participant_sign_flip_max_t_with_at_least_100000_permutations",
-      "primary_contrast": "paired_month3_minus_baseline_change_among_tolebrutinib_treated_participants"
+      "primary_contrast": "paired_month3_minus_baseline_change_among_tolebrutinib_treated_participants",
+      "secondary_prior_randomization_contrast": {
+        "allowed_interpretation": "selection_conditional_initiation_versus_continuation_trajectory",
+        "contrast": "former_placebo_initiator_minus_former_tolebrutinib_continuer_in_paired_month3_change",
+        "forbidden_interpretation": "current_randomized_drug_versus_placebo_effect",
+        "requirements": [
+          "complete_parent_arm_rollover_consort",
+          "actual_prior_exposure_and_washout_known",
+          "extension_and_substudy_selection_reasons_known",
+          "parent_exit_and_extension_baseline_covariate_overlap",
+          "laboratory_blind_to_parent_arm",
+          "selection_weighted_and_bounded_sensitivities_reported"
+        ]
+      }
     },
     "BRANCH_C_NO_GROUNDING": {
       "allowed_interpretation": "access_or_package_limitation_only",
       "trigger": "aggregate_only_or_no_parent_trial_linkage"
     }
   },
-  "canonical_payload_sha256": "325dc6302321c55b7a5f1c8687306d4afd1b1808c1aa2372163e83112f23bf0c",
+  "canonical_payload_sha256": "1d7734fcc094b9a0fd975f92c53d2cc80a9358d4c2ecce0a139bf45f41e945c9",
   "durability_visit": "month12_cannot_rescue_month3_failure",
+  "extension_registry_source": "https://clinicaltrials.gov/study/NCT06372145",
   "family_slots": 18,
   "lock_version": "V56-1.0",
   "module_lock_binding": {

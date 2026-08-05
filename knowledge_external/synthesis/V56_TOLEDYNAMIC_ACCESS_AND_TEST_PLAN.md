@@ -32,12 +32,24 @@ available only if sponsor documentation explicitly establishes that placebo
 participants were also sampled and that inclusion was fixed outcome-blind
 before unblinding. Absence of arm metadata cannot be interpreted favorably.
 
+## Extension-Registry Update
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] ToleDYNAMIC is also named in the active, nonrandomized, open-label LTS17043 extension, with biomarker change from extension baseline through 12 months and estimated completion in April 2029.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://clinicaltrials.gov/study/NCT06372145] All participants from the progressive-MS parent trials start open-label tolebrutinib in the extension; no registry results are posted.
+
+This confirms Branch B but adds a bounded secondary contrast if prior parent
+assignment and exposure are linkable: former-placebo initiators versus
+former-tolebrutinib continuers. That estimates an initiation-versus-continuation
+trajectory among selected rollover participants, not a current randomized
+drug-versus-placebo effect. The parent Appendix 11 and extension sampling
+relationship must be documented before any baseline is chosen.
+
 ## Exact Access Questions
 
 Before a scientific request is submitted, obtain written answers to:
 
-1. Was ToleDYNAMIC completed, and how many HERCULES and PERSEUS participants
-   have all three visits?
+1. Are Appendix 11 and LTS17043 ToleDYNAMIC one continuous substudy, and how
+   many HERCULES and PERSEUS participants have all three visits?
 2. Were both randomized arms sampled in each parent trial? If yes, was substudy
    enrollment fixed before unblinding and independent of post-randomization
    outcome?
@@ -53,6 +65,9 @@ Before a scientific request is submitted, obtain written answers to:
    batch/plate map, and missingness reason available?
 7. What small-cell, export, collaboration, publication-review, and retention
    constraints apply?
+8. For extension participants, are prior randomized assignment, exposure,
+   rollover eligibility/non-enrollment, and every substudy-selection step
+   linkable for a participant-flow and selection audit?
 
 No absence or presence is inferred until these questions are answered.
 

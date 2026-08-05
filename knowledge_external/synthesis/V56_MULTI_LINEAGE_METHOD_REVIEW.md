@@ -43,3 +43,28 @@ Agreement between models only prioritized review. Every accepted repair was
 independently checked against the public HERCULES SAP and statistical first
 principles. No model statement changes a grounded project finding or supplies
 treatment evidence.
+
+## Open-Label Extension Estimand Review
+
+After the official NCT06372145 record exposed a possible former-placebo
+initiator versus former-tolebrutinib continuer comparison, both lineages were
+asked independently to attack that design. Claude returned approximately 628
+words and Gemini 946 words after one truncated Gemini attempt was discarded.
+No cost field was exposed.
+
+Both converged on three methodological points, accepted only after independent
+design reasoning:
+
+1. the measurable contrast is drug initiation versus continued exposure among
+   selected rollover/substudy survivors, not current drug versus placebo;
+2. parent randomization does not remove post-trial survivorship,
+   extension/substudy selection, differential exposure duration, or open-label
+   behavior; and
+3. any use requires parent-arm rollover flow, exposure history, covariate
+   overlap, laboratory blinding, selection adjustment/bounds, and site/batch
+   falsification.
+
+The resulting secondary estimand and forbidden wording are now machine-bound in
+`docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`. The simpler
+within-participant temporal trajectory remains primary. Model agreement did not
+create the estimand and is not evidence that any biomarker changes.

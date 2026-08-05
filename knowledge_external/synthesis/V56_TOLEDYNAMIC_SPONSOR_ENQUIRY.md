@@ -10,32 +10,39 @@ accessed: 2026-08-05.
 
 ## Suggested Message
 
-**Subject:** Scientific data-availability enquiry: ToleDYNAMIC substudy in
-HERCULES/PERSEUS
+**Subject:** Scientific design/data-availability enquiry: ToleDYNAMIC in
+HERCULES/PERSEUS and extension NCT06372145
 
 Dear Clinical Trial Data Sharing / ToleDYNAMIC team,
 
 We are preparing a prespecified, non-commercial analysis request concerning
 the ToleDYNAMIC immunological substudy described in Appendix 11 of the public
-HERCULES protocol (NCT04411641), including the linked PERSEUS participants
-(NCT04458051). Before submitting a controlled-data proposal, we would be
-grateful for factual clarification of the completed design and request route:
+HERCULES protocol (NCT04411641), including linked PERSEUS participants
+(NCT04458051). We also note that ToleDYNAMIC is named in the active open-label
+extension NCT06372145/LTS17043. Before submitting a controlled-data proposal,
+we would be grateful for factual clarification of the design and request route:
 
-1. Was ToleDYNAMIC completed, and how many participants from each parent trial
-   have baseline, month-3, and month-12 samples?
-2. The public appendix repeatedly refers to tolebrutinib-treated participants.
+1. Are the Appendix 11 and NCT06372145 ToleDYNAMIC activities one continuous
+   substudy, a protocol transfer, or distinct sampling periods?
+2. What sampling has completed to date, and how many participants from each
+   parent trial have baseline, month-3, and month-12 samples?
+3. The public appendix repeatedly refers to tolebrutinib-treated participants.
    Were any placebo participants sampled, or is the substudy active-treatment
    only?
-3. Was substudy and RNA-subset selection fixed before treatment unblinding and
+4. Was substudy and RNA-subset selection fixed before treatment unblinding and
    independently of assay values or clinical outcomes?
-4. Which planned data types were completed: B-cell/CD14-monocyte RNA sequencing,
+5. Which planned data types were completed: B-cell/CD14-monocyte RNA sequencing,
    FCS/flow summaries, CD64, cytokines, myelin phagocytosis, ROS, and Seahorse
    metabolism?
-5. Are the separate ToleDYNAMIC statistical analysis plan, laboratory manual,
+6. Are the separate ToleDYNAMIC statistical analysis plan, laboratory manual,
    data dictionary, sample/batch map, missingness reasons, and parent-trial
    linkage available to approved researchers?
-6. Should this be requested through Vivli with HERCULES/PERSEUS, through a
-   separate Sanofi process, or through direct scientific collaboration?
+7. For extension samples, are prior randomized arm, actual prior exposure,
+   rollover eligibility/non-enrollment, and extension/substudy selection
+   reasons linkable without disclosing treatment outcomes during intake?
+8. Should this be requested through Vivli with HERCULES/PERSEUS/NCT06372145,
+   through a separate Sanofi process, or through direct scientific
+   collaboration?
 
 Our analysis branch will be selected from design metadata before assay or
 outcome values are viewed. Active-treatment-only data would be restricted to

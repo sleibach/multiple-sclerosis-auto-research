@@ -27,6 +27,7 @@ PAYLOAD_FIELDS = (
 DESIGN_PAYLOAD_FIELDS = (
     "branches",
     "durability_visit",
+    "extension_registry_source",
     "family_slots",
     "module_lock_binding",
     "primary_visit",
@@ -91,6 +92,7 @@ def main() -> int:
     branches = design_lock.get("branches", {})
     branch_a = branches.get("BRANCH_A_RANDOMIZED_EXCEPTION", {})
     branch_b = branches.get("BRANCH_B_ACTIVE_ONLY_DEFAULT", {})
+    secondary = branch_b.get("secondary_prior_randomization_contrast", {})
     checks = {
         "required_fields_present": not missing,
         "source_modules_exact_match": extracted == lock.get("modules"),
@@ -123,6 +125,20 @@ def main() -> int:
             "CNS_target_engagement",
             "individual_treatment_response_classifier",
         }.issubset(set(branch_b.get("forbidden_interpretations", []))),
+        "delayed_start_contrast_is_noncausal": secondary.get("contrast")
+        == "former_placebo_initiator_minus_former_tolebrutinib_continuer_in_paired_month3_change"
+        and secondary.get("forbidden_interpretation")
+        == "current_randomized_drug_versus_placebo_effect",
+        "delayed_start_requires_selection_audit": {
+            "complete_parent_arm_rollover_consort",
+            "actual_prior_exposure_and_washout_known",
+            "extension_and_substudy_selection_reasons_known",
+            "parent_exit_and_extension_baseline_covariate_overlap",
+            "laboratory_blind_to_parent_arm",
+            "selection_weighted_and_bounded_sensitivities_reported",
+        }.issubset(set(secondary.get("requirements", []))),
+        "extension_registry_source_fixed": design_lock.get("extension_registry_source")
+        == "https://clinicaltrials.gov/study/NCT06372145",
         "design_family_matches_module_family": design_lock.get("family_slots")
         == lock.get("family_slots"),
     }

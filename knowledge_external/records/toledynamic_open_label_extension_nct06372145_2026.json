@@ -1,0 +1,42 @@
+{
+  "claim": "The official NCT06372145 registry record names ToleDYNAMIC as a biomarker substudy in an active, nonrandomized, open-label phase 3 extension. It states that participants from the progressive-MS parent trials start open-label tolebrutinib, lists biomarker change from extension baseline through 12 months, reports no posted results, and estimates study completion in April 2029. The record permits qualified-researcher IPD requests through Vivli but does not establish that ongoing ToleDYNAMIC assay data are currently shareable.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-verifiable",
+  "future_grounding_route": "Ask Sanofi whether the HERCULES Appendix 11 substudy and the NCT06372145 extension substudy are one continuous protocol or distinct sampling periods; request the extension protocol/SAP, rollover CONSORT by parent arm, actual prior exposure, selection timing, completed assay counts, and availability timeline. If former-placebo initiators and former-tolebrutinib continuers are both represented, permit only a selection-conditional initiation-versus-continuation trajectory sensitivity, never a current randomized drug-versus-placebo effect.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "knowledge_external/synthesis/V56_TOLEDYNAMIC_ACTIVE_ONLY_ANALYSIS.md",
+    "finding_id": "Active-only design permits temporal pharmacodynamics but not randomized treatment-effect inference"
+  },
+  "project_use": "Confirms the active-only causal boundary, explains why completed results or a mature package should not be assumed, and adds a bounded prior-randomization-anchored initiation-versus-continuation contrast if complete rollover metadata exist. It does not upgrade any module, mechanism, target, or treatment claim.",
+  "record_id": "resource.clinicaltrials.toledynamic_open_label_extension.nct06372145.2026-02-13",
+  "record_type": "external_resource",
+  "relationship_note": "The registry converges with the HERCULES protocol's active-treatment wording but changes the practical request: seek ongoing-study collaboration and design documents first, and treat any available extension biomarker data as selected open-label follow-up.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "ClinicalTrials.gov. NCT06372145, LTS17043: phase 3 extension study of tolebrutinib; record last posted 13 February 2026.",
+    "label": "Official ClinicalTrials.gov registry record and API v2 JSON",
+    "url": "https://clinicaltrials.gov/study/NCT06372145"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "ClinicalTrials.gov public registry metadata",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "Only short factual metadata paraphrases are stored. No participant data, protocol attachment, or assay result is redistributed.",
+    "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "toledynamic",
+    "nct06372145",
+    "lts17043",
+    "tolebrutinib",
+    "open_label_extension",
+    "nonrandomized",
+    "biomarker_change",
+    "active_not_recruiting",
+    "estimated_completion_2029",
+    "vivli",
+    "controlled_access"
+  ]
+}
