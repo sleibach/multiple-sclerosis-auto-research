@@ -1,0 +1,41 @@
+{
+  "fixtures": [
+    {
+      "expected_effective_test_eligible": 5,
+      "expected_status": "MAPPING_COMPLETE",
+      "fixture": "complete",
+      "observed_effective_test_eligible": 5,
+      "observed_status": "MAPPING_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "expected_effective_test_eligible": 4,
+      "expected_status": "MAPPING_COMPLETE",
+      "fixture": "cytokine_unavailable",
+      "observed_effective_test_eligible": 4,
+      "observed_status": "MAPPING_COMPLETE",
+      "status": "PASS"
+    },
+    {
+      "expected_effective_test_eligible": 0,
+      "expected_status": "BLOCKED",
+      "fixture": "values_read",
+      "observed_effective_test_eligible": 0,
+      "observed_status": "BLOCKED",
+      "status": "PASS"
+    },
+    {
+      "expected_effective_test_eligible": 0,
+      "expected_status": "BLOCKED",
+      "fixture": "duplicate",
+      "observed_effective_test_eligible": 0,
+      "observed_status": "BLOCKED",
+      "status": "PASS"
+    }
+  ],
+  "n_fail": 0,
+  "n_fixtures": 4,
+  "overall_status": "PASS",
+  "purpose": "deterministic synthetic functional-mapping behavior check; no biological evidence",
+  "synthetic": true
+}
