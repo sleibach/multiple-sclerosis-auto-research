@@ -20,28 +20,33 @@ and 12. Planned measurements include detailed immune-cell phenotyping, tests of
 monocyte function and metabolism, and RNA sequencing of selected B-cell and
 monocyte samples.
 
-The proposed project asks a limited question: did randomized treatment produce
-an early, reproducible change in prespecified peripheral immune programs, and
-was the same change observed across the two progressive-MS settings? The
-analysis will use modules frozen before these data are accessed, correct all
-module and functional tests as fixed families, and treat clinical associations
-as estimation only. It will not search for a favorable patient subgroup, infer
-that a blood change is a CNS mechanism, or make an individual treatment
-recommendation.
+The proposed project asks a limited question: do prespecified peripheral immune
+programs change between baseline and month 3 among substudy participants, and
+is the same trajectory observed in the two clinically divergent progressive-MS
+trials? The analysis will use modules frozen before these data are accessed,
+correct all module and functional tests as fixed families, and treat clinical
+associations as estimation only. It will not search for a favorable patient
+subgroup, infer that a blood change is a CNS mechanism, or make an individual
+treatment recommendation.
 
-The substudy's arm composition and assay availability are not public. If both
-randomized arms were not sampled under outcome-blind selection, the project
-will report paired trajectories descriptively and will make no treatment-effect
-or mechanism claim. Controlled data will remain in the approved secure
-workspace; only disclosure-approved aggregate results will leave it.
+[`external-verifiable`; `NOT_PROJECT_GROUNDED`; source:
+https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf]
+The public protocol specifies tolebrutinib-treated participants and sampling
+after treatment initiation. The request therefore defaults to active-treatment-
+only descriptive trajectories, with no treatment-effect or mechanism claim.
+Randomized inference is permitted only if sponsor design metadata explicitly
+document placebo sampling and outcome-blind selection. Controlled data will
+remain in the approved secure workspace; only disclosure-approved aggregate
+results will leave it.
 
 ## Scientific Abstract
 
 ### Objective
 
-Test whether tolebrutinib produces prespecified month-3 pharmacodynamic changes
-in B-cell and CD14-monocyte programs and functional monocyte readouts, and
-whether effects observed in nrSPMS HERCULES transport to PPMS PERSEUS.
+Characterize prespecified month-3 pharmacodynamic trajectories in B-cell and
+CD14-monocyte programs and functional monocyte readouts, and test whether the
+same trajectory occurs in nrSPMS HERCULES and PPMS PERSEUS. Do not attribute
+paired change to treatment without a documented randomized substudy comparison.
 
 ### Rationale
 
@@ -50,37 +55,43 @@ https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf]
 ToleDYNAMIC was planned with baseline, month-3, and month-12 sampling; detailed
 B/T/monocyte phenotyping; CD14-monocyte functional assays; and RNA sequencing
 in selected sorted B-cell and monocyte samples. These intervention-linked
-measurements can test peripheral pharmacodynamics directly, provided both
-randomized arms and outcome-blind substudy selection are available.
+measurements can characterize peripheral pharmacodynamics. They can estimate a
+randomized treatment effect only if both arms and outcome-blind substudy
+selection are documented contrary to the active-treatment-only protocol reading.
 
 ### Prespecified Aims
 
 1. Audit substudy selection, randomized-arm coverage, missingness, and assay
    batch structure without viewing outcome-associated expression or function.
-2. In HERCULES, test the randomized month-3 difference in change for nine
-   previously frozen transcript modules in B cells and CD14 monocytes as one
-   18-slot max-T family.
+2. In HERCULES, characterize paired month-3 change for nine previously frozen
+   transcript modules in B cells and CD14 monocytes as one 18-slot max-T family,
+   without attributing temporal change to treatment under the default branch.
 3. Test a blinded-SAP-mapped family of monocyte functional endpoints and require
    independent transcript and function gates before using the label
    `functionally anchored`.
-4. Replicate any HERCULES transcript or functional effect in PERSEUS using the
-   original fixed slots and thresholds, without family shrinkage or refitting.
+4. Compare any HERCULES transcript or functional trajectory with PERSEUS using
+   the original fixed slots and thresholds, without family shrinkage or
+   refitting; call this cross-trial concordance, not randomized replication.
 5. Estimate, without promotion thresholds, whether replicated pharmacodynamic
    effects relate to the fixed 24-month EDSS progression endpoint.
 
 ### Primary Estimand
 
-Within each parent trial, the primary estimand is the randomized-arm difference
-in paired month-3-minus-baseline change. Participant, visit, arm, arm-by-visit,
-site, and assay batch are represented as prespecified in the full analysis
-plan. Month 12 assesses durability and cannot rescue a month-3 failure.
+Under the public-protocol default, the primary summary is paired
+month-3-minus-baseline change among tolebrutinib-treated participants, with a
+full interval and fixed family correction. It is a temporal pharmacodynamic
+trajectory, not a drug-effect estimand. If sponsor documentation establishes
+the exceptional both-arm branch, the primary estimand becomes the randomized-
+arm difference in that paired change. Month 12 assesses durability and cannot
+rescue a month-3 failure.
 
 ### Mandatory Design Branch
 
-- **Both randomized arms, outcome-blind selection:** randomized
-  treatment-by-time inference is permitted after validity gates.
-- **Active arm only, post-unblinding selection, or arm-confounded batch:**
+- **Active arm only (public-protocol default), post-unblinding selection, or
+  arm-confounded batch:**
   descriptive paired trajectories only; no treatment or mechanism claim.
+- **Both randomized arms, outcome-blind selection documented by sponsor:**
+  randomized treatment-by-time inference is permitted after validity gates.
 - **Aggregate-only data or no parent-trial linkage:** no project grounding;
   report the access limitation and stop.
 
@@ -134,8 +145,13 @@ plan. Month 12 assesses durability and cannot rescue a month-3 failure.
 - The transcript universe is the nine modules already committed in
   `scripts/v56_analyze_gse247181.py`, evaluated in two cell types as one
   18-slot family.
-- HERCULES uses at least 100,000 randomization-stratified max-T permutations;
-  PERSEUS retains all 18 original slots with per-slot alpha `0.05/18`.
+- Under the default active-treatment-only branch, HERCULES uses at least
+  100,000 participant-level sign-flip max-T permutations for paired change;
+  PERSEUS retains all 18 original slots with per-slot alpha `0.05/18`. Results
+  are temporal trajectories and cross-trial concordance, not treatment effects
+  or randomized replication.
+- Only under sponsor-documented both-arm, outcome-blind sampling does the test
+  change to randomization-stratified treatment-by-time max-T inference.
 - Functional endpoints form a separate fixed family after blinded SAP/schema
   mapping; transcript-function correlation alone is not mediation.
 - Clinical linkage is continuous, estimation-only, and cannot create a
@@ -163,7 +179,10 @@ The complete executable decision rules are in
 
 1. Nominate a qualified principal investigator and institutional signatory.
 2. Ask Sanofi/Vivli whether ToleDYNAMIC is available with both parent trials and
-   whether omics/FCS/function data require direct sponsor collaboration.
+   whether omics/FCS/function data require direct sponsor collaboration. State
+   that the public protocol appears active-treatment-only and request explicit
+   confirmation or documentary correction; do not infer placebo coverage from
+   the randomized parent trials.
 3. Submit HERCULES and PERSEUS as one linked scientific request and attach this
    packet plus the full access/test plan.
 4. Obtain written answers to the seven access questions in the full plan before

@@ -1,14 +1,14 @@
 {
-  "claim": "The public HERCULES protocol describes ToleDYNAMIC, an 80-participant immunological substudy spanning HERCULES and PERSEUS (about 40 participants from each) with samples at baseline, month 3, and month 12; planned measurements include B-cell and CD14-monocyte RNA sequencing in a subset, detailed lymphocyte/monocyte phenotyping, CD64 and other monocyte-state markers, cytokines, myelin phagocytosis, reactive oxygen species, and Seahorse metabolic assays linked to parent-trial clinical and MRI data.",
+  "claim": "The public HERCULES protocol describes ToleDYNAMIC, an 80-participant immunological substudy spanning HERCULES and PERSEUS (about 40 participants from each) with samples at baseline, month 3, and month 12; it repeatedly specifies tolebrutinib-treated participants and sampling after initiation of tolebrutinib, so the public design supports an active-treatment-only interpretation unless sponsor metadata establish otherwise. Planned measurements include B-cell and CD14-monocyte RNA sequencing in a subset, detailed lymphocyte/monocyte phenotyping, CD64 and other monocyte-state markers, cytokines, myelin phagocytosis, reactive oxygen species, and Seahorse metabolic assays linked to parent-trial clinical and MRI data.",
   "date_accessed": "2026-08-05",
   "epistemic_class": "external-verifiable",
-  "future_grounding_route": "Ask Sanofi/Vivli whether ToleDYNAMIC data, separate SAP, data dictionary, parent-trial linkage, arm assignment, raw RNA counts, flow cytometry, and functional-assay outputs are available. Freeze a treatment-by-time analysis before values are viewed; if placebo participants were not sampled or selection was outcome-dependent, restrict interpretation to descriptive paired change.",
+  "future_grounding_route": "Ask Sanofi/Vivli whether ToleDYNAMIC data, separate SAP, data dictionary, parent-trial linkage, arm assignment, raw RNA counts, flow cytometry, and functional-assay outputs are available. Treat the public protocol as active-treatment-only Branch B by default. Permit randomized treatment-by-time analysis only if documentary design metadata establish placebo sampling and outcome-blind selection contrary to that reading; otherwise restrict interpretation to paired pharmacodynamic trajectories and cross-trial sufficiency checks.",
   "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
   "project_finding_reference": {
     "artifact": "docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md",
     "finding_id": "The next rational computation requires longitudinal progression-treatment molecular data"
   },
-  "project_use": "Highest-priority controlled-data acquisition target because it could directly test pre-existing APC/HLA-II, CD64, lysosomal, MIF, metabolic, and resolution modules under a progression-treatment intervention. Existence in a protocol does not establish completion, access, arm balance, assay quality, or a treatment effect.",
+  "project_use": "Highest-priority molecular controlled-data acquisition target because it could measure pre-existing APC/HLA-II, CD64, lysosomal, MIF, metabolic, and resolution modules longitudinally under a progression-treatment intervention. The public active-treatment-only wording means it cannot estimate a randomized drug effect by default; its strongest use is testing whether the same peripheral pharmacodynamic trajectory occurs in clinically divergent parent trials. Existence in a protocol does not establish completion, access, assay quality, or a mechanism.",
   "record_id": "resource.sanofi.toledynamic.hercules_perseus_intervention_omics.2023-12-20",
   "record_type": "external_resource",
   "relationship_note": "The planned substudy overlaps unusually well with project-grounded module questions, but no ToleDYNAMIC result is integrated and no project route is upgraded until controlled data are obtained and rerun under a frozen plan.",
@@ -39,6 +39,7 @@
     "myelin_phagocytosis",
     "seahorse",
     "month_3",
+    "active_treatment_only_public_design",
     "controlled_access"
   ]
 }

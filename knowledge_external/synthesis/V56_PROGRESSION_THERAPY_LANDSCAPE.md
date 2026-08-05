@@ -44,13 +44,16 @@ approved data dictionary.
 ### ToleDYNAMIC intervention-omics route
 
 - [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The public HERCULES protocol separately describes ToleDYNAMIC, an approximately 80-participant HERCULES/PERSEUS substudy with baseline, month-3, and month-12 samples, detailed immune phenotyping, CD14-monocyte functional assays, and B-cell/monocyte RNA sequencing in a subset.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The appendix repeatedly specifies tolebrutinib-treated participants and sampling after treatment initiation; it does not describe placebo-arm sampling.
 
 ToleDYNAMIC is the highest-priority molecular access question because it links
 an intervention, two progressive-MS phenotypes, repeated immune measurements,
 functional myeloid assays, and parent clinical/MRI outcomes. The protocol does
-not prove completion, availability, randomization-arm balance, or assay quality.
-It must be requested explicitly; standard clinical IPD access cannot be assumed
-to include it.
+not prove completion, availability, or assay quality. Its public design supports
+paired pharmacodynamic description and a cross-trial sufficiency check, not a
+randomized treatment effect. Both-arm inference is allowed only if sponsor
+metadata explicitly document a different design. It must be requested
+explicitly; standard clinical IPD access cannot be assumed to include it.
 
 ## Relationship To Project Results
 
@@ -82,8 +85,8 @@ reconstruction-bounded.
 
 | rank | opportunity | why it matters | critical boundary |
 |---:|---|---|---|
-| 1 | ToleDYNAMIC controlled intervention-omics request | Direct baseline/month-3/month-12 B-cell/monocyte transcript and function opportunity across HERCULES/PERSEUS | Completion/access/arm balance and RNA-subset size unverified; likely small |
-| 2 | Controlled HERCULES participant-level reanalysis | Direct randomized progression-treatment and safety outcomes; can test stability of clinical effect modifiers | Controlled access; subgroup multiplicity; standard IPD may omit molecular data |
+| 1 | Controlled HERCULES participant-level reanalysis | Direct randomized progression-treatment and safety outcomes; can test stability of clinical effect modifiers | Controlled access; subgroup multiplicity; standard IPD may omit molecular data |
+| 2 | ToleDYNAMIC controlled intervention-omics request | Direct baseline/month-3/month-12 B-cell/monocyte transcript and function opportunity across HERCULES/PERSEUS | Public design appears active-treatment-only; completion/access and RNA-subset size unverified; likely small |
 | 3 | Prospective CNS-penetrant-BTK treatment biomarker cohort | Could test whether early blood/CSF change improves prediction beyond activity, MRI, and prior treatment | Requires pre-registration, adequate sample size, and independent validation |
 | 4 | Author-complete broad-rim lesion reconstruction | Could determine whether lesion modules are source-balanced and lesion-specific | Postmortem association; no treatment or longitudinal disability |
 | 5 | Fenebrutinib participant-level analysis after full reporting | Independent compound and PPMS setting may test class versus compound specificity | Active comparator, data-access timing, no asserted molecular package |

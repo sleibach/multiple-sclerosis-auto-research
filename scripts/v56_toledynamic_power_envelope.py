@@ -55,7 +55,21 @@ def t_statistics(
     return numerator / denominator
 
 
-def run(args: argparse.Namespace) -> tuple[pd.DataFrame, dict[str, object]]:
+def paired_trajectory_t_statistics(
+    rng: np.random.Generator,
+    n_families: int,
+    n_participants: int,
+    rho: float,
+    effect: float = 0.0,
+) -> np.ndarray:
+    numerator = correlated_normals(rng, n_families, rho)
+    numerator[:, 0] += effect * np.sqrt(n_participants)
+    variance = rng.chisquare(n_participants - 1, size=(n_families, N_ENDPOINTS))
+    denominator = np.sqrt(variance / (n_participants - 1))
+    return numerator / denominator
+
+
+def run(args: argparse.Namespace) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, object]]:
     rows = []
     calibration_rows = []
     for n_per_arm in N_PER_ARM:
@@ -114,6 +128,69 @@ def run(args: argparse.Namespace) -> tuple[pd.DataFrame, dict[str, object]]:
 
     power = pd.DataFrame(rows)
     calibration = pd.DataFrame(calibration_rows)
+    paired_rows = []
+    paired_calibration_rows = []
+    for n_participants in N_PER_ARM:
+        for rho in CORRELATIONS:
+            calibration_rng = np.random.default_rng(
+                56_300_000 + 1000 * n_participants + int(rho * 100)
+            )
+            null_t = paired_trajectory_t_statistics(
+                calibration_rng, args.null_calibration, n_participants, rho
+            )
+            critical = float(
+                np.quantile(np.max(np.abs(null_t), axis=1), 1.0 - ALPHA, method="higher")
+            )
+            audit_rates = []
+            for seed_index in range(args.seeds):
+                rng = np.random.default_rng(
+                    56_400_000 + 10_000 * seed_index + 100 * n_participants + int(rho * 10)
+                )
+                audit = paired_trajectory_t_statistics(
+                    rng, args.null_audit_per_seed, n_participants, rho
+                )
+                audit_rates.append(float(np.mean(np.max(np.abs(audit), axis=1) >= critical)))
+            paired_calibration_rows.append(
+                {
+                    "n_participants": n_participants,
+                    "module_correlation": rho,
+                    "max_t_critical": critical,
+                    "null_fwer_mean": float(np.mean(audit_rates)),
+                    "null_fwer_min": float(np.min(audit_rates)),
+                    "null_fwer_max": float(np.max(audit_rates)),
+                }
+            )
+            for effect in EFFECTS:
+                powers = []
+                for seed_index in range(args.seeds):
+                    rng = np.random.default_rng(
+                        56_500_000
+                        + 100_000 * seed_index
+                        + 1000 * n_participants
+                        + int(rho * 100)
+                        + int(effect * 10)
+                    )
+                    values = paired_trajectory_t_statistics(
+                        rng, args.alternative_per_seed, n_participants, rho, effect
+                    )
+                    powers.append(float(np.mean(np.abs(values[:, 0]) >= critical)))
+                paired_rows.append(
+                    {
+                        "n_participants": n_participants,
+                        "module_correlation": rho,
+                        "planted_standardized_paired_change": effect,
+                        "max_t_critical": critical,
+                        "power_mean": float(np.mean(powers)),
+                        "power_min_seed": float(np.min(powers)),
+                        "power_max_seed": float(np.max(powers)),
+                        "replicates": args.alternative_per_seed * args.seeds,
+                        "synthetic": True,
+                        "causal_boundary": "temporal trajectory only; no treatment-effect attribution",
+                    }
+                )
+
+    paired_power = pd.DataFrame(paired_rows)
+    paired_calibration = pd.DataFrame(paired_calibration_rows)
     summary: dict[str, object] = {
         "purpose": "synthetic method-power envelope for a fixed 18-slot family; no biological evidence",
         "synthetic": True,
@@ -122,11 +199,18 @@ def run(args: argparse.Namespace) -> tuple[pd.DataFrame, dict[str, object]]:
         "n_null_calibration_families_per_design": args.null_calibration,
         "n_independent_null_audit_families": len(calibration) * args.null_audit_per_seed * args.seeds,
         "n_alternative_families": len(power) * args.alternative_per_seed * args.seeds,
+        "n_paired_trajectory_alternative_families": len(paired_power) * args.alternative_per_seed * args.seeds,
+        "n_paired_trajectory_independent_null_audit_families": len(paired_calibration) * args.null_audit_per_seed * args.seeds,
         "seed_count": args.seeds,
         "null_fwer_mean_over_designs": float(calibration.null_fwer_mean.mean()),
         "null_fwer_range_over_designs": [
             float(calibration.null_fwer_min.min()),
             float(calibration.null_fwer_max.max()),
+        ],
+        "paired_trajectory_null_fwer_mean_over_designs": float(paired_calibration.null_fwer_mean.mean()),
+        "paired_trajectory_null_fwer_range_over_designs": [
+            float(paired_calibration.null_fwer_min.min()),
+            float(paired_calibration.null_fwer_max.max()),
         ],
         "boundary": (
             "Correlated noncentral-t design approximation for one planted slot; "
@@ -136,19 +220,33 @@ def run(args: argparse.Namespace) -> tuple[pd.DataFrame, dict[str, object]]:
     args.outdir.mkdir(parents=True, exist_ok=True)
     power.to_csv(args.outdir / "power_grid.tsv", sep="\t", index=False)
     calibration.to_csv(args.outdir / "null_calibration.tsv", sep="\t", index=False)
+    paired_power.to_csv(args.outdir / "paired_trajectory_power_grid.tsv", sep="\t", index=False)
+    paired_calibration.to_csv(
+        args.outdir / "paired_trajectory_null_calibration.tsv", sep="\t", index=False
+    )
     (args.outdir / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
-    return power, summary
+    return power, paired_power, summary
 
 
 def main() -> int:
     args = parse_args()
-    power, summary = run(args)
+    power, paired_power, summary = run(args)
     print(json.dumps(summary, indent=2, sort_keys=True))
     print("\nMaximum total n=40 design (20 per arm):")
     print(
         power.loc[power.n_per_arm.eq(20), [
             "module_correlation",
             "planted_standardized_change_difference",
+            "power_mean",
+            "power_min_seed",
+            "power_max_seed",
+        ]].to_string(index=False)
+    )
+    print("\nActive-only paired trajectory, n=40 participants:")
+    print(
+        paired_power.loc[paired_power.n_participants.eq(40), [
+            "module_correlation",
+            "planted_standardized_paired_change",
             "power_mean",
             "power_min_seed",
             "power_max_seed",

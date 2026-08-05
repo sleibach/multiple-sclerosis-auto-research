@@ -1,8 +1,9 @@
 # V56 ToleDYNAMIC Access And Test Plan
 
 Status: pre-data controlled-access plan. The substudy is described in a public
-protocol; completion, availability, participant coverage, randomization-arm
-composition, and assay quality are not established.
+protocol; completion, availability, participant coverage, and assay quality are
+not established. The public protocol repeatedly specifies tolebrutinib-treated
+participants, so active-treatment-only Branch B is the default design reading.
 
 Boundary: `external-verifiable`; `NOT_PROJECT_GROUNDED`; source:
 https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf.
@@ -14,10 +15,22 @@ https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf.
 - [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The monocyte panel explicitly includes CD64 and other inflammatory, anti-inflammatory, chemokine-receptor, adhesion, and migration markers.
 
 This is not proof that the data exist in an analyzable package. It is the first
-identified progression-treatment dataset designed to connect randomized or
-intervention-linked clinical outcomes with the exact immune compartments and
-functional readouts the project has repeatedly encountered. It is therefore a
-better use of access effort than another unrelated public expression cohort.
+identified progression-treatment dataset designed to connect intervention-
+linked clinical outcomes with the exact immune compartments and functional
+readouts the project has repeatedly encountered. It is therefore a better
+molecular access target than another unrelated public expression cohort, but
+the public design does not support a randomized drug-effect claim.
+
+## Public-Protocol Design Verdict
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] Appendix 11 objective 1 specifies flow cytometry of "tolebrutinib-treated participants" before and after treatment onset.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The design section specifies baseline sampling before treatment and months 3 and 12 after initiation of tolebrutinib.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf] The appendix does not describe placebo-arm sampling, while the parent trials themselves were randomized.
+
+Therefore Branch B is fixed as the default before data access. Branch A is
+available only if sponsor documentation explicitly establishes that placebo
+participants were also sampled and that inclusion was fixed outcome-blind
+before unblinding. Absence of arm metadata cannot be interpreted favorably.
 
 ## Exact Access Questions
 
@@ -75,16 +88,19 @@ No absence or presence is inferred until these questions are answered.
 
 ## Immutable Branch Before Values
 
-### Branch A: both randomized arms, outcome-blind substudy selection
+### Branch A: sponsor-documented exception, both randomized arms and outcome-blind selection
 
 Treatment-by-time effects are identifiable within the randomized substudy,
 subject to selection and missingness audit. Run Gates 1-4 below.
 
-### Branch B: active treatment only or arm revealed before selection
+### Branch B: public-protocol default, active treatment only or arm revealed before selection
 
 Paired changes cannot separate drug effect from time, regression, selection,
-or study participation. Report descriptive trajectories only. No module,
-functional effect, treatment-response marker, or mechanism advances.
+or study participation. Report corrected descriptive trajectories only. A
+shared change across clinically divergent parent trials can show that the
+peripheral change is not sufficient to explain benefit; it cannot establish a
+drug effect. No module, functional effect, treatment-response marker, or
+mechanism advances.
 
 ### Branch C: only aggregate results or no parent-trial linkage
 
@@ -124,23 +140,32 @@ committed before this substudy was identified in
 9. `mocci_inflammatory_switch`
 
 Within B cells and CD14 monocytes separately, compute frozen-gene mean
-standardized log-expression scores. The primary contrast is arm difference in
-paired month-3-minus-baseline change. Month 12 tests durability and cannot
-rescue a month-3 failure.
+standardized log-expression scores. Month 12 tests durability and cannot rescue
+a month-3 failure. The inferential contrast depends on the metadata-only branch:
 
-Within each trial, use a participant model with arm, visit, arm-by-visit, site,
-and assay batch, plus a random participant intercept. Calibrate the complete
-valid module-by-cell-type family with at least `100,000` treatment-label
-permutations constrained within parent-trial randomization strata and a max-T
-statistic. If exact randomization strata cannot be reconstructed, label the
-permutation approximate and require wild-cluster/bootstrap agreement.
+- **Branch B (default):** within each trial, test paired
+  month-3-minus-baseline change with participant-level sign flips, retaining
+  site and assay batch as prespecified nuisance terms where identifiable. Use
+  at least `100,000` sign-flip permutations and max-T across the complete valid
+  18-slot module-by-cell-type family. This is a corrected temporal-trajectory
+  test, not a treatment-effect test.
+- **Branch A (documented exception):** use a participant model with arm, visit,
+  arm-by-visit, site, and assay batch, plus a random participant intercept. The
+  primary contrast is the randomized-arm difference in paired change. Use at
+  least `100,000` treatment-label permutations constrained within reconstructed
+  parent-trial randomization strata and max-T across all valid slots. If exact
+  strata cannot be reconstructed, label the permutation approximate and require
+  wild-cluster/bootstrap agreement.
 
-HERCULES is the derivation trial only because its parent clinical endpoint was
-positive at aggregate level. A module can enter PERSEUS replication only if it
-passes HERCULES max-T, retains sign under leave-one-participant-out and
-site/batch sensitivities, and has a bootstrap interval excluding zero. PERSEUS
-uses the locked cell type, genes, score, direction, and month-3 contrast with
-Bonferroni alpha `0.05/18`, regardless of how many HERCULES modules pass.
+HERCULES is the prespecified first trial because its parent clinical endpoint
+was positive at aggregate level. A slot can enter the fixed PERSEUS comparison
+only if it passes HERCULES max-T, retains sign under
+leave-one-participant-out and site/batch sensitivities, and has a bootstrap
+interval excluding zero. PERSEUS uses the locked cell type, genes, score,
+direction, and month-3 contrast with Bonferroni alpha `0.05/18`, regardless of
+how many HERCULES slots pass. Under Branch B this is cross-trial trajectory
+concordance, not randomized replication. Under Branch A it is fixed randomized
+replication.
 
 ## Gate 3: Functional Anchors
 
@@ -158,30 +183,38 @@ family:
 
 If the SAP does not designate an endpoint unambiguously, that family is
 descriptive and cannot be selected from observed p-values. Use one max-T family
-across all fixed functional endpoints for the randomized month-3 contrast.
+across all fixed functional endpoints. Branch B applies participant-level sign
+flips to paired month-3 change; Branch A applies the randomized month-3
+treatment-by-time contrast.
 
 A transcript module is called functionally anchored only if both its transcript
-effect and a biologically corresponding functional endpoint pass their own
+change and a biologically corresponding functional endpoint pass their own
 family-wise gates in the same trial and direction is specified before analysis.
-Correlation alone does not establish mediation or causality.
+In Branch B this means a functionally concordant temporal trajectory, not a
+treatment mechanism. Correlation alone does not establish mediation or
+causality in either branch.
 
 ## Gate 4: Clinical Link Is Estimation-Only
 
 With at most about 40 participants per parent trial and fewer in the RNA subset,
 no response classifier, subgroup cutoff, or clinical-utility claim is allowed.
-For any HERCULES-to-PERSEUS replicated pharmacodynamic effect, estimate its
+For any HERCULES-to-PERSEUS concordant pharmacodynamic trajectory, estimate its
 association with 24-month progression using a continuous interaction and report
-the full interval. This is exploratory estimation with no promotion criterion.
+the full interval. Branch A may additionally estimate the randomized
+treatment-by-trajectory interaction. These are exploratory estimates with no
+promotion criterion; they do not establish mediation.
 
 A key informative outcome is mechanistic dissociation:
 
-- the same pharmacodynamic change in positive HERCULES and negative PERSEUS
-  means the measured peripheral effect is not sufficient to explain disability
-  benefit;
+- the same active-treatment trajectory in positive HERCULES and negative
+  PERSEUS means the measured peripheral change is not sufficient across the two
+  progressive-MS contexts to explain disability benefit;
 - an effect only in HERCULES is phenotype-dependent but remains vulnerable to
   small substudy selection;
-- no randomized pharmacodynamic effect rejects the tested peripheral module as
-  a detectable month-3 mechanism in this package.
+- under Branch A, no randomized pharmacodynamic effect rejects the tested
+  peripheral module as a detectable month-3 mechanism in this package; and
+- under Branch B, no corrected paired trajectory means no detectable temporal
+  shift, but cannot reject an unobserved treatment effect without a comparator.
 
 None establishes CNS target engagement without CNS measurement.
 
@@ -189,10 +222,10 @@ None establishes CNS target engagement without CNS measurement.
 
 | family | maximum tests | control |
 |---|---:|---|
-| HERCULES month-3 transcript modules | 18 (9 modules x 2 cell types) | max-T FWER 0.05 |
-| PERSEUS transcript replication | fixed 18-slot universe | per-test alpha 0.05/18 |
-| HERCULES functional endpoints | fixed after blinded SAP/schema mapping | one max-T FWER 0.05 |
-| PERSEUS functional replication | same fixed universe | Bonferroni over original slots |
+| HERCULES month-3 transcript modules | 18 (9 modules x 2 cell types) | Branch B paired-sign-flip max-T or Branch A randomization max-T; FWER 0.05 |
+| PERSEUS transcript comparison | fixed 18-slot universe | per-test alpha 0.05/18; concordance in Branch B, randomized replication in Branch A |
+| HERCULES functional endpoints | fixed after blinded SAP/schema mapping | branch-matched max-T FWER 0.05 |
+| PERSEUS functional comparison | same fixed universe | Bonferroni over original slots |
 | Month-12 durability | same module families | cannot rescue month-3 failure |
 | Clinical linkage | estimation only | no discovery claim |
 
@@ -201,11 +234,13 @@ None establishes CNS target engagement without CNS measurement.
 | result | verdict |
 |---|---|
 | Both arms and valid assay, no module pass | tested peripheral month-3 module mechanism not supported |
-| HERCULES transcript pass, PERSEUS fail precisely | phenotype-specific or false-positive candidate; no shared mechanism |
-| Both trials transcript pass, no function | reproducible pharmacodynamic transcript effect; function unestablished |
-| Both transcript and matched function pass in both trials | replicated peripheral pharmacodynamic mechanism candidate; clinical mediation and CNS action unestablished |
-| Same pharmacodynamics despite divergent parent efficacy | target engagement or peripheral change not sufficient for clinical benefit |
-| Active arm only | descriptive paired change; no treatment-effect claim |
+| Branch A: HERCULES transcript pass, PERSEUS fail precisely | phenotype-specific or false-positive candidate; no shared mechanism |
+| Branch B: HERCULES trajectory pass, PERSEUS fail precisely | context-specific temporal trajectory or selection; no treatment-effect inference |
+| Both trials transcript pass, no function | cross-trial transcript trajectory; function unestablished; randomized effect only in Branch A |
+| Branch B: transcript and matched function pass in both trials | functionally concordant temporal trajectory; no treatment-effect, mediation, or CNS-action claim |
+| Branch A: transcript and matched function pass in both trials | replicated peripheral pharmacodynamic mechanism candidate; clinical mediation and CNS action unestablished |
+| Same active-treatment trajectory despite divergent parent efficacy | peripheral change is not sufficient across both disease contexts; context dependence and clinical mediation remain unresolved |
+| Active arm only | corrected paired trajectory; no treatment-effect claim |
 | Data unavailable | high-value external data blocker; no result |
 
 ## Access Action
@@ -217,9 +252,10 @@ package. Submission and controlled-data obligations require a qualified human
 principal investigator; no restricted participant data or small-cell output may
 enter this public repository.
 
-This route is the strongest identified path toward understanding a progression-
-treatment mechanism with the mature project toolkit. It is still only a data
-request and frozen test plan until the substudy data are obtained and rerun.
+This route is the strongest identified molecular pharmacodynamic data ask with
+the mature project toolkit. Under the public active-treatment-only design it is
+not a randomized mechanism test. It is still only a data request and frozen
+descriptive/sufficiency plan until the substudy data are obtained and rerun.
 
 The submission-ready plain-language summary, scientific abstract, exact field
 request, privacy boundary, and human checklist are in

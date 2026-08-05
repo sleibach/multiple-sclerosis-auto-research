@@ -64,12 +64,12 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | Direction and modality fail-fast audit | done | No molecular route clears progression evidence, intervention direction, compartment/modality, concrete test, and validity gates together. |
 | HERCULES controlled-access request | done | Frozen same-trial reproduction/effect-modifier request drafted around public SAP; RNA/CSF not assumed; controlled data never enter this public repo. |
 | Independent progression-trial replication route | done | PERSEUS provides same-compound placebo-controlled PPMS falsification; FENtrepid provides independent-compound active-comparator triangulation. Frozen common 24-month EDSS/RMST design written. |
-| ToleDYNAMIC intervention-omics access plan | done | Public HERCULES protocol reveals an 80-participant HERCULES/PERSEUS substudy with baseline/M3/M12 B-cell and CD14-monocyte RNA-seq subset, flow, myelin phagocytosis, ROS, cytokines, and Seahorse assays. Access/arm balance unverified; frozen branch plan written. |
+| ToleDYNAMIC intervention-omics access plan | done | Public appendix reveals the 80-participant repeated immune substudy but repeatedly specifies tolebrutinib-treated participants. Active-treatment-only Branch B is now the default; randomized inference requires explicit contrary sponsor documentation. |
 | ToleDYNAMIC pre-value intake classifier | done | Metadata-only classifier maps returns to randomized-inference eligible, descriptive-only, aggregate/no-grounding, or terms-blocked. Six synthetic branches pass; no assay or outcome values are read, and the strongest class still requires assay/batch QC. |
 | ToleDYNAMIC sample-manifest preflight | done | Value-blind preflight checks participant-arm consistency, paired baseline/month-3 coverage, and arm nesting in site/batch per trial-assay-cell group. Balanced, confounded, missing-pair, and duplicate synthetic fixtures pass; zero eligible groups fails closed. |
 | ToleDYNAMIC frozen module lock | done | Machine-readable lock fixes genes, scoring, coverage, two cell types, primary contrast, and 18 family slots. AST comparison to the originating V56 source and canonical SHA-256 both pass. |
 | ToleDYNAMIC blinded functional mapping | done | Gate fixes one endpoint per phagocytosis/CD64/ROS/cytokine family and two metabolic endpoints before values. Unavailable/ambiguous families remain descriptive; duplicate or post-value mapping blocks globally. Four synthetic fixtures pass. |
-| ToleDYNAMIC fixed-family power envelope | done | 1.08M independent null-audit and 1.35M alternative synthetic families. Null FWER 0.04981. At best-case total n=40, power is only 0.27-0.38 for d=0.8, 0.50-0.61 for d=1.0, and 0.72-0.81 for d=1.2; subtle mechanism/classifier claims are not supportable. |
+| ToleDYNAMIC fixed-family power envelope | done | Separate both-arm and active-only paired simulations each use 1.08M null-audit + 1.35M alternative families. Both-arm total n=40 is weak; active-only n=40 can detect large temporal shifts but cannot attribute them to treatment. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
@@ -193,3 +193,18 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   0.8, 0.50-0.61 for 1.0, and 0.72-0.81 for 1.2 across tested endpoint
   correlations. The package can test large pharmacodynamic effects; it cannot
   credibly discover a subtle classifier or certify mediation.
+- 2026-08-05T23:16Z: Exact Appendix 11 wording forced a material downgrade.
+  It specifies flow in tolebrutinib-treated participants and baseline followed
+  by months 3/12 after tolebrutinib initiation; it does not describe placebo
+  sampling. Active-treatment-only Branch B is therefore the public-design
+  default, not an unresolved equal-probability branch. Randomized inference is
+  permitted only if sponsor metadata explicitly document both-arm outcome-
+  blind selection. The landscape now ranks standard randomized HERCULES IPD
+  above ToleDYNAMIC. The latter can characterize temporal pharmacodynamics and
+  test whether the same change occurs in clinically divergent trials, but it
+  cannot establish a drug effect or mechanism.
+- 2026-08-05T23:16Z: The synthetic power envelope was correspondingly split.
+  Conditional both-arm power remains poor at total n=40. In the default active-
+  only design, 40 paired participants give 0.96-0.98 power for a standardized
+  temporal change of 0.8, but that high power does not solve causal
+  identification; at an RNA subset of 10, even d=1.2 has only 0.47-0.54 power.
