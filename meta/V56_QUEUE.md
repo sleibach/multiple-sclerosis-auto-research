@@ -69,6 +69,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | ToleDYNAMIC sample-manifest preflight | done | Value-blind preflight checks participant-arm consistency, paired baseline/month-3 coverage, and arm nesting in site/batch per trial-assay-cell group. Balanced, confounded, missing-pair, and duplicate synthetic fixtures pass; zero eligible groups fails closed. |
 | ToleDYNAMIC frozen module lock | done | Machine-readable lock fixes genes, scoring, coverage, two cell types, primary contrast, and 18 family slots. AST comparison to the originating V56 source and canonical SHA-256 both pass. |
 | ToleDYNAMIC design-branch lock | done | Preserves original module-family hash `6c34...77d` while binding its randomized contrast to the documented both-arm exception; active-only paired change is the machine-enforced public-design default under design hash `325d...f0c`. |
+| ToleDYNAMIC active-only interpretation grid | done | Frozen paired sign-flip max-T, bootstrap, LOO, technical sensitivity, cross-trial concordance, functional anchor, clinical estimation, and safe-language rules; causal and classifier claims prohibited. |
+| ToleDYNAMIC sponsor clarification enquiry | done | Ready-to-send human PI message asks completion, placebo coverage, outcome-blind selection, assay completion, documents, and access route before any values are requested. |
 | ToleDYNAMIC blinded functional mapping | done | Gate fixes one endpoint per phagocytosis/CD64/ROS/cytokine family and two metabolic endpoints before values. Unavailable/ambiguous families remain descriptive; duplicate or post-value mapping blocks globally. Four synthetic fixtures pass. |
 | ToleDYNAMIC fixed-family power envelope | done | Separate both-arm and active-only paired simulations each use 1.08M null-audit + 1.35M alternative families. Both-arm total n=40 is weak; active-only n=40 can detect large temporal shifts but cannot attribute them to treatment. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
@@ -215,3 +217,9 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   authorizes that contrast only under sponsor-documented Branch A, and makes
   paired month-3 change the executable Branch B default. The verifier checks
   both hashes, the binding, family identity, and all forbidden causal claims.
+- 2026-08-05T23:31Z: The default Branch B analysis is now frozen end to end.
+  Joint participant sign flips preserve all 18 slots; bootstrap, leave-one-out,
+  technical-confound sensitivity, fixed PERSEUS comparison, functional anchors,
+  and clinical estimation each have explicit non-causal language. A sponsor
+  enquiry now asks the six design/access questions needed to determine whether
+  the package exists and whether the public active-only reading is correct.
