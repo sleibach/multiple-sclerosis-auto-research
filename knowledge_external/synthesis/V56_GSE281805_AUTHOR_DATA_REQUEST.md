@@ -11,6 +11,17 @@ failed its frozen calibration and no matched lesion-minus-NAWM biological test
 was run. Source artifact:
 `analysis/v56_gse281805_raw_reconstruction/REPORT.md`.
 
+## Public Exhaustion Check
+
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://api.github.com/repos/walter-ca/MS-lesions_code/git/trees/main?recursive=1] The current complete repository tree contains the numbered analysis scripts but no filtered manifest, helper file, processed matrix, CSV, RDS, RData, or workbook asset.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://api.github.com/repos/walter-ca/MS-lesions_code/branches] The repository exposes only the `main` branch.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://api.github.com/repos/walter-ca/MS-lesions_code/commits?per_page=100] Every public commit tree was searched for `filtered`, `nano_functions`, CSV, RDS, RData, and XLSX paths; none was present.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://api.github.com/repos/walter-ca/MS-lesions_code/releases] No public release asset supplied the missing package at the 2026-08-05 check.
+- [`external-verifiable`; `NOT_PROJECT_GROUNDED`; source: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176629/supplementaryFiles] The downloaded supplementary archive contains ten XLSX files and no CSV, RDS, RData, helper-code, or nested archive asset.
+
+This audit closes the internally executable public-code search. It does not
+prove that the files do not exist privately or in another repository.
+
 ## Ready-To-Send Message
 
 **Subject:** Request for filtered GeoMx manifest/intermediate matrix for

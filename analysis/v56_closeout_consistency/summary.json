@@ -5,6 +5,7 @@
     "brl_common_slide_has_no_gate_pass": true,
     "brl_primary_has_four_gate_passes": true,
     "design_lock_hash_matches_verifier": true,
+    "index_local_references_exist": true,
     "ledger_uses_only_grounded_or_synthetic_method": true,
     "module_lock_hash_matches_verifier": true,
     "paired_null_fwer_calibrated": true,
@@ -21,7 +22,9 @@
     "report_states_no_progression_route": true
   },
   "failures": [],
-  "n_checks": 19,
+  "index_local_reference_count": 29,
+  "missing_index_references": [],
+  "n_checks": 20,
   "n_fail": 0,
   "overall_status": "PASS",
   "purpose": "cross-artifact V56 closeout consistency; no new biological evidence"

@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import json
 from pathlib import Path
+import re
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,8 +44,17 @@ def main() -> None:
     ledger = read_tsv("docs/reports/PROGRESSION_THERAPY_OUTCOMES_V56.tsv")
     rag = read_json("knowledge/.index/manifest.json")
     report = (ROOT / "docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md").read_text()
+    index_text = (ROOT / "docs/reports/PROGRESSION_THERAPY_INDEX_V56.md").read_text()
     readme = (ROOT / "README.md").read_text()
     queue = (ROOT / "meta/V56_QUEUE.md").read_text()
+    index_local_references = sorted({
+        token
+        for token in re.findall(r"`([^`]+)`", index_text)
+        if "/" in token and " " not in token and not token.startswith("http")
+    })
+    missing_index_references = [
+        token for token in index_local_references if not (ROOT / token).exists()
+    ]
 
     checks = {
         "pbmc_has_nine_frozen_modules": len(pbmc) == 9,
@@ -93,6 +103,7 @@ def main() -> None:
             "did **not** identify a project-grounded route to halt MS progression"
             in report
         ),
+        "index_local_references_exist": not missing_index_references,
         "readme_points_to_v56": "meta/V56_QUEUE.md" in readme,
         "queue_records_current_design_hash": "1d7734...45c9" in queue,
     }
@@ -104,6 +115,8 @@ def main() -> None:
         "overall_status": "PASS" if not failures else "FAIL",
         "checks": checks,
         "failures": failures,
+        "index_local_reference_count": len(index_local_references),
+        "missing_index_references": missing_index_references,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
