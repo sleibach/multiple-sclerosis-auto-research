@@ -1,0 +1,40 @@
+{
+  "claim": "The FENtrepid PPMS registry record states that qualified researchers may request participant-level clinical data under Roche's data-sharing process and lists an active ocrelizumab comparator, composite disability progression, MRI, safety, pharmacokinetics, and blood NfL endpoints; the study remained active and not recruiting at access time.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-verifiable",
+  "future_grounding_route": "After study eligibility and full reporting, request NCT04544449 through Roche's controlled process; test only fixed baseline NfL and clinical/MRI modifier questions, interpreting effects relative to ocrelizumab rather than as placebo-controlled fenebrutinib efficacy.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md",
+    "finding_id": "Independent randomized replication is required for any progression-treatment selector"
+  },
+  "project_use": "Independent-compound, active-comparator triangulation route. It cannot validate tolebrutinib-specific efficacy, liver risk, or an APC/HLA-II module.",
+  "record_id": "resource.clinicaltrials.fentrepid_nct04544449.ipd_nfl_roche.2026-08-05",
+  "record_type": "external_resource",
+  "relationship_note": "FENtrepid may test whether an NfL or activity-defined differential treatment response generalizes to another BTK inhibitor, but the active comparator changes the estimand and prevents placebo-effect interpretation.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "ClinicalTrials.gov. NCT04544449, FENtrepid, study design, endpoint inventory, and IPD sharing statement.",
+    "label": "FENtrepid ClinicalTrials.gov record",
+    "url": "https://clinicaltrials.gov/study/NCT04544449"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "ClinicalTrials.gov public registry metadata",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "The record stores a concise registry paraphrase. Any future Roche-controlled data remain under the applicable agreement and outside this public repository.",
+    "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "ppms",
+    "fentrepid",
+    "nct04544449",
+    "fenebrutinib",
+    "ocrelizumab",
+    "individual_participant_data",
+    "neurofilament_light",
+    "active_comparator",
+    "controlled_access"
+  ]
+}
