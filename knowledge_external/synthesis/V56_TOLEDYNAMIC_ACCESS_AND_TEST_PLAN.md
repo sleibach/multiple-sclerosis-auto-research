@@ -220,3 +220,7 @@ enter this public repository.
 This route is the strongest identified path toward understanding a progression-
 treatment mechanism with the mature project toolkit. It is still only a data
 request and frozen test plan until the substudy data are obtained and rerun.
+
+The submission-ready plain-language summary, scientific abstract, exact field
+request, privacy boundary, and human checklist are in
+`knowledge_external/synthesis/V56_TOLEDYNAMIC_REQUEST_PACKET.md`.
