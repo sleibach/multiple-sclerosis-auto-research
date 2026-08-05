@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-08-06 01:37 CEST
+Last updated: 2026-08-06 01:42 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,8 +25,14 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after the V56 refresh: `987` unique paths and `0`
+- Current document count after the V56 refresh: `988` unique paths and `0`
   paths under `knowledge_external/`.
+- V56 class-aware closeout query
+  `V56 progression therapy grounded null ToleDYNAMIC controlled trial`
+  returns `meta/V56_QUEUE.md`,
+  `docs/reports/PROGRESSION_THERAPY_INDEX_V56.md`, and
+  `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` as its top three
+  results.
 - V56 treatment-boundary smoke query
   `V56 progression therapy no target rapid slow SPMS ToleDYNAMIC active only HERCULES controlled data`
   returns `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` first,
@@ -47,7 +53,7 @@ Sparse local retrieval:
   `smart non medical collaborator two minute explanation open problems`
   returns six onboarding pages in its top six, including the release note,
   first-screen review, landing page, and collaborator invitation.
-- Index inspection confirms all `977` paths are unique and that no segregated
+- Index inspection confirms all `988` paths are unique and that no segregated
   outside-knowledge record entered this grounded continuity index.
 - V54 final-summary smoke query
   `V54 run summary six-hour active target scientific verdict next action`
