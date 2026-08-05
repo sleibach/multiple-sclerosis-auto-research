@@ -69,6 +69,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | ToleDYNAMIC sample-manifest preflight | done | Value-blind preflight checks participant-arm consistency, paired baseline/month-3 coverage, and arm nesting in site/batch per trial-assay-cell group. Balanced, confounded, missing-pair, and duplicate synthetic fixtures pass; zero eligible groups fails closed. |
 | ToleDYNAMIC frozen module lock | done | Machine-readable lock fixes genes, scoring, coverage, two cell types, primary contrast, and 18 family slots. AST comparison to the originating V56 source and canonical SHA-256 both pass. |
 | ToleDYNAMIC blinded functional mapping | done | Gate fixes one endpoint per phagocytosis/CD64/ROS/cytokine family and two metabolic endpoints before values. Unavailable/ambiguous families remain descriptive; duplicate or post-value mapping blocks globally. Four synthetic fixtures pass. |
+| ToleDYNAMIC fixed-family power envelope | done | 1.08M independent null-audit and 1.35M alternative synthetic families. Null FWER 0.04981. At best-case total n=40, power is only 0.27-0.38 for d=0.8, 0.50-0.61 for d=1.0, and 0.72-0.81 for d=1.2; subtle mechanism/classifier claims are not supportable. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
@@ -185,3 +186,10 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   descriptive only, while duplicate or post-value mappings block globally.
   Complete, unavailable-cytokine, unblinded, and duplicate synthetic fixtures
   all produce the frozen safe state.
+- 2026-08-05T23:10Z: Synthetic design characterization quantified the
+  ToleDYNAMIC limit under the fixed 18-slot family. Independent null FWER was
+  calibrated at 0.04981 across 1.08 million audit families. Even a best-case
+  20 participants per arm gives only 0.27-0.38 power for standardized change
+  0.8, 0.50-0.61 for 1.0, and 0.72-0.81 for 1.2 across tested endpoint
+  correlations. The package can test large pharmacodynamic effects; it cannot
+  credibly discover a subtle classifier or certify mediation.
