@@ -1,6 +1,45 @@
 # Current Status
 
-Last updated: 2026-07-26
+Last updated: 2026-08-05
+
+## V56 Progression-Therapy Opportunity Audit
+
+V56 did not produce a cure, better treatment, progression target, or validated
+progression biomarker. It applied a five-gate fail-fast rule and found that no
+project route jointly has progression-relevant human evidence, an intervention
+direction, suitable compartment/modality, a concrete valid test, and resolved
+confounding.
+
+Two new held-data analyses narrowed the boundary. In GSE247181, all nine frozen
+modules failed an exact `184,756`-assignment rapid-versus-slow untreated-SPMS
+PBMC test; the smallest family-wise p-values were `0.6101` and `0.6725`.
+GSE281805 broad-rim lesion modules passed an initial comparison but none passed
+the common-slide sensitivity, and the raw matched-NAWM reconstruction failed
+its precommitted calibration, so no biological matched test was run. These are,
+respectively, a cohort-specific PBMC null and an unresolved source/reconstruction
+block, not evidence that CNS mechanisms are absent.
+
+The concrete treatment-facing path is controlled data, not another public-data
+target scan. Completed HERCULES participant-level clinical data are the first
+randomized request. Separately classed current external context identifies
+ToleDYNAMIC molecular sampling, but the official NCT06372145 record places it
+inside an active, nonrandomized open-label extension with no posted results and
+estimated completion in 2029. The immediate molecular action is therefore a
+Vivli availability/document enquiry and sponsor collaboration request. The
+default analysis is paired temporal change only. A former-placebo initiator
+versus former-active continuer comparison is permitted only as a
+selection-conditional onset-versus-continuation sensitivity, never a current
+placebo-controlled treatment effect.
+
+The ToleDYNAMIC path is pre-value hardened: the unchanged 18-slot module family
+is bound to a canonical design-branch lock; transcript, function, power, sample,
+and extension-estimand gates have synthetic verification. Standard HERCULES IPD
+remains more causally informative than the ongoing molecular substudy. See
+`docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` and resume from
+`meta/V56_QUEUE.md`.
+
+OpenGWAS is expired (`HTTP 401`, decoded expiry 2026-07-24 08:00 UTC). No V56
+null depends on OpenGWAS; renew before any future genetics API work.
 
 ## V55 Communication Layer
 

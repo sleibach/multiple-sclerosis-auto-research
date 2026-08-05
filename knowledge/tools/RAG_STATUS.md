@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-07-27 00:26 CEST
+Last updated: 2026-08-06 01:37 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,9 +25,16 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after the V55 onboarding refresh: `977` unique paths,
-  including `72` onboarding Markdown pages and `0` paths under
-  `knowledge_external/`.
+- Current document count after the V56 refresh: `987` unique paths and `0`
+  paths under `knowledge_external/`.
+- V56 treatment-boundary smoke query
+  `V56 progression therapy no target rapid slow SPMS ToleDYNAMIC active only HERCULES controlled data`
+  returns `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md` first,
+  `meta/V56_QUEUE.md` second, and the frozen GSE247181 plan third.
+- V56 design-boundary smoke query
+  `V56 ToleDYNAMIC design branch lock paired trajectory extension estimand no causal treatment effect`
+  returns `meta/V56_QUEUE.md`, the V56 power envelope, and the extension
+  estimand classifier as its top three results.
 - V55 contribution smoke query
   `submit research direction rival drop rule data access fair challenge`
   returns `docs/onboarding/ISSUE_FORM_FIELD_GUIDE_V55.md` first, followed by

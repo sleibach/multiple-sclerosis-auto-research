@@ -106,6 +106,29 @@ documentation establishes placebo sampling and outcome-blind selection may the
 conditional both-arm envelope be used to characterize power for a randomized
 peripheral pharmacodynamic effect.
 
+## Open-Label Initiation-Versus-Continuation Sensitivity
+
+The same two-group simulation describes the **mathematical power** of comparing
+paired change in former-placebo initiators with former-tolebrutinib continuers.
+It does not make that selected open-label contrast randomized or causal.
+
+For a planted standardized paired-change difference of `1.2`, simulated power
+across endpoint-correlation scenarios was only:
+
+| paired participants per prior-exposure group | minimum | mean | maximum |
+|---:|---:|---:|---:|
+| 8 | 0.174 | 0.195 | 0.227 |
+| 10 | 0.268 | 0.304 | 0.353 |
+| 15 | 0.510 | 0.562 | 0.624 |
+| 20 | 0.717 | 0.759 | 0.811 |
+
+At 20 per group, standardized differences `0.8` and `1.0` have only
+`0.271-0.376` and `0.500-0.612` power, respectively. The extension classifier
+therefore routes any group below 20 pairs to estimation-only. Even at 20 per
+group, the comparison is a sensitivity analysis whose null cannot exclude
+moderate onset-versus-continuation differences. No sample size repairs its
+selection or causal-identification limits.
+
 ## Reproducible Outputs
 
 - `analysis/v56_toledynamic_power_envelope/power_grid.tsv`

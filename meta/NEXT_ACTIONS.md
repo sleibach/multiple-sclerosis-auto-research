@@ -1,10 +1,54 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-07-22 05:02 CEST
+Last updated: 2026-08-06 01:37 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V56 treatment-facing priority:
+
+1. A qualified institutional principal investigator should send
+   `knowledge_external/synthesis/V56_TOLEDYNAMIC_SPONSOR_ENQUIRY.md` through
+   the Vivli Enquiry route. Ask first for design continuity, extension
+   protocol/SAP, completed-assay counts, document access, and the availability
+   timeline; do not assume the ongoing molecular package is shareable.
+2. In parallel, submit the separate completed-HERCULES clinical IPD proposal in
+   `knowledge_external/synthesis/V56_HERCULES_VIVLI_REQUEST.md`. Reproduce the
+   primary trial analysis before the frozen four-hypothesis effect-modifier
+   family. Do not imply that standard IPD includes ToleDYNAMIC.
+3. If ToleDYNAMIC material is offered, run the metadata-only intake, sample,
+   design-branch, extension-estimand, and functional-mapping gates before assay
+   values. The public default is active-only paired trajectory; prior parent
+   assignment never by itself authorizes causal language.
+4. Request the author-filtered GSE281805 AOI manifest/intermediate matrix,
+   ROI-area/nuclei and LOQ metadata, and missing DCC files. Do not run the
+   matched lesion-minus-NAWM biological test until frozen reconstruction
+   calibration passes.
+5. Keep the GSE247181 nine-module PBMC panel closed in that cohort. Do not retry
+   it with post-hoc genes, alternate labels, or a smaller multiplicity family.
+6. Renew the OpenGWAS JWT before any genetics API analysis. Until HTTP 200 is
+   restored, route around all OpenGWAS-dependent work and never treat 401 as a
+   null.
+7. Do not nominate a progression target from V56. A target requires new
+   longitudinal disability-linked or intervention-functional evidence that
+   clears the existing direction, compartment, confounding, and replication
+   gates.
+
+V56 state:
+
+- Resume/audit backbone: `meta/V56_QUEUE.md`.
+- Grounded synthesis: `docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md`.
+- Current separately classed landscape:
+  `knowledge_external/synthesis/V56_PROGRESSION_THERAPY_LANDSCAPE.md`.
+- Ongoing molecular plan:
+  `knowledge_external/synthesis/V56_TOLEDYNAMIC_ACTIVE_ONLY_ANALYSIS.md`.
+- ToleDYNAMIC design lock:
+  `docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`.
+- Rapid/slow SPMS null:
+  `analysis/v56_gse247181_progression_modules/REPORT.md`.
+- Broad-rim reconstruction blocker:
+  `analysis/v56_gse281805_raw_reconstruction/REPORT.md`.
 
 V54 progression priority:
 

@@ -109,14 +109,23 @@ def classify(manifest: dict[str, Any]) -> dict[str, Any]:
                 + ", ".join(missing_selection)
             )
             next_action = "request missing design metadata; retain paired trajectory only"
-        elif min(n_initiators, n_continuers) < 8:
+        elif min(n_initiators, n_continuers) < 20:
             safe_class = "INITIATION_CONTINUATION_ESTIMATION_ONLY"
-            reasons.append("both exposure-history groups exist but at least one has fewer than 8 pairs")
+            reasons.append(
+                "both exposure-history groups exist but at least one has fewer than 20 pairs; "
+                "the frozen power grid is weak even for very large standardized differences"
+            )
             next_action = "report unpromoted estimates and full intervals; no max-T pass claim"
         else:
-            safe_class = "INITIATION_CONTINUATION_METADATA_ELIGIBLE"
-            reasons.append("all frozen metadata safeguards and minimum group counts are present")
-            next_action = "run assay QC, positivity diagnostics, fixed max-T, weighting, and selection bounds"
+            safe_class = "INITIATION_CONTINUATION_SENSITIVITY_ELIGIBLE"
+            reasons.append(
+                "all frozen metadata safeguards are present and each group has at least 20 pairs; "
+                "the analysis remains a noncausal sensitivity with weak-to-moderate power"
+            )
+            next_action = (
+                "run assay QC, positivity diagnostics, fixed max-T, weighting, selection bounds, "
+                "and achieved-power reporting; a null remains inconclusive for moderate effects"
+            )
 
     return {
         "purpose": "metadata-only extension estimand routing; no assay or outcome values read",
@@ -149,15 +158,15 @@ def synthetic_manifests() -> dict[str, tuple[dict[str, Any], str]]:
         "positivity_assessable": True,
         "laboratory_blind_to_prior_arm": True,
         "site_batch_map_available": True,
-        "paired_former_placebo_initiators": 10,
-        "paired_former_tolebrutinib_continuers": 10,
+        "paired_former_placebo_initiators": 20,
+        "paired_former_tolebrutinib_continuers": 20,
     }
 
     def case(**updates: Any) -> dict[str, Any]:
         return {**base, **updates}
 
     return {
-        "eligible": (case(), "INITIATION_CONTINUATION_METADATA_ELIGIBLE"),
+        "eligible": (case(), "INITIATION_CONTINUATION_SENSITIVITY_ELIGIBLE"),
         "active_group_only": (
             case(paired_former_placebo_initiators=0),
             "PAIRED_TRAJECTORY_ONLY",
@@ -167,7 +176,7 @@ def synthetic_manifests() -> dict[str, tuple[dict[str, Any], str]]:
             "PAIRED_TRAJECTORY_ONLY",
         ),
         "small_groups": (
-            case(paired_former_placebo_initiators=5, paired_former_tolebrutinib_continuers=7),
+            case(paired_former_placebo_initiators=10, paired_former_tolebrutinib_continuers=10),
             "INITIATION_CONTINUATION_ESTIMATION_ONLY",
         ),
         "aggregate": (case(participant_level=False), "NO_PARTICIPANT_LEVEL_GROUNDING"),
@@ -238,4 +247,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

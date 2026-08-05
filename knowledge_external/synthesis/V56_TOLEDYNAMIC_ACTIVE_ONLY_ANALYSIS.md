@@ -136,6 +136,10 @@ Allowed wording is `selection-conditional initiation-versus-continuation
 trajectory`. Parent randomization does not erase post-trial survivor selection,
 differential prior exposure, open-label behavior, or extension/substudy
 selection. Do not use `treatment effect`, `placebo-controlled`, or `causal`.
+If either prior-exposure group has fewer than 20 paired participants, this
+contrast is estimation-only. At 20 per group, the frozen synthetic envelope is
+still underpowered for moderate standardized differences, so a null is
+inconclusive.
 
 ## Frozen Functional Analysis
 

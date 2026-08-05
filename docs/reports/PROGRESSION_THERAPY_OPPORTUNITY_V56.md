@@ -136,6 +136,29 @@ whether the broad-rim module pattern is lesion-specific or an acquisition and
 generic-lesion artifact. It must not be combined with a clinical-trial route
 until each independently passes its own gate.
 
+### 4. Use two distinct controlled-access routes
+
+The current separately classed access audit resolves two routes that must not
+be conflated:
+
+1. **Completed HERCULES clinical IPD:** the strongest causal opportunity. The
+   frozen request first reproduces the randomized primary result, then tests a
+   four-hypothesis effect-modifier family with no favorable same-trial
+   benefit-risk subgroup claim.
+2. **Ongoing ToleDYNAMIC molecular substudy:** the strongest molecular
+   opportunity, but not a randomized mechanism test under the public design.
+   The official extension record is active with no posted results and a 2029
+   estimated completion. The immediate action is a document/availability and
+   collaboration enquiry. Any returned data default to paired trajectories;
+   prior parent assignment permits at most a selection-conditional
+   initiation-versus-continuation sensitivity.
+
+The exact request, branch locks, power envelope, and safe interpretation are in
+`knowledge_external/synthesis/V56_HERCULES_VIVLI_REQUEST.md`,
+`knowledge_external/synthesis/V56_TOLEDYNAMIC_SPONSOR_ENQUIRY.md`, and
+`knowledge_external/synthesis/V56_TOLEDYNAMIC_ACTIVE_ONLY_ANALYSIS.md`.
+These external access facts provide a test path, not treatment evidence.
+
 ## Honest Impact Statement
 
 No cure or better treatment was produced by V56. The tangible progress is a

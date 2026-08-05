@@ -22,15 +22,15 @@ initiators and former-tolebrutinib continuers.
 
 | class | maximum permitted action |
 |---|---|
-| `INITIATION_CONTINUATION_METADATA_ELIGIBLE` | run assay QC and the fixed non-causal initiation-versus-continuation sensitivity |
-| `INITIATION_CONTINUATION_ESTIMATION_ONLY` | report estimates and intervals only; at least one group has fewer than eight pairs |
+| `INITIATION_CONTINUATION_SENSITIVITY_ELIGIBLE` | with at least 20 pairs per prior-exposure group, run assay QC and the fixed non-causal sensitivity; nulls remain underpowered for moderate effects |
+| `INITIATION_CONTINUATION_ESTIMATION_ONLY` | report estimates and intervals only; at least one group has fewer than 20 pairs |
 | `PAIRED_TRAJECTORY_ONLY` | run only within-participant active-exposure trajectories after QC |
 | `NO_FROZEN_MONTH3_TRAJECTORY` | report coverage; do not substitute another visit |
 | `NO_PARTICIPANT_LEVEL_GROUNDING` | report access/linkage limitation only |
 | `STOP_TERMS_BLOCK` | inspect no package content |
 
-The strongest class is metadata eligibility, not a pass. It cannot establish a
-current randomized treatment effect because initiators and continuers differ in
+The strongest class is sensitivity eligibility, not a pass. It cannot establish
+a current randomized treatment effect because initiators and continuers differ in
 prior exposure and enter through selected post-trial rollover and substudy
 paths. Assay QC, covariate overlap, max-T, weighting, selection bounds, and
 site/batch sensitivities still have to pass.
@@ -44,8 +44,7 @@ site/batch sensitivities still have to pass.
   --fail-on-error
 ```
 
-Seven committed synthetic fixtures cover eligible, one-group-only, incomplete
+Seven committed synthetic fixtures cover sensitivity-eligible, one-group-only, incomplete
 rollover, small-group estimation, aggregate-only, missing-month-3, and
 terms-blocked returns. They test software behavior only and are never MS or
 treatment evidence.
-
