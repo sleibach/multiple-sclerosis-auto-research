@@ -1,16 +1,27 @@
 {
   "checks": {
+    "active_only_contrast_is_paired_change": true,
+    "active_only_forbids_causal_claims": true,
     "canonical_hash_match": true,
+    "design_binds_exact_module_lock": true,
+    "design_binds_module_lock_path": true,
+    "design_canonical_hash_match": true,
+    "design_family_matches_module_family": true,
+    "design_required_fields_present": true,
     "family_slots_18": true,
     "nine_modules": true,
+    "public_default_is_active_only": true,
+    "randomized_contrast_limited_to_branch_a": true,
     "required_fields_present": true,
     "source_modules_exact_match": true,
     "two_cell_types": true
   },
+  "design_lock": "docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json",
   "failures": [],
   "lock": "docs/validation/TOLEDYNAMIC_MODULE_LOCK_V56.json",
   "n_fail": 0,
   "observed_canonical_payload_sha256": "6c34df056bd764850dd30173116c6c4162213b56fb3bd72bcc165a94b855c77d",
+  "observed_design_canonical_payload_sha256": "325dc6302321c55b7a5f1c8687306d4afd1b1808c1aa2372163e83112f23bf0c",
   "overall_status": "PASS",
   "purpose": "frozen module-lock drift verification; no biological evidence",
   "source": "scripts/v56_analyze_gse247181.py"

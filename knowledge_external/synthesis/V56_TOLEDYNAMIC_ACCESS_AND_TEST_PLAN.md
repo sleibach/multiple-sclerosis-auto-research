@@ -107,7 +107,11 @@ mechanism advances.
 No project grounding is possible. Record the access limitation and stop.
 
 The branch is determined from design metadata before expression or functional
-values are viewed.
+values are viewed. The machine-readable branch contract is
+`docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`. It binds the
+unchanged module lock by canonical hash and limits that older lock's
+`randomized_arm_difference` contrast to Branch A. The module genes, score
+rules, coverage rules, and 18 family slots remain unchanged.
 
 ## Gate 1: Sample And Assay Validity
 

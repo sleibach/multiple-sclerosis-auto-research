@@ -161,6 +161,10 @@ rescue a month-3 failure.
 
 The complete executable decision rules are in
 `knowledge_external/synthesis/V56_TOLEDYNAMIC_ACCESS_AND_TEST_PLAN.md`.
+The machine-readable design routing is frozen in
+`docs/validation/TOLEDYNAMIC_DESIGN_BRANCH_LOCK_V56.json`, which binds the
+unchanged 18-slot module lock and prevents its randomized contrast from being
+used outside the sponsor-documented both-arm exception.
 
 ## Privacy, Security, And Dissemination
 

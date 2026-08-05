@@ -1,0 +1,49 @@
+{
+  "boundary": "Frozen before controlled ToleDYNAMIC data access; design-routing contract, not biological evidence",
+  "branches": {
+    "BRANCH_A_RANDOMIZED_EXCEPTION": {
+      "allowed_interpretation": "randomized peripheral treatment-by-time effect after all validity gates",
+      "eligibility_requirements": [
+        "sponsor_documented_both_randomized_arms_sampled",
+        "substudy_selection_fixed_outcome_blind_before_unblinding",
+        "baseline_and_month3_pairs_in_both_arms",
+        "arm_not_perfectly_nested_in_site_or_assay_batch"
+      ],
+      "inferential_method": "randomization_stratified_treatment_label_max_t_with_at_least_100000_permutations",
+      "primary_contrast": "randomized_arm_difference_in_paired_month3_minus_baseline_change"
+    },
+    "BRANCH_B_ACTIVE_ONLY_DEFAULT": {
+      "allowed_interpretation": "corrected temporal pharmacodynamic trajectory under exposure and cross_trial_concordance",
+      "eligibility_requirements": [
+        "baseline_and_month3_pair",
+        "selection_and_missingness_reported",
+        "site_and_assay_batch_identifiable"
+      ],
+      "forbidden_interpretations": [
+        "randomized_treatment_effect",
+        "causal_treatment_mechanism",
+        "clinical_mediation",
+        "CNS_target_engagement",
+        "individual_treatment_response_classifier"
+      ],
+      "inferential_method": "participant_sign_flip_max_t_with_at_least_100000_permutations",
+      "primary_contrast": "paired_month3_minus_baseline_change_among_tolebrutinib_treated_participants"
+    },
+    "BRANCH_C_NO_GROUNDING": {
+      "allowed_interpretation": "access_or_package_limitation_only",
+      "trigger": "aggregate_only_or_no_parent_trial_linkage"
+    }
+  },
+  "canonical_payload_sha256": "325dc6302321c55b7a5f1c8687306d4afd1b1808c1aa2372163e83112f23bf0c",
+  "durability_visit": "month12_cannot_rescue_month3_failure",
+  "family_slots": 18,
+  "lock_version": "V56-1.0",
+  "module_lock_binding": {
+    "expected_canonical_payload_sha256": "6c34df056bd764850dd30173116c6c4162213b56fb3bd72bcc165a94b855c77d",
+    "path": "docs/validation/TOLEDYNAMIC_MODULE_LOCK_V56.json",
+    "randomized_primary_contrast_authorized_only_in": "BRANCH_A_RANDOMIZED_EXCEPTION"
+  },
+  "primary_visit": "month3",
+  "public_design_default": "BRANCH_B_ACTIVE_ONLY_DEFAULT",
+  "source": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/Prot_000.pdf"
+}
