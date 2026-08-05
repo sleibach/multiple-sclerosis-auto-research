@@ -60,7 +60,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | External-source provenance records | todo | Class every integrated source and keep it outside grounded trees; run provenance gate. |
 | GSE281805 processed BRL module bridge test | done | Four modules pass frozen BRL-vs-mixed gate, but none passes post-result common-slide max-T sensitivity; overall route interpretation inconclusive. 30,000-family null calibration 0.0514, excess p=0.1303. |
 | GSE281805 raw matched-NAWM reconstruction | blocked | Calibration failed: 84/117 source AOIs, median rho 0.8555, minimum module rho 0.2516, 3/4 key signs. Biological test correctly not run. Needs author filtered manifest/intermediate matrix. |
-| GSE247181 rapid/slow SPMS PBMC module test | in-progress | Frozen plan exists; acquire/process Clariom D CEL data or locate an authoritative processed matrix without changing the plan. |
+| GSE247181 rapid/slow SPMS PBMC module test | in-progress | The deposited 10 slow + 10 rapid untreated SPMS labels and CEL URLs are verified. RMA/mapping/QC processing is frozen before intensity download; acquire and test next. |
 | Direction and modality fail-fast audit | todo | Verify that any route's required activation/inhibition, compartment, exposure, and collateral-function profile are coherent. |
 | Multi-lineage adversarial review | todo | Ask Claude and Gemini for the strongest fatal weakness and decisive test; ground concrete suggestions only. |
 | Progression-therapy synthesis | todo | Write the honest ranked verdict: advance / data-gated / no-go, with exact next action and no therapeutic inflation. |
@@ -100,3 +100,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   sign. The matched-NAWM biological test was not run. This is a reproducibility
   block, not a biological null; exact author filtered/intermediate data are
   required. Work moved to GSE247181.
+- 2026-08-05T22:15Z: GSE247181 metadata confirmed exactly 10 untreated
+  `SPMS-s` and 10 untreated `SPMS-a` participants with one CEL each. Standard
+  core-transcript RMA across only those 20 arrays, deterministic symbol
+  mapping/collapse, and a no-outcome-driven-exclusion QC policy were frozen
+  before any CEL intensity was downloaded.

@@ -95,6 +95,36 @@ can substitute for those gates.
 
 ## Reproducibility And Outputs
 
+### Frozen raw-array processing addendum
+
+The deposited series matrix contains metadata but no expression rows. Before
+downloading or reading any CEL intensity, the raw-array path is frozen as
+follows:
+
+- Select the 20 CEL files whose deposited metadata simultaneously says
+  `treatment duration (hours): Untreated` and `ms-type: SPMS-s` or
+  `ms-type: SPMS-a`. The first label is analyzed as slow progression and the
+  second as rapid/aggressive progression; no other samples enter RMA.
+- Read all 20 eligible Clariom D Human CEL files together with Bioconductor
+  `oligo` and the matching `pd.clariom.d.human` platform design. Apply the
+  package's standard core-transcript RMA background correction, quantile
+  normalization, and probeset summarization once across this fixed cohort.
+- Map transcript-cluster identifiers to HGNC symbols with
+  `clariomdhumantranscriptcluster.db`. Drop unmapped clusters. When multiple
+  mapped clusters share a symbol, collapse them to the per-sample median; do
+  not select a cluster by its group association.
+- Compute and report raw-intensity, RLE/PCA, mapping, and module-coverage
+  diagnostics. These diagnostics cannot remove a participant from the frozen
+  primary analysis unless a CEL is unreadable, mismatched to its deposited
+  accession, or carries a deposited failure flag. Any data-driven quality
+  concern is instead reported as a sensitivity boundary.
+- Verify each download against the NCBI file-list size and MD5 where provided,
+  record package versions and checksums, and keep all CEL files under ignored
+  `data/raw/` storage.
+
+This processing addendum was committed before eligible CEL expression was
+downloaded or inspected.
+
 - Seed: `56247181` for bootstrap or any non-exhaustive permutation.
 - Raw GEO files remain ignored under `data/raw/` and are never committed if
   large.
