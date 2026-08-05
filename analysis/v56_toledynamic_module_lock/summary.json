@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "canonical_hash_match": true,
+    "family_slots_18": true,
+    "nine_modules": true,
+    "required_fields_present": true,
+    "source_modules_exact_match": true,
+    "two_cell_types": true
+  },
+  "failures": [],
+  "lock": "docs/validation/TOLEDYNAMIC_MODULE_LOCK_V56.json",
+  "n_fail": 0,
+  "observed_canonical_payload_sha256": "6c34df056bd764850dd30173116c6c4162213b56fb3bd72bcc165a94b855c77d",
+  "overall_status": "PASS",
+  "purpose": "frozen module-lock drift verification; no biological evidence",
+  "source": "scripts/v56_analyze_gse247181.py"
+}

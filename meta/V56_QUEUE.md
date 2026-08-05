@@ -67,6 +67,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | ToleDYNAMIC intervention-omics access plan | done | Public HERCULES protocol reveals an 80-participant HERCULES/PERSEUS substudy with baseline/M3/M12 B-cell and CD14-monocyte RNA-seq subset, flow, myelin phagocytosis, ROS, cytokines, and Seahorse assays. Access/arm balance unverified; frozen branch plan written. |
 | ToleDYNAMIC pre-value intake classifier | done | Metadata-only classifier maps returns to randomized-inference eligible, descriptive-only, aggregate/no-grounding, or terms-blocked. Six synthetic branches pass; no assay or outcome values are read, and the strongest class still requires assay/batch QC. |
 | ToleDYNAMIC sample-manifest preflight | done | Value-blind preflight checks participant-arm consistency, paired baseline/month-3 coverage, and arm nesting in site/batch per trial-assay-cell group. Balanced, confounded, missing-pair, and duplicate synthetic fixtures pass; zero eligible groups fails closed. |
+| ToleDYNAMIC frozen module lock | done | Machine-readable lock fixes genes, scoring, coverage, two cell types, primary contrast, and 18 family slots. AST comparison to the originating V56 source and canonical SHA-256 both pass. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
@@ -159,15 +160,20 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   establish approved-package or substudy coverage. A sponsor-ready ToleDYNAMIC
   request packet now preserves that distinction and the pre-value analysis
   branch.
-- 2026-08-05T23:06Z: The ToleDYNAMIC intake branch is now machine-enforced.
+- 2026-08-05T23:03Z: The ToleDYNAMIC intake branch is now machine-enforced.
   Six synthetic returns correctly classify both-arm outcome-blind metadata as
   assay-QC eligible; active-only, unknown-selection, and missing-month-3
   packages as descriptive-only; aggregate-only as no-grounding; and disallowed
   terms as stop. The classifier explicitly reads no assay or outcome values and
   never calls metadata eligibility a treatment or mechanism result.
-- 2026-08-05T23:15Z: A second value-blind gate now audits the actual sample
+- 2026-08-05T23:05Z: A second value-blind gate now audits the actual sample
   manifest by parent trial, assay, and cell type. It blocks duplicate IDs and
   participant-arm inconsistency, counts paired baseline/month-3 participants
   by arm, and rejects randomized contrasts when arm is perfectly nested in site
   or batch. Four deterministic synthetic manifests pass, including a fail-
   closed batch-confounded case with zero eligible assay groups.
+- 2026-08-05T23:06Z: The nine transcript modules are now an explicit immutable
+  data object rather than a prose reference. Genes, score direction, coverage
+  rules, two cell types, month-3 contrast, and all 18 multiplicity slots are
+  canonical-hashed. The verifier independently parses `MODULES` from the
+  originating V56 analysis source; exact mapping and hash both pass.

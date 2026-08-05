@@ -1,0 +1,107 @@
+{
+  "boundary": "Frozen before controlled ToleDYNAMIC data access; verification artifact, not biological evidence",
+  "canonical_payload_sha256": "6c34df056bd764850dd30173116c6c4162213b56fb3bd72bcc165a94b855c77d",
+  "cell_types": [
+    "b_cell",
+    "cd14_monocyte"
+  ],
+  "coverage_rules": {
+    "default": "at_least_ceiling_half_requested_genes_present_and_variable",
+    "mif_ligand": "MIF_present_and_variable",
+    "mocci_inflammatory_switch": "C15ORF48_and_NDUFA4_present_and_variable"
+  },
+  "family_slots": 18,
+  "lock_version": "V56-1.0",
+  "modules": {
+    "hla_regulatory": [
+      "CIITA",
+      "RFX5"
+    ],
+    "ifn_apc_unique": [
+      "STAT1",
+      "IRF1",
+      "CXCL10",
+      "GBP1"
+    ],
+    "lipid_repair": [
+      "APOE",
+      "LPL",
+      "TREM2",
+      "ABCA1",
+      "ABCG1",
+      "SPP1",
+      "LGALS3",
+      "GPNMB"
+    ],
+    "lysosomal_unique": [
+      "CTSS",
+      "CTSB",
+      "CTSD",
+      "LAMP1",
+      "LAMP2",
+      "LAMP3"
+    ],
+    "mif_ligand": [
+      "MIF"
+    ],
+    "mocci_inflammatory_switch": [
+      "C15ORF48",
+      "NDUFA4"
+    ],
+    "oxphos": [
+      "NDUFA1",
+      "NDUFA2",
+      "NDUFA9",
+      "NDUFB8",
+      "SDHA",
+      "SDHB",
+      "UQCRC1",
+      "UQCRC2",
+      "COX4I1",
+      "COX5A",
+      "ATP5F1A",
+      "ATP5F1B",
+      "ATP5MC1"
+    ],
+    "receptor_cd44_cxcr4": [
+      "CD44",
+      "CXCR4"
+    ],
+    "resolution_efferocytosis_proxy": [
+      "MERTK",
+      "AXL",
+      "TYRO3",
+      "GAS6",
+      "PROS1",
+      "TREM2",
+      "APOE",
+      "LPL",
+      "ABCA1",
+      "ABCG1",
+      "NR1H3",
+      "NR1H2",
+      "PPARD",
+      "PPARG",
+      "MRC1",
+      "CD163",
+      "IL10",
+      "TGFB1",
+      "VSIG4",
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "F13A1",
+      "LYVE1",
+      "ANXA1",
+      "FPR2",
+      "CD36",
+      "MARCO"
+    ]
+  },
+  "primary_contrast": "randomized_arm_difference_in_paired_month3_minus_baseline_change",
+  "score_rules": {
+    "default": "mean_within_package_gene_z_scores",
+    "mocci_inflammatory_switch": "z_C15ORF48_minus_z_NDUFA4"
+  },
+  "source_module_definition": "scripts/v56_analyze_gse247181.py:MODULES"
+}
