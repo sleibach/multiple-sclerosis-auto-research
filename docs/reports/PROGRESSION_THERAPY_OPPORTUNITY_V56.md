@@ -86,6 +86,8 @@ NAWM test was correctly not run.
 This is an exact data request, not a biological null: the author-filtered AOI
 manifest, ROI area/nuclei worksheet, negative-control/LOQ metadata or post-QC
 matrix including NAWM, and three missing DCC files are needed.
+The ready-to-send request is
+`knowledge_external/synthesis/V56_GSE281805_AUTHOR_DATA_REQUEST.md`.
 
 Sources:
 

@@ -24,7 +24,8 @@ V56 treatment-facing priority:
 4. Request the author-filtered GSE281805 AOI manifest/intermediate matrix,
    ROI-area/nuclei and LOQ metadata, and missing DCC files. Do not run the
    matched lesion-minus-NAWM biological test until frozen reconstruction
-   calibration passes.
+   calibration passes. Use the ready-to-send request at
+   `knowledge_external/synthesis/V56_GSE281805_AUTHOR_DATA_REQUEST.md`.
 5. Keep the GSE247181 nine-module PBMC panel closed in that cohort. Do not retry
    it with post-hoc genes, alternate labels, or a smaller multiplicity family.
 6. Renew the OpenGWAS JWT before any genetics API analysis. Until HTTP 200 is

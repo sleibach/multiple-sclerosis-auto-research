@@ -69,6 +69,7 @@ and does not upgrade a project result.
 - `knowledge_external/synthesis/V56_TOLEDYNAMIC_ACCESS_AND_TEST_PLAN.md`
 - `knowledge_external/synthesis/V56_TOLEDYNAMIC_REQUEST_PACKET.md`
 - `knowledge_external/synthesis/V56_TOLEDYNAMIC_SPONSOR_ENQUIRY.md`
+- `knowledge_external/synthesis/V56_GSE281805_AUTHOR_DATA_REQUEST.md`
 - `knowledge_external/synthesis/V56_MULTI_LINEAGE_METHOD_REVIEW.md`
 
 The model review is proposal-level critique only. Every accepted safeguard was
@@ -82,7 +83,8 @@ not evidence.
    plan.
 2. A qualified investigator sends the ToleDYNAMIC enquiry for design documents,
    assay counts, availability, and collaboration terms before requesting values.
-3. Request the exact author-filtered GeoMx manifest and intermediate matrix
+3. Send `knowledge_external/synthesis/V56_GSE281805_AUTHOR_DATA_REQUEST.md` to
+   request the exact author-filtered GeoMx manifest and intermediate matrix
    needed to resolve the failed broad-rim reconstruction calibration.
 4. Renew the OpenGWAS token before any genetics-dependent work; the V56 check
    returned HTTP 401 and no API-derived null was recorded.
