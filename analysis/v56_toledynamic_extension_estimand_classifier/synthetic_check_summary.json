@@ -1,0 +1,51 @@
+{
+  "fixtures": [
+    {
+      "expected": "INITIATION_CONTINUATION_METADATA_ELIGIBLE",
+      "fixture": "eligible",
+      "observed": "INITIATION_CONTINUATION_METADATA_ELIGIBLE",
+      "status": "PASS"
+    },
+    {
+      "expected": "PAIRED_TRAJECTORY_ONLY",
+      "fixture": "active_group_only",
+      "observed": "PAIRED_TRAJECTORY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "PAIRED_TRAJECTORY_ONLY",
+      "fixture": "rollover_missing",
+      "observed": "PAIRED_TRAJECTORY_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "INITIATION_CONTINUATION_ESTIMATION_ONLY",
+      "fixture": "small_groups",
+      "observed": "INITIATION_CONTINUATION_ESTIMATION_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "NO_PARTICIPANT_LEVEL_GROUNDING",
+      "fixture": "aggregate",
+      "observed": "NO_PARTICIPANT_LEVEL_GROUNDING",
+      "status": "PASS"
+    },
+    {
+      "expected": "NO_FROZEN_MONTH3_TRAJECTORY",
+      "fixture": "missing_month3",
+      "observed": "NO_FROZEN_MONTH3_TRAJECTORY",
+      "status": "PASS"
+    },
+    {
+      "expected": "STOP_TERMS_BLOCK",
+      "fixture": "terms_blocked",
+      "observed": "STOP_TERMS_BLOCK",
+      "status": "PASS"
+    }
+  ],
+  "n_fail": 0,
+  "n_fixtures": 7,
+  "overall_status": "PASS",
+  "purpose": "synthetic extension-estimand routing check; no biological evidence",
+  "synthetic": true
+}

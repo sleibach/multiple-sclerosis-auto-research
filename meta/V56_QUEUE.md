@@ -72,6 +72,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | ToleDYNAMIC active-only interpretation grid | done | Frozen paired sign-flip max-T, bootstrap, LOO, technical sensitivity, cross-trial concordance, functional anchor, clinical estimation, and safe-language rules; causal and classifier claims prohibited. |
 | ToleDYNAMIC sponsor clarification enquiry | done | Ready-to-send human PI message asks completion, placebo coverage, outcome-blind selection, assay completion, documents, and access route before any values are requested. |
 | ToleDYNAMIC current-extension audit | done | Official NCT06372145 confirms an active/nonrandomized/open-label extension, biomarker change to month 12, no posted results, and 2029 estimated completion. Adds a bounded former-placebo-initiator vs former-active-continuer sensitivity, never a current placebo effect. |
+| ToleDYNAMIC extension estimand classifier | done | Metadata-only guard distinguishes eligible initiation-vs-continuation sensitivity, small-group estimation, paired-only, no-month-3, no-linkage, and terms-blocked returns; 7/7 synthetic branches pass. |
 | ToleDYNAMIC blinded functional mapping | done | Gate fixes one endpoint per phagocytosis/CD64/ROS/cytokine family and two metabolic endpoints before values. Unavailable/ambiguous families remain descriptive; duplicate or post-value mapping blocks globally. Four synthetic fixtures pass. |
 | ToleDYNAMIC fixed-family power envelope | done | Separate both-arm and active-only paired simulations each use 1.08M null-audit + 1.35M alternative families. Both-arm total n=40 is weak; active-only n=40 can detect large temporal shifts but cannot attribute them to treatment. |
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
@@ -234,3 +235,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   selection weighting/bounds, and site/batch falsification; it is not a current
   randomized treatment effect. Claude and Gemini independently converged on
   that methodological boundary; their agreement prioritized safeguards only.
+- 2026-08-05T23:51Z: The extension estimand is now machine-routed before assay
+  values. Seven synthetic fixtures correctly separate full metadata eligibility,
+  under-eight-per-group estimation, paired-only fallback, missing visit,
+  aggregate/no-linkage, and terms-blocked states. Prior randomized-arm labels
+  alone never authorize causal language.
