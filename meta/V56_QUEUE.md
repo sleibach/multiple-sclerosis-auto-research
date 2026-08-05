@@ -59,8 +59,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | New progression-data availability scout | in-progress | Found GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics; both frozen before testing. Continue source audit. |
 | External-source provenance records | todo | Class every integrated source and keep it outside grounded trees; run provenance gate. |
 | GSE281805 processed BRL module bridge test | done | Four modules pass frozen BRL-vs-mixed gate, but none passes post-result common-slide max-T sensitivity; overall route interpretation inconclusive. 30,000-family null calibration 0.0514, excess p=0.1303. |
-| GSE281805 raw matched-NAWM reconstruction | in-progress | Reconstruct author-compatible TMM/RUV processing from public DCC/PKC, calibrate against deposited lesion matrix, then run the frozen matched-NAWM difference-of-differences only if calibration passes. |
-| GSE247181 rapid/slow SPMS PBMC module test | todo | Frozen plan exists; acquire/process Clariom D CEL data or locate an authoritative processed matrix without changing the plan. |
+| GSE281805 raw matched-NAWM reconstruction | blocked | Calibration failed: 84/117 source AOIs, median rho 0.8555, minimum module rho 0.2516, 3/4 key signs. Biological test correctly not run. Needs author filtered manifest/intermediate matrix. |
+| GSE247181 rapid/slow SPMS PBMC module test | in-progress | Frozen plan exists; acquire/process Clariom D CEL data or locate an authoritative processed matrix without changing the plan. |
 | Direction and modality fail-fast audit | todo | Verify that any route's required activation/inhibition, compartment, exposure, and collateral-function profile are coherent. |
 | Multi-lineage adversarial review | todo | Ask Claude and Gemini for the strongest fatal weakness and decisive test; ground concrete suggestions only. |
 | Progression-therapy synthesis | todo | Write the honest ranked verdict: advance / data-gated / no-go, with exact next action and no therapeutic inflation. |
@@ -86,3 +86,17 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   (lysosomal p=0.0524; resolution p=0.0619; CD44/CXCR4 p=0.1524). This is an
   inconclusive progression-adjacent association, not a target or treatment
   result. Raw matched-NAWM reconstruction is the next decisive internal task.
+- 2026-08-05T21:52Z: The exact `standR` 1.16.0 processing stack was installed
+  and the authors' scripts were audited. Their fixed path is segment/probe QC,
+  TMM, 300 negative-control genes, and RUV4 k=5 preserving lesion class. The
+  public deposit omits ROI area/nuclei and the final filtered sample worksheet;
+  a calibration-gated raw sensitivity plan was frozen before NAWM scoring, and
+  this omission prevents any raw sensitivity from independently advancing a
+  route.
+- 2026-08-05T22:10Z: The corrected official-package reconstruction failed the
+  frozen calibration: 138/296 AOIs survived reconstructible LOQ QC versus 211
+  implied by the author table; only 84/117 source AOIs were comparable, median
+  sample rho was 0.8555, minimum module rho 0.2516, and CD44/CXCR4 reversed
+  sign. The matched-NAWM biological test was not run. This is a reproducibility
+  block, not a biological null; exact author filtered/intermediate data are
+  required. Work moved to GSE247181.

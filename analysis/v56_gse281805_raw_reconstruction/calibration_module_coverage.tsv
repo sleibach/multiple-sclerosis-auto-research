@@ -1,0 +1,19 @@
+module	n_requested	n_present	n_variable	valid	variable_genes	missing_or_constant	matrix
+receptor_cd44_cxcr4	2	2	2	TRUE	CD44;CXCR4		author_source
+hla_regulatory	2	2	2	TRUE	CIITA;RFX5		author_source
+ifn_apc_unique	4	1	1	FALSE	STAT1	IRF1;CXCL10;GBP1	author_source
+mif_ligand	1	1	1	TRUE	MIF		author_source
+lysosomal_unique	6	5	5	TRUE	CTSS;CTSB;CTSD;LAMP1;LAMP2	LAMP3	author_source
+oxphos	13	12	12	TRUE	NDUFA1;NDUFA2;NDUFB8;SDHA;SDHB;UQCRC1;UQCRC2;COX4I1;COX5A;ATP5F1A;ATP5F1B;ATP5MC1	NDUFA9	author_source
+lipid_repair	8	8	8	TRUE	APOE;LPL;TREM2;ABCA1;ABCG1;SPP1;LGALS3;GPNMB		author_source
+resolution_efferocytosis_proxy	28	19	19	TRUE	MERTK;AXL;TYRO3;GAS6;PROS1;TREM2;APOE;LPL;ABCA1;ABCG1;NR1H2;MRC1;CD163;TGFB1;VSIG4;C1QA;C1QB;C1QC;ANXA1	NR1H3;PPARD;PPARG;IL10;F13A1;LYVE1;FPR2;CD36;MARCO	author_source
+mocci_inflammatory_switch	2	1	1	FALSE	NDUFA4	C15ORF48	author_source
+receptor_cd44_cxcr4	2	2	2	TRUE	CD44;CXCR4		raw_reconstruction
+hla_regulatory	2	2	2	TRUE	CIITA;RFX5		raw_reconstruction
+ifn_apc_unique	4	1	1	FALSE	STAT1	IRF1;CXCL10;GBP1	raw_reconstruction
+mif_ligand	1	1	1	TRUE	MIF		raw_reconstruction
+lysosomal_unique	6	5	5	TRUE	CTSS;CTSB;CTSD;LAMP1;LAMP2	LAMP3	raw_reconstruction
+oxphos	13	12	12	TRUE	NDUFA1;NDUFA2;NDUFB8;SDHA;SDHB;UQCRC1;UQCRC2;COX4I1;COX5A;ATP5F1A;ATP5F1B;ATP5MC1	NDUFA9	raw_reconstruction
+lipid_repair	8	8	8	TRUE	APOE;LPL;TREM2;ABCA1;ABCG1;SPP1;LGALS3;GPNMB		raw_reconstruction
+resolution_efferocytosis_proxy	28	19	19	TRUE	MERTK;AXL;TYRO3;GAS6;PROS1;TREM2;APOE;LPL;ABCA1;ABCG1;NR1H2;MRC1;CD163;TGFB1;VSIG4;C1QA;C1QB;C1QC;ANXA1	NR1H3;PPARD;PPARG;IL10;F13A1;LYVE1;FPR2;CD36;MARCO	raw_reconstruction
+mocci_inflammatory_switch	2	1	1	FALSE	NDUFA4	C15ORF48	raw_reconstruction

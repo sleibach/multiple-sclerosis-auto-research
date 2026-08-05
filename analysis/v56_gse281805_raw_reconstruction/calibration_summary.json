@@ -1,0 +1,27 @@
+{
+  "synthetic": false,
+  "exact_author_roi_qc_reproducible": false,
+  "missing_author_fields": ["Area", "Nuclei", "filtered_CD68.csv"],
+  "n_raw_aois": 296,
+  "n_available_qc_pass": 296,
+  "n_reconstructible_qc_retained": 138,
+  "n_author_processed_samples": 120,
+  "n_author_samples_with_dcc_and_reconstruction": 84,
+  "n_source_genes": 4298,
+  "n_common_genes": 4254,
+  "sample_coverage_fraction": 0.7179,
+  "gene_coverage_fraction": 0.9898,
+  "median_sample_spearman": 0.8555,
+  "p10_sample_spearman": 0.82,
+  "minimum_module_spearman": 0.2516,
+  "all_module_spearman_at_least_0_80": false,
+  "all_key_contrast_signs_preserved": false,
+  "software": {
+    "R": "4.6.0",
+    "GeomxTools": "3.16.0",
+    "standR": "1.16.0",
+    "edgeR": "4.10.1",
+    "RUVSeq": "1.46.0"
+  },
+  "calibration_pass": false
+}
