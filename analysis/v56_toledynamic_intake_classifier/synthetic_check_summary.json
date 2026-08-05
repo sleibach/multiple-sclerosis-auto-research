@@ -1,0 +1,45 @@
+{
+  "fixtures": [
+    {
+      "expected": "BRANCH_A_METADATA_ELIGIBLE",
+      "fixture": "eligible",
+      "observed": "BRANCH_A_METADATA_ELIGIBLE",
+      "status": "PASS"
+    },
+    {
+      "expected": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "fixture": "active_only",
+      "observed": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "fixture": "selection_unknown",
+      "observed": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "fixture": "missing_month3",
+      "observed": "BRANCH_B_DESCRIPTIVE_ONLY",
+      "status": "PASS"
+    },
+    {
+      "expected": "BRANCH_C_NO_GROUNDING",
+      "fixture": "aggregate_only",
+      "observed": "BRANCH_C_NO_GROUNDING",
+      "status": "PASS"
+    },
+    {
+      "expected": "STOP_TERMS_BLOCK",
+      "fixture": "terms_blocked",
+      "observed": "STOP_TERMS_BLOCK",
+      "status": "PASS"
+    }
+  ],
+  "n_fail": 0,
+  "n_fixtures": 6,
+  "overall_status": "PASS",
+  "purpose": "seed-independent synthetic method-behavior check; no biological evidence",
+  "synthetic": true
+}
