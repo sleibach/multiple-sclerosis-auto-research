@@ -225,7 +225,7 @@ def audit_external_markdown(root: Path, path: Path) -> list[GateIssue]:
     for index, line in enumerate(lines, start=1):
         if any(marker in line for marker in EXTERNAL_MARKERS):
             ok = "source:" in line.lower() or "http" in line.lower() or "doi:" in line.lower()
-            issues.append(GateIssue(rel_path, f"markdown_external_line_{index}_source", "PASS" if ok else "FAIL", line[:160]))
+            issues.append(GateIssue(rel_path, f"markdown_external_line_{index}_source", "PASS" if ok else "FAIL", line[:160].rstrip()))
     if any(pattern.search(text) for pattern in FORBIDDEN_AUTHORITY_PATTERNS):
         issues.append(GateIssue(rel_path, "markdown_not_project_evidence", "FAIL", "forbidden authority wording"))
     return issues

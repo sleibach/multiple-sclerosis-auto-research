@@ -1,0 +1,38 @@
+{
+  "claim": "The US Food and Drug Administration issued a Complete Response Letter for tolebrutinib in December 2025, stating that severe potentially fatal drug-induced liver injury prevented a favorable benefit-risk conclusion and that the proposed mitigation did not adequately address the risk.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Any future project assessment of this therapeutic route must require compound-specific exposure and liver-safety data and must not generalize efficacy across BTK inhibitors or populations.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/THERAPEUTIC_PATH_V52.md",
+    "finding_id": "Direction-matched druggability requires acceptable collateral-function and safety profile"
+  },
+  "project_use": "Primary regulatory context enforcing the project's pre-existing exposure, selectivity, and collateral-safety gate.",
+  "record_id": "claim.fda.tolebrutinib_complete_response_dili.2025-12-23",
+  "record_type": "external_claim",
+  "relationship_note": "The regulatory outcome independently illustrates why target or pathway plausibility cannot substitute for compound-level safety. It neither validates nor contradicts a project biological finding.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "US Food and Drug Administration. Complete Response Letter, NDA 219624, 23 December 2025.",
+    "label": "FDA Complete Response Letter for NDA 219624",
+    "url": "https://download.open.fda.gov/crl/CRL_NDA219624_20251223.pdf"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "US FDA public regulatory document",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This record links to the official letter and stores a short paraphrase only.",
+    "terms_url": "https://www.fda.gov/about-fda/about-website/website-policies"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "tolebrutinib",
+    "fda",
+    "complete_response_letter",
+    "drug_induced_liver_injury",
+    "benefit_risk",
+    "safety_gate"
+  ],
+  "why_unverifiable": "The project does not possess the full regulatory submission or participant-level safety data and cannot rerun the FDA benefit-risk assessment."
+}

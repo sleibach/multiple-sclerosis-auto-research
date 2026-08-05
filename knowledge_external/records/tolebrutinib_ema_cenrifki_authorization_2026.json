@@ -1,0 +1,38 @@
+{
+  "claim": "The European Commission authorized tolebrutinib (Cenrifki) in June 2026 for adults with secondary progressive multiple sclerosis without relapses in the preceding two years; the European product information includes liver-risk precautions and monitoring.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use future post-authorization longitudinal cohorts with treatment exposure, liver monitoring, MRI, and disability outcomes to test pre-registered monitoring questions; do not infer project-module validity from authorization.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/reports/THERAPEUTIC_PATH_V52.md",
+    "finding_id": "Near-term project impact is monitoring or stratification rather than a target"
+  },
+  "project_use": "Regulatory context showing that progression-treatment monitoring is a current clinical problem, while preserving the distinction between an authorized drug and a project-grounded biomarker.",
+  "record_id": "claim.ema.cenrifki.tolebrutinib_authorization.2026-06-19",
+  "record_type": "external_claim",
+  "relationship_note": "The authorization makes treatment-response and safety stratification around a progression-modifying therapy clinically relevant, but it does not corroborate any project biomarker.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "European Medicines Agency. Cenrifki (tolebrutinib), EPAR and product information. European Commission decision 19 June 2026.",
+    "label": "EMA Cenrifki EPAR",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cenrifki"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "EMA public regulatory metadata and short paraphrase",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This record links to the official regulatory source and paraphrases its indication and safety context.",
+    "terms_url": "https://www.ema.europa.eu/en/about-us/legal-notice"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "spms",
+    "tolebrutinib",
+    "cenrifki",
+    "ema",
+    "authorization",
+    "liver_monitoring"
+  ],
+  "why_unverifiable": "The project cannot independently reproduce a regulatory benefit-risk decision from held data."
+}

@@ -54,16 +54,18 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | item | status | note |
 |---|---|---|
 | Opening health, evidence-boundary, and strategic audit | done | Clean/aligned start; OpenGWAS expired and routed around; five-gate route rule frozen before analysis. |
-| Progression-treatment opportunity map | todo | Catalogue plausible route families against the five fixed gates using committed V52-V54 evidence. |
-| Current primary-source therapeutic landscape scan | todo | Check current trial/regulatory/publication evidence for progression-modifying mechanisms; external context only. |
+| Progression-treatment opportunity map | done | No route clears all five gates. V22 remains monitoring, not progression treatment; V56 PBMC is null; lesion routes remain data-gated; genetics routes remain direction-closed. |
+| Current primary-source therapeutic landscape scan | done | Audited HERCULES, EU authorization, FDA CRL, PERSEUS topline, FENtrepid presentation, and MS-STAT2 phase 3 using primary or trial-level sources. |
 | New progression-data availability scout | in-progress | Found GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics; both frozen before testing. Continue source audit. |
-| External-source provenance records | todo | Class every integrated source and keep it outside grounded trees; run provenance gate. |
+| External-source provenance records | done | Added nine classed trial/regulatory/access records. Provenance gate passes 939/939 checks. |
 | GSE281805 processed BRL module bridge test | done | Four modules pass frozen BRL-vs-mixed gate, but none passes post-result common-slide max-T sensitivity; overall route interpretation inconclusive. 30,000-family null calibration 0.0514, excess p=0.1303. |
 | GSE281805 raw matched-NAWM reconstruction | blocked | Calibration failed: 84/117 source AOIs, median rho 0.8555, minimum module rho 0.2516, 3/4 key signs. Biological test correctly not run. Needs author filtered manifest/intermediate matrix. |
 | GSE247181 rapid/slow SPMS PBMC module test | done | Full raw-CEL RMA, 9/9 module coverage, exact 184,756-label max-T test, 10,000 bootstrap, LOO, and 6,000-family synthetic calibration completed. All nine routes are `not_supported`; no therapeutic route advances. |
-| Direction and modality fail-fast audit | todo | Verify that any route's required activation/inhibition, compartment, exposure, and collateral-function profile are coherent. |
-| Multi-lineage adversarial review | todo | Ask Claude and Gemini for the strongest fatal weakness and decisive test; ground concrete suggestions only. |
-| Progression-therapy synthesis | todo | Write the honest ranked verdict: advance / data-gated / no-go, with exact next action and no therapeutic inflation. |
+| Direction and modality fail-fast audit | done | No molecular route clears progression evidence, intervention direction, compartment/modality, concrete test, and validity gates together. |
+| HERCULES controlled-access request | done | Frozen same-trial reproduction/effect-modifier request drafted around public SAP; RNA/CSF not assumed; controlled data never enter this public repo. |
+| Independent progression-trial replication route | in-progress | Audit PERSEUS/FENtrepid IPD sharing and variable overlap so same-trial HERCULES candidates have a real external replication path. |
+| Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
+| Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
 | Full verification, RAG rebuild, push, and run summary | todo | Gates, guards, clean tree, remote push, exact active-time close. |
 
 ## Per-Iteration Notes
@@ -113,3 +115,17 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   exact-test calibration passed (285/6,000 null families, rate 0.0475; planted
   signal passed in all three seeds). This closes the PBMC route panel for this
   cohort and is not a claim that these mechanisms are absent from CNS tissue.
+- 2026-08-05T22:48Z: Current trial and regulatory primary sources established a
+  concrete controlled-data opportunity rather than a project target. HERCULES
+  participant-level data are requestable through Vivli and include clinical,
+  MRI, NfL, CHI3L1, lymphocyte-subset, immunoglobulin, PK, and safety fields in
+  public trial documents, subject to actual package coverage and approval. A
+  frozen request now requires exact primary reproduction before any effect-
+  modifier analysis.
+- 2026-08-05T22:48Z: Independent Claude and Gemini method reviews exposed an
+  undefined Cox-interaction estimand, split multiplicity families, weak
+  biomarker-missingness controls, and possible safety overinterpretation. The
+  grounded repairs are a fixed 24-month RMST interaction, one four-hypothesis
+  Holm family, 10,000 stratified bootstraps, fixed missingness/batch/MNAR gates,
+  and no favorable subgroup benefit-risk claim. Model agreement prioritized
+  review only; the public SAP and statistical reasoning determined changes.

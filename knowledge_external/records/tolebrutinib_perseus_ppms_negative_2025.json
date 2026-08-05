@@ -1,0 +1,38 @@
+{
+  "claim": "Sanofi reported that the phase 3 PERSEUS trial of tolebrutinib in primary progressive multiple sclerosis did not meet its primary endpoint of delaying 6-month composite confirmed disability progression.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Reassess only after a full peer-reviewed report or participant-level data become available; meanwhile treat PPMS extrapolation from HERCULES as unsupported.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md",
+    "finding_id": "Context dependence is a recurring project failure constraint"
+  },
+  "project_use": "External warning against extrapolating a treatment effect across progressive-MS phenotypes and against treating pathway-level plausibility as phenotype-invariant.",
+  "record_id": "claim.sanofi.perseus.tolebrutinib_ppms_negative.2025-12-15",
+  "record_type": "external_claim",
+  "relationship_note": "The sponsor-reported negative PPMS result is consistent with the project's context-dependence prefilter. It is not a project-grounded demonstration of why the trial failed.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "Sanofi. Tolebrutinib did not meet the primary endpoint in the phase 3 PERSEUS study in primary progressive multiple sclerosis. Press release, 15 December 2025.",
+    "label": "Sanofi PERSEUS topline report",
+    "url": "https://www.sanofi.com/en/media-room/press-releases/2025/2025-12-15-06-05-00-3205094"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "Sponsor press-release metadata and short paraphrase",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This is a sponsor-reported topline result; no full peer-reviewed analysis was identified at access time, so interpretation must remain limited.",
+    "terms_url": "https://www.sanofi.com/en/legal-notice"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "ppms",
+    "tolebrutinib",
+    "perseus",
+    "phase_3",
+    "negative_trial",
+    "context_dependence"
+  ],
+  "why_unverifiable": "Only sponsor-reported topline information was available to the project; participant-level data and a complete peer-reviewed analysis were unavailable."
+}

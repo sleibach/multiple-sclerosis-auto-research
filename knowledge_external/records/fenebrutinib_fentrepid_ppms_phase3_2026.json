@@ -1,0 +1,39 @@
+{
+  "claim": "A sponsor phase 3 presentation reported that fenebrutinib met the prespecified non-inferiority criterion versus ocrelizumab for 12-week composite confirmed disability progression in primary progressive multiple sclerosis (hazard ratio 0.88, 95% CI 0.75 to 1.03), with a favorable timed 9-hole peg test component; full peer-reviewed reporting was pending at access time.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Wait for the complete peer-reviewed report and seek longitudinal biospecimen-linked outcomes before proposing a project monitoring analysis; do not interpret active-comparator non-inferiority as superiority or placebo-controlled efficacy.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/PROGRESSION_FRONTIER_V54.md",
+    "finding_id": "No project-grounded progression treatment or biomarker"
+  },
+  "project_use": "Current external context suggesting that CNS-penetrant BTK inhibition merits treatment-linked biomarker data acquisition, with explicit source and comparator limitations.",
+  "record_id": "claim.genentech.fentrepid.fenebrutinib_ppms_phase3.2026",
+  "record_type": "external_claim",
+  "relationship_note": "The active-comparator result is orthogonal to the project's null progression-biomarker conclusion. It identifies a clinically relevant cohort type but does not validate a project mechanism or module.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Bar-Or A et al. Efficacy and safety of fenebrutinib versus ocrelizumab in primary progressive multiple sclerosis: FENtrepid phase 3 results. ACTRIMS Forum presentation, 2026.",
+    "label": "FENtrepid ACTRIMS Forum 2026 presentation",
+    "url": "https://medically.gene.com/content/dam/pdmahub/restricted/neurology/actrims-forum-2026/ACTRIMS-Forum-2026-presentation-bar-or-efficacy-and-safety-of-fenebrutinib-vs-ocrelizumab-in-primary-progressive-multiple-sclerosis.pdf"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "Sponsor scientific-presentation metadata and short paraphrase",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This record does not redistribute slides and treats the presentation as sponsor-reported pending full publication.",
+    "terms_url": "https://www.gene.com/terms-of-use"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "ppms",
+    "fenebrutinib",
+    "btk_inhibitor",
+    "fentrepid",
+    "phase_3",
+    "active_comparator",
+    "noninferiority"
+  ],
+  "why_unverifiable": "The project cannot rerun a sponsor presentation without participant-level data, and a full peer-reviewed report was not available at access time."
+}

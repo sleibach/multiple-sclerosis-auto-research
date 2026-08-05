@@ -1,0 +1,42 @@
+{
+  "claim": "In its review of HERCULES, the US Food and Drug Administration reported substantially larger subgroup treatment-effect estimates among participants with baseline gadolinium-enhancing lesions and among treatment-naive participants than among participants without enhancing lesions or with multiple prior therapies; it concluded that the population with a favorable benefit-risk profile was not clinically established. Baseline gadolinium activity and prior-therapy count were listed as subgroup factors in the final public statistical analysis plan, while the broader active-versus-non-active interpretation remained limited by missing historical MRI.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Reproduce the prespecified subgroup models, quantify stability and absolute effects, and seek independent replication requiring historical and baseline MRI activity, relapse history, number and timing of prior therapies, disability trajectory, exposure, and liver outcomes; do not call a same-trial reanalysis external validation.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md",
+    "finding_id": "Context dependence is a recurring constraint"
+  },
+  "project_use": "Primary regulatory rationale for prioritizing phenotype and prior-treatment stratification over a generic cross-sectional progression biomarker.",
+  "record_id": "claim.fda.hercules.activity_prior_therapy_subgroup_uncertainty.2025-12-23",
+  "record_type": "external_claim",
+  "relationship_note": "The subgroup uncertainty is consistent with the project's context-dependence prefilter, but the project has not reproduced the subgroup analyses and cannot claim their causes.",
+  "relationship_to_project_findings": "supports",
+  "source": {
+    "citation": "US Food and Drug Administration. Complete Response Letter, NDA 219624, 23 December 2025, pages 3-6; HERCULES Statistical Analysis Plan version 3, 30 April 2024.",
+    "label": "FDA HERCULES subgroup and benefit-risk assessment",
+    "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04411641/SAP_001.pdf",
+    "url": "https://download.open.fda.gov/crl/CRL_NDA219624_20251223.pdf"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "US FDA public regulatory document",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This record stores source metadata and a short paraphrase; subgroup results remain post hoc and must not be presented as established treatment-selection rules.",
+    "terms_url": "https://www.fda.gov/about-fda/about-website/website-policies"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "nrspms",
+    "tolebrutinib",
+    "hercules",
+    "gadolinium_enhancing_lesions",
+    "prior_treatment",
+    "effect_modification",
+    "benefit_risk",
+    "prespecified_subgroup",
+    "historical_mri_limitation"
+  ],
+  "why_unverifiable": "The project lacks participant-level HERCULES data and cannot rerun the FDA subgroup or benefit-risk analyses."
+}

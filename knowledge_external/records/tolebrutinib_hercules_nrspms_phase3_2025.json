@@ -1,0 +1,40 @@
+{
+  "claim": "The phase 3 HERCULES trial reported that tolebrutinib reduced 6-month confirmed disability progression versus placebo in non-relapsing secondary progressive multiple sclerosis (22.6% versus 30.7%; hazard ratio 0.69, 95% CI 0.55 to 0.88), while liver-enzyme elevations were more frequent with tolebrutinib.",
+  "date_accessed": "2026-08-05",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Obtain a longitudinal CNS-penetrant-BTK-inhibitor cohort with baseline and early-treatment blood or CSF, exposure, MRI, and confirmed-disability-progression outcomes; test frozen project modules without changing the V22 rule.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/PROGRESSION_FRONTIER_V54.md",
+    "finding_id": "No project-grounded progression treatment or biomarker"
+  },
+  "project_use": "Current clinical context for choosing the most decision-relevant future progression-treatment cohort; it is not project-grounded support for a project module or target.",
+  "record_id": "claim.nejm.hercules.tolebrutinib_nrspms_phase3.2025",
+  "record_type": "external_claim",
+  "relationship_note": "The trial establishes externally that a CNS-penetrant BTK-inhibitor strategy can affect disability progression in a defined SPMS population. It does not validate the project's APC/HLA-II, CD44/CXCR4, MIF, or lysosomal measurements.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Fox RJ et al. Tolebrutinib in Nonrelapsing Secondary Progressive Multiple Sclerosis. New England Journal of Medicine. 2025;392:1883-1892.",
+    "doi": "10.1056/NEJMoa2415988",
+    "label": "HERCULES phase 3 report",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2415988"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-05",
+    "license_or_terms_label": "NEJM publication metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "This record stores citation metadata and a short factual paraphrase; it does not redistribute article text.",
+    "terms_url": "https://www.nejm.org/about-nejm/permissions"
+  },
+  "tags": [
+    "multiple_sclerosis",
+    "nrspms",
+    "disability_progression",
+    "tolebrutinib",
+    "btk_inhibitor",
+    "phase_3",
+    "hercules",
+    "liver_safety"
+  ],
+  "why_unverifiable": "The project does not hold participant-level HERCULES data and cannot rerun its efficacy or safety analyses."
+}
