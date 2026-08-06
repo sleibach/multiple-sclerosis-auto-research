@@ -11,6 +11,10 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis/v56_closeout_consistency/summary.json"
+LOCAL_PATH_PREFIXES = (
+    "analysis/", "docs/", "knowledge/", "knowledge_external/", "meta/",
+    "scripts/", "README",
+)
 
 
 def read_json(relative: str) -> dict:
@@ -45,15 +49,24 @@ def main() -> None:
     rag = read_json("knowledge/.index/manifest.json")
     report = (ROOT / "docs/reports/PROGRESSION_THERAPY_OPPORTUNITY_V56.md").read_text()
     index_text = (ROOT / "docs/reports/PROGRESSION_THERAPY_INDEX_V56.md").read_text()
+    summary_text = (ROOT / "docs/history/V56_RUN_SUMMARY.md").read_text()
     readme = (ROOT / "README.md").read_text()
     queue = (ROOT / "meta/V56_QUEUE.md").read_text()
     index_local_references = sorted({
         token
         for token in re.findall(r"`([^`]+)`", index_text)
-        if "/" in token and " " not in token and not token.startswith("http")
+        if token.startswith(LOCAL_PATH_PREFIXES) and " " not in token
     })
     missing_index_references = [
         token for token in index_local_references if not (ROOT / token).exists()
+    ]
+    summary_local_references = sorted({
+        token
+        for token in re.findall(r"`([^`]+)`", summary_text)
+        if token.startswith(LOCAL_PATH_PREFIXES) and " " not in token
+    })
+    missing_summary_references = [
+        token for token in summary_local_references if not (ROOT / token).exists()
     ]
 
     checks = {
@@ -104,6 +117,26 @@ def main() -> None:
             in report
         ),
         "index_local_references_exist": not missing_index_references,
+        "summary_local_references_exist": not missing_summary_references,
+        "summary_reports_pbmc_min_fwer": (
+            f"{min(float(row['max_t_fwer_p']) for row in pbmc):.4f}" in summary_text
+        ),
+        "summary_reports_brl_sensitivity_min_fwer": (
+            f"{min(float(row['max_t_fwer_p']) for row in brl_sensitivity):.4f}"
+            in summary_text
+        ),
+        "summary_reports_raw_calibration_metrics": all(
+            str(value) in summary_text
+            for value in (
+                calibration["n_reconstructible_qc_retained"],
+                calibration["median_sample_spearman"],
+                calibration["minimum_module_spearman"],
+            )
+        ),
+        "summary_reports_current_lock_hashes": all(
+            lock["canonical_payload_sha256"] in summary_text
+            for lock in (module_lock, design_lock)
+        ),
         "readme_points_to_v56": "meta/V56_QUEUE.md" in readme,
         "queue_records_current_design_hash": "1d7734...45c9" in queue,
     }
@@ -117,6 +150,8 @@ def main() -> None:
         "failures": failures,
         "index_local_reference_count": len(index_local_references),
         "missing_index_references": missing_index_references,
+        "summary_local_reference_count": len(summary_local_references),
+        "missing_summary_references": missing_summary_references,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")

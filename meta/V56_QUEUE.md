@@ -1,6 +1,6 @@
 # V56 Queue: Progression-Therapy Opportunity Audit
 
-Status: in-progress
+Status: complete
 
 V56 is a three-hour active research block aimed at a better treatment for MS
 progression. It cannot guarantee a cure or therapeutic result. Its obligation
@@ -14,9 +14,9 @@ and a concrete validation path all survive scrutiny.
 - Active target: 3h cumulative active time
 - Projected target UTC if this interval stays continuous: 2026-08-06T00:03:56Z
 - Active session intervals:
-  - 2026-08-05T21:03:56Z - OPEN
-- Cumulative completed active runtime: 0h00m00s
-- Wall-clock span: open
+  - 2026-08-05T21:03:56Z - 2026-08-06T00:03:57Z
+- Cumulative completed active runtime: 3h00m01s
+- Wall-clock span: 3h00m01s
 
 ## Boundaries And Environment
 
@@ -56,8 +56,8 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | Opening health, evidence-boundary, and strategic audit | done | Clean/aligned start; OpenGWAS expired and routed around; five-gate route rule frozen before analysis. |
 | Progression-treatment opportunity map | done | No route clears all five gates. V22 remains monitoring, not progression treatment; V56 PBMC supports none of nine frozen modules in that cohort; lesion routes remain data-gated; genetics routes remain direction-closed. |
 | Current primary-source therapeutic landscape scan | done | Audited HERCULES, EU authorization, FDA CRL, PERSEUS topline, FENtrepid presentation, and MS-STAT2 phase 3 using primary or trial-level sources. |
-| New progression-data availability scout | in-progress | Found GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics; both frozen before testing. Continue source audit. |
-| External-source provenance records | done | Added nine classed trial/regulatory/access records. Provenance gate passes 939/939 checks. |
+| New progression-data availability scout | done | Found and tested GSE247181 rapid/slow untreated SPMS PBMC and GSE264094/GSE281805 BRL spatial transcriptomics. The first was not supported; the second remains calibration/data blocked, and its public repository history, releases, and supplement were exhausted before drafting an author request. |
+| External-source provenance records | done | Trial, regulatory, registry, and access context remains separately classed; the final provenance gate passes 1,022/1,022 checks. |
 | GSE281805 processed BRL module bridge test | done | Four modules pass frozen BRL-vs-mixed gate, but none passes post-result common-slide max-T sensitivity; overall route interpretation inconclusive. 30,000-family null calibration 0.0514, excess p=0.1303. |
 | GSE281805 raw matched-NAWM reconstruction | blocked | Calibration failed: 84/117 source AOIs, median rho 0.8555, minimum module rho 0.2516, 3/4 key signs. Biological test correctly not run. Needs author filtered manifest/intermediate matrix. |
 | GSE247181 rapid/slow SPMS PBMC module test | done | Full raw-CEL RMA, 9/9 module coverage, exact 184,756-label max-T test, 10,000 bootstrap, LOO, and 6,000-family synthetic calibration completed. All nine routes are `not_supported`; no therapeutic route advances. |
@@ -79,7 +79,7 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
 | Cross-trial controlled-access submission packet | done | Reproducible ClinicalTrials.gov API matrix distinguishes EDSS-only from composite progression and verifies public IPD routes. ToleDYNAMIC packet now contains a lay summary, scientific aims, exact requested fields, immutable analysis branch, privacy boundary, and human submission checklist. |
 | Multi-lineage adversarial review | done | Claude and Gemini converged on undefined interaction estimand and sparse-safety risk. Held repairs: fixed 24-month RMST, one four-test Holm family, exact reproduction, missingness/batch gates, no subgroup benefit-risk claim. |
 | Progression-therapy synthesis | done | Grounded route audit and separately classed current landscape written. Headline remains no target; controlled longitudinal treatment-selection is the defensible path. |
-| Full verification, RAG rebuild, push, and run summary | in-progress | Sparse index rebuilt to 987 grounded documents with two V56 smoke queries; final gates, exact active-time close, and clean push remain. |
+| Full verification, RAG rebuild, push, and run summary | done | Final regressions, two deterministic analysis replays, 25-check cross-artifact audit, provenance/structural gates, credential/size guards, exact clock close, 989-document grounded index, and clean push completed. |
 
 ## Per-Iteration Notes
 
@@ -242,14 +242,48 @@ Failing any gate produces a documented no-go or data requirement, not a rescue.
   under-20-per-group estimation, paired-only fallback, missing visit,
   aggregate/no-linkage, and terms-blocked states. Prior randomized-arm labels
   alone never authorize causal language.
-- 2026-08-05T23:39Z: Direct use of the fixed power grid corrected an overly
-  permissive extension threshold. At 8/group, even d=1.2 has only 0.17-0.23
-  power; at 10/group, 0.27-0.35. The classifier now requires 20/group merely to
-  enter sensitivity analysis, not confirmation; even there d=0.8 power is only
-  0.27-0.38 and a null cannot exclude moderate differences.
 - 2026-08-05T23:35Z: Sanofi's current Vivli member policy resolved the access
   sequence. Unlisted study and document questions use the Vivli Enquiry Form;
   ordinary participant-data criteria include study completion and public or
   accepted primary results. The ongoing extension therefore gets a design-
   document/availability/collaboration enquiry now, while completed HERCULES
   clinical IPD remains a separate full request.
+- 2026-08-05T23:39Z: Direct use of the fixed power grid corrected an overly
+  permissive extension threshold. At 8/group, even d=1.2 has only 0.17-0.23
+  power; at 10/group, 0.27-0.35. The classifier now requires 20/group merely to
+  enter sensitivity analysis, not confirmation; even there d=0.8 power is only
+  0.27-0.38 and a null cannot exclude moderate differences.
+- 2026-08-06T00:03:57Z: V56 closed after a measured 3h00m01s continuous active
+  interval. Both biological analyses replayed byte-for-byte; an independent R
+  readback confirmed the result tables; all 25 cross-artifact checks,
+  1,022 provenance checks, 142 structural checks, fail-closed classifiers,
+  lock hashes, credential scan, repository integrity, and size/tmp guards
+  passed. The public repository history, releases, and supplement did not
+  contain the missing GeoMx handoff, so a ready-to-send author request is the
+  remaining route. No cure, better treatment, progression target, or validated
+  biomarker was produced.
+
+## Run Summary
+
+- Measured active runtime: 3h00m01s, from `2026-08-05T21:03:56Z` to
+  `2026-08-06T00:03:57Z`; wall-clock span was also 3h00m01s because there was
+  one continuous interval and no resume gap.
+- Iterations: 29 committed iterations including final closeout.
+- Grounded outcomes: 9/9 rapid-versus-slow SPMS PBMC modules not supported;
+  broad-rim lesion result inconclusive after acquisition-balanced sensitivity;
+  raw GeoMx reconstruction calibration failed and no biological contrast ran;
+  zero therapeutic route advanced.
+- Actionable outputs: separate HERCULES controlled-data request, active-only
+  ToleDYNAMIC enquiry/analysis path with machine-enforced causal boundary, and
+  a ready-to-send GeoMx author-data request after public-route exhaustion.
+- Models: Claude and Gemini supplied proposal-only method/wording critiques;
+  six calls completed and two truncated Gemini attempts were discarded. No
+  monetary spend field was exposed. No model output was used as evidence.
+- OpenGWAS: expired, HTTP 401, locally decoded expiry 2026-07-24 08:00 UTC. No
+  V56 result used OpenGWAS.
+- Stop reason: three-hour active target reached at a clean, verified, resumable
+  point.
+- Next action: a qualified investigator sends the ToleDYNAMIC enquiry and
+  separate HERCULES request; send the GeoMx author request in parallel. Do not
+  run another cross-sectional target scan or interpret any returned values
+  before their frozen intake/calibration gates pass.

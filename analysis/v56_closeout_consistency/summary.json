@@ -19,13 +19,20 @@
     "raw_biological_output_absent": true,
     "raw_reconstruction_failed_calibration": true,
     "readme_points_to_v56": true,
-    "report_states_no_progression_route": true
+    "report_states_no_progression_route": true,
+    "summary_local_references_exist": true,
+    "summary_reports_brl_sensitivity_min_fwer": true,
+    "summary_reports_current_lock_hashes": true,
+    "summary_reports_pbmc_min_fwer": true,
+    "summary_reports_raw_calibration_metrics": true
   },
   "failures": [],
   "index_local_reference_count": 29,
   "missing_index_references": [],
-  "n_checks": 20,
+  "missing_summary_references": [],
+  "n_checks": 25,
   "n_fail": 0,
   "overall_status": "PASS",
-  "purpose": "cross-artifact V56 closeout consistency; no new biological evidence"
+  "purpose": "cross-artifact V56 closeout consistency; no new biological evidence",
+  "summary_local_reference_count": 7
 }

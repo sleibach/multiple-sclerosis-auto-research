@@ -1198,3 +1198,33 @@ Next session first action:
   and checksum; then run only the appropriate frozen V42/V44 preregistered
   harness with batch/confounder diagnostics. Renew OpenGWAS before any
   OpenGWAS-dependent work after `2026-06-19 12:28 UTC`.
+
+## RUN SUMMARY - V56 Progression-Therapy Opportunity Audit
+
+- Active runtime: 3h00m01s, measured from real UTC clock reads at
+  `2026-08-05T21:03:56Z` and `2026-08-06T00:03:57Z`. Wall-clock span was also
+  3h00m01s; there was one continuous interval and no resume gap.
+- Frontier advanced: tested two new progression-relevant public packages,
+  closed the nine-module rapid-versus-slow SPMS PBMC panel as not supported in
+  that cohort, bounded the broad-rim lesion route to an exact author-data
+  request, and froze controlled HERCULES/ToleDYNAMIC analysis paths without
+  promoting a target.
+- Scientific verdict: no cure, better treatment, progression target, or
+  validated biomarker was produced. Zero route cleared all five intervention
+  gates.
+- Verification: both biological analyses replayed with zero Git diff; 25/25
+  closeout-consistency checks, 1,022/1,022 provenance checks, 142/142
+  structural checks, all fail-closed fixtures, syntax parses, credential scan,
+  repository integrity, and size/tmp guards passed.
+- Models: Claude and Gemini were proposal-only reviewers; six calls completed,
+  two truncated Gemini calls were discarded, monetary spend was not exposed,
+  and no model output was evidence.
+- OpenGWAS: expired (HTTP 401; decoded expiry 2026-07-24 08:00 UTC), routed
+  around, and used for no V56 result.
+- README: updated to the V56 scientific state and class-aware artifact index.
+- Stop reason: completed after the measured three-hour active target at a
+  clean, resumable point.
+- Next action: a qualified investigator sends the ToleDYNAMIC design/
+  availability enquiry and separate HERCULES participant-data request; send
+  the GeoMx author-data request in parallel and apply only frozen gates to any
+  return.
