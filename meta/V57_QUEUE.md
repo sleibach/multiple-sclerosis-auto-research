@@ -51,6 +51,7 @@ Status: **active**
 | 6n | Test whether fixed-score successors are demonstrably non-superior, not merely nonsignificant | done | Best observed delta -0.078, but family upper bound 0.189; meaningful +0.05 gain cannot be excluded |
 | 6o | Audit mechanism-boundary selection with cohort-subset selective inference | done | Boundary survives max-six-pair correction: raw p 0.0275-0.0281, percentile p 0.0264-0.0274 |
 | 6p | Test prospective constrained batch allocation against response-correlated technical bias | done | Outcome-aware blinded-lab layout lowers synthetic high-AUC rate; outcome-blind covariate balancing does not control response imbalance |
+| 6q | Audit frozen V22 feature influence with complete leave-one-gene-out exact inference | done | Pooled family passes, but cohort-specific minimum is 0.68 and cross-environment recurrence remains unestablished |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -162,6 +163,17 @@ Status: **active**
   laboratory execution and remains additive to, not a replacement for, the
   post-data batch guard. A byte-identical rerun verified reproducibility; this
   is synthetic method behavior and no MS evidence.
+- Iteration 17 checkpoint at `2026-08-29T23:28:43Z`: all 12 unique genes
+  in the frozen IFN/APC and HLA-II modules were omitted one at a time without
+  changing the therapy-class formulas. The pooled outcome-blind cohort-rank AUC
+  was 0.822 intact and 0.800 at the weakest deletion (`CXCL10`), with maximum
+  loss 0.022. The minimum-over-all-deletions statistic passed an exact 31,752-
+  assignment responder-count-preserving null (p=0.00806). The pooled
+  no-single-gene-dominance gate therefore passes, but the GSE235357
+  cohort-specific AUC falls to 0.68 under the weakest deletion while the other
+  cohort remains strong. This same-data sensitivity does not repair the formal
+  partial-conjunction failure, prove recurrence, or validate the rule. A
+  byte-identical rerun verified all outputs.
 
 ## Resume Rule
 

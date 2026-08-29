@@ -1,0 +1,19 @@
+{
+  "purpose": "same-data feature-influence sensitivity of immutable V22; not a replacement rule",
+  "cohorts": {
+    "GSE235357": 10,
+    "GSE253006_TOF_exact": 9
+  },
+  "n_unique_frozen_genes": 12,
+  "intact_pooled_percentile_auc": 0.8222222222222222,
+  "weakest_deletion_auc": 0.8,
+  "weakest_deletion_gene": "CXCL10",
+  "maximum_auc_loss": 0.022222222222222143,
+  "minimum_cohort_specific_auc": 0.68,
+  "minimum_cohort_specific_deletion": "CXCL10",
+  "minimum_cohort_specific_cohort": "GSE235357",
+  "exact_label_assignments": 31752,
+  "exact_intersection_p": 0.008062484252960444,
+  "no_single_gene_dominance_gate": "PASS",
+  "interpretation": "Every single-gene deletion clears the predeclared descriptive and exact-null gate within the bounded data."
+}
