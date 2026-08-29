@@ -46,6 +46,8 @@ Status: **active**
 | 6i | Audit the frozen V22 confounder specifications as a complete specification curve | done | All 26 preserve direction and positive CV increment; broad metabolic/inflammatory/STAT1 joint adjustment remains unsupported (AUC 0.656, p=0.163) |
 | 6j | Quantify V22 measurement-error and outcome-label integrity envelopes | done | 2.1M perturbations pass through reliability 0.50; one-pair label swaps stay >=0.611, but two pairs can lower AUC to 0.433 |
 | 6k | Test formal cross-environment replicability with partial conjunction | done | At-least-two test fails: dependence-valid p=0.464, independence sensitivity p=0.299 |
+| 6l | Probe functional trajectory eligibility without fitting underpowered curves | done | Later treated timepoints have n=1-2 and no balanced patient-level trajectory; blocked on >=3 common observations per patient |
+| 6m | Build sharp AUC partial-identification bounds for missing validation labels | done | Universal AUC>=0.60 through 2 missing labels without prevalence, 3 with audited class total; four can reach 0.433 |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -127,6 +129,12 @@ Status: **active**
   and the independence-based Fisher sensitivity (p=0.299). Compatible signs
   in 4/4 environments do not establish recurrence; one strong cohort can
   explain the pooled support.
+- Iteration 13 checkpoint at `2026-08-29T23:14:58Z`: sharp empirical AUC
+  bounds were enumerated for all 16,663 missing-label patterns through five
+  missing outcomes. Every pattern retains a lower bound >=0.60 through two
+  missing labels without prevalence information and through three when an
+  independently audited responder total is known. Four missing labels can
+  lower the bound to 0.433. Participant-level patterns were not persisted.
 
 ## Resume Rule
 
