@@ -1,0 +1,24 @@
+{
+  "boundary": "No outcomes or biological quantities were generated. Real trial overlap requires participant-level covariates.",
+  "first_tested_ineligible_severity": 0.75,
+  "largest_tested_severity_eligible_all_seeds": 0.5,
+  "pass_rate_monotone_with_005_tolerance": true,
+  "plan": "docs/plans/V57_TRANSPORT_OVERLAP_ENVELOPE_PLAN.md",
+  "prior_candidate_harness_status": "UNCHANGED_NOT_VERIFIED",
+  "purpose": "Seeded synthetic overlap-envelope characterization only",
+  "replicates_per_seed_severity": 300,
+  "seeds": [
+    57111,
+    57112,
+    57113
+  ],
+  "severities": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "total_synthetic_pairs": 4500,
+  "verdict": "FIXED_GUARD_ENVELOPE_MAPPED"
+}

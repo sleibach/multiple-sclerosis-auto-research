@@ -39,7 +39,7 @@ Status: **active**
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
 | 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
 | 8c | Test a scale-stable overlap guard and nuisance-model robustness | done | Six of seven gates pass; variance-shift overlap only 19.3%-26.0%, so candidate harness remains unverified and primary failure unchanged |
-| 8d | Map the fixed candidate overlap guard across increasing population shift | todo | Frozen severity grid; characterize eligibility boundary without threshold changes |
+| 8d | Map the fixed candidate overlap guard across increasing population shift | done | Fixed guard eligible through severity 0.50 (97.0%-98.3%); fails 0.75 and 1.00, with ESS/moment balance limiting |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -74,6 +74,11 @@ Status: **active**
   Six of seven gates passed, but severe variance shift was overlap-eligible in
   only 19.3%-26.0% of pairs. The candidate and original harnesses therefore
   remain unverified; the result is not MS or treatment evidence.
+- Iteration 5 checkpoint at `2026-08-29T22:50:17Z`: 4,500 seeded synthetic
+  covariate pairs mapped the unchanged transport-overlap guard. Every seed was
+  eligible through shift severity 0.50, while 0.75 and 1.00 failed. Effective
+  sample fraction and first/second-moment balance, not the weight-tail ratio,
+  defined the prospective fail-closed boundary.
 
 ## Resume Rule
 
