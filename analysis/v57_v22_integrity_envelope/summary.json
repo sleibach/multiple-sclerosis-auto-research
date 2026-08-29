@@ -1,0 +1,32 @@
+{
+  "high_reliability_all_cells_pass": true,
+  "label_exchange_configurations": 11790,
+  "lowest_reliability_all_cells_pass": 0.5,
+  "measurement_modes": [
+    "cohort_scaled",
+    "global"
+  ],
+  "measurement_replicates_evaluated": 2100000,
+  "measurement_seeds": [
+    57001,
+    57002,
+    57003
+  ],
+  "minimum_median_auc_at_reliability_ge_0_80": 0.7777777777777778,
+  "minimum_prob_auc_ge_0_60_at_reliability_ge_0_80": 0.99218,
+  "n_held_subjects": 19,
+  "n_nonresponders": 9,
+  "n_responders": 10,
+  "observed_auc": 0.8111111111111111,
+  "purpose": "V57 V22 measurement and label integrity sensitivity; not biological evidence",
+  "single_pair_adversarially_robust": true,
+  "single_pair_fraction_auc_lt_0_60": 0.0,
+  "single_pair_min_auc": 0.6111111111111112,
+  "worst_any_exchange": {
+    "auc": 0.28888888888888886,
+    "k": 3
+  },
+  "worst_single_pair": {
+    "auc": 0.6111111111111112
+  }
+}
