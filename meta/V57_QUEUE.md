@@ -55,7 +55,8 @@ Status: **active**
 | 6r | Test cross-environment multigroup measurement architecture of the frozen modules | done | Both primary modules fail gene-edge concordance, exact identity nulls, and bootstrap stability |
 | 6s | Compare V22 against expression/variance-matched arbitrary module pairs | done | Passes 600k competitive null at all neighborhood/seed settings, bounded by imperfect functional/correlation matching |
 | 6t | Design and simulate a direction-resolving combinatorial perturbation pilot | done | D-optimal pair selection improves held-out interaction recovery only when prespecified descriptors encode real interaction structure; random comparator remains mandatory |
-| 6u | Build a donor-replicated multi-outcome intervention success gate | in-progress | Seeded synthetic comparison of scalar ranking versus toxicity-aware, donor-generalizing rescue criteria |
+| 6u | Build a donor-replicated multi-outcome intervention success gate | done | Frozen gate eliminates false promotions but is underpowered at 8 donors; 12 is the first tested fully passing design point |
+| 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | todo | Frozen-rule extension with unchanged effects, noise, seeds, and pass criteria |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -214,6 +215,18 @@ Status: **active**
   perturbations are mandatory. Five classed external method records and a
   staged human iPSC-microglia CRISPRi/a decision tree were added as method
   context, not project evidence or a claimed MS target.
+- Iteration 21 checkpoint at `2026-08-29T23:51:38Z`: 18,000 seeded synthetic
+  perturbation screens compared a multiplicity-controlled averaged efficacy
+  endpoint with a frozen partial-conjunction, simultaneous-viability,
+  leave-one-donor-out, and guide-replication gate. The averaged endpoint found
+  broad rescues but frequently promoted narrow or tradeoff effects (mean false
+  promotion 0.767 in the preregistered operating region). The replicated gate
+  had zero false promotions and precision 1.0, but failed its eight-donor power
+  criterion; twelve donors passed every criterion across all seeds and tested
+  effects. Overall preregistered status is therefore FAIL, with 12 the first
+  tested viable donor count. Outputs were byte-identical on rerun. This is
+  synthetic design behavior only, not evidence that any biological rescue
+  exists.
 
 ## Resume Rule
 

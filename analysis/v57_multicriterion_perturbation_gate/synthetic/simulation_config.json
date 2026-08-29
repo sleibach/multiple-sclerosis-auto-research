@@ -1,0 +1,33 @@
+{
+  "candidate_truth_class_counts": {
+    "broad_rescue": 4,
+    "narrow_one_endpoint": 4,
+    "null": 8,
+    "toxic_pseudorescue": 4,
+    "tradeoff": 4
+  },
+  "donor_counts": [
+    4,
+    6,
+    8,
+    12
+  ],
+  "effect_scales": [
+    0.6,
+    0.8,
+    1.0
+  ],
+  "family_alpha": 0.05,
+  "n_candidates": 24,
+  "n_efficacy_outcomes": 4,
+  "n_guides": 3,
+  "purpose": "method behavior only; no biological or MS claim",
+  "screens_per_cell": 500,
+  "seeds": [
+    57061,
+    57062,
+    57063
+  ],
+  "synthetic": true,
+  "viability_margin": -0.5
+}
