@@ -58,7 +58,8 @@ Status: **active**
 | 6u | Build a donor-replicated multi-outcome intervention success gate | done | Frozen gate eliminates false promotions but is underpowered at 8 donors; 12 is the first tested fully passing design point |
 | 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | done | None passes all high-precision frozen checks; 11 is close but misses the no-more-than-0.10 sensitivity-loss criterion |
 | 6w | Verify a high-precision positive donor-count region without changing the gate | done | All 90 frozen checks pass at 12, 14, and 16 donors; 12 is the first high-precision tested positive design point |
-| 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | in-progress | Frozen heterogeneous synthetic extension tests whether pooled success masks a harmful subgroup |
+| 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | done | Severe reversal is already rarely promoted by the pooled gate; simultaneous subgroup bounds destroy sensitivity and are rejected |
+| 6y | Test a two-stage independent context-confirmation design | todo | Screen broadly, then test only selected candidates in a fresh context-balanced donor panel with fixed confirmatory multiplicity |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -246,6 +247,16 @@ Status: **active**
   Twelve is therefore the first high-precision tested positive design point
   under this synthetic variance model. This is a prospective design result,
   not biological power or evidence that a rescue perturbation exists.
+- Iteration 24 checkpoint at `2026-08-29T23:57:26Z`: 18,000 seeded synthetic
+  screens stress-tested a prespecified one-third donor context with complete
+  efficacy reversal. The existing pooled replicated gate already limited
+  reversal promotion to at most 0.011 while retaining at least 0.992
+  probability of a uniform rescue at 16/24 donors. Adding simultaneous
+  context-specific efficacy and viability bounds reduced reversal promotion to
+  zero but collapsed true-rescue probability to 0.045-0.420. It failed 29/60
+  frozen checks and is rejected without retuning. The next design is staged:
+  broad discovery followed by independent, context-balanced confirmation of a
+  fixed maximum number of candidates.
 
 ## Resume Rule
 
