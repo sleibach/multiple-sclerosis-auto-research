@@ -1,0 +1,34 @@
+{
+  "boundary": "A candidate method pass would still require controlled real IPD, endpoint harmonization, overlap, and an exchangeability argument.",
+  "gates": {
+    "both_wrong_quadratic_rescue": true,
+    "eligible_scenarios_overlap": false,
+    "hidden_modifier_detected": true,
+    "linear_correct_estimators": true,
+    "outcome_wrong_one_nuisance_robust": true,
+    "positivity_rejected": true,
+    "sampling_wrong_one_nuisance_robust": true
+  },
+  "n_source_per_pair": 2400,
+  "n_target_per_pair": 2400,
+  "plan": "docs/plans/V57_TRIAL_TRANSPORT_ROBUSTNESS_PLAN.md",
+  "primary_v57_gate_status": "UNCHANGED_FAILED",
+  "purpose": "Seeded synthetic method behavior only; no MS or treatment evidence",
+  "replicates_per_seed_scenario": 150,
+  "scenarios": [
+    "linear_correct",
+    "sampling_wrong_outcome_correct",
+    "sampling_correct_outcome_wrong",
+    "both_linear_nuisances_wrong",
+    "hidden_target_modifier",
+    "positivity_failure"
+  ],
+  "seeds": [
+    57101,
+    57102,
+    57103
+  ],
+  "total_synthetic_trial_pairs": 2700,
+  "verdict": "CANDIDATE_TRANSPORT_HARNESS_NOT_VERIFIED",
+  "verified": false
+}

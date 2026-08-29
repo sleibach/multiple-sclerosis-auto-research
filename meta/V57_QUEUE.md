@@ -38,6 +38,8 @@ Status: **active**
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
 | 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
+| 8c | Test a scale-stable overlap guard and nuisance-model robustness | done | Six of seven gates pass; variance-shift overlap only 19.3%-26.0%, so candidate harness remains unverified and primary failure unchanged |
+| 8d | Map the fixed candidate overlap guard across increasing population shift | todo | Frozen severity grid; characterize eligibility boundary without threshold changes |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -66,6 +68,12 @@ Status: **active**
   six priority views. No package was a universal robust winner: response-bulk,
   longitudinal progression, randomized progression IPD, and directional
   perturbation are distinct first asks for distinct decisions.
+- Iteration 4 checkpoint at `2026-08-29T22:47:12Z`: a 2,700-pair synthetic
+  trial-transport robustness audit replaced the unstable sample maximum with
+  an ESS/weight-tail/moment-balance guard and tested nuisance misspecification.
+  Six of seven gates passed, but severe variance shift was overlap-eligible in
+  only 19.3%-26.0% of pairs. The candidate and original harnesses therefore
+  remain unverified; the result is not MS or treatment evidence.
 
 ## Resume Rule
 
