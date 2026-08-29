@@ -43,6 +43,8 @@ Status: **active**
 | 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
 | 8c | Test a scale-stable overlap guard and nuisance-model robustness | done | Six of seven gates pass; variance-shift overlap only 19.3%-26.0%, so candidate harness remains unverified and primary failure unchanged |
 | 8d | Map the fixed candidate overlap guard across increasing population shift | done | Fixed guard eligible through severity 0.50 (97.0%-98.3%); fails 0.75 and 1.00, with ESS/moment balance limiting |
+| 6i | Audit the frozen V22 confounder specifications as a complete specification curve | done | All 26 preserve direction and positive CV increment; broad metabolic/inflammatory/STAT1 joint adjustment remains unsupported (AUC 0.656, p=0.163) |
+| 6j | Quantify V22 measurement-error and outcome-label integrity envelopes | todo | Seed-stable assay-reliability sensitivity plus exhaustive label-flip tipping point |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -103,6 +105,13 @@ Status: **active**
   anisotropy, and heterogeneity under three subsampling seeds. The best
   corrected p-value was 0.5165, with no stable feature and multiple raw versus
   residualized sign changes. The added geometry is not supported in held IBD.
+- Iteration 10 checkpoint at `2026-08-29T23:07:26Z`: a predeclared complete
+  specification curve included all 23 single-confounder and three joint V32
+  adjustments. Direction and positive leave-one-out increment held in all 26,
+  but the broad metabolic/inflammatory/STAT1 adjustment remained the mandatory
+  exception (AUC 0.656, permutation p=0.163). The result limits
+  researcher-choice sensitivity without changing the partially-confounded
+  interpretation or supplying external validation.
 
 ## Resume Rule
 

@@ -1,0 +1,27 @@
+{
+  "adjusted_auc_max": 0.9777777777777776,
+  "adjusted_auc_median": 0.8611111111111112,
+  "adjusted_auc_min": 0.6555555555555556,
+  "attenuation_max": 0.1555555555555555,
+  "attenuation_median": -0.04999999999999995,
+  "attenuation_min": -0.1666666666666666,
+  "direction_positive_fraction": 1.0,
+  "gates": {
+    "direction_robust": true,
+    "fully_robust_by_aggregate_gates": true,
+    "incremental_cv_robust": true,
+    "permutation_support_robust": true,
+    "practical_discrimination_robust": true
+  },
+  "incremental_cv_positive_fraction": 1.0,
+  "least_favorable_auc": 0.6555555555555556,
+  "least_favorable_incremental_loocv_auc": 0.12222222222222212,
+  "least_favorable_permutation_p": 0.1629185407296352,
+  "least_favorable_specification": "joint:metabolic_inflammatory_stat1",
+  "n_joint_risk_set": 3,
+  "n_single_confounder": 23,
+  "n_specifications": 26,
+  "permutation_supported_fraction": 0.9615384615384616,
+  "practical_discrimination_fraction": 1.0,
+  "raw_auc": 0.8111111111111111
+}
