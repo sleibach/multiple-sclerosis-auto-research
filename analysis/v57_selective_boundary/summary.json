@@ -1,0 +1,35 @@
+{
+  "cohorts": [
+    "GSE235357",
+    "GSE250453",
+    "GSE253006_TOF_exact",
+    "GSE85034_ADA"
+  ],
+  "n_all_subset_candidates": 11,
+  "n_pair_candidates": 6,
+  "n_permutations_per_seed": 200000,
+  "percentile_max_pair_p_range": [
+    0.026449867750661247,
+    0.027379863100684496
+  ],
+  "purpose": "V57 mechanism-boundary subset-selection sensitivity; not evidence of selection intent",
+  "raw_max_pair_p_range": [
+    0.027489862550687246,
+    0.02808485957570212
+  ],
+  "seeds": [
+    57101,
+    57102,
+    57103
+  ],
+  "selected_pair": [
+    "GSE235357",
+    "GSE253006_TOF_exact"
+  ],
+  "selected_pair_percentile_rank": 1,
+  "selected_pair_raw_rank": 1,
+  "selected_percentile_auc": 0.8277777777777777,
+  "selected_raw_auc": 0.8111111111111111,
+  "selection_robust_gate_pass": true,
+  "verdict": "BOUNDARY_SURVIVES_WORST_CASE_PAIR_SELECTION"
+}

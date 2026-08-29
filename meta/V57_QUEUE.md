@@ -49,6 +49,7 @@ Status: **active**
 | 6l | Probe functional trajectory eligibility without fitting underpowered curves | done | Later treated timepoints have n=1-2 and no balanced patient-level trajectory; blocked on >=3 common observations per patient |
 | 6m | Build sharp AUC partial-identification bounds for missing validation labels | done | Universal AUC>=0.60 through 2 missing labels without prevalence, 3 with audited class total; four can reach 0.433 |
 | 6n | Test whether fixed-score successors are demonstrably non-superior, not merely nonsignificant | done | Best observed delta -0.078, but family upper bound 0.189; meaningful +0.05 gain cannot be excluded |
+| 6o | Audit mechanism-boundary selection with cohort-subset selective inference | done | Boundary survives max-six-pair correction: raw p 0.0275-0.0281, percentile p 0.0264-0.0274 |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -142,6 +143,13 @@ Status: **active**
   candidate remained worse by 0.078, but the family-maximum one-sided upper
   bound was 0.189 in all seeds. No successor is promoted, while a meaningful
   gain is not statistically excluded; non-significance is not equivalence.
+- Iteration 15 checkpoint at `2026-08-29T23:20:32Z`: 1.2 million
+  within-cohort label-randomization draws audited the bounded cohort pair
+  against all six possible pairs and all 11 subsets. The selected pair ranks
+  first in both raw and cohort-percentile AUC and survives the predeclared
+  max-six-pair correction in both scales (p ranges 0.0264-0.0281). Pure
+  favorable-pair selection is weakened as a sufficient explanation, but this
+  same-data sensitivity does not establish the mechanism rationale.
 
 ## Resume Rule
 
