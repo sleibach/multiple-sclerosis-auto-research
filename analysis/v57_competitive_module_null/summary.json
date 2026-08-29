@@ -1,0 +1,17 @@
+{
+  "purpose": "competitive expression-matched module null; not module discovery or external validation",
+  "common_gene_universe": 21233,
+  "qc_gene_universe": 18003,
+  "matched_candidate_neighborhoods": [
+    25,
+    50,
+    100,
+    200
+  ],
+  "random_modules_per_seed": 50000,
+  "total_random_modules": 600000,
+  "observed_v22_pooled_percentile_auc": 0.8222222222222222,
+  "competitive_specificity_gate": "PASS",
+  "interpretation": "The intact V22 score exceeds the expression/variance-matched random-module 95th percentile under every seed.",
+  "limitation": "Comparator modules are matched on expression and variance, not immune function or pathway correlation."
+}

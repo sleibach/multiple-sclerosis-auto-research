@@ -53,6 +53,7 @@ Status: **active**
 | 6p | Test prospective constrained batch allocation against response-correlated technical bias | done | Outcome-aware blinded-lab layout lowers synthetic high-AUC rate; outcome-blind covariate balancing does not control response imbalance |
 | 6q | Audit frozen V22 feature influence with complete leave-one-gene-out exact inference | done | Pooled family passes, but cohort-specific minimum is 0.68 and cross-environment recurrence remains unestablished |
 | 6r | Test cross-environment multigroup measurement architecture of the frozen modules | done | Both primary modules fail gene-edge concordance, exact identity nulls, and bootstrap stability |
+| 6s | Compare V22 against expression/variance-matched arbitrary module pairs | done | Passes 600k competitive null at all neighborhood/seed settings, bounded by imperfect functional/correlation matching |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -186,6 +187,20 @@ Status: **active**
   names measure a common latent APC/HLA-II architecture. Tissue, therapy, and
   platform remain inseparable causes. A byte-identical rerun confirmed the
   result.
+- Iteration 19 checkpoint at `2026-08-29T23:39:11Z`: a competitive null
+  reconstructed 600,000 arbitrary seven-gene/six-gene module pairs while
+  preserving the shared-gene topology, therapy formulas, and four-dimensional
+  expression/variance neighborhoods across 18,003 common measured genes. The
+  intact pooled cohort-rank AUC of 0.822 exceeded the random-module 95th
+  percentile under all four candidate-neighborhood widths and all three seeds;
+  empirical p ranged 0.0196-0.0340. The gate passes, making a broad arbitrary
+  same-size module less plausible as a sufficient explanation. Outcome-blind
+  matching diagnostics also show that CD74 and several HLA genes lack close
+  analogues, so this is not an immune-function- or within-module-correlation-
+  matched null and cannot establish mechanism. It does not repair failed
+  measurement invariance or cross-environment replicability. A byte-identical
+  rerun verified the aggregate outputs; random module identities were not
+  retained or mined.
 
 ## Resume Rule
 
