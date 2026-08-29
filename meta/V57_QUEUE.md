@@ -56,7 +56,8 @@ Status: **active**
 | 6s | Compare V22 against expression/variance-matched arbitrary module pairs | done | Passes 600k competitive null at all neighborhood/seed settings, bounded by imperfect functional/correlation matching |
 | 6t | Design and simulate a direction-resolving combinatorial perturbation pilot | done | D-optimal pair selection improves held-out interaction recovery only when prespecified descriptors encode real interaction structure; random comparator remains mandatory |
 | 6u | Build a donor-replicated multi-outcome intervention success gate | done | Frozen gate eliminates false promotions but is underpowered at 8 donors; 12 is the first tested fully passing design point |
-| 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | todo | Frozen-rule extension with unchanged effects, noise, seeds, and pass criteria |
+| 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | done | None passes all high-precision frozen checks; 11 is close but misses the no-more-than-0.10 sensitivity-loss criterion |
+| 6w | Verify a high-precision positive donor-count region without changing the gate | todo | Frozen 12-16 donor sweep establishes whether the earlier 12-donor pass survives 2,000-screen precision |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -227,6 +228,15 @@ Status: **active**
   tested viable donor count. Outputs were byte-identical on rerun. This is
   synthetic design behavior only, not evidence that any biological rescue
   exists.
+- Iteration 22 checkpoint at `2026-08-29T23:53:17Z`: a frozen 36,000-screen
+  extension resolved donor counts 9, 10, and 11 using 2,000 screens per
+  seed/effect cell and the unchanged parent rule. None passed all 30 checks.
+  Nine and ten donors were materially underpowered; eleven achieved zero false
+  promotions, precision 1.0, and 85.1%-90.3% probability of at least one true
+  rescue, but remained just over the allowed 0.10 sensitivity loss versus the
+  averaged endpoint in at least one cell. The null is retained rather than
+  relaxing the rule. A high-precision positive-control sweep is required before
+  treating the earlier 12-donor pass as a stable design boundary.
 
 ## Resume Rule
 
