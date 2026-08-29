@@ -1,0 +1,44 @@
+{
+  "environment_null_quantiles": {
+    "sign_count_null_q95": 4.0,
+    "weighted_auc_null_q95": 0.6532299741602067,
+    "worst_auc_null_q95": 0.52
+  },
+  "environment_stability": {
+    "cochran_q": 3.5374669070907507,
+    "cochran_q_df": 3,
+    "cochran_q_p": 0.31593520124874974,
+    "direction_consistency_stratified_permutation_p": 0.05593472032639837,
+    "direction_consistent_environment_count": 4,
+    "fixed_effect_hedges_g": 0.49311634124963444,
+    "n_environments": 4,
+    "n_subjects": 43,
+    "stringent_environment_stability_gate": false,
+    "verdict": "NOT_ENVIRONMENT_STABLE",
+    "weighted_mean_auc": 0.6722222222222222,
+    "weighted_mean_auc_stratified_permutation_p": 0.03222483887580562,
+    "worst_auc_stratified_permutation_p": 0.05593472032639837,
+    "worst_environment_auc": 0.5111111111111111
+  },
+  "n_permutations": 200000,
+  "plan": "docs/plans/V57_ENVIRONMENT_STABILITY_PLAN.md",
+  "purpose": "V57 held-data method probe; no biological discovery claim",
+  "seed": 57001,
+  "selective_prediction": {
+    "pooled_coverage": 0.9534883720930233,
+    "pooled_coverage_ci_low": 0.8454450199593603,
+    "singleton_accuracy": 0.6666666666666666,
+    "singleton_correct": 4,
+    "singleton_null_p": 0.23557382213088934,
+    "singleton_rate": 0.13953488372093023,
+    "singleton_total": 6,
+    "verdict": "NOT_TRANSPORT_READY",
+    "worst_cohort_coverage": 0.9
+  },
+  "singleton_null_quantiles": {
+    "q50": 3.0,
+    "q90": 4.0,
+    "q95": 5.0,
+    "q99": 5.0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "min_cells_per_side": 50,
+  "module_genes_present": {
+    "hla_ii_apc": [
+      "CD74",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CIITA",
+      "RFX5"
+    ],
+    "ifn_apc": [
+      "STAT1",
+      "IRF1",
+      "CXCL10",
+      "GBP1",
+      "CD74",
+      "IFI30",
+      "HLA-DRA",
+      "HLA-DRB1"
+    ],
+    "inflammatory_nfkb": [
+      "IL1B",
+      "TNF",
+      "CXCL8",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "NFKBIA",
+      "TREM1",
+      "OSM"
+    ],
+    "lysosomal_apc": [
+      "LAMP1",
+      "LAMP2",
+      "CTSB",
+      "CTSD",
+      "CTSS",
+      "LIPA",
+      "IFI30",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CD74",
+      "PSAP",
+      "NPC2"
+    ],
+    "mif_cd74_receptor_state": [
+      "CD74",
+      "CD44",
+      "CXCR4",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ]
+  },
+  "modules": [
+    "ifn_apc",
+    "hla_ii_apc",
+    "mif_cd74_receptor_state",
+    "lysosomal_apc",
+    "inflammatory_nfkb"
+  ],
+  "n_eligible_pair_state_rows": 43,
+  "n_pair_state_module_rows": 215,
+  "n_patient_state_module_rows": 185,
+  "n_patients": 22,
+  "n_permutations": 100000,
+  "passing_features": [],
+  "plan": "docs/plans/V57_SINGLE_CELL_TRANSPORT_PLAN.md",
+  "purpose": "V57 distribution-method probe; no MS biological claim",
+  "raw_null": {
+    "n_features": 10,
+    "null_max_abs_t_q90": 3.0219383239746094,
+    "null_max_abs_t_q95": 3.342496633529663,
+    "null_max_abs_t_q99": 3.9757699966430664
+  },
+  "residualized_null": {
+    "n_features": 10,
+    "null_max_abs_t_q90": 2.5329067707061768,
+    "null_max_abs_t_q95": 2.8227906227111816,
+    "null_max_abs_t_q99": 3.5170624256134033
+  },
+  "seed": 57012,
+  "states": [
+    "DC",
+    "Mono_macro"
+  ],
+  "verdict": "NO_RESPONSE_SPECIFIC_DISTRIBUTIONAL_FEATURE"
+}

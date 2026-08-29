@@ -1,0 +1,85 @@
+{
+  "boundary": "IBD method context only; not an MS biological finding",
+  "max_cells_per_sample_state": 200,
+  "module_genes_present": {
+    "hla_ii_apc": [
+      "CD74",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CIITA",
+      "RFX5"
+    ],
+    "ifn_apc": [
+      "STAT1",
+      "IRF1",
+      "CXCL10",
+      "GBP1",
+      "CD74",
+      "IFI30",
+      "HLA-DRA",
+      "HLA-DRB1"
+    ],
+    "inflammatory_nfkb": [
+      "IL1B",
+      "TNF",
+      "CXCL8",
+      "CCL2",
+      "CCL3",
+      "CCL4",
+      "NFKBIA",
+      "TREM1",
+      "OSM"
+    ],
+    "lysosomal_apc": [
+      "LAMP1",
+      "LAMP2",
+      "CTSB",
+      "CTSD",
+      "CTSS",
+      "LIPA",
+      "IFI30",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "CD74",
+      "PSAP",
+      "NPC2"
+    ],
+    "mif_cd74_receptor_state": [
+      "CD74",
+      "CD44",
+      "CXCR4",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ]
+  },
+  "modules": [
+    "ifn_apc",
+    "hla_ii_apc",
+    "mif_cd74_receptor_state",
+    "lysosomal_apc",
+    "inflammatory_nfkb"
+  ],
+  "n_pair_state_rows": 43,
+  "n_patient_state_rows": 37,
+  "n_patients": 22,
+  "n_permutations": 200000,
+  "passing_states": [],
+  "raw_null": {
+    "null_max_q90": 2.0257444381713867,
+    "null_max_q95": 2.386380672454834,
+    "null_max_q99": 3.405198097229004
+  },
+  "residualized_null": {
+    "null_max_q90": 1.9589673280715942,
+    "null_max_q95": 2.3566701412200928,
+    "null_max_q99": 3.104454278945923
+  },
+  "seed": 57031,
+  "verdict": "NO_RESPONSE_SPECIFIC_JOINT_GEOMETRY"
+}

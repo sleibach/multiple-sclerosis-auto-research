@@ -1,0 +1,37 @@
+{
+  "boundary": "IBD method context only; not an MS biological finding",
+  "categories": [
+    "C1Qhi IL1Bhi macro",
+    "C1Qhi IL1Blo macro",
+    "CD1Chi DC",
+    "Cycling MNP",
+    "LAMP3pos DC",
+    "LAMP3pos IL1Bpos DC",
+    "Mast",
+    "S100A8 A9hi TNFhi IL6pos mono",
+    "S100A8 A9hi mono",
+    "XCR1pos DC",
+    "pDC"
+  ],
+  "input": "data/raw_v3/wave67_gse282122_myeloid/myeloid_final.h5ad",
+  "minimum_cells_per_sample": 100,
+  "n_categories": 11,
+  "n_eligible_pairs": 28,
+  "n_permutations": 200000,
+  "n_unique_patients": 23,
+  "pair_contract": "phases/v3/results/wave67_gse282122_myeloid_pseudobulk/paired_module_deltas.tsv",
+  "passing_categories": [],
+  "pseudocount": 0.5,
+  "raw_null_calibration": {
+    "null_max_q90": 2.819274663925171,
+    "null_max_q95": 3.160144805908203,
+    "null_max_q99": 3.918037176132202
+  },
+  "residualized_null_calibration": {
+    "null_max_q90": 2.54671311378479,
+    "null_max_q95": 2.814375162124634,
+    "null_max_q99": 3.362222909927368
+  },
+  "seed": 57021,
+  "verdict": "NO_RESPONSE_SPECIFIC_COMPOSITION"
+}
