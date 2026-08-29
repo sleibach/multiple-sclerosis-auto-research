@@ -34,6 +34,7 @@ Status: **active**
 | 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
 | 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
 | 6f | Probe persistent 0D topology of paired cell-state geometry | done | Not estimable: frozen 150-cell paired threshold leaves 4 non-remitting and 0 remitting patients; no outcome test run and threshold not lowered |
+| 6g | Probe cluster-free overlapping-neighborhood differential abundance | done | No stable feature; isolated residualized N17 p=0.048 failed raw p=0.156 and cross-seed gate; IBD method-context null |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | done | No single robust winner across six views; four decision-specific first asks and a four-strategy two-package Pareto frontier |
 | 7a | Calibrate an anytime-valid sequential cohort-evidence accumulator | done | Verified on 1.8M synthetic sequences: null crossing 1.25%-1.30%, strong-alt crossing 99.95%-99.96%; held heterogeneous context e=2.19, not confirmatory |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | done | Six-route fail-closed router passes 7/7 synthetic declarations; current matrix preserves causal limits for five package routes |
@@ -91,6 +92,11 @@ Status: **active**
   requirement left four non-remitting and zero remitting patients. No outcome
   or permutation test was run, and the threshold was not lowered after seeing
   the imbalance. Topology remains a new-data method, not a held-data result.
+- Iteration 8 checkpoint at `2026-08-29T23:00:48Z`: 40 outcome-blind
+  overlapping neighborhoods were defined and 20 were estimable in 22 paired
+  patients. One seed-specific residual test reached corrected p=0.0483, but
+  failed its raw and cross-seed gates. No response-specific neighborhood is
+  supported; cells were never treated as outcome replicates.
 
 ## Resume Rule
 
