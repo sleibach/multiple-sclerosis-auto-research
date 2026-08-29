@@ -45,6 +45,7 @@ Status: **active**
 | 8d | Map the fixed candidate overlap guard across increasing population shift | done | Fixed guard eligible through severity 0.50 (97.0%-98.3%); fails 0.75 and 1.00, with ESS/moment balance limiting |
 | 6i | Audit the frozen V22 confounder specifications as a complete specification curve | done | All 26 preserve direction and positive CV increment; broad metabolic/inflammatory/STAT1 joint adjustment remains unsupported (AUC 0.656, p=0.163) |
 | 6j | Quantify V22 measurement-error and outcome-label integrity envelopes | done | 2.1M perturbations pass through reliability 0.50; one-pair label swaps stay >=0.611, but two pairs can lower AUC to 0.433 |
+| 6k | Test formal cross-environment replicability with partial conjunction | done | At-least-two test fails: dependence-valid p=0.464, independence sensitivity p=0.299 |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -119,6 +120,13 @@ Status: **active**
   0.50 and every single-pair exchange retained AUC >=0.611. Two exchanged
   pairs could reduce AUC to 0.433, with 20.2% below 0.60. This is a method
   sensitivity bound, not evidence that any held label is wrong.
+- Iteration 12 checkpoint at `2026-08-29T23:12:43Z`: formal
+  partial-conjunction testing retained all four exact cohort p-values and
+  tested the predeclared claim of association in at least two environments.
+  It failed under both the dependence-valid Bonferroni construction (p=0.464)
+  and the independence-based Fisher sensitivity (p=0.299). Compatible signs
+  in 4/4 environments do not establish recurrence; one strong cohort can
+  explain the pooled support.
 
 ## Resume Rule
 
