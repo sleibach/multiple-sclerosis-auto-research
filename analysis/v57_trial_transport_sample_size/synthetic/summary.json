@@ -1,0 +1,30 @@
+{
+  "boundary": "Real controlled trial IPD still requires overlap, endpoint, and exchangeability audits",
+  "fixed_mean_absolute_error_gate": 0.03,
+  "fixed_overlap_gate": 0.9,
+  "largest_size_maximum_weight_fail_rate_range": [
+    0.215,
+    0.29
+  ],
+  "largest_size_weighted_smd_fail_rate_range": [
+    0.0,
+    0.005
+  ],
+  "minimum_size_passing_all_seeds": null,
+  "plan": "docs/plans/V57_TRIAL_TRANSPORT_SAMPLE_SIZE_PLAN.md",
+  "purpose": "Synthetic method sample-size calibration only; no MS or treatment evidence",
+  "replicates_per_size_seed": 200,
+  "seeds": [
+    57061,
+    57062,
+    57063
+  ],
+  "sizes": [
+    800,
+    1200,
+    1600,
+    2400
+  ],
+  "total_synthetic_trial_pairs": 2400,
+  "verdict": "TRANSPORT_REMAINS_UNVERIFIED"
+}

@@ -62,21 +62,24 @@ def linear_predict(x: np.ndarray, beta: np.ndarray) -> np.ndarray:
 
 
 def generate_trial_pair(
-    rng: np.random.Generator, scenario: str
+    rng: np.random.Generator,
+    scenario: str,
+    n_source: int = N_SOURCE,
+    n_target: int = N_TARGET,
 ) -> dict[str, np.ndarray | float]:
-    source_x = rng.normal(size=(N_SOURCE, 4))
+    source_x = rng.normal(size=(n_source, 4))
     if scenario == "positivity_failure":
         target_x = rng.normal(
             loc=np.array([3.0, -1.5, 0.8, 1.2]),
             scale=np.array([0.45, 0.65, 1.0, 0.8]),
-            size=(N_TARGET, 4),
+            size=(n_target, 4),
         )
     else:
         target_x = rng.normal(
-            loc=np.array([0.60, -0.40, 0.30, 0.50]), size=(N_TARGET, 4)
+            loc=np.array([0.60, -0.40, 0.30, 0.50]), size=(n_target, 4)
         )
-    source_t = rng.integers(0, 2, size=N_SOURCE).astype(float)
-    target_t = rng.integers(0, 2, size=N_TARGET).astype(float)
+    source_t = rng.integers(0, 2, size=n_source).astype(float)
+    target_t = rng.integers(0, 2, size=n_target).astype(float)
     baseline_beta = np.array([0.35, -0.30, 0.20, 0.25])
     modifier_beta = np.array([-0.25, 0.15, 0.10, -0.10])
 
@@ -90,13 +93,13 @@ def generate_trial_pair(
     target_probability = probabilities(target_x, target_t, target_extra)
     source_y = rng.binomial(1, source_probability).astype(float)
     target_y = rng.binomial(1, target_probability).astype(float)
-    target_probability_1 = probabilities(target_x, np.ones(N_TARGET), target_extra)
-    target_probability_0 = probabilities(target_x, np.zeros(N_TARGET), target_extra)
+    target_probability_1 = probabilities(target_x, np.ones(n_target), target_extra)
+    target_probability_0 = probabilities(target_x, np.zeros(n_target), target_extra)
     true_target_risk_difference = float(np.mean(target_probability_1 - target_probability_0))
     source_mechanism_target_risk_difference = float(
         np.mean(
-            probabilities(target_x, np.ones(N_TARGET), 0.0)
-            - probabilities(target_x, np.zeros(N_TARGET), 0.0)
+            probabilities(target_x, np.ones(n_target), 0.0)
+            - probabilities(target_x, np.zeros(n_target), 0.0)
         )
     )
     return {
@@ -123,17 +126,19 @@ def estimate_transport(data: dict[str, np.ndarray | float]) -> dict[str, float |
     source_y = np.asarray(data["source_y"])
     target_y = np.asarray(data["target_y"])
 
+    n_source = len(source_x)
+    n_target = len(target_x)
     pooled_x = np.vstack([source_x, target_x])
-    target_indicator = np.concatenate([np.zeros(N_SOURCE), np.ones(N_TARGET)])
+    target_indicator = np.concatenate([np.zeros(n_source), np.ones(n_target)])
     sampling_design = np.column_stack([np.ones(len(pooled_x)), pooled_x])
     sampling_beta = logistic_irls(sampling_design, target_indicator)
     source_target_probability = np.clip(
-        expit(linear_predict(np.column_stack([np.ones(N_SOURCE), source_x]), sampling_beta)),
+        expit(linear_predict(np.column_stack([np.ones(n_source), source_x]), sampling_beta)),
         1e-5,
         1.0 - 1e-5,
     )
     sampling_weight = source_target_probability / (1.0 - source_target_probability)
-    sampling_weight *= N_SOURCE / N_TARGET
+    sampling_weight *= n_source / n_target
 
     effective_n = float(np.sum(sampling_weight) ** 2 / np.sum(sampling_weight**2))
     source_weighted_mean = np.array(
@@ -146,7 +151,7 @@ def estimate_transport(data: dict[str, np.ndarray | float]) -> dict[str, float |
     max_smd = float(np.max(np.abs(source_weighted_mean - target_mean) / pooled_sd))
     max_weight = float(np.max(sampling_weight))
     overlap_pass = bool(
-        effective_n >= 0.30 * N_SOURCE and max_weight <= 20.0 and max_smd <= 0.10
+        effective_n >= 0.30 * n_source and max_weight <= 20.0 and max_smd <= 0.10
     )
 
     treated = source_t == 1
@@ -154,12 +159,12 @@ def estimate_transport(data: dict[str, np.ndarray | float]) -> dict[str, float |
         source_y[~treated], sampling_weight[~treated]
     )
     outcome_beta = logistic_irls(outcome_design(source_x, source_t), source_y)
-    target_m1 = expit(linear_predict(outcome_design(target_x, np.ones(N_TARGET)), outcome_beta))
-    target_m0 = expit(linear_predict(outcome_design(target_x, np.zeros(N_TARGET)), outcome_beta))
+    target_m1 = expit(linear_predict(outcome_design(target_x, np.ones(n_target)), outcome_beta))
+    target_m0 = expit(linear_predict(outcome_design(target_x, np.zeros(n_target)), outcome_beta))
     outcome_standardized = float(np.mean(target_m1 - target_m0))
 
-    source_m1 = expit(linear_predict(outcome_design(source_x, np.ones(N_SOURCE)), outcome_beta))
-    source_m0 = expit(linear_predict(outcome_design(source_x, np.zeros(N_SOURCE)), outcome_beta))
+    source_m1 = expit(linear_predict(outcome_design(source_x, np.ones(n_source)), outcome_beta))
+    source_m0 = expit(linear_predict(outcome_design(source_x, np.zeros(n_source)), outcome_beta))
     residual = (
         source_t / 0.5 * (source_y - source_m1)
         - (1.0 - source_t) / 0.5 * (source_y - source_m0)
@@ -181,7 +186,7 @@ def estimate_transport(data: dict[str, np.ndarray | float]) -> dict[str, float |
         "transport_target_randomized_discrepancy": doubly_robust - target_randomized,
         "ipw_or_disagreement": ipw - outcome_standardized,
         "sampling_weight_effective_n": effective_n,
-        "sampling_weight_effective_fraction": effective_n / N_SOURCE,
+        "sampling_weight_effective_fraction": effective_n / n_source,
         "max_sampling_weight": max_weight,
         "max_weighted_smd": max_smd,
         "overlap_pass": overlap_pass,
@@ -274,7 +279,12 @@ def main() -> None:
         else "TRIAL_TRANSPORT_HARNESS_NOT_VERIFIED",
         "boundary": "Controlled real IPD and real overlap/exchangeability audits are still required",
     }
-    frame.to_csv(args.outdir / "synthetic_trial_pair_results.tsv.gz", sep="\t", index=False)
+    frame.to_csv(
+        args.outdir / "synthetic_trial_pair_results.tsv.gz",
+        sep="\t",
+        index=False,
+        compression={"method": "gzip", "mtime": 0},
+    )
     summary_table.to_csv(args.outdir / "synthetic_scenario_summary.tsv", sep="\t", index=False)
     (args.outdir / "summary.json").write_text(
         json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8"

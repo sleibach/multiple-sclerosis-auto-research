@@ -35,6 +35,7 @@ Status: **active**
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | todo | Sensitivity-bounded ranking, no invented biological evidence |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
+| 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |

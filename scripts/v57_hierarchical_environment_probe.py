@@ -320,7 +320,10 @@ def main() -> None:
     prior.to_csv(args.outdir / "prior_sensitivity.tsv", sep="\t", index=False)
     reference_loo.to_csv(args.outdir / "reference_loo_scores.tsv", sep="\t", index=False)
     pd.DataFrame({"null_loo_gain": null_gain}).to_csv(
-        args.outdir / "null_loo_gain.tsv.gz", sep="\t", index=False, compression="gzip"
+        args.outdir / "null_loo_gain.tsv.gz",
+        sep="\t",
+        index=False,
+        compression={"method": "gzip", "mtime": 0},
     )
     (args.outdir / "summary.json").write_text(
         json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8"
