@@ -1,0 +1,41 @@
+{
+  "arrivals_per_sequence": 20,
+  "held_context_dry_run": {
+    "boundary": "Contextual heterogeneous-cohort dry run only; not confirmatory combined evidence",
+    "crossed_20": false,
+    "final_mixture_e_value": 2.1873096205412224,
+    "ordered_cohorts": [
+      "GSE235357",
+      "GSE250453",
+      "GSE253006_TOF_exact",
+      "GSE85034_ADA"
+    ]
+  },
+  "kappas": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "method_verified": true,
+  "null_crossing_probability_range": [
+    0.01254,
+    0.012985
+  ],
+  "null_gate": true,
+  "plan": "docs/plans/V57_SEQUENTIAL_EVIDENCE_PLAN.md",
+  "purpose": "Synthetic sequential-method calibration; no MS biological evidence",
+  "seeds": [
+    57081,
+    57082,
+    57083
+  ],
+  "sequences_per_seed_scenario": 200000,
+  "strong_alternative_gate": true,
+  "strong_crossing_probability_range": [
+    0.99946,
+    0.9996
+  ],
+  "threshold": 20.0,
+  "total_synthetic_sequences": 1800000,
+  "verdict": "SEQUENTIAL_EVIDENCE_HARNESS_VERIFIED"
+}

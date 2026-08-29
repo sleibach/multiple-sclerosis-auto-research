@@ -34,6 +34,7 @@ Status: **active**
 | 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
 | 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | todo | Sensitivity-bounded ranking, no invented biological evidence |
+| 7a | Calibrate an anytime-valid sequential cohort-evidence accumulator | done | Verified on 1.8M synthetic sequences: null crossing 1.25%-1.30%, strong-alt crossing 99.95%-99.96%; held heterogeneous context e=2.19, not confirmatory |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
 | 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
