@@ -1,0 +1,13 @@
+{
+  "purpose": "synthetic prospective batch-allocation method characterization; no MS claim",
+  "synthetic_only": true,
+  "n_scenarios": 3,
+  "n_seeds": 3,
+  "n_candidate_allocations_per_constrained_layout": 5000,
+  "n_technical_null_replicates_per_layout": 20000,
+  "n_technical_null_replicates_total": 540000,
+  "pair_preservation_pass": true,
+  "timepoint_balance_pass": true,
+  "outcome_aware_method_gate": "PASS",
+  "interpretation": "Outcome-aware constrained laboratory allocation is supported as a prospective design option when labels are finalized and laboratory staff remain blinded; the outcome-blind branch does not guarantee response balance. Existing post-data batch diagnostics remain mandatory."
+}
