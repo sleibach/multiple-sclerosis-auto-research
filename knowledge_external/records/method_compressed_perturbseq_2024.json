@@ -1,0 +1,31 @@
+{
+  "claim": "Compressed Perturb-seq was reported to use composite perturbation measurements and sparse recovery to reduce experimental cost while retaining single-perturbation and second-order interaction information in a human macrophage model.",
+  "date_accessed": "2026-08-29",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as design context until a project-specific pilot prospectively compares compressed and conventional measurements with held-out perturbations and prespecified recovery error.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md",
+    "finding_id": "context-dependence and single-factor failure constraint"
+  },
+  "project_use": "External feasibility context for testing perturbation combinations without treating model compression as evidence.",
+  "record_id": "method.nat_biotech_2024.compressed_perturbseq.2026-08-29",
+  "record_type": "external_claim",
+  "relationship_note": "The method offers a way to test interactions more efficiently, but its assumptions and accuracy have not been validated in an MS-relevant human CNS model by this project.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Cleary et al. Scalable genetic screening for regulatory circuits using compressed Perturb-seq. Nature Biotechnology. 2024.",
+    "doi": "10.1038/s41587-023-01964-9",
+    "label": "Compressed Perturb-seq",
+    "url": "https://www.nature.com/articles/s41587-023-01964-9"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-29",
+    "license_or_terms_label": "Publisher page metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "Store bibliographic metadata and a short paraphrase; do not redistribute article text.",
+    "terms_url": "https://www.nature.com/info/terms-and-conditions"
+  },
+  "tags": ["method", "perturb_seq", "compressed_sensing", "genetic_interactions", "macrophage"],
+  "why_unverifiable": "The project has not reproduced the compressed screen or validated sparse recovery in an MS-relevant model."
+}

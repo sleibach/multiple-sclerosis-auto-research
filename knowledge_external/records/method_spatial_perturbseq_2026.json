@@ -1,0 +1,31 @@
+{
+  "claim": "Spatial Perturb-Seq was reported to jointly recover CRISPR perturbation identity, whole-transcriptome state, spatial location, and microenvironmental effects in intact mouse brain tissue.",
+  "date_accessed": "2026-08-29",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Consider only after a lower-complexity human-cell pilot identifies a reproducible perturbation and a tissue model, barcode delivery route, donor/animal replication plan, and spatial negative controls are fixed.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/PROGRESSION_FRONTIER_V54.md",
+    "finding_id": "spatial and progression intervention direction remain blocked"
+  },
+  "project_use": "External method context for a later tissue-context validation stage, not a current first experiment and not MS evidence.",
+  "record_id": "method.nat_communications_2026.spatial_perturbseq.2026-08-29",
+  "record_type": "external_claim",
+  "relationship_note": "The method directly addresses cell-niche context but introduces specialized delivery, species, replication, and cost risks that make it a downstream rather than first-line route.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Shen et al. Spatial perturb-seq: single-cell functional genomics within intact tissue architecture. Nature Communications. 2026.",
+    "doi": "10.1038/s41467-026-69677-6",
+    "label": "Spatial Perturb-Seq",
+    "url": "https://www.nature.com/articles/s41467-026-69677-6"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-29",
+    "license_or_terms_label": "Open-access publisher metadata and short paraphrase",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "Store bibliographic metadata and a short paraphrase; do not redistribute figures or article text.",
+    "terms_url": "https://www.nature.com/info/terms-and-conditions"
+  },
+  "tags": ["method", "spatial_perturb_seq", "crispr", "brain", "cell_cell_context"],
+  "why_unverifiable": "The project has not reproduced the spatial perturbation technology or tested it in an MS lesion model."
+}

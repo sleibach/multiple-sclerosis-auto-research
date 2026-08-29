@@ -1,0 +1,31 @@
+{
+  "claim": "A published active-learning framework selected interventions to reduce uncertainty in causal models, providing an external computational precedent for choosing informative perturbations rather than screening every intervention uniformly.",
+  "date_accessed": "2026-08-29",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "A project-specific pilot must compare a frozen active or optimal design with a random-design control on held-out perturbations; model-selected interventions remain proposals until experimentally measured.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "analysis/v57_perturbation_design/REPORT.md",
+    "finding_id": "synthetic conditional D-optimal design behavior"
+  },
+  "project_use": "External design context only; the project separately tests a generic D-optimal pair design on seeded synthetic screens.",
+  "record_id": "method.nat_machine_intelligence_2024.active_intervention_design.2026-08-29",
+  "record_type": "external_claim",
+  "relationship_note": "The source motivates intervention selection, while the project's synthetic probe establishes only assumption-conditional method behavior and no biology.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Active learning for optimal intervention design in causal models. Nature Machine Intelligence. 2024.",
+    "doi": "10.1038/s42256-023-00719-0",
+    "label": "Active intervention design in causal models",
+    "url": "https://www.nature.com/articles/s42256-023-00719-0"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-29",
+    "license_or_terms_label": "Publisher page metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "Store bibliographic metadata and a short paraphrase; do not redistribute article text.",
+    "terms_url": "https://www.nature.com/info/terms-and-conditions"
+  },
+  "tags": ["method", "active_learning", "intervention_design", "causal_models"],
+  "why_unverifiable": "The project has not reproduced the external benchmarks or applied the method to a real MS-relevant perturbation experiment."
+}

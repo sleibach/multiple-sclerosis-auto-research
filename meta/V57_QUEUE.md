@@ -54,6 +54,8 @@ Status: **active**
 | 6q | Audit frozen V22 feature influence with complete leave-one-gene-out exact inference | done | Pooled family passes, but cohort-specific minimum is 0.68 and cross-environment recurrence remains unestablished |
 | 6r | Test cross-environment multigroup measurement architecture of the frozen modules | done | Both primary modules fail gene-edge concordance, exact identity nulls, and bootstrap stability |
 | 6s | Compare V22 against expression/variance-matched arbitrary module pairs | done | Passes 600k competitive null at all neighborhood/seed settings, bounded by imperfect functional/correlation matching |
+| 6t | Design and simulate a direction-resolving combinatorial perturbation pilot | done | D-optimal pair selection improves held-out interaction recovery only when prespecified descriptors encode real interaction structure; random comparator remains mandatory |
+| 6u | Build a donor-replicated multi-outcome intervention success gate | in-progress | Seeded synthetic comparison of scalar ranking versus toxicity-aware, donor-generalizing rescue criteria |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -201,6 +203,17 @@ Status: **active**
   measurement invariance or cross-environment replicability. A byte-identical
   rerun verified the aggregate outputs; random module identities were not
   retained or mined.
+- Iteration 20 checkpoint at `2026-08-29T23:45:40Z`: 9,000 seeded synthetic
+  pair screens compared a frozen 36-pair D-optimal layout with equally sized
+  random layouts over 24 perturbations. D-optimal selection improved held-out
+  RMSE, rank correlation, and top-hit recovery when interactions were aligned
+  with the six prespecified perturbation descriptors, retained a smaller
+  advantage under mixed structure, and lost its rank/top-hit advantage under
+  idiosyncratic interactions. This validates only a conditional design method:
+  descriptor generalization, a random-design comparator, and held-out
+  perturbations are mandatory. Five classed external method records and a
+  staged human iPSC-microglia CRISPRi/a decision tree were added as method
+  context, not project evidence or a claimed MS target.
 
 ## Resume Rule
 
