@@ -33,6 +33,7 @@ Status: **active**
 | 6c | Build and calibrate an outcome-blind cohort-shift preflight | done | No concordant energy/MMD OOD flag; MMD-only flag for GSE235357 stable across seeds; diagnostic remains prospective |
 | 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
 | 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
+| 6f | Probe persistent 0D topology of paired cell-state geometry | done | Not estimable: frozen 150-cell paired threshold leaves 4 non-remitting and 0 remitting patients; no outcome test run and threshold not lowered |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | done | No single robust winner across six views; four decision-specific first asks and a four-strategy two-package Pareto frontier |
 | 7a | Calibrate an anytime-valid sequential cohort-evidence accumulator | done | Verified on 1.8M synthetic sequences: null crossing 1.25%-1.30%, strong-alt crossing 99.95%-99.96%; held heterogeneous context e=2.19, not confirmatory |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | done | Six-route fail-closed router passes 7/7 synthetic declarations; current matrix preserves causal limits for five package routes |
@@ -85,6 +86,11 @@ Status: **active**
   effects, active-only pharmacodynamics, randomized molecular effects,
   mediation candidates, and trial transport distinct; unavailable fields are
   never assumed.
+- Iteration 7 checkpoint at `2026-08-29T22:57:27Z`: exact 0D persistence was
+  implemented for paired multivariate cell states, but the frozen 150-cell
+  requirement left four non-remitting and zero remitting patients. No outcome
+  or permutation test was run, and the threshold was not lowered after seeing
+  the imbalance. Topology remains a new-data method, not a held-data result.
 
 ## Resume Rule
 
