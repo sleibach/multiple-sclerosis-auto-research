@@ -1,0 +1,33 @@
+{
+  "candidate_count": 7,
+  "meaningful_improvement_margin": 0.05,
+  "n_bootstrap_per_seed_and_set": 200000,
+  "primary_family_nonsuperiority_pass": false,
+  "purpose": "V57 paired AUC successor non-superiority probe; not external validation",
+  "seeds": [
+    57091,
+    57092,
+    57093
+  ],
+  "sets": {
+    "all_primary_plus_exact_uc": {
+      "best_observed_candidate": "hla_ifn_product",
+      "best_observed_delta_auc": 0.00877192982456143,
+      "family_nonsuperiority_all_seeds": false,
+      "family_upper_q95_max_across_seeds": 0.17763157894736836,
+      "family_upper_q95_min_across_seeds": 0.17543859649122806,
+      "locked_auc": 0.6557017543859649,
+      "n": 43
+    },
+    "bounded_immune_remodeling": {
+      "best_observed_candidate": "coupling_coordination",
+      "best_observed_delta_auc": -0.07777777777777783,
+      "family_nonsuperiority_all_seeds": false,
+      "family_upper_q95_max_across_seeds": 0.18888888888888888,
+      "family_upper_q95_min_across_seeds": 0.18888888888888888,
+      "locked_auc": 0.8111111111111111,
+      "n": 19
+    }
+  },
+  "verdict": "NO_OBSERVED_IMPROVEMENT_BUT_MEANINGFUL_GAIN_NOT_EXCLUDED"
+}

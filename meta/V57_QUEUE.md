@@ -48,6 +48,7 @@ Status: **active**
 | 6k | Test formal cross-environment replicability with partial conjunction | done | At-least-two test fails: dependence-valid p=0.464, independence sensitivity p=0.299 |
 | 6l | Probe functional trajectory eligibility without fitting underpowered curves | done | Later treated timepoints have n=1-2 and no balanced patient-level trajectory; blocked on >=3 common observations per patient |
 | 6m | Build sharp AUC partial-identification bounds for missing validation labels | done | Universal AUC>=0.60 through 2 missing labels without prevalence, 3 with audited class total; four can reach 0.433 |
+| 6n | Test whether fixed-score successors are demonstrably non-superior, not merely nonsignificant | done | Best observed delta -0.078, but family upper bound 0.189; meaningful +0.05 gain cannot be excluded |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -135,6 +136,12 @@ Status: **active**
   missing labels without prevalence information and through three when an
   independently audited responder total is known. Four missing labels can
   lower the bound to 0.433. Participant-level patterns were not persisted.
+- Iteration 14 checkpoint at `2026-08-29T23:17:36Z`: 1.2 million paired
+  cohort-by-outcome bootstrap resamples tested seven fixed-score successors
+  against V27's unchanged +0.05 AUC margin. The best observed bounded
+  candidate remained worse by 0.078, but the family-maximum one-sided upper
+  bound was 0.189 in all seeds. No successor is promoted, while a meaningful
+  gain is not statistically excluded; non-significance is not equivalence.
 
 ## Resume Rule
 
