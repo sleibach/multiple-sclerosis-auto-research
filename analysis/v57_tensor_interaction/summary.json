@@ -1,0 +1,35 @@
+{
+  "additive_weighted_within_disease_auc": 0.6857142857142857,
+  "modules": [
+    "complement_phagocytosis",
+    "hif_nampt_metabolic",
+    "hla_ii_apc",
+    "host_defense_cost",
+    "ifn_apc",
+    "inflammatory_nfkb",
+    "lipid_loader_repair",
+    "lysosomal_apc",
+    "mif_cd74_receptor_state",
+    "mixscale_validated_ifng_readout",
+    "tnf_autocrine_nfkb"
+  ],
+  "n_patients": 28,
+  "n_permutations": 200000,
+  "plan": "docs/plans/V57_TENSOR_INTERACTION_PLAN.md",
+  "promotion_gate": false,
+  "purpose": "IBD method probe only; no MS biological claim",
+  "seed": 57071,
+  "states": [
+    "DC",
+    "Mono_macro"
+  ],
+  "tensor_disease_specific_auc": {
+    "CD": 0.5,
+    "UC": 0.8666666666666667
+  },
+  "tensor_gain_permutation_p": 0.4919575402122989,
+  "tensor_max_model_fwer_p": 0.16828415857920712,
+  "tensor_minus_additive_auc": -0.015476190476190421,
+  "tensor_weighted_within_disease_auc": 0.6702380952380953,
+  "verdict": "NO_REPRODUCIBLE_TENSOR_GAIN"
+}

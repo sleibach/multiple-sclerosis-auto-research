@@ -32,6 +32,7 @@ Status: **active**
 | 6b | Probe multivariate cell-state geometry beyond marginal module transport | done | No compartment passed the joint geometry gate; verdict stable across three cell-subsampling seeds |
 | 6c | Build and calibrate an outcome-blind cohort-shift preflight | done | No concordant energy/MMD OOD flag; MMD-only flag for GSE235357 stable across seeds; diagnostic remains prospective |
 | 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
+| 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | todo | Sensitivity-bounded ranking, no invented biological evidence |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
