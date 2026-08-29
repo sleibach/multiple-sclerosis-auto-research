@@ -1,0 +1,24 @@
+{
+  "maximum_prior_sensitivity_gain": -0.052818693831999664,
+  "minimum_prior_sensitivity_gain": -0.7751263815924792,
+  "n_environments": 4,
+  "n_null_permutations": 20000,
+  "null_gain_quantiles": {
+    "q50": -0.2648764735979646,
+    "q90": 0.157840382507546,
+    "q95": 0.3762243388036418,
+    "q99": 0.9844001660415983
+  },
+  "plan": "docs/plans/V57_HIERARCHICAL_ENVIRONMENT_PLAN.md",
+  "promotion_gate": false,
+  "purpose": "Method-utility probe around frozen effects; no biological discovery claim",
+  "reference_gain_null_p": 0.37483125843707815,
+  "reference_loo_log_score_gain": -0.19219243146395515,
+  "reference_prior": {
+    "mu_sd": 1.0,
+    "tau_scale": 0.5
+  },
+  "reference_worst_cohort_gain": -0.13552828734496847,
+  "seed": 57051,
+  "verdict": "HIERARCHICAL_MODEL_NOT_READY"
+}

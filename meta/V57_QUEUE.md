@@ -30,8 +30,11 @@ Status: **active**
 | 6 | Probe optimal-transport or trajectory geometry on an eligible paired/longitudinal held dataset | done | No response-specific feature survived max-T and sensitivity gates |
 | 6a | Probe formal compositional log-ratio change in paired single-cell data | done | No category passed the joint raw/residualized/disease-consistency max-T gate; verdict stable across three seeds |
 | 6b | Probe multivariate cell-state geometry beyond marginal module transport | done | No compartment passed the joint geometry gate; verdict stable across three cell-subsampling seeds |
+| 6c | Build and calibrate an outcome-blind cohort-shift preflight | done | No concordant energy/MMD OOD flag; MMD-only flag for GSE235357 stable across seeds; diagnostic remains prospective |
+| 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | todo | Sensitivity-bounded ranking, no invented biological evidence |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
+| 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -45,6 +48,14 @@ Status: **active**
   transport, formal CLR composition, and joint cell-state geometry produced
   corrected nulls in held IBD data. All three stochastic probes retained
   their verdicts across the predeclared sensitivity seeds.
+- Iteration 2 checkpoint at `2026-08-29T22:28:26Z`: outcome-blind energy/MMD
+  shift preflight, prior-sensitive hierarchical pooling, and synthetic
+  trial-to-trial transport were tested. No held cohort was concordantly OOD;
+  hierarchical pooling reduced whole-cohort predictive score under every
+  prior; and the transport harness correctly detected hidden heterogeneity
+  and positivity failure but missed its strict n=800 covariate-shift
+  precision/overlap gate. The latter is a method-engineering result, not MS
+  evidence, and remains unverified pending a frozen sample-size remediation.
 
 ## Resume Rule
 

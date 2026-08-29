@@ -1,0 +1,29 @@
+{
+  "concordant_ood_cohorts": [],
+  "energy_null": {
+    "null_max_q90": 0.5925799012184143,
+    "null_max_q95": 0.6821489930152893,
+    "null_max_q99": 0.8903621435165405
+  },
+  "energy_ood_cohorts": [],
+  "features": [
+    "delta_IFN_APC",
+    "delta_HLAII",
+    "delta_RECEPTOR"
+  ],
+  "mmd_null": {
+    "null_max_q90": 0.07787371426820755,
+    "null_max_q95": 0.0979757010936737,
+    "null_max_q99": 0.1442808359861374
+  },
+  "mmd_ood_cohorts": [
+    "GSE235357"
+  ],
+  "n_cohorts": 4,
+  "n_permutations_per_family": 100000,
+  "n_subjects": 43,
+  "plan": "docs/plans/V57_OUTCOME_BLIND_SHIFT_PLAN.md",
+  "purpose": "Outcome-blind transport diagnostic; no biological finding or rule change",
+  "rbf_bandwidth_squared": 3.430609386767287,
+  "seed": 57043
+}

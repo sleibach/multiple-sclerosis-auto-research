@@ -1,0 +1,26 @@
+{
+  "boundary": "Controlled real IPD and real overlap/exchangeability audits are still required",
+  "gates": {
+    "covariate_shift_all_seeds_pass": false,
+    "hidden_modifier_all_seeds_pass": true,
+    "positivity_failure_all_seeds_pass": true
+  },
+  "n_source_per_pair": 800,
+  "n_target_per_pair": 800,
+  "overall_method_verification": false,
+  "plan": "docs/plans/V57_TRIAL_TRANSPORT_PLAN.md",
+  "purpose": "Synthetic method verification only; no MS or treatment evidence",
+  "replicates_per_seed_scenario": 250,
+  "scenarios": [
+    "covariate_shift_only",
+    "hidden_target_modifier",
+    "positivity_failure"
+  ],
+  "seeds": [
+    57061,
+    57062,
+    57063
+  ],
+  "total_synthetic_trial_pairs": 2250,
+  "verdict": "TRIAL_TRANSPORT_HARNESS_NOT_VERIFIED"
+}
