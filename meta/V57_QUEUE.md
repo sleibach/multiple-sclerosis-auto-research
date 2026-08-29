@@ -33,7 +33,7 @@ Status: **active**
 | 6c | Build and calibrate an outcome-blind cohort-shift preflight | done | No concordant energy/MMD OOD flag; MMD-only flag for GSE235357 stable across seeds; diagnostic remains prospective |
 | 6d | Test prior-sensitive hierarchical partial pooling across environments | done | Hierarchy lost LOO log score under all 12 priors; reference null p=0.375; method not ready |
 | 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
-| 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | todo | Sensitivity-bounded ranking, no invented biological evidence |
+| 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | done | No single robust winner across six views; four decision-specific first asks and a four-strategy two-package Pareto frontier |
 | 7a | Calibrate an anytime-valid sequential cohort-evidence accumulator | done | Verified on 1.8M synthetic sequences: null crossing 1.25%-1.30%, strong-alt crossing 99.95%-99.96%; held heterogeneous context e=2.19, not confirmatory |
 | 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
@@ -59,6 +59,13 @@ Status: **active**
   and positivity failure but missed its strict n=800 covariate-shift
   precision/overlap gate. The latter is a method-engineering result, not MS
   evidence, and remains unverified pending a frozen sample-size remediation.
+- Iteration 3 checkpoint at `2026-08-29T22:41:29Z`: an anytime-valid
+  cohort-evidence process was verified on 1.8 million seeded synthetic
+  sequences; held heterogeneous cohorts did not cross its evidence boundary.
+  A separate cross-method acquisition portfolio evaluated 92 portfolios under
+  six priority views. No package was a universal robust winner: response-bulk,
+  longitudinal progression, randomized progression IPD, and directional
+  perturbation are distinct first asks for distinct decisions.
 
 ## Resume Rule
 
