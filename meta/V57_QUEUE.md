@@ -52,6 +52,7 @@ Status: **active**
 | 6o | Audit mechanism-boundary selection with cohort-subset selective inference | done | Boundary survives max-six-pair correction: raw p 0.0275-0.0281, percentile p 0.0264-0.0274 |
 | 6p | Test prospective constrained batch allocation against response-correlated technical bias | done | Outcome-aware blinded-lab layout lowers synthetic high-AUC rate; outcome-blind covariate balancing does not control response imbalance |
 | 6q | Audit frozen V22 feature influence with complete leave-one-gene-out exact inference | done | Pooled family passes, but cohort-specific minimum is 0.68 and cross-environment recurrence remains unestablished |
+| 6r | Test cross-environment multigroup measurement architecture of the frozen modules | done | Both primary modules fail gene-edge concordance, exact identity nulls, and bootstrap stability |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -174,6 +175,17 @@ Status: **active**
   cohort remains strong. This same-data sensitivity does not repair the formal
   partial-conjunction failure, prove recurrence, or validate the rule. A
   byte-identical rerun verified all outputs.
+- Iteration 18 checkpoint at `2026-08-29T23:32:37Z`: multigroup
+  measurement architecture was audited using paired gene-delta Spearman
+  networks, exact gene-identity permutations, and 30,000 patient bootstraps per
+  module. IFN/APC edge concordance was 0.015 (exact p=0.467; minimum bootstrap
+  lower bound -0.322); HLA-II was -0.445 (exact p=0.992; lower bound -0.463).
+  The 12-gene union also failed (0.167, p=0.132). Both primary modules therefore
+  fail the frozen invariance gate. The empirical bounded score associations
+  remain, but these two environments cannot establish that the shared gene
+  names measure a common latent APC/HLA-II architecture. Tissue, therapy, and
+  platform remain inseparable causes. A byte-identical rerun confirmed the
+  result.
 
 ## Resume Rule
 

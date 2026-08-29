@@ -1,0 +1,14 @@
+{
+  "purpose": "cross-environment measurement-architecture audit; no new rule or biological claim",
+  "cohorts": {
+    "GSE235357": 10,
+    "GSE253006_TOF_exact": 9
+  },
+  "primary_modules": [
+    "IFN_APC",
+    "HLAII"
+  ],
+  "n_bootstraps_per_module": 30000,
+  "global_measurement_invariance_gate": "FAIL",
+  "interpretation": "The bounded environments do not establish invariant internal measurement architecture for both frozen modules."
+}
