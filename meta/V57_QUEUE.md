@@ -35,7 +35,7 @@ Status: **active**
 | 6e | Test donor-state-module tensor interactions against an additive baseline | done | Tensor AUC 0.670, below additive 0.686; max-model p=0.168, gain p=0.492; stable corrected null |
 | 7 | Build a robust value-of-information analysis for next-cohort acquisition using existing power/quality envelopes | done | No single robust winner across six views; four decision-specific first asks and a four-strategy two-package Pareto frontier |
 | 7a | Calibrate an anytime-valid sequential cohort-evidence accumulator | done | Verified on 1.8M synthetic sequences: null crossing 1.25%-1.30%, strong-alt crossing 99.95%-99.96%; held heterogeneous context e=2.19, not confirmatory |
-| 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | todo | Identifiability table and executable analysis contracts |
+| 8 | Assess causal target-trial / transportability designs for HERCULES, ToleDYNAMIC, and validation cohorts | done | Six-route fail-closed router passes 7/7 synthetic declarations; current matrix preserves causal limits for five package routes |
 | 8a | Verify trial-to-trial randomized-effect transport under known synthetic scenarios | done | Hidden modifier and positivity gates pass; n=800 covariate-shift precision/overlap gate fails across seeds, so harness not yet verified |
 | 8b | Diagnose failed trial-transport calibration without relaxing the gate | done | No size passes unchanged gate; precision clears at n=2400 but absolute max-weight criterion fails 21.5%-29.0% and is non-scale-invariant |
 | 8c | Test a scale-stable overlap guard and nuisance-model robustness | done | Six of seven gates pass; variance-shift overlap only 19.3%-26.0%, so candidate harness remains unverified and primary failure unchanged |
@@ -79,6 +79,12 @@ Status: **active**
   eligible through shift severity 0.50, while 0.75 and 1.00 failed. Effective
   sample fraction and first/second-moment balance, not the weight-tail ratio,
   defined the prospective fail-closed boundary.
+- Iteration 6 checkpoint at `2026-08-29T22:53:26Z`: a reusable six-estimand
+  causal-design router passed 7/7 synthetic positive and negative declarations.
+  The current-route matrix keeps prognostic monitoring, randomized clinical
+  effects, active-only pharmacodynamics, randomized molecular effects,
+  mediation candidates, and trial transport distinct; unavailable fields are
+  never assumed.
 
 ## Resume Rule
 
