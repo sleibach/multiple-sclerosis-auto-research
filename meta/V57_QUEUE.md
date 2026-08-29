@@ -57,7 +57,8 @@ Status: **active**
 | 6t | Design and simulate a direction-resolving combinatorial perturbation pilot | done | D-optimal pair selection improves held-out interaction recovery only when prespecified descriptors encode real interaction structure; random comparator remains mandatory |
 | 6u | Build a donor-replicated multi-outcome intervention success gate | done | Frozen gate eliminates false promotions but is underpowered at 8 donors; 12 is the first tested fully passing design point |
 | 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | done | None passes all high-precision frozen checks; 11 is close but misses the no-more-than-0.10 sensitivity-loss criterion |
-| 6w | Verify a high-precision positive donor-count region without changing the gate | todo | Frozen 12-16 donor sweep establishes whether the earlier 12-donor pass survives 2,000-screen precision |
+| 6w | Verify a high-precision positive donor-count region without changing the gate | done | All 90 frozen checks pass at 12, 14, and 16 donors; 12 is the first high-precision tested positive design point |
+| 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | in-progress | Frozen heterogeneous synthetic extension tests whether pooled success masks a harmful subgroup |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -237,6 +238,14 @@ Status: **active**
   averaged endpoint in at least one cell. The null is retained rather than
   relaxing the rule. A high-precision positive-control sweep is required before
   treating the earlier 12-donor pass as a stable design boundary.
+- Iteration 23 checkpoint at `2026-08-29T23:54:48Z`: a separate preregistered
+  36,000-screen positive-region sweep retained the parent generator and gate at
+  12, 14, and 16 donors. Every one of 90 frozen checks passed. At 12 donors,
+  probability of at least one broad rescue was 0.927-0.941 across cells,
+  false-promotion probability was 0-0.0005, and precision was 0.9998-1.0.
+  Twelve is therefore the first high-precision tested positive design point
+  under this synthetic variance model. This is a prospective design result,
+  not biological power or evidence that a rescue perturbation exists.
 
 ## Resume Rule
 
