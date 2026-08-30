@@ -16,6 +16,8 @@ Start every resumed session here. Work the first unresolved item unless a higher
    therapies, timepoints, endpoints, rules, or overlapping participants.
    Audit source-family, center, biobank, and participant overlap explicitly;
    correlated sites must become one completed dependence-cluster evidence unit.
+   Use `scripts/v57_clustered_federated_evidence.py` only with a manifest frozen
+   before results and a truthful cross-cluster independence attestation.
 3. For progression therapeutics, seek a blinded variance pilot for
    bidirectional CRISPRi/a in donor-replicated human iPSC microglia with
    efficacy, viability, neural-support/myelin, guide, context, batch, and
@@ -48,6 +50,8 @@ V57 state:
   `docs/validation/TIED_SITE_EPROCESS_V57.md`
 - dependence/cluster-count boundary:
   `docs/validation/DEPENDENCE_CLUSTER_COUNT_V57.md`
+- clustered federated operation:
+  `docs/validation/CLUSTERED_FEDERATED_EVIDENCE_V57.md`
 - progression multifidelity route:
   `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
 - assay safeguards:

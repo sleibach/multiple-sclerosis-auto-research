@@ -1,0 +1,8 @@
+case_id	expected_status	expectation_met
+valid_four_clusters	PASS	True
+too_few_clusters	FAIL	True
+incomplete_overlap_review	FAIL	True
+independence_not_attested	FAIL	True
+missing_site_assignment	FAIL	True
+oversized_cluster	FAIL	True
+group_split_across_clusters	FAIL	True

@@ -35,6 +35,9 @@ The durable advances are evidence-acquisition and experiment methods:
   clusters. Under the conditional worst tested generator, four independent
   clusters were the first all-seed pass (null max `0.00434`, strong min
   `0.81782`);
+- a separate clustered combiner now operationalizes that boundary and passes
+  `7/7` synthetic accept/refuse fixtures; the original independent-site
+  combiner remains unchanged and hidden overlap remains disqualifying;
 - a direction-resolving human functional route now joins bidirectional
   CRISPRi/a in donor-replicated iPSC microglia to crossed-donor glial
   organoid/assembloid confirmation, with synthetic efficacy, safety, context,
@@ -48,7 +51,7 @@ technical and donor-level variance for a direction-resolving human microglial
 pilot; do not nominate a gene before that gate is run. See
 `docs/history/METHOD_PROBES_V57.md`, resume from `meta/V57_QUEUE.md`, and keep
 all synthetic operating points separate from empirical MS effects.
-The expanded V57 claim/artifact regression passes `79/79` invariants.
+The expanded V57 claim/artifact regression passes `83/83` invariants.
 
 ## V56 Progression-Therapy Opportunity Audit
 

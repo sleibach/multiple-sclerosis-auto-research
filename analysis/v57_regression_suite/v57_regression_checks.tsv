@@ -52,6 +52,9 @@ cluster_e_power_failed	PASS	[0.69502, 0.96088]
 cluster_count_synthetic	PASS	True
 cluster_count_boundary_resolved	PASS	INDEPENDENT_CLUSTER_COUNT_BOUNDARY_RESOLVED
 cluster_count_first_pass_four	PASS	{'maximum_seed_null_crossing': 0.00434, 'minimum_seed_strong_crossing': 0.81782, 'n_independent_clusters': 4, 'nominal_sites': 16, 'null_gate': True, 'status': 'PASS', 'strong_power_gate': True}
+clustered_federated_synthetic	PASS	True
+clustered_federated_all_fixtures	PASS	{'n_cases': 7, 'n_pass': 7, 'overall_status': 'PASS', 'purpose': 'clustered federated evidence operational regression; no biological claim', 'synthetic': True}
+clustered_valid_four_clusters	PASS	{'crossed_20': True, 'final_mixture_e_value': 97.20233523995661, 'interpretation_boundary': 'Within-cluster averaging requires valid site e-factors; products require truthful cross-cluster independence.', 'minimum_planning_clusters': 4, 'n_clusters': 4, 'n_problems': 0, 'n_records': 8, 'overall_status': 'PASS', 'problems': [], 'purpose': 'clustered same-estimand federated evidence operation; no standalone biological claim', 'synthetic': True}
 multifidelity_parent_failure_retained	PASS	status=FAIL;n_fail=1
 multifidelity_parent_synthetic	PASS	True
 multifidelity_safety_extension_passed	PASS	{'mean_safety_scale_probability': 0.84, 'minimum_seed_safety_scale_probability': 0.826, 'n_test_donor_pairs': 24, 'n_train_donor_pairs': 32, 'status': 'PASS'}
@@ -78,3 +81,4 @@ plan_exists_V57_DEPENDENT_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_
 plan_exists_V57_DEPENDENT_SITE_BONFERRONI_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_BONFERRONI_PLAN.md
 plan_exists_V57_DEPENDENT_SITE_EVALUE_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md
 plan_exists_V57_DEPENDENCE_CLUSTER_COUNT_PLAN	PASS	docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md
+plan_exists_V57_CLUSTERED_FEDERATED_OPERATION_PLAN	PASS	docs/plans/V57_CLUSTERED_FEDERATED_OPERATION_PLAN.md

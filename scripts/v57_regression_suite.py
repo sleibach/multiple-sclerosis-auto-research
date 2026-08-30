@@ -122,6 +122,12 @@ def main() -> int:
     check("cluster_count_boundary_resolved", cluster_count["overall_status"] == "PASS", str(cluster_count["verdict"]))
     check("cluster_count_first_pass_four", int(first_cluster_pass["n_independent_clusters"]) == 4, str(first_cluster_pass))
 
+    clustered = load("analysis/v57_clustered_federated_evidence/synthetic_check_summary.json")
+    check("clustered_federated_synthetic", clustered["synthetic"] is True, str(clustered["synthetic"]))
+    check("clustered_federated_all_fixtures", clustered["overall_status"] == "PASS" and int(clustered["n_cases"]) == 7 and int(clustered["n_pass"]) == 7, str(clustered))
+    clustered_valid = load("analysis/v57_clustered_federated_evidence/valid_four_clusters/clustered_evidence_summary.json")
+    check("clustered_valid_four_clusters", clustered_valid["overall_status"] == "PASS" and int(clustered_valid["n_clusters"]) == 4, str(clustered_valid))
+
     parent = load("analysis/v57_multifidelity_escalation/multifidelity_escalation_summary.json")
     safety = load("analysis/v57_multifidelity_safety_power/multifidelity_safety_power_summary.json")
     negative = load("analysis/v57_negative_control_finite_sample/negative_control_finite_sample_summary.json")
@@ -158,6 +164,7 @@ def main() -> int:
         "docs/plans/V57_DEPENDENT_SITE_BONFERRONI_PLAN.md",
         "docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md",
         "docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md",
+        "docs/plans/V57_CLUSTERED_FEDERATED_OPERATION_PLAN.md",
     )
     for path in plans:
         check(f"plan_exists_{Path(path).stem}", (ROOT / path).exists(), path)

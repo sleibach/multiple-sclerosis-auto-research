@@ -60,6 +60,13 @@ that conditional generator. See
 [`DEPENDENCE_CLUSTER_COUNT_V57.md`](DEPENDENCE_CLUSTER_COUNT_V57.md). This is a
 planning warning, not a universal cohort minimum.
 
+The clustered operation is implemented separately in
+[`CLUSTERED_FEDERATED_EVIDENCE_V57.md`](CLUSTERED_FEDERATED_EVIDENCE_V57.md).
+It requires frozen membership, complete overlap review, cross-cluster
+independence attestation, exact site assignment, 2-4 members per cluster, and
+at least four independent clusters. The original independent-site combiner is
+unchanged.
+
 ```bash
 .venv/bin/python scripts/v57_federated_evidence_accumulator.py combine \
   --record <site_1.json> \
