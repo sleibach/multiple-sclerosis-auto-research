@@ -1,0 +1,55 @@
+{
+  "arrivals": 12,
+  "interpretation_boundary": "Synthetic method behavior only; no site or MS evidence accumulated.",
+  "maximum_null_mean_e_factor": 0.9914071276750249,
+  "null_crossing_range": [
+    0.00325,
+    0.00394
+  ],
+  "null_e_factor_gate": true,
+  "null_optional_stopping_gate": true,
+  "overall_status": "PASS",
+  "plan": "docs/plans/V57_DISCRETE_SITE_EPROCESS_PLAN.md",
+  "purpose": "Discrete small-site sequential-method calibration; no MS biological evidence",
+  "seeds": [
+    57121,
+    57122,
+    57123
+  ],
+  "sequences_per_seed_effect_mode": 100000,
+  "site_splits": [
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      10,
+      10
+    ]
+  ],
+  "strong_crossing_range": [
+    0.96901,
+    0.97043
+  ],
+  "strong_power_gate": true,
+  "synthetic": true,
+  "total_sequences": 1800000,
+  "total_site_records_simulated": 21600000,
+  "verdict": "DISCRETE_SITE_EPROCESS_VERIFIED"
+}

@@ -61,6 +61,13 @@ below the frozen `0.055` gate. The new operational regression verifies that a
 valid record sequence passes while a duplicate independence group and a
 mismatched harness hash fail.
 
+A second, predeclared calibration now matches the discrete small-site p-values
+that the V42 harness actually exports. Across another 1.8 million synthetic
+sequences and 21.6 million site arrivals, exact rank-test and V42 plus-one
+permutation modes had null crossing `0.00325-0.00394` by 12 arrivals and effect
+`0.9` crossing `0.96901-0.97043`. All frozen gates passed. See
+[`DISCRETE_SITE_EPROCESS_V57.md`](DISCRETE_SITE_EPROCESS_V57.md).
+
 ```bash
 .venv/bin/python scripts/v57_federated_evidence_accumulator.py synthetic-check \
   --outdir analysis/v57_federated_evidence
@@ -76,3 +83,6 @@ independently rerunnable merely because multiple sites contribute.
 
 Heterogeneous disease, therapy, timepoint, or endpoint cohorts must not be
 combined. The four old comparator cohorts remain a contextual dry run only.
+Tied scores or a response-correlated preprocessing pipeline require a valid,
+separately justified site-level randomization test; the synthetic calibration
+does not repair an invalid input p-value.

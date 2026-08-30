@@ -68,6 +68,7 @@ Status: **active**
 | 6ae | Build a privacy-preserving code-to-data validation executor | done | Frozen V42 harness runs locally with denied egress/subprocess, ephemeral private staging, aggregate-only export, hash attestation, and passing synthetic leak/tamper plus 254-check receipt-schema tests |
 | 6af | Resolve the multifidelity gate's hidden-harm safety-power failure | done | Unchanged donor grid first passes every seed at 32 training plus 24 held-out donor pairs (mean 0.840; minimum 0.826) |
 | 6ag | Operationalize privacy-preserving multi-site evidence accumulation | done | Attested aggregate exports convert to same-rule site records; duplicate independence groups and harness-hash mismatches fail before the verified mixture e-process |
+| 6ah | Calibrate federated evidence for discrete small-site permutation p-values | done | 1.8M sequences/21.6M arrivals pass: null crossing 0.00325-0.00394 and effect-0.9 crossing 0.96901-0.97043 |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -358,6 +359,14 @@ Status: **active**
   remaining measurement-error proposal requires empirical blinded replicate
   variance. RPT was not used because this critique had no justified tabular
   prediction input.
+- Iteration 34 checkpoint at `2026-08-30T00:41:45Z`: the unchanged federated
+  mixture e-process was calibrated against exact discrete Mann-Whitney tails
+  and the actual V42 10,000-permutation plus-one approximation over fixed
+  `4/5` through `10/10` class splits. Across 1.8 million seeded sequences and
+  21.6 million synthetic site arrivals, null optional-stopping crossing was
+  `0.00325-0.00394`, the maximum null mean e-factor was `0.99141`, and effect
+  `0.9` crossed by site 12 in `0.96901-0.97043`. All frozen gates passed. This
+  verifies method behavior only; no external cohort evidence was accumulated.
 
 ## Resume Rule
 
