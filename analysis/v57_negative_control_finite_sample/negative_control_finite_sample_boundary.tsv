@@ -1,0 +1,7 @@
+n_train	n_test	maximum_seed_clean_fwer	minimum_seed_common_drift_power	minimum_seed_specific_artifact_power	status
+12	8	0.0388	0.9646	0.961	PASS
+16	12	0.0452	0.9998	0.9996	PASS
+20	16	0.047	1.0	1.0	PASS
+24	20	0.0468	1.0	1.0	PASS
+32	24	0.047	1.0	1.0	PASS
+40	32	0.0516	1.0	1.0	FAIL

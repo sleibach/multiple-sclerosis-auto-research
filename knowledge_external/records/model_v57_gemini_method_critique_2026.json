@@ -1,0 +1,31 @@
+{
+  "claim": "A generic Gemini design critique proposed non-targeting perturbations as negative controls for hidden assay drift in a two-fidelity perturbation design.",
+  "date_accessed": "2026-08-30",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "The proposal was tested first with a naive simultaneous cutoff and then with a separately frozen finite-sample family correction under seeded synthetic assay scenarios. Model commentary itself is never evidence.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/validation/MULTIFIDELITY_ESCALATION_V57.md",
+    "finding_id": "synthetic multifidelity assay-design boundary"
+  },
+  "project_use": "Proposal source for a negative-control assay safeguard; no scientific or biological claim.",
+  "record_id": "model.sap_ai_core.gemini_2_5_pro.v57_method_critique.2026-08-30",
+  "record_type": "external_claim",
+  "relationship_note": "The critique addresses method control design, not MS biology. Grounded dispositions come only from committed synthetic tests.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "SAP AI Core response from gemini-2.5-pro to a generic method-only prompt; raw response not retained in the repository.",
+    "doi": "",
+    "label": "Gemini 2.5 Pro generic method critique via SAP AI Core",
+    "url": "https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-30",
+    "license_or_terms_label": "Private API output; short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "No raw generated response is committed. Store only proposal provenance and grounded disposition.",
+    "terms_url": "https://help.sap.com/docs/sap-ai-core"
+  },
+  "tags": ["model_proposal", "method_critique", "multifidelity", "negative_control"],
+  "why_unverifiable": "A model suggestion is not a factual source and cannot be independently rerun as biological evidence; only the separately committed method test is groundable."
+}

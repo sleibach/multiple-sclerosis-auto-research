@@ -6,14 +6,14 @@ Grounded project findings remain in the normal project report/history/validation
 
 ## Counts
 
-- external records indexed: `78`
+- external records indexed: `99`
 - missing sources: `0`
 - missing not-grounded markers: `0`
 - source domains represented: `35`
-- records with source_terms metadata: `44`
-- records missing optional source_terms metadata: `34`
+- records with source_terms metadata: `40`
+- records missing optional source_terms metadata: `31`
 - V48 governance controls tracked: `95`
-- reachability maintenance warnings: `2`
+- reachability maintenance warnings: `7`
 - V48 convergence rows asserted: `7`
 - V48 contradiction rows flagged: `0`
 - V50 additional source-specific convergences asserted: `11`
@@ -26,12 +26,14 @@ Grounded project findings remain in the normal project report/history/validation
 
 | field | value | count |
 |---|---|---:|
-| `epistemic_class` | `external-unverifiable` | 78 |
-| `relationship_to_project_findings` | `orthogonal` | 44 |
-| `relationship_to_project_findings` | `supports` | 34 |
-| `record_type` | `external_claim` | 44 |
+| `epistemic_class` | `external-unverifiable` | 92 |
+| `epistemic_class` | `external-verifiable` | 7 |
+| `relationship_to_project_findings` | `orthogonal` | 59 |
+| `relationship_to_project_findings` | `supports` | 40 |
+| `record_type` | `external_claim` | 61 |
+| `record_type` | `external_resource` | 7 |
 | `record_type` | `external_resource_catalog` | 31 |
-| `record_type` | `structural_prediction` | 3 |
+| `record_type` | `structural_prediction` | 5 |
 
 ## Navigation
 
@@ -70,6 +72,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V50 convergence/contradiction reassessment](synthesis/CONVERGENCE_CONTRADICTION_V50.md) | Reassessment of high-priority insufficient-overlap rows after adding sharper DMF, ZMIZ1, chr1, and GPR25 source-specific records. | external agreement is context; project artifacts remain evidence |
 | [V52 therapeutic convergence/contradiction check](synthesis/V52_THERAPEUTIC_CONVERGENCE_CONTRADICTION.md) | Therapeutic-path review of source-specific V50/V51/V52 context; zero genuine therapeutic contradictions surfaced. | external context does not change therapeutic-path evidence |
 | [V53 CD44/CXCR4 MS microglia prior-art boundary](synthesis/V53_CD44_CXCR4_MS_MICROGLIA_PRIOR_ART.md) | Source-specific novelty and independence audit for the provisional broad-state-bounded GSE111972 association. | external context only; no replication or target upgrade |
+| [V57 independent method critique](synthesis/V57_INDEPENDENT_METHOD_CRITIQUE.md) | Classed Claude/Gemini method proposals with separately grounded synthetic dispositions. | model proposals are not evidence |
 | [V48 convergence decision table](synthesis/CONVERGENCE_DECISION_TABLE_V48.md) | Compact operational interpretation of each convergence/insufficient-overlap row. | synthesis/navigation only |
 | [V48 convergence/contradiction executive card](synthesis/CONVERGENCE_CONTRADICTION_EXECUTIVE_CARD_V48.md) | Medical-team summary of relationship counts, source-independence limits, and high-priority gaps. | synthesis/navigation only |
 | [V48 convergence source-independence matrix](synthesis/CONVERGENCE_SOURCE_INDEPENDENCE_V48.md) | Row-level canonical-source accounting for convergence and insufficient-overlap rows. | provenance/navigation only |
@@ -115,7 +118,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V48 source-intake reproducibility checklist](templates/SOURCE_INTAKE_REPRODUCIBILITY_CHECKLIST_V48.md) | Reviewer checklist for reproducing future source-intake routing decisions. | future search/navigation only |
 | [V48 source-intake stop/go scorecard](templates/SOURCE_INTAKE_STOP_GO_SCORECARD_V48.md) | Pre-specified stop, park, or proceed routing template for future source hits. | future search/navigation only |
 | [V48 source-intake reviewer handoff checklist](templates/SOURCE_INTAKE_REVIEWER_HANDOFF_CHECKLIST_V48.md) | Session-to-session handoff checklist for future source-intake review. | future search/navigation only |
-| [V50 non-OpenGWAS source-hit review template](templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md) | Metadata-only review template for non-OpenGWAS source hits before any cohort usability or future-grounding claim. | future search/navigation only |
+| [V50 non-OpenGWAS source-hit review template](templates/V50_NON_OPENGWAS_SOURCE_HIT_REVIEW_TEMPLATE.md) | Metadata-only review template for non-OpenGWAS source hits before any cohort usability or future-grounding claim. | future import/navigation only |
 | [V48 source-intake controls coverage](catalogs/indexes/V48_SOURCE_INTAKE_CONTROLS_COVERAGE.md) | Summary card mapping source-intake safeguards to failure modes. | governance/navigation only |
 | [V48 active-time accounting audit](catalogs/indexes/V48_ACTIVE_TIME_ACCOUNTING_AUDIT.md) | Operational card distinguishing cumulative active time from wall-clock span. | governance/navigation only |
 | [V48 relationship-row candidate template](templates/RELATIONSHIP_ROW_CANDIDATE_TEMPLATE_V48.md) | Draft template for future relationship rows before matrix acceptance. | future search/navigation only |
@@ -147,7 +150,7 @@ Grounded project findings remain in the normal project report/history/validation
 | [V50 negative source-search index](catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX.md) | Catalog of V50 non-OpenGWAS metadata searches and near-misses that should not be recounted as exact validation cohorts. | source search/navigation only |
 | [V50 machine-readable negative source-search index](catalogs/indexes/V50_NEGATIVE_SOURCE_SEARCH_INDEX_MACHINE_READABLE.md) | Generated TSV/JSON no-recount index for reviewed V50 source-search hits; zero exact cohorts and zero independent source counts. | source search/navigation only |
 | [V50 source-hit no-recount checker](templates/V50_SOURCE_HIT_NO_RECOUNT_CHECKER.md) | Operator template and CLI for flagging future metadata hits that match reviewed V50 near-misses, duplicates, or false positives. | source search/navigation only |
-| [V50 GSE235357 / S-EPMC10360655 handoff](synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md) | Route-specific no-recount handoff for the Sánchez-Sanz 2023 DMF PBMC response source family. | source search/navigation only |
+| [V50 GSE235357 / S-EPMC10360655 handoff](synthesis/V50_GSE235357_SEPMC10360655_HANDOFF.md) | Route-specific no-recount handoff for the Sanchez-Sanz 2023 DMF PBMC response source family. | source search/navigation only |
 | [V50 source-search deduplication decision table](synthesis/V50_SOURCE_SEARCH_DEDUPLICATION_DECISION_TABLE.md) | Compact source-accounting rules for duplicate, partial, context-only, and candidate validation-source hits. | source search/navigation only |
 | [V50 non-OpenGWAS search provenance card](synthesis/V50_NON_OPENGWAS_SEARCH_PROVENANCE_CARD.md) | Public chain from route health to metadata search outputs, template gates, and safe interpretations. | source search/navigation only |
 | [V50 source-hit independence QA](synthesis/V50_SOURCE_HIT_INDEPENDENCE_QA.md) | De-duplication QA showing V50 non-OpenGWAS source hits add zero independent validation-source counts. | source search/navigation only |

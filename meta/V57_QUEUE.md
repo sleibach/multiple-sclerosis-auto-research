@@ -68,7 +68,9 @@ Status: **active**
 | 6ae | Build a privacy-preserving code-to-data validation executor | done | Frozen V42 harness runs locally with denied egress/subprocess, ephemeral private staging, aggregate-only export, hash attestation, and passing synthetic leak/tamper plus 254-check receipt-schema tests |
 | 6af | Resolve the multifidelity gate's hidden-harm safety-power failure | done | Unchanged donor grid first passes every seed at 32 training plus 24 held-out donor pairs (mean 0.840; minimum 0.826) |
 | 6ag | Operationalize privacy-preserving multi-site evidence accumulation | done | Attested aggregate exports convert to same-rule site records; duplicate independence groups and harness-hash mismatches fail before the verified mixture e-process |
-| 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
+| 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
+| 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
+| 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
 
@@ -343,6 +345,19 @@ Status: **active**
   harness identity, fixed arrival order, valid p-values, and locked-positive
   direction. Valid synthetic records combined; duplicate dependence and a
   mismatched harness hash failed. No external cohort evidence was accumulated.
+- Iteration 33 checkpoint at `2026-08-30T00:34:35Z`: Claude and Gemini were
+  queried only with a generic, non-repository multifidelity design. Their
+  proposals were segregated as non-grounded model output and tested rather than
+  accepted. Leave-one-donor stability retained 0.9425-0.945 complementary
+  sensitivity at 12/8 donors and 0.98375-0.99375 at 16/12, but the constructed
+  leverage artifact already almost never passed the parent gate, so no added
+  protection was demonstrated. A naive four-control/two-panel normal rule
+  failed clean family error at 0.2438-0.2498 and was rejected. A separately
+  frozen 270,000-screen Student-t family correction passed at 12/8 donors with
+  maximum clean FWER 0.0388 and minimum artifact-detection power 0.961. The
+  remaining measurement-error proposal requires empirical blinded replicate
+  variance. RPT was not used because this critique had no justified tabular
+  prediction input.
 
 ## Resume Rule
 
