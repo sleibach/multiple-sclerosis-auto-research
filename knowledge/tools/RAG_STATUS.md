@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-08-06 01:42 CEST
+Last updated: 2026-08-30 02:54 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,8 +25,20 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after the V56 refresh: `989` unique paths and `0`
+- Current document count after the V57 refresh: `1021` unique paths and `0`
   paths under `knowledge_external/`.
+- V57 boundary/method smoke query
+  `V57 unexhausted methods privacy preserving same estimand validation no cure no target`
+  returns `docs/history/METHOD_PROBES_V57.md` first, followed by the method
+  frontier, code-to-data validation, and V57 queue.
+- V57 functional-method smoke query
+  `V57 direction resolving human microglia CRISPRi CRISPRa multifidelity 2D 3D safety`
+  returns `docs/validation/MULTIFIDELITY_ESCALATION_V57.md` first, followed by
+  its frozen safety and parent plans and the cumulative report.
+- V57 tied-evidence smoke query
+  `V57 tied score discrete site e process permutation evidence accumulator`
+  returns the tied and discrete frozen plans first, followed by the tied and
+  discrete validation reports and cumulative synthesis.
 - V56 class-aware closeout query
   `V56 progression therapy grounded null ToleDYNAMIC controlled trial`
   returns `meta/V56_QUEUE.md`, this retrieval-status document,

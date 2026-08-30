@@ -390,6 +390,10 @@ Status: **active**
   synthetic labels and gates, retention of the failed parent multifidelity
   result, privacy/tamper and federated-dependence controls, and not-grounded
   markers on all five V57 external method/model records.
+- Iteration 38 checkpoint: the grounded sparse retrieval index was rebuilt over
+  `1021` unique paths with zero `knowledge_external/` paths. V57 boundary,
+  multifidelity functional-method, and tied-evidence smoke queries each return
+  their intended current artifacts first.
 
 ## Resume Rule
 
