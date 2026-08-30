@@ -72,7 +72,7 @@ Status: **active**
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
-| 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
+| 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | done | `docs/history/METHOD_PROBES_V57.md` separates held-data, synthetic, external-method, and model-proposal classes and ranks five routes |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
 
 ## Iteration Log
@@ -367,6 +367,13 @@ Status: **active**
   `0.00325-0.00394`, the maximum null mean e-factor was `0.99141`, and effect
   `0.9` crossed by site 12 in `0.96901-0.97043`. All frozen gates passed. This
   verifies method behavior only; no external cohort evidence was accumulated.
+- Iteration 35 checkpoint at `2026-08-30T00:45:00Z`: the cumulative V57 report
+  consolidated 47 substantive execution items under strict epistemic
+  separation. The ranked routes are privacy-preserving same-estimand
+  validation, a direction-resolving human microglia-to-3D functional program,
+  descriptor-validated combinatorial perturbation, causal trial/IPD routing,
+  and the V22 integrity suite. No cure, treatment, target, progression
+  biomarker, or externally validated monitoring biomarker was produced.
 
 ## Resume Rule
 

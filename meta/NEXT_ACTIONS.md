@@ -1,8 +1,51 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-08-06 01:37 CEST
+Last updated: 2026-08-30 02:45 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
+
+## V57 Priority
+
+1. Offer the pinned code-to-data V42 validation package to an eligible Gafson,
+   Karolinska, or equivalent data owner. Do not count a site until paired
+   baseline/early treatment, response labels, frozen module coverage, batch and
+   confounder diagnostics, and an independence-group declaration all pass.
+2. Convert only a passing hash-attested export into a V57 same-estimand site
+   record. Preserve author-run aggregate status as less independently
+   reproducible than data-in-hand; never combine heterogeneous diseases,
+   therapies, timepoints, endpoints, rules, or overlapping participants.
+3. For progression therapeutics, seek a blinded variance pilot for
+   bidirectional CRISPRi/a in donor-replicated human iPSC microglia with
+   efficacy, viability, neural-support/myelin, guide, context, batch, and
+   negative controls. Use V57 synthetic donor counts only as conditional
+   planning references, never as empirical minima.
+4. Escalate a candidate from simple 2D assay to crossed-donor 3D glial
+   confirmation only when the fixed incremental-information or replicated-harm
+   gate passes. Do not infer safety from generic 3D information gain.
+5. Preserve V41's public-data discovery exhaustion boundary. V57's held-data
+   environment, conformal, hierarchy, tensor, composition, transport,
+   neighborhood, geometry, topology, and recurrence probes did not earn
+   dedicated reruns.
+6. Keep the V22 rule immutable. Use the V57 specification, influence,
+   competitive-null, missing-label, label-integrity, batch, shift, and
+   measurement-architecture results only as prespecified validation
+   diagnostics around it.
+7. Renew OpenGWAS before any genetics API work. V57 routed around the expired
+   token and made no OpenGWAS-dependent null claim.
+
+V57 state:
+
+- synthesis: `docs/history/METHOD_PROBES_V57.md`
+- method frontier: `meta/METHOD_FRONTIER_V57.md`
+- resume/audit backbone: `meta/V57_QUEUE.md`
+- code-to-data route: `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`
+- federated route: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
+- discrete small-site calibration:
+  `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
+- progression multifidelity route:
+  `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
+- assay safeguards:
+  `docs/validation/MULTIFIDELITY_ADVERSARIAL_SAFEGUARDS_V57.md`
 
 ## Queue
 

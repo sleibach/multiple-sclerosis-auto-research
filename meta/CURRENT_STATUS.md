@@ -1,6 +1,43 @@
 # Current Status
 
-Last updated: 2026-08-05
+Last updated: 2026-08-30
+
+## V57 Unexhausted-Method Exploration
+
+V57 audited 30 analytical method families and executed 47 substantive method
+items without reopening V41's exhausted public-data discovery search. It did
+not identify a cure, better treatment, therapeutic target, progression
+biomarker, or externally validated monitoring biomarker. The held-data probes
+mostly returned corrected nulls or transport failures: environment invariance,
+conformal singleton prediction, hierarchical pooling, tensor interactions,
+formal composition, distributional transport, neighborhood abundance,
+multivariate state geometry, topology, and formal cross-environment recurrence
+did not clear their frozen gates.
+
+The durable advances are evidence-acquisition and experiment methods:
+
+- a pinned, no-egress code-to-data executor can run the immutable V42 harness
+  behind a data-owner boundary and return a redacted, hash-attested aggregate;
+- a federated same-estimand combiner rejects duplicate dependence, changed
+  harnesses, estimand drift, and reversed effects before applying an
+  anytime-valid e-process;
+- 1.8 million additional synthetic sequences and 21.6 million small-site
+  arrivals verified the unchanged e-process for exact and V42 plus-one
+  permutation p-values (null crossing `0.00325-0.00394`; effect-0.9 crossing
+  `0.96901-0.97043` by 12 sites);
+- a direction-resolving human functional route now joins bidirectional
+  CRISPRi/a in donor-replicated iPSC microglia to crossed-donor glial
+  organoid/assembloid confirmation, with synthetic efficacy, safety, context,
+  batch, variance, negative-control, and 2D-to-3D escalation gates;
+- this functional route is a proposal requiring new experimental data, not a
+  progression finding or target nomination.
+
+The ranked next move is privacy-preserving validation of the frozen V22 rule
+with an eligible external owner-run package. In parallel, obtain blinded
+technical and donor-level variance for a direction-resolving human microglial
+pilot; do not nominate a gene before that gate is run. See
+`docs/history/METHOD_PROBES_V57.md`, resume from `meta/V57_QUEUE.md`, and keep
+all synthetic operating points separate from empirical MS effects.
 
 ## V56 Progression-Therapy Opportunity Audit
 
