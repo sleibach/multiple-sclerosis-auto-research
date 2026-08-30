@@ -1,0 +1,38 @@
+{
+  "correlated_guarded_null_crossing_range": [
+    0.0,
+    0.00088
+  ],
+  "correlated_naive_null_crossing_range": [
+    0.01672,
+    0.08214
+  ],
+  "independent_baseline_gate": true,
+  "independent_naive_null_crossing_range": [
+    0.00902,
+    0.0093
+  ],
+  "interpretation_boundary": "Known clusters may be collapsed conservatively; hidden or cross-cluster dependence remains disqualifying.",
+  "known_cluster_guard_gate": true,
+  "overall_status": "PASS",
+  "plan": "docs/plans/V57_DEPENDENT_SITE_EPROCESS_PLAN.md",
+  "purpose": "Dependent-site sequential-evidence stress test; no MS biological evidence",
+  "seeds": [
+    57141,
+    57142,
+    57143
+  ],
+  "sequences_per_cell": 50000,
+  "strong_guarded_crossing_range": [
+    0.0299,
+    0.98534
+  ],
+  "synthetic": true,
+  "total_sequences": 4500000,
+  "verdict": "KNOWN_DEPENDENCE_CLUSTER_GUARD_VERIFIED",
+  "worst_naive_null": {
+    "cluster_size": 4,
+    "correlation": 0.75,
+    "crossing": 0.08214
+  }
+}

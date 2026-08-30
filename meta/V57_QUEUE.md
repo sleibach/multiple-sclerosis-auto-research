@@ -70,6 +70,8 @@ Status: **active**
 | 6ag | Operationalize privacy-preserving multi-site evidence accumulation | done | Attested aggregate exports convert to same-rule site records; duplicate independence groups and harness-hash mismatches fail before the verified mixture e-process |
 | 6ah | Calibrate federated evidence for discrete small-site permutation p-values | done | 1.8M sequences/21.6M arrivals pass: null crossing 0.00325-0.00394 and effect-0.9 crossing 0.96901-0.97043 |
 | 6ai | Calibrate federated evidence when owner-run scores contain ties | done | 900k sequences/10.8M arrivals pass exact tied-rank and V42 plus-one modes; null crossing 0.00146-0.00220 |
+| 6aj | Stress federated evidence against correlated or overlapping sites | done | Naive null crossing reaches 0.08214; maximum-p cluster collapse controls error but strong power can fall to 0.0299 |
+| 6ak | Test Bonferroni-minimum cluster evidence under arbitrary known dependence | in-progress | Frozen remediation plan committed before new-seed outcomes |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -394,6 +396,14 @@ Status: **active**
   `1021` unique paths with zero `knowledge_external/` paths. V57 boundary,
   multifidelity functional-method, and tied-evidence smoke queries each return
   their intended current artifacts first.
+- Iteration 39 checkpoint at `2026-08-30T00:56:47Z`: 4.5 million seeded
+  Gaussian-copula sequences exposed an independence vulnerability. Naively
+  multiplying correlated valid site p-values raised null crossing from the
+  independent `0.00902-0.00930` range to as high as `0.08214`. Maximum-p
+  collapse of known clusters controlled crossing to at most `0.00088`, but
+  strong-alternative crossing fell as low as `0.02990`. The anti-conservative
+  result is retained; a separately frozen Bonferroni-minimum cluster rule is
+  queued on new seeds.
 
 ## Resume Rule
 

@@ -45,6 +45,13 @@ calibrators `0.25`, `0.50`, and `0.75`. The alpha-0.05 evidence boundary is
 mixture e-value `20`. Weak or null sites can reduce accumulated evidence; sites
 are never excluded because their result is inconvenient.
 
+Declared uniqueness is necessary but not sufficient. A V57 correlated-site
+stress test found naive null crossing as high as `0.08214` when four sites had
+correlation `0.75`. Known participant/source/center/biobank dependence must be
+declared and represented by one valid cluster-level p-value; hidden dependence
+is disqualifying. See
+[`DEPENDENT_SITE_EPROCESS_V57.md`](DEPENDENT_SITE_EPROCESS_V57.md).
+
 ```bash
 .venv/bin/python scripts/v57_federated_evidence_accumulator.py combine \
   --record <site_1.json> \
