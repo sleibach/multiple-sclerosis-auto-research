@@ -220,6 +220,15 @@ needed to launch a rigorously gated human functional program.
 
 ## Reproducibility Map
 
+The V57 claim/artifact regression passes `63/63` checks. It verifies the main
+negative boundaries, held-data null verdicts, synthetic labels, parent-gate
+failures, calibrated extensions, privacy/tamper behavior, federated dependence
+guards, and external-record class markers. Run:
+
+```bash
+.venv/bin/python scripts/v57_regression_suite.py
+```
+
 - frontier audit: `meta/METHOD_FRONTIER_V57.md` and
   `analysis/v57_method_frontier/`
 - live execution log: `meta/V57_QUEUE.md`

@@ -42,6 +42,7 @@ technical and donor-level variance for a direction-resolving human microglial
 pilot; do not nominate a gene before that gate is run. See
 `docs/history/METHOD_PROBES_V57.md`, resume from `meta/V57_QUEUE.md`, and keep
 all synthetic operating points separate from empirical MS effects.
+The V57 claim/artifact regression passes `63/63` invariants.
 
 ## V56 Progression-Therapy Opportunity Audit
 

@@ -1,0 +1,64 @@
+check_id	status	detail
+cumulative_report_exists	PASS	docs/history/METHOD_PROBES_V57.md
+report_explicit_no_cure	PASS	explicit negative boundary
+report_explicit_no_target	PASS	target boundary
+report_epistemic_separation	PASS	result classes separated
+report_ranks_code_to_data_first	PASS	rank 1
+report_preserves_v41	PASS	discovery boundary
+current_status_no_cure	PASS	live status boundary
+next_actions_opengwas_renewal	PASS	expired-token route
+queue_synthesis_done	PASS	task 10
+environment_stability_failed	PASS	NOT_ENVIRONMENT_STABLE
+environment_worst_near_chance	PASS	0.5111111111111111
+selective_transport_failed	PASS	NOT_TRANSPORT_READY
+cross_environment_recurrence_not_established	PASS	0.46428571428571414
+measurement_invariance_failed	PASS	FAIL
+competitive_module_null_passed	PASS	0.8222222222222222
+held_composition_verdict	PASS	expected=NO_RESPONSE_SPECIFIC_COMPOSITION;observed=NO_RESPONSE_SPECIFIC_COMPOSITION
+held_state_geometry_verdict	PASS	expected=NO_RESPONSE_SPECIFIC_JOINT_GEOMETRY;observed=NO_RESPONSE_SPECIFIC_JOINT_GEOMETRY
+held_neighborhood_da_verdict	PASS	expected=NO_STABLE_RESPONSE_SPECIFIC_NEIGHBORHOOD;observed=NO_STABLE_RESPONSE_SPECIFIC_NEIGHBORHOOD
+held_transport_map_verdict	PASS	expected=NO_STABLE_RESPONSE_SPECIFIC_TRANSPORT_MAP;observed=NO_STABLE_RESPONSE_SPECIFIC_TRANSPORT_MAP
+held_tensor_verdict	PASS	expected=NO_REPRODUCIBLE_TENSOR_GAIN;observed=NO_REPRODUCIBLE_TENSOR_GAIN
+held_hierarchy_verdict	PASS	expected=HIERARCHICAL_MODEL_NOT_READY;observed=HIERARCHICAL_MODEL_NOT_READY
+held_topology_verdict	PASS	expected=TOPOLOGY_NOT_ESTIMABLE_AT_FROZEN_CELL_COUNT;observed=TOPOLOGY_NOT_ESTIMABLE_AT_FROZEN_CELL_COUNT
+sequential_is_method_only	PASS	Synthetic sequential-method calibration; no MS biological evidence
+sequential_verified	PASS	SEQUENTIAL_EVIDENCE_HARNESS_VERIFIED
+sequential_null_gate	PASS	[0.01254, 0.012985]
+discrete_site_synthetic	PASS	True
+discrete_site_verified	PASS	DISCRETE_SITE_EPROCESS_VERIFIED
+discrete_site_null_gate	PASS	[0.00325, 0.00394]
+discrete_site_power_gate	PASS	[0.96901, 0.97043]
+tied_site_synthetic	PASS	True
+tied_site_verified	PASS	TIED_SITE_EPROCESS_VERIFIED
+tied_site_null_gate	PASS	[0.00146, 0.0022]
+tied_site_power_gate	PASS	[0.92666, 0.93014]
+code_to_data_synthetic	PASS	True
+code_to_data_valid_passes	PASS	PASS
+code_to_data_tamper_fails	PASS	True
+code_to_data_leak_fails	PASS	{'leak_detected': True, 'leaked_export_status': 'FAIL', 'overall_status': 'PASS', 'private_score_table_exported': False, 'purpose': 'code-to-data privacy/tamper regression; no biological claim', 'synthetic': True, 'tamper_detected': True, 'tampered_export_status': 'FAIL', 'valid_export_status': 'PASS'}
+federated_synthetic	PASS	True
+federated_valid_passes	PASS	True
+federated_duplicate_rejected	PASS	True
+federated_hash_mismatch_rejected	PASS	True
+multifidelity_parent_failure_retained	PASS	status=FAIL;n_fail=1
+multifidelity_parent_synthetic	PASS	True
+multifidelity_safety_extension_passed	PASS	{'mean_safety_scale_probability': 0.84, 'minimum_seed_safety_scale_probability': 0.826, 'n_test_donor_pairs': 24, 'n_train_donor_pairs': 32, 'status': 'PASS'}
+multifidelity_safety_synthetic	PASS	True
+negative_control_passed	PASS	{'maximum_seed_clean_fwer': 0.0388, 'minimum_seed_common_drift_power': 0.9646, 'minimum_seed_specific_artifact_power': 0.961, 'n_test': 8, 'n_train': 12, 'status': 'PASS'}
+negative_control_synthetic	PASS	True
+external_record_classed_method_human_ipsc_microglia_crispri_a_2022	PASS	external class prefix present
+external_record_not_grounded_method_human_ipsc_microglia_crispri_a_2022	PASS	not-grounded marker present
+external_record_classed_method_microglia_oligodendrocyte_assembloid_2024	PASS	external class prefix present
+external_record_not_grounded_method_microglia_oligodendrocyte_assembloid_2024	PASS	not-grounded marker present
+external_record_classed_method_ms_glia_enriched_organoid_2025	PASS	external class prefix present
+external_record_not_grounded_method_ms_glia_enriched_organoid_2025	PASS	not-grounded marker present
+external_record_classed_model_v57_claude_method_critique_2026	PASS	external class prefix present
+external_record_not_grounded_model_v57_claude_method_critique_2026	PASS	not-grounded marker present
+external_record_classed_model_v57_gemini_method_critique_2026	PASS	external class prefix present
+external_record_not_grounded_model_v57_gemini_method_critique_2026	PASS	not-grounded marker present
+plan_exists_V57_ENVIRONMENT_STABILITY_PLAN	PASS	docs/plans/V57_ENVIRONMENT_STABILITY_PLAN.md
+plan_exists_V57_SEQUENTIAL_EVIDENCE_PLAN	PASS	docs/plans/V57_SEQUENTIAL_EVIDENCE_PLAN.md
+plan_exists_V57_MULTIFIDELITY_ESCALATION_PLAN	PASS	docs/plans/V57_MULTIFIDELITY_ESCALATION_PLAN.md
+plan_exists_V57_NEGATIVE_CONTROL_FINITE_SAMPLE_PLAN	PASS	docs/plans/V57_NEGATIVE_CONTROL_FINITE_SAMPLE_PLAN.md
+plan_exists_V57_DISCRETE_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_DISCRETE_SITE_EPROCESS_PLAN.md
+plan_exists_V57_TIED_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_TIED_SITE_EPROCESS_PLAN.md

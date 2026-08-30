@@ -384,6 +384,12 @@ Status: **active**
   crossing `0.92666-0.93014`; all gates passed. This covers valid tied-score
   permutation inputs, not response-dependent preprocessing or biological
   evidence.
+- Iteration 37 checkpoint at `2026-08-30T00:52:18Z`: a dedicated V57
+  claim/artifact regression now passes `63/63` invariants. It checks the
+  cumulative no-cure/no-target boundary, all major held-data negative verdicts,
+  synthetic labels and gates, retention of the failed parent multifidelity
+  result, privacy/tamper and federated-dependence controls, and not-grounded
+  markers on all five V57 external method/model records.
 
 ## Resume Rule
 
