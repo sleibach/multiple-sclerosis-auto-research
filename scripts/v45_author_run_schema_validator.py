@@ -268,11 +268,28 @@ def check_attrition(root: Path, summary: dict[str, object], rows: list[dict[str,
     else:
         add(rows, file, "included_bool_values", "PASS", "parseable")
     n_summary = as_int(summary.get("n", summary.get("n_labeled"))) if summary else None
-    n_included = int(included.isin({"true", "yes", "1"}).sum())
-    if n_summary is not None and n_included != n_summary:
-        add(rows, file, "included_count_matches_summary", "WARN", f"included={n_included}, summary_n={n_summary}")
-    elif n_summary is not None:
-        add(rows, file, "included_count_matches_summary", "PASS", str(n_included))
+    if "count" in table.columns:
+        exact_counts = pd.to_numeric(table["count"], errors="coerce")
+        suppressed = table["count"].astype(str).str.match(r"^<\d+$")
+        if exact_counts.isna().any() and not (exact_counts.isna() == suppressed).all():
+            add(rows, file, "aggregate_count_format", "FAIL", "counts must be integers or '<N' suppression tokens")
+            return
+        add(rows, file, "aggregate_count_format", "PASS", f"rows={len(table)}, suppressed={int(suppressed.sum())}")
+        included_mask = included.isin({"true", "yes", "1"})
+        if suppressed[included_mask].any():
+            add(rows, file, "included_count_matches_summary", "WARN", "included count is privacy-suppressed")
+        else:
+            n_included = int(exact_counts[included_mask].sum())
+            if n_summary is not None and n_included != n_summary:
+                add(rows, file, "included_count_matches_summary", "WARN", f"included={n_included}, summary_n={n_summary}")
+            elif n_summary is not None:
+                add(rows, file, "included_count_matches_summary", "PASS", str(n_included))
+    else:
+        n_included = int(included.isin({"true", "yes", "1"}).sum())
+        if n_summary is not None and n_included != n_summary:
+            add(rows, file, "included_count_matches_summary", "WARN", f"included={n_included}, summary_n={n_summary}")
+        elif n_summary is not None:
+            add(rows, file, "included_count_matches_summary", "PASS", str(n_included))
 
 
 def check_unscoreable(root: Path, package_state: str, rows: list[dict[str, object]]) -> None:

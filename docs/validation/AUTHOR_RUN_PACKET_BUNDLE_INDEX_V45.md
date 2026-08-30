@@ -69,6 +69,8 @@ At minimum, include:
 - `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`
 - the primary input schemas under `docs/validation/input_schemas/`
 - `scripts/v42_gafson_validation_harness.py`
+- `scripts/v57_code_to_data_validation.py`
+- `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`
 - `scripts/v45_module_coverage_precheck.py`
 - `scripts/v45_locked_artifact_hash_audit.py`
 - `docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv`
@@ -89,15 +91,19 @@ The collaborator should run, in order:
   --fail-on-error
 ```
 
-4. If module coverage passes, run the frozen primary harness:
+4. If module coverage passes, run the aggregate-only code-to-data wrapper:
 
 ```bash
-.venv/bin/python scripts/v42_gafson_validation_harness.py run \
+.venv/bin/python scripts/v57_code_to_data_validation.py run \
   --expression <local_expression.tsv> \
   --metadata <local_sample_metadata.tsv> \
-  --outdir <local_output_dir> \
+  --outdir <aggregate_export_dir> \
   --expression-type auto
 ```
+
+The wrapper runs the frozen V42 harness unchanged. It keeps the private
+participant-level output in ephemeral local staging, blocks Python network and
+subprocess events during scoring, and emits an aggregate hash attestation.
 
 5. Return only the aggregate output package specified in
    `docs/validation/AUTHOR_RUN_MINIMUM_OUTPUT_SPEC_V45.md`.
@@ -115,6 +121,7 @@ Return:
 - confounder and batch diagnostic summaries;
 - exact commands run and software/version notes;
 - completed validation result report template if possible.
+- `EXPORT_ATTESTATION.json` with code and output hashes.
 
 Do not return unless permitted by terms:
 

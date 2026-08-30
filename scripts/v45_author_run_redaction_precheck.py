@@ -31,6 +31,7 @@ ALLOWED_FILENAMES = {
     "batch_diagnostic_metrics.tsv",
     "RUN_METADATA.txt",
     "validation_result_report.md",
+    "EXPORT_ATTESTATION.json",
 }
 
 FILENAME_BLOCK_PATTERNS = [

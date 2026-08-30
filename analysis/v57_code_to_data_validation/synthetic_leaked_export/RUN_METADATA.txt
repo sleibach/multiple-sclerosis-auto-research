@@ -1,0 +1,13 @@
+synthetic: true
+purpose: privacy-preserving code-to-data execution; no biological claim
+evidence_status: AUTHOR_RUN_AGGREGATE_UNVERIFIED
+command: python scripts/v57_code_to_data_validation.py run --expression <LOCAL_EXPRESSION> --metadata <LOCAL_METADATA> --outdir <AGGREGATE_EXPORT> --expression-type <FROZEN_CHOICE>
+software: python=3.13.3; numpy=2.2.6; pandas=2.2.3
+runner_sha256: 9b93ba427ade719371c0840c6cbcc3f0978f579b21a80774de5c8137e2f910e8
+harness_sha256: c5b3e566aeb0a2733ac67c892b9aca631e8ae9561d346cc502e4018799e480e3
+expression_sha256: 62aa3138136628c7c173ee37fa23296c97bd784cf57b519f7d247b7cec144c78
+metadata_sha256: 9e31b6d812f3daf16a7fdf6ccc1205146b0c162d92c53be1956f8f133708ee95
+network_and_subprocess_audit_hook: enabled
+private_staging_retained: false
+minimum_export_cell_count: 5
+run_utc: 2026-08-30T00:20:05+00:00

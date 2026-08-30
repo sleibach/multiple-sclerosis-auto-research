@@ -18,6 +18,7 @@ schemas	sample_id_canonicalization	docs/validation/input_schemas/V45_sample_id_c
 schemas	redaction_checklist	docs/validation/input_schemas/V45_sensitive_data_redaction_checklist.tsv	yes	required	redact_return_bundle	committed_non_sensitive	Prevents private data transfer in returned outputs.
 schemas	handoff_bundle_tsv	docs/validation/input_schemas/V45_validation_handoff_bundle_template.tsv	yes	required	assemble_return_bundle	committed_non_sensitive	Machine-readable handoff bundle template.
 scripts	frozen_primary_harness	scripts/v42_gafson_validation_harness.py	yes	required	run_locally	committed_non_sensitive	Frozen scoring harness; no edits allowed for validation use.
+scripts	aggregate_only_code_to_data_runner	scripts/v57_code_to_data_validation.py	yes	required	run_locally	committed_non_sensitive	Pinned fail-closed runner; denies network/subprocess events, stages individual-level output ephemerally, and exports only attested aggregates.
 scripts	module_coverage_precheck	scripts/v45_module_coverage_precheck.py	yes	required	run_locally_before_harness	committed_non_sensitive	Checks module gene coverage without scores or labels.
 scripts	locked_hash_audit	scripts/v45_locked_artifact_hash_audit.py	yes	required	verify_integrity	committed_non_sensitive	Verifies locked/frozen artifact hashes.
 scripts	handoff_completeness_checker	scripts/v45_handoff_completeness_check.py	yes	optional_if_python_env_available	verify_return_bundle	committed_non_sensitive	Can be run by collaborator or run internally on returned aggregate bundle.
@@ -27,6 +28,7 @@ integrity	precommit_readiness_doc	docs/validation/PRECOMMIT_READINESS_CHECKLIST_
 reporting	validation_result_report_template	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	yes	required	fill_from_outputs	committed_non_sensitive	Template for returned aggregate interpretation.
 reporting	minimum_author_outputs_tsv	docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv	yes	required	return_outputs	committed_non_sensitive	Machine-readable minimum output list.
 reporting	author_run_packet_tsv	docs/validation/input_schemas/V45_author_run_frozen_harness_packet.tsv	yes	required	packet_checklist	committed_non_sensitive	Machine-readable packet checklist.
+reporting	code_to_data_operator_doc	docs/validation/CODE_TO_DATA_VALIDATION_V57.md	yes	required	follow_commands	committed_non_sensitive	Preferred privacy-preserving local-execution route and synthetic verification.
 exclude	environment_files	.env	no	forbidden	do_not_send	never_commit	No credentials, bearer tokens, service keys, or API keys.
 exclude	received_raw_data	data/raw_v3/	no	forbidden	do_not_send	never_commit	Do not include any local or third-party raw/individual-level data in the packet.
 exclude	quarantine_data	data/quarantine/	no	forbidden	do_not_send	never_commit	Do not include restricted received data or private terms.

@@ -65,6 +65,7 @@ Status: **active**
 | 6ab | Test an expanded-grid, higher-precision blinded pilot | done | All 120 checks pass through 1.5x noise; high-noise panels select mostly 32-40 donors/context with <=0.004 abstention |
 | 6ac | Evaluate a human glia-organoid/assembloid progression functional assay route | done | New external method route joins bidirectional microglial perturbation to crossed-donor myelin/neural-support confirmation; remains ungrounded until run |
 | 6ad | Build a model-complexity escalation gate for 2D co-culture versus assembloid | todo | Decision analysis prevents expensive 3D work unless it adds reproducible functional information beyond a simpler model |
+| 6ae | Build a privacy-preserving code-to-data validation executor | done | Frozen V42 harness runs locally with denied egress/subprocess, ephemeral private staging, aggregate-only export, hash attestation, and passing synthetic leak/tamper plus 254-check receipt-schema tests |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -305,7 +306,7 @@ Status: **active**
 - Iteration 29 checkpoint at `2026-08-30T00:10:24Z`: a primary-method scan
   identified human glia-enriched organoids and microglia-oligodendrocyte
   assembloids as a progression-functional route absent from the repository.
-  Three source-specific `external-unverifiable` records were added with full
+  Three source-specific non-grounded external records were added with full
   provenance. The proposed route crosses microglial and neural donors, treats
   donor-pair rather than organoid/cell as the inferential unit, calibrates
   CRISPRi/a direction in a simpler model, and requires myelin/neural support,
@@ -313,6 +314,15 @@ Status: **active**
   before promotion. Source limitations (three lines, imperfect compact myelin,
   short microglial persistence) keep this a staged method proposal, not a
   progression finding or target. Provenance and structural gates pass.
+- Iteration 30 checkpoint at `2026-08-30T00:17:07Z`: the existing author-run
+  fallback was converted into an executable code-to-data boundary. The pinned
+  V57 wrapper denies Python network and subprocess events during frozen V42
+  scoring, uses ephemeral private staging, never exports the participant-level
+  paired score table, aggregates and cell-suppresses attrition, and attests all
+  exported hashes. A valid synthetic export passed its own verifier, redaction,
+  completeness, and all 254 aggregate-schema checks; a changed metric and a
+  deliberately leaked participant table both failed. This reduces data-transfer
+  dependence but does not make author-run aggregates project-grounded evidence.
 
 ## Resume Rule
 

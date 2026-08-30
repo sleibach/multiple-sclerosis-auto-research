@@ -41,8 +41,8 @@ Synthetic regression:
 
 Current verification:
 
-- manifest write: `28` included packet files, `0` missing;
-- manifest verify: `28/28` pass;
+- manifest write: `30` included packet files, `0` missing;
+- manifest verify: `30/30` pass;
 - synthetic corrupted manifest: `FAIL` with `1` hash mismatch.
 
 ## Scope

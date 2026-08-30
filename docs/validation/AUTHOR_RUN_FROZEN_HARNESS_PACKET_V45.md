@@ -26,6 +26,22 @@ Do not include any API keys, private URLs, or received third-party data.
 
 ## Primary Gafson-Style Author Command
 
+The preferred route is the V57 aggregate-only wrapper. It executes the same
+frozen harness in ephemeral private staging, denies network and subprocess
+events during scoring, and exports only attested aggregates:
+
+```bash
+.venv/bin/python scripts/v57_code_to_data_validation.py run \
+  --expression <local_expression.tsv> \
+  --metadata <local_sample_metadata.tsv> \
+  --outdir <aggregate_export_dir> \
+  --expression-type auto
+```
+
+See `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`. Direct harness execution
+below remains documented for compatibility, but its output directory contains
+participant-level intermediate tables and must never be returned wholesale.
+
 ```bash
 .venv/bin/python scripts/v42_gafson_validation_harness.py run \
   --expression <local_expression.tsv> \
@@ -56,9 +72,14 @@ to fill `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md`, including:
 - `joint_confounder_metrics.tsv`
 - `batch_diagnostic_metrics.tsv`
 - exact command run and software/version notes
+- `EXPORT_ATTESTATION.json` from the preferred V57 runner
 
 The returned output must not include raw expression or private clinical labels
 unless terms explicitly permit transfer.
+
+Never return `paired_module_deltas.tsv`; it is an individual-level private
+intermediate. The V57 runner excludes it mechanically and replaces
+participant-level attrition with cell-suppressed aggregate counts.
 
 ## Guardrail
 

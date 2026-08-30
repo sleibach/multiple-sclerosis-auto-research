@@ -1,0 +1,26 @@
+{
+  "evidence_status": "AUTHOR_RUN_AGGREGATE_UNVERIFIED",
+  "export_file_sha256": {
+    "RUN_METADATA.txt": "51a00e83aaf44e57bf1bc6ffdf9ee116da91cda23dddeafc74353ba71c4cc0d5",
+    "batch_diagnostic_metrics.tsv": "7d176591a27a88f96db1cec48a5ce8a68ec78692c16ec07afbdc65dd774a0f01",
+    "confounder_adjustment_metrics.tsv": "b52e5a5ada823ddcff7053c054f5e907e016d436d8072b0ada17fcef273d57e2",
+    "gene_mapping_coverage.tsv": "cfb9406a3716b0d0f3983f0f0228f49eef9713be1d2414e525089cada62fdd5c",
+    "joint_confounder_metrics.tsv": "fac360c86714bfbf600cc1bcfafa1149f7c053fd608f9a2b7c9fdf91b36b6c1e",
+    "locked_rule_metrics.tsv": "b429d32265f10fa636fc83a3a675b2f5cbe962dc23dfe014c880b2f5e4f274e5",
+    "sample_attrition.tsv": "32aa756ff1b96a2f48ddf57f61eacfa98df2e90ea5af6cccf2d73c26e4e34559",
+    "validation_result_report.md": "2e641633a642dd637116ee12a89cda38c3f55453e3177aa3304748741a7837ec",
+    "validation_summary.json": "5978807b57170dabf99ec4cde2cf1425b5cd0cbbefac7a1c8b4db24324c6c194"
+  },
+  "minimum_export_cell_count": 5,
+  "network_and_subprocess_audit_hook": "enabled",
+  "overall_status": "PASS",
+  "pinned_code_sha256": {
+    "scripts/v42_gafson_validation_harness.py": "c5b3e566aeb0a2733ac67c892b9aca631e8ae9561d346cc502e4018799e480e3",
+    "scripts/v57_code_to_data_validation.py": "9b93ba427ade719371c0840c6cbcc3f0978f579b21a80774de5c8137e2f910e8"
+  },
+  "private_staging_retained": false,
+  "project_grounding_status": "unavailable_without_rerunnable_data",
+  "purpose": "aggregate-only code-to-data export attestation; no biological claim",
+  "scan_problems": [],
+  "synthetic": true
+}

@@ -8,4 +8,5 @@ confounder_adjustment_metrics.tsv	yes	panel; scoreable; adjusted effect/AUC/stat
 joint_confounder_metrics.tsv	yes	joint adjustment status and effect summary	interprets multi-confounder attenuation	aggregate only
 batch_diagnostic_metrics.tsv	yes	batch/QC fields tested; warning/fail status; response-correlation summary	interprets batch guard	aggregate only
 validation_result_report.md	yes	one V42 result class; required interpretation sentence; limitations	handoff-ready result	no private data
+EXPORT_ATTESTATION.json	yes	runner/harness hashes; aggregate file hashes; leakage scan; no-egress status	verifies code identity and aggregate-only export	no paths, identifiers, or private values
 failure_taxonomy_code.txt	yes_if_unscoreable	named V45 failure code; failed gate; allowed repair requested	interprets blocked package	no private data
