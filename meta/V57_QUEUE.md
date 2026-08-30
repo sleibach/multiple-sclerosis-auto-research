@@ -59,7 +59,8 @@ Status: **active**
 | 6v | Resolve the multi-outcome gate's donor-count boundary at 9-11 donors | done | None passes all high-precision frozen checks; 11 is close but misses the no-more-than-0.10 sensitivity-loss criterion |
 | 6w | Verify a high-precision positive donor-count region without changing the gate | done | All 90 frozen checks pass at 12, 14, and 16 donors; 12 is the first high-precision tested positive design point |
 | 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | done | Severe reversal is already rarely promoted by the pooled gate; simultaneous subgroup bounds destroy sensitivity and are rejected |
-| 6y | Test a two-stage independent context-confirmation design | todo | Screen broadly, then test only selected candidates in a fresh context-balanced donor panel with fixed confirmatory multiplicity |
+| 6y | Test a two-stage independent context-confirmation design | done | It removes all context-harm nominees but confirms only 0-6.4% of screens; frozen viability precision is the dominant bottleneck |
+| 6z | Map orthogonal safety-assay precision needed for staged confirmation | in-progress | Frozen confirmation rule; vary only prespecified technical replicate count and viability noise to identify an assay requirement |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -257,6 +258,17 @@ Status: **active**
   frozen checks and is rejected without retuning. The next design is staged:
   broad discovery followed by independent, context-balanced confirmation of a
   fixed maximum number of candidates.
+- Iteration 25 checkpoint at `2026-08-30T00:00:08Z`: 18,000 seeded synthetic
+  two-stage screens used 12 discovery donors, at most four nominees, and an
+  independent context-balanced confirmation panel. Discovery nominated a
+  uniform rescue in 0.923-0.955 of screens but also a one-outcome context-harm
+  candidate in 0.813-0.837. Confirmation eliminated every context-harm nominee
+  yet found a uniform rescue in only 0-0.064 of screens and failed 24/60
+  checks. Component diagnostics show the simultaneous viability bound passes
+  only 0-0.042 of nominated uniform-rescue instances, versus efficacy up to
+  0.777. The staged rule is rejected at 4-8 donors/context; a separately
+  frozen orthogonal safety-assay precision study is the justified next method,
+  not weaker post hoc confidence bounds.
 
 ## Resume Rule
 
