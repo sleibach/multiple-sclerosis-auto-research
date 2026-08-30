@@ -60,7 +60,8 @@ Status: **active**
 | 6w | Verify a high-precision positive donor-count region without changing the gate | done | All 90 frozen checks pass at 12, 14, and 16 donors; 12 is the first high-precision tested positive design point |
 | 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | done | Severe reversal is already rarely promoted by the pooled gate; simultaneous subgroup bounds destroy sensitivity and are rejected |
 | 6y | Test a two-stage independent context-confirmation design | done | It removes all context-harm nominees but confirms only 0-6.4% of screens; frozen viability precision is the dominant bottleneck |
-| 6z | Map orthogonal safety-assay precision needed for staged confirmation | in-progress | Frozen confirmation rule; vary only prespecified technical replicate count and viability noise to identify an assay requirement |
+| 6z | Map orthogonal safety-assay precision needed for staged confirmation | done | 12 donors/context plus two independent viability wells/guide is the least-resource passing tested design; 8 donors/context fails at all replication levels |
+| 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | todo | Synthetic assurance design adapts sample size from blinded variance only, never candidate effects or outcomes |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -269,6 +270,17 @@ Status: **active**
   0.777. The staged rule is rejected at 4-8 donors/context; a separately
   frozen orthogonal safety-assay precision study is the justified next method,
   not weaker post hoc confidence bounds.
+- Iteration 26 checkpoint at `2026-08-30T00:02:34Z`: a preregistered 36,000-
+  screen factorial varied only confirmation donors (8/12 per context) and
+  independent viability technical wells (1/2/4 per guide), leaving discovery,
+  efficacy outcomes, margins, and multiplicity unchanged. Eight donors/context
+  failed at every replication level; 12 with one well failed; 12 with two or
+  four wells passed every seed/effect check. The least-resource tested passing
+  design uses 12 donors/context, three guides, and two viability wells/guide
+  (144 donor-guide-wells per candidate). It confirmed a uniform rescue in
+  0.859-0.910 of screens, precision 1.0, and no context-harm candidates. This
+  is synthetic assay-design behavior; empirical blinded variance must be
+  measured before sizing a real experiment.
 
 ## Resume Rule
 

@@ -1,0 +1,22 @@
+{
+  "design_status": {
+    "12_donors_per_context_1_wells": "FAIL",
+    "12_donors_per_context_2_wells": "PASS",
+    "12_donors_per_context_4_wells": "PASS",
+    "8_donors_per_context_1_wells": "FAIL",
+    "8_donors_per_context_2_wells": "FAIL",
+    "8_donors_per_context_4_wells": "FAIL"
+  },
+  "least_resource_passing_design": {
+    "donor_guide_wells_per_candidate": 144,
+    "donors_per_context": 12,
+    "technical_wells": 2
+  },
+  "n_candidate_evaluations_per_stage": 864000,
+  "n_gate_checks": 180,
+  "n_gate_fail": 47,
+  "n_synthetic_screens": 36000,
+  "overall_status": "PASS",
+  "purpose": "orthogonal safety-assay precision method test; no biological claim",
+  "synthetic": true
+}
