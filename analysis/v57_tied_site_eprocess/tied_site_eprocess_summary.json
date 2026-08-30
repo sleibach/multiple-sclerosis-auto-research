@@ -1,0 +1,30 @@
+{
+  "arrivals": 12,
+  "interpretation_boundary": "Synthetic method behavior only; valid conditional permutation and independent sites remain required.",
+  "maximum_null_mean_e_factor": 0.9888816713677782,
+  "null_crossing_range": [
+    0.00146,
+    0.0022
+  ],
+  "null_e_factor_gate": true,
+  "null_optional_stopping_gate": true,
+  "overall_status": "PASS",
+  "plan": "docs/plans/V57_TIED_SITE_EPROCESS_PLAN.md",
+  "purpose": "Tied-score sequential-method calibration; no MS biological evidence",
+  "score_levels": 5,
+  "seeds": [
+    57131,
+    57132,
+    57133
+  ],
+  "sequences_per_seed_effect_mode": 50000,
+  "strong_crossing_range": [
+    0.92666,
+    0.93014
+  ],
+  "strong_power_gate": true,
+  "synthetic": true,
+  "total_sequences": 900000,
+  "total_site_records_simulated": 10800000,
+  "verdict": "TIED_SITE_EPROCESS_VERIFIED"
+}

@@ -78,6 +78,7 @@ They do not add biological evidence.
 | Value-of-information portfolio | Eight packages x 21 methods; no universal winner, four two-package Pareto strategies | Match the request to the decision rather than naming one best dataset |
 | Anytime-valid mixture e-process | 1.8M sequences; null crossing `1.254%-1.299%` by 20, strong alternative `99.946%-99.960%` | Accumulate independent, same-estimand site evidence without peeking |
 | Discrete small-site e-process | Additional 1.8M sequences/21.6M site arrivals; null crossing `0.325%-0.394%`, effect `0.9` crossing `96.901%-97.043%` by 12 | Confirms calibration for exact and V42 plus-one permutation p-values |
+| Tied-score small-site e-process | 900k sequences/10.8M arrivals with five score levels; null crossing `0.146%-0.220%`, effect `0.9` crossing `92.666%-93.014%` | Extends calibration to exact conditional tied-rank tests; response-dependent preprocessing remains excluded |
 | Code-to-data executor | Valid synthetic packet passed 254 schema checks; tampered metric and leaked paired table failed | Run the frozen V42 rule behind a data-owner boundary |
 | Federated site combiner | Valid attested aggregate passed; duplicate independence group and harness mismatch failed | Combine only independent sites with identical estimand, rule, and direction |
 | Causal-design router | 7/7 synthetic declarations correctly routed or refused | Prevent causal language when time zero, assignment, overlap, or outcomes are inadequate |
@@ -225,6 +226,7 @@ needed to launch a rigorously gated human functional program.
 - code-to-data: `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`
 - federated accumulation: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
 - discrete-site calibration: `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
+- tied-score calibration: `docs/validation/TIED_SITE_EPROCESS_V57.md`
 - multifidelity gate: `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
 - adversarial safeguards:
   `docs/validation/MULTIFIDELITY_ADVERSARIAL_SAFEGUARDS_V57.md`

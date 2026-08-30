@@ -56,9 +56,10 @@ changed.
 - It does not replace cohort effect sizes, confidence intervals, confounder
   diagnostics, transport checks, or the V42 interpretation grid.
 
-Tied scores and response-correlated preprocessing require either exact
-conditional randomization or a separately validated p-value mechanism before
-combination.
+Tied scores now have a separate exact conditional calibration in
+[`TIED_SITE_EPROCESS_V57.md`](TIED_SITE_EPROCESS_V57.md). Response-correlated
+preprocessing remains invalid unless it is inside the frozen conditional
+randomization procedure; neither calibration repairs an invalid input p-value.
 
 ## Reproduce
 

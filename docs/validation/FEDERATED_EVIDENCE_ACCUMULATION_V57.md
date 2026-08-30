@@ -68,6 +68,12 @@ permutation modes had null crossing `0.00325-0.00394` by 12 arrivals and effect
 `0.9` crossing `0.96901-0.97043`. All frozen gates passed. See
 [`DISCRETE_SITE_EPROCESS_V57.md`](DISCRETE_SITE_EPROCESS_V57.md).
 
+A third calibration deliberately collapsed scores to five levels and computed
+exact conditional permutation tails for each realized tie pattern. Across
+900,000 sequences and 10.8 million site arrivals, null crossing was
+`0.00146-0.00220` and effect-`0.9` crossing was `0.92666-0.93014` by 12
+arrivals. See [`TIED_SITE_EPROCESS_V57.md`](TIED_SITE_EPROCESS_V57.md).
+
 ```bash
 .venv/bin/python scripts/v57_federated_evidence_accumulator.py synthetic-check \
   --outdir analysis/v57_federated_evidence
@@ -83,6 +89,7 @@ independently rerunnable merely because multiple sites contribute.
 
 Heterogeneous disease, therapy, timepoint, or endpoint cohorts must not be
 combined. The four old comparator cohorts remain a contextual dry run only.
-Tied scores or a response-correlated preprocessing pipeline require a valid,
-separately justified site-level randomization test; the synthetic calibration
-does not repair an invalid input p-value.
+Tied scores require the calibrated exact conditional site test. A response-
+correlated preprocessing pipeline remains invalid unless the complete
+selection procedure is included in a justified randomization test; the
+synthetic calibrations do not repair an invalid input p-value.

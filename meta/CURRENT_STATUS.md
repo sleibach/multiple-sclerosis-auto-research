@@ -25,6 +25,10 @@ The durable advances are evidence-acquisition and experiment methods:
   arrivals verified the unchanged e-process for exact and V42 plus-one
   permutation p-values (null crossing `0.00325-0.00394`; effect-0.9 crossing
   `0.96901-0.97043` by 12 sites);
+- a separately frozen five-level tied-score extension passed on 900,000
+  sequences and 10.8 million arrivals (null crossing `0.00146-0.00220`;
+  effect-0.9 crossing `0.92666-0.93014`), conditional on a valid exact
+  site-level permutation test;
 - a direction-resolving human functional route now joins bidirectional
   CRISPRi/a in donor-replicated iPSC microglia to crossed-donor glial
   organoid/assembloid confirmation, with synthetic efficacy, safety, context,

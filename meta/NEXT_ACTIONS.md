@@ -42,6 +42,8 @@ V57 state:
 - federated route: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
 - discrete small-site calibration:
   `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
+- tied-score small-site calibration:
+  `docs/validation/TIED_SITE_EPROCESS_V57.md`
 - progression multifidelity route:
   `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
 - assay safeguards:
