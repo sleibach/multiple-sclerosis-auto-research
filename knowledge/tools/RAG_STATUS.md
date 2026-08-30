@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-08-30 02:54 CEST
+Last updated: 2026-08-30 14:12 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,8 +25,15 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count after the V57 refresh: `1021` unique paths and `0`
+- Current document count after the final V57 refresh: `1035` unique paths and `0`
   paths under `knowledge_external/`.
+- V57 replication-boundary smoke query
+  `V57 global evidence multi site replication partial conjunction one exceptional site`
+  returns the frozen replicability plan first and
+  `docs/validation/FEDERATED_REPLICABILITY_V57.md` second.
+- V57 frontier smoke query
+  `V57 unexplored methods progression functional experiment privacy preserving validation`
+  returns `docs/history/METHOD_PROBES_V57.md` first.
 - V57 boundary/method smoke query
   `V57 unexhausted methods privacy preserving same estimand validation no cure no target`
   returns `docs/history/METHOD_PROBES_V57.md` first, followed by the method

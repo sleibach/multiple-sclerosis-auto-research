@@ -1,19 +1,21 @@
 # V57 Queue: Unexhausted Method Frontier
 
-Status: **active**
+Status: **complete**
 
 ## Measured Time
 
 - Block start (UTC, real clock): `2026-08-29T21:54:47Z`
 - Four-hour target (UTC): `2026-08-30T01:54:47Z`
-- Current session start: `2026-08-30T07:17:53Z`
+- Current session: closed at `2026-08-30T12:12:12Z`
 - Active-time rule: count actual command/work intervals only; do not count resume gaps.
 - Completed active intervals:
   - `2026-08-29T21:54:47Z` to `2026-08-30T01:10:17Z` = `03:15:30`
-- Excluded idle/resume gap: `2026-08-30T01:10:17Z` to
-  `2026-08-30T07:17:53Z` = `06:07:36`
-- Cumulative active at current-session open: `03:15:30`; remaining to four
-  active hours: `00:44:30`.
+- Excluded scheduler/resume gap: conservatively
+  `2026-08-30T01:10:17Z` to `2026-08-30T11:21:03Z` = `10:10:46`.
+  Brief commands inside ambiguous intervals were not credited.
+- Completed active interval 2: `2026-08-30T11:21:03Z` to
+  `2026-08-30T12:12:12Z` = `00:51:09`.
+- Final cumulative active time: `04:06:39`; wall-clock span: `14:17:25`.
 
 ## Scientific Boundary
 
@@ -86,7 +88,7 @@ Status: **active**
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | done | `docs/history/METHOD_PROBES_V57.md` separates held-data, synthetic, external-method, and model-proposal classes and ranks five routes |
-| 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
+| 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | done | Regression 92/92; gates and size/tmp guards pass; 1035 grounded docs indexed; commits pushed |
 
 ## Iteration Log
 
@@ -460,6 +462,11 @@ Status: **active**
   `6/6` accept/refuse fixtures pass. Across 4.5 million synthetic families, the
   maximum false-replication rate was `0.049464`; one exceptional site alone
   produced partial-conjunction p `0.60`. No external site evidence was used.
+- Iteration 47 closeout at `2026-08-30T12:12:12Z`: the four-active-hour target
+  was met at `04:06:39` after excluding `10:10:46` of scheduler/resume gaps.
+  Regression passes `92/92`, provenance and structural gates pass, no oversized
+  or tracked temporary file is present, and the grounded sparse index contains
+  `1035` unique documents with zero external-knowledge paths.
 
 ## Resume Rule
 
