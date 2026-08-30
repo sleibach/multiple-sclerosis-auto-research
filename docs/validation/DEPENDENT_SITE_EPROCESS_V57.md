@@ -44,7 +44,10 @@ frozen Bonferroni-minimum remediation controlled null crossing but failed its
 complete power gate (`0.65732` minimum versus `0.75`). See
 [`DEPENDENT_SITE_BONFERRONI_V57.md`](DEPENDENT_SITE_BONFERRONI_V57.md). A
 cluster-e remediation is frozen next; neither failed/unfinished rule is the
-primary combiner.
+primary combiner. The cluster-e rule subsequently controlled null crossing and
+beat Bonferroni, but minimum strong crossing `0.69502` still failed the `0.75`
+gate when only three independent clusters remained. See
+[`DEPENDENT_SITE_EVALUE_V57.md`](DEPENDENT_SITE_EVALUE_V57.md).
 
 ## Operational Boundary
 

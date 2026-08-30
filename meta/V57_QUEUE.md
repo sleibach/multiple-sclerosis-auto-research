@@ -72,7 +72,8 @@ Status: **active**
 | 6ai | Calibrate federated evidence when owner-run scores contain ties | done | 900k sequences/10.8M arrivals pass exact tied-rank and V42 plus-one modes; null crossing 0.00146-0.00220 |
 | 6aj | Stress federated evidence against correlated or overlapping sites | done | Naive null crossing reaches 0.08214; maximum-p cluster collapse controls error but strong power can fall to 0.0299 |
 | 6ak | Test Bonferroni-minimum cluster evidence under arbitrary known dependence | done | Null and dominance gates pass, but minimum strong crossing 0.65732 fails the frozen 0.75 power gate |
-| 6al | Test within-cluster averaged e-factors under arbitrary known dependence | in-progress | Cluster-e rule and new seeds frozen before outcomes |
+| 6al | Test within-cluster averaged e-factors under arbitrary known dependence | done | Null and Bonferroni-dominance gates pass; minimum strong crossing 0.69502 fails the 0.75 gate with only 3 independent clusters |
+| 6am | Resolve the independent dependence-cluster count boundary | in-progress | Worst tested cluster structure fixed; vary only 3-6 independent clusters on new seeds |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -413,6 +414,13 @@ Status: **active**
   Failure is retained. A separately frozen cluster-e rule will average valid
   e-factors within known clusters and multiply only across independent
   clusters.
+- Iteration 41 checkpoint at `2026-08-30T01:00:27Z`: the 4.05-million-sequence
+  cluster-e remediation controlled null crossing at `0.00238-0.00644` and beat
+  Bonferroni strong crossing in every cell by `0.00634-0.03732`. It still
+  failed the fixed power gate: four-site, correlation-0.75 clusters provided
+  only three independent arrivals and reached `0.69502-0.69726`, below `0.75`.
+  The failure is retained. A new-seed extension now varies only the number of
+  independent clusters under that worst tested structure.
 
 ## Resume Rule
 

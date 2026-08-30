@@ -1,0 +1,32 @@
+{
+  "bonferroni_dominance_gate": true,
+  "bonferroni_strong_crossing_range": [
+    0.6597,
+    0.95214
+  ],
+  "cluster_e_null_crossing_range": [
+    0.00238,
+    0.00644
+  ],
+  "cluster_e_strong_crossing_range": [
+    0.69502,
+    0.96088
+  ],
+  "interpretation_boundary": "Average e-factors only within truthfully declared clusters; products require independent clusters and completed arrivals.",
+  "maximum_strong_crossing_gain": 0.03732000000000002,
+  "minimum_strong_crossing_gain": 0.006340000000000012,
+  "null_gate": true,
+  "overall_status": "FAIL",
+  "plan": "docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md",
+  "purpose": "Known-dependence cluster e-value remediation; no MS biological evidence",
+  "seeds": [
+    57161,
+    57162,
+    57163
+  ],
+  "sequences_per_cell": 50000,
+  "strong_power_gate": false,
+  "synthetic": true,
+  "total_sequences": 4050000,
+  "verdict": "DEPENDENCE_CLUSTER_E_RULE_NOT_VERIFIED"
+}
