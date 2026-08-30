@@ -1,0 +1,82 @@
+{
+  "n_candidate_evaluations": 90000,
+  "n_checks": 7,
+  "n_fail": 1,
+  "n_permuted_assignments": 1492500,
+  "n_screens": 7500,
+  "overall_status": "FAIL",
+  "purpose": "2D-to-3D model-complexity escalation method verification; no biological claim",
+  "scenario_means": {
+    "complementary_3d": {
+      "batch_abstention_probability": 0.0,
+      "incremental_scale_probability": 0.988,
+      "median_heldout_rmse_gain": 0.32334885647578127,
+      "median_permutation_p": 0.005,
+      "median_residual_correlation": 0.8826592596801008,
+      "n_screens": 500.0,
+      "n_test_donor_pairs": 8.0,
+      "n_train_donor_pairs": 12.0,
+      "safety_scale_probability": 0.0,
+      "scale_probability": 0.988,
+      "seed": 20260832.0,
+      "underpowered_abstention_probability": 0.0
+    },
+    "hidden_3d_harm": {
+      "batch_abstention_probability": 0.0,
+      "incremental_scale_probability": 0.6906666666666667,
+      "median_heldout_rmse_gain": 0.3280750372770153,
+      "median_permutation_p": 0.021666666666666667,
+      "median_residual_correlation": 0.8847824076269268,
+      "n_screens": 500.0,
+      "n_test_donor_pairs": 8.0,
+      "n_train_donor_pairs": 12.0,
+      "safety_scale_probability": 0.13933333333333334,
+      "scale_probability": 0.83,
+      "seed": 20260832.0,
+      "underpowered_abstention_probability": 0.0
+    },
+    "redundant_3d": {
+      "batch_abstention_probability": 0.0,
+      "incremental_scale_probability": 0.0013333333333333333,
+      "median_heldout_rmse_gain": -0.06264528771798394,
+      "median_permutation_p": 0.4708333333333334,
+      "median_residual_correlation": 0.01899679634985769,
+      "n_screens": 500.0,
+      "n_test_donor_pairs": 8.0,
+      "n_train_donor_pairs": 12.0,
+      "safety_scale_probability": 0.0,
+      "scale_probability": 0.0013333333333333333,
+      "seed": 20260832.0,
+      "underpowered_abstention_probability": 0.0
+    },
+    "response_correlated_3d_batch": {
+      "batch_abstention_probability": 1.0,
+      "incremental_scale_probability": 0.0,
+      "median_heldout_rmse_gain": -0.06511511008568487,
+      "median_permutation_p": 0.515,
+      "median_residual_correlation": -0.0027496636696554924,
+      "n_screens": 500.0,
+      "n_test_donor_pairs": 8.0,
+      "n_train_donor_pairs": 12.0,
+      "safety_scale_probability": 0.0,
+      "scale_probability": 0.0,
+      "seed": 20260832.0,
+      "underpowered_abstention_probability": 0.0
+    },
+    "small_calibration_panel": {
+      "batch_abstention_probability": 0.0,
+      "incremental_scale_probability": 0.0,
+      "median_heldout_rmse_gain": 0.27645948754876676,
+      "median_permutation_p": 0.005,
+      "median_residual_correlation": 0.7867701729965483,
+      "n_screens": 500.0,
+      "n_test_donor_pairs": 4.0,
+      "n_train_donor_pairs": 6.0,
+      "safety_scale_probability": 0.0,
+      "scale_probability": 0.0,
+      "seed": 20260832.0,
+      "underpowered_abstention_probability": 1.0
+    }
+  },
+  "synthetic": true
+}

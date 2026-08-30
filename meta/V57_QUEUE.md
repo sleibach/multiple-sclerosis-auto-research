@@ -64,8 +64,9 @@ Status: **active**
 | 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | done | Passes at 0.75-1.0x noise; 32-donor grid and 48-df pilot fail at 1.25-1.5x through abstention and sensitivity loss |
 | 6ab | Test an expanded-grid, higher-precision blinded pilot | done | All 120 checks pass through 1.5x noise; high-noise panels select mostly 32-40 donors/context with <=0.004 abstention |
 | 6ac | Evaluate a human glia-organoid/assembloid progression functional assay route | done | New external method route joins bidirectional microglial perturbation to crossed-donor myelin/neural-support confirmation; remains ungrounded until run |
-| 6ad | Build a model-complexity escalation gate for 2D co-culture versus assembloid | todo | Decision analysis prevents expensive 3D work unless it adds reproducible functional information beyond a simpler model |
+| 6ad | Build a model-complexity escalation gate for 2D co-culture versus assembloid | done | 12/8 donor gate detects complementary information and rejects redundancy/batch artifacts, but fails safety-specific power (0.139) |
 | 6ae | Build a privacy-preserving code-to-data validation executor | done | Frozen V42 harness runs locally with denied egress/subprocess, ephemeral private staging, aggregate-only export, hash attestation, and passing synthetic leak/tamper plus 254-check receipt-schema tests |
+| 6af | Resolve the multifidelity gate's hidden-harm safety-power failure | done | Unchanged donor grid first passes every seed at 32 training plus 24 held-out donor pairs (mean 0.840; minimum 0.826) |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -323,6 +324,16 @@ Status: **active**
   completeness, and all 254 aggregate-schema checks; a changed metric and a
   deliberately leaked participant table both failed. This reduces data-transfer
   dependence but does not make author-run aggregates project-grounded evidence.
+- Iteration 31 checkpoint: a predeclared multifidelity gate ran 7,500 synthetic
+  screens and 1,492,500 candidate-label permutations. The 12/8 donor-pair design
+  correctly stopped redundant 3D (scale 0.0013), detected complementary 3D
+  information (0.988), rejected candidate/batch confounding (abstention 1.0),
+  and abstained on a small panel. It failed the safety-specific hidden-harm gate
+  (0.139), even though generic information caused any scale-up in 0.830. A
+  separately frozen 12,000-screen donor grid retained all margins/effects and
+  first passed safety detection in every seed at 32 training plus 24 held-out
+  donor pairs (mean 0.840; minimum 0.826). These are assay-design boundaries,
+  not biological evidence or proof that 3D is superior.
 
 ## Resume Rule
 
