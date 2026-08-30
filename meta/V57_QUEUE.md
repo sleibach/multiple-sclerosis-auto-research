@@ -67,6 +67,7 @@ Status: **active**
 | 6ad | Build a model-complexity escalation gate for 2D co-culture versus assembloid | done | 12/8 donor gate detects complementary information and rejects redundancy/batch artifacts, but fails safety-specific power (0.139) |
 | 6ae | Build a privacy-preserving code-to-data validation executor | done | Frozen V42 harness runs locally with denied egress/subprocess, ephemeral private staging, aggregate-only export, hash attestation, and passing synthetic leak/tamper plus 254-check receipt-schema tests |
 | 6af | Resolve the multifidelity gate's hidden-harm safety-power failure | done | Unchanged donor grid first passes every seed at 32 training plus 24 held-out donor pairs (mean 0.840; minimum 0.826) |
+| 6ag | Operationalize privacy-preserving multi-site evidence accumulation | done | Attested aggregate exports convert to same-rule site records; duplicate independence groups and harness-hash mismatches fail before the verified mixture e-process |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -334,6 +335,14 @@ Status: **active**
   first passed safety detection in every seed at 32 training plus 24 held-out
   donor pairs (mean 0.840; minimum 0.826). These are assay-design boundaries,
   not biological evidence or proof that 3D is superior.
+- Iteration 32 checkpoint: the already calibrated 1.8-million-sequence mixture
+  e-process was operationalized for code-to-data returns. An attested synthetic
+  export converted to a site record containing only aggregate counts, AUC,
+  one-sided permutation p, frozen-harness hash, and export-attestation hash.
+  The combiner enforces unique independence groups, identical estimand and
+  harness identity, fixed arrival order, valid p-values, and locked-positive
+  direction. Valid synthetic records combined; duplicate dependence and a
+  mismatched harness hash failed. No external cohort evidence was accumulated.
 
 ## Resume Rule
 
