@@ -62,7 +62,8 @@ Status: **active**
 | 6y | Test a two-stage independent context-confirmation design | done | It removes all context-harm nominees but confirms only 0-6.4% of screens; frozen viability precision is the dominant bottleneck |
 | 6z | Map orthogonal safety-assay precision needed for staged confirmation | done | 12 donors/context plus two independent viability wells/guide is the least-resource passing tested design; 8 donors/context fails at all replication levels |
 | 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | done | Passes at 0.75-1.0x noise; 32-donor grid and 48-df pilot fail at 1.25-1.5x through abstention and sensitivity loss |
-| 6ab | Test an expanded-grid, higher-precision blinded pilot | todo | Frozen method extension tests 96 residual df and donor grid through 48 without efficacy/outcome access |
+| 6ab | Test an expanded-grid, higher-precision blinded pilot | done | All 120 checks pass through 1.5x noise; high-noise panels select mostly 32-40 donors/context with <=0.004 abstention |
+| 6ac | Evaluate a human glia-organoid/assembloid progression functional assay route | in-progress | Classed method evidence plus a stage-gated design tied to myelin support rather than another observational signature |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -291,6 +292,15 @@ Status: **active**
   the oracle 32-donor design retained 0.912-0.952. This is a fail-closed design
   result. A separately frozen extension may increase pilot precision and the
   donor grid; candidate effects and confirmation outcomes must remain hidden.
+- Iteration 28 checkpoint at `2026-08-30T00:07:29Z`: the preregistered
+  remediation doubled blinded-pilot residual information to 96 df and expanded
+  the donor grid through 48/context while leaving every effect, endpoint,
+  margin, confidence level, and adaptation formula unchanged. All 120 frozen
+  checks passed from 0.75x through 1.50x noise. At 1.50x, adaptive panels used
+  mean 36.4-37.5 donors/context, selected 32 or 40 most often, abstained in
+  only 0-0.004, confirmed a uniform rescue in 0.912-0.952, and confirmed no
+  context-harm candidate. This is a verified synthetic assurance method, not
+  evidence of a rescue or a real-variance estimate.
 
 ## Resume Rule
 
