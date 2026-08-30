@@ -20,6 +20,10 @@ Start every resumed session here. Work the first unresolved item unless a higher
    correlated sites must become one completed dependence-cluster evidence unit.
    Use `scripts/v57_clustered_federated_evidence.py` only with a manifest frozen
    before results and a truthful cross-cluster independence attestation.
+   Treat an e-process crossing as global-null evidence only. Claim recurrence
+   in at least two sites only through the complete, frozen four-site gate in
+   `docs/validation/FEDERATED_REPLICABILITY_V57.md`; do not resize that family
+   after results.
 3. For progression therapeutics, seek a blinded variance pilot for
    bidirectional CRISPRi/a in donor-replicated human iPSC microglia with
    efficacy, viability, neural-support/myelin, guide, context, batch, and
@@ -48,6 +52,8 @@ V57 state:
 - federated route: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
 - mandatory federated effect-size schema:
   `docs/validation/FEDERATED_EFFECT_SIZE_SCHEMA_V57.md`
+- fixed-family replication gate:
+  `docs/validation/FEDERATED_REPLICABILITY_V57.md`
 - discrete small-site calibration:
   `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
 - tied-score small-site calibration:

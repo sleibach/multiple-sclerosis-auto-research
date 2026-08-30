@@ -146,6 +146,31 @@ def main() -> int:
         "clustered path inherits site uncertainty schema",
     )
 
+    replicability = load("analysis/v57_federated_replicability/synthetic_check_summary.json")
+    check(
+        "federated_replicability_fixtures_pass",
+        replicability["overall_status"] == "PASS" and int(replicability["n_pass"]) == 6,
+        str(replicability),
+    )
+    replicated = load("analysis/v57_federated_replicability/two_sites_replicate/replicability_summary.json")
+    check(
+        "two_sites_partial_conjunction_passes",
+        replicated["verdict"] == "REPLICATED_AT_LEAST_TWO" and abs(float(replicated["partial_conjunction_p"]) - 0.03) < 1e-12,
+        str(replicated),
+    )
+    exceptional = load("analysis/v57_federated_replicability/one_exceptional_not_replication/replicability_summary.json")
+    check(
+        "one_exceptional_site_not_replication",
+        exceptional["verdict"] == "REPLICATION_NOT_ESTABLISHED" and float(exceptional["partial_conjunction_p"]) > 0.05,
+        str(exceptional),
+    )
+    replicability_calibration = load("analysis/v57_federated_replicability_calibration/replicability_calibration_summary.json")
+    check(
+        "federated_replicability_null_calibrated",
+        replicability_calibration["overall_status"] == "PASS" and float(replicability_calibration["maximum_rejection_rate"]) <= 0.055,
+        str(replicability_calibration),
+    )
+
     parent = load("analysis/v57_multifidelity_escalation/multifidelity_escalation_summary.json")
     safety = load("analysis/v57_multifidelity_safety_power/multifidelity_safety_power_summary.json")
     negative = load("analysis/v57_negative_control_finite_sample/negative_control_finite_sample_summary.json")
@@ -183,6 +208,7 @@ def main() -> int:
         "docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md",
         "docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md",
         "docs/plans/V57_CLUSTERED_FEDERATED_OPERATION_PLAN.md",
+        "docs/plans/V57_FEDERATED_REPLICABILITY_PLAN.md",
     )
     for path in plans:
         check(f"plan_exists_{Path(path).stem}", (ROOT / path).exists(), path)

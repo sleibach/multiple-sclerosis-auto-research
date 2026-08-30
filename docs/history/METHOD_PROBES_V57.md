@@ -87,6 +87,7 @@ They do not add biological evidence.
 | Code-to-data executor | Valid synthetic packet passed 254 schema checks; tampered metric and leaked paired table failed | Run the frozen V42 rule behind a data-owner boundary |
 | Federated site combiner | Valid attested aggregate passed; duplicate independence group, harness mismatch, and missing uncertainty failed | Combine only independent sites with identical estimand, rule, direction, and retained effect uncertainty |
 | Effect-size-preserving federated schema | AUC, AUC CI, Hedges' g, and p-value now survive owner export through both combiners; regression `87/87` | Prevent a significance-only evidence path; no pooled effect is inferred |
+| Fixed-family federated replicability | 6/6 fixtures pass; 4.5M-family calibration max false replication `0.049464`; one exceptional site explicitly fails replication (`p=0.60`) | Keep global-null evidence distinct from recurrence in at least two sites |
 | Causal-design router | 7/7 synthetic declarations correctly routed or refused | Prevent causal language when time zero, assignment, overlap, or outcomes are inadequate |
 | Trial transport envelope | Fixed scale-stable guard eligible through synthetic shift `0.50`, fails at `0.75-1.00` | Predeclare when randomized-effect transport must abstain |
 | Prospective batch allocation | Outcome-aware blinded-lab layout reduced response/batch coupling; outcome-blind covariate balance did not | Require outcome-stratified technical allocation when labels can be held by an independent allocator |
@@ -226,7 +227,7 @@ needed to launch a rigorously gated human functional program.
 
 ## Reproducibility Map
 
-The V57 claim/artifact regression passes `87/87` checks. It verifies the main
+The V57 claim/artifact regression passes `92/92` checks. It verifies the main
 negative boundaries, held-data null verdicts, synthetic labels, parent-gate
 failures, calibrated extensions, privacy/tamper behavior, federated dependence
 guards, mandatory site uncertainty, and external-record class markers. Run:

@@ -115,6 +115,11 @@ AUCs, confidence intervals, batch/confounder diagnostics, transport checks, or
 the V42 outcome grid. Author-run aggregate evidence does not become
 independently rerunnable merely because multiple sites contribute.
 
+Critically, a global-null crossing can be driven by one exceptional site and
+must not be called multi-site replication. The separate fixed-family
+at-least-two gate is documented in
+[`FEDERATED_REPLICABILITY_V57.md`](FEDERATED_REPLICABILITY_V57.md).
+
 Heterogeneous disease, therapy, timepoint, or endpoint cohorts must not be
 combined. The four old comparator cohorts remain a contextual dry run only.
 Tied scores require the calibrated exact conditional site test. A response-

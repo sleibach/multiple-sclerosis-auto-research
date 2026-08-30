@@ -1,0 +1,7 @@
+case_id	expected	expectation_met
+two_sites_replicate	REPLICATED_AT_LEAST_TWO	True
+one_exceptional_not_replication	REPLICATION_NOT_ESTABLISHED	True
+all_null_not_replication	REPLICATION_NOT_ESTABLISHED	True
+incomplete_family	INVALID	True
+duplicate_evidence_unit	INVALID	True
+missing_uncertainty	INVALID	True

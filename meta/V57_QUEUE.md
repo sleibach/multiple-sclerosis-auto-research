@@ -6,9 +6,14 @@ Status: **active**
 
 - Block start (UTC, real clock): `2026-08-29T21:54:47Z`
 - Four-hour target (UTC): `2026-08-30T01:54:47Z`
-- Current session start: `2026-08-29T21:54:47Z`
+- Current session start: `2026-08-30T07:17:53Z`
 - Active-time rule: count actual command/work intervals only; do not count resume gaps.
-- Completed active intervals: none yet.
+- Completed active intervals:
+  - `2026-08-29T21:54:47Z` to `2026-08-30T01:10:17Z` = `03:15:30`
+- Excluded idle/resume gap: `2026-08-30T01:10:17Z` to
+  `2026-08-30T07:17:53Z` = `06:07:36`
+- Cumulative active at current-session open: `03:15:30`; remaining to four
+  active hours: `00:44:30`.
 
 ## Scientific Boundary
 
@@ -76,6 +81,7 @@ Status: **active**
 | 6am | Resolve the independent dependence-cluster count boundary | done | Three clusters fail power; four are first all-seed pass (null max 0.00434, strong min 0.81782) under fixed worst tested structure |
 | 6an | Operationalize declared dependence clusters without changing the independent combiner | done | Separate clustered combiner passes 7/7 synthetic accept/refuse fixtures and requires >=4 independent clusters |
 | 6ao | Preserve site effect sizes and uncertainty through federated accumulation | done | Independent and clustered paths require AUC, AUC CI, Hedges' g, and p-value; missing uncertainty fails; regression 87/87 |
+| 6ap | Separate global-null evidence from actual multi-site replication | done | Frozen four-site, at-least-two partial conjunction passes 6/6 fixtures and 4.5M-family null calibration; one exceptional site is not replication |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -449,6 +455,11 @@ Status: **active**
   attested planted-signal fixture round-trips all fields, and the expanded
   claim/artifact regression passes `87/87`. All values are synthetic method
   checks, not biological evidence.
+- Iteration 46 checkpoint: a fixed complete-family partial-conjunction gate now
+  distinguishes global evidence from recurrence in at least two sites. All
+  `6/6` accept/refuse fixtures pass. Across 4.5 million synthetic families, the
+  maximum false-replication rate was `0.049464`; one exceptional site alone
+  produced partial-conjunction p `0.60`. No external site evidence was used.
 
 ## Resume Rule
 

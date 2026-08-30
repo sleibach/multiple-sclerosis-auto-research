@@ -4,7 +4,7 @@ Last updated: 2026-08-30
 
 ## V57 Unexhausted-Method Exploration
 
-V57 audited 30 analytical method families and executed 48 substantive method
+V57 audited 30 analytical method families and executed 49 substantive method
 items without reopening V41's exhausted public-data discovery search. It did
 not identify a cure, better treatment, therapeutic target, progression
 biomarker, or externally validated monitoring biomarker. The held-data probes
@@ -24,6 +24,9 @@ The durable advances are evidence-acquisition and experiment methods:
 - both independent and clustered site records now fail closed unless AUC,
   confidence limits, Hedges' g, and the frozen p-value remain attached, closing
   a significance-only reporting path without changing the e-process;
+- a separate fixed four-site partial-conjunction gate now prevents one
+  exceptional site from being called replication: all `6/6` fixtures pass and
+  a 4.5-million-family calibration had maximum false replication `0.049464`;
 - 1.8 million additional synthetic sequences and 21.6 million small-site
   arrivals verified the unchanged e-process for exact and V42 plus-one
   permutation p-values (null crossing `0.00325-0.00394`; effect-0.9 crossing
@@ -54,7 +57,7 @@ technical and donor-level variance for a direction-resolving human microglial
 pilot; do not nominate a gene before that gate is run. See
 `docs/history/METHOD_PROBES_V57.md`, resume from `meta/V57_QUEUE.md`, and keep
 all synthetic operating points separate from empirical MS effects.
-The expanded V57 claim/artifact regression passes `87/87` invariants.
+The expanded V57 claim/artifact regression passes `92/92` invariants.
 
 ## V56 Progression-Therapy Opportunity Audit
 

@@ -1,0 +1,26 @@
+{
+  "alpha": 0.05,
+  "configurations": [
+    "all_null",
+    "one_arbitrarily_nonnull"
+  ],
+  "interpretation_boundary": "fixed complete family only; no optional stopping, adaptive family size, or MS evidence",
+  "maximum_rejection_rate": 0.049464,
+  "maximum_upper_two_se": 0.050331339035939233,
+  "n_families": 4500000,
+  "null_gate": 0.055,
+  "overall_status": "PASS",
+  "purpose": "partial-conjunction implementation calibration; no biological claim",
+  "rhos": [
+    0.0,
+    0.5,
+    0.9
+  ],
+  "seeds": [
+    57031,
+    57032,
+    57033
+  ],
+  "synthetic": true,
+  "verdict": "FIXED_FAMILY_REPLICABILITY_GATE_CALIBRATED"
+}
