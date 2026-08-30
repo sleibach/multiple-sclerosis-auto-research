@@ -61,7 +61,8 @@ Status: **active**
 | 6x | Stress the 12-donor rescue gate against hidden donor subtypes and context reversal | done | Severe reversal is already rarely promoted by the pooled gate; simultaneous subgroup bounds destroy sensitivity and are rejected |
 | 6y | Test a two-stage independent context-confirmation design | done | It removes all context-harm nominees but confirms only 0-6.4% of screens; frozen viability precision is the dominant bottleneck |
 | 6z | Map orthogonal safety-assay precision needed for staged confirmation | done | 12 donors/context plus two independent viability wells/guide is the least-resource passing tested design; 8 donors/context fails at all replication levels |
-| 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | todo | Synthetic assurance design adapts sample size from blinded variance only, never candidate effects or outcomes |
+| 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | done | Passes at 0.75-1.0x noise; 32-donor grid and 48-df pilot fail at 1.25-1.5x through abstention and sensitivity loss |
+| 6ab | Test an expanded-grid, higher-precision blinded pilot | todo | Frozen method extension tests 96 residual df and donor grid through 48 without efficacy/outcome access |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -281,6 +282,15 @@ Status: **active**
   0.859-0.910 of screens, precision 1.0, and no context-harm candidates. This
   is synthetic assay-design behavior; empirical blinded variance must be
   measured before sizing a real experiment.
+- Iteration 27 checkpoint at `2026-08-30T00:05:19Z`: 12,000 seeded synthetic
+  screens compared fixed-12, blinded adaptive, and oracle confirmation designs
+  under 0.75-1.50x noise. The adaptive rule used only a 48-df nuisance-variance
+  estimate and a 90% upper bound. It passed all checks at 0.75x and 1.0x noise,
+  but failed at 1.25x and 1.5x. At 1.50x, a 32-donor/context grid ceiling caused
+  0.666-0.728 abstention and only 0.248-0.312 uniform-rescue confirmation while
+  the oracle 32-donor design retained 0.912-0.952. This is a fail-closed design
+  result. A separately frozen extension may increase pilot precision and the
+  donor grid; candidate effects and confirmation outcomes must remain hidden.
 
 ## Resume Rule
 
