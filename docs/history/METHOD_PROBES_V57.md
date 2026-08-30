@@ -80,6 +80,7 @@ They do not add biological evidence.
 | Discrete small-site e-process | Additional 1.8M sequences/21.6M site arrivals; null crossing `0.325%-0.394%`, effect `0.9` crossing `96.901%-97.043%` by 12 | Confirms calibration for exact and V42 plus-one permutation p-values |
 | Tied-score small-site e-process | 900k sequences/10.8M arrivals with five score levels; null crossing `0.146%-0.220%`, effect `0.9` crossing `92.666%-93.014%` | Extends calibration to exact conditional tied-rank tests; response-dependent preprocessing remains excluded |
 | Correlated-site stress test | Naive null crossing rose to `8.214%`; known-cluster maximum-p collapse limited it to `0.088%` but strong power fell as low as `2.99%` | Require auditable dependence clusters; test a more efficient valid cluster p-value |
+| Bonferroni dependence-cluster remediation | Null crossing `0.186%-0.564%` and large gain over maximum-p, but minimum strong crossing `65.732%` failed the `75%` gate | Valid fallback, not verified as the routine cluster rule |
 | Code-to-data executor | Valid synthetic packet passed 254 schema checks; tampered metric and leaked paired table failed | Run the frozen V42 rule behind a data-owner boundary |
 | Federated site combiner | Valid attested aggregate passed; duplicate independence group and harness mismatch failed | Combine only independent sites with identical estimand, rule, and direction |
 | Causal-design router | 7/7 synthetic declarations correctly routed or refused | Prevent causal language when time zero, assignment, overlap, or outcomes are inadequate |
@@ -238,6 +239,8 @@ guards, and external-record class markers. Run:
 - discrete-site calibration: `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
 - tied-score calibration: `docs/validation/TIED_SITE_EPROCESS_V57.md`
 - dependent-site stress: `docs/validation/DEPENDENT_SITE_EPROCESS_V57.md`
+- Bonferroni dependence remediation:
+  `docs/validation/DEPENDENT_SITE_BONFERRONI_V57.md`
 - multifidelity gate: `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
 - adversarial safeguards:
   `docs/validation/MULTIFIDELITY_ADVERSARIAL_SAFEGUARDS_V57.md`

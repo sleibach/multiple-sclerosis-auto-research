@@ -40,7 +40,11 @@ four-site, weakly correlated clusters.
 
 Verdict: **known dependence must not be multiplied as independent evidence.**
 Maximum-p collapse is valid but can discard nearly all power. A separately
-frozen Bonferroni-minimum remediation is therefore the next test.
+frozen Bonferroni-minimum remediation controlled null crossing but failed its
+complete power gate (`0.65732` minimum versus `0.75`). See
+[`DEPENDENT_SITE_BONFERRONI_V57.md`](DEPENDENT_SITE_BONFERRONI_V57.md). A
+cluster-e remediation is frozen next; neither failed/unfinished rule is the
+primary combiner.
 
 ## Operational Boundary
 

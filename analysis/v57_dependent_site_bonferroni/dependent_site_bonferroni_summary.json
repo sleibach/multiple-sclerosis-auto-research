@@ -1,0 +1,32 @@
+{
+  "bonferroni_null_crossing_range": [
+    0.00186,
+    0.00564
+  ],
+  "bonferroni_strong_crossing_range": [
+    0.65732,
+    0.95186
+  ],
+  "interpretation_boundary": "Use only for truthfully declared within-cluster dependence; resulting clusters must be mutually independent.",
+  "maximum_p_dominance_gate": true,
+  "maximum_p_strong_crossing_range": [
+    0.02936,
+    0.64298
+  ],
+  "maximum_strong_crossing_gain": 0.83956,
+  "minimum_strong_crossing_gain": 0.23715999999999993,
+  "null_gate": true,
+  "overall_status": "FAIL",
+  "plan": "docs/plans/V57_DEPENDENT_SITE_BONFERRONI_PLAN.md",
+  "purpose": "Known-dependence Bonferroni cluster remediation; no MS biological evidence",
+  "seeds": [
+    57151,
+    57152,
+    57153
+  ],
+  "sequences_per_cell": 50000,
+  "strong_power_gate": false,
+  "synthetic": true,
+  "total_sequences": 4050000,
+  "verdict": "BONFERRONI_DEPENDENCE_CLUSTER_RULE_NOT_VERIFIED"
+}
