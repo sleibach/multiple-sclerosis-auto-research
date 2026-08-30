@@ -82,6 +82,7 @@ They do not add biological evidence.
 | Correlated-site stress test | Naive null crossing rose to `8.214%`; known-cluster maximum-p collapse limited it to `0.088%` but strong power fell as low as `2.99%` | Require auditable dependence clusters; test a more efficient valid cluster p-value |
 | Bonferroni dependence-cluster remediation | Null crossing `0.186%-0.564%` and large gain over maximum-p, but minimum strong crossing `65.732%` failed the `75%` gate | Valid fallback, not verified as the routine cluster rule |
 | Averaged cluster e-values | Null crossing `0.238%-0.644%` and beats Bonferroni, but three independent high-correlation clusters reach only `69.502%` strong crossing | Information-count limitation; size independent clusters rather than trying more transforms |
+| Independent dependence-cluster sizing | Three clusters fail (`69.518%` minimum strong crossing); four first pass (`81.782%`, null max `0.434%`) | Conditional planning boundary: count independent clusters, not nominal sites |
 | Code-to-data executor | Valid synthetic packet passed 254 schema checks; tampered metric and leaked paired table failed | Run the frozen V42 rule behind a data-owner boundary |
 | Federated site combiner | Valid attested aggregate passed; duplicate independence group and harness mismatch failed | Combine only independent sites with identical estimand, rule, and direction |
 | Causal-design router | 7/7 synthetic declarations correctly routed or refused | Prevent causal language when time zero, assignment, overlap, or outcomes are inadequate |
@@ -223,7 +224,7 @@ needed to launch a rigorously gated human functional program.
 
 ## Reproducibility Map
 
-The V57 claim/artifact regression passes `63/63` checks. It verifies the main
+The V57 claim/artifact regression passes `79/79` checks. It verifies the main
 negative boundaries, held-data null verdicts, synthetic labels, parent-gate
 failures, calibrated extensions, privacy/tamper behavior, federated dependence
 guards, and external-record class markers. Run:
@@ -244,6 +245,8 @@ guards, and external-record class markers. Run:
   `docs/validation/DEPENDENT_SITE_BONFERRONI_V57.md`
 - cluster-e dependence remediation:
   `docs/validation/DEPENDENT_SITE_EVALUE_V57.md`
+- independent-cluster count boundary:
+  `docs/validation/DEPENDENCE_CLUSTER_COUNT_V57.md`
 - multifidelity gate: `docs/validation/MULTIFIDELITY_ESCALATION_V57.md`
 - adversarial safeguards:
   `docs/validation/MULTIFIDELITY_ADVERSARIAL_SAFEGUARDS_V57.md`

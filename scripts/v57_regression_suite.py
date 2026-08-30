@@ -101,6 +101,27 @@ def main() -> int:
     check("federated_duplicate_rejected", federated["duplicate_independence_group_rejected"] is True, str(federated["duplicate_independence_group_rejected"]))
     check("federated_hash_mismatch_rejected", federated["harness_hash_mismatch_rejected"] is True, str(federated["harness_hash_mismatch_rejected"]))
 
+    dependence = load("analysis/v57_dependent_site_eprocess/dependent_site_eprocess_summary.json")
+    check("dependence_stress_synthetic", dependence["synthetic"] is True, str(dependence["synthetic"]))
+    check("naive_correlated_sites_inflate", float(dependence["worst_naive_null"]["crossing"]) > 0.055, str(dependence["worst_naive_null"]))
+    check("maximum_p_cluster_null_control", dependence["known_cluster_guard_gate"] is True, str(dependence["correlated_guarded_null_crossing_range"]))
+
+    bonferroni = load("analysis/v57_dependent_site_bonferroni/dependent_site_bonferroni_summary.json")
+    check("bonferroni_failure_retained", bonferroni["overall_status"] == "FAIL", str(bonferroni["verdict"]))
+    check("bonferroni_null_passed", bonferroni["null_gate"] is True, str(bonferroni["bonferroni_null_crossing_range"]))
+    check("bonferroni_power_failed", bonferroni["strong_power_gate"] is False, str(bonferroni["bonferroni_strong_crossing_range"]))
+
+    cluster_e = load("analysis/v57_dependent_site_evalue/dependent_site_evalue_summary.json")
+    check("cluster_e_failure_retained", cluster_e["overall_status"] == "FAIL", str(cluster_e["verdict"]))
+    check("cluster_e_null_passed", cluster_e["null_gate"] is True, str(cluster_e["cluster_e_null_crossing_range"]))
+    check("cluster_e_power_failed", cluster_e["strong_power_gate"] is False, str(cluster_e["cluster_e_strong_crossing_range"]))
+
+    cluster_count = load("analysis/v57_dependence_cluster_count/dependence_cluster_count_summary.json")
+    first_cluster_pass = cluster_count["first_all_seed_pass"]
+    check("cluster_count_synthetic", cluster_count["synthetic"] is True, str(cluster_count["synthetic"]))
+    check("cluster_count_boundary_resolved", cluster_count["overall_status"] == "PASS", str(cluster_count["verdict"]))
+    check("cluster_count_first_pass_four", int(first_cluster_pass["n_independent_clusters"]) == 4, str(first_cluster_pass))
+
     parent = load("analysis/v57_multifidelity_escalation/multifidelity_escalation_summary.json")
     safety = load("analysis/v57_multifidelity_safety_power/multifidelity_safety_power_summary.json")
     negative = load("analysis/v57_negative_control_finite_sample/negative_control_finite_sample_summary.json")
@@ -133,12 +154,21 @@ def main() -> int:
         "docs/plans/V57_NEGATIVE_CONTROL_FINITE_SAMPLE_PLAN.md",
         "docs/plans/V57_DISCRETE_SITE_EPROCESS_PLAN.md",
         "docs/plans/V57_TIED_SITE_EPROCESS_PLAN.md",
+        "docs/plans/V57_DEPENDENT_SITE_EPROCESS_PLAN.md",
+        "docs/plans/V57_DEPENDENT_SITE_BONFERRONI_PLAN.md",
+        "docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md",
+        "docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md",
     )
     for path in plans:
         check(f"plan_exists_{Path(path).stem}", (ROOT / path).exists(), path)
 
     with (OUT / "v57_regression_checks.tsv").open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=("check_id", "status", "detail"), delimiter="\t")
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=("check_id", "status", "detail"),
+            delimiter="\t",
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
     failures = [row for row in rows if row["status"] == "FAIL"]

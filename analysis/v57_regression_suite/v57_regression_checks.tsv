@@ -40,6 +40,18 @@ federated_synthetic	PASS	True
 federated_valid_passes	PASS	True
 federated_duplicate_rejected	PASS	True
 federated_hash_mismatch_rejected	PASS	True
+dependence_stress_synthetic	PASS	True
+naive_correlated_sites_inflate	PASS	{'cluster_size': 4, 'correlation': 0.75, 'crossing': 0.08214}
+maximum_p_cluster_null_control	PASS	[0.0, 0.00088]
+bonferroni_failure_retained	PASS	BONFERRONI_DEPENDENCE_CLUSTER_RULE_NOT_VERIFIED
+bonferroni_null_passed	PASS	[0.00186, 0.00564]
+bonferroni_power_failed	PASS	[0.65732, 0.95186]
+cluster_e_failure_retained	PASS	DEPENDENCE_CLUSTER_E_RULE_NOT_VERIFIED
+cluster_e_null_passed	PASS	[0.00238, 0.00644]
+cluster_e_power_failed	PASS	[0.69502, 0.96088]
+cluster_count_synthetic	PASS	True
+cluster_count_boundary_resolved	PASS	INDEPENDENT_CLUSTER_COUNT_BOUNDARY_RESOLVED
+cluster_count_first_pass_four	PASS	{'maximum_seed_null_crossing': 0.00434, 'minimum_seed_strong_crossing': 0.81782, 'n_independent_clusters': 4, 'nominal_sites': 16, 'null_gate': True, 'status': 'PASS', 'strong_power_gate': True}
 multifidelity_parent_failure_retained	PASS	status=FAIL;n_fail=1
 multifidelity_parent_synthetic	PASS	True
 multifidelity_safety_extension_passed	PASS	{'mean_safety_scale_probability': 0.84, 'minimum_seed_safety_scale_probability': 0.826, 'n_test_donor_pairs': 24, 'n_train_donor_pairs': 32, 'status': 'PASS'}
@@ -62,3 +74,7 @@ plan_exists_V57_MULTIFIDELITY_ESCALATION_PLAN	PASS	docs/plans/V57_MULTIFIDELITY_
 plan_exists_V57_NEGATIVE_CONTROL_FINITE_SAMPLE_PLAN	PASS	docs/plans/V57_NEGATIVE_CONTROL_FINITE_SAMPLE_PLAN.md
 plan_exists_V57_DISCRETE_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_DISCRETE_SITE_EPROCESS_PLAN.md
 plan_exists_V57_TIED_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_TIED_SITE_EPROCESS_PLAN.md
+plan_exists_V57_DEPENDENT_SITE_EPROCESS_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_EPROCESS_PLAN.md
+plan_exists_V57_DEPENDENT_SITE_BONFERRONI_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_BONFERRONI_PLAN.md
+plan_exists_V57_DEPENDENT_SITE_EVALUE_PLAN	PASS	docs/plans/V57_DEPENDENT_SITE_EVALUE_PLAN.md
+plan_exists_V57_DEPENDENCE_CLUSTER_COUNT_PLAN	PASS	docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md

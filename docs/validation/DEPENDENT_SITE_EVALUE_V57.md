@@ -32,3 +32,8 @@ Bonferroni-minimum rule, but V57 does not nominate it without a cluster-count
 requirement. A frozen extension now varies only the number of independent
 four-site clusters under the worst tested correlation. The result will be a
 conditional design boundary, not a claim about any real cohort.
+
+That extension resolved the tested boundary: three clusters failed at minimum
+strong crossing `0.69518`, while four were the first all-seed pass at `0.81782`
+with maximum null crossing `0.00434`. See
+[`DEPENDENCE_CLUSTER_COUNT_V57.md`](DEPENDENCE_CLUSTER_COUNT_V57.md).

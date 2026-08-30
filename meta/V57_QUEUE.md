@@ -73,7 +73,7 @@ Status: **active**
 | 6aj | Stress federated evidence against correlated or overlapping sites | done | Naive null crossing reaches 0.08214; maximum-p cluster collapse controls error but strong power can fall to 0.0299 |
 | 6ak | Test Bonferroni-minimum cluster evidence under arbitrary known dependence | done | Null and dominance gates pass, but minimum strong crossing 0.65732 fails the frozen 0.75 power gate |
 | 6al | Test within-cluster averaged e-factors under arbitrary known dependence | done | Null and Bonferroni-dominance gates pass; minimum strong crossing 0.69502 fails the 0.75 gate with only 3 independent clusters |
-| 6am | Resolve the independent dependence-cluster count boundary | in-progress | Worst tested cluster structure fixed; vary only 3-6 independent clusters on new seeds |
+| 6am | Resolve the independent dependence-cluster count boundary | done | Three clusters fail power; four are first all-seed pass (null max 0.00434, strong min 0.81782) under fixed worst tested structure |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -421,6 +421,18 @@ Status: **active**
   only three independent arrivals and reached `0.69502-0.69726`, below `0.75`.
   The failure is retained. A new-seed extension now varies only the number of
   independent clusters under that worst tested structure.
+- Iteration 42 checkpoint at `2026-08-30T01:02:06Z`: 2.4 million new-seed
+  sequences varied only the number of independent four-site clusters under
+  correlation `0.75`. Three clusters retained controlled null crossing but
+  failed strong power (`0.69518`). Four were the first all-seed pass (maximum
+  null crossing `0.00434`, minimum strong crossing `0.81782`); five and six
+  also passed. This is a conditional planning boundary, not a universal cohort
+  minimum or empirical MS effect.
+- Iteration 43 checkpoint at `2026-08-30T01:03:28Z`: the regression suite was
+  expanded from `63` to `79` passing invariants. It now requires the naive
+  correlated-site inflation, both failed dependence-remediation power gates,
+  and the conditional four-independent-cluster boundary to remain visible
+  together, preventing selective summary of only the successful endpoint.
 
 ## Resume Rule
 

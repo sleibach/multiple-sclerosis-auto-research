@@ -52,6 +52,14 @@ declared and represented by one valid cluster-level p-value; hidden dependence
 is disqualifying. See
 [`DEPENDENT_SITE_EPROCESS_V57.md`](DEPENDENT_SITE_EPROCESS_V57.md).
 
+For known dependence, averaging valid site e-factors within a completed cluster
+and multiplying only across independent clusters controlled null error but did
+not meet the power gate with only three independent high-correlation clusters.
+Four independent clusters were the first tested all-seed passing point under
+that conditional generator. See
+[`DEPENDENCE_CLUSTER_COUNT_V57.md`](DEPENDENCE_CLUSTER_COUNT_V57.md). This is a
+planning warning, not a universal cohort minimum.
+
 ```bash
 .venv/bin/python scripts/v57_federated_evidence_accumulator.py combine \
   --record <site_1.json> \

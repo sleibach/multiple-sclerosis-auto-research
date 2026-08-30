@@ -1,0 +1,26 @@
+{
+  "cluster_size": 4,
+  "first_all_seed_pass": {
+    "maximum_seed_null_crossing": 0.00434,
+    "minimum_seed_strong_crossing": 0.81782,
+    "n_independent_clusters": 4,
+    "nominal_sites": 16,
+    "null_gate": true,
+    "status": "PASS",
+    "strong_power_gate": true
+  },
+  "interpretation_boundary": "Conditional synthetic boundary; real overlap declaration and cross-cluster independence remain required.",
+  "overall_status": "PASS",
+  "plan": "docs/plans/V57_DEPENDENCE_CLUSTER_COUNT_PLAN.md",
+  "purpose": "Independent dependence-cluster count sizing; no MS biological evidence",
+  "seeds": [
+    57171,
+    57172,
+    57173
+  ],
+  "sequences_per_cell": 100000,
+  "synthetic": true,
+  "total_sequences": 2400000,
+  "verdict": "INDEPENDENT_CLUSTER_COUNT_BOUNDARY_RESOLVED",
+  "within_cluster_correlation": 0.75
+}
