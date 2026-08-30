@@ -1,0 +1,31 @@
+{
+  "claim": "A 2025 study reported an eight-week human iPSC-derived glia-enriched organoid containing neurons, astrocytes, oligodendrocyte-lineage cells, myelinating oligodendrocytes, and microglia, and used inflammatory stimuli plus orthogonal imaging and single-cell readouts as a technical model of progression-relevant glial responses.",
+  "date_accessed": "2026-08-30",
+  "epistemic_class": "external-unverifiable",
+  "future_grounding_route": "Use only as platform context. A project experiment would require independent donors, crossed microglial and neural backgrounds, randomized blinded perturbation, donor-level inference, a frozen functional-rescue gate, and independent replication.",
+  "not_project_grounded_marker": "NOT_PROJECT_GROUNDED",
+  "project_finding_reference": {
+    "artifact": "docs/history/PROGRESSION_FRONTIER_V54.md",
+    "finding_id": "no portable progression state or intervention route in held data"
+  },
+  "project_use": "External technical precedent for a human multicellular progression assay; not evidence that senescence, any named drug, or any target is a project finding.",
+  "record_id": "method.nature_communications_2025.ms_glia_enriched_organoid.2026-08-30",
+  "record_type": "external_claim",
+  "relationship_note": "The platform can measure microglial state and oligodendrocyte/myelin consequences in one human model, but the source's three iPSC lines, incomplete myelin compaction, and short microglial persistence limit transfer.",
+  "relationship_to_project_findings": "orthogonal",
+  "source": {
+    "citation": "Fagiani et al. Spatially-restricted inflammation-induced senescent-like glia in multiple sclerosis and patient-derived organoids. Nature Communications. 2025.",
+    "doi": "10.1038/s41467-025-63371-9",
+    "label": "MS glia-enriched organoid model",
+    "url": "https://www.nature.com/articles/s41467-025-63371-9"
+  },
+  "source_terms": {
+    "checked_date": "2026-08-30",
+    "license_or_terms_label": "Publisher page metadata and short paraphrase only",
+    "redistribution_allowed": "metadata_only",
+    "reuse_notes": "Store bibliographic metadata and a short paraphrase; do not redistribute article text or figures.",
+    "terms_url": "https://www.nature.com/info/terms-and-conditions"
+  },
+  "tags": ["method", "ipsc", "organoid", "microglia", "oligodendrocyte", "myelin", "progression"],
+  "why_unverifiable": "The project has not reproduced the organoid platform or independently rerun its source data and pharmacological experiments."
+}

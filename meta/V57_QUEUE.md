@@ -63,7 +63,8 @@ Status: **active**
 | 6z | Map orthogonal safety-assay precision needed for staged confirmation | done | 12 donors/context plus two independent viability wells/guide is the least-resource passing tested design; 8 donors/context fails at all replication levels |
 | 6aa | Build a blinded internal-pilot variance decision rule for the staged screen | done | Passes at 0.75-1.0x noise; 32-donor grid and 48-df pilot fail at 1.25-1.5x through abstention and sensitivity loss |
 | 6ab | Test an expanded-grid, higher-precision blinded pilot | done | All 120 checks pass through 1.5x noise; high-noise panels select mostly 32-40 donors/context with <=0.004 abstention |
-| 6ac | Evaluate a human glia-organoid/assembloid progression functional assay route | in-progress | Classed method evidence plus a stage-gated design tied to myelin support rather than another observational signature |
+| 6ac | Evaluate a human glia-organoid/assembloid progression functional assay route | done | New external method route joins bidirectional microglial perturbation to crossed-donor myelin/neural-support confirmation; remains ungrounded until run |
+| 6ad | Build a model-complexity escalation gate for 2D co-culture versus assembloid | todo | Decision analysis prevents expensive 3D work unless it adds reproducible functional information beyond a simpler model |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | todo | Proposal ledger with data-based dispositions |
 | 10 | Consolidate grounded method probes and ranked dedicated-run shortlist | todo | `docs/history/METHOD_PROBES_V57.md` and final queue state |
 | 11 | Run regression/provenance/structure/size guards, rebuild RAG, commit, and push | todo | Clean aligned worktree and passing checks |
@@ -301,6 +302,17 @@ Status: **active**
   only 0-0.004, confirmed a uniform rescue in 0.912-0.952, and confirmed no
   context-harm candidate. This is a verified synthetic assurance method, not
   evidence of a rescue or a real-variance estimate.
+- Iteration 29 checkpoint at `2026-08-30T00:10:24Z`: a primary-method scan
+  identified human glia-enriched organoids and microglia-oligodendrocyte
+  assembloids as a progression-functional route absent from the repository.
+  Three source-specific `external-unverifiable` records were added with full
+  provenance. The proposed route crosses microglial and neural donors, treats
+  donor-pair rather than organoid/cell as the inferential unit, calibrates
+  CRISPRi/a direction in a simpler model, and requires myelin/neural support,
+  viability, guide coherence, batch control, and independent-model replication
+  before promotion. Source limitations (three lines, imperfect compact myelin,
+  short microglial persistence) keep this a staged method proposal, not a
+  progression finding or target. Provenance and structural gates pass.
 
 ## Resume Rule
 
