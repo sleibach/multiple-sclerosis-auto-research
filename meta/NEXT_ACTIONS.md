@@ -11,7 +11,9 @@ Start every resumed session here. Work the first unresolved item unless a higher
    baseline/early treatment, response labels, frozen module coverage, batch and
    confounder diagnostics, and an independence-group declaration all pass.
 2. Convert only a passing hash-attested export into a V57 same-estimand site
-   record. Preserve author-run aggregate status as less independently
+   record. Require and retain site AUC, AUC confidence interval, Hedges' g, and
+   the frozen permutation p-value; do not accept significance-only returns or
+   infer an unplanned pooled effect. Preserve author-run aggregate status as less independently
    reproducible than data-in-hand; never combine heterogeneous diseases,
    therapies, timepoints, endpoints, rules, or overlapping participants.
    Audit source-family, center, biobank, and participant overlap explicitly;
@@ -44,6 +46,8 @@ V57 state:
 - resume/audit backbone: `meta/V57_QUEUE.md`
 - code-to-data route: `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`
 - federated route: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
+- mandatory federated effect-size schema:
+  `docs/validation/FEDERATED_EFFECT_SIZE_SCHEMA_V57.md`
 - discrete small-site calibration:
   `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
 - tied-score small-site calibration:

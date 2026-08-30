@@ -25,6 +25,11 @@ cluster arrival index. The tested operational envelope requires 2-4 sites per
 cluster and at least four independent clusters. One declared independence group
 cannot be split across clusters.
 
+Each site must retain its AUC, AUC confidence interval, Hedges' g, and valid
+one-sided permutation p-value. The clustered calculation uses the p-value for
+the e-factor, but it refuses significance-only records so effect magnitude and
+uncertainty remain available for the primary site-level interpretation.
+
 ## Aggregation
 
 For every existing p-to-e calibrator, the implementation averages valid site

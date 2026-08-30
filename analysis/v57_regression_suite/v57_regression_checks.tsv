@@ -40,6 +40,9 @@ federated_synthetic	PASS	True
 federated_valid_passes	PASS	True
 federated_duplicate_rejected	PASS	True
 federated_hash_mismatch_rejected	PASS	True
+federated_missing_uncertainty_rejected	PASS	True
+federated_attested_effect_size_preserved	PASS	AUC, AUC CI, and Hedges g required
+federated_attested_auc_ci_valid	PASS	auc=1.0;ci=[1.0,1.0]
 dependence_stress_synthetic	PASS	True
 naive_correlated_sites_inflate	PASS	{'cluster_size': 4, 'correlation': 0.75, 'crossing': 0.08214}
 maximum_p_cluster_null_control	PASS	[0.0, 0.00088]
@@ -55,6 +58,7 @@ cluster_count_first_pass_four	PASS	{'maximum_seed_null_crossing': 0.00434, 'mini
 clustered_federated_synthetic	PASS	True
 clustered_federated_all_fixtures	PASS	{'n_cases': 7, 'n_pass': 7, 'overall_status': 'PASS', 'purpose': 'clustered federated evidence operational regression; no biological claim', 'synthetic': True}
 clustered_valid_four_clusters	PASS	{'crossed_20': True, 'final_mixture_e_value': 97.20233523995661, 'interpretation_boundary': 'Within-cluster averaging requires valid site e-factors; products require truthful cross-cluster independence.', 'minimum_planning_clusters': 4, 'n_clusters': 4, 'n_problems': 0, 'n_records': 8, 'overall_status': 'PASS', 'problems': [], 'purpose': 'clustered same-estimand federated evidence operation; no standalone biological claim', 'synthetic': True}
+clustered_effect_size_schema_preserved	PASS	clustered path inherits site uncertainty schema
 multifidelity_parent_failure_retained	PASS	status=FAIL;n_fail=1
 multifidelity_parent_synthetic	PASS	True
 multifidelity_safety_extension_passed	PASS	{'mean_safety_scale_probability': 0.84, 'minimum_seed_safety_scale_probability': 0.826, 'n_test_donor_pairs': 24, 'n_train_donor_pairs': 32, 'status': 'PASS'}

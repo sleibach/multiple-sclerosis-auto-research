@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 from pathlib import Path
 
 import numpy as np
@@ -52,11 +53,18 @@ def site_record(export_dir: Path, cohort_token: str, independence_group: str, ar
         raise ValueError("expected exactly one v22_locked_signed_score row")
     row = primary.iloc[0]
     auc = float(row["auc"])
+    auc_ci_low = float(row["auc_ci_low"])
+    auc_ci_high = float(row["auc_ci_high"])
+    hedges_g = float(row["hedges_g"])
     p_value = float(row["permutation_p"])
     if not (0.0 < p_value <= 1.0):
         raise ValueError("primary permutation p-value is outside (0,1]")
     if not (0.5 <= auc <= 1.0):
         raise ValueError("locked-direction AUC is below 0.5; do not convert a reversed effect into positive evidence")
+    if not (0.0 <= auc_ci_low <= auc <= auc_ci_high <= 1.0):
+        raise ValueError("primary AUC confidence interval is missing or inconsistent")
+    if not math.isfinite(hedges_g):
+        raise ValueError("primary Hedges g is not finite")
     pinned = attestation.get("pinned_code_sha256", {})
     if not isinstance(pinned, dict) or "scripts/v42_gafson_validation_harness.py" not in pinned:
         raise ValueError("attestation lacks frozen harness hash")
@@ -73,6 +81,9 @@ def site_record(export_dir: Path, cohort_token: str, independence_group: str, ar
         "n_responders": int(row["n_responders"]),
         "n_nonresponders": int(row["n_nonresponders"]),
         "auc": auc,
+        "auc_ci_low": auc_ci_low,
+        "auc_ci_high": auc_ci_high,
+        "hedges_g": hedges_g,
         "one_sided_permutation_p": p_value,
         "direction": "locked_positive",
         "valid_p_requirement": "frozen one-sided label permutation with plus-one correction",
@@ -104,6 +115,9 @@ def combine(record_paths: list[Path], outdir: Path, expect_status: str | None) -
         "harness_sha256",
         "n",
         "auc",
+        "auc_ci_low",
+        "auc_ci_high",
+        "hedges_g",
         "one_sided_permutation_p",
         "direction",
     }
@@ -130,10 +144,17 @@ def combine(record_paths: list[Path], outdir: Path, expect_status: str | None) -
         for index, record in enumerate(records):
             p_value = float(record["one_sided_permutation_p"])
             auc = float(record["auc"])
+            auc_ci_low = float(record["auc_ci_low"])
+            auc_ci_high = float(record["auc_ci_high"])
+            hedges_g = float(record["hedges_g"])
             if not (0.0 < p_value <= 1.0):
                 problems.append(f"record_{index}_invalid_p")
             if str(record["direction"]) != "locked_positive" or auc < 0.5:
                 problems.append(f"record_{index}_wrong_direction")
+            if not (0.0 <= auc_ci_low <= auc <= auc_ci_high <= 1.0):
+                problems.append(f"record_{index}_invalid_auc_ci")
+            if not math.isfinite(hedges_g):
+                problems.append(f"record_{index}_invalid_hedges_g")
 
     rows: list[dict[str, object]] = []
     if not problems:
@@ -148,6 +169,9 @@ def combine(record_paths: list[Path], outdir: Path, expect_status: str | None) -
                     "independence_group": record["independence_group"],
                     "n": int(record["n"]),
                     "auc": float(record["auc"]),
+                    "auc_ci_low": float(record["auc_ci_low"]),
+                    "auc_ci_high": float(record["auc_ci_high"]),
+                    "hedges_g": float(record["hedges_g"]),
                     "one_sided_permutation_p": float(record["one_sided_permutation_p"]),
                     "mixture_e_value": float(e_value),
                     "crossed_20": bool(e_value >= THRESHOLD),
@@ -189,6 +213,9 @@ def synthetic_check(outdir: Path) -> int:
         "n_responders": 10,
         "n_nonresponders": 10,
         "auc": 0.70,
+        "auc_ci_low": 0.55,
+        "auc_ci_high": 0.85,
+        "hedges_g": 0.60,
         "direction": "locked_positive",
     }
     valid_paths = []
@@ -217,13 +244,26 @@ def synthetic_check(outdir: Path) -> int:
     mismatch_path.write_text(json.dumps(mismatch, indent=2, sort_keys=True) + "\n")
     mismatch_rc = combine([valid_paths[0], mismatch_path], outdir / "hash_mismatch_rejected", "FAIL")
 
+    missing_uncertainty = load_json(valid_paths[1])
+    del missing_uncertainty["auc_ci_low"]
+    missing_uncertainty_path = records_dir / "site_2_missing_uncertainty.json"
+    missing_uncertainty_path.write_text(json.dumps(missing_uncertainty, indent=2, sort_keys=True) + "\n")
+    missing_uncertainty_rc = combine(
+        [valid_paths[0], missing_uncertainty_path],
+        outdir / "missing_uncertainty_rejected",
+        "FAIL",
+    )
+
     summary = {
         "synthetic": True,
         "purpose": "federated evidence operational regression; no biological claim",
         "valid_combination_passed": valid_rc == 0,
         "duplicate_independence_group_rejected": duplicate_rc == 0,
         "harness_hash_mismatch_rejected": mismatch_rc == 0,
-        "overall_status": "PASS" if valid_rc == duplicate_rc == mismatch_rc == 0 else "FAIL",
+        "missing_uncertainty_rejected": missing_uncertainty_rc == 0,
+        "overall_status": "PASS"
+        if valid_rc == duplicate_rc == mismatch_rc == missing_uncertainty_rc == 0
+        else "FAIL",
     }
     (outdir / "synthetic_check_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     print(json.dumps(summary, indent=2, sort_keys=True))

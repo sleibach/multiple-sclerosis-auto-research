@@ -21,13 +21,16 @@ The project combines only cohorts testing the identical frozen V22 estimand.
   --out <site_record.json>
 ```
 
-The record contains only aggregate counts, AUC, one-sided permutation p-value,
-the frozen harness hash, and the export-attestation hash. It contains no
-participant scores, labels, expression, or identifiers.
+The record contains only aggregate counts, AUC with its confidence interval,
+Hedges' g, the one-sided permutation p-value, the frozen harness hash, and the
+export-attestation hash. It contains no participant scores, labels, expression,
+or identifiers. Effect magnitude and uncertainty are mandatory even though the
+sequential evidence process itself consumes only the p-value.
 
 The converter refuses a failed/tampered attestation, a missing primary rule
-row, an invalid p-value, or an AUC opposite the locked direction. A negative
-effect cannot be relabeled as positive evidence.
+row, an invalid p-value, a missing or inconsistent AUC confidence interval, a
+nonfinite Hedges' g, or an AUC opposite the locked direction. A negative effect
+cannot be relabeled as positive evidence.
 
 ## Central Combination
 
@@ -38,7 +41,8 @@ The combiner enforces:
 - identical frozen estimand identifiers;
 - identical V42 harness hashes;
 - consecutive predeclared arrival indices;
-- valid one-sided p-values and locked-positive direction.
+- valid one-sided p-values and locked-positive direction;
+- a valid AUC confidence interval and finite Hedges' g at every site.
 
 It then applies the already verified V57 mixture e-process with fixed
 calibrators `0.25`, `0.50`, and `0.75`. The alpha-0.05 evidence boundary is
@@ -80,8 +84,10 @@ unchanged.
 The prior statistical calibration used 1.8 million synthetic sequences and
 placed null ever-crossing probability at `0.01254-0.01299` by 20 arrivals,
 below the frozen `0.055` gate. The new operational regression verifies that a
-valid record sequence passes while a duplicate independence group and a
-mismatched harness hash fail.
+valid record sequence passes while a duplicate independence group, a
+mismatched harness hash, and a site record missing uncertainty fail. A real
+attested synthetic export also round-trips AUC, confidence limits, and Hedges'
+g into the combined path.
 
 A second, predeclared calibration now matches the discrete small-site p-values
 that the V42 harness actually exports. Across another 1.8 million synthetic

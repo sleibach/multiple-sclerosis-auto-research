@@ -100,6 +100,18 @@ def main() -> int:
     check("federated_valid_passes", federated["valid_combination_passed"] is True, str(federated["valid_combination_passed"]))
     check("federated_duplicate_rejected", federated["duplicate_independence_group_rejected"] is True, str(federated["duplicate_independence_group_rejected"]))
     check("federated_hash_mismatch_rejected", federated["harness_hash_mismatch_rejected"] is True, str(federated["harness_hash_mismatch_rejected"]))
+    check("federated_missing_uncertainty_rejected", federated["missing_uncertainty_rejected"] is True, str(federated["missing_uncertainty_rejected"]))
+    attested_site = load("analysis/v57_federated_evidence/attested_export_site_record.json")
+    check(
+        "federated_attested_effect_size_preserved",
+        all(field in attested_site for field in ("auc", "auc_ci_low", "auc_ci_high", "hedges_g")),
+        "AUC, AUC CI, and Hedges g required",
+    )
+    check(
+        "federated_attested_auc_ci_valid",
+        0.0 <= float(attested_site["auc_ci_low"]) <= float(attested_site["auc"]) <= float(attested_site["auc_ci_high"]) <= 1.0,
+        f"auc={attested_site['auc']};ci=[{attested_site['auc_ci_low']},{attested_site['auc_ci_high']}]",
+    )
 
     dependence = load("analysis/v57_dependent_site_eprocess/dependent_site_eprocess_summary.json")
     check("dependence_stress_synthetic", dependence["synthetic"] is True, str(dependence["synthetic"]))
@@ -127,6 +139,12 @@ def main() -> int:
     check("clustered_federated_all_fixtures", clustered["overall_status"] == "PASS" and int(clustered["n_cases"]) == 7 and int(clustered["n_pass"]) == 7, str(clustered))
     clustered_valid = load("analysis/v57_clustered_federated_evidence/valid_four_clusters/clustered_evidence_summary.json")
     check("clustered_valid_four_clusters", clustered_valid["overall_status"] == "PASS" and int(clustered_valid["n_clusters"]) == 4, str(clustered_valid))
+    clustered_fixture = load("analysis/v57_clustered_federated_evidence/synthetic_fixtures/SITE_1_1.json")
+    check(
+        "clustered_effect_size_schema_preserved",
+        all(field in clustered_fixture for field in ("auc", "auc_ci_low", "auc_ci_high", "hedges_g")),
+        "clustered path inherits site uncertainty schema",
+    )
 
     parent = load("analysis/v57_multifidelity_escalation/multifidelity_escalation_summary.json")
     safety = load("analysis/v57_multifidelity_safety_power/multifidelity_safety_power_summary.json")

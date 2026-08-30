@@ -85,7 +85,8 @@ They do not add biological evidence.
 | Independent dependence-cluster sizing | Three clusters fail (`69.518%` minimum strong crossing); four first pass (`81.782%`, null max `0.434%`) | Conditional planning boundary: count independent clusters, not nominal sites |
 | Clustered federated combiner | 7/7 synthetic fixtures pass; refuses too few clusters, incomplete overlap review, absent attestation, assignment errors, oversized clusters, and split source groups | Operationalizes known dependence without changing the independent-site combiner |
 | Code-to-data executor | Valid synthetic packet passed 254 schema checks; tampered metric and leaked paired table failed | Run the frozen V42 rule behind a data-owner boundary |
-| Federated site combiner | Valid attested aggregate passed; duplicate independence group and harness mismatch failed | Combine only independent sites with identical estimand, rule, and direction |
+| Federated site combiner | Valid attested aggregate passed; duplicate independence group, harness mismatch, and missing uncertainty failed | Combine only independent sites with identical estimand, rule, direction, and retained effect uncertainty |
+| Effect-size-preserving federated schema | AUC, AUC CI, Hedges' g, and p-value now survive owner export through both combiners; regression `87/87` | Prevent a significance-only evidence path; no pooled effect is inferred |
 | Causal-design router | 7/7 synthetic declarations correctly routed or refused | Prevent causal language when time zero, assignment, overlap, or outcomes are inadequate |
 | Trial transport envelope | Fixed scale-stable guard eligible through synthetic shift `0.50`, fails at `0.75-1.00` | Predeclare when randomized-effect transport must abstain |
 | Prospective batch allocation | Outcome-aware blinded-lab layout reduced response/batch coupling; outcome-blind covariate balance did not | Require outcome-stratified technical allocation when labels can be held by an independent allocator |
@@ -225,10 +226,10 @@ needed to launch a rigorously gated human functional program.
 
 ## Reproducibility Map
 
-The V57 claim/artifact regression passes `83/83` checks. It verifies the main
+The V57 claim/artifact regression passes `87/87` checks. It verifies the main
 negative boundaries, held-data null verdicts, synthetic labels, parent-gate
 failures, calibrated extensions, privacy/tamper behavior, federated dependence
-guards, and external-record class markers. Run:
+guards, mandatory site uncertainty, and external-record class markers. Run:
 
 ```bash
 .venv/bin/python scripts/v57_regression_suite.py
@@ -239,6 +240,8 @@ guards, and external-record class markers. Run:
 - live execution log: `meta/V57_QUEUE.md`
 - code-to-data: `docs/validation/CODE_TO_DATA_VALIDATION_V57.md`
 - federated accumulation: `docs/validation/FEDERATED_EVIDENCE_ACCUMULATION_V57.md`
+- federated effect-size schema:
+  `docs/validation/FEDERATED_EFFECT_SIZE_SCHEMA_V57.md`
 - discrete-site calibration: `docs/validation/DISCRETE_SITE_EPROCESS_V57.md`
 - tied-score calibration: `docs/validation/TIED_SITE_EPROCESS_V57.md`
 - dependent-site stress: `docs/validation/DEPENDENT_SITE_EPROCESS_V57.md`

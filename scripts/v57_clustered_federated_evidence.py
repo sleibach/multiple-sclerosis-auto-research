@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import shutil
 from pathlib import Path
 
@@ -50,6 +51,9 @@ def combine(
         "estimand_id",
         "harness_sha256",
         "auc",
+        "auc_ci_low",
+        "auc_ci_high",
+        "hedges_g",
         "one_sided_permutation_p",
         "direction",
     }
@@ -122,6 +126,9 @@ def combine(
             try:
                 p_value = float(record.get("one_sided_permutation_p"))
                 auc = float(record.get("auc"))
+                auc_ci_low = float(record.get("auc_ci_low"))
+                auc_ci_high = float(record.get("auc_ci_high"))
+                hedges_g = float(record.get("hedges_g"))
             except (TypeError, ValueError):
                 problems.append(f"record_{index}_invalid_numeric")
                 continue
@@ -129,6 +136,10 @@ def combine(
                 problems.append(f"record_{index}_invalid_p")
             if str(record.get("direction")) != "locked_positive" or auc < 0.5:
                 problems.append(f"record_{index}_wrong_direction")
+            if not (0.0 <= auc_ci_low <= auc <= auc_ci_high <= 1.0):
+                problems.append(f"record_{index}_invalid_auc_ci")
+            if not math.isfinite(hedges_g):
+                problems.append(f"record_{index}_invalid_hedges_g")
 
     rows: list[dict[str, object]] = []
     if not problems:
@@ -186,6 +197,9 @@ def synthetic_record(token: str, group: str, p_value: float) -> dict[str, object
         "harness_sha256": "a" * 64,
         "n": 20,
         "auc": 0.70,
+        "auc_ci_low": 0.55,
+        "auc_ci_high": 0.85,
+        "hedges_g": 0.60,
         "one_sided_permutation_p": p_value,
         "direction": "locked_positive",
     }

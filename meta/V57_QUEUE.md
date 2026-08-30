@@ -75,6 +75,7 @@ Status: **active**
 | 6al | Test within-cluster averaged e-factors under arbitrary known dependence | done | Null and Bonferroni-dominance gates pass; minimum strong crossing 0.69502 fails the 0.75 gate with only 3 independent clusters |
 | 6am | Resolve the independent dependence-cluster count boundary | done | Three clusters fail power; four are first all-seed pass (null max 0.00434, strong min 0.81782) under fixed worst tested structure |
 | 6an | Operationalize declared dependence clusters without changing the independent combiner | done | Separate clustered combiner passes 7/7 synthetic accept/refuse fixtures and requires >=4 independent clusters |
+| 6ao | Preserve site effect sizes and uncertainty through federated accumulation | done | Independent and clustered paths require AUC, AUC CI, Hedges' g, and p-value; missing uncertainty fails; regression 87/87 |
 | 9 | Use Claude/Gemini/RPT only as divergent method critics; ground concrete suggestions or reject them | done | Claude/Gemini generic critiques produced a classed proposal ledger; RPT was not used because no tabular proposal input was justified |
 | 9a | Ground donor-leverage and negative-control proposals from independent generic critiques | done | LODO retained sensitivity but showed no added protection; naive negative-control rule failed family error and was rejected |
 | 9b | Repair the failed naive negative-control family-error rule | done | Finite-sample eight-test Student-t correction passes at 12/8 donors: FWER <=0.0388, both artifact powers >=0.961 |
@@ -441,6 +442,13 @@ Status: **active**
   missing independence attestation, assignment errors, oversized clusters,
   and a declared source group split across clusters. Its synthetic boundary
   crossing is software verification only, not external cohort evidence.
+- Iteration 45 checkpoint at `2026-08-30T01:08:14Z`: the federated schema was
+  found to drop AUC confidence limits and Hedges' g despite owner-side export.
+  Both independent and clustered paths now require and preserve AUC, AUC CI,
+  Hedges' g, and the frozen p-value. A missing-uncertainty fixture fails, the
+  attested planted-signal fixture round-trips all fields, and the expanded
+  claim/artifact regression passes `87/87`. All values are synthetic method
+  checks, not biological evidence.
 
 ## Resume Rule
 
